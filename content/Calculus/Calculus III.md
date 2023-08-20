@@ -28,8 +28,8 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 - [x] [[Partial Derivatives]]
 - [x] [[Interpretations of Partial Derivatives]]
 - [x] [[Higher Order Partial Derivatives]]
-- [ ] [[Differentials]]
-- [ ] [[Chain Rule]]
+- [x] [[Multivariable Differentials]]
+- [ ] [[Multivariable & Partial Chain Rule]]
 - [ ] [[Directional Derivatives]]
 
 

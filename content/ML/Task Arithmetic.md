@@ -17,3 +17,13 @@ Revolves around the idea of a task vector.
 >To obtain a task vector, subtract the weights of a pre-trained model from the weights of the same model after fine-tuning: $$\tau = \theta_{\text{ft}} - \theta_{\text{pr}}$$
 
 ## Capabilities & Applications
+
+- **Forgetting via negation**
+	D
+	
+- **Learning via addition**
+	
+	
+- **Task Analogies**
+	
+	
