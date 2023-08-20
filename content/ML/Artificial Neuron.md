@@ -12,7 +12,7 @@ This is the most basic artificial neuron that essentially acts as a classifier (
 ## Formulation
 A neuron takes several binary inputs $x_{1}, x_{2}, \cdots,$ and produces a single binary output.
 
-![artificial neuron|325](artificial%20neuron.png)
+![artificial neuron|325](ML/attachments/artificial%20neuron.png)
 
 - Inputs $x_{1}, x_{2}, x_{3}$
 - Weights $w_{1}, w_{2}, w_{3}$
