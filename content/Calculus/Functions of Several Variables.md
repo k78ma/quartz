@@ -12,7 +12,7 @@ Graphs of 2-var functions are surfaces in 3D space
 
 Equation of a plane: $ax + by + cz$
 - Solving for $z$ allows us to use function notation $$f(x,y) = Ax+By+D$$
-![[Pasted image 20230801144947.png | 500]]
+![ 500](Pasted%20image%2020230801144947.png%20)
 $f(x,y,z)$ would be a 4D surface!
 
 ---
@@ -33,7 +33,7 @@ For higher dimensions like $f(x,y,z)$, it would be a level surface instead of a 
 >Simplifying:
 >$$x^{2} + y^{2}= k^2$$
 >
->![[Pasted image 20230801145755.png]]
+>![Pasted image 20230801145755](Calculus/attachments/Pasted%20image%2020230801145755.png)
 
 
 ### Traces:
@@ -44,4 +44,4 @@ For higher dimensions like $f(x,y,z)$, it would be a level surface instead of a 
 >$$x = 1 \longrightarrow z = f(1,y) = 10 - 4(1)^{2}- y^{2}= 6-y^2$$
 >$$y=2 \longrightarrow z = f(x,2) = 10-4x^{2}-2 = 6-4x^2$$
 >
->![[Pasted image 20230801184212.png]]
+>![Pasted image 20230801184212](Calculus/attachments/Pasted%20image%2020230801184212.png)
