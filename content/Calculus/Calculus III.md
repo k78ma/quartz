@@ -25,29 +25,35 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 
 ## Partial Derivatives
 - [x] [Limits (Multivariable)](Calculus/Limits%20(Multivariable).md)
-- [ ] [Partial Derivatives](Calculus/Partial%20Derivatives.md)
-- [ ] [Interpretations of Partial Derivatives](Calculus/Interpretations%20of%20Partial%20Derivatives.md)
-- [ ] [Higher-Order Partial Derivatives](Calculus/Higher%20Order%20Partial%20Derivatives.md)
-- [ ] [Multivariable Differentials](Calculus/Multivariable%20Differentials.md)
+- [x] [Partial Derivatives](Calculus/Partial%20Derivatives.md)
+- [x] [Interpretations of Partial Derivatives](Calculus/Interpretations%20of%20Partial%20Derivatives.md)
+- [x] [Higher-Order Partial Derivatives](Calculus/Higher%20Order%20Partial%20Derivatives.md)
+- [x] [Multivariable Differentials](Calculus/Multivariable%20Differentials.md)
 - [ ] [Multivariable & Partial Chain Rule ](Calculus/Multivariable%20&%20Partial%20Chain%20Rule.md)
 - [ ] [Directional Derivatives](Directional%20Derivatives)
 
 
 ## Applications of Partial Derivatives
-- [ ] [Tangent Planes and Linear Approximations](Tangent%20Planes%20and%20Linear%20Approximations)
-- [ ] [Gradient Vector, Tangent Planes and Normal Lines](Gradient%20Vector,%20Tangent%20Planes%20and%20Normal%20Lines)
-- [ ] [Relative Minimums and Maximums](Relative%20Minimums%20and%20Maximums)
-- [ ] [Absolute Minimums and Maximums](Absolute%20Minimums%20and%20Maximums)
-- [ ] [Lagrange Multipliers](Lagrange%20Multipliers)
+- [ ] [[Tangent Planes and Linear Approximations]]
+- [ ] [[Gradient Vector, Tangent Planes and Normal Lines]]
+- [ ] [[Relative Minimums and Maximums]]
+- [ ] [[Absolute Minimums and Maximums]]
+- [ ] [[Lagrange Multipliers]]
 
 
 ## Multiple Integrals
-
+- [ ] [[Double Integrals]]
+	- [ ] [[Double Integrals over General Regions]]
+	- [ ] [[Double Integrals in Polar Coordinates]]
+- [ ] [[Iterated Integrals]]
+- [ ] [[Triple Integrals]]
+	- [ ] [[Triple Integrals in Cylindrical Coordinates]]
+	- [ ] [[Triple Integrals in Spherical Coordinates]]
+- [ ] [[Change of Variables]]
+- [ ] [[Surface Area]]
+- [ ] [[Area and Volume]]
 
 ## Line Integrals
 
 
 ## Surface Integrals
-
->[!info]
->If you're lost, you can return to my main website here:
