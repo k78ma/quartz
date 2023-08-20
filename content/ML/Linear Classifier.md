@@ -23,9 +23,9 @@ Hypothesis class of machine learning models.
 >$$
 >$$h(x^{(2)}; \theta, \theta_{0}) = \text{sign}(\begin{bmatrix} -1 & 1.5 \end{bmatrix} \begin{bmatrix} 4 \\ -1 \end{bmatrix} + 3) = \text{sign}(-2.5) = 1
 >$$
->![[Pasted image 20230708174900.png|500]]
+>![500](ML/attachments/Pasted%20image%2020230708174900.png)
 
 
 Algorithms:
-- [[Perceptron]]
-- [[Averaged Perceptron]]
+- [Perceptron](ML/Perceptron.md)
+- [Averaged Perceptron](ML/Averaged%20Perceptron.md)

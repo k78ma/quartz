@@ -15,9 +15,9 @@ Here, we have:
 - $y$ is the target label (+1 or -1)
 - $\frac{\theta^{T}x}{||\theta||}$ is the signed distance from the point to the separator
 
-Margin is used to express the correctness of a [[Linear Classifier]]
+Margin is used to express the correctness of a [Linear Classifier](ML/Linear%20Classifier.md)
 - Negative margin – pretty wrong
 - Large margin – pretty right
 
 - Margin is relevant to other concepts:
-	- [[Perceptron Convergence Theorem]]
+	- [Perceptron Convergence Theorem](ML/Perceptron%20Convergence%20Theorem.md)
