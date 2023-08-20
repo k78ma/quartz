@@ -6,9 +6,10 @@ Welcome to Kai's notes!
 >[!info]
 >If you're lost, you can return to my main website here: [Kai Ma](https://k78ma.github.io)
 
-I take notes here to learn more efficiently and track my knowledge, and figured there's not much downside to publishing them online as they may be useful to others. Inspired by my friends [Steven Gong](https://stevengong.co/) and [Brian Chen](https://chenbrian.ca/).
-Notes are taken with [Obsidian](https://obsidian.md); site is published using [Quartz](https://quartz.jzhao.xyz).
-
+- I take notes here to learn more efficiently and track my knowledge, and figured there's not much downside to publishing them online as they may be useful to others. 
+- Inspired by my friends [Steven Gong](https://stevengong.co/) and [Brian Chen](https://chenbrian.ca/).
+- Some links will not work --- either the note is private or doesn't exist yet.
+- Notes are taken with [Obsidian](https://obsidian.md); site is published using [Quartz](https://quartz.jzhao.xyz).
 
 ### Engineering
 - [Machine Learning](ML/Machine%20Learning.md)
