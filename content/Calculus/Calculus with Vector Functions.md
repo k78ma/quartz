@@ -25,10 +25,10 @@ $$
 \end{align}
 $$
 ## Properties of Derivatives
-Addition: $\frac{d}{dt}(\vec{u} + \vec{v}) = \vec{u}' + \vec{v}'$
-Constant multiple:$(c\vec{u})'=c\vec{u}'$
-Chain rule: $\frac{d}{dt} (\vec{u} \cdot f(t)) = f'(t)\cdot\vec{u}'f(t)$
-Product rule:
+- Addition: $\frac{d}{dt}(\vec{u} + \vec{v}) = \vec{u}' + \vec{v}'$
+- Constant multiple:$(c\vec{u})'=c\vec{u}'$
+- Chain rule: $\frac{d}{dt} (\vec{u} \cdot f(t)) = f'(t)\cdot\vec{u}'f(t)$
+- Product rule:
 $$\frac{d}{dt} (f(t)\vec{u}(t)) = f'(t)\vec{u}(t)+f(t)\vec{u}'(t)$$
 $$\frac{d}{dt} (\vec{u} \cdot \vec{v}) = \vec{u}' \cdot \vec{v} + \vec{u} \cdot \vec{v}'$$
 $$\frac{d}{dt} (\vec{u} \times \vec{v})= \vec{u}' \times \vec{v} + \vec{u} \times \vec{v}'$$
