@@ -3,7 +3,7 @@ title: "Kai's Notes"
 ---
 Welcome to my notes!
 - I take notes here to learn more efficiently and track my knowledge, and figured there's not much downside to publishing them online as they may be useful to others. 
-- Some links will not work --- either the note is private or doesn't exist yet.
+- Some links will not work — either the note is private or doesn't exist yet.
 - Notes are taken with [Obsidian](https://obsidian.md); site is published using [Quartz](https://quartz.jzhao.xyz).
 
 >[!info] About Me

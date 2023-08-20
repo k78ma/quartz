@@ -5,7 +5,7 @@ date:
 alias:
 ---
 
-> [!idea] Core idea:
+> [!info] Core idea:
 > Use a feature function to transform original data from $\mathbb{R}^{d}$ to some other $\mathbb{R}^D$
 
 Basic example of this is to transform a [Linear Classifier](ML/Linear%20Classifier.md) through the origin to one not through the origin.
@@ -13,7 +13,7 @@ Basic example of this is to transform a [Linear Classifier](ML/Linear%20Classifi
 >![perceptron_through_origin](ML/attachments/perceptron_through_origin.pdf)
 
 We can even turn un-separable datasets into separable ones!
->[!example] XOR data set transformation example
+>[!example]- XOR data set transformation example
 >Original XOR dataset (1D version) does not have a linear separator:
 >
 > ![300](ML/attachments/Pasted%20image%2020230709203605.png)

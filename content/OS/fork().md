@@ -5,7 +5,7 @@ date:
 alias:
 ---
 
-An [[UNIX System Calls|UNIX System Call]] used to create a new processes.
+An [UNIX System Call](OS/UNIX%20System%20Calls.md) used to create a new processes.
 
 Let’s say we have the following code and output:
 ```c

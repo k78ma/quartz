@@ -4,7 +4,7 @@ tag: ml
 alias: ML, ml
 ---
 
-## Basic Concepts
+## Foundational Concepts
 
 - [Artificial Neuron](ML/Artificial%20Neuron.md)
 - [Sigmoid Neuron](ML/Sigmoid%20Neuron.md)
@@ -40,8 +40,11 @@ alias: ML, ml
 
 ## Models
 
+
 ## Model Behavior/Alteration
 - [Task Arithmetic](ML/Task%20Arithmetic.md)
+
+## Computer Vision
 
 
 ## LLMs

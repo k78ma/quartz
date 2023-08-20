@@ -7,16 +7,16 @@ alias:
 
 How do we use vector functions to describe lines?
 - *Vector function* – take variable(s), return a vector.
-	- [[Vector Equations of Lines#Vector form|Vector form]]
-	- [[Vector Equations of Lines#Parametric form|Parametric form]]
-	- [[Vector Equations of Lines#Symmetric form|Symmetric form]]
+	- [Vector form](Calculus/Vector%20Equations%20of%20Lines.md#Vector%20form)
+	- [Parametric form](Calculus/Vector%20Equations%20of%20Lines.md#Parametric%20form)
+	- [Parametric form](Calculus/Vector%20Equations%20of%20Lines.md#Parametric%20form)
 
 
 For example: $\vec{r}(t) = \langle t,1 \rangle$
 - Describes a position vector $\vec{r} = \langle a,b\rangle$ that starts at the origin and ends at $(a,b)$
 - Some example inputs into the function: $$r(3) = \langle -3,1\rangle, r(-1) = \langle -1,1\rangle, r(2) = \langle 2,1\rangle, r(5)=\langle 5,1\rangle$$
 Thus, we can describe lines and shapes like:
-![[Pasted image 20230730003232.png|500]]
+![500](Calculus/attachments/Pasted%20image%2020230730003232.png)
 
 ---
 ## Vector form
@@ -27,7 +27,7 @@ Slope needs to be defined as a direction in 3D.
 - Let $\vec{a} = \vec{P_{0}P}$
 - Let $\vec{v} = \langle a,b,c\rangle$ that is parallel to $\vec{a}$
 
-![[Pasted image 20230730004200.png|300]]
+![300](Calculus/attachments/Pasted%20image%2020230730004200.png)
 
 Then, we have $\vec{r} = \vec{r_{0}} + \vec{a}$, and there is some $t$ that $\vec{a} = t\vec{v}$.
 Thus, we have:
@@ -43,13 +43,27 @@ $t\vec{v}$ lies along the line and tells us how far from the original point we t
 
 ---
 ## Parametric form
-From equation $(1)$ above we can get: $$\langle x,y,z\rangle = \langle x_{0}+ ta, y_{0}+tb, z_{0}+tc\rangle$$Thus, we can get a **parametric form**:
-$$x = x_{0}+ ta$$
-$$y = y_{0}+ tb$$
-$$z = z_{0}+tc$$
+From equation $(1)$ above we can get: 
+$$
+\langle x,y,z\rangle = \langle x_{0}+ ta, y_{0}+tb, z_{0}+tc\rangle
+$$
+
+Thus, we can get a **parametric form**:
+$$
+\begin{align}
+x &= x_{0}+ ta \\
+y &= y_{0}+ tb \\
+z &= z_{0}+tc
+\end{align}
+$$
 ---
 ## Symmetric form
 If we isolate $t$ in the parametric form, we can get:
-$$\frac{x-x_{0}}{a}, \frac{y-y_{0}}{b},\frac{z-z_{0}}{c}$$
+$$
+\frac{x-x_{0}}{a}, \frac{y-y_{0}}{b},\frac{z-z_{0}}{c}
+$$
 This is still valid even if one of them is $0$:
-- For example, if $b=0$,  $t$ will not exist in the parametric equation for $y$and so we will only solve the parametric equations for $x$ and $z$ for $t$: $$\frac{x-x_{0}}{a} = \frac{z-z_{0}}{c}, y=y_0$$
+- For example, if $b=0$,  $t$ will not exist in the parametric equation for $y$and so we will only solve the parametric equations for $x$ and $z$ for $t$: 
+$$
+\frac{x-x_{0}}{a} = \frac{z-z_{0}}{c}, y=y_0
+$$

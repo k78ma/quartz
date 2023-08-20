@@ -20,13 +20,26 @@ Partial derivatives are the slopes of traces:
 - The partial derivative of $f_{y}(a,b)$ is the slope of the trace of $f(x,y)$ for the plane $x=a$ at the point $(a,b)$
 
 ### Getting the equations of tangent line
-The point is easy to find by plugging the points into the equation: $$(a,b,f(a,b))$$
-The parallel (or tangent) vector is then: $$\vec{r}(x,y)=\langle x,y,z \rangle =\langle x,y,f(x,y) \rangle $$
-If we differentiate with respect to $x$ we will get a tangent vector to traces for the plane $y=b$ (i.e. for fixed $y$): $$\begin{align}
+The point is easy to find by plugging the points into the equation: 
+$$
+(a,b,f(a,b))
+$$
+The parallel (or tangent) vector is then: 
+$$
+\vec{r}(x,y)=\langle x,y,z \rangle =\langle x,y,f(x,y) \rangle 
+$$
+If we differentiate with respect to $x$ we will get a tangent vector to traces for the plane $y=b$ (i.e. for fixed $y$): 
+$$
+\begin{align}
 \vec{r}_{x}(x,y)&=\langle 1,0,f_{x}(x,y) \rangle  \\
 \vec{r}(t) &= \langle a, b, f(a,b) \rangle +t\langle 1, 0, f_{x}(a,b) \rangle  \\
-\end{align}$$
-For traces with fixed $x$ such that $x=a$: $$\begin{align}
+\end{align}
+$$
+For traces with fixed $x$ such that $x=a$: 
+$$
+\begin{align}
 \vec{r}_{y}(x,y) &= \langle 0,1,f_{y}(x,y) \rangle \\
 \vec{r}(t) &= \langle a,b,f(a,b) \rangle +t\langle 0,1,f_{y}(a,b) \rangle 
-\end{align}$$
+\end{align}
+$$
+

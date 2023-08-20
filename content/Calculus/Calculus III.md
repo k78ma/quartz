@@ -9,8 +9,8 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 
 ## 3D Space
 - [x] [3D Coordinate System](Calculus/3D%20Coordinate%20System.md)
-- [x] [Equations of Lines](Calculus/Vector%20Equations%20of%20Lines.md)
-- [x] [Equations of Planes](Calculus/Vector%20Equations%20of%20Planes.md)
+- [x] [Vector Equations of Lines](Calculus/Vector%20Equations%20of%20Lines.md)
+- [x] [Vector Equations of Planes](Calculus/Vector%20Equations%20of%20Planes.md)
 - [x] [Quadric Surfaces](Calculus/Quadric%20Surfaces.md)
 - [x] [Multivariable Functions](Calculus/Functions%20of%20Several%20Variables.md)
 - [x] [Vector Functions](Calculus/Vector%20Functions.md)

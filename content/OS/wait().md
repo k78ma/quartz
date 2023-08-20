@@ -5,7 +5,7 @@ date:
 alias:
 ---
 
-An example of [[UNIX System Calls]].
+An example of [UNIX System Calls](OS/UNIX%20System%20Calls.md).
 Useful for a parent to wait for a child process to finish what its been doing. 
 - `waitpid()` is a more complete version
 
