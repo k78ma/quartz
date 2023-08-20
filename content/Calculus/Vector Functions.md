@@ -28,7 +28,7 @@ alias:
 >Since the $z$-axis is not constant, we will get a spiral about the $z$-axis
 >Spiral revolves around axis with $t$.
 >
->![[Pasted image 20230802140856.png|200]]
+>![200](Calculus/attachments/Pasted%20image%2020230802140856.png)
 >
 
 ---
@@ -41,9 +41,15 @@ Then, using direction $\vec{v}$ and point $P$, we then have:
 $$
 \vec{r}(t) = \langle x_{1}-x_{2},y_{2}-y_{1}, z_{2}-z_{1} \rangle + t\vec{v}
 $$
-$$\vec{r}(t) = \langle x_{1}, y_{1,}z_{1}\rangle + t\langle x_{2}-x_{1}, y_{2}-y_{1}, z_{2}-z_{1} \rangle$$
-$$\vec{r}(t)=\langle x_{1}, y_{1}, y_{1} \rangle + t \langle x_{2}, y_{2}, z_{2} \rangle - t\langle x_{1}, y_{1}, z_{1} \rangle$$
-$$\vec{r}(t) = (1-t) \langle x_{1}, y_{1}, z_{1} \rangle + t\langle x_{2}, y_{2}, z_{2} \rangle$$
+$$
+\vec{r}(t) = \langle x_{1}, y_{1,}z_{1}\rangle + t\langle x_{2}-x_{1}, y_{2}-y_{1}, z_{2}-z_{1} \rangle
+$$
+$$
+\vec{r}(t)=\langle x_{1}, y_{1}, y_{1} \rangle + t \langle x_{2}, y_{2}, z_{2} \rangle - t\langle x_{1}, y_{1}, z_{1} \rangle
+$$
+$$
+\vec{r}(t) = (1-t) \langle x_{1}, y_{1}, z_{1} \rangle + t\langle x_{2}, y_{2}, z_{2} \rangle
+$$
 Since we want the segment to start at $P$ and $Q$, we need to restrict $t$:
 - Notice that $\vec{r}(0) = \langle x_{1},y_{1},z_{1} \rangle$ and $\vec{r}(1) = \langle x_{2}, y_{2}, z_{2} \rangle$
 - Thus we can just restrict $0 \leq t \leq 1$

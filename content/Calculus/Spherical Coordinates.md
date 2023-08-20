@@ -27,26 +27,34 @@ Spherical coordinates use:
 Looking at the triangle above from the front:
 ![|325](Calculus/attachments/Pasted%20image%2020230810224847.png)
 
-Thus we have: $$\begin{align} \\
+Thus we have: 
+$$
+\begin{align} \\
 r &= \rho \sin \phi \\
 \theta &= \theta \\
 z &= \rho \cos \phi 
-\end{align}$$
+\end{align}
+$$
 By the Pythagorean theorem we also have $\rho^{2}=r^{2}+z^{2}$.
 
 ---
 ### Conversion from Spherical to Cartesian
 
 Recall:
-![Conversion from cylindrical to Cartesian](Cylindrical%20Coordinates#Conversion%20from%20cylindrical%20to%20Cartesian)
+![](Calculus/Cylindrical%20Coordinates.md#Conversion%2520from%2520cylindrical%2520to%2520Cartesian)
 
 Thus, we have:
-$$\begin{align}
+$$
+\begin{align}
 x &= \rho \sin \phi \cos \theta \\
 y &= \rho \sin \phi \sin \theta \\
 z &= z
-\end{align}$$
-Since we have $r^{2}=x^{2} +y^{2}$, we also have: $$\rho^{2} = x^{2} + y^{2} +z^{2}$$
+\end{align}
+$$
+Since we have $r^{2}=x^{2} +y^{2}$, we also have: 
+$$
+\rho^{2} = x^{2} + y^{2} +z^{2}
+$$
 
 ---
 ### Single-variable functions and what they represent

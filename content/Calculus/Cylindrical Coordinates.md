@@ -11,7 +11,8 @@ Really simple - just add $z$. The $r$ and $\theta$ are the same as polar coordin
 ![|300](Calculus/attachments/Pasted%20image%2020230810170529.png)
 
 ### Conversion from cylindrical to Cartesian:
-$$\begin{align}
+$$
+\begin{align}
 x &= r\cos \theta \\
 y &= r \sin \theta \\
 z &= z

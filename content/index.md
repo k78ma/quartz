@@ -1,4 +1,14 @@
-Welcome to Kai's notes
+---
+title: "Kai's Notes"
+---
+Welcome to Kai's notes!
+
+>[!info]
+>If you're lost, you can return to my main website here: [Kai Ma](https://k78ma.github.io)
+
+I take notes here to learn more efficiently and track my knowledge, and figured there's not much downside to publishing them online as they may be useful to others. Inspired by my friends [Steven Gong](https://stevengong.co/) and [Brian Chen](https://chenbrian.ca/).
+Notes are taken with [Obsidian](https://obsidian.md); site is published using [Quartz](https://quartz.jzhao.xyz).
+
 
 ### Engineering
 - [Machine Learning](ML/Machine%20Learning.md)
@@ -18,3 +28,8 @@ Welcome to Kai's notes
 	- [MTE 220](2B/MTE%20220.md)
 	- [MTE 241](2B/MTE%20241.md)
 	- [SYDE 252](2B/SYDE%20252.md)
+
+*The site is named "Cortex" for three reasons:
+- The term "second brain" is popular with people who use Obsidian to take notes
+- The behaviour planner used at [Polymath Robotics](https://polymathrobotics.com/), where I interned, is called Cortex
+- It sounds cool

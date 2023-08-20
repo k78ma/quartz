@@ -14,7 +14,7 @@ draft:
 
 ## Slopes of tangent:
 Partial derivatives are the slopes of traces: 
-![Traces](Calculus/Functions%20of%20Several%20Variables.md#Traces)
+![](Calculus/Functions%20of%20Several%20Variables.md#Traces)
 
 - The partial derivative of $f_{x}(a,b)$ is the slope of the trace of $f(x,y)$ for the plane $y=b$ at the point $(a,b)$. 
 - The partial derivative of $f_{y}(a,b)$ is the slope of the trace of $f(x,y)$ for the plane $x=a$ at the point $(a,b)$

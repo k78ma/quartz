@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "k78ma.github.io/quartz",
-    ignorePatterns: ["private", "templates"],
+    ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private"],
     theme: {
       typography: {
         header: "Schibsted Grotesk",
@@ -24,8 +24,8 @@ const config: QuartzConfig = {
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
+          secondary: "#3a6bb5",
+          tertiary: "#0f0f0f",
           highlight: "rgba(143, 159, 169, 0.15)",
         },
         darkMode: {
@@ -34,9 +34,9 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          secondary: "#7549d6",
+          tertiary: "#f5837f",
+          highlight: "rgba(139, 81, 214, 0.15)",
         },
       },
     },

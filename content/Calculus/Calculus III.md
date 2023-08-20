@@ -48,3 +48,6 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 
 
 ## Surface Integrals
+
+>[!info]
+>If you're lost, you can return to my main website here:
