@@ -12,9 +12,9 @@ Welcome to my notes!
 ### Engineering
 - [Machine Learning](ML/Machine%20Learning.md)
 - [Robotics](Robotics/Robotics.md)
+- [Programming](Programming/Programming.md)
 - [Operating Systems](OS/Operating%20Systems.md)
 - [Computer Architecture](Computer%20Architecture/Computer%20Architecture.md)
-- [Programming](Programming/Programming.md)
 
 ### Math
 - [Calculus III](Calculus/Calculus%20III.md)

@@ -5,10 +5,6 @@ date:
 alias:
 ---
 
-## Resources
-- [Algorithm Design Manual (Skiena)](Programming/Algorithm%20Design%20Manual%20(Skiena).md)
-- [LeetCode](Programming/LeetCode.md)
-
 ## Theory
 - [[Induction]]
 - [[Recursion]]
@@ -21,15 +17,27 @@ alias:
 
 ## Data Structures
 - [Stacks and Queues](Programming/Stacks%20and%20Queues.md)
-- [Hashing](Programming/Hashing.md#Hash%2520Table%257CHash%2520Table)
+- [Hash Table](Programming/Hashing.md#Hash%2520Table%257CHash%2520Table)
 
 ## Algorithms
-- [Sorting Algorithms](Programming/Sorting%20Algorithms.md)
-- [Greedy Algorithms](Greedy%20Algorithms)
-- [Search Algorithms](Search%20Algorithms)
+- Sorting Algorithms
+	- [ ] [[Bubble Sort]]
+	- [ ] [[Insertion Sort]]
+	- [ ] [[Selection Sort]]
+	- [ ] [[Merge Sort]]
+- Search Algorithms
+	- Binary Search
+		- [[Vanilla Binary Search]]
+		- [[First Element of Sorted Boolean Array]]
+	- Depth-first Search
+	- Breadth-first Search
 
 ## Other
 - [Hashing](Programming/Hashing.md)
 
 ## Languages
 - [[C++]]
+
+## Resources
+- [Algorithm Design Manual (Skiena)](Programming/Algorithm%20Design%20Manual%20(Skiena).md)
+- [LeetCode](Programming/LeetCode.md)
