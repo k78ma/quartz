@@ -7,7 +7,7 @@ alias:
 
 Systematic strategy for constructing a feature space if features are are naturally numerical
 
->[!idea] General idea
+>[!note] General idea
 >If you are using $k$th-order basis (where $k$ is a positive integer), you include a feature for every possible product of $k$ different dimensions in your original input.
 >  
 >![400](ML/attachments/Pasted%20image%2020230710185636.png)

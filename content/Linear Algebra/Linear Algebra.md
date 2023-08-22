@@ -7,12 +7,12 @@ alias:
 
 A good foundation of linear algebra contributes to deeper understanding of  [[machine learning]] and [[robotics]].
 
-- [x] [[Geometry of Linear Equations]]
+- [x] [[Linear Algebra/Geometry of Linear Equations]]
 - [ ] [[Overview of Linear Algebra]]
 
 ## Vectors
 - [ ] [[Linear Combinations]]
-- [x] [Linear Independence](Linear%20Independence)
+- [x] [Linear Independence](Linear%20Algebra/Linear%20Independence.md)
 - [ ] [[Vector Operations]]
 - [ ] [[Lengths and Dot Products]]
 - [ ] [[Matrices]]
@@ -22,7 +22,7 @@ A good foundation of linear algebra contributes to deeper understanding of  [[ma
 - [ ] [[Elimination]]
 	- [ ] [[Elimination with Matrices]]
 - [ ] [[Matrix Operations]]
-	- [x] [[Matrix-Vector Multiplication]]
+	- [x] [[Linear Algebra/Matrix-Vector Multiplication]]
 	- [ ] [[Matrix-Matrix Multiplication]]
 - [ ] [[Inverse Matrices]]
 - [ ] [[A = LU (Elimination = Factorization)]]
