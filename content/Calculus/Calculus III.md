@@ -5,7 +5,7 @@ date:
 alias:
 ---
 
-Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx) in preparation for [MTE 203](2B/MTE%20203.md).
+Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx) in preparation for [MTE 203](2B/MTE%20203/MTE%20203.md).
 
 ## 3D Space
 - [x] [3D Coordinate System](Calculus/3D%20Coordinate%20System.md)

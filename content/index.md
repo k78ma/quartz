@@ -22,11 +22,11 @@ Welcome to my notes!
 
 ### Courses
 - 2B
-	- [MTE 203](2B/MTE%20203.md)
-	- [MTE 204](2B/MTE%20204.md)
-	- [MTE 220](2B/MTE%20220.md)
-	- [MTE 241](2B/MTE%20241.md)
-	- [SYDE 252](2B/SYDE%20252.md)
+	- [MTE 203](2B/MTE%20203/MTE%20203.md)
+	- [MTE 204](2B/MTE%20204/MTE%20204.md)
+	- [MTE 220](2B/MTE%20220/MTE%20220.md)
+	- [MTE 241](2B/MTE%20241/MTE%20241.md)
+	- [SYDE 252](2B/SYDE%20252/SYDE%20252.md)
 
 ### Other
 - [Philosophy](Philosophy/Philosophy.md)
