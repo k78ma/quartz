@@ -19,11 +19,12 @@ Revolves around the idea of a task vector.
 ## Capabilities & Applications
 
 - **Forgetting via negation**
-	D
+	Subtract the task vector to pre-trained model for behavior you want the model to forget. This is useful for censoring things like toxic language for LLMs. Also works with image classification tasks, lowering accuracy on negated tasks
 	
 - **Learning via addition**
-	
+	Add task vector to pre-trained model to improve performance; similar to fine-tuning. You can improve performance on a single task or create multi-task models by adding new tasks to a pre-trained backbone.
 	
 - **Task Analogies**
-	
-	
+	"*A* is to *B* as *C* is to *D*". Basically, combining task vectors from the first three tasks improves performance on the fourth with little or no training data. This improves domain generalization to a new target task without using labeled data from that task.
+
+This seems to basically be the ML equivalent of a lobotomy?
