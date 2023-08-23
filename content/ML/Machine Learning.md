@@ -38,16 +38,31 @@ alias: ML, ml
 - [[Decision Trees and Nearest Neighbours]]
 
 
-## Models
-
-
 ## Model Behavior/Alteration
 - [Task Arithmetic](ML/Task%20Arithmetic.md)
 
 ## Computer Vision
-
+- [[SAM: Segment Anything]]
+- [[SimCLR]]
+- [[ResNet]]
+- [[EfficientNet]]
+- [[HyRSM]]
 
 ## LLMs
-
+- [[GPT]]
+- [[Llama]]
+- [[Chinchilla]]
 
 ## Robotics
+- [[Legged Locomotion from Egocentric Vision]]
+
+## 3D Object Detection
+- [[BEVFusion]]
+- [[PointPillars]]
+- [[Seal: Segment Any Point Cloud]]
+
+## 3D Scene Representation
+- [[NeRF]]
+- [[NICE-SLAM]]
+- [[Block-NeRF]]
+- [[Instant-NGP]]

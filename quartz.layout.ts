@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { SimpleSlug } from "./quartz/util/path"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -21,9 +22,18 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.TableOfContents()),
+    Component.DesktopOnly(
+      Component.RecentNotes({
+        title: "Recent Notes",
+        limit: 3,
+      }),
+    ),
   ],
-  right: [Component.Graph(), Component.Backlinks()],
+  right: [
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Graph(), 
+    Component.Backlinks(),
+  ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
