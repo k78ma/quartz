@@ -9,9 +9,6 @@ draft:
 - [[Plato]]
 	- [Plato's Ideal World of Forms](Philosophy/Plato's%20Ideal%20World%20of%20Forms.md)
 	- [[Allegory of The Cave]]
-	- 
-- [[Kant]]
-- [[Camus]]
 
 ## Nihlist / Existentialist / Absurdist
 - [[Nietzsche]]
@@ -19,10 +16,31 @@ draft:
 	- [[Nietzsche's Will to Power]]
 	- [[Thus Spoke Zarathustra (Nietzsche)]]
 	- [[Nietzsche on Love]]
+
+## Modern
+- [[Peter Singer]]
+
+
+- Kant
 - Schopenhauer
 - Heidegger
 - Sartre
 - Camus
-
-## Modern
-- [[Peter Singer]]
+- Wittgenstein
+- Simone De Beauvoir
+- The Frantfurt School
+- Structuralism
+- Logical Posivitism
+- Michel Foucault
+- Gilles Deleuze
+- Carl Schmitt
+- Locke
+- Descrates
+- Hobbes
+- Montaigne
+- Rousseau
+- Hume
+- Marx
+- Kierkegaard
+- T.M. Scanlon
+- [[Ayn Rand]]
