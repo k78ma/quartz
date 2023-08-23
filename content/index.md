@@ -28,6 +28,8 @@ Welcome to my notes!
 	- [MTE 241](2B/MTE%20241.md)
 	- [SYDE 252](2B/SYDE%20252.md)
 
+### Other
+- [Philosophy](Philosophy/Philosophy.md)
 ---
 \*The site is named "Cortex" for three reasons:
 - The term "second brain" is popular with people who use Obsidian to take notes
