@@ -1,25 +1,25 @@
 ---
 title: "Machine Learning"
-tag: ml
+tag: ml, moc
 alias: ML, ml
 ---
 
 ## Foundational Concepts
 
-- [Artificial Neuron](ML/Artificial%20Neuron.md)
-- [Sigmoid Neuron](ML/Sigmoid%20Neuron.md)
+- [[ML/Artificial Neuron|Artificial Neuron]]
+- [[ML/Sigmoid Neuron|Sigmoid Neuron]]
 
-- [Linear Classifier](ML/Linear%20Classifier.md)
-	- [Perceptron](ML/Perceptron.md)
-		- [Averaged Perceptron](ML/Averaged%20Perceptron.md)
-		- [Perceptron Convergence Theorem](ML/Perceptron%20Convergence%20Theorem.md)
-- [Margin](ML/Margin.md)
+- [[ML/Linear Classifier|Linear Classifier]]
+	- [[ML/Perceptron|Perceptron]]
+		- [[ML/Averaged Perceptron|Averaged Perceptron]]
+		- [[ML/Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
+- [[ML/Margin|Margin]]
 	
-- [Feature Representation](ML/Feature%20Representation.md)
-	- [Feature Engineering](ML/Feature%20Engineering.md)
-	- [Polynomial Basis](ML/Polynomial%20Basis.md)
+- [[ML/Feature Representation|Feature Representation]]
+	- [[ML/Feature Engineering|Feature Engineering]]
+	- [[ML/Polynomial Basis|Polynomial Basis]]
 
-- [Margin Maximization](ML/Margin%20Maximization.md)
+- [[Margin Maximization]]
 
 - [[Regression]]
 
@@ -39,7 +39,7 @@ alias: ML, ml
 
 
 ## Model Behavior/Alteration
-- [Task Arithmetic](ML/Task%20Arithmetic.md)
+- [[ML/Task Arithmetic|Task Arithmetic]]
 
 ## Computer Vision
 - [[SAM: Segment Anything]]

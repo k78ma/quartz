@@ -5,7 +5,7 @@ date: 2023-08-10
 draft:
 ---
 
-3D coordinate system: alternative to [Spherical Coordinates](Calculus/Spherical%20Coordinates.md) and [3D Cartesian Coordinates](Calculus/3D%20Coordinate%20System.md).
+3D coordinate system: alternative to [[Calculus/Cylindrical Coordinates|Cylindrical Coordinates]] and [3D Cartesian Coordinates](Calculus/3D%20Coordinate%20System.md).
 ![spherical coordinates|300](Calculus/attachments/spherical%20coordinates.png)
 
 Spherical coordinates use:
@@ -24,7 +24,7 @@ Spherical coordinates use:
 ### Conversion from Spherical to Cylindrical
 
 Looking at the triangle above from the front:
-![|325](Calculus/attachments/Pasted%20image%2020230810224847.png)
+![|325](Calculus/attachments/spherical%20front.png)
 
 Thus we have: 
 $$

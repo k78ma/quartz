@@ -16,7 +16,7 @@ For example: $\vec{r}(t) = \langle t,1 \rangle$
 - Describes a position vector $\vec{r} = \langle a,b\rangle$ that starts at the origin and ends at $(a,b)$
 - Some example inputs into the function: $$r(3) = \langle -3,1\rangle, r(-1) = \langle -1,1\rangle, r(2) = \langle 2,1\rangle, r(5)=\langle 5,1\rangle$$
 Thus, we can describe lines and shapes like:
-![500](Calculus/attachments/Pasted%20image%2020230730003232.png)
+![500](Calculus/attachments/vector%20functions.png)
 
 ---
 ## Vector form

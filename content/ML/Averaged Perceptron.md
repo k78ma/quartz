@@ -5,7 +5,7 @@ date:
 alias:
 ---
 
-- Regular [Perceptron](ML/Perceptron.md) is sensitive to extreme examples
+- Regular [[ML/Perceptron|Perceptron]] is sensitive to extreme examples
 - Averaged perceptron produces a more stable output by outputting the average $\theta$ and $\theta_0$ across all iterations
 
 ```python

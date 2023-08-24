@@ -26,4 +26,4 @@ Let’s say we have $k$ discrete features in the raw data. Encoding strategies:
 	- It can be smart to scale your feature values to between $[-1, +1]$. 
 	- Without performing this transformation, if you have one feature with much larger values than another, it will take the learning algorithm a lot of work to find parameters that can put them on an equal basis.
 	- Another example when dealing with a distribution of values is calculating the $\phi$-score like $\phi(x) = \frac{x-\bar{x}}{\sigma}$
-	- This also makes like applying higher-order [Polynomial Basis](ML/Polynomial%20Basis.md) transformations easier
+	- This also makes like applying higher-order [[ML/Polynomial Basis|Polynomial Basis]] transformations easier

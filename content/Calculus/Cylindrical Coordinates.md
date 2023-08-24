@@ -8,7 +8,7 @@ draft:
 Extension of polar coordinates into 3D.
 Really simple - just add $z$. The $r$ and $\theta$ are the same as polar coordinates.
 
-![|300](Calculus/attachments/Pasted%20image%2020230810170529.png)
+![|300](Calculus/attachments/cylindrical%20coordinates.png)
 
 ### Conversion from cylindrical to Cartesian:
 $$

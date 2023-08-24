@@ -5,14 +5,14 @@ date:
 alias:
 ---
 
-This is also sometimes called a [Perceptron](ML/Perceptron.md) but I prefer to use perceptron to refer to the learning algorithm.
+This is also sometimes called a [[ML/Perceptron|Perceptron]] but I prefer to use perceptron to refer to the learning algorithm.
 
-This is the most basic artificial neuron that essentially acts as a classifier (very similar in formulation to [Linear Classifier](ML/Linear%20Classifier.md)).
+This is the most basic artificial neuron that essentially acts as a classifier (very similar in formulation to [[ML/Linear Classifier|Linear Classifier]]).
 
 ## Formulation
 A neuron takes several binary inputs $x_{1}, x_{2}, \cdots,$ and produces a single binary output.
 
-![artificial neuron|325](ML/attachments/artificial%20neuron.png)
+![[ML/attachments/artificial neuron.png|325]]
 
 - Inputs $x_{1}, x_{2}, x_{3}$
 - Weights $w_{1}, w_{2}, w_{3}$
@@ -36,7 +36,7 @@ $$
 $$
 ## Applications
 Neurons can be useful in unexpected ways like, modeling logic gates such as `AND`, `NOR`, and `NAND`.
-![300](ML/attachments/nand%20neuron.png)
+![[ML/attachments/nand neuron.png|300]]
 
 - Input $00$ produces output $1$, input $11$ produces output $0$
 - We’ve made a `NAND` gate!

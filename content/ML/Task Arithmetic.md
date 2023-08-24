@@ -8,7 +8,7 @@ draft:
 Paper: [Editing Models with Task Arithmetic](https://arxiv.org/abs/2212.04089)
 - From UWashington, Microsoft, and AI2
 
-Altering model behavior — improving performance on downstream tasks or mitigating biases learned during pre-training. This is obviously important and may have significant implications for [Alignment](Alignment).
+Altering model behavior — improving performance on downstream tasks or mitigating biases learned during pre-training. This is obviously important and may have significant implications for [[Alignment]].
 
 Revolves around the idea of a task vector.
 
