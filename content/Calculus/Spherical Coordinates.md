@@ -6,7 +6,7 @@ draft:
 ---
 
 3D coordinate system: alternative to [Spherical Coordinates](Calculus/Spherical%20Coordinates.md) and [3D Cartesian Coordinates](Calculus/3D%20Coordinate%20System.md).
-![|325](Calculus/attachments/Pasted%20image%2020230810220208.png)
+![spherical coordinates|300](Calculus/attachments/spherical%20coordinates.png)
 
 Spherical coordinates use:
 
