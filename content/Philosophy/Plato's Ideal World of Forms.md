@@ -1,6 +1,6 @@
 ---
 title: "Plato"
-tag:
+tag: philosophy
 date: 2023-08-22
 draft:
 ---
