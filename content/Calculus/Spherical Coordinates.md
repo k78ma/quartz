@@ -5,8 +5,9 @@ date: 2023-08-10
 draft:
 ---
 
-3D coordinate system: alternative to [[Calculus/Cylindrical Coordinates|Cylindrical Coordinates]] and [3D Cartesian Coordinates](Calculus/3D%20Coordinate%20System.md).
-![spherical coordinates|300](Calculus/attachments/spherical%20coordinates.png)
+3D coordinate system: alternative to [[Calculus/Cylindrical Coordinates|Cylindrical Coordinates]] and [[Calculus/3D Coordinate System|3D Cartesian Coordinates]].
+
+![[Calculus/attachments/spherical coordinates.png|300]]
 
 Spherical coordinates use:
 
@@ -24,7 +25,7 @@ Spherical coordinates use:
 ### Conversion from Spherical to Cylindrical
 
 Looking at the triangle above from the front:
-![|325](Calculus/attachments/spherical%20front.png)
+![[Calculus/attachments/spherical front.png||325]]
 
 Thus we have: 
 $$
@@ -40,7 +41,7 @@ By the Pythagorean theorem we also have $\rho^{2}=r^{2}+z^{2}$.
 ### Conversion from Spherical to Cartesian
 
 Recall:
-![](Calculus/Cylindrical%20Coordinates.md#Conversion%2520from%2520cylindrical%2520to%2520Cartesian)
+![[Calculus/Cylindrical Coordinates#Conversion from cylindrical to Cartesian|Conversion from Cylindrical Coordinates to Cartesian]]
 
 Thus, we have:
 $$
