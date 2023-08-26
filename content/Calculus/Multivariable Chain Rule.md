@@ -19,3 +19,5 @@ $$
 \frac{ dz }{ dt } = \frac{ \partial f }{ \partial x } \frac{ dx }{ dt } + \frac{ \partial f }{ \partial y } \frac{ dy }{ dt } 
 $$
 Basically, we differentiate $f$ with respect to each variable in it and then multiply each of these by the derivative of that variable with respect to $t$, then add.
+
+Special sub-case of Case 1:
