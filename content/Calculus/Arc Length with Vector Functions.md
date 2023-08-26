@@ -1,7 +1,7 @@
 ---
 title: "Arc Length with Vector Functions"
 tag: calc3
-date: 
+date: 2023-07-22
 alias:
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Calculus III"
 tag: calc3, moc
-date: 
+date: 2023-07-22
 alias:
 ---
 

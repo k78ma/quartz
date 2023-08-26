@@ -1,7 +1,7 @@
 ---
 title: "Functions of Several Variables"
 tag: calc3
-date: 
+date: 2023-07-22
 alias: Multivariable Functions
 ---
 

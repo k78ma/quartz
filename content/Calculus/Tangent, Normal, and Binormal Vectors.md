@@ -1,7 +1,7 @@
 ---
 title: "Tangent, Normal, and Binormal Vectors"
 tag: calc3
-date: 
+date: 2023-07-22
 alias:
 ---
 

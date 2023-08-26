@@ -1,7 +1,7 @@
 ---
 title: "Vector Equations of Planes"
 tag: calc3
-date: 
+date: 2023-07-22
 alias:
 ---
 

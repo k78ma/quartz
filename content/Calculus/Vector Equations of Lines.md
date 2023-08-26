@@ -1,7 +1,7 @@
 ---
 title: "Vector Equations of Lines"
 tag: calc3
-date: 
+date: 2023-07-22
 alias:
 ---
 

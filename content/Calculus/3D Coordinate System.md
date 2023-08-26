@@ -1,7 +1,7 @@
 ---
 title: "3D Coordinate System"
 tag: calc3
-date: 
+date: 2023-07-22
 alias:
 ---
 
