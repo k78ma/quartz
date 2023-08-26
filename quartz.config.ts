@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "k78ma.github.io/quartz",
-    ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private", "*.md"],
+    ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private", "*.excalidraw"],
     defaultDateType: "created",
     theme: {
       typography: {
