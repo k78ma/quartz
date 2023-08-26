@@ -1,7 +1,7 @@
 ---
 title: "LeetCode"
 tag: cs, algos
-date: 
+date: 2023-06-25
 alias:
 draft: true
 ---

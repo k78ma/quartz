@@ -1,7 +1,7 @@
 ---
 title: "RAM Model of Computation"
 tag: cs
-date: 
+date: 2023-06-25
 alias:
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Stacks and Queues"
 tag: cs
-date: 
+date: 2023-06-25
 alias:
 ---
 
