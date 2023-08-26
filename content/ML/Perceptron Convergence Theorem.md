@@ -1,8 +1,8 @@
 ---
 title: "Perceptron Convergence Theorem"
 tag: ml
-date: 
-alias:
+date: 2023-06-25
+alias: 
 ---
 
 If training data $D_n$ is linearly separable, then the [Perceptron](ML/Perceptron.md) algorithm is guaranteed to find a linear separator.

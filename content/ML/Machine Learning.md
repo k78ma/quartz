@@ -2,6 +2,7 @@
 title: "Machine Learning"
 tag: ml, moc
 alias: ML, ml
+date: 2023-06-25
 ---
 
 ## Foundational Concepts
