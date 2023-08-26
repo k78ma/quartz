@@ -43,4 +43,5 @@ $$
 \frac{ \partial z }{ \partial t } &= \frac{ \partial f }{ \partial x } \frac{ \partial x }{ \partial t } + \frac{ \partial f }{ \partial y }\frac{ \partial y }{ \partial t }   
 \end{align}
 $$
-Test test
+
+## General Version of Chain Rule:
