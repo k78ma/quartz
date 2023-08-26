@@ -1,7 +1,7 @@
 ---
 title: "Configuration Space"
 tag: robotics
-date: 
+date: 2023-06-30
 alias:
 ---
 

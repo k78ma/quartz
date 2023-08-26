@@ -1,7 +1,7 @@
 ---
 title: "NuScenes Action Labels"
 tag: prediction
-date: 
+date: 2023-07-29
 alias:
 ---
 

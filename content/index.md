@@ -1,5 +1,6 @@
 ---
 title: "Kai's Notes"
+date: evergreen
 ---
 Welcome to my notes!
 - I take notes here to learn more efficiently and track my knowledge, and figured there's not much downside to publishing them online as they may be useful to others. 
