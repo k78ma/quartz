@@ -1,7 +1,7 @@
 ---
 title: "Linear Algebra"
 tag: lin-alg, moc
-date: 
+date: 2023-06-25
 alias:
 ---
 

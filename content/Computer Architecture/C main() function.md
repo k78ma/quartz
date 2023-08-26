@@ -1,7 +1,7 @@
 ---
 title: "C main() function"
 tag: os, cs-arch 
-date: 
+date: 2023-06-25
 alias:
 ---
 

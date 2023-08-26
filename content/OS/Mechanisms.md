@@ -1,7 +1,7 @@
 ---
 title: "Mechanisms"
 tag: os
-date: 
+date: 2023-06-25
 alias:
 ---
 

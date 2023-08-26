@@ -1,7 +1,7 @@
 ---
 title: "Computer Architecture"
 tag: cs-arch
-date: 
+date: 2023-06-25
 alias:
 ---
 

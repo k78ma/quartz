@@ -1,7 +1,7 @@
 ---
 title: "OS Data Structures"
 tag: os
-date: 
+date: 2023-06-25
 alias:
 ---
 
