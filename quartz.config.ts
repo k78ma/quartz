@@ -11,6 +11,7 @@ const config: QuartzConfig = {
     },
     baseUrl: "k78ma.github.io/quartz",
     ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private"],
+    defaultDateType: "created",
     theme: {
       typography: {
         header: "Schibsted Grotesk",
