@@ -15,6 +15,7 @@ draft:
 	- [Nietzsche on Human Purpose](Philosophy/Nietzsche%20on%20Human%20Purpose.md)
 	- [[Philosophy/Nietzsche's Will to Power|Nietzsche's Will to Power]]
 	- [[Thus Spoke Zarathustra (Nietzsche)]]
+	- [[Philosophy/Ubermensch|Ubermensch]]
 	- [[Nietzsche on Love]]
 
 ## Modern

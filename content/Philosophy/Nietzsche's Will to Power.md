@@ -1,6 +1,6 @@
 ---
 title: "Nietzsche's Will to Power"
-tag:
+tag: philosophy
 date: 2023-08-24
 draft:
 ---
