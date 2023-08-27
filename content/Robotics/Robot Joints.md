@@ -5,9 +5,9 @@ date: 2023-06-30
 alias:
 ---
 
-![Pasted image 20230722184755](Robotics/attachments/Pasted%20image%2020230722184755.png)
+[[robot]]
 
-- Revolute joints (R)
+- Revolute joints (R) — ba
 - Prismatic joints (P)
 - Helical joints (H)
 - Cylindrical joints (C)
