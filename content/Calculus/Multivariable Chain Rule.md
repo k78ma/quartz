@@ -45,3 +45,12 @@ $$
 $$
 
 ## General Version of Chain Rule:
+Suppose that $z$ is a function of $n$ variables, $x_{1}, x_{2}, \dots, x_{n}$, and that each of these variables are in turn functions of $m$ variables, $t_{1}, t_{2},  \dots, t_{m}$. Then for any variable $t_{i}$, $i=1, 2,\dots,m$, we have:
+$$
+\frac{ \partial z }{ \partial t_{i} } = \frac{ \partial z }{ \partial x_{1} }\frac{ \partial x_{1} }{ \partial t_{i} } + \frac{ \partial z }{ \partial x_{2} } \frac{ \partial x_{2} }{ \partial t_{i} } + \dots + \frac{ \partial z }{ \partial x_{n} } \frac{ \partial x_{n} }{ \partial t_{i} }  
+$$
+Basically, we want to find the partial derivative of the big function with respect to the sub-functions, and then take the partial derivative of the sub-functions with respect to their variables.
+In tree form, for $\frac{ \partial z }{ \partial s }$ given that $z=f(x,y)$, $x=g(s,t)$ , $y=h(s,t)$:
+![[Calculus/Pasted image 20230826210422.png|350]]
+
+

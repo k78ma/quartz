@@ -29,7 +29,7 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 - [x] [Interpretations of Partial Derivatives](Calculus/Interpretations%20of%20Partial%20Derivatives.md)
 - [x] [Higher-Order Partial Derivatives](Calculus/Higher%20Order%20Partial%20Derivatives.md)
 - [x] [Multivariable Differentials](Calculus/Multivariable%20Differentials.md)
-- [ ] [Multivariable Chain Rule](Calculus/Multivariable%20Chain%20Rule.md)
+- [x] [Multivariable Chain Rule](Calculus/Multivariable%20Chain%20Rule.md)
 - [ ] [Directional Derivatives](Directional%20Derivatives)
 
 

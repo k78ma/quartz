@@ -7,7 +7,7 @@ alias:
 
 A good foundation of linear algebra contributes to deeper understanding of  [[machine learning]] and [[robotics]].
 
-- [x] [[2B/Linear Algebra/Geometry of Linear Equations]]
+- [x] [[Linear Algebra/Geometry of Linear Equations|Geometry of Linear Equations]]
 - [ ] [[Overview of Linear Algebra]]
 
 ## Vectors
