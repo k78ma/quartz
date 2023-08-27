@@ -19,3 +19,5 @@ Why is it so hard to stop being a camel and become the master of the desert? The
 - But how are these goals defined? Nietzsche's advice is to ask yourself "what has been important up to this point in your life?" Basically, the answer should be inside of you.
 
 Finally, Nietzsche also says that you can't be satisfied just reaching the stage of the child either. Nietzsche doesn't like final destinations. The goal is to constantly think about what the next stage of humanity, the Ubermensch, should look like, and strive to become it. It is an ideal to strive for, not something one necessarily needs to become.
+
+Thus, at least in my view, Nietzsche is essentially disavowing nihilism; while he wants people to reject traditional teachings of true world theories, he doesn't think that the final destination is that there is no meaning to life. He wants each person to find their own meaning and work toward that goal.
