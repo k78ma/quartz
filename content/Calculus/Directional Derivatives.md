@@ -32,9 +32,16 @@ $$
 >$$
 >$\quad$
 
-This is very similar to partial derivatives, but can be difficult to compute in practice, so it's useful to derive an equivalent formula for taking directional derivatives. 
+This is very similar to partial derivatives, but can be difficult to compute in practice, so it's useful to derive an equivalent formula for taking directional derivatives:
+$$
+D_{\vec{u}}f(x,y)=f_{x}(x,y)a + f_{y}(x,y)b
+$$
+This also expands to more than 2 variables, such as:
+$$
+D_{\vec{u}}f(x,y,z)=f_{x}(x,y,z)a + f_{y}(x,y,z)b + f_{z}(x,y,z)c
+$$
 
->[!note]- Derivation of equivalent formula
+>[!note]- Derivation of above formula
 >Let's define a new function of a single variable:
 >$$
 >g(z) = f(x_{0}+az, y_{0}+bz),
@@ -56,4 +63,23 @@ This is very similar to partial derivatives, but can be difficult to compute in 
 >\end{align}
 >$$
 >Now with $g(z)$ instead:
+>$$
+>g(z)=f(x,y) \quad \text{where} \quad x=x_{0}+az \quad \text{and} \quad y=y_{0}+bz
+>$$
+>Using the chain rule, we can expand this to:
+>$$
+>\begin{align}
+>g'(z)&=\frac{ dg }{ dz } = \frac{ \partial f }{ \partial x } \frac{ dx }{ dz } + \frac{ \partial f }{ \partial y } \frac{ dy }{ dz }  \\
+>&=f_{x}(x,y)a + f_{y}(x,y)b
+>\end{align}
+>$$
+>If we take $z=0, x=x_{0}, y=y_{0}$:
+>$$
+>g'(0)=f_{x}(x_{0},y_{0})a+f_{y}(x_{0},y_{0})b
+>$$
+>Which gives us:
+>$$
+>D_{\vec{u}}f(x_{0}, y_{0})=g'(0)=f_{x}(x_{0},y_{0})a+f_{y}(x_{0},y_{0})b
+>$$
+>If we go back to allowing $x$ and $y$ to be any number we get the above formulas for computing directional derivatives
 
