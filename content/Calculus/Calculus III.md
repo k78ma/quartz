@@ -25,12 +25,12 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 
 ## Partial Derivatives
 - [x] [Limits (Multivariable)](Calculus/Limits%20(Multivariable).md)
-- [x] [Partial Derivatives](Calculus/Partial%20Derivatives.md)
+- [x] [[Calculus/Partial Derivatives|Partial Derivatives]]
 - [x] [Interpretations of Partial Derivatives](Calculus/Interpretations%20of%20Partial%20Derivatives.md)
 - [x] [Higher-Order Partial Derivatives](Calculus/Higher%20Order%20Partial%20Derivatives.md)
 - [x] [Multivariable Differentials](Calculus/Multivariable%20Differentials.md)
 - [x] [Multivariable Chain Rule](Calculus/Multivariable%20Chain%20Rule.md)
-- [ ] [Directional Derivatives](Directional%20Derivatives)
+- [ ] [[Calculus/Directional Derivatives|Directional Derivatives]]
 
 
 ## Applications of Partial Derivatives

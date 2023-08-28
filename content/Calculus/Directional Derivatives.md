@@ -1,0 +1,59 @@
+---
+title: "Directional Derivatives"
+tag:
+date: 2023-08-27
+---
+
+How do we find the rate of change of $f$ if we allow both $x$ and $y$ to change simultaneously? 
+
+## Defining Direction of Change
+The problem here is that there are many ways to allow both $x$ and $y$ to change; for example, one could be changing faster than the other, or one could be increasing while the decreasing. Thus, we need to find a good way to define the changing of $x$ and $y$.
+
+Let's say we want to the rate of change of $f$ at a point $(x_{0}, y_{0})$, where $x$ and $y$ are both increasing but $x$ is changing twice as fast as $y$; as $y$ increases by one unit of measure, $x$ increases by two.
+
+If we have a particle sitting at point $(x_{0}, y_{0})$ and the particle will move in the direction given by the changing $x$ and $y$; thus, the particle will direction of movement can be defined as a vector:
+$$
+\vec{v} = \langle 2,1 \rangle 
+$$
+However, this is not specific enough as there are many dependent vectors that point in the same direction. Thus, we should insist that the unit vector should be used:
+$$
+\vec{v}=\left\langle  \frac{2}{\sqrt{ 5 }}, \frac{1}{\sqrt{ 5 }}  \right\rangle 
+$$
+Alternatively, we can give the direction of changing $x$ and $y$ as an angle. In this case, the unit vector can be defined in as:
+$$
+\vec{v}=\langle \cos \theta , \sin \theta\rangle 
+$$
+
+## Finding Rate of Change
+>[!info] Definition: Directional Derivative
+>The rate of change of $f(x,y)$ can in the direction of unit vector $\vec{u} = \langle a,b \rangle$ is called the **directional derivative** and is:
+>$$
+>D_{\vec{u}}(x,y) = \lim_{ h \to 0 } \frac{f(x+ah, y+bh)-f(x,y)}{h}
+>$$
+>$\quad$
+
+This is very similar to partial derivatives, but can be difficult to compute in practice, so it's useful to derive an equivalent formula for taking directional derivatives. 
+
+>[!note]- Derivation of equivalent formula
+>Let's define a new function of a single variable:
+>$$
+>g(z) = f(x_{0}+az, y_{0}+bz),
+>$$
+>where $x_{0}, y_{0}, a,b$ are fixed numbers; $z$ is the only variable. Using the traditional definition for a single-variable derivative, we have:
+>$$
+>g'(z)= \lim_{ h \to 0 } \frac{g(z+h)-g(z)}{h},
+>$$
+>and the derivative at $z=0$ given by, 
+>$$
+>g'(0)=\lim_{ h \to 0 } \frac{g(z+0)-g(z)}{h}
+>$$
+>Substituting in $g(z)$, we have:
+>$$
+>\begin{align}
+>g'(0)&=\lim_{ h \to 0 } \frac{g(h)-g(0)}{h}  \\
+> &= \lim_{ h \to 0 } \frac{f(x_{0}+ah, y_{0}+bh)-f(x_{0},y_{0})}{h} \\
+>&=D_{\vec{u}}f(x_{0}, y_{0})
+>\end{align}
+>$$
+>Now with $g(z)$ instead:
+

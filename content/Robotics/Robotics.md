@@ -7,13 +7,17 @@ alias:
 
 *There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.*
 
-**Modern Robotics:**   <progress max=642 value=33> </progress> 
+**Modern Robotics:**   <progress max=642 value=36> </progress> 
 
 ## Robot Configuration
-- [Configuration Space](Robotics/Configuration%20Space.md)
-- [Degrees of Freedom](Robotics/Degrees%20of%20Freedom.md)
-- [Robot Joints](Robotics/Robot%20Joints.md)
-- [Grubler’s Formula](Robotics/Grubler%E2%80%99s%20Formula.md)
+- [x] [[Robotics/Configuration Space|Configuration Space]]
+	- [ ] [[Configuration Space Topology]]
+	- [ ] [[Configuration Space Representation]]
+- [x] [[Robotics/Degrees of Freedom|Degrees of Freedom]]
+- [x] [[Robotics/Grubler’s Formula|Grubler’s Formula]]
+- [x] [[Robotics/Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
+- [ ] [[Configuration and Velocity Constraints]]
+- [ ] [[Task Space and Workspace]]
 
 ## Rigid Body Motions
 - [Rotation Matrix](Rotation%20Matrix.md)
