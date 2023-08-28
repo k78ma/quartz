@@ -1,6 +1,6 @@
 ---
 title: "Operating Systems"
-tag: os
+tag: os, moc
 date: 2023-06-25
 alias: OS
 ---

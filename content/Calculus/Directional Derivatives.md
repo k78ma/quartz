@@ -32,11 +32,11 @@ $$
 >$$
 >$\quad$
 
-This is very similar to partial derivatives, but can be difficult to compute in practice, so it's useful to derive an equivalent formula for taking directional derivatives:
+This is very similar to partial derivatives, but can be difficult to compute in practice, so it's useful to derive an equivalent formula for taking directional derivatives, where $\vec{u}=\langle a,b \rangle$ is the direction:
 $$
 D_{\vec{u}}f(x,y)=f_{x}(x,y)a + f_{y}(x,y)b
 $$
-This also expands to more than 2 variables, such as:
+This also expands to more than 2 variables. For example, the directional derivative of $f(x,y,z)$ in the direction of unit vector $\vec{u}=\langle a,b,c \rangle$ is given by:
 $$
 D_{\vec{u}}f(x,y,z)=f_{x}(x,y,z)a + f_{y}(x,y,z)b + f_{z}(x,y,z)c
 $$
@@ -83,3 +83,8 @@ $$
 >$$
 >If we go back to allowing $x$ and $y$ to be any number we get the above formulas for computing directional derivatives
 
+There is also another form that is a little nicer and more compact; it's also much more general and encompasses the above forms. We can rewrite the above formula as:
+$$
+D_{\vec{u}}f(x,y,z)=\langle f_{x}, f_{y}, f_{z} \rangle \cdot \langle a,b,c \rangle 
+$$
+As such, we can write the directional derivative as a dot product and notice that the second vector is nothing more than the unit vector $\vec{u}$ that gives the direction of change.
