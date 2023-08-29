@@ -10,7 +10,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "k78ma.github.io/quartz",
-    ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private", "*.excalidraw", "**/Excalidraw", "**/excalidraw"],
+    ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private", "*.excalidraw", "**/Excalidraw,"],
     defaultDateType: "created",
     theme: {
       typography: {
@@ -26,8 +26,8 @@ const config: QuartzConfig = {
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
           secondary: "#3a6bb5",
-          tertiary: "#0f0f0f",
-          highlight: "rgba(143, 159, 169, 0.15)",
+          tertiary: "#8ccded",
+          highlight: "rgba(66, 154, 169, 0.15)",
         },
         darkMode: {
           light: "#161618",

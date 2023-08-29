@@ -30,8 +30,8 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 - [x] [Higher-Order Partial Derivatives](Calculus/Higher%20Order%20Partial%20Derivatives.md)
 - [x] [Multivariable Differentials](Calculus/Multivariable%20Differentials.md)
 - [x] [Multivariable Chain Rule](Calculus/Multivariable%20Chain%20Rule.md)
-- [ ] [[Calculus/Directional Derivatives|Directional Derivatives]]
-- [ ] [[Gradient Vector]]
+- [x] [[Calculus/Directional Derivatives|Directional Derivatives]]
+- [x] [[Gradient Vector]]
 
 
 ## Applications of Partial Derivatives
