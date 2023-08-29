@@ -88,3 +88,16 @@ $$
 D_{\vec{u}}f(x,y,z)=\langle f_{x}, f_{y}, f_{z} \rangle \cdot \langle a,b,c \rangle 
 $$
 As such, we can write the directional derivative as a dot product and notice that the second vector is nothing more than the unit vector $\vec{u}$ that gives the direction of change.
+
+We can also write this in terms of gradient vectors:
+![[Calculus/Gradient Vector#^gradvec|Gradient Vector]]
+
+As such, we can say that the directional derivative can be given by
+$$
+D_{\vec{u}}f=\nabla f\cdot \vec{u}
+$$
+This is more general, as we don't need to show the variable and use this formula for any number of variables. Alternatively, we can use the notation:
+$$
+D_{\vec{u}}f(\vec{x})=\nabla f \cdot \vec{u}
+$$
+where $\vec{x}=\langle x,y,z \rangle$. 

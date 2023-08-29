@@ -19,6 +19,18 @@
     --bg: #448aff10;
   }
 
+  &[data-callout="proof"] {
+    --color: #3c8b40;
+    --border: #448aff44;
+    --bg: #44ff8f10;
+  }
+
+  &[data-callout="theorem"] {
+    --color: #212121;
+    --border: #448aff44;
+    --bg: #dfecf010;
+  }
+
   &[data-callout="abstract"] {
     --color: #00b0ff;
     --border: #00b0ff44;
@@ -29,7 +41,7 @@
   &[data-callout="todo"] {
     --color: #3572b9;
     --border: #00b8d444;
-    --bg: #234c9f10;
+    --bg: #6d9ce210;
   }
 
   &[data-callout="tip"] {

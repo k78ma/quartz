@@ -31,6 +31,7 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 - [x] [Multivariable Differentials](Calculus/Multivariable%20Differentials.md)
 - [x] [Multivariable Chain Rule](Calculus/Multivariable%20Chain%20Rule.md)
 - [ ] [[Calculus/Directional Derivatives|Directional Derivatives]]
+- [ ] [[Gradient Vector]]
 
 
 ## Applications of Partial Derivatives
