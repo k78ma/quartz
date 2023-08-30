@@ -1,0 +1,233 @@
+{
+  "main": {
+    "id": "a8a4249d5ac1a925",
+    "type": "split",
+    "children": [
+      {
+        "id": "41c909d262e189a8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "547b00b15c5ec59d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/Vector Combinations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1ccb860e6db4d55d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/Matrix Basics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f81881da21983e11",
+    "type": "split",
+    "children": [
+      {
+        "id": "70612da461e74ccd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6ee5cee02dbaa2c7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d30a143da43da63c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:robotics",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "357dc65a80f8d943",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 213.5
+  },
+  "right": {
+    "id": "15813062ea777ec2",
+    "type": "split",
+    "children": [
+      {
+        "id": "e4ce9e46915c52dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "460ffbd0642e6980",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Linear Algebra/Matrix Basics.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3a97c0e9ae487b9e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Linear Algebra/Matrix Basics.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "6745816e9f8a022e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a3fbcc1d27d0a654",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Linear Algebra/Matrix Basics.md"
+              }
+            }
+          },
+          {
+            "id": "61d35150793c77f1",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "e1a8edf55d17c8dd",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 273.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "61d35150793c77f1",
+  "lastOpenFiles": [
+    "Linear Algebra/Vector Combinations.md",
+    "Linear Algebra/Matrix Basics.md",
+    "Linear Algebra/Linear Algebra.md",
+    "Linear Algebra/Matrix-Vector Multiplication.md",
+    "Calculus/Gradient Vector.md",
+    "Calculus/Directional Derivatives.md",
+    "Linear Algebra/Geometry of Linear Equations.md",
+    "Calculus/Calculus III.md",
+    "Calculus/Functions of Several Variables.md",
+    "Computer Architecture/Computer Architecture.md",
+    "Philosophy/Philosophy.md",
+    "OS/Operating Systems.md",
+    "Calculus/Partial Derivatives.md",
+    "Robotics/Robotics.md",
+    "Robotics/Configuration Space Topology.md",
+    "Robotics/Open-chain vs Closed-chain mechanisms.md",
+    "Robotics/Grubler’s Formula.md",
+    "Linear Algebra/Linear Independence.md",
+    "2B/Linear Algebra/Linear Independence.md",
+    "2B/Linear Algebra",
+    "Robotics/Open-chained vs. Close-chained Mechanisms.md",
+    "Robotics/Robot Joints.md",
+    "Robotics/Degrees of Freedom.md",
+    "Philosophy/Ubermensch.md",
+    "Philosophy/Thus Spoke Zarathustra (Nietzsche).md",
+    "Philosophy/Plato's Ideal World of Forms.md",
+    "Philosophy/Nietzsche's Will to Power.md",
+    "Calculus/Pasted image 20230826210422.png",
+    "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
+    "Calculus/attachments/3d plane.png",
+    "Calculus/attachments/Pasted image 20230730004200.png",
+    "Calculus/attachments/vector functions.png",
+    "Calculus/attachments/3d graphs.png",
+    "Calculus/attachments/cylindrical coordinates.png",
+    "Calculus/attachments/Pasted image 20230811144258.png",
+    "Calculus/attachments/spherical coordinates.png",
+    "Calculus/attachments/quadric_surfaces.pdf",
+    "Calculus/attachments/spherical front.png",
+    "Calculus/attachments/Pasted image 20230801144947.png",
+    "private",
+    "notes/images",
+    "notes",
+    "2B/SYDE 252",
+    "2B/MTE 241",
+    "2B/MTE 220",
+    "2B/MTE 204",
+    "Polymath/Polymath ML Productization.canvas",
+    "Polymath/Polymath ML Productization Simplified.canvas",
+    "Other/AppGPT.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas"
+  ]
+}
