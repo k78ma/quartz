@@ -7,7 +7,14 @@ date: 2023-08-29
 >[!info] Gradient Vector
 >The gradient vector of $f$ is defined to be:
 >$$
->\nabla f = \langle f_{x}, f_{y}, f_{z} \rangle 
+>\begin{align}
+>\nabla f &= \langle f_{x}, f_{y}, \dots \rangle \\ \\
+>&= \begin{bmatrix}
+>\frac{ \partial f }{ \partial x }  \\
+\frac{ \partial f }{ \partial y } \\
+> \dots 
+>\end{bmatrix}
+>\end{align}
 >$$
 >Or if we want to use the standard basis vectors the gradient is:
 >$$
