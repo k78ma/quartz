@@ -11,7 +11,7 @@ date: 2023-08-29
 >\nabla f &= \langle f_{x}, f_{y}, \dots \rangle \\ \\
 >&= \begin{bmatrix}
 >\frac{ \partial f }{ \partial x }  \\
-\frac{ \partial f }{ \partial y } \\
+>\frac{ \partial f }{ \partial y } \\
 > \dots 
 >\end{bmatrix}
 >\end{align}

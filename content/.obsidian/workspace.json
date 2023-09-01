@@ -13,13 +13,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Robotics.md",
+                "file": "Calculus/Gradient Vector.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75edd7c84a29172e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/Vector Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a50e28fdf8e63aa4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Artificial Neuron.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Robotics.md",
+                "file": "ML/Artificial Neuron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Robotics.md",
+                "file": "ML/Artificial Neuron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robotics/Robotics.md"
+                "file": "ML/Artificial Neuron.md"
               }
             }
           },
@@ -165,47 +190,47 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1ccb860e6db4d55d",
+  "active": "a50e28fdf8e63aa4",
   "lastOpenFiles": [
+    "Calculus/Gradient Vector.md",
+    "Linear Algebra/Matrix-Vector Multiplication.md",
+    "ML/Artificial Neuron.md",
+    "Calculus/Vector Functions.md",
+    "Calculus/Spherical Coordinates.md",
+    "Calculus/Functions of Several Variables.md",
+    "Calculus/Quadric Surfaces.md",
+    "Calculus/Multivariable Chain Rule.md",
+    "Calculus/Higher Order Partial Derivatives.md",
+    "Calculus/Calculus III.md",
+    "Calculus/Calculus with Vector Functions.md",
+    "Calculus/Curvature.md",
+    "Calculus/Vector Equations of Planes.md",
+    "Calculus/Tangent, Normal, and Binormal Vectors.md",
+    "Calculus/Interpretations of Partial Derivatives.md",
+    "Calculus/Directional Derivatives.md",
+    "Calculus/Cylindrical Coordinates.md",
+    "Calculus/attachments/Pasted image 20230826210422.png",
+    "Calculus/attachments/traces.png",
+    "Calculus/attachments/Pasted image 20230801144947.png",
+    "Calculus/attachments/Pasted image 20230731105534.png",
+    "Calculus/attachments/Pasted image 20230811144258.png",
+    "Calculus/attachments/Pasted image 20230802140856.png",
+    "Calculus/attachments/Pasted image 20230730004200.png",
+    "Calculus/attachments/cone contour.png",
+    "Calculus/attachments/spherical coordinates.png",
+    "Calculus/attachments/quadric_surfaces.pdf",
+    "templates/Note.md",
     "Robotics/Robotics.md",
     "Excalidraw/test.excalidraw.md",
     "Linear Algebra/Matrix Basics.md",
     "Linear Algebra/Vector Combinations.md",
     "Robotics/Modern Robotics – Lynch, Park.md",
     "Linear Algebra/Linear Algebra.md",
-    "Linear Algebra/Matrix-Vector Multiplication.md",
-    "Calculus/Gradient Vector.md",
-    "Calculus/Directional Derivatives.md",
     "Linear Algebra/Geometry of Linear Equations.md",
-    "Calculus/Calculus III.md",
-    "Calculus/Functions of Several Variables.md",
     "Computer Architecture/Computer Architecture.md",
-    "Philosophy/Philosophy.md",
-    "OS/Operating Systems.md",
-    "Calculus/Partial Derivatives.md",
-    "Robotics/Configuration Space Topology.md",
-    "Robotics/Open-chain vs Closed-chain mechanisms.md",
-    "Robotics/Grubler’s Formula.md",
-    "Linear Algebra/Linear Independence.md",
-    "2B/Linear Algebra/Linear Independence.md",
     "2B/Linear Algebra",
-    "Robotics/Open-chained vs. Close-chained Mechanisms.md",
-    "Robotics/Robot Joints.md",
-    "Robotics/Degrees of Freedom.md",
-    "Philosophy/Ubermensch.md",
-    "Philosophy/Thus Spoke Zarathustra (Nietzsche).md",
-    "Calculus/Pasted image 20230826210422.png",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
     "Calculus/attachments/3d plane.png",
-    "Calculus/attachments/Pasted image 20230730004200.png",
-    "Calculus/attachments/vector functions.png",
-    "Calculus/attachments/3d graphs.png",
-    "Calculus/attachments/cylindrical coordinates.png",
-    "Calculus/attachments/Pasted image 20230811144258.png",
-    "Calculus/attachments/spherical coordinates.png",
-    "Calculus/attachments/quadric_surfaces.pdf",
-    "Calculus/attachments/spherical front.png",
-    "Calculus/attachments/Pasted image 20230801144947.png",
     "private",
     "notes/images",
     "notes",
