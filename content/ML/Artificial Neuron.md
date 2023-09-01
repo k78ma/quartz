@@ -7,7 +7,7 @@ alias:
 
 This is also sometimes called a [[ML/Perceptron|Perceptron]] but I prefer to use perceptron to refer to the learning algorithm.
 
-This is the basic artificial neuron that essentially acts as a classifier (very similar in formulation to [[ML/Linear Classifier|Linear Classifier]]).
+This is the basic artificial neuron that essentially acts as a classifier (very similar in formulation/concept to [[ML/Linear Classifier|Linear Classifier]]).
 
 ## Formulation
 A neuron takes several binary inputs $x_{1}, x_{2}, \cdots,$ and produces a single binary output.
