@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "547b00b15c5ec59d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear Algebra/Matrix Basics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "1ccb860e6db4d55d",
             "type": "leaf",
             "state": {
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md",
+                "file": "Robotics/Robotics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md",
+                "file": "Robotics/Robotics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md"
+                "file": "Robotics/Robotics.md"
               }
             }
           },
@@ -177,13 +165,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "547b00b15c5ec59d",
+  "active": "1ccb860e6db4d55d",
   "lastOpenFiles": [
-    "Excalidraw/test.excalidraw.md",
-    "Linear Algebra/Vector Combinations.md",
     "Robotics/Robotics.md",
-    "Robotics/Modern Robotics – Lynch, Park.md",
+    "Excalidraw/test.excalidraw.md",
     "Linear Algebra/Matrix Basics.md",
+    "Linear Algebra/Vector Combinations.md",
+    "Robotics/Modern Robotics – Lynch, Park.md",
     "Linear Algebra/Linear Algebra.md",
     "Linear Algebra/Matrix-Vector Multiplication.md",
     "Calculus/Gradient Vector.md",
