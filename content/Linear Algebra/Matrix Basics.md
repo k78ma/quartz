@@ -1,6 +1,7 @@
 ---
-title: "Matrix Basics"
-tag:
+title: Matrix Basics
+tags:
+  - lin-alg
 date: 2023-08-29
 ---
 
