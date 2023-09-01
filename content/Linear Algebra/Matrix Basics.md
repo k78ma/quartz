@@ -32,7 +32,7 @@ A = \begin{bmatrix}
 $$
 A linear combination $x_{1}\vec{u}+x_{2}\vec{v}+x_{3}\vec{w} = b$ can be expressed as:
 $$
-Ax = \begin{bmatrix}
+A\vec{x} = \begin{bmatrix}
 1 & 0 & 0 \\
 -1 & 1 & 0 \\
 0 & -1 & 1
@@ -48,3 +48,4 @@ x_{1} \\
 -x_{2}+x_{3}
 \end{bmatrix}
 $$
+The product of a matrix and a vector is a combination of the columns of the matrix. When we say $x_{1}\vec{u}+x_{2}\vec{v}+x_{3}\vec{w}=b$, we're thinking about multiplying numbers be vectors. When we say $A\vec{x}=\vec{b}$, we're thinking about multiplying a matrix (whose columns are $\vec{u}, \vec{v}, \vec{w}$) by the numbers.

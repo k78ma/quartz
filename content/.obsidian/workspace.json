@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Vector Combinations.md",
+                "file": "Linear Algebra/Matrix Basics.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md",
+                "file": "Robotics/Robotics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,12 +172,17 @@
       "templates:Insert template": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "61d35150793c77f1",
+  "active": "547b00b15c5ec59d",
   "lastOpenFiles": [
+    "Excalidraw/test.excalidraw.md",
     "Linear Algebra/Vector Combinations.md",
+    "Robotics/Robotics.md",
+    "Robotics/Modern Robotics – Lynch, Park.md",
     "Linear Algebra/Matrix Basics.md",
     "Linear Algebra/Linear Algebra.md",
     "Linear Algebra/Matrix-Vector Multiplication.md",
@@ -191,7 +195,6 @@
     "Philosophy/Philosophy.md",
     "OS/Operating Systems.md",
     "Calculus/Partial Derivatives.md",
-    "Robotics/Robotics.md",
     "Robotics/Configuration Space Topology.md",
     "Robotics/Open-chain vs Closed-chain mechanisms.md",
     "Robotics/Grubler’s Formula.md",
@@ -203,8 +206,6 @@
     "Robotics/Degrees of Freedom.md",
     "Philosophy/Ubermensch.md",
     "Philosophy/Thus Spoke Zarathustra (Nietzsche).md",
-    "Philosophy/Plato's Ideal World of Forms.md",
-    "Philosophy/Nietzsche's Will to Power.md",
     "Calculus/Pasted image 20230826210422.png",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
     "Calculus/attachments/3d plane.png",

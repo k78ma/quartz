@@ -49,5 +49,5 @@ alias:
 - [ROS](Robotics/ROS.md)
 
 ## Resources
-- [Modern Robotics – Lynch, Park](Modern%20Robotics%20%E2%80%93%20Lynch,%20Park)
-
+- [Modern Robotics – Lynch, Park](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
+- [MIT RSS](https://github.com/mit-rss)
