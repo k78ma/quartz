@@ -13,38 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calculus/Gradient Vector.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75edd7c84a29172e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calculus/Vector Functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a50e28fdf8e63aa4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Artificial Neuron.md",
+                "file": "Linear Algebra/Matrix Basics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Artificial Neuron.md",
+                "file": "Linear Algebra/Matrix Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Artificial Neuron.md",
+                "file": "Linear Algebra/Matrix Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Artificial Neuron.md"
+                "file": "Linear Algebra/Matrix Basics.md"
               }
             }
           },
@@ -190,12 +165,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a50e28fdf8e63aa4",
+  "active": "6ee5cee02dbaa2c7",
   "lastOpenFiles": [
+    "Linear Algebra/Matrix Basics.md",
     "Calculus/Gradient Vector.md",
-    "Linear Algebra/Matrix-Vector Multiplication.md",
-    "ML/Artificial Neuron.md",
     "Calculus/Vector Functions.md",
+    "ML/Artificial Neuron.md",
+    "Linear Algebra/Matrix-Vector Multiplication.md",
     "Calculus/Spherical Coordinates.md",
     "Calculus/Functions of Several Variables.md",
     "Calculus/Quadric Surfaces.md",
@@ -222,7 +198,6 @@
     "templates/Note.md",
     "Robotics/Robotics.md",
     "Excalidraw/test.excalidraw.md",
-    "Linear Algebra/Matrix Basics.md",
     "Linear Algebra/Vector Combinations.md",
     "Robotics/Modern Robotics – Lynch, Park.md",
     "Linear Algebra/Linear Algebra.md",
