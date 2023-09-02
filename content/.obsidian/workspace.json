@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1ccb860e6db4d55d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear Algebra/Linear Algebra.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3f29f6ba0892fed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Linear Algebra/Subspaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "7458d7e882b08264",
             "type": "leaf",
             "state": {
@@ -44,12 +20,24 @@
             }
           },
           {
-            "id": "868f2224194f0c61",
+            "id": "9a7f02c4d48558f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Calculus/Tangent Planes and Linear Approximations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5aadba493315e369",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Philosophy/Nietzsche on Love.md",
                 "mode": "source",
                 "source": false
               }
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Subspaces.md",
+                "file": "Calculus/Tangent Planes and Linear Approximations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Subspaces.md",
+                "file": "Calculus/Tangent Planes and Linear Approximations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Subspaces.md"
+                "file": "Calculus/Tangent Planes and Linear Approximations.md"
               }
             }
           },
@@ -202,18 +190,24 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f3f29f6ba0892fed",
+  "active": "9a7f02c4d48558f3",
   "lastOpenFiles": [
+    "Calculus/Calculus III.md",
+    "CS/Designing Functions.md",
+    "CS/Computer Science.md",
+    "Philosophy/Nietzsche on Love.md",
+    "templates/Note.md",
+    "Philosophy/Philosophy.md",
     "Linear Algebra/Linear Algebra.md",
-    "Linear Algebra/Subspaces.md",
     "Linear Algebra/Matrix Basics.md",
+    "Linear Algebra/Subspaces.md",
+    "Linear Algebra/Linear Independence.md",
+    "Calculus/Tangent Planes and Linear Approximations.md",
+    "Linear Algebra/Vector Combinations.md",
+    "Linear Algebra/Matrix-Vector Multiplication.md",
     "Calculus/Gradient Vector.md",
     "Vault Stats.md",
-    "Calculus/Tangent Planes and Linear Approximations.md",
     "index.md",
-    "CS/Designing Functions.md",
-    "Calculus/Calculus III.md",
-    "CS/Computer Science.md",
     "CS/Hashing.md",
     "Programming/leetcode.com.md",
     "CS/Algorithm Design Manual (Skiena).md",
@@ -221,15 +215,9 @@
     "Programming/LeetCode.md",
     "Calculus/Vector Functions.md",
     "ML/Artificial Neuron.md",
-    "Linear Algebra/Matrix-Vector Multiplication.md",
     "Calculus/Spherical Coordinates.md",
     "Calculus/Functions of Several Variables.md",
     "Calculus/Quadric Surfaces.md",
-    "Calculus/Multivariable Chain Rule.md",
-    "Calculus/Higher Order Partial Derivatives.md",
-    "Calculus/Calculus with Vector Functions.md",
-    "Calculus/Curvature.md",
-    "Calculus/Vector Equations of Planes.md",
     "Calculus/attachments/Pasted image 20230826210422.png",
     "Calculus/attachments/traces.png",
     "Calculus/attachments/Pasted image 20230801144947.png",

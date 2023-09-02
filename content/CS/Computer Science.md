@@ -3,10 +3,12 @@ title: Computer Science
 tags:
   - cs
 date: 2023-06-25
-aliases: []
+aliases:
+  - cs, CS
 ---
-## Programming Principles
-- [[CS/Designing Functions]]
+## Principles
+- [[CS/Designing Functions|Designing Functions]]
+
 ## Algorithms
 - Sorting Algorithms
 	- [ ] [[Bubble Sort]]

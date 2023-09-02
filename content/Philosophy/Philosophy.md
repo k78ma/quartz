@@ -15,7 +15,7 @@ draft:
 	- [[Philosophy/Nietzsche's Will to Power|Nietzsche's Will to Power]]
 	- [[Philosophy/Thus Spoke Zarathustra (Nietzsche)|Thus Spoke Zarathustra (Nietzsche)]]
 	- [[Philosophy/Ubermensch|Ubermensch]]
-	- [[Nietzsche on Love]]
+	- [[Philosophy/Nietzsche on Love|Nietzsche on Love]]
 
 - [[Peter Singer]]
 	- [[Effective Altruism]]

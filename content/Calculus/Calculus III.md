@@ -35,7 +35,7 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 
 
 ## Applications of Partial Derivatives
-- [ ] [[Tangent Planes and Linear Approximations]]
+- [ ] [[Calculus/Tangent Planes and Linear Approximations|Tangent Planes and Linear Approximations]]
 - [ ] [[Gradient Vector, Tangent Planes and Normal Lines]]
 - [ ] [[Relative Minimums and Maximums]]
 - [ ] [[Absolute Minimums and Maximums]]
