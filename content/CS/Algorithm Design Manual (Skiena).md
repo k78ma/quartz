@@ -14,4 +14,4 @@ Great algorithms textbook by Steven Skiena. First learned about it from https://
 	- Some examples and exercises are phrased in a very verbose way that can get pretty confusing
 
 ### Intro
-- [[Algorithmic Correctness]]
+- [[CS/Algorithmic Correctness]]

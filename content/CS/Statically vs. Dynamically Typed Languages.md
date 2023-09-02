@@ -24,4 +24,4 @@ Dynamically-typed do not:
 num = 5
 ```
 
-See also: [Strongly vs. Weakly Typed Languages](Programming/Strongly%20vs.%20Weakly%20Typed%20Languages.md)
+See also: [Strongly vs. Weakly Typed Languages](CS/Strongly%20vs.%20Weakly%20Typed%20Languages.md)

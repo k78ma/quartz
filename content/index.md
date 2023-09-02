@@ -13,7 +13,7 @@ Welcome to my notes!
 ### Engineering
 - [[ML/Machine Learning|Machine Learning]]
 - [[Robotics/Robotics|Robotics]]
-- [[Programming/Programming|Programming]]
+- [[CS/Computer Science|Computer Science]]
 - [[OS/Operating Systems|Operating Systems]]
 - [[Computer Architecture/Computer Architecture|Computer Architecture]]
 

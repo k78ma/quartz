@@ -13,13 +13,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md",
+                "file": "Linear Algebra/Linear Algebra.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3f29f6ba0892fed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/Subspaces.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7458d7e882b08264",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Designing Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "868f2224194f0c61",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/Tangent Planes and Linear Approximations.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md",
+                "file": "Linear Algebra/Subspaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md",
+                "file": "Linear Algebra/Subspaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -125,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Matrix Basics.md"
+                "file": "Linear Algebra/Subspaces.md"
               }
             }
           },
@@ -165,10 +202,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6ee5cee02dbaa2c7",
+  "active": "f3f29f6ba0892fed",
   "lastOpenFiles": [
+    "Linear Algebra/Linear Algebra.md",
+    "Linear Algebra/Subspaces.md",
     "Linear Algebra/Matrix Basics.md",
     "Calculus/Gradient Vector.md",
+    "Vault Stats.md",
+    "Calculus/Tangent Planes and Linear Approximations.md",
+    "index.md",
+    "CS/Designing Functions.md",
+    "Calculus/Calculus III.md",
+    "CS/Computer Science.md",
+    "CS/Hashing.md",
+    "Programming/leetcode.com.md",
+    "CS/Algorithm Design Manual (Skiena).md",
+    "CS/RAM Model of Computation.md",
+    "Programming/LeetCode.md",
     "Calculus/Vector Functions.md",
     "ML/Artificial Neuron.md",
     "Linear Algebra/Matrix-Vector Multiplication.md",
@@ -177,14 +227,9 @@
     "Calculus/Quadric Surfaces.md",
     "Calculus/Multivariable Chain Rule.md",
     "Calculus/Higher Order Partial Derivatives.md",
-    "Calculus/Calculus III.md",
     "Calculus/Calculus with Vector Functions.md",
     "Calculus/Curvature.md",
     "Calculus/Vector Equations of Planes.md",
-    "Calculus/Tangent, Normal, and Binormal Vectors.md",
-    "Calculus/Interpretations of Partial Derivatives.md",
-    "Calculus/Directional Derivatives.md",
-    "Calculus/Cylindrical Coordinates.md",
     "Calculus/attachments/Pasted image 20230826210422.png",
     "Calculus/attachments/traces.png",
     "Calculus/attachments/Pasted image 20230801144947.png",
@@ -195,14 +240,6 @@
     "Calculus/attachments/cone contour.png",
     "Calculus/attachments/spherical coordinates.png",
     "Calculus/attachments/quadric_surfaces.pdf",
-    "templates/Note.md",
-    "Robotics/Robotics.md",
-    "Excalidraw/test.excalidraw.md",
-    "Linear Algebra/Vector Combinations.md",
-    "Robotics/Modern Robotics – Lynch, Park.md",
-    "Linear Algebra/Linear Algebra.md",
-    "Linear Algebra/Geometry of Linear Equations.md",
-    "Computer Architecture/Computer Architecture.md",
     "2B/Linear Algebra",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
     "Calculus/attachments/3d plane.png",

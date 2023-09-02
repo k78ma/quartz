@@ -10,7 +10,7 @@ A good foundation of linear algebra contributes to deeper understanding of [[mac
 ## Basic Concepts
 - [x] [[Linear Algebra/Geometry of Linear Equations|Geometry of Linear Equations]]
 - [x] [[Vector Combinations]]
-- [ ] [[Linear Algebra/Matrix Basics|Matrix Basics]]
+- [x] [[Linear Algebra/Matrix Basics|Matrix Basics]]
 - [ ] [[Subspaces]]
 - [x] [[Linear Algebra/Matrix-Vector Multiplication|Matrix-Vector Multiplication]]
 - [x] [[Linear Algebra/Linear Independence|Linear Independence]]
