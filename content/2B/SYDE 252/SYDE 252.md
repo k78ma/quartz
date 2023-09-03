@@ -1,7 +1,10 @@
 ---
-title: "SYDE 252"
+title: SYDE 252
 date: 2023-08-22
-tag: 2b, moc
+tags:
+  - 2b
+  - moc
+  - "252"
 ---
 
 # Signals and Systems
