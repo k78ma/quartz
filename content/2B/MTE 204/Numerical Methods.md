@@ -1,10 +1,11 @@
 ---
-title: MTE 204
+title: Numerical Methods
 date: 2023-08-22
 tags:
   - 2b
   - moc
   - "204"
+aliases:
+  - MTE 204
 ---
-
-## Numerical Methods
+## MTE 204

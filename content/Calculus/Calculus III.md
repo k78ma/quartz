@@ -5,34 +5,32 @@ date: 2023-07-22
 alias:
 ---
 
-Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx) in preparation for [MTE 203](2B/MTE%20203/MTE%20203.md).
+Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx) in preparation for [[2B/MTE 203/Advanced Calculus|MTE 203]].
 
 ## 3D Space
-- [x] [3D Coordinate System](Calculus/3D%20Coordinate%20System.md)
-- [x] [Vector Equations of Lines](Calculus/Vector%20Equations%20of%20Lines.md)
-- [x] [Vector Equations of Planes](Calculus/Vector%20Equations%20of%20Planes.md)
-- [x] [Quadric Surfaces](Calculus/Quadric%20Surfaces.md)
-- [x] [Multivariable Functions](Calculus/Functions%20of%20Several%20Variables.md)
-- [x] [Vector Functions](Calculus/Vector%20Functions.md)
-- [x] [Calculus with Vector Functions](Calculus/Calculus%20with%20Vector%20Functions.md)
-- [x] [Tangent, Normal, and Binormal Vectors](Calculus/Tangent,%20Normal,%20and%20Binormal%20Vectors.md)
-- [x] [Arc Length with Vector Functions](Calculus/Arc%20Length%20with%20Vector%20Functions.md)
-- [x] [Curvature](Calculus/Curvature.md)
-- [x] [Velocity and Acceleration](Calculus/Velocity%20And%20Acceleration.md)
-- [x] [Cylindrical Coordinates](Calculus/Cylindrical%20Coordinates.md)
-- [x] [Spherical Coordinates](Calculus/Spherical%20Coordinates.md)
-
+- [[Calculus/3D Coordinate System|3D Coordinate System]]
+- [[Calculus/Vector Equations of Lines|Vector Equations of Lines]]
+- [[Calculus/Vector Equations of Planes|Vector Equations of Planes]]
+- [[Calculus/Quadric Surfaces|Quadric Surfaces]]
+- [[Calculus/Functions of Several Variables|Multivariable Functions]]
+- [[Calculus/Vector Functions|Vector Functions]]
+- [[Calculus/Calculus with Vector Functions|Calculus with Vector Functions]]
+- [[Calculus/Tangent, Normal, and Binormal Vectors|Tangent, Normal, and Binormal Vectors]]
+- [[Calculus/Arc Length with Vector Functions|Arc Length with Vector Functions]]
+- [[Calculus/Curvature|Curvature]]
+- [[Calculus/Velocity And Acceleration|Velocity And Acceleration]]
+- [[Calculus/Cylindrical Coordinates|Cylindrical Coordinates]]
+- [[Calculus/Spherical Coordinates|Spherical Coordinates]]
 
 ## Partial Derivatives
-- [x] [Limits (Multivariable)](Calculus/Limits%20(Multivariable).md)
-- [x] [[Calculus/Partial Derivatives|Partial Derivatives]]
-- [x] [Interpretations of Partial Derivatives](Calculus/Interpretations%20of%20Partial%20Derivatives.md)
-- [x] [Higher-Order Partial Derivatives](Calculus/Higher%20Order%20Partial%20Derivatives.md)
-- [x] [Multivariable Differentials](Calculus/Multivariable%20Differentials.md)
-- [x] [Multivariable Chain Rule](Calculus/Multivariable%20Chain%20Rule.md)
-- [x] [[Calculus/Directional Derivatives|Directional Derivatives]]
-- [x] [[Calculus/Gradient Vector|Gradient Vector]]
-
+- [[Calculus/Limits (Multivariable)|Limits (Multivariable)]]
+- [[Calculus/Partial Derivatives|Partial Derivatives]]
+- [[Calculus/Interpretations of Partial Derivatives|Interpretations of Partial Derivatives]]
+- [[Calculus/Higher Order Partial Derivatives|Higher Order Partial Derivatives]]
+- [[Calculus/Multivariable Differentials|Multivariable Differentials]]
+- [[Calculus/Multivariable Chain Rule|Multivariable Chain Rule]]
+- [[Calculus/Directional Derivatives|Directional Derivatives]]
+- [[Calculus/Gradient Vector|Gradient Vector]]
 
 ## Applications of Partial Derivatives
 - [ ] [[Calculus/Tangent Planes and Linear Approximations|Tangent Planes and Linear Approximations]]
