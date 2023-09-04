@@ -24,7 +24,7 @@ Nietzsche observes the flip side of this; being detached from the world prevents
 
 Basically, Nietzsche advocates for people to actively fight and work hard to make your life as good as you can; don't coast. But why do so many people in the world fail to achieve things and exert their power? Nietzsche thinks this is due to fear of failure or laziness; his philosophy is not for these people, but for the small hardworking population trying to exert their will to power by taking calculated risks. 
 
->[!quote]
+>[!quote] Nietzsche’s Motivational Will to Power
 >"For believe me! The secret for harvesting from existence the greatest fruitfulness and the greatest enjoyment is: to live dangerously! Build your cities on the slopes of Vesuvius! Send your ships into uncharted seas! Live at war with your peers and yourselves! Be robbers and conquerors as long as you cannot be rulers and possessors, you seekers of knowledge! Soon the age will be past when you could be content to live hidden in forests like shy deer! At long last the search for knowledge will reach out for its due: — it will want to rule and possess, and you with it!" — *The Gay Science*
 
 Nietzsche specifically advocates for embracing pain; experiencing pain is simply a part of human reality. Most people run from the pain and suffering, but Nietzsche wants us to ask: "What purpose does that pain serve to us?" Pain and hardship is nothing to run from; it's a valuable resource to make us better people. Climbing a mountain is hard and painful, but only by getting to the top can you see the most beautiful views. Nietzsche viewed pain and suffering as a privilege, and even wished it upon his friends and family. 

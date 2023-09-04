@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Philosophy/Nietzsche on Love.md",
+                "file": "Philosophy/Nietzsche's Will to Power.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Philosophy/Nietzsche on Love.md",
+                "file": "Philosophy/Nietzsche's Will to Power.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Philosophy/Nietzsche on Love.md",
+                "file": "Philosophy/Nietzsche's Will to Power.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Philosophy/Nietzsche on Love.md"
+                "file": "Philosophy/Nietzsche's Will to Power.md"
               }
             }
           },
@@ -192,13 +192,13 @@
   },
   "active": "58b161fdd0a617d8",
   "lastOpenFiles": [
+    "2B/MTE 204/Numerical Methods.md",
+    "Philosophy/Nietzsche on Love.md",
     "Calculus/Tangent Planes and Linear Approximations.md",
     "2B/MTE 203/Advanced Calculus.md",
     "2B/SYDE 252/Signals and Systems.md",
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",
     "2B/MTE 220/Sensors and Instrumentation.md",
-    "2B/MTE 204/Numerical Methods.md",
-    "Philosophy/Nietzsche on Love.md",
     "templates/Note.md",
     "Calculus/Calculus III.md",
     "index.md",
