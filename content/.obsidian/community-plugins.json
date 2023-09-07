@@ -11,5 +11,7 @@
   "obsidian-tasks-plugin",
   "omnisearch",
   "obsidian-kanban",
-  "obsidian-smart-typography"
+  "obsidian-smart-typography",
+  "obsidian-link-converter",
+  "obsidian-copy-block-link"
 ]

@@ -8,36 +8,48 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9a7f02c4d48558f3",
+            "id": "88f070eae02d27d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calculus/Tangent Planes and Linear Approximations.md",
+                "file": "Calculus/Vector Equations of Lines.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "58b161fdd0a617d8",
+            "id": "bb41d64b492c316b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Philosophy/Nietzsche's Will to Power.md",
+                "file": "2B/MTE 203/Surfaces.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9cb78cbc4b964444",
+            "id": "f6c67c773dca3f53",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Advanced Calculus.md",
+                "file": "2B/MTE 204/Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "01f95d91ddbfb49e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Sensors and Instrumentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:robotics",
+                "query": "tag:252",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 213.5
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Philosophy/Nietzsche's Will to Power.md",
+                "file": "2B/MTE 203/Surfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Philosophy/Nietzsche's Will to Power.md",
+                "file": "2B/MTE 203/Surfaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Philosophy/Nietzsche's Will to Power.md"
+                "file": "2B/MTE 203/Surfaces.md"
               }
             }
           },
@@ -175,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,34 +202,36 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "58b161fdd0a617d8",
+  "active": "bb41d64b492c316b",
   "lastOpenFiles": [
+    "2B/MTE 203/attachments/Pasted image 20230907161939.png",
+    "2B/MTE 203/Surfaces.md",
+    "2B/MTE 203/MTE 203 (Advanced Calculus).md",
+    "2B/MTE 203/Vector Review.md",
+    "Calculus/Vector Equations of Lines.md",
+    "Calculus/Vector Functions.md",
+    "2B/MTE 203/attachments",
+    "2B/MTE 203/Vectors and Vector Valued Functions.md",
+    "2B/MTE 203/3D Cartesian Space.md",
     "2B/MTE 204/Numerical Methods.md",
-    "Philosophy/Nietzsche on Love.md",
-    "Calculus/Tangent Planes and Linear Approximations.md",
-    "2B/MTE 203/Advanced Calculus.md",
+    "index.md",
+    "2B/MTE 220/Sensors and Instrumentation.md",
+    "Calculus/3D Cartesian Coordinates.md",
+    "Vault Stats.md",
+    "2B/MTE 203/attachments/Pasted image 20230907155224.png",
+    "2B/SYDE 252/Complex Numbers Review.md",
     "2B/SYDE 252/Signals and Systems.md",
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",
-    "2B/MTE 220/Sensors and Instrumentation.md",
+    "2B/SYDE 252/Systems.md",
+    "2B/SYDE 252/Signals.md",
+    "2B/MTE 204/Error Definition.md",
+    "Calculus/Quadric Surfaces.md",
+    "Calculus/Tangent Planes and Linear Approximations.md",
+    "Philosophy/Nietzsche's Will to Power.md",
+    "Philosophy/Nietzsche on Love.md",
     "templates/Note.md",
     "Calculus/Calculus III.md",
-    "index.md",
-    "Vault Stats.md",
     "CS/Designing Functions.md",
-    "CS/Computer Science.md",
-    "Philosophy/Philosophy.md",
-    "Linear Algebra/Linear Algebra.md",
-    "Linear Algebra/Matrix Basics.md",
-    "Linear Algebra/Subspaces.md",
-    "Linear Algebra/Linear Independence.md",
-    "Linear Algebra/Vector Combinations.md",
-    "Linear Algebra/Matrix-Vector Multiplication.md",
-    "Calculus/Gradient Vector.md",
-    "CS/Hashing.md",
-    "Programming/leetcode.com.md",
-    "CS/Algorithm Design Manual (Skiena).md",
-    "CS/RAM Model of Computation.md",
-    "Programming/LeetCode.md",
     "Calculus/attachments/Pasted image 20230826210422.png",
     "Calculus/attachments/traces.png",
     "Calculus/attachments/Pasted image 20230801144947.png",
@@ -226,18 +240,15 @@
     "Calculus/attachments/Pasted image 20230802140856.png",
     "Calculus/attachments/Pasted image 20230730004200.png",
     "Calculus/attachments/cone contour.png",
-    "Calculus/attachments/spherical coordinates.png",
     "Calculus/attachments/quadric_surfaces.pdf",
     "2B/Linear Algebra",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
-    "Calculus/attachments/3d plane.png",
     "private",
     "notes/images",
     "notes",
     "2B/SYDE 252",
     "2B/MTE 241",
     "2B/MTE 220",
-    "2B/MTE 204",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Other/AppGPT.canvas",

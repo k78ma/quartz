@@ -4,8 +4,10 @@ date: 2023-08-22
 tags:
   - 2b
   - moc
-  - "220"
+  - mte220
 aliases:
   - MTE 220
 ---
-## SYDE 252
+## MTE 220
+
+### Review 

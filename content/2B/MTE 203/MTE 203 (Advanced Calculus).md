@@ -1,0 +1,24 @@
+---
+title: MTE 203 (Advanced Calculus)
+date: 2023-08-22
+tags:
+  - 2b
+  - moc
+  - mte203
+aliases:
+  - MTE 203
+---
+## Concepts
+
+Lecture 1: Introduction to Multivariable Functions and Surfaces
+- [[2B/MTE 203/3D Cartesian Space|3D Cartesian Space]]
+	- [[2B/MTE 203/3D Cartesian Space#^zyeuan|Octants]]
+- [[2B/MTE 203/Surfaces|Surfaces]]
+
+Lecture 2: Vectors and Vector Valued Functions
+- [[Vector Review]]
+	- [[Vector Review#Inner Product (dot product)|Dot Product]]
+	- [[Vector Review#Cross Product|Cross Product]]
+- [[Vector Functions]]
+- [[Vector Equations of Lines]]
+- [[Vector Equations of Planes]]

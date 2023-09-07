@@ -1,6 +1,6 @@
 {
   "useMarkdownLinks": false,
-  "newLinkFormat": "absolute",
+  "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",

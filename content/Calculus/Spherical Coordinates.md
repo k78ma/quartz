@@ -5,7 +5,7 @@ date: 2023-08-10
 draft:
 ---
 
-3D coordinate system: alternative to [[Calculus/Cylindrical Coordinates|Cylindrical Coordinates]] and [[Calculus/3D Coordinate System|3D Cartesian Coordinates]].
+3D coordinate system: alternative to [[Calculus/Cylindrical Coordinates|Cylindrical Coordinates]] and [[Calculus/3D Cartesian Coordinates|3D Cartesian Coordinates]].
 
 ![[Calculus/attachments/spherical coordinates.png|300]]
 

@@ -4,8 +4,10 @@ date: 2023-08-22
 tags:
   - 2b
   - moc
-  - "241"
+  - mte241
 aliases:
   - MTE 241
 ---
 ## MTE 241
+
+Computer Organization
