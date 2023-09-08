@@ -22,3 +22,5 @@ Lecture 2: Vectors and Vector Valued Functions
 - [[Vector Functions]]
 - [[Vector Equations of Lines]]
 - [[Vector Equations of Planes]]
+
+Lecture 3:
