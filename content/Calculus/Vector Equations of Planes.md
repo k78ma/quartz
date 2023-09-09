@@ -1,8 +1,10 @@
 ---
-title: "Vector Equations of Planes"
-tag: calc3
+title: Vector Equations of Planes
+tags:
+  - calc3
+  - mte203
 date: 2023-07-22
-alias:
+aliases: []
 ---
 
 Representing planes with vector equations – extension of [Vector Equations of Lines](Calculus/Vector%20Equations%20of%20Lines.md)
@@ -23,7 +25,15 @@ Then, vector $\vec{r} - \vec{r_0}$ lies on the plane.
 
 ## Vector Equation of Plane
 Since $\vec{n}$ is normal, by the properties of dot product we have: 
-$$\vec{n} \cdot (\vec{r}-\vec{r_{0}})= 0$$$$\vec{n} \cdot \vec{r} = \vec{n} \cdot \vec{r_0}$$
+$$
+\begin{align}
+\vec{n} \cdot (\vec{r}-\vec{r_{0}})= 0 \\
+A(x-x_{0})+B(y-y_{0})+C(z-z_{0})=0 \\
+\langle A,B,C \rangle \cdot \langle x-x_{0},y-y_{0},z-z_{0} \rangle=0  
+\end{align}
+$$
+We can also use:
+$$\vec{n} \cdot \vec{r} = \vec{n} \cdot \vec{r_0}$$
 ## Scalar Equation of Plane
 A more useful form:
 $$

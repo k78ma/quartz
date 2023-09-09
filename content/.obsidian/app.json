@@ -1,9 +1,9 @@
 {
   "useMarkdownLinks": false,
-  "newLinkFormat": "shortest",
+  "newLinkFormat": "absolute",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./",
   "livePreview": true,
-  "autoPairBrackets": false
+  "autoPairBrackets": true
 }

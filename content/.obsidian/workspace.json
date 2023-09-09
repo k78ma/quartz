@@ -4,59 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "41c909d262e189a8",
+        "id": "07c3e57ce91eb833",
         "type": "tabs",
         "children": [
           {
-            "id": "88f070eae02d27d6",
+            "id": "9065cb9f479ba37e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calculus/Vector Equations of Lines.md",
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bb41d64b492c316b",
+            "id": "4fa20b3477079c80",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Surfaces.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6c67c773dca3f53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 204/Numerical Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "01f95d91ddbfb49e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Sensors and Instrumentation.md",
+                "file": "2B/MTE 241/Registers.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 203/Surfaces.md",
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 203/Surfaces.md",
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 203/Surfaces.md"
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md"
               }
             }
           },
@@ -202,44 +177,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bb41d64b492c316b",
+  "active": "9065cb9f479ba37e",
   "lastOpenFiles": [
-    "2B/MTE 203/attachments/Pasted image 20230907161939.png",
-    "2B/MTE 203/Surfaces.md",
+    "2B/MTE 241/Registers.md",
+    "2B/MTE 241/Computer Structures & Real-Time Systems.md",
+    "2B/MTE 241/Bus.md",
+    "2B/MTE 241/Memory Hierarchy.md",
+    "Calculus/Vector Equations of Planes.md",
     "2B/MTE 203/MTE 203 (Advanced Calculus).md",
     "2B/MTE 203/Vector Review.md",
     "Calculus/Vector Equations of Lines.md",
     "Calculus/Vector Functions.md",
+    "Calculus/Functions of Several Variables.md",
+    "2B/MTE 203/Surfaces.md",
+    "2B/MTE 203/3D Cartesian Space.md",
+    "Calculus/attachments/cylindrical coordinates.png",
+    "Calculus/attachments/vector line.png",
+    "index.md",
+    "2B/MTE 220/MTE 220 (Sensors and Instrumentation).md",
+    "2B/MTE 203/attachments/Pasted image 20230907161939.png",
     "2B/MTE 203/attachments",
     "2B/MTE 203/Vectors and Vector Valued Functions.md",
-    "2B/MTE 203/3D Cartesian Space.md",
     "2B/MTE 204/Numerical Methods.md",
-    "index.md",
-    "2B/MTE 220/Sensors and Instrumentation.md",
     "Calculus/3D Cartesian Coordinates.md",
     "Vault Stats.md",
     "2B/MTE 203/attachments/Pasted image 20230907155224.png",
     "2B/SYDE 252/Complex Numbers Review.md",
     "2B/SYDE 252/Signals and Systems.md",
-    "2B/MTE 241/Computer Structures & Real-Time Systems.md",
     "2B/SYDE 252/Systems.md",
     "2B/SYDE 252/Signals.md",
     "2B/MTE 204/Error Definition.md",
     "Calculus/Quadric Surfaces.md",
     "Calculus/Tangent Planes and Linear Approximations.md",
     "Philosophy/Nietzsche's Will to Power.md",
-    "Philosophy/Nietzsche on Love.md",
-    "templates/Note.md",
-    "Calculus/Calculus III.md",
-    "CS/Designing Functions.md",
     "Calculus/attachments/Pasted image 20230826210422.png",
     "Calculus/attachments/traces.png",
     "Calculus/attachments/Pasted image 20230801144947.png",
     "Calculus/attachments/Pasted image 20230731105534.png",
     "Calculus/attachments/Pasted image 20230811144258.png",
     "Calculus/attachments/Pasted image 20230802140856.png",
-    "Calculus/attachments/Pasted image 20230730004200.png",
-    "Calculus/attachments/cone contour.png",
     "Calculus/attachments/quadric_surfaces.pdf",
     "2B/Linear Algebra",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",

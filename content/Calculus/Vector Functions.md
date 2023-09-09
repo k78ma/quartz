@@ -1,8 +1,10 @@
 ---
-title: "Vector Functions"
-tag: calc3
+title: Vector Functions
+tags:
+  - calc3
+  - mte203
 date: 2023-07-22
-alias:
+aliases: []
 ---
 
 - Taking variables, return a vector

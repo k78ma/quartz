@@ -16,13 +16,15 @@ Equation of a plane: $ax + by + cz$
 $f(x,y,z)$ would be a 4D surface!
 
 ---
-## Level/Contour Curves
+## Level Curves
 
 Level curves of a 3D function $z = f(x,y)$ are 2D curves we get by setting $z=k$, where $k$ is any number. Thus, equations of level curves are $f(x,y) = k$.
 
 The intuition for this like slicing a 3D object at a certain height.
 - Contour/level represents the intersection given by surface $z = f(x,y)$ and $z=k$
 For higher dimensions like $f(x,y,z)$, it would be a level surface instead of a level curve
+
+A plot of various level curves is called a contour plot.
 
 >[!example] Example: Cone Level Curves
 >Identify the level curves of $f(x,y) = \sqrt{x^{2}+y^2}$.

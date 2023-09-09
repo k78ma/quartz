@@ -27,12 +27,14 @@ Slope needs to be defined as a direction in 3D.
 - Let $\vec{a} = \vec{P_{0}P}$
 - Let $\vec{v} = \langle a,b,c\rangle$ that is parallel to $\vec{a}$
 
-![300](Calculus/attachments/Pasted%20image%2020230730004200.png)
+![[Calculus/attachments/vector line.png|286]]
 
 Then, we have $\vec{r} = \vec{r_{0}} + \vec{a}$, and there is some $t$ that $\vec{a} = t\vec{v}$.
 Thus, we have:
 $$
+\boxed{
 \vec{r} = \vec{r_{0}}+ t\vec{v} = \langle x_0,y_0,z_{0} \rangle + t\langle a,b,c\rangle \tag{1}
+}
 $$
 
 This is the **vector form of equation of a line.**
@@ -50,17 +52,21 @@ $$
 
 Thus, we can get a **parametric form**:
 $$
+\boxed{
 \begin{align}
 x &= x_{0}+ ta \\
 y &= y_{0}+ tb \\
 z &= z_{0}+tc
 \end{align}
+}
 $$
 ---
 ## Symmetric form
 If we isolate $t$ in the parametric form, we can get:
 $$
+\boxed{
 \frac{x-x_{0}}{a}, \frac{y-y_{0}}{b},\frac{z-z_{0}}{c}
+}
 $$
 This is still valid even if one of them is $0$:
 - For example, if $b=0$,  $t$ will not exist in the parametric equation for $y$and so we will only solve the parametric equations for $x$ and $z$ for $t$: 

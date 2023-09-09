@@ -11,3 +11,9 @@ aliases:
 ## MTE 241
 
 Computer Organization
+- [[Memory Hierarchy]]
+- [[Bus]]
+- [[2B/MTE 241/Registers|Registers]]
+- [[ARM Cortex M4 Registers]]
+
+C language features
