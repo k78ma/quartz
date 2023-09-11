@@ -24,4 +24,7 @@ Lecture 2: Vectors and Vector Valued Functions
 - [[Vector Equations of Lines]]
 - [[Vector Equations of Planes]]
 
-Lecture 3:
+Lecture 3: Differentiation and Integration of Vector-valued Functions and the Parametrization of Curves
+- [[Limits of Vector Functions]]
+- [[Derivatives of Vector Functions]]
+- 

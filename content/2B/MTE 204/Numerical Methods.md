@@ -8,10 +8,15 @@ tags:
 aliases:
   - MTE 204
 ---
-## MTE 204
+## Concepts
 
-- [[2B/MTE 204/Error Definition|Error Definition]]
-- Roots of Equations
+Errors
+	- [[2B/MTE 204/Error Definitions|Error Definitions]]
+	- [[Stopping Criterion]]
+	- [[Types of Errors]]
+	- [[Control of Numerical Errors]]
+
+[[Roots of Equations]]
 	- [[Graphical Methods]]
 	- [[Bisection Methods]]
 	- Root finding, open methods – [[Newton Raphson]]

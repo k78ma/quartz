@@ -13,19 +13,55 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
+                "file": "2B/MTE 241/C Book.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4fa20b3477079c80",
+            "id": "ca7e1d17340769f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/Registers.md",
+                "file": "2B/MTE 204/Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9966ef97b1598d81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/MTE 203 (Advanced Calculus).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1d6225ada2520505",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/Derivatives of Vector Functions.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5295702645bdabc4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/Calculus with Vector Functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
+                "file": "2B/MTE 241/C Book.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
+                "file": "2B/MTE 241/C Book.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -137,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md"
+                "file": "2B/MTE 241/C Book.md"
               }
             }
           },
@@ -179,43 +215,44 @@
   },
   "active": "9065cb9f479ba37e",
   "lastOpenFiles": [
+    "Calculus/Vector Equations of Planes.md",
+    "2B/MTE 241/C Book.md",
+    "2B/MTE 203/Derivatives of Vector Functions.md",
+    "Calculus/Calculus with Vector Functions.md",
+    "2B/MTE 203/MTE 203 (Advanced Calculus).md",
+    "2B/MTE 203/Limits of Vector Functions.md",
+    "2B/MTE 204/Numerical Methods.md",
+    "Calculus/Limits (Multivariable).md",
+    "2B/MTE 204/Control of Numerical Errors.md",
+    "2B/MTE 204/Error Definitions.md",
+    "2B/MTE 204/Stopping Criterion.md",
+    "2B/MTE 204/Types of Errors.md",
+    "2B/MTE 204/Pasted image 20230910190611.png",
+    "Vault Stats.md",
+    "2B/MTE 204/Absolute Error.md",
     "2B/MTE 241/Registers.md",
+    "Calculus/Partial Derivatives.md",
+    "Calculus/Quadric Surfaces.md",
+    "Polymath/Polymath ML Productization.canvas",
+    "Polymath/Basic PP Node.md",
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",
     "2B/MTE 241/Bus.md",
     "2B/MTE 241/Memory Hierarchy.md",
-    "Calculus/Vector Equations of Planes.md",
-    "2B/MTE 203/MTE 203 (Advanced Calculus).md",
     "2B/MTE 203/Vector Review.md",
     "Calculus/Vector Equations of Lines.md",
     "Calculus/Vector Functions.md",
     "Calculus/Functions of Several Variables.md",
     "2B/MTE 203/Surfaces.md",
-    "2B/MTE 203/3D Cartesian Space.md",
     "Calculus/attachments/cylindrical coordinates.png",
     "Calculus/attachments/vector line.png",
-    "index.md",
-    "2B/MTE 220/MTE 220 (Sensors and Instrumentation).md",
     "2B/MTE 203/attachments/Pasted image 20230907161939.png",
     "2B/MTE 203/attachments",
-    "2B/MTE 203/Vectors and Vector Valued Functions.md",
-    "2B/MTE 204/Numerical Methods.md",
-    "Calculus/3D Cartesian Coordinates.md",
-    "Vault Stats.md",
     "2B/MTE 203/attachments/Pasted image 20230907155224.png",
-    "2B/SYDE 252/Complex Numbers Review.md",
-    "2B/SYDE 252/Signals and Systems.md",
-    "2B/SYDE 252/Systems.md",
-    "2B/SYDE 252/Signals.md",
-    "2B/MTE 204/Error Definition.md",
-    "Calculus/Quadric Surfaces.md",
-    "Calculus/Tangent Planes and Linear Approximations.md",
-    "Philosophy/Nietzsche's Will to Power.md",
     "Calculus/attachments/Pasted image 20230826210422.png",
     "Calculus/attachments/traces.png",
     "Calculus/attachments/Pasted image 20230801144947.png",
     "Calculus/attachments/Pasted image 20230731105534.png",
     "Calculus/attachments/Pasted image 20230811144258.png",
-    "Calculus/attachments/Pasted image 20230802140856.png",
     "Calculus/attachments/quadric_surfaces.pdf",
     "2B/Linear Algebra",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
@@ -225,7 +262,6 @@
     "2B/SYDE 252",
     "2B/MTE 241",
     "2B/MTE 220",
-    "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Other/AppGPT.canvas",
     "Untitled 1.canvas",
