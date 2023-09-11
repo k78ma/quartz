@@ -8,7 +8,7 @@ tags:
 aliases:
   - MTE 241
 ---
-## MTE 241
+## Concepts
 
 Computer Organization
 - [[Memory Hierarchy]]
@@ -17,3 +17,7 @@ Computer Organization
 - [[ARM Cortex M4 Registers]]
 
 C language features
+
+## Resources
+- [[C Book]]
+- [A Little C Primer](https://en.wikibooks.org/wiki/A_Little_C_Primer)

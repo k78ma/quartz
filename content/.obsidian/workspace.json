@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/C Book.md",
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 241/C Book.md",
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 241/C Book.md",
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 241/C Book.md"
+                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md"
               }
             }
           },
@@ -215,8 +215,10 @@
   },
   "active": "9065cb9f479ba37e",
   "lastOpenFiles": [
-    "Calculus/Vector Equations of Planes.md",
     "2B/MTE 241/C Book.md",
+    "Calculus/Quadric Surfaces.md",
+    "Calculus/Partial Derivatives.md",
+    "Calculus/Vector Equations of Planes.md",
     "2B/MTE 203/Derivatives of Vector Functions.md",
     "Calculus/Calculus with Vector Functions.md",
     "2B/MTE 203/MTE 203 (Advanced Calculus).md",
@@ -231,8 +233,6 @@
     "Vault Stats.md",
     "2B/MTE 204/Absolute Error.md",
     "2B/MTE 241/Registers.md",
-    "Calculus/Partial Derivatives.md",
-    "Calculus/Quadric Surfaces.md",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Basic PP Node.md",
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",

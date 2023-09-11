@@ -675,7 +675,7 @@ C programmers like to use integer types for boolean algebra.  Although C99 and C
 
 **The truth table of OR**
 
-| `A` | `B` | `A || B` |
+| `A` | `B` | `A OR B` |
 | -: | -: | -: |
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
