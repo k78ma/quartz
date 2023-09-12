@@ -19,6 +19,7 @@ $$
 &= f'(t) \vec{i} + g'(t) \vec{j} +h'(t)\vec{k}
 \end{align}
 $$
+This is also denoted by $\frac{ d\vec{r} }{ dt }$ and $\vec{T}(t)$.
 ### Properties
 Chain rule:
 $$

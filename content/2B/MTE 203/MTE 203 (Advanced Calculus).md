@@ -27,4 +27,8 @@ Lecture 2: Vectors and Vector Valued Functions
 Lecture 3: Differentiation and Integration of Vector-valued Functions and the Parametrization of Curves
 - [[Limits of Vector Functions]]
 - [[Derivatives of Vector Functions]]
-- 
+- [[Integration of Vector Functions]]
+- [[Parametrizing Curves]]
+
+## Problems
+- [[Suggested Problems]]
