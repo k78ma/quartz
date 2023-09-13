@@ -30,5 +30,10 @@ Lecture 3: Differentiation and Integration of Vector-valued Functions and the Pa
 - [[Integration of Vector Functions]]
 - [[Parametrizing Curves]]
 
+Lecture 4: Tangent vectors, arc length and unit tangent vectors
+- [[Tangent Vector]]
+- [[Smooth Curves]]
+- [[Arc Length]]
+
 ## Problems
 - [[Suggested Problems]]

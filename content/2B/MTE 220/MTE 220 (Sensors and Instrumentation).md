@@ -11,4 +11,26 @@ aliases:
 ## Concepts
 
 ### Linear Circuits Review 
+Components
+- [[Voltage and Current Sources]]
+- [[Resistors]]
+- [[Capacitors]]
+- [[Inductors]]
+Topological Equations
+- [[Kirchhoff’s Current Law (KCL)]]
+- [[Kirchhoff’s Voltage Law (KVL)]]
+Analysis Tools and Techniques
+- [[Voltage and Current Dividers]]
+- [[Nodal Analysis]]
+	- [[Nodal Analysis with Dependent Sources]]
+	- [[Supernodes]]
+- [[Mesh Analysis]]
+	- [[Mesh Analysis with Dependent Sources]]
+	- [[Supermesh]]
+- [[Thevenin/Norton Representations]]
+Op-amps
+- [[Op-amp Basiscs]]
+- [[Feedback]]
+- [[Op-amp Assumptions]]
+- [[Op-amp Configurations]]
 

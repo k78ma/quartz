@@ -20,6 +20,8 @@ draft:
 - [[Peter Singer]]
 	- [[Effective Altruism]]
 
+- Nagel
+	- [[Death (Nagel)]]
 
 - Kant
 - Schopenhauer

@@ -1,5 +1,5 @@
 ---
-title: MTE 220 (Computer Structures & Real-Time Systems)
+title: MTE 241 (Computer Structures & Real-Time Systems)
 date: 2023-08-22
 tags:
   - 2b

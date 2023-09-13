@@ -10,7 +10,10 @@ aliases:
 ---
 ## SYDE 252
 
+Week 1
 - [[2B/SYDE 252/Signals|Signals]]
 - [[2B/SYDE 252/Systems|Systems]]
 - [[Complex Numbers Review]]
 
+Week 2
+- [[Classifications of Signals]]
