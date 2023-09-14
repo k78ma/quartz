@@ -1,5 +1,5 @@
 ---
-title: MTE 241 (Computer Structures & Real-Time Systems)
+title: Computer Structures & Real-Time Systems
 date: 2023-08-22
 tags:
   - 2b
@@ -8,7 +8,7 @@ tags:
 aliases:
   - MTE 241
 ---
-## Concepts
+## MTE 241
 
 Computer Organization
 - [[Memory Hierarchy]]

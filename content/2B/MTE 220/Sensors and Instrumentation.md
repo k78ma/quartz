@@ -1,5 +1,5 @@
 ---
-title: MTE 220 (Sensors and Instrumentation)
+title: Sensors and Instrumentation
 date: 2023-08-22
 tags:
   - 2b
@@ -8,7 +8,7 @@ tags:
 aliases:
   - MTE 220
 ---
-## Concepts
+## MTE 220
 
 ### Linear Circuits Review 
 Components

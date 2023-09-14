@@ -1,5 +1,5 @@
 ---
-title: MTE 203 (Advanced Calculus)
+title: Advanced Calculus
 date: 2023-08-22
 tags:
   - 2b
@@ -8,7 +8,7 @@ tags:
 aliases:
   - MTE 203
 ---
-## Concepts
+## MTE 203
 
 Lecture 1: Introduction to Multivariable Functions and Surfaces
 - [[2B/MTE 203/3D Cartesian Space|3D Cartesian Space]]

@@ -23,11 +23,11 @@ Welcome to my notes!
 
 ### Courses
 - 2B
-	- [[2B/MTE 203/MTE 203 (Advanced Calculus)|MTE 203 (Advanced Calculus)]]
-	- [[2B/MTE 204/Numerical Methods|MTE 204 (Numerical Methods)]]
-	- [[2B/MTE 220/MTE 220 (Sensors and Instrumentation)|MTE 220 (Sensors and Instrumentation)]]
-	- [[MTE 241 (Computer Structures & Real-Time Systems)|MTE 241 (Computer Structures & Real-Time Systems)]]
-	- [[2B/SYDE 252/Signals and Systems|SYDE 252 (Signals and Systems)]] 
+	- [[Advanced Calculus|MTE 203 - Advanced Calculus]]
+	- [[2B/MTE 204/Numerical Methods|MTE 204 - Numerical Methods]]
+	- [[Sensors and Instrumentation|MTE 220 - Sensors and Instrumentation]]
+	- [[Computer Structures & Real-Time Systems|MTE 241 - Computer Structures & Real-Time Systems]]
+	- [[2B/SYDE 252/Signals and Systems|SYDE 252 - Signals and Systems]] 
 ### Other
 - [[Philosophy/Philosophy|Philosophy]]
 ---

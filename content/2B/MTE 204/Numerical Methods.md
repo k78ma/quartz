@@ -8,7 +8,7 @@ tags:
 aliases:
   - MTE 204
 ---
-## Concepts
+## MTE 204
 
 Errors
 	- [[2B/MTE 204/Error Definitions|Error Definitions]]

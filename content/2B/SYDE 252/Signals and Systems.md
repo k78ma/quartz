@@ -10,10 +10,14 @@ aliases:
 ---
 ## SYDE 252
 
-Week 1
+Intro
 - [[2B/SYDE 252/Signals|Signals]]
 - [[2B/SYDE 252/Systems|Systems]]
 - [[Complex Numbers Review]]
 
-Week 2
-- [[Classifications of Signals]]
+Classification of Signals
+- [[Continuous Time and Discrete Time]]
+- [[Analog vs. Digital Signals]]
+- [[Periodic vs. Aperiodic Signals]]
+- [[Signal Energy]]
+- [[Signal Power]]
