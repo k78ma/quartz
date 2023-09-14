@@ -51,9 +51,9 @@
               "state": {
                 "file": "Polymath/Polymath ML Productization.canvas",
                 "viewState": {
-                  "x": 26.566920415224892,
-                  "y": 1313.2678200692042,
-                  "zoom": -1.0918608581942226
+                  "x": -38.143115773496234,
+                  "y": 790.0732583422507,
+                  "zoom": 0.5481391418057775
                 }
               }
             }
@@ -69,24 +69,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "84cc98c66dee25c4",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Other/idfk.canvas",
-                "viewState": {
-                  "x": 40.128956741320515,
-                  "y": 162.87832752799045,
-                  "zoom": -0.2693791769655943
-                }
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Other/idfk.canvas",
+                "file": "Polymath/Polymath ML Productization.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other/idfk.canvas",
+                "file": "Polymath/Polymath ML Productization.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +177,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other/idfk.canvas"
+                "file": "Polymath/Polymath ML Productization.canvas"
               }
             }
           },
@@ -242,9 +227,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "84cc98c66dee25c4",
+  "active": "1741242103404f33",
   "lastOpenFiles": [
+    "2B/MTE 220/Sensors and Instrumentation.md",
     "2B/SYDE 252/Signals and Systems.md",
+    "Other/idfk.canvas",
     "2B/SYDE 252/Signals.md",
     "2B/MTE 203/Advanced Calculus.md",
     "2B/SYDE 252/Analog vs. Digital Signals.md",
@@ -253,7 +240,6 @@
     "excalidraw/Drawing 2023-09-14 08.55.12.excalidraw.md",
     "Excalidraw/Drawing 2023-09-14 08.55.12.excalidraw.md",
     "2B/MTE 204/Numerical Methods.md",
-    "2B/MTE 220/Sensors and Instrumentation.md",
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",
     "2B/SYDE 252/Pasted image 20230914085234.png",
     "2B/SYDE 252/Pasted image 20230914085205.png",
@@ -274,7 +260,6 @@
     "2B/SYDE 252/Complex Numbers Review.md",
     "Philosophy/Death (Nagel).md",
     "Philosophy/Philosophy.md",
-    "nagel death.md",
     "Calculus/attachments/cylindrical coordinates.png",
     "Calculus/attachments/vector line.png",
     "2B/MTE 203/attachments/Pasted image 20230907161939.png",
@@ -292,7 +277,6 @@
     "2B/SYDE 252",
     "2B/MTE 241",
     "Polymath/Polymath ML Productization Simplified.canvas",
-    "Other/idfk.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]
