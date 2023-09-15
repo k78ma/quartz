@@ -1,5 +1,5 @@
 ---
-title: HTN 2023 Project
+title: HTN 2023 Project Idea
 tags: 
 date: 2023-09-15
 ---
