@@ -37,24 +37,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Advanced Calculus.md",
+                "file": "2B/MTE 203/Normal Vectors.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "1741242103404f33",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Polymath/Polymath ML Productization.canvas",
-                "viewState": {
-                  "x": -38.143115773496234,
-                  "y": 790.0732583422507,
-                  "zoom": 0.5481391418057775
-                }
               }
             }
           },
@@ -69,9 +54,36 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "02184c3c6fae7c75",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Other/idfk.canvas",
+                "viewState": {
+                  "x": 120.11806836637648,
+                  "y": 17.15907461237455,
+                  "zoom": 0.14003705762700241
+                }
+              }
+            }
+          },
+          {
+            "id": "efb71dcdea5c80c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HTN 2023 Project Idea.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -137,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polymath/Polymath ML Productization.canvas",
+                "file": "HTN 2023 Project Idea.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +166,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polymath/Polymath ML Productization.canvas",
+                "file": "HTN 2023 Project Idea.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -177,7 +189,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polymath/Polymath ML Productization.canvas"
+                "file": "HTN 2023 Project Idea.md"
               }
             }
           },
@@ -227,13 +239,31 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "1741242103404f33",
+  "active": "efb71dcdea5c80c8",
   "lastOpenFiles": [
-    "2B/MTE 220/Sensors and Instrumentation.md",
-    "2B/SYDE 252/Signals and Systems.md",
     "Other/idfk.canvas",
-    "2B/SYDE 252/Signals.md",
+    "HTN 2023 Project Idea.md",
+    "Pasted image 20230915132341.png",
+    "Pasted image 20230915132131.png",
+    "2B/MTE 203/Normal Vectors.md",
     "2B/MTE 203/Advanced Calculus.md",
+    "2B/MTE 203/Excalidraw/Drawing 2023-09-15 10.53.21.excalidraw.md",
+    "private/private.md",
+    "2B/MTE 203/Excalidraw/Untitled.md",
+    "2B/MTE 203/Excalidraw",
+    "templates/Note.md",
+    "private",
+    "Thoughts/Studying.md",
+    "2B/SYDE 252/Signals and Systems.md",
+    "Vault Stats.md",
+    "2B/MTE 203/Tangent Vector.md",
+    "Polymath/attachments/Labeled bboxes.png",
+    "Polymath/attachments/Labeled bboxes 1.png",
+    "Polymath/attachments/Camera.png",
+    "Polymath/Polymath ML Productization.canvas",
+    "Polymath/Polymath ML Productization Simplified.canvas",
+    "2B/MTE 220/Sensors and Instrumentation.md",
+    "2B/SYDE 252/Signals.md",
     "2B/SYDE 252/Analog vs. Digital Signals.md",
     "2B/SYDE 252/Periodic vs. Aperiodic Signals.md",
     "2B/SYDE 252/Continuous Time and Discrete Time.md",
@@ -243,7 +273,6 @@
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",
     "2B/SYDE 252/Pasted image 20230914085234.png",
     "2B/SYDE 252/Pasted image 20230914085205.png",
-    "Polymath/Polymath ML Productization.canvas",
     "index.md",
     "2B/MTE 204/Stopping Criterion.md",
     "2B/MTE 204/Error Definitions.md",
@@ -251,32 +280,15 @@
     "2B/MTE 204/attachments/Pasted image 20230910190611.png",
     "2B/MTE 204/attachments",
     "2B/MTE 203/Suggested Problems.md",
-    "2B/MTE 203/Arc Length.md",
-    "Calculus/Arc Length with Vector Functions.md",
-    "2B/MTE 203/Smooth Curves.md",
-    "2B/MTE 203/Tangent Vector.md",
-    "2B/MTE 241/Bus.md",
-    "2B/MTE 241/Memory Hierarchy.md",
-    "2B/SYDE 252/Complex Numbers Review.md",
-    "Philosophy/Death (Nagel).md",
-    "Philosophy/Philosophy.md",
     "Calculus/attachments/cylindrical coordinates.png",
     "Calculus/attachments/vector line.png",
-    "2B/MTE 203/attachments/Pasted image 20230907161939.png",
     "2B/MTE 203/attachments",
-    "2B/MTE 203/attachments/Pasted image 20230907155224.png",
-    "Calculus/attachments/Pasted image 20230826210422.png",
-    "Calculus/attachments/traces.png",
-    "Calculus/attachments/Pasted image 20230801144947.png",
     "Calculus/attachments/quadric_surfaces.pdf",
     "2B/Linear Algebra",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
     "private",
     "notes/images",
     "notes",
-    "2B/SYDE 252",
-    "2B/MTE 241",
-    "Polymath/Polymath ML Productization Simplified.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

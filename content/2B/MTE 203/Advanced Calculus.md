@@ -34,6 +34,7 @@ Lecture 4: Tangent vectors, arc length and unit tangent vectors
 - [[Tangent Vector]]
 - [[Smooth Curves]]
 - [[Arc Length]]
+- [[Normal Vectors]]
 
 ## Problems
 - [[Suggested Problems]]
