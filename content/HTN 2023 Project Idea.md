@@ -42,3 +42,13 @@ The general idea of this project is to automate tasks using a Cohere LLM to crea
 	- so if stuff doesn’t work we blame Cohere :)
 - Some bullshit statements to sprinkle in:
 	- “Because your generated code is saved locally, it’s personal and secure”
+
+
+# Key Features
+- Generate an applet from user prompts
+	- Code + test cases
+	- Self-debugging and testing
+	- Name and icon generation
+	- Reverse prompting
+- Save your applets to be re-used
+- Share your applets with other people
