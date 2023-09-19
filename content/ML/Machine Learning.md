@@ -39,6 +39,10 @@ date: 2023-06-25
 - [[Decision Trees and Nearest Neighbours]]
 
 
+## Models/Architectures
+- [[GRU (Gated Recurrent Unit)]]
+- [[LSTM (Long Term Short Memory)]]
+
 ## Model Behavior/Alteration
 - [[ML/Task Arithmetic|Task Arithmetic]]
 

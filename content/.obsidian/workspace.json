@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "669dd068e5c82260",
+            "id": "fc8b31b5f3a080fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Normal Vectors.md",
+                "file": "2B/MTE 203/Advanced Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,34 +56,31 @@
             }
           },
           {
-            "id": "02184c3c6fae7c75",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Other/idfk.canvas",
-                "viewState": {
-                  "x": 120.11806836637648,
-                  "y": 17.15907461237455,
-                  "zoom": 0.14003705762700241
-                }
-              }
-            }
-          },
-          {
-            "id": "efb71dcdea5c80c8",
+            "id": "f53cba057259ad5f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTN 2023 Project Idea.md",
+                "file": "ML/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1c4b9e949feff3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Calculus/Curvature.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -149,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTN 2023 Project Idea.md",
+                "file": "2B/MTE 203/Advanced Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTN 2023 Project Idea.md",
+                "file": "2B/MTE 203/Advanced Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -189,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTN 2023 Project Idea.md"
+                "file": "2B/MTE 203/Advanced Calculus.md"
               }
             }
           },
@@ -239,14 +236,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "efb71dcdea5c80c8",
+  "active": "fc8b31b5f3a080fd",
   "lastOpenFiles": [
-    "Other/idfk.canvas",
+    "2B/MTE 203/Curvature, Radius of Curvature, Circle of Curvature.md",
+    "2B/MTE 203/Advanced Calculus.md",
+    "2B/MTE 241/Computer Structures & Real-Time Systems.md",
+    "2B/MTE 203/Radius of Curvature.md",
+    "Calculus/Curvature.md",
+    "2B/MTE 203/Binormal Vector.md",
+    "2B/MTE 203/Normal Vectors.md",
+    "2B/MTE 203/Multivariable Functions.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 203/Surfaces.md",
+    "2B/MTE 203/Smooth Curves.md",
+    "ML/Machine Learning.md",
+    "ML/LSTM (Long Term Short Memory).md",
+    "2B/SYDE 252/Signals and Systems.md",
+    "ML/Gated Recurrent Unit (GRU).md",
     "HTN 2023 Project Idea.md",
+    "Other/idfk.canvas",
     "Pasted image 20230915132341.png",
     "Pasted image 20230915132131.png",
-    "2B/MTE 203/Normal Vectors.md",
-    "2B/MTE 203/Advanced Calculus.md",
     "2B/MTE 203/Excalidraw/Drawing 2023-09-15 10.53.21.excalidraw.md",
     "private/private.md",
     "2B/MTE 203/Excalidraw/Untitled.md",
@@ -254,7 +264,6 @@
     "templates/Note.md",
     "private",
     "Thoughts/Studying.md",
-    "2B/SYDE 252/Signals and Systems.md",
     "Vault Stats.md",
     "2B/MTE 203/Tangent Vector.md",
     "Polymath/attachments/Labeled bboxes.png",
@@ -265,21 +274,10 @@
     "2B/MTE 220/Sensors and Instrumentation.md",
     "2B/SYDE 252/Signals.md",
     "2B/SYDE 252/Analog vs. Digital Signals.md",
-    "2B/SYDE 252/Periodic vs. Aperiodic Signals.md",
-    "2B/SYDE 252/Continuous Time and Discrete Time.md",
-    "excalidraw/Drawing 2023-09-14 08.55.12.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-14 08.55.12.excalidraw.md",
-    "2B/MTE 204/Numerical Methods.md",
-    "2B/MTE 241/Computer Structures & Real-Time Systems.md",
     "2B/SYDE 252/Pasted image 20230914085234.png",
     "2B/SYDE 252/Pasted image 20230914085205.png",
-    "index.md",
-    "2B/MTE 204/Stopping Criterion.md",
-    "2B/MTE 204/Error Definitions.md",
-    "2B/MTE 204/Control of Numerical Errors.md",
     "2B/MTE 204/attachments/Pasted image 20230910190611.png",
     "2B/MTE 204/attachments",
-    "2B/MTE 203/Suggested Problems.md",
     "Calculus/attachments/cylindrical coordinates.png",
     "Calculus/attachments/vector line.png",
     "2B/MTE 203/attachments",

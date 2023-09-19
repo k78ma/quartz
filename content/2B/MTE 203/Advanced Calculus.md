@@ -34,7 +34,15 @@ Lecture 4: Tangent vectors, arc length and unit tangent vectors
 - [[Tangent Vector]]
 - [[Smooth Curves]]
 - [[Arc Length]]
+
+Lecture 5: Normal Vectors, Curvature, and Radius of curvature
 - [[Normal Vectors]]
+- [[Binormal Vector]]
+- [[Curvature, Radius of Curvature, Circle of Curvature|Curvature, Radius of Curvature, Circle of Curvature]]
+- [[Radius of Curvature]]
+
+Lecture 6: Multivariable functions, Limits and Continuity
+- [[Multivariable Functions]]
 
 ## Problems
 - [[Suggested Problems]]
