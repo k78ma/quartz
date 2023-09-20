@@ -42,7 +42,13 @@ Lecture 5: Normal Vectors, Curvature, and Radius of curvature
 - [[Radius of Curvature]]
 
 Lecture 6: Multivariable functions, Limits and Continuity
-- [[Multivariable Functions]]
+- [[Functions of Several Variables|Multivariable Functions]]
+- [[2D Limits]]
+- [[Continuity for 2D Functions]]
+
+Lecture 7: Partial Derivatives and Gradient Vector
+- [[Partial Derivatives]]
+- [[Gradient Vector]]
 
 ## Problems
 - [[Suggested Problems]]

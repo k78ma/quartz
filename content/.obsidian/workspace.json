@@ -13,37 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Sensors and Instrumentation.md",
+                "file": "2B/MTE 203/Advanced Calculus.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5d6e443e3187cb75",
+            "id": "86f5a8cbee079aae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/Signals and Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f53cba057259ad5f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +95,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/Sensors and Instrumentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +111,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/Sensors and Instrumentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,9 +132,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2B/MTE 220/Sensors and Instrumentation.md"
-              }
+              "state": {}
             }
           },
           {
@@ -200,47 +181,48 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c552086a4d7ce9e",
+  "active": "86f5a8cbee079aae",
   "lastOpenFiles": [
+    "2B/MTE 203/Advanced Calculus.md",
+    "2B/MTE 220/Sensors and Instrumentation.md",
+    "2B/MTE 220/Inductors.md",
+    "2B/MTE 220/Capacitors.md",
+    "2B/SYDE 252/Signals and Systems.md",
+    "Vault Stats.md",
+    "2B/MTE 220/Pasted image 20230920111422.png",
+    "2B/MTE 220/Pasted image 20230920111007.png",
+    "Calculus/Gradient Vector.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 220/Power.md",
+    "2B/MTE 220/Resistors.md",
+    "2B/MTE 220/Pasted image 20230920105940.png",
+    "2B/MTE 220/Voltage and Current Sources.md",
+    "2B/MTE 220/Pasted image 20230920105235.png",
+    "2B/MTE 220/Pasted image 20230920105046.png",
+    "2B/MTE 220/Pasted image 20230920104903.png",
+    "2B/MTE 220/Pasted image 20230920104735.png",
+    "2B/MTE 203/2D Limits.md",
+    "ML/Machine Learning.md",
+    "2B/MTE 203/Continuity for 2D Functions.md",
+    "Calculus/Functions of Several Variables.md",
+    "2B/MTE 203/Multivariable Functions.md",
     "2B/MTE 220/Lab 1.md",
     "2B/MTE 220/Pasted image 20230919134633.png",
     "2B/MTE 220/Pasted image 20230919134551.png",
     "2B/MTE 220/Pasted image 20230919134504.png",
-    "2B/MTE 220/Pasted image 20230919134349.png",
-    "2B/MTE 220/Pasted image 20230919134200.png",
-    "2B/MTE 220/Sensors and Instrumentation.md",
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",
     "Other/HTN 2023 Project Idea.md",
     "Other/htn",
     "Other/Untitled.md",
     "2B/MTE 220/Op-amp Assumptions.md",
-    "2B/SYDE 252/Signals and Systems.md",
-    "2B/MTE 203/Advanced Calculus.md",
     "2B/MTE 203/Curvature, Radius of Curvature, Circle of Curvature.md",
     "2B/MTE 203/Radius of Curvature.md",
     "Calculus/Curvature.md",
     "2B/MTE 203/Binormal Vector.md",
     "2B/MTE 203/Normal Vectors.md",
-    "2B/MTE 203/Multivariable Functions.md",
-    "2B/MTE 203/Suggested Problems.md",
-    "2B/MTE 203/Surfaces.md",
-    "2B/MTE 203/Smooth Curves.md",
-    "ML/Machine Learning.md",
-    "ML/LSTM (Long Term Short Memory).md",
-    "ML/Gated Recurrent Unit (GRU).md",
     "Other/idfk.canvas",
-    "Other/htn/Pasted image 20230915132341.png",
-    "Other/htn/Pasted image 20230915132131.png",
-    "2B/MTE 203/Excalidraw/Drawing 2023-09-15 10.53.21.excalidraw.md",
-    "private/private.md",
-    "2B/MTE 203/Excalidraw/Untitled.md",
     "2B/MTE 203/Excalidraw",
-    "templates/Note.md",
     "private",
-    "Thoughts/Studying.md",
-    "Polymath/attachments/Labeled bboxes.png",
-    "Polymath/attachments/Labeled bboxes 1.png",
-    "Polymath/attachments/Camera.png",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "2B/MTE 204/attachments",

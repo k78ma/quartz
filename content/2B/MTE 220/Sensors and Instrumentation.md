@@ -14,6 +14,7 @@ aliases:
 Components
 - [[Voltage and Current Sources]]
 - [[Resistors]]
+	- [[Power]]
 - [[Capacitors]]
 - [[Inductors]]
 
