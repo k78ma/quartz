@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9065cb9f479ba37e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Sensors and Instrumentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6c552086a4d7ce9e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/Computer Structures & Real-Time Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fc8b31b5f3a080fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/Advanced Calculus.md",
+                "file": "2B/MTE 220/Sensors and Instrumentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,21 +42,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "1c4b9e949feff3c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Calculus/Curvature.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -146,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 203/Advanced Calculus.md",
+                "file": "2B/MTE 220/Sensors and Instrumentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 203/Advanced Calculus.md",
+                "file": "2B/MTE 220/Sensors and Instrumentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -186,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 203/Advanced Calculus.md"
+                "file": "2B/MTE 220/Sensors and Instrumentation.md"
               }
             }
           },
@@ -236,11 +200,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc8b31b5f3a080fd",
+  "active": "6c552086a4d7ce9e",
   "lastOpenFiles": [
-    "2B/MTE 203/Curvature, Radius of Curvature, Circle of Curvature.md",
-    "2B/MTE 203/Advanced Calculus.md",
+    "2B/MTE 220/Lab 1.md",
+    "2B/MTE 220/Pasted image 20230919134633.png",
+    "2B/MTE 220/Pasted image 20230919134551.png",
+    "2B/MTE 220/Pasted image 20230919134504.png",
+    "2B/MTE 220/Pasted image 20230919134349.png",
+    "2B/MTE 220/Pasted image 20230919134200.png",
+    "2B/MTE 220/Sensors and Instrumentation.md",
     "2B/MTE 241/Computer Structures & Real-Time Systems.md",
+    "Other/HTN 2023 Project Idea.md",
+    "Other/htn",
+    "Other/Untitled.md",
+    "2B/MTE 220/Op-amp Assumptions.md",
+    "2B/SYDE 252/Signals and Systems.md",
+    "2B/MTE 203/Advanced Calculus.md",
+    "2B/MTE 203/Curvature, Radius of Curvature, Circle of Curvature.md",
     "2B/MTE 203/Radius of Curvature.md",
     "Calculus/Curvature.md",
     "2B/MTE 203/Binormal Vector.md",
@@ -251,12 +227,10 @@
     "2B/MTE 203/Smooth Curves.md",
     "ML/Machine Learning.md",
     "ML/LSTM (Long Term Short Memory).md",
-    "2B/SYDE 252/Signals and Systems.md",
     "ML/Gated Recurrent Unit (GRU).md",
-    "HTN 2023 Project Idea.md",
     "Other/idfk.canvas",
-    "Pasted image 20230915132341.png",
-    "Pasted image 20230915132131.png",
+    "Other/htn/Pasted image 20230915132341.png",
+    "Other/htn/Pasted image 20230915132131.png",
     "2B/MTE 203/Excalidraw/Drawing 2023-09-15 10.53.21.excalidraw.md",
     "private/private.md",
     "2B/MTE 203/Excalidraw/Untitled.md",
@@ -264,29 +238,18 @@
     "templates/Note.md",
     "private",
     "Thoughts/Studying.md",
-    "Vault Stats.md",
-    "2B/MTE 203/Tangent Vector.md",
     "Polymath/attachments/Labeled bboxes.png",
     "Polymath/attachments/Labeled bboxes 1.png",
     "Polymath/attachments/Camera.png",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",
-    "2B/MTE 220/Sensors and Instrumentation.md",
-    "2B/SYDE 252/Signals.md",
-    "2B/SYDE 252/Analog vs. Digital Signals.md",
-    "2B/SYDE 252/Pasted image 20230914085234.png",
-    "2B/SYDE 252/Pasted image 20230914085205.png",
-    "2B/MTE 204/attachments/Pasted image 20230910190611.png",
     "2B/MTE 204/attachments",
-    "Calculus/attachments/cylindrical coordinates.png",
-    "Calculus/attachments/vector line.png",
     "2B/MTE 203/attachments",
     "Calculus/attachments/quadric_surfaces.pdf",
     "2B/Linear Algebra",
     "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
     "private",
     "notes/images",
-    "notes",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

@@ -16,9 +16,11 @@ Components
 - [[Resistors]]
 - [[Capacitors]]
 - [[Inductors]]
+
 Topological Equations
 - [[Kirchhoff’s Current Law (KCL)]]
 - [[Kirchhoff’s Voltage Law (KVL)]]
+
 Analysis Tools and Techniques
 - [[Voltage and Current Dividers]]
 - [[Nodal Analysis]]
@@ -28,9 +30,15 @@ Analysis Tools and Techniques
 	- [[Mesh Analysis with Dependent Sources]]
 	- [[Supermesh]]
 - [[Thevenin/Norton Representations]]
+
 Op-amps
-- [[Op-amp Basiscs]]
+- [[Op-amp Basics]]
 - [[Feedback]]
 - [[Op-amp Assumptions]]
 - [[Op-amp Configurations]]
 
+
+
+
+Lab
+- [[Lab 1]]
