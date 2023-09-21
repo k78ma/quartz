@@ -1,5 +1,5 @@
 ---
-title: Computer Structures & Real-Time Systems
+title: MTE 241 - Computer Structures & Real-Time Systems
 date: 2023-08-22
 tags:
   - 2b
@@ -10,11 +10,16 @@ aliases:
 ---
 ## MTE 241
 
-Computer Organization
+Memory Organization
 - [[Memory Hierarchy]]
 - [[Bus]]
 - [[2B/MTE 241/Registers|Registers]]
 - [[ARM Cortex M4 Registers]]
+- [[Cache]]
+
+Memory Spaces, Memory Mapping, and Memory Protection
+
+
 
 C language features/concepts
 - [[Pointers]]

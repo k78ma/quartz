@@ -1,5 +1,5 @@
 ---
-title: Signals and Systems
+title: SYDE 252 - Signals and Systems
 date: 2023-08-22
 tags:
   - 2b
@@ -19,7 +19,9 @@ Classification of Signals
 - [[Continuous Time and Discrete Time]]
 - [[Analog vs. Digital Signals]]
 - [[Periodic vs. Aperiodic Signals]]
-- [[Signal Energy]]
-- [[Signal Power]]
-
-Classification of Systems
+- [[Energy and Power Signals]]
+  
+Time operations
+- [[Time shifting]]
+- [[Time scaling]]
+- [[Time reversal]]

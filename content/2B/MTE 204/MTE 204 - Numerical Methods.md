@@ -1,5 +1,5 @@
 ---
-title: Numerical Methods
+title: MTE 204 - Numerical Methods
 date: 2023-08-22
 tags:
   - 2b

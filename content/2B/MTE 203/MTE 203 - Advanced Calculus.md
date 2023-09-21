@@ -1,5 +1,5 @@
 ---
-title: Advanced Calculus
+title: MTE 203 - Advanced Calculus
 date: 2023-08-22
 tags:
   - 2b
@@ -52,3 +52,4 @@ Lecture 7: Partial Derivatives and Gradient Vector
 
 ## Problems
 - [[Suggested Problems]]
+- [[MATLAB Worksheet 1]]

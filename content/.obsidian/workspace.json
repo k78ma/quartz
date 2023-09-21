@@ -8,27 +8,91 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6c552086a4d7ce9e",
+            "id": "86f5a8cbee079aae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Advanced Calculus.md",
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "86f5a8cbee079aae",
+            "id": "f3b2ffdc1b846385",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5b73cf79585a4afc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a6154a570225e19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a56fb6a02d3ad7c8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Robotics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bd3bc2c73d7c5cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Problems/Contains Duplicate (LC 217).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b349d9ae352304c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/MATLAB Worksheet 1.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -78,8 +142,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -95,6 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "2B/MTE 203/MATLAB Worksheet 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,6 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "2B/MTE 203/MATLAB Worksheet 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -132,7 +197,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "2B/MTE 203/MATLAB Worksheet 1.md"
+              }
             }
           },
           {
@@ -181,45 +248,48 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "86f5a8cbee079aae",
+  "active": "b349d9ae352304c4",
   "lastOpenFiles": [
-    "2B/MTE 203/Advanced Calculus.md",
-    "2B/MTE 220/Sensors and Instrumentation.md",
+    "2B/MTE 203/Pasted image 20230921150954.png",
+    "2B/MTE 203/Pasted image 20230921150654.png",
+    "2B/MTE 203/Pasted image 20230921150358.png",
+    "CS/Problems/Contains Duplicate (LC 217).md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "index.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "Robotics/Robotics.md",
+    "2B/MTE 203/MATLAB Worksheet 1.md",
+    "2B/MTE 203/Pasted image 20230921102826.png",
+    "2B/MTE 203/Pasted image 20230921102150.png",
+    "2B/MTE 203/Pasted image 20230921101601.png",
+    "2B/MTE 203/Surfaces.md",
+    "2B/MTE 203/Tangent Vector.md",
+    "2B/MTE 203/Vector Review.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 203/Smooth Curves.md",
+    "2B/MTE 203/Continuity for 2D Functions.md",
+    "2B/MTE 203/Arc Length.md",
+    "Robotics/Robot Configuration + Motion",
+    "Robotics/SLAM",
+    "2B/MTE 220/Voltage and Current Dividers.md",
+    "CS/Problems",
+    "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
+    "2B/MTE 220/Pasted image 20230920191641.png",
+    "2B/MTE 220/Kirchhoff’s Current Law (KCL).md",
+    "2B/MTE 220/Pasted image 20230920191123.png",
+    "2B/SYDE 252/Untitled.md",
     "2B/MTE 220/Inductors.md",
     "2B/MTE 220/Capacitors.md",
-    "2B/SYDE 252/Signals and Systems.md",
     "Vault Stats.md",
     "2B/MTE 220/Pasted image 20230920111422.png",
     "2B/MTE 220/Pasted image 20230920111007.png",
     "Calculus/Gradient Vector.md",
-    "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 220/Power.md",
-    "2B/MTE 220/Resistors.md",
     "2B/MTE 220/Pasted image 20230920105940.png",
-    "2B/MTE 220/Voltage and Current Sources.md",
-    "2B/MTE 220/Pasted image 20230920105235.png",
-    "2B/MTE 220/Pasted image 20230920105046.png",
-    "2B/MTE 220/Pasted image 20230920104903.png",
-    "2B/MTE 220/Pasted image 20230920104735.png",
-    "2B/MTE 203/2D Limits.md",
-    "ML/Machine Learning.md",
-    "2B/MTE 203/Continuity for 2D Functions.md",
-    "Calculus/Functions of Several Variables.md",
-    "2B/MTE 203/Multivariable Functions.md",
-    "2B/MTE 220/Lab 1.md",
-    "2B/MTE 220/Pasted image 20230919134633.png",
-    "2B/MTE 220/Pasted image 20230919134551.png",
-    "2B/MTE 220/Pasted image 20230919134504.png",
-    "2B/MTE 241/Computer Structures & Real-Time Systems.md",
-    "Other/HTN 2023 Project Idea.md",
     "Other/htn",
-    "Other/Untitled.md",
-    "2B/MTE 220/Op-amp Assumptions.md",
-    "2B/MTE 203/Curvature, Radius of Curvature, Circle of Curvature.md",
-    "2B/MTE 203/Radius of Curvature.md",
-    "Calculus/Curvature.md",
-    "2B/MTE 203/Binormal Vector.md",
-    "2B/MTE 203/Normal Vectors.md",
     "Other/idfk.canvas",
     "2B/MTE 203/Excalidraw",
     "private",
@@ -229,9 +299,6 @@
     "2B/MTE 203/attachments",
     "Calculus/attachments/quadric_surfaces.pdf",
     "2B/Linear Algebra",
-    "Linear Algebra/attachments/Unconfirmed 490654.crdownload",
-    "private",
-    "notes/images",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

@@ -15,7 +15,7 @@ Thus, we have this formal definition of configuration:
 
 >[!info] Configuration
 > The configuration of a robot is a complete specification of the position of every point of the robot. 
-> - The minimum number *n* of real-valued needed to represent the configuration is the number of [Degrees of Freedom](Robotics/Degrees%20of%20Freedom.md)
+> - The minimum number *n* of real-valued needed to represent the configuration is the number of [Degrees of Freedom](Degrees%20of%20Freedom.md)
 > - The *n*-dimensional space containing all possible configurations is the configuration space (C-space)
 > - The configuration of a robot is represented by a point in its C-space
 

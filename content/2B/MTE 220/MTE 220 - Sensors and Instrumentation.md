@@ -1,5 +1,5 @@
 ---
-title: Sensors and Instrumentation
+title: MTE 220 - Sensors and Instrumentation
 date: 2023-08-22
 tags:
   - 2b

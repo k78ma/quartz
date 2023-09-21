@@ -25,4 +25,4 @@ There are a couple of ways to think about the purpose of joints:
 >[!example] Example: Different Ways of Thinking about Joints
  > - A revolute joint can be viewed as allowing one freedom of motion between two rigid bodies. 
  > - Alternatively, a revolute joint can be viewed as providing five constraints on motion of one rigid body relative to the other
- > This ties into [[Robotics/Grubler’s Formula|Grubler’s Formula]]
+ > This ties into [[Grubler’s Formula|Grubler’s Formula]]

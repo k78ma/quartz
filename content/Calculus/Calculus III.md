@@ -5,7 +5,7 @@ date: 2023-07-22
 alias:
 ---
 
-Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx) in preparation for [[Advanced Calculus|MTE 203]].
+Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx) in preparation for [[MTE 203 - Advanced Calculus|MTE 203]].
 
 ## 3D Space
 - [[Calculus/3D Cartesian Coordinates|3D Cartesian Coordinates]]
