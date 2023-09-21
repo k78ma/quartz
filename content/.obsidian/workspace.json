@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 220/Voltage and Current Dividers.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,6 +56,18 @@
             }
           },
           {
+            "id": "192895fe83969c7c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/MATLAB Worksheet 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a56fb6a02d3ad7c8",
             "type": "leaf",
             "state": {
@@ -68,55 +80,19 @@
             }
           },
           {
-            "id": "2bd3bc2c73d7c5cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Voltage and Current Dividers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b06cce6d9b3ad632",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Computer Science.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6b7bee78afd4ad07",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/isAnagram (LC 242).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6c7d6407cdc36397",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/MATLAB Worksheet 1.md",
+                "file": "CS/LeetCode Problems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -272,21 +248,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c7d6407cdc36397",
+  "active": "192895fe83969c7c",
   "lastOpenFiles": [
-    "CS/Computer Science.md",
+    "2B/MTE 203/Pasted image 20230921175519.png",
+    "2B/MTE 203/Pasted image 20230921175451.png",
+    "2B/MTE 203/Pasted image 20230921175406.png",
+    "2B/MTE 203/Pasted image 20230921175400.png",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "2B/MTE 220/Voltage and Current Dividers.md",
-    "CS/isAnagram (LC 242).md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "CS/LeetCode Problems.md",
     "CS/Problems/Contains Duplicate (LC 217).md",
+    "CS/Computer Science.md",
+    "CS/isAnagram (LC 242).md",
     "2B/MTE 203/MATLAB Worksheet 1.md",
     "2B/MTE 203/Pasted image 20230921150954.png",
     "2B/MTE 203/Pasted image 20230921150654.png",
     "2B/MTE 203/Pasted image 20230921150358.png",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "index.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "Robotics/Robotics.md",
     "2B/MTE 203/Pasted image 20230921102826.png",
@@ -305,14 +286,9 @@
     "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
     "2B/MTE 220/Pasted image 20230920191641.png",
     "2B/MTE 220/Kirchhoff’s Current Law (KCL).md",
-    "2B/MTE 220/Pasted image 20230920191123.png",
     "2B/SYDE 252/Untitled.md",
     "2B/MTE 220/Inductors.md",
     "2B/MTE 220/Capacitors.md",
-    "Vault Stats.md",
-    "2B/MTE 220/Pasted image 20230920111422.png",
-    "2B/MTE 220/Pasted image 20230920111007.png",
-    "Calculus/Gradient Vector.md",
     "Other/htn",
     "Other/idfk.canvas",
     "2B/MTE 203/Excalidraw",

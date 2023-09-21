@@ -45,5 +45,4 @@ aliases:
 - [LeetCode](https://leetcode.com)
 
 ## Problems
-- [[Contains Duplicate (LC 217)]]
-- [[isAnagram (LC 242)]]
+- [[LeetCode Problems]]

@@ -16,10 +16,10 @@ $$
 z=7x^{2}-18+85y^{2}
 $$
 ### 1b.
-![[Pasted image 20230921102826.png]]
+![[Pasted image 20230921175451.png]]
 
 ### 1c.
-![[Pasted image 20230921102150.png]]
+![[Pasted image 20230921175519.png]]
 
 ### 1d.
 Equation 1:
