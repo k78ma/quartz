@@ -160,7 +160,7 @@ zlabel('z');
 ```
 
 ### 2c(ii).
-![[Pasted image 20230921150654.png]]
+![[Pasted image 20230921191523.png]]
 ```matlab
 x = -2:0.1:2;
 y = -2:0.1:2;
