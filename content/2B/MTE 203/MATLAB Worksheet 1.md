@@ -27,7 +27,7 @@ $$
 \begin{align}
 z=\frac{x^{2}+e^{0.4y}}{y}+5 \\
 z-\frac{x^{2}+e^{0.4y}}{y}-5=0 \\
-f_{1}(x,y,z) = z-x^{2}-e^{0.4y}-5y=0
+f_{1}(x,y,z) = zy-x^{2}-e^{0.4y}-5y=0
 \end{align}
 $$
 Equation 2:
@@ -56,7 +56,7 @@ function f = equations(v)
     z = v(3);
 
     % Calculate the values of f1, f2, and f3
-    f1 = z - exp(0.4*y) - 5*y - x^2;
+    f1 = z*y - exp(0.4*y) - 5*y - x^2;
     f2 = x*y*z - 0.5;
     f3 = z - 7*x^2 - 85*y^2 + 18;
     
@@ -66,6 +66,7 @@ end
 ```
 
 ### 1f.
+Code:
 ```matlab
 % Main Script
 % Define the initial guesses
@@ -95,13 +96,23 @@ function f = equations(v)
     y = v(2);
     z = v(3);
 
-    f1 = z - exp(0.4*y) - 5*y - x^2;
+    f1 = z*y - exp(0.4*y) - 5*y - x^2;
     f2 = x*y*z - 0.5;
     f3 = z - 7*x^2 - 85*y^2 + 18;
     
     f = [f1; f2; f3];
 end
 
+```
+
+Output:
+```
+Solution with initial guess 1:
+x = 0.12558, y = 0.54451, z = 7.3124
+f1 = -9.0656e-11, f2 = 2.4131e-10, f3 = -3.7377e-10
+Solution with initial guess 2:
+x = -0.79461, y = -0.42112, z = 1.4942
+f1 = -7.7206e-12, f2 = -6.4525e-12, f3 = -4.5123e-11
 ```
 
 ## Q2

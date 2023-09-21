@@ -26,10 +26,25 @@ class Solution:
         return False
 ```
 ### Sorting
-Sort the array; if there are any duplicated
-
+Sort the array; if there are any duplicated numbers in the list, return true.
+- Time complexity: $O(n\log n)$, sorting operation is bottleneck here
+- Space complexity: $O(1)$
+```python
+class Solution:
+    def containsDuplicate(self, nums: List[int]) -> bool:
+        
+        nums.sort()
+        for i in range(len(nums)-1):
+            if nums[i] == nums[i+1]:
+                return True
+        
+        return False
+```
 
 ### Hashset
+Use a hashset to check; if a number is already in the set, return True
+- Time complexity: $O(n)$
+- Space complexity: $O(n)$
 ```python
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:

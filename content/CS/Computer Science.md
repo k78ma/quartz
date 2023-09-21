@@ -43,3 +43,7 @@ aliases:
 ## Resources
 - [Algorithm Design Manual](file:///Users/kai/books/The%20Algorithm%20Design%20Manual-Springer%20(2020)%20-%20Steven%20S.%20Skiena.pdf)
 - [LeetCode](https://leetcode.com)
+
+## Problems
+- [[Contains Duplicate (LC 217)]]
+- [[isAnagram (LC 242)]]

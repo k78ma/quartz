@@ -73,26 +73,50 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Contains Duplicate (LC 217).md",
+                "file": "2B/MTE 220/Voltage and Current Dividers.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b349d9ae352304c4",
+            "id": "b06cce6d9b3ad632",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Computer Science.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6b7bee78afd4ad07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/isAnagram (LC 242).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6c7d6407cdc36397",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2B/MTE 203/MATLAB Worksheet 1.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -248,12 +272,16 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "61d35150793c77f1",
+  "active": "6c7d6407cdc36397",
   "lastOpenFiles": [
+    "CS/Computer Science.md",
+    "2B/MTE 220/Voltage and Current Dividers.md",
+    "CS/isAnagram (LC 242).md",
+    "CS/Problems/Contains Duplicate (LC 217).md",
+    "2B/MTE 203/MATLAB Worksheet 1.md",
     "2B/MTE 203/Pasted image 20230921150954.png",
     "2B/MTE 203/Pasted image 20230921150654.png",
     "2B/MTE 203/Pasted image 20230921150358.png",
-    "CS/Problems/Contains Duplicate (LC 217).md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "index.md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
@@ -261,7 +289,6 @@
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "Robotics/Robotics.md",
-    "2B/MTE 203/MATLAB Worksheet 1.md",
     "2B/MTE 203/Pasted image 20230921102826.png",
     "2B/MTE 203/Pasted image 20230921102150.png",
     "2B/MTE 203/Pasted image 20230921101601.png",
@@ -274,7 +301,6 @@
     "2B/MTE 203/Arc Length.md",
     "Robotics/Robot Configuration + Motion",
     "Robotics/SLAM",
-    "2B/MTE 220/Voltage and Current Dividers.md",
     "CS/Problems",
     "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
     "2B/MTE 220/Pasted image 20230920191641.png",
@@ -287,8 +313,6 @@
     "2B/MTE 220/Pasted image 20230920111422.png",
     "2B/MTE 220/Pasted image 20230920111007.png",
     "Calculus/Gradient Vector.md",
-    "2B/MTE 220/Power.md",
-    "2B/MTE 220/Pasted image 20230920105940.png",
     "Other/htn",
     "Other/idfk.canvas",
     "2B/MTE 203/Excalidraw",
