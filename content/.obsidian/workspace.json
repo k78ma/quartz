@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/LeetCode Problems.md",
+                "file": "CS/Problems/Problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/LeetCode Problems.md",
+                "file": "CS/Problems/Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/LeetCode Problems.md",
+                "file": "CS/Problems/Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/LeetCode Problems.md"
+                "file": "CS/Problems/Problems.md"
               }
             }
           },
@@ -251,7 +251,7 @@
   "active": "92e997f7fa22a3f7",
   "lastOpenFiles": [
     "AeroVect Interview 09/22/2023.md",
-    "CS/Problems/LeetCode Problems.md",
+    "CS/Problems/Problems.md",
     "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
     "Robotics/Robotics.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",

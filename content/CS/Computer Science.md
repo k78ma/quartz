@@ -45,4 +45,4 @@ aliases:
 - [LeetCode](https://leetcode.com)
 
 ## Problems
-- [[LeetCode Problems]]
+- [[Problems]]

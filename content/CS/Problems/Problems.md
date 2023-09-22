@@ -1,5 +1,5 @@
 ---
-title: LeetCode Problems
+title: Problems
 tags:
   - cs
   - problems
