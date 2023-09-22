@@ -6,5 +6,6 @@ tags:
 date: 2023-09-21
 ---
 - [[Contains Duplicate (LC 217)]]
-- [[isAnagram (LC 242)]]
+- [[Valid Anagram (LC 242)]]
+- [[Group Anagrams (LC 49)]]
 - 

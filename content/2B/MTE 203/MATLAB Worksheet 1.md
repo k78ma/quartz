@@ -16,7 +16,7 @@ $$
 z=7x^{2}-18+85y^{2}
 $$
 ### 1b.
-![[Pasted image 20230921175451.png]]
+![[Pasted image 20230921192317.png]]
 
 ### 1c.
 ![[Pasted image 20230921175519.png]]
@@ -162,17 +162,12 @@ zlabel('z');
 ### 2c(ii).
 ![[Pasted image 20230921191523.png]]
 ```matlab
-x = -2:0.1:2;
-y = -2:0.1:2;
-
-[X, Y] = meshgrid(x, y);
-
-Z = exp(-Y.^2 - X.^2) .* X .* sin(Y);
-
-figure;
-[C, h] = contour(X, Y, Z, 15);
-clabel(C, h);
-title('Level Curves of z = f(x, y)');
+v = linspace(-2,2,50);
+[X,Y] = meshgrid(v);
+Z = sin(Y) .* X .* exp(-Y.^2-X.^2);
+contourf(X,Y,Z,15);
+colorbar;
+title('Contour Plot of z = f(x,y)');
 xlabel('x');
 ylabel('y');
 ```

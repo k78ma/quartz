@@ -59,7 +59,7 @@ alias:
 ### Wheeled Mobile Robots
 
 ## SLAM
-- [[Classic Visual SLAM Framework]]
+- [[Visual SLAM Framework]]
 - [[Mathematical Formulation of SLAM]]
 
 ## Tools
@@ -68,3 +68,6 @@ alias:
 ## Resources
 - [Modern Robotics – Lynch, Park](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
 - [MIT RSS](https://github.com/mit-rss)
+
+## Projects
+- [[Desktop Bot]]
