@@ -80,18 +80,6 @@
             }
           },
           {
-            "id": "6fae0b7e0bd44b86",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dacec15ff2d917bf",
             "type": "leaf",
             "state": {
@@ -104,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -170,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+                "file": "CS/Problems/LeetCode Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -187,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+                "file": "CS/Problems/LeetCode Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,7 +198,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md"
+                "file": "CS/Problems/LeetCode Problems.md"
               }
             }
           },
@@ -260,13 +248,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6fae0b7e0bd44b86",
+  "active": "92e997f7fa22a3f7",
   "lastOpenFiles": [
+    "AeroVect Interview 09/22/2023.md",
+    "CS/Problems/LeetCode Problems.md",
+    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
     "Robotics/Robotics.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
-    "CS/Problems/LeetCode Problems.md",
-    "AeroVect Interview 09/22/2023.md",
     "AeroVect Interview 09/22",
     "AeroVect Interview 09/22.md",
     "AeroVect Interview 09",
