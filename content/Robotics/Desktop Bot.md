@@ -4,6 +4,7 @@ tags:
   - robotics
 date: 2023-09-22
 ---
+Side project with Skye – been wanting to make something with a hardware component for a while and this seems like a good start.
 ## Hardware
 Should be pretty easy?
 - Raspberry Pi / some other small computer
