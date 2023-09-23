@@ -7,15 +7,15 @@ draft:
 
 ## Greek
 - [[Plato]]
-	- [Plato's Ideal World of Forms](Philosophy/Plato's%20Ideal%20World%20of%20Forms.md)
+	- [Plato's Ideal World of Forms](Plato's%20Ideal%20World%20of%20Forms.md)
 	- [[Allegory of The Cave]]
 
 - Nietzsche
-	- [Nietzsche on Human Purpose](Philosophy/Nietzsche%20on%20Human%20Purpose.md)
-	- [[Philosophy/Nietzsche's Will to Power|Nietzsche's Will to Power]]
-	- [[Philosophy/Thus Spoke Zarathustra (Nietzsche)|Thus Spoke Zarathustra (Nietzsche)]]
-	- [[Philosophy/Ubermensch|Ubermensch]]
-	- [[Philosophy/Nietzsche on Love|Nietzsche on Love]]
+	- [Nietzsche on Human Purpose](Nietzsche%20on%20Human%20Purpose.md)
+	- [[Nietzsche's Will to Power|Nietzsche's Will to Power]]
+	- [[Thus Spoke Zarathustra (Nietzsche)|Thus Spoke Zarathustra (Nietzsche)]]
+	- [[Ubermensch|Ubermensch]]
+	- [[Nietzsche on Love|Nietzsche on Love]]
 
 - [[Peter Singer]]
 	- [[Effective Altruism]]

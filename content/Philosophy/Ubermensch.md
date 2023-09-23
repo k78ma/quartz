@@ -13,7 +13,7 @@ Nietzsche thinks that everyone who is developing as a human being will go throug
 	
 - **Child:** The child is a new beginning. When you're the lion, you're saying "no" to things that other people are telling you to do; as the child, you are saying yes to some things. The child is unconstrained and excitedly finding new things to do, new games to play.
 
-Why is it so hard to stop being a camel and become the master of the desert? There is a seed inside of you that you can grow into. Most people are aware of this, but are fearful; it's scary to look your potential right in the face. Thus, it's important to set goals that are both calculated and ambitious. This is basically referring to [[Philosophy/Nietzsche's Will to Power|Nietzsche's Will to Power]].
+Why is it so hard to stop being a camel and become the master of the desert? There is a seed inside of you that you can grow into. Most people are aware of this, but are fearful; it's scary to look your potential right in the face. Thus, it's important to set goals that are both calculated and ambitious. This is basically referring to [[Nietzsche's Will to Power|Nietzsche's Will to Power]].
 >[!quote]
 > They fear their higher self, for when it speaks, it speaks demandingly.
 - But how are these goals defined? Nietzsche's advice is to ask yourself "what has been important up to this point in your life?" Basically, the answer should be inside of you.

@@ -33,7 +33,7 @@ $$
 
 >[!example] Example: DOF Calculation with Coins
 >
->![[Robotics/attachments/coin image.png]]
+>![[coin image.png]]
 >
 >Let’s continue with the example of a coin lying on the table:
 >- Choose 3 points $A, B, C$.

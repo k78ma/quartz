@@ -11,8 +11,8 @@ aliases:
 ## SYDE 252
 
 Intro
-- [[2B/SYDE 252/Signals|Signals]]
-- [[2B/SYDE 252/Systems|Systems]]
+- [[Signals|Signals]]
+- [[Systems|Systems]]
 - [[Complex Numbers Review]]
 
 Classification of Signals

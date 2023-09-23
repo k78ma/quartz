@@ -40,4 +40,4 @@ In 2D, a quadratic form is an equation of the form $a(x-x_{0})^{2}+b(y-y_{0})^{2
 In 3D there are more classifications:
 ![[Pasted image 20230907161939.png]]
 
-For more, see [[Calculus/Quadric Surfaces|Quadric Surfaces]]
+For more, see [[Quadric Surfaces|Quadric Surfaces]]

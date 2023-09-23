@@ -30,7 +30,7 @@ aliases: []
 >Since the $z$-axis is not constant, we will get a spiral about the $z$-axis
 >Spiral revolves around axis with $t$.
 >
->![200](Calculus/attachments/Pasted%20image%2020230802140856.png)
+>![200](Pasted%20image%2020230802140856.png)
 >
 
 ---

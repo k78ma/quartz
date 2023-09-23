@@ -13,7 +13,7 @@ aliases:
 Memory Organization
 - [[Memory Hierarchy]]
 - [[Bus]]
-- [[2B/MTE 241/Registers|Registers]]
+- [[Registers|Registers]]
 - [[ARM Cortex M4 Registers]]
 - [[Cache]]
 

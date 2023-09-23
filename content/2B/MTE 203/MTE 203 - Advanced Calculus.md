@@ -11,10 +11,10 @@ aliases:
 ## MTE 203
 
 Lecture 1: Introduction to Multivariable Functions and Surfaces
-- [[2B/MTE 203/3D Cartesian Space|3D Cartesian Space]]
-	- [[2B/MTE 203/3D Cartesian Space#^zyeuan|Octants]]
-- [[2B/MTE 203/Surfaces|Surfaces]]
-- [[Calculus/Functions of Several Variables#Level Curves|Level Curves and Contour Plots]]
+- [[3D Cartesian Space|3D Cartesian Space]]
+	- [[3D Cartesian Space#^zyeuan|Octants]]
+- [[Surfaces|Surfaces]]
+- [[Functions of Several Variables#Level Curves|Level Curves and Contour Plots]]
 
 Lecture 2: Vectors and Vector Valued Functions
 - [[Vector Review]]

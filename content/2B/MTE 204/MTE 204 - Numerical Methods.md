@@ -11,7 +11,7 @@ aliases:
 ## MTE 204
 
 Errors
-	- [[2B/MTE 204/Error Definitions|Error Definitions]]
+	- [[Error Definitions|Error Definitions]]
 	- [[Stopping Criterion]]
 	- [[Types of Errors]]
 	- [[Control of Numerical Errors]]

@@ -7,7 +7,7 @@ aliases:
   - cs, CS
 ---
 ## Principles
-- [[CS/Designing Functions|Designing Functions]]
+- [[Designing Functions|Designing Functions]]
 
 ## Algorithms
 - Sorting Algorithms
@@ -24,19 +24,19 @@ aliases:
 - 
   
 - Algorithmic Analysis
-	- [[CS/Algorithmic Correctness|Algorithmic Correctness]]
-	- [[CS/RAM Model of Computation|RAM Model of Computation]]
+	- [[Algorithmic Correctness|Algorithmic Correctness]]
+	- [[RAM Model of Computation|RAM Model of Computation]]
 
 ## Data Structures
-- [Stacks and Queues](CS/Stacks%20and%20Queues.md)
-- [Hash Table](CS/Hashing.md#Hash%20Table%7CHash%20Table)
+- [Stacks and Queues](Stacks%20and%20Queues.md)
+- [Hash Table](Hashing.md#Hash%20Table|Hash%20Table)
 
 ## Other
-- [Hashing](CS/Hashing.md)
+- [Hashing](Hashing.md)
 
 ## Languages
-- [[CS/Strongly vs. Weakly Typed Languages|Strongly vs. Weakly Typed Languages]]
-- [[CS/Statically vs. Dynamically Typed Languages|Statically vs. Dynamically Typed Languages]]
+- [[Strongly vs. Weakly Typed Languages|Strongly vs. Weakly Typed Languages]]
+- [[Statically vs. Dynamically Typed Languages|Statically vs. Dynamically Typed Languages]]
 - C++
 	- C++ Functions
 

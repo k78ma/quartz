@@ -7,8 +7,8 @@ draft:
 
 *Thus Spoke Zarathustra* (*"Also Sprach Zarathustra"*) is often considered Nietzsche's seminal work. 
 Throughout the 6-7 main works constituting Nietzsche's main philosophy, he wants to reconsider major parts of our thinking:
-- Religion ([[Philosophy/Nietzsche on Human Purpose|Nietzsche on Human Purpose]])
-- Human nature ([[Philosophy/Nietzsche's Will to Power|Nietzsche's Will to Power]])
+- Religion ([[Nietzsche on Human Purpose|Nietzsche on Human Purpose]])
+- Human nature ([[Nietzsche's Will to Power|Nietzsche's Will to Power]])
 
 The third area, which is what *Thus Spoke Zarathustra* concerns, is Good/Evil. This is why Zarathustra/Zoroaster is chosen as the main character — he is the Persian prophet who first articulated the concept of good and evil. Nietzsche's aim with *Thus Spoke Zarathustra* is to have it serve as an extension of Zarathustra's work (like Socrates/Plato and Paul/Jesus).
 

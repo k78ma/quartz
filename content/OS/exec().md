@@ -5,7 +5,7 @@ date: 2023-06-25
 alias:
 ---
 
-An [UNIX System Call](OS/UNIX%20System%20Calls.md).
+An [UNIX System Call](UNIX%20System%20Calls.md).
 This is useful when you want to run a program that is different from the calling program.
 `fork()` is only useful if you want to keep running copies of the different program, while exec lets you run a different program.
 

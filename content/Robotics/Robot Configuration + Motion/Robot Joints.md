@@ -6,7 +6,7 @@ alias:
 ---
 Every joint connects exactly two links
 
-![[Robotics/attachments/robot joints.png|500]]
+![[robot joints.png|500]]
 
 One DOF:
 - Revolute joints (R) — basically a hinge allowing rotational motion about the joint axis

@@ -90,7 +90,7 @@ $$
 As such, we can write the directional derivative as a dot product and notice that the second vector is nothing more than the unit vector $\vec{u}$ that gives the direction of change.
 
 We can also write this in terms of gradient vectors:
-![[Calculus/Gradient Vector#^gradvec|Gradient Vector]]
+![[Gradient Vector#^gradvec|Gradient Vector]]
 
 As such, we can say that the directional derivative can be given by
 $$

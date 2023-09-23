@@ -10,18 +10,18 @@ alias: OS
 [MTE 241 – Introduction to Computer Structures & Real-Time Systems](MTE%20241%20%E2%80%93%20Introduction%20to%20Computer%20Structures%20&%20Real-Time%20Systems)
 
 ## Concepts
-- [Virtualization](OS/Virtualization.md)
-	- [Time-sharing](OS/Time-sharing.md)
+- [Virtualization](Virtualization.md)
+	- [Time-sharing](Time-sharing.md)
 - Concurrency
 - Persistence
 
-- [Process](OS/Process.md)
-	- [Process API](OS/Process%20API.md)
-	- [Process Creation](OS/Process%20Creation.md)
-	- [Process States](OS/Process%20States.md)
-	- [UNIX System Calls](OS/UNIX%20System%20Calls.md)
-		- [fork()](OS/fork().md)
-		- [exec()](OS/exec().md)
-		- [wait()](OS/wait().md)
-- [Mechanisms](OS/Mechanisms.md)
-- [Policies](OS/Policies.md)
+- [Process](Process.md)
+	- [Process API](Process%20API.md)
+	- [Process Creation](Process%20Creation.md)
+	- [Process States](Process%20States.md)
+	- [UNIX System Calls](UNIX%20System%20Calls.md)
+		- [fork()](fork().md)
+		- [exec()](exec().md)
+		- [wait()](wait().md)
+- [Mechanisms](Mechanisms.md)
+- [Policies](Policies.md)

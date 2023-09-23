@@ -14,7 +14,7 @@ High level idea:
 	- Eager loading – loading process is done all at once before running the program (early OS)
 	- Lazy loading – load data or code only as they are needed during program execution
 	
-		 ![300](OS/attachments/Pasted%20image%2020230708141500.png)
+		 ![300](Pasted%20image%2020230708141500.png)
 
 2. **Stack allocation**: Some memory has to be allocated for the program’s run-time stack
 	- C programs use the stack for local vars, function params, return addresses
@@ -33,4 +33,4 @@ After these steps, the OS can get to program execution.
 Program is started running at the entrypoint, namely `main()`
 By jumping to the `main()` routine, OS transfers control to the CPU
 
-Process creation in UNIX systems is done with the `fork(), exec(), wait()`system calls: [UNIX System Calls](OS/UNIX%20System%20Calls.md)
+Process creation in UNIX systems is done with the `fork(), exec(), wait()`system calls: [UNIX System Calls](UNIX%20System%20Calls.md)

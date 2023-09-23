@@ -19,7 +19,7 @@ The third rung is realizing that what you love about this other person really ha
 - Love of the laws and institutions that create the people/things you love
 - Love of knowledge of the laws and institutions
 - Love of knowledge itself
-- Love of the Platonic form of beauty (similar to [[Philosophy/Plato's Ideal World of Forms|Plato's Ideal World of Forms]])
+- Love of the Platonic form of beauty (similar to [[Plato's Ideal World of Forms|Plato's Ideal World of Forms]])
 
 There’s tons of discussion on these further rungs, but Diotima’s key point is this: once you’ve experience a higher forms of love, you can’t be satisfied with lower forms. 
 
@@ -38,7 +38,7 @@ In other words, love and greed are actually the same thing, the only difference 
 
 Example: You’re a huge fan of Italian sports cars and you save up a lot of money and finally get one. Someone else comes along who is also a fan of these cars and decides that they want your car specifically, going to extreme measures to take your car from you. This person would seem greedy. Yet, being a lover of cars yourself, if you came across this car in your travels, you would also want it, but you would think about it in terms of your love of cars, not that you’re being greedy. Now replace the car with your significant other.
 
-Nietzsche doesn’t think that the equivalence of love and greed is a bad thing; he just thinks that, like all else, love is a [[Philosophy/Nietzsche's Will to Power|will to power]]. In fact, he think it’s a beneficial will to power, and is a big fan of love and friendships. All he’s saying is to take a closer look at why you’re doing these things and don’t try to justify your actions with how it’s all about the other person and just accept that it’s a manifestation of your own will to power.
+Nietzsche doesn’t think that the equivalence of love and greed is a bad thing; he just thinks that, like all else, love is a [[Nietzsche's Will to Power|will to power]]. In fact, he think it’s a beneficial will to power, and is a big fan of love and friendships. All he’s saying is to take a closer look at why you’re doing these things and don’t try to justify your actions with how it’s all about the other person and just accept that it’s a manifestation of your own will to power.
 
 ### Aside: Perception of Nietzsche
 Stuff like this is why I think Nietzsche is misunderstood a lot of the time. If you look at his work with little context (“Love is greed!” “Existence is will to power!”) he seems empty, joyless, and bitter, and is thus used as a poster boy for nihilism (I don’t even think Nietzsche’s philosophy is nihilist other than acknowledging that life has no inherent meaning). This type of thing is why his work was so easily distorted by his sister after his death to support the Third Reich. His work actually has far more nuance and optimism than he is often given credit for. Interestingly, Nietzsche seemed to predict the impact of his work in his autobiography:

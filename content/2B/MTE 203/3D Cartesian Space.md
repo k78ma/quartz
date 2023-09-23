@@ -7,7 +7,7 @@ date: 2023-09-07
 ---
 Recall the 3D Cartesian Coordinate System:
 
-![[Calculus/3D Cartesian Coordinates|3D Cartesian Coordinates]]
+![[3D Cartesian Coordinates|3D Cartesian Coordinates]]
 
 ---
 We use right-handed coordinate systems:

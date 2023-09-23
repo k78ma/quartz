@@ -63,7 +63,7 @@ alias:
 - [[Mathematical Formulation of SLAM]]
 
 ## Tools
-- [ROS](Robotics/ROS.md)
+- [ROS](ROS.md)
 
 ## Resources
 - [Modern Robotics – Lynch, Park](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)

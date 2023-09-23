@@ -11,15 +11,15 @@ Welcome to my notes!
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
 ### Engineering
-- [[ML/Machine Learning|Machine Learning]]
-- [[Robotics/Robotics|Robotics]]
-- [[CS/Computer Science|Computer Science]]
-- [[OS/Operating Systems|Operating Systems]]
-- [[Computer Architecture/Computer Architecture|Computer Architecture]]
+- [[Machine Learning|Machine Learning]]
+- [[Robotics|Robotics]]
+- [[Computer Science|Computer Science]]
+- [[Operating Systems|Operating Systems]]
+- [[Computer Architecture|Computer Architecture]]
 
 ### Math
-- [[Calculus/Calculus III|Calculus III]]
-- [[Linear Algebra/Linear Algebra|Linear Algebra]]
+- [[Calculus III|Calculus III]]
+- [[Linear Algebra|Linear Algebra]]
 
 ### Courses
 - 2B
@@ -29,7 +29,7 @@ Welcome to my notes!
 	- [[MTE 241 - Computer Structures & Real-Time Systems|MTE 241 - Computer Structures & Real-Time Systems]]
 	- [[SYDE 252 - Signals and Systems|SYDE 252 - Signals and Systems]] 
 ### Other
-- [[Philosophy/Philosophy|Philosophy]]
+- [[Philosophy|Philosophy]]
 ---
 \*The site is named "Cortex" for three reasons:
 - The term "second brain" is popular with people who use Obsidian to take notes
