@@ -4,7 +4,7 @@ tags:
   - syde252
 date: 2023-09-23
 ---
-(t-## Definition
+## Definition
 Unit impulse refers to a Dirac delta function defined as:
 $$
 \begin{align}

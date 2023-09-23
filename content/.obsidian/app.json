@@ -3,7 +3,7 @@
   "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "attachments",
+  "attachmentFolderPath": "./attachments",
   "livePreview": true,
   "autoPairBrackets": true,
   "pdfExportSettings": {

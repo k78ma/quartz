@@ -65,6 +65,7 @@ alias:
 
 ## Tools
 - [ROS](ROS.md)
+- [[CMake]]
 
 ## Resources
 - [Modern Robotics – Lynch, Park](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
