@@ -20,8 +20,14 @@ Classification of Signals
 - [[Analog vs. Digital Signals]]
 - [[Periodic vs. Aperiodic Signals]]
 - [[Energy and Power Signals]]
+- [[Stochastic vs. Deterministic]]
+- [[Causal vs. Non-causal vs. Anti-causal]]
   
 Time operations
 - [[Time shifting]]
 - [[Time scaling]]
 - [[Time reversal]]
+
+Useful Signals
+- [[Unit step]]
+- [[Unit impulse]]

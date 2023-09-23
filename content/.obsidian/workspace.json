@@ -44,24 +44,36 @@
             }
           },
           {
-            "id": "dacec15ff2d917bf",
+            "id": "f068146486cb1f8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Robotics.md",
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b20316826fb1e654",
+            "id": "7e7b3a18aa9668e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
+                "file": "2B/SYDE 252/Unit impulse.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0d9b233e343c80bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
+                "file": "2B/SYDE 252/Unit impulse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
+                "file": "2B/SYDE 252/Unit impulse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md"
+                "file": "2B/SYDE 252/Unit impulse.md"
               }
             }
           },
@@ -224,17 +236,40 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "b20316826fb1e654",
+  "active": "7e7b3a18aa9668e0",
   "lastOpenFiles": [
-    "CS/Problems/Problems.md",
-    "CS/Problems/Top K Frequent Elements (LC 347).md",
-    "Robotics/Robotics.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/index2b.md",
-    "Vault Stats.md",
-    "notes",
+    "Pasted image 20230923140153.png",
+    "Pasted image 20230923134657.png",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Unit impulse.md",
+    "2B/SYDE 252/Unit step.md",
+    "Pasted image 20230923133834.png",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "Vault Stats.md",
+    "2B/SYDE 252/Time reversal.md",
+    "2B/SYDE 252/Time scaling.md",
+    "Pasted image 20230923130838.png",
+    "2B/SYDE 252/Time shifting.md",
+    "Pasted image 20230923125503.png",
+    "Pasted image 20230923125312.png",
+    "Pasted image 20230923125007.png",
+    "2B/SYDE 252/Causal vs. Non-causal vs. Anti-causal.md",
+    "Pasted image 20230923124440.png",
+    "Pasted image 20230923124249.png",
+    "Pasted image 20230923124238.png",
+    "Random/Stochastic vs. Deterministic.md",
+    "2B/SYDE 252/Energy and Power Signals.md",
+    "Robotics/Robotics.md",
+    "Robotics/Mathematical Formulation of SLAM.md",
+    "Robotics/State Estimation.md",
+    "CS/Problems/Problems.md",
+    "Robotics/Visual SLAM Framework.md",
+    "Pasted image 20230923005710.png",
+    "CS/Problems/Top K Frequent Elements (LC 347).md",
+    "2B/index2b.md",
+    "notes",
     "AeroVect Interview 09/22/2023.md",
     "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
     "AeroVect Interview 09/22",
@@ -243,29 +278,6 @@
     "CS/Computer Science.md",
     "CS/Problems/Group Anagrams (LC 49).md",
     "Random",
-    "Robotics/Desktop Bot.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 220/Voltage and Current Dividers.md",
-    "2B/MTE 203/MATLAB Worksheet 1.md",
-    "2B/MTE 203/attachments/Pasted image 20230921192317.png",
-    "CS/Problems/Valid Anagram (LC 242).md",
-    "2B/MTE 203/Suggested Problems.md",
-    "2B/MTE 203/Tangent Vector.md",
-    "2B/MTE 203/attachments/Pasted image 20230921150954.png",
-    "2B/MTE 203/attachments/Pasted image 20230921175451.png",
-    "2B/MTE 203/attachments/Pasted image 20230921191523.png",
-    "2B/MTE 203/attachments/Pasted image 20230921175519.png",
-    "2B/MTE 203/attachments/Pasted image 20230921150358.png",
-    "2B/MTE 203/attachments/Pasted image 20230907155224.png",
-    "2B/MTE 203/attachments/Pasted image 20230907161939.png",
-    "2B/MTE 203/attachments/Pasted image 20230921175406.png",
-    "2B/MTE 203/attachments/Pasted image 20230921175400.png",
-    "CS/Problems/Contains Duplicate (LC 217).md",
-    "index.md",
-    "2B/MTE 203/Surfaces.md",
-    "2B/MTE 203/Vector Review.md",
-    "2B/MTE 203/Smooth Curves.md",
     "Robotics/Robot Configuration + Motion",
     "Robotics/SLAM",
     "CS/Problems",
