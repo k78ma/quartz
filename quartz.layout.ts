@@ -26,7 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Notes",
-        limit: 3,
+        limit: 4,
       }),
     ),
   ],

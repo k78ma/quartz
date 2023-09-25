@@ -29,7 +29,7 @@ Row picture is considers the system one line at a time.
 - What points fulfill the first equation $2x - y = 0$?
 - What points fulfill the second equation $-x + 2y = 3$?
 This can be effectively done by plotting the lines on a graph. Then, we just find the intersection:
-![row picture](Linear%20Algebra/attachments/row%20picture.png)
+![row picture](row%20picture.png)
 Plugging the intersection point $(1,2)$ into the equations we see that:
 $$
 \begin{align}
@@ -58,7 +58,7 @@ y\begin{bmatrix}
 $$
 Here, we solve the equation by thinking in terms of linear combinations of vectors:
 	- We need to add $x$ copies of the first vector to $y$ copies of the 2nd vector to get \[0,3]
-![column picture](Linear%20Algebra/attachments/column%20picture.png)
+![column picture](column%20picture.png)
 We find that having having $x=1$ and $y=2$ indeed gives us:
 
 $$

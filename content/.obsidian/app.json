@@ -3,7 +3,13 @@
   "newLinkFormat": "shortest",
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
-  "attachmentFolderPath": "./",
+  "attachmentFolderPath": "./attachments",
   "livePreview": true,
-  "autoPairBrackets": true
+  "autoPairBrackets": true,
+  "pdfExportSettings": {
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
 }

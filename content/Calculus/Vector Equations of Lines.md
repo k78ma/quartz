@@ -7,16 +7,16 @@ alias:
 
 How do we use vector functions to describe lines?
 - *Vector function* – take variable(s), return a vector.
-	- [Vector form](Calculus/Vector%20Equations%20of%20Lines.md#Vector%20form)
-	- [Parametric form](Calculus/Vector%20Equations%20of%20Lines.md#Parametric%20form)
-	- [Parametric form](Calculus/Vector%20Equations%20of%20Lines.md#Parametric%20form)
+	- [Vector form](Vector%20Equations%20of%20Lines.md#Vector%20form)
+	- [Parametric form](Vector%20Equations%20of%20Lines.md#Parametric%20form)
+	- [Parametric form](Vector%20Equations%20of%20Lines.md#Parametric%20form)
 
 
 For example: $\vec{r}(t) = \langle t,1 \rangle$
 - Describes a position vector $\vec{r} = \langle a,b\rangle$ that starts at the origin and ends at $(a,b)$
 - Some example inputs into the function: $$r(3) = \langle -3,1\rangle, r(-1) = \langle -1,1\rangle, r(2) = \langle 2,1\rangle, r(5)=\langle 5,1\rangle$$
 Thus, we can describe lines and shapes like:
-![500](Calculus/attachments/vector%20functions.png)
+![500](vector%20functions.png)
 
 ---
 ## Vector form
@@ -27,7 +27,7 @@ Slope needs to be defined as a direction in 3D.
 - Let $\vec{a} = \vec{P_{0}P}$
 - Let $\vec{v} = \langle a,b,c\rangle$ that is parallel to $\vec{a}$
 
-![[Calculus/attachments/vector line.png|286]]
+![[vector line.png|286]]
 
 Then, we have $\vec{r} = \vec{r_{0}} + \vec{a}$, and there is some $t$ that $\vec{a} = t\vec{v}$.
 Thus, we have:

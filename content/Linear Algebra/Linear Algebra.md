@@ -5,16 +5,16 @@ date: 2023-06-25
 alias:
 ---
 
-A good foundation of linear algebra contributes to deeper understanding of [[machine learning]] and [[robotics]].
+A good foundation of linear algebra contributes to deeper understanding of [[Machine Learning]] and [[Robotics]].
 
 ## Basic Concepts
-- [x] [[Linear Algebra/Geometry of Linear Equations|Geometry of Linear Equations]]
-- [x] [[Linear Algebra/Vector Combinations|Vector Combinations]]
-	- [ ] [[Linear Algebra/Linear Independence|Linear Independence]]
-- [x] [[Linear Algebra/Matrix Basics|Matrix Basics]]
-	- [ ] [[Linear Algebra/Matrix-Vector Multiplication|Matrix-Vector Multiplication]]
+- [x] [[Geometry of Linear Equations|Geometry of Linear Equations]]
+- [x] [[Vector Combinations|Vector Combinations]]
+	- [ ] [[Linear Independence|Linear Independence]]
+- [x] [[Matrix Basics|Matrix Basics]]
+	- [ ] [[Matrix-Vector Multiplication|Matrix-Vector Multiplication]]
 	- [ ] Matrix-Matrix Multiplication
-- [x] [[Linear Algebra/Subspaces|Subspaces]]
+- [x] [[Subspaces|Subspaces]]
 
 ## Solving Linear Equations with Linear Algebra
 - [ ] [[Vectors and Linear Equations]]

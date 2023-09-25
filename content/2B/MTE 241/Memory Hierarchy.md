@@ -4,22 +4,8 @@ tags: []
 date: 2023-09-08
 ---
 The memory hierarchy:
-- [[Registers]]
-	- Super fast
-	- Super expensive
-	- Super small
-- Cache
-	- Ultrafast
-	- Ultra expensive
-	- Ultra small
-- Primary storage (RAM)
-	- Fast
-	- Expensive
-	- Small
-- Secondary storage
-	- Slow
-	- Cheap
-	- Big
+
+![[Pasted image 20230923140901.png]]
 
 ### Producer/Consumer Model
 Why do we have a hierarchy at all?

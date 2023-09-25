@@ -35,7 +35,7 @@ A plot of various level curves is called a contour plot.
 >Simplifying:
 >$$x^{2} + y^{2}= k^2$$
 >
->![[Calculus/attachments/cone contour.png]]
+>![[cone contour.png]]
 
 
 ### Traces:
@@ -46,4 +46,4 @@ A plot of various level curves is called a contour plot.
 >$$x = 1 \longrightarrow z = f(1,y) = 10 - 4(1)^{2}- y^{2}= 6-y^2$$
 >$$y=2 \longrightarrow z = f(x,2) = 10-4x^{2}-2 = 6-4x^2$$
 >
->![[Calculus/attachments/traces.png]]
+>![[traces.png]]

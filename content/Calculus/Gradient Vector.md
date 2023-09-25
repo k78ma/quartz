@@ -44,7 +44,7 @@ Some nice facts about the gradient vector:
 
 Another one:
 >[!fact]
->The gradient vector $\nabla f(x_{0}, y_{0})$ is orthogonal to the [[Calculus/Functions of Several Variables#Level/Contour Curves|level curve]] $f(x,y)=k$ at the point $(x_{0}, y_{0})$. Likewise, the gradient vector $\nabla f(x_{0}, y_{0}, z_{0})$ is orthogonal to the level surface $f(x,y,z)=k$ at the point $(x_{0}, y_{0}, z_{0})$.
+>The gradient vector $\nabla f(x_{0}, y_{0})$ is orthogonal to the [[Functions of Several Variables#Level/Contour Curves|level curve]] $f(x,y)=k$ at the point $(x_{0}, y_{0})$. Likewise, the gradient vector $\nabla f(x_{0}, y_{0}, z_{0})$ is orthogonal to the level surface $f(x,y,z)=k$ at the point $(x_{0}, y_{0}, z_{0})$.
 
 >[!proof]- Proof: Gradient Vector Orthogonality
 >Let's prove the $\mathbb{R}^3$ case. Let $S$ be the level surface given by $f(x,y,z) = k$ and let $P=(x_{0},y_{0},z_{0})$. Note that $P$ will be on $S$.

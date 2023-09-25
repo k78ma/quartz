@@ -7,4 +7,4 @@ alias:
 
 - Shapes!
 
-![quadric_surfaces](Calculus/attachments/quadric_surfaces.pdf)
+![quadric_surfaces](quadric_surfaces.pdf)

@@ -15,7 +15,7 @@ Let’s say we have $k$ discrete features in the raw data. Encoding strategies:
 - **Binary code:** Bad! No!
 
 >[!example]- Blood type encoding example
->![Pasted image 20230712000819](ML/attachments/Pasted%20image%2020230712000819.png)
+>![Pasted image 20230712000819](Pasted%20image%2020230712000819.png)
 
 **Text-encoding:**
 - _Bag of words_: The idea is to let d be the number of words in our vocabulary (either computed from the training set or some other body of text or dictionary). We will then make a binary vector (with values 1.0 and 0.0) of length d, where element $j$ has value 1.0 if word $j$ occurs in the document, and 0.0 otherwise.
@@ -26,4 +26,4 @@ Let’s say we have $k$ discrete features in the raw data. Encoding strategies:
 	- It can be smart to scale your feature values to between $[-1, +1]$. 
 	- Without performing this transformation, if you have one feature with much larger values than another, it will take the learning algorithm a lot of work to find parameters that can put them on an equal basis.
 	- Another example when dealing with a distribution of values is calculating the $\phi$-score like $\phi(x) = \frac{x-\bar{x}}{\sigma}$
-	- This also makes like applying higher-order [[ML/Polynomial Basis|Polynomial Basis]] transformations easier
+	- This also makes like applying higher-order [[Polynomial Basis|Polynomial Basis]] transformations easier

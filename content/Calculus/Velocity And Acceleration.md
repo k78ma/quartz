@@ -22,4 +22,4 @@ $$
 $$
 a_{N} = \kappa v^{2} = \frac{||\vec{r}'(t) \cdot \vec{r}''(t)||}{||\vec{r}'(t)||}
 $$
-where $\kappa$ is the [curvature](Calculus/Curvature.md) for the position function.
+where $\kappa$ is the [curvature](Curvature.md) for the position function.

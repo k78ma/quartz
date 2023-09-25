@@ -15,7 +15,7 @@ Formal Definition:
 >[!info] Definition: Curvature
 >$$\kappa = \Bigg | \Bigg | \frac{d\vec{T}}{ds} \Bigg | \Bigg | $$
 >where $\vec{T}$ is the unit tangent and $s$ is the arc length
->- Recall that we can [reparametrize a curve to get it in terms of arc length](Calculus/Arc%20Length%20with%20Vector%20Functions.md#^arclengthfunction)
+>- Recall that we can [reparametrize a curve to get it in terms of arc length](Arc%20Length%20with%20Vector%20Functions.md#^arclengthfunction)
 
 The formal definition can be hard to use so there are alternate formulas:
 >[!info] Alternate Curvature Formulas

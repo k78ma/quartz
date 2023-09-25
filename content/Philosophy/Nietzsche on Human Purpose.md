@@ -9,8 +9,8 @@ Central existential question: What is the meaning of my life?
 We're not born with an innate, obvious answer to this question; so why are the majority of people not nihilistic? Nietzsche's answer to this is that the concept of "true world theories" gives an easy alternative for people, which is often less depressing than nihilism.
 
 ### True World Theories
-- A good example of this is the "ideal world of forms" from [Plato's Ideal World of Forms](Philosophy/Plato's%20Ideal%20World%20of%20Forms.md):
-![Plato's Ideal World of Forms](Philosophy/Plato's%20Ideal%20World%20of%20Forms.md#^1c0bca)
+- A good example of this is the "ideal world of forms" from [Plato's Ideal World of Forms](Plato's%20Ideal%20World%20of%20Forms.md):
+![Plato's Ideal World of Forms](Plato's%20Ideal%20World%20of%20Forms.md#^1c0bca)
 
 - A newer and more practical example is Abrahamic religion like Christianity
 	- You are an eternal spirit temporarily in the world of the flesh as a test to determine whether you go to the "true world" of heaven.

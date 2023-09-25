@@ -7,7 +7,7 @@ date: 2023-07-22
 aliases: []
 ---
 
-Representing planes with vector equations – extension of [Vector Equations of Lines](Calculus/Vector%20Equations%20of%20Lines.md)
+Representing planes with vector equations – extension of [Vector Equations of Lines](Vector%20Equations%20of%20Lines.md)
 
 > [!tip] Intuition
 > The general idea here is that a plane is described by two vectors:
@@ -21,7 +21,7 @@ For points $P_{0}= (x_{0}, y_{0}, z_{0})$ and $P=(x,y,z)$ on the plane, let $\ve
 Then, vector $\vec{r} - \vec{r_0}$ lies on the plane. 
 
 
-![200](Calculus/attachments/Pasted%20image%2020230731105534.png)
+![200](Pasted%20image%2020230731105534.png)
 
 ## Vector Equation of Plane
 Since $\vec{n}$ is normal, by the properties of dot product we have: 

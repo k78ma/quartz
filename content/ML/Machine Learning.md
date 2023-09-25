@@ -7,18 +7,18 @@ date: 2023-06-25
 
 ## Foundational Concepts
 
-- [[ML/Artificial Neuron|Artificial Neuron]]
-- [[ML/Sigmoid Neuron|Sigmoid Neuron]]
+- [[Artificial Neuron|Artificial Neuron]]
+- [[Sigmoid Neuron|Sigmoid Neuron]]
 
-- [[ML/Linear Classifier|Linear Classifier]]
-	- [[ML/Perceptron|Perceptron]]
-		- [[ML/Averaged Perceptron|Averaged Perceptron]]
-		- [[ML/Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
-- [[ML/Margin|Margin]]
+- [[Linear Classifier|Linear Classifier]]
+	- [[Perceptron|Perceptron]]
+		- [[Averaged Perceptron|Averaged Perceptron]]
+		- [[Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
+- [[Margin|Margin]]
 	
-- [[ML/Feature Representation|Feature Representation]]
-	- [[ML/Feature Engineering|Feature Engineering]]
-	- [[ML/Polynomial Basis|Polynomial Basis]]
+- [[Feature Representation|Feature Representation]]
+	- [[Feature Engineering|Feature Engineering]]
+	- [[Polynomial Basis|Polynomial Basis]]
 
 - [[Margin Maximization]]
 
@@ -39,8 +39,12 @@ date: 2023-06-25
 - [[Decision Trees and Nearest Neighbours]]
 
 
+## Models/Architectures
+- [[GRU (Gated Recurrent Unit)]]
+- [[LSTM (Long Term Short Memory)]]
+
 ## Model Behavior/Alteration
-- [[ML/Task Arithmetic|Task Arithmetic]]
+- [[Task Arithmetic|Task Arithmetic]]
 
 ## Computer Vision
 - [[SAM: Segment Anything]]

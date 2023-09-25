@@ -51,6 +51,6 @@ $$
 $$
 Basically, we want to find the partial derivative of the big function with respect to the sub-functions, and then take the partial derivative of the sub-functions with respect to their variables.
 In tree form, for $\frac{ \partial z }{ \partial s }$ given that $z=f(x,y)$, $x=g(s,t)$ , $y=h(s,t)$:
-![[Calculus/attachments/Pasted image 20230826210422.png|350]]
+![[Pasted image 20230826210422.png|350]]
 
 

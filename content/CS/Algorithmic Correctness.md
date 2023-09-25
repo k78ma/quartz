@@ -5,7 +5,7 @@ date: 2023-06-25
 alias:
 ---
 
-Chapter 1.3 of [[CS/Algorithm Design Manual (Skiena)]] - "Reasoning About Correctness"
+Chapter 1.3 of [[Algorithm Design Manual (Skiena)]] - "Reasoning About Correctness"
 
 - Show correctness through proofs
 - We should try to show both correctness and *not incorrectness*

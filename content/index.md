@@ -11,25 +11,25 @@ Welcome to my notes!
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
 ### Engineering
-- [[ML/Machine Learning|Machine Learning]]
-- [[Robotics/Robotics|Robotics]]
-- [[CS/Computer Science|Computer Science]]
-- [[OS/Operating Systems|Operating Systems]]
-- [[Computer Architecture/Computer Architecture|Computer Architecture]]
+- [[Machine Learning|Machine Learning]]
+- [[Robotics|Robotics]]
+- [[Computer Science|Computer Science]]
+- [[Operating Systems|Operating Systems]]
+- [[Computer Architecture|Computer Architecture]]
 
 ### Math
-- [[Calculus/Calculus III|Calculus III]]
-- [[Linear Algebra/Linear Algebra|Linear Algebra]]
+- [[Calculus III|Calculus III]]
+- [[Linear Algebra|Linear Algebra]]
 
 ### Courses
 - 2B
-	- [[2B/MTE 203/MTE 203 (Advanced Calculus)|MTE 203 (Advanced Calculus)]]
-	- [[2B/MTE 204/Numerical Methods|MTE 204 (Numerical Methods)]]
-	- [[2B/MTE 220/MTE 220 (Sensors and Instrumentation)|MTE 220 (Sensors and Instrumentation)]]
-	- [[MTE 220 (Computer Structures & Real-Time Systems)|MTE 241 (Computer Structures & Real-Time Systems)]]
-	- [[2B/SYDE 252/Signals and Systems|SYDE 252 (Signals and Systems)]] 
+	- [[MTE 203 - Advanced Calculus|MTE 203 - Advanced Calculus]]
+	- [[MTE 204 - Numerical Methods|MTE 204 - Numerical Methods]]
+	- [[MTE 220 - Sensors and Instrumentation|MTE 220 - Sensors and Instrumentation]]
+	- [[MTE 241 - Computer Structures & Real-Time Systems|MTE 241 - Computer Structures & Real-Time Systems]]
+	- [[SYDE 252 - Signals and Systems|SYDE 252 - Signals and Systems]] 
 ### Other
-- [[Philosophy/Philosophy|Philosophy]]
+- [[Philosophy|Philosophy]]
 ---
 \*The site is named "Cortex" for three reasons:
 - The term "second brain" is popular with people who use Obsidian to take notes

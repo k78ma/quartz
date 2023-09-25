@@ -9,12 +9,12 @@ draft:
 - $f_{x}(x,y)$ represents the rate of change of the function $f(x,y)$ as we change $x$ and hold $y$
 - $f_{y}(x,y)$ represents the rate of change of the function $f(x,y)$ as we change $y$ and hold $x$
 
-	![|375](Calculus/attachments/Pasted%20image%2020230814200509.png)
+	![|375](Pasted%20image%2020230814200509.png)
 	In the hyperbolic paraboloid above, we can see that if we move along the y-axis, the graph is increasing and if we move along the x-axis the graph is decreasing
 
 ## Slopes of tangent:
 Partial derivatives are the slopes of traces: 
-![](Calculus/Functions%20of%20Several%20Variables.md#Traces)
+![](Functions%20of%20Several%20Variables.md#Traces)
 
 - The partial derivative of $f_{x}(a,b)$ is the slope of the trace of $f(x,y)$ for the plane $y=b$ at the point $(a,b)$. 
 - The partial derivative of $f_{y}(a,b)$ is the slope of the trace of $f(x,y)$ for the plane $x=a$ at the point $(a,b)$

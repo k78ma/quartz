@@ -32,4 +32,4 @@ console.log(value);
 21dot
 ```
 
-See also: [Statically vs. Dynamically Typed Languages](CS/Statically%20vs.%20Dynamically%20Typed%20Languages.md)
+See also: [Statically vs. Dynamically Typed Languages](Statically%20vs.%20Dynamically%20Typed%20Languages.md)
