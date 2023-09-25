@@ -18,7 +18,7 @@ date: 2023-08-29
 >$$
 >Or if we want to use the standard basis vectors the gradient is:
 >$$
->\nabla f = f_{x}\vec{i}+f_{y}\vec{j}+f_{z}\vec{k}
+>\nabla f = \frac{ \partial f}{ \partial x }  \vec{i}+\frac{ \partial f}{ \partial y } \vec{j}+ \frac{ \partial  f}{ \partial y } \vec{k}
 >$$
 >The above definitions are for functions of 3 variables, but of course this extends to any number of variables
 ^gradvec

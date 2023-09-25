@@ -50,6 +50,10 @@ Lecture 7: Partial Derivatives and Gradient Vector
 - [[Partial Derivatives]]
 - [[Gradient Vector]]
 
+Lecture 8: Higher Order Partial Derivatives and Chain Rule
+- [[Higher Order Partial Derivatives]]
+- [[Laplace’s Equation]]
+
 ## Problems
 - [[Suggested Problems]]
 - [[MATLAB Worksheet 1]]

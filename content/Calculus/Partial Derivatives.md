@@ -15,10 +15,10 @@ A derivative represents the rate of change. When there's more than one variable,
 ## Formal Definition
 
 $$
-f_{x}(x,y) = \lim_{ h \to 0 } \frac{f(x+h, y)- f(x,y)}{h}
+f_{x}(x,y) = \frac{ \partial f }{ \partial x }  = \lim_{ h \to 0 } \frac{f(x+h, y)- f(x,y)}{h}
 $$
 $$
-f_{y}(x,y) = \lim_{ h \to 0 } \frac{f(x, y+h)- f(x,y)}{h}
+f_{y}(x,y) = \frac{ \partial f }{ \partial y }  = \lim_{ h \to 0 } \frac{f(x, y+h)- f(x,y)}{h}
 $$
 ---
 ## Partial Derivatives Example

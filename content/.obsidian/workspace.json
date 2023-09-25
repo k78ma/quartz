@@ -56,31 +56,18 @@
             }
           },
           {
-            "id": "a1122ce5a4cf9340",
+            "id": "4e689ec6a8b004c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "Robotics/Robotics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "498eab32f6fcefcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/CMake.md",
-                "mode": "source",
-                "source": false
+                "file": "content/Robotics/CMake.md",
+                "staged": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -109,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:syde252",
+                "query": "tag:robotics",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -146,7 +133,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/CMake.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +149,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/CMake.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -185,9 +170,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Robotics/CMake.md"
-              }
+              "state": {}
             }
           },
           {
@@ -236,14 +219,25 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "498eab32f6fcefcc",
+  "active": "4e689ec6a8b004c4",
   "lastOpenFiles": [
     "Robotics/Robotics.md",
-    "Robotics/CMake.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 203/Laplace’s Equation.md",
+    "Calculus/Higher Order Partial Derivatives.md",
+    "Calculus/Partial Derivatives.md",
+    "Calculus/Gradient Vector.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "Robotics/Points, Vectors, Coordinate Systems.md",
+    "2B/MTE 203/Vector Review.md",
+    "Robotics/Rotation Matrix.md",
     "2B/MTE 241/Memory Hierarchy.md",
+    "CS/C++ Shared and Static Libraries.md",
+    "CS/Computer Science.md",
+    "Robotics/CMake.md",
     "2B/MTE 241/attachments/Pasted image 20230923140901.png",
     "2B/MTE 241/attachments",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/SYDE 252/attachments/Pasted image 20230923005710.png",
     "2B/SYDE 252/attachments/Pasted image 20230923125503.png",
@@ -265,18 +259,7 @@
     "2B/SYDE 252/Time reversal.md",
     "2B/SYDE 252/Time scaling.md",
     "2B/SYDE 252/Time shifting.md",
-    "2B/SYDE 252/Causal vs. Non-causal vs. Anti-causal.md",
-    "Random/Stochastic vs. Deterministic.md",
-    "2B/SYDE 252/Energy and Power Signals.md",
-    "Robotics/Mathematical Formulation of SLAM.md",
-    "Robotics/State Estimation.md",
-    "CS/Problems/Problems.md",
-    "Robotics/Visual SLAM Framework.md",
-    "CS/Problems/Top K Frequent Elements (LC 347).md",
-    "2B/index2b.md",
     "notes",
-    "AeroVect Interview 09/22/2023.md",
-    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
     "AeroVect Interview 09/22",
     "AeroVect Interview 09",
     "Random",

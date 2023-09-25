@@ -39,11 +39,11 @@ f_{yy} &= -25x^{2}e^{5y} + 6
 \end{align}
 $$
 ---
-## Clairut's Theorem
+## Clairaut's Theorem
 
 When functions are "nice enough" they will have $f_{xy} = f_{yx}$.
 
->[!info] Clairut's Theorem
+>[!info] Clairaut's Theorem
 >Suppose that $f$ is defined on a disk $D$ that contains the point $(a,b)$. If the functions $f_{xy}$ and $f_{yx}$ are continuous on this disk then, 
 >$$f_{xy}(a,b) = f_{yx}(a,b)$$
 

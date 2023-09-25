@@ -39,6 +39,8 @@ aliases:
 - [[Statically vs. Dynamically Typed Languages|Statically vs. Dynamically Typed Languages]]
 - C++
 	- C++ Functions
+	- [[CMake]]
+	- [[C++ Shared and Static Libraries]]
 
 ## Resources
 - [Algorithm Design Manual](file:///Users/kai/books/The%20Algorithm%20Design%20Manual-Springer%20(2020)%20-%20Steven%20S.%20Skiena.pdf)
