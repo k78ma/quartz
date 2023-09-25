@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "f068146486cb1f8d",
+            "id": "c9f379cac069180f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,13 +56,14 @@
             }
           },
           {
-            "id": "4e689ec6a8b004c4",
+            "id": "78247b38d11d3610",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "content/Robotics/CMake.md",
-                "staged": false
+                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -133,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md"
+              }
             }
           },
           {
@@ -219,8 +224,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "4e689ec6a8b004c4",
+  "active": "78247b38d11d3610",
   "lastOpenFiles": [
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "Robotics/Robotics.md",
     "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
@@ -228,7 +236,6 @@
     "Calculus/Higher Order Partial Derivatives.md",
     "Calculus/Partial Derivatives.md",
     "Calculus/Gradient Vector.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "Robotics/Points, Vectors, Coordinate Systems.md",
     "2B/MTE 203/Vector Review.md",
     "Robotics/Rotation Matrix.md",
@@ -251,10 +258,8 @@
     "2B/SYDE 252/Signals.md",
     "2B/SYDE 252/attachments",
     "2B/MTE 241/Registers.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "2B/SYDE 252/Unit impulse.md",
     "2B/SYDE 252/Unit step.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "Vault Stats.md",
     "2B/SYDE 252/Time reversal.md",
     "2B/SYDE 252/Time scaling.md",

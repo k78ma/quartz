@@ -15,6 +15,7 @@ You are given a landscape in the form of a vector like `[3,2,1,2,3]`. This corre
 ```
 - The `@` symbols are the landscale
 - The `x` symbols are water
+
 Also, water overflows like this:
 ```
 Input: [3,2,1,2,2]
@@ -73,4 +74,4 @@ int main() {
 - `rightMax[i]` is the maximum of `rightMax[i+1]` and `height[i]`
 Then, for each position `i` in the height map, the water trapped above `i` is the minimum of `leftMax[i]` and `rightMax[i]`, minus the height at `i`. From here we just sum all the trapped water.
 
-As far as I can tell, this should have time/space complexity of $O(n)$. The interviewer pointed out that I’m using 3 separate for loops, but I’m not entirely sure if there’s a better way to do this, and the interviewer wasn’t sure either. Definitely gotta get better at questions like these.
+As far as I can tell, this should have time/space complexity of $O(n)$. The interviewer pointed out that I’m using 3 separate for loops, but I’m not entirely sure if there’s a better way to do this, and the interviewer wasn’t sure either (although he might just be saying that). Definitely gotta get better at questions like these.
