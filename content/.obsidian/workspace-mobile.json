@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/MTE 203 (Advanced Calculus).md",
+                "file": "Robotics/Robotics.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "2B/MTE 203/MTE 203 (Advanced Calculus).md",
+            "file": "Robotics/Robotics.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "2B/MTE 203/MTE 203 (Advanced Calculus).md",
+            "file": "Robotics/Robotics.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +114,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "2B/MTE 203/MTE 203 (Advanced Calculus).md"
+            "file": "Robotics/Robotics.md"
           }
         }
       }
@@ -136,12 +136,51 @@
   },
   "active": "9bb40e71ac672a3e",
   "lastOpenFiles": [
-    "2B/MTE 203/Integration of Vector Functions.md",
-    "2B/MTE 241/C “.md",
-    "2B/MTE 241/C “”.md",
-    "2B/MTE 203/Suggested Problems.md",
-    "2B/MTE 203/Parametrizing Curves.md",
-    "2B/MTE 241/MTE 220 (Computer Structures & Real-Time Systems).md",
-    "2B/MTE 203/3D Cartesian Space.md"
+    "2B/SYDE 252/Time scaling.md",
+    "Robotics/Robotics.md",
+    "Robotics/Rotation Matrix.md",
+    "2B/MTE 203/MTE 203 (Advanced Calculus).md",
+    "2B/MTE 220/Pasted image 20230920105940.png",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/SYDE 252/Analog vs. Digital Signals.md",
+    "2B/MTE 203/attachments/Pasted image 20230921175519.png",
+    "Robotics/State Estimation.md",
+    "2B/SYDE 252/Continuous Time and Discrete Time.md",
+    "Robotics/Visual SLAM Framework.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 203/attachments/Pasted image 20230921150954.png",
+    "2B/MTE 220/Inductors.md",
+    "2B/SYDE 252/attachments/Pasted image 20230914085205.png",
+    "2B/SYDE 252/attachments/Pasted image 20230923134657.png",
+    "2B/SYDE 252/attachments/Pasted image 20230923124440.png",
+    "2B/SYDE 252/attachments",
+    "Random",
+    "2B/MTE 220/Pasted image 20230920105046.png",
+    "2B/MTE 203/Excalidraw",
+    "2B/MTE 241/attachments/Pasted image 20230923140901.png",
+    "2B/MTE 241/attachments",
+    "Other/htn",
+    "Philosophy/Death (Nagel).md",
+    "2B/MTE 203/Radius of Curvature.md",
+    "Robotics/CMake.md",
+    "2B/MTE 220/Op-amp Assumptions.md",
+    "2B/SYDE 252/Causal vs. Non-causal vs. Anti-causal.md",
+    "2B/MTE 203/attachments/Pasted image 20230921191523.png",
+    "2B/MTE 220/Voltage and Current Sources.md",
+    "2B/SYDE 252/Energy and Power Signals.md",
+    "2B/MTE 220/Kirchhoff’s Current Law (KCL).md",
+    "2B/MTE 203/Curvature, Radius of Curvature, Circle of Curvature.md",
+    "2B/MTE 203/2D Limits.md",
+    "2B/MTE 220/Pasted image 20230920104735.png",
+    "2B/MTE 203/Excalidraw/Drawing 2023-09-15 10.53.21.excalidraw.md",
+    "2B/MTE 203/Continuity for 2D Functions.md",
+    "2B/SYDE 252/Time shifting.md",
+    "Robotics/Desktop Bot.md",
+    "2B/SYDE 252/Periodic vs. Aperiodic Signals.md",
+    "Excalidraw",
+    "Other/idfk.canvas",
+    "Robotics/Robot Configuration + Motion",
+    "2B/MTE 204/attachments",
+    "CS/Problems"
   ]
 }
