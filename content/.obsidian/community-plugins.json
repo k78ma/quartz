@@ -1,5 +1,4 @@
 [
-  "obsidian-git",
   "table-editor-obsidian",
   "callout-manager",
   "dataview",
@@ -13,5 +12,6 @@
   "obsidian-kanban",
   "obsidian-smart-typography",
   "obsidian-link-converter",
-  "obsidian-copy-block-link"
+  "obsidian-copy-block-link",
+  "obsidian-git"
 ]

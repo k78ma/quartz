@@ -14,7 +14,7 @@ Memory Organization
 - [[Memory Hierarchy]]
 - [[Bus]]
 - [[Registers|Registers]]
-- [[ARM Cortex M4 Registers]]
+	- [[Instruction Decode Cycle]]
 - [[Cache]]
 
 Memory Spaces, Memory Mapping, and Memory Protection

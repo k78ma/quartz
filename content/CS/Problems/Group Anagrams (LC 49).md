@@ -1,3 +1,10 @@
+---
+title: Group Anagrams (LC 49)
+tags:
+  - cs
+  - problems
+date: 2023-09-22
+---
 ### Hash Map Solution
 The idea of this is basically to encode strings in map format by counting how many of each letter they have. For example, `tar` and `rat` have the same number of t’s, a’s, and r’s, so they would be encoded the same way. Then you can create a dictionary where the encoding is the key, and the value is how many strings with this encoding there are.
 

@@ -44,31 +44,19 @@
             }
           },
           {
-            "id": "cd8e26b7e0a77ffb",
+            "id": "ced8f66099551336",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/Memory Hierarchy.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "78247b38d11d3610",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+                "file": "2B/MTE 241/Cache.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -129,12 +117,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "fa5a14956fc3abee",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "460ffbd0642e6980",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+                "file": "2B/MTE 241/Cache.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+                "file": "2B/MTE 241/Cache.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -174,16 +170,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/AeroVect Interview (Sept 22, 2023).md"
+                "file": "2B/MTE 241/Cache.md"
               }
-            }
-          },
-          {
-            "id": "61d35150793c77f1",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           },
           {
@@ -204,12 +192,11 @@
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 270.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,46 +211,46 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "78247b38d11d3610",
+  "active": "ced8f66099551336",
   "lastOpenFiles": [
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 241/Cache.md",
+    "2B/MTE 241/Registers.md",
+    "2B/MTE 241/attachments/Pasted image 20230925213406.png",
+    "2B/MTE 241/Instruction Decode Cycle.md",
+    "2B/MTE 241/attachments/Pasted image 20230925212348.png",
+    "Robotics/Robotics.md",
+    "2B/MTE 241/Memory Hierarchy.md",
+    "Robotics/Transform Matrix.md",
+    "Robotics/Euclidean Transforms.md",
+    "Robotics/Rotation Matrix.md",
+    "Robotics/Points, Vectors, Coordinate Systems.md",
+    "CS/Problems/Group Anagrams (LC 49).md",
+    "Robotics/Transforms Intuition.md",
+    "Robotics/attachments/Pasted image 20230925201127.png",
+    "2B/MTE 241/C Book.md",
+    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "Robotics/Robotics.md",
     "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "2B/MTE 203/Laplace’s Equation.md",
     "Calculus/Higher Order Partial Derivatives.md",
     "Calculus/Partial Derivatives.md",
     "Calculus/Gradient Vector.md",
-    "Robotics/Points, Vectors, Coordinate Systems.md",
     "2B/MTE 203/Vector Review.md",
-    "Robotics/Rotation Matrix.md",
-    "2B/MTE 241/Memory Hierarchy.md",
     "CS/C++ Shared and Static Libraries.md",
     "CS/Computer Science.md",
     "Robotics/CMake.md",
     "2B/MTE 241/attachments/Pasted image 20230923140901.png",
     "2B/MTE 241/attachments",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/SYDE 252/attachments/Pasted image 20230923005710.png",
     "2B/SYDE 252/attachments/Pasted image 20230923125503.png",
     "2B/SYDE 252/attachments/Pasted image 20230923125312.png",
     "2B/SYDE 252/Pasted image 20230923125503.png",
     "2B/SYDE 252/Pasted image 20230923125312.png",
     "2B/SYDE 252/Pasted image 20230923005710.png",
-    "Pasted image 20230923125503.png",
-    "Pasted image 20230923005710.png",
-    "2B/Pasted image 20230923125503.png",
-    "2B/SYDE 252/Signals.md",
     "2B/SYDE 252/attachments",
-    "2B/MTE 241/Registers.md",
-    "2B/SYDE 252/Unit impulse.md",
-    "2B/SYDE 252/Unit step.md",
-    "Vault Stats.md",
-    "2B/SYDE 252/Time reversal.md",
-    "2B/SYDE 252/Time scaling.md",
-    "2B/SYDE 252/Time shifting.md",
     "notes",
     "AeroVect Interview 09/22",
     "AeroVect Interview 09",

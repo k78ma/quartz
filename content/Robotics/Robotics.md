@@ -4,10 +4,11 @@ tag: robotics
 date: 2023-06-30
 alias:
 ---
-
 *There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.*
 
 **Modern Robotics:**   <progress max=642 value=36> </progress> 
+
+**Visual SLAM:**   <progress max=356 value=54> </progress> 
 
 ## Robot Configuration + Motion
 - [x] [[Configuration Space|Configuration Space]]
@@ -22,6 +23,7 @@ alias:
 ### Rigid Body Motions
 - [Rotation Matrix](Rotation%20Matrix.md)
 	- [[Points, Vectors, Coordinate Systems]]
+	- [[Transforms Intuition]]
 	- [[Euclidean Transforms]]
 	- [[Transform Matrix]]
 	- [[Homogeneous Coordinates]]
