@@ -2,7 +2,7 @@
 title: Laplace’s Equation
 tags:
   - mte203
-date: 2023-09-25
+date: 2023-09-24
 ---
 For a function $f(x,y)$ the equation 
 $$
