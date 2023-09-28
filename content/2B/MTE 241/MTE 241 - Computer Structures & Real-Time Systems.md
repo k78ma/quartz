@@ -15,7 +15,12 @@ Memory Organization
 - [[Bus]]
 - [[Registers|Registers]]
 	- [[Instruction Decode Cycle]]
+	- [[Cortex M4 Registers]]
 - [[Cache]]
+	- [[Memory Cycle and Memory Bottleneck]]
+	- [[Cache Optimization]]
+	- [[Cache Hit, Miss, Replacement]]
+	- [[Cache Write Policy]]
 
 Memory Spaces, Memory Mapping, and Memory Protection
 

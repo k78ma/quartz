@@ -2,6 +2,8 @@
 title: AeroVect Interview (Sept 22, 2023)
 tags: 
 date: 2023-09-22
+aliases:
+  - Trapping Rain Water
 ---
 I knew they were probably going to ask me either a LeetCode medium or hard question based on the outline of the interview; since I only had one day, didn’t really have time to prepare, just did some NeetCode questions. Hadn’t done LeetCode very seriously before, should definitely get better. Also wasn’t expecting the question to be in C++.
 
@@ -75,3 +77,30 @@ int main() {
 Then, for each position `i` in the height map, the water trapped above `i` is the minimum of `leftMax[i]` and `rightMax[i]`, minus the height at `i`. From here we just sum all the trapped water.
 
 As far as I can tell, this should have time/space complexity of $O(n)$. The interviewer pointed out that I’m using 3 separate for loops, but I’m not entirely sure if there’s a better way to do this, and the interviewer wasn’t sure either (although he might just be saying that). Definitely gotta get better at questions like these.
+
+**UPDATE:** It turns out that this problem can be found here: https://leetcode.com/problems/trapping-rain-water/description/ (LeetCode Hard)
+
+Here’s the Python version of my solution from above:
+```python
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        
+        n = len(height)
+        leftMax = [0] * n
+        rightMax = [0] * n
+
+        leftMax[0] = height[0]
+        rightMax[n-1] = height[n-1]
+
+        for i in range(1, n, 1):
+            leftMax[i] = max(leftMax[i-1], height[i])
+
+        for i in range(n-2, -1, -1):
+            rightMax[i] = max(rightMax[i+1], height[i]);
+
+        water = 0
+        for i in range(n):
+            water += min(leftMax[i], rightMax[i]) - height[i]
+
+        return water
+```
