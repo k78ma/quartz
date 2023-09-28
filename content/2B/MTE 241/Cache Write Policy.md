@@ -13,4 +13,4 @@ Two main policies:
 	- Upside: Memory access is minimized as much as possible
 	- Downside: Have to keep track of what needs to be written
 
-Modern general-purpose CPUs usually use write-back.
+Modern general-purpose CPUs usually use write-back. 

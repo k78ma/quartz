@@ -21,6 +21,7 @@ Memory Organization
 	- [[Cache Optimization]]
 	- [[Cache Hit, Miss, Replacement]]
 	- [[Cache Write Policy]]
+	- [[Banked vs. Unified Cache]]
 
 Memory Spaces, Memory Mapping, and Memory Protection
 
