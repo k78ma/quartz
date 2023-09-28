@@ -117,7 +117,7 @@ grid on;
 ### 2c.
 ![[Pasted image 20230928175624.png|460]]
 
-```
+```matlab
 syms t
 
 x = t;
