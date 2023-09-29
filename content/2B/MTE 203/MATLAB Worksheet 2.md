@@ -211,7 +211,7 @@ disp(results_table);
 
 ### 3b.
 ![[Pasted image 20230928182126.png|448]]
-```
+```matlab
 [x, y] = meshgrid(linspace(-10, 10, 400)); 
 z = cos(x) + sin(y); 
 

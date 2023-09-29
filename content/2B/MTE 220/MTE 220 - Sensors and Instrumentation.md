@@ -38,8 +38,9 @@ Op-amps
 - [[Op-amp Assumptions]]
 - [[Op-amp Configurations]]
 
-
-
+New circuit elements
+- [[Schmitt Trigger]]
 
 Lab
 - [[Lab 1]]
+- [[Lab 2]]
