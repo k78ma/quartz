@@ -23,9 +23,9 @@ Topological Equations
 - [[Kirchhoff’s Voltage Law (KVL)]]
 
 Analysis Tools and Techniques
-- [[Voltage and Current Dividers]]
+- [[Voltage Divider]]
+- [[Current Divider]]
 - [[Nodal Analysis]]
-	- [[Nodal Analysis with Dependent Sources]]
 	- [[Supernodes]]
 - [[Mesh Analysis]]
 	- [[Mesh Analysis with Dependent Sources]]

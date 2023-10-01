@@ -18,11 +18,12 @@ What are some features that would fix this? An better system would have:
 - Low-latency to enable running at real-time.
 - Re-usable/generalizable to different use cases, such as different environments, semantic classes, and sensor configurations
 
-## The Solution(s)
+## The Model(s)
 With the above requirements in mind, I dove into machine learning literature to find an appropriate model. We ended up choosing these two:
 ### PointPillars
 
 
 ### BEVFusion
+
 
 ## Implementation and Design

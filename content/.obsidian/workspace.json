@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "5b73cf79585a4afc",
+            "id": "7d3ba6dbb1b6b304",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,24 @@
             }
           },
           {
-            "id": "c9f379cac069180f",
+            "id": "2db1d08342e53cf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aec1c6839bc8d8cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/Project 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -50,18 +62,6 @@
               "type": "markdown",
               "state": {
                 "file": "Polymath/Polymath Blog Post.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba18218c093a0c2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/MATLAB Worksheet 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 203/MATLAB Worksheet 2.md",
+                "file": "Polymath/Polymath Blog Post.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 203/MATLAB Worksheet 2.md",
+                "file": "Polymath/Polymath Blog Post.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 203/MATLAB Worksheet 2.md"
+                "file": "Polymath/Polymath Blog Post.md"
               }
             }
           },
@@ -223,44 +223,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ba18218c093a0c2f",
+  "active": "3ac395b12f5e289e",
   "lastOpenFiles": [
+    "2B/MTE 203/Project 1.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 220/Nodal Analysis.md",
+    "2B/MTE 220/attachments/Pasted image 20231001135312.png",
+    "2B/MTE 220/attachments/Pasted image 20230920105046.png",
+    "2B/MTE 220/Op-amp Assumptions.md",
+    "2B/MTE 220/Nodal Analysis with Dependent Sources.md",
+    "2B/MTE 220/Inductors.md",
+    "2B/MTE 220/Lab 1.md",
+    "2B/MTE 220/Power.md",
+    "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
+    "2B/MTE 220/Kirchhoff’s Current Law (KCL).md",
+    "2B/MTE 241/Banked vs. Unified Cache.md",
+    "2B/MTE 220/attachments/Pasted image 20230920104735.png",
+    "2B/MTE 220/attachments/Pasted image 20230919134633.png",
+    "2B/MTE 220/attachments/Pasted image 20230919134504.png",
+    "2B/MTE 220/attachments/Pasted image 20230919134349.png",
+    "2B/MTE 220/attachments/Pasted image 20230919134200.png",
+    "2B/MTE 220/attachments/Pasted image 20230930174824.png",
+    "Polymath/Polymath Blog Post.md",
+    "2B/MTE 220/Current Divider.md",
+    "2B/MTE 220/attachments/Pasted image 20230930160522.png",
+    "2B/MTE 220/Voltage Divider.md",
+    "2B/MTE 220/attachments/Pasted image 20230930160016.png",
+    "2B/MTE 220/attachments",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 203/MATLAB Worksheet 2.md",
-    "2B/MTE 203/attachments/Pasted image 20230928182126.png",
-    "2B/MTE 203/attachments/Pasted image 20230928180855.png",
-    "2B/MTE 203/attachments/Pasted image 20230928175624.png",
-    "2B/MTE 203/attachments/Pasted image 20230928175354.png",
-    "2B/MTE 203/attachments/Pasted image 20230928175328.png",
-    "2B/MTE 203/attachments/Pasted image 20230928173804.png",
     "2B/MTE 203/MATLAB Worksheet 1.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "2B/MTE 241/Cache Write Policy.md",
-    "2B/MTE 241/Banked vs. Unified Cache.md",
-    "Polymath/Polymath Blog Post.md",
     "2B/SYDE 252/Analog vs. Digital Signals.md",
     "2B/SYDE 252/Causal vs. Non-causal vs. Anti-causal.md",
     "Robotics/Rotation Matrix.md",
     "Robotics/Euclidean Transforms.md",
     "Robotics/Robotics.md",
     "2B Deliverables.md",
-    "2B/MTE 241/Memory Cycle and Memory Bottleneck.md",
-    "2B/MTE 241/Cortex M4 Registers.md",
-    "2B/MTE 241/Registers.md",
-    "2B/MTE 241/Cache Hit, Miss, Replacement.md",
-    "2B/MTE 241/Cache Optimization.md",
-    "2B/MTE 241/Cache.md",
-    "2B/MTE 241/attachments/Pasted image 20230927212203.png",
-    "2B/MTE 241/attachments/Pasted image 20230927211247.png",
-    "2B/MTE 241/attachments/Pasted image 20230927210945.png",
-    "Robotics/Transform Matrix.md",
-    "CS/Problems/Product of Array Except Self (LC 238).md",
-    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
-    "CS/Problems/Problems.md",
-    "CS/Problems/Top K Frequent Elements (LC 347).md",
-    "CS/Problems/Group Anagrams (LC 49).md",
-    "2B/MTE 241/attachments/Pasted image 20230925213406.png",
     "2B/MTE 241/attachments",
     "2B/SYDE 252/attachments",
     "notes",
@@ -270,7 +271,6 @@
     "Robotics/Robot Configuration + Motion",
     "Robotics/SLAM",
     "CS/Problems",
-    "Other/htn",
     "Other/idfk.canvas",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",

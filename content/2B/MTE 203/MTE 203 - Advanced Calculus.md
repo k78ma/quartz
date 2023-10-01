@@ -58,3 +58,4 @@ Lecture 8: Higher Order Partial Derivatives and Chain Rule
 - [[Suggested Problems]]
 - [[MATLAB Worksheet 1]]
 - [[MATLAB Worksheet 2]]
+- [[Project 1]]
