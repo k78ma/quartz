@@ -21,9 +21,13 @@ What are some features that would fix this? An better system would have:
 ## The Model(s)
 With the above requirements in mind, I dove into machine learning literature to find an appropriate model. We ended up choosing these two:
 ### PointPillars
+PointPillars is considered a class lidar-based approach. It works by creating “pillars” (vertical columns of points) in birds-eye-view (BEV) space, which are then transformed to a unified representation by encoding the points to a canonical coordinate system and aggregating their features. The encoded pillar features are then scattered into a 2D pseudo-image based on their BEV location, which means that 2D convolutional network architectures (which are mature and well-studied) can be used for object detection. These 2D detections are then transformed back to 3D space. This method is able to balance efficiency by preserving spatial features effectively while avoiding 3D convolutions.
 
+PointPillars is chosen as the lidar-based object detection backbone for Polymath’s new perception system for a couple reasons. Most importantly, it is considered a classic approach and is fairly well-studied, which means that its behavior is well-understood and relatively stable. While it’s not necessarily state-of-the-art anymore, it achieves respectable performance in all aspects without significant weaknesses. Furthermore, due to its status as a classic method, many open-source implementations exist, including adoption by MMDetection3D and even existing integrations with ROS2.
 
 ### BEVFusion
+BEVFusion is a multi-modal (camera + lidar) method for 3D object detection.
 
+### Why Not Segmentation?
 
 ## Implementation and Design

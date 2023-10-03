@@ -20,19 +20,7 @@
             }
           },
           {
-            "id": "7d3ba6dbb1b6b304",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2db1d08342e53cf4",
+            "id": "aec1c6839bc8d8cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,12 +32,36 @@
             }
           },
           {
-            "id": "aec1c6839bc8d8cd",
+            "id": "2db1d08342e53cf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Project 1.md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dddf74ebfc52f5f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Filters.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cafbaa16267311ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Lowpass Filter.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polymath/Polymath Blog Post.md",
+                "file": "2B/MTE 220/Lowpass Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polymath/Polymath Blog Post.md",
+                "file": "2B/MTE 220/Lowpass Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polymath/Polymath Blog Post.md"
+                "file": "2B/MTE 220/Lowpass Filter.md"
               }
             }
           },
@@ -223,12 +235,21 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3ac395b12f5e289e",
+  "active": "cafbaa16267311ce",
   "lastOpenFiles": [
-    "2B/MTE 203/Project 1.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 220/attachments/Pasted image 20231003122752.png",
+    "2B/MTE 220/attachments/Pasted image 20231003122510.png",
+    "2B/MTE 220/attachments/Pasted image 20231003121935.png",
+    "2B/MTE 220/Filters.md",
+    "2B/MTE 220/Lowpass Filter.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Pulse Width Modulation.md",
+    "2B/MTE 220/attachments/Pasted image 20231003120727.png",
+    "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 203/MTE 203 Project 1.md",
+    "Polymath/Polymath Blog Post.md",
     "2B/MTE 220/Nodal Analysis.md",
     "2B/MTE 220/attachments/Pasted image 20231001135312.png",
     "2B/MTE 220/attachments/Pasted image 20230920105046.png",
@@ -245,23 +266,14 @@
     "2B/MTE 220/attachments/Pasted image 20230919134504.png",
     "2B/MTE 220/attachments/Pasted image 20230919134349.png",
     "2B/MTE 220/attachments/Pasted image 20230919134200.png",
-    "2B/MTE 220/attachments/Pasted image 20230930174824.png",
-    "Polymath/Polymath Blog Post.md",
     "2B/MTE 220/Current Divider.md",
-    "2B/MTE 220/attachments/Pasted image 20230930160522.png",
     "2B/MTE 220/Voltage Divider.md",
-    "2B/MTE 220/attachments/Pasted image 20230930160016.png",
     "2B/MTE 220/attachments",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 203/MATLAB Worksheet 2.md",
     "2B/MTE 203/MATLAB Worksheet 1.md",
     "2B/MTE 241/Cache Write Policy.md",
     "2B/SYDE 252/Analog vs. Digital Signals.md",
-    "2B/SYDE 252/Causal vs. Non-causal vs. Anti-causal.md",
-    "Robotics/Rotation Matrix.md",
-    "Robotics/Euclidean Transforms.md",
-    "Robotics/Robotics.md",
-    "2B Deliverables.md",
     "2B/MTE 241/attachments",
     "2B/SYDE 252/attachments",
     "notes",

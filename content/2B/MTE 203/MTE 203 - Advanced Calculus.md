@@ -54,8 +54,19 @@ Lecture 8: Higher Order Partial Derivatives and Chain Rule
 - [[Higher Order Partial Derivatives]]
 - [[Laplace’s Equation]]
 
+Lecture 9: Implicit Differentiation
+- [[Implicit Differentiation with Partial Derivatives]]
+- [[Jacobian Determinate]]
+
+Lecture 10: Directional derivatives, tangent lines, and tangent plane
+- [[Directional Derivative]]
+	- [[Directional Derivatives]]
+- [[Tangent Lines and Planes]]
+
+Lecture 11: Optimization
+
 ## Problems
 - [[Suggested Problems]]
 - [[MATLAB Worksheet 1]]
 - [[MATLAB Worksheet 2]]
-- [[Project 1]]
+- [[MTE 203 Project 1]]

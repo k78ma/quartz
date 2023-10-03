@@ -8,7 +8,6 @@ tags:
 aliases:
   - MTE 204
 ---
-## MTE 204
 
 Errors
 	- [[Error Definitions|Error Definitions]]
@@ -16,8 +15,11 @@ Errors
 	- [[Types of Errors]]
 	- [[Control of Numerical Errors]]
 
-[[Roots of Equations]]
+Roots of Equations
 	- [[Graphical Methods]]
 	- [[Bisection Methods]]
 	- Root finding, open methods – [[Newton Raphson]]
 	- [[Secant Method]]
+
+### Problems
+- [[Project 1]]
