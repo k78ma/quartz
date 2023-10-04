@@ -37,31 +37,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 220/Nodal Analysis.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "dddf74ebfc52f5f1",
+            "id": "9e7cc994a769cd05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Filters.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cafbaa16267311ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Lowpass Filter.md",
+                "file": "2B/MTE 203/MTE 203 Project 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/Lowpass Filter.md",
+                "file": "2B/MTE 203/MTE 203 Project 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/Lowpass Filter.md",
+                "file": "2B/MTE 203/MTE 203 Project 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -194,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 220/Lowpass Filter.md"
+                "file": "2B/MTE 203/MTE 203 Project 1.md"
               }
             }
           },
@@ -235,24 +223,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "cafbaa16267311ce",
+  "active": "9e7cc994a769cd05",
   "lastOpenFiles": [
+    "2B/MTE 220/Nodal Analysis.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 203/MTE 203 Project 1.md",
+    "2B/MTE 203/attachments/Pasted image 20231003230117.png",
+    "2B/MTE 203/attachments/Pasted image 20231003225321.png",
+    "2B/MTE 203/attachments/Pasted image 20231003223942.png",
+    "2B/MTE 203/attachments/Pasted image 20231003223759.png",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 220/Lab 2.md",
+    "2B/MTE 220/attachments/Pasted image 20231003134729.png",
+    "2B/MTE 220/Filters.md",
+    "2B/MTE 220/Lowpass Filter.md",
     "2B/MTE 220/attachments/Pasted image 20231003122752.png",
     "2B/MTE 220/attachments/Pasted image 20231003122510.png",
     "2B/MTE 220/attachments/Pasted image 20231003121935.png",
-    "2B/MTE 220/Filters.md",
-    "2B/MTE 220/Lowpass Filter.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/MTE 220/Pulse Width Modulation.md",
     "2B/MTE 220/attachments/Pasted image 20231003120727.png",
     "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 203/MTE 203 Project 1.md",
     "Polymath/Polymath Blog Post.md",
-    "2B/MTE 220/Nodal Analysis.md",
     "2B/MTE 220/attachments/Pasted image 20231001135312.png",
-    "2B/MTE 220/attachments/Pasted image 20230920105046.png",
     "2B/MTE 220/Op-amp Assumptions.md",
     "2B/MTE 220/Nodal Analysis with Dependent Sources.md",
     "2B/MTE 220/Inductors.md",
@@ -261,11 +254,6 @@
     "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
     "2B/MTE 220/Kirchhoff’s Current Law (KCL).md",
     "2B/MTE 241/Banked vs. Unified Cache.md",
-    "2B/MTE 220/attachments/Pasted image 20230920104735.png",
-    "2B/MTE 220/attachments/Pasted image 20230919134633.png",
-    "2B/MTE 220/attachments/Pasted image 20230919134504.png",
-    "2B/MTE 220/attachments/Pasted image 20230919134349.png",
-    "2B/MTE 220/attachments/Pasted image 20230919134200.png",
     "2B/MTE 220/Current Divider.md",
     "2B/MTE 220/Voltage Divider.md",
     "2B/MTE 220/attachments",
@@ -273,7 +261,6 @@
     "2B/MTE 203/MATLAB Worksheet 2.md",
     "2B/MTE 203/MATLAB Worksheet 1.md",
     "2B/MTE 241/Cache Write Policy.md",
-    "2B/SYDE 252/Analog vs. Digital Signals.md",
     "2B/MTE 241/attachments",
     "2B/SYDE 252/attachments",
     "notes",
