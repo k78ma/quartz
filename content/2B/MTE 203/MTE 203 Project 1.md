@@ -13,7 +13,7 @@ Preliminary plotting shows us that $x(t), y(t), z(t)$ are all approximately sinu
 
 ### Curve fitting x(t)
 Using the curve fitting tool in MATLAB, we get:
-![[Pasted image 20231003223942.png|496]]
+![[Pasted image 20231003223942.png|592]]
 
 There doesn’t seem to be a better fit for this (adding more terms did very little), so we just use:
 $$

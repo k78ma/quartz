@@ -13,5 +13,10 @@
   "obsidian-smart-typography",
   "obsidian-link-converter",
   "obsidian-copy-block-link",
-  "obsidian-git"
+  "obsidian-git",
+  "obsidian-image-toolkit",
+  "obsidian-paste-image-rename",
+  "sheets",
+  "obsidian-image-layouts",
+  "obsidian-style-settings"
 ]

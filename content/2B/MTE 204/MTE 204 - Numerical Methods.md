@@ -22,4 +22,4 @@ Roots of Equations
 	- [[Secant Method]]
 
 ### Problems
-- [[Project 1]]
+- [[Project 1 - Gauss-Seidel Circuit Solver]]
