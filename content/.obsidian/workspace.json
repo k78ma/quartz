@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Calculus/Partial Derivatives.md",
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Nodal Analysis.md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/MTE 203 Project 1.md",
+                "file": "2B/MTE 203/Project 1 - Robot Kinematics.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -154,7 +154,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
+                "file": "2B/MTE 203/Project 1 - Robot Kinematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +171,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
+                "file": "2B/MTE 203/Project 1 - Robot Kinematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -194,7 +194,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md"
+                "file": "2B/MTE 203/Project 1 - Robot Kinematics.md"
               }
             }
           },
@@ -216,8 +216,7 @@
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -236,22 +235,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "03fd60c2f293612c",
+  "active": "9e7cc994a769cd05",
   "lastOpenFiles": [
+    "2B/MTE 203/attachments/position_J3.png",
+    "Polymath/Polymath Blog Post.md",
+    "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
+    "2B/MTE 203/Project 1 - Robot Kinematics.md",
+    "excalidraw/Drawing 2023-10-05 01.04.33.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-05 01.04.33.excalidraw.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "Calculus/Partial Derivatives.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Nodal Analysis.md",
     "2B/MTE 204/attachments/circuit diagrams.png",
     "excalidraw/Drawing 2023-10-04 15.28.12.excalidraw.md",
     "Excalidraw/Drawing 2023-10-04 15.28.12.excalidraw.md",
-    "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
     "2B/MTE 204/attachments/circuit2.png",
     "2B/MTE 204/attachments/Pasted image 20231004140828.png",
     "2B/MTE 204/attachments/Pasted image 20231004124641.png",
     "2B/MTE 204/attachments/Pasted image 20231004120448.png",
-    "Calculus/Partial Derivatives.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 203/MTE 203 Project 1.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 220/Nodal Analysis.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/MTE 203/attachments/Pasted image 20231003230117.png",
     "2B/MTE 203/attachments/Pasted image 20231003225321.png",
     "2B/MTE 203/attachments/Pasted image 20231003223942.png",
@@ -260,10 +263,8 @@
     "2B/MTE 220/attachments/Pasted image 20231003134729.png",
     "2B/MTE 220/Filters.md",
     "2B/MTE 220/Lowpass Filter.md",
-    "2B/MTE 220/attachments/Pasted image 20231003122752.png",
     "2B/MTE 220/Pulse Width Modulation.md",
     "2B/MTE 203/Suggested Problems.md",
-    "Polymath/Polymath Blog Post.md",
     "2B/MTE 220/Op-amp Assumptions.md",
     "2B/MTE 220/Nodal Analysis with Dependent Sources.md",
     "2B/MTE 220/Inductors.md",
@@ -272,8 +273,6 @@
     "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
     "2B/MTE 220/Kirchhoff’s Current Law (KCL).md",
     "2B/MTE 241/Banked vs. Unified Cache.md",
-    "2B/MTE 220/Current Divider.md",
-    "2B/MTE 220/Voltage Divider.md",
     "2B/MTE 220/attachments",
     "2B/MTE 241/attachments",
     "2B/SYDE 252/attachments",

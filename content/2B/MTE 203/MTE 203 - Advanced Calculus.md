@@ -69,4 +69,4 @@ Lecture 11: Optimization
 - [[Suggested Problems]]
 - [[MATLAB Worksheet 1]]
 - [[MATLAB Worksheet 2]]
-- [[MTE 203 Project 1]]
+- [[Project 1 - Robot Kinematics]]

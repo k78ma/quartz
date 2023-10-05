@@ -1,5 +1,8 @@
 {
   "baseFontSize": 13,
-  "accentColor": "#a234d5",
-  "cssTheme": ""
+  "accentColor": "#62a3df",
+  "cssTheme": "Minimal",
+  "enabledCssSnippets": [
+    "center-img"
+  ]
 }
