@@ -78,6 +78,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "10f04ff350e0f0ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Rotation Matrix.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -237,10 +249,15 @@
   },
   "active": "9e7cc994a769cd05",
   "lastOpenFiles": [
-    "2B/MTE 203/attachments/position_J3.png",
-    "Polymath/Polymath Blog Post.md",
+    "2B/MTE 203/attachments/prelim_ee-1.png",
+    "2B/MTE 203/attachments/j3_position.png",
     "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
+    "Polymath/Polymath Blog Post.md",
+    "Robotics/Rotation Matrix.md",
+    "Robotics/Transform Matrix.md",
     "2B/MTE 203/Project 1 - Robot Kinematics.md",
+    "2B/MTE 203/attachments/prelim_ee.png",
+    "2B/MTE 203/attachments/position_J3.png",
     "excalidraw/Drawing 2023-10-05 01.04.33.excalidraw.md",
     "Excalidraw/Drawing 2023-10-05 01.04.33.excalidraw.md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
@@ -257,10 +274,7 @@
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/MTE 203/attachments/Pasted image 20231003230117.png",
     "2B/MTE 203/attachments/Pasted image 20231003225321.png",
-    "2B/MTE 203/attachments/Pasted image 20231003223942.png",
-    "2B/MTE 203/attachments/Pasted image 20231003223759.png",
     "2B/MTE 220/Lab 2.md",
-    "2B/MTE 220/attachments/Pasted image 20231003134729.png",
     "2B/MTE 220/Filters.md",
     "2B/MTE 220/Lowpass Filter.md",
     "2B/MTE 220/Pulse Width Modulation.md",
@@ -271,8 +285,6 @@
     "2B/MTE 220/Lab 1.md",
     "2B/MTE 220/Power.md",
     "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
-    "2B/MTE 220/Kirchhoff’s Current Law (KCL).md",
-    "2B/MTE 241/Banked vs. Unified Cache.md",
     "2B/MTE 220/attachments",
     "2B/MTE 241/attachments",
     "2B/SYDE 252/attachments",
