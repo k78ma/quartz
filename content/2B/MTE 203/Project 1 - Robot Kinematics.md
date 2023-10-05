@@ -77,7 +77,7 @@ z_{J_{3}} &= L_{2} \cdot \sin(J_{2})
 \end{align}
 $$
 *($J_{3}$ position diagram)*  
-![[position_J3.png|Check out this amazing picture|316]]
+![[position_J3.png|316]]
 
 Note here that $y_{J_{3}}$ has no change because the joint only controls pitch.
 
