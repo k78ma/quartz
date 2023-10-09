@@ -71,3 +71,6 @@ date: 2023-06-25
 - [[NICE-SLAM]]
 - [[Block-NeRF]]
 - [[Instant-NGP]]
+
+## Other
+- [[World Models]]

@@ -152,5 +152,5 @@ $$
 \end{align}
 $$
 
-#### $\Theta_{\text{forearm}}$ determination
+#### Forearm angle determination
 What the fuck

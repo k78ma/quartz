@@ -8,42 +8,62 @@ tags:
 aliases:
   - MTE 220
 ---
-## MTE 220
-
-### Linear Circuits Review 
-Components
+## Linear Circuits Review
+#### Components
 - [[Voltage and Current Sources]]
 - [[Resistors]]
 	- [[Power]]
 - [[Capacitors]]
 - [[Inductors]]
 
-Topological Equations
+#### Topological Equations
 - [[Kirchhoff’s Current Law (KCL)]]
 - [[Kirchhoff’s Voltage Law (KVL)]]
 
-Analysis Tools and Techniques
+#### Analysis Tools and Techniques
 - [[Voltage Divider]]
 - [[Current Divider]]
 - [[Nodal Analysis]]
+	- [[Nodal Analysis with Dependent Sources]]
 	- [[Supernodes]]
 - [[Mesh Analysis]]
 	- [[Mesh Analysis with Dependent Sources]]
 	- [[Supermesh]]
-- [[Thevenin/Norton Representations]]
+- [[Thevenin and Norton Representations]]
+	- [[Thevenin and Norton for Analysis]]
+	- [[Thevenin and Norton for Simplified Loading]]
 
-Op-amps
+#### Op-amps
 - [[Op-amp Basics]]
 - [[Feedback]]
 - [[Op-amp Assumptions]]
 - [[Op-amp Configurations]]
+	- [[Open Loop vs Closed Loop]]
+	- [[Non-Inverting Configuration]]
+	- [[Voltage Follower]]
+	- [[Inverting Configuration]]
+	- [[Difference Amplifier]]
+	- [[Inverting Summing Amplifier]]
 
-New circuit elements
+#### First-order Response
+- [[Capacitor Intuition]]
+- [[RC Step Response]]
+- [[RC Circuits]]
+- [[Rise Time]]
+- [[RC Problem Example]]
+- [[Generalized Solution for RC Switching]]
+- [[Inductor Intuition]]
+- [[Sinusoidal Steady-state Response]]
+- [[Phasors]]
+## New circuit elements
+- [[Preferred Value Numbering System]]
+- [[Signal Reference Voltage]]
+- [[Comparator]]
 - [[Schmitt Trigger]]
+- [[Diodes]]
 
 Lab
 - [[Lab 1]]
 - [[Lab 2]]
 	- [[Pulse Width Modulation]]
 	- [[Filters]]
-	- [[]]
