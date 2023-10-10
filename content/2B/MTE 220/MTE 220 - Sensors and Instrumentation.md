@@ -15,11 +15,9 @@ aliases:
 	- [[Power]]
 - [[Capacitors]]
 - [[Inductors]]
-
 #### Topological Equations
 - [[Kirchhoff’s Current Law (KCL)]]
 - [[Kirchhoff’s Voltage Law (KVL)]]
-
 #### Analysis Tools and Techniques
 - [[Voltage Divider]]
 - [[Current Divider]]
@@ -32,19 +30,17 @@ aliases:
 - [[Thevenin and Norton Representations]]
 	- [[Thevenin and Norton for Analysis]]
 	- [[Thevenin and Norton for Simplified Loading]]
-
 #### Op-amps
-- [[Op-amp Basics]]
+- [[Op-amps]]
 - [[Feedback]]
 - [[Op-amp Assumptions]]
 - [[Op-amp Configurations]]
-	- [[Open Loop vs Closed Loop]]
-	- [[Non-Inverting Configuration]]
+	- [[Inverting Amplifier]]
+	- [[Non-Inverting Amplifier]]
 	- [[Voltage Follower]]
-	- [[Inverting Configuration]]
 	- [[Difference Amplifier]]
 	- [[Inverting Summing Amplifier]]
-
+- [[Amplifier Topologies]]
 #### First-order Response
 - [[Capacitor Intuition]]
 - [[RC Step Response]]
@@ -55,6 +51,7 @@ aliases:
 - [[Inductor Intuition]]
 - [[Sinusoidal Steady-state Response]]
 - [[Phasors]]
+
 ## New circuit elements
 - [[Preferred Value Numbering System]]
 - [[Signal Reference Voltage]]

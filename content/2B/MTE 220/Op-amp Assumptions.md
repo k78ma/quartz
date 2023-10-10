@@ -5,12 +5,18 @@ tags:
 date: 2023-09-19
 ---
 Assumptions that are always good:
+
 - The input terminals require no input current: $I_{in+} = I_{in-} =0$ 
 	- Equivalently, $R_{in} \to \infty$ o.c
-- The output terminal can supply any amount of current: $I_{out}$ can go to $\infty$ 
+
+- Output terminal can supply any amount of current: $I_{out}$ can go to $\infty$ 
 	- Equivalently, $R_{out} =0$, $V_{out}$ won’t drop under loading
+
 - Open-loop gain is infinite: $A_{0}\to \infty$
 	- $V_{in+}$ and $V_{in-}$ are so close they’re effectively equal
+
+- Output terminal can be any voltage as determined by the open-loop gain.
+	- Note that this still needs to stay in between the supply voltage rails.
 
 If a negative closed-loop feedback is present:
 - We set $V_{+}$

@@ -43,3 +43,7 @@ The left case is for creating a voltage source at the terminal and the right cas
 - In the open-circuit case, $V_{OC}$ is measured at the terminals of both circuits, with $V_{OC} = V_{1}$ on the left and $V_{OC} = I_{1}R_{1}$ on the right.
 - In the short-circuit case, both output a current of $I_{SC}$, with $I_{SC} = V_{1} / R_{1}$ on the left and $I_{SC} = I_{1}$ on the right.
 - Since these circuits are equivalent, therefore $V_{OC} = I_{SC} / R_{1}$. We can use this relationship to convert between the two forms without changing terminal behavior
+
+### Applications
+- [[Thevenin and Norton for Analysis]]
+- [[Thevenin and Norton for Simplified Loading]]
