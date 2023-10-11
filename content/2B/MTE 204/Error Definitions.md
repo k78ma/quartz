@@ -24,7 +24,6 @@ Numerical errors arise from the use of approximation methods to represent mathem
 >$$
 > This can be used when the true value is unknown.
 > This is also used in iterative methods, where in each subsequent trial, the approximate value gets closer to the true value.
-
 ^d489e2
 
 Note that in the above definitions, the absolute value of error values are usually used to avoid positive/negative values.
@@ -34,7 +33,6 @@ Note that in the above definitions, the absolute value of error values are usual
 >\epsilon_{t \, \text{Absolute}} = \mid x_{\text{true}} - x_{\text{Calculated}} \mid
 >$$
 >This is in units of the value $x$.
-
 ^5ad412
 
 >[!info] Relative Error
@@ -42,6 +40,5 @@ Note that in the above definitions, the absolute value of error values are usual
 >\epsilon_{t \, \text{Relative}} = \left | \frac{x_{\text{True}}-x_{\text{Calculated}}}{x_{\text{True}}} \right |
 >$$
 >This is non-dimensionalized.
-
 ^e03867
 

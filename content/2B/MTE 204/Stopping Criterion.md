@@ -23,7 +23,7 @@ For definitions of absolute and relative error, see [[Error Definitions]].
 In some cases, the solution may be close to zero, which leads to the possibility of division by zero. In this case, a hybrid version is needed:
 >[!info] Hybrid Stopping Criterion
 >$$
->\frac{\mid x_{i+1}-x_{i} \mid}{Max(\mid x_{i+1} \mid, \theta)} < 0
+>\frac{\mid x_{i+1}-x_{i} \mid}{\text{Max}(\mid x_{i+1} \mid, \theta)} < 0
 >$$
 >where $\theta>0$ is a problem-specific value.
 

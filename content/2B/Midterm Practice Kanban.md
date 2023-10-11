@@ -11,7 +11,6 @@ tags:
 ## MTE 203
 
 - [ ] Project 1
-- [ ] Lecture 3
 - [ ] Lecture 4
 - [ ] Lecture 5
 - [ ] Lecture 6

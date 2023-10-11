@@ -8,18 +8,33 @@ tags:
 aliases:
   - MTE 204
 ---
+## MTE 204
+### Errors
+- [[Error Definitions|Error Definitions]]
+- [[Stopping Criterion]]
+- [[Types of Errors]]
+- [[Control of Numerical Errors]]
 
-Errors
-	- [[Error Definitions|Error Definitions]]
-	- [[Stopping Criterion]]
-	- [[Types of Errors]]
-	- [[Control of Numerical Errors]]
+### Roots of Equations
+- [[Graphical Methods]]
+- [[Bracketing Method]]
+#### Open methods
+- [[2-curve Graphical Interpretation]]
+- [[Convergence & Divergence]]
+- [[Fixed point iteration]]
+- [[Newton-Raphson Method]]
+- [[Secant Method]]
 
-Roots of Equations
-	- [[Graphical Methods]]
-	- [[Bisection Methods]]
-	- Root finding, open methods – [[Newton Raphson]]
-	- [[Secant Method]]
-
+### Systems of Linear Equations
+- [[Gaussian Elimination]]
+- [[Pivoting and Scaling]]
+- [[Iterative Methods]]
+- [[Gauss-Seidel]]
+	- [[Gauss-Seidel with Relaxation]]
+### Curve Fitting
+- [[Curve Fitting]]
+- [[Polynomial Regression]]
+- [[Polynomial and Spline Interpolation]]
+  
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
