@@ -15,14 +15,16 @@ aliases:
 - [[Control of Numerical Errors]]
 
 ### Roots of Equations
-- [[Graphical Methods]]
+- [[Graphical Methods (Roots)]]
 - [[Bracketing Method]]
 - [[Fixed point iteration]]
 - [[Newton-Raphson Method]]
 - [[Secant Method]]
 
 ### Systems of Linear Equations
+- [[Systems of Linear Equations]]
 - [[Gaussian Elimination]]
+- [[Graphical Method (Systems)]]
 - [[Pivoting and Scaling]]
 - [[Iterative Methods]]
 - [[Gauss-Seidel]]

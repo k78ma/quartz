@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "f3b2ffdc1b846385",
+            "id": "dbbff10680520396",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,31 +32,43 @@
             }
           },
           {
-            "id": "d3cc15b4c99fbd1b",
+            "id": "c28572a2ae686f43",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Suggested Problems.md",
+                "file": "2B/MTE 204/Graphical Method (Systems).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eafd4ca60ed276f9",
+            "id": "203829124edc46b9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/MTE 204/Gaussian Elimination.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "25b02344ab92f37c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/MTE 204/Graphical Method (Systems).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/MTE 204/Graphical Method (Systems).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md"
+                "file": "2B/MTE 204/Graphical Method (Systems).md"
               }
             }
           },
@@ -211,44 +223,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "eafd4ca60ed276f9",
+  "active": "c28572a2ae686f43",
   "lastOpenFiles": [
-    "2B/SYDE 252/Causal, Non-causal and Anti-causal Signals.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 204/Graphical Method (Systems).md",
+    "2B/MTE 204/Graphical Methods (Roots).md",
+    "2B/MTE 204/Systems of Linear Equations.md",
+    "ML/Machine Learning.md",
+    "ML/Vanishing Gradient Problem.md",
+    "2B/MTE 204/Gaussian Elimination.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "ML/Long Term Short Memory.md",
+    "ML/Gated Recurrent Unit.md",
+    "ML/attachments/output.png",
+    "ML/attachments/Long Term Short Memory-2.png",
+    "ML/attachments/input.png",
+    "ML/attachments/Long Term Short Memory-1.png",
+    "ML/attachments/sigmoid.png",
+    "ML/attachments/cellstate.png",
+    "ML/attachments/notation.png",
+    "ML/attachments/Long Term Short Memory.png",
+    "ML/attachments/simple rnn.png",
+    "ML/Recurrent Neural Networks.md",
+    "ML/attachments/LSTM (Long Term Short Memory)-1.png",
+    "2B/SYDE 252/Causal, Non-causal and Anti-causal Signals.md",
     "Random/Stochastic vs. Deterministic.md",
     "2B/SYDE 252/Periodic and Aperiodic Signals.md",
     "2B/SYDE 252/Analog and Digital Signals.md",
     "2B/SYDE 252/Continuous Time and Discrete Time Signals.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "Polymath/Polymath Blog Post.md",
     "2B/Midterm Practice Kanban.md",
-    "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 204/Newton-Raphson Method.md",
     "2B/MTE 203/Laplace’s Equation.md",
     "ML/Feature Engineering.md",
     "ML/Feature Representation.md",
     "2B/MTE 203/MATLAB Worksheet 2.md",
-    "2B/MTE 203/MATLAB Worksheet 1.md",
-    "2B/MTE 203/Integration of Vector Functions.md",
-    "Calculus/Calculus with Vector Functions.md",
-    "Calculus/Vector Equations of Lines.md",
-    "2B/MTE 220/Supernodes.md",
-    "2B/MTE 220/Supermesh.md",
-    "Calculus/Vector Equations of Planes.md",
-    "2B/MTE 204/Secant Method.md",
-    "2B/MTE 204/Fixed point iteration.md",
-    "2B/MTE 204/2-curve Graphical Interpretation.md",
-    "2B/MTE 204/Convergence & Divergence.md",
-    "2B/MTE 204/attachments/Secant Method.png",
-    "2B/MTE 204/attachments/zoom.png",
-    "2B/MTE 204/attachments/nearzero.png",
-    "2B/MTE 204/attachments/oscillation.png",
-    "2B/MTE 204/attachments/inflection2.png",
-    "2B/MTE 204/attachments/inflection.png",
-    "2B/MTE 204/attachments/Newton-Raphson Method.png",
-    "2B/MTE 204/attachments/2 curve.png",
-    "2B/MTE 204/attachments/Pasted image 20231010174433.png",
-    "2B/MTE 204/attachments/Fixed point iteration 2.png",
     "Bracketing ",
     "Thevenin",
     "2B/MTE 220/attachments",

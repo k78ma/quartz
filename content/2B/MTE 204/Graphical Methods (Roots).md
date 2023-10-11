@@ -1,8 +1,8 @@
 ---
-title: Graphical Methods
+title: Graphical Methods (Roots)
 tags:
   - mte204
-date: 2023-10-10
+date: 2023-10-11
 ---
 Make a plot of function and observe where it crosses the $x$-axis.
 

@@ -6,7 +6,6 @@ date: 2023-06-25
 ---
 
 ## Foundational Concepts
-
 - [[Artificial Neuron|Artificial Neuron]]
 - [[Sigmoid Neuron|Sigmoid Neuron]]
 
@@ -40,8 +39,8 @@ date: 2023-06-25
 
 
 ## Models/Architectures
-- [[GRU (Gated Recurrent Unit)]]
-- [[LSTM (Long Term Short Memory)]]
+- [[Gated Recurrent Unit]]
+- [[Long Term Short Memory]]
 
 ## Model Behavior/Alteration
 - [[Task Arithmetic|Task Arithmetic]]
@@ -74,3 +73,17 @@ date: 2023-06-25
 
 ## Other
 - [[World Models]]
+
+
+- [[Jacobian]]
+- [[Hessian]]
+
+- [[Recurrent Neural Networks]]
+- [[Long Term Short Memory|LSTM]]
+- [[Vanishing Gradient Problem]]
+- [[Transformers]]
+
+- [[CNNs]]
+- [[Generative AI]]
+- [[Imitation Learning]]
+- [[Sim2Real]]
