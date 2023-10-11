@@ -59,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Feature Representation.md",
+                "file": "2B/MTE 204/Newton-Raphson Method.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Feature Representation.md",
+                "file": "2B/MTE 204/Newton-Raphson Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Feature Representation.md",
+                "file": "2B/MTE 204/Newton-Raphson Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Feature Representation.md"
+                "file": "2B/MTE 204/Newton-Raphson Method.md"
               }
             }
           },
@@ -223,8 +223,8 @@
   },
   "active": "63eabad3bcd365e3",
   "lastOpenFiles": [
-    "ML/Feature Engineering.md",
     "2B/MTE 203/Laplace’s Equation.md",
+    "ML/Feature Engineering.md",
     "ML/Feature Representation.md",
     "2B/MTE 204/Newton-Raphson Method.md",
     "2B/MTE 203/MATLAB Worksheet 2.md",
