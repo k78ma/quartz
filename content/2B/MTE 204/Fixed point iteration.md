@@ -4,6 +4,7 @@ tags:
   - mte204
 date: 2023-10-10
 ---
+### Definition
 Given an equation $x=g(x_{i})$, we continuously iterate on $x_{i+1} = g(x_{i})$ to predict the new value of $x$ based on its old value. 
 
 >[!info] Transforming Equations
@@ -11,8 +12,9 @@ Given an equation $x=g(x_{i})$, we continuously iterate on $x_{i+1} = g(x_{i})$ 
 >- Isolate $x$
 >- Add $x$ to both sides
 >Basically, any $f(x) = 0$ needs to be transformed to $x=g(x)$.
-> #### Transformation Examples
+> 
 >**Example 1:** $x^{2}-2x+3 = 0$
+>
 >This is transformed by isolating $x$:
 >$$
 >\begin{align}
@@ -22,6 +24,7 @@ Given an equation $x=g(x_{i})$, we continuously iterate on $x_{i+1} = g(x_{i})$ 
 >$$
 >
 >**Example 2:** $\sin x + x^{2} = 0$
+>
 >This is transformed by adding $x$ to both sides:
 >$$
 >\begin{align}
@@ -33,7 +36,8 @@ Given an equation $x=g(x_{i})$, we continuously iterate on $x_{i+1} = g(x_{i})$ 
 
 ^6e35b2
 
-#### Fixed Point Iteration Example
+---
+### Fixed Point Iteration Example
 Let’s say we have:
 $$
 f(x) = e^{-x}-x = 0
@@ -54,4 +58,28 @@ Then, we have:
 
 Converges when $|g'(x)| < 1$  (slope at $x$).
 
+---
+### Convergence Properties
 
+>[!info]- 2-curve Graphical Interpretation
+>Since we are isolating $x$ for open methods (see [[Fixed point iteration#^6e35b2|here on transforming equations for fixed point iteration]]), these functions can be thought of as two curves. Using the function used above as an example, we would have:
+>$$
+>\begin{align}
+>f_{1}(x) &= e^{-x} \\
+>f_{2}(x)&=x
+>\end{align}
+>$$
+>![[2 curve.png]]
+
+Convergence occurs when the absolute value of the slope $f_{2}(x) = g(x)$ is less than the slope of $f_{1}(x) =x$. Basically the idea here is that if the curve changes to fast relative to the isolated $f_{1}(x) =x$ function, the two curves diverge since the iterations are no longer moving toward the $y=x$ line.
+
+Convergence cases:
+
+![[convergence.png]]
+
+
+Divergence cases:
+![[Fixed point iteration 2.png]]
+
+- Converges when $|g'(x)| < 1$
+- Diverges when $|g'(x)| \geq 1$

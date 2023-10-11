@@ -7,7 +7,7 @@ alias:
 
 In many ML problems, we are descriptions of the inputs with many different types of attributes, including numbers, words, and discrete features. An important factor in the success of an ML application is the way that the features are chosen to be encoded by the human who is framing the learning problem. 
 
-Let’s say we have $k$ discrete features in the raw data. Encoding strategies:
+Let us say we have $k$ discrete features in the raw data. Encoding strategies:
 - **Numeric:** Assign each value a number like $\frac{1}{k},\frac{2}{k}, ..., 1$
 - **Thermometer code:** If discrete values have a natural ordering from $1, ..., k$ but not a natural mapping to real numbers, we can create a vector of length $k$ and a discrete input value $0 < j \leq k$ is a vector in which the first $j$ values are $1$ and the rest are $0$
 - **Factored code:** If your discrete values can sensibly be decomposed into two parts (say the “make" and “model" of a car), then it's best to treat those as two separate features, and choose an appropriate encoding of each one from this list.

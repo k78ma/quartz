@@ -8,7 +8,6 @@ tags:
 aliases:
   - MTE 204
 ---
-## MTE 204
 ### Errors
 - [[Error Definitions|Error Definitions]]
 - [[Stopping Criterion]]
@@ -18,9 +17,6 @@ aliases:
 ### Roots of Equations
 - [[Graphical Methods]]
 - [[Bracketing Method]]
-#### Open methods
-- [[2-curve Graphical Interpretation]]
-- [[Convergence & Divergence]]
 - [[Fixed point iteration]]
 - [[Newton-Raphson Method]]
 - [[Secant Method]]

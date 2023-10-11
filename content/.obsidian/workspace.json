@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "aec1c6839bc8d8cd",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "2B/Midterm Practice Kanban.md"
+              }
+            }
+          },
+          {
             "id": "f3b2ffdc1b846385",
             "type": "leaf",
             "state": {
@@ -32,29 +42,31 @@
             }
           },
           {
-            "id": "84a5501ef88baa87",
+            "id": "d3cc15b4c99fbd1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md",
+                "file": "2B/MTE 203/Suggested Problems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aec1c6839bc8d8cd",
+            "id": "63eabad3bcd365e3",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "2B/Midterm Practice Kanban.md"
+                "file": "ML/Feature Representation.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md",
+                "file": "ML/Feature Representation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md",
+                "file": "ML/Feature Representation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md"
+                "file": "ML/Feature Representation.md"
               }
             }
           },
@@ -209,11 +221,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "84a5501ef88baa87",
+  "active": "63eabad3bcd365e3",
   "lastOpenFiles": [
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 204/2-curve Graphical Interpretation.md",
+    "ML/Feature Engineering.md",
+    "2B/MTE 203/Laplace’s Equation.md",
+    "ML/Feature Representation.md",
     "2B/MTE 204/Newton-Raphson Method.md",
+    "2B/MTE 203/MATLAB Worksheet 2.md",
+    "2B/MTE 203/MATLAB Worksheet 1.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 203/Integration of Vector Functions.md",
+    "Calculus/Calculus with Vector Functions.md",
+    "Calculus/Vector Equations of Lines.md",
+    "2B/MTE 220/Supernodes.md",
+    "2B/MTE 220/Supermesh.md",
+    "Calculus/Vector Equations of Planes.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/Midterm Practice Kanban.md",
+    "2B/MTE 204/Secant Method.md",
+    "2B/MTE 204/Fixed point iteration.md",
+    "2B/MTE 204/2-curve Graphical Interpretation.md",
+    "Polymath/Polymath Blog Post.md",
+    "2B/MTE 204/Convergence & Divergence.md",
+    "2B/MTE 204/attachments/Secant Method.png",
     "2B/MTE 204/attachments/zoom.png",
     "2B/MTE 204/attachments/nearzero.png",
     "2B/MTE 204/attachments/oscillation.png",
@@ -221,32 +251,15 @@
     "2B/MTE 204/attachments/inflection.png",
     "2B/MTE 204/Bracketing Method.md",
     "Vault Stats.md",
-    "2B/MTE 204/Fixed point iteration.md",
     "index.md",
-    "2B/MTE 204/Convergence & Divergence.md",
     "2B/MTE 204/attachments/Newton-Raphson Method.png",
-    "2B/Midterm Practice Kanban.md",
     "2B/MTE 204/attachments/2 curve.png",
     "2B/MTE 204/attachments/Pasted image 20231010174433.png",
     "2B/MTE 204/attachments/Fixed point iteration 2.png",
-    "2B/MTE 204/attachments/convergence.png",
     "2B/MTE 204/Error Definitions.md",
     "2B/MTE 204/Graphical Methods.md",
     "2B/MTE 204/Types of Errors.md",
-    "2B/MTE 204/Stopping Criterion.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 203/Suggested Problems.md",
-    "Bracketing / Bisection Methods.md",
     "Bracketing ",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 220/Supermesh.md",
-    "2B/MTE 220/Amplifier Topologies.md",
-    "2B/MTE 220/Inverting Summing Amplifier.md",
-    "2B/MTE 220/Op-amp Configurations.md",
-    "2B/MTE 220/Difference Amplifier.md",
-    "2B/MTE 220/Inverting Amplifier.md",
-    "2B/MTE 220/Non-Inverting Amplifier.md",
-    "2B/MTE 220/Op-amp Assumptions.md",
     "Thevenin",
     "2B/MTE 220/attachments",
     "2B/MTE 241/attachments",

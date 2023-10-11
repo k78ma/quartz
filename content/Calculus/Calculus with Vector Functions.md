@@ -10,8 +10,8 @@ Let’s say our generic vector function form is $\vec{r} (t) = \langle f(t), g(t
 ## Limits of Vector Functions
 $$
 \begin{align}
-\lim_{ t \to a } \vec{r} (t) &= \lim_{ t \to a } \langle f(t), g(t), h(t) \rangle \\ \\
-&= \langle \lim_{ t \to a } f(t), \lim_{ t \to a } g(t), \lim_{ t \to a } h(t) \rangle \\ \\
+\lim_{ t \to a } \vec{r} (t) &= \lim_{ t \to a } \langle f(t), g(t), h(t) \rangle \\[3ex]
+&= \langle \lim_{ t \to a } f(t), \lim_{ t \to a } g(t), \lim_{ t \to a } h(t) \rangle \\[3ex]
 &=\lim_{ t \to a } f(t) \vec{i} + \lim_{ t \to a } g(t) \vec{j}+ \lim_{ t \to a } h(t)\vec{k}
 \end{align}
 $$
@@ -20,7 +20,7 @@ $$
 ## Derivatives of Vector Functions 
 $$
 \begin{align}
-\vec{r}'(t) &= \langle f'(t), g'(t), h'(t) \rangle \\ \\
+\vec{r}'(t) &= \langle f'(t), g'(t), h'(t) \rangle \\[3ex]
 &= f'(t) \vec{i} + g'(t) \vec{j} +h'(t)\vec{k}
 \end{align}
 $$
@@ -29,26 +29,32 @@ $$
 - Constant multiple:$(c\vec{u})'=c\vec{u}'$
 - Chain rule: $\frac{d}{dt} (\vec{u} \cdot f(t)) = f'(t)\cdot\vec{u}'f(t)$
 - Product rule:
-$$\frac{d}{dt} (f(t)\vec{u}(t)) = f'(t)\vec{u}(t)+f(t)\vec{u}'(t)$$
-$$\frac{d}{dt} (\vec{u} \cdot \vec{v}) = \vec{u}' \cdot \vec{v} + \vec{u} \cdot \vec{v}'$$
-$$\frac{d}{dt} (\vec{u} \times \vec{v})= \vec{u}' \times \vec{v} + \vec{u} \times \vec{v}'$$
+$$
+\frac{d}{dt} (f(t)\vec{u}(t)) = f'(t)\vec{u}(t)+f(t)\vec{u}'(t)
+$$
+$$
+\frac{d}{dt} (\vec{u} \cdot \vec{v}) = \vec{u}' \cdot \vec{v} + \vec{u} \cdot \vec{v}'
+$$
+$$
+\frac{d}{dt} (\vec{u} \times \vec{v})= \vec{u}' \times \vec{v} + \vec{u} \times \vec{v}'
+$$
 ## Integrals of Vector Functions
 
 Indefinite:
 $$
 \begin{align}
-\int \vec{r}(t) \, dt &= \left\langle  \int f(t) \, dt,  \int g(t) \, dt, \int h(t) \, dt \\  \right\rangle \\ \\
+\int \vec{r}(t) \, dt &= \left\langle  \int f(t) \, dt,  \int g(t) \, dt, \int h(t) \, dt   \right\rangle \\[3ex]
 &=\int f(t) \, dt  \;\vec{i} + \int g(t) \, dt \;\vec{j} + \int h(t) \, dt \;\vec{k} + \vec{c}  
 \end{align}
 $$
 Definite:
 $$
 \begin{align}
-\int_{a}^{b} \vec{r}(t) \, dt &= \left\langle  \int_{a}^{b} f(t) \, dt, \int_{a}^{b} g(t) \, dt, \int_{a}^{b} h(t) \, dt \\      \right\rangle   \\ \\
+\int_{a}^{b} \vec{r}(t) \, dt &= \left\langle  \int_{a}^{b} f(t) \, dt, \int_{a}^{b} g(t) \, dt, \int_{a}^{b} h(t) \, dt       \right\rangle   \\ \\
 
-&=\int_{a}^{b} f(t) \, dt \;\vec{i}+\int_{a}^{b} g(t) \, dt \; \vec{j} + \int_{a}^{b} h(t) \, dt \;\vec{k} \\ \\
+&=\int_{a}^{b} f(t) \, dt \;\vec{i}+\int_{a}^{b} g(t) \, dt \; \vec{j} + \int_{a}^{b} h(t) \, dt \;\vec{k} \\[3ex]
 
-&=\left( \left\langle  \int f(t) \, dt, \int g(t) \, dt, \int h(t) \, dt    \right\rangle  \right ) \Big|_a^b  \\\\
+&=\left( \left\langle  \int f(t) \, dt, \int g(t) \, dt, \int h(t) \, dt    \right\rangle  \right ) \Big|_a^b  \\[3ex]
 
 &=\left(   \int f(t) \, dt \; \vec{i}, \int g(t) \, dt \; \vec{j}, \int h(t)  \, dt  \; \vec{j}    \right ) \Big|_a^b
 

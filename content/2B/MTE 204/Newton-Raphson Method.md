@@ -51,11 +51,16 @@ Like other approaches, the approximate relative error can be used to monitor con
 $$
 \epsilon_{a} = \left | \frac{x_{i+1}-x_{i}}{x_{i+1}} \right|
 $$
+>[!info] Convergence Monitoring with $e_{a}$
+> When the termination criterion is achieved, you should always substitute the calculated root back into the original equation to determine if the result is close to zero. This guards against slow convergence or oscillation, where the approximate error may be small but the solution is far from the root.
+
 Newton-Raphson has some interesting properties: it’s quadratically convergent, such that its absolute true error $E_{t}$ is approximately proportional to the square of the previous error:
 $$
 E_{t,i+1} \propto (E_{t, i})^{2}
 $$
-This also means that the number of correct decimal places approximately doubles for each iteration.
+This means:
+- It can be very slow that 
+- The number of correct decimal places approximately doubles for each iteration.
 
 Also, you can’t predict the number of iterations to convergence unlike [[Bracketing Method|bracketing]] because the function is dependent on initial values. 
 

@@ -14,7 +14,10 @@ How do we use vector functions to describe lines?
 
 For example: $\vec{r}(t) = \langle t,1 \rangle$
 - Describes a position vector $\vec{r} = \langle a,b\rangle$ that starts at the origin and ends at $(a,b)$
-- Some example inputs into the function: $$r(3) = \langle -3,1\rangle, r(-1) = \langle -1,1\rangle, r(2) = \langle 2,1\rangle, r(5)=\langle 5,1\rangle$$
+- Some example inputs into the function: 
+$$
+r(3) = \langle -3,1\rangle, r(-1) = \langle -1,1\rangle, r(2) = \langle 2,1\rangle, r(5)=\langle 5,1\rangle
+$$
 Thus, we can describe lines and shapes like:
 ![500](vector%20functions.png)
 

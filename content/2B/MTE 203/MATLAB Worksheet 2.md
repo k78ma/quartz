@@ -8,7 +8,7 @@ date: 2023-09-28
 ### 1a.
 We can find $a$ and $b$ by comparing the coordinate values of $P_{0}$ and $P_{f}$ with the components of $\vec{r}(t)$. This is simple since the $\vec{i}$ component of $\vec{r}(t)$ is just $t$, such that:
 $$
-\vec{i}: \quad a = P_{0x} = -\frac{1}{2} \\
+\vec{i}: \quad a = P_{0x} = -\frac{1}{2}
 $$
 We can check this against the $\vec{j}$ and $\vec{k}$ components to verify if they are correct:
 $$

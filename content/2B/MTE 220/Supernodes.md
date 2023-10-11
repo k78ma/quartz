@@ -12,7 +12,7 @@ This is for dealing with a voltage source connecting two unknown node voltages (
 The unknown current through the voltage source can be written as:
 $$
 \begin{align}
-\text{Node A:}& \quad I_{2V} = \frac{V_{A}-10}{4}+\frac{V_{A}}{2} + \frac{V_{A} - V_{B}}{1} \\ \\
+\text{Node A:}& \quad I_{2V} = \frac{V_{A}-10}{4}+\frac{V_{A}}{2} + \frac{V_{A} - V_{B}}{1} \\[3ex]
 \text{Node B:}& \quad 0 = I_{2V} + \frac{V_{B}}{3} + \frac{V_{B} - V_{A}}{1}
 \end{align}
 $$
@@ -25,15 +25,15 @@ One may skip the step of defining the unknown current by taking a broader interp
 
 $$
 \begin{align}
-\text{Supernode:}& \quad 0 = \frac{V_{A}-10}{4} + \frac{V_{A}}{2} + \frac{V_{A} - V_{B}}{1} + \frac{V_{B}}{3} + \frac{V_{B}-V_{A}}{1} \\ \\
-\text{Voltage Source:}& \quad V_{B} - V_{A} = 2 \\
+\text{Supernode:}& \quad 0 = \frac{V_{A}-10}{4} + \frac{V_{A}}{2} + \frac{V_{A} - V_{B}}{1} + \frac{V_{B}}{3} + \frac{V_{B}-V_{A}}{1} \\[3ex]
+\text{Voltage Source:}& \quad V_{B} - V_{A} = 2
 \end{align}
 $$
 
 The currents entering the $1 \Omega$ resistor cancel each other, so the supernode can also be expanded to include the resistor and eliminate the redundant currents:
 $$
 \begin{align}
-\text{Supernode: }& \quad 0=\frac{V_{A}-10}{4}+\frac{V_{A}}{2}+\frac{V_{B}}{3} \\ \\
+\text{Supernode: }& \quad 0=\frac{V_{A}-10}{4}+\frac{V_{A}}{2}+\frac{V_{B}}{3} \\[3ex]
 \text{Voltage Source:}& \quad V_{B} - V_{A} = 2
 \end{align}
 $$
