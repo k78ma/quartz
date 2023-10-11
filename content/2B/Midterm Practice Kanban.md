@@ -46,6 +46,7 @@ tags:
 - [ ] Pset 2
 - [ ] Pset 3
 - [ ] Pset 4
+- [ ] Pset 4
 
 
 ## MTE 241
@@ -71,6 +72,8 @@ tags:
 ## Archive
 
 - [x] Lecture 1
+- [x] Lecture 2
+- [x] Lecture 3
 
 %% kanban:settings
 ```

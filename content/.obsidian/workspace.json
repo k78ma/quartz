@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "59a5e7a9f86d0315",
+            "id": "f4512318ca6f1ef7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,16 +16,6 @@
                 "file": "Polymath/Polymath Blog Post.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "aec1c6839bc8d8cd",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "2B/Midterm Practice Kanban.md"
               }
             }
           },
@@ -54,19 +44,19 @@
             }
           },
           {
-            "id": "63eabad3bcd365e3",
+            "id": "eafd4ca60ed276f9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md",
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -140,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md",
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md",
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/Newton-Raphson Method.md"
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md"
               }
             }
           },
@@ -221,27 +211,33 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "63eabad3bcd365e3",
+  "active": "eafd4ca60ed276f9",
   "lastOpenFiles": [
+    "2B/SYDE 252/Causal, Non-causal and Anti-causal Signals.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "Random/Stochastic vs. Deterministic.md",
+    "2B/SYDE 252/Periodic and Aperiodic Signals.md",
+    "2B/SYDE 252/Analog and Digital Signals.md",
+    "2B/SYDE 252/Continuous Time and Discrete Time Signals.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "Polymath/Polymath Blog Post.md",
+    "2B/Midterm Practice Kanban.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 204/Newton-Raphson Method.md",
     "2B/MTE 203/Laplace’s Equation.md",
     "ML/Feature Engineering.md",
     "ML/Feature Representation.md",
-    "2B/MTE 204/Newton-Raphson Method.md",
     "2B/MTE 203/MATLAB Worksheet 2.md",
     "2B/MTE 203/MATLAB Worksheet 1.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/MTE 203/Integration of Vector Functions.md",
     "Calculus/Calculus with Vector Functions.md",
     "Calculus/Vector Equations of Lines.md",
     "2B/MTE 220/Supernodes.md",
     "2B/MTE 220/Supermesh.md",
     "Calculus/Vector Equations of Planes.md",
-    "2B/MTE 203/Suggested Problems.md",
-    "2B/Midterm Practice Kanban.md",
     "2B/MTE 204/Secant Method.md",
     "2B/MTE 204/Fixed point iteration.md",
     "2B/MTE 204/2-curve Graphical Interpretation.md",
-    "Polymath/Polymath Blog Post.md",
     "2B/MTE 204/Convergence & Divergence.md",
     "2B/MTE 204/attachments/Secant Method.png",
     "2B/MTE 204/attachments/zoom.png",
@@ -249,16 +245,10 @@
     "2B/MTE 204/attachments/oscillation.png",
     "2B/MTE 204/attachments/inflection2.png",
     "2B/MTE 204/attachments/inflection.png",
-    "2B/MTE 204/Bracketing Method.md",
-    "Vault Stats.md",
-    "index.md",
     "2B/MTE 204/attachments/Newton-Raphson Method.png",
     "2B/MTE 204/attachments/2 curve.png",
     "2B/MTE 204/attachments/Pasted image 20231010174433.png",
     "2B/MTE 204/attachments/Fixed point iteration 2.png",
-    "2B/MTE 204/Error Definitions.md",
-    "2B/MTE 204/Graphical Methods.md",
-    "2B/MTE 204/Types of Errors.md",
     "Bracketing ",
     "Thevenin",
     "2B/MTE 220/attachments",

@@ -10,24 +10,32 @@ aliases:
 ---
 ## SYDE 252
 
-Intro
+#### Intro
 - [[Signals|Signals]]
 - [[Systems|Systems]]
 - [[Complex Numbers Review]]
 
-Classification of Signals
-- [[Continuous Time and Discrete Time]]
-- [[Analog vs. Digital Signals]]
-- [[Periodic vs. Aperiodic Signals]]
+#### Classification of Signals
+- [[Continuous Time and Discrete Time Signals]]
+- [[Analog and Digital Signals]]
+- [[Periodic and Aperiodic Signals]]
 - [[Energy and Power Signals]]
 - [[Stochastic vs. Deterministic]]
-- [[Causal vs. Non-causal vs. Anti-causal]]
+- [[Causal, Non-causal and Anti-causal Signals]]
   
-Time operations
+#### Time operations
 - [[Time shifting]]
 - [[Time scaling]]
 - [[Time reversal]]
 
-Useful Signals
+#### Useful Signals
 - [[Unit step]]
 - [[Unit impulse]]
+- [[Exponential Signals]]
+
+#### Classification of Systems
+- [[Continuous Time and Discrete Time Systems]]
+- [[Analog and Digital Systems]]
+- [[Time-invariant and time varying systems]]
+- [[Memoryless and Memory Systems]]
+- [[Causal and Non-Causal Systems]]

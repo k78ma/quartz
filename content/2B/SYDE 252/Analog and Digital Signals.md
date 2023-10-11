@@ -1,5 +1,5 @@
 ---
-title: Analog vs. Digital Signals
+title: Analog and Digital Signals
 tags:
   - syde252
 date: 2023-09-14
@@ -11,5 +11,5 @@ date: 2023-09-14
 - For example, a binary signal is digital because it can only take 0 or 1.
 - Often confused with discrete time but not the same!
 
-[[Continuous Time and Discrete Time]] qualify the nature of the signal along the horizontal (time) axis.
+[[Continuous Time and Discrete Time Signals]] qualify the nature of the signal along the horizontal (time) axis.
 Analog and Digital qualify the nature of the signal amplitude (vertical axis).

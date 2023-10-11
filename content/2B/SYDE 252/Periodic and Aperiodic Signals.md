@@ -1,8 +1,8 @@
 ---
-title: Periodic vs. Aperiodic Signals
+title: Periodic and Aperiodic Signals
 tags:
   - syde252
-date: 2023-09-14
+date: 2023-10-11
 ---
 **Periodic:** A signal is periodic if for some positive constant $T_{0}$
 $$

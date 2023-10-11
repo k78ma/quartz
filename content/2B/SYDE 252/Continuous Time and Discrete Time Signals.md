@@ -1,5 +1,5 @@
 ---
-title: Continuous Time and Discrete Time
+title: Continuous Time and Discrete Time Signals
 tags:
   - syde252
 date: 2023-09-14
