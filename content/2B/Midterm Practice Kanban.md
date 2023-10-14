@@ -11,7 +11,6 @@ tags:
 ## MTE 203
 
 - [ ] Project 1
-- [ ] Lecture 4
 - [ ] Lecture 5
 - [ ] Lecture 6
 - [ ] Lecture 7
@@ -74,6 +73,7 @@ tags:
 - [x] Lecture 1
 - [x] Lecture 2
 - [x] Lecture 3
+- [ ] Lecture 4
 
 %% kanban:settings
 ```

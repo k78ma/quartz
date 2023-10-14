@@ -23,12 +23,20 @@ aliases:
 
 ### Systems of Linear Equations
 - [[Systems of Linear Equations]]
-- [[Gaussian Elimination]]
 - [[Graphical Method (Systems)]]
-- [[Pivoting and Scaling]]
-- [[Iterative Methods]]
+
+- [[Cramer's Rule]]
+	- [[Determinant]]
+
+- [[Gaussian Elimination]]
+	- [[Round-off Error for Gaussian Elimination]]
+- [[Pivoting]]
+- [[Scaling]]
+
 - [[Gauss-Seidel]]
+	- [[Convergence Criterion (Diagonal Dominant)]]
 	- [[Gauss-Seidel with Relaxation]]
+
 ### Curve Fitting
 - [[Curve Fitting]]
 - [[Polynomial Regression]]

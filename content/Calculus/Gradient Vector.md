@@ -3,7 +3,6 @@ title: "Gradient Vector"
 tag: calc3
 date: 2023-08-29
 ---
-
 >[!info] Gradient Vector
 >The gradient vector of $f$ is defined to be:
 >$$

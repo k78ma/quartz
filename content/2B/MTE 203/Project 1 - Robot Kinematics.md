@@ -6,49 +6,72 @@ date: 2023-10-04
 ---
 ## Part 1: Trajectory Analysis
 
-### Plotting and Curve Fitting
-Preliminary plotting shows us that $x(t), y(t), z(t)$ are all approximately sinusoidal:
+#### Inspecting Trajectory
+To understand the trajectory of the robot, we first plot it in 3D:
 
-![[Pasted image 20231003223759.png|500]]
+![[general trajectory.png|364]]
 
+```
+output = readmatrix("output.csv");
+x = output(:, 1);
+y = output(:, 2);
+z = output(:, 3);
+t = output(:, 4);
+t_start = t(1);
+t_end = t(end);
+
+subplot(1,2,1);
+plot3(x,y,z);
+title("3D trajectory of robot")
+xlabel("x (mm)");
+ylabel("y (mm)");
+zlabel("z (mm)");
+```
+
+We can see that the the arm moves in a roughly circular fashion, but this does not provide much information other than that $x$ and $y$ are likely closely related to each other. Looking at the graph, they can be related in terms of a circle centered around $(250,0)$ with radius of apprxomiately $50$:
+$$
+(x-250)^{2} +y^{2}=50^{2}
+$$
+To learn more, we also plot $x(t), y(t), z(t)$ individually:
+
+![[individual plots.png|500]]
+
+```
+output = readmatrix("output.csv");
+x = output(:, 1);
+y = output(:, 2);
+z = output(:, 3);
+t = output(:, 4);
+t_start = t(1);
+t_end = t(end);
+
+figure;
+
+subplot(3,1,1);
+plot(t, x);
+title('x(t)');
+xlabel('Time (units)');
+ylabel('x (mm)');
+
+subplot(3,1,2);
+plot(t, y);
+title('y(t)');
+xlabel('Time (units)');
+ylabel('y (mm)');
+
+subplot(3,1,3);
+plot(t, z);
+title('z(t)');
+xlabel('Time (units)');
+ylabel('z (mm)');
+```
+
+From this, we see that the trajectory for each individual dimension appears to be periodic and resembles a sinusoid.
 #### Curve fitting x(t)
-Using the curve fitting tool in MATLAB, we get:
-![[Pasted image 20231003223942.png|592]]
-
-There doesn’t seem to be a better fit for this (adding more terms did very little), so we just use:
-$$
-x(t) = 249.8671 + 38.1467\cos(1.9766\times 10^{-4} t) + 28.1165\sin(1.9766\times 10^{-4} t) 
-$$
-This has:
-- Maximum error: 34.9412
-- Minimum error: 0.0001
-- RMSE: 11.2820 
 
 #### Curve fitting y(t)
-Similarly for $y(t)$:
-![[Pasted image 20231003225321.png]]
-
-This gives:
-$$
-y(t) = 0.0040 + -27.8914\cos(0.0002 t) + 38.3082\sin(0.0002 t) 
-$$
-This has:
-- Maximum error: 34.9783
-- Minimum error: 0.0041
-- RMSE: 11.2840
 
 #### Curve fitting z(t)
-Once again, MATLAB Fourier curve fitting gives:
-![[Pasted image 20231003230117.png]]
-
-So the function is:
-$$
-z(t) = -0.1167 + -6.2782\cos(3.9530 \times 10^-5t) + 49.4770\sin(3.9530 \times 10^-5t) 
-$$
-This has:
-- Maximum error: 6.7818
-- Minimum error: 0.0003
-- RMSE: 2.3335
 
 ### Constraint Checking
 - Acceleration never exceeds $25 mm / s^{2}$ in any direction
@@ -65,92 +88,58 @@ Let’s summarize the given information/parameters:
 - Link $L_{3}$ connects $J_{3}$ to the end-effector and has a length of $147 \text{mm}$
 - A constant offset $O$ of $59.7 \text{mm}$ in the end-effector’s local frame in the positive $x$ direction.  
 
-Note that $J_{2}$ is defined to be the origin so we define the position of $J_{2}$ to be:
+#### J1 (xy direction)
+Since $J_{1}$ controls yaw (rotation around the $z$-axis), it determines the direction of the arm in the $xy$-plane. This can be stated in terms of the unit vector which strictly describes the direction of the arm:
 $$
-P_{J_{2}}= (0,0,0)
+\vec{u} = \langle \cos(J_{1}), \sin(J_{1}) \rangle 
 $$
-We are also need to be careful with how the joint angles are defined:
-- We are told that when $J_{2} = J_{3}$ = 0, the forearm $L_{3}$ is parallel to the ground so $L_{2}$ and $L_{3}$ must be perpendicular to each other
-- We are told that as $J_{2}$ and $J_{3}$ increase, the end-effector moves toward the table
-
-Based on this, let us define the position for $J_{3}$ to be:
+However, we must also take into account the offset of $57.9 \text{ mm}$ in the direction of $J_{1}$. If we define the extended length of the arm (as viewed in the $xy$ plane) to be $L$, the distance reached by the robot would be $L + 57.9$. Combining this with the unit direction above, we can describe the $x$ and $y$ coordinates as:
 $$
-\begin{align}
-x_{J_{3}} &= L_{2} \cdot \sin(J_{2}) \\
-y_{J_{3}} &= 0 \\
-z_{J_{3}} &= L_{2} \cdot \cos(J_{2})
-\end{align}
-$$
-*($J_{3}$ position diagram)*  
-![[j3_position.png|328]]
-
-Note here that $y_{J_{3}}$ has no change because the joint only controls pitch.
-
-We can then create a preliminary definition for the position of the end-effector with respect to $J_{3}$, ignoring rotation due to $J_{1}$ for now:
-$$
-\begin{align}
-x_{EE} &= x_{J_{3}} + L_{3} \cdot \sin(J_{2} + J_{3}) \\
-y_{EE} &= 0 \\
-z_{EE} &= z_{J_{3}} - L_{3} \cdot \cos (J_{2} + J_{3})
-\end{align}
+(L + 57.9) \vec{u} = \langle (L + 57.9)\cos J_{1}, (L + 57.9)\sin J_{1}, 0 \rangle 
 $$
 
-*(Preliminary EE position diagram)*  
+![[J1.png|416]]
 
-![[prelim_ee-1.png|328]]
+#### J2 and J3 (xy magnitude and height z)
+Since $J_{2}$ and $J_{3}$ control pitch (rotation around $y$-axis), they determine the magnitude of extended length $L$ in the $xy$ plane, as well as the height of the arm, $z$. The effects of these joints can be determined in terms of the lengths of the links they control ($L_{2}$ and $L_{3}$). 
 
-Now, accounting for $J_{1}$ rotation at $J_{3}$:
+For link $L_{2}$, we know that it has a length of $135 \text{ mm}$, and is controlled by $J_{2}$ which is constrained to $0\degree < J_{2} < 85 \degree$. Thus, we can describe its effect on $L$ and $z$ as:
 $$
 \begin{align}
-x'_{J_{3}} &= x_{J_{3}} \cdot \cos(J_{1}) - y_{J_{3}} \cdot \sin(J_{1}) \\
-y'_{J_{3}} &= x_{J_{3}} \cdot \sin(J_{1}) + y_{J_{3}} \cdot \cos(J_{1}) \\
-z'_{J_{3}} &= z_{J_{3}}
+L = 135\sin(J_{2}) + \dots\\
+z = 135 \cos (J_{2}) + \dots
 \end{align}
 $$
-Propagating this rotation to the previously determined end-effector position:
-$$
-\begin{align}
-x'_{EE} &= x_{EE} \cdot \cos (J_{1}) - \cancel{ y_{EE} \cdot \sin(J_{1}) } \\
-y'_{EE} &= x_{EE} \cdot \sin (J_{1}) + \cancel{ y_{EE} \cdot \cos(J_{1}) } \\
-z'_{EE} &= z_{EE}
-\end{align}
-$$
-Expanding this, we have:
-$$
-\begin{align}
-x(J_{1}, J_{2}, J_{3}) &= \underbrace{ (\underbrace{ L_{2} \cdot  \sin(J_{2}) }_{ x_{J_{3}} } + L_{3} \cdot \cos(J_{2}+J_{3})) }_{ x_{EE} } \cdot \cos(J_{1}) \\
-y(J_{1}, J_{2}, J_{3}) &= \underbrace{ (\underbrace{ L_{2} \cdot \sin(J_{2}) }_{ y_{J_{3}} } + L_{3} \cdot \cos(J_{2}+J_{3})) }_{ x_{EE} } \cdot \sin(J_{1}) \\
-z(J_{1}, J_{2}, J_{3}) &= \underbrace{ \underbrace{ L_{2} \cdot \cos(J_{2}) }_{ z_{J_{3}} } - L_{3} \cdot \cos(J_{2} + J_{3}) }_{ z_{EE} }
-\end{align}
-$$
-We still need to account for the offset $O = 59.7 \text{mm}$, which is locally defined as:
-$$
-(O_{x}, O_{y}, O_{z}) = (O, 0,0)
-$$
-We need to rotate this offset in the global frame to find its components when $J_{1}$ is rotated:
-$$
-\begin{align}
-O'_{x} &= O_{x} \cdot \cos(J_{1}) - O_{y} \sin(J_{1}) = O \cdot \cos(J_{1}) \\
-O'_{y} &= O_{x} \cdot \sin(J_{1}) - O_{y} \cos(J_{1}) = O \cdot \sin(J_{1}) \\
-O'_{z} &= O_{z} = 0
-\end{align}
-$$
-Adding these offsets to our position functions:
-$$
-\begin{align}
-x(J_{1}, J_{2}, J_{3}) &= (L_{2} \cdot \sin(J_{2}) + L_{3} \cdot \cos(J_{2}+J_{3})) \cdot \cos(J_{1}) + O \cdot \cos J_{1} \\
-y(J_{1}, J_{2}, J_{3}) &= (L_{2} \cdot \sin(J_{2}) + L_{3} \cdot \cos(J_{2}+J_{3})) \cdot \sin(J_{1}) + O \cdot \sin J_{1}\\
-z(J_{1}, J_{2}, J_{3}) &= L_{2} \cdot \cos(J_{2}) + L_{3} \cdot \cos(J_{2} + J_{3})
-\end{align}
-$$
-As a single expression of the form $(x,y,z) = f(J_{1}, J_{2}, J_{3}):$
-$$
-\begin{align}
-(x, y, z) = (\;(&L_{2} \cdot \sin(J_{2}) + L_{3} \cdot \cos(J_{2}+J_{3})) \cdot \cos(J_{1}) + O \cdot \cos J_{1},  \\
-(&L_{2} \cdot \sin(J_{2}) + L_{3} \cdot \cos(J_{2}+J_{3})) \cdot \sin(J_{1}) + O \cdot \sin J_{1}, \\
-&L_{2} \cdot \cos(J_{2}) + L_{3} \cdot \cos(J_{2} + J_{3})\;)
-\end{align}
-$$
+Due to the constraints on $J_{2}$, we know that these effects always hold true as the sine and cosine of $J_{2}$ will always be positive and thus contribute to $L$ and $z$. The ellipses indicate the terms derived below that describe the effect of link $L_{3}$ on $L$ and $z$.
 
-#### Forearm angle determination
-What the fuck
+For link $L_{3}$, we know that it has a length of $147 \text{ mm}$ and is controlled by $J_{3}$. Here, it is important that our coordinate system is defined correctly, as $L_{2}$ and $L_{3}$ form a right angle at zero position instead of being collinear. This relationship can be simplified by instead considering that the angle between $L_{2}$ and the horizontal is equal to $J_{2}$ when $J_{3}$ is zero.
+
+We also need to consider changes to $L_{3}$ caused by changes in $J_{2}$, such that the angle used for our trigonometric calculations of $L$ and $z$ is in fact $J_{2} + J_{3}$. However, $J_{2} + J_{3}$ may be negative, which needs to be accounted for. 
+
+For $L$, we use $\cos$ because it takes on positive values on quadrants 1 and 4, because $L_{3}$ always contributes to $L$ due to the constraint on $J_{3}$. Thus, we have:
+$$
+L = 135 \sin (J_{2}) + 147 \cos (J_{2} + J_{3})
+$$
+For $z$, negative values of $J_{2} + J_{3}$ need to be added while positive values need to be subtracted from the height because the arm points down. Therefore, $-\sin$ is used.
+$$
+z = 135 \cos (J_{2}) - 147\sin (J_{2}+J_{3})
+$$
+#### Combining Equations
+We combine the equations for $x$ and $y$ based on $J_{1}$ with the equations for $L$ and $z$:
+$$
+\begin{align}
+x  &= ((135\sin J_{2} + 147\cos(J_{2}+J_{3})) + 57.9) \cdot \cos J_{1} \\
+y  &= ((135\sin J_{2} + 147\cos(J_{2}+J_{3})) + 57.9) \cdot \sin J_{1} \\
+z &= 135 \cos (J_{2}) - 147\sin (J_{2}+J_{3})
+\end{align}
+$$
+### Forearm angle determination
+We are told that an increases in $J_{2}$ and $J_3$ angles result in the end-effector moving toward the table. When representing $\Theta_{f}$ (forearm angle relative to horizontal) asa a function of $J_{2}$ and $J_{3}$, we note that alternative interior angles must be equal to $J_{2} + J_{3}$. This is shown in figure **number**. So we have:
+$$
+\Theta_{f} = J_{2} + J_{3}
+$$
+Thus,
+$$
+J_{3} = \Theta _{f} - J_{2}
+$$
+### Validation

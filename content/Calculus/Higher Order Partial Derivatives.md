@@ -4,7 +4,6 @@ tag:
 date: 2023-08-15
 draft:
 ---
-
 Consider a two-variable function $f(x,y)$. Since both of the 1st-order partial derivatives are also functions of $x$ and $y$ we could in turn differentiate each with respect to $x$ or $y$. Therefore, in the case of a function of two variables there will be a total of 4 possible 2nd-order derivatives: 
 $$
 \begin{align}

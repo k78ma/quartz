@@ -53,6 +53,7 @@ aliases:
 #### Lecture 8: Higher Order Partial Derivatives and Chain Rule
 - [[Higher Order Partial Derivatives]]
 - [[Laplace’s Equation]]
+- [[Chain Rule for Partial Derivatives]]
 
 #### Lecture 9: Implicit Differentiation
 - [[Implicit Differentiation with Partial Derivatives]]

@@ -6,15 +6,19 @@ date: 2023-06-25
 ---
 
 ## Foundational Concepts
+
+Neurons
 - [[Artificial Neuron|Artificial Neuron]]
 - [[Sigmoid Neuron|Sigmoid Neuron]]
 
+Classifiers
 - [[Linear Classifier|Linear Classifier]]
 	- [[Perceptron|Perceptron]]
 		- [[Averaged Perceptron|Averaged Perceptron]]
 		- [[Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
 - [[Margin|Margin]]
-	
+
+Features
 - [[Feature Representation|Feature Representation]]
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
@@ -37,6 +41,11 @@ date: 2023-06-25
 
 - [[Decision Trees and Nearest Neighbours]]
 
+Transformers
+- [[Transformer]]
+
+Algorithms
+- [[Backpropagation]]
 
 ## Models/Architectures
 - [[Gated Recurrent Unit]]
