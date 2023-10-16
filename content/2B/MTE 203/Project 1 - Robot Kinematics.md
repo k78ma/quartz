@@ -11,7 +11,7 @@ To understand the trajectory of the robot, we first plot it in 3D:
 
 ![[general trajectory.png|364]]
 
-```
+```matlab
 output = readmatrix("output.csv");
 x = output(:, 1);
 y = output(:, 2);
@@ -36,7 +36,7 @@ To learn more, we also plot $x(t), y(t), z(t)$ individually:
 
 ![[individual plots.png|500]]
 
-```
+```matlab
 output = readmatrix("output.csv");
 x = output(:, 1);
 y = output(:, 2);
@@ -124,6 +124,7 @@ For $z$, negative values of $J_{2} + J_{3}$ need to be added while positive valu
 $$
 z = 135 \cos (J_{2}) - 147\sin (J_{2}+J_{3})
 $$
+![[J2J3.png|496]]
 #### Combining Equations
 We combine the equations for $x$ and $y$ based on $J_{1}$ with the equations for $L$ and $z$:
 $$
@@ -143,3 +144,104 @@ $$
 J_{3} = \Theta _{f} - J_{2}
 $$
 ### Validation
+
+Plots
+```matlab
+data = readmatrix("superCircleJoints.csv");
+figure(1);
+clf
+x = data(:, 1);
+y = data(:, 2);
+z = data(:, 3);
+j1 = data(:, 4);
+j2 = data(:, 5);
+theta_forearm = data(:, 6);
+disp("Validation");
+disp("Creating figures for actual and model plots");
+plot3(x,y,z);
+title("Actual coordinates");
+xlabel("x");
+ylabel("y");
+zlabel("z");
+
+%model
+L = (147 .* cosd(theta_forearm)) + (135 .* sind(j2));
+OFFSET = 59.7;
+
+x_model = (L + OFFSET) .* cosd(j1);
+y_model = (L + OFFSET) .* sind(j1);
+z_model = (135 .* cosd(j2)) - (147 .* sind(theta_forearm));
+
+figure(2);
+clf
+plot3(x_model, y_model, z_model);
+title("Model coordinates");
+xlabel("x");
+ylabel("y");
+zlabel("z");
+```
+
+![[model coordinates.png|416]]
+
+![[actual coordinates.png|420]]
+
+
+Error calculations:
+```matlab
+% error calculations
+x_errors = abs(x - x_model);
+y_errors = abs(y - y_model);
+z_errors = abs(z - z_model);
+total_errors = hypot(x_errors, hypot(y_errors, z_errors));
+total_max_e = max(total_errors);
+total_min_e = min(total_errors);
+disp(['max magnitude error ' num2str(total_max_e) ' mm'])
+disp(['min magnitude error ' num2str(total_min_e) ' mm'])
+rmse_total = sqrt(mean(total_errors.^2));
+disp(['rmse total error ' num2str(rmse_total) ' mm'])
+max magnitude error 5.2771e-05 mm
+min magnitude error 5.6389e-07 mm
+rmse total error 1.6182e-05 mm
+```
+
+Error plot:
+![[error plot.png|476]]
+
+
+### Inverse Kinematics
+To formulate an optimization 
+```matlab
+% calculating the constraints 
+min_theta = -10; 
+max_theta = 100; 
+min_j2 = 0; 
+max_j2 = 85; 
+
+% assume angle constraint from diagram is for theta forearm 
+min_j3 = min_theta - max_j2; 
+max_j3 = max_theta - min_j2;
+
+% functions must be defined at bottom of file 
+function normal_distance = inverse_kinematics(p_r, p_d) 
+	j1 = p_r(1); 
+	j2 = p_r(2); 
+	j3 = p_r(3); 
+	
+	x = p_d(1); 
+	y = p_d(2); 
+	z = p_d(3); 
+	theta_forearm = j2 + j3; 
+	l = (147 * cosd(theta_forearm)) + (135 * sind(j2)); 
+	OFFSET = 59.7; 
+	x_model = (l + OFFSET) * cosd(j1); 
+	y_model = (l + OFFSET) * sind(j1); 
+	z_model = (135 * cosd(j2)) - (147 * sind(theta_forearm)); 
+	x_diff = abs(x_model - x); 
+	y_diff = abs(y_model - y); 
+	z_diff = abs(z_model - z); 
+	normal_distance = hypot(x_diff, hypot(y_diff, z_diff)); 
+end
+
+```
+
+![[inverse kinematics.png|448]]
