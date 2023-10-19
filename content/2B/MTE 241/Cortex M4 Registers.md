@@ -15,3 +15,4 @@ The ARM Cortex M4 has 16 registers, some of which are “general purpose” and 
 - `r15`: Program Counter (PC). Used to store the address of the currently executing instruction in memory.
 	- If we write a valid function address to PC, it makes the processor run that function. This is how a processor is loaded – PC is loaded with very specific address and instructions start executing.
 - `PSR`: Program Status Register located at `r16`. Not called `r16` because it’s different from the other registers. Keeps track of operating conditions and settings, chip decides how to use it so we usually don’t count it as a register.
+

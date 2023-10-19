@@ -10,7 +10,6 @@ Welcome to my notes!
 >[!info] About Me
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
-[[Adding ML to Polymath's Perception System]]
 ### Engineering
 - [[Machine Learning|Machine Learning]]
 - [[Robotics|Robotics]]

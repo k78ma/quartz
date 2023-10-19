@@ -10,13 +10,11 @@ tags:
 
 ## MTE 203
 
-- [ ] Project 1
-- [ ] Lecture 5
-- [ ] Lecture 6
-- [ ] Lecture 7
 - [ ] Lecture 8
 - [ ] Lecture 9
 - [ ] Lecture 10
+- [ ] Lecture 11
+- [ ] Lecture 11
 - [ ] Lecture 11
 - [ ] S2023 Midterm
 
@@ -74,6 +72,10 @@ tags:
 - [x] Lecture 2
 - [x] Lecture 3
 - [ ] Lecture 4
+- [ ] Lecture 5
+- [ ] Lecture 6
+- [ ] Project 1
+- [ ] Lecture 7
 
 %% kanban:settings
 ```

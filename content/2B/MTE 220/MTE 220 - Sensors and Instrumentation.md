@@ -41,14 +41,15 @@ aliases:
 	- [[Difference Amplifier]]
 	- [[Inverting Summing Amplifier]]
 - [[Amplifier Topologies]]
-#### First-order Response
-- [[Capacitor Intuition]]
-- [[RC Step Response]]
-- [[RC Circuits]]
-- [[Rise Time]]
+#### First-order Response (RC & RL)
+- [[Capacitor RC Intuition]]
+- [[RC Formulation]]
+- [[RC Circuit Behaviour]]
+- [[Rise Time & Fall Time]]
 - [[RC Problem Example]]
 - [[Generalized Solution for RC Switching]]
-- [[Inductor Intuition]]
+- [[Inductors and RL]]
+
 - [[Sinusoidal Steady-state Response]]
 - [[Phasors]]
 

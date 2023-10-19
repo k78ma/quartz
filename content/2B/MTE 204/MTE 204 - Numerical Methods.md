@@ -38,9 +38,18 @@ aliases:
 	- [[Gauss-Seidel with Relaxation]]
 
 ### Curve Fitting
-- [[Curve Fitting]]
+- [[Least Squares Regression]]
+- [[Lest Squares Regression for Nonlinear Equations]]
 - [[Polynomial Regression]]
-- [[Polynomial and Spline Interpolation]]
-  
+- [[Polynomial Interpolation]]
+- [[Spline Interpolation]]
+	- [[Linear Spline Interpolation]]
+	- [[Quadratic Spline Interpolation]]
+	- [[Cubic Spline Interpolation]]
+
+### Numerical Integratiuon
+- [[Trapezoid Rule]]
+- [[Simpson's Rule]]
+
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]

@@ -5,6 +5,9 @@ tags:
 date: 2023-09-07
 ---
 Systems generate or modify [[Signals|signals]] or processes.
+
+![[Systems.png]]
+
 A system processes input signals and generate output signals.
 This can basically be thought of as a function.
 

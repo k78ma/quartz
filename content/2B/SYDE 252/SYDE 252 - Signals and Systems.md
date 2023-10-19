@@ -39,3 +39,7 @@ aliases:
 - [[Time-invariant and time varying systems]]
 - [[Memoryless and Memory Systems]]
 - [[Causal and Non-Causal Systems]]
+- [[Stable and Unstable Systems]]
+- [[Linear and non-linear systems]]
+
+- [[Convolution]]
