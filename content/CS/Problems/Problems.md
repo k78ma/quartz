@@ -12,7 +12,7 @@ date: 2023-09-21
 - [[Group Anagrams (LC 49)]]
 - [[Top K Frequent Elements (LC 347)]]
 - [[Product of Array Except Self (LC 238)]]
-- 
+- [[Valid Sudoku (LC 36)]]
 
 ### Interview Questions
 - [[AeroVect Interview (Sept 22, 2023)]]

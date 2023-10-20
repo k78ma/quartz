@@ -8,7 +8,7 @@ Hello, I’m Kai Ma. I interned as a Robotics Engineering Intern at Polymath Rob
 ## The Problem
 Polymath’s existing object detection systems consists of two parts. Lidar point clouds are ingested by the system, and a ground segmentation using an algorithm called [Patchwork++](https://arxiv.org/abs/2207.11919) is used to remove points that are part of the ground; then, height-based filtering is done such that points below a certain height are considered to not be obstacles. The remaining points are then considered obstacles, and are mapped so that the robot will avoid them; the figure below shows an example of this.
 
-![[Pasted image 20230801125130.png|544]]
+![[blog-1.png|544]]
 
 While this system is sufficient for basic autonomy, it has some flaws:
 - **Lack of semantic information** – we know where obstacles are in space, but don’t know what they are. This is troublesome for complex environments like forests, where many objects like tall grass may bypass the height filter but are not actual obstacles. Alternatively, small objects like rocks that are dangerous to the robot may not be considered at all!
@@ -27,7 +27,7 @@ PointPillars is considered a class lidar-based approach. It works by creating �
 
 [PointPillars](https://arxiv.org/abs/1812.05784) is chosen as the lidar-based object detection backbone for Polymath’s new perception system for a couple reasons. Most importantly, it is considered a classic approach and is fairly well-studied, which means that its behavior is well-understood and relatively stable. While it’s not necessarily state-of-the-art anymore, it achieves respectable performance in all aspects without significant weaknesses. Furthermore, due to its status as a classic method, many open-source implementations exist, including adoption by MMDetection3D and even existing integrations with ROS2.
 
-![[pointpillars.png]]
+![[blog-pp.png]]
 
 ### BEVFusion
 [BEVFusion](https://hanlab.mit.edu/projects/bevfusion) is a multi-modal (camera + lidar) method for 3D object detection using sensor fusion. Sensor fusion is very attractive to perception systems as you get to combine the spatial features of lidar (where things are in 3D space) with rich semantic features from camera (colors, textures, etc). But it's hard to combine these features due to their difference in dimensionality; projecting images to 3D tends to lose important semantic information, while projecting 3D lidar points to 2D loses spatial information.
@@ -36,7 +36,7 @@ To combat this, BEVFusion instead uses a unified bird’s-eye view (BEV) space b
 
 Because BEVFusion provides a general framework for unified representation, it is robust to different sensor configurations ($n$ cameras, $n$ lidars). Furthermore, birds-eye-view is inherently easy to convert to the costmaps used by Polymath for navigation. While the original repository is a relatively basic proof-of-concept and not well-maintained, other implementations are becoming available despite the paper being less than a year old due to its success, including an experimental MMDetection implementation, and an NVIDIA implementation that is optimized for NVIDIA hardware. These new implementations are not yet completely stable, making BEVFusion relatively hard to train and deploy; as such, PointPillars is used as a default approach for Polymath Robotics, while BEVFusion is mainly reserved for customers operating in complex environments that would significantly benefit from camera information for semantic understanding.
 
-![[bevfusion.png]]
+![[blog-bevfusion.png]]
 
 ### Why Not Segmentation?
 During initial planning for this project, we discussed doing point cloud segmentation instead of detection. To clarify the terminology here:
@@ -44,7 +44,7 @@ During initial planning for this project, we discussed doing point cloud segment
 - Detection: 3D bounding boxes (with semantic labels) around point clouds of interest. Left side in figure below.
 - Segmentation: Semantic labels on every point in a point cloud. Right side in figure below.
 
-![[detseg.png]]
+![[blog-detseg.png]]
 
 So why did we go with detection instead of segmentation? Segmentation models tend to be more computationally expensive to train and run inference with, as every single point in a point cloud (which can get really big!) needs a semantic label. Furthermore, having semantic label for every single point doesn't really affect navigation much for most use-cases; we just need to know the approximate area taken up by an object in space, not every minute detail. Furthermore, segmentation is not studied as much as detection (maybe for some of the reasons above), so there are less papers and open-source repositories for us to try.
 

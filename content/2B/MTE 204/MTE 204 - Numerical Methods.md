@@ -39,13 +39,14 @@ aliases:
 
 ### Curve Fitting
 - [[Least Squares Regression]]
-- [[Lest Squares Regression for Nonlinear Equations]]
+- [[Goodness of Fit]]
+- [[Least Squares Regression for Nonlinear Equations]]
 - [[Polynomial Regression]]
+
 - [[Polynomial Interpolation]]
+	- [[Newton's Divided-Difference]]
+	  
 - [[Spline Interpolation]]
-	- [[Linear Spline Interpolation]]
-	- [[Quadratic Spline Interpolation]]
-	- [[Cubic Spline Interpolation]]
 
 ### Numerical Integratiuon
 - [[Trapezoid Rule]]
