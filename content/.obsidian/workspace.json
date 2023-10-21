@@ -30,18 +30,6 @@
             }
           },
           {
-            "id": "0ae9086cd19be75f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a944cd9b0cf15fa1",
             "type": "leaf",
             "state": {
@@ -54,7 +42,19 @@
             }
           },
           {
-            "id": "da40db84b8209015",
+            "id": "0ae9086cd19be75f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd2f6b4e7011cf51",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,33 +64,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "bdedc18dbdc3ee91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e01077db7718f0af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/Valid Sudoku (LC 36).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -140,8 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -152,7 +127,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "fa5a14956fc3abee",
+            "id": "834444e5ce8e5140",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -165,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Valid Sudoku (LC 36).md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Valid Sudoku (LC 36).md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Valid Sudoku (LC 36).md"
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md"
               }
             }
           },
@@ -231,7 +206,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 301.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,44 +221,43 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e01077db7718f0af",
+  "active": "834444e5ce8e5140",
   "lastOpenFiles": [
+    "2B/MTE 220/Example - Sinusoidal Steady-state Response.md",
+    "2B/MTE 220/attachments/Example - Sinusoidal Steady-state Response-1.png",
+    "2B/MTE 220/attachments/Example - Sinusoidal Steady-state Response.png",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Sinusoidal Steady-state Response.md",
+    "2B/Midterm Practice Kanban.md",
+    "2B/MTE 220/attachments/Sinusoidal Steady-state Response-3.png",
+    "2B/MTE 220/attachments/Sinusoidal Steady-state Response-2.png",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 220/attachments/Sinusoidal Steady-state Response-1.png",
+    "Excalidraw/Drawing 2023-10-20 20.05.17.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-11 16.55.48.excalidraw.md",
+    "Excalidraw/204circuits.excalidraw.md",
+    "Excalidraw/Drawing 2023-09-14 08.55.12.excalidraw.md",
+    "Excalidraw/complexexponentials.excalidraw.md",
+    "Excalidraw/Drawing 2023-10-05 01.04.33.excalidraw.md",
+    "excalidraw/Drawing 2023-10-21 12.45.20.excalidraw.md",
+    "2B/MTE 220/attachments/Sinusoidal Steady-state Response.png",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/SYDE 252/Unit impulse.md",
+    "2B/SYDE 252/Time-invariant and time varying systems.md",
+    "2B/SYDE 252/Stable and Unstable Systems.md",
+    "excalidraw/Drawing 2023-10-20 20.05.17.excalidraw.md",
+    "templates/Note.md",
     "CS/Problems/Top K Frequent Elements (LC 347).md",
+    "CS/Problems/Valid Sudoku (LC 36).md",
     "CS/Problems/Problems.md",
     "CS/Problems/Group Anagrams (LC 49).md",
-    "CS/Problems/Valid Sudoku (LC 36).md",
-    "2B/MTE 203/Suggested Problems.md",
     "CS/Problems/Product of Array Except Self (LC 238).md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 204/Polynomial Interpolation.md",
-    "2B/MTE 204/Spline Interpolation.md",
     "2B/MTE 204/attachments/Spline Interpolation.png",
-    "2B/MTE 204/Newton's Divided-Difference.md",
     "2B/MTE 204/attachments/Newton's Divided-Difference-1.png",
     "2B/MTE 204/attachments/Newton's Divided-Difference.png",
-    "2B/MTE 204/Polynomial Regression.md",
-    "2B/MTE 204/Least Squares Regression.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 204/Goodness of Fit.md",
-    "2B/MTE 204/Least Squares Regression for Nonlinear Equations.md",
     "2B/MTE 204/attachments/Least Squares Regression for Nonlinear Equations.png",
-    "2B/MTE 204/attachments/Goodness of Fit.png",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "ML/Adding ML to Polymath's Perception System.md",
-    "Polymath/attachments/Pasted image 20230801130809.png",
-    "Polymath/attachments/productization.png",
-    "Polymath/attachments/blog-pp.png",
-    "Polymath/attachments/Point cloud.png",
-    "Polymath/attachments/Pasted image 20230801131058.png",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-    "Calculus/Higher Order Partial Derivatives.md",
-    "2B/MTE 220/Rise Time & Fall Time.md",
-    "2B/MTE 220/Inductors and RL.md",
-    "2B/MTE 220/Generalized Solution for RC Switching.md",
-    "2B/MTE 220/RC Problem Example.md",
-    "2B/MTE 220/Capacitor RC Intuition.md",
-    "2B/MTE 220/RC Formulation.md",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Bracketing ",

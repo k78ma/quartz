@@ -51,6 +51,7 @@ aliases:
 - [[Inductors and RL]]
 
 - [[Sinusoidal Steady-state Response]]
+	- [[Example - Sinusoidal Steady-state Response]]
 - [[Phasors]]
 
 ## New circuit elements

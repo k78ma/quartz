@@ -10,27 +10,21 @@ tags:
 
 ## MTE 203
 
-- [ ] Lecture 8
-- [ ] Lecture 9
-- [ ] Lecture 10
-- [ ] Lecture 11
-- [ ] Lecture 11
-- [ ] Lecture 11
 - [ ] S2023 Midterm
 
 
 ## MTE 220
 
-- [ ] Linear Circuit
-- [ ] Nodal
-- [ ] Mesh
-- [ ] Op-Amps
-- [ ] Thevenin/Norton
-- [ ] RC/RL Switching
-- [ ] Phasors
-- [ ] Diodes
+- [ ] Linear Circuits (1-3)
+- [ ] Nodal (3-7)
+- [ ] Mesh (8-11)
+- [ ] Thevenin/Norton (11-15)
+- [ ] Op-Amps (16-25)
+- [ ] RC/RL Switching (26-32)
+- [ ] Phasors (33-41)
+- [ ] Diodes (42-44)
 - [ ] Transistors?
-- [ ] Schmitt Trigger
+- [ ] Schmitt Trigger (47-48)
 - [ ] S2022 Midterm
 - [ ] F2022 Midterm
 - [ ] S2023 Midterm
@@ -48,7 +42,6 @@ tags:
 
 ## MTE 241
 
-- [ ] Lab2
 - [ ] PSet 1
 - [ ] PSet 2
 - [ ] PSet 3
@@ -76,6 +69,13 @@ tags:
 - [ ] Lecture 6
 - [ ] Project 1
 - [ ] Lecture 7
+- [ ] Lecture 8
+- [ ] Lecture 9
+- [ ] Lecture 10
+- [ ] Lecture 11
+- [ ] Lecture 12
+- [ ] Lecture 13
+- [ ] Lab2
 
 %% kanban:settings
 ```

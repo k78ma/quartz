@@ -58,3 +58,4 @@ Textbook explanation:
 ![[Pasted image 20230923140153.png]]
 
 Not really sure why this is useful but it’s pretty interesting?
+
