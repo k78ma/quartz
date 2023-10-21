@@ -53,6 +53,7 @@ aliases:
 - [[Sinusoidal Steady-state Response]]
 	- [[Example - Sinusoidal Steady-state Response]]
 - [[Phasors]]
+	- [[Phasor Example]]
 
 ## New circuit elements
 - [[Preferred Value Numbering System]]

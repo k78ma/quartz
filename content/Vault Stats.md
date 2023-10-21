@@ -1,8 +1,8 @@
 ---
-title: "Vault Stats"
-tag:
+title: Vault Stats
+tags: 
 date: 2023-08-09
-draft: true
+draft: "true"
 ---
 
 ```dataview 

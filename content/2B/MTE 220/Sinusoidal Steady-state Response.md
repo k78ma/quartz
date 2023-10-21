@@ -72,7 +72,7 @@ Given an impedance $Z = R + jX$, we have:
 - $| Z |$ = magnitude of impedance
 - $\angle Z$ = phase shift of impedance
 
-Thus, if we had something with $Z = 1\text{ k}\ohm + j \cdot 1\text{k}\ohm$, it would function as a resistor with a resistance of $\sqrt{ 1^{2}+1^{2} } = \sqrt{ 2 }$.
+Thus, if we had something with $Z = 1\text{ k}\Omega + j \cdot 1\text{k}\Omega$, it would function as a resistor with a resistance of $\sqrt{ 1^{2}+1^{2} } = \sqrt{ 2 }$.
 
 ![[Sinusoidal Steady-state Response-2.png]]
 

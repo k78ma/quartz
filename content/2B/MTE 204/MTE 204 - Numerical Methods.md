@@ -48,8 +48,10 @@ aliases:
 	  
 - [[Spline Interpolation]]
 
-### Numerical Integratiuon
+### Numerical Integration
+- [[Numerical Integration]]
 - [[Trapezoid Rule]]
+	- [[Composite Trapezoid Rule]]
 - [[Simpson's Rule]]
 
 ### Problems
