@@ -30,12 +30,12 @@
             }
           },
           {
-            "id": "a944cd9b0cf15fa1",
+            "id": "2c0c0aaf5ca9a7ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/MTE 204/204 Midterm Problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,14 +47,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fd4d7feb762bbed7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Comparator.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "236dc63237bcac9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Schmitt Trigger.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -104,8 +128,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -129,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "file": "2B/MTE 220/Schmitt Trigger.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "file": "2B/MTE 220/Schmitt Trigger.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md"
+                "file": "2B/MTE 220/Schmitt Trigger.md"
               }
             }
           },
@@ -191,7 +214,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,45 +234,45 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "39121db80f9eb401",
+  "active": "236dc63237bcac9d",
   "lastOpenFiles": [
+    "2B/MTE 220/attachments/Schmitt Trigger-4.png",
+    "2B/MTE 220/attachments/Schmitt Trigger-3.png",
+    "2B/MTE 220/attachments/Schmitt Trigger-2.png",
+    "2B/MTE 220/attachments/Schmitt Trigger-1.png",
+    "2B/MTE 220/attachments/Schmitt Trigger.png",
+    "2B/MTE 220/Feedback.md",
+    "2B/MTE 220/Schmitt Trigger.md",
+    "2B/MTE 220/Comparator.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Op-amps.md",
+    "2B/MTE 220/Inverting Amplifier.md",
+    "2B/MTE 220/Signal Reference Voltage.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 204/204 Midterm Problems.md",
+    "2B/MTE 220/attachments/Comparator-1.png",
+    "2B/MTE 220/attachments/Comparator.png",
+    "2B/MTE 220/attachments/Pasted image 20230930160522.png",
+    "2B/MTE 220/attachments/Pasted image 20230930160016.png",
+    "2B/MTE 220/attachments/Signal Reference Voltage-6.png",
+    "2B/MTE 220/attachments/Signal Reference Voltage-5.png",
+    "2B/MTE 220/Preferred Value Numbering System.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/Midterm Practice Kanban.md",
+    "2B/MTE 204/Bracketing Method.md",
+    "2B/SYDE 252/Convolution.md",
+    "2B/MTE 204/Determinant.md",
     "2B/MTE 204/Simpson's Rule.md",
     "2B/MTE 204/Numerical Integration.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/MTE 204/Composite Trapezoid Rule.md",
     "2B/MTE 204/Trapezoid Rule.md",
-    "2B/MTE 204/attachments/Composite Trapezoid Rule.png",
-    "2B/MTE 204/attachments/Trapezoid Rule-1.png",
     "Vault Stats.md",
-    "2B/MTE 204/attachments/Trapezoid Rule.png",
-    "2B/MTE 204/attachments/Numerical Integration.png",
     "2B/MTE 220/Phasor Example.md",
     "2B/MTE 220/Sinusoidal Steady-state Response.md",
     "2B/MTE 220/Example - Sinusoidal Steady-state Response.md",
     "2B/MTE 203/Suggested Problems.md",
     "images/link.includeh.png.md",
     "images",
-    "2B/MTE 220/attachments/Phasor Example-1.png",
-    "2B/MTE 220/attachments/Phasor Example.png",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/MTE 220/Phasors.md",
-    "2B/MTE 220/attachments/Phasors.png",
-    "2B/MTE 220/attachments/Example - Sinusoidal Steady-state Response-1.png",
-    "2B/MTE 220/attachments/Example - Sinusoidal Steady-state Response.png",
-    "2B/Midterm Practice Kanban.md",
-    "2B/MTE 220/attachments/Sinusoidal Steady-state Response-3.png",
-    "Excalidraw/Drawing 2023-10-20 20.05.17.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-11 16.55.48.excalidraw.md",
-    "Excalidraw/204circuits.excalidraw.md",
-    "Excalidraw/Drawing 2023-09-14 08.55.12.excalidraw.md",
-    "Excalidraw/complexexponentials.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-05 01.04.33.excalidraw.md",
-    "excalidraw/Drawing 2023-10-21 12.45.20.excalidraw.md",
-    "2B/SYDE 252/Unit impulse.md",
-    "2B/SYDE 252/Time-invariant and time varying systems.md",
-    "2B/SYDE 252/Stable and Unstable Systems.md",
-    "excalidraw/Drawing 2023-10-20 20.05.17.excalidraw.md",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Bracketing ",

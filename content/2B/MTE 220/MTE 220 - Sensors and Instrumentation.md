@@ -55,11 +55,15 @@ aliases:
 - [[Phasors]]
 	- [[Phasor Example]]
 
-## New circuit elements
+## New Circuit Elements
+
 - [[Preferred Value Numbering System]]
+#### New Op-Amp Circuits
 - [[Signal Reference Voltage]]
 - [[Comparator]]
 - [[Schmitt Trigger]]
+
+
 - [[Diodes]]
 
 Lab

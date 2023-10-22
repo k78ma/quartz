@@ -3,6 +3,8 @@ title: Feedback
 tags:
   - mte220
 date: 2023-10-09
+aliases:
+  - feedback
 ---
 Feedback is when the output of a system is applied to the input. 
 

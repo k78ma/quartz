@@ -9,7 +9,7 @@ aliases:
   - MTE 204
 ---
 ### Errors
-- [[Error Definitions|Error Definitions]]
+- [[Error Definitions]]
 - [[Stopping Criterion]]
 - [[Types of Errors]]
 - [[Control of Numerical Errors]]
@@ -56,3 +56,4 @@ aliases:
 
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
+- [[204 Midterm Problems]]

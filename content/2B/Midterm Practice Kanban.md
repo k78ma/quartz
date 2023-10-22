@@ -10,7 +10,6 @@ tags:
 
 ## MTE 203
 
-- [ ] S2023 Midterm
 
 
 ## MTE 220
@@ -76,6 +75,7 @@ tags:
 - [ ] Lecture 12
 - [ ] Lecture 13
 - [ ] Lab2
+- [ ] S2023 Midterm
 
 %% kanban:settings
 ```

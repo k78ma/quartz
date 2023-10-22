@@ -39,7 +39,10 @@ Then we have:
 ## Errors
 The process above is terminated when a criteria is met, such as relative approximate error $\epsilon_{a} < k$ for some $k$, where:
 $$
-\epsilon _{a} = \left| \frac{x_{r_{new}} - x_{r_{old}}}{x_{r_{new}}} \right| \times 100\%
+\begin{align}
+\epsilon _{a}  & = \left| \frac{x_{r_{new}} - x_{r_{old}}}{x_{r_{new}}} \right| \times 100\% \\[3ex] 
+	 & = \left | \frac{x_{u}-x_{l}}{x_{u}+x_{l}} \right |\times 100\%
+\end{align}
 $$
 As an example, for the second iteration we would have:
 $$

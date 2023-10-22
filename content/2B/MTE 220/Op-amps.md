@@ -4,7 +4,7 @@ tags:
   - mte220
 date: 2023-10-09
 ---
-An operational amplifier is a kind of different amplifier. 
+An operational amplifier is a kind of difference amplifier. 
 
 - Output voltage, $V_{out}$, is the input voltage, $V_{in}$, amplified by a gain, $A_{0}$, called the open-loop gain.
 - Input voltage, $V_{in}$, is the difference between the non-inverting and inverting terminals, $V_{+}$ and $V_{-}$, respectively.
