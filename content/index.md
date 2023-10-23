@@ -31,7 +31,3 @@ Welcome to my notes!
 ### Other
 - [[Philosophy|Philosophy]]
 ---
-\*The site is named "Cortex" for three reasons:
-- The term "second brain" is popular with people who use Obsidian to take notes
-- The behavior tree used at [Polymath Robotics](https://polymathrobotics.com/), where I interned, is called Cortex
-- It sounds cool
