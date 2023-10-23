@@ -13,7 +13,7 @@ A popular iterative method for root finding.
 $$
 \begin{align}
 f'(x_{i}) &= \frac{\text{rise}}{\text{run}} \\[3ex]
-&= \frac{f(x_{i})-0}{x_{i}-x_{i}+1} \\[3ex]
+&= \frac{f(x_{i})-0}{x_{i}-x_{i+1}} \\[3ex]
 x_{i+1} &= x_{i} - \frac{f(x_{i})}{f'(x_{i})}
 \end{align}
 $$

@@ -54,31 +54,19 @@
             }
           },
           {
-            "id": "fd4d7feb762bbed7",
+            "id": "0c9e44a2fd9d1cb0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Comparator.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "236dc63237bcac9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Schmitt Trigger.md",
+                "file": "2B/MTE 204/Newton-Raphson Method.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -128,7 +116,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -152,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/Schmitt Trigger.md",
+                "file": "2B/MTE 204/Newton-Raphson Method.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/Schmitt Trigger.md",
+                "file": "2B/MTE 204/Newton-Raphson Method.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -192,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 220/Schmitt Trigger.md"
+                "file": "2B/MTE 204/Newton-Raphson Method.md"
               }
             }
           },
@@ -214,8 +203,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -234,28 +222,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "236dc63237bcac9d",
+  "active": "0c9e44a2fd9d1cb0",
   "lastOpenFiles": [
+    "2B/MTE 204/204 Midterm Problems.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 220/Comparator.md",
+    "2B/MTE 220/Schmitt Trigger.md",
     "2B/MTE 220/attachments/Schmitt Trigger-4.png",
     "2B/MTE 220/attachments/Schmitt Trigger-3.png",
     "2B/MTE 220/attachments/Schmitt Trigger-2.png",
     "2B/MTE 220/attachments/Schmitt Trigger-1.png",
     "2B/MTE 220/attachments/Schmitt Trigger.png",
     "2B/MTE 220/Feedback.md",
-    "2B/MTE 220/Schmitt Trigger.md",
-    "2B/MTE 220/Comparator.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/MTE 220/Op-amps.md",
     "2B/MTE 220/Inverting Amplifier.md",
     "2B/MTE 220/Signal Reference Voltage.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/MTE 204/204 Midterm Problems.md",
     "2B/MTE 220/attachments/Comparator-1.png",
     "2B/MTE 220/attachments/Comparator.png",
     "2B/MTE 220/attachments/Pasted image 20230930160522.png",
     "2B/MTE 220/attachments/Pasted image 20230930160016.png",
     "2B/MTE 220/attachments/Signal Reference Voltage-6.png",
-    "2B/MTE 220/attachments/Signal Reference Voltage-5.png",
     "2B/MTE 220/Preferred Value Numbering System.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/Midterm Practice Kanban.md",

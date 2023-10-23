@@ -36,18 +36,17 @@ At the circuit level, this is happening by changing $V_{ref}$ using $R_{3}$ base
 
 ![[Schmitt Trigger-3.png|322]]
 
-In this case, we have:
+Note how $R_{3}$ is connected to the output of the op-amp. Since the output is $0$, $R_{3}$ is basically connected to ground. This drags $V_{ref}$ down.
 $$
 V_{ref} = 5 \cdot \frac{(R_{2} \parallel R_{3})}{R_{1} + R_{2} \parallel R_{3}}
 $$
-This drags $V_{ref}$ down, and $R_{3}$ goes to zero volts, which becomes the output of the op-amp.
 
 **Case 2:** $V_{out} = 5 \text{ V}$
 
 ![[Schmitt Trigger-4.png|331]]
 
-In this case, we have:
+Once again, $R_{3}$ is connected to the op-amp output, which is 5V this time. This changes the configuration of the voltage divider in the circuit, giving:
 $$
 V_{ref} = 5 \cdot \frac{R_{2}}{R_{1} \parallel R_{3} + R_{2}}
 $$
-This pushes $V_{ref}$ up, as $R_{3}$ is connected to op-amp output.
+This pushes $V_{ref}$ up.
