@@ -15,7 +15,7 @@ If $f(x)$ is real and continuous in the interval from $x_{l}$ to $x_{u}$ and $f(
 ***Bisection*** method divides intervals in half.
 ### Steps
 1. Choose $x_{l}$ and $x_{u}$ such that the function changes signs.
-2. Estimate root by $x_{r} = \frac{x_{l}+x_{u}}{2}$. d
+2. Estimate root by $x_{r} = \frac{x_{l}+x_{u}}{2}$.
 3. Identify $x_{r}$ position:
 	- If $f(x_{l})$ and $f(x_{r})$ have the same sign, then $x_{l} = x_{r}$
 	- If $f(x_{u})$ and $f(x_{r})$ have the same sign, then $x_{u} = x_{r}$
