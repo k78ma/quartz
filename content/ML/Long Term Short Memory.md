@@ -87,6 +87,4 @@ For the language model example, since it just saw a subject, it might want to ou
 ![[output.png]]
 
 ### Variants on LSTM
-- [[Peephole LSTM]]
-- [[Coupled LSTM]]
 - [[Gated Recurrent Unit]]

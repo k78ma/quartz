@@ -19,11 +19,11 @@ $$
 
 For multiple intervals, Simpson's rule **requires an even number of intervals** or segments:
 $$
-I \approx (b-a)\frac{f(x_{0})+ \sum_{i=1,3,5}^{n-1}f(x_{i}) + 2 \sum_{j=2,4,6}^{n-2}f(x_{j})+f(x_{n})}{3n}
+I \approx (b-a)\frac{f(x_{0})+ 4\sum_{i=1,3,5}^{n-1}f(x_{i}) + 2 \sum_{j=2,4,6}^{n-2}f(x_{j})+f(x_{n})}{3n}
 $$
 In a more readable form:
 $$
-I = (b-a)\frac{f(x_{0})+\sum f(x_{odd})+2\sum f(x_{even})+f(x_{n})}{3n}
+I = (b-a)\frac{f(x_{0})+4\sum f(x_{odd})+2\sum f(x_{even})+f(x_{n})}{3n}
 $$
 
 ### Error/Accuracy

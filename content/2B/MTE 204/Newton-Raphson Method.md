@@ -59,7 +59,7 @@ $$
 E_{t,i+1} \propto (E_{t, i})^{2}
 $$
 This means:
-- It can be very slow that 
+- It can be very slow 
 - The number of correct decimal places approximately doubles for each iteration.
 
 Also, you can’t predict the number of iterations to convergence unlike [[Bracketing Method|bracketing]] because the function is dependent on initial values. 

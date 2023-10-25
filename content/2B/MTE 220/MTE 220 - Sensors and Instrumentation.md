@@ -62,11 +62,37 @@ aliases:
 - [[Signal Reference Voltage]]
 - [[Comparator]]
 - [[Schmitt Trigger]]
+	- [[Schmitt Trigger Example]]
+- [[Non-ideal Op-amp Parameters]]
+	- [[Non-ideal Op-amp Parameters#Common Mode Gain|Common Mode Gain]]
+	- [[Non-ideal Op-amp Parameters#DC Offset|DC Offset]]
+	- [[Non-ideal Op-amp Parameters#Slew Rate|Slew Rate]]
+#### Diodes
 
+Diode Theory:
+- [[Diode Intro]]
+- [[Diode Operating Points]]
+- [[Diode Models]]
+- [[Diode Circuit Analysis]]
 
-- [[Diodes]]
+Diode Types:
+- [[PN Junction]]
+- [[LED]]
+- [[Photodiode]]
+- [[Zener Diodes]]
+- [[Schottky and Varactor Diodes]]
 
-Lab
+Diode Circuits:
+- [[Half-Wave Rectifier]]
+- [[Full-Wave Rectifier]]
+- [[Peak Detector]]
+- [[Signal Clamp (Limiter)]]
+- [[Ideal Diode]]
+- [[Protection for Inductive Kickback]]
+
+#### Transistors
+
+## Labs
 - [[Lab 1]]
 - [[Lab 2]]
 	- [[Pulse Width Modulation]]

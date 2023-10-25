@@ -8,6 +8,18 @@
         "type": "tabs",
         "children": [
           {
+            "id": "de17ebe6f8fc9315",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "2db55f361a3541fb",
             "type": "leaf",
             "state": {
@@ -23,43 +35,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Op-amp Configurations.md",
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2c0c0aaf5ca9a7ef",
+            "id": "0973496303654d11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 204/204 Midterm Problems.md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0ae9086cd19be75f",
+            "id": "801bf34ea6fc8a2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "de17ebe6f8fc9315",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 204/Bracketing Method.md",
+                "file": "2B/MTE 220/Photodiode.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/Bracketing Method.md",
+                "file": "2B/MTE 220/Photodiode.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/Bracketing Method.md",
+                "file": "2B/MTE 220/Photodiode.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/Bracketing Method.md"
+                "file": "2B/MTE 220/Photodiode.md"
               }
             }
           },
@@ -219,47 +219,51 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "de17ebe6f8fc9315",
+  "active": "801bf34ea6fc8a2e",
   "lastOpenFiles": [
-    "2B/MTE 204/204 Midterm Problems.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 220/Schmitt Trigger.md",
-    "index.md",
-    "2B/Midterm Practice Kanban.md",
-    "2B/MTE 220/Op-amp Configurations.md",
+    "2B/MTE 220/Photodiode.md",
+    "2B/MTE 220/LED.md",
+    "2B/MTE 220/attachments/LED.png",
+    "2B/MTE 220/PN Junction.md",
+    "2B/MTE 220/attachments/PN Junction.png",
+    "2B/MTE 220/Diode Circuit Analysis.md",
+    "2B/MTE 220/attachments/Diode Circuit Analysis-4.png",
+    "2B/MTE 220/attachments/Diode Circuit Analysis-3.png",
+    "2B/MTE 220/attachments/Diode Circuit Analysis-2.png",
+    "2B/MTE 220/attachments/Pasted image 20231025003758.png",
+    "2B/MTE 220/attachments/Diode Circuit Analysis-1.png",
+    "2B/MTE 220/Diode Models.md",
+    "2B/MTE 220/Diode Intro.md",
+    "2B/MTE 220/attachments/Diode Circuit Analysis.png",
+    "2B/MTE 220/Diode Operating Points.md",
+    "2B/MTE 220/attachments/Diode Models-2.png",
+    "2B/MTE 220/attachments/Diode Models-1.png",
+    "2B/MTE 220/Semiconductor Doping.md",
+    "2B/MTE 220/Lab 1.md",
+    "2B/MTE 220/Pulse Width Modulation.md",
+    "2B/MTE 220/Non-ideal Op-amp Parameters.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Signal Convolution.md",
+    "ML/Machine Learning.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 204/Newton-Raphson Method.md",
+    "Blog/Adding ML to Polymath's Perception System.md",
+    "Untitled.md",
+    "Blog",
+    "2B/MTE 220/Schmitt Trigger Example.md",
+    "ML/Long Term Short Memory.md",
+    "Statistics.md",
+    "2B/MTE 220/Schmitt Trigger.md",
+    "2B/MTE 220/Op-amp Configurations.md",
     "2B/MTE 220/Comparator.md",
-    "2B/MTE 220/attachments/Schmitt Trigger-4.png",
-    "2B/MTE 220/attachments/Schmitt Trigger-3.png",
-    "2B/MTE 220/attachments/Schmitt Trigger-2.png",
-    "2B/MTE 220/attachments/Schmitt Trigger-1.png",
-    "2B/MTE 220/attachments/Schmitt Trigger.png",
-    "2B/MTE 220/Feedback.md",
-    "2B/MTE 220/Op-amps.md",
-    "2B/MTE 220/Inverting Amplifier.md",
-    "2B/MTE 220/Signal Reference Voltage.md",
-    "2B/MTE 220/attachments/Comparator-1.png",
-    "2B/MTE 220/attachments/Comparator.png",
-    "2B/MTE 220/attachments/Pasted image 20230930160522.png",
-    "2B/MTE 220/attachments/Pasted image 20230930160016.png",
-    "2B/MTE 220/attachments/Signal Reference Voltage-6.png",
-    "2B/MTE 220/Preferred Value Numbering System.md",
-    "2B/MTE 204/Bracketing Method.md",
-    "2B/SYDE 252/Convolution.md",
-    "2B/MTE 204/Determinant.md",
-    "2B/MTE 204/Simpson's Rule.md",
-    "2B/MTE 204/Numerical Integration.md",
-    "2B/MTE 204/Composite Trapezoid Rule.md",
-    "2B/MTE 204/Trapezoid Rule.md",
-    "Vault Stats.md",
-    "2B/MTE 220/Phasor Example.md",
-    "2B/MTE 220/Sinusoidal Steady-state Response.md",
-    "2B/MTE 220/Example - Sinusoidal Steady-state Response.md",
+    "2B/MTE 220/Thevenin and Norton for Analysis.md",
+    "2B/MTE 220/Thevenin and Norton for Simplified Loading.md",
+    "ML/Untitled",
+    "ML/attachments/Untitled",
     "images",
     "Polymath/Polymath ML Productization.canvas",
     "Polymath/Polymath ML Productization Simplified.canvas",
@@ -269,9 +273,6 @@
     "2B/MTE 241/attachments",
     "2B/SYDE 252/attachments",
     "notes",
-    "AeroVect Interview 09/22",
-    "AeroVect Interview 09",
-    "Random",
     "Other/idfk.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

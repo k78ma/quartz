@@ -42,4 +42,5 @@ aliases:
 - [[Stable and Unstable Systems]]
 - [[Linear and non-linear systems]]
 
-- [[Convolution]]
+#### Convolution
+- [[Signal Convolution]]

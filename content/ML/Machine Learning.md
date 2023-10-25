@@ -7,26 +7,29 @@ date: 2023-06-25
 
 ## Foundational Concepts
 
-Neurons
+#### Neurons
 - [[Artificial Neuron|Artificial Neuron]]
 - [[Sigmoid Neuron|Sigmoid Neuron]]
 
-Classifiers
+#### Classifiers
 - [[Linear Classifier|Linear Classifier]]
 	- [[Perceptron|Perceptron]]
 		- [[Averaged Perceptron|Averaged Perceptron]]
 		- [[Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
 - [[Margin|Margin]]
 
-Features
+#### Features
 - [[Feature Representation|Feature Representation]]
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
 
+#### Margin Maximization
 - [[Margin Maximization]]
 
+#### Regression
 - [[Regression]]
 
+#### Neural Networks
 - [[Neural Networks]]
 
 - [[Convolutional Neural Networks]]

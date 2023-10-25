@@ -8,3 +8,4 @@ date: 2023-10-09
 - [[Non-Inverting Amplifier]]
 - [[Voltage Follower]]
 - [[Difference Amplifier]]
+- [[Schmitt Trigger]]

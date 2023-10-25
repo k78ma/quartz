@@ -18,8 +18,9 @@ Welcome to my notes!
 - [[Computer Architecture|Computer Architecture]]
 
 ### Math
-- [[Calculus III|Calculus III]]
+- [[Calculus III|Calculus]]
 - [[Linear Algebra|Linear Algebra]]
+- [[Statistics]]
 
 ### Courses
 - 2B
