@@ -30,55 +30,19 @@
             }
           },
           {
-            "id": "39121db80f9eb401",
+            "id": "456b6cf58a30a5d9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0973496303654d11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5a0f3005df14e38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Ideal Diode.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18a50dce14299f29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Signal Clamp (Limiter).md",
+                "file": "2B/SYDE 252/Time-invariant and time varying systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -153,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/SYDE 252/Time-invariant and time varying systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/SYDE 252/Time-invariant and time varying systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md"
+                "file": "2B/SYDE 252/Time-invariant and time varying systems.md"
               }
             }
           },
@@ -235,11 +199,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "0973496303654d11",
+  "active": "456b6cf58a30a5d9",
   "lastOpenFiles": [
-    "2B/MTE 220/Ideal Diode.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Linear and non-linear systems.md",
+    "2B/SYDE 252/Unit impulse.md",
+    "2B/Midterm Practice Kanban.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/MTE 220/Signal Clamp (Limiter).md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "Statistics.md",
+    "2B/MTE 220/Ideal Diode.md",
     "2B/MTE 220/attachments/Signal Clamp (Limiter)-2.png",
     "2B/MTE 220/attachments/Signal Clamp (Limiter)-1.png",
     "2B/MTE 220/attachments/Signal Clamp (Limiter).png",
@@ -267,12 +237,6 @@
     "2B/MTE 220/Lab 1.md",
     "2B/MTE 220/Pulse Width Modulation.md",
     "2B/MTE 220/Non-ideal Op-amp Parameters.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/SYDE 252/Signal Convolution.md",
-    "ML/Machine Learning.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "Blog/Adding ML to Polymath's Perception System.md",
-    "Untitled.md",
     "Blog",
     "ML/Untitled",
     "ML/attachments/Untitled",

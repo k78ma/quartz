@@ -22,7 +22,7 @@ $$
 Delaying $x_{1}[n]$ by $m$ units would give us $x_{1}[n-m]$. This would be:
 $$
 \begin{align}
-y_{1}[n]&=nx_{1}[n] \\
+y_{1}[n-m]&=nx_{1}[n-m] \\
 &=(n-m)x_{1}[n-m]
 \end{align}
 $$So have $y_{1}[n-m] \neq y_{2}[n]$, making the system time varying. This is because when the input is delayed by $m$, the output is not the same but delayed by $m$.

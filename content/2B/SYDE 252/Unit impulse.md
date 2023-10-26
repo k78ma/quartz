@@ -32,7 +32,7 @@ $$
 From the above equation, we also have:
 $$
 \begin{align}
-\int_{-\infty}^{\infty} \phi(T)\delta(t-T) \, dt &= \phi(T) \int_{-\infty}^{\infty} \delta(t) \, dt  \\
+\int_{-\infty}^{\infty} \phi(t)\delta(t-T) \, dt &= \phi(t) \int_{-\infty}^{\infty} \delta(t) \, dt  \\
 &= \phi(T) 
 \end{align}
 $$

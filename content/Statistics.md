@@ -10,3 +10,4 @@ I need a better understanding of Statistics to support my study of machine learn
 - [[Prior and Posterior]]
 - [[Likelihood Ratio]]
 - [[Decision Boundary]]
+- [[Maximum Likelihood Estimation]]
