@@ -79,7 +79,7 @@ Diode Types:
 - [[PN Junction]]
 - [[LED]]
 - [[Photodiode]]
-- [[Zener Diodes]]
+- [[Zener Diode]]
 - [[Schottky and Varactor Diodes]]
 
 Diode Circuits:
@@ -88,9 +88,14 @@ Diode Circuits:
 - [[Peak Detector]]
 - [[Signal Clamp (Limiter)]]
 - [[Ideal Diode]]
+
+Applications:
 - [[Protection for Inductive Kickback]]
 
 #### Transistors
+- [[PMOS]]
+- [[NMOS]]
+
 
 ## Labs
 - [[Lab 1]]

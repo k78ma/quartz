@@ -13,3 +13,14 @@ Essentially, we can think about these as controlled current sources that are pro
 
 We need to the signal current from $\mu \text{A}$ to $\text{V}$, so we need an amp with gain in $[\frac{V}{A}]$. This is where the name for "trans resistance amplifier" or "trans impedance amplifiers (TIA)" comes from.
 
+TIA circuit:
+
+![[Photodiode.png|452]]
+
+We have:
+$$
+\begin{align}
+V_{out}  & = V_{Bias} + V_{R} \\
+	 & = V_{Bias} + I_{D}R
+\end{align}
+$$
