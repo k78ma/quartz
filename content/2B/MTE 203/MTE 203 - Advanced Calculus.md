@@ -60,19 +60,27 @@ aliases:
 - [[Jacobian Determinate]]
 
 #### Lecture 10: Directional derivatives, tangent lines, and tangent plane
-- [[Directional Derivative]]
-	- [[Directional Derivatives]]
+- [[Directional Derivatives]]
 - [[Tangent Lines and Planes]]
 
 #### Lecture 11: Optimization 1
 - [[Critical Point]]
-- [[Relative M]]
+- [[Relative Extrema]]
+- [[Saddle Point]]
+- [[Critical Point Test]]
 
 #### Lecture 12: Optimization 2
-
+- [[Absolute Extrema]]
 
 #### Lecture 13: Lagrange Multipliers
 - [[Lagrange Multipliers]]
+
+#### Lecture 14: Applications
+- [[Least Squares]]
+- [[Differenetials]]
+  
+#### Lecture 15: Double Integration
+- [[Double Integration]]
 
 ## Problems
 - [[Suggested Problems]]

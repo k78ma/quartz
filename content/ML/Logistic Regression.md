@@ -6,6 +6,11 @@ date: 2023-10-29
 aliases:
   - linear logistic classifier
 ---
+### Definition
+We can define logistic regression as optimizing regularized negative log-likelihood for a linear logistic classifier. This can be written as an objective function:
+$$
+J_{\text{lr}}(\theta, \theta_{0}; \mathcal{D}) = \left( \frac{1}{n} \sum_{i=1}^{n} L_{NLL}(\sigma(\theta^{T}x^{(i)} + \theta_{0}), y^{(i)}) \right)
+$$
 ### Motivation
 For classification, it's natural to make predictions in $\{ +1, -1 \}$ and use the 0-1 loss function. However, even for simple [[Linear Classifier|linear classifiers]], it is very difficult to find values $\theta, \theta_{0}$ to minimize a simple training error:
 $$
@@ -15,7 +20,7 @@ This problem is NP-hard, which probably implies that solving the most difficult 
 - You only have options $0$ and $1$ so there may be a hypothesis that is close in the parameter space to the optimal parameters, but it makes the same amount of misclassifications as worse hypothesis. 
 - All predictions are categorical: the classifier can’t express a degree of certainty about whether a particular input $x$ should have an associated value $y$.
 
-### Definition
+### Formulation
 Linear logistic classifiers address the above problem. Instead of making predictions in $\{ +1, -1 \}$, they generate real-valued outputs in the interval $(0,1)$. A linear logistic classifier has the form:
 $$
 h(x; \theta, \theta_{0}) = \sigma(\theta^{T}x + \theta_{0})
@@ -30,3 +35,8 @@ Based on our parameter settings of $\theta, \theta_{0}$, we can get differently 
 
 In 2D, our inputs $x$ lie on a 2D space with axes $x_{1}$ and $x_{2}$, and the output of the linear logistic classifier is a surface:
 ![[Logistic Regression-1.png|464]]
+
+#### Loss Function
+We have defined the linear logistic classifier to have probability outputs in $(0,1)$ but have training data with $y$ values in $\{ +1, -1 \}$. How do we define a loss function?
+
+We want to define a loss function on our data that is inversely related to the probability $\theta, \theta_{0}$ assigns to the data. This would mean that we have low loss if we have high probability of it being correct. We also want to have low loss if we assign a low probability to the incorrect class. This can be done using a [[Negative log-likelihood]] loss function. 

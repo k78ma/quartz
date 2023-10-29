@@ -1,7 +1,6 @@
 ---
 title: "{{title}}"
 tags: 
-date:
-  "{ date }": 
-alias:
+date: {{date:YYYY-MM-DD}}
+aliases:
 ---

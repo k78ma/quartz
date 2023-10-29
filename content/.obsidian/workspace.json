@@ -8,30 +8,67 @@
         "type": "tabs",
         "children": [
           {
-            "id": "389f55cdd20437ec",
+            "id": "69a827fca9bb6832",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Regularization.md",
+                "file": "ML/Gradient Descent.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d5a928c51b508ca3",
+            "id": "aedee400446bfaea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Loss Function.md",
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eb503b0d7d42b26b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/Critical Point Test.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7ff9daac6a607463",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/Critical Point.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0600493c75578130",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/Absolute Extrema.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -81,7 +118,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -105,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Regularization.md",
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Regularization.md",
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +183,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Regularization.md"
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md"
               }
             }
           },
@@ -158,7 +196,7 @@
             }
           },
           {
-            "id": "c389056847d18e52",
+            "id": "5033e8a93f70063f",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -187,44 +225,44 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "389f55cdd20437ec",
+  "active": "aedee400446bfaea",
   "lastOpenFiles": [
+    "2B/MTE 203/Critical Point Test.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 203/Tangent Lines and Planes.md",
+    "2B/MTE 203/Saddle Point.md",
+    "2B/MTE 203/Relative Extrema.md",
+    "2B/MTE 203/Absolute Extrema.md",
+    "2B/MTE 203/Critical Point.md",
+    "ML/Gradient Descent.md",
+    "2B/MTE 203/Jacobian Determinate.md",
+    "ML/Machine Learning as Optimization.md",
+    "2B/MTE 203/Lagrange Multipliers.md",
+    "Calculus/Directional Derivatives.md",
     "ML/Machine Learning.md",
-    "ML/Sigmoid Neuron.md",
-    "ML/Artificial Neuron.md",
+    "ML/Logistic Regression.md",
+    "ML/Negative log-likelihood.md",
+    "ML/Regularization.md",
+    "ML/Perceptron Convergence Theorem.md",
+    "templates/Note.md",
     "ML/Sigmoid.md",
     "ML/Loss Function.md",
-    "ML/Machine Learning as Optimization.md",
-    "ML/Logistic Regression.md",
+    "ML/attachments/Regularization.png",
+    "ML/Sigmoid Neuron.md",
+    "ML/Artificial Neuron.md",
     "ML/attachments/Logistic Regression-1.png",
     "ML/attachments/Logistic Regression.png",
     "ML/Linear Classifier.md",
     "ML/attachments/Pasted image 20231029131826.png",
-    "templates/Note.md",
-    "ML/Regularization.md",
     "ML/Margin.md",
-    "ML/Perceptron Convergence Theorem.md",
     "ML/Polynomial Basis.md",
     "2B/Midterm Practice Kanban.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/SYDE 252/Time reversal.md",
-    "2B/SYDE 252/Time scaling.md",
-    "2B/SYDE 252/Time shifting.md",
-    "2B/SYDE 252/Signal Convolution.md",
-    "2B/SYDE 252/Exponential Signals.md",
-    "2B/SYDE 252/Causal and Non-Causal Systems.md",
-    "2B/SYDE 252/Stable and Unstable Systems.md",
-    "2B/SYDE 252/Unit impulse.md",
-    "2B/SYDE 252/Unit step.md",
-    "2B/SYDE 252/Linear and non-linear systems.md",
-    "2B/SYDE 252/Causal, Non-causal and Anti-causal Signals.md",
     "2B/MTE 220/attachments/Signal Clamp (Limiter)-2.png",
     "2B/MTE 220/attachments/Signal Clamp (Limiter)-1.png",
     "2B/MTE 220/attachments/Signal Clamp (Limiter).png",
     "2B/MTE 220/attachments/Peak Detector-3.png",
     "2B/MTE 220/attachments/Peak Detector-2.png",
     "2B/MTE 220/attachments/Peak Detector-1.png",
-    "2B/MTE 220/attachments/Peak Detector.png",
     "Blog",
     "ML/Untitled",
     "ML/attachments/Untitled",

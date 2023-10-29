@@ -3,6 +3,8 @@ title: Machine Learning as Optimization
 tags:
   - ml
 date: 2023-10-29
+aliases:
+  - objective function
 ---
 Instead of trying to intuit learning algorithms, we can introduce a framework for solving machine learning problems that lets us derive machine learning algorithms for arbitrarily complicated problems. This is done by framing machine learning as an optimization problem: using computational methods to find the minimum/maximum of a given function.
 

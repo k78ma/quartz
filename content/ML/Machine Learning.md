@@ -26,7 +26,7 @@ date: 2023-06-25
 
 #### Loss Functions
 - [[Loss Function]]
-
+- [[Negative log-likelihood]]
 
 #### Margin Maximization
 - [[Margin Maximization]]
@@ -36,6 +36,8 @@ date: 2023-06-25
 
 #### Gradient Descent
 - [[Gradient Descent]]
+	- [[1D Gradient Descent]]
+	- [[Multiple Dimension Gradient Descent]]
 - [[Backpropagation]]
 
 #### Neural Networks
