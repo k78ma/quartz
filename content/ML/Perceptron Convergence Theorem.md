@@ -11,7 +11,7 @@ If training data $D_n$ is linearly separable, then the [Perceptron](Perceptron.m
 >If there is:
 >- Some $\theta^{*}$ such that $y \cdot \frac{\theta^{*T}x}{||\theta^{*}||} \geq \gamma > 0$ for all $i = 1, \cdots, n$
 >	- ([Margin](Margin.md) of $\theta^{*}$ with respect to dataset $D$ is $\gamma$)
->- $||x^{(i)}|| \leq \mathbb{R}$
+>- $||x^{(i)}|| \leq R$
 >	- (Magnitude of data points is bounded by R)
 >
 >Then:

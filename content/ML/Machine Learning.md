@@ -4,12 +4,7 @@ tag: ml, moc
 alias: ML, ml
 date: 2023-06-25
 ---
-
 ## Foundational Concepts
-
-#### Neurons
-- [[Artificial Neuron|Artificial Neuron]]
-- [[Sigmoid Neuron|Sigmoid Neuron]]
 
 #### Classifiers
 - [[Linear Classifier|Linear Classifier]]
@@ -23,11 +18,25 @@ date: 2023-06-25
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
 
+- [[Machine Learning as Optimization]]
+- [[Regularization]]
+
+#### Mathematical Functions
+- [[Sigmoid]]
+
+#### Loss Functions
+- [[Loss Function]]
+
+
 #### Margin Maximization
 - [[Margin Maximization]]
 
 #### Regression
-- [[Regression]]
+- [[Logistic Regression]]
+
+#### Gradient Descent
+- [[Gradient Descent]]
+- [[Backpropagation]]
 
 #### Neural Networks
 - [[Neural Networks]]
@@ -44,11 +53,10 @@ date: 2023-06-25
 
 - [[Decision Trees and Nearest Neighbours]]
 
-Transformers
-- [[Transformer]]
-
-Algorithms
-- [[Backpropagation]]
+#### Miscellaneous
+- [[Machine Learning as Optimization]]
+- [[Artificial Neuron|Artificial Neuron]]
+- [[Regularization]]
 
 ## Models/Architectures
 - [[Gated Recurrent Unit]]
@@ -56,7 +64,8 @@ Algorithms
 
 ## Model Behavior/Alteration
 - [[Task Arithmetic|Task Arithmetic]]
-
+- Transformers
+- [[Transformer]]
 ## Computer Vision
 - [[SAM: Segment Anything]]
 - [[SimCLR]]

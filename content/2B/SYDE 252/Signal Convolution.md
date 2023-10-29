@@ -6,11 +6,11 @@ date: 2023-10-24
 ---
 The convolution integral of two $x_{1}(t)$ and $x_{2}(t)$ is denoted symbolically as:
 $$
-x_{1}(t) * x_{2}(t) = \int_{-\infty}^{\infty} x_{1}(\tau)x_{1}(t-\tau) \, d\tau 
+x_{1}(t) * x_{2}(t) = \int_{-\infty}^{\infty} x_{1}(\tau)\;x_{1}(t-\tau) \, d\tau 
 $$
 Discrete version:
 $$
-y[n]=x[n] * h[n] = \sum_{m=-\infty}^{\infty}x[m]h[n-m]
+y[n]=x[n] * h[n] = \sum_{m=-\infty}^{\infty}x[m] \; h[n-m]
 $$
 
 ### Properties

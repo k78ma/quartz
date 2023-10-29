@@ -43,7 +43,7 @@ x_{3}(t) = ax_{1}(t)+bx_{2}(t) \quad \to \quad y_{3}(t)&=tx_{3}(t) \\
 &=t[ax_{1}(t)+b(x_{2})t] \\
 &=tax_{1}(t)+tbx_{2}(t) \\
 &=ay_{1}(t)+by_{2}(t) \\[3ex]
-&\therefore \text{ System is lienar}
+&\therefore \text{ System is linear}
 \end{align}
 $$
 #### Non-linear Example 1
