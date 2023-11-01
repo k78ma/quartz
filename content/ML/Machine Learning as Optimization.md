@@ -6,7 +6,7 @@ date: 2023-10-29
 aliases:
   - objective function
 ---
-Instead of trying to intuit learning algorithms, we can introduce a framework for solving machine learning problems that lets us derive machine learning algorithms for arbitrarily complicated problems. This is done by framing machine learning as an optimization problem: using computational methods to find the minimum/maximum of a given function.
+Instead of trying to intuit learning algorithms like the [[Perceptron]], we can introduce a general framework for solving machine learning problems that lets us derive machine learning algorithms for arbitrarily complicated problems. This is done by framing machine learning as an optimization problem: using computational methods to find the minimum/maximum of a given function.
 
 Fundamentally, we define an *objective function* $J(\Theta)$, where $\Theta$ are the parameters of our model. For a [[Linear Classifier]], we would have $\Theta = \theta, \theta_{0}$. We also write $J(\Theta, \mathrm{D})$ to indicate dependence on the data $\mathrm{D}$. Generally, the optimization is that we want to find $\Theta^\star$ such that:
 $$

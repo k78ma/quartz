@@ -8,67 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "69a827fca9bb6832",
+            "id": "dda36d1e54d8f270",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Gradient Descent.md",
+                "file": "ML/Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "aedee400446bfaea",
+            "id": "6457d86832bf91b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "file": "ML/Margin.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb503b0d7d42b26b",
+            "id": "4947b58b40f99121",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Critical Point Test.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7ff9daac6a607463",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/Critical Point.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0600493c75578130",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/Absolute Extrema.md",
+                "file": "2B/MTE 241/Memory Addresses.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,8 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -143,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "file": "2B/MTE 241/Memory Addresses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "file": "2B/MTE 241/Memory Addresses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -183,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md"
+                "file": "2B/MTE 241/Memory Addresses.md"
               }
             }
           },
@@ -225,44 +200,45 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "aedee400446bfaea",
+  "active": "4947b58b40f99121",
   "lastOpenFiles": [
-    "2B/MTE 203/Critical Point Test.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 203/Tangent Lines and Planes.md",
-    "2B/MTE 203/Saddle Point.md",
-    "2B/MTE 203/Relative Extrema.md",
-    "2B/MTE 203/Absolute Extrema.md",
-    "2B/MTE 203/Critical Point.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 241/Memory Addresses.md",
+    "ML/Margin.md",
     "ML/Gradient Descent.md",
-    "2B/MTE 203/Jacobian Determinate.md",
-    "ML/Machine Learning as Optimization.md",
-    "2B/MTE 203/Lagrange Multipliers.md",
-    "Calculus/Directional Derivatives.md",
     "ML/Machine Learning.md",
-    "ML/Logistic Regression.md",
+    "ML/Multiple Dimension Gradient Descent.md",
+    "Statistics/Statistics.md",
+    "2B/MTE 241/Cortex M4 Cache.md",
+    "2B/MTE 241/Cache Optimization.md",
+    "2B/MTE 241/attachments/Cortex M4 Cache.png",
+    "2023-10-30.md",
+    "2B/MTE 241/Multilevel Cache.md",
+    "2B/MTE 241/Banked vs. Unified Cache.md",
+    "ML/Stochastic Gradient Descent.md",
+    "ML/attachments/Stochastic Gradient Descent.png",
+    "ML/1D Gradient Descent.md",
+    "ML/Gradient Descent for Logistic Regression.md",
+    "ML/attachments/Gradient Descent for Logistic Regression.png",
+    "ML/Machine Learning as Optimization.md",
+    "ML/Perceptron.md",
+    "Calculus/Gradient Vector.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 204/Newton-Raphson Method.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "Statistics",
+    "Gradient Vector, Tangent Planes and Normal Lines.md",
+    "ML/attachments/1D Gradient Descent-1.png",
+    "2B/MTE 204/Secant Method.md",
+    "ML/attachments/1D Gradient Descent.png",
     "ML/Negative log-likelihood.md",
-    "ML/Regularization.md",
-    "ML/Perceptron Convergence Theorem.md",
-    "templates/Note.md",
-    "ML/Sigmoid.md",
-    "ML/Loss Function.md",
+    "2B/MTE 203/Arc Length.md",
+    "2B/MTE 203/Critical Point Test.md",
     "ML/attachments/Regularization.png",
-    "ML/Sigmoid Neuron.md",
-    "ML/Artificial Neuron.md",
     "ML/attachments/Logistic Regression-1.png",
     "ML/attachments/Logistic Regression.png",
-    "ML/Linear Classifier.md",
     "ML/attachments/Pasted image 20231029131826.png",
-    "ML/Margin.md",
-    "ML/Polynomial Basis.md",
-    "2B/Midterm Practice Kanban.md",
     "2B/MTE 220/attachments/Signal Clamp (Limiter)-2.png",
-    "2B/MTE 220/attachments/Signal Clamp (Limiter)-1.png",
-    "2B/MTE 220/attachments/Signal Clamp (Limiter).png",
-    "2B/MTE 220/attachments/Peak Detector-3.png",
-    "2B/MTE 220/attachments/Peak Detector-2.png",
-    "2B/MTE 220/attachments/Peak Detector-1.png",
     "Blog",
     "ML/Untitled",
     "ML/attachments/Untitled",
@@ -274,7 +250,6 @@
     "2B/MTE 220/attachments",
     "2B/MTE 241/attachments",
     "2B/SYDE 252/attachments",
-    "notes",
     "Other/idfk.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

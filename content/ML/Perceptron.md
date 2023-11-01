@@ -43,5 +43,3 @@ def perceptron(data, labels, params={}, hook=None):
 ```
 
 Variation: [Averaged Perceptron](Averaged%20Perceptron.md)
-
-In a more general form, we can also 

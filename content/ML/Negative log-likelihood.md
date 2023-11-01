@@ -8,7 +8,7 @@ aliases:
   - cross-entropy
   - cross entropy
 ---
-For simplicity, we assume or transform the labels so that $y \in \{ 0, 1 \}$ instead of $\{ +1, -1 \}$. This enables us to interpret them as probabilities of being a member of the class in interest. 
+For simplicity, we assume or transform the labels so that $y \in \{ 0, 1 \}$.
 
 We would like to pick the parameters of our classifier to maximize the probability assigned to the correct $y$ values, as specified in the training set.
 
@@ -19,6 +19,8 @@ g^{(i)} & \text{if } y^{(i)} = 1 \\
 1-g^{(i)} & \text{if }y^{(i)} = 0 \\
 \end{cases}
 $$
+Recall that $g^{(i)}$ gives the probability that we think $y^{(i)}$ should be positive. So, if $y^{(i)} = 1$, we're happy with $g^{(i)}$ but if $y^{(i)}=0$, we want the complement of the probability instead.
+
 >[!info]- Intuition
 >To make this clear, let's consider an example where $g^{(i)} = 0.7$, indicating a prediction of $y^{(i)} = 1$ using a threshold of 0.5. 
 >- Let's say the correct label is $y^{(i)} = 1$. Then the result would just be $0.7$.

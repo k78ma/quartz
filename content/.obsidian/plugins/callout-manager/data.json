@@ -1,11 +1,20 @@
 {
   "callouts": {
-    "custom": [],
+    "custom": [
+      "theorem"
+    ],
     "settings": {
       "info": [
         {
           "changes": {
             "color": "7, 123, 213"
+          }
+        }
+      ],
+      "theorem": [
+        {
+          "changes": {
+            "icon": "lucide-circle-dot"
           }
         }
       ]

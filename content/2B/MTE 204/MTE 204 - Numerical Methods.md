@@ -7,6 +7,7 @@ tags:
   - mte204
 aliases:
   - MTE 204
+  - Numerical Methods
 ---
 ### Errors
 - [[Error Definitions]]

@@ -6,6 +6,10 @@ date: 2023-06-25
 ---
 ## Foundational Concepts
 
+#### Basics
+- [[Artificial Neuron]]
+- [[Machine Learning as Optimization]]
+
 #### Classifiers
 - [[Linear Classifier|Linear Classifier]]
 	- [[Perceptron|Perceptron]]
@@ -18,9 +22,6 @@ date: 2023-06-25
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
 
-- [[Machine Learning as Optimization]]
-- [[Regularization]]
-
 #### Mathematical Functions
 - [[Sigmoid]]
 
@@ -28,16 +29,22 @@ date: 2023-06-25
 - [[Loss Function]]
 - [[Negative log-likelihood]]
 
-#### Margin Maximization
-- [[Margin Maximization]]
+#### Regularization
+- [[Regularization]]
+- [[L1 Penalty]]
+- [[L2 Penalty]]
 
 #### Regression
 - [[Logistic Regression]]
+	- [[Gradient Descent for Logistic Regression]]
 
 #### Gradient Descent
 - [[Gradient Descent]]
 	- [[1D Gradient Descent]]
 	- [[Multiple Dimension Gradient Descent]]
+- [[Stochastic Gradient Descent]]
+
+#### Backpropagation
 - [[Backpropagation]]
 
 #### Neural Networks
@@ -54,11 +61,6 @@ date: 2023-06-25
 - [[Recommender Systems]]
 
 - [[Decision Trees and Nearest Neighbours]]
-
-#### Miscellaneous
-- [[Machine Learning as Optimization]]
-- [[Artificial Neuron|Artificial Neuron]]
-- [[Regularization]]
 
 ## Models/Architectures
 - [[Gated Recurrent Unit]]
