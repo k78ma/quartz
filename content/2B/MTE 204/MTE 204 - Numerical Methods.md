@@ -54,6 +54,25 @@ aliases:
 - [[Trapezoid Rule]]
 	- [[Composite Trapezoid Rule]]
 - [[Simpson's Rule]]
+- [[Romberg Integration]]
+- [[Romberg-Richardson Extrapolation]]
+- [[Gauss Quadrature]]
+
+### Numerical Differentiation
+- [[Forward Difference]]
+- [[Backward Difference]]
+- [[Centered Difference]]
+- [[Unequally-spaced data]]
+
+### Ordinary Differential Equations
+- [[ODEs]]
+- [[Euler's Method]]
+	- [[Implicit Euler]]
+- [[Heun's Method]]
+- [[Midpoint Method]] 
+- [[Runge-Kutta Method]]
+- [[Initial Value Problems with ODEs]]
+- [[Boundary Value Problems with ODEs]]
 
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
