@@ -32,7 +32,8 @@ aliases:
 - [[Memory Mapped Input Output]]
 - [[ARM Architeture]]
 ### Real-Time Operating System (RTOS)
-
+- [[OS and RTOS Intro]]
+- 
 
 ### Program Internals
 

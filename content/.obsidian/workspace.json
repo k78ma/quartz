@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "992f284997497c45",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6457d86832bf91b6",
             "type": "leaf",
             "state": {
@@ -32,31 +44,42 @@
             }
           },
           {
-            "id": "83dd986f621683e9",
+            "id": "4da09be40fb44415",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fb2b82d09ba78f83",
+            "id": "2cfe48f346ed476c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 241/ARM Architeture.md",
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "da8cd3fca499a3e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +130,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -131,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "file": "ML/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "file": "ML/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -171,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md"
+                "file": "ML/Machine Learning.md"
               }
             }
           },
@@ -213,13 +237,28 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "6457d86832bf91b6",
+  "active": "dda36d1e54d8f270",
   "lastOpenFiles": [
-    "ML/Margin.md",
+    "ML/Hinge Loss.md",
+    "ML/attachments/Hinge loss.png",
     "ML/Machine Learning.md",
+    "ML/Machine Learning as Optimization.md",
+    "ML/Negative log-likelihood.md",
+    "ML/Loss Function.md",
+    "ML/Support Vector Machine.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 220/Signal Clamp (Limiter).md",
+    "2B/MTE 220/Peak Detector.md",
+    "2B/MTE 220/Ideal Diode.md",
+    "2B/MTE 241/void Pointer.md",
+    "Projects.md",
+    "ML/Margin.md",
     "2B/MTE 241/ARM Architeture.md",
     "2B/MTE 241/attachments/ARM Architeture.png",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 241/Virtual Memory and Paging.md",
     "OS/Virtualization.md",
     "2B/MTE 241/Memory Mapped Input Output.md",
@@ -232,25 +271,10 @@
     "2B/MTE 241/Memory Space and Addresses.md",
     "2023-10-31.md",
     "2B/MTE 241/attachments/Memory Maps.png",
-    "2B/MTE 241/Cortex M4 Cache.md",
-    "Vault Stats.md",
-    "ML/Gradient Descent.md",
-    "ML/Multiple Dimension Gradient Descent.md",
-    "Statistics/Statistics.md",
-    "2B/MTE 241/Cache Optimization.md",
     "2B/MTE 241/attachments/Cortex M4 Cache.png",
-    "2023-10-30.md",
-    "2B/MTE 241/Multilevel Cache.md",
-    "2B/MTE 241/Banked vs. Unified Cache.md",
-    "ML/Stochastic Gradient Descent.md",
     "ML/attachments/Stochastic Gradient Descent.png",
-    "ML/1D Gradient Descent.md",
-    "ML/Gradient Descent for Logistic Regression.md",
     "ML/attachments/Gradient Descent for Logistic Regression.png",
-    "ML/Machine Learning as Optimization.md",
-    "ML/Perceptron.md",
     "Statistics",
-    "ML/attachments/1D Gradient Descent-1.png",
     "Blog",
     "ML/Untitled",
     "ML/attachments/Untitled",

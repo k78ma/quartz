@@ -16,6 +16,7 @@ date: 2023-06-25
 		- [[Averaged Perceptron|Averaged Perceptron]]
 		- [[Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
 - [[Margin|Margin]]
+- [[Support Vector Machine]]
 
 #### Features
 - [[Feature Representation|Feature Representation]]
@@ -28,6 +29,7 @@ date: 2023-06-25
 #### Loss Functions
 - [[Loss Function]]
 - [[Negative log-likelihood]]
+- [[Hinge Loss]]
 
 #### Regularization
 - [[Regularization]]
