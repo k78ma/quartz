@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dda36d1e54d8f270",
+            "id": "733f493bda9424f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ML/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "66d5f79d6d26621b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/L2 Regularization.md",
                 "mode": "source",
                 "source": false
               }
@@ -79,7 +91,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -155,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "ML/L2 Regularization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -172,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "ML/L2 Regularization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -195,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Machine Learning.md"
+                "file": "ML/L2 Regularization.md"
               }
             }
           },
@@ -237,16 +250,20 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "dda36d1e54d8f270",
+  "active": "834444e5ce8e5140",
   "lastOpenFiles": [
-    "ML/Hinge Loss.md",
-    "ML/attachments/Hinge loss.png",
+    "ML/Gradient Descent.md",
+    "ML/L2 Regularization.md",
     "ML/Machine Learning.md",
+    "ML/L1 Regularization.md",
+    "ML/Support Vector Machine.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "ML/Hinge Loss.md",
+    "ML/attachments/Support Vector Machine.png",
+    "ML/attachments/Hinge loss.png",
     "ML/Machine Learning as Optimization.md",
     "ML/Negative log-likelihood.md",
     "ML/Loss Function.md",
-    "ML/Support Vector Machine.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
@@ -268,12 +285,9 @@
     "2B/MTE 241/attachments/Memory Mapped Input Output.png",
     "2B/MTE 241/Memory Blocks.md",
     "2B/MTE 241/Memory Maps.md",
-    "2B/MTE 241/Memory Space and Addresses.md",
-    "2023-10-31.md",
     "2B/MTE 241/attachments/Memory Maps.png",
     "2B/MTE 241/attachments/Cortex M4 Cache.png",
     "ML/attachments/Stochastic Gradient Descent.png",
-    "ML/attachments/Gradient Descent for Logistic Regression.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

@@ -33,8 +33,8 @@ date: 2023-06-25
 
 #### Regularization
 - [[Regularization]]
-- [[L1 Penalty]]
-- [[L2 Penalty]]
+- [[L1 Regularization]]
+- [[L2 Regularization]]
 
 #### Regression
 - [[Logistic Regression]]

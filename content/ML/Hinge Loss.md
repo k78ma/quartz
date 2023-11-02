@@ -26,4 +26,4 @@ Intuition:
 - If $y(\theta \cdot x)$ is positive but less than one, it means that the prediction is correct but the confidence is not high. This is penalized linearly; smaller values of $y(\theta\cdot x)$ get penalized more by $1-y(\theta\cdot x)$.
 - If $y(\theta\cdot x)$ is zero or negative, it means that the prediction is incorrect (or exactly on the decision boundary). The model is penalized linearly the more it is on the wrong side. 
 
-As such, hinge loss is essentially trying to ensure that the sign of the prediction is right (correct classification) and maximize confidence about possible predictions
+As such, hinge loss is essentially trying to ensure that the sign of the prediction is right (correct classification) and maximize confidence about possible predictions. Hinge loss is commonly used for [[Support Vector Machine]] training.
