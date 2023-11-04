@@ -1,8 +1,9 @@
 ---
-title: Signal Convolution
+title: Convolution Integral
 tags:
   - syde252
 date: 2023-10-24
+aliases:
 ---
 The convolution integral of two $x_{1}(t)$ and $x_{2}(t)$ is denoted symbolically as:
 $$

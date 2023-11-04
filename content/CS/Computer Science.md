@@ -24,8 +24,10 @@ aliases:
 - 
   
 - Algorithmic Analysis
-	- [[Algorithmic Correctness|Algorithmic Correctness]]
-	- [[RAM Model of Computation|RAM Model of Computation]]
+	- [[Algorithmic Correctness]]
+	- [[RAM Model of Computation]]
+	- [[Algorithmic Complexity]]
+		- [[Big O Notation]]
 
 ## Data Structures
 - [Stacks and Queues](Stacks%20and%20Queues.md)

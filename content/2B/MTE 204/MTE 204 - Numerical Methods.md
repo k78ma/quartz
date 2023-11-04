@@ -14,14 +14,12 @@ aliases:
 - [[Stopping Criterion]]
 - [[Types of Errors]]
 - [[Control of Numerical Errors]]
-
 ### Roots of Equations
 - [[Graphical Methods (Roots)]]
 - [[Bracketing Method]]
 - [[Fixed point iteration]]
 - [[Newton-Raphson Method]]
 - [[Secant Method]]
-
 ### Systems of Linear Equations
 - [[Systems of Linear Equations]]
 - [[Graphical Method (Systems)]]
@@ -37,7 +35,6 @@ aliases:
 - [[Gauss-Seidel]]
 	- [[Convergence Criterion (Diagonal Dominant)]]
 	- [[Gauss-Seidel with Relaxation]]
-
 ### Curve Fitting
 - [[Least Squares Regression]]
 - [[Goodness of Fit]]
@@ -48,22 +45,18 @@ aliases:
 	- [[Newton's Divided-Difference]]
 	  
 - [[Spline Interpolation]]
-
 ### Numerical Integration
 - [[Numerical Integration]]
 - [[Trapezoid Rule]]
 	- [[Composite Trapezoid Rule]]
 - [[Simpson's Rule]]
 - [[Romberg Integration]]
-- [[Romberg-Richardson Extrapolation]]
 - [[Gauss Quadrature]]
-
 ### Numerical Differentiation
 - [[Forward Difference]]
 - [[Backward Difference]]
 - [[Centered Difference]]
 - [[Unequally-spaced data]]
-
 ### Ordinary Differential Equations
 - [[ODEs]]
 - [[Euler's Method]]
@@ -73,7 +66,6 @@ aliases:
 - [[Runge-Kutta Method]]
 - [[Initial Value Problems with ODEs]]
 - [[Boundary Value Problems with ODEs]]
-
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
 - [[204 Midterm Problems]]

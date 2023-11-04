@@ -43,4 +43,14 @@ aliases:
 - [[Linear and non-linear systems]]
 
 #### Convolutions
-- [[Signal Convolution]]
+- [[Convolution Integral]]
+- [[Convolution Sum]]
+
+- [[Total Response of Linear System]]
+- [[Signals in Frequency Domain]]
+- [[Laplace Transform]]
+- [[Z-transform]]
+
+#### Problem Types
+- [[System Summation Problems]]
+- [[System Convolution Problems]]

@@ -31,13 +31,24 @@ aliases:
 - [[Virtual Memory and Paging]]
 - [[Memory Mapped Input Output]]
 - [[ARM Architeture]]
-### Real-Time Operating System (RTOS)
-- [[OS and RTOS Intro]]
-- 
-
+### Operating Systems Theory
+- [[OS Intro]]
+- [[RTOS]]
+- [[Operating Modes]]
+- [[Memory Protection (Kernelspace vs. Userspace)]]
+- [[Concurrent vs Parallel]]
+- [[Executables and Threads]]
+- [[System Calls]]
+#### Kernel Architectures
+- [[Microkernel]]
+- [[Monolithic Kernel]]
+- [[Modular Kernel]]
 ### Program Internals
-
+- [[Program vs. Process]]
+- [[Executables]]
+	- [[Executable Format]] 
 ### Process Internals
+
 
 ### Interrupts
 

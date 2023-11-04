@@ -30,8 +30,7 @@ We can even turn un-separable datasets into separable ones!
 >
 > ![300](Pasted%20image%2020230709204230.png)
 
-This is a very useful and generalizable strategy – it serves as the basis for [kernel methods](Kernel%20Methods).
+- This is a very useful and generalizable strategy – it serves as the basis for [kernel methods](Kernel%20Methods).
+- One systematic strategy for constructing a new feature space is to use a [polynomial basis](Polynomial%20Basis.md).
 
-One systematic strategy for constructing a new feature space is to use a [polynomial basis](Polynomial%20Basis.md).
-
-Features can also be improved through [Feature Engineering](Feature%20Engineering.md).
+- Features can also be improved through [Feature Engineering](Feature%20Engineering.md).

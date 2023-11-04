@@ -10,6 +10,8 @@ tags:
 
 ## MTE 203
 
+- [ ] Lecture 15
+- [ ] Lecture 16
 
 
 ## MTE 220
@@ -22,21 +24,22 @@ tags:
 - [ ] RC/RL Switching (26-32)
 - [ ] Phasors (33-41)
 - [ ] Diodes (42-44)
-- [ ] Transistors?
+- [ ] Transistors (44-46)
 - [ ] Schmitt Trigger (47-48)
-- [ ] S2022 Midterm
-- [ ] F2022 Midterm
-- [ ] S2023 Midterm
+- [ ] Sensors (49-50)
+- [ ] Sensor Interfacing
+- [ ] Filtering (61-74)
+- [ ] Textbook Questions (75-81)
 - [ ] F2022 D-Midterm
+- [ ] S2022 Final
+- [ ] S2023 Final
+- [ ] F2022 Final
 
 
 ## MTE 204
 
-- [ ] PSet 1
-- [ ] Pset 2
-- [ ] Pset 3
 - [ ] Pset 4
-- [ ] Pset 4
+- [ ] PSet 6
 
 
 ## MTE 241
@@ -54,6 +57,8 @@ tags:
 - [ ] HW 3
 - [ ] HW 4
 - [ ] HW 5
+- [ ] HW 6
+- [ ] HW 7
 
 
 ***
@@ -76,6 +81,11 @@ tags:
 - [ ] Lecture 13
 - [ ] Lab2
 - [ ] S2023 Midterm
+- [ ] F2022 Midterm
+- [ ] S2023 Midterm
+- [ ] PSet 1
+- [ ] Pset 2
+- [ ] Pset 3
 
 %% kanban:settings
 ```

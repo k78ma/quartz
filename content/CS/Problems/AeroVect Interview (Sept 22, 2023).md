@@ -4,6 +4,7 @@ tags:
 date: 2023-09-22
 aliases:
   - Trapping Rain Water
+draft: "true"
 ---
 I knew they were probably going to ask me either a LeetCode medium or hard question based on the outline of the interview; since I only had one day, didn’t really have time to prepare, just did some NeetCode questions. Hadn’t done LeetCode very seriously before, should definitely get better. Also wasn’t expecting the question to be in C++.
 

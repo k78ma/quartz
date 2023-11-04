@@ -16,6 +16,8 @@ date: 2023-06-25
 		- [[Averaged Perceptron|Averaged Perceptron]]
 		- [[Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
 - [[Margin|Margin]]
+- [[Logistic Regression]]
+	- [[Gradient Descent for Logistic Regression]]
 - [[Support Vector Machine]]
 
 #### Features
@@ -37,8 +39,9 @@ date: 2023-06-25
 - [[L2 Regularization]]
 
 #### Regression
-- [[Logistic Regression]]
-	- [[Gradient Descent for Logistic Regression]]
+- [[Regression]]
+- [[Ordinary Least Squares]]
+- 
 
 #### Gradient Descent
 - [[Gradient Descent]]
@@ -67,10 +70,7 @@ date: 2023-06-25
 ## Models/Architectures
 - [[Gated Recurrent Unit]]
 - [[Long Term Short Memory]]
-
-## Model Behavior/Alteration
-- [[Task Arithmetic|Task Arithmetic]]
-- Transformers
+## Transformers
 - [[Transformer]]
 ## Computer Vision
 - [[SAM: Segment Anything]]
@@ -97,6 +97,9 @@ date: 2023-06-25
 - [[NICE-SLAM]]
 - [[Block-NeRF]]
 - [[Instant-NGP]]
+
+## Model Behavior/Alteration
+- [[Task Arithmetic|Task Arithmetic]]
 
 ## Other
 - [[World Models]]

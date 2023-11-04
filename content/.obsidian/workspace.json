@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "07c3e57ce91eb833",
+        "id": "761d01ff25148618",
         "type": "tabs",
         "children": [
           {
-            "id": "733f493bda9424f7",
+            "id": "91bdbf6fcd0607f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,31 +20,7 @@
             }
           },
           {
-            "id": "66d5f79d6d26621b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/L2 Regularization.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "992f284997497c45",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6457d86832bf91b6",
+            "id": "6f89283310828e02",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,43 +32,18 @@
             }
           },
           {
-            "id": "4da09be40fb44415",
+            "id": "3737f4d10593898e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cfe48f346ed476c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da8cd3fca499a3e3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/MTE 204/Gauss Quadrature.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -138,8 +89,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/L2 Regularization.md",
+                "file": "ML/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/L2 Regularization.md",
+                "file": "ML/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -208,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/L2 Regularization.md"
+                "file": "ML/Machine Learning.md"
               }
             }
           },
@@ -250,44 +200,44 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "834444e5ce8e5140",
+  "active": "91bdbf6fcd0607f3",
   "lastOpenFiles": [
-    "ML/Gradient Descent.md",
-    "ML/L2 Regularization.md",
+    "ML/Regression.md",
+    "ML/Ordinary Least Squares.md",
     "ML/Machine Learning.md",
-    "ML/L1 Regularization.md",
-    "ML/Support Vector Machine.md",
+    "ML/Feature Representation.md",
+    "ML/Kernel Methods.md",
+    "2B/MTE 204/Gauss Quadrature.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+    "CS/Problems/Problems.md",
+    "CS/Computer Science.md",
+    "CS/Problems/Contains Duplicate (LC 217).md",
+    "2B/2B.md",
+    "2B/Kanban.md",
+    "Robotics/Robotics.md",
+    "Robotics/Visual SLAM Framework.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-    "ML/Hinge Loss.md",
+    "2B/MTE 241/Executable Format.md",
+    "2B/MTE 241/Executables.md",
+    "2B/MTE 241/Program vs. Process.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 241/System Calls.md",
+    "2B/MTE 241/attachments/System Calls.png",
+    "2B/MTE 241/Memory Protection (Kernelspace vs. Userspace).md",
+    "2B/MTE 241/Executables and Threads.md",
+    "2B/MTE 204/Romberg Integration.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Convolution Sum.md",
+    "2B/MTE 241/attachments/OS Intro.png",
+    "2B/MTE 241/attachments/Executables and Threads.png",
     "ML/attachments/Support Vector Machine.png",
     "ML/attachments/Hinge loss.png",
-    "ML/Machine Learning as Optimization.md",
-    "ML/Negative log-likelihood.md",
-    "ML/Loss Function.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 220/Signal Clamp (Limiter).md",
-    "2B/MTE 220/Peak Detector.md",
-    "2B/MTE 220/Ideal Diode.md",
-    "2B/MTE 241/void Pointer.md",
-    "Projects.md",
-    "ML/Margin.md",
-    "2B/MTE 241/ARM Architeture.md",
     "2B/MTE 241/attachments/ARM Architeture.png",
-    "2B/MTE 241/Virtual Memory and Paging.md",
-    "OS/Virtualization.md",
-    "2B/MTE 241/Memory Mapped Input Output.md",
     "2B/MTE 241/attachments/Memory Mapped Input Output-3.png",
     "2B/MTE 241/attachments/Memory Mapped Input Output-2.png",
     "2B/MTE 241/attachments/Memory Mapped Input Output-1.png",
     "2B/MTE 241/attachments/Memory Mapped Input Output.png",
-    "2B/MTE 241/Memory Blocks.md",
-    "2B/MTE 241/Memory Maps.md",
-    "2B/MTE 241/attachments/Memory Maps.png",
-    "2B/MTE 241/attachments/Cortex M4 Cache.png",
-    "ML/attachments/Stochastic Gradient Descent.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

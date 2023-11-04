@@ -68,7 +68,6 @@ aliases:
 	- [[Non-ideal Op-amp Parameters#DC Offset|DC Offset]]
 	- [[Non-ideal Op-amp Parameters#Slew Rate|Slew Rate]]
 #### Diodes
-
 Diode Theory:
 - [[Diode Intro]]
 - [[Diode Operating Points]]
@@ -95,6 +94,10 @@ Applications:
 #### Transistors
 - [[PMOS]]
 - [[NMOS]]
+
+#### Powering Embedded Systems
+
+### Sensors and Interfacing
 
 
 ## Labs
