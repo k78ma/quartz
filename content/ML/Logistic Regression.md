@@ -34,6 +34,7 @@ Based on our parameter settings of $\theta, \theta_{0}$, we can get differently 
 ![[Logistic Regression.png|556]]
 
 In 2D, our inputs $x$ lie on a 2D space with axes $x_{1}$ and $x_{2}$, and the output of the linear logistic classifier is a surface:
+
 ![[Logistic Regression-1.png|464]]
 
 #### Loss Function

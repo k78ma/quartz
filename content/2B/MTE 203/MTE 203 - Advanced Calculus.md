@@ -77,7 +77,7 @@ aliases:
 
 #### Lecture 14: Applications
 - [[Least Squares]]
-- [[Differenetials]]
+- [[Differentials]]
   
 #### Lecture 15: Double Integration
 - [[Double Integration]]
@@ -87,3 +87,4 @@ aliases:
 - [[MATLAB Worksheet 1]]
 - [[MATLAB Worksheet 2]]
 - [[Project 1 - Robot Kinematics]]
+- [[Project 2 - Recurrent Neural Networks]]

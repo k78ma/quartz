@@ -90,10 +90,11 @@ Diode Circuits:
 
 Applications:
 - [[Protection for Inductive Kickback]]
-
 #### Transistors
-- [[PMOS]]
-- [[NMOS]]
+- [[MOSFET]]
+- [[MOSFET Usage]]
+- [[H-Bridge]]
+- [[Controlled Current Sources]]
 
 #### Powering Embedded Systems
 
