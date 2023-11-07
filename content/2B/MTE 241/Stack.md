@@ -11,10 +11,10 @@ A stack is a First-in, First-out data structure.
 - We put things onto the stack via an operation called PUSH, and we take things off of the stack via an operation called POP. 
 - If we PUSH something on and then call POP, whatever just went on comes off. This is a simple data structure but it is surprisingly helpful.
 
-The stack is where we place local, temporary variables. These variables are broken into two categories: 
+**The stack is where we place local, temporary variables.** These variables are broken into two categories: 
 - **Actual variables:** things like` int x = 4`; declared inside of a function. 
 - **Context variables:** we’ll talk a lot more about context later, but the stack isn’t just used to store what the programmer tells it to. 
-	- As an example, consider this: presume that in main we call function A that calls function B. When function B returns we return to A, then A returns to main. This means we have to store two return addresses: B to A, and A to main. We learned when we studied the processor registers that we have only a single register to do this, LR. So whenever we do a call-within-a-call like this, the value of LR gets pushed onto the stack and restored once we return from the last function called. This type of stack management is difficult, and we’ll have to do some of it ourselves when we get to our RTOS!
+	- Example: presume that in main we call function A that calls function B. When function B returns we return to A, then A returns to main. This means we have to store two return addresses: B to A, and A to main. We use the LR register to do this. So whenever we do a call-within-a-call like this, the value of LR gets pushed onto the stack and restored once we return from the last function called. 
 
 The stack is, in a sense, managed by the compiler. Certain things, like the creation of local variables, are accomplished via a PUSH operation onto the stack. Other, more complicated processes, like function calls, adhere to well-established rules about what goes onto the stack and in what order. Since these rules are all established before the program runs, the stack is rarely directly manipulated by the programmer. 
 
@@ -48,9 +48,9 @@ On most computers, once this function is called the following things happen:
 	- JUMP to the return address
 	- POP the return address off of the stack
 
-If you count the number of PUSHes and POPs, you will notice that they must be equal. The function call does not leave anything behind on the stack, and the stack looks exactly like it did before the function call happens. 
+**The number of PUSHes and POPs must be equal.** The function call does not leave anything behind on the stack, and the stack looks exactly like it did before the function call happens. 
 - This explains why we don’t need to manage the stack ourselves – the rules that govern how it is used guarantee that memory never leaks from the stack, and whatever we put onto it gets removed when we are done.
--  It also explains how C scope rules work – the reason that variables “go out of scope” is because they are popped off the stack,
+-  It also explains how C scope rules work – the reason that variables “go out of scope” is because they are popped off the stack
 
 >[!info] Nested Function Example
 >It's not hard to convince ourselves that nested function calls don’t need any special machinery to work. Let’s assume we make the following function call and that none of the nested functions require local variables: 
@@ -82,3 +82,21 @@ SP++;
 ```
 And that’s really it – it’s a bunch of pointer math and dereferencing that govern the stack.
 
+### Growing Direction
+Downward growing ("descending") stacks are very common.
+- Can be placed at the beginning of memory
+- Can be as big as possible until memory runs out
+Therefore:
+- PUSH *decrements* SP
+- POP *increments* SP
+
+### FULL & EMPTY
+A FULL stack: SP points to the last piece of data PUSHed on
+- PUSH is:
+	- Decrement first
+	- Write second
+
+An EMPTY stack: SP points to the next location to PUSH data onto
+- PUSH is:
+	- Write first
+	- Decrement second

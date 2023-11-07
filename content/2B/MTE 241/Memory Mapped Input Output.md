@@ -13,6 +13,9 @@ aliases:
 - The register addresses are just pointers: don’t think too hard about it. Think of it as finding the address for an integer and then writing a value to that integer.
 - Without the datasheet this is meaningless: none of this is obvious or straightforward at all. The process of learning to use a single peripheral can take days, weeks, or even months if the peripheral is complex enough. We usually rely on libraries for really complicated peripherals, but someone has to write those libraries!
 
+### Pin management
+Look at the bare metal of the IC – there are wires coming off of it. These wires are known as “pins”. An IC only has so many pins, which is often not enough for all features of the chip to be used at once. Some pins do multiple things, but never at the same time. Pins therefore must be configured. This is a more general problem than just pin management.
+
 ### Info
 MMIO is a paradigm by which we access various chip settings, peripheral circuitry, and other settings using only memory addresses. It reduces the complicated tasks of interfacing with hardware to simpler pointer operations.
 

@@ -44,6 +44,7 @@ tags:
 
 ## MTE 241
 
+- [ ] Lab 3
 - [ ] PSet 1
 - [ ] PSet 2
 - [ ] PSet 3
