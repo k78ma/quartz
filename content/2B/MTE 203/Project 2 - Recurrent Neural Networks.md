@@ -10,7 +10,9 @@ In the past decade, neural network-based approaches have led to explosive growth
 
 
 ## Background
-We introduce the foundational concepts of machine learning by discussing a single-layer neural network. Here, everything is explained in general terms.
+We first introduce the foundational concepts of machine learning by discussing basic feedforward neural networks. This is then extended to recurrent neural networks.
+
+### Feedforward Neural Networks
 #### Problem and Data
 The core problem in many machine learning tasks is to make accurate predictions or decisions based on input data. In the context of a neural network, this typically involves learning a function that maps input features to desired output labels or values. To achieve this, a model is trained on a dataset comprising numerous instances, each containing a set of features and usually a label or value.
 
@@ -18,8 +20,7 @@ For all of the work discussed in this paper, we are dealing with a supervised le
 $$
 D = \{ (x^{(1)}, y^{(1)}), \dots, (x^{(n)}, y^{(n)}) \}
 $$
-where $x$ values indicate inputs features and $y$ values indicate a label of some kind. The specific values and types of $x$ and $y$ dictate the type of problem. Fo
-
+where $x$ values indicate inputs features and $y$ values indicate a label of some kind. The specific values and types of $x$ and $y$ dictate the type of problem. For example, sigmoid functions squashes inputs to be between $0$ and $1$, which can be interpreted as probabilities in binary classification tasks.  In a multi-layer networks (covered in Sectionref{dafadsf}), this activation and output function may be separated.
 #### Model Definition
 At a high-level, neural networks ingest a vector of input features $x = \begin{bmatrix}x_{1}, x_{2}, \dots, x_{n}\end{bmatrix}$,
 where $n$ is the number of features. The "features" are individual measurable properties or characteristics of a phenomenon being observed; they inputs that we provide to a model, upon which the model makes a prediction or decision.
@@ -30,15 +31,13 @@ z = w^{T}x + b = \sum_{i=1}^{n}w_{i}x_{i} + b
 $$
 Here, $w^{T}$ is the transpose of $w$, such that $w^{T}x$ is essentially a dot product. This weighted sum $z$ is called a **logit**.
 
-At this step, **activation functions** are usually applied to the weighted logit. Activation functions introduce non-linearity into the network, which allows the network to model more complex relationships between the inputs and outputs. Some examples of activation functions are sigmoid, hyperbolic tangent, and ReLU functions.
-
-Finally, the **output function** (also known as the activation function for the output layer) transforms the outputs of the final layer of a network into a form $y$ that is suitable for the specific type of problem the network is intended to solve. For example, sigmoid functions squashes inputs to be between $0$ and $1$, which can be interpreted as probabilities in binary classification tasks. 
+At this step, **activation functions** are usually applied to the weighted logit. Activation functions introduce non-linearity into the network, which allows the network to model more complex relationships between the inputs and outputs. Some examples of activation functions are sigmoid, hyperbolic tangent, and ReLU functions. The activation function can also serves to interpret the output of the network.
 
 We can formalize this entire process as:
 $$
 h(x; w, b) = \sigma(w^{T}x + b)
 $$
-where $h(x; w, b)$ is the hypothesis or the function modeled by the neural network with parameters $w$ (weights) and $b$ (bias), and $\sigma(\cdot)$ represents the activation function applied to the weighted sum of inputs.
+where $h(x; w, b)$ is the hypothesis or the function modeled by the neural network with parameters $w$ (weights) and $b$ (bias), and $\sigma(\cdot)$ represents the activation function applied to the weighted sum of inputs. This is called the **forward pass**.
 #### Loss Functions
 To measure how well the model is performing, a loss function is used. Specifically, loss functions quantify the quality of a prediction $h(x^{(i)}; \Theta)$ makes for a specific data sample $(x^{(i)}, y^{(i)})$. , where $\Theta$ represents the parameters of the model (such as $w$ and $b$). A low loss value indicates a good prediction, and a high loss indicates a poor prediction.
 
@@ -56,14 +55,14 @@ Fundamentally, we define an *objective function* $J(\Theta)$, where $\Theta$ are
 $$
 J(\Theta) = \left( \frac{1}{n}\sum_{i=1}^{n} \underbrace{ L(h(x^{(i)};\Theta), y^{i}) }_{ \text{loss} } \right)
 $$
-such that we are measuring the loss of the model across the entire dataset. 
+such that we are measuring the loss of the model across the entire dataset.
 
 Generally, the optimization is that we want to find $\Theta^\star$ such that:
 $$
 \Theta^{\star} = \mathrm{argmin}_{\Theta} \; J(\Theta)
 $$
 which is to say that we want to find the $\Theta$ that minimizes $J(\Theta)$, making this a minimization problem.
-#### Gradient Descent
+#### Training with Gradient Descent
 How do we find the minimum of our objective function?
 
 The main idea is if we're trying to optimize a function *f*, we compute the gradient at our current point $x$. Since the gradient gives the direction of the maximum rate of increase, we move in the opposite direction, making the function smaller. In terms of a machine learning model, we would have some objective function $J(\Theta)$ defining some surface over $\Theta$, and we want to find the $\Theta$ value at the lowest point on the surface.
@@ -76,6 +75,131 @@ We specify an initial value for parameter $\Theta$, a step-size parameter $\eta$
 	2. Update the parameters: $\Theta \leftarrow \Theta - \eta \cdot \nabla_{\Theta}J(\Theta)$.
 	3. If the magnitude of the gradient is less than $\epsilon$, then stop.
 3. Output the final parameters $\Theta$.
+
+```pseudo
+\begin{algorithm}
+\caption{Gradient Descent} 
+\begin{algorithmic}
+\State \textbf{Input:} learning rate $\eta$, convergence threshold $\epsilon$
+\State \textbf{Output:} optimized parameters $\Theta$
+
+\Procedure{GradientDescent}{}
+    \State Initialize parameters $\Theta$
+    \Repeat
+        \State Compute the gradient $\nabla_{\Theta}J(\Theta)$
+        \State Update the parameters: $\Theta \leftarrow \Theta - \eta \cdot \nabla_{\Theta}J(\Theta)$
+        \If{magnitude of $\nabla_{\Theta}J(\Theta) < \epsilon$}
+            \State \textbf{break}
+        \EndIf
+    \Until{convergence}
+    \State \textbf{return} $\Theta$
+\EndProcedure
+\end{algorithmic}
+\end{algorithm}
+```
+#### Multi-layer Neural Networks
+Multi-layer networks, often referred to as **multi-layer perceptrons (MLPs)**, extend the concept of the simple neural network model above into a more complex architecture composed of multiple layers of neurons.
+These layers include:
+1. **Input Layer**: This is the layer that receives the input features. It does not apply any computation and simply passes the features to the next layer.
+2. **Hidden Layers**: One or more layers that compute the intermediate features. These layers are called "hidden" because their outputs are not observed in the training data. The computation in these layers introduces non-linearity to the system, allowing the network to capture complex patterns.
+3. **Output Layer**: The final layer that provides the prediction or classification based on the input features and the computations done by the hidden layers.
+
+The forward pass in multi-layer networks involves sequentially passing the input data passes through each layer to produce an output, such that the output of each layer becomes the input to the next layer. Mathematically, for each layer $l$, this process can be described as:
+$$
+h^{[l]}(x) = \sigma^{[l]}(w^{[l]T}h^{[l-1]}(x) + b^{[l]})
+$$
+where $h^{[l]}(x)$ is the output logit of layer $l$, $w^{[l]}$ and $b^{[l]}$ are the weights and biases of layer $l$, $\sigma^{[l]}$ is the activation function for layer $l$, and $h^{[l-1]}(x)$ is the output of the previous layer. We say that $h^{[0]} = x$ is the input to the network and $h^{[L]}$ is the final output (activation of last layer).
+
+The final **output layer** transforms the outputs of the last hidden layer into a form $y$ that is suitable for the specific type of problem the network is intended to solve. Output layers often use similar functions as activation functions. For example, sigmoid functions squashes inputs to be between $0$ and $1$, which can be interpreted as probabilities in binary classification tasks. 
+#### Gradient Descent with Backpropagation 
+The training process for multi-layer networks follows a similar principle to that of single-layer networks, as discussed in the Training section; we define an objective function and use gradient descent to find model parameters that minimize this objective. The objective function typically includes the loss function $L$ as well as possibly other terms (such as regularization terms). However, the gradient descent process relies on the computation of the gradient of the objective function, $J(\Theta)$. Previously, our $\Theta$ consisted of a single weight and bias, but in a multi-layer network, there are multiple layers of weights and biases; we must find the gradient of the objective function with respect to the weights in the neural network. Backpropagation is a method that uses the chain rule to compute these gradients systematically.
+
+In the introduction of gradient descent in Section, we combined the weights and biases into a single parameter $\Theta = \{ w, b \}$. Here, we will consider $w$ and $b$ individually for mathematical clarity.
+
+Let us say we have a multi-layer network with layers $0, \dots, L$. First, a forward pass is performed. For each layer, we calculate:
+$$
+\begin{align}
+z^{[l]} & =w^{[l]T}h^{[l-1]} + b^{[l]} \\
+h^{[l]}  & = \sigma^{[l]} (z^{[l]}) \\
+\end{align}
+$$
+where $h^{[0]} = x$ is the input to the network and $h^{[L]}$ is the final output (activation of last layer).
+
+We then compute the loss using the predicted output $h^{[L]}$ and the true value $y$. Then, for the chosen objective function $J(h^{[L]}, y)$, we calculate the initial gradient of the loss with respect to the output of the last layer's activations $\frac{ \partial J }{ \partial h^{[l]} }$.
+
+Then, we arrive at the central mechanism of backpropagation: the **backward pass**. This is performed through the network to compute the gradient of the loss with respect to the activations, weights, and biases of each layer, starting from the output layer $L$ back to the first hidden layer.
+
+For the last layer $L$, compute the gradients of the loss with respect to the logits:
+$$
+\delta^{[L]} = \frac{ \partial J }{ \partial z^{[L]} } 
+$$
+Since $h$ is a function of $z$, we can use the partial derivative chain rule:
+$$
+\delta^{[L]} = \frac{ \partial J }{ \partial z^{[L]} } = \frac{ \partial J }{ \partial h^{[L]} } \cdot \frac{ \partial h^{[L]} }{ \partial z^{[L]} } 
+$$
+where the last term $\frac{ \partial h^{L} }{ \partial z^{L} }$ is the partial derivative of the activation function at the last layer with respect to its input $z^{[L]}$. We use $\delta^{[l]}$ to represents the "error" for each layer $l$, quantifying how much a given layer's output should change to minimize the loss for the entire network.
+
+Then, we compute the gradients for the parameters of each layer. For the output layer $L$, we would have:
+$$
+\begin{align}
+\nabla_{w^{[L]}}J  & = \delta^{[L]}⋅(h^{[L−1]})^{T} \\
+\nabla_{b^{[L]}}J  & = \delta^{[L]}
+\end{align}
+$$
+Here, the gradient with respect to the bias $b$ is the delta itself because the derivative of $z^{[L]}$ with respect to $b^{[L]}$ is $1$.
+
+Following this method, we can recursive calculate gradients for each preceding layer $l = L-1, L-2, \dots, 1$:
+$$
+\delta^{[l]}=(w^{[l+1]T}\delta^{[l+1]}) \cdot \frac{ \partial \sigma^{[l]}(z^{[l]}) }{ \partial z^{[l]} } 
+$$
+This step propagates the error backward by taking into account the error from the layer above ($\delta^{[l+1]}$) and the gradient of the activation function for the current layer's output.
+
+Then, the gradients for the weights and biases for layer $l$ are computed as follows:
+$$
+\begin{align}
+\nabla_{w^{[l]}} L  & = \delta^{[l]} \cdot (h^{[l-1]})^{T} \\
+\nabla_{b^{[l]}} L  & = \delta^{[l]}
+\end{align}
+$$
+Finally, we can update the weights and biases using the previous gradient descent method:
+$$
+\begin{align}
+w^{[l]}  & = w^{[l]} - \eta \cdot \nabla_{w^{[l]}}L \\
+b^{[l]}  & = b^{[l]} - \eta \cdot \nabla_{b^{[l]}}L
+\end{align}
+$$
+Backpropagation is efficient because it calculates the gradients for all weights and biases with only two passes through the network: one forward and one backward. By systematically applying the chain rule, backpropagation avoids redundant computations of gradients, thereby facilitating the training of deep neural networks.
+
+```pseudo
+\begin{algorithm} 
+\caption{Backpropagation and Gradient Descent} 
+\begin{algorithmic}
+\Procedure{TrainNetwork}{$D, \eta, \epsilon$}
+\STATE Initialize network weights (often small random values) 
+\While{not converged} 
+\For{each $(x^{(i)}, y^{(i)})$ in training set $D$} 
+\State // Forward pass: 
+\State Compute activation $a^{[l]}$ for each layer $l$ in the network 
+\State // Backward pass: 
+\State Compute $\delta^{[L]}$ for output layer $L$ (loss gradient) 
+\For{$l = L-1$ to $1$} 
+\State Compute $\delta^{[l]}$ based on $\delta^{[l+1]}$ (gradient for layer $l$) 
+\EndFor 
+\State // Update weights for each layer: 
+\For{$l = 1$ to $L$} 
+\State Update $w^{[l]} \leftarrow w^{[l]} - \eta \nabla_{w^{[l]}}J(w^{[l]})$ \EndFor 
+\EndFor 
+\State Check for convergence (e.g., if change in $J(\Theta)$ is below $\epsilon$) 
+\EndWhile 
+\State 
+\Return{network weights} 
+\EndProcedure 
+\end{algorithmic} 
+\end{algorithm}
+```
+### Recurrent Neural Networks
+Based on the background above, we can formulate recurrent neural networks. 
+
 
 ## Approach
 Given the background of basic neural networks, we will now focus on the application of recurrent neural networks to build a character-level language model. Each part of our model and learning algorithm is introduced and justified.

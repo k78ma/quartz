@@ -53,6 +53,7 @@ aliases:
 - [[Romberg Integration]]
 - [[Gauss Quadrature]]
 ### Numerical Differentiation
+- [[Numerical Differentiation]]
 - [[Forward Difference]]
 - [[Backward Difference]]
 - [[Centered Difference]]
@@ -68,4 +69,4 @@ aliases:
 - [[Boundary Value Problems with ODEs]]
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
-- [[204 Midterm Problems]]
+- [[Midterm Problems 204]]

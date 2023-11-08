@@ -67,7 +67,6 @@ aliases:
 - [[Pointers]]
 	- [[void Pointer]]
 	- [[function Pointer]]
-- [[Stack]]
 - [[C struct]]
 - [[Memory Alignment]]
 	- [[Bitfields]]

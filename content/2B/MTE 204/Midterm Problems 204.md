@@ -1,9 +1,10 @@
 ---
-title: 204 Midterm Problems
+title: Midterm Problems 204
 tags:
   - mte204
-date: 2023-10-22
+date: 2023-10-24
 draft: "true"
+aliases:
 ---
 - [x] 5.1
 - [x] 5.5

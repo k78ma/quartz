@@ -12,11 +12,12 @@ tags:
 
 - [ ] Lecture 15
 - [ ] Lecture 16
+- [ ] Lecture 17
+- [ ] Lecture 18
 
 
 ## MTE 220
 
-- [ ] Linear Circuits (1-3)
 - [ ] Nodal (3-7)
 - [ ] Mesh (8-11)
 - [ ] Thevenin/Norton (11-15)
@@ -27,7 +28,7 @@ tags:
 - [ ] Transistors (44-46)
 - [ ] Schmitt Trigger (47-48)
 - [ ] Sensors (49-50)
-- [ ] Sensor Interfacing
+- [ ] Sensor Interfacing (51-61)
 - [ ] Filtering (61-74)
 - [ ] Textbook Questions (75-81)
 - [ ] F2022 D-Midterm
@@ -45,6 +46,7 @@ tags:
 ## MTE 241
 
 - [ ] Lab 3
+- [ ] Lab 4
 - [ ] PSet 1
 - [ ] PSet 2
 - [ ] PSet 3
@@ -53,9 +55,6 @@ tags:
 
 ## SYDE 252
 
-- [ ] HW 1
-- [ ] HW 2
-- [ ] HW 3
 - [ ] HW 4
 - [ ] HW 5
 - [ ] HW 6
@@ -87,6 +86,9 @@ tags:
 - [ ] PSet 1
 - [ ] Pset 2
 - [ ] Pset 3
+- [ ] HW 1
+- [ ] HW 2
+- [ ] HW 3
 
 %% kanban:settings
 ```
