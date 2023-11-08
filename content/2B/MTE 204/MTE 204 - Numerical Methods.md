@@ -54,10 +54,7 @@ aliases:
 - [[Gauss Quadrature]]
 ### Numerical Differentiation
 - [[Numerical Differentiation]]
-- [[Forward Difference]]
-- [[Backward Difference]]
-- [[Centered Difference]]
-- [[Unequally-spaced data]]
+- [[Numerical Differentiation for 2nd Derivative]]
 ### Ordinary Differential Equations
 - [[ODEs]]
 - [[Euler's Method]]
@@ -67,6 +64,8 @@ aliases:
 - [[Runge-Kutta Method]]
 - [[Initial Value Problems with ODEs]]
 - [[Boundary Value Problems with ODEs]]
+### Finite Element Method
+- 
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
 - [[Midterm Problems 204]]

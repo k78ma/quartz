@@ -57,3 +57,8 @@ $$
 f'(x_{i}) = \frac{f(x_{i+1})-f(x_{i})}{2h} - O(h^{2})
 $$
 This is a second order method! Less error!
+
+### Notes
+Often useful for experimental data  
+- Fit a polynomial to the data (piecewise), and take the derivative.  
+- Fit a spline and take the derivative of the spline  
