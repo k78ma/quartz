@@ -5,10 +5,14 @@ date: 2023-11-05
 aliases:
 ---
 ## Abstract
-In the past decade, neural network-based approaches have led to explosive growth in the field of machine learning. Language models are notable and popular application of this with the recent success of GPT \cite{} models. In this report, the mathematical foundations of neural network learning algorithms are examined, with a focus on the backpropagation mechanism. This is slightly extended to introduce the concept of recurrent neural networks and "backpropagation through time", allowing us to build a basic (but functional) character-level language model.
+In the past decade, neural network-based approaches have led to explosive growth in the field of machine learning. Language models are notable and popular application of this with the recent success of GPT \cite{} models. In this report, the mathematical foundations of neural network learning algorithms are examined, with a focus on the backpropagation mechanism. This is slightly extended to introduce the concept of recurrent neural networks and "backpropagation through time", allowing us to build a basic (but functional) character-level language model. In particular, language model experiments to generate writing in the style of Shakespeare are conducted.
 ## Introduction
+Machine learning is often considered an intimidating subject due to its perceived complexity and lack of explanation at high levels, as many complex models appear to be black boxes. However, the foundations of machine learning are relatively simple with a basic understanding of mathematical concepts such as linear algebra and multivariable calculus. Backpropagation is the standard technique for model training as part of the gradient descent process. The objective of this paper is to provide an overview of neural networks and backpropagation, culminating in the introduction of "backpropagation through time" for recurrent neural networks (RNNs). The specific application that is implemented is the generation of text in the style of Shakespeare, which demonstrates the function and capability of RNNs.
 
-
+In this paper, the following is achieved:
+- Using multivariable calculus, we establish the mathematical foundations of feedforward neural networks, which is extended to understand multilayer networks and backpropagation. 
+- We extend the knowledge of multilayer networks and backpropagation to establish the mathematical foundations of recurrent neural networks and backpropagation through time.
+- We implement a recurrent neural network and train it on the writing of William Shakespeare. Model outputs are observed and evaluated, and compared to a more complex 3-layer RNN.
 ## Background
 We first introduce the foundational concepts of machine learning by discussing basic feedforward neural networks. This is then extended to recurrent neural networks.
 
@@ -198,137 +202,400 @@ Backpropagation is efficient because it calculates the gradients for all weights
 \end{algorithm}
 ```
 ### Recurrent Neural Networks
-Based on the background above, we can formulate recurrent neural networks. 
-
-
-## Approach
-Given the background of basic neural networks, we will now focus on the application of recurrent neural networks to build a character-level language model. Each part of our model and learning algorithm is introduced and justified.
+Based on the background above, we can formulate a recurrent neural network (RNN) in broad terms.
 #### Problem and Data
+RNNs are designed to process sequential data, which has many useful applications. For example, when a human reads, we understand each word based on your understanding of previous words. Traditional feedforward neural networks can't do this; they cannot use its reasoning about previous events in the film to inform later ones.
 
+Reflecting this, the input data for RNNs is usually organized into sequences, and each input example (also known as a sample or instance) is structured as a series of time steps. This means that the input feature $x$ for a single training example is no longer just a vector, but rather a matrix, where each row corresponds to a feature vector at a particular time step. The input to the RNN for each sample is then a matrix $X = [x^{(1)}, x^{(2)}, \dots, x^{(T)}]$, where $T$ is the number of time steps.
+
+Similarly, the labels $y$ can also be sequential, representing the desired output at each time step, such that we have $Y = [y^{(1)}, y^{(2)},\dots, y^{(T)}]$. 
 #### Model Definition
+RNNs are essentially multi-layer networks (see section) in terms of architecture. However, instead of just the output of each layer getting passed to the next, RNNs have a "hidden state" that serves as a form of memory to captures information about what has been processed so far in a sequence. Thus, the output vector’s by the current input and the history of past inputs.
 
-#### Loss Function and Objective Function
+Let us examine the components of RNNs:
+1. **Input Layer**: Similar to MLPs, this layer receives the input features at each time step.
+2. **Recurrent Layer**: One or more layers where each neuron has a recurrent connection to itself, which allows the network to retain the previous state's information.
+3. **Output Layer**: Produces the prediction for the current time step and can also provide the output for the entire sequence.
 
-#### Gradient Descent with Backpropagation
+The computation of the hidden state at time $t$ can be described as follows:
+$$
+h(t)= \sigma(w_{xh}\cdot x^{(t)} + w_{hh}\cdot h^{(t-1)}+b_{h})
+$$
+where:
+- $h^{(t)}$ is the hidden state at $t$
+- $x^{(t)}$ is the input at time $t$
+- $w_{xh}$ are weights connecting the input layer to the hidden layer
+- $w_{hh}$ are weights connecting the hidden layer to itself across consecutive time steps. The hidden state from the previous time step $h^{(t-1)}$ is multiplied by these weights.
+- $b_{h}$ is a bias term for hidden state updates.
+- $\sigma$ is an activation function for hidden state updates.
+
+The output at time $t$ is then determined by the hidden state, such that:
+$$
+o(t) = \alpha(w_{hy} \cdot h^{(t)} + b_{y})
+$$
+where $o(t)$ is the output at time $t$, $w_{hy}$ are weights connecting the hidden state to the output, $b_{y}$ is an output bias term. We also include an output activation function $\alpha$.
+#### Backpropagation Through Time
+Due to the time-dependent nature of RNNs, training them requires an algorithm caleld Backpropagation Through Time (BPTT). BPTT is an extension of the standard backpropagation algorithm, which unfolds the RNN across time steps and then calculates gradients for each time step in the sequence. This allows for the network to be trained on the dependencies across time. 
+
+Let us consider an objective function $J(\Theta)$ for RNNs, which typically include the loss computed at each time step, summed over all time steps, such that
+$$
+J(\Theta) = \sum_{t=1}^{T} L^{(t)}(o^{(t)}, y^{(t)}; \Theta)
+$$
+We'll denote the objective loss at each timestep $t$ as $J^{(t)}$, which is a function of the true target $y^{(t)}$ and the predicted output $o^{(t)}$.
+
+To update the parameters using gradient descent, we need to calculate the gradient of the objective function with respect to each parameter. For a given parameter $\theta$ in $\Theta$, the gradient is:
+$$
+\frac{ \partial J }{ \partial \theta}  = \sum_{t=1}^{T}\frac{ \partial L^{(t)} }{ \partial \theta }  
+$$
+Like regular backpropagation, we compute the compute the gradients by applying the chain rule, starting with weights closest to the output and working backwards. For the output weights $w_{hy}$, we note that $J$ is a function of $o^{(t)}$, which is a function of $w_{hy}$. This lets us the gradients are calculated as:
+$$
+\frac{ \partial J }{ \partial w_{hy} } = \sum_{t=1}^{T}\frac{ \partial L^{(t)} }{ \partial o^{(t)} } \frac{ \partial o^{(t)} }{ \partial w_{hy} }   
+$$
+Given $o(t) = \alpha(w_{hy} \cdot h^{(t)} + b_{y})$, we have:
+$$
+\frac{ \partial o^{(t)} }{ \partial w_{hy} } = \alpha'(w_{hy}h^{(t)} + b_{y})h^{(t)}
+$$
+where $\alpha'$ is the derivative of the activation function with respect to its input.
+
+For $w_{xh}$ and $w_{hh}$, the gradients are more complex due to their influence on the hidden state over time. Using the chain rule, we accumulate gradients from all future steps:
+$$
+\begin{align}
+\frac{ \partial J }{ \partial w_{xh} } = \sum_{t=1}^{T} \sum_{k=t}^{T} \frac{ \partial L^{(k)} }{ \partial h^{(k)} } \frac{ \partial h^{(k)} }{ \partial w_{xh} } \\[3ex] 
+\frac{ \partial J }{ \partial w_{hh} } = \sum_{t=1}^{T} \sum_{k=t}^{T} \frac{ \partial L^{(k)} }{ \partial h^{(k)} } \frac{ \partial h^{(k)} }{ \partial w_{hh} }
+\end{align}
+$$
+To compute $\frac{ \partial J^{(k)} }{ \partial h^{(k)} }$, we apply the chain rule again, considering that $h^{(k)}$ affects all future outputs $o^{(k+1)}, o^{(k+2)}, \dots, o^{(T)}$ and hidden states $h^{(k+1)}, h^{(k+2)}, \dots, h^{(T)}$.
+
+Now we can update each parameter $\theta$:
+$$
+\theta = \theta - \eta \frac{ \partial J }{ \partial \theta } 
+$$
+This is written with a general parameter $\theta$ for brevity. An example of updating a specific parameter like $w_{xh}$ would just be $w_{xh} = w_{xh} - \eta \frac{ \partial J }{ \partial w_{xh} }$. 
+
+With this, we have laid the mathematical foundations for recurrent neural networks. Note that we can add more layers to an RNN by simply connecting more $w_{xh_{i}}, w_{hh_{i}}, b_{xh_{i}}$ layers. The backpropagation process remains the same, we just go through more layers.
+## Approach
+Given the background of basic neural networks, we will now focus on the application of recurrent neural networks to build a simple language model from scratch. 
+
+The objective of the model is to predict the next character in a sequence given the previous characters. This is done by modeling the distribution probability distribution of the next character. This process is carried out over many sequences from a large body of text during the training phase, during which the model parameters are adjusted.
+
+The $\tanh$ function is chosen as an activation function to squash inputs to $[-1, 1]$, which makes the mean of activations closer to zero, resulting in faster training. Furthermore, gradients can be positive or negative so that the gradient descent process can travel in more than one direction, which is ideal for learning.
+
+Softmax is a normalized exponential function, such that a vector of real numbers is converted into a probability distribution. The outputs of the softmax function are non-negative and sum to 1, making it suitable for interpreting the outputs as probabilities, allowing us to model the probability of the next character being output.
+
+Cross-entropy is a popular loss function, quantifying how much one probability distribution diverges from another. Here, we use it to measure the difference between the predicted probabilities (the output of the softmax function in a neural network) and the actual distribution (the true labels).
+
+AdaGrad (short for Adaptive Gradient Algorithm) is an optimization method that adapts the learning rate to the parameters, performing larger updates for infrequent parameters and smaller updates for frequent ones. This is particularly useful for dealing with sparse data (like text), where some features (like some words) may appear very infrequently.
 
 ## Implementation
+Each part of the model and learning algorithm is introduced and justified.
+#### Problem and Data
+To better define our problem, we first handle and process data; characters are given a numerical representation to allow for easier computation. Text data from a simple text file (`input.txt`) is read and processed. Each unique character is identified, and two mappings are created: one for converting characters to unique integers (`char_to_ix`), and another for the reverse (`ix_to_char`). 
+```python
+data = open('input.txt', 'r').read()
+chars = list(set(data))
+data_size, vocab_size = len(data), len(chars)
+char_to_ix = {ch: i for i, ch in enumerate(chars)}
+ix_to_char = {i: ch for i, ch in enumerate(chars)}
+```
+
+#### Model Definition
+We then begin by defining the RNN model, initializing model weights with random values and biases to zero. Hyperparameters such as learning rate and hidden layer size are also defined.
+
+The `seq_length` variable specifies the length of the sequence of characters that the RNN will consider at one time (also known as the number of time steps the RNN will unroll), or the "window" of characters it looks at to make a single prediction. In each training iteration, the model processes `seq_length` characters as a batch. It doesn't process the whole text file at once but rather in these smaller sequences. Then, the RNN is unrolled for `seq_length` steps in time during the backpropagation through time. This means that when calculating gradients, the RNN considers the influence of `seq_length` previous characters at each step. A larger `seq_length` allows the network to learn more extended patterns (longer dependencies), but it also requires more memory and computation. Conversely, a shorter `seq_length` may limit the context the model can learn but is computationally less expensive.
+
+```python
+# model params
+w_xh = np.random.randn(hidden_size, vocab_size)*0.01
+w_hh = np.random.randn(hidden_size, hidden_size)*0.01
+w_hy = np.random.randn(vocab_size, hidden_size)*0.01 
+bh = np.zeros((hidden_size, 1))
+by = np.zeros((vocab_size, 1))
+
+# hyperparams
+hidden_size = 100 # size of hidden layer of neurons
+seq_length = 25 # number of steps to unroll the RNN for
+learning_rate = 1e-2
+```
+
+#### Loss Function
+Next, we define a loss function which computes the forward pass, loss, and backward pass of the network. It takes a list of input characters and target characters (both encoded as integers), and the previous hidden state. It outputs the loss, gradients for the model parameters, and the last hidden state.
+
+Here, we encode the integer representation of data points into a one-hot vector, such that every element in the vector is zero, except the element at the index of the character (from our previous `char_to_ix` operation) is 1. Then:
+- The hidden state `hs[t]` is updated using the previous hidden state and the current input. 
+- The raw outputs `ys[t]` are calculated by applying the weights from the hidden state to the output layer.
+- The probabilities `ps[t]` for the next character are calculated using the softmax function. 
+- The cross-entropy loss for the current prediction is added to the total loss. 
+
+```python
+def lossFun(inputs, targets, hprev):
+"""
+inputs,targets are both list of integers.
+hprev is Hx1 array of initial hidden state
+returns the loss, gradients on model parameters, and last hidden state
+"""
+
+xs, hs, ys, ps = {}, {}, {}, {}
+hs[-1] = np.copy(hprev)
+loss = 0
+
+# forward pass
+for t in range(len(inputs)):
+	xs[t] = np.zeros((vocab_size,1)) # encode in 1-of-k representation
+	xs[t][inputs[t]] = 1
+	hs[t] = np.tanh(np.dot(Wxh, xs[t]) + np.dot(Whh, hs[t-1]) + bh) # hidden state
+	ys[t] = np.dot(Why, hs[t]) + by # unnormalized log probabilities for next chars
+	ps[t] = np.exp(ys[t]) / np.sum(np.exp(ys[t])) # probabilities for next chars
+	loss += -np.log(ps[t][targets[t],0]) # softmax (cross-entropy loss)
+```
+
+Then, we do the backward pass. We loop backward through the sequence and compute:
+- The gradients for the output weights (`dWhy`) and biases (`dby`)
+- The gradient for the hidden state (`dh`) is calculated and then adjusted for the effect of the tanh activation function (`dhraw`).
+- The gradients for the input-to-hidden weights (`dWxh`), hidden-to-hidden weights (`dWhh`), and hidden biases (`dbh`) are updated.
+- The `dhnext` gradient is prepared for the next iteration of the loop.
+
+```python
+# backward pass: compute gradients going backwards
+dWxh, dWhh, dWhy = np.zeros_like(Wxh), np.zeros_like(Whh), np.zeros_like(Why)
+dbh, dby = np.zeros_like(bh), np.zeros_like(by)
+dhnext = np.zeros_like(hs[0])
+
+for t in reversed(range(len(inputs))):
+	dy = np.copy(ps[t])
+	dy[targets[t]] -= 1
+	dWhy += np.dot(dy, hs[t].T)
+	dby += dy
+	dh = np.dot(Why.T, dy) + dhnext # backprop into h
+	dhraw = (1 - hs[t] * hs[t]) * dh # backprop through tanh
+	dbh += dhraw
+	dWxh += np.dot(dhraw, xs[t].T)
+	dWhh += np.dot(dhraw, hs[t-1].T)
+	dhnext = np.dot(Whh.T, dhraw)
+```
+
+We add a gradient clipping step 1. to prevent exploding gradients, the gradients are clipped to be between -5 and 5. The exploding gradient problem is discussed more in the Limitations section.
+```python
+for dparam in [dWxh, dWhh, dWhy, dbh, dby]:
+	np.clip(dparam, -5, 5, out=dparam) # clip to mitigate exploding gradients
+
+return loss, dWxh, dWhh, dWhy, dbh, dby, hs[len(inputs)-1]
+```
+
+#### Sampling
+This function samples a sequence of characters from the model given an initial hidden state and a seed index. It generates a sequence of integers (character indices) that form a text sequence when decoded. This lets us check the output of the model!
+```python
+def sample(h, seed_ix, n):
+"""
+sample a sequence of integers from the model
+h is memory state, seed_ix is seed letter for first time step
+"""
+x = np.zeros((vocab_size, 1))
+x[seed_ix] = 1
+ixes = []
+
+for t in range(n):
+	h = np.tanh(np.dot(Wxh, x) + np.dot(Whh, h) + bh)
+	y = np.dot(Why, h) + by
+	p = np.exp(y) / np.sum(np.exp(y))
+	ix = np.random.choice(range(vocab_size), p=p.ravel())
+	x = np.zeros((vocab_size, 1))
+	x[ix] = 1
+	ixes.append(ix)
+
+return ixes
+```
+
+#### Training
+This is the main training loop. It processes the data in batches (sequences of a specified `seq_length`), computes the gradients, updates the model parameters using the Adagrad optimization algorithm, and periodically generates sample outputs (every 100 sequences) from the model to demonstrate progress.
+```python
+n, p = 0, 0
+
+mWxh, mWhh, mWhy = np.zeros_like(Wxh), np.zeros_like(Whh), np.zeros_like(Why)
+mbh, mby = np.zeros_like(bh), np.zeros_like(by) # memory variables for Adagrad
+smooth_loss = -np.log(1.0/vocab_size)*seq_length # loss at iteration 0
+
+while True:
+# prepare inputs (we're sweeping from left to right in steps seq_length long)
+if p+seq_length+1 >= len(data) or n == 0:
+	hprev = np.zeros((hidden_size,1)) # reset RNN memory
+	p = 0 # go from start of data
+	inputs = [char_to_ix[ch] for ch in data[p:p+seq_length]]
+	targets = [char_to_ix[ch] for ch in data[p+1:p+seq_length+1]]
+
+# sample from the model now and then
+if n % 100 == 0:
+	sample_ix = sample(hprev, inputs[0], 200)
+	txt = ''.join(ix_to_char[ix] for ix in sample_ix)
+	print('----\n {} \n----'.format(txt))
+  
+# forward seq_length characters through the net and fetch gradient
+
+loss, dWxh, dWhh, dWhy, dbh, dby, hprev = lossFun(inputs, targets, hprev)
+smooth_loss = smooth_loss * 0.999 + loss * 0.001
+if n % 100 == 0: print('iter {}, loss: {}'.format(n, smooth_loss)) # print progress
+
+# perform parameter update with Adagrad
+
+for param, dparam, mem in zip([Wxh, Whh, Why, bh, by],
+							[dWxh, dWhh, dWhy, dbh, dby],
+							[mWxh, mWhh, mWhy, mbh, mby]):
+
+	mem += dparam * dparam
+	param += -learning_rate * dparam / np.sqrt(mem + 1e-8) # adagrad update
+
+	p += seq_length # move data pointer
+	n += 1 # iteration counter
+```
 
 ## Results
+For data, the works of William Shakespeare (including all plays and sonnets) are concatenated and put into the `input.txt`. Thus, the objective of the model is to generate writing in the style of Shakespeare.
+
+Since our training loop samples some model output every 100 iterations (sequences trained), we can examine the output and loss of the model over time. We start with a single-layer RNN with a hidden layer size of 100.
+
+At iteration zero, the model is not yet trained so our output is very random:
+```
+----
+iter 0, loss: 104.35967499060304
+----
+ CqueXY:RZWqPD?TWPalrv'WFLv.Hms,$cjDKHzq$KowgybRzb objmaTHR'bdgCdBNSx?mgajiJ?XAt:YKewE&rgDznhSPwqp&KM
+SZSR$KlwjHkfXpHV'aZFUIP-;M?KxuPVDUmdB3b CbvkrbHlsDnAXLZcLcvUjcTS,hvmYqU?bqhxj?u?kwCnFvztOCI&Mx IYcT 
+```
+
+As we keep training, the model output gradually improves, outputting English words (and sequences that somewhat resemble English). We can also begin to observe a somewhat Shakespearean style!
+```
+---
+iter 22600, loss: 54.97304638057519
+---
+Ate you chis lose! Meat and the our that vistrers? Let not for where, dame my forsta 
+```
+
+Eventually, after a lot of iterations (almost a million), the loss is much lower and the output looks quite good!
+```
+----
+iter 997100, loss: 44.43487950312566
+----
+  and shall of my heakse herrage, How shaid I thoughty sween dofl ampaut
+    To kasw, of the fuld on alinion; the combay
+    If o
+    Te to-near hare the comery, not mach save you lagd thtures beace re 
+```
+
+How can we get even better output? The obvious solution is to employ the classic deep learning strategy: more layers and more parameters. Thus, we change the model implementation slightly to run a 3-layer RNN. The hidden layer size was also increased to 512. Here are some sample outputs:
+```
+----
+iter 468200, loss: 42.90417002098809
+----
+GLAMUSE:
+As thou peasant kister,
+he revere his this rrous,
+To gentle,
+And vor gud!
+
+DUDN VINCE:
+All that now conly wath are bedy, our greacd afparfer po,
+And vorn of d
+```
+
+```
+----
+iter 421000, loss: 44.14635583930259
+----
+ 
+House with a doy, new ade
+bid but condesiegh as as Soor her againss clavk;
+Arature make keart keel that sims all tome, where;
+So had it prait, are is your make with the not
+```
+
+This generates higher quality output with less iterations (although each iteration takes longer). The model also begins to pick up on the structure of plays and generates character names! A particularly frequent character name is "King", which makes sense as many Shakespeare plays have kings in them.
+
+```
+----
+iter 458900, loss: 42.673977586462485
+----
+KING.
+Are you chis lose! Meat and the our that vistrers? Let not for where, dame my forsta 
+```
 
 ## Discussion
+Given the simplify of our implementation and the relatively small size of data and lack of compute, the RNN performs very well. Not only does it spell English words (or at least produce English-like output), but it is able to capture Shakespearean style and play structure with character names. However, there are some significant limitations that lead to room for improvement.
+### Limitations
+Notably, models seemed to plateau in terms of loss around a value of 40. The loss would still gradually decrease, but at a very slow rate and very inconsistently (moving up and down). This may indicate the weakness of our basic RNN architecture; our model may simply not be complex enough to fully capture the patterns in the data, or be susceptible to problems during training like the vanishing and exploding gradient problems.
 
+RNNs are plagued by vanishing and exploding gradients slope of the loss function along the error curve.
+
+When the gradient is too small (vanishing), updates to the weight parameters until they become insignificant, which means that the model learns very slowly or not at all. Exploding gradients occur when the gradient is too large, creating an unstable model (NaN results).
+
+These problems especially bad for the recursive structure of RNNs, as the same weights are applied recursively at each time step of the input sequence. This means that during backpropagation, the gradients of these weights are also applied recursively through time. Because the same weights are used at each time step, any small gradients become exponentially smaller as they are propagated through each time step (vanishing), and conversely, any large gradients become exponentially larger (exploding).
+
+RNN-type networks with specialized architectures, such as Long Short-Term Memory (LSTM) units and Gated Recurrent Units (GRU) mitigate the vanishing and exploding gradient problems. This is done by adding mechanisms to allow the information to bypass the traditional path through the RNN. This means that the gradient has a shortcut where it can flow without being multiplied by the weight matrix at each time step, thus reducing the risk of vanishing or exploding. These architectures are also better at capturing long-term dependencies by using a "memory cell" that can maintain information in memory for long periods of time.
 ## Conclusion
+This project demonstrated the power of basic multivariable calculus concepts in terms of complex and relevant applications, namely language modeling. A deep understanding of neural networks is established from first principles, then expanded to multilayer networks and eventually recurrent networks. Based on this understanding, implementation and experimentation were conducted for the interesting problem of Shakespeare generation. Overall, this paper provided an opportunity to gain a deeper understanding of machine learning and to build a small but powerful application.
 
 ## References
 
 ## Appendix A: RNN Code
-```python
-import numpy as np
+The full code for the RNN and 3-layer RNN can be found on Github. A GRU implementation is also included, although no GRU experiments were discussed in the paper (out of scope).
 
-# data I/O
-data = open('input.txt', 'r').read() # should be simple plain text file
-chars = list(set(data))
-data_size, vocab_size = len(data), len(chars)
-print 'data has %d characters, %d unique.' % (data_size, vocab_size)
-char_to_ix = { ch:i for i,ch in enumerate(chars) }
-ix_to_char = { i:ch for i,ch in enumerate(chars) }
+### Model Outputs
 
-# hyperparameters
-hidden_size = 100 # size of hidden layer of neurons
-seq_length = 25 # number of steps to unroll the RNN for
-learning_rate = 1e-1
+```text
+KING.
+Are you chis lose! Meat and the our that vistrers? Let not for where, dame my forsta 
+```
 
-# model parameters
-Wxh = np.random.randn(hidden_size, vocab_size)*0.01 # input to hidden
-Whh = np.random.randn(hidden_size, hidden_size)*0.01 # hidden to hidden
-Why = np.random.randn(vocab_size, hidden_size)*0.01 # hidden to output
-bh = np.zeros((hidden_size, 1)) # hidden bias
-by = np.zeros((vocab_size, 1)) # output bias
+```text
+----
+iter 997100, loss: 44.43487950312566
+----
+  and shall of my heakse herrage, How shaid I thoughty sween dofl ampaut
+    To kasw, of the fuld on alinion; the combay
+    If o
+    Te to-near hare the comery, not mach save you lagd thtures beace re 
+```
 
-def lossFun(inputs, targets, hprev):
-  """
-  inputs,targets are both list of integers.
-  hprev is Hx1 array of initial hidden state
-  returns the loss, gradients on model parameters, and last hidden state
-  """
-  xs, hs, ys, ps = {}, {}, {}, {}
-  hs[-1] = np.copy(hprev)
-  loss = 0
-  # forward pass
-  for t in xrange(len(inputs)):
-    xs[t] = np.zeros((vocab_size,1)) # encode in 1-of-k representation
-    xs[t][inputs[t]] = 1
-    hs[t] = np.tanh(np.dot(Wxh, xs[t]) + np.dot(Whh, hs[t-1]) + bh) # hidden state
-    ys[t] = np.dot(Why, hs[t]) + by # unnormalized log probabilities for next chars
-    ps[t] = np.exp(ys[t]) / np.sum(np.exp(ys[t])) # probabilities for next chars
-    loss += -np.log(ps[t][targets[t],0]) # softmax (cross-entropy loss)
-  # backward pass: compute gradients going backwards
-  dWxh, dWhh, dWhy = np.zeros_like(Wxh), np.zeros_like(Whh), np.zeros_like(Why)
-  dbh, dby = np.zeros_like(bh), np.zeros_like(by)
-  dhnext = np.zeros_like(hs[0])
-  for t in reversed(xrange(len(inputs))):
-    dy = np.copy(ps[t])
-    dy[targets[t]] -= 1 # backprop into y. see http://cs231n.github.io/neural-networks-case-study/#grad if confused here
-    dWhy += np.dot(dy, hs[t].T)
-    dby += dy
-    dh = np.dot(Why.T, dy) + dhnext # backprop into h
-    dhraw = (1 - hs[t] * hs[t]) * dh # backprop through tanh nonlinearity
-    dbh += dhraw
-    dWxh += np.dot(dhraw, xs[t].T)
-    dWhh += np.dot(dhraw, hs[t-1].T)
-    dhnext = np.dot(Whh.T, dhraw)
-  for dparam in [dWxh, dWhh, dWhy, dbh, dby]:
-    np.clip(dparam, -5, 5, out=dparam) # clip to mitigate exploding gradients
-  return loss, dWxh, dWhh, dWhy, dbh, dby, hs[len(inputs)-1]
+```
+DAMITBURO:
+Cartser.
 
-def sample(h, seed_ix, n):
-  """ 
-  sample a sequence of integers from the model 
-  h is memory state, seed_ix is seed letter for first time step
-  """
-  x = np.zeros((vocab_size, 1))
-  x[seed_ix] = 1
-  ixes = []
-  for t in xrange(n):
-    h = np.tanh(np.dot(Wxh, x) + np.dot(Whh, h) + bh)
-    y = np.dot(Why, h) + by
-    p = np.exp(y) / np.sum(np.exp(y))
-    ix = np.random.choice(range(vocab_size), p=p.ravel())
-    x = np.zeros((vocab_size, 1))
-    x[ix] = 1
-    ixes.append(ix)
-  return ixes
+PRONICALIO:
+Me,ser lonk efes me, sighes,
+Se; doo thung
+sir, she Inow I save,
+Lord my you vy chewell sut
+xay; and msoy ipe uither, I feaver! 
+```
 
-n, p = 0, 0
-mWxh, mWhh, mWhy = np.zeros_like(Wxh), np.zeros_like(Whh), np.zeros_like(Why)
-mbh, mby = np.zeros_like(bh), np.zeros_like(by) # memory variables for Adagrad
-smooth_loss = -np.log(1.0/vocab_size)*seq_length # loss at iteration 0
-while True:
-  # prepare inputs (we're sweeping from left to right in steps seq_length long)
-  if p+seq_length+1 >= len(data) or n == 0: 
-    hprev = np.zeros((hidden_size,1)) # reset RNN memory
-    p = 0 # go from start of data
-  inputs = [char_to_ix[ch] for ch in data[p:p+seq_length]]
-  targets = [char_to_ix[ch] for ch in data[p+1:p+seq_length+1]]
+```
+GLAMUSE:
+As thou peasant kister,
+he revere his this rrous,
+To gentle,,
+And vor gud!
 
-  # sample from the model now and then
-  if n % 100 == 0:
-    sample_ix = sample(hprev, inputs[0], 200)
-    txt = ''.join(ix_to_char[ix] for ix in sample_ix)
-    print '----\n %s \n----' % (txt, )
+DUDN VINCE:
+All that now conly wath are bedy, our greacd afparfer po,
+And vorn of d
+```
 
-  # forward seq_length characters through the net and fetch gradient
-  loss, dWxh, dWhh, dWhy, dbh, dby, hprev = lossFun(inputs, targets, hprev)
-  smooth_loss = smooth_loss * 0.999 + loss * 0.001
-  if n % 100 == 0: print 'iter %d, loss: %f' % (n, smooth_loss) # print progress
-  
-  # perform parameter update with Adagrad
-  for param, dparam, mem in zip([Wxh, Whh, Why, bh, by], 
-                                [dWxh, dWhh, dWhy, dbh, dby], 
-                                [mWxh, mWhh, mWhy, mbh, mby]):
-    mem += dparam * dparam
-    param += -learning_rate * dparam / np.sqrt(mem + 1e-8) # adagrad update
+```
+MERCELIZIO:
+As,
+To sir goleadies thouby kon?
 
-  p += seq_length # move data pointer
-  n += 1 # iteration counter
+LAMANIS:
+O'l lid, your comes tell, jetite whouf oul;
+Uraty sut, to be not me trance thesinem
+The jobreined yearsick.
+```
+
+```
+----
+iter 421000, loss: 44.14635583930259
+----
+ 
+House with a doy, new ade
+bid but condesiegh as as Soor her againss clavk;
+Arature make keart keel that sims all tome, where;
+So had it prait, are is your make with the not
 ```
