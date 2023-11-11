@@ -9,3 +9,4 @@ Ideas:
 - [ ] Git VCS with Rust
 - [ ] Quantum ML project
 - [ ] War sentiment analysis
+- [ ] Self-driving chair/couch

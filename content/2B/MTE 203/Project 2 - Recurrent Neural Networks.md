@@ -274,17 +274,31 @@ This is written with a general parameter $\theta$ for brevity. An example of upd
 
 With this, we have laid the mathematical foundations for recurrent neural networks. Note that we can add more layers to an RNN by simply connecting more $w_{xh_{i}}, w_{hh_{i}}, b_{xh_{i}}$ layers. The backpropagation process remains the same, we just go through more layers.
 ## Approach
-Given the background of basic neural networks, we will now focus on the application of recurrent neural networks to build a simple language model from scratch. 
+Given the background of basic neural networks, we will now focus on the application of recurrent neural networks to build a simple language model from scratch. The objective of the model is to predict the next character in a sequence given the previous characters. This is done by modeling the probability distribution of the next character. This process is carried out over many sequences from a large body of text during the training phase, during which the model parameters are adjusted.
 
-The objective of the model is to predict the next character in a sequence given the previous characters. This is done by modeling the distribution probability distribution of the next character. This process is carried out over many sequences from a large body of text during the training phase, during which the model parameters are adjusted.
+The specific model is defined as:
+$$
+\begin{align}
+h_{t}  & = \tanh(w_{xh}\cdot x_{t} + w_{hh} \cdot h_{t-1}+b_{h}) \\
+y_{t}  & = p_{t}(w_{hy} \cdot h_{t} + b_{y}) \\[3ex] 
+p_{t}  & = \frac{e^{y_{t}}}{\sum_{j}e^{y_{t_{j}}}} \\[3ex] 
+J  & = -\sum_{t=1}^{\text{seq. length}}\log(p_{t, \text{target}_{t}})
+\end{align}
+$$
 
-The $\tanh$ function is chosen as an activation function to squash inputs to $[-1, 1]$, which makes the mean of activations closer to zero, resulting in faster training. Furthermore, gradients can be positive or negative so that the gradient descent process can travel in more than one direction, which is ideal for learning.
+For the hidden state $h_{t}$, the $\tanh$ function is chosen as an activation function to squash inputs to $[-1, 1]$, which makes the mean of activations closer to zero, resulting in faster training. Furthermore, gradients can be positive or negative so that the gradient descent process can travel in more than one direction, which is ideal for learning.
 
-Softmax is a normalized exponential function, such that a vector of real numbers is converted into a probability distribution. The outputs of the softmax function are non-negative and sum to 1, making it suitable for interpreting the outputs as probabilities, allowing us to model the probability of the next character being output.
+$y_{t}$ are the unnormalized log probabilities (logits) for next characters at time t. These are interpreted as a probability distribution using the softmax function. Softmax is a normalized exponential function, such that a vector of real numbers is converted into a probability distribution. The outputs of the softmax function are non-negative and sum to 1, making it suitable for interpreting the outputs as probabilities, allowing us to model the probability of the next character being output.
 
-Cross-entropy is a popular loss function, quantifying how much one probability distribution diverges from another. Here, we use it to measure the difference between the predicted probabilities (the output of the softmax function in a neural network) and the actual distribution (the true labels).
-
-AdaGrad (short for Adaptive Gradient Algorithm) is an optimization method that adapts the learning rate to the parameters, performing larger updates for infrequent parameters and smaller updates for frequent ones. This is particularly useful for dealing with sparse data (like text), where some features (like some words) may appear very infrequently.
+The objective function $J$ takes the summation of cross-entropy loss over the sequence length used for training. Cross-entropy is a popular loss function quantifying how much one probability distribution diverges from another, and is usually defined as:
+$$
+L_{\text{cross-entropy}} = y_{i} \log (\hat{y}_{i})
+$$
+where $y_{i}$ is the true probability of the $i$-th class, and $\hat{y}_{i}$ is the predicted probability of the $i$-th class. Here, we use it to measure the difference between the predicted probabilities (the output of the softmax function in a neural network) and the actual distribution (the true labels). Since our data will use a one-hot representation of characters, $y_{i}=1$ for the true class, and $y_{i}=0$ for all other classes. Thus, for our case, the objective function simplifies to:
+$$
+J(y, \hat{y}) = - \sum y_{i} \log (\hat{y}_{i}) = -\log(\hat{y}_{\text{true class}})
+$$
+Lastly, AdaGrad (short for Adaptive Gradient Algorithm) is used as an optimization method. This adapts the learning rate $\eta$ to the parameters, performing larger updates for infrequent parameters and smaller updates for frequent ones. This is particularly useful for dealing with sparse data (like text), where some features (like some words) may appear very infrequently.
 
 ## Implementation
 Each part of the model and learning algorithm is introduced and justified.
