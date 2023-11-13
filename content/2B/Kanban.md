@@ -8,17 +8,27 @@ tags:
 
 ---
 
+## Today
+
+- [ ] Heun's Method
+- [ ] Midpoint method
+- [ ] MTE 220 Power 2 / Sensors 1
+- [ ] Nodal (3-7)
+- [ ] SYDE 252 Notes
+
+
 ## MTE 203
 
-- [ ] Lecture 15
-- [ ] Lecture 16
 - [ ] Lecture 17
 - [ ] Lecture 18
+- [ ] Lecture 19
+- [ ] Lecture 20
+- [ ] Past/Practice Final
+- [ ] Project 2
 
 
 ## MTE 220
 
-- [ ] Nodal (3-7)
 - [ ] Mesh (8-11)
 - [ ] Thevenin/Norton (11-15)
 - [ ] Op-Amps (16-25)
@@ -45,6 +55,7 @@ tags:
 
 ## MTE 241
 
+- [ ] Notes
 - [ ] Lab 3
 - [ ] Lab 4
 - [ ] PSet 1
@@ -55,6 +66,7 @@ tags:
 
 ## SYDE 252
 
+- [ ] Notes!!
 - [ ] HW 4
 - [ ] HW 5
 - [ ] HW 6
@@ -89,6 +101,11 @@ tags:
 - [ ] HW 1
 - [ ] HW 2
 - [ ] HW 3
+- [ ] Lecture 15
+- [ ] MTE 203 Lecture 16
+- [ ] Euler's Method for Stiff Systems
+- [ ] MTE 220 Power 1
+- [ ] Triple Integration Practice
 
 %% kanban:settings
 ```

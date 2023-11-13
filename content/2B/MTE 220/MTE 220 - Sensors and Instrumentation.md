@@ -93,11 +93,23 @@ Applications:
 #### Transistors
 - [[MOSFET]]
 - [[MOSFET Usage]]
-- [[H-Bridge]]
+- [[H-Bridge Circuit]]
 - [[Controlled Current Sources]]
-
 #### Powering Embedded Systems
+- [[Power Supplies]]
+- [[Power Sources]]
 
+- [[Batteries]]
+	- [[Battery Capacity]]
+	- [[Battery Packs]]
+	- [[Battery State of Charge]]
+	- [[Rechargeable Batteries]]
+
+- [[Power Conditioning Circuits]]
+	- [[Transformers (AC)]] (AC/AC)
+	- [[Rectifier Circuits]] (AC/DC)
+	- [[Linear Regulators]], [[Switching Regulators]] (DC/DC)
+	- [[Power Inverter]]
 ### Sensors and Interfacing
 
 

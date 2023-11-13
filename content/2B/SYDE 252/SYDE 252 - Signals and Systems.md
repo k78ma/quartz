@@ -8,7 +8,7 @@ tags:
 aliases:
   - SYDE 252
 ---
-## SYDE 252
+ ## SYDE 252
 
 #### Intro
 - [[Signals|Signals]]

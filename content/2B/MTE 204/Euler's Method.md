@@ -16,7 +16,11 @@ From: $\phi=f(x_{i}, y_{i})$, we can estimate $y_{i}$:
 $$
 y_{i+1}=y_{i}+f(x_{i}, y_{i})h
 $$
-This is an explicit form (the unknown is only on the left side).
+This is an explicit form (the unknown is only on the left side). In the equation above:
+- $y_{n+1}$ is the estimated value of $y$ at the next step
+- $y_{n}$ is the known value of $y$ at the current step
+- $f(x_{n}, y_{n})$ is the value of the derivative (slope of the tangent to the curve) at $x_{n}$
+- $h$ is a chosen step size, determining how many steps will be taken between the initial and final value of $x$.
 
 ![[Euler's Method.png|336]]
 
@@ -48,6 +52,10 @@ $$
 Incrementing $h=0.5$:
 $$
 2.25 + \left( \frac{0.5^{3}+1}{2} \right)0.5=2.5
+$$
+We continue this until
+$$
+\Big| \frac{y_{new}-y_{old}}{y_{new}} \Big| < \text{criterion}
 $$
 ### Error Estimate
 This method is first order accurate – $O(h)$. Error accumulates as the solution proceeds – error due to estimate of slope, round-off.

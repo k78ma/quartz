@@ -78,9 +78,24 @@ aliases:
 #### Lecture 14: Applications
 - [[Least Squares]]
 - [[Differentials]]
-  
+
 #### Lecture 15: Double Integration
 - [[Double Integration]]
+
+#### Lecture 16: Double Integration and Triple Integration
+- [[Triple Integration]]
+
+#### Lecture 17: Double Integrals with Polar Coordinates
+- [[Double Integrals with Polar Coordinates]]
+
+#### Lecture 18: Triple Integrals in Cylindrical and Spherical Coordinates
+- [[Triple Integrals in General Coordinates]]
+
+#### Lecture 19: Center of Mass and Moments of Inertia
+- [[Center of Mass and Moments of Inertia]]
+
+#### Lecture 20: Areas and volumes of rotation
+- [[Areas and volumes of rotation]]
 
 ## Problems
 - [[Suggested Problems]]

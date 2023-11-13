@@ -20,7 +20,17 @@
             }
           },
           {
-            "id": "8698883f61f0c2c1",
+            "id": "f4fdda82f15c5ac7",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "2B/Kanban.md"
+              }
+            }
+          },
+          {
+            "id": "a32ae7010dbe34f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,9 +52,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a57af846cacf12cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dcaaa26c2575ed9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "692e7418b3ca8a98",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -119,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 203/Project 2 - Recurrent Neural Networks.md"
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md"
               }
             }
           },
@@ -201,44 +247,44 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "8698883f61f0c2c1",
+  "active": "692e7418b3ca8a98",
   "lastOpenFiles": [
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-    "Projects.md",
-    "2B/MTE 204/Euler's Method.md",
-    "ML/Vanishing Gradient Problem.md",
-    "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
-    "ML/Negative log-likelihood.md",
-    "2B/MTE 204/attachments/Euler's Method.png",
-    "Runge-Kutta Method.md",
-    "2B/MTE 204/Runge-Kutta Methods.md",
-    "2B/MTE 204/attachments/Runge-Kutta Methods-1.png",
+    "Excalidraw/circuits204.excalidraw.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 204/attachments/Runge-Kutta Methods.png",
-    "ML/Recurrent Neural Networks.md",
-    "ML/Long Term Short Memory.md",
-    "2B/MTE 241/Non-Maskable Interrupt.md",
-    "2B/MTE 241/Re-entrant Functions.md",
-    "2B/MTE 241/ISR Implementation.md",
-    "2B/MTE 241/Interrupt.md",
-    "2B/MTE 241/Interrupt Flow.md",
-    "2B/MTE 241/Interrupt Return.md",
-    "2B/MTE 241/attachments/Interrupt Return.png",
-    "2B/MTE 241/Interrupt Execution.md",
-    "2B/MTE 241/attachments/Interrupt Execution-3.png",
-    "2B/MTE 241/attachments/Interrupt Execution-2.png",
-    "2B/MTE 241/attachments/Interrupt Execution-1.png",
-    "2B/MTE 241/attachments/Interrupt Execution.png",
-    "2B/MTE 241/Reset Vector Table.md",
-    "2B/MTE 241/Cortex M4 Stack.md",
-    "Reset vector table.md",
-    "2B/MTE 241/Interrupt Setup.md",
-    "2B/MTE 241/Memory Protection (Kernelspace vs. Userspace).md",
-    "2B/MTE 241/System Calls.md",
-    "2B/MTE 241/Executables and Threads.md",
-    "Vault Stats.md",
-    "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-2.png",
-    "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 204/Euler's Method.md",
+    "2B/MTE 204/Heun's Method.md",
+    "2B/Kanban.md",
+    "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 220/Power Conditioning Circuits.md",
+    "2B/MTE 220/Switching Regulators.md",
+    "2B/MTE 220/Batteries.md",
+    "2B/MTE 220/Battery Capacity.md",
+    "2B/MTE 220/Rechargeable Batteries.md",
+    "2B/MTE 220/attachments/Batteries-1.png",
+    "2B/MTE 220/Battery State of Charge.md",
+    "2B/MTE 220/attachments/Battery State of Charge.png",
+    "2B/MTE 220/Battery Packs.md",
+    "2B/MTE 220/attachments/Battery Packs-1.png",
+    "2B/MTE 220/attachments/Battery Packs.png",
+    "2B/MTE 220/attachments/Batteries.png",
+    "2B/MTE 220/Power Sources.md",
+    "2B/MTE 220/Power Supplies.md",
+    "2B/MTE 220/attachments/Power Supplies.png",
+    "ML/Machine Learning.md",
+    "2B/MTE 204/Implicit Euler.md",
+    "2B/MTE 204/attachments/Implicit Euler-1.png",
+    "2B/MTE 204/attachments/Implicit Euler.png",
+    "2B/MTE 204/Euler's Method for Stiff Systems.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 203/Triple Integration.md",
+    "2B/MTE 203/attachments/Project 2 - Recurrent Neural Networks.png",
+    "2B/MTE 220/Supernodes.md",
+    "2B/MTE 220/Controlled Current Sources.md",
+    "2B/MTE 220/attachments/Controlled Current Sources-4.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

@@ -280,15 +280,15 @@ The specific model is defined as:
 $$
 \begin{align}
 h_{t}  & = \tanh(w_{xh}\cdot x_{t} + w_{hh} \cdot h_{t-1}+b_{h}) \\
-y_{t}  & = p_{t}(w_{hy} \cdot h_{t} + b_{y}) \\[3ex] 
+y_{t}  & = (w_{hy} \cdot h_{t} + b_{y}) \\[3ex] 
 p_{t}  & = \frac{e^{y_{t}}}{\sum_{j}e^{y_{t_{j}}}} \\[3ex] 
-J  & = -\sum_{t=1}^{\text{seq. length}}\log(p_{t, \text{target}_{t}})
+J  & = -\sum_{t=1}^{T}\log(p_{t, \text{target}_{t}})
 \end{align}
 $$
 
 For the hidden state $h_{t}$, the $\tanh$ function is chosen as an activation function to squash inputs to $[-1, 1]$, which makes the mean of activations closer to zero, resulting in faster training. Furthermore, gradients can be positive or negative so that the gradient descent process can travel in more than one direction, which is ideal for learning.
 
-$y_{t}$ are the unnormalized log probabilities (logits) for next characters at time t. These are interpreted as a probability distribution using the softmax function. Softmax is a normalized exponential function, such that a vector of real numbers is converted into a probability distribution. The outputs of the softmax function are non-negative and sum to 1, making it suitable for interpreting the outputs as probabilities, allowing us to model the probability of the next character being output.
+$y_{t}$ are the unnormalized log probabilities (logits) for next characters at time t. The softmax function is used as an activation function to interpret the logits as a probability distribution. Softmax is a normalized exponential function (shown above as $p_{t}$), such that a vector of real numbers is converted into a probability distribution. The outputs of the softmax function are non-negative and sum to 1, making it suitable for interpreting the outputs as probabilities, allowing us to model the probability of the next character being output.
 
 The objective function $J$ takes the summation of cross-entropy loss over the sequence length used for training. Cross-entropy is a popular loss function quantifying how much one probability distribution diverges from another, and is usually defined as:
 $$
@@ -531,12 +531,13 @@ KING.
 Are you chis lose! Meat and the our that vistrers? Let not for where, dame my forsta 
 ```
 
+To achieve a more concrete understanding of model performance over time, the loss is plotted over a million training iterations for the initial single-layer RNN. After consistent decrease in loss at the beginning, the seemed to plateau in terms of loss around a value of 40. The loss would still gradually decrease, but at a very slow rate and very inconsistently (moving up and down). This may indicate the weakness of our basic RNN architecture; our model may simply not be complex enough to fully capture the patterns in the data, or be susceptible to problems during training like the vanishing and exploding gradient problems (discussed in Section).
+
+![[Project 2 - Recurrent Neural Networks.png|516]]
 ## Discussion
 Given the simplify of our implementation and the relatively small size of data and lack of compute, the RNN performs very well. Not only does it spell English words (or at least produce English-like output), but it is able to capture Shakespearean style and play structure with character names. However, there are some significant limitations that lead to room for improvement.
 ### Limitations
-Notably, models seemed to plateau in terms of loss around a value of 40. The loss would still gradually decrease, but at a very slow rate and very inconsistently (moving up and down). This may indicate the weakness of our basic RNN architecture; our model may simply not be complex enough to fully capture the patterns in the data, or be susceptible to problems during training like the vanishing and exploding gradient problems.
-
-RNNs are plagued by vanishing and exploding gradients slope of the loss function along the error curve.
+RNNs are plagued by vanishing and exploding gradients slope of the loss function along the error curve, which may provide an explanation as to why our models could not progress to loss values below 40.
 
 When the gradient is too small (vanishing), updates to the weight parameters until they become insignificant, which means that the model learns very slowly or not at all. Exploding gradients occur when the gradient is too large, creating an unstable model (NaN results).
 

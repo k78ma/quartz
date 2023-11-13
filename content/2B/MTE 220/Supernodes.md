@@ -19,7 +19,7 @@ $$
 However, these currents are coupled by $I_{2V}$, which means it can be eliminated.
 
 ### Supernode Usage
-One may skip the step of defining the unknown current by taking a broader interpretation of KCL: The sum of currents into and out of any boundary in a circuit must equal zero. We can define a supernode that encompasses both nodes A and B. There is now only one nodal equation, with the 2 V source supplying the missing equation.
+We can skip the step of defining the unknown current by taking a broader interpretation of KCL: The sum of currents into and out of any boundary in a circuit must equal zero. We can define a supernode that encompasses both nodes A and B. There is now only one nodal equation, with the 2 V source supplying the missing equation.
 
 ![[supernode_2.png|424]]
 
