@@ -54,18 +54,6 @@
             }
           },
           {
-            "id": "a57af846cacf12cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "dcaaa26c2575ed9d",
             "type": "leaf",
             "state": {
@@ -76,9 +64,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f163aeebbe855fff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Power Conditioning Circuits Figures of Merit.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/Kanban.md",
+                "file": "2B/MTE 220/Power Conditioning Circuits Figures of Merit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/Kanban.md",
+                "file": "2B/MTE 220/Power Conditioning Circuits Figures of Merit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/Kanban.md"
+                "file": "2B/MTE 220/Power Conditioning Circuits Figures of Merit.md"
               }
             }
           },
@@ -235,19 +235,20 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "f4fdda82f15c5ac7",
+  "active": "f163aeebbe855fff",
   "lastOpenFiles": [
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 204/Midpoint Method.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "Excalidraw/circuits204.excalidraw.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Power Conditioning Circuits Figures of Merit.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/Kanban.md",
+    "2B/MTE 204/Midpoint Method.md",
+    "Excalidraw/circuits204.excalidraw.md",
     "2B/MTE 204/Euler's Method.md",
     "2B/MTE 204/Heun's Method.md",
-    "2B/Kanban.md",
     "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "2B/MTE 220/Power Conditioning Circuits.md",
     "2B/MTE 220/Switching Regulators.md",
     "2B/MTE 220/Batteries.md",
@@ -271,7 +272,6 @@
     "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 203/Triple Integration.md",
     "2B/MTE 203/attachments/Project 2 - Recurrent Neural Networks.png",
-    "2B/MTE 220/Supernodes.md",
     "2B/MTE 220/attachments/Controlled Current Sources-4.png",
     "Statistics",
     "Blog",

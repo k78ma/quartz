@@ -106,6 +106,7 @@ Applications:
 	- [[Rechargeable Batteries]]
 
 - [[Power Conditioning Circuits]]
+	- [[Power Conditioning Circuits Figures of Merit]]
 	- [[Transformers (AC)]] (AC/AC)
 	- [[Rectifier Circuits]] (AC/DC)
 	- [[Linear Regulators]], [[Switching Regulators]] (DC/DC)
