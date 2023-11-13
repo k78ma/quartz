@@ -10,8 +10,6 @@ tags:
 
 ## Today
 
-- [ ] Heun's Method
-- [ ] Midpoint method
 - [ ] MTE 220 Power 2 / Sensors 1
 - [ ] Nodal (3-7)
 - [ ] SYDE 252 Notes
@@ -106,6 +104,8 @@ tags:
 - [ ] Euler's Method for Stiff Systems
 - [ ] MTE 220 Power 1
 - [ ] Triple Integration Practice
+- [ ] Heun's Method
+- [ ] Midpoint method
 
 %% kanban:settings
 ```
