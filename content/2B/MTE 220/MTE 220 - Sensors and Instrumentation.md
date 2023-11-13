@@ -113,6 +113,8 @@ Applications:
 	- [[Power Inverter]]
 ### Sensors and Interfacing
 
+#### Sensor Characteristics
+- [[Transducers vs. Sensors vs. Actuators]]
 
 ## Labs
 - [[Lab 1]]
