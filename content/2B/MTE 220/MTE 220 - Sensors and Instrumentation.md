@@ -117,7 +117,11 @@ Applications:
 - [[Sensor Range]]
 - [[Sensor Transfer Function]]
 - [[Sensor Accuracy]]
-
+- [[Sensor Sensitivity]]
+- [[Hysteresis]]
+- [[Reproducibility]]
+- [[Sensor Resolution]]
+- [[Sensor Linearity]]
 ## Labs
 - [[Lab 1]]
 - [[Lab 2]]

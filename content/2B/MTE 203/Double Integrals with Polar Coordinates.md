@@ -40,8 +40,8 @@ In polar coordinates, $dA = r dr d\theta$.
 >&=r
 >\end{align}
 >$$
->Hence $dA = | r |dr d\theta=r dr d\theta$.
+>Hence $dA = | r |dr d\theta=r  dr d\theta$.
 >This means that
 >$$
->\int \int _{R} f(x,y) \, dA = \int \int _{s} f(r\cos(\theta),r\sin \theta)r dr d\theta
+>\int \int _{R} f(x,y) \, dA = \int \int _{s} f(r\cos(\theta),r\sin \theta)r \, dr \, d\theta
 >$$
