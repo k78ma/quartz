@@ -10,14 +10,14 @@ tags:
 
 ## Today
 
-- [ ] MTE 220 Power 2 / Sensors 1
+- [ ] MTE 220 Sensors 2
 - [ ] Nodal (3-7)
 - [ ] SYDE 252 Notes
+- [ ] Runge-Kutta Method
 
 
 ## MTE 203
 
-- [ ] Lecture 17
 - [ ] Lecture 18
 - [ ] Lecture 19
 - [ ] Lecture 20
@@ -106,6 +106,7 @@ tags:
 - [ ] Triple Integration Practice
 - [ ] Heun's Method
 - [ ] Midpoint method
+- [ ] Lecture 17
 
 %% kanban:settings
 ```

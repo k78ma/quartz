@@ -112,9 +112,11 @@ Applications:
 	- [[Linear Regulators]], [[Switching Regulators]] (DC/DC)
 	- [[Power Inverter]]
 ### Sensors and Interfacing
-
 #### Sensor Characteristics
 - [[Transducers vs. Sensors vs. Actuators]]
+- [[Sensor Range]]
+- [[Sensor Transfer Function]]
+- [[Sensor Accuracy]]
 
 ## Labs
 - [[Lab 1]]

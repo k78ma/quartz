@@ -66,6 +66,7 @@ aliases:
 		- [[Re-entrant Functions]]
 - [[Non-Maskable Interrupt]]
 ### Resource Management
+- [[]]
 
 ### Scheduling
 

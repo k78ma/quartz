@@ -30,18 +30,6 @@
             }
           },
           {
-            "id": "a32ae7010dbe34f2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "2512c7a9c1b5eeb2",
             "type": "leaf",
             "state": {
@@ -59,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "file": "2B/MTE 203/Double Integrals with Polar Coordinates.md",
                 "mode": "source",
                 "source": false
               }
@@ -78,19 +66,19 @@
             }
           },
           {
-            "id": "7dab846f1828ca23",
+            "id": "7c99c9a64c2b8fed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Transducers vs. Sensors vs. Actuators.md",
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -165,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/Transducers vs. Sensors vs. Actuators.md",
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/Transducers vs. Sensors vs. Actuators.md",
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 220/Transducers vs. Sensors vs. Actuators.md"
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md"
               }
             }
           },
@@ -247,17 +235,24 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "7dab846f1828ca23",
+  "active": "7c99c9a64c2b8fed",
   "lastOpenFiles": [
-    "2B/MTE 220/attachments/Transducers vs. Sensors vs. Actuators.png",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/Kanban.md",
+    "2B/MTE 203/Double Integrals with Polar Coordinates.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Sensor Range.md",
+    "2B/MTE 220/attachments/Sensor Range.png",
     "2B/MTE 220/Transducers vs. Sensors vs. Actuators.md",
+    "2B/MTE 220/attachments/Transducers vs. Sensors vs. Actuators.png",
     "2B/MTE 220/Power Inverter.md",
     "2B/MTE 220/attachments/Power Inverter-1.png",
     "2B/MTE 220/attachments/Power Inverter.png",
     "2B/MTE 220/attachments/Power Inverter'.png",
     "2B/MTE 220/Switching Regulators.md",
-    "2B/Kanban.md",
     "2B/MTE 220/attachments/Switching Regulators.png",
     "2B/MTE 220/Linear Regulators.md",
     "2B/MTE 220/attachments/Linear Regulators-1.png",
@@ -268,23 +263,16 @@
     "2B/MTE 220/Half-Wave Rectifier.md",
     "2B/MTE 220/Full-Wave Rectifier.md",
     "2B/MTE 220/Transformers (AC).md",
-    "2B/MTE 220/attachments/Transformers (AC)-1.png",
-    "2B/MTE 220/attachments/Transformers (AC).png",
     "2B/MTE 220/Power Conditioning Circuits Figures of Merit.md",
     "2B/MTE 220/Power Conditioning Circuits.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "2B/MTE 204/Midpoint Method.md",
     "Excalidraw/circuits204.excalidraw.md",
     "2B/MTE 204/Euler's Method.md",
     "2B/MTE 204/Heun's Method.md",
-    "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
     "2B/MTE 220/Batteries.md",
     "2B/MTE 220/Battery Capacity.md",
-    "2B/MTE 220/Rechargeable Batteries.md",
-    "2B/MTE 220/Battery State of Charge.md",
     "Statistics",
     "Blog",
     "ML/Untitled",
