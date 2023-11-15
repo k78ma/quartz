@@ -57,12 +57,13 @@ aliases:
 - [[Numerical Differentiation for 2nd Derivative]]
 ### Ordinary Differential Equations
 - [[ODEs]]
-- [[Runge-Kutta Methods]]
+- [[Runge-Kutta Methods Intro]]
 	- [[Euler's Method]]
 		- [[Implicit Euler]]
 	- [[Heun's Method]]
 	- [[Midpoint Method]] 
 - [[Runge-Kutta Method]]
+- [[Runge-Kutta Questions]]
 - [[Initial Value Problems with ODEs]]
 - [[Boundary Value Problems with ODEs]]
 ### Finite Element Method

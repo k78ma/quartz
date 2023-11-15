@@ -1,5 +1,5 @@
 ---
-title: Runge-Kutta Methods
+title: Runge-Kutta Methods Intro
 tags:
   - mte204
 date: 2023-11-08
