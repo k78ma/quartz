@@ -40,9 +40,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0b6421a42f33c815",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0e02bb5efcb2d1e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00c598fe6d7594e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Sensor Characteristics Example Problem.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -117,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+                "file": "2B/MTE 220/Sensor Characteristics Example Problem.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+                "file": "2B/MTE 220/Sensor Characteristics Example Problem.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md"
+                "file": "2B/MTE 220/Sensor Characteristics Example Problem.md"
               }
             }
           },
@@ -199,11 +235,16 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "26cd29845d5ee370",
+  "active": "00c598fe6d7594e5",
   "lastOpenFiles": [
+    "2B/MTE 220/attachments/Sensor Characteristics Example Problem.png",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Sensor Characteristics Example Problem.md",
+    "2B/MTE 220/Sensor Step Response.md",
+    "2B/MTE 220/attachments/Sensor Step Response.png",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 241/Modular Kernel.md",
     "2B/MTE 241/attachments/Modular Kernel.png",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 241/Monolithic Kernel.md",
     "2B/MTE 241/Microkernel.md",
     "2B/MTE 241/Kernel.md",
@@ -214,7 +255,6 @@
     "2B/MTE 241/attachments/vector table.png",
     "2B/MTE 241/Kernelspace and Userspace.md",
     "2B/MTE 241/attachments/Kernelspace and Userspace.png",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/MTE 241/Operating Modes.md",
     "2B/MTE 241/Concurrency Problems.md",
     "2B/MTE 241/Concurrent vs Parallel.md",
@@ -231,11 +271,8 @@
     "2B/MTE 220/attachments/Sensor Linearity.png",
     "2B/MTE 220/Sensor Resolution.md",
     "2B/MTE 220/Reproducibility.md",
-    "2B/MTE 220/Hysteresis.md",
     "2B/MTE 220/attachments/Hysteresis.png",
-    "2B/MTE 220/Sensor Accuracy.md",
     "2B/MTE 220/attachments/Sensor Accuracy-1.png",
-    "2B/MTE 220/attachments/Sensor Accuracy.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

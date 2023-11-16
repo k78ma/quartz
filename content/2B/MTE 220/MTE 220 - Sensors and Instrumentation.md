@@ -123,7 +123,7 @@ Applications:
 - [[Sensor Resolution]]
 - [[Sensor Linearity]]
 - [[Sensor Step Response]]
-
+- [[Sensor Characteristics Example Problem]]
 #### Sensor Interfacing
 - [[Wheatstone Bridge]]
 
