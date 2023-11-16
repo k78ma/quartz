@@ -10,3 +10,4 @@ Ideas:
 - [ ] Quantum ML project
 - [ ] War sentiment analysis
 - [ ] Self-driving chair/couch
+- [ ] Computer algebra system

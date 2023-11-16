@@ -126,6 +126,7 @@ Applications:
 - [[Sensor Characteristics Example Problem]]
 #### Sensor Interfacing
 - [[Wheatstone Bridge]]
+- [[Pulse Width Modulation]]
 
 ## Labs
 - [[Lab 1]]
