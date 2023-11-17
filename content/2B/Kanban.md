@@ -10,15 +10,14 @@ tags:
 
 ## Today
 
-- [ ] MTE 220 Sensors 2
-- [ ] Nodal (3-7)
+- [ ] Sensors 4
+- [ ] Lecture 18
+- [ ] Sensors (49-50)
 - [ ] SYDE 252 Notes
-- [ ] Runge-Kutta Method
 
 
 ## MTE 203
 
-- [ ] Lecture 18
 - [ ] Lecture 19
 - [ ] Lecture 20
 - [ ] Past/Practice Final
@@ -27,6 +26,7 @@ tags:
 
 ## MTE 220
 
+- [ ] Nodal (3-7)
 - [ ] Mesh (8-11)
 - [ ] Thevenin/Norton (11-15)
 - [ ] Op-Amps (16-25)
@@ -35,7 +35,6 @@ tags:
 - [ ] Diodes (42-44)
 - [ ] Transistors (44-46)
 - [ ] Schmitt Trigger (47-48)
-- [ ] Sensors (49-50)
 - [ ] Sensor Interfacing (51-61)
 - [ ] Filtering (61-74)
 - [ ] Textbook Questions (75-81)
@@ -49,6 +48,7 @@ tags:
 
 - [ ] Pset 4
 - [ ] PSet 6
+- [ ] 2nd-order Example 25.10
 
 
 ## MTE 241
@@ -107,6 +107,9 @@ tags:
 - [ ] Heun's Method
 - [ ] Midpoint method
 - [ ] Lecture 17
+- [ ] MTE 220 Sensors 2
+- [ ] Runge-Kutta Method
+- [ ] Systems of ODEs and 2nd Order ODEs
 
 %% kanban:settings
 ```

@@ -63,9 +63,11 @@ aliases:
 	- [[Heun's Method]]
 	- [[Midpoint Method]] 
 - [[Runge-Kutta Method]]
-- [[Runge-Kutta Questions]]
-- [[Initial Value Problems with ODEs]]
+- [[Systems of ODEs]]
+- [[2nd-order ODEs]]
 - [[Boundary Value Problems with ODEs]]
+	- [[Shooting Method]]
+	- [[Method of Finite Differences]]
 ### Finite Element Method
 - 
 ### Problems

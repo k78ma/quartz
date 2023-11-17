@@ -15,6 +15,8 @@ In simple terms, PWM rapidly turns a signal ON and OFF at high frequency. The av
 
 Averaging the digitally-generated PWM signal provides an analog voltage that can be varied by changing the duty cycle. In Lab 2, we use the signal generator to generate a PWM signal and control the output to change the duty cycle and frequency.
 
+The average value of the signal over time is $V_{+} \times \text{Duty Cycle}$.
+
 #### Pulse repetition frequency (PRF)
 Frequency of rectangular waves, defined as:
 $$
