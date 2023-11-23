@@ -42,6 +42,18 @@
             }
           },
           {
+            "id": "70983dcf7ebcffd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/Region of Convergence and Existence.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "611f2d48d8b7e642",
             "type": "leaf",
             "state": {
@@ -76,21 +88,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3bfd0cf7d7e497cd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -140,7 +140,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -164,7 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/Kanban.md",
+                "file": "2B/SYDE 252/Region of Convergence and Existence.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/Kanban.md",
+                "file": "2B/SYDE 252/Region of Convergence and Existence.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -204,7 +205,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/Kanban.md"
+                "file": "2B/SYDE 252/Region of Convergence and Existence.md"
               }
             }
           },
@@ -246,13 +247,22 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "313691bc8794b861",
+  "active": "70983dcf7ebcffd2",
   "lastOpenFiles": [
-    "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
+    "2B/SYDE 252/attachments/Region of Convergence and Existence-1.png",
+    "2B/SYDE 252/attachments/Region of Convergence and Existence.png",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Region of Convergence and Existence.md",
+    "2B/SYDE 252/Poles and Zeros.md",
+    "2B/SYDE 252/Z-transform for D.T. System Analysis.md",
+    "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
+    "2B/Kanban.md",
+    "2B/SYDE 252/Convolution Integral.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/SYDE 252/Total Response of Linear System.md",
+    "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "2B/SYDE 252/Phase 2 Tasks.md",
     "ML/Machine Learning.md",
     "2B/SYDE 252/attachments/Phase 2-3.png",
@@ -261,7 +271,6 @@
     "2B/SYDE 252/attachments/Phase 2.png",
     "Projects.md",
     "2B/MTE 220/Practice Problems MTE 220.md",
-    "2B/Kanban.md",
     "2B/MTE 241/Kernel.md",
     "2B/MTE 241/Kernelspace and Userspace.md",
     "2B/MTE 241/Executables.md",
@@ -271,18 +280,11 @@
     "2B/MTE 220/Instrumentation Amplifiers.md",
     "ML/Negative log-likelihood.md",
     "ML/Recurrent Neural Networks.md",
-    "ML/Ordinary Least Squares.md",
-    "ML/Backpropagation.md",
-    "ML/Understanding Deep Learning.md",
-    "2B/MTE 220/Pulse Width Modulation.md",
-    "2B/MTE 220/Low-pass Filter.md",
-    "2B/MTE 220/MOSFET.md",
     "2B/MTE 220/attachments/Instrumentation Amplifiers-3.png",
     "2B/MTE 220/attachments/Instrumentation Amplifiers-2.png",
     "2B/MTE 220/attachments/Instrumentation Amplifiers-1.png",
     "2B/MTE 220/attachments/Instrumentation Amplifiers.png",
     "2B/MTE 220/attachments/Single-Ended and Differential Signaling'.png",
-    "2B/MTE 220/attachments/Single-Ended and Differential Signalling.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

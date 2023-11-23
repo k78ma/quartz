@@ -44,10 +44,12 @@ aliases:
 - [[Convolution Integral]]
 - [[Convolution Sum]]
 
+#### Frequency Domain
 - [[Total Response of Linear System]]
-- [[Signals in Frequency Domain]]
-- [[Laplace Transform]]
-- [[Z-transform]]
+- [[Laplace Transform for C.T. System Analysis]]
+- [[Z-transform for D.T. System Analysis]]
+- [[Poles and Zeros]]
+- [[Region of Convergence and Existence]]
 
 #### Problem Types
 - [[System Summation Problems]]

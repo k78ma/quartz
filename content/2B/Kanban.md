@@ -11,9 +11,8 @@ tags:
 ## Today
 
 - [ ] Transistors (44-46)
-- [ ] SYDE 252 Project Phase 2
 - [ ] SYDE 252 Notes
-- [ ] Lab 4
+- [ ] Finite Element Analysis
 
 
 ## MTE 203
@@ -114,6 +113,8 @@ tags:
 - [ ] Notes!!
 - [ ] OS Lab 3
 - [ ] Schmitt Trigger (47-48)
+- [ ] SYDE 252 Project Phase 2
+- [ ] Lab 4
 
 %% kanban:settings
 ```
