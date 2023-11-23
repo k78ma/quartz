@@ -98,16 +98,13 @@ date: 2023-06-25
 - [[Block-NeRF]]
 - [[Instant-NGP]]
 
-## Model Behavior/Alteration
+## Alignment/Model Behavior
 - [[Task Arithmetic|Task Arithmetic]]
 
-## Other
+## Other/Uncategorized
 - [[World Models]]
-
-
 - [[Jacobian]]
 - [[Hessian]]
-
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory|LSTM]]
 - [[Vanishing Gradient Problem]]
@@ -119,3 +116,5 @@ date: 2023-06-25
 - [[Sim2Real]]
 
 [[Paper List]]
+
+[[Understanding Deep Learning]]

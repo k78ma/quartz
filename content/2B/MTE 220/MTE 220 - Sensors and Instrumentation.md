@@ -118,7 +118,7 @@ Applications:
 - [[Sensor Transfer Function]]
 - [[Sensor Accuracy]]
 - [[Sensor Sensitivity]]
-- [[Hysteresis]]
+- [ ] [[Hysteresis]]
 - [[Reproducibility]]
 - [[Sensor Resolution]]
 - [[Sensor Linearity]]
@@ -127,6 +127,10 @@ Applications:
 #### Sensor Interfacing
 - [[Wheatstone Bridge]]
 - [[Pulse Width Modulation]]
+	- [[Low-pass Filter]]
+- [[Single-Ended and Differential Signaling]]
+- [[Instrumentation Amplifiers]]
+- 
 
 ## Labs
 - [[Lab 1]]

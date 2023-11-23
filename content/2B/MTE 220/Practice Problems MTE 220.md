@@ -11,4 +11,8 @@ Keeping notes here on practice problems for reference later when reviewing for f
 - Linear Circuits 8: Not really sure what happened here, GPT doesn't know and solutions don't have steps.
 
 #### Nodal
-- 
+
+
+#### Schmitt Trigger
+- Schmitt Trigger 3 – Didn't really understand the non-inverting Schmitt trigger.
+

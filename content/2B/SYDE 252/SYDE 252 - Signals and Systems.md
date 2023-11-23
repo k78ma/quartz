@@ -8,7 +8,7 @@ tags:
 aliases:
   - SYDE 252
 ---
-#### Intro
+	#### Intro
 - [[Signals|Signals]]
 - [[Systems|Systems]]
 - [[Complex Numbers Review]]
@@ -52,3 +52,6 @@ aliases:
 #### Problem Types
 - [[System Summation Problems]]
 - [[System Convolution Problems]]
+
+#### Project
+- [[Phase 2 Tasks]]

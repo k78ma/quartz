@@ -10,18 +10,19 @@ tags:
 
 ## Today
 
-- [ ] Sensors 4
-- [ ] Lecture 18
-- [ ] Sensors (49-50)
+- [ ] Transistors (44-46)
+- [ ] SYDE 252 Project Phase 2
 - [ ] SYDE 252 Notes
+- [ ] Lab 4
 
 
 ## MTE 203
 
-- [ ] Lecture 19
-- [ ] Lecture 20
-- [ ] Past/Practice Final
 - [ ] Project 2
+- [ ] Lecture 20
+- [ ] Lecture 21
+- [ ] Lecture 22
+- [ ] Past/Practice Final
 
 
 ## MTE 220
@@ -33,8 +34,6 @@ tags:
 - [ ] RC/RL Switching (26-32)
 - [ ] Phasors (33-41)
 - [ ] Diodes (42-44)
-- [ ] Transistors (44-46)
-- [ ] Schmitt Trigger (47-48)
 - [ ] Sensor Interfacing (51-61)
 - [ ] Filtering (61-74)
 - [ ] Textbook Questions (75-81)
@@ -54,8 +53,7 @@ tags:
 ## MTE 241
 
 - [ ] Notes
-- [ ] Lab 3
-- [ ] Lab 4
+- [ ] Lab 5
 - [ ] PSet 1
 - [ ] PSet 2
 - [ ] PSet 3
@@ -64,7 +62,6 @@ tags:
 
 ## SYDE 252
 
-- [ ] Notes!!
 - [ ] HW 4
 - [ ] HW 5
 - [ ] HW 6
@@ -110,6 +107,13 @@ tags:
 - [ ] MTE 220 Sensors 2
 - [ ] Runge-Kutta Method
 - [ ] Systems of ODEs and 2nd Order ODEs
+- [ ] Lecture 18
+- [ ] Sensors (49-50)
+- [ ] Sensors 4
+- [ ] Lecture 19
+- [ ] Notes!!
+- [ ] OS Lab 3
+- [ ] Schmitt Trigger (47-48)
 
 %% kanban:settings
 ```

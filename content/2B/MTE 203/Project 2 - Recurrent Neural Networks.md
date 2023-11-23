@@ -300,6 +300,15 @@ J(y, \hat{y}) = - \sum y_{i} \log (\hat{y}_{i}) = -\log(\hat{y}_{\text{true clas
 $$
 Lastly, AdaGrad (short for Adaptive Gradient Algorithm) is used as an optimization method. This adapts the learning rate $\eta$ to the parameters, performing larger updates for infrequent parameters and smaller updates for frequent ones. This is particularly useful for dealing with sparse data (like text), where some features (like some words) may appear very infrequently.
 
+AdaGrad:
+$$
+\Theta_{t+1}(i) = \Theta_{t}(i) - \frac{\eta}{\sqrt{ G_{t}(i)+\epsilon }} \cdot \nabla J(\Theta_{t}(i))
+$$
+where $\Theta_{t+1}(i)$ is the $i$-th parameter at time step $t+1$, $\eta$ is the initial learning rate and $\epsilon$ is a small smoothing term to avoid division by zero. Most notably, $G_{t}$ is a vector which holds the sum of the squares of past gradients up to time step $t$, such that:
+$$
+G_{t}(i) = G_{t-1}(i)+(\nabla J(\Theta_{t}(i))^{2}
+$$
+Here, $G_{t}(i)$ is the $i$-th component of vector $G_{t}$.
 ## Implementation
 Each part of the model and learning algorithm is introduced and justified.
 #### Problem and Data

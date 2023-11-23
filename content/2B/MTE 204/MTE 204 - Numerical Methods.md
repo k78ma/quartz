@@ -69,7 +69,14 @@ aliases:
 	- [[Shooting Method]]
 	- [[Method of Finite Differences]]
 ### Finite Element Method
+- [[Finite Element Method]]
+
+### Partial Differential Equations
+- [[Partial Differential Equations]]
+- [[Elliptic Equations]]
+- [[Parabolic Equations]]
 - 
+
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
 - [[Midterm Problems 204]]

@@ -20,26 +20,12 @@
             }
           },
           {
-            "id": "26cd29845d5ee370",
+            "id": "313691bc8794b861",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0b6421a42f33c815",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-                "mode": "source",
-                "source": false
+                "file": "2B/Kanban.md"
               }
             }
           },
@@ -56,19 +42,55 @@
             }
           },
           {
-            "id": "e39ca98ed552c7a0",
+            "id": "611f2d48d8b7e642",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 204/Shooting Method.md",
+                "file": "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "9c53249dc0759306",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff4f21db15d991a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bfd0cf7d7e497cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -118,8 +140,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -143,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/Shooting Method.md",
+                "file": "2B/Kanban.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/Shooting Method.md",
+                "file": "2B/Kanban.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -183,7 +204,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/Shooting Method.md"
+                "file": "2B/Kanban.md"
               }
             }
           },
@@ -225,43 +246,43 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "834444e5ce8e5140",
+  "active": "313691bc8794b861",
   "lastOpenFiles": [
-    "2B/MTE 204/Boundary Value Problems with ODEs.md",
-    "2B/MTE 204/Method of Finite Differences.md",
+    "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 204/attachments/Method of Finite Differences-1.png",
-    "2B/MTE 204/attachments/Method of Finite Differences.png",
-    "2B/MTE 204/Shooting Method.md",
-    "2B/MTE 204/Euler's Method.md",
-    "2B/MTE 204/attachments/Pasted image 20231116221822.png",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/MTE 204/attachments/Boundary Value Problems with ODEs.png",
-    "2B/MTE 204/Runge-Kutta Method.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 204/2nd-order ODEs.md",
-    "ML/Machine Learning.md",
-    "2B/Kanban.md",
-    "2B/MTE 204/Systems of ODEs.md",
-    "2B/MTE 204/attachments/Systems of ODEs.png",
-    "2B/MTE 204/Runge-Kutta Questions.md",
-    "CS/Problems/Contains Duplicate (LC 217).md",
-    "CS/Problems/Problems.md",
-    "CS/Problems/Group Anagrams (LC 49).md",
-    "CS/Problems/Product of Array Except Self (LC 238).md",
-    "CS/Problems/Valid Anagram (LC 242).md",
-    "2B/MTE 220/MOSFET.md",
-    "2B/MTE 220/Pulse Width Modulation.md",
-    "Projects.md",
-    "2B/MTE 220/attachments/Pulse Width Modulation.png",
-    "2B/MTE 220/Wheatstone Bridge.md",
-    "2B/MTE 220/attachments/Wheatstone Bridge-3.png",
-    "2B/MTE 220/attachments/Wheatstone Bridge-2.png",
-    "2B/MTE 220/attachments/Wheatstone Bridge-1.png",
-    "2B/MTE 220/attachments/Wheatstone Bridge.png",
-    "2B/MTE 220/Sensor Characteristics Example Problem.md",
-    "2B/MTE 220/Sensor Step Response.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Phase 2 Tasks.md",
+    "ML/Machine Learning.md",
+    "2B/SYDE 252/attachments/Phase 2-3.png",
+    "2B/SYDE 252/attachments/Phase 2-2.png",
+    "2B/SYDE 252/attachments/Phase 2-1.png",
+    "2B/SYDE 252/attachments/Phase 2.png",
+    "Projects.md",
+    "2B/MTE 220/Practice Problems MTE 220.md",
+    "2B/Kanban.md",
+    "2B/MTE 241/Kernel.md",
+    "2B/MTE 241/Kernelspace and Userspace.md",
+    "2B/MTE 241/Executables.md",
+    "Compilation.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "ML/Loss Function.md",
+    "2B/MTE 220/Instrumentation Amplifiers.md",
+    "ML/Negative log-likelihood.md",
+    "ML/Recurrent Neural Networks.md",
+    "ML/Ordinary Least Squares.md",
+    "ML/Backpropagation.md",
+    "ML/Understanding Deep Learning.md",
+    "2B/MTE 220/Pulse Width Modulation.md",
+    "2B/MTE 220/Low-pass Filter.md",
+    "2B/MTE 220/MOSFET.md",
+    "2B/MTE 220/attachments/Instrumentation Amplifiers-3.png",
+    "2B/MTE 220/attachments/Instrumentation Amplifiers-2.png",
+    "2B/MTE 220/attachments/Instrumentation Amplifiers-1.png",
+    "2B/MTE 220/attachments/Instrumentation Amplifiers.png",
+    "2B/MTE 220/attachments/Single-Ended and Differential Signaling'.png",
+    "2B/MTE 220/attachments/Single-Ended and Differential Signalling.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

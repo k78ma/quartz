@@ -17,7 +17,6 @@ Also known as N-FET, N-type MOSFET or N-channel MOSFET. This refers to the fact 
 
 ![[MOSFET Usage.png|152]]
 
-
 This functions as a switch that is normally open and closes when $V_{GS} > V_{t}$. When this happens, we get a drain current $I_{D}$.
 
 For example, we could have a microcontroller connected to the pin. 
