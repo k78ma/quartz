@@ -47,6 +47,7 @@ aliases:
 #### Frequency Domain
 - [[Total Response of Linear System]]
 - [[Laplace Transform for C.T. System Analysis]]
+	- [[Properties of Laplace Transform]]
 - [[Z-transform for D.T. System Analysis]]
 - [[Poles and Zeros]]
 - [[Region of Convergence and Existence]]
