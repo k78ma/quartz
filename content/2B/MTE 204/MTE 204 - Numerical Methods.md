@@ -70,6 +70,7 @@ aliases:
 	- [[Method of Finite Differences]]
 ### Finite Element Method
 - [[Finite Element Method]]
+	- [[Finite Element Method - 1D Poission]]
 
 ### Partial Differential Equations
 - [[Partial Differential Equations]]

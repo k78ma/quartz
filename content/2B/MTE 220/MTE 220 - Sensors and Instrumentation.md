@@ -118,7 +118,7 @@ Applications:
 - [[Sensor Transfer Function]]
 - [[Sensor Accuracy]]
 - [[Sensor Sensitivity]]
-- [ ] [[Hysteresis]]
+- [[Hysteresis]]
 - [[Reproducibility]]
 - [[Sensor Resolution]]
 - [[Sensor Linearity]]

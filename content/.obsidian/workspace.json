@@ -71,14 +71,38 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "2B/MTE 204/Finite Element Method.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "720d3517a987b95f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3967b4ea37642894",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 204/Finite Element Method - 1D Poission.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -153,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/Kanban.md",
+                "file": "2B/MTE 204/Finite Element Method - 1D Poission.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/Kanban.md",
+                "file": "2B/MTE 204/Finite Element Method - 1D Poission.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +217,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/Kanban.md"
+                "file": "2B/MTE 204/Finite Element Method - 1D Poission.md"
               }
             }
           },
@@ -235,9 +259,22 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "313691bc8794b861",
+  "active": "834444e5ce8e5140",
   "lastOpenFiles": [
+    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-4.png",
+    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-3.png",
+    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-2.png",
+    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-1.png",
+    "2B/MTE 204/attachments/Finite Element Method - 1D Poission.png",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 204/Finite Element Method - 1D Poission.md",
+    "2B/MTE 204/Finite Element Method.md",
+    "2B/MTE 204/Cramer's Rule.md",
+    "2B/MTE 204/attachments/Finite Element Method.png",
+    "2B/MTE 204/Method of Finite Differences.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/Kanban.md",
     "2B/MTE 241/Modular Kernel.md",
     "2B/MTE 241/Microkernel.md",
     "2B/MTE 241/Monolithic Kernel.md",
@@ -248,31 +285,18 @@
     "2B/SYDE 252/Poles and Zeros.md",
     "2B/SYDE 252/Z-transform for D.T. System Analysis.md",
     "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
-    "2B/Kanban.md",
     "2B/SYDE 252/Convolution Integral.md",
     "2B/SYDE 252/Total Response of Linear System.md",
     "2B/MTE 203/Project 2 - Recurrent Neural Networks.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/SYDE 252/Phase 2 Tasks.md",
     "ML/Machine Learning.md",
     "2B/SYDE 252/attachments/Phase 2-3.png",
     "2B/SYDE 252/attachments/Phase 2-2.png",
     "2B/SYDE 252/attachments/Phase 2-1.png",
-    "2B/SYDE 252/attachments/Phase 2.png",
     "Projects.md",
     "2B/MTE 220/Practice Problems MTE 220.md",
     "2B/MTE 241/Kernel.md",
     "2B/MTE 241/Kernelspace and Userspace.md",
-    "2B/MTE 241/Executables.md",
-    "Compilation.md",
-    "2B/MTE 203/Suggested Problems.md",
-    "ML/Loss Function.md",
-    "2B/MTE 220/Instrumentation Amplifiers.md",
-    "2B/MTE 220/attachments/Instrumentation Amplifiers-3.png",
-    "2B/MTE 220/attachments/Instrumentation Amplifiers-2.png",
-    "2B/MTE 220/attachments/Instrumentation Amplifiers-1.png",
-    "2B/MTE 220/attachments/Instrumentation Amplifiers.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

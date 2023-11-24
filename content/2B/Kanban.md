@@ -10,15 +10,16 @@ tags:
 
 ## Today
 
+- [ ] Lecture 20
 - [ ] Transistors (44-46)
 - [ ] SYDE 252 Notes
 - [ ] Finite Element Analysis
+- [ ] Sensors 5
 
 
 ## MTE 203
 
 - [ ] Project 2
-- [ ] Lecture 20
 - [ ] Lecture 21
 - [ ] Lecture 22
 - [ ] Past/Practice Final
