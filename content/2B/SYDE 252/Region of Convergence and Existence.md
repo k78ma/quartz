@@ -5,7 +5,7 @@ tags:
 date: 2023-11-22
 aliases:
 ---
-The region in the complex plane for which $\mathcal{L}$ or $Z$ converges or exists.
+The region in the complex plane (set of values $s$) for which $\mathcal{L}$ or $Z$ converges or exists.
 
 For example: $h(t)=e^{-at}u(t)$
 

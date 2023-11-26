@@ -10,11 +10,13 @@ tags:
 
 ## Today
 
+- [ ] SYDE 252 Notes
+- [ ] SYDE A4
+- [ ] FEM Structural Analysis
+- [ ] FEM Project 2
+- [ ] Sensors 5
 - [ ] Lecture 20
 - [ ] Transistors (44-46)
-- [ ] SYDE 252 Notes
-- [ ] Finite Element Analysis
-- [ ] Sensors 5
 
 
 ## MTE 203
@@ -116,6 +118,7 @@ tags:
 - [ ] Schmitt Trigger (47-48)
 - [ ] SYDE 252 Project Phase 2
 - [ ] Lab 4
+- [ ] Finite Element Analysis
 
 %% kanban:settings
 ```

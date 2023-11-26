@@ -14,6 +14,8 @@ For a signal $x(t)$, its Laplace transform $X(s)$ is given by:
 $$
 X(s) = \int_{-\infty}^{\infty} x(t)e^{-st} \, dt 
 $$
+where $s$ is a complex number such that $s+\sigma+j\omega$.
+
 The signal $x(t)$ is said to be the inverse Laplace transform of $X(s)$. It can be shown that:
 $$
 x(t) =\frac{1}{2\pi j} \int_{c-j\infty}^{c+j\infty} X(s)e^{st} \, ds
