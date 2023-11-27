@@ -51,7 +51,7 @@ aliases:
 - [[Z-transform for D.T. System Analysis]]
 - [[Poles and Zeros]]
 - [[Region of Convergence and Existence]]
-- [[Unilateral Laplace Transform]]
+- [[Unilateral Laplace and Z Transform]]
 
 #### Problem Types
 - [[System Summation Problems]]

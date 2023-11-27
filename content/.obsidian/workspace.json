@@ -66,9 +66,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1fdf57586b3cf3fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -143,7 +155,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +172,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -183,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md"
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md"
               }
             }
           },
@@ -225,12 +237,17 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "839aec2759f06e53",
+  "active": "1fdf57586b3cf3fb",
   "lastOpenFiles": [
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/SYDE 252/Region of Convergence and Existence.md",
+    "2B/SYDE 252/Unit step.md",
+    "2B/SYDE 252/Unit impulse.md",
+    "2B/SYDE 252/Properties of Laplace Transform.md",
     "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
+    "2B/MTE 203/Laplace’s Equation.md",
+    "2B/SYDE 252/Unilateral Laplace and Z Transform.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/SYDE 252/Region of Convergence and Existence.md",
     "2B/Kanban.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
@@ -258,10 +275,6 @@
     "ML/Machine Learning.md",
     "2B/SYDE 252/attachments/Phase 2-3.png",
     "2B/SYDE 252/attachments/Phase 2-2.png",
-    "Projects.md",
-    "2B/MTE 220/Practice Problems MTE 220.md",
-    "2B/MTE 241/Kernel.md",
-    "2B/MTE 241/Kernelspace and Userspace.md",
     "Statistics",
     "Blog",
     "ML/Untitled",
