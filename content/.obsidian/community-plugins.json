@@ -1,5 +1,4 @@
 [
-  "table-editor-obsidian",
   "callout-manager",
   "dataview",
   "obsidian-latex-suite",
@@ -23,5 +22,6 @@
   "obsidian-outliner",
   "nl-fast-image-cleaner",
   "oz-clear-unused-images",
-  "pseudocode-in-obs"
+  "pseudocode-in-obs",
+  "table-editor-obsidian"
 ]

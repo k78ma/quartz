@@ -73,7 +73,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 204/Project 2 – Finite Element Analysis.md",
+                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/Project 2 – Finite Element Analysis.md",
+                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/Project 2 – Finite Element Analysis.md",
+                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -207,7 +207,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/Project 2 – Finite Element Analysis.md"
+                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md"
               }
             }
           },
@@ -233,7 +233,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 202.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,18 +242,18 @@
       "templates:Insert template": false,
       "daily-notes:Open today's daily note": true,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "switcher:Open quick switcher": false,
       "omnisearch:Omnisearch": false,
-      "oz-clear-unused-images:Clear Unused Images": false
+      "oz-clear-unused-images:Clear Unused Images": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "18a2539db887c4ef",
+  "active": "834444e5ce8e5140",
   "lastOpenFiles": [
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
     "2B/MTE 204/Finite Element Method.md",
-    "2B/MTE 204/Project 2 – Finite Element Analysis.md",
     "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "2B/SYDE 252/Unit step.md",

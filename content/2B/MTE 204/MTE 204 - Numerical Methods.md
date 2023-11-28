@@ -81,4 +81,4 @@ aliases:
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
 - [[Midterm Problems 204]]
-- [[Project 2 – Finite Element Analysis]]
+- [[MTE 204 Project 2 – Finite Element Analysis]]
