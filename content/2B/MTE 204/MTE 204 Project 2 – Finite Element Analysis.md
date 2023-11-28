@@ -69,13 +69,13 @@ $$
 \end{align}
 $$
 
-This is solved using MATLAB. The engineering stress and strain are also determined using the equations above. The results are summarized in the table below.
+This is solved using MATLAB by simply doing `u = K_global \ F;`. The engineering stress and strain are also determined using the equations above. The results are summarized in the table below.
 
-| Element   | Displacement (m E-5) | Engineering Strain | Stress (Pa E7) |
-| --------- | ------------ | ------------------ | ------ |
-| Element 1 | 0.01001      | 0.000125           | 0.8630 |
-| Element 2 | 0.5503       | 0.000281           | 1.9417 |
-| Element 3   | 0.32518      | 0.001125           | 7.7668 |
+| Element | Displacement (m E-5) | Engineering Strain | Stress (Pa E7) |
+| ------- | -------------------- | ------------------ | -------------- |
+| 1       | 0.01001              | 0.000125           | 0.8630         |
+| 2       | 0.5503               | 0.000281           | 1.9417         |
+| 3       | 0.32518              | 0.001125           | 7.7668         |
 
 To verify our FEA result, we can calculate deformations by hand using the deformation formula. They are given here:
 $$
@@ -109,4 +109,34 @@ k_{e_{2}} = k_{e_{3}}  & = \frac{(200 \times 10^{9}\text{ Pa}) (400\times 10^{-6
 k_{e_{4}}  & =  \frac{(200 \times 10^{9}\text{ Pa}) (400\times 10^{-6}\text{ m})}{2 \text{ m}} = 40000000, \quad \theta_{4}=0
 \end{align}
 $$
-With these, the full local stiffness matrices can be found; they are omitted here for brevity. We can then integrate each element's stiffness matrix into the global stiffness matrix, $K_{\text{global}}$. Since there are four nodes, and each node has 2 degrees of freedom, our global stiffness matrix has dimensions of $8 \times 8$. The placement of each element’s stiffness matrix within $K_{\text{global}}$​ depends on the nodes that the element connects. This is guided by the connectivity matrix. For example, the connectivity matrix states that element 1 connects nodes 1 (A) and 2 (B); thus, its local stiffness matrix affects the DOFs corresponding to these nodes in $K_{\text{global}}$​. Following this approach, the corresponding entries in $K_{\text{global}}$ are updated for each element by adding the element's stiffness contributions to the appropriate positions in the global matrix. 
+With these, the full local stiffness matrices can be found; they are omitted here for brevity. We can then integrate each element's stiffness matrix into the global stiffness matrix, $K_{\text{global}}$. Since there are four nodes, and each node has 2 degrees of freedom, our global stiffness matrix has dimensions of $8 \times 8$. The placement of each element’s stiffness matrix within $K_{\text{global}}$​ depends on the nodes that the element connects. This is guided by the connectivity matrix. For example, the connectivity matrix states that element 1 connects nodes 1 (A) and 2 (B); thus, its local stiffness matrix affects the DOFs corresponding to these nodes in $K_{\text{global}}$​. Following this approach, the corresponding entries in $K_{\text{global}}$ are updated for each element by adding the element's stiffness contributions to the appropriate positions in the global matrix. Finally, boundary conditions are applied to nodes 1 (A) and 4 (D), which are fixed. Fixed nodes have their corresponding rows and columns in the global stiffness matrix set to zero; since this applies to node A (row/columns 1 and 2) and node B (row/columns 7 and 8), our original $8\times8$ matrix is simplified to $4 \times 4$ so that our system of equations is:
+$$
+\begin{align}
+\{ F \}  & = [K]\{ \delta \} \\[3ex]  \\
+\begin{Bmatrix}
+0 \\
+-51000 \\
+0 \\
+0
+\end{Bmatrix}  & =10^{7} \times \begin{bmatrix}
+3.4142 & 1.4142 & -1.4142 & -1.4142 \\
+1.4142 & 1.4147 & -1.4142  & -1.4142 \\
+-1.4142 & -1.4142 & 6.8284 & 0 \\
+-1.4142 & -1.4142 & 0 & 2.8284
+\end{bmatrix} \ \begin{Bmatrix}
+\delta_{3} \\
+\delta_{4} \\
+\delta_{5} \\
+\delta_{6}
+\end{Bmatrix}
+\end{align}
+$$
+
+This is once again solved with MATLAB by setting up the matrices and calling `u = K_global \ F;`. Results for interior force, change in length, engineering stress and strain, and horizontal/vertical displacements are shown in the table below.
+
+| Element | Interior force | Change in length | Stress      | Strain      | Horizontal d | Vertical d  | FS     |
+| ------- | -------------- | ---------------- | ----------- | ----------- | ------------ | ----------- | ------ |
+| 1       | 51 kN (T)      |                  | 0.1275 GPa  | 6.3750e-04  | 0            | 0           | 1.9608 |
+| 2       | -72.12 kN (C)  |                  | -0.1803 GPa | -9.0156e-04 | 2.55e-03     | -1.4862e-02 | 1.3865 |
+| 3       | 72.12 kN (T)   |                  | 0.1803 GPa  | 9.0156e-04  | -2.5500e-03  | -6.1562e-03 | 1.3865 |
+| 4       | -102 kN (C)    |                  | -2.55 GPa   | -1.2750e-03 | 0            | 0           | 0.9804 | 
