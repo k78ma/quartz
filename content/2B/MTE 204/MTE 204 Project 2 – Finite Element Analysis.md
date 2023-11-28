@@ -30,11 +30,11 @@ This matrix shows the force response at each end of the element due to a unit di
 
 Using the values of $E=200 \text{ GPa}$, we can find the value of $k$ for each the local stiffness matrix of each element. $L$ differs for each element and is directly given. $A$ can be found by taking the given diameter and calculating $\pi \left( \frac{d}{2} \right)^{2}$. We have:
 $$
-\begin{align}
+\begin{align*}
 k_{e_{1}}  & = \frac{200 \times  10^{9}\text{ Pa} \cdot 0.08 \text{m}}{\pi \left( \frac{0.03}{2}\text{ m} \right)^{2}} = 609665324.34 \\[3ex] 
 k_{e_{2}}  & = \frac{200 \times  10^{9}\text{ Pa} \cdot 0.16 \text{m}}{\pi \left( \frac{0.02}{2}\text{ m} \right)^{2}} = 135481183.19 \\[3ex] 
 k_{e_{1}}  & = \frac{200 \times  10^{9}\text{ Pa} \cdot 0.24 \text{m}}{\pi \left( \frac{0.01}{3}\text{ m} \right)^{2}} = 22580197.24
-\end{align}
+\end{align*}
 $$
 These $k$ values in the local stiffness matrices are then used to assemble our global stiffness matrix. Our global stiffness matrix has dimensions $4\times 4$ since we have $4$ nodes. We also need to consider boundary conditions; specifically, the left end of $e_{1}$ is fixed so there is no displacement ($\delta_{1}=0$). Thus, all of the influences on Node 1 are set to zero, but $K_{11}$ is set to $1$ to reflect that it is fixed.
 $$
@@ -48,7 +48,7 @@ K_{\text{global}} =
 $$
 Thus, our full systems of equations is:
 $$
-\begin{align}
+\begin{align*}
 \{ F \}  & = [K]\{ \delta \} \\[3ex] 
 \begin{Bmatrix}
 0 \\
@@ -66,7 +66,7 @@ $$
 \delta_{3} \\
 \delta_{4}
 \end{Bmatrix}
-\end{align}
+\end{align*}
 $$
 
 This is solved using MATLAB by simply doing `u = K_global \ F;`. The engineering stress and strain are also determined using the equations above. The results are summarized in the table below.
@@ -79,11 +79,11 @@ This is solved using MATLAB by simply doing `u = K_global \ F;`. The engineering
 
 To verify our FEA result, we can calculate deformations by hand using the deformation formula. They are given here:
 $$
-\begin{align}
+\begin{align*}
 \delta_{1}  & = \frac{FL_{1}}{A_{1}E} = \frac{6100 \text{ N}(0.08\text{ m})}{\pi \left( \frac{0.03}{2}\text{ m} \right)^{2}(69\times 10^{9}\text{ Pa})} = 0.01001 \times  10^{-3} \text{ m} \\[3ex] 
 \delta_{2} & = \frac{FL_{2}}{A_{2}E} + \delta_{1} = \frac{6100 \text{ N}(0.16\text{ m})}{\pi \left( \frac{0.02}{2}\text{ m} \right)^{2}(69\times 10^{9}\text{ Pa})} + 0.01001 \times  10^{-3} = 0.05503 \times  10^{-3} \text{m} \\[3ex] 
 \delta_{3} & = \frac{FL_{2}}{A_{2}E} + \delta_{1} = \frac{6100 \text{ N}(0.24\text{ m})}{\pi \left( \frac{0.01}{2}\text{ m} \right)^{2}(69\times 10^{9}\text{ Pa})} + 0.05503 \times  10^{-3} \text{ m} = 0.32503 \times  10^{-3} \text{m}
-\end{align}
+\end{align*}
 $$
 These are consistent with our FEA calculations!
 ### Problem #2: Deformation of a Truss Structure
@@ -103,16 +103,16 @@ k_{\text{local}} = k_{e_{i}} \times
 $$
 where $k_{e_{i}} = EA / L$This reflects the element's response to axial, shear, and bending forces, assuming linear elastic behavior. By incorporating the directional cosines and cosines, the matrix is also in the global coordinate system. For our elements, we have:
 $$
-\begin{align}
+\begin{align*}
 k_{e_{1}}  & = \frac{(200 \times 10^{9}\text{ Pa}) (400\times 10^{-6}\text{ m})}{4 \text{ m}} = 20000000, \quad \theta_{1} = 0 \\[3ex] 
 k_{e_{2}} = k_{e_{3}}  & = \frac{(200 \times 10^{9}\text{ Pa}) (400\times 10^{-6}\text{ m})}{2\sqrt{ 2 } \text{ m}} = 20000000\sqrt{ 2 }, \quad \theta_{2}=\theta_{3} = 45 \\[3ex] 
 k_{e_{4}}  & =  \frac{(200 \times 10^{9}\text{ Pa}) (400\times 10^{-6}\text{ m})}{2 \text{ m}} = 40000000, \quad \theta_{4}=0
-\end{align}
+\end{align*}
 $$
 With these, the full local stiffness matrices can be found; they are omitted here for brevity. We can then integrate each element's stiffness matrix into the global stiffness matrix, $K_{\text{global}}$. Since there are four nodes, and each node has 2 degrees of freedom, our global stiffness matrix has dimensions of $8 \times 8$. The placement of each element’s stiffness matrix within $K_{\text{global}}$​ depends on the nodes that the element connects. This is guided by the connectivity matrix. For example, the connectivity matrix states that element 1 connects nodes 1 (A) and 2 (B); thus, its local stiffness matrix affects the DOFs corresponding to these nodes in $K_{\text{global}}$​. Following this approach, the corresponding entries in $K_{\text{global}}$ are updated for each element by adding the element's stiffness contributions to the appropriate positions in the global matrix. Finally, boundary conditions are applied to nodes 1 (A) and 4 (D), which are fixed. Fixed nodes have their corresponding rows and columns in the global stiffness matrix set to zero; since this applies to node A (row/columns 1 and 2) and node B (row/columns 7 and 8), our original $8\times8$ matrix is simplified to $4 \times 4$ so that our system of equations is:
 $$
-\begin{align}
-\{ F \}  & = [K]\{ \delta \} \\[3ex]  \\
+\begin{align*}
+\{ F \}  & = [K]\{ \delta \} \\[3ex]
 \begin{Bmatrix}
 0 \\
 -51000 \\
@@ -129,14 +129,18 @@ $$
 \delta_{5} \\
 \delta_{6}
 \end{Bmatrix}
-\end{align}
+\end{align*}
 $$
 
 This is once again solved with MATLAB by setting up the matrices and calling `u = K_global \ F;`. Results for interior force, change in length, engineering stress and strain, and horizontal/vertical displacements are shown in the table below.
 
-| Element | Interior force | Change in length | Stress      | Strain      | Horizontal d | Vertical d  | FS     |
+| Element | Interior force | Change in length | Stress (GPa)     | Strain      | Hor. Disp. | Ver. Disp.  | FS     |
 | ------- | -------------- | ---------------- | ----------- | ----------- | ------------ | ----------- | ------ |
-| 1       | 51 kN (T)      |        2.5776e-03          | 0.1275 GPa  | 6.3750e-04  | 0            | 0           | 1.9608 |
-| 2       | -72.12 kN (C)  |     -2.5331e-03             | -0.1803 GPa | -9.0156e-04 | 2.55e-03     | -1.4862e-02 | 1.3865 |
-| 3       | 72.12 kN (T)   |     2.5567e-03             | 0.1803 GPa  | 9.0156e-04  | -2.5500e-03  | -6.1562e-03 | 1.3865 |
-| 4       | -102 kN (C)    |        -2.5405e-03          | -2.55 GPa   | -1.2750e-03 | 0            | 0           | 0.9804 | 
+| 1       | 51 kN (T)      |        2.5776e-03          | 0.1275  | 6.3750e-04  | 0            | 0           | 1.9608 |
+| 2       | -72.12 kN (C)  |     -2.5331e-03             | -0.1803 | -9.0156e-04 | 2.55e-03     | -1.4862e-02 | 1.3865 |
+| 3       | 72.12 kN (T)   |     2.5567e-03             | 0.1803  | 9.0156e-04  | -2.5500e-03  | -6.1562e-03 | 1.3865 |
+| 4       | -102 kN (C)    |        -2.5405e-03          | -2.55   | -1.2750e-03 | 0            | 0           | 0.9804 | 
+
+We can verify these by using the method of joints on the truss structure to calculate internal forces. The figure below shows this process.
+
+![[MTE 204 Project 2 – Finite Element Analysis.png|488]]
