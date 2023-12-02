@@ -1,12 +1,10 @@
 ---
-
 kanban-plugin: basic
-
+draft: "true"
 ---
 
 ## Dec 2
 
-- [ ] MTE 220 - Filters 1
 - [ ] MTE 203 - LEC 20
 - [ ] MTE 220 - Filters 2
 - [ ] MTE 220 - Tutorial 1
@@ -60,6 +58,7 @@ kanban-plugin: basic
 - [ ] MTE 220 - Tutorial 7
 - [ ] Quiz Review
 - [ ] MTE 204 - 8.2
+- [ ] MTE 220 - Crib Sheet
 
 
 ## Dec 8
@@ -118,7 +117,11 @@ kanban-plugin: basic
 - [ ] SYDE 252 Final
 
 
+***
 
+## Archive
+
+- [ ] MTE 220 - Filters 1
 
 %% kanban:settings
 ```

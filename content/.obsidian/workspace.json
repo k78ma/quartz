@@ -56,31 +56,7 @@
             }
           },
           {
-            "id": "7800c2ab6ea989b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Laplace Domain Premise.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c368178cc7ba3b3d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 220/Active Sensor Principles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2f67fffb145c1123",
+            "id": "32e2562a4b301ad8",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -88,19 +64,9 @@
                 "file": "Finals Study.md"
               }
             }
-          },
-          {
-            "id": "f950c031de521415",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "2B/Kanban.md"
-              }
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -146,11 +112,13 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -256,43 +224,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2f67fffb145c1123",
+  "active": "32e2562a4b301ad8",
   "lastOpenFiles": [
-    "2B/Kanban.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "Finals Study.md",
-    "attachments/Pasted image 20231202001640.png",
+    "2B/MTE 220/Circuit to Transfer Function.md",
+    "2B/MTE 220/attachments/Circuit to Transfer Function-1.png",
+    "2B/MTE 220/attachments/Circuit to Transfer Function.png",
+    "2B/MTE 220/Laplace Domain RC Circuit.md",
+    "2B/MTE 220/Transfer Functions.md",
+    "2B/MTE 220/attachments/Transfer Functions-1.png",
+    "2B/MTE 220/Signals in Different Domains.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 220/Inverting Summing Amplifier.md",
+    "2B/MTE 220/Sensor Step Response.md",
+    "2B/MTE 220/Laplace Domain Premise.md",
+    "2B/MTE 220/attachments/Transfer Functions.png",
+    "2B/MTE 220/Decibels.md",
+    "2B/MTE 220/attachments/Decibels.png",
+    "2B/MTE 220/attachments/Signals in Different Domains-4.png",
+    "2B/MTE 220/attachments/Signals in Different Domains-3.png",
+    "2B/MTE 220/attachments/Signals in Different Domains-2.png",
+    "2B/MTE 220/attachments/Signals in Different Domains-1.png",
+    "2B/MTE 220/attachments/Signals in Different Domains.png",
+    "2B/Kanban.md",
     "attachments",
     "2B/MTE 220/Active Sensor Principles.md",
     "ML/Machine Learning.md",
-    "2B/MTE 220/Laplace Domain Premise.md",
-    "2B/MTE 220/attachments/Laplace Domain Premise.png",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "2B/MTE 220/Photovoltaic Effect.md",
     "2B/MTE 220/Photoelectric Effect.md",
     "2B/MTE 220/Piezoelectric Effect.md",
-    "2B/MTE 220/attachments/Piezoelectric Effect.png",
     "2B/MTE 220/Thermoelectric Effect.md",
     "2B/MTE 220/Electromagnetic Effect.md",
-    "2B/MTE 220/attachments/Electromagnetic Effect.png",
     "2B/MTE 220/Hall Effect.md",
     "2B/MTE 220/Inductive Sensing Techniques.md",
-    "2B/MTE 220/attachments/Inductive Sensing Techniques.png",
     "2B/MTE 220/Capacitive Sensing Techniques.md",
-    "2B/MTE 220/attachments/Capacitive Sensing Techniques-1.png",
-    "2B/MTE 220/attachments/Capacitive Sensing Techniques.png",
     "2B/MTE 220/Resistive Sensing Techniques.md",
     "2B/MTE 220/Low-pass Filter.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 220/Battery Capacity.md",
-    "2B/MTE 220/Battery Packs.md",
-    "2B/MTE 220/Power Supplies.md",
-    "2B/MTE 220/Battery State of Charge.md",
-    "2B/MTE 220/Power Sources.md",
-    "2B/MTE 220/Schmitt Trigger.md",
-    "2B/MTE 220/Signal Reference Voltage.md",
-    "2B/MTE 220/attachments/Resistive Sensing Techniques-3.png",
-    "2B/MTE 220/attachments/Resistive Sensing Techniques-2.png",
-    "2B/MTE 220/attachments/Resistive Sensing Techniques-1.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

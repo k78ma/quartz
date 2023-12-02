@@ -150,7 +150,12 @@ Applications:
 
 ## Filtering
 - [[Laplace Domain Premise]]
-
+- [[Signals in Different Domains]]
+- [[Decibels]]
+- [[Transfer Functions]]
+	- [[Laplace Domain RC Circuit]]
+	- [[Circuit to Transfer Function]]
+- [[Bode Plots]]
 ## Labs
 - [[Lab 1]]
 - [[Lab 2]]

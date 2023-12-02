@@ -1,7 +1,7 @@
 ---
 title: Sensor Step Response
 tags:
-  - syde252
+  - mte220
 date: 2023-11-15
 aliases:
 ---

@@ -1,6 +1,7 @@
 ---
 title: Inverting Summing Amplifier
-tags: 
+tags:
+  - mte220
 date: 2023-10-09
 ---
 ![[Inverting Summing Amplifier.png|297]]
