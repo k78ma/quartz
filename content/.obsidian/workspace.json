@@ -80,11 +80,23 @@
             }
           },
           {
-            "id": "14bcfd99efb0e8b2",
+            "id": "2f67fffb145c1123",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "kanban",
+              "state": {
+                "file": "Finals Study.md"
+              }
+            }
+          },
+          {
+            "id": "f950c031de521415",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "2B/Kanban.md"
+              }
             }
           }
         ],
@@ -138,8 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -163,6 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Finals Study.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,6 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Finals Study.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -200,7 +213,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Finals Study.md"
+              }
             }
           },
           {
@@ -225,7 +240,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 688.5
+    "width": 285.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,10 +256,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "14bcfd99efb0e8b2",
+  "active": "2f67fffb145c1123",
   "lastOpenFiles": [
-    "2B/MTE 220/Active Sensor Principles.md",
+    "2B/Kanban.md",
     "Finals Study.md",
+    "attachments/Pasted image 20231202001640.png",
+    "attachments",
+    "2B/MTE 220/Active Sensor Principles.md",
     "ML/Machine Learning.md",
     "2B/MTE 220/Laplace Domain Premise.md",
     "2B/MTE 220/attachments/Laplace Domain Premise.png",
@@ -272,13 +290,9 @@
     "2B/MTE 220/Power Sources.md",
     "2B/MTE 220/Schmitt Trigger.md",
     "2B/MTE 220/Signal Reference Voltage.md",
-    "2B/MTE 220/Comparator.md",
-    "2B/MTE 220/Diode Intro.md",
-    "2B/MTE 220/Thevenin and Norton Representations.md",
     "2B/MTE 220/attachments/Resistive Sensing Techniques-3.png",
     "2B/MTE 220/attachments/Resistive Sensing Techniques-2.png",
     "2B/MTE 220/attachments/Resistive Sensing Techniques-1.png",
-    "2B/MTE 220/attachments/Resistive Sensing Techniques.png",
     "Statistics",
     "Blog",
     "ML/Untitled",
@@ -290,7 +304,6 @@
     "Thevenin",
     "2B/MTE 220/attachments",
     "2B/MTE 241/attachments",
-    "2B/SYDE 252/attachments",
     "Other/idfk.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas"

@@ -14,7 +14,6 @@ tags:
 - [ ] FEM Structural Analysis
 - [ ] Sensors 5
 - [ ] Lecture 20
-- [ ] Transistors (44-46)
 
 
 ## MTE 203
@@ -26,20 +25,8 @@ tags:
 
 ## MTE 220
 
-- [ ] Nodal (3-7)
-- [ ] Mesh (8-11)
-- [ ] Thevenin/Norton (11-15)
-- [ ] Op-Amps (16-25)
-- [ ] RC/RL Switching (26-32)
 - [ ] Phasors (33-41)
-- [ ] Diodes (42-44)
-- [ ] Sensor Interfacing (51-61)
-- [ ] Filtering (61-74)
 - [ ] Textbook Questions (75-81)
-- [ ] F2022 D-Midterm
-- [ ] S2022 Final
-- [ ] S2023 Final
-- [ ] F2022 Final
 
 
 ## MTE 204
