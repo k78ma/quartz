@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "91bdbf6fcd0607f3",
+            "id": "32e2562a4b301ad8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "ML/Machine Learning.md",
-                "mode": "source",
-                "source": false
+                "file": "Finals Study.md"
               }
             }
           },
@@ -49,24 +47,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 220/Bode Magnitude Plots.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "32e2562a4b301ad8",
+            "id": "23cdb2a33f53109d",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Finals Study.md"
+                "file": "2B/MTE 220/Low-pass Filter.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Finals Study.md",
+                "file": "2B/MTE 220/Bode Magnitude Plots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Finals Study.md",
+                "file": "2B/MTE 220/Bode Magnitude Plots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Finals Study.md"
+                "file": "2B/MTE 220/Bode Magnitude Plots.md"
               }
             }
           },
@@ -224,10 +224,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "32e2562a4b301ad8",
+  "active": "9c53249dc0759306",
   "lastOpenFiles": [
+    "2B/MTE 220/attachments/Bode Magnitude Plots.png",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Bode Magnitude Plots.md",
+    "2B/MTE 220/Bode Plots.md",
+    "2B/MTE 220/attachments/Bode Plots-1.png",
+    "2B/MTE 220/attachments/Bode Plots.png",
+    "2B/MTE 220/Low-pass Filter.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "Finals Study.md",
+    "ML/Machine Learning.md",
     "2B/MTE 220/Circuit to Transfer Function.md",
     "2B/MTE 220/attachments/Circuit to Transfer Function-1.png",
     "2B/MTE 220/attachments/Circuit to Transfer Function.png",
@@ -245,12 +253,9 @@
     "2B/MTE 220/attachments/Signals in Different Domains-4.png",
     "2B/MTE 220/attachments/Signals in Different Domains-3.png",
     "2B/MTE 220/attachments/Signals in Different Domains-2.png",
-    "2B/MTE 220/attachments/Signals in Different Domains-1.png",
-    "2B/MTE 220/attachments/Signals in Different Domains.png",
     "2B/Kanban.md",
     "attachments",
     "2B/MTE 220/Active Sensor Principles.md",
-    "ML/Machine Learning.md",
     "2B/MTE 220/Photovoltaic Effect.md",
     "2B/MTE 220/Photoelectric Effect.md",
     "2B/MTE 220/Piezoelectric Effect.md",
@@ -258,10 +263,6 @@
     "2B/MTE 220/Electromagnetic Effect.md",
     "2B/MTE 220/Hall Effect.md",
     "2B/MTE 220/Inductive Sensing Techniques.md",
-    "2B/MTE 220/Capacitive Sensing Techniques.md",
-    "2B/MTE 220/Resistive Sensing Techniques.md",
-    "2B/MTE 220/Low-pass Filter.md",
-    "2B/MTE 220/Battery Capacity.md",
     "Statistics",
     "Blog",
     "ML/Untitled",

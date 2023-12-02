@@ -156,6 +156,8 @@ Applications:
 	- [[Laplace Domain RC Circuit]]
 	- [[Circuit to Transfer Function]]
 - [[Bode Plots]]
+- [[Bode Magnitude Plots]]
+
 ## Labs
 - [[Lab 1]]
 - [[Lab 2]]
