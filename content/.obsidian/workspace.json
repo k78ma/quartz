@@ -49,50 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "720d3517a987b95f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "18a2539db887c4ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fdf57586b3cf3fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
+                "file": "2B/MTE 220/Low-pass Filter.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -167,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
+                "file": "2B/MTE 220/Low-pass Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
+                "file": "2B/MTE 220/Low-pass Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -207,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md"
+                "file": "2B/MTE 220/Low-pass Filter.md"
               }
             }
           },
@@ -249,44 +213,44 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "18a2539db887c4ef",
+  "active": "9c53249dc0759306",
   "lastOpenFiles": [
-    "2B/MTE 204/attachments/MTE 204 Project 2 – Finite Element Analysis.png",
-    "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Battery Capacity.md",
+    "2B/MTE 220/Battery Packs.md",
+    "2B/MTE 220/Power Supplies.md",
+    "2B/MTE 220/Battery State of Charge.md",
+    "2B/MTE 220/Power Sources.md",
+    "2B/MTE 220/Schmitt Trigger.md",
+    "2B/MTE 220/Signal Reference Voltage.md",
+    "2B/MTE 220/Comparator.md",
+    "2B/MTE 220/Diode Intro.md",
+    "2B/MTE 220/Thevenin and Norton Representations.md",
+    "2B/MTE 220/Resistive Sensing Techniques.md",
+    "2B/MTE 220/attachments/Resistive Sensing Techniques-3.png",
+    "2B/MTE 220/attachments/Resistive Sensing Techniques-2.png",
+    "2B/MTE 220/attachments/Resistive Sensing Techniques-1.png",
+    "2B/MTE 220/attachments/Resistive Sensing Techniques.png",
+    "2B/MTE 220/Passive Sensor Principles.md",
+    "2B/MTE 220/attachments/Passive Sensor Principles-1.png",
+    "2B/MTE 220/attachments/Passive Sensor Principles.png",
+    "2B/MTE 220/Passive vs. Active Sensors.md",
+    "2B/MTE 220/attachments/Passive vs. Active Sensors-1.png",
+    "2B/MTE 220/attachments/Passive vs. Active Sensors.png",
+    "2B/MTE 220/Voltage Translation Interfacing.md",
+    "2B/MTE 220/attachments/Voltage Translation Interfacing-2.png",
+    "2B/MTE 220/attachments/Voltage Translation Interfacing-1.png",
+    "2B/MTE 220/ADCs and DACs.md",
+    "2B/MTE 220/Analog to Digital Threshold Detection.md",
+    "2B/Kanban.md",
+    "Vault Stats.md",
     "2B/MTE 204/Finite Element Method.md",
+    "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
+    "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "2B/SYDE 252/Unit step.md",
-    "2B/SYDE 252/Unit impulse.md",
-    "2B/SYDE 252/Properties of Laplace Transform.md",
-    "2B/MTE 203/Laplace’s Equation.md",
-    "2B/SYDE 252/Unilateral Laplace and Z Transform.md",
-    "2B/SYDE 252/Region of Convergence and Existence.md",
-    "2B/Kanban.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 204/Finite Element Method - 1D Poission.md",
-    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-4.png",
-    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-3.png",
-    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-2.png",
-    "2B/MTE 204/attachments/Finite Element Method - 1D Poission-1.png",
-    "2B/MTE 204/attachments/Finite Element Method - 1D Poission.png",
-    "2B/MTE 204/Cramer's Rule.md",
-    "2B/MTE 204/attachments/Finite Element Method.png",
-    "2B/MTE 204/Method of Finite Differences.md",
-    "2B/MTE 241/Modular Kernel.md",
-    "2B/MTE 241/Microkernel.md",
-    "2B/MTE 241/Monolithic Kernel.md",
-    "2B/SYDE 252/attachments/Region of Convergence and Existence-1.png",
-    "2B/SYDE 252/attachments/Region of Convergence and Existence.png",
-    "2B/SYDE 252/Poles and Zeros.md",
-    "2B/SYDE 252/Z-transform for D.T. System Analysis.md",
-    "2B/SYDE 252/Convolution Integral.md",
-    "2B/SYDE 252/Total Response of Linear System.md",
-    "2B/SYDE 252/attachments/Phase 2-3.png",
-    "2B/SYDE 252/attachments/Phase 2-2.png",
     "Statistics",
     "Blog",
     "ML/Untitled",

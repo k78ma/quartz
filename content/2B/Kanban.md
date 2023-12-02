@@ -11,9 +11,7 @@ tags:
 ## Today
 
 - [ ] SYDE 252 Notes
-- [ ] SYDE A4
 - [ ] FEM Structural Analysis
-- [ ] FEM Project 2
 - [ ] Sensors 5
 - [ ] Lecture 20
 - [ ] Transistors (44-46)
@@ -21,7 +19,6 @@ tags:
 
 ## MTE 203
 
-- [ ] Project 2
 - [ ] Lecture 21
 - [ ] Lecture 22
 - [ ] Past/Practice Final
@@ -119,6 +116,9 @@ tags:
 - [ ] SYDE 252 Project Phase 2
 - [ ] Lab 4
 - [ ] Finite Element Analysis
+- [ ] FEM Project 2
+- [ ] SYDE A4
+- [ ] Project 2
 
 %% kanban:settings
 ```

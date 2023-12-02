@@ -8,10 +8,11 @@ The low pass filter allows low-frequency signals to pass through while attenuati
 
 >[!info] Corner/cutoff frequency
 >Frequency above which the filter attenuates the input signal. 
->Defined as $\omega_{c}$ in $\text{[rad/s]}$ or $f_{c}$ in $te[Hz]$, depends on the time constant of the RC or RC circuit:
+>Defined as $\omega_{c}$ in $\text{[rad/s]}$ or $f_{c}$ in $\text{[Hz]}$, depends on the time constant of the RC or RC circuit:
 >$$
 >\omega_{c}=2\pi f_{c} = \frac{1}{\tau}
- $$
+>$$
+
 
 - Allow signals to pass through with minimal attenuation at frequencies below the corner frequency
 - Progressively attenuate the signal as the frequency increases above the corner frequency

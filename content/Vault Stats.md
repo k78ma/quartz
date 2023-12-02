@@ -6,7 +6,8 @@ draft: "true"
 ---
 
 ```dataview 
-TABLE tag, date
+TABLE tags, date
 SORT date DESC 
 ```
+
 

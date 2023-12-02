@@ -130,7 +130,13 @@ Applications:
 	- [[Low-pass Filter]]
 - [[Single-Ended and Differential Signaling]]
 - [[Instrumentation Amplifiers]]
-- 
+- [[Analog to Digital Threshold Detection]]
+- [[ADCs and DACs]]
+- [[Voltage Translation Interfacing]]
+#### Passive Sensors and Techniques
+- [[Passive vs. Active Sensors]]
+- [[Passive Sensor Principles]]
+- [[Resistive Sensing Techniques]]
 
 ## Labs
 - [[Lab 1]]
