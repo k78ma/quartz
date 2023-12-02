@@ -137,6 +137,19 @@ Applications:
 - [[Passive vs. Active Sensors]]
 - [[Passive Sensor Principles]]
 - [[Resistive Sensing Techniques]]
+- [[Capacitive Sensing Techniques]]
+- [[Inductive Sensing Techniques]]
+#### Active Sensors and Techniques
+- [[Active Sensor Principles]]
+- [[Hall Effect]]
+- [[Electromagnetic Effect]]
+- [[Thermoelectric Effect]]
+- [[Piezoelectric Effect]]
+- [[Photoelectric Effect]]
+- [[Photovoltaic Effect]]
+
+## Filtering
+- [[Laplace Domain Premise]]
 
 ## Labs
 - [[Lab 1]]

@@ -29,3 +29,4 @@ aliases:
 - Can use $V_{out}$ or $I_{out}$ configuration for high or low $R_{x}$
 - More components
 - Receiver must accept differential voltage signal or current signal
+- We can use a TIA (tranimpedance amplifier) to take $I$ in and give $V$ out.

@@ -49,14 +49,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Low-pass Filter.md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "7800c2ab6ea989b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Laplace Domain Premise.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c368178cc7ba3b3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Active Sensor Principles.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "14bcfd99efb0e8b2",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -131,7 +163,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/Low-pass Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +179,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/Low-pass Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,9 +200,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "2B/MTE 220/Low-pass Filter.md"
-              }
+              "state": {}
             }
           },
           {
@@ -197,7 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 688.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,9 +241,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9c53249dc0759306",
+  "active": "14bcfd99efb0e8b2",
   "lastOpenFiles": [
+    "2B/MTE 220/Active Sensor Principles.md",
+    "Finals Study.md",
+    "ML/Machine Learning.md",
+    "2B/MTE 220/Laplace Domain Premise.md",
+    "2B/MTE 220/attachments/Laplace Domain Premise.png",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Photovoltaic Effect.md",
+    "2B/MTE 220/Photoelectric Effect.md",
+    "2B/MTE 220/Piezoelectric Effect.md",
+    "2B/MTE 220/attachments/Piezoelectric Effect.png",
+    "2B/MTE 220/Thermoelectric Effect.md",
+    "2B/MTE 220/Electromagnetic Effect.md",
+    "2B/MTE 220/attachments/Electromagnetic Effect.png",
+    "2B/MTE 220/Hall Effect.md",
+    "2B/MTE 220/Inductive Sensing Techniques.md",
+    "2B/MTE 220/attachments/Inductive Sensing Techniques.png",
+    "2B/MTE 220/Capacitive Sensing Techniques.md",
+    "2B/MTE 220/attachments/Capacitive Sensing Techniques-1.png",
+    "2B/MTE 220/attachments/Capacitive Sensing Techniques.png",
+    "2B/MTE 220/Resistive Sensing Techniques.md",
+    "2B/MTE 220/Low-pass Filter.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 220/Battery Capacity.md",
     "2B/MTE 220/Battery Packs.md",
     "2B/MTE 220/Power Supplies.md",
@@ -226,31 +275,10 @@
     "2B/MTE 220/Comparator.md",
     "2B/MTE 220/Diode Intro.md",
     "2B/MTE 220/Thevenin and Norton Representations.md",
-    "2B/MTE 220/Resistive Sensing Techniques.md",
     "2B/MTE 220/attachments/Resistive Sensing Techniques-3.png",
     "2B/MTE 220/attachments/Resistive Sensing Techniques-2.png",
     "2B/MTE 220/attachments/Resistive Sensing Techniques-1.png",
     "2B/MTE 220/attachments/Resistive Sensing Techniques.png",
-    "2B/MTE 220/Passive Sensor Principles.md",
-    "2B/MTE 220/attachments/Passive Sensor Principles-1.png",
-    "2B/MTE 220/attachments/Passive Sensor Principles.png",
-    "2B/MTE 220/Passive vs. Active Sensors.md",
-    "2B/MTE 220/attachments/Passive vs. Active Sensors-1.png",
-    "2B/MTE 220/attachments/Passive vs. Active Sensors.png",
-    "2B/MTE 220/Voltage Translation Interfacing.md",
-    "2B/MTE 220/attachments/Voltage Translation Interfacing-2.png",
-    "2B/MTE 220/attachments/Voltage Translation Interfacing-1.png",
-    "2B/MTE 220/ADCs and DACs.md",
-    "2B/MTE 220/Analog to Digital Threshold Detection.md",
-    "2B/Kanban.md",
-    "Vault Stats.md",
-    "2B/MTE 204/Finite Element Method.md",
-    "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
-    "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/SYDE 252/Unit step.md",
     "Statistics",
     "Blog",
     "ML/Untitled",
