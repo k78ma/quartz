@@ -12,7 +12,8 @@ draft: "true"
 ## Dec 3
 
 - [ ] MTE 220 - Filters 3
-- [ ] Phasors (33-41)
+- [ ] Sensor Interfacing (51-61)
+- [ ] RC/RL Switching (26-32)
 - [ ] Transistors (44-46)
 - [ ] MTE 220 - Tutorial 2
 - [ ] SYDE 252 Phase 3
@@ -22,7 +23,7 @@ draft: "true"
 ## Dec 4
 
 - [ ] MTE 203 - LEC 22
-- [ ] RC/RL Switching (26-32)
+- [ ] Phasors (33-41)
 - [ ] Textbook Questions (75-81)
 - [ ] MTE 220 - Tutorials 3
 - [ ] MTE 204 - 7.2-7.4
@@ -50,7 +51,6 @@ draft: "true"
 ## Dec 7
 
 - [ ] MTE 220 - S2023 Final
-- [ ] Sensor Interfacing (51-61)
 - [ ] MTE 220 - Tutorial 7
 - [ ] Quiz Review
 - [ ] MTE 204 - 8.2

@@ -157,7 +157,14 @@ Applications:
 	- [[Circuit to Transfer Function]]
 - [[Bode Plots]]
 - [[Bode Magnitude Plots]]
+- [[Bode Phase Plots]]
 
+#### Frequency-Selective Circuits
+- [[Constructing Filters]]
+- [[Transducer Example]]
+- [[Bandpass Filter]]
+- [[Band Reject Filter]]
+- [[Filter Summary]]
 ## Labs
 - [[Lab 1]]
 - [[Lab 2]]
