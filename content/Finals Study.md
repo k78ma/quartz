@@ -1,35 +1,31 @@
 ---
+
 kanban-plugin: basic
 draft: "true"
+
 ---
 
 ## Dec 2
 
-- [ ] MTE 203 - LEC 20
-- [ ] MTE 220 - Filters 2
-- [ ] MTE 220 - Tutorial 1
-- [ ] Diodes (42-44)
-- [ ] Thevenin/Norton (11-15)
-- [ ] SYDE 252 Phase 3
 
 
 ## Dec 3
 
-- [ ] MTE 203 - LEC 21
 - [ ] MTE 220 - Filters 3
-- [ ] Filtering (61-74)
+- [ ] Phasors (33-41)
 - [ ] Transistors (44-46)
 - [ ] MTE 220 - Tutorial 2
 - [ ] SYDE 252 Phase 3
+- [ ] MTE 203 - LEC 21
 
 
 ## Dec 4
 
 - [ ] MTE 203 - LEC 22
-- [ ] Phasors (33-41)
 - [ ] RC/RL Switching (26-32)
 - [ ] Textbook Questions (75-81)
 - [ ] MTE 220 - Tutorials 3
+- [ ] MTE 204 - 7.2-7.4
 
 
 ## Dec 5
@@ -39,7 +35,7 @@ draft: "true"
 - [ ] MTE 220 - F2022 Final
 - [ ] MTE 220 - Tutorial 4
 - [ ] MTE 220 - Tutorial 5
-- [ ] MTE 204 - 7.2-7.4
+- [ ] Filtering (61-74)
 
 
 ## Dec 6
@@ -85,15 +81,18 @@ draft: "true"
 
 - [ ] MTE 203 - LEC 27
 - [ ] MTE 203 - LEC 28
+- [ ] MTE 241 - Review
 
 
 ## Dec 12
 
 - [ ] MTE 203 - LEC 29
+- [ ] MTE 241 - Review
 
 
 ## Dec 13
 
+- [ ] MTE 203 - Practice Final
 
 
 ## Dec 14
@@ -122,6 +121,12 @@ draft: "true"
 ## Archive
 
 - [ ] MTE 220 - Filters 1
+- [ ] MTE 220 - Filters 2
+- [ ] Diodes (42-44)
+- [ ] Thevenin/Norton (11-15)
+- [ ] SYDE 252 Phase 3
+- [ ] MTE 203 - LEC 20
+- [ ] MTE 220 - Tutorial 1
 
 %% kanban:settings
 ```

@@ -47,8 +47,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/Bode Magnitude Plots.md",
-                "mode": "source",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -64,9 +64,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b374775af4ccf2a5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bfaa6bd5513723d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 220/Supernodes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -142,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/Bode Magnitude Plots.md",
+                "file": "2B/MTE 220/Supernodes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -159,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/Bode Magnitude Plots.md",
+                "file": "2B/MTE 220/Supernodes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -182,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 220/Bode Magnitude Plots.md"
+                "file": "2B/MTE 220/Supernodes.md"
               }
             }
           },
@@ -208,7 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 285.5
+    "width": 215.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,17 +248,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9c53249dc0759306",
+  "active": "3bfaa6bd5513723d",
   "lastOpenFiles": [
-    "2B/MTE 220/attachments/Bode Magnitude Plots.png",
+    "2B/MTE 203/Suggested Problems.md",
+    "Finals Study.md",
+    "2B/MTE 220/Supernodes.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "2B/MTE 203/Double Integration.md",
+    "2B/MTE 203/Double Integrals with Polar Coordinates.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Supermesh.md",
+    "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
+    "2B/MTE 220/Thevenin and Norton Representations.md",
+    "2B/MTE 220/Mesh Analysis.md",
+    "2B/MTE 220/Low-pass Filter.md",
     "2B/MTE 220/Bode Magnitude Plots.md",
+    "2B/MTE 220/attachments/Bode Magnitude Plots.png",
     "2B/MTE 220/Bode Plots.md",
     "2B/MTE 220/attachments/Bode Plots-1.png",
     "2B/MTE 220/attachments/Bode Plots.png",
-    "2B/MTE 220/Low-pass Filter.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "Finals Study.md",
     "ML/Machine Learning.md",
     "2B/MTE 220/Circuit to Transfer Function.md",
     "2B/MTE 220/attachments/Circuit to Transfer Function-1.png",
@@ -252,17 +285,8 @@
     "2B/MTE 220/attachments/Decibels.png",
     "2B/MTE 220/attachments/Signals in Different Domains-4.png",
     "2B/MTE 220/attachments/Signals in Different Domains-3.png",
-    "2B/MTE 220/attachments/Signals in Different Domains-2.png",
     "2B/Kanban.md",
     "attachments",
-    "2B/MTE 220/Active Sensor Principles.md",
-    "2B/MTE 220/Photovoltaic Effect.md",
-    "2B/MTE 220/Photoelectric Effect.md",
-    "2B/MTE 220/Piezoelectric Effect.md",
-    "2B/MTE 220/Thermoelectric Effect.md",
-    "2B/MTE 220/Electromagnetic Effect.md",
-    "2B/MTE 220/Hall Effect.md",
-    "2B/MTE 220/Inductive Sensing Techniques.md",
     "Statistics",
     "Blog",
     "ML/Untitled",
