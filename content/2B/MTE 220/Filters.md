@@ -8,7 +8,6 @@ Filters are electronic circuits/components that pass or attenuate specific signa
 
 Types of filters:
 - [[Low-pass Filter]]
-- [[Highpass Filter]]
+- [[High-pass Filter]]
 - [[Bandpass Filter]]
-- [[Band-stop Filter]]
-- [[Notch filter]]
+- [[Band Reject Filter|Notch Filter]]

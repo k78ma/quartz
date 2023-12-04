@@ -135,7 +135,6 @@ L_{4} &= \sqrt{ x^{2} + y^{2} } = \sqrt{ 2^{2}+0^{2} }=2\text{ m}
 $$
 The local stiffness matrix for this problem how much a truss member/element resists deformation under applied forces. It links the forces at the nodes of an element to the displacements at those nodes. For 2D members, this matrix is defined as:
 $$
-
 k_{\text{local}} = k_{e_{i}} \times 
 \begin{bmatrix}
 \cos(\theta)^2 & \cos(\theta)\sin(\theta) & -\cos(\theta)^2 & -\cos(\theta)\sin(\theta) \\
@@ -143,7 +142,6 @@ k_{\text{local}} = k_{e_{i}} \times
 -\cos(\theta)^2 & -\cos(\theta)\sin(\theta) & \cos(\theta)^2 & \cos(\theta)\sin(\theta) \\
 -\cos(\theta)\sin(\theta) & -\sin(\theta)^2 & \cos(\theta)\sin(\theta) & \sin(\theta)^2
 \end{bmatrix}
-
 $$
 where $k_{e_{i}} = EA / L$. This reflects the element's response to axial, shear, and bending forces, assuming linear elastic behavior. By incorporating the directional cosines and cosines, the matrix is also in the global coordinate system without us needing to take an extra step to transform elements 2 and 3 to global coordinates. For our elements, we have:
 $$

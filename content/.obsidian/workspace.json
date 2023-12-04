@@ -23,7 +23,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/Phase 2 Tasks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4c5f3911d3e2af1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/Phase 3 Tasks.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,9 +64,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "14dfabbb60df6d18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bccdef2cd7012799",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -130,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +206,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md"
+                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md"
               }
             }
           },
@@ -212,11 +248,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "834444e5ce8e5140",
+  "active": "bccdef2cd7012799",
   "lastOpenFiles": [
-    "2B/MTE 220/Filter Summary.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
+    "2B/MTE 204/Finite Element Method for Structural Analysis.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 204/Finite Element Method - 1D Poisson.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "Finals Study.md",
+    "2B/SYDE 252/Phase 3 Tasks.md",
+    "2B/SYDE 252/Phase 2 Tasks.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "Vault Stats.md",
+    "2B/MTE 220/Filters.md",
+    "2B/MTE 220/Filter Summary.md",
     "2B/MTE 220/Band Reject Filter.md",
     "2B/MTE 220/attachments/Band Reject Filter.png",
     "2B/MTE 220/Bandpass Filter.md",
@@ -236,20 +282,10 @@
     "2B/MTE 220/Bode Magnitude Plots.md",
     "2B/MTE 220/Bode Phase Plots.md",
     "2B/MTE 220/attachments/Bode Phase Plots.png",
-    "Finals Study.md",
     "2B/MTE 220/Supernodes.md",
     "2B/MTE 203/Suggested Problems.md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 203/Double Integration.md",
-    "2B/MTE 203/Double Integrals with Polar Coordinates.md",
-    "2B/MTE 220/Supermesh.md",
-    "2B/MTE 220/Kirchhoff’s Voltage Law (KVL).md",
-    "2B/MTE 220/Thevenin and Norton Representations.md",
-    "2B/MTE 220/Mesh Analysis.md",
     "2B/MTE 220/attachments/Bode Magnitude Plots.png",
-    "2B/MTE 220/Bode Plots.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "ML/Machine Learning.md",
     "attachments",
     "Statistics",
     "Blog",

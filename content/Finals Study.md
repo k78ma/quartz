@@ -5,19 +5,9 @@ draft: "true"
 
 ---
 
-## Dec 2
-
-
-
 ## Dec 3
 
-- [ ] MTE 220 - Filters 3
-- [ ] Sensor Interfacing (51-61)
-- [ ] RC/RL Switching (26-32)
-- [ ] Transistors (44-46)
-- [ ] MTE 220 - Tutorial 2
 - [ ] SYDE 252 Phase 3
-- [ ] MTE 203 - LEC 21
 
 
 ## Dec 4
@@ -25,6 +15,7 @@ draft: "true"
 - [ ] MTE 203 - LEC 22
 - [ ] Phasors (33-41)
 - [ ] Textbook Questions (75-81)
+- [ ] Sensor Interfacing (51-61)
 - [ ] MTE 220 - Tutorials 3
 - [ ] MTE 204 - 7.2-7.4
 
@@ -92,6 +83,7 @@ draft: "true"
 
 ## Dec 13
 
+- [ ] MTE 241 Final
 - [ ] MTE 203 - Practice Final
 
 
@@ -101,6 +93,7 @@ draft: "true"
 
 ## Dec 15
 
+- [ ] MTE 203 Final
 
 
 ## Dec 16
@@ -127,6 +120,11 @@ draft: "true"
 - [ ] SYDE 252 Phase 3
 - [ ] MTE 203 - LEC 20
 - [ ] MTE 220 - Tutorial 1
+- [ ] MTE 220 - Filters 3
+- [ ] Transistors (44-46)
+- [ ] RC/RL Switching (26-32)
+- [ ] MTE 220 - Tutorial 2
+- [ ] MTE 203 - LEC 21
 
 %% kanban:settings
 ```

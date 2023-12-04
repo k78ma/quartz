@@ -1,5 +1,5 @@
 ---
-title: Finite Element Method - 1D Poission
+title: Finite Element Method - 1D Poisson
 tags: 
 date: 2023-11-24
 aliases:
