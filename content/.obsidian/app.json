@@ -7,7 +7,7 @@
   "livePreview": true,
   "autoPairBrackets": true,
   "pdfExportSettings": {
-    "includeName": true,
+    "includeName": false,
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",

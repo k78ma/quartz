@@ -162,6 +162,8 @@ Applications:
 #### Frequency-Selective Circuits
 - [[Constructing Filters]]
 - [[Transducer Example]]
+- [[Low-pass Filter]]
+- [[High-pass Filter]]
 - [[Bandpass Filter]]
 - [[Band Reject Filter]]
 - [[Filter Summary]]

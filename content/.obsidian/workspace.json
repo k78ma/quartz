@@ -18,30 +18,6 @@
             }
           },
           {
-            "id": "839aec2759f06e53",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/Phase 2 Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4c5f3911d3e2af1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/Phase 3 Tasks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "611f2d48d8b7e642",
             "type": "leaf",
             "state": {
@@ -66,31 +42,19 @@
             }
           },
           {
-            "id": "14dfabbb60df6d18",
+            "id": "3ffeac82052b0528",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bccdef2cd7012799",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md",
+                "file": "2B/MTE 203/Suggested Problems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -166,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md",
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -206,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 204/Finite Element Method for Structural Analysis.md"
+                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md"
               }
             }
           },
@@ -248,17 +212,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bccdef2cd7012799",
+  "active": "834444e5ce8e5140",
   "lastOpenFiles": [
+    "Finals Study.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Bode Magnitude Plots.md",
+    "2B/MTE 220/Transducer Example.md",
+    "2B/MTE 220/Constructing Filters.md",
+    "2B/MTE 220/Circuit to Transfer Function.md",
+    "2B/MTE 220/Laplace Domain RC Circuit.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/SYDE 252/Phase 2 Tasks.md",
+    "2B/SYDE 252/Phase 3 Tasks.md",
+    "2B/SYDE 252/attachments/Phase 3 Tasks.png",
     "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
     "2B/MTE 204/Finite Element Method for Structural Analysis.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "2B/MTE 204/Finite Element Method - 1D Poisson.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "Finals Study.md",
-    "2B/SYDE 252/Phase 3 Tasks.md",
-    "2B/SYDE 252/Phase 2 Tasks.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "Vault Stats.md",
     "2B/MTE 220/Filters.md",
@@ -268,24 +239,16 @@
     "2B/MTE 220/Bandpass Filter.md",
     "2B/MTE 220/attachments/Bandpass Filter-1.png",
     "2B/MTE 220/attachments/Bandpass Filter.png",
-    "2B/MTE 220/Transducer Example.md",
     "2B/MTE 220/attachments/Transducer Example-4.png",
     "2B/MTE 220/attachments/Transducer Example-3.png",
     "2B/MTE 220/attachments/Transducer Example-2.png",
-    "2B/MTE 220/Laplace Domain RC Circuit.md",
     "2B/MTE 220/Transfer Functions.md",
-    "2B/MTE 220/Circuit to Transfer Function.md",
-    "2B/MTE 220/Constructing Filters.md",
     "2B/MTE 220/Low-pass Filter.md",
     "2B/MTE 220/attachments/Transducer Example-1.png",
     "2B/MTE 220/attachments/Transducer Example.png",
-    "2B/MTE 220/Bode Magnitude Plots.md",
     "2B/MTE 220/Bode Phase Plots.md",
     "2B/MTE 220/attachments/Bode Phase Plots.png",
     "2B/MTE 220/Supernodes.md",
-    "2B/MTE 203/Suggested Problems.md",
-    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
-    "2B/MTE 220/attachments/Bode Magnitude Plots.png",
     "attachments",
     "Statistics",
     "Blog",

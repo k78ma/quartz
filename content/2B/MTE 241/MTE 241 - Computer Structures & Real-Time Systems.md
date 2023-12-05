@@ -95,3 +95,7 @@ aliases:
 - [[C Book]]
 - [A Little C Primer](https://en.wikibooks.org/wiki/A_Little_C_Primer)
 - [[Operating Systems]]
+
+$$
+\frac{ \partial  }{ \partial x } \left( \frac{1}{(x^{2}+y^{2}+z^{2})^{3 / 2}} \right)
+$$
