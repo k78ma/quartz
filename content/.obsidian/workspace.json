@@ -35,26 +35,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 220/Laplace Domain RC Circuit.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3ffeac82052b0528",
+            "id": "da76027b1f11b97d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 203/Suggested Problems.md",
+                "file": "2B/MTE 220/Zener Diode.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dea53be0f8069b67",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -130,7 +142,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +159,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -170,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md"
+                "file": "2B/MTE 204/MTE 204 - Numerical Methods.md"
               }
             }
           },
@@ -212,23 +224,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "834444e5ce8e5140",
+  "active": "dea53be0f8069b67",
   "lastOpenFiles": [
-    "Finals Study.md",
-    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
-    "2B/MTE 220/Bode Magnitude Plots.md",
-    "2B/MTE 220/Transducer Example.md",
-    "2B/MTE 220/Constructing Filters.md",
-    "2B/MTE 220/Circuit to Transfer Function.md",
+    "2B/MTE 204/Method of Finite Differences.md",
+    "2B/MTE 204/MTE 204 - Numerical Methods.md",
+    "2B/MTE 204/Numerical Partial Differential Equations.md",
     "2B/MTE 220/Laplace Domain RC Circuit.md",
+    "Finals Study.md",
+    "2B/MTE 220/Zener Diode.md",
     "2B/MTE 203/Suggested Problems.md",
+    "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+    "2B/MTE 220/Constructing Filters.md",
+    "2B/MTE 220/Transducer Example.md",
+    "2B/MTE 220/Low-pass Filter.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
+    "2B/MTE 220/Bode Magnitude Plots.md",
+    "2B/MTE 220/Circuit to Transfer Function.md",
     "2B/SYDE 252/Phase 2 Tasks.md",
     "2B/SYDE 252/Phase 3 Tasks.md",
     "2B/SYDE 252/attachments/Phase 3 Tasks.png",
     "2B/MTE 204/MTE 204 Project 2 – Finite Element Analysis.md",
     "2B/MTE 204/Finite Element Method for Structural Analysis.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "2B/MTE 204/Finite Element Method - 1D Poisson.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "Vault Stats.md",
@@ -243,12 +259,9 @@
     "2B/MTE 220/attachments/Transducer Example-3.png",
     "2B/MTE 220/attachments/Transducer Example-2.png",
     "2B/MTE 220/Transfer Functions.md",
-    "2B/MTE 220/Low-pass Filter.md",
     "2B/MTE 220/attachments/Transducer Example-1.png",
     "2B/MTE 220/attachments/Transducer Example.png",
-    "2B/MTE 220/Bode Phase Plots.md",
     "2B/MTE 220/attachments/Bode Phase Plots.png",
-    "2B/MTE 220/Supernodes.md",
     "attachments",
     "Statistics",
     "Blog",

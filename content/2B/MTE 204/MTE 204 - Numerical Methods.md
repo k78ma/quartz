@@ -74,7 +74,7 @@ aliases:
 - [[Finite Element Method for Structural Analysis]]
 
 ### Partial Differential Equations
-- [[Partial Differential Equations]]
+- [[Numerical Partial Differential Equations]]
 - [[Elliptic Equations]]
 - [[Parabolic Equations]]
 - 

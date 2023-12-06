@@ -5,16 +5,6 @@ draft: "true"
 
 ---
 
-## Dec 5
-
-- [ ] MTE 220 - Final Lec?
-- [ ] MTE 203 - LEC 23
-- [ ] MTE 220 - F2022 Final
-- [ ] MTE 220 - Tutorial 5
-- [ ] Phasors (33-41)
-- [ ] Textbook Questions (75-81)
-
-
 ## Dec 6
 
 - [ ] MTE 203 - LEC 24
@@ -33,6 +23,14 @@ draft: "true"
 - [ ] Sensor Interfacing (51-61)
 - [ ] MTE 204 - 8.2
 - [ ] MTE 220 - Crib Sheet
+- [ ] MTE 220 - Tutorial 8
+
+
+## Holding
+
+- [ ] Phasors (33-41)
+- [ ] MTE 220 - F2022 Final (Q4)
+- [ ] Textbook Questions (75-81)
 
 
 ## Dec 8
@@ -67,6 +65,7 @@ draft: "true"
 
 - [ ] MTE 203 - LEC 29
 - [ ] MTE 241 - Review
+- [ ] Paul's Math Notes
 
 
 ## Dec 13
@@ -118,6 +117,10 @@ draft: "true"
 - [ ] MTE 220 - Tutorials 3
 - [ ] MTE 220 - Tutorial 4
 - [ ] MTE 203 - LEC 22
+- [ ] MTE 220 - Final Lec?
+- [ ] MTE 220 - Tutorial 5
+- [ ] MTE 220 - F2022 Final
+- [ ] MTE 203 - LEC 23
 
 %% kanban:settings
 ```
