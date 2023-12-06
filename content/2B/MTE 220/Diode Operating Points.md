@@ -38,7 +38,7 @@ $$
 Solving, we get $V_{D_{1}} = 3.3 \text{ V}$ and $V_{D_{2}} = 3.168\text{ V}$. Basically, a 200x change in $I_{D}$ only resulted in a $4\%$ change in $V_{D}$. This is why mostly assume that $V_{D}$ is constant when we're doing problems with a diode in a circuit.
 
 #### Problem - picking R
-**Choose E24 R when $V_{DD} = 5\text{ V}$ for nominal operating conditions. What is the max current given 5% tolerance on this resistor? We determine the worst-case power considering the min and max $V_{F}$ using the $R$ chosen above.**
+Choose E24 R when $V_{DD} = 5\text{ V}$ for nominal operating conditions. What is the max current given 5% tolerance on this resistor? We determine the worst-case power considering the min and max $V_{F}$ using the $R$ chosen above.**
 
 ![[Diode Operating Points-3.png|383]]
 

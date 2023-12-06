@@ -10,15 +10,13 @@ draft: "true"
 - [ ] MTE 203 - LEC 24
 - [ ] MTE 220 - S2022 Final
 - [ ] MTE 220 Quiz Review
-- [ ] MTE 220 - Tutorial 6
+- [ ] MTE 220 - Tutorial 7
 - [ ] Filtering (61-74)
-- [ ] MTE 204 - 8.1
 
 
 ## Dec 7
 
 - [ ] MTE 220 - S2023 Final
-- [ ] MTE 220 - Tutorial 7
 - [ ] Quiz Review
 - [ ] Sensor Interfacing (51-61)
 - [ ] MTE 204 - 8.2
@@ -121,6 +119,8 @@ draft: "true"
 - [ ] MTE 220 - Tutorial 5
 - [ ] MTE 220 - F2022 Final
 - [ ] MTE 203 - LEC 23
+- [ ] MTE 204 - 8.1
+- [ ] MTE 220 - Tutorial 6
 
 %% kanban:settings
 ```
