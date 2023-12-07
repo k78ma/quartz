@@ -5,29 +5,17 @@ draft: "true"
 
 ---
 
-## Dec 6
-
-- [ ] MTE 203 - LEC 24
-- [ ] MTE 220 - S2022 Final
-- [ ] MTE 220 Quiz Review
-- [ ] MTE 220 - Tutorial 7
-- [ ] Filtering (61-74)
-
-
 ## Dec 7
 
 - [ ] MTE 220 - S2023 Final
+- [ ] Filtering (61-74)
 - [ ] Quiz Review
-- [ ] Sensor Interfacing (51-61)
-- [ ] MTE 204 - 8.2
 - [ ] MTE 220 - Crib Sheet
-- [ ] MTE 220 - Tutorial 8
 
 
 ## Holding
 
 - [ ] Phasors (33-41)
-- [ ] MTE 220 - F2022 Final (Q4)
 - [ ] Textbook Questions (75-81)
 
 
@@ -35,19 +23,20 @@ draft: "true"
 
 - [ ] MTE 220 - Final Exam
 - [ ] MTE 203 - LEC 25
+- [ ] MTE 204 - 8.2
 - [ ] MTE 204 - 8.3
-- [ ] MTE 204 - 8.4
 
 
 ## Dec 9
 
 - [ ] MTE 203 - LEC 26
-- [ ] MTE 204 - PSet 6
-- [ ] MTE 204 - Practice
+- [ ] MTE 204 - PSet 5
+- [ ] MTE 204 - 8.4
 
 
 ## Dec 10
 
+- [ ] MTE 204 - PSet 6
 - [ ] MTE 204 - PSet 7
 - [ ] MTE 204 - Practice
 
@@ -121,6 +110,14 @@ draft: "true"
 - [ ] MTE 203 - LEC 23
 - [ ] MTE 204 - 8.1
 - [ ] MTE 220 - Tutorial 6
+- [ ] MTE 220 - S2022 Final
+- [ ] MTE 220 Quiz Review
+- [ ] MTE 220 - Tutorial 7
+- [ ] MTE 203 - LEC 24
+- [ ] MTE 220 - Tutorial 8
+- [ ] Sensor Interfacing (51-61)
+- [ ] MTE 220 - F2022 Final (Q4)
+- [ ] MTE 204 - Practice
 
 %% kanban:settings
 ```

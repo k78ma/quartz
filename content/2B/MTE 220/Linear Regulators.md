@@ -3,7 +3,8 @@ title: Linear Regulators
 tags:
   - mte220
 date: 2023-11-13
-aliases: []
+aliases:
+  - buck converter
 ---
 Linear regulators are a type of DC/DC voltage regulators. Generally, Linear Regulators are less complex, smaller, and cheaper with low ripple, but are inefficient and have high heat waste. These are often called buck converters.
 

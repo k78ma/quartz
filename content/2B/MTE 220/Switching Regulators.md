@@ -4,6 +4,7 @@ tags:
   - mte220
 date: 2023-11-12
 aliases:
+  - boost converter
 ---
 Switching regulators are DC/DC and use a controlled switch that is either fully on or fully off. Unlike [[Linear Regulators]], switching regulators can be buck (step-down), boost (step-up), or inverting. In general. switching regulators also have higher efficiency, but can be more expensive
 
