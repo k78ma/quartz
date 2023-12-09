@@ -7,21 +7,14 @@ draft: "true"
 
 ## Dec 7
 
-- [ ] MTE 220 - S2023 Final
-- [ ] Filtering (61-74)
-- [ ] Quiz Review
-- [ ] MTE 220 - Crib Sheet
-
-
-## Holding
-
-- [ ] Phasors (33-41)
-- [ ] Textbook Questions (75-81)
 
 
 ## Dec 8
 
+- [ ] Filtering (61-74)
+- [ ] MTE 220 - Crib Sheet
 - [ ] MTE 220 - Final Exam
+- [ ] MTE 220 - Problems
 - [ ] MTE 203 - LEC 25
 - [ ] MTE 204 - 8.2
 - [ ] MTE 204 - 8.3
@@ -87,6 +80,8 @@ draft: "true"
 
 ## Archive
 
+- [ ] Phasors (33-41)
+- [ ] Textbook Questions (75-81)
 - [ ] MTE 220 - Filters 1
 - [ ] MTE 220 - Filters 2
 - [ ] Diodes (42-44)
@@ -118,6 +113,8 @@ draft: "true"
 - [ ] Sensor Interfacing (51-61)
 - [ ] MTE 220 - F2022 Final (Q4)
 - [ ] MTE 204 - Practice
+- [ ] MTE 220 - S2023 Final
+- [ ] Quiz Review
 
 %% kanban:settings
 ```

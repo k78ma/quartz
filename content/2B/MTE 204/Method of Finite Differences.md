@@ -4,6 +4,8 @@ tags:
   - mte204
 date: 2023-11-16
 aliases:
+  - finite differences
+  - finite-difference
 ---
 Using this example problem: ![[Boundary Value Problems with ODEs#BVP Example|BVP Example]]
 

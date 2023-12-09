@@ -22,7 +22,7 @@ $$
 - At high frequency, $| A | \to 1$ (0 dB)
 - For $\omega_{c}$ we know that $| A | = \frac{1}{\sqrt{ 2 }}$ (-3 dB)
 
-As $\omega_{c}$ decreases away from $\omega_{c}$, what happens to $| A |$? Imagine we have $\frac{x}{x+1}$. This looks like $\frac{x}{1}$ at small frequencies. So, if $\omega$ decreases by $10\times$, then $| A |$ decreases by $10\times$ (20dB). This tells us the slope of the plot
+As $\omega$ decreases away from $\omega_{c}$, what happens to $| A |$? Imagine we have $\frac{x}{x+1}$. This looks like $\frac{x}{1}$ at small frequencies. So, if $\omega$ decreases by $10\times$, then $| A |$ decreases by $10\times$ (20dB). This tells us the slope of the plot
 
 ![[Bode Plots.png|471]]
 

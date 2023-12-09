@@ -40,3 +40,4 @@ In the figure above, the close loop gain would be $-Z_{f} / R_{i} = -(Z_{C_{f}}\
 For active filters, the output loading does not change the corner frequency because the op-amp provides isolation between the filter and the load.
 
 The choice between passive and active lowpass filters depends on the desired frequency response, complexity, precision requirements, and available power sources. Passive filters are simpler and suitable for basic filtering applications, while active filters offer more flexibility and improved performance for complex filtering tasks. You will build a passive and an active lowpass filter and study their performance.
+
