@@ -77,7 +77,7 @@ aliases:
 - [[Numerical Partial Differential Equations]]
 - [[Elliptic Equations]]
 - [[Parabolic Equations]]
-- 
+- [[Hyperbolic Equations]]
 
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]

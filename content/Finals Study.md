@@ -5,26 +5,14 @@ draft: "true"
 
 ---
 
-## Dec 7
-
-
-
-## Dec 8
-
-- [ ] Filtering (61-74)
-- [ ] MTE 220 - Crib Sheet
-- [ ] MTE 220 - Final Exam
-- [ ] MTE 220 - Problems
-- [ ] MTE 203 - LEC 25
-- [ ] MTE 204 - 8.2
-- [ ] MTE 204 - 8.3
-
-
 ## Dec 9
 
+- [ ] MTE 203 - LEC 25
 - [ ] MTE 203 - LEC 26
 - [ ] MTE 204 - PSet 5
+- [ ] MTE 204 - 8.3
 - [ ] MTE 204 - 8.4
+- [ ] MTE 204 - 8.5
 
 
 ## Dec 10
@@ -80,6 +68,10 @@ draft: "true"
 
 ## Archive
 
+- [ ] Filtering (61-74)
+- [ ] MTE 220 - Crib Sheet
+- [ ] MTE 220 - Final Exam
+- [ ] MTE 220 - Problems
 - [ ] Phasors (33-41)
 - [ ] Textbook Questions (75-81)
 - [ ] MTE 220 - Filters 1
@@ -115,6 +107,7 @@ draft: "true"
 - [ ] MTE 204 - Practice
 - [ ] MTE 220 - S2023 Final
 - [ ] Quiz Review
+- [ ] MTE 204 - 8.2
 
 %% kanban:settings
 ```
