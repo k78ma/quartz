@@ -63,7 +63,7 @@ $$
 \begin{align}
 c_{0}  & = c_{1} =1 \\[3ex] 
 x_{0} & = - \frac{1}{\sqrt{ 3 }} = -0.5773504 \\[3ex] 
-x_{0} & = \frac{1}{\sqrt{ 3 }} = 0.5773504
+x_{1} & = \frac{1}{\sqrt{ 3 }} = 0.5773504
 \end{align}
 $$
 This yields:

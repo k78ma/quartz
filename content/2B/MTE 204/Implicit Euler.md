@@ -38,7 +38,7 @@ $$
 Using the initial condition, we have:
 $$
 \begin{align}
-y_{1}  & = 2 + \left( \frac{0.5^{3}+1}{y_{1}} \right)0.5 \\[3ex]  \\
+y_{1}  & = 2 + \left( \frac{0.5^{3}+1}{y_{1}} \right)0.5 \\[3ex]  
 	 & = 2 + \frac{0.5625}{y_{1}}
 \end{align}
 $$

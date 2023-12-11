@@ -43,6 +43,7 @@ draft: "true"
 ## Dec 15
 
 - [ ] MTE 203 Final
+- [ ] SYDE 252
 
 
 ## Dec 16

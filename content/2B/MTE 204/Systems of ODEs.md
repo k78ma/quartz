@@ -5,7 +5,7 @@ tags:
 date: 2023-11-16
 aliases:
 ---
-Many practical problems in engineering and  science require the solution of a system of   simultaneous ordinary differential equations, such as:
+Many practical problems in engineering and  science require the solution of a system of simultaneous ordinary differential equations, such as:
 $$
 \begin{align}
 \frac{dy_{1}}{dx}  & = f_{1}(x, y_{1}, y_{2}, \dots, y_{n}) \\[3ex] 
@@ -14,7 +14,7 @@ $$
 \frac{dy_{n}}{dx}  & = f_{n}(x, y_{1}, y_{2}, \dots, y_{n})
 \end{align}
 $$
-This requires that $n$ initial  conditions be known at the starting value of $x$.  
+This requires that $n$ initial conditions be known at the starting value of $x$.  
 
 The one-step methods we have investigated can be applied to solve systems ([[Euler's Method]], [[Heun's Method]], [[Runge-Kutta Method]]). We apply the one-step method for every equation, at each step, before proceeding to the next step.
 
