@@ -5,18 +5,9 @@ draft: "true"
 
 ---
 
-## Dec 9
-
-- [ ] MTE 203 - LEC 25
-- [ ] MTE 203 - LEC 26
-- [ ] MTE 204 - PSet 5
-- [ ] MTE 204 - 8.3
-- [ ] MTE 204 - 8.4
-- [ ] MTE 204 - 8.5
-
-
 ## Dec 10
 
+- [ ] MTE 204 - PSet 5
 - [ ] MTE 204 - PSet 6
 - [ ] MTE 204 - PSet 7
 - [ ] MTE 204 - Practice
@@ -24,14 +15,16 @@ draft: "true"
 
 ## Dec 11
 
-- [ ] MTE 203 - LEC 27
-- [ ] MTE 203 - LEC 28
+- [ ] MTE 204 Final
 - [ ] MTE 241 - Review
+- [ ] MTE 203 - LEC 25
+- [ ] MTE 203 - LEC 26
 
 
 ## Dec 12
 
-- [ ] MTE 203 - LEC 29
+- [ ] MTE 203 - LEC 27
+- [ ] MTE 203 - LEC 28
 - [ ] MTE 241 - Review
 - [ ] Paul's Math Notes
 
@@ -39,11 +32,12 @@ draft: "true"
 ## Dec 13
 
 - [ ] MTE 241 Final
-- [ ] MTE 203 - Practice Final
+- [ ] MTE 203 - LEC 29
 
 
 ## Dec 14
 
+- [ ] MTE 203 - Practice Final
 
 
 ## Dec 15
@@ -108,6 +102,9 @@ draft: "true"
 - [ ] MTE 220 - S2023 Final
 - [ ] Quiz Review
 - [ ] MTE 204 - 8.2
+- [ ] MTE 204 - 8.3
+- [ ] MTE 204 - 8.4
+- [ ] MTE 204 - 8.5
 
 %% kanban:settings
 ```

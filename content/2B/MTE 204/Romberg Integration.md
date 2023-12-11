@@ -64,3 +64,4 @@ In general:
 $$
 I_{j,k}\approx \frac{4^{k-1}I_{j+1, k-1} - I_{j,k-1}}{4^{k-1}-1}
 $$
+Here $j$ indicates the accuracy of the integral we are referring to, such that $j+1$ is the more accurate integral and $j$ is the less accurate integral. We use $k$ to refer to the level of accuracy of the interval estimation; $k$ is basically the number of intervals being used for trapezoid rule, so that $k=2$ has $O(h^{4})$ and $k=3$ has $O(h^{6})$. 
