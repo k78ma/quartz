@@ -72,7 +72,7 @@ The Crank-Nicolson method provides an alternative implicit scheme that is second
 $$
 \frac{ \partial T }{ \partial t } \approx \frac{T_{i}^{l+1}-T_{i}}{\Delta t}
 $$
-The The second derivative in space can be determined at the midpoint by averaging the difference approximations at the beginning ($t^{l}$) and at the end ($t^{l+1}$) of the time increment:
+The second derivative in space can be determined at the midpoint by averaging the difference approximations at the beginning ($t^{l}$) and at the end ($t^{l+1}$) of the time increment:
 $$
 \frac{ \partial^{2}T }{ \partial x^{2} } \approx \frac{1}{2}\left[ \frac{T_{i+1}^{l}-2T_{i}^{l}+T_{i+1}^{l}}{(\Delta x)^{2}}+\frac{T_{i+1}^{l+1}-2T_{i}^{l+1}+T_{i-1}^{l+1}}{(\Delta x)^{2}} \right]
 $$

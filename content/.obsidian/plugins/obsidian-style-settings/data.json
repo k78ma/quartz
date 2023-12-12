@@ -9,5 +9,7 @@
   "minimal-style@@h1-color@@dark": "#7E90F7",
   "minimal-style@@h2-weight": 500,
   "minimal-style@@h2-color@@dark": "#DA1690",
-  "minimal-style@@h3-color@@dark": "#F325AE"
+  "minimal-style@@h3-color@@dark": "#F325AE",
+  "minimal-style@@pdf-invert-dark": true,
+  "minimal-style@@pdf-dark-opacity": 1
 }
