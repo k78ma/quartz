@@ -58,7 +58,8 @@ aliases:
 
 - [[Fourier Series]]
 - [[Fourier Transform]]
-  
+	- [[Fourier Transform Properties]]
+	  
 #### Problem Types
 - [[System Summation Problems]]
 - [[System Convolution Problems]]
