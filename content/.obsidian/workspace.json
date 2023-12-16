@@ -8,12 +8,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "40c6201a7b6d6548",
+            "id": "eafe6cb1acade9d5",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Finals Study.md"
+                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a6a5a8844c668523",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/Fourier Series.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -28,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0490a11ae317c5f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/System Stability.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -104,7 +107,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f61784f7ee35b546",
+            "id": "b9f5acacea682806",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -117,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/SYDE 252/System Stability.md",
+                "file": "2B/SYDE 252/Fourier Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/SYDE 252/System Stability.md",
+                "file": "2B/SYDE 252/Fourier Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/SYDE 252/System Stability.md"
+                "file": "2B/SYDE 252/Fourier Series.md"
               }
             }
           },
@@ -183,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 214.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,13 +202,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0490a11ae317c5f8",
+  "active": "a6a5a8844c668523",
   "lastOpenFiles": [
-    "2B/MTE 203/Lagrange Multipliers.md",
-    "2B/SYDE 252/System Stability.md",
-    "2B/SYDE 252/attachments/System Stability.png",
-    "2B/SYDE 252/Fourier Transform.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Fourier Series.md",
+    "2B/SYDE 252/Fourier Transform.md",
+    "Robotics/Robotics.md",
+    "ML/Machine Learning.md",
+    "Robotics/slambook-en.pdf",
+    "Finals Study.md",
+    "2B/SYDE 252/System Stability.md",
+    "2B/MTE 203/Lagrange Multipliers.md",
+    "2B/SYDE 252/attachments/System Stability.png",
     "2B/SYDE 252/Unilateral Laplace and Z Transform.md",
     "2B/SYDE 252/Region of Convergence and Existence.md",
     "2B/SYDE 252/Poles and Zeros.md",
@@ -213,8 +221,6 @@
     "2B/SYDE 252/Z-transform for D.T. System Analysis.md",
     "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
     "2B/SYDE 252/Total Response of Linear System.md",
-    "Finals Study.md",
-    "Robotics/slambook-en.pdf",
     "Polymath/W2024 Polymath.md",
     "Calculus/Gradient Vector.md",
     "2B/MTE 203/Suggested Problems.md",
@@ -229,9 +235,6 @@
     "2B/MTE 204/Boundary Value Problems with ODEs.md",
     "2B/MTE 204/Shooting Method.md",
     "2B/MTE 204/Finite Element Method for Structural Analysis.md",
-    "2B/MTE 204/Gauss-Seidel with Relaxation.md",
-    "2B/MTE 204/Gauss-Seidel.md",
-    "2B/MTE 204/Parabolic Equations.md",
     "2B/MTE 204/attachments/Parabolic Equations-2.png",
     "2B/MTE 204/attachments/Parabolic Equations-1.png",
     "2B/MTE 204/attachments/Parabolic Equations.png",

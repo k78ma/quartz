@@ -56,6 +56,7 @@ aliases:
 
 - [[System Stability]]
 
+- [[Fourier Series]]
 - [[Fourier Transform]]
   
 #### Problem Types
