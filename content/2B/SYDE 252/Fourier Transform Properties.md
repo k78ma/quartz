@@ -5,6 +5,7 @@ tags:
 date: 2023-12-16
 aliases:
 ---
+Properties of the [[Fourier Transform]].
 ### Frequency Shifting
 If $x(t) \Longleftrightarrow X(\omega)$, then $x(t) \; e^{j\omega_{0}t} \Longleftrightarrow X(\omega-\omega_{0})$.
 #### Amplitude Modulation
