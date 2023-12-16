@@ -4,6 +4,7 @@ tags:
   - syde252
 date: 2023-11-22
 aliases:
+  - Laplace Transform
 ---
 Because of the linearity property of linear time-invariant (LTI) systems, we can find the response of these systems by breaking the input $x(t)$ into several components and then summing the system response to all the components of $x(t)$. We have already used this procedure in time-domain analysis, in which the input $x(t)$ is broken into impulsive components.
 

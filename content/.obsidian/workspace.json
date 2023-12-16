@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "eafe6cb1acade9d5",
+            "id": "35bff5c760d05f8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6a5a8844c668523",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/Fourier Series.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,8 +83,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -120,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/SYDE 252/Fourier Series.md",
+                "file": "2B/SYDE 252/Fourier Transform.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/SYDE 252/Fourier Series.md",
+                "file": "2B/SYDE 252/Fourier Transform.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/SYDE 252/Fourier Series.md"
+                "file": "2B/SYDE 252/Fourier Transform.md"
               }
             }
           },
@@ -186,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 297.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,11 +189,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a6a5a8844c668523",
+  "active": "b9f5acacea682806",
   "lastOpenFiles": [
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/SYDE 252/Fourier Series.md",
+    "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
     "2B/SYDE 252/Fourier Transform.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
+    "2B/SYDE 252/Fourier Series.md",
     "Robotics/Robotics.md",
     "ML/Machine Learning.md",
     "Robotics/slambook-en.pdf",
@@ -219,7 +208,6 @@
     "2B/SYDE 252/Poles and Zeros.md",
     "2B/SYDE 252/Properties of Laplace Transform.md",
     "2B/SYDE 252/Z-transform for D.T. System Analysis.md",
-    "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
     "2B/SYDE 252/Total Response of Linear System.md",
     "Polymath/W2024 Polymath.md",
     "Calculus/Gradient Vector.md",
@@ -234,7 +222,6 @@
     "2B/MTE 204/Heun's Method.md",
     "2B/MTE 204/Boundary Value Problems with ODEs.md",
     "2B/MTE 204/Shooting Method.md",
-    "2B/MTE 204/Finite Element Method for Structural Analysis.md",
     "2B/MTE 204/attachments/Parabolic Equations-2.png",
     "2B/MTE 204/attachments/Parabolic Equations-1.png",
     "2B/MTE 204/attachments/Parabolic Equations.png",
@@ -252,7 +239,6 @@
     "ML/attachments/Untitled",
     "images",
     "Polymath/Polymath ML Productization Simplified.canvas",
-    "Bracketing ",
     "Other/idfk.canvas",
     "Untitled 1.canvas"
   ]
