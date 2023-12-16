@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md"
+                "file": "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md"
               }
             }
           },
@@ -183,7 +183,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 255.5
+    "width": 255.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,8 +202,9 @@
   },
   "active": "9d267829d636f60d",
   "lastOpenFiles": [
-    "2B/SYDE 252/System Stability.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Total Response of Linear System.md",
+    "2B/SYDE 252/System Stability.md",
     "2B/SYDE 252/Poles and Zeros.md",
     "Finals Study.md",
     "Robotics/slambook-en.pdf",
@@ -230,7 +232,6 @@
     "2B/MTE 204/Numerical Integration.md",
     "2B/MTE 204/Systems of ODEs.md",
     "2B/MTE 204/Runge-Kutta Method.md",
-    "2B/MTE 204/Runge-Kutta Methods Intro.md",
     "2B/MTE 204/attachments/Parabolic Equations-2.png",
     "2B/MTE 204/attachments/Parabolic Equations-1.png",
     "2B/MTE 204/attachments/Parabolic Equations.png",
