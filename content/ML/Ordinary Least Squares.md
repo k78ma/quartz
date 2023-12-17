@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2023-11-04
 aliases:
+  - OLS
 ---
 Recall that Ordinary Least Squares is a regression problem aiming to minimize the mean squared loss, such that we have objective function:
 $$
