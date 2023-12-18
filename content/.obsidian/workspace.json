@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/Properties of Laplace Transform.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "51725c6675b5f79c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/SYDE 252/Total Response of Linear System.md",
+                "file": "2B/SYDE 252/Fourier Transform Properties.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/Fourier Series.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7dd34b1e35f2f811",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2B/SYDE 252/System Stability.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/System Stability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+                "file": "2B/SYDE 252/System Stability.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -160,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "2B/SYDE 252/SYDE 252 - Signals and Systems.md"
+                "file": "2B/SYDE 252/System Stability.md"
               }
             }
           },
@@ -202,27 +202,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5598bbdb09be3fd2",
+  "active": "7dd34b1e35f2f811",
   "lastOpenFiles": [
-    "2B/SYDE 252/Properties of Laplace Transform.md",
-    "ML/Ordinary Least Squares.md",
+    "2B/SYDE 252/Fourier Transform Properties.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
+    "2B/SYDE 252/Fourier Transform.md",
+    "2B/SYDE 252/System Stability.md",
+    "2B/SYDE 252/Fourier Series.md",
+    "CS/Problems/Contains Duplicate (LC 217).md",
+    "2B/SYDE 252/Properties of Laplace Transform.md",
     "2B/SYDE 252/Total Response of Linear System.md",
+    "2B/SYDE 252/Stable and Unstable Systems.md",
     "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
+    "2B/MTE 220/Sinusoidal Steady-state Response.md",
+    "2B/MTE 220/Phasors.md",
+    "2B/MTE 241/C Book.md",
+    "ML/Ordinary Least Squares.md",
     "2B/SYDE 252/Z-transform for D.T. System Analysis.md",
     "Robotics/slambook-en.pdf",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
     "2B/SYDE 252/System Summation Problems.md",
-    "2B/SYDE 252/Fourier Transform.md",
-    "2B/SYDE 252/Fourier Transform Properties.md",
     "Vault Stats.md",
     "2B/SYDE 252/attachments/Pasted image 20231216183300.png",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
-    "2B/SYDE 252/Fourier Series.md",
     "Robotics/Robotics.md",
     "ML/Machine Learning.md",
     "Finals Study.md",
-    "2B/SYDE 252/System Stability.md",
     "2B/MTE 203/Lagrange Multipliers.md",
     "2B/SYDE 252/attachments/System Stability.png",
     "2B/SYDE 252/Unilateral Laplace and Z Transform.md",
@@ -230,14 +235,9 @@
     "2B/SYDE 252/Poles and Zeros.md",
     "Polymath/W2024 Polymath.md",
     "Calculus/Gradient Vector.md",
-    "2B/MTE 203/Suggested Problems.md",
     "Untitled.canvas",
     "ML/attachments/perceptron_through_origin.pdf",
     "ML/attachments/perceptron.pdf",
-    "ML/Perceptron.md",
-    "2B/MTE 204/Hyperbolic Equations.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/MTE 204/Implicit Euler.md",
     "2B/MTE 204/attachments/Parabolic Equations-2.png",
     "2B/MTE 204/attachments/Parabolic Equations-1.png",
     "2B/MTE 204/attachments/Parabolic Equations.png",
