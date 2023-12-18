@@ -23,12 +23,7 @@ Welcome to my notes!
 - [[Statistics]]
 
 ### Courses
-- 2B
-	- [[MTE 203 - Advanced Calculus|MTE 203 - Advanced Calculus]]
-	- [[MTE 204 - Numerical Methods|MTE 204 - Numerical Methods]]
-	- [[MTE 220 - Sensors and Instrumentation|MTE 220 - Sensors and Instrumentation]]
-	- [[MTE 241 - Computer Structures & Real-Time Systems|MTE 241 - Computer Structures & Real-Time Systems]]
-	- [[SYDE 252 - Signals and Systems|SYDE 252 - Signals and Systems]] 
+- [[Tron 2B]]
 ### Other
 - [[Philosophy|Philosophy]]
 ---
