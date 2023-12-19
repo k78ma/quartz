@@ -20,6 +20,7 @@ aliases:
 	- Cloud: Access to internet? (Boat, Kodama)
 #### Bring-up
 - Entire ML pipeline should have a clearly defined and smooth bring-up process, eventually become a part of Polymath's general bring-up
+	- Maybe separate the parts we need from the big MMDet3D repo
 - Is it easier for me to create in-house tools for collection/labeling?
 - Data collection → Labeling → Training → Deployment
 

@@ -103,18 +103,11 @@ date: 2023-06-25
 
 ## Other/Uncategorized
 - [[World Models]]
-- [[Jacobian]]
-- [[Hessian]]
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory|LSTM]]
 - [[Vanishing Gradient Problem]]
 - [[Transformers]]
 
-- [[CNNs]]
-- [[Generative AI]]
-- [[Imitation Learning]]
-- [[Sim2Real]]
+
 
 [[Paper List]]
-
-[[Understanding Deep Learning]]

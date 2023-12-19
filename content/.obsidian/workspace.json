@@ -8,51 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6ae3a9b2102789a0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Robotics/slambook-en.pdf"
-              }
-            }
-          },
-          {
-            "id": "168d769339304408",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "ML/UnderstandingDeepLearning_23_10_23_C.pdf"
-              }
-            }
-          },
-          {
             "id": "ada3ea1dfde36f0a",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ML/Machine Learning.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "bd468d37e31835cf",
+            "id": "cfab425985c7a96d",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Robotics.md",
+                "mode": "source",
+                "source": false
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "ef064f4a13fcf970",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
+                "file": "CS/Problems/Longest Consecutive Sequence (LC 128).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b771ec8d46f8e220",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polymath/W2024 Polymath.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -127,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
+                "file": "CS/Problems/Longest Consecutive Sequence (LC 128).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
+                "file": "CS/Problems/Longest Consecutive Sequence (LC 128).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -167,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Top K Frequent Elements (LC 347).md"
+                "file": "CS/Problems/Longest Consecutive Sequence (LC 128).md"
               }
             }
           },
@@ -209,14 +216,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bd468d37e31835cf",
+  "active": "ef064f4a13fcf970",
   "lastOpenFiles": [
-    "ML/Machine Learning.md",
     "CS/Problems/Problems.md",
-    "CS/Problems/Encode and Decode Strings (LC 271).md",
+    "CS/Problems/Longest Consecutive Sequence (LC 128).md",
+    "CS/Problems/Group Anagrams (LC 49).md",
+    "CS/Problems/Contains Duplicate (LC 217).md",
+    "Polymath/W2024 Polymath.md",
+    "CS/Problems/Top K Frequent Elements (LC 347).md",
+    "CS/Problems/Valid Anagram (LC 242).md",
+    "CS/Problems/Product of Array Except Self (LC 238).md",
+    "Robotics/Robotics.md",
+    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
+    "CS/Computer Science.md",
+    "ML/Machine Learning.md",
+    "Robotics/Robot Configuration + Motion/Configuration Space.md",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
     "Robotics/slambook-en.pdf",
-    "CS/Problems/Top K Frequent Elements (LC 347).md",
+    "CS/Problems/Encode and Decode Strings (LC 271).md",
     "Vault Stats.md",
     "Linear Algebra/Vector Combinations.md",
     "Calculus/Quadric Surfaces.md",
@@ -229,15 +246,6 @@
     "Tron 2B.md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "Calculus/Calculus III.md",
-    "index.md",
-    "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "2B/SYDE 252/Total Response of Linear System.md",
-    "2B/SYDE 252/System Stability.md",
-    "2B/SYDE 252/Fourier Transform Properties.md",
-    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
-    "2B/SYDE 252/Fourier Transform.md",
-    "2B/SYDE 252/Fourier Series.md",
-    "CS/Problems/Contains Duplicate (LC 217).md",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
     "2B/SYDE 252/attachments/Pasted image 20231216183300.png",
     "2B/SYDE 252/attachments/System Stability.png",
