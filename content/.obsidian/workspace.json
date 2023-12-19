@@ -18,31 +18,41 @@
             }
           },
           {
-            "id": "434c44cf278a7a75",
+            "id": "168d769339304408",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "ML/UnderstandingDeepLearning_23_10_23_C.pdf"
+              }
+            }
+          },
+          {
+            "id": "ada3ea1dfde36f0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tron 2B.md",
+                "file": "ML/Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "168d769339304408",
+            "id": "bd468d37e31835cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
+                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tron 2B.md",
+                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tron 2B.md",
+                "file": "CS/Problems/Top K Frequent Elements (LC 347).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tron 2B.md"
+                "file": "CS/Problems/Top K Frequent Elements (LC 347).md"
               }
             }
           },
@@ -199,11 +209,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "434c44cf278a7a75",
+  "active": "bd468d37e31835cf",
   "lastOpenFiles": [
+    "ML/Machine Learning.md",
+    "CS/Problems/Problems.md",
+    "CS/Problems/Encode and Decode Strings (LC 271).md",
+    "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
+    "Robotics/slambook-en.pdf",
+    "CS/Problems/Top K Frequent Elements (LC 347).md",
+    "Vault Stats.md",
+    "Linear Algebra/Vector Combinations.md",
+    "Calculus/Quadric Surfaces.md",
+    "Calculus/Velocity And Acceleration.md",
+    "CS/Problems/Kodiak Robotics Take-Home Assignment.md",
+    "2B/MTE 241/Interrupt Setup.md",
+    "2B/MTE 220/Diode Intro.md",
+    "2B/MTE 220/Band Reject Filter.md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "Tron 2B.md",
-    "Robotics/slambook-en.pdf",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "Calculus/Calculus III.md",
     "index.md",
@@ -215,22 +238,8 @@
     "2B/SYDE 252/Fourier Transform.md",
     "2B/SYDE 252/Fourier Series.md",
     "CS/Problems/Contains Duplicate (LC 217).md",
-    "2B/SYDE 252/Properties of Laplace Transform.md",
-    "2B/SYDE 252/Stable and Unstable Systems.md",
-    "2B/SYDE 252/Laplace Transform for C.T. System Analysis.md",
-    "2B/MTE 220/Sinusoidal Steady-state Response.md",
-    "2B/MTE 220/Phasors.md",
-    "2B/MTE 241/C Book.md",
-    "ML/Ordinary Least Squares.md",
-    "2B/SYDE 252/Z-transform for D.T. System Analysis.md",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
-    "2B/SYDE 252/System Summation Problems.md",
-    "Vault Stats.md",
     "2B/SYDE 252/attachments/Pasted image 20231216183300.png",
-    "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
-    "Robotics/Robotics.md",
-    "ML/Machine Learning.md",
-    "Finals Study.md",
     "2B/SYDE 252/attachments/System Stability.png",
     "Untitled.canvas",
     "ML/attachments/perceptron_through_origin.pdf",

@@ -1,6 +1,7 @@
 ---
 title: Band Reject Filter
-tags: 
+tags:
+  - mte220
 date: 2023-12-03
 aliases:
   - Notch Filter

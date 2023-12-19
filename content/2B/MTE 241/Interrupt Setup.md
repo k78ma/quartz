@@ -1,6 +1,7 @@
 ---
 title: Interrupt Setup
-tags: 
+tags:
+  - mte241
 date: 2023-10-13
 aliases:
 ---

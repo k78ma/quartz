@@ -52,7 +52,7 @@ The idea of this is to use create an array where the index is frequency and the 
 | 10           | None            |
 
 This makes stuff easier because it’s bounded by the length of the original list, and you can just go by frequency from the end of the map until you find the top $k$ frequencies.
-- Time complexity: $O(n)$
+- Time complexity: $O(n)$s
 - Space complexity: $O(n)$, we are creating an array/hashmap to help us.
 
 ```python

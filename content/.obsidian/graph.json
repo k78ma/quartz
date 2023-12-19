@@ -22,6 +22,13 @@
       }
     },
     {
+      "query": "tag:#problems  ",
+      "color": {
+        "a": 1,
+        "rgb": 12669664
+      }
+    },
+    {
       "query": "tag:#cs  ",
       "color": {
         "a": 1,
@@ -102,6 +109,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.09553303057955367,
+  "scale": 0.11084608276409742,
   "close": false
 }
