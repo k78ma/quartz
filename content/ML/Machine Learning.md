@@ -41,7 +41,7 @@ date: 2023-06-25
 #### Regression
 - [[Regression]]
 - [[Ordinary Least Squares]]
-- [[Regularizing Linear Regression]]
+- [[Ridge Regression]]
 
 #### Gradient Descent
 - [[Gradient Descent]]

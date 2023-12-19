@@ -32,3 +32,5 @@ In the absence of such prior knowledge, the default is to regularize toward zero
 $$
 R(\Theta) = \mid \mid \Theta \mid \mid^{2}
 $$
+Regularization methods:
+- [[Ridge Regression]]

@@ -11,3 +11,5 @@ Ideas:
 - [ ] War sentiment analysis
 - [ ] Self-driving chair/couch
 - [ ] Computer algebra system
+
+Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)
