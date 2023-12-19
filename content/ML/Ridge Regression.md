@@ -42,3 +42,20 @@ W^{T}W\theta +n\lambda \theta  & = W^{T}T \\[2ex]
 $$
 
 This becomes invertible when $\lambda > 0$. This is called “ridge” regression because we are adding a “ridge” of $\lambda$ values along the diagonal of the matrix before inverting.
+
+### Gradient Descent Solution
+Inverting a matrix of dimensions $d \times d$ takes $O(d^{3})$ time, so the analytical solution above is impractical for large $d$. We can fall back on gradient descent and use computation.
+
+Ridge regression objective:
+$$
+J_{\text{ridge}}(\theta, \theta_{0})=\frac{1}{n}\sum_{i=1}^{n}(\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})^{2} + \lambda || \theta ||^{2}
+$$
+Gradient of the ridge regression objective with respect to $\theta_{0}$:
+$$
+\nabla J_{\text{ridge}}= \frac{2}{n} \sum_{i=1}^{n}(\theta^{T}x^{(i)}+\theta_{0}-y^{(i)}) +2\lambda \theta
+$$
+Partial derivative with respect to $\theta_{0}$:
+$$
+\frac{ \partial J }{ \partial \theta_{0}} = \frac{2}{n} \sum_{i=1}^{n}(\theta^{T}x^{(i)} + \theta_{0}-y^{(i)})  
+$$
+With these derivatives, we can do [[Gradient Descent]], using the regular or stochastic gradient methods. Even better, the objective functions for OLS and ridge regression are convex, which means they have only one minimum. This means, with a small enough step size, gradient descent is guaranteed to find the optimum.

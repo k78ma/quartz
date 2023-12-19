@@ -36,24 +36,12 @@
             }
           },
           {
-            "id": "6fb6a881e7e6ec26",
+            "id": "cf2e86e2a0931f38",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "ML/Ridge Regression.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dca58d2cc6a9119c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Ordinary Least Squares.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,6 +126,14 @@
             }
           },
           {
+            "id": "64816f0453f7d5f4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "3a97c0e9ae487b9e",
             "type": "leaf",
             "state": {
@@ -187,17 +183,9 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "64816f0453f7d5f4",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -217,16 +205,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6fb6a881e7e6ec26",
+  "active": "64816f0453f7d5f4",
   "lastOpenFiles": [
-    "ML/Ordinary Least Squares.md",
+    "ML/Gradient Descent.md",
     "ML/Ridge Regression.md",
-    "ML/Regularization.md",
     "ML/Regression.md",
-    "Projects.md",
-    "Robotics/Euclidean Transforms.md",
+    "ML/Regularization.md",
     "Robotics/Robotics.md",
     "ML/Machine Learning.md",
+    "ML/Ordinary Least Squares.md",
+    "Projects.md",
+    "Robotics/Euclidean Transforms.md",
     "CS/Problems/Longest Consecutive Sequence (LC 128).md",
     "CS/Problems/Problems.md",
     "CS/Problems/Group Anagrams (LC 49).md",
@@ -246,7 +235,6 @@
     "Calculus/Quadric Surfaces.md",
     "Calculus/Velocity And Acceleration.md",
     "CS/Problems/Kodiak Robotics Take-Home Assignment.md",
-    "2B/MTE 241/Interrupt Setup.md",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
     "2B/SYDE 252/attachments/Pasted image 20231216183300.png",
     "2B/SYDE 252/attachments/System Stability.png",

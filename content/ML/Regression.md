@@ -38,5 +38,5 @@ resulting in the solution
 $$
 \theta^{*}, \theta_{0}^{*} = \mathrm{argmin}_{\theta, \theta_{0}}(J(\theta, \theta_{0}))
 $$
-
+- [ ] 
 The classical regression problem is called [[Ordinary Least Squares]].
