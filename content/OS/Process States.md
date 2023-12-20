@@ -1,8 +1,9 @@
 ---
-title: "Process States"
-tag: os
+title: Process States
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 Different states a process can be in any given time.
