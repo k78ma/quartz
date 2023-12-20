@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Robotics.md",
+                "file": "Robotics/Points, Vectors, Coordinate Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Robotics/Robotics.md",
+            "file": "Robotics/Points, Vectors, Coordinate Systems.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Robotics/Robotics.md",
+            "file": "Robotics/Points, Vectors, Coordinate Systems.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -124,7 +124,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Robotics/Robotics.md"
+            "file": "Robotics/Points, Vectors, Coordinate Systems.md"
           }
         }
       }
@@ -133,6 +133,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "oz-clear-unused-images:Clear Unused Images": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -146,6 +147,8 @@
   },
   "active": "9bb40e71ac672a3e",
   "lastOpenFiles": [
+    "Robotics/Robotics.md",
+    "Robotics/Rotation Matrix.md",
     "2B/MTE 220/Capacitor RC Intuition.md",
     "2B/MTE 241/Executables and Threads.md",
     "2B/MTE 220/attachments/Schmitt Trigger Example-2.png",
@@ -180,8 +183,6 @@
     "2B/MTE 220/Rise Time & Fall Time.md",
     "ML/Backpropagation.md",
     "2B/MTE 220/RC Circuit Behaviour.md",
-    "ML/Logistic Regression.md",
-    "2B/MTE 241/Process Intro.md",
     "Statistics",
     "Blog",
     "2B/MTE 220/attachments",
