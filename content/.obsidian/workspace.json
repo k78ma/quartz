@@ -36,12 +36,24 @@
             }
           },
           {
+            "id": "548a023e5f7bff73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Control Theory.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "cf2551c97697b03d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Two Sum.md",
+                "file": "CS/Problems/Problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -122,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Two Sum.md",
+                "file": "Robotics/Control Theory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Two Sum.md",
+                "file": "Robotics/Control Theory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -162,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Two Sum.md"
+                "file": "Robotics/Control Theory.md"
               }
             }
           },
@@ -204,24 +217,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cf2551c97697b03d",
+  "active": "548a023e5f7bff73",
   "lastOpenFiles": [
+    "Robotics/Robotics.md",
+    "Robotics/Control Theory.md",
+    "ML/Machine Learning.md",
+    "CS/Problems/Problems.md",
+    "Two Sum.md",
     "OS/Process States.md",
     "Other/HTN 2023 Project Idea.md",
     "Vault Stats.md",
     "2B/MTE 241/Operating Modes.md",
-    "Two Sum.md",
     "ML/Ridge Regression.md",
     "ML/Gradient Descent.md",
     "ML/Regression.md",
     "ML/Regularization.md",
-    "Robotics/Robotics.md",
-    "ML/Machine Learning.md",
     "ML/Ordinary Least Squares.md",
     "Projects.md",
     "Robotics/Euclidean Transforms.md",
     "CS/Problems/Longest Consecutive Sequence (LC 128).md",
-    "CS/Problems/Problems.md",
     "CS/Problems/Group Anagrams (LC 49).md",
     "CS/Problems/Contains Duplicate (LC 217).md",
     "Polymath/W2024 Polymath.md",
@@ -233,7 +247,6 @@
     "Robotics/Robot Configuration + Motion/Configuration Space.md",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
     "Robotics/slambook-en.pdf",
-    "CS/Problems/Encode and Decode Strings (LC 271).md",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
     "2B/SYDE 252/attachments/Pasted image 20231216183300.png",
     "2B/SYDE 252/attachments/System Stability.png",

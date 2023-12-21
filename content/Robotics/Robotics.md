@@ -65,6 +65,9 @@ alias:
 - [[Mathematical Formulation of SLAM]]
 - [[State Estimation]]
 
+### Control
+- [[Control Theory]]
+
 ## Tools
 - [ROS](ROS.md)
 - [[CMake]]

@@ -42,13 +42,11 @@ date: 2023-06-25
 - [[Regression]]
 - [[Ordinary Least Squares]]
 - [[Ridge Regression]]
-
 #### Gradient Descent
 - [[Gradient Descent]]
 	- [[1D Gradient Descent]]
 	- [[Multiple Dimension Gradient Descent]]
 - [[Stochastic Gradient Descent]]
-
 #### Backpropagation
 - [[Backpropagation]]
 
