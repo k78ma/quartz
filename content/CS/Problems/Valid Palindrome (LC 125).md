@@ -1,5 +1,5 @@
 ---
-title: Valid Palindrome
+title: Valid Palindrome (LC 125)
 tags:
   - problems
 date: 2023-12-21
