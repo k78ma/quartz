@@ -6,22 +6,20 @@ alias:
 ---
 *There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.*
 
-**Modern Robotics:**   <progress max=642 value=36> </progress> 
-
 **Visual SLAM:**   <progress max=356 value=54> </progress> 
 
 ## Robot Configuration + Motion
-- [x] [[Configuration Space|Configuration Space]]
-	- [ ] [[Configuration Space Topology]]
-	- [ ] [[Configuration Space Representation]]
-- [x] [[Degrees of Freedom|Degrees of Freedom]]
-- [x] [[Grubler’s Formula|Grubler’s Formula]]
-- [x] [[Robot Joints]]
-- [x] [[Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
-- [ ] [[Configuration and Velocity Constraints]]
-- [ ] [[Task Space and Workspace]]
+- [[Configuration Space|Configuration Space]]
+	- [[Configuration Space Topology]]
+	- [[Configuration Space Representation]]
+- [[Degrees of Freedom|Degrees of Freedom]]
+- [[Grubler’s Formula|Grubler’s Formula]]
+- [[Robot Joints]]
+- [[Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
+- [[Configuration and Velocity Constraints]]
+- [[Task Space and Workspace]]
 ### Rigid Body Motions
-- [Rotation Matrix](Rotation%20Matrix.md)
+- [[Rotation Matrix]]
 	- [[Points, Vectors, Coordinate Systems]]
 	- [[Transforms Intuition]]
 	- [[Euclidean Transforms]]
@@ -36,29 +34,10 @@ alias:
 - [[Affine and Projective Transformation]]
 
 ## Kinematics + Dynamics
-### Forward Kinematics
-
-### Velocity Kinematics
-
-### Statics
-
-### Inverse Kinematics
-
-### Closed-chain Kinematics	  
-
-### Open-chain Dynamics
 
 ## Planning
-### Trajectory Generation
-
-### Motion Planning
 
 ## Control
-### Robot Control
-
-### Grasping and Manipulation
-
-### Wheeled Mobile Robots
 
 ## SLAM
 - [[Visual SLAM Framework]]

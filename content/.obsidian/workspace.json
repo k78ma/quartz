@@ -58,9 +58,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "da2f71c7aa53fd43",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Problems/Valid Palindrome.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5923faa675670184",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Problems/Slice Notation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -135,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Control Theory.md",
+                "file": "CS/Problems/Slice Notation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Control Theory.md",
+                "file": "CS/Problems/Slice Notation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robotics/Control Theory.md"
+                "file": "CS/Problems/Slice Notation.md"
               }
             }
           },
@@ -217,12 +241,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "548a023e5f7bff73",
+  "active": "5923faa675670184",
   "lastOpenFiles": [
+    "CS/Problems/Valid Palindrome.md",
+    "CS/Problems/Slice Notation.md",
+    "CS/Problems/Problems.md",
     "Robotics/Robotics.md",
+    "Robotics/Rotation Matrix.md",
     "Robotics/Control Theory.md",
     "ML/Machine Learning.md",
-    "CS/Problems/Problems.md",
     "Two Sum.md",
     "OS/Process States.md",
     "Other/HTN 2023 Project Idea.md",
@@ -242,9 +269,6 @@
     "CS/Problems/Top K Frequent Elements (LC 347).md",
     "CS/Problems/Valid Anagram (LC 242).md",
     "CS/Problems/Product of Array Except Self (LC 238).md",
-    "CS/Problems/AeroVect Interview (Sept 22, 2023).md",
-    "CS/Computer Science.md",
-    "Robotics/Robot Configuration + Motion/Configuration Space.md",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
     "Robotics/slambook-en.pdf",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",

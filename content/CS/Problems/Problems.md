@@ -15,6 +15,7 @@ date: 2023-09-21
 - [[Valid Sudoku (LC 36)]]
 - [[Encode and Decode Strings (LC 271)]]
 - [[Longest Consecutive Sequence (LC 128)]]
+- [[Valid Palindrome]]
 
 ### Interview Questions
 - [[AeroVect Interview (Sept 22, 2023)]]
