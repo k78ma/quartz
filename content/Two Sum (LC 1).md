@@ -1,9 +1,9 @@
 ---
-title: Two Sum
+title: Two Sum (LC 1)
 tags:
   - cs
   - problems
-date: 2023-12-19
+date: 2023-12-22
 aliases:
 ---
 Given an array of integers `nums` and an integer `target`, return _indices of the two numbers such that they add up to `target`_.

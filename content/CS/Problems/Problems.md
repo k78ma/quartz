@@ -8,7 +8,7 @@ date: 2023-09-21
 ### NeetCode 150
 - [[Contains Duplicate (LC 217)]]
 - [[Valid Anagram (LC 242)]]
-- [[Two Sum]]
+- [[Two Sum (LC 1)]]
 - [[Group Anagrams (LC 49)]]
 - [[Top K Frequent Elements (LC 347)]]
 - [[Product of Array Except Self (LC 238)]]
@@ -16,6 +16,7 @@ date: 2023-09-21
 - [[Encode and Decode Strings (LC 271)]]
 - [[Longest Consecutive Sequence (LC 128)]]
 - [[Valid Palindrome (LC 125)]]
+- [[Two Sum II - Input Array Is Sorted (LC 167)]]
 
 ### Interview Questions
 - [[AeroVect Interview (Sept 22, 2023)]]

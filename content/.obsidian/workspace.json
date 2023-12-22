@@ -53,7 +53,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Valid Palindrome (LC 125).md",
+                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Valid Palindrome (LC 125).md",
+                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Valid Palindrome (LC 125).md",
+                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Valid Palindrome (LC 125).md"
+                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md"
               }
             }
           },
@@ -220,13 +220,14 @@
   "active": "cf2551c97697b03d",
   "lastOpenFiles": [
     "CS/Problems/Problems.md",
+    "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
     "CS/Problems/Valid Palindrome (LC 125).md",
+    "Two Sum (LC 1).md",
     "CS/Problems/Slice Notation.md",
     "Robotics/Robotics.md",
     "Robotics/Rotation Matrix.md",
     "Robotics/Control Theory.md",
     "ML/Machine Learning.md",
-    "Two Sum.md",
     "OS/Process States.md",
     "Other/HTN 2023 Project Idea.md",
     "Vault Stats.md",
@@ -244,7 +245,6 @@
     "Polymath/W2024 Polymath.md",
     "CS/Problems/Top K Frequent Elements (LC 347).md",
     "CS/Problems/Valid Anagram (LC 242).md",
-    "CS/Problems/Product of Array Except Self (LC 238).md",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
     "Robotics/slambook-en.pdf",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
