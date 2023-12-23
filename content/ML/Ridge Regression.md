@@ -41,7 +41,7 @@ W^{T}W\theta +n\lambda \theta  & = W^{T}T \\[2ex]
 \end{align}
 $$
 
-This becomes invertible when $\lambda > 0$. This is called “ridge” regression because we are adding a “ridge” of $\lambda$ values along the diagonal of the matrix before inverting.
+This becomes invertible when $\lambda > 0$. This is called “ridge” regression because we are adding a “ridge” of $\lambda$ values along the diagonal of the matrix before inverting, since $I$ is the identity matrix for the dimension $d$. This is basically making the matrix more diagonally dominant, which makes it more invertible.
 
 ### Gradient Descent Solution
 Inverting a matrix of dimensions $d \times d$ takes $O(d^{3})$ time, so the analytical solution above is impractical for large $d$. We can fall back on gradient descent and use computation.

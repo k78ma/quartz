@@ -48,7 +48,7 @@ date: 2023-06-25
 	- [[Multiple Dimension Gradient Descent]]
 - [[Stochastic Gradient Descent]]
 #### Backpropagation
-- [[Backpropagation]]
+- [[Backpropagation]] 
 
 #### Neural Networks
 - [[Neural Networks]]

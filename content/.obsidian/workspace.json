@@ -48,19 +48,31 @@
             }
           },
           {
-            "id": "cf2551c97697b03d",
+            "id": "8991763e76a85400",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
+                "file": "CS/Problems/Problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ef0fcc787a809039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Ridge Regression.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,20 +134,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0031e324689dff53",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "460ffbd0642e6980",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
+                "file": "ML/Ridge Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
+                "file": "ML/Ridge Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md"
+                "file": "ML/Ridge Regression.md"
               }
             }
           },
@@ -196,8 +200,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "52edfdbc7d3812f3",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -217,22 +230,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cf2551c97697b03d",
+  "active": "ef0fcc787a809039",
   "lastOpenFiles": [
+    "ML/Machine Learning.md",
+    "ML/Ridge Regression.md",
     "CS/Problems/Problems.md",
+    "Robotics/Control Theory.md",
     "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
     "CS/Problems/Valid Palindrome (LC 125).md",
     "Two Sum (LC 1).md",
     "CS/Problems/Slice Notation.md",
     "Robotics/Robotics.md",
     "Robotics/Rotation Matrix.md",
-    "Robotics/Control Theory.md",
-    "ML/Machine Learning.md",
     "OS/Process States.md",
     "Other/HTN 2023 Project Idea.md",
     "Vault Stats.md",
     "2B/MTE 241/Operating Modes.md",
-    "ML/Ridge Regression.md",
     "ML/Gradient Descent.md",
     "ML/Regression.md",
     "ML/Regularization.md",
