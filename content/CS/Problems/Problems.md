@@ -17,6 +17,7 @@ date: 2023-09-21
 - [[Longest Consecutive Sequence (LC 128)]]
 - [[Valid Palindrome (LC 125)]]
 - [[Two Sum II - Input Array Is Sorted (LC 167)]]
+- [[3Sum (LC 15)]]
 
 ### Interview Questions
 - [[AeroVect Interview (Sept 22, 2023)]]
