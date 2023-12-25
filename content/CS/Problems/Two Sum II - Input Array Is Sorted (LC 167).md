@@ -3,6 +3,7 @@ title: Two Sum II - Input Array Is Sorted (LC 167)
 tags: 
 date: 2023-12-22
 aliases:
+  - Two Sum II
 ---
 Given a **1-indexed** array of integers `numbers` that is already **_sorted in non-decreasing order_**, find two numbers such that they add up to a specific `target` number. Let these two numbers be `numbers[index1]` and `numbers[index2]` where `1 <= index1 < index2 <= numbers.length`.
 
