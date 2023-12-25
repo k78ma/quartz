@@ -1,6 +1,7 @@
 ---
-title: "Interpretations of Partial Derivatives"
-tag:
+title: Interpretations of Partial Derivatives
+tags:
+  - calc3
 date: 2023-08-14
 draft:
 ---

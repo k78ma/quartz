@@ -1,8 +1,9 @@
 ---
-title: "Time-sharing"
-tag: os
+title: Time-sharing
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 Method of virtualization (CPU).

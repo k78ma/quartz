@@ -1,8 +1,10 @@
 ---
-title: "Algorithm Design Manual (Skiena)"
-tag: cs, algos
+title: Algorithm Design Manual (Skiena)
+tags:
+  - cs
+  - algos
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 Chapter 1.3 of [[Algorithm Design Manual (Skiena)]] - "Reasoning About Correctness"

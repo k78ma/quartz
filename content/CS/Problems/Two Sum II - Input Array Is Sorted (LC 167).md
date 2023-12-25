@@ -1,6 +1,7 @@
 ---
 title: Two Sum II - Input Array Is Sorted (LC 167)
-tags: 
+tags:
+  - problems
 date: 2023-12-22
 aliases:
   - Two Sum II

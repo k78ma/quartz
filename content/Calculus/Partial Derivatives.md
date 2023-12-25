@@ -1,6 +1,7 @@
 ---
-title: "Partial Derivatives"
-tag:
+title: Partial Derivatives
+tags:
+  - calc3
 date: 2023-08-11
 draft:
 ---

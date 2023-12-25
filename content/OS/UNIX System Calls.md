@@ -1,8 +1,9 @@
 ---
-title: "UNIX System Calls"
-tag: os
+title: UNIX System Calls
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 These essentially serve as APIs for abstractions like [Process Creation](Process%20Creation.md).

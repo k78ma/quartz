@@ -1,8 +1,9 @@
 ---
-title: "RAM Model of Computation"
-tag: cs
+title: RAM Model of Computation
+tags:
+  - cs
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 Simple abstraction model of computing based on a hypothetical *Random Access Machine*

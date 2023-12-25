@@ -1,8 +1,9 @@
 ---
-title: "Robotics"
-tag: robotics
+title: Robotics
+tags:
+  - robotics
 date: 2023-06-30
-alias:
+aliases:
 ---
 *There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.*
 

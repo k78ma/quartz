@@ -1,6 +1,7 @@
 ---
-title: "Spherical Coordinates"
-tag:
+title: Spherical Coordinates
+tags:
+  - calc3
 date: 2023-08-10
 draft:
 ---

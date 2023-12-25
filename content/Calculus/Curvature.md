@@ -1,8 +1,9 @@
 ---
-title: "Curvature"
-tag: calc3
+title: Curvature
+tags:
+  - calc3
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 Curvature of a smooth curve measures how fast a curve is changing direction at a given point. 

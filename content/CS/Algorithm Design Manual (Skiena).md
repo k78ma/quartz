@@ -1,8 +1,10 @@
 ---
-title: "Algorithm Design Manual (Skiena)"
-tag: cs
+title: Algorithm Design Manual (Skiena)
+tags:
+  - cs
+  - algos
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 Great algorithms textbook by Steven Skiena. First learned about it from https://teachyourselfcs.com

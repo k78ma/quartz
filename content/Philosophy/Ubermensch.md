@@ -1,6 +1,7 @@
 ---
-title: "Ubermensch"
-tag:
+title: Ubermensch
+tags:
+  - philosophy
 date: 2023-08-26
 ---
 

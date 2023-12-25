@@ -1,10 +1,11 @@
 ---
-title: "Policies"
-tag: os
-date: 2023-06-25
-alias:
+title: OS Policies
+tags:
+  - os
+date: 2023-12-24
+aliases:
 ---
-
+ 
 High-level algorithms for making some kind of decision within the OS.
 Basically asking the question: *Which* process should be run right now?
 

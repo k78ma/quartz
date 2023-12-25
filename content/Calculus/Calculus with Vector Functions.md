@@ -1,8 +1,9 @@
 ---
-title: "Calculus with Vector Functions"
-tag: calc3
+title: Calculus with Vector Functions
+tags:
+  - calc3
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 Let’s say our generic vector function form is $\vec{r} (t) = \langle f(t), g(t), h(t) \rangle$ 

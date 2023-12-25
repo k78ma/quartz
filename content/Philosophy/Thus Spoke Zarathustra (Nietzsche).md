@@ -1,6 +1,7 @@
 ---
-title: "Thus Spoke Zarathustra (Nietzsche)"
-tag: philosophy
+title: Thus Spoke Zarathustra (Nietzsche)
+tags:
+  - philosophy
 date: 2023-08-25
 draft:
 ---

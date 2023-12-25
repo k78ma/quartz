@@ -1,8 +1,9 @@
 ---
-title: "Artificial Neuron"
-tag: ml
+title: Artificial Neuron
+tags:
+  - ml
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 This is also sometimes called a [[Perceptron|Perceptron]] but I prefer to use perceptron to refer to the learning algorithm.

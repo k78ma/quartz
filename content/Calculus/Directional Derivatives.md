@@ -1,6 +1,7 @@
 ---
-title: "Directional Derivatives"
-tag: calc3
+title: Directional Derivatives
+tags:
+  - calc3
 date: 2023-08-27
 ---
 

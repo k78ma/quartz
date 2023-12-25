@@ -1,8 +1,9 @@
 ---
-title: "Stacks and Queues"
-tag: cs
+title: Stacks and Queues
+tags:
+  - cs
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 Basic array-like data structures.

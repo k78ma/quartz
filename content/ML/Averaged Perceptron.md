@@ -1,8 +1,9 @@
 ---
-title: "Averaged Perceptron"
-tag: ml
+title: Averaged Perceptron
+tags:
+  - ml
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 - Regular [[Perceptron|Perceptron]] is sensitive to extreme examples

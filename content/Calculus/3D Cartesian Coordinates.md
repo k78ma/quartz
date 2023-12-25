@@ -1,8 +1,9 @@
 ---
-title: "3D Coordinate System"
-tag: calc3
+title: 3D Coordinate System
+tags:
+  - calc3
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 - Description of 3D space – analogous to 2D

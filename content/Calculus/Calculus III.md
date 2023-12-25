@@ -1,8 +1,10 @@
 ---
-title: "Calculus III"
-tag: calc3, moc
+title: Calculus III
+tags:
+  - calc3
+  - moc
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/Classes/CalcIII/CalcIII.aspx) in preparation for [[MTE 203 - Advanced Calculus|MTE 203]].

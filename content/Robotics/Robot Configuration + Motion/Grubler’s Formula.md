@@ -1,6 +1,7 @@
 ---
-title: "Grubler’s Formula"
-tag:
+title: Grubler’s Formula
+tags:
+  - robotics
 date: 2023-08-27
 ---
 

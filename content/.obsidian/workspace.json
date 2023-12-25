@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "27367d26da3d0a5d",
+            "id": "b652134536c7eedb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "3Sum (LC 15).md",
+                "file": "Vault Stats.md",
                 "mode": "source",
                 "source": false
               }
@@ -147,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "3Sum (LC 15).md",
+                "file": "Vault Stats.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "3Sum (LC 15).md",
+                "file": "Vault Stats.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +187,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "3Sum (LC 15).md"
+                "file": "Vault Stats.md"
               }
             }
           },
@@ -229,34 +229,34 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "27367d26da3d0a5d",
+  "active": "b652134536c7eedb",
   "lastOpenFiles": [
-    "Robotics/Control Theory.md",
-    "CS/Problems/Two Sum II - Input Array Is Sorted (LC 167).md",
-    "ML/Ridge Regression.md",
-    "3Sum (LC 15).md",
-    "Two Sum (LC 1).md",
-    "CS/Problems/Problems.md",
-    "ML/Machine Learning.md",
-    "CS/Problems/Valid Palindrome (LC 125).md",
-    "CS/Problems/Slice Notation.md",
-    "Robotics/Robotics.md",
-    "Robotics/Rotation Matrix.md",
-    "OS/Process States.md",
-    "Other/HTN 2023 Project Idea.md",
+    "Finals Study.md",
     "Vault Stats.md",
-    "2B/MTE 241/Operating Modes.md",
-    "ML/Gradient Descent.md",
-    "ML/Regression.md",
-    "ML/Regularization.md",
-    "ML/Ordinary Least Squares.md",
-    "Projects.md",
-    "Robotics/Euclidean Transforms.md",
-    "CS/Problems/Longest Consecutive Sequence (LC 128).md",
-    "CS/Problems/Group Anagrams (LC 49).md",
-    "CS/Problems/Contains Duplicate (LC 217).md",
-    "Polymath/W2024 Polymath.md",
-    "CS/Problems/Top K Frequent Elements (LC 347).md",
+    "ML/Polynomial Basis.md",
+    "ML/Perceptron.md",
+    "ML/Margin.md",
+    "ML/Feature Representation.md",
+    "ML/Feature Engineering.md",
+    "ML/Artificial Neuron.md",
+    "ML/Averaged Perceptron.md",
+    "OS/wait().md",
+    "OS/Process.md",
+    "OS/fork().md",
+    "OS/exec().md",
+    "OS/UNIX System Calls.md",
+    "OS/Time-sharing.md",
+    "OS/Process API.md",
+    "OS/Process Creation.md",
+    "OS/OS Policies.md",
+    "OS/OS Data Structures.md",
+    "OS/Virtualization.md",
+    "OS/Operating Systems.md",
+    "OS/OS Mechanisms.md",
+    "Computer Architecture/Computer Architecture.md",
+    "Computer Architecture/C main() function.md",
+    "Linear Algebra/Linear Algebra.md",
+    "CS/Sorting Algorithms.md",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
     "Robotics/slambook-en.pdf",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",

@@ -1,8 +1,9 @@
 ---
-title: "Hashing"
-tag: cs, algos
+title: Hashing
+tags:
+  - cs
 date: 2023-06-25
-alias:
+aliases:
 ---
 ## Hash Function
 A function that converts data of arbitrary size to a value of a fixed size (usually a 32-bit int).

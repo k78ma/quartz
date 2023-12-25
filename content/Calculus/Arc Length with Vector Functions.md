@@ -1,8 +1,9 @@
 ---
-title: "Arc Length with Vector Functions"
-tag: calc3
+title: Arc Length with Vector Functions
+tags:
+  - calc3
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 Determining the length of a vector function $\vec{r}(t)= \langle f(t), g(t), h(t) \rangle$ on the interval $a \leq t \leq b$

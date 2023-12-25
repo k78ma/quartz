@@ -1,8 +1,9 @@
 ---
-title: "Robot Joints"
-tag: robotics
+title: Robot Joints
+tags:
+  - robotics
 date: 2023-06-30
-alias:
+aliases:
 ---
 Every joint connects exactly two links
 

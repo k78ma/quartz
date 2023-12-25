@@ -1,6 +1,7 @@
 ---
-title: "Vector Combinations"
-tag: lin-alg
+title: Vector Combinations
+tags:
+  - lin-alg
 date: 2023-08-29
 ---
 

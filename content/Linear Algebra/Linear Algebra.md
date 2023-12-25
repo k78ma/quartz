@@ -1,8 +1,10 @@
 ---
-title: "Linear Algebra"
-tag: lin-alg, moc
+title: Linear Algebra
+tags:
+  - lin-alg
+  - moc
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 A good foundation of linear algebra contributes to deeper understanding of [[Machine Learning]] and [[Robotics]].

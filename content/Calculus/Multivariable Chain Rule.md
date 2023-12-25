@@ -1,6 +1,7 @@
 ---
-title: "Multivariable & Partial Chain Rule"
-tag:
+title: Multivariable & Partial Chain Rule
+tags:
+  - lin-alg
 date: 2023-08-19
 draft:
 ---

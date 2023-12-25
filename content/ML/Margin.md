@@ -1,8 +1,9 @@
 ---
-title: "Margin"
-tag: ml
+title: Margin
+tags:
+  - ml
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 >[!note] Definition

@@ -1,8 +1,9 @@
 ---
-title: "Velocity and Acceleration"
-tag: calc3
+title: Velocity and Acceleration
+tags:
+  - calc3
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 Given the position function of an object, the velocity of the object is the first derivative of the position function and the acceleration of the object is the second derivative of the position function. 

@@ -1,8 +1,11 @@
 ---
-title: "Operating Systems"
-tag: os, moc
+title: Operating Systems
+tags:
+  - os
+  - moc
 date: 2023-06-25
-alias: OS
+aliases:
+  - OS
 ---
 
 **OS: 3 Easy Pieces**:     <progress max=643 value=75> </progress> 
@@ -23,5 +26,5 @@ alias: OS
 		- [fork()](fork().md)
 		- [exec()](exec().md)
 		- [wait()](wait().md)
-- [Mechanisms](Mechanisms.md)
-- [Policies](Policies.md)
+- [OS Mechanisms](OS%20Mechanisms.md)
+- [OS Policies](OS%20Policies.md)

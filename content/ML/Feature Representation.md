@@ -1,10 +1,10 @@
 ---
-title: "Feature Representation"
-tag: ml
+title: Feature Representation
+tags:
+  - ml
 date: 2023-06-25
-alias:
+aliases:
 ---
-
 > [!info] Core idea:
 > Use a feature function to transform original data from $\mathbb{R}^{d}$ to some other $\mathbb{R}^D$
 

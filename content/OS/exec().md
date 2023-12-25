@@ -1,8 +1,9 @@
 ---
-title: "exec()"
-tag: os
+title: exec()
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 An [UNIX System Call](UNIX%20System%20Calls.md).
