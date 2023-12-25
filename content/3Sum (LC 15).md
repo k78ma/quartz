@@ -92,7 +92,7 @@ class Solution:
 	- If the sum is too small, increment left pointer
 	- If the sum produces the correct amount, save the triplet to the result
 		-  In [[Two Sum II - Input Array Is Sorted (LC 167)|Two Sum II]], we could just return here because there was only one unique solution. Here, after adding the triplet to `results`, we must increment the left pointer to continue to the next case.
-		- We check that the value at the left pointer is not duplicated at the left position. So, we do:```
+		- We check that the value at the left pointer is not duplicated at the left position. So, we do:
 
 ```python
 l += 1
@@ -101,7 +101,7 @@ while nums[l] == nums[l - 1] and l < r:
 ```
 
 -  Note that we don't actually have to manipulate the right pointer here! Our previous logic will take care of this
-- Alternatively, we can only manipulate the right pointer too!
+- Alternatively, we can also choose to only manipulate the right pointer:
 
 ```python
 r -= 1
