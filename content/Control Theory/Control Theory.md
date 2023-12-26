@@ -6,3 +6,4 @@ tags:
 date: 2023-12-20
 aliases:
 ---
+- [[Types of Control]]

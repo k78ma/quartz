@@ -1,7 +1,7 @@
 ---
-title: AeroVect Interview (Sept 22, 2023)
+title: Trapping Rain Water (LC 42)
 tags: 
-date: 2023-09-22
+date: 2023-12-25
 aliases:
   - Trapping Rain Water
 draft: "true"
