@@ -10,7 +10,7 @@ aliases:
 - [[Designing Functions|Designing Functions]]
 
 ## Algorithms
-- Sorting Algorithms
+- [[Sorting Algorithms]]
 	- [ ] [[Bubble Sort]]
 	- [ ] [[Insertion Sort]]
 	- [ ] [[Selection Sort]]

@@ -1,7 +1,6 @@
 ---
 title: Stochastic vs. Deterministic
 tags:
-  - terminology
   - syde252
   - robotics
 date: 2023-09-23

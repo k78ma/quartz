@@ -10,7 +10,7 @@ aliases:
 
 **OS: 3 Easy Pieces**:     <progress max=643 value=75> </progress> 
 
-[MTE 241 – Introduction to Computer Structures & Real-Time Systems](MTE%20241%20%E2%80%93%20Introduction%20to%20Computer%20Structures%20&%20Real-Time%20Systems)
+[[MTE 241 - Computer Structures & Real-Time Systems|MTE 241]]
 
 ## Concepts
 - [Virtualization](Virtualization.md)
