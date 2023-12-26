@@ -16,19 +16,19 @@ Welcome to my notes!
 - [[Computer Science|Computer Science]]
 ### Other:
 See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
-- #### Computers
+- **UWaterloo Courses**
+	- [[Tron 2B]]
+- **Computers**
 	- [[Computer Architecture]]
 	- [[Operating Systems|Operating Systems]] + [[MTE 241 - Computer Structures & Real-Time Systems|RTOS]]
-- #### Mathematics
+- **Mathematics**
 	- [[Calculus III|Calculus]]
 	- [[Linear Algebra|Linear Algebra]]
 	- [[Discrete Mathematics]]
-- #### Engineering
+- **Engineering**
 	- [[MTE 220 - Sensors and Instrumentation|Circuits and Sensors]]
 	- [[SYDE 252 - Signals and Systems|Signals and Systems]]
 	- [[Thermodynamics]]
-- #### UWaterloo Courses
-	- [[Tron 2B]]
-- #### Other
+- **Other**
 	- [[Philosophy|Philosophy]]
 ---

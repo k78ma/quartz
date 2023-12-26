@@ -48,18 +48,6 @@
             }
           },
           {
-            "id": "d1108e24a42a8850",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e29e96386dd14096",
             "type": "leaf",
             "state": {
@@ -72,43 +60,19 @@
             }
           },
           {
-            "id": "75a7fed795e8f978",
+            "id": "814ba3d44960117e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Best Time to Buy and Sell Stock (LC 121).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55b44ce6862d5bcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2B/Tron 2B.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dbf8e851e7a7dd48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Random/Stochastic vs. Deterministic.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -249,7 +213,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 203.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -265,19 +230,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "52edfdbc7d3812f3",
+  "active": "814ba3d44960117e",
   "lastOpenFiles": [
+    "CS/Problems/Problems.md",
+    "ML/Ridge Regression.md",
+    "index.md",
+    "CS/Problems/Best Time to Buy and Sell Stock (LC 121).md",
     "2B/Tron 2B.md",
     "Random/Stochastic vs. Deterministic.md",
-    "index.md",
     "Computer Architecture/Computer Architecture.md",
     "CS/Computer Science.md",
     "Linear Algebra/Linear Algebra.md",
     "Control Theory/Control Theory.md",
-    "CS/Problems/Problems.md",
-    "CS/Problems/Best Time to Buy and Sell Stock (LC 121).md",
     "CS/Problems/Trapping Rain Water (LC 42).md",
-    "ML/Ridge Regression.md",
     "Robotics/Robotics.md",
     "ML/Machine Learning.md",
     "OS/Operating Systems.md",
