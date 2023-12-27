@@ -105,3 +105,8 @@ class Solution:
 
         return water
 ```
+
+### Two-Pointers Solution
+```python
+
+```

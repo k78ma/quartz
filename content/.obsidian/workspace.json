@@ -53,26 +53,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Problems.md",
+                "file": "CS/Problems/Trapping Rain Water (LC 42).md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "814ba3d44960117e",
+            "id": "23eeb89054a1ab23",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "Polymath/W2024 Polymath.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b46b56312331478e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Stochastic Gradient Descent.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -147,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "ML/Stochastic Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "ML/Stochastic Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -187,7 +199,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "ML/Stochastic Gradient Descent.md"
               }
             }
           },
@@ -213,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 203.5,
-    "collapsed": true
+    "width": 203.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,10 +241,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "814ba3d44960117e",
+  "active": "b46b56312331478e",
   "lastOpenFiles": [
+    "ML/Polynomial Basis.md",
+    "ML/Stochastic Gradient Descent.md",
+    "Polymath/W2024 Polymath.md",
+    "CS/Problems/Trapping Rain Water (LC 42).md",
     "CS/Problems/Problems.md",
+    "CS/Problems/Valid Palindrome (LC 125).md",
+    "CS/Problems/Longest Substring Without Repeating Characters (LC 3).md",
     "ML/Ridge Regression.md",
+    "Things to Do.md",
     "index.md",
     "CS/Problems/Best Time to Buy and Sell Stock (LC 121).md",
     "2B/Tron 2B.md",
@@ -242,7 +260,6 @@
     "CS/Computer Science.md",
     "Linear Algebra/Linear Algebra.md",
     "Control Theory/Control Theory.md",
-    "CS/Problems/Trapping Rain Water (LC 42).md",
     "Robotics/Robotics.md",
     "ML/Machine Learning.md",
     "OS/Operating Systems.md",
@@ -250,16 +267,10 @@
     "OS/MTE 241 – Introduction to Computer Structures & Real-Time Systems.md",
     "Statistics/Statistics.md",
     "CS/Problems/Container With Most Water (LC 11).md",
-    "Things to Do.md",
     "Projects.md",
     "Thermodynamics",
     "Control Theory",
     "Vault Stats.md",
-    "CS/Problems/Kodiak Robotics Take-Home Assignment.md",
-    "Blog/Adding ML to Polymath's Perception System.md",
-    "Finals Study.md",
-    "ML/Polynomial Basis.md",
-    "ML/Perceptron.md",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
     "Robotics/slambook-en.pdf",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
