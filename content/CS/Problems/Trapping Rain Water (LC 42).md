@@ -77,6 +77,8 @@ int main() {
 - `rightMax[i]` is the maximum of `rightMax[i+1]` and `height[i]`
 Then, for each position `i` in the height map, the water trapped above `i` is the minimum of `leftMax[i]` and `rightMax[i]`, minus the height at `i`. From here we just sum all the trapped water.
 
+![[Trapping Rain Water (LC 42).png]]
+
 As far as I can tell, this should have time/space complexity of $O(n)$. The interviewer pointed out that I’m using 3 separate for loops, but I’m not entirely sure if there’s a better way to do this, and the interviewer wasn’t sure either (although he might just be saying that). Definitely gotta get better at questions like these.
 
 **UPDATE:** It turns out that this problem can be found here: https://leetcode.com/problems/trapping-rain-water/description/ (LeetCode Hard)
@@ -107,6 +109,29 @@ class Solution:
 ```
 
 ### Two-Pointers Solution
-```python
+This solution has $O(1)$ memory since we don't need to make `leftMax` and `rightMax` arrays. The time complexity is still $O(n)$.
 
+- Initialize left and right pointers at the start/end of the array respectively
+- Make max left and max right variables to keep track of the max so far from each direction
+
+```python
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        if not height:
+            return 0
+
+        l, r = 0, len(height) - 1
+        leftMax, rightMax = height[l], height[r]
+
+        water = 0
+        while l < r:
+            if leftMax < rightMax:
+                l += 1
+                leftMax = max(leftMax, height[l])
+                water += leftMax - height[l]
+            else:
+                r -= 1
+                rightMax = max(rightMax, height[r])
+                water += rightMax - height[r]
+        return res
 ```
