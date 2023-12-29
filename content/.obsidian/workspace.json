@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "cfab425985c7a96d",
+            "id": "14e4292ca256b8b2",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -41,7 +41,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Problems.md",
+                "file": "CS/Problems/Longest Substring Without Repeating Characters (LC 3).md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,8 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -135,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Thermodynamics/Thermodynamics.md",
+                "file": "CS/Problems/Longest Substring Without Repeating Characters (LC 3).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Thermodynamics/Thermodynamics.md",
+                "file": "CS/Problems/Longest Substring Without Repeating Characters (LC 3).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Thermodynamics/Thermodynamics.md"
+                "file": "CS/Problems/Longest Substring Without Repeating Characters (LC 3).md"
               }
             }
           },
@@ -219,15 +218,17 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "cac8fe3321463e11",
+  "active": "87ef55ae9b4eefc1",
   "lastOpenFiles": [
-    "Books.md",
-    "Thermodynamics/Thermodynamics.md",
     "CS/Problems/Problems.md",
+    "Robotics/Robotics.md",
+    "Control Theory/Control Theory.md",
+    "ML/Machine Learning.md",
+    "Thermodynamics/Thermodynamics.md",
+    "Thermodynamics/Untitled.md",
+    "Books.md",
     "Physics/Physics.md",
     "Physics",
-    "Thermodynamics/Untitled.md",
-    "ML/Machine Learning.md",
     "CS/Problems/Trapping Rain Water (LC 42).md",
     "CS/Problems/attachments/Trapping Rain Water (LC 42).png",
     "CS/Problems/attachments",
@@ -245,8 +246,6 @@
     "Computer Architecture/Computer Architecture.md",
     "CS/Computer Science.md",
     "Linear Algebra/Linear Algebra.md",
-    "Control Theory/Control Theory.md",
-    "Robotics/Robotics.md",
     "OS/Operating Systems.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "OS/MTE 241 – Introduction to Computer Structures & Real-Time Systems.md",
