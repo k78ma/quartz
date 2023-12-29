@@ -6,7 +6,7 @@ date: 2023-12-29
 aliases:
 ---
 ### Basics
-
+- [[Basics of Thermodynamics]]
 
 ### First Law of Thermodynamics
 
