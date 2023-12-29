@@ -110,7 +110,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -218,7 +219,7 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "87ef55ae9b4eefc1",
+  "active": "52edfdbc7d3812f3",
   "lastOpenFiles": [
     "CS/Problems/Problems.md",
     "Robotics/Robotics.md",
