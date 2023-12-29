@@ -36,24 +36,24 @@
             }
           },
           {
-            "id": "ef0fcc787a809039",
+            "id": "87ef55ae9b4eefc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Ridge Regression.md",
+                "file": "CS/Problems/Problems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e29e96386dd14096",
+            "id": "cac8fe3321463e11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Trapping Rain Water (LC 42).md",
+                "file": "Thermodynamics/Thermodynamics.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Trapping Rain Water (LC 42).md",
+                "file": "Thermodynamics/Thermodynamics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Trapping Rain Water (LC 42).md",
+                "file": "Thermodynamics/Thermodynamics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Trapping Rain Water (LC 42).md"
+                "file": "Thermodynamics/Thermodynamics.md"
               }
             }
           },
@@ -219,15 +219,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e29e96386dd14096",
+  "active": "cac8fe3321463e11",
   "lastOpenFiles": [
+    "Books.md",
+    "Thermodynamics/Thermodynamics.md",
+    "CS/Problems/Problems.md",
+    "Physics/Physics.md",
+    "Physics",
+    "Thermodynamics/Untitled.md",
+    "ML/Machine Learning.md",
+    "CS/Problems/Trapping Rain Water (LC 42).md",
     "CS/Problems/attachments/Trapping Rain Water (LC 42).png",
     "CS/Problems/attachments",
     "ML/Stochastic Gradient Descent.md",
-    "CS/Problems/Trapping Rain Water (LC 42).md",
     "Polymath/W2024 Polymath.md",
     "ML/Polynomial Basis.md",
-    "CS/Problems/Problems.md",
     "CS/Problems/Valid Palindrome (LC 125).md",
     "CS/Problems/Longest Substring Without Repeating Characters (LC 3).md",
     "ML/Ridge Regression.md",
@@ -241,13 +247,9 @@
     "Linear Algebra/Linear Algebra.md",
     "Control Theory/Control Theory.md",
     "Robotics/Robotics.md",
-    "ML/Machine Learning.md",
     "OS/Operating Systems.md",
     "2B/MTE 241/MTE 241 - Computer Structures & Real-Time Systems.md",
     "OS/MTE 241 – Introduction to Computer Structures & Real-Time Systems.md",
-    "Statistics/Statistics.md",
-    "CS/Problems/Container With Most Water (LC 11).md",
-    "Projects.md",
     "Thermodynamics",
     "Control Theory",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
@@ -264,11 +266,9 @@
     "2B/MTE 204/attachments/Elliptic Equations-4.png",
     "2B/MTE 204/attachments/Elliptic Equations-3.png",
     "2B/MTE 204/attachments/Elliptic Equations-2.png",
-    "2B/MTE 204/attachments/Elliptic Equations-1.png",
     "Polymath/Polymath ML Productization.canvas",
     "attachments",
     "Statistics",
-    "Blog",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Other/idfk.canvas",
     "Untitled 1.canvas"
