@@ -54,20 +54,13 @@ date: 2023-06-25
 #### Backpropagation
 - [[Backpropagation]] 
 
+- [[Rectified Linear Unit]]
 #### Neural Networks
 - [[Neural Networks]]
-
+- [[Universal Approximation Theorem]]
 - [[Convolutional Neural Networks]]
 
-- [[State Machines and Markov Decision Processes]]
-
-- [[Reinforcement Learning]]
-
 - [[Recurrent Neural Networks]]
-
-- [[Recommender Systems]]
-
-- [[Decision Trees and Nearest Neighbours]]
 
 ## Models/Architectures
 - [[Gated Recurrent Unit]]
