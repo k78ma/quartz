@@ -6,11 +6,12 @@ date: 2023-09-23
 ---
 The rotation matrix $\mathbf{R}$ between two coordinate systems is defined as:
 $$
-\mathbf{R} =\left[{\begin{array}{*{20}{c}}    
-    {\mathbf{e}_1^T\mathbf{e}_1'} & {\mathbf{e}_1^T\mathbf{e}_2'} & {\mathbf{e}_1^T\mathbf{e}_3'}\\
-    {\mathbf{e}_2^T\mathbf{e}_1'} & {\mathbf{e}_2^T\mathbf{e}_2'} & {\mathbf{e}_2^T\mathbf{e}_3'}\\
-    {\mathbf{e}_3^T\mathbf{e}_1'} & {\mathbf{e}_3^T\mathbf{e}_2'} & {\mathbf{e}_3^T\mathbf{e}_3'}
-    \end{array}} \right]
+\mathbf{R} = 
+\begin{bmatrix}
+{\mathbf{e}_1^T\mathbf{e}_1'} & {\mathbf{e}_1^T\mathbf{e}_2'} & {\mathbf{e}_1^T\mathbf{e}_3'}\\
+{\mathbf{e}_2^T\mathbf{e}_1'} & {\mathbf{e}_2^T\mathbf{e}_2'} & {\mathbf{e}_2^T\mathbf{e}_3'}\\
+{\mathbf{e}_3^T\mathbf{e}_1'} & {\mathbf{e}_3^T\mathbf{e}_2'} & {\mathbf{e}_3^T\mathbf{e}_3'}
+\end{bmatrix}
 $$
 It consists of an inner product between the two sets of bases, describing the same vector’s coordinate relationship before and after the rotation. Since the base vector’s length is $1$, it is actually the cosine of the angle between the base vectors, so it’s also called the directional cosine matrix.
 ### Properties
