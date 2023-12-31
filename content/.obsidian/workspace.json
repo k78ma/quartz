@@ -34,21 +34,8 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "0fc17b68d984dea2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Rectified Linear Unit.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Rectified Linear Unit.md",
+                "file": "ML/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Rectified Linear Unit.md",
+                "file": "ML/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -163,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Rectified Linear Unit.md"
+                "file": "ML/Machine Learning.md"
               }
             }
           },
@@ -207,19 +194,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0fc17b68d984dea2",
+  "active": "ada3ea1dfde36f0a",
   "lastOpenFiles": [
-    "ML/attachments/Rectified Linear Unit.png",
-    "ML/Machine Learning.md",
-    "ML/Rectified Linear Unit.md",
-    "Universal Approximation Theorem.md",
     "Robotics/Robotics.md",
+    "Universal Approximation Theorem.md",
+    "attachments/Universal Approximation Theorem-1.png",
+    "attachments/Universal Approximation Theorem.png",
+    "2B/MTE 220/Rectifier Circuits.md",
+    "ML/Machine Learning.md",
+    "Books.md",
+    "ML/Rectified Linear Unit.md",
+    "ML/attachments/Rectified Linear Unit.png",
     "CS/Problems/Longest Substring Without Repeating Characters (LC 3).md",
     "Thermodynamics/Thermodynamics.md",
     "CS/Problems/Problems.md",
     "Control Theory/Control Theory.md",
     "Thermodynamics/Untitled.md",
-    "Books.md",
     "Physics/Physics.md",
     "Physics",
     "CS/Problems/Trapping Rain Water (LC 42).md",
@@ -237,7 +227,6 @@
     "Random/Stochastic vs. Deterministic.md",
     "Computer Architecture/Computer Architecture.md",
     "CS/Computer Science.md",
-    "Linear Algebra/Linear Algebra.md",
     "Thermodynamics",
     "Control Theory",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
@@ -251,9 +240,6 @@
     "2B/MTE 204/attachments/Parabolic Equations-2.png",
     "2B/MTE 204/attachments/Parabolic Equations-1.png",
     "2B/MTE 204/attachments/Parabolic Equations.png",
-    "2B/MTE 204/attachments/Elliptic Equations-4.png",
-    "2B/MTE 204/attachments/Elliptic Equations-3.png",
-    "2B/MTE 204/attachments/Elliptic Equations-2.png",
     "Polymath/Polymath ML Productization.canvas",
     "attachments",
     "Statistics",

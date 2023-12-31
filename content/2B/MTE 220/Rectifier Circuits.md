@@ -4,6 +4,7 @@ tags:
   - mte220
 date: 2023-11-13
 aliases:
+  - ReLU
 ---
 This is a AC/DC for [[Power Conditioning Circuits|power conditioning]]. It's the same as a [[Full-Wave Rectifier]] covered in Diodes.
 
