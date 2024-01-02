@@ -19,7 +19,7 @@ Final Grade: 90
 
 Taught by Matthew Harris. This is a Calc III course for engineering students; you start from basic vector functions and end with Green's Theorem and Stokes Theorem. My impression was that they jammed a fairly large amount of surface level content into the course; you are taught a lot of methods for solving different methods but not really why these methods work (difference between Math math courses and Engineering math courses). This is good because it makes the course relatively easy, especially since we were allowed to bring a bound set of handwritten notes to exams, so you could just write down all the lectures and all your practice in a notebook. However, on the final, the problems were quite a bit harder than any of the provided practice problems, so the class struggled. Another thing to note is that we had to do 2 projects for this course that were worth a lot (15% and 25%), which made the exams worth less (midterm 25%, final 30%).
 
-Harris is a decent teacher and a nice guy; my complaints are that he has terrible handwriting and his notes often have minor errors. Some classmates also complained about him being unresponsive to email/Piazza.
+Harris is a decent teacher and a nice guy; my only complaints are that he has terrible handwriting and his notes often have minor errors. Some classmates also complained about him being unresponsive to email/Piazza.
 
 Because of the bound handwritten notes policy, my notes here for this course are a bit sparse - mostly just theorems and definitions. I also stopped taking notes here after the midterm, mostly out of laziness.
 
@@ -50,7 +50,8 @@ There are 5 labs that use the STM32 Cortex M4 chip. I thought they were pretty f
 Mike is a nice prof, he has very chill policies. For example, there are no hard deadlines on the labs; you just have to submit Lab 1 and 2 before the midterm and Labs 3, 4, 5 before the last day of class. You can also re-submit the labs to improve your mark and gain a better understanding of the material. Also, Mike's really into AI; LLMs were used to grade our labs, write exam questions, write the course textbook, etc. He will also let people use his powerful computer with a nice GPU to do AI things.
 
 #### SYDE 252
-Final Grade:
+Final Grade: 91
+
 Taught by Nima Maftoon. This course teaches you about various types of signals and systems. Pretty math heavy course; make sure you know how imaginary numbers work and Euler's identity. The content itself is not very interesting unless you think about the applications. There is a group project (building a cochlear implant system), not too hard and kind of interesting.
 
-Maftoon is a very nice guy. He gave everyone 100% for Assignment 5 because people were stressed out, and extended deadlines for the project. His lecturing style is a bit dry, and his notes are a bit messy, but nothing unmanageable. His exams are fair; the midterm was probably a bit too easy, as the class had a really high average (something like 91%).
+Maftoon is a very nice guy. He gave everyone 100% for Assignment 5 because people were stressed out, and extended deadlines for the project. His lecturing style is a bit dry, and his notes are a bit messy, but nothing unmanageable. His exams are fair; the midterm was probably a bit too easy, as the class had a really high average (something like 91%). The final was a bit harder but also nothing too challenging; I likely only found it to be harder because I fell behind.

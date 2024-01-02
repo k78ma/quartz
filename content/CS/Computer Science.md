@@ -6,28 +6,30 @@ date: 2023-06-25
 aliases:
   - cs, CS
 ---
-## Principles
-- [[Designing Functions|Designing Functions]]
+## Programming
 
-## Algorithms
+Notes from: [SICP](https://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents)
+#### Building Abstractions with Procedures
+- [[Expressions]]
+- [[N]]
+#### Building Abstractions with Data
+
+#### Modularity, Objects, and State
+
+#### Metalinguistic Abstraction
+
+#### Computing with Register Machines
+
+## Data Structures and Algorithms
+
+#### Sorting
 - [[Sorting Algorithms]]
-	- [ ] [[Bubble Sort]]
-	- [ ] [[Insertion Sort]]
-	- [ ] [[Selection Sort]]
-	- [ ] [[Merge Sort]]
-- Search Algorithms
-	- Binary Search
-		- [[Vanilla Binary Search]]
-		- [[First Element of Sorted Boolean Array]]
-	- Depth-first Search
-	- Breadth-first Search
-- 
-  
-- Algorithmic Analysis
-	- [[Algorithmic Correctness]]
-	- [[RAM Model of Computation]]
-	- [[Algorithmic Complexity]]
-		- [[Big O Notation]]
+#### Search
+- [[Binary Search]]
+#### Algorithmic Analysis
+- [[Algorithmic Correctness]]
+- [[RAM Model of Computation]]
+- [[Big O Notation]]
 
 ## Data Structures
 - [Stacks and Queues](Stacks%20and%20Queues.md)
@@ -45,8 +47,12 @@ aliases:
 	- [[C++ Shared and Static Libraries]]
 
 ## Resources
+- [Teach Yourself Computer Science](https://teachyourselfcs.com/)
+- [Introduction to Algorithms (MIT OpenCourseWare)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
+- [SICP](https://sarabander.github.io/sicp/html/index.xhtml#SEC_Contents)
 - [Algorithm Design Manual](file:///Users/kai/books/The%20Algorithm%20Design%20Manual-Springer%20(2020)%20-%20Steven%20S.%20Skiena.pdf)
 - [LeetCode](https://leetcode.com)
+	- [NeetCode](https://neetcode.io/practice)
 
 ## Problems
 - [[Problems]]
