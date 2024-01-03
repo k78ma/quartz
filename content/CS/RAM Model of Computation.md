@@ -15,4 +15,4 @@ Simple abstraction model of computing based on a hypothetical *Random Access Mac
 
 We measure run time by counting the number of steps an algorithm takes on a given problem instance. 
 
-Based on this model we can calculate [[Complexity]].
+Based on this model we can calculate [[Best-Case, Worst-Case, Average-Case Complexity]].

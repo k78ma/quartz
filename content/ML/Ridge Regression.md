@@ -9,7 +9,7 @@ There are some troubles with the closed-form [[Ordinary Least Squares|OLS]] solu
 - What if $(W^{T}W)^{-1}$ isn't invertible?
 - What if we overfit?
 
-Ridge regression deals with these problems by adding a regularization term of $|| \theta ||^{2}$ to the OLS objective, with a trade-off parameter $\lambda$.
+Ridge regression deals with these problems by adding a [[Regularization|regularization]] term of $|| \theta ||^{2}$ to the OLS objective, with a trade-off parameter $\lambda$.
 
 Original linear regression objective function:
 $$
