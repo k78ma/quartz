@@ -1,5 +1,5 @@
 ---
-title: Algorithm Design Manual (Skiena)
+title: Algorithmic Correctness
 tags:
   - cs
   - algos

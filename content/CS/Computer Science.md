@@ -6,7 +6,7 @@ date: 2023-06-25
 aliases:
   - cs, CS
 ---
-### Notes
+### Notes 
 - [[Structure and Interpretation of Programs|Programming]]
 - [[Data Structures and Algorithms]]
 - [[Problems]]

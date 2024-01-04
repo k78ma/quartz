@@ -1,6 +1,8 @@
 ---
 title: Data Structures and Algorithms
-tags: 
+tags:
+  - dsa
+  - cs
 date: 2024-01-01
 aliases:
 ---
