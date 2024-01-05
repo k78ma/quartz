@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Big O Notation.md",
+                "file": "CS/Problems/Permutation in String (LC 567).md",
                 "mode": "source",
                 "source": false
               }
@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Regularization.md",
+                "file": "ML/Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
@@ -71,7 +71,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"tags\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,12 +104,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "0513c954ace24f56",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "460ffbd0642e6980",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Big O Notation.md",
+                "file": "CS/Problems/Permutation in String (LC 567).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Big O Notation.md",
+                "file": "CS/Problems/Permutation in String (LC 567).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -149,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Big O Notation.md"
+                "file": "CS/Problems/Permutation in String (LC 567).md"
               }
             }
           },
@@ -172,21 +180,12 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "45db04aac645a703",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 275.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,33 +203,33 @@
   },
   "active": "83b9ddac960b907c",
   "lastOpenFiles": [
-    "kai++.md",
+    "CS/Problems/Problems.md",
+    "ML/Machine Learning.md",
+    "CS/Problems/Permutation in String (LC 567).md",
+    "CS/Problems/Valid Anagram (LC 242).md",
+    "CS/Problems/Untitled.md",
     "CS/Big O Notation.md",
+    "CS/Data Structures and Algorithms.md",
+    "kai++.md",
+    "ML/Universal Approximation Theorem.md",
+    "Things to Do.md",
     "ML/Regularization.md",
     "CS/Algorithm Design Manual (Skiena).md",
     "CS/Algorithmic Correctness.md",
     "CS/Best-Case, Worst-Case, Average-Case Complexity.md",
     "CS/Computer Science.md",
-    "CS/Data Structures and Algorithms.md",
     "CS/attachments/Best-Case, Worst-Case, Average-Case Complexity.png",
     "CS/RAM Model of Computation.md",
-    "ML/Machine Learning.md",
     "ML/L2 Regularization.md",
     "ML/L1 Regularization.md",
     "ML/Ridge Regression.md",
     "ML/Regression.md",
     "Robotics/Robotics.md",
     "2B/Kanban.md",
-    "CS/Problems/Problems.md",
     "CS/Structure and Interpretation of Programs.md",
     "CS/Problems/Longest Repeating Character Replacement (LC 424).md",
     "CS/Naming and Environment.md",
     "Vault Stats.md",
-    "CS/Expressions.md",
-    "2B/Tron 2B.md",
-    "Robotics/Rotation Matrix.md",
-    "Blog/Adding ML to Polymath's Perception System.md",
-    "Blog/Blog.md",
     "attachments/Universal Approximation Theorem-1.png",
     "attachments/Universal Approximation Theorem.png",
     "ML/attachments/Rectified Linear Unit.png",

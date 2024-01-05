@@ -29,5 +29,6 @@ date: 2023-09-21
 - [[Best Time to Buy and Sell Stock (LC 121)]]
 - [[Longest Substring Without Repeating Characters (LC 3)]]
 - [[Longest Repeating Character Replacement (LC 424)]]
+- [[Permutation in String (LC 567)]]
 
 ### Interview Questions

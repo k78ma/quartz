@@ -7,15 +7,13 @@ draft: "true"
 
 ## Today
 
-- [ ] Permutation Is String
-- [ ] ADM - 2.2 (Big O)
-- [ ] 2.2 - Practice: Use Eigen
 - [ ] Review slambook 2.1
+- [ ] Permutation Is String
+- [ ] W5 Lab
 
 
 ## ML
 
-- [ ] W5 Lab
 - [ ] W5 Homework
 - [ ] W6 Neural Networks Intro
 - [ ] W6 Basic Element
@@ -62,6 +60,7 @@ draft: "true"
 
 ## Robotics
 
+- [ ] 2.2 - Practice: Use Eigen
 - [ ] 2.3 - Rotation Vectors and Euler Angles
 - [ ] 2.4 - Quaternions
 - [ ] 2.5 - Affine and Projective Transformation
@@ -85,6 +84,10 @@ draft: "true"
 - [ ] Control Bootcamp: Cayley-Hamilton Theorem
 
 
+## Thermodynamics
+
+
+
 ## Other
 
 
@@ -94,6 +97,7 @@ draft: "true"
 ## Archive
 
 - [ ] W5 Exercises
+- [ ] ADM - 2.2 (Big O)
 
 %% kanban:settings
 ```
