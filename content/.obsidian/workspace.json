@@ -23,7 +23,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Basic Elements of Programming.md",
+                "file": "CS/Structure and Interpretation of Programs.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e4caccc20681fa2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -41,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Basic Elements of Programming.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Basic Elements of Programming.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Basic Elements of Programming.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -201,13 +212,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c47d195fcde9de32",
+  "active": "22abfb5265e13c8d",
   "lastOpenFiles": [
-    "kai++.md",
-    "CS/Basic Elements of Programming.md",
+    "CS/Data Structures and Algorithms.md",
+    "CS/Big O Notation.md",
     "ML/Regularization.md",
-    "ML/Ridge Regression.md",
     "CS/Structure and Interpretation of Programs.md",
+    "CS/Basic Elements of Programming.md",
+    "kai++.md",
+    "ML/Ridge Regression.md",
     "ML/L2 Regularization.md",
     "ML/Machine Learning.md",
     "ML/L1 Regularization.md",
@@ -216,8 +229,6 @@
     "CS/Problems/Problems.md",
     "CS/Problems/Valid Anagram (LC 242).md",
     "CS/Problems/Untitled.md",
-    "CS/Big O Notation.md",
-    "CS/Data Structures and Algorithms.md",
     "ML/Universal Approximation Theorem.md",
     "Things to Do.md",
     "CS/Algorithm Design Manual (Skiena).md",

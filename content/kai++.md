@@ -10,7 +10,6 @@ draft: "true"
 - [ ] Review slambook 2.1
 - [ ] W5 Homework
 - [ ] ADM - 2.3 (Growth and Dominance Relations)
-- [ ] [1.1.2 Naming and the Environment](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e2)
 - [ ] Minimum Window Substring
 
 
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] Permutation Is String
 - [ ] [1.1.1 Expressions](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e1)
 - [ ] W5 Lab
+- [ ] [1.1.2 Naming and the Environment](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e2)
 
 %% kanban:settings
 ```

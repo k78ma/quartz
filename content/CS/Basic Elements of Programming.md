@@ -30,3 +30,15 @@ We can also make nested expressions:
 ```
 
 ### Naming & Environment
+Define variables using `define`:
+```scheme
+(define pi 3.14159)
+(define radius 10)
+
+(* pi (* radius radius))
+314.159
+```
+
+`Define` is our language’s simplest means of abstraction, for it allows us to use simple names to refer to the results of compound operations. This feature encourages the incremental development and testing of programs.
+
+Since we can associate values with symbols and retrieve them later, the interpreter must be able to maintain some sort of memory that keeps track of the name-object pairs. This memory is called the _environment_ (more precisely the _global environment_, since we will see later that a computation may involve a number of different environments).

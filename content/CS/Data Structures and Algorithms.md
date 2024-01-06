@@ -5,6 +5,8 @@ tags:
   - cs
 date: 2024-01-01
 aliases:
+  - DSA
+  - dsa
 ---
 Notes from Steven Skiena's *The Algorithm Design Manual*.
 #### Algorithmic Analysis
