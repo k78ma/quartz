@@ -8,13 +8,14 @@ draft: "true"
 ## Today
 
 - [ ] Review slambook 2.1
-- [ ] Permutation Is String
-- [ ] W5 Lab
+- [ ] W5 Homework
+- [ ] ADM - 2.3 (Growth and Dominance Relations)
+- [ ] [1.1.2 Naming and the Environment](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e2)
+- [ ] Minimum Window Substring
 
 
 ## ML
 
-- [ ] W5 Homework
 - [ ] W6 Neural Networks Intro
 - [ ] W6 Basic Element
 - [ ] W6 Networks
@@ -38,7 +39,6 @@ draft: "true"
 
 ## CS
 
-- [ ] ADM - 2.3 (Growth and Dominance Relations)
 - [ ] ADM - 2.4 (Working with Big O)
 - [ ] ADM - 2.5 (Reasoning about Efficiency)
 - [ ] ADM - 2.6 (Summations)
@@ -47,7 +47,6 @@ draft: "true"
 - [ ] ADM - 2.9 (War Story!)
 - [ ] ADM - 2.10 (Advanced Analysis)
 - [ ] ADM - 2.11 (Exercises)
-- [ ] Minimum Window Substring
 - [ ] Sliding Window Maximum
 - [ ] Valid Parentheses
 - [ ] Min Stack
@@ -56,6 +55,22 @@ draft: "true"
 - [ ] Daily Temperatures
 - [ ] Car Fleet
 - [ ] Largest Rectangle in Histogram
+- [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
+- [ ] [1.1.4 Compound Procedures](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e4)
+- [ ] [1.1.5 The Substitution Model for Procedure Application](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e5)
+- [ ] [1.1.6 Conditional Expressions and Predicates](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e6)
+- [ ] [1.1.7 Example: Square Roots by Newton’s Method](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e7)
+- [ ] [1.1.8 Procedures as Black-Box Abstractions](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e8)
+- [ ] [1.2.1 Linear Recursion and Iteration](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e1)
+- [ ] [1.2.2 Tree Recursion](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e2)
+- [ ] [1.2.3 Orders of Growth](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e3)
+- [ ] [1.2.4 Exponentiation](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e4)
+- [ ] [1.2.5 Greatest Common Divisors](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e5)
+- [ ] [1.2.6 Example: Testing for Primality](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e6)
+- [ ] [1.3.1 Procedures as Arguments](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e1)
+- [ ] [1.3.2 Constructing Procedures Using `Lambda`](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e2)
+- [ ] [1.3.3 Procedures as General Methods](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e3)
+- [ ] [1.3.4 Procedures as Returned Values](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e4)
 
 
 ## Robotics
@@ -86,6 +101,29 @@ draft: "true"
 
 ## Thermodynamics
 
+- [ ] Thermo 1.1 - Semantics
+- [ ] Thermo 1.2 - History
+- [ ] Thermo 1.3 - Philosophy
+- [ ] Thermo 1.4 - Practical applications
+- [ ] Thermo 1.5 - Style
+- [ ] Thermo 1.6 - Thermodynamic system and control volume
+- [ ] Thermo 1.7 - Macro vs micro
+- [ ] Thermo 1.8 - Properties and state of substance
+- [ ] Thermo 1.9 - Processes and cycles
+- [ ] Thermo 1.10 - Fundamental variables and units
+- [ ] Thermo 1.11 - Zeroth law
+- [ ] Thermo 1.12 - Secondary variables and units
+- [ ] Thermo 2.1 - The pure substance
+- [ ] Thermo 2.2 - Vapor-liquid-solid phase equilibrium
+- [ ] Thermo 2.3 - Independent properties
+- [ ] Thermo 2.4.1 - Ideal gas law
+- [ ] Thermo 2.4.2 - Non-ideal thermal equations of state
+- [ ] Thermo 2.4.3 - Compressibility factor
+- [ ] Thermo 2.4.4 - Tabular thermal equations of state
+- [ ] Thermo 3.1 - Mathematical preliminaries
+- [ ] Thermo 3.2 - Work
+- [ ] Thermo 3.3 - heat
+- [ ] Therm 3.4 - Representations of the first law
 
 
 ## Other
@@ -98,6 +136,9 @@ draft: "true"
 
 - [ ] W5 Exercises
 - [ ] ADM - 2.2 (Big O)
+- [ ] Permutation Is String
+- [ ] [1.1.1 Expressions](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e1)
+- [ ] W5 Lab
 
 %% kanban:settings
 ```

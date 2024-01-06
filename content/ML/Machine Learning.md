@@ -8,7 +8,7 @@ aliases:
   - ml
 date: 2023-06-25
 ---
-## Foundational Concepts
+## Foundations
 
 #### Basics
 - [[Artificial Neuron]]
@@ -31,6 +31,7 @@ date: 2023-06-25
 
 #### Mathematical Functions
 - [[Sigmoid]]
+- [[Rectified Linear Unit]]
 
 #### Loss Functions
 - [[Loss Function]]
@@ -46,15 +47,16 @@ date: 2023-06-25
 - [[Regression]]
 - [[Ordinary Least Squares]]
 - [[Ridge Regression]]
+
 #### Gradient Descent
 - [[Gradient Descent]]
 	- [[1D Gradient Descent]]
 	- [[Multiple Dimension Gradient Descent]]
 - [[Stochastic Gradient Descent]]
+
 #### Backpropagation
 - [[Backpropagation]] 
 
-- [[Rectified Linear Unit]]
 #### Neural Networks
 - [[Neural Networks]]
 - [[Universal Approximation Theorem]]
