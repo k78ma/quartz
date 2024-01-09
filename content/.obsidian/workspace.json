@@ -8,52 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "58b62f962c7d260e",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kai++.md"
-              }
-            }
-          },
-          {
-            "id": "c47d195fcde9de32",
+            "id": "b93cd2b6589ae62a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Structure and Interpretation of Programs.md",
+                "file": "Polymath/W2024 Polymath.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4e4caccc20681fa2",
+            "id": "e0208d87ad0332e0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0ddcff13b0d0d38c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Regularization.md",
+                "file": "Polymath/W2024 Polymath.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kai++.md",
+                "file": "Polymath/W2024 Polymath.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kai++.md",
+                "file": "Polymath/W2024 Polymath.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -168,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kai++.md"
+                "file": "Polymath/W2024 Polymath.md"
               }
             }
           },
@@ -212,14 +191,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "22abfb5265e13c8d",
+  "active": "e0208d87ad0332e0",
   "lastOpenFiles": [
-    "CS/Data Structures and Algorithms.md",
-    "CS/Big O Notation.md",
-    "ML/Regularization.md",
+    "Polymath/W2024 Polymath.md",
+    "Robotics/Robotics.md",
+    "Things to Do.md",
     "CS/Structure and Interpretation of Programs.md",
-    "CS/Basic Elements of Programming.md",
+    "Robotics/Mathematical Formulation of SLAM.md",
+    "Robotics/Homogeneous Coordinates.md",
+    "Robotics/Visual SLAM.md",
+    "Robotics/Desktop Bot.md",
+    "Robotics/Points, Vectors, Coordinate Systems.md",
+    "Robotics/Rotation Matrix.md",
+    "Robotics/Transform Matrix.md",
+    "Robotics/Euclidean Transforms.md",
+    "Robotics/Transforms Intuition.md",
+    "Robotics/Visual SLAM Framework.md",
     "kai++.md",
+    "CS/Data Structures and Algorithms.md",
+    "ML/Regularization.md",
+    "CS/Big O Notation.md",
+    "CS/Basic Elements of Programming.md",
     "ML/Ridge Regression.md",
     "ML/L2 Regularization.md",
     "ML/Machine Learning.md",
@@ -227,20 +219,7 @@
     "CS/Expressions.md",
     "CS/Problems/Permutation in String (LC 567).md",
     "CS/Problems/Problems.md",
-    "CS/Problems/Valid Anagram (LC 242).md",
-    "CS/Problems/Untitled.md",
-    "ML/Universal Approximation Theorem.md",
-    "Things to Do.md",
-    "CS/Algorithm Design Manual (Skiena).md",
-    "CS/Algorithmic Correctness.md",
-    "CS/Best-Case, Worst-Case, Average-Case Complexity.md",
-    "CS/Computer Science.md",
     "CS/attachments/Best-Case, Worst-Case, Average-Case Complexity.png",
-    "CS/RAM Model of Computation.md",
-    "ML/Regression.md",
-    "Robotics/Robotics.md",
-    "2B/Kanban.md",
-    "CS/Problems/Longest Repeating Character Replacement (LC 424).md",
     "attachments/Universal Approximation Theorem-1.png",
     "attachments/Universal Approximation Theorem.png",
     "ML/attachments/Rectified Linear Unit.png",

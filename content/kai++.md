@@ -7,10 +7,11 @@ draft: "true"
 
 ## Today
 
+- [ ] Minimum Window Substring
+- [ ] ADM - 2.3 (Growth and Dominance Relations)
+- [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
 - [ ] Review slambook 2.1
 - [ ] W5 Homework
-- [ ] ADM - 2.3 (Growth and Dominance Relations)
-- [ ] Minimum Window Substring
 
 
 ## ML
@@ -54,7 +55,6 @@ draft: "true"
 - [ ] Daily Temperatures
 - [ ] Car Fleet
 - [ ] Largest Rectangle in Histogram
-- [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
 - [ ] [1.1.4 Compound Procedures](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e4)
 - [ ] [1.1.5 The Substitution Model for Procedure Application](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e5)
 - [ ] [1.1.6 Conditional Expressions and Predicates](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e6)

@@ -35,3 +35,9 @@ aliases:
 - Will is gone so maybe pick up some slack on his projects
 
 Work hard + have fun!
+
+- ML Deployment
+- Fuse bring-up
+- Covariance injector for fuse
+- Baymax
+- Compound Eye

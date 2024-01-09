@@ -5,48 +5,45 @@ tags:
 date: 2023-06-30
 aliases:
 ---
-*There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.*
+*There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.* - Ilia Baranov?
 
 **Visual SLAM:**   <progress max=356 value=54> </progress> 
 
-## Robot Configuration + Motion
+## Robot Configuration
+#### Configuration
 - [[Configuration Space|Configuration Space]]
-	- [[Configuration Space Topology]]
-	- [[Configuration Space Representation]]
 - [[Degrees of Freedom|Degrees of Freedom]]
 - [[Grubler’s Formula|Grubler’s Formula]]
 - [[Robot Joints]]
 - [[Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
-- [[Configuration and Velocity Constraints]]
-- [[Task Space and Workspace]]
-### Rigid Body Motions
+#### Rotation Matrix
+- [[Points, Vectors, Coordinate Systems]]
+- [[Transforms Intuition]]
+- [[Euclidean Transforms]]
 - [[Rotation Matrix]]
-	- [[Points, Vectors, Coordinate Systems]]
-	- [[Transforms Intuition]]
-	- [[Euclidean Transforms]]
-	- [[Transform Matrix]]
-	- [[Homogeneous Coordinates]]
+- [[Transform Matrix]]
+- [[Homogeneous Coordinates]]
+#### Rotation Vectors and Euler Angles
 - [[Rotation Vectors]]
 - [[Euler Angles]]
+#### Quaternions
 - [[Quaternions]]
-	- [[Quaternion Operations]]
-	- [[Quaternions for Representing Rotation]]
-	- [[Quaternion Conversion]]
+- [[Quaternion Operations and Conversion]]
+#### Affine and Projective Transformation
 - [[Affine and Projective Transformation]]
-
-## Kinematics + Dynamics
-
-## Planning
-
-## Control
-
+#### Practical
+- [[Eigen]]
+- [[Pose Visualization]]
 ## SLAM
 - [[Visual SLAM Framework]]
 - [[Mathematical Formulation of SLAM]]
 - [[State Estimation]]
 
-### Control
+## Control
 - [[Control Theory]]
+
+## Planning
+
 
 ## Tools
 - [ROS](ROS.md)
