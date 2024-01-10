@@ -30,7 +30,7 @@
             }
           },
           {
-            "id": "bc3807b624ef2190",
+            "id": "63eab4364482aa71",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,31 +104,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "22abfb5265e13c8d",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
-            "id": "460ffbd0642e6980",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "noVNC.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
             "id": "3a97c0e9ae487b9e",
             "type": "leaf",
             "state": {
@@ -180,8 +155,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "d45318b1b327eecf",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -201,13 +185,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bc3807b624ef2190",
+  "active": "63eab4364482aa71",
   "lastOpenFiles": [
-    "attachments/noVNC.png",
-    "noVNC.md",
     "Polymath/W2024 Polymath.md",
     "kai++.md",
     "Robotics/Robotics.md",
+    "noVNC.md",
+    "attachments/noVNC.png",
     "Things to Do.md",
     "CS/Structure and Interpretation of Programs.md",
     "Robotics/Mathematical Formulation of SLAM.md",
@@ -247,7 +231,6 @@
     "ML/attachments/perceptron_through_origin.pdf",
     "ML/attachments/perceptron.pdf",
     "2B/MTE 204/attachments/Parabolic Equations-2.png",
-    "2B/MTE 204/attachments/Parabolic Equations-1.png",
     "Polymath/Polymath ML Productization.canvas",
     "attachments",
     "Statistics",

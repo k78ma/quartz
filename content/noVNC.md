@@ -7,9 +7,11 @@ aliases:
 draft: "true"
 ---
 Link: https://github.com/theasp/docker-novnc/tree/master
-Basic tutorial: https://divyanshu-raj.medium.com/ros-2-with-docker-part-1-9060f3095811
+Tutorials:
+- https://divyanshu-raj.medium.com/ros-2-with-docker-part-1-9060f3095811
+- https://wiki.ros.org/docker/Tutorials/GUI#Using_noVNC
 
-Nice way to get ROS/ROS2 visualization working on Mac.
+Nice way to get ROS/ROS2 visualization working on Docker, which lets me use it on Mac.
 - Create network: `docker network create ros`
 - Can then run noVNC with:
 ```bash
