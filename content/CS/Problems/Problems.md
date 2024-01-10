@@ -30,5 +30,7 @@ date: 2023-09-21
 - [[Longest Substring Without Repeating Characters (LC 3)]]
 - [[Longest Repeating Character Replacement (LC 424)]]
 - [[Permutation in String (LC 567)]]
+- [[Minimum Window Substring]]
+- [[Sliding Window Maximum (LC 239)]]
 
 ### Interview Questions

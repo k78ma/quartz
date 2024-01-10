@@ -23,3 +23,10 @@ $f(n) = O(g(n))$ iff there exists a constant $c$ such that $f(n)\leq c\cdot g(n)
 $f(n) = \Omega(g(n))$ iff there exists a a constant $c>0$ such that $f(n) \geq c\cdot g(n)$. This would be satisfied for $0 < c\leq 2$.
 
 Together the $O$ and $\Omega$ bounds imply $2^{n+1}=\Theta(2^{n})$.
+
+### Dominance Relations of Big O classes
+Faster growing functions dominate slower growing ones. When two functions $f(n)$ and $g(n)$ belong to different classes, we say $g$ dominates $f$ when $f(n)=O(g(n))$, written as $g \gg f$. For the standard Big O classes, we have:
+$$
+n! \gg 2^{n}\gg n^{3} \gg n^{2} \gg n \log n \gg n \gg \log n \gg 1
+$$
+
