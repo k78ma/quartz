@@ -10,7 +10,7 @@ The Euclidean transform consists of rotation and translation.
 Let’s think about rotation:
 - We have a unit length orthogonal base $(\mathbf{e}_{1},\mathbf{e}_{2},\mathbf{e}_{3})$
 - After a rotation it becomes $(\mathbf{e}_{1}',\mathbf{e}_{2}',\mathbf{e}_{3}')$
-- A vector $\mathbf{a}$ has coordinate $(a_{1},a_{2},a_{3})$ and $(a_{1}', a_{2}', a_{3}')$ in the two systems.
+- A vector $\mathbf{a}$ has coordinates $(a_{1},a_{2},a_{3})$ and $(a_{1}', a_{2}', a_{3}')$ in the two systems.
 
 Because the vector itself has not changed, we have:
 $$
@@ -37,11 +37,12 @@ $$
 $$
 The matrix on the left becomes an identity matrix, so: 
 $$
+\begin{align}
 \left[ \begin{array}{l}
 {a_1}\\
 {a_2}\\
 {a_3}
-\end{array}\right]=\underbrace{\left[{\begin{array}{*{20}{c}}    
+\end{array}\right] & =\underbrace{\left[{\begin{array}{*{20}{c}}    
     {\mathbf{e}_1^T\mathbf{e}_1'} & {\mathbf{e}_1^T\mathbf{e}_2'} & {\mathbf{e}_1^T\mathbf{e}_3'}\\
     {\mathbf{e}_2^T\mathbf{e}_1'} & {\mathbf{e}_2^T\mathbf{e}_2'} & {\mathbf{e}_2^T\mathbf{e}_3'}\\
     {\mathbf{e}_3^T\mathbf{e}_1'} & {\mathbf{e}_3^T\mathbf{e}_2'} & {\mathbf{e}_3^T\mathbf{e}_3'}
@@ -49,7 +50,9 @@ $$
 a_1'\\
 a_2'\\
 a_3'
-\end{array} \right] \buildrel \Delta \over = \mathbf{R} \mathbf{a}'.
+\end{array} \right] \\ \\
+	 & \triangleq \mathbf{R} \mathbf{a'}
+\end{align}
 $$
 The [[Rotation Matrix]] $\mathbf{R}$ consists of an inner product between the two sets of bases, describing the same vector’s coordinate relationship before and after the rotation.
 

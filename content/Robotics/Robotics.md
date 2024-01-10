@@ -21,8 +21,8 @@ aliases:
 - [[Transforms Intuition]]
 - [[Euclidean Transforms]]
 - [[Rotation Matrix]]
-- [[Transform Matrix]]
 - [[Homogeneous Coordinates]]
+- [[Transform Matrix]]
 #### Rotation Vectors and Euler Angles
 - [[Rotation Vectors]]
 - [[Euler Angles]]
@@ -46,7 +46,7 @@ aliases:
 
 
 ## Tools
-- [ROS](ROS.md)
+- [[ROS]]
 - [[CMake]]
 - [[Eigen]]
 - [[noVNC]]

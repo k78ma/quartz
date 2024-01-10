@@ -53,7 +53,7 @@ b \\ \\
 &\triangleq  a ^\wedge b
 \end{align}
 $$
-The result of this is a vector whose direction is perpendicular to the two vectors, and the length is $\mid \mathbf{a} \mid \mid \mathbf{b} \mid \sin \langle \mathbf{a,\mathbf{b}} \rangle$.
+The result of this is a vector whose direction is perpendicular to the two vectors, and the length is $\mid \mathbf{a} \mid \mid \mathbf{b} \mid \sin \langle \mathbf{a,\mathbf{b}} \rangle$. The $\triangleq$ symbol means "is equivalent to".
 
 The $\wedge$ operator is a skew-symmetric symbol, which means writing $\mathbf{a}$ as a skew-symmetric matrix, where:
 $$
