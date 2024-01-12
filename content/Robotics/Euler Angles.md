@@ -19,3 +19,5 @@ Euler angles suffer from the Gimbal lock problem. For example, in the case of $Z
 ![[Euler Angles-2.png]]
 
 In fact, as long as we want to use 3 real numbers to express 3D rotation, we will face some sort of singularity problem like this. Thus, Euler angles are only commonly used for human-computer interaction, not to express poses directly in a SLAM, filtering, or optimization.
+
+Why is Gimbal lock a problem? The loss of a degree of freedom means that it's impossible to control rotation around one axis without affecting the others. This can lead to complex and unintuitive control requirements.
