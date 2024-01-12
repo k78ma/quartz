@@ -7,10 +7,9 @@ draft: "true"
 
 ## Today
 
-- [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
-- [ ] 2.3 - Rotation Vectors and Euler Angles
-- [ ] 2.4 - Quaternions
 - [ ] W5 Homework
+- [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
+- [ ] 2.4 - Quaternions
 - [ ] Sliding Window Maximum
 
 
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] ADM - 2.3 (Growth and Dominance Relations)
 - [ ] Review slambook 2.1
 - [ ] 2.2 - Practice: Use Eigen
+- [ ] 2.3 - Rotation Vectors and Euler Angles
 
 %% kanban:settings
 ```

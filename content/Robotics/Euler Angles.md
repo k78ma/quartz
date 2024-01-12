@@ -9,7 +9,7 @@ Euler angles provide a more interpretable/intuitive way to describe rotation; us
 
 $ZYX$ is used frequently because it's equivalent to yaw-pitch-roll:
 
-![[Euler Angles-1.png|656]]
+![[Euler Angles-1.png]]
 
 Note that rotation around the $Y$ and the $X$ is after the previous rotations. A 3D vector $[y,p,r]^{T}$ can be used to describe the rotation.
 

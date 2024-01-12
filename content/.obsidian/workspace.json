@@ -28,33 +28,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "e6cb672007376c38",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Euler Angles.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f4b1f1214a1b8b00",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/Problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Euler Angles.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -152,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robotics/Euler Angles.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -182,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Euler Angles.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -213,13 +188,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e6cb672007376c38",
+  "active": "56570b97cb6d7520",
   "lastOpenFiles": [
+    "Robotics/Robotics.md",
+    "Robotics/Euler Angles.md",
     "Robotics/attachments/Euler Angles-2.png",
     "Robotics/attachments/Euler Angles-1.png",
     "Robotics/attachments/Euler Angles.png",
-    "Robotics/Robotics.md",
-    "Robotics/Euler Angles.md",
     "CS/Problems/Problems.md",
     "kai++.md",
     "Robotics/Rotation Vectors.md",
@@ -256,7 +231,6 @@
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
     "Robotics/slambook-en.pdf",
     "2B/SYDE 252/attachments/Pasted image 20231216183359.png",
-    "2B/SYDE 252/attachments/Pasted image 20231216183300.png",
     "Untitled.canvas",
     "ML/attachments/perceptron_through_origin.pdf",
     "ML/attachments/perceptron.pdf",
