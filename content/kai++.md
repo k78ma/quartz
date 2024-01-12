@@ -8,8 +8,10 @@ draft: "true"
 ## Today
 
 - [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
-- [ ] Review slambook 2.1
+- [ ] 2.3 - Rotation Vectors and Euler Angles
+- [ ] 2.4 - Quaternions
 - [ ] W5 Homework
+- [ ] Sliding Window Maximum
 
 
 ## ML
@@ -45,7 +47,6 @@ draft: "true"
 - [ ] ADM - 2.9 (War Story!)
 - [ ] ADM - 2.10 (Advanced Analysis)
 - [ ] ADM - 2.11 (Exercises)
-- [ ] Sliding Window Maximum
 - [ ] Valid Parentheses
 - [ ] Min Stack
 - [ ] Evaluate Reverse Polish Notation
@@ -72,9 +73,6 @@ draft: "true"
 
 ## Robotics
 
-- [ ] 2.2 - Practice: Use Eigen
-- [ ] 2.3 - Rotation Vectors and Euler Angles
-- [ ] 2.4 - Quaternions
 - [ ] 2.5 - Affine and Projective Transformation
 - [ ] 2.6 - Practice: Eigen Geometry Module
 - [ ] 2.7 - Visualization Demo
@@ -139,6 +137,8 @@ draft: "true"
 - [ ] [1.1.2 Naming and the Environment](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e2)
 - [ ] Minimum Window Substring
 - [ ] ADM - 2.3 (Growth and Dominance Relations)
+- [ ] Review slambook 2.1
+- [ ] 2.2 - Practice: Use Eigen
 
 %% kanban:settings
 ```
