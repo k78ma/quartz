@@ -10,7 +10,7 @@ draft: "true"
 - [ ] W5 Homework
 - [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
 - [ ] 2.4 - Quaternions
-- [ ] Sliding Window Maximum
+- [ ] Min Stack
 
 
 ## ML
@@ -38,7 +38,6 @@ draft: "true"
 
 ## CS
 
-- [ ] ADM - 2.4 (Working with Big O)
 - [ ] ADM - 2.5 (Reasoning about Efficiency)
 - [ ] ADM - 2.6 (Summations)
 - [ ] ADM - 2.7 (Logarithms + Applications)
@@ -46,8 +45,6 @@ draft: "true"
 - [ ] ADM - 2.9 (War Story!)
 - [ ] ADM - 2.10 (Advanced Analysis)
 - [ ] ADM - 2.11 (Exercises)
-- [ ] Valid Parentheses
-- [ ] Min Stack
 - [ ] Evaluate Reverse Polish Notation
 - [ ] Generate Parentheses
 - [ ] Daily Temperatures
@@ -139,6 +136,9 @@ draft: "true"
 - [ ] Review slambook 2.1
 - [ ] 2.2 - Practice: Use Eigen
 - [ ] 2.3 - Rotation Vectors and Euler Angles
+- [ ] Sliding Window Maximum
+- [ ] Valid Parentheses
+- [ ] ADM - 2.4 (Working with Big O)
 
 %% kanban:settings
 ```
