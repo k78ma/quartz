@@ -59,10 +59,6 @@ aliases:
 - [[Fourier Series]]
 - [[Fourier Transform]]
 	- [[Fourier Transform Properties]]
-	  
-#### Problem Types
-- [[System Summation Problems]]
-- [[System Convolution Problems]]
 
 #### Project
 - [[Phase 2 Tasks]]
