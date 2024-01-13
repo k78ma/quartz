@@ -219,15 +219,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ab8c06c34b8769f0",
+  "active": "51d6b4de4b36ede1",
   "lastOpenFiles": [
+    "Robotics/slambook-en.pdf",
+    "Robotics/Quaternions.md",
     "Robotics/Robotics.md",
     "Robotics/Quaternion Operations.md",
     "Robotics/Quaternion Conversion.md",
-    "Robotics/Quaternions.md",
     "Robotics/Affine and Projective Transformation.md",
     "ML/Machine Learning.md",
-    "Robotics/slambook-en.pdf",
     "Robotics/attachments/robot joints.png",
     "Robotics/attachments/coin image.png",
     "2B/SYDE 252/Complex Numbers Review.md",
@@ -253,7 +253,6 @@
     "Robotics/attachments/Euler Angles-1.png",
     "Robotics/attachments/Euler Angles.png",
     "Robotics/Rotation Vectors.md",
-    "Robotics/Points, Vectors, Coordinate Systems.md",
     "attachments/noVNC.png",
     "CS/attachments/Best-Case, Worst-Case, Average-Case Complexity.png",
     "attachments/Universal Approximation Theorem-1.png",
