@@ -34,6 +34,6 @@ date: 2023-09-21
 - [[Sliding Window Maximum (LC 239)]]
 
 #### Stack
-
+- [[Valid Parentheses (LC 20)]]
 
 ### Interview Questions

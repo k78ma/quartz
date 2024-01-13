@@ -4,6 +4,8 @@ tags:
   - cs
 date: 2023-06-25
 aliases:
+  - stack
+  - queue
 ---
 
 Basic array-like data structures.
