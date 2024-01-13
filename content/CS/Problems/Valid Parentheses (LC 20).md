@@ -17,7 +17,7 @@ class Solution:
         
         for c in s:
             if c in closeToOpen: # Check whether it's a closing stack
-                if stack and stack[-1] == closeToOpen[c]:
+                if stack[-1] == closeToOpen[c] and stack:
                     stack.pop()
                 else:
                     return False
@@ -30,7 +30,7 @@ class Solution:
 
 We use a [[Stacks and Queues|stack]] data structure to do this. 
 - Keep track of matching opening and closing brackets using a hashmap.
-- Given an opening bracket, we add it to the stack
-- Given a closing bracket, we check whether the top of stack has the correctly matching opening bracket. 
+- Given an opening bracket, we add it to the stack.
+- Given a closing bracket, we check whether the top of stack has the correctly matching opening bracket (and whether the stack exists). 
 	- If it is correct, we can pop it from the stack and continue to the next bracket.
 	- If it is incorrect we can return False.
