@@ -15,5 +15,7 @@
   "minimal-style@@link-color@@light": "#62C7FF",
   "minimal-style@@link-color@@dark": "#7E90F7",
   "minimal-style@@link-color-hover@@dark": "#5163CA",
-  "minimal-style@@link-unresolved-color@@dark": "#7E90F7"
+  "minimal-style@@link-unresolved-color@@dark": "#7E90F7",
+  "minimal-style@@pdf-page-style": "pdf-shadows-on",
+  "minimal-style@@pdf-blend-light": true
 }

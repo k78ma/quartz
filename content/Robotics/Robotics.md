@@ -28,12 +28,11 @@ aliases:
 - [[Euler Angles]]
 #### Quaternions
 - [[Quaternions]]
-- [[Quaternion Operations and Conversion]]
+	- [[Quaternion Operations]]
+	- [[Quaternion Conversion]]
 #### Affine and Projective Transformation
 - [[Affine and Projective Transformation]]
-#### Practical
-- [[Eigen]]
-- [[Pose Visualization]]
+
 ## SLAM
 - [[Visual SLAM Framework]]
 - [[Mathematical Formulation of SLAM]]
@@ -45,10 +44,11 @@ aliases:
 ## Planning
 
 
-## Tools
+## Tools/Practical
 - [[ROS]]
 - [[CMake]]
 - [[Eigen]]
+	- 
 - [[noVNC]]
 
 ## Resources
