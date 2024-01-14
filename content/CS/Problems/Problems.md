@@ -35,5 +35,6 @@ date: 2023-09-21
 
 #### Stack
 - [[Valid Parentheses (LC 20)]]
+- [[Min Stack (LC 155)]]
 
 ### Interview Questions

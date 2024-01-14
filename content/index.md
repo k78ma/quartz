@@ -14,6 +14,7 @@ Welcome to my notes!
 - [[Machine Learning|Machine Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]
+- [[Thermodynamics]]
 ### Other:
 See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
 - **UWaterloo Courses**
@@ -28,7 +29,6 @@ See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
 - **Engineering**
 	- [[MTE 220 - Sensors and Instrumentation|Circuits and Sensors]]
 	- [[SYDE 252 - Signals and Systems|Signals and Systems]]
-	- [[Thermodynamics]]
 - **Other**
 	- [[Philosophy|Philosophy]]
 ---
