@@ -8,7 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] W5 Homework
-- [ ] 2.4 - Quaternions
 - [ ] Min Stack
 
 
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] Valid Parentheses
 - [ ] ADM - 2.4 (Working with Big O)
 - [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
+- [ ] 2.4 - Quaternions
 
 %% kanban:settings
 ```

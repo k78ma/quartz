@@ -9,12 +9,12 @@ Assume there are $\mathbf{q}_{a}, \mathbf{q}_{b}$, whose vectors are represented
 $$
 \mathbf{q}_{a} = s_{a}+x_{a}i+y_{a}j+z_{a}k, \quad \mathbf{q}_{b}=s_{b}+x_{b}i+y_{b}j+z_{b}k
 $$
-#### Addition and Subtraction:
+### Addition and Subtraction:
 The addition and subtraction of the quaternion $\mathbf{q}_{a}, \mathbf{q}_{b}$ is:
 $$
 \mathbf{q}_{a} \pm \mathbf{q}_{b} = [s_{a} \pm s_{b}, \mathbf{v}_{a} \pm \mathbf{v}_{b}]^{T}
 $$
-#### Multiplication
+### Multiplication
 Quaternion multiplication is the multiplication of each item of $\mathbf{q}_{a}$ with each item of $\mathbf{q}_{b}$:
 $$
 \begin{align}
@@ -30,7 +30,7 @@ $$
 $$
 This means that the product of two real quaternions is still real, which is consistent with real number multiplication. However, due to the last outer product, quaternion multiplication is not commutative unless $\mathbf{v}_{a}$ and $\mathbf{v}_{b}$ at $\mathbb{R}^{3}$ are parallel, which means the outer product term is zero.
 
-#### Length
+### Length
 The length of a quaternion is defined as:
 $$
 || \mathbf{q}_{a} || = \sqrt{ s_{a}^{2} + x_{a}^{2} + y_{a}^{2} + z_{a}^{2} }
@@ -39,7 +39,7 @@ The length of the product is the product of the lengths, so that the unit quater
 $$
 || \mathbf{q}_{a} \, \mathbf{q}_{b} || = || \mathbf{q}_{a} || \,|| \mathbf{ q}_{b} ||
 $$
-#### Conjugate
+### Conjugate
 The conjugate of a quaternion is to take the imaginary part as the opposite:
 $$
 \mathbf{q}_{a}^{*} = s_{a} - x_{a}i - y_{a}j - z_{a}k = [s_{a}, -\mathbf{v}_{a}]^{T}
@@ -48,7 +48,7 @@ We get a real quaternion is the quaternion is multiplied by its conjugate. The r
 $$
 \mathbf{q}^{*} \, \mathbf{q}= \mathbf{q}\mathbf{q}^{*}=[s^{2}+\mathbf{v}^{T} \, \mathbf{v}, 0]^{T}
 $$
-#### Inverse
+### Inverse
 The inverse of the quaternion is:
 $$
 \mathbf{q}^{-1} = \mathbf{q}^{*} / || \mathbf{q} ||^{2}
@@ -61,7 +61,7 @@ If $\mathbf{q}$ is a unit quaternion, its inverse and conjugate are the same. So
 $$
 (\mathbf{q}_{a}\mathbf{q}_{b})^{-1} = \mathbf{q}_{b}^{-1}\,\mathbf{q}_{a}^{-1}
 $$
-#### Scalar Multiplication
+### Scalar Multiplication
 Similar to vectors, quaternions can be multiplied by numbers:
 $$
 k\mathbf{q}=[ks, k\mathbf{v}]^{T}

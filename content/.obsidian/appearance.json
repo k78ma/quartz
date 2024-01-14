@@ -6,5 +6,6 @@
     "center-img"
   ],
   "translucency": false,
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "textFontFamily": "STIX Two Text"
 }

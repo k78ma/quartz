@@ -46,21 +46,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ab8c06c34b8769f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Quaternions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -135,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Quaternions.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Quaternions.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -175,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robotics/Quaternions.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -219,16 +206,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "51d6b4de4b36ede1",
+  "active": "2229cf6fbd689bef",
   "lastOpenFiles": [
+    "ML/Machine Learning.md",
+    "Robotics/Quaternion Conversion.md",
     "Robotics/slambook-en.pdf",
-    "Robotics/Quaternions.md",
+    "Robotics/attachments/robot joints.png",
     "Robotics/Robotics.md",
     "Robotics/Quaternion Operations.md",
-    "Robotics/Quaternion Conversion.md",
+    "Robotics/Quaternions.md",
     "Robotics/Affine and Projective Transformation.md",
-    "ML/Machine Learning.md",
-    "Robotics/attachments/robot joints.png",
     "Robotics/attachments/coin image.png",
     "2B/SYDE 252/Complex Numbers Review.md",
     "2B/MTE 220/Laplace Domain Premise.md",

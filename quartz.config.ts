@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Schibsted Grotesk", // Schibsted Grotesk
+        header: "STIX Two Text", // Schibsted Grotesk
         body: "STIX Two Text", // Source Sans Pro
         code: "IBM Plex Mono",
       },
