@@ -8,17 +8,16 @@ draft: "true"
 ## Today
 
 - [ ] W5 Homework
-- [ ] Min Stack
-
-
-## ML
-
 - [ ] W6 Neural Networks Intro
 - [ ] W6 Basic Element
 - [ ] W6 Networks
 - [ ] W6 Choices of Activation Function
 - [ ] W6 Error Backpropagation
 - [ ] W6 Training
+
+
+## ML
+
 - [ ] W6 Loss Functions and Activation Functions
 - [ ] W6 Exercises
 - [ ] W6 Lab
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] ADM - 2.4 (Working with Big O)
 - [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
 - [ ] 2.4 - Quaternions
+- [ ] Min Stack
 
 %% kanban:settings
 ```

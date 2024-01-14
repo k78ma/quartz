@@ -56,8 +56,14 @@
     --bg: #09ad7110;
   }
 
+  &[data-callout="faq"] {
+    --color: #3cb35e;
+    --border: #dba64244;
+    --bg: #dba64210;
+  }
+
   &[data-callout="question"] {
-    --color: #dba642;
+    --color: #3cb35e;
     --border: #dba64244;
     --bg: #dba64210;
   }
