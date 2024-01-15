@@ -5,7 +5,9 @@ tags:
 date: 2024-01-13
 aliases:
 ---
->[!faq] 1A
+### Gradient Calculations
+
+>[!question] 1A
 >Write an expression for $g(x^{(i)}, y^{(i)})$ using the symbols: `x_i`, `y_i`, `theta` and `theta_0`, where $g(x^{(i)}, y^{(i)})$ is the derivative of the $L_{s}$​ function described above with respect to $\theta$. Remember that you can use `@` for matrix product, and you can use `transpose(v)` to traanspose a vector. Note that this $g(\cdot)$ function is just the derivative with respect to a single data point.
 
 $L_{s}$ refers to squared loss, such that:
@@ -22,7 +24,39 @@ $$
 $$
 The terms in the second expression simplify to $x^{(i)}$ because $\theta^{T}x^{(i)}$ is treated as a linear function of $\theta$, while $\theta_{0}$ and $y^{(i)}$ are treated as constants, since they do not change depending on the value of $thet$.
 
-**1B**.
+>[!question] 1B
+>What is the gradient of the squared loss/empirical risk now with $\theta_{0}$?
 
-**1C.**
+$$
+\begin{align}
+\frac{ \partial }{ \partial \theta_{0} } (L_{s})  & = \frac{ \partial }{ \partial \theta_{0} } ((\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})^{2}) \\[2ex] 
+	 & = 2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)}) \cdot \cancel{ \frac{ \partial }{ \partial \theta_{0} }(\theta^{T}x^{(i)}C + \theta_{0}-y^{(i)})  }\\[2ex] 
+	 & = 2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})
+\end{align}
+$$
 
+>[!question] 1C
+>Next we're interested in the gradient of the empirical loss with respect to $\theta$, $\nabla_{\theta}J_{emp}$​, but now for a whole data set $X$ (of dimensions $d$ by $n$).
+
+We can recognize that $L_{s}(x^{(i)}, y^{(i)})$ is the square of the $i$-th element of $\theta^{T}X +\theta_{0}-Y$. So, a sum of $L_{s}(x^{(i)}, y^{(i)})$ over the whole dataset is just is equivalent to the norm squared:
+$$
+\sum_{i=1}^{n}L_{s}(x^{(i)}, y^{(i)})= \big|\big| (\theta^{T}X + \theta_{0} - Y)^{T} \big|\big|^{2}
+$$
+The square of a norm is is equivalent to taking the dot product of itself: 
+$$
+\big|\big| (\theta^{T}X + \theta_{0} - Y)^{T} \big|\big|^{2} = (\theta^{T}X + \theta_{0}-Y)(\theta^{T}X + \theta_{0}-Y)^{T}
+$$
+Using the chain rule to take our derivative:
+$$
+\frac{d}{d\theta} \frac{1}{n} \big|\big| (\theta^{T}X + \theta_{0} - Y)^{T} \big|\big|^{2} = \frac{2}{n}X(\theta^{T}X+\theta_{0}-Y)^{T}
+$$
+where $\frac{d}{d\theta}(\theta^{T}X) = X$.
+
+Checking dimensions:
+- $X$ is $d\times n$
+- $\theta^{T}X$ is $1\times n$
+- $y$ is $1\times n$
+- Therefore, $\theta^{T}x+\theta_{0}-y$ is $1\times n$
+- The matrix product of a $d\times n$ matrix with an $n\times 1$ matrix (the transpose of $1\times n$) thus gives us a gradient that is $d\times 1$, as expected (i.e., $\nabla_{\theta}J_{emp}$ is a vector where each element is the gradient of $J$ with respect to the corresponding element of $\theta$).
+
+### Sources of Error
