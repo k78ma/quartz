@@ -80,6 +80,6 @@ J_{emp}  & = \frac{1}{n}\sum_{i=1}^{n}L_{s}(x^{(i)}, y^{(i)}, \theta, \theta_{0}
 \end{align}
 $$
 
->[!question] 3A\B
+>[!question] 3B
 >What is $\nabla_{\theta}J(\theta)$ in terms of $Z, T, \theta, \theta_{0}$?
 
