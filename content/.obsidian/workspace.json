@@ -23,31 +23,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Computer Science.md",
+                "file": "CS/Problems/Problems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7d81858ce90c5c61",
+            "id": "67bc8383889de76a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Week 5.md",
+                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6d371e571caa77ac",
+            "id": "d9935a2d01d1673f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects.md",
+                "file": "ML/Regularization.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Week 5.md",
+                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Week 5.md",
+                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Week 5.md"
+                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md"
               }
             }
           },
@@ -213,17 +213,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7d81858ce90c5c61",
+  "active": "67bc8383889de76a",
   "lastOpenFiles": [
-    "Projects.md",
     "ML/Week 5.md",
+    "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
+    "CS/Problems/Problems.md",
+    "CS/Computer Science.md",
+    "Projects.md",
+    "ML/Regularization.md",
+    "kai++.md",
     "ML/MIT 6.036x Problems.md",
     "ML/ML Fundamentals.md",
-    "kai++.md",
     "ML/Sigmoid.md",
     "ML/Universal Approximation Theorem.md",
     "ML/Machine Learning.md",
-    "CS/Computer Science.md",
     "ML/Models & Architectures.md",
     "ML/Long Term Short Memory.md",
     "ML/Recurrent Neural Networks.md",
@@ -240,9 +243,6 @@
     "CS/Problems/attachments/Min Stack (LC 155).png",
     "CS/Structure and Interpretation of Programs.md",
     "CS/Data Structures and Algorithms.md",
-    "index.md",
-    "CS/Problems/Problems.md",
-    "Robotics/Quaternion Conversion.md",
     "Robotics/slambook-en.pdf",
     "Robotics/attachments/robot joints.png",
     "Robotics/attachments/coin image.png",

@@ -2,6 +2,7 @@
 title: Week 5
 tags:
   - ml
+  - problems
 date: 2024-01-13
 aliases:
 ---
@@ -60,3 +61,8 @@ Checking dimensions:
 - The matrix product of a $d\times n$ matrix with an $n\times 1$ matrix (the transpose of $1\times n$) thus gives us a gradient that is $d\times 1$, as expected (i.e., $\nabla_{\theta}J_{emp}$ is a vector where each element is the gradient of $J$ with respect to the corresponding element of $\theta$).
 
 ### Sources of Error
+**2A.** Penalizing $|| \theta ||^{2}$ during training can reduce [[Regularization#Types of Errors|estimation error]].
+- Structural error is the error due to selecting an inadequate model class
+- Estimation error arises when parameters of a hypothesis were not estimated well during training. 
+- Adding $|| \theta ||^{2}$ is not selecting for a model class (aka selecting the order of polynomial basis) but for preventing overfitting – thus it reduces estimation error.
+
