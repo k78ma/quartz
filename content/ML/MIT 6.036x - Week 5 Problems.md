@@ -83,3 +83,46 @@ $$
 >[!question] 3B
 >What is $\nabla_{\theta}J(\theta)$ in terms of $Z, T, \theta, \theta_{0}$?
 
+Let's re-write the above expression so that we can find the gradient:
+$$
+\begin{align}
+J_{emp}  & = \frac{1}{n}(Z\theta-T)^{T} (Z\theta-T) \\[2ex] 
+	 & = \frac{1}{n}(Z^{T}\theta^{T} - T^{T}) (Z\theta-T) \\[2ex]
+	 & = \frac{1}{n}(\theta^{T}Z^{T}Z\theta - 2T^{T}Z\theta +T^{T}T) \\[2ex]
+	 & = \frac{1}{n}(Z^{T}Z\theta^{2} - 2T^{T}Z\theta + T^{T}T)
+\end{align}
+$$
+Taking the derivative with respect to $\theta$:
+$$
+\begin{align}
+\frac{ \partial  }{ \partial \theta } \left[\frac{1}{n}(Z^{T}Z\theta^{2} - 2T^{T}Z\theta +T^{T}T)\right]  & = \frac{1}{n}(2Z^{T}Z\theta - 2T^{T}Z + 0) \\[2ex] 
+	 & = -\frac{2}{n}(Z^{T}T\theta+Z^{T}T) \\[2ex]
+	 & = -\frac{2}{n} Z^{T}(Z\theta + T)
+\end{align}
+$$
+…or something like that?
+
+>[!question] 3B
+>What if we set the above equation to 0 and solve for $\theta^{*}$, the optimal $\theta$?
+
+$$
+\begin{align}
+\frac{2}{n} \cdot Z^{T}(Z\theta-T) & = 0 \\
+(Z^{T}Z)\theta-Z^{T}T &= 0 \\
+(Z^{T}Z)\theta  &= Z^{T}T \\
+\theta rd & =\boxed{(Z^{T}Z)^{-1}Z^{T}T}
+\end{align}
+$$
+
+>[!question] 3C+D
+>Converting $\theta^{*}$ back to the data matrix format we've been using:
+
+$$
+\begin{align}
+\theta^{*} &=(Z^{T}Z)^{-1}Z^{T}T \\
+	 & =\boxed{(XX^{T})^{-1}XY^{T}}
+\end{align}
+$$
+In code form: `np.linalg.inv(X@np.transpose(X))@X@np.transpose(Y)`
+
+### Adding Regularization
