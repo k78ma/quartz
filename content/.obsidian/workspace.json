@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "1c4517eb31c45f1d",
+            "id": "56e0333163ee080a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Week 5.md",
+                "file": "ML/MIT 6.036x - Week 5 Problems.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Week 5.md",
+                "file": "ML/MIT 6.036x - Week 5 Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Week 5.md",
+                "file": "ML/MIT 6.036x - Week 5 Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Week 5.md"
+                "file": "ML/MIT 6.036x - Week 5 Problems.md"
               }
             }
           },
@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,16 +189,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7157c2bafb5cb704",
+  "active": "56e0333163ee080a",
   "lastOpenFiles": [
     "kai++.md",
-    "ML/Week 5.md",
+    "ML/MIT 6.036x - Week 5 Problems.md",
+    "ML/MIT 6.036x Problems.md",
     "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
     "CS/Problems/Problems.md",
     "CS/Computer Science.md",
     "Projects.md",
     "ML/Regularization.md",
-    "ML/MIT 6.036x Problems.md",
     "ML/ML Fundamentals.md",
     "ML/Sigmoid.md",
     "ML/Universal Approximation Theorem.md",

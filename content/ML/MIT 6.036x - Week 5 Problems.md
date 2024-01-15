@@ -1,9 +1,9 @@
 ---
-title: Week 5
+title: MIT 6.036x - Week 5 Problems
 tags:
   - ml
   - problems
-date: 2024-01-13
+date: 2024-01-15
 aliases:
 ---
 ### Gradient Calculations
