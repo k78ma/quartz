@@ -18,43 +18,19 @@
             }
           },
           {
-            "id": "eff76ea75650be3c",
+            "id": "1c4517eb31c45f1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67bc8383889de76a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9935a2d01d1673f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Regularization.md",
+                "file": "ML/Week 5.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
+                "file": "ML/Week 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
+                "file": "ML/Week 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md"
+                "file": "ML/Week 5.md"
               }
             }
           },
@@ -197,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,15 +190,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7157c2bafb5cb704",
+  "active": "1c4517eb31c45f1d",
   "lastOpenFiles": [
+    "kai++.md",
     "ML/Week 5.md",
     "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
     "CS/Problems/Problems.md",
     "CS/Computer Science.md",
     "Projects.md",
     "ML/Regularization.md",
-    "kai++.md",
     "ML/MIT 6.036x Problems.md",
     "ML/ML Fundamentals.md",
     "ML/Sigmoid.md",

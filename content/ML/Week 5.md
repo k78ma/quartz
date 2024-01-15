@@ -20,7 +20,7 @@ $$
 \begin{align}
 \frac{ \partial }{ \partial \theta } (L_{s})  & = \frac{ \partial }{ \partial \theta } ((\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})^{2}) \\[2ex] 
 	 & = 2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)}) \cdot \frac{ \partial }{ \partial \theta }(\theta^{T}x^{(i)} + \theta_{0}-y^{(i)}) \\[2ex] 
-	 & = 2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)}) \cdot x^{(i)}
+	 & = \boxed{2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)}) \cdot x^{(i)}}
 \end{align}
 $$
 The terms in the second expression simplify to $x^{(i)}$ because $\theta^{T}x^{(i)}$ is treated as a linear function of $\theta$, while $\theta_{0}$ and $y^{(i)}$ are treated as constants, since they do not change depending on the value of $thet$.
@@ -32,7 +32,7 @@ $$
 \begin{align}
 \frac{ \partial }{ \partial \theta_{0} } (L_{s})  & = \frac{ \partial }{ \partial \theta_{0} } ((\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})^{2}) \\[2ex] 
 	 & = 2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)}) \cdot \cancel{ \frac{ \partial }{ \partial \theta_{0} }(\theta^{T}x^{(i)}C + \theta_{0}-y^{(i)})  }\\[2ex] 
-	 & = 2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})
+	 & = \boxed{2 (\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})}
 \end{align}
 $$
 
@@ -65,4 +65,21 @@ Checking dimensions:
 - Structural error is the error due to selecting an inadequate model class
 - Estimation error arises when parameters of a hypothesis were not estimated well during training. 
 - Adding $|| \theta ||^{2}$ is not selecting for a model class (aka selecting the order of polynomial basis) but for preventing overfitting – thus it reduces estimation error.
+
+### Minimizing empirical risk
+
+>[!question] 3A
+>Let data matrix $Z=X^{T}$ be $n\times d$, let target output vector $T = Y^{T}$ be $n\times 1$ and recall that $\theta = d\times 1$. Then we can write the whole linear regression as $Z\theta$. Write an equation expressing the mean squared loss of $\theta$ in terms of $Z, T, n, \theta$.
+
+$$
+\begin{align}
+J_{emp}  & = \frac{1}{n}\sum_{i=1}^{n}L_{s}(x^{(i)}, y^{(i)}, \theta, \theta_{0}) \\[2ex] 
+	 & = \frac{1}{n}(\theta^{T}x^{(i)}+\theta_{0}-y^{(i)})^{2} \\[2ex] 
+	 & = \frac{1}{n}|| (Z\theta-T) ||^{2} \\[2ex] 
+	 & = \boxed{\frac{1}{n}(Z\theta-T)^{T} (Z\theta-T)}
+\end{align}
+$$
+
+>[!question] 3A\B
+>What is $\nabla_{\theta}J(\theta)$ in terms of $Z, T, \theta, \theta_{0}$?
 
