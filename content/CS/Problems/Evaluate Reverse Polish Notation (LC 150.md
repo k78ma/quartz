@@ -48,3 +48,5 @@ class Solution:
 The key to this is to recognize the use of the stack data structure; we push values onto the stack, and once we find an operator, and pop them off and evaluate them with the operator. Addition and multiplication are easy to do this way since `a+b = b+a` and `a*b = b*a`
 
 This is slightly trickier for subtraction and division, where order matters. For RPN, the order for these is defined such that `2 1 -` is equivalent to `2-1` and `2 1 /` is equivalent to `2/1` . We can just make sure the right order is followed by storing their values in variables when popping off the stack and then reversing the popping order when we do the operation.
+
+Note: The stipulation that division between two integers always truncates toward zero. In Python, division rounds down; to round it toward zero, we can typecast to `int` with `int(b/a)`.
