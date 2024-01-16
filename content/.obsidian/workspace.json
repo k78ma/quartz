@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Neural Networks.md",
+                "file": "ML/Artificial Neuron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Neural Networks.md",
+                "file": "ML/Artificial Neuron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Neural Networks.md"
+                "file": "ML/Artificial Neuron.md"
               }
             }
           },
@@ -225,8 +225,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "962f1d33bec1bfbc",
+  "active": "7602082ac1c2c741",
   "lastOpenFiles": [
+    "ML/attachments/Artificial Neuron.png",
+    "ML/attachments/Pasted image 20240116133422.png",
+    "ML/Neural Networks.md",
     "ML/attachments/Neural Networks.png",
     "ML/Artificial Neuron.md",
     "CS/Evaluating Combinations.md",
@@ -241,7 +244,6 @@
     "ML/attachments/Artificial Neuron.png",
     "ML/attachments/Pasted image 20240116092023.png",
     "ML/attachments/Pasted image 20240116092012.png",
-    "ML/Neural Networks.md",
     "ML/Sigmoid.md",
     "ML/Backpropagation.md",
     "ML/Models & Architectures.md",
@@ -262,8 +264,6 @@
     "Robotics/attachments/robot joints.png",
     "Robotics/attachments/coin image.png",
     "CS/attachments/Combinations and Compound Procedures.png",
-    "Robotics/attachments/Euler Angles-2.png",
-    "Robotics/attachments/Euler Angles-1.png",
     "Physics",
     "CS/Problems/attachments",
     "Thermodynamics",
