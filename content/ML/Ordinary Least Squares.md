@@ -80,7 +80,8 @@ W^{T}(W\theta-T)  & = 0  \\
 W^{T}W\theta  & =W^{T}T \\
 \theta  &= (W^{T}W)^{-1}W^{T}T
 \end{align}
-$$And the dimensions work out!
+$$
+And the dimensions work out!
 $$
 \theta  = \underbrace{ (W^{T}W)^{-1} }_{ d \times d } \;\underbrace{ W^{T} }_{ d \times n }\;\underbrace{ T }_{ n \times 1 }
 $$

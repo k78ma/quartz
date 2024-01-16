@@ -125,4 +125,4 @@ $$
 $$
 In code form: `np.linalg.inv(X@np.transpose(X))@X@np.transpose(Y)`
 
-### Adding Regularization
+### Evaluation
