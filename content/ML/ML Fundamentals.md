@@ -6,9 +6,7 @@ date: 2024-01-14
 aliases:
 ---
 Notes on machine learning fundamentals, mosty from [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/) and [Understanding Deep Learning](https://udlbook.github.io/udlbook/).
-### Basics
-- [[Artificial Neuron]]
-- [[Machine Learning as Optimization]]
+
 ### Classifiers
 - [[Linear Classifier|Linear Classifier]]
 	- [[Perceptron|Perceptron]]
@@ -22,10 +20,12 @@ Notes on machine learning fundamentals, mosty from [MIT 6.036x](https://openlear
 - [[Feature Representation|Feature Representation]]
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
-### Mathematical Functions
+### Activation Functions
+- [[Activation Function]]
 - [[Sigmoid]]
 - [[Rectified Linear Unit]]
 ### Loss Functions
+- [[Machine Learning as Optimization]]
 - [[Loss Function]]
 - [[Negative log-likelihood]]
 - [[Hinge Loss]]
@@ -44,10 +44,11 @@ Notes on machine learning fundamentals, mosty from [MIT 6.036x](https://openlear
 	- [[Stochastic Gradient Descent]]
 ### Neural Networks
 - [[Neural Networks]]
+	- [[Artificial Neuron]]
 - [[Universal Approximation Theorem]]
-- [[Convolutional Neural Networks]]
 - [[Backpropagation]] 
-- [[Recurrent Neural Networks]]
+
+### Convolutional Neural Networks
 ### Problems
 - [[MIT 6.036x Problems]]
 - [[UDL Problems]]
