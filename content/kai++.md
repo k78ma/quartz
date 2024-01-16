@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] W6 Neural Networks Intro
 - [ ] W6 Basic Element
 - [ ] W6 Networks
 - [ ] W6 Choices of Activation Function
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] 2.4 - Quaternions
 - [ ] Min Stack
 - [ ] W5 Homework
+- [ ] W6 Neural Networks Intro
 
 %% kanban:settings
 ```

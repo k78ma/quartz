@@ -5,43 +5,25 @@ tags:
 date: 2023-06-25
 aliases:
 ---
+The basic element of a neural network is called a neuron. This is also sometimes called a [[Perceptron|Perceptron]] but I prefer to use perceptron to refer to the learning algorithm; it is also referred to as "unit" or "node".
 
-This is also sometimes called a [[Perceptron|Perceptron]] but I prefer to use perceptron to refer to the learning algorithm.
+![[Artificial Neuron.png|376]]
 
-This is the basic artificial neuron that essentially acts as a classifier (very similar in formulation/concept to [[Linear Classifier|Linear Classifier]]).
+The neuron is essentially a non-linear function of an input vector $x \in \mathbb{R}^{m}$ to a single value $a \in \mathbb{R}$.  It is parametrized by:
+- A vector of *weights* $(w_{1}, \dots, w_{m}) \in \mathbb{R}^{m}$ and an *offset*/*threshold* $w_{0} \in \mathbb{R}$.
+- An [[activation function]] $f: \mathbb{R} \to \mathbb{R}$, which gives us non-linearity.
 
-## Formulation
-A neuron takes several binary inputs $x_{1}, x_{2}, \cdots,$ and produces a single binary output.
-
-![[artificial neuron.png|325]]
-
-- Inputs $x_{1}, x_{2}, x_{3}$
-- Weights $w_{1}, w_{2}, w_{3}$
-	- Express the importance of the respective input to the output
-- The neuron’s output, $0$ or $1$, is determined by whether the weighted sum $\sum_{j}\limits w_{j}x_{j}$ is greater than some *threshold*
-- Thus, we have: 
+In total, the function represented by the neuron can be summarized as:
 $$
-\text{output}= 
-\begin{cases} 
- 0 \text{ if } \sum_{j}\limits w_{j}x_{j} \leq \text{threshold} \\
- 1 \text{ if} \sum_{j}\limits w_{j}x_{j} > \text{threshold}
-\end{cases}
+a = f(z)=f\left( \sum_{j=1}^{m} x_{j}w_{j} + w_{0} \right) = f(w^{T}x+w_{0})
 $$
-- By using the dot product ($w \cdot x \equiv \sum_{j}\limits w_{j}x_{j}$) and using a bias term $b \equiv \text{threshold}$, we have a more general form: 
+- The final formulation is basically just the activation function applied to [[Linear Classifier|linear classifier]]
+
+#### Training
+How do we train a single unit? Given a loss function $L(guess, actual)$, and a dataset $\{ (x^{(1)}, y^{(1)}), \dots, (x^{n}, y^{(n)}) \}$, we can do [[Gradient Descent]], adjusting the weights $w, w_{0}$ to minimize:
 $$
-\text{output}= 
-\begin{cases} 
- 0 \text{ if } w \cdot x + b \leq 0 \\
- 1 \text{ if} w \cdot x + b > 0 \\
-\end{cases}
+J(w, w_{0}) = \sum_{i=1}^{n}L(\text{NN}(x^{(i)}; w, w_{0}), y^{(i)})
 $$
-## Applications
-Neurons can be useful in unexpected ways like, modeling logic gates such as `AND`, `NOR`, and `NAND`.
-![[nand neuron.png|300]]
+where $\text{NN}(\cdot)$ is the output of our neural net for a given input.
 
-- Input $00$ produces output $1$, input $11$ produces output $0$
-- We’ve made a `NAND` gate!
-
-Obviously, if we can make a `NAND` gate we can also expand to more complex logic circuits like an adder. 
-
-
+[[Linear Classifier|Linear classifiers]] with hinge loss and [[Regression|regression]] with quadratic loss, which we've studied, are two special cases of the neuron; both of them have an activation function of $f(x)=x$.
