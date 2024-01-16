@@ -110,7 +110,7 @@ $$
 \frac{2}{n} \cdot Z^{T}(Z\theta-T) & = 0 \\
 (Z^{T}Z)\theta-Z^{T}T &= 0 \\
 (Z^{T}Z)\theta  &= Z^{T}T \\
-\theta rd & =\boxed{(Z^{T}Z)^{-1}Z^{T}T}
+\theta  & =\boxed{(Z^{T}Z)^{-1}Z^{T}T}
 \end{align}
 $$
 

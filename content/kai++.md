@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] W5 Homework
 - [ ] W6 Neural Networks Intro
 - [ ] W6 Basic Element
 - [ ] W6 Networks
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
 - [ ] 2.4 - Quaternions
 - [ ] Min Stack
+- [ ] W5 Homework
 
 %% kanban:settings
 ```

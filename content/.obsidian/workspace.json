@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/MIT 6.036x - Week 5 Problems.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/MIT 6.036x - Week 5 Problems.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/MIT 6.036x - Week 5 Problems.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -189,11 +188,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7157c2bafb5cb704",
+  "active": "2229cf6fbd689bef",
   "lastOpenFiles": [
+    "ML/MIT 6.036x - Week 5 Problems.md",
     "ML/Ordinary Least Squares.md",
     "kai++.md",
-    "ML/MIT 6.036x - Week 5 Problems.md",
     "ML/MIT 6.036x Problems.md",
     "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
     "CS/Problems/Problems.md",
