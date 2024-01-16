@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] W6 Basic Element
 - [ ] W6 Networks
 - [ ] W6 Choices of Activation Function
 - [ ] W6 Error Backpropagation
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] Min Stack
 - [ ] W5 Homework
 - [ ] W6 Neural Networks Intro
+- [ ] W6 Basic Element
 
 %% kanban:settings
 ```
