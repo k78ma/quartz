@@ -12,7 +12,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual*.
 ## Algorithmic Analysis
 - [[Algorithmic Correctness]]
 - [[RAM Model of Computation]]
-- [[Best-Case, Worst-Case, Average-Case Complexity]]
+- [[Algorithmic Complexity]]
 - [[Big O Notation]]
 	- [[Operations with Big O]]
 - [[Algorithmic Efficiency Examples]]

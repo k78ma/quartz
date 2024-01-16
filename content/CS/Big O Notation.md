@@ -5,7 +5,7 @@ tags:
 date: 2024-01-03
 aliases:
 ---
-The exact time [[Best-Case, Worst-Case, Average-Case Complexity|complexity]] function for any algorithm may very complicated and require too much detail to specify precisely. 
+The exact time [[Algorithmic Complexity|complexity]] function for any algorithm may very complicated and require too much detail to specify precisely. 
 
 Big O notation ignores the difference between multiplicative factors. Letting $f(n)$ be the complexity of an algorithm based on the [[RAM Model of Computation]], we have:
 

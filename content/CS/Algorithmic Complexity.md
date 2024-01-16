@@ -1,5 +1,5 @@
 ---
-title: Best-Case, Worst-Case, Average-Case Complexity
+title: Algorithmic Complexity
 tags:
   - cs
 date: 2024-01-01
