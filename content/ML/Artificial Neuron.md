@@ -7,7 +7,7 @@ aliases:
 ---
 The basic element of a neural network is called a neuron. This is also sometimes called a [[Perceptron|Perceptron]] but I prefer to use perceptron to refer to the learning algorithm; it is also referred to as "unit" or "node".
 
-![[Artificial Neuron.png|428]]
+![[Artificial Neuron.png|464]]
 
 The neuron is essentially a non-linear function of an input vector $x \in \mathbb{R}^{m}$ to a single value $a \in \mathbb{R}$.  It is parametrized by:
 - A vector of *weights* $(w_{1}, \dots, w_{m}) \in \mathbb{R}^{m}$ and an *offset*/*threshold* $w_{0} \in \mathbb{R}$.
