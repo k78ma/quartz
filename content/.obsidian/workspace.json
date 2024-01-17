@@ -30,12 +30,24 @@
             }
           },
           {
-            "id": "6fa9d92d148f5c45",
+            "id": "1678b33a273b82c1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baymax.md",
+                "file": "ML/SYDE 572 Problems.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "26f5f9c7fb5f664f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Softmax.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,21 +64,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6eede97ca4f2bb17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Activation Function.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61ca45d8dbbf7f4a",
+            "id": "454b8d5fe1caef21",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Activation Function.md",
+                "file": "ML/SYDE 572 Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Activation Function.md",
+                "file": "ML/SYDE 572 Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Activation Function.md"
+                "file": "ML/SYDE 572 Problems.md"
               }
             }
           },
@@ -225,12 +225,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6eede97ca4f2bb17",
+  "active": "1678b33a273b82c1",
   "lastOpenFiles": [
+    "ML/attachments/Pasted image 20240117133031.png",
+    "ML/ML Fundamentals.md",
+    "ML/SYDE 572 Problems.md",
+    "ML/Ordinary Least Squares.md",
+    "Robotics/ROS Bridge.md",
+    "ML/Softmax.md",
+    "ML/Hyperbolic Tangent.md",
+    "ML/Sigmoid.md",
+    "ML/Rectified Linear Unit.md",
+    "Step function.md",
+    "ML/Activation Function.md",
     "Baymax.md",
     "kai++.md",
-    "ML/ML Fundamentals.md",
-    "ML/Activation Function.md",
     "noVNC.md",
     "ML/Multi-layer Neural Network.md",
     "ML/attachments/Multi-layer Neural Network.png",
@@ -241,7 +250,6 @@
     "ML/Universal Approximation Theorem.md",
     "ML/Perceptron.md",
     "Books.md",
-    "Robotics/ROS Bridge.md",
     "Robotics/ROS.md",
     "index.md",
     "ML/Backpropagation.md",
@@ -251,16 +259,9 @@
     "ML/attachments/Neural Networks.png",
     "CS/Evaluating Combinations.md",
     "CS/Structure and Interpretation of Programs.md",
-    "CS/Algorithmic Complexity.md",
-    "ML/Linear Classifier.md",
     "ML/attachments/Artificial Neuron.png",
     "ML/attachments/Pasted image 20240116092023.png",
     "ML/attachments/Pasted image 20240116092012.png",
-    "ML/Sigmoid.md",
-    "ML/Models & Architectures.md",
-    "ML/Machine Learning.md",
-    "ML/Machine Learning as Optimization.md",
-    "ML/Loss Function.md",
     "ML/attachments/Week 5.png",
     "Robotics/slambook-en.pdf",
     "Physics",

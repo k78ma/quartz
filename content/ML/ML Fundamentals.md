@@ -24,6 +24,9 @@ Notes on machine learning fundamentals, mosty from [MIT 6.036x](https://openlear
 - [[Activation Function]]
 - [[Sigmoid]]
 - [[Rectified Linear Unit]]
+- [[Step function]]
+- [[Hyperbolic Tangent]]
+- [[Softmax]]
 ### Loss Functions
 - [[Machine Learning as Optimization]]
 - [[Loss Function]]
@@ -53,4 +56,5 @@ Notes on machine learning fundamentals, mosty from [MIT 6.036x](https://openlear
 ### Convolutional Neural Networks
 ### Problems
 - [[MIT 6.036x Problems]]
+- [[SYDE 572 Problems]]
 - [[UDL Problems]]

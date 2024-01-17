@@ -5,7 +5,10 @@ tags:
 date: 2023-10-29
 aliases:
   - sigmoid
+  - logistic
 ---
+Also known as a logistic function.
+
 The sigmoid function is defined as:
 $$
 \sigma(z) = \frac{1}{1+e^{-z}}
