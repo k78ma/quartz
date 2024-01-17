@@ -30,18 +30,6 @@
             }
           },
           {
-            "id": "aedcc8f3c3850ffc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Multi-layer Neural Network.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "6fa9d92d148f5c45",
             "type": "leaf",
             "state": {
@@ -66,19 +54,19 @@
             }
           },
           {
-            "id": "16bb47c91a4d6ebe",
+            "id": "6eede97ca4f2bb17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "noVNC.md",
+                "file": "ML/Activation Function.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -153,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Multi-layer Neural Network.md",
+                "file": "ML/Activation Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Multi-layer Neural Network.md",
+                "file": "ML/Activation Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -193,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Multi-layer Neural Network.md"
+                "file": "ML/Activation Function.md"
               }
             }
           },
@@ -237,19 +225,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aedcc8f3c3850ffc",
+  "active": "6eede97ca4f2bb17",
   "lastOpenFiles": [
-    "ML/attachments/Multi-layer Neural Network.png",
+    "Baymax.md",
     "kai++.md",
-    "ML/Multi-layer Neural Network.md",
     "ML/ML Fundamentals.md",
+    "ML/Activation Function.md",
+    "noVNC.md",
+    "ML/Multi-layer Neural Network.md",
+    "ML/attachments/Multi-layer Neural Network.png",
     "ML/Single-layer Neural Network.md",
     "ML/attachments/Single-layer Neural Network.png",
     "ML/Neural Networks.md",
-    "noVNC.md",
     "ML/Artificial Neuron.md",
-    "Baymax.md",
-    "ML/Activation Function.md",
     "ML/Universal Approximation Theorem.md",
     "ML/Perceptron.md",
     "Books.md",
@@ -274,7 +262,6 @@
     "ML/Machine Learning as Optimization.md",
     "ML/Loss Function.md",
     "ML/attachments/Week 5.png",
-    "CS/Problems/attachments/Min Stack (LC 155).png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",

@@ -7,15 +7,14 @@ draft: "true"
 
 ## Today
 
-- [ ] W6 Networks
 - [ ] W6 Choices of Activation Function
 - [ ] W6 Error Backpropagation
 - [ ] W6 Training
+- [ ] W6 Loss Functions and Activation Functions
 
 
 ## ML
 
-- [ ] W6 Loss Functions and Activation Functions
 - [ ] W6 Exercises
 - [ ] W6 Lab
 - [ ] W6 Homework
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] W5 Homework
 - [ ] W6 Neural Networks Intro
 - [ ] W6 Basic Element
+- [ ] W6 Networks
 
 %% kanban:settings
 ```

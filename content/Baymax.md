@@ -18,7 +18,7 @@ ROSlibpy – able to read every message without ROS dependencies
 
 Dynamic switching between nodes to reduce overhead
 - Only subscribe to topics every 0.1 seconds or something
-	- Alerting failure won't be instantaneous but we know there's a 2 second reactiontime
+	- Alerting failure won't be instantaneous but we know there's a 2 second reaction time
 - Alternatively, always be subscribed but only do the calculations every $x$ seconds; this is because subscribing to things has a time/resource cost in itself
 
 General things to check: Time stamp, latency, header, blank/repeated messages
