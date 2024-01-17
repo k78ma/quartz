@@ -4,6 +4,8 @@ tags:
   - ml
 date: 2023-06-25
 aliases:
+  - neuron
+  - neurons
 ---
 The basic element of a neural network is called a neuron. This is also sometimes called a [Perceptron](Perceptron.md) but I prefer to use perceptron to refer to the learning algorithm; it is also referred to as "unit" or "node".
 

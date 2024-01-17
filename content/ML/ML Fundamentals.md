@@ -45,6 +45,8 @@ Notes on machine learning fundamentals, mosty from [MIT 6.036x](https://openlear
 ### Neural Networks
 - [[Neural Networks]]
 	- [[Artificial Neuron]]
+	- [[Single-layer Neural Network]]
+	- [[Multi-layer Neural Network]]
 - [[Universal Approximation Theorem]]
 - [[Backpropagation]] 
 

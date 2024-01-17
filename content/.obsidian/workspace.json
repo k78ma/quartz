@@ -23,50 +23,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Perceptron.md",
+                "file": "ML/ML Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c1d7c3d395b19d4c",
+            "id": "aedcc8f3c3850ffc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "ML/Multi-layer Neural Network.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "7602082ac1c2c741",
+            "id": "6fa9d92d148f5c45",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Neural Networks.md",
+                "file": "Baymax.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "962f1d33bec1bfbc",
+            "id": "0b32091ff4aa9587",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Neural Networks.md",
+                "file": "Robotics/ROS Bridge.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16bb47c91a4d6ebe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "noVNC.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -116,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -140,7 +153,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Neural Networks.md",
+                "file": "ML/Multi-layer Neural Network.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +170,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Neural Networks.md",
+                "file": "ML/Multi-layer Neural Network.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -180,7 +193,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Neural Networks.md"
+                "file": "ML/Multi-layer Neural Network.md"
               }
             }
           },
@@ -224,44 +237,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7602082ac1c2c741",
+  "active": "aedcc8f3c3850ffc",
   "lastOpenFiles": [
+    "ML/attachments/Multi-layer Neural Network.png",
+    "kai++.md",
+    "ML/Multi-layer Neural Network.md",
+    "ML/ML Fundamentals.md",
+    "ML/Single-layer Neural Network.md",
+    "ML/attachments/Single-layer Neural Network.png",
+    "ML/Neural Networks.md",
+    "noVNC.md",
     "ML/Artificial Neuron.md",
+    "Baymax.md",
+    "ML/Activation Function.md",
+    "ML/Universal Approximation Theorem.md",
+    "ML/Perceptron.md",
+    "Books.md",
+    "Robotics/ROS Bridge.md",
+    "Robotics/ROS.md",
+    "index.md",
+    "ML/Backpropagation.md",
     "ML/attachments/Artificial Neuron-1.png",
     "ML/attachments/Artificial Neuron.png",
     "ML/attachments/Pasted image 20240116133422.png",
-    "ML/Neural Networks.md",
     "ML/attachments/Neural Networks.png",
     "CS/Evaluating Combinations.md",
     "CS/Structure and Interpretation of Programs.md",
     "CS/Algorithmic Complexity.md",
-    "ML/Perceptron.md",
-    "ML/ML Fundamentals.md",
-    "index.md",
-    "kai++.md",
     "ML/Linear Classifier.md",
-    "ML/Activation Function.md",
     "ML/attachments/Artificial Neuron.png",
     "ML/attachments/Pasted image 20240116092023.png",
     "ML/attachments/Pasted image 20240116092012.png",
     "ML/Sigmoid.md",
-    "ML/Backpropagation.md",
     "ML/Models & Architectures.md",
     "ML/Machine Learning.md",
     "ML/Machine Learning as Optimization.md",
     "ML/Loss Function.md",
-    "ML/Stochastic Gradient Descent.md",
-    "ML/MIT 6.036x - Week 5 Problems.md",
-    "ML/Ordinary Least Squares.md",
-    "ML/MIT 6.036x Problems.md",
-    "CS/Problems/Evaluate Reverse Polish Notation (LC 150.md",
-    "CS/Problems/Problems.md",
-    "CS/Computer Science.md",
-    "Projects.md",
     "ML/attachments/Week 5.png",
     "CS/Problems/attachments/Min Stack (LC 155).png",
     "Robotics/slambook-en.pdf",
-    "Robotics/attachments/robot joints.png",
     "Physics",
     "CS/Problems/attachments",
     "Thermodynamics",
