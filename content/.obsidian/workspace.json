@@ -18,24 +18,12 @@
             }
           },
           {
-            "id": "de2e69d2682108a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Softmax.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "26f5f9c7fb5f664f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Softmax.md",
+                "file": "ML/ML Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Softmax.md",
+                "file": "ML/ML Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Softmax.md",
+                "file": "ML/ML Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Softmax.md"
+                "file": "ML/ML Fundamentals.md"
               }
             }
           },
@@ -201,15 +189,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "de2e69d2682108a7",
+  "active": "26f5f9c7fb5f664f",
   "lastOpenFiles": [
-    "ML/Sigmoid.md",
-    "ML/Softmax.md",
+    "Step function.md",
     "ML/ML Fundamentals.md",
+    "ML/Softmax.md",
+    "ML/Sigmoid.md",
+    "ML/Machine Learning.md",
     "ML/Hyperbolic Tangent.md",
     "ML/attachments/Hyperbolic Tangent.png",
     "ML/Rectified Linear Unit.md",
-    "Step function.md",
     "attachments/Step function.png",
     "Robotics/ROS Bridge.md",
     "Vault Stats.md",

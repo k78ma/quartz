@@ -18,7 +18,7 @@ Its output for any value of $z$ is in $(0,1)$, such that:
 - $0 < \sigma(z) < 0.5$ for negative values of $z$
 - $0.5 < \sigma(z) < 1$ for positive values of $z$
 
-Its output can be interpreted as a probability or confidence.
+Its output can be interpreted as a probability or confidence, so it's commonly used for binary classification.
 
 This can be plotted as:
 ![[Pasted image 20231029131826.png|480]]

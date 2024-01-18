@@ -14,4 +14,4 @@ $$
 \exp(z_{n}) / \sum_{i} \exp(z_{i}) 
 \end{bmatrix}
 $$
-Softmax is similar to [[Sigmoid|sigmoid]] in concept (used for outputting probabilities) but in higher dimensions.
+Softmax is similar to [[Sigmoid|sigmoid]] in concept (used for outputting probabilities/confidences) but in higher dimensions. Commonly used for multi-class classification.
