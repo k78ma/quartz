@@ -11,3 +11,4 @@ $$
 1 &  \text{otherwise}
 \end{cases}
 $$
+![[Step function.png|440]]

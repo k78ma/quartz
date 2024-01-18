@@ -11,3 +11,5 @@ Defined as:
 $$
 \tanh(z) = \frac{e^{z}-e^{-z}}{e^{z}+e^{-z}}
 $$
+
+![[Hyperbolic Tangent.png|420]]

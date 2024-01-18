@@ -23,19 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1678b33a273b82c1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/SYDE 572 Problems.md",
+                "file": "ML/Softmax.md",
                 "mode": "source",
                 "source": false
               }
@@ -52,21 +40,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "0b32091ff4aa9587",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/ROS Bridge.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/SYDE 572 Problems.md",
+                "file": "ML/Softmax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/SYDE 572 Problems.md",
+                "file": "ML/Softmax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/SYDE 572 Problems.md"
+                "file": "ML/Softmax.md"
               }
             }
           },
@@ -225,18 +201,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1678b33a273b82c1",
+  "active": "de2e69d2682108a7",
   "lastOpenFiles": [
-    "ML/attachments/Pasted image 20240117133031.png",
-    "ML/ML Fundamentals.md",
-    "ML/SYDE 572 Problems.md",
-    "ML/Ordinary Least Squares.md",
-    "Robotics/ROS Bridge.md",
-    "ML/Softmax.md",
-    "ML/Hyperbolic Tangent.md",
     "ML/Sigmoid.md",
+    "ML/Softmax.md",
+    "ML/ML Fundamentals.md",
+    "ML/Hyperbolic Tangent.md",
+    "ML/attachments/Hyperbolic Tangent.png",
     "ML/Rectified Linear Unit.md",
     "Step function.md",
+    "attachments/Step function.png",
+    "Robotics/ROS Bridge.md",
+    "Vault Stats.md",
+    "ML/SYDE 572 Problems.md",
+    "ML/attachments/Pasted image 20240117133031.png",
+    "ML/Ordinary Least Squares.md",
     "ML/Activation Function.md",
     "Baymax.md",
     "kai++.md",
@@ -258,11 +237,7 @@
     "ML/attachments/Pasted image 20240116133422.png",
     "ML/attachments/Neural Networks.png",
     "CS/Evaluating Combinations.md",
-    "CS/Structure and Interpretation of Programs.md",
     "ML/attachments/Artificial Neuron.png",
-    "ML/attachments/Pasted image 20240116092023.png",
-    "ML/attachments/Pasted image 20240116092012.png",
-    "ML/attachments/Week 5.png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",
