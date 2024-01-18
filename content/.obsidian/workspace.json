@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Backpropagation.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Backpropagation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Backpropagation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML Fundamentals.md"
+                "file": "ML/Backpropagation.md"
               }
             }
           },
@@ -191,11 +191,15 @@
   },
   "active": "26f5f9c7fb5f664f",
   "lastOpenFiles": [
-    "Step function.md",
     "ML/ML Fundamentals.md",
+    "ML/Backpropagation.md",
+    "ML/Multi-layer Neural Network.md",
+    "ML/attachments/Backpropagation.png",
+    "ML/Machine Learning.md",
+    "kai++.md",
+    "Step function.md",
     "ML/Softmax.md",
     "ML/Sigmoid.md",
-    "ML/Machine Learning.md",
     "ML/Hyperbolic Tangent.md",
     "ML/attachments/Hyperbolic Tangent.png",
     "ML/Rectified Linear Unit.md",
@@ -207,9 +211,7 @@
     "ML/Ordinary Least Squares.md",
     "ML/Activation Function.md",
     "Baymax.md",
-    "kai++.md",
     "noVNC.md",
-    "ML/Multi-layer Neural Network.md",
     "ML/attachments/Multi-layer Neural Network.png",
     "ML/Single-layer Neural Network.md",
     "ML/attachments/Single-layer Neural Network.png",
@@ -220,13 +222,10 @@
     "Books.md",
     "Robotics/ROS.md",
     "index.md",
-    "ML/Backpropagation.md",
     "ML/attachments/Artificial Neuron-1.png",
     "ML/attachments/Artificial Neuron.png",
     "ML/attachments/Pasted image 20240116133422.png",
     "ML/attachments/Neural Networks.png",
-    "CS/Evaluating Combinations.md",
-    "ML/attachments/Artificial Neuron.png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",
