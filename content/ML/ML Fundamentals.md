@@ -22,15 +22,17 @@ Notes on machine learning fundamentals, mostly from [MIT 6.036x](https://openlea
 	- [[Polynomial Basis|Polynomial Basis]]
 ### Activation Functions
 - [[Activation Function]]
-- [[Sigmoid]]
-- [[Rectified Linear Unit]]
-- [[Step function]]
-- [[Hyperbolic Tangent]]
-- [[Softmax]]
+	- [[Sigmoid]]
+	- [[Rectified Linear Unit]]
+	- [[Step function]]
+	- [[Hyperbolic Tangent]]
+	- [[Softmax]]
+- [[Output Activation Functions]]
 ### Loss Functions
 - [[Machine Learning as Optimization]]
 - [[Loss Function]]
 - [[Negative log-likelihood]]
+	- [[Negative log-likelihood multi-class]]
 - [[Hinge Loss]]
 ### Regularization
 - [[Regularization]]
@@ -52,7 +54,11 @@ Notes on machine learning fundamentals, mostly from [MIT 6.036x](https://openlea
 	- [[Multi-layer Neural Network]]
 - [[Universal Approximation Theorem]]
 - [[Backpropagation]] 
-
+- [[Neural Network Training]]
+- [[Neural Network Weight Initialization]]
+### Optimizing Neural Network Parameters
+- [[Batch Gradient Descent]]
+- [[Adaptive step-size]]
 ### Convolutional Neural Networks
 ### Problems
 - [[MIT 6.036x Problems]]

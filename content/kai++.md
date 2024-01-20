@@ -7,17 +7,15 @@ draft: "true"
 
 ## Today
 
-- [ ] W6 Choices of Activation Function
-- [ ] W6 Error Backpropagation
 - [ ] W6 Training
 - [ ] W6 Loss Functions and Activation Functions
+- [ ] W6 Exercises
+- [ ] W6 Lab
+- [ ] W6 Homework
 
 
 ## ML
 
-- [ ] W6 Exercises
-- [ ] W6 Lab
-- [ ] W6 Homework
 - [ ] W7 Batch Gradient Descent
 - [ ] W7 Adaptive Step Size
 - [ ] W7 Running Averages
@@ -27,6 +25,50 @@ draft: "true"
 - [ ] W7 - Regularization by Weight Decay
 - [ ] W7 - Regularization by Early Stopping and Dropout
 - [ ] W7 - Regularization by Batch Normalization
+- [ ] W7 Exercises
+- [ ] W7 Lab
+- [ ] W7 Homework
+- [ ] W8 - Introduction to CNNs
+- [ ] W8 - Filters
+- [ ] W8 - Max Pooling
+- [ ] W8 - Typical Architecture
+- [ ] W8 Exercises
+- [ ] W8 Lab
+- [ ] W8 Homework
+- [ ] W9 - Intro to sequential models
+- [ ] W9 - State Machines
+- [ ] W9 - Markov Decision Processes
+- [ ] W9 Exercises
+- [ ] W9 Lab
+- [ ] W9 Homework
+- [ ] W10 - Intro to Reinforcement Learning
+- [ ] W10 - Bandit Problems
+- [ ] W10 - Sequential Problems
+- [ ] W10 Exercises
+- [ ] W10 Lab
+- [ ] W10 Homework
+- [ ] W11 - Intro to RNNs
+- [ ] W11 - RNN Model
+- [ ] W11 - Sequence-to-sequence RNN
+- [ ] W11 - Backpropagation through time
+- [ ] W11 - Training a language model
+- [ ] W11 - Vanishing gradients and gating mechanisms
+- [ ] W11 Exercises
+- [ ] W11 Lab
+- [ ] W11 Homework
+- [ ] W12 - Intro to recommender systems
+- [ ] W12 - Content-based recommendations
+- [ ] W12 - Collaborative filtering
+- [ ] W12 Exercises
+- [ ] W12 Lab
+- [ ] W12 Homework
+- [ ] W13 - Introduction to non-parametric methods
+- [ ] W13 - Trees
+- [ ] W13 - Bagging
+- [ ] W13 - Nearest Neighbour
+- [ ] W13 Exercises
+- [ ] W13 Lab
+- [ ] W13 Homework
 
 
 ## CS
@@ -139,6 +181,8 @@ draft: "true"
 - [ ] W6 Neural Networks Intro
 - [ ] W6 Basic Element
 - [ ] W6 Networks
+- [ ] W6 Choices of Activation Function
+- [ ] W6 Error Backpropagation
 
 %% kanban:settings
 ```
