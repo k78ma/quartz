@@ -11,11 +11,9 @@
             "id": "81bac0290afc36d3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "ML/Output Activation Functions.md",
-                "mode": "source",
-                "source": false
+                "file": "kai++.md"
               }
             }
           },
@@ -25,19 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Neural Network Training.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da7772ebe871963b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Hinge Loss.md",
+                "file": "ML/Batch Gradient Descent.md",
                 "mode": "source",
                 "source": false
               }
@@ -119,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Neural Network Training.md",
+                "file": "ML/Batch Gradient Descent.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Neural Network Training.md",
+                "file": "ML/Batch Gradient Descent.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -159,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Neural Network Training.md"
+                "file": "ML/Batch Gradient Descent.md"
               }
             }
           },
@@ -205,12 +191,20 @@
   },
   "active": "a7e7d26cdfe2d6f9",
   "lastOpenFiles": [
-    "ML/Hinge Loss.md",
-    "ML/Output Activation Functions.md",
+    "ML/attachments/Batch Gradient Descent.png",
+    "ML/Batch Gradient Descent.md",
     "ML/ML Fundamentals.md",
-    "ML/Negative log-likelihood multi-class.md",
+    "ML/Hinge Loss.md",
+    "ML/MIT 6.036x Problems.md",
     "kai++.md",
+    "ML/Stochastic Gradient Descent.md",
+    "ML/Gradient Descent.md",
+    "ML/1D Gradient Descent.md",
+    "ML/Multiple Dimension Gradient Descent.md",
+    "ML/Linear Classifier.md",
     "ML/Neural Network Training.md",
+    "ML/Output Activation Functions.md",
+    "ML/Negative log-likelihood multi-class.md",
     "ML/Support Vector Machine.md",
     "ML/L2 Regularization.md",
     "L2 Penalty.md",
@@ -226,16 +220,8 @@
     "ML/Sigmoid.md",
     "ML/Hyperbolic Tangent.md",
     "ML/attachments/Hyperbolic Tangent.png",
-    "ML/Rectified Linear Unit.md",
     "attachments/Step function.png",
-    "Robotics/ROS Bridge.md",
-    "Vault Stats.md",
-    "ML/SYDE 572 Problems.md",
     "ML/attachments/Pasted image 20240117133031.png",
-    "ML/Ordinary Least Squares.md",
-    "ML/Activation Function.md",
-    "Baymax.md",
-    "noVNC.md",
     "ML/attachments/Multi-layer Neural Network.png",
     "ML/attachments/Single-layer Neural Network.png",
     "ML/attachments/Artificial Neuron-1.png",

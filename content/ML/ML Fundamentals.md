@@ -5,10 +5,10 @@ tags:
 date: 2024-01-14
 aliases:
 ---
-Notes on machine learning fundamentals, mostly from [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/), [Understanding Deep Learning](https://udlbook.github.io/udlbook/) and [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
+Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowledge from the ground up in a Feynman-like way. Notes are mostly from [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/), [Understanding Deep Learning](https://udlbook.github.io/udlbook/) and [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 
 ### Classifiers
-- [[Linear Classifier|Linear Classifier]]
+- [[Linear Classifier]]
 	- [[Perceptron|Perceptron]]
 		- [[Averaged Perceptron|Averaged Perceptron]]
 		- [[Perceptron Convergence Theorem|Perceptron Convergence Theorem]]

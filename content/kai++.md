@@ -7,21 +7,16 @@ draft: "true"
 
 ## Today
 
-- [ ] W6 Training
-- [ ] W6 Loss Functions and Activation Functions
-- [ ] W6 Exercises
-- [ ] W6 Lab
-- [ ] W6 Homework
-
-
-## ML
-
 - [ ] W7 Batch Gradient Descent
 - [ ] W7 Adaptive Step Size
 - [ ] W7 Running Averages
 - [ ] W7 - Momentum
 - [ ] W7 - AdaGrad and AdaDelta
 - [ ] W7 - Adam
+
+
+## ML
+
 - [ ] W7 - Regularization by Weight Decay
 - [ ] W7 - Regularization by Early Stopping and Dropout
 - [ ] W7 - Regularization by Batch Normalization
@@ -183,6 +178,11 @@ draft: "true"
 - [ ] W6 Networks
 - [ ] W6 Choices of Activation Function
 - [ ] W6 Error Backpropagation
+- [ ] W6 Training
+- [ ] W6 Loss Functions and Activation Functions
+- [ ] W6 Exercises
+- [ ] W6 Lab
+- [ ] W6 Homework
 
 %% kanban:settings
 ```
