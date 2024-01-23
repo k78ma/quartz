@@ -30,3 +30,24 @@ ROS 2 executor, callback group, quality of service settings
 ROS 2 covariance injector has a cool idea for this:
 - Base sensor class – specific sensor classes inherit from this base class and all return the same thing
 - If there's some sensor that publishes something that doesn't exist or can't be identified, we just default it to a generic sensor checker that just checks basic header/timestamp, etc
+
+### Notes
+Docker run command for Baymax node:
+```bash
+docker run -it --rm -v $(pwd):/baymax_ws osrf/ros:humble-desktop bash
+```
+
+Building/running node:
+```bash
+cd baymax_ws
+colcon build --packages-select baymax
+. install/setup.bash
+ros2 run baymax baymax_node
+```
+
+Rosbag node:
+```bash
+docker run -it --rm -v $(pwd)/zvision_ugv_data:/zvision_ugv_data --name osrf/ros:humble-desktop bash
+
+ros2 bag play zvision_ugv_data/zvision_ugv_data_1/zvision_ugv_data_1.db3 --loop
+```

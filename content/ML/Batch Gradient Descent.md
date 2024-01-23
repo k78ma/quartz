@@ -5,6 +5,7 @@ tags:
 date: 2024-01-21
 aliases:
   - batches
+  - batch
 ---
 Assume that we have an objective of the form:
 $$

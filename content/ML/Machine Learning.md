@@ -8,13 +8,16 @@ aliases:
   - ml
 date: 2023-06-25
 ---
-## Foundations & Areas
+## Foundations & Research Areas
 - [[ML Fundamentals]]
 - [[Models & Architectures]]
 - [[Computer Vision]]
 - [[Reinforcement Learning]]
 - [[Natural Language Processing + LLMs]]
 - [[Alignment]]
+## Tools & Techniques
+- [[Distributed Training]]
+- [[ML Compilers]]
 ## Models & Architectures
 ### Recurrent Models
 - [[Recurrent Neural Networks]]
