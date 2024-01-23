@@ -13,5 +13,6 @@ Ideas:
 - [ ] Self-driving chair/couch
 - [ ] Computer algebra system
 - [ ] Semantic search from scratch on a .txt file (Shakespeare?)
+- [ ] Block diagram → model
 
 Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)

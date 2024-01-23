@@ -47,7 +47,14 @@ ros2 run baymax baymax_node
 
 Rosbag node:
 ```bash
-docker run -it --rm -v $(pwd)/zvision_ugv_data:/zvision_ugv_data --name osrf/ros:humble-desktop bash
+docker run -it --rm -v $(pwd)/zvision_ugv_data:/zvision_ugv_data --name rosbags osrf/ros:humble-desktop bash
 
 ros2 bag play zvision_ugv_data/zvision_ugv_data_1/zvision_ugv_data_1.db3 --loop
+```
+
+View rostopics just in the same as rosbag container:
+```bash
+docker exec -it rosbags /bin/bash
+source /opt/ros/humble/setup.bash
+ros2 topic list
 ```
