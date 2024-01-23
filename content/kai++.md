@@ -7,12 +7,11 @@ draft: "true"
 
 ## Today
 
-- [ ] W7 Batch Gradient Descent
 - [ ] W7 Adaptive Step Size
-- [ ] W7 Running Averages
 - [ ] W7 - Momentum
 - [ ] W7 - AdaGrad and AdaDelta
 - [ ] W7 - Adam
+- [ ] micrograd
 
 
 ## ML
@@ -183,6 +182,8 @@ draft: "true"
 - [ ] W6 Exercises
 - [ ] W6 Lab
 - [ ] W6 Homework
+- [ ] W7 Batch Gradient Descent
+- [ ] W7 Running Averages
 
 %% kanban:settings
 ```

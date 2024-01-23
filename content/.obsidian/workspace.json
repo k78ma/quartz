@@ -35,7 +35,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Momentum (ML).md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baymax.md",
+                "file": "ML/Momentum (ML).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baymax.md",
+                "file": "ML/Momentum (ML).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baymax.md"
+                "file": "ML/Momentum (ML).md"
               }
             }
           },
@@ -225,18 +225,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "54643f645c676b01",
+  "active": "7019373cb478bfd3",
   "lastOpenFiles": [
+    "ML/attachments/Momentum (ML).png",
     "ML/Machine Learning.md",
-    "ML/ML Fundamentals.md",
+    "kai++.md",
+    "ML/Momentum (ML).md",
     "Baymax.md",
+    "ML/ML Fundamentals.md",
+    "ML/Running Averages.md",
     "CS/Problems/Trapping Rain Water (LC 42).md",
     "CS/Data Structures and Algorithms.md",
     "CS/Algorithmic Efficiency Examples.md",
-    "ML/Running averages.md",
     "ML/Adaptive step-size.md",
     "ML/Batch Gradient Descent.md",
-    "kai++.md",
     "ML/attachments/Batch Gradient Descent.png",
     "ML/Hinge Loss.md",
     "ML/MIT 6.036x Problems.md",
@@ -253,8 +255,6 @@
     "L2 Penalty.md",
     "ML/Neural Network Weight Initialization.md",
     "ML/attachments/Neural Network Training.png",
-    "ML/Backpropagation.md",
-    "ML/L1 Regularization.md",
     "ML/attachments/Backpropagation.png",
     "ML/attachments/Hyperbolic Tangent.png",
     "attachments/Step function.png",

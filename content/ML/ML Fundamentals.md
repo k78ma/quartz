@@ -59,7 +59,8 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 ### Optimizing Neural Network Parameters
 - [[Batch Gradient Descent]]
 - [[Adaptive step-size]]
-	- [[Running averages]]
+	- [[Running Averages]]
+	- [[Momentum (ML)]]
 ### Convolutional Neural Networks
 ### Problems
 - [[MIT 6.036x Problems]]

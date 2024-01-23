@@ -1,5 +1,5 @@
 ---
-title: Running averages
+title: Running Averages
 tags:
   - ml
 date: 2024-01-21

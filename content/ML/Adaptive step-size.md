@@ -12,7 +12,7 @@ Picking a value for learning rate, $\eta$, is difficult and time-consuming.
 It’s also true that, within a single neural network, we may well want to have different step sizes. As our networks become deep (with increasing numbers of layers) we can find that magnitude of the gradient of the loss with respect the weights in the last layer, $\partial \text{ loss} / {\partial}W_{L}$, may be substantially different from the gradient of the loss with respect to the weights in the first layer $\partial \text{ loss} / \partial W_{1}$. The output gradient is multiplied by all the weight matrices of the network and is “fed back” through all the derivatives of all the activation functions. This can lead to a problem of exploding or vanishing gradients, in which the back-propagated gradient is much too big or small to be used in an update rule with the same step size.
 
 Some methods for adaptive step-size:
-- [[Running averages]]
+- [[Running Averages]]
 - [[Momentum (ML)]]
 - [[Adadelta]]
 - [[Adam]]
