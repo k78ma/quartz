@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2024-01-21
 aliases:
+  - moving average
 ---
 Running averages is a computational strategy for estimating a possibly weighted average of a sequence of data. 
 
@@ -22,4 +23,5 @@ A_{T}  & = \gamma A_{T-1} + (1-\gamma)a_{T} \\
 	 & = \sum_{t=0}^{T}\gamma^{T-t}(1-\gamma) \, a_{t}
 \end{align}
 $$
-So, you can see that inputs at closer to the end of the sequence have more effect on $A_{t}$ than early inputs. If, instead, we set $\gamma_{t} = (t − 1)/t$, then we get the actual average.
+So, we are essentially tracking of all the $a$ values that we have seen. But the ones that are further away have less influence; you can see that inputs at closer to the end of the sequence have more effect on $A_{t}$ than early inputs. If, instead, we set $\gamma_{t} = (t − 1)/t$, then we get the actual average.
+

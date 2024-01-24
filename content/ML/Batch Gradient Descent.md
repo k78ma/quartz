@@ -42,3 +42,5 @@ For $k=1$, this would be equivalent to SGD; for $k=n$, this would be equivalent 
 Picking $k$ unique points at random from a large data-set is potentially computationally difficult. An alternative strategy, if you have an efficient procedure for randomly shuffling the data set (or randomly shuffling a list of indices into the data set) is to operate in a loop, roughly as follows:
 
 ![[Batch Gradient Descent.png|552]]
+
+The term **epoch** is used to refer to one iteration through the training data. Sometimes it is also used to mean "one batch".

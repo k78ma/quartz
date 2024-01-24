@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] W7 Adaptive Step Size
 - [ ] W7 - Momentum
 - [ ] W7 - AdaGrad and AdaDelta
 - [ ] W7 - Adam
@@ -184,6 +183,7 @@ draft: "true"
 - [ ] W6 Homework
 - [ ] W7 Batch Gradient Descent
 - [ ] W7 Running Averages
+- [ ] W7 Adaptive Step Size
 
 %% kanban:settings
 ```

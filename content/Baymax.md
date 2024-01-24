@@ -41,8 +41,8 @@ Building/running node:
 ```bash
 cd baymax_ws
 colcon build --packages-select baymax
-. install/setup.bash
-ros2 run baymax baymax_node
+source install/setup.bash
+ros2 launch baymax baymax_launch.py
 ```
 
 Rosbag node:
