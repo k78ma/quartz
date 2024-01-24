@@ -34,7 +34,7 @@ ROS 2 covariance injector has a cool idea for this:
 ### Notes
 Docker run command for Baymax node:
 ```bash
-docker run -it --rm -v $(pwd):/baymax_ws osrf/ros:humble-desktop bash
+docker run -it --name baymax --rm -v $(pwd):/baymax_ws osrf/ros:humble-desktop bash
 ```
 
 Building/running node:
@@ -49,7 +49,7 @@ Rosbag node:
 ```bash
 docker run -it --rm -v $(pwd)/zvision_ugv_data:/zvision_ugv_data --name rosbags osrf/ros:humble-desktop bash
 
-ros2 bag play zvision_ugv_data/zvision_ugv_data_1/zvision_ugv_data_1.db3 --loop
+ros2 bag play zvision_ugv_data/zvision_ugv_data_1/zvision_ugv_data_1.db3 --loop --clock
 ```
 
 View rostopics just in the same as rosbag container:
@@ -58,3 +58,8 @@ docker exec -it rosbags /bin/bash
 source /opt/ros/humble/setup.bash
 ros2 topic list
 ```
+
+TODO:
+- [x] Timestamp latency is 6 million?
+- [ ] YAML Format
+- [ ] Tolerance setting

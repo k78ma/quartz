@@ -30,19 +30,19 @@
             }
           },
           {
-            "id": "4835593b550d7d07",
+            "id": "854dee8d95f14c41",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Adam.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,20 +104,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "454b8d5fe1caef21",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "b78b032bd8a30a1c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "Baymax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,12 +121,20 @@
             }
           },
           {
+            "id": "8585c0c75f95de9a",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "3a97c0e9ae487b9e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "Baymax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML Fundamentals.md"
+                "file": "Baymax.md"
               }
             }
           },
@@ -181,11 +181,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,15 +202,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4835593b550d7d07",
+  "active": "54643f645c676b01",
   "lastOpenFiles": [
-    "ML/ML Fundamentals.md",
-    "Baymax.md",
-    "ML/Adadelta.md",
     "ML/Adam.md",
+    "Baymax.md",
     "ML/Running Averages.md",
-    "ML/Adaptive step-size.md",
+    "ML/Adadelta.md",
     "ML/Momentum (ML).md",
+    "Vault Stats.md",
+    "ML/ML Fundamentals.md",
+    "ML/Adaptive step-size.md",
     "Projects.md",
     "kai++.md",
     "ML/Batch Gradient Descent.md",
@@ -230,7 +232,6 @@
     "ML/Output Activation Functions.md",
     "ML/Negative log-likelihood multi-class.md",
     "ML/Support Vector Machine.md",
-    "ML/L2 Regularization.md",
     "ML/attachments/Neural Network Training.png",
     "ML/attachments/Backpropagation.png",
     "ML/attachments/Hyperbolic Tangent.png",

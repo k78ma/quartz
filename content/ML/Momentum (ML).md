@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2024-01-22
 aliases:
+  - momentum
 ---
 We can use methods like [[Running Averages]] to describe strategies for computing $\eta$. Momentum is a simple method that does this by "averaging" recent gradient updates, so that if they have been bouncing back and forth in some direction, we take out that component of the motion. For momentum, we have:
 $$
