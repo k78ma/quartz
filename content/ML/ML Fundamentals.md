@@ -63,7 +63,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 - [[Adaptive step-size]]
 	- [[Running Averages]]
 	- [[Momentum (ML)]]
-	- [[Adadelta]]
+	- [[Adadelta|Adagrad/Adadelta]]
 	- [[Adam]]
 ### Convolutional Neural Networks
 ### Problems

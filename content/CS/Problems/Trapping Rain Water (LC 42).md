@@ -1,6 +1,8 @@
 ---
 title: Trapping Rain Water (LC 42)
-tags: 
+tags:
+  - cs
+  - problems
 date: 2023-12-25
 aliases:
   - Trapping Rain Water

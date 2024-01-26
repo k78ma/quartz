@@ -1,6 +1,7 @@
 ---
 title: Baymax
-tags: 
+tags:
+  - polymath
 date: 2024-01-16
 aliases: 
 draft: "true"
@@ -60,6 +61,9 @@ ros2 topic list
 ```
 
 TODO:
-- [x] Timestamp latency is 6 million?
-- [ ] YAML Format
-- [ ] Tolerance setting
+- [x] Latency 6 million seconds fix
+	- [ ] Negative latency?
+- [x] YAML Format
+- [x] Tolerance setting
+- [ ] Blank/repeated messages
+- [x] Publication rate

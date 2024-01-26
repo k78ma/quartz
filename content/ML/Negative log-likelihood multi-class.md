@@ -1,6 +1,7 @@
 ---
 title: Negative log-likelihood multi-class
-tags: 
+tags:
+  - ml
 date: 2024-01-19
 aliases:
 ---
