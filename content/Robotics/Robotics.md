@@ -2,6 +2,7 @@
 title: Robotics
 tags:
   - robotics
+  - moc
 date: 2023-06-30
 aliases:
 ---

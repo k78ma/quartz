@@ -40,4 +40,11 @@ There are two ways in which a hypothesis $h \in \mathcal{H}$ might contribute to
 
 When we increase $\lambda$, we tend to increase structural error but decrease estimation error, and vice versa.
 ### Regularization methods
-- [[Ridge Regression]]
+- [[L1 Regularization]]
+- [[L2 Regularization]]
+	- [[Ridge Regression]]
+- [[Early stopping]]
+- [[Weight Decay]]
+- [[Weight Perturbation]]
+- [[Dropout]]
+- [[Batch Normalization]]

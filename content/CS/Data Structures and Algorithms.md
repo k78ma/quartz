@@ -15,7 +15,6 @@ Notes from Steven Skiena's *The Algorithm Design Manual*.
 - [[Algorithmic Complexity]]
 - [[Big O Notation]]
 	- [[Operations with Big O]]
-- [[Algorithmic Efficiency Examples]]
 - [[Summations for Algorithms]]
 - [[Logarithms for Algorithms]]
 
