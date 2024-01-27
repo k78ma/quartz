@@ -69,6 +69,10 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 	- [[Adadelta|Adagrad/Adadelta]]
 	- [[Adam]]
 ### Convolutional Neural Networks
+
+### Recurrent Networks
+- [[Recurrent Neural Networks]]
+- [[Long Term Short Memory|LSTM]]
 ### Problems
 - [[MIT 6.036x Problems]]
 - [[SYDE 572 Problems]]

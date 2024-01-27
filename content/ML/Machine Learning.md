@@ -10,19 +10,13 @@ date: 2023-06-25
 ---
 ## Foundations & Research Areas
 - [[ML Fundamentals]]
-- [[Models & Architectures]]
 - [[Computer Vision]]
 - [[Reinforcement Learning]]
-- [[Natural Language Processing + LLMs]]
-- [[Alignment]]
+- [[Natural Language Processing]]
+	- [[Large Language Models]]
 ## Tools & Techniques
 - [[Distributed Training]]
 - [[ML Compilers]]
-## Models & Architectures
-### Recurrent Models
-- [[Recurrent Neural Networks]]
-- [[Gated Recurrent Unit]]
-- [[Long Term Short Memory|LSTM]]
 ## Other/Uncategorized
 - [[Paper List]]
 - [[World Models]]

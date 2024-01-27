@@ -30,18 +30,6 @@
             }
           },
           {
-            "id": "fb748376dbbbb62a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Robotics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "11b1b8002ff6ac90",
             "type": "leaf",
             "state": {
@@ -129,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Robotics.md",
+                "file": "ML/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Robotics.md",
+                "file": "ML/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -169,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robotics/Robotics.md"
+                "file": "ML/Machine Learning.md"
               }
             }
           },
@@ -213,20 +201,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fb748376dbbbb62a",
+  "active": "11b1b8002ff6ac90",
   "lastOpenFiles": [
-    "Robotics/Motion Planning.md",
-    "Robotics/Robotics.md",
-    "Robotics/SLAM.md",
-    "Robotics/Robot Configuration.md",
-    "ML/Batch Normalization.md",
+    "ML/ML Fundamentals.md",
     "ML/Machine Learning.md",
+    "ML/Models & Architectures.md",
+    "ML/Batch Normalization.md",
+    "Robotics/Robotics.md",
+    "Robotics/Robot Configuration.md",
+    "Robotics/Motion Planning.md",
+    "Robotics/SLAM.md",
     "Robotics/Sensor-based Planning Intro.md",
     "Robotics/SerMotion Planning Intro.md",
     "ML/Stochastic Gradient Descent.md",
     "Control Theory/Control Theory.md",
     "kai++.md",
-    "ML/ML Fundamentals.md",
     "ML/Dropout.md",
     "ML/Weight Perturbation.md",
     "ML/weight perturbuation.md",
@@ -241,7 +230,6 @@
     "Robotics/Quaternions.md",
     "Robotics/Euler Angles.md",
     "Robotics/Quaternion Operations.md",
-    "Baymax.md",
     "ML/attachments/Momentum (ML).png",
     "ML/attachments/Batch Gradient Descent.png",
     "ML/attachments/Neural Network Training.png",
