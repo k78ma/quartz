@@ -13,7 +13,7 @@ aliases:
 
 [[Operating Systems]] can be considered a sub-topic of this.
 
-Program Structure and Execution
+## Program Structure and Execution
 - Representing and Manipulating Information
 	- 
 - Machine-level Representation of Programs
@@ -25,7 +25,7 @@ Program Structure and Execution
 - The Memory Hierarchy
 	- 
 
-Running Programs on a System
+## Running Programs on a System
 - Linking
 	- 
 - Exceptional Control Flow
@@ -33,7 +33,7 @@ Running Programs on a System
 - Virtual Memory
 	- 
 
-Interaction and Communication between Programs
+## Interaction and Communication between Programs
 - System-level I/O
 	- 
 - Network Programming

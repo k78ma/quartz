@@ -7,14 +7,12 @@ draft: "true"
 
 ## Today
 
-- [ ] W7 - Regularization by Weight Decay
 - [ ] W7 - Regularization by Batch Normalization
 - [ ] micrograd
 
 
 ## ML
 
-- [ ] W7 - Regularization by Early Stopping and Dropout
 - [ ] W7 Exercises
 - [ ] W7 Lab
 - [ ] W7 Homework
@@ -184,6 +182,8 @@ draft: "true"
 - [ ] W7 - Momentum
 - [ ] W7 - AdaGrad and AdaDelta
 - [ ] W7 - Adam
+- [ ] W7 - Regularization by Weight Decay
+- [ ] W7 - Regularization by Early Stopping and Dropout
 
 %% kanban:settings
 ```
