@@ -8,52 +8,21 @@ aliases:
 *There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.* - Ilia Baranov?
 
 **Visual SLAM:**   <progress max=356 value=54> </progress> 
-
-## Robot Configuration
-#### Configuration
-- [[Configuration Space|Configuration Space]]
-- [[Degrees of Freedom|Degrees of Freedom]]
-- [[Grubler’s Formula|Grubler’s Formula]]
-- [[Robot Joints]]
-- [[Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
-#### Rotation Matrix
-- [[Points, Vectors, Coordinate Systems]]
-- [[Transforms Intuition]]
-- [[Euclidean Transforms]]
-- [[Rotation Matrix]]
-- [[Homogeneous Coordinates]]
-- [[Transform Matrix]]
-#### Rotation Vectors and Euler Angles
-- [[Rotation Vectors]]
-- [[Euler Angles]]
-#### Quaternions
-- [[Quaternions]]
-	- [[Quaternion Operations]]
-	- [[Quaternion Conversion]]
-#### Affine and Projective Transformation
-- [[Affine and Projective Transformation]]
-
-## SLAM
-- [[Visual SLAM Framework]]
-- [[Mathematical Formulation of SLAM]]
-- [[State Estimation]]
-
-## Control
+## Areas
+- [[Robot Configuration]]
+- [[Motion Planning]]
+- [[SLAM]]
 - [[Control Theory]]
-
-## Planning
-
-
 ## Tools/Practical
 - [[ROS]]
 - [[CMake]]
 - [[Eigen]]
 	- 
 - [[noVNC]]
-
 ## Resources
 - [Modern Robotics – Lynch, Park](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
+- [Visual SLAM Book](https://github.com/gaoxiang12/slambook-en/tree/master)
+- [Lectures on Robotic Planning and Kinematics](https://ece.uwaterloo.ca/~sl2smith/book-lrpk/).
 - [MIT RSS](https://github.com/mit-rss)
-
 ## Projects
 - [[Desktop Bot]]

@@ -23,26 +23,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Dropout.md",
+                "file": "ML/Batch Normalization.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "2da4933cce93bc4d",
+            "id": "fb748376dbbbb62a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Stochastic Gradient Descent.md",
+                "file": "Robotics/Robotics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11b1b8002ff6ac90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Machine Learning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Dropout.md",
+                "file": "Robotics/Robotics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Dropout.md",
+                "file": "Robotics/Robotics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Dropout.md"
+                "file": "Robotics/Robotics.md"
               }
             }
           },
@@ -201,18 +213,26 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71724d1b76a2481f",
+  "active": "fb748376dbbbb62a",
   "lastOpenFiles": [
+    "Robotics/Motion Planning.md",
+    "Robotics/Robotics.md",
+    "Robotics/SLAM.md",
+    "Robotics/Robot Configuration.md",
+    "ML/Batch Normalization.md",
+    "ML/Machine Learning.md",
+    "Robotics/Sensor-based Planning Intro.md",
+    "Robotics/SerMotion Planning Intro.md",
     "ML/Stochastic Gradient Descent.md",
-    "ML/Dropout.md",
+    "Control Theory/Control Theory.md",
     "kai++.md",
-    "ML/weight perturbuation.md",
     "ML/ML Fundamentals.md",
+    "ML/Dropout.md",
     "ML/Weight Perturbation.md",
+    "ML/weight perturbuation.md",
     "ML/Early stopping.md",
     "ML/Weight Decay.md",
     "L2 Penalty.md",
-    "Robotics/Robotics.md",
     "ML/Gradient Descent for Logistic Regression.md",
     "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
     "ML/Ridge Regression.md",
@@ -222,14 +242,6 @@
     "Robotics/Euler Angles.md",
     "Robotics/Quaternion Operations.md",
     "Baymax.md",
-    "CS/C++.md",
-    "CS/C++ Access Specifiers.md",
-    "private/private.md",
-    "Vault Stats.md",
-    "CS/Problems/Trapping Rain Water (LC 42).md",
-    "ML/Negative log-likelihood multi-class.md",
-    "ML/Machine Learning.md",
-    "CS/Computer Science.md",
     "ML/attachments/Momentum (ML).png",
     "ML/attachments/Batch Gradient Descent.png",
     "ML/attachments/Neural Network Training.png",
