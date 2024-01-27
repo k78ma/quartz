@@ -38,6 +38,9 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 - [[Regularization]]
 - [[L1 Regularization]]
 - [[L2 Regularization]]
+- [[Early stopping]]
+- [[Weight Decay]]
+- [[Weight Perturbation]]
 - [[Dropout]]
 - [[Batch Normalization]]
 ### Regression

@@ -23,26 +23,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Adam.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1a64329d9f4da523",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Baymax.md",
+                "file": "ML/Weight Perturbation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baymax.md",
+                "file": "ML/Weight Perturbation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baymax.md",
+                "file": "ML/Weight Perturbation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -157,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baymax.md"
+                "file": "ML/Weight Perturbation.md"
               }
             }
           },
@@ -185,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 207.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -201,12 +189,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1a64329d9f4da523",
+  "active": "bf5a2f1a5a94fe22",
   "lastOpenFiles": [
-    "ML/Adam.md",
-    "Baymax.md",
-    "kai++.md",
     "ML/ML Fundamentals.md",
+    "ML/Weight Perturbation.md",
+    "ML/Early stopping.md",
+    "ML/Weight Decay.md",
+    "L2 Penalty.md",
+    "Robotics/Robotics.md",
+    "ML/Gradient Descent for Logistic Regression.md",
+    "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
+    "ML/Ridge Regression.md",
+    "ML/L2 Regularization.md",
+    "ML/Adam.md",
+    "Robotics/Quaternions.md",
+    "Robotics/Euler Angles.md",
+    "Robotics/Quaternion Operations.md",
+    "kai++.md",
+    "Baymax.md",
     "CS/C++.md",
     "CS/C++ Access Specifiers.md",
     "private/private.md",
@@ -218,19 +218,8 @@
     "ML/Adadelta.md",
     "ML/Momentum (ML).md",
     "ML/Running Averages.md",
-    "ML/Adaptive step-size.md",
-    "Projects.md",
-    "ML/Batch Gradient Descent.md",
     "ML/attachments/Momentum (ML).png",
-    "CS/Data Structures and Algorithms.md",
-    "CS/Algorithmic Efficiency Examples.md",
     "ML/attachments/Batch Gradient Descent.png",
-    "ML/Hinge Loss.md",
-    "ML/MIT 6.036x Problems.md",
-    "ML/Stochastic Gradient Descent.md",
-    "ML/Gradient Descent.md",
-    "ML/1D Gradient Descent.md",
-    "ML/Multiple Dimension Gradient Descent.md",
     "ML/attachments/Neural Network Training.png",
     "ML/attachments/Backpropagation.png",
     "ML/attachments/Hyperbolic Tangent.png",
@@ -238,7 +227,6 @@
     "ML/attachments/Pasted image 20240117133031.png",
     "ML/attachments/Multi-layer Neural Network.png",
     "ML/attachments/Single-layer Neural Network.png",
-    "ML/attachments/Artificial Neuron-1.png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",

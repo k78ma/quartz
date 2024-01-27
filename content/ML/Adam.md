@@ -6,6 +6,8 @@ date: 2024-01-24
 aliases:
 ---
 Adam has become the default method for managing step sizes in neural networks. It combines the ideas of [[Momentum (ML)]] and [[Adadelta|adagrad/adadelta]].
+- Take the average of the gradient
+- Moderate step size based on magnitude of gradient
 
 We start by writing the moving averages of the gradient and squared gradient, which reflect estimates of the mean and variance of the gradient for weight $j$:
 $$
