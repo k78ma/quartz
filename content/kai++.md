@@ -92,7 +92,6 @@ draft: "true"
 
 ## Robotics
 
-- [ ] 2.5 - Affine and Projective Transformation
 - [ ] 2.6 - Practice: Eigen Geometry Module
 - [ ] 2.7 - Visualization Demo
 - [ ] 3.1 - Basics of Lie Group and Lie Algebra
@@ -184,6 +183,7 @@ draft: "true"
 - [ ] W7 - Adam
 - [ ] W7 - Regularization by Weight Decay
 - [ ] W7 - Regularization by Early Stopping and Dropout
+- [ ] 2.5 - Affine and Projective Transformation
 
 %% kanban:settings
 ```

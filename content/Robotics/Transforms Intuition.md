@@ -8,4 +8,4 @@ For robotics, each link, joint, and sensor has its own coordinate system. A vect
 
 ![[Pasted image 20230925201127.png|472]]
 
-The motion between 2 coordinate systems consists of a rotation plus a translation (rigid body motion). During the transformation, the length and angle of vector $p$ will not change, which makes this transformation *[[Euclidean Transforms]]*.
+The motion between 2 coordinate systems consists of a rotation plus a translation (rigid body motion). During the transformation, the length and angle of vector $p$ will not change, which makes this transformation *[[Euclidean Transformation]]*.

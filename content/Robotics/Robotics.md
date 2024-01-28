@@ -10,7 +10,7 @@ aliases:
 
 **Visual SLAM:**   <progress max=356 value=54> </progress> 
 ## Areas
-- [[Robot Configuration]]
+- [[Robot Configuration & Representation]]
 - [[Motion Planning]]
 - [[SLAM]]
 - [[Control Theory]]
@@ -18,7 +18,6 @@ aliases:
 - [[ROS]]
 - [[CMake]]
 - [[Eigen]]
-	- 
 - [[noVNC]]
 ## Resources
 - [Modern Robotics – Lynch, Park](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)

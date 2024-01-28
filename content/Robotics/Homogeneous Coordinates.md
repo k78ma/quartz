@@ -4,7 +4,7 @@ tags:
   - robotics
 date: 2023-09-27
 ---
-The formula $\mathbf{a}'=\mathbf{R}\mathbf{a}+\mathbf{t}$ from [[Euclidean Transforms]] expresses the rotation and translation of Euclidean space, but this form gets messy if you’re doing multiple transforms. For example, two transforms $\mathbf{R}_{1}, \mathbf{t}_{1}$ and $\mathbf{R}_{2}, \mathbf{t}_{2}$ would yield:
+The formula $\mathbf{a}'=\mathbf{R}\mathbf{a}+\mathbf{t}$ from [[Euclidean Transformation]] expresses the rotation and translation of Euclidean space, but this form gets messy if you’re doing multiple transforms. For example, two transforms $\mathbf{R}_{1}, \mathbf{t}_{1}$ and $\mathbf{R}_{2}, \mathbf{t}_{2}$ would yield:
 $$
 \mathbf{b}=\mathbf{R}_{1}\mathbf{a}+\mathbf{t}_{1}, \quad \mathbf{c} = \mathbf{R}_{2}\mathbf{b}+\mathbf{t}_{2}
 $$

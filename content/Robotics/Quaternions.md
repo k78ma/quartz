@@ -4,6 +4,7 @@ tags:
   - robotics
 date: 2024-01-12
 aliases:
+  - quaternions
 ---
 - Rotation matrix: Describes 3 DOF with 9 quantities
 - Euler angles and the rotation vectors: Compact but suffer from the singularity

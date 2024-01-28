@@ -51,7 +51,8 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 - [[Gradient Descent]]
 	- [[1D Gradient Descent]]
 	- [[Multiple Dimension Gradient Descent]]
-	- [[Stochastic Gradient Descent]]
+- [[Stochastic Gradient Descent]]
+- [[Batch Gradient Descent]]
 ### Neural Networks
 - [[Neural Networks]]
 	- [[Artificial Neuron]]
@@ -62,7 +63,6 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 - [[Neural Network Training]]
 - [[Neural Network Weight Initialization]]
 ### Optimizing Neural Network Parameters
-- [[Batch Gradient Descent]]
 - [[Adaptive step-size]]
 	- [[Running Averages]]
 	- [[Momentum (ML)]]

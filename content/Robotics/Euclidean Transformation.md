@@ -1,8 +1,9 @@
 ---
-title: Euclidean Transforms
+title: Euclidean Transformation
 tags:
   - robotics
-date: 2023-09-25
+date: 2024-01-27
+aliases:
 ---
 The Euclidean transform consists of rotation and translation.
 

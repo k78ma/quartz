@@ -3,6 +3,8 @@ title: Rotation Matrix
 tags:
   - robotics
 date: 2023-09-23
+aliases:
+  - rotation matrices
 ---
 The rotation matrix $\mathbf{R}$ between two coordinate systems is defined as:
 $$
