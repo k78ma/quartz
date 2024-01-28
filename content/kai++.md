@@ -7,19 +7,15 @@ draft: "true"
 
 ## Today
 
-- [ ] W7 - Regularization by Batch Normalization
+- [ ] W8 - Introduction to CNNs
+- [ ] W8 - Filters
+- [ ] W8 - Max Pooling
+- [ ] W8 - Typical Architecture
 - [ ] micrograd
 
 
 ## ML
 
-- [ ] W7 Exercises
-- [ ] W7 Lab
-- [ ] W7 Homework
-- [ ] W8 - Introduction to CNNs
-- [ ] W8 - Filters
-- [ ] W8 - Max Pooling
-- [ ] W8 - Typical Architecture
 - [ ] W8 Exercises
 - [ ] W8 Lab
 - [ ] W8 Homework
@@ -184,6 +180,10 @@ draft: "true"
 - [ ] W7 - Regularization by Weight Decay
 - [ ] W7 - Regularization by Early Stopping and Dropout
 - [ ] 2.5 - Affine and Projective Transformation
+- [ ] W7 - Regularization by Batch Normalization
+- [ ] W7 Exercises
+- [ ] W7 Lab
+- [ ] W7 Homework
 
 %% kanban:settings
 ```

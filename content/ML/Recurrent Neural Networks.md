@@ -7,6 +7,8 @@ aliases:
   - RNN
   - RNNs
 ---
+- [[Long Term Short Memory|LSTM]]
+
 Recurrent neural networks have loops in them, allowing information to persist.
 
 ![[Recurrent Neural Networks.png|338]]

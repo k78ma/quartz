@@ -20,8 +20,7 @@ Another nice way of thinking about regularization is that we would like to preve
 
 In the figure below, $h_{1}$ has $0$ training loss but is clearly overfit to the data, while $h_{2}$ misclassifies two points but is far simpler. Since simpler solutions tend to be preferred, we might prefer $h_{2}$ over $h_{1}$, expecting it to perform better on samples drawn from the same distribution. 
 
-
-![[Regularization.png|396]]
+![[Regularization.png|360]]
 
 A common strategy for specifying a regularizer is to use the form:
 $$
@@ -39,12 +38,3 @@ There are two ways in which a hypothesis $h \in \mathcal{H}$ might contribute to
 - **Estimation Error:** This is error that arises because we do not have enough data (or the data are in some way unhelpful) to allow us to choose a good $h ∈ \mathcal{H}$.
 
 When we increase $\lambda$, we tend to increase structural error but decrease estimation error, and vice versa.
-### Regularization methods
-- [[L1 Regularization]]
-- [[L2 Regularization]]
-	- [[Ridge Regression]]
-- [[Early stopping]]
-- [[Weight Decay]]
-- [[Weight Perturbation]]
-- [[Dropout]]
-- [[Batch Normalization]]

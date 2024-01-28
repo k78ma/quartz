@@ -5,7 +5,7 @@ tags:
 date: 2024-01-16
 aliases:
 ---
-- A layer (as described [[Neural Networks#General Definition|here]]) is a set of units that are not connected to each other. 
+- A layer (as described [[Neural Network#General Definition|here]]) is a set of units that are not connected to each other. 
 - A layer is called ***fully connected*** if every neuron in the layer shares the same inputs.
 - A layer has input $x \in \mathbb{R}^{m}$ and output (also known as activation) $a \in \mathbb{R}^{n}$.
 

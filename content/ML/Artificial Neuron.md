@@ -13,7 +13,7 @@ The basic element of a neural network is called a neuron. This is also sometimes
 
 The neuron is essentially a non-linear function of an input vector $x \in \mathbb{R}^{m}$ to a single value $a \in \mathbb{R}$.  It is parametrized by:
 - A vector of *weights* $(w_{1}, \dots, w_{m}) \in \mathbb{R}^{m}$ and an *offset*/*threshold* $w_{0} \in \mathbb{R}$.
-- An [Activation Function](Activation%20Function.md) $f: \mathbb{R} \to \mathbb{R}$, which gives us non-linearity.
+- An [Activation Functions](Activation%20Functions.md) $f: \mathbb{R} \to \mathbb{R}$, which gives us non-linearity.
 
 In total, the function represented by the neuron can be summarized as:
 $$

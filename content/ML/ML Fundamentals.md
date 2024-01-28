@@ -5,9 +5,9 @@ tags:
 date: 2024-01-14
 aliases:
 ---
-Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowledge from the ground up in a Feynman-like way. Notes are mostly from [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/), [Understanding Deep Learning](https://udlbook.github.io/udlbook/) and [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
+Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge from the ground up in a Feynman-like way. Notes are mostly from [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/), [Understanding Deep Learning](https://udlbook.github.io/udlbook/) and [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 
-### Classifiers
+### Classification
 - [[Linear Classifier]]
 	- [[Perceptron|Perceptron]]
 		- [[Averaged Perceptron|Averaged Perceptron]]
@@ -21,7 +21,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
 ### Activation Functions
-- [[Activation Function]]
+- [[Activation Functions]]
 	- [[Sigmoid]]
 	- [[Rectified Linear Unit]]
 	- [[Step function]]
@@ -54,7 +54,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to rebuild my knowled
 - [[Stochastic Gradient Descent]]
 - [[Batch Gradient Descent]]
 ### Neural Networks
-- [[Neural Networks]]
+- [[Neural Network]]
 	- [[Artificial Neuron]]
 	- [[Single-layer Neural Network]]
 	- [[Multi-layer Neural Network]]
