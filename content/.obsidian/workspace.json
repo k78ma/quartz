@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "ML/ML Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "ML/ML Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "ML/ML Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Machine Learning.md"
+                "file": "ML/ML Fundamentals.md"
               }
             }
           },
@@ -223,10 +223,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71724d1b76a2481f",
+  "active": "8585c0c75f95de9a",
   "lastOpenFiles": [
-    "ML/Neural Network.md",
     "ML/Machine Learning.md",
+    "ML/ML Fundamentals.md",
+    "ML/Neural Network.md",
     "ML/Regression.md",
     "ML/Ordinary Least Squares.md",
     "ML/Regularization.md",
@@ -241,7 +242,6 @@
     "ML/Gradient Descent.md",
     "ML/Activation Function.md",
     "ML/Feature Representation.md",
-    "ML/ML Fundamentals.md",
     "ML/Vanishing + Exploding Gradient Problem.md",
     "kai++.md",
     "ML/Feature Engineering.md",
