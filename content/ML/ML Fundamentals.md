@@ -21,7 +21,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
 ### Activation Functions
-- [[Activation Functions]]
+- [[Activation Function]]
 	- [[Sigmoid]]
 	- [[Rectified Linear Unit]]
 	- [[Step function]]
@@ -54,7 +54,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Stochastic Gradient Descent]]
 - [[Batch Gradient Descent]]
 ### Neural Networks
-- [[Neural Network]]
+- [[Neural Networke]]
 	- [[Artificial Neuron]]
 	- [[Single-layer Neural Network]]
 	- [[Multi-layer Neural Network]]
@@ -69,6 +69,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 	- [[Adadelta|Adagrad/Adadelta]]
 	- [[Adam]]
 ### Convolutional Neural Networks
+- [[Convolutional Neural Networks]]
 
 ### Recurrent Networks
 - [[Recurrent Neural Networks]]

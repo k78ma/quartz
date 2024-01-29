@@ -5,4 +5,4 @@ tags:
 date: 2024-01-28
 aliases:
 ---
-Convolutional neural networks 
+Typical [[Neural Networks]] provide a general mapping from an input space to an output space. 

@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Convolutional Neural Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Convolutional Neural Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML Fundamentals.md"
+                "file": "ML/Convolutional Neural Networks.md"
               }
             }
           },
@@ -223,11 +223,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8585c0c75f95de9a",
+  "active": "71724d1b76a2481f",
   "lastOpenFiles": [
-    "ML/Machine Learning.md",
+    "Robotics/Eigen Geometry.md",
+    "ML/Neural Networks.md",
+    "ML/Neural Networke.md",
+    "ML/Convolutional Neural Networks.md",
     "ML/ML Fundamentals.md",
-    "ML/Neural Network.md",
+    "ML/Machine Learning.md",
     "ML/Regression.md",
     "ML/Ordinary Least Squares.md",
     "ML/Regularization.md",
@@ -236,9 +239,7 @@
     "ML/Features.md",
     "ML/Classification.md",
     "ML/Recurrent Neural Networks.md",
-    "ML/Convolutional Neural Networks.md",
     "ML/Optimizing Neural Networks.md",
-    "ML/Neural Networks.md",
     "ML/Gradient Descent.md",
     "ML/Activation Function.md",
     "ML/Feature Representation.md",
@@ -246,7 +247,6 @@
     "kai++.md",
     "ML/Feature Engineering.md",
     "ML/Batch Normalization.md",
-    "Robotics/Eigen Geometry.md",
     "noVNC.md",
     "Robotics/Eigen.md",
     "Robotics/Robotics.md",
