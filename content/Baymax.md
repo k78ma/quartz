@@ -65,5 +65,16 @@ TODO:
 	- [ ] Negative latency?
 - [x] YAML Format
 - [x] Tolerance setting
-- [ ] Blank/repeated messages
+- [x] Blank messages
+- [ ] Repeated messages
 - [x] Publication rate
+- [x] Latency tolerances
+- [x] Distributed diagnostics
+- [ ] Heartbeat status aggregator
+	- [ ] Standard (boolean?) format for status
+- [ ] Failure logging
+- [ ] Check existence of all expected topics
+- [ ] Default to `BaseSensor` for unknown/unspecified sensor type
+- [ ] Unit tests?
+
+For the minimal release/first review, I want this to be in a modular enough state that new types of sensors/nodes can be added easily

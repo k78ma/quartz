@@ -18,36 +18,24 @@
             }
           },
           {
+            "id": "f8a2e0718d00294a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Baymax.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "71724d1b76a2481f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "301aeacf6e8ab6e8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Convolutional Neural Networks.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f2b6cead8be035da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Eigen Geometry.md",
+                "file": "ML/ML Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -139,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Convolutional Neural Networks.md",
+                "file": "Baymax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Convolutional Neural Networks.md",
+                "file": "Baymax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Convolutional Neural Networks.md"
+                "file": "Baymax.md"
               }
             }
           },
@@ -223,14 +211,25 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "71724d1b76a2481f",
+  "active": "8585c0c75f95de9a",
   "lastOpenFiles": [
+    "ML/ML Fundamentals.md",
+    "ML/Convolutional Neural Networks.md",
+    "Baymax.md",
+    "ML/Machine Learning.md",
+    "ML/Reinforcement Learning.md",
+    "RL Conceptual Framework.canvas",
+    "ML/Machine Learning as Optimization.md",
+    "ML/NeRF.md",
+    "Reinforcement Learning.md",
+    "Robotics/Bug 0 Algorithm.md",
+    "Robotics/Motion Planning.md",
+    "ML/attachments/NeRF-1.png",
+    "ML/attachments/NeRF.png",
+    "ML/3D View Synthesis.md",
     "Robotics/Eigen Geometry.md",
     "ML/Neural Networks.md",
     "ML/Neural Networke.md",
-    "ML/Convolutional Neural Networks.md",
-    "ML/ML Fundamentals.md",
-    "ML/Machine Learning.md",
     "ML/Regression.md",
     "ML/Ordinary Least Squares.md",
     "ML/Regularization.md",
@@ -243,14 +242,6 @@
     "ML/Gradient Descent.md",
     "ML/Activation Function.md",
     "ML/Feature Representation.md",
-    "ML/Vanishing + Exploding Gradient Problem.md",
-    "kai++.md",
-    "ML/Feature Engineering.md",
-    "ML/Batch Normalization.md",
-    "noVNC.md",
-    "Robotics/Eigen.md",
-    "Robotics/Robotics.md",
-    "Robotics/ROS.md",
     "Robotics/attachments/Affine and Projective Transformation.png",
     "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
     "ML/attachments/Momentum (ML).png",
@@ -259,15 +250,12 @@
     "ML/attachments/Backpropagation.png",
     "ML/attachments/Hyperbolic Tangent.png",
     "attachments/Step function.png",
-    "ML/attachments/Pasted image 20240117133031.png",
-    "ML/attachments/Multi-layer Neural Network.png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",
     "Thermodynamics",
     "Control Theory",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
-    "Untitled.canvas",
     "ML/attachments/perceptron_through_origin.pdf",
     "ML/attachments/perceptron.pdf",
     "Polymath/Polymath ML Productization.canvas",

@@ -54,7 +54,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Stochastic Gradient Descent]]
 - [[Batch Gradient Descent]]
 ### Neural Networks
-- [[Neural Networke]]
+- [[Neural Networks]]
 	- [[Artificial Neuron]]
 	- [[Single-layer Neural Network]]
 	- [[Multi-layer Neural Network]]
@@ -70,7 +70,9 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 	- [[Adam]]
 ### Convolutional Neural Networks
 - [[Convolutional Neural Networks]]
-
+	- [[Image Filters]]
+	- [[Max Pooling]]
+	- [[CNN Architecture]]
 ### Recurrent Networks
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory|LSTM]]

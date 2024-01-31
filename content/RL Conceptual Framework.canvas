@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"55911cbd681fa7fe","type":"text","text":"#### Policy\nSome function that decides which action to take in a given state.\n$$\na = \\pi(s)\n$$\nThe policy takes Q-values into account. Thus, as our understanding Q-values gets better, so does our policy.","x":293,"y":-420,"width":250,"height":330},
+		{"id":"368f669166720b96","type":"text","text":"#### **Q-Value**: \nCurrent estimate of an **action value** for state $s$ and action $a$.\n- *Action value*: Estimate of total expected return from taking action $a$. Essentially just cumulative future rewards from taking action in $a$ in state $s$, then following a specific policy. ","x":-640,"y":-420,"width":520,"height":220},
+		{"id":"c539b0b69eeab022","type":"text","text":"#### SARSA\n$$Q(s,a) \\leftarrow Q(s,a) + \\alpha [r + \\gamma \\, Q(s',a')- Q(s,a)]$$\n\n#### Q-learning\n$$Q(s,a) \\leftarrow Q(s,a) + \\alpha [r + \\gamma \\, \\text{max}_{a'}(Q(s',a'))- Q(s,a)]$$","x":-600,"y":-140,"width":440,"height":210},
+		{"id":"c9f49973ac5501e8","type":"text","text":"$a'$ is an action chosen by the policy given the current state. ","x":9,"y":-35,"width":356,"height":80},
+		{"id":"e5aaf63e94a362df","type":"text","text":"$r$ is the immediate reward.","x":62,"y":70,"width":250,"height":60},
+		{"id":"b9d4bc0153f8a58e","type":"text","text":"#### Off-policy\nIn Q-Learning, there are two policies. \n- Learned policy (want this to beoptimal)\n- Exploration policy – use this to interact with environment\n\nIn the update equation, the next action $a'$ is chosen by exploration the policy. Then, Q-Learning uses the maximum estimated value for the next state $s'$ over all possible actions to update its learned policy. Thus, it's an off-policy algorithm: it finds the optimal learned policy independently of the agent's current exploration policy or actions.\n\nIn the update formula, $\\text{max}_{a'}(s', a')$ is the highest possible Q-value in the next state $s'$. The agent doesn't need to actually choose or execute action $a'$; it just needs to estimate what the best possible future reward could be.\n","x":-200,"y":205,"width":720,"height":410},
+		{"id":"4c4b2fe290ba4444","type":"text","text":"#### MDPs\n\nMDPs provide the framework in which reinforcement learning problems are defined; they model the environment in which the agent operates. They provide the set of states, actions, rewards (as well as transition functions and discount factors).\n","x":-687,"y":522,"width":454,"height":187},
+		{"id":"2bef8f83c527e185","type":"text","text":"#### On-policy\nIn SARSA, the next action $a'$ is chosen according to the current policy of the agent. Since SARSA is an on-policy algorithm, it updates its action-value function based on the actions actually taken by the policy it's evaluating and improving. The policy used to choose $a$ is typically exploratory, where there is a balance between choosing the best-known action and exploring new actions.\n","x":-640,"y":205,"width":400,"height":290}
+	],
+	"edges":[
+		{"id":"a35b9cb6850bf4c5","fromNode":"368f669166720b96","fromSide":"bottom","toNode":"c539b0b69eeab022","toSide":"top"},
+		{"id":"7828a557c759dc33","fromNode":"55911cbd681fa7fe","fromSide":"bottom","toNode":"c9f49973ac5501e8","toSide":"top"},
+		{"id":"7b2b67dc9574f269","fromNode":"c9f49973ac5501e8","fromSide":"left","toNode":"c539b0b69eeab022","toSide":"right"},
+		{"id":"7c91ef1ba6cb283b","fromNode":"c539b0b69eeab022","fromSide":"bottom","toNode":"2bef8f83c527e185","toSide":"top"},
+		{"id":"a7678c18b1110743","fromNode":"e5aaf63e94a362df","fromSide":"left","toNode":"c539b0b69eeab022","toSide":"right"},
+		{"id":"8d0895eea2ed731b","fromNode":"c539b0b69eeab022","fromSide":"bottom","toNode":"b9d4bc0153f8a58e","toSide":"top"},
+		{"id":"5e56c62b31bf06f0","fromNode":"55911cbd681fa7fe","fromSide":"left","toNode":"368f669166720b96","toSide":"right"}
+	]
+}
