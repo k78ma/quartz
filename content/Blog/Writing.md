@@ -1,16 +1,16 @@
 ---
-title: Blog
+title: Writing
 tags:
   - blog
-date: 2023-12-30
+date: 2024-01-31
 aliases:
-  - Writing
   - writing
+  - blog
 ---
-### Writing
 
 ### Uncollected Thoughts
 - [[Knowledge Entropy?]]
+- [[Being Good At Things, Becoming Good At Things]]
 
 ### Polymath Blogs
 - [[Adding ML to Polymath's Perception System]]

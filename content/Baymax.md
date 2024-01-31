@@ -70,10 +70,9 @@ TODO:
 - [x] Publication rate
 - [x] Latency tolerances
 - [x] Distributed diagnostics
-- [ ] Heartbeat status aggregator
-	- [ ] Standard (boolean?) format for status
+- [x] Heartbeat status aggregator
 - [ ] Failure logging
-- [ ] Check existence of all expected topics
+- [x] Check existence of all expected topics
 - [ ] Default to `BaseSensor` for unknown/unspecified sensor type
 - [ ] Unit tests?
 
