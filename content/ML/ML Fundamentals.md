@@ -70,7 +70,8 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 	- [[Adam]]
 ### Convolutional Neural Networks
 - [[Convolutional Neural Networks]]
-	- [[Image Filters]]
+	- [[Convolution Filter]]
+	- [[2D Convolutions]]
 	- [[Max Pooling]]
 	- [[CNN Architecture]]
 ### Recurrent Networks

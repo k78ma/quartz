@@ -7,3 +7,4 @@ aliases:
 ---
 - [[NeRF]]
 - [[EmerNeRF]]
+- [[Instant NGP]]

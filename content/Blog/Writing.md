@@ -10,7 +10,7 @@ aliases:
 
 ### Uncollected Thoughts
 - [[Knowledge Entropy?]]
-- [[Being Good At Things, Becoming Good At Things]]
+- [[Becoming Good At Things]]
 
 ### Polymath Blogs
 - [[Adding ML to Polymath's Perception System]]
