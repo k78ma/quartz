@@ -1,8 +1,8 @@
 ---
-title: Convolution Filters
+title: 2D Convolutions
 tags:
   - ml
-date: 2024-01-31
+date: 2024-02-02
 aliases:
 ---
 2D convolutions are the most common due to their application in images; they are an element-wise multiplication and summation. For example, for the convolution in the diagram below, we have:
