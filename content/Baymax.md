@@ -60,6 +60,13 @@ source /opt/ros/humble/setup.bash
 ros2 topic list
 ```
 
+Lifecycle node commands:
+```
+ros2 lifecycle set /baymax_node configure
+ros2 lifecycle set /baymax_node activate
+ros2 lifecycle set /baymax_node deactivate
+ros2 lifecycle set /baymax_node cleanup
+```
 TODO:
 - [x] Latency 6 million seconds fix
 	- [ ] Negative latency?

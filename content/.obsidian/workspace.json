@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "1463473d4a082903",
+            "id": "42d0f95b9c0d9755",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -235,18 +235,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1463473d4a082903",
+  "active": "42d0f95b9c0d9755",
   "lastOpenFiles": [
+    "Baymax.md",
     "ML/Convolution Filter.md",
+    "Blog/Becoming Good At Things.md",
     "ML/ML Fundamentals.md",
     "ML/2D Convolutions.md",
     "ML/attachments/Convolution Filters-1.png",
     "ML/attachments/Convolution Filters.png",
     "ML/3D View Synthesis.md",
     "ML/EmerNeRF.md",
-    "Blog/Becoming Good At Things.md",
     "Blog/Writing.md",
-    "Baymax.md",
     "ML/Machine Learning.md",
     "ML/Convolutional Neural Networks.md",
     "ML/Reinforcement Learning.md",
