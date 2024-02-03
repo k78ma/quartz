@@ -42,12 +42,12 @@
             }
           },
           {
-            "id": "0179919bb2af6cf4",
+            "id": "5b25a18fd11c8ecd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Convolution Layer.md",
+                "file": "index.md",
                 "mode": "source",
                 "source": false
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Convolution Layer.md",
+                "file": "index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Convolution Layer.md",
+                "file": "index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Convolution Layer.md"
+                "file": "index.md"
               }
             }
           },
@@ -222,9 +222,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0179919bb2af6cf4",
+  "active": "5b25a18fd11c8ecd",
   "lastOpenFiles": [
+    "index.md",
     "ML/ML Fundamentals.md",
+    "Blog/Adding ML to Polymath's Perception System.md",
+    "Blog/Writing.md",
+    "Blog/Becoming Good At Things.md",
+    "2B/2B.md",
     "ML/Convolution Layer.md",
     "Baymax.md",
     "ML/Image Filter Bank.md",
@@ -238,12 +243,10 @@
     "ML/Step function.md",
     "ML/Convolution Filter.md",
     "ML/attachments/Convolution Filter.png",
-    "Blog/Becoming Good At Things.md",
     "ML/attachments/Convolution Filters-1.png",
     "ML/attachments/Convolution Filters.png",
     "ML/3D View Synthesis.md",
     "ML/EmerNeRF.md",
-    "Blog/Writing.md",
     "ML/Convolutional Neural Networks.md",
     "ML/Reinforcement Learning.md",
     "RL Conceptual Framework.canvas",
@@ -255,9 +258,6 @@
     "ML/attachments/NeRF-1.png",
     "ML/attachments/NeRF.png",
     "Robotics/Eigen Geometry.md",
-    "ML/Neural Networks.md",
-    "ML/Neural Networke.md",
-    "ML/Regression.md",
     "Robotics/attachments/Affine and Projective Transformation.png",
     "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
     "ML/attachments/Momentum (ML).png",

@@ -2,7 +2,7 @@
 title: Adding ML to Polymath's Perception System
 tags:
   - polymath
-  - blog
+  - writing
 date: 2023-10-15
 ---
 Hello, I’m Kai Ma. I interned as a Robotics Engineering Intern at Polymath Robotics this summer, focusing on machine learning. Here, I’ll share one of my projects – making Polymath’s perception system a bit more intelligent.

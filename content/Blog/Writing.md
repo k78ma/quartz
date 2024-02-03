@@ -1,7 +1,7 @@
 ---
 title: Writing
 tags:
-  - blog
+  - writing
 date: 2024-01-31
 aliases:
   - writing
