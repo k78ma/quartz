@@ -1,7 +1,7 @@
 ---
-title: Books
+title: Things I Want
 tags: 
-date: 2023-12-29
+date: 2024-02-02
 aliases: 
 draft: "true"
 ---
@@ -9,3 +9,6 @@ Books I would like to own a physical copy of (once I settle somewhere permanentl
 - Feynman Lectures on Physics
 - Proofs (Jay Cummings)
 - Understanding Deep Learning (Simon J.D. Prince)
+
+Stuff:
+- Telescope of decent quality

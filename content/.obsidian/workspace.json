@@ -30,18 +30,6 @@
             }
           },
           {
-            "id": "8bfa1fc15ee7f3cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/2D Convolutions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "42d0f95b9c0d9755",
             "type": "leaf",
             "state": {
@@ -52,9 +40,20 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e17a655dd60718e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Things I Want.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,13 +108,11 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -139,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/2D Convolutions.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/2D Convolutions.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -179,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/2D Convolutions.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -223,19 +220,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8bfa1fc15ee7f3cc",
+  "active": "81bac0290afc36d3",
   "lastOpenFiles": [
+    "Things I Want.md",
+    "kai++.md",
+    "ML/Step function.md",
+    "ML/Convolution Filter.md",
+    "ML/attachments/Convolution Filter.png",
+    "ML/ML Fundamentals.md",
+    "ML/Tensor.md",
+    "ML/Machine Learning.md",
     "Blog/Becoming Good At Things.md",
     "ML/2D Convolutions.md",
-    "ML/ML Fundamentals.md",
-    "ML/Convolution Filter.md",
     "Baymax.md",
     "ML/attachments/Convolution Filters-1.png",
     "ML/attachments/Convolution Filters.png",
     "ML/3D View Synthesis.md",
     "ML/EmerNeRF.md",
     "Blog/Writing.md",
-    "ML/Machine Learning.md",
     "ML/Convolutional Neural Networks.md",
     "ML/Reinforcement Learning.md",
     "RL Conceptual Framework.canvas",
@@ -252,16 +254,11 @@
     "ML/Regression.md",
     "ML/Ordinary Least Squares.md",
     "ML/Regularization.md",
-    "ML/Loss Functions.md",
-    "ML/Activation Functions.md",
-    "ML/Features.md",
-    "ML/Classification.md",
     "Robotics/attachments/Affine and Projective Transformation.png",
     "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
     "ML/attachments/Momentum (ML).png",
     "ML/attachments/Batch Gradient Descent.png",
     "ML/attachments/Neural Network Training.png",
-    "ML/attachments/Backpropagation.png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",
