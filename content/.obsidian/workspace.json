@@ -30,30 +30,31 @@
             }
           },
           {
-            "id": "42d0f95b9c0d9755",
+            "id": "0240646a7b88c59d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Becoming Good At Things.md",
+                "file": "ML/ML Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "3e17a655dd60718e",
+            "id": "0179919bb2af6cf4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Things I Want.md",
+                "file": "ML/Convolution Layer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -112,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -136,7 +138,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kai++.md",
+                "file": "ML/Convolution Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +155,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kai++.md",
+                "file": "ML/Convolution Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -176,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kai++.md"
+                "file": "ML/Convolution Layer.md"
               }
             }
           },
@@ -220,19 +222,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "81bac0290afc36d3",
+  "active": "0179919bb2af6cf4",
   "lastOpenFiles": [
-    "Things I Want.md",
+    "ML/ML Fundamentals.md",
+    "ML/Convolution Layer.md",
+    "Baymax.md",
+    "ML/Image Filter Bank.md",
+    "ML/2D Convolution Operation.md",
+    "ML/attachments/Image Filter Bank-1.png",
+    "ML/Tensor.md",
+    "ML/attachments/Image Filter Bank.png",
+    "ML/Machine Learning.md",
     "kai++.md",
+    "Things I Want.md",
     "ML/Step function.md",
     "ML/Convolution Filter.md",
     "ML/attachments/Convolution Filter.png",
-    "ML/ML Fundamentals.md",
-    "ML/Tensor.md",
-    "ML/Machine Learning.md",
     "Blog/Becoming Good At Things.md",
-    "ML/2D Convolutions.md",
-    "Baymax.md",
     "ML/attachments/Convolution Filters-1.png",
     "ML/attachments/Convolution Filters.png",
     "ML/3D View Synthesis.md",
@@ -252,13 +258,9 @@
     "ML/Neural Networks.md",
     "ML/Neural Networke.md",
     "ML/Regression.md",
-    "ML/Ordinary Least Squares.md",
-    "ML/Regularization.md",
     "Robotics/attachments/Affine and Projective Transformation.png",
     "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
     "ML/attachments/Momentum (ML).png",
-    "ML/attachments/Batch Gradient Descent.png",
-    "ML/attachments/Neural Network Training.png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",

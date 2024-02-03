@@ -1,5 +1,5 @@
 ---
-title: 2D Convolutions
+title: 2D Convolution Operation
 tags:
   - ml
 date: 2024-02-02

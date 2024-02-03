@@ -4,6 +4,8 @@ tags:
   - ml
 date: 2024-02-02
 aliases:
+  - tensor
+  - tensors
 ---
 Tensors are algebraic objects describes a multilinear relationship between sets of algebraic objects related to a vector space.
 
