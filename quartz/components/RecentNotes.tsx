@@ -5,6 +5,7 @@ import { byDateAndAlphabetical } from "./PageList"
 import style from "./styles/recentNotes.scss"
 import { Date, getDate } from "./Date"
 import { GlobalConfiguration } from "../cfg"
+import { classNames } from "../util/lang"
 
 interface Options {
   title: string
@@ -23,13 +24,12 @@ const defaultOptions = (cfg: GlobalConfiguration): Options => ({
 })
 
 export default ((userOpts?: Partial<Options>) => {
-  function RecentNotes(props: QuartzComponentProps) {
-    const { allFiles, fileData, displayClass, cfg } = props
+  function RecentNotes({ allFiles, fileData, displayClass, cfg }: QuartzComponentProps) {
     const opts = { ...defaultOptions(cfg), ...userOpts }
     const pages = allFiles.filter(opts.filter).sort(opts.sort)
     const remaining = Math.max(0, pages.length - opts.limit)
     return (
-      <div class={`recent-notes ${displayClass}`}>
+      <div class={classNames(displayClass, "recent-notes")}>
         <h3>{opts.title}</h3>
         <ul class="recent-ul">
           {pages.slice(0, opts.limit).map((page) => {
@@ -48,7 +48,7 @@ export default ((userOpts?: Partial<Options>) => {
                   </div>
                   {page.dates && (
                     <p class="meta">
-                      <Date date={getDate(cfg, page)!} />
+                      <Date date={getDate(cfg, page)!} locale={cfg.locale} />
                     </p>
                   )}
                   <ul class="tags">

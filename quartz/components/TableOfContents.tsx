@@ -1,6 +1,7 @@
 import { QuartzComponentConstructor, QuartzComponentProps } from "./types"
 import legacyStyle from "./styles/legacyToc.scss"
 import modernStyle from "./styles/toc.scss"
+import { classNames } from "../util/lang"
 
 // @ts-ignore
 import script from "./scripts/toc.inline"
@@ -19,8 +20,8 @@ function TableOfContents({ fileData, displayClass }: QuartzComponentProps) {
   }
 
   return (
-    <div class={`toc ${displayClass}`}>
-      <button type="button" id="toc">
+    <div class={classNames(displayClass, "toc")}>
+      <button type="button" id="toc" class={fileData.collapseToc ? "collapsed" : ""}>
         <h3>Table of Contents</h3>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +61,7 @@ function LegacyTableOfContents({ fileData }: QuartzComponentProps) {
   }
 
   return (
-    <details id="toc" open>
+    <details id="toc" open={!fileData.collapseToc}>
       <summary>
         <h3>Table of Contents</h3>
       </summary>

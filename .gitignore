@@ -7,3 +7,5 @@ tsconfig.tsbuildinfo
 .quartz-cache
 private/
 Private/
+.replit
+replit.nix
