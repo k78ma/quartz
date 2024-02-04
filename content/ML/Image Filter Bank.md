@@ -18,3 +18,5 @@ A more concrete (but still simple) example with an $6 \times 6$ image
 - We can then apply a $3 \times 3 \times 2$ tensor filter that "looks for" a combination of two horizontal and two vertical bars, now represented by individual pixels in the two channels.
 
 ![[Image Filter Bank-1.png]]
+
+Filter banks are often structured into a pyramid, in which the images get smaller in successive layers of processing. The idea is that we can find local patterns, like bits of edges in early layers, and then look for patterns in those patterns, etc. This means that, effectively, we are looking for patterns in larger pieces of the image as we apply successive filters. Having a stride greater than one makes the images smaller, but does not necessarily aggregate information over that spatial range.

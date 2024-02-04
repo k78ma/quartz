@@ -7,8 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] W8 - Introduction to CNNs
-- [ ] W8 - Filters
 - [ ] W8 - Max Pooling
 - [ ] W8 - Typical Architecture
 - [ ] micrograd
@@ -184,6 +182,8 @@ draft: "true"
 - [ ] W7 Exercises
 - [ ] W7 Lab
 - [ ] W7 Homework
+- [ ] W8 - Introduction to CNNs
+- [ ] W8 - Filters
 
 %% kanban:settings
 ```

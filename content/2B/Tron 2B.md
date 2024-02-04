@@ -5,14 +5,14 @@ tags:
 date: 2023-12-18
 aliases:
 ---
-### Course Notes
+## Course Notes
 - [[MTE 203 - Advanced Calculus|MTE 203 - Advanced Calculus]]
 - [[MTE 204 - Numerical Methods|MTE 204 - Numerical Methods]]
 - [[MTE 220 - Sensors and Instrumentation|MTE 220 - Sensors and Instrumentation]]
 - [[MTE 241 - Computer Structures & Real-Time Systems|MTE 241 - Computer Structures & Real-Time Systems]]
 - [[SYDE 252 - Signals and Systems|SYDE 252 - Signals and Systems]]
 
-### Thoughts
+## Thoughts
 Some of my opinions on the courses and profs. 
 #### MTE 203
 Final Grade: 90

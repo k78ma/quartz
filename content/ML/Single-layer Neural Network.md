@@ -4,6 +4,8 @@ tags:
   - ml
 date: 2024-01-16
 aliases:
+  - fully-connected layer
+  - FC layer
 ---
 - A layer (as described [[Neural Networke#General Definition|here]]) is a set of units that are not connected to each other. 
 - A layer is called ***fully connected*** if every neuron in the layer shares the same inputs.

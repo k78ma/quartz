@@ -18,43 +18,31 @@
             }
           },
           {
-            "id": "f8a2e0718d00294a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Baymax.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0240646a7b88c59d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/CNN Architecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5b25a18fd11c8ecd",
+            "id": "c35474d3451d3aaf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "index.md",
+                "file": "ML/Convolution Layer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,6 +96,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "38d16339e819e150",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
           }
         ]
       }
@@ -125,7 +128,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8585c0c75f95de9a",
+            "id": "2aa74ef3e4ecbed5",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -138,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "index.md",
+                "file": "ML/CNN Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -155,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "index.md",
+                "file": "ML/CNN Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -178,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "index.md"
+                "file": "ML/CNN Architecture.md"
               }
             }
           },
@@ -206,7 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 310.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,23 +225,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b25a18fd11c8ecd",
+  "active": "0240646a7b88c59d",
   "lastOpenFiles": [
-    "index.md",
+    "ML/attachments/CNN Architecture-1.png",
+    "ML/Convolution Layer.md",
+    "ML/Single-layer Neural Network.md",
+    "ML/CNN Architecture.md",
     "ML/ML Fundamentals.md",
+    "ML/attachments/CNN Architecture.png",
+    "ML/Max Pooling.md",
+    "kai++.md",
+    "ML/Image Filter Bank.md",
+    "Baymax.md",
+    "2B/Tron 2B.md",
+    "index.md",
     "Blog/Adding ML to Polymath's Perception System.md",
     "Blog/Writing.md",
     "Blog/Becoming Good At Things.md",
     "2B/2B.md",
-    "ML/Convolution Layer.md",
-    "Baymax.md",
-    "ML/Image Filter Bank.md",
     "ML/2D Convolution Operation.md",
     "ML/attachments/Image Filter Bank-1.png",
     "ML/Tensor.md",
     "ML/attachments/Image Filter Bank.png",
     "ML/Machine Learning.md",
-    "kai++.md",
     "Things I Want.md",
     "ML/Step function.md",
     "ML/Convolution Filter.md",
@@ -251,16 +260,10 @@
     "ML/Reinforcement Learning.md",
     "RL Conceptual Framework.canvas",
     "ML/Machine Learning as Optimization.md",
-    "ML/NeRF.md",
-    "Reinforcement Learning.md",
-    "Robotics/Bug 0 Algorithm.md",
-    "Robotics/Motion Planning.md",
     "ML/attachments/NeRF-1.png",
     "ML/attachments/NeRF.png",
-    "Robotics/Eigen Geometry.md",
     "Robotics/attachments/Affine and Projective Transformation.png",
     "2B/MTE 204/attachments/Numerical Differentiation for 2nd Derivative-1.png",
-    "ML/attachments/Momentum (ML).png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",

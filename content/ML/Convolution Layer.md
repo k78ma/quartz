@@ -4,6 +4,8 @@ tags:
   - ml
 date: 2024-02-03
 aliases:
+  - filter layer
+  - conv
 ---
 Convolution layers perform the operation of a [[Convolution Filter]]. The goal is to have each bank of an [[Image Filter Bank]] to correspond to a single neural network layer. The values in the filters/kernels are the weights in this case (plus an offset bias for each filter); these weights can then be trained with [[Gradient Descent]].
 
