@@ -23,6 +23,42 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "ML/Convolutional Neural Networks.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3caab907ae49e2ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/3D View Synthesis.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3f2204edb2390fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Baymax.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "03ac4a53f999a3fa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "ML/ML Fundamentals.md",
                 "mode": "source",
                 "source": false
@@ -30,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -213,9 +249,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c35474d3451d3aaf",
+  "active": "03ac4a53f999a3fa",
   "lastOpenFiles": [
+    "ML/Max Pooling.md",
+    "ML/attachments/Max Pooling.png",
+    "ML/3D View Synthesis.md",
     "ML/ML Fundamentals.md",
+    "Baymax.md",
+    "ML/Convolutional Neural Networks.md",
+    "ML/Machine Learning.md",
     "Blog/Pattern Recognition Monkey.md",
     "Blog/Writing.md",
     "Blog/Becoming Good At Things.md",
@@ -225,9 +267,7 @@
     "ML/attachments/CNN Architecture-1.png",
     "ML/Single-layer Neural Network.md",
     "ML/attachments/CNN Architecture.png",
-    "ML/Max Pooling.md",
     "ML/Image Filter Bank.md",
-    "Baymax.md",
     "2B/Tron 2B.md",
     "index.md",
     "Blog/Adding ML to Polymath's Perception System.md",
@@ -236,22 +276,17 @@
     "ML/attachments/Image Filter Bank-1.png",
     "ML/Tensor.md",
     "ML/attachments/Image Filter Bank.png",
-    "ML/Machine Learning.md",
     "Things I Want.md",
     "ML/Step function.md",
     "ML/Convolution Filter.md",
     "ML/attachments/Convolution Filter.png",
     "ML/attachments/Convolution Filters-1.png",
     "ML/attachments/Convolution Filters.png",
-    "ML/3D View Synthesis.md",
     "ML/EmerNeRF.md",
-    "ML/Convolutional Neural Networks.md",
     "ML/Reinforcement Learning.md",
     "RL Conceptual Framework.canvas",
-    "ML/Machine Learning as Optimization.md",
     "ML/attachments/NeRF-1.png",
     "ML/attachments/NeRF.png",
-    "Robotics/attachments/Affine and Projective Transformation.png",
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",

@@ -8,3 +8,5 @@ aliases:
 - [[NeRF]]
 - [[EmerNeRF]]
 - [[Instant NGP]]
+- [[FeatureNeRF]]
+- [[Polynomial Neural Fields]]
