@@ -77,6 +77,9 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]
+### Sequential Models
+- 
+
 ### Recurrent Networks
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory|LSTM]]

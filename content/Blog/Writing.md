@@ -11,6 +11,7 @@ aliases:
 ### Uncollected Thoughts
 - [[Knowledge Entropy?]]
 - [[Becoming Good At Things]]
+- [[Pattern Recognition Monkey]]
 
 ### Polymath Blogs
 - [[Adding ML to Polymath's Perception System]]
