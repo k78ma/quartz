@@ -56,7 +56,7 @@ There are several different 2nd-order RK methods with different $a_{2}$ values.
 >$$
 >y_{i+1}=y_{i}+f(x_{i},y_{i})h + \frac{f'(x_{i}, y_{i})}{2!}h^{2}
 >$$
->where $f′(x_{i}, y_{i})$ must be determined by chain-rule differentiation.
+>where $f'(x_{i}, y_{i})$ must be determined by chain-rule differentiation.
 >Solving this gives:
 >$$
 >\begin{align}

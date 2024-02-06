@@ -18,7 +18,7 @@ The simplest say to send a signal is as a ground-referenced voltage, $v_{s}$, ca
 #### Differential Signalling
 ![[Single-Ended and Differential Signaling'.png|468]]
 
-Sending $v_{s}$ as a differential signal dramatically improves the ability to reject noise. The signal is sent as positive and negative halves, $+v_{s}/2$ and $–v_{s}/2$, called differential signalling. 
+Sending $v_{s}$ as a differential signal dramatically improves the ability to reject noise. The signal is sent as positive and negative halves, $+v_{s}/2$ and $-v_{s}/2$, called differential signalling. 
 - The two conductors that carry the signal are kept very close together, sometimes twisted around one another, so they experience nearly the same noise, $v_{n}$. 
 - The noise is called common-mode noise since it is common to both signals. The two signals are subtracted on the receiver side, restoring vs to its total value and eliminating $v_{n}$.
 

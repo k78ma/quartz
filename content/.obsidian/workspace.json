@@ -18,55 +18,79 @@
             }
           },
           {
-            "id": "bfa2da6bb7e87807",
+            "id": "9c162d213014ea99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/CNN Architecture.md",
+                "file": "ML/ML Fundamentals.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "3caab907ae49e2ad",
+            "id": "60c5c37a7fca33bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "Baymax.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "03ac4a53f999a3fa",
+            "id": "13ee7d9cd762f0ed",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Batch Normalization.md",
+                "file": "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
           {
-            "id": "70aab79551f7b3f1",
+            "id": "0439b18935505458",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog/Writing.md",
+                "file": "Robotics/Robot Configuration & Representation.md",
                 "mode": "source",
-                "source": false
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "368d431b01cc2377",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Robot Configuration + Motion/Grubler’s Formula.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "dc13082599e02883",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Transform Matrix.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -97,7 +121,7 @@
               "state": {
                 "file": "ML/Machine Learning.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -117,7 +141,7 @@
               "state": {
                 "file": "ML/Machine Learning.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -165,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Batch Normalization.md",
+                "file": "Robotics/Transform Matrix.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Batch Normalization.md",
+                "file": "Robotics/Transform Matrix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Batch Normalization.md"
+                "file": "Robotics/Transform Matrix.md"
               }
             }
           },
@@ -249,23 +273,32 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "03ac4a53f999a3fa",
+  "active": "dc13082599e02883",
   "lastOpenFiles": [
-    "ML/ML Fundamentals.md",
-    "ML/Convolution Layer.md",
-    "Blog/Writing.md",
+    "Robotics/Robot Configuration + Motion/Grubler’s Formula.md",
+    "Robotics/Rotation Matrix.md",
+    "2B/SYDE 252/Unit step.md",
+    "Robotics/Robot Configuration & Representation.md",
+    "2B/MTE 204/Newton-Raphson Method.md",
+    "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
+    "2B/MTE 203/Suggested Problems.md",
+    "Calculus/Quadric Surfaces.md",
     "ML/Batch Normalization.md",
+    "Baymax.md",
+    "ML/ML Fundamentals.md",
+    "kai++.md",
+    "Blog/Writing.md",
+    "ML/CNN Architecture.md",
+    "ML/Machine Learning.md",
+    "Robotics/Points, Vectors, Coordinate Systems.md",
+    "ML/Convolution Layer.md",
     "ML/Convolutional Neural Networks.md",
     "Blog/Pattern Recognition Monkey.md",
     "Blog/attachments/Pattern Recognition Monkey.png",
     "Blog/Becoming Good At Things.md",
     "Blog/attachments/Becoming Good At Things.png",
     "Blog/attachments",
-    "ML/Machine Learning.md",
     "ML/3D View Synthesis.md",
-    "Baymax.md",
-    "ML/CNN Architecture.md",
-    "kai++.md",
     "ML/Max Pooling.md",
     "ML/Single-layer Neural Network.md",
     "ML/attachments/Max Pooling.png",
@@ -274,20 +307,11 @@
     "ML/Image Filter Bank.md",
     "2B/Tron 2B.md",
     "index.md",
-    "Blog/Adding ML to Polymath's Perception System.md",
-    "2B/2B.md",
-    "ML/2D Convolution Operation.md",
     "ML/attachments/Image Filter Bank-1.png",
-    "ML/Tensor.md",
     "ML/attachments/Image Filter Bank.png",
-    "Things I Want.md",
-    "ML/Step function.md",
-    "ML/Convolution Filter.md",
     "ML/attachments/Convolution Filter.png",
     "ML/attachments/Convolution Filters-1.png",
     "ML/attachments/Convolution Filters.png",
-    "ML/EmerNeRF.md",
-    "ML/Reinforcement Learning.md",
     "RL Conceptual Framework.canvas",
     "Robotics/slambook-en.pdf",
     "Physics",

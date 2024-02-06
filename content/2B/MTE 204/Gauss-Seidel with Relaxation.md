@@ -37,9 +37,9 @@ $$
 #### Parameter Settings
 There are some cases for parameter settings:
 
-- $\omega = 1.0$ – This is Gauss-Seidel, no relaxation
-- $\omega < 1.0$ – Under-relaxation, slows convergence and controls divergence
-- $\omega > 1.0$ – Over-relaxation, speeds convergence
+- $\omega = 1.0$ - This is Gauss-Seidel, no relaxation
+- $\omega < 1.0$ - Under-relaxation, slows convergence and controls divergence
+- $\omega > 1.0$ - Over-relaxation, speeds convergence
 	- Can become divergent when $\omega  > 2$ or close to $2$
 
 The idea is that the new value is found by moving in the direction of $x$. The relaxation parameter controls the step that you take toward this.

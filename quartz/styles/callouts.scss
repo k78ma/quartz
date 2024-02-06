@@ -35,6 +35,13 @@
     --bg: #448aff10;
   }
 
+  &[data-callout="note"] {
+    --color: #9422b7;
+    --border: #8d2f8c44;
+    --bg: #5f237035;
+    --callout-icon: var(--callout-icon-note);
+  }
+
   &[data-callout="proof"] {
     --color: #3c8b40;
     --border: #448aff44;

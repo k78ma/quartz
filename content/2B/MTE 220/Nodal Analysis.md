@@ -16,8 +16,8 @@ Steps:
 
 $$
 \begin{align}
-\text{Node A: } \quad  0 &= \frac{V_{A}-5}{0.5} + \frac{V_{A}-0}{4} + \frac{V_{A}-V_{B}}{2} \\ \\
-\text{Node B: } \quad 0 &= \frac{V_{B}-V_{A}}{2}+\frac{V_{B}-0}{2} \\ \\
+\text{Node A: } \quad  0 &= \frac{V_{A}-5}{0.5} + \frac{V_{A}-0}{4} + \frac{V_{A}-V_{B}}{2} \\[2ex]
+\text{Node B: } \quad 0 &= \frac{V_{B}-V_{A}}{2}+\frac{V_{B}-0}{2} \\[2ex]
 \text{Solve: } \quad V_{A} &= 2, V_{B} = 2
 \end{align}
 $$

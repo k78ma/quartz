@@ -51,7 +51,7 @@ Here's an example of how this works:
 >Finding the arc length function: 
 >$$
 >\begin{align}
->\mid \mid \vec{r}(t) \mid \mid &= \sqrt{ 4 + 36\cos ^{2}(2t) + 36\sin ^{2}(2t) } = \sqrt{ 4+36 } = 2\sqrt{ 10 } \\ \\  \\
+>\mid \mid \vec{r}(t) \mid \mid &= \sqrt{ 4 + 36\cos ^{2}(2t) + 36\sin ^{2}(2t) } = \sqrt{ 4+36 } = 2\sqrt{ 10 } \\[2ex]
 > s(t) &= \int_{0}^{t} 2\sqrt{ 10 } \, du = (2\sqrt{ 10 }u \Big|_0) = 2\sqrt{ 10 }t 
 >\end{align}
 >$$

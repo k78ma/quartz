@@ -11,7 +11,7 @@ Formula for determining the number of [[Degrees of Freedom|Degrees of Freedom]] 
 >Consider a mechanism consisting of $N$ links, where ground is also considered as a link. Let $J$ be the number of joints, $m$ be the number of degrees of freedom of a rigid body ($m = 3$ for planar mechanism, $m=6$ for spatial mechanisms). Let $f_{i}$ be the number of freedoms provided by joint $i$, and $c_{i}$ be the number of constraints provided by $i$ .where $f_{i} + c_{i} = m$ for all $i$.
 >Then, Grubler's formula for the number of degrees of freedom of the robot is:
 >$$
->\begin{align} \\
+>\begin{align}
 >\text{dof} &= \underbrace{ m(N-1) }_{ \text{rigid body freedoms} } - \underbrace{ \sum_{i=1}^{J}c_{i} }_{ \text{constraints} } \\
 >&= m(N-1)-\sum_{i=1}^J(m-f_{i}) \\
 >&\boxed{=m(N-1-J)+\sum_{i=1}^{J} f_{i}} \\ \\

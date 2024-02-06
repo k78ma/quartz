@@ -30,7 +30,7 @@ Looking at the triangle above from the front:
 
 Thus we have: 
 $$
-\begin{align} \\
+\begin{align}
 r &= \rho \sin \phi \\
 \theta &= \theta \\
 z &= \rho \cos \phi 

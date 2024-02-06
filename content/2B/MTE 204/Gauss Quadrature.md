@@ -8,7 +8,7 @@ aliases:
 ---
 Gauss Quadrature (also known as Gauss-Legendre) employs values positioned between the evaluation/measured points to achieve an improved estimate of the integral. If we can ‘balance’ the positive and negative errors between the straight line approximation and the curve, we can achieve a better estimate of the integral.  
 
-Provides exact values of integrals for polynomials up to degree $2n – 1$ 
+Provides exact values of integrals for polynomials up to degree $2n - 1$ 
 (for n points). For example, 2 data points would be accurate for a polynomial up to degree $3$.
 
 ### Two-Point Gauss-Legendre Formula

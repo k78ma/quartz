@@ -38,7 +38,7 @@ System:
 $$
 \begin{align}
 y(t) = t^{2}x(t) \\
-x(t) = u(t) \\[3ex] \\
+x(t) = u(t) \\[3ex]
 \end{align}
 $$
 Thus
