@@ -4,7 +4,7 @@
   "alwaysUpdateLinks": true,
   "newFileLocation": "current",
   "attachmentFolderPath": "./attachments",
-  "livePreview": false,
+  "livePreview": true,
   "autoPairBrackets": true,
   "pdfExportSettings": {
     "includeName": false,
