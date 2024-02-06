@@ -29,3 +29,5 @@ In the same vein, what contributes to
 In Takehiko Inoue's manga *Vagabond*, the protagonist Musashi Miyamoto is single-mindedly driven by his desire to become strong. Not just strong, but the strongest – "Invincible under the Heavens" (天下無雙). Eventually, Musashi realizes that being the strongest is simply an empty title. When asked what it's like to be invincible by another swordsman, Musashi compared it to a mirage; you can see it so clearly from afar, but it fades when you get close.
 
 My interpretation of this is that becoming good at something – in Musashi's case, the way of the sword – should not be an end in and of itself. Wanting to be good at something simply for the sake of being good at it will often lead to a sense of emptiness; why did I do this in the first place? I've found that it's more sustainable to have an external reason for becoming better at something, or have a particular goal in mind; it's also easier to set concrete goals for yourself along the way.
+
+It's also crucial to enjoy the process. 

@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "c35474d3451d3aaf",
+            "id": "bfa2da6bb7e87807",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Convolutional Neural Networks.md",
+                "file": "ML/CNN Architecture.md",
                 "mode": "source",
                 "source": false
               }
@@ -59,14 +59,38 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Convolution Layer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b09eab05c8aea247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog/Pattern Recognition Monkey.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "70aab79551f7b3f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Blog/Becoming Good At Things.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -165,7 +189,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/CNN Architecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -182,7 +206,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/CNN Architecture.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -205,7 +229,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML Fundamentals.md"
+                "file": "ML/CNN Architecture.md"
               }
             }
           },
@@ -249,23 +273,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "03ac4a53f999a3fa",
+  "active": "2aa74ef3e4ecbed5",
   "lastOpenFiles": [
+    "Blog/Becoming Good At Things.md",
+    "Blog/Writing.md",
+    "Blog/Pattern Recognition Monkey.md",
+    "Baymax.md",
+    "ML/Convolution Layer.md",
+    "kai++.md",
+    "ML/ML Fundamentals.md",
     "ML/Max Pooling.md",
+    "ML/Single-layer Neural Network.md",
+    "ML/CNN Architecture.md",
+    "ML/Convolutional Neural Networks.md",
     "ML/attachments/Max Pooling.png",
     "ML/3D View Synthesis.md",
-    "ML/ML Fundamentals.md",
-    "Baymax.md",
-    "ML/Convolutional Neural Networks.md",
     "ML/Machine Learning.md",
-    "Blog/Pattern Recognition Monkey.md",
-    "Blog/Writing.md",
-    "Blog/Becoming Good At Things.md",
-    "kai++.md",
-    "ML/Convolution Layer.md",
-    "ML/CNN Architecture.md",
     "ML/attachments/CNN Architecture-1.png",
-    "ML/Single-layer Neural Network.md",
     "ML/attachments/CNN Architecture.png",
     "ML/Image Filter Bank.md",
     "2B/Tron 2B.md",

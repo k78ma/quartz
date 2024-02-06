@@ -7,16 +7,14 @@ draft: "true"
 
 ## Today
 
-- [ ] W8 - Max Pooling
-- [ ] W8 - Typical Architecture
+- [ ] W8 Exercises
+- [ ] W8 Lab
+- [ ] W8 Homework
 - [ ] micrograd
 
 
 ## ML
 
-- [ ] W8 Exercises
-- [ ] W8 Lab
-- [ ] W8 Homework
 - [ ] W9 - Intro to sequential models
 - [ ] W9 - State Machines
 - [ ] W9 - Markov Decision Processes
@@ -184,6 +182,8 @@ draft: "true"
 - [ ] W7 Homework
 - [ ] W8 - Introduction to CNNs
 - [ ] W8 - Filters
+- [ ] W8 - Max Pooling
+- [ ] W8 - Typical Architecture
 
 %% kanban:settings
 ```

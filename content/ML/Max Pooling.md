@@ -8,8 +8,8 @@ aliases:
 A max pooling layer aggregates information over a spatial range. It acts like a filter but has no weights; given a filter size, it simply returns the maximum value in its field. Note that max pooling layers do not have additional bias or offset values.
 
 Usually, max pooling is applied with the following traits:
-- $\text{stride} > 1$, so that the resulting image is smaller than the input image
-- Filter size $k \geq \text{stride}$, so that the whole image is covered
+- Stride $s > 1$, so that the resulting image is smaller than the input image.
+- Filter size $k \geq s$, so that the whole image is covered.
 
 ![[Max Pooling.png]]
 

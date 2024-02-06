@@ -13,6 +13,10 @@ An image is described as a two-dimensional array of pixels, A pixel may be repre
 - **Translation invariance:** The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs.
 
 Parts of CNNs:
+- [[Convolution Filter]]
 - [[2D Convolution Operation]]
+- [[Image Filter Bank]]
+- [[Convolution Layer]]
+- [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]
