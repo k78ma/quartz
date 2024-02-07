@@ -82,14 +82,21 @@ TODO:
 - [x] Heartbeat status aggregator
 - [ ] Failure logging
 - [x] Check existence of all expected topics
-- [ ] Default to `BaseSensor` for unknown/unspecified sensor type
+- [x] Default to `BaseSensor` for unknown/unspecified sensor type
 - [ ] Unit tests?
 
 #### Node Functionality
-- [ ] Turn Baymax into a lifecycle node
+- [x] Turn Baymax into a lifecycle node
 - [ ] Should I do sensor part and node part separately as component nodes?
+- [ ] Diagnostics still publishes after deactivating lifecycle?
+
+Clean build:
+```
+colcon build --packages-select baymax --cmake-clean-cache
+```
 
 For the minimal release/first review, I want this to be in a modular enough state that new types of sensors/nodes can be added easily
 
 Everything we write should be a lifecycle node
 If Baymax is monitoring something for a while and it's been unhealthy for a while, have Baymax use `systemd` to restart
+
