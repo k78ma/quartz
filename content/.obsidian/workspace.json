@@ -54,15 +54,11 @@
             }
           },
           {
-            "id": "b96d5450650d9e44",
+            "id": "517d5f376b1d787f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -229,12 +225,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -252,10 +248,10 @@
   },
   "active": "9c162d213014ea99",
   "lastOpenFiles": [
-    "ML/CNN Architecture.md",
-    "ML/ML Fundamentals.md",
     "Baymax.md",
     "VIDAS ROS 2 Driver.md",
+    "ML/ML Fundamentals.md",
+    "ML/CNN Architecture.md",
     "Polymath.md",
     "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
     "Robotics/Robot Configuration & Representation.md",

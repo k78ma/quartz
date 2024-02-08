@@ -101,3 +101,4 @@ For the minimal release/first review, I want this to be in a modular enough stat
 Everything we write should be a lifecycle node
 If Baymax is monitoring something for a while and it's been unhealthy for a while, have Baymax use `systemd` to restart
 
+## Meeting Notes

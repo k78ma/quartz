@@ -7,7 +7,7 @@ aliases:
 ---
 Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge from the ground up in a Feynman-like way. Notes are mostly from [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/), [Understanding Deep Learning](https://udlbook.github.io/udlbook/) and [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 
-### Classification
+## Classification
 - [[Linear Classifier]]
 	- [[Perceptron|Perceptron]]
 		- [[Averaged Perceptron|Averaged Perceptron]]
@@ -16,11 +16,11 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Logistic Regression]]
 	- [[Gradient Descent for Logistic Regression]]
 - [[Support Vector Machine]]
-### Features
+## Features
 - [[Feature Representation|Feature Representation]]
 	- [[Feature Engineering|Feature Engineering]]
 	- [[Polynomial Basis|Polynomial Basis]]
-### Activation Functions
+## Activation Functions
 - [[Activation Function]]
 	- [[Sigmoid]]
 	- [[Rectified Linear Unit]]
@@ -28,13 +28,13 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 	- [[Hyperbolic Tangent]]
 	- [[Softmax]]
 - [[Output Activation Functions]]
-### Loss Functions
+## Loss Functions
 - [[Machine Learning as Optimization]]
 - [[Loss Function]]
 - [[Negative log-likelihood]]
 	- [[Negative log-likelihood multi-class]]
 - [[Hinge Loss]]
-### Regularization
+## Regularization
 - [[Regularization]]
 - [[L1 Regularization]]
 - [[L2 Regularization]]
@@ -43,17 +43,17 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Weight Perturbation]]
 - [[Dropout]]
 - [[Batch Normalization]]
-### Regression
+## Regression
 - [[Regression]]
 - [[Ordinary Least Squares]]
 - [[Ridge Regression]]
-### Gradient Descent
+## Gradient Descent
 - [[Gradient Descent]]
 	- [[1D Gradient Descent]]
 	- [[Multiple Dimension Gradient Descent]]
 - [[Stochastic Gradient Descent]]
 - [[Batch Gradient Descent]]
-### Neural Networks
+## Neural Networks
 - [[Neural Networks]]
 	- [[Artificial Neuron]]
 	- [[Single-layer Neural Network]]
@@ -62,13 +62,13 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Backpropagation]] 
 - [[Neural Network Training]]
 - [[Neural Network Weight Initialization]]
-### Optimizing Neural Network Parameters
+## Optimizing Neural Network Parameters
 - [[Adaptive step-size]]
 	- [[Running Averages]]
 	- [[Momentum (ML)]]
 	- [[Adadelta|Adagrad/Adadelta]]
 	- [[Adam]]
-### Convolutional Neural Networks
+## Convolutional Neural Networks
 - [[Convolutional Neural Networks]]
 - [[Convolution Filter]]
 - [[2D Convolution Operation]]
@@ -77,9 +77,13 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]
-### Sequential Models
-- 
+## Sequential Models
+- [[State Machines]]
+- [[Markov Decision Processes]]
+	- [[Finite-horizon Solutions]]
+	- [[Infinite-horizon Solutions]]
 
+## Reinforcement Learning
 ### Recurrent Networks
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory|LSTM]]
