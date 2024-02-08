@@ -2,7 +2,7 @@
 title: CNN Architecture
 tags:
   - ml
-date: 2024-02-03
+date: 2023-08-24
 aliases:
 ---
 Here is the form of a typical convolutional network:

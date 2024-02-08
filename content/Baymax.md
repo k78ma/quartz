@@ -46,6 +46,11 @@ source install/setup.bash
 ros2 launch baymax baymax_launch.py
 ```
 
+Clean build:
+```
+colcon build --packages-select baymax --cmake-clean-cache
+```
+
 Rosbag node:
 ```bash
 docker run -it --rm -v $(pwd)/zvision_ugv_data:/zvision_ugv_data --name rosbags osrf/ros:humble-desktop bash
@@ -90,10 +95,6 @@ TODO:
 - [ ] Should I do sensor part and node part separately as component nodes?
 - [ ] Diagnostics still publishes after deactivating lifecycle?
 
-Clean build:
-```
-colcon build --packages-select baymax --cmake-clean-cache
-```
 
 For the minimal release/first review, I want this to be in a modular enough state that new types of sensors/nodes can be added easily
 
