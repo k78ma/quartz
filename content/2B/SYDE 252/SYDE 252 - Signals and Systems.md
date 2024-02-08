@@ -39,6 +39,7 @@ aliases:
 - [[Causal and Non-Causal Systems]]
 - [[Stable and Unstable Systems]]
 - [[Linear and non-linear systems]]
+- [[Linear Time-invariant Systems]]
 
 #### Convolutions
 - [[Convolution Integral]]

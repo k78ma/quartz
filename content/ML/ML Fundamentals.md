@@ -78,7 +78,9 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Max Pooling]]
 - [[CNN Architecture]]
 ## Sequential Models
-- [[State Machines]]
+- [[State Machine]]
+	- [[State Transition Diagram]]
+	- [[Linear Time-invariant Systems]]
 - [[Markov Decision Processes]]
 	- [[Finite-horizon Solutions]]
 	- [[Infinite-horizon Solutions]]
