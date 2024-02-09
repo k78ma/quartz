@@ -29,6 +29,7 @@ a_{2}' \\
 a_{3}'
 \end{bmatrix}
 $$
+
 To describe the relationship between the coordinates, both sides of the equation are multiplied by 
 $$
 \begin{bmatrix} \mathbf{e}^T_{1} \\
@@ -36,7 +37,9 @@ $$
 \mathbf{e}^T_{3}
 \end{bmatrix}
 $$
+
 The matrix on the left becomes an identity matrix, so: 
+
 $$
 \begin{align}
 \left[ \begin{array}{l}
@@ -55,6 +58,7 @@ a_3'
 	 & \triangleq \mathbf{R} \mathbf{a'}
 \end{align}
 $$
+
 The [[Rotation Matrix]] $\mathbf{R}$ consists of an inner product between the two sets of bases, describing the same vector’s coordinate relationship before and after the rotation.
 
 ### Translation

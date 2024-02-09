@@ -1,8 +1,8 @@
 ---
-title: SYDE 572 Problems
+title: SYDE 572 A1
 tags:
   - ml
-date: 2024-01-17
+date: 2024-01-25
 aliases:
 ---
 ## Assignment 1

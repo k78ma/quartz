@@ -23,7 +23,9 @@ date: 2023-06-25
 
 ## Problems
 - [[MIT 6.036x Problems]]
-- [[SYDE 572 Problems]]
+- SYDE 572
+	- [[SYDE 572 A1]]
+	- [[SYDE 572 A2]]
 - [[UDL Problems]]
 
 - [[ML Fundamentals]]

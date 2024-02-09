@@ -34,7 +34,7 @@ ROS 2 covariance injector has a cool idea for this:
 
 ### Notes
 Docker run command for Baymax node:
-```bash
+```shell
 docker run -it --name baymax --rm -v $(pwd):/baymax_ws osrf/ros:humble-desktop bash
 ```
 

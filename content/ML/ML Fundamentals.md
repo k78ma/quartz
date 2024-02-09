@@ -91,5 +91,5 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Long Term Short Memory|LSTM]]
 ### Problems
 - [[MIT 6.036x Problems]]
-- [[SYDE 572 Problems]]
+- [[SYDE 572 A1]]
 - [[UDL Problems]]
