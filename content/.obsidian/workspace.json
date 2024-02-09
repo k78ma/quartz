@@ -25,7 +25,7 @@
               "state": {
                 "file": "Baymax.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -37,48 +37,24 @@
               "state": {
                 "file": "VIDAS ROS 2 Driver.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
           {
-            "id": "e5da2a47a81bf2a9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Machine Learning.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a7c5d761190e6dcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/SYDE 572 A2.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ee28ab49399af912",
+            "id": "53d6b5e86790c669",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Robotics/Euclidean Transformation.md",
-                "mode": "preview",
-                "source": true
+                "mode": "source",
+                "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +85,7 @@
               "state": {
                 "file": "ML/Machine Learning.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -129,7 +105,7 @@
               "state": {
                 "file": "ML/Machine Learning.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           },
@@ -164,7 +140,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "af108927a7e17148",
+            "id": "aac53052b20fd8fc",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -241,8 +217,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -262,13 +237,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee28ab49399af912",
+  "active": "53d6b5e86790c669",
   "lastOpenFiles": [
     "ML/SYDE 572 A2.md",
     "ML/Machine Learning.md",
+    "VIDAS ROS 2 Driver.md",
+    "Robotics/Euclidean Transformation.md",
     "ML/SYDE 572 A1.md",
     "Baymax.md",
-    "VIDAS ROS 2 Driver.md",
     "Random/Stochastic vs. Deterministic.md",
     "ML/ML Fundamentals.md",
     "ML/Linear Time-invariant Systems.md",
@@ -291,7 +267,6 @@
     "ML/Batch Normalization.md",
     "kai++.md",
     "Blog/Writing.md",
-    "Robotics/Points, Vectors, Coordinate Systems.md",
     "Blog/attachments/Pattern Recognition Monkey.png",
     "Blog/attachments/Becoming Good At Things.png",
     "Blog/attachments",

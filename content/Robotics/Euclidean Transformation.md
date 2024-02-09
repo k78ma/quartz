@@ -39,22 +39,9 @@ $$
 $$
 
 The matrix on the left becomes an identity matrix, so: 
-
 $$
 \begin{align}
-\left[ \begin{array}{l}
-{a_1}\\
-{a_2}\\
-{a_3}
-\end{array}\right] & =\underbrace{\left[{\begin{array}{*{20}{c}}    
-    {\mathbf{e}_1^T\mathbf{e}_1'} & {\mathbf{e}_1^T\mathbf{e}_2'} & {\mathbf{e}_1^T\mathbf{e}_3'}\\
-    {\mathbf{e}_2^T\mathbf{e}_1'} & {\mathbf{e}_2^T\mathbf{e}_2'} & {\mathbf{e}_2^T\mathbf{e}_3'}\\
-    {\mathbf{e}_3^T\mathbf{e}_1'} & {\mathbf{e}_3^T\mathbf{e}_2'} & {\mathbf{e}_3^T\mathbf{e}_3'}
-    \end{array}} \right]}_{\text{rotation matrix}}\left[ \begin{array}{l}
-a_1'\\
-a_2'\\
-a_3'
-\end{array} \right] \\ \\
+ \begin{bmatrix} {a_1}\\ {a_2}\\ {a_3} \end{bmatrix}=\underbrace{\begin{bmatrix} {\mathbf{e}_1^T\mathbf{e}_1'} & {\mathbf{e}_1^T\mathbf{e}_2'} & {\mathbf{e}_1^T\mathbf{e}_3'}\\ {\mathbf{e}_2^T\mathbf{e}_1'} & {\mathbf{e}_2^T\mathbf{e}_2'} & {\mathbf{e}_2^T\mathbf{e}_3'}\\ {\mathbf{e}_3^T\mathbf{e}_1'} & {\mathbf{e}_3^T\mathbf{e}_2'} & {\mathbf{e}_3^T\mathbf{e}_3'} \end{bmatrix} }_{\text{rotation matrix}}\begin{bmatrix} a_1'\\ a_2'\\ a_3' \end{bmatrix} 
 	 & \triangleq \mathbf{R} \mathbf{a'}
 \end{align}
 $$
