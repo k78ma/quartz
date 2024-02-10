@@ -11,12 +11,12 @@ A *state machine* is a description of a process (computational, physical, econom
 The state of a system is defined to be all we need to know about the system to predict its future trajectories as well as possible. For example, it could be the position and velocity of an object or the locations of your pieces on a game board, or the current traffic densities on a highway network.
 
 Formally, we define a state machine as $(S, X, Y, s_{0}, f,q)$, where:
-- $S$ is a finite or infinite set of possible states
-- $X$ is a finite or infinite set of possible inputs
-- $Y$ is a finite or infinite set of possible outputs
+- $S$ is set of states
+- $X$ is set of inputs
+- $Y$ is set of outputs
 - $s_{0} \in S$ is the initial state of the machine
-- $f: S \times X \to S$ is a transition function, which takes an input and a previous state and produces a next state
-- $g: S \to Y$ is an output function, which takes a state and produces an output
+- $f: S \times X \to S$ is a transition function, which takes an input and a previous state and produces a next state. This can be more clearly written as $f(s_{t}, x_{t})=s_{t+1}$.
+- $g: S \to Y$ is an output function, which takes a state and produces an output.
 
 The basic operation of the state machine is to start with $s_{0}$, then iteratively compute $t \geq 1$:
 $$

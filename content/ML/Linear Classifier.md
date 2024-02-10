@@ -28,5 +28,5 @@ $$
 
 
 Algorithms:
-- [Perceptron](Perceptron.md)
-- [Averaged Perceptron](Averaged%20Perceptron.md)
+- [[Perceptron]]
+- [[Averaged Perceptron]]

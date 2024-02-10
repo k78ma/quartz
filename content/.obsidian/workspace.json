@@ -8,53 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "81bac0290afc36d3",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kai++.md"
-              }
-            }
-          },
-          {
-            "id": "f526996c28054641",
+            "id": "0b0c8dbb8abe9124",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baymax.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "25160f9250994268",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "VIDAS ROS 2 Driver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "53d6b5e86790c669",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Euclidean Transformation.md",
+                "file": "ML/ML Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,38 +43,6 @@
             }
           },
           {
-            "id": "d30a143da43da63c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "357dc65a80f8d943",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
-            "id": "991b0dd3c7d30d24",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "38d16339e819e150",
             "type": "leaf",
             "state": {
@@ -123,20 +56,38 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "357dc65a80f8d943",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "6745816e9f8a022e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "15813062ea777ec2",
     "type": "split",
     "children": [
       {
-        "id": "e4ce9e46915c52dc",
+        "id": "2750fd2bbca03e59",
         "type": "tabs",
         "children": [
           {
@@ -148,12 +99,75 @@
             }
           },
           {
+            "id": "a3fbcc1d27d0a654",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "ML/ML Fundamentals.md"
+              }
+            }
+          },
+          {
+            "id": "5033e8a93f70063f",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "e4ce9e46915c52dc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "33ba83433711f10a",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "ML/ML Fundamentals.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.3839164642982606,
+                  "close": true
+                }
+              }
+            }
+          },
+          {
             "id": "b78b032bd8a30a1c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Euclidean Transformation.md",
+                "file": "ML/ML Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -170,50 +184,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Euclidean Transformation.md",
+                "file": "ML/ML Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "6745816e9f8a022e",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "a3fbcc1d27d0a654",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Robotics/Euclidean Transformation.md"
-              }
-            }
-          },
-          {
-            "id": "e1a8edf55d17c8dd",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
-          },
-          {
-            "id": "5033e8a93f70063f",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
               }
             }
           }
@@ -237,36 +210,39 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "53d6b5e86790c669",
+  "active": "0b0c8dbb8abe9124",
   "lastOpenFiles": [
-    "ML/SYDE 572 A2.md",
-    "ML/Machine Learning.md",
-    "VIDAS ROS 2 Driver.md",
-    "Robotics/Euclidean Transformation.md",
-    "ML/SYDE 572 A1.md",
-    "Baymax.md",
-    "Random/Stochastic vs. Deterministic.md",
+    "ML/Markov Decision Process.md",
+    "Vault Stats.md",
     "ML/ML Fundamentals.md",
-    "ML/Linear Time-invariant Systems.md",
+    "Polymath/Polymath.md",
+    "Untitled 2.canvas",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "ML/Machine Learning.md",
+    "ML/L1 Regularization.md",
+    "ML/Linear Classifier.md",
+    "kai++.md",
+    "ML/Perceptron.md",
+    "Baymax.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Linear Algebra/Linear Algebra.md",
+    "ML/State Machine.md",
     "ML/State Transition Diagram.md",
+    "ML/Linear Time-invariant Systems.md",
+    "Robotics/Euclidean Transformation.md",
+    "ML/SYDE 572 A2.md",
+    "ML/SYDE 572 A1.md",
+    "Random/Stochastic vs. Deterministic.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "ML/attachments/State Transition Diagram.png",
-    "ML/State Machine.md",
     "ML/attachments/State Machine.png",
     "ML/CNN Architecture.md",
-    "Polymath.md",
     "2B/MTE 204/Project 1 - Gauss-Seidel Circuit Solver.md",
     "Robotics/Robot Configuration & Representation.md",
     "Robotics/Robot Configuration + Motion/Grubler’s Formula.md",
     "Robotics/Transform Matrix.md",
     "Robotics/Rotation Matrix.md",
-    "2B/SYDE 252/Unit step.md",
-    "2B/MTE 204/Newton-Raphson Method.md",
-    "2B/MTE 203/Suggested Problems.md",
-    "Calculus/Quadric Surfaces.md",
-    "ML/Batch Normalization.md",
-    "kai++.md",
-    "Blog/Writing.md",
     "Blog/attachments/Pattern Recognition Monkey.png",
     "Blog/attachments/Becoming Good At Things.png",
     "Blog/attachments",
@@ -288,7 +264,6 @@
     "Polymath/Polymath ML Productization.canvas",
     "attachments",
     "Polymath/Polymath ML Productization Simplified.canvas",
-    "Other/idfk.canvas",
-    "Untitled 1.canvas"
+    "Other/idfk.canvas"
   ]
 }

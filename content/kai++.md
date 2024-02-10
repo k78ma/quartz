@@ -7,20 +7,17 @@ draft: "true"
 
 ## Today
 
-- [ ] W8 Exercises
-- [ ] W8 Lab
-- [ ] W8 Homework
-- [ ] micrograd
-
-
-## ML
-
 - [ ] W9 - Intro to sequential models
 - [ ] W9 - State Machines
 - [ ] W9 - Markov Decision Processes
 - [ ] W9 Exercises
 - [ ] W9 Lab
 - [ ] W9 Homework
+- [ ] micrograd
+
+
+## ML
+
 - [ ] W10 - Intro to Reinforcement Learning
 - [ ] W10 - Bandit Problems
 - [ ] W10 - Sequential Problems
@@ -184,6 +181,9 @@ draft: "true"
 - [ ] W8 - Filters
 - [ ] W8 - Max Pooling
 - [ ] W8 - Typical Architecture
+- [ ] W8 Exercises
+- [ ] W8 Lab
+- [ ] W8 Homework
 
 %% kanban:settings
 ```

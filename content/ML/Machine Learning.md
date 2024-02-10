@@ -28,4 +28,3 @@ date: 2023-06-25
 	- [[SYDE 572 A2]]
 - [[UDL Problems]]
 
-- [[ML Fundamentals]]
