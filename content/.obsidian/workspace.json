@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Finite-horizon Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 210.5
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -104,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML Fundamentals.md"
+                "file": "ML/Finite-horizon Solutions.md"
               }
             }
           },
@@ -132,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Finite-horizon Solutions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Finite-horizon Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/Finite-horizon Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -212,9 +212,10 @@
   },
   "active": "0b0c8dbb8abe9124",
   "lastOpenFiles": [
+    "ML/ML Fundamentals.md",
+    "ML/Finite-horizon Solutions.md",
     "ML/Markov Decision Process.md",
     "Vault Stats.md",
-    "ML/ML Fundamentals.md",
     "Polymath/Polymath.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
@@ -242,7 +243,6 @@
     "Robotics/Robot Configuration & Representation.md",
     "Robotics/Robot Configuration + Motion/Grubler’s Formula.md",
     "Robotics/Transform Matrix.md",
-    "Robotics/Rotation Matrix.md",
     "Blog/attachments/Pattern Recognition Monkey.png",
     "Blog/attachments/Becoming Good At Things.png",
     "Blog/attachments",
