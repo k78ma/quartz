@@ -72,7 +72,6 @@ ros2 lifecycle set /baymax_node activate
 ros2 lifecycle set /baymax_node deactivate
 ros2 lifecycle set /baymax_node cleanup
 ```
-TODO:
 
 #### Sensor Functionality
 - [x] Latency 6 million seconds fix
@@ -100,10 +99,3 @@ For the minimal release/first review, I want this to be in a modular enough stat
 
 Everything we write should be a lifecycle node
 If Baymax is monitoring something for a while and it's been unhealthy for a while, have Baymax use `systemd` to restart
-
-## Meeting Notes
-- Goal of deployment speed – 2-3 days from 2-3 weeks / 4-8 weeks
-- Tracking of core development time vs. fire-fighting time
-- Customer deployments aren't going away so we need to find ways to "buy back time"
-	- Simulation helps here
-- 

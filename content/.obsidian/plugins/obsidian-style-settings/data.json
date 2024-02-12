@@ -28,7 +28,7 @@
   "Editor@@h1-color@@light": "#6B62E2",
   "Editor@@h1-color@@dark": "#6B62E2",
   "Editor@@h2-color-select": "h2-color-customized",
-  "Editor@@h2-color@@dark": "#693EF9",
+  "Editor@@h2-color@@dark": "#8662FF",
   "Appearance-dark@@card-highlight-dark": true,
   "Appearance-dark@@theme-dark-style-select": "theme-dark-background-darker",
   "Appearance-dark@@background-primary-alt@@dark": "#D4C6C600",
@@ -51,5 +51,11 @@
   "Appearance-light@@accent-color-override-light": false,
   "Appearance-dark@@color-accent-1-dark": "#808AE9",
   "Appearance-dark@@color-accent-hsl-dark": "#808AE9",
-  "Appearance-dark@@color-accent-dark": "#808AE9"
+  "Appearance-dark@@color-accent-dark": "#808AE9",
+  "Editor@@codeblock-style-select": "codeblock-style-dracula",
+  "Appearance-dark@@color-red-rgb@@dark": "#BD15DC",
+  "Editor@@bold-color@@dark": "#C6B4FF",
+  "Editor@@italic-color@@dark": "#FFD2F5",
+  "Editor@@h3-size": "1.2em",
+  "Editor@@h4-size": "1.1em"
 }

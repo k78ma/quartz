@@ -1,6 +1,6 @@
 {
-  "baseFontSize": 14,
-  "accentColor": "#c018e2",
+  "baseFontSize": 18,
+  "accentColor": "#9c66ff",
   "cssTheme": "Border",
   "enabledCssSnippets": [
     "center-img"

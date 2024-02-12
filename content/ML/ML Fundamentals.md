@@ -81,10 +81,10 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 	- [[State Transition Diagram]]
 	- [[Linear Time-invariant Systems]]
 - [[Markov Decision Process]]
-	- [[Finite-horizon Solutions]]
+	- [[Policy Evaluation]]
+	- [[Finite-horizon MDP Solutions]]
 	- [[Infinite-horizon Solutions]]
 
-## Reinforcement Learning
 
 ### Recurrent Networks
 - [[Recurrent Neural Networks]]
