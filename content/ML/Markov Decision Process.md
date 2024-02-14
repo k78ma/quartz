@@ -9,7 +9,7 @@ aliases:
 ---
 A Markov decision process is a variation of [[state machine]] in which:
 - The transition functions are [[Stochastic vs. Deterministic|stochastic]], such that it defines a probability distribution over the next state given the previous state and input; each time it's evaluated, it draws a new state from that distribution.
-- The output is equal to the state ($g$ is the identity function)
+- The output is equal to the state (or $g$ is the identity function)
 - Some states or state-action pairs are more desirable than others
 
 An MDP can be used to model interaction with an outside "world", such a single-player game. The idea is that an agent (a robot or a game-player) can model its environment as an MDP and try to choose actions that will drive the process into states that have high scores.
@@ -27,5 +27,6 @@ $$
 A policy is a function $\pi:S \to A$ that specifies what action to take in each state.
 
 ## Solutions
+- [[Policy Evaluation]]
 - [[Finite-horizon MDP Solutions]]
 - [[Infinite-horizon Solutions]]
