@@ -32,7 +32,7 @@ An important theorem about MDPs is: there exists a stationary optimal policy $\p
 $$
 V_{\pi^{*}}(s)\geq V_{\pi}(s)
 $$
-### Value-iteration method
+### Value-iteration
 Define $Q^{*}(s,a)$ to be expected infinite-horizon discounted value of being in state s, executing action a, and executing an optimal policy $\pi^{*}$ thereafter. Using similar reasoning the recursive definition of $V_{\pi}$ (see [[Policy Evaluation]]), we can express this value recursively as
 $$
 Q^{*}(s,a)=R(s,a)+\gamma \sum_{s'}T(s,a,s') \; \max_{a'}Q^{*}(s',a')
@@ -42,7 +42,7 @@ $$
 \pi^{*}(s)=\text{argmax}_{a'}\;Q^{*}(s,a)
 $$
 We can iteratively solve for the $Q^{*}$ values with the value iteration algorithm:
-![[Infinite-horizon MDP Solutions.png]]
+![[Infinite-horizon MDP Solutions.png|624]]
 
 #### Value Iteration Theory
 There are a lot of nice theoretical results about value iteration. For some given (not necessarily optimal) $Q$ function, define $\pi_{Q}(s)=\text{argmax}_{a} \; Q(s,a)$.

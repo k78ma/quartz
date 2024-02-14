@@ -26,6 +26,8 @@ $$
 
 A policy is a function $\pi:S \to A$ that specifies what action to take in each state.
 
+>[!note] Random variables
+>Uppercase letters above like $S_{t}$ are random variables.
 ## Solutions
 - [[Policy Evaluation]]
 - [[Finite-horizon MDP Solutions]]
