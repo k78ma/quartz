@@ -16,18 +16,22 @@ An MDP can be used to model interaction with an outside "world", such a single-p
 
 ## Formalization
 Formally, an MDP is $\langle S,A,T, R, \lambda \rangle$ where:
-- $T: S \times A \times S \to \mathbb{R}$ is a *transition model*, where
+- **Transition model:** $T: S \times A \times S \to \mathbb{R}$, where
 $$
 T(s,a,s')=P(S_{t}=s' \, |  \, S_{t-1}=s, A_{t-1}=a) ,
 $$
-	specifying a conditional probability distribution
-- $R:S\times A \to \mathbb{R}$ is a *reward function*, where $R(s,a)$ specifies how desirable it is to be state $s$ and take action $a$; and
-- $\gamma \in [0,1]$ is a *discount factor*
+	specifying a conditional probability distribution. Uppercase letters above like $S_{t}$ are random variables.
+- **Reward function:** $R:S\times A \to \mathbb{R}$, where $R(s,a)$ specifies how desirable it is to be state $s$ and take action $a$; and
+- **Discount factor:** $\gamma \in [0,1]$
 
-A policy is a function $\pi:S \to A$ that specifies what action to take in each state.
+A policy is a function $\pi:S \to A$ that specifies what action to take in each state. 
 
->[!note] Random variables
->Uppercase letters above like $S_{t}$ are random variables.
+>[!note] Markov Assumption
+>The Markov assumption is:
+>$$
+>P(S_{t-1} \, | \, S_{0}, A_{1}, \dots, S_{t}, A_{t}) = P(S_{t+1} \, | \, S_{t}, A_{t}) 
+>$$
+>Not all systems can be modeled in this way!
 ## Solutions
 - [[Policy Evaluation]]
 - [[Finite-horizon MDP Solutions]]

@@ -3,7 +3,7 @@ title: "Kai's Notes"
 date: 2023-06-25
 ---
 Welcome to my notes!
-- I take notes here (started July 2023) to learn more efficiently and track my knowledge. There's more info about these notes [[Note on Notes|here]]. 
+- I take notes here (started July 2023) to learn more efficiently and track my knowledge. There's more info about these notes [[A Note on My Notes|here]]. 
 - Some links will not work — either the note is private or doesn't exist yet.
 - Notes are taken with [Obsidian](https://obsidian.md); site is published using [Quartz](https://quartz.jzhao.xyz).
 

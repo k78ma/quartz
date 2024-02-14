@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2024-02-13
 aliases:
+  - value iteration
 ---
 It's more common for the actual horizon of a problem to be unknown. If we tried to take our definition of $Q^{h}$ from [[Finite-horizon MDP Solutions]] and set $h=\infty$, $Q^{\infty}$ values for all actions could be infinite, and there would be no way to select one over the other.
 
@@ -11,7 +12,9 @@ There are 2 standard ways to deal with this problem:
 - Take the average over all time-steps
 - Take a *discounted* infinite horizon.
 
-In the discounted infinite horizon, we select a discount factor $0 < \gamma <1$. Instead of trying to find a policy that maximizes expected finite-horizon undiscounted value, 
+In the discounted infinite horizon, we select a discount factor $0 < \gamma <1$. On each step, our life might with a probability of $1-\gamma$, giving us an expected lifetime of $1/(1 − \gamma)$. Unlike [[Finite-horizon MDP Solutions]], we don't need a different policy for a different horizon; if we survive today, our expected future lifetime is just as long as yesterday.
+
+Instead of trying to find a policy that maximizes expected finite-horizon undiscounted value, 
 $$
 \mathbf{E}\left[ \sum_{t=0}^{h} R_{t}\;|\;\pi,s_{0}\right]
 $$
@@ -19,7 +22,7 @@ we will try to find one that maximizes *infinite-horizon discounted value*:
 $$
 \mathbf{E}\left[ \sum_{t=0}^{\infty} \gamma^{t}R_{t}\;|\;\pi,s_{0} \right] = \mathbf{E}[R_{0}+\gamma R_{1}+\gamma^{2}R_{2}+\dots| \; \pi, s_{0}]
 $$
-The $t$ indices here are not the number of steps to go, but the number of steps forward from the starting state (there is no notion of “steps to go” in the infinite horizon case).
+Unlike finite-horizon and it's use of $h$ (horizon), the $t$ indices here are not the number of steps to go, but the number of steps forward from the starting state (there is no notion of “steps to go” in the infinite horizon case).
 
 Why do we do discounting? Two reasons:
 - In economic terms, you’d generally rather have some money today than that same amount of money next week (because you could use it now or invest it). 
@@ -32,7 +35,7 @@ An important theorem about MDPs is: there exists a stationary optimal policy $\p
 $$
 V_{\pi^{*}}(s)\geq V_{\pi}(s)
 $$
-### Value-iteration
+### Value iteration
 Define $Q^{*}(s,a)$ to be expected infinite-horizon discounted value of being in state s, executing action a, and executing an optimal policy $\pi^{*}$ thereafter. Using similar reasoning the recursive definition of $V_{\pi}$ (see [[Policy Evaluation]]), we can express this value recursively as
 $$
 Q^{*}(s,a)=R(s,a)+\gamma \sum_{s'}T(s,a,s') \; \max_{a'}Q^{*}(s',a')
@@ -42,8 +45,9 @@ $$
 \pi^{*}(s)=\text{argmax}_{a'}\;Q^{*}(s,a)
 $$
 We can iteratively solve for the $Q^{*}$ values with the value iteration algorithm:
-![[Infinite-horizon MDP Solutions.png|624]]
+![[Infinite-horizon MDP Solutions.png|560]]
 
+This is essentially just executing the above equation over and over again until we converge to optimal $Q$-values! Super simple.
 #### Value Iteration Theory
 There are a lot of nice theoretical results about value iteration. For some given (not necessarily optimal) $Q$ function, define $\pi_{Q}(s)=\text{argmax}_{a} \; Q(s,a)$.
 - After executing value iteration with parameter $\epsilon$, $|| V_{\pi_{Q\text{new}}} - V_{\pi^{*}}||_{\text{max}} < \epsilon$.
