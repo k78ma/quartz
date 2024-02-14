@@ -83,7 +83,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Markov Decision Process]]
 	- [[Policy Evaluation]]
 	- [[Finite-horizon MDP Solutions]]
-	- [[Infinite-horizon Solutions]]
+	- [[Infinite-horizon MDP Solutions]]
 
 ### Recurrent Networks
 - [[Recurrent Neural Networks]]

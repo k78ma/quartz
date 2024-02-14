@@ -29,4 +29,4 @@ A policy is a function $\pi:S \to A$ that specifies what action to take in each 
 ## Solutions
 - [[Policy Evaluation]]
 - [[Finite-horizon MDP Solutions]]
-- [[Infinite-horizon Solutions]]
+- [[Infinite-horizon MDP Solutions]]

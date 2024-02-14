@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/Markov Decision Process.md",
+                "file": "ML/Infinite-horizon MDP Solutions.md",
                 "mode": "source",
                 "source": false
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Markov Decision Process.md"
+                "file": "ML/Infinite-horizon MDP Solutions.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/Markov Decision Process.md",
+                "file": "ML/Infinite-horizon MDP Solutions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Markov Decision Process.md",
+                "file": "ML/Infinite-horizon MDP Solutions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Markov Decision Process.md",
+                "file": "ML/Infinite-horizon MDP Solutions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -250,10 +250,11 @@
   },
   "active": "95e86e1aab9be95a",
   "lastOpenFiles": [
+    "ML/attachments/Infinite-horizon MDP Solutions.png",
+    "ML/Infinite-horizon MDP Solutions.md",
+    "ML/Markov Decision Process.md",
     "ML/Policy Evaluation.md",
     "2B/MTE 204/Gaussian Elimination.md",
-    "ML/Markov Decision Process.md",
-    "ML/Infinite-horizon Solutions.md",
     "ML/3D View Synthesis.md",
     "index.md",
     "Baymax.md",
@@ -278,7 +279,6 @@
     "ML/Linear Classifier.md",
     "kai++.md",
     "ML/Perceptron.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
     "ML/attachments/State Transition Diagram.png",
     "ML/attachments/State Machine.png",
     "Blog/attachments/Pattern Recognition Monkey.png",
