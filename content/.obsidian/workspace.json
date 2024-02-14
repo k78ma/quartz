@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a7bede2bf81007c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/ML Fundamentals.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ac6d4e98234acef3",
             "type": "leaf",
             "state": {
@@ -32,7 +20,7 @@
             }
           },
           {
-            "id": "d59b47d52475e478",
+            "id": "fc0ebadc4f414ece",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,16 +35,15 @@
             "id": "95e86e1aab9be95a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "ML/ML Fundamentals.md",
-                "mode": "source",
-                "source": false
+                "file": "quartz/styles/base.scss",
+                "staged": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,9 +128,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "ML/ML Fundamentals.md"
-              }
+              "state": {}
             }
           },
           {
@@ -170,7 +155,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/ML Fundamentals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +189,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +205,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -251,6 +233,9 @@
   "active": "95e86e1aab9be95a",
   "lastOpenFiles": [
     "ML/Markov Decision Process.md",
+    "Note on Notes.md",
+    "ML/ML Fundamentals.md",
+    "ML/3D View Synthesis.md",
     "ML/Machine Learning as Optimization.md",
     "ML/1D Gradient Descent.md",
     "ML/Multiple Dimension Gradient Descent.md",
@@ -260,11 +245,8 @@
     "ML/attachments/Infinite-horizon MDP Solutions.png",
     "ML/Policy Evaluation.md",
     "2B/MTE 204/Gaussian Elimination.md",
-    "ML/3D View Synthesis.md",
     "index.md",
     "Baymax.md",
-    "ML/ML Fundamentals.md",
-    "Note on Notes.md",
     "Robotics/noVNC.md",
     "ML/Logistic Regression.md",
     "ML/NeRF.md",
