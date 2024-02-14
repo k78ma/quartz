@@ -14,13 +14,19 @@ $$
 V_{\pi}^{0}(s)=0
 $$
 
-Then, the value of a policy in state $s$ at horizon $h+1$ is equal to the reward it will get in state $s$ plus the next state's expected horizon $h$ value. So, starting with horizons $1$ and $2$, we have:
+Note that the indexing here is reversed, such that $V^{x}$ means that there are $x$ steps until the end. Above, $h = 0$ means that we are at the **end** of the process.
+
+Then, the value of a policy in state $s$ at horizon $h+1$ is equal to the reward it will get in state $s$, plus the next state's expected horizon $h$ value. So, starting with horizons $1$ and $2$, we have:
 $$
 \begin{align}
 V_{\pi}^{1}(s) & =R(s,\pi(s)) + 0 \\[2ex]
 V_{\pi}^{2}(s) & =R(s, \pi(s)) + \sum_{s'}T(s, \pi(s), s')\cdot R(s', \pi(s'))
 \end{align}
 $$
+Recall that:
+- $T(s, \pi(s), s')$ is the probability of transitioning to state $s'$ from state $s$ after taking $\pi(s)$.
+- $R(s, \pi(s))$ is the reward for taking action $\pi(s)$ in state $s$. 
+
 In general, this becomes:
 $$
 V_{\pi}^{h}(s)=R(s,\pi (s)) + \sum_{s'}T(s, \pi(s), s')\cdot V_{\pi}^{h-1}(s')
