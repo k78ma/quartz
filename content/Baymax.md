@@ -99,3 +99,13 @@ For the minimal release/first review, I want this to be in a modular enough stat
 
 Everything we write should be a lifecycle node
 If Baymax is monitoring something for a while and it's been unhealthy for a while, have Baymax use `systemd` to restart
+
+
+- Nav2 type lifecycles – we can use Nav2 lifecycle manager
+- Polymath lifecycle manager – does things that we want
+- Plain lifecycle nodes – same boat as non-lifecycle node
+
+- Expand config so that topics are associated with nodes – if all topics are not alive, then node is not alive – spit out warning in case node name is changed
+- Check number of expected publishers and node names for each topic – for joint states, there are 3 nodes publishing joint states at any given time
+- Report publisher
+- `get_publishers_info_by_topic`

@@ -47,11 +47,9 @@
             "id": "44f10f3395f4b5cb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "ML/Infinite-horizon MDP Solutions.md",
-                "mode": "source",
-                "source": false
+                "file": "kai++.md"
               }
             }
           }
@@ -142,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Infinite-horizon MDP Solutions.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -170,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/Infinite-horizon MDP Solutions.md",
+                "file": "kai++.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Infinite-horizon MDP Solutions.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Infinite-horizon MDP Solutions.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -250,18 +248,22 @@
   },
   "active": "44f10f3395f4b5cb",
   "lastOpenFiles": [
-    "ML/ML Fundamentals.md",
     "ML/Finite-horizon MDP Solutions.md",
-    "ML/Markov Decision Process.md",
     "ML/Policy Evaluation.md",
+    "ML/ML Fundamentals.md",
+    "kai++.md",
+    "ML/Infinite-horizon MDP Solutions.md",
+    "E-Stop.md",
+    "Baymax.md",
+    "attachments/E-Stop-1.png",
+    "attachments/E-Stop.png",
+    "ML/Markov Decision Process.md",
     "A Note on My Notes.md",
     "ML/3D View Synthesis.md",
-    "Baymax.md",
     "ML/Machine Learning as Optimization.md",
     "ML/1D Gradient Descent.md",
     "ML/Multiple Dimension Gradient Descent.md",
     "ML/Gradient Descent.md",
-    "ML/Infinite-horizon MDP Solutions.md",
     "ML/attachments/Infinite-horizon MDP Solutions.png",
     "2B/MTE 204/Gaussian Elimination.md",
     "index.md",
@@ -274,12 +276,9 @@
     "CS/Algorithmic Complexity.md",
     "ML/MDP.md",
     "Vault Stats.md",
-    "Polymath/Polymath.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "ML/Machine Learning.md",
-    "ML/L1 Regularization.md",
     "ML/attachments/State Transition Diagram.png",
     "ML/attachments/State Machine.png",
     "Blog/attachments/Pattern Recognition Monkey.png",
@@ -288,8 +287,6 @@
     "ML/attachments/Max Pooling.png",
     "ML/attachments/CNN Architecture-1.png",
     "ML/attachments/CNN Architecture.png",
-    "ML/attachments/Image Filter Bank-1.png",
-    "ML/attachments/Image Filter Bank.png",
     "RL Conceptual Framework.canvas",
     "Robotics/slambook-en.pdf",
     "Physics",

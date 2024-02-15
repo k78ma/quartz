@@ -7,11 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] W9 - Intro to sequential models
-- [ ] W9 - State Machines
-- [ ] W9 - Markov Decision Processes
-- [ ] W9 Exercises
-- [ ] W9 Lab
 - [ ] W9 Homework
 - [ ] micrograd
 
@@ -184,6 +179,11 @@ draft: "true"
 - [ ] W8 Exercises
 - [ ] W8 Lab
 - [ ] W8 Homework
+- [ ] W9 - Intro to sequential models
+- [ ] W9 - State Machines
+- [ ] W9 - Markov Decision Processes
+- [ ] W9 Exercises
+- [ ] W9 Lab
 
 %% kanban:settings
 ```
