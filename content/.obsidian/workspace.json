@@ -30,31 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "76e302ff73e8353d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Policy Evaluation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44f10f3395f4b5cb",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kai++.md"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -140,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kai++.md"
+                "file": "ML/3D View Synthesis.md"
               }
             }
           },
@@ -168,7 +146,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kai++.md",
+                "file": "ML/3D View Synthesis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kai++.md",
+                "file": "ML/3D View Synthesis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kai++.md",
+                "file": "ML/3D View Synthesis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -246,20 +224,28 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "44f10f3395f4b5cb",
+  "active": "fc0ebadc4f414ece",
   "lastOpenFiles": [
-    "ML/Finite-horizon MDP Solutions.md",
+    "Off-site Notes.md",
+    "Baymax.md",
+    "Robotics/Eigen Geometry.md",
+    "Robotics/Eigen.md",
+    "Robotics/Robotics.md",
+    "Robotics/Robot Configuration & Representation.md",
+    "Robotics/Perspective Transformation.md",
+    "Robotics/SLAM.md",
+    "ML/3D View Synthesis.md",
     "ML/Policy Evaluation.md",
-    "ML/ML Fundamentals.md",
+    "ML/State Machine.md",
     "kai++.md",
+    "ML/Finite-horizon MDP Solutions.md",
+    "ML/ML Fundamentals.md",
     "ML/Infinite-horizon MDP Solutions.md",
     "E-Stop.md",
-    "Baymax.md",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
     "ML/Markov Decision Process.md",
     "A Note on My Notes.md",
-    "ML/3D View Synthesis.md",
     "ML/Machine Learning as Optimization.md",
     "ML/1D Gradient Descent.md",
     "ML/Multiple Dimension Gradient Descent.md",
@@ -269,13 +255,6 @@
     "index.md",
     "Robotics/noVNC.md",
     "ML/Logistic Regression.md",
-    "ML/NeRF.md",
-    "CS/Operations with Big O.md",
-    "CS/Data Structures and Algorithms.md",
-    "CS/Big O Notation.md",
-    "CS/Algorithmic Complexity.md",
-    "ML/MDP.md",
-    "Vault Stats.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

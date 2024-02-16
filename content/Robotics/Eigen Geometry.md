@@ -24,11 +24,15 @@ int main(int argc, char **argv) {
 	Matrix3d rotation_matrix = Matrix3d::Identity();
 	
 	// The rotation vector uses AngleAxis, the underlying layer is not directly Matrix, but the operation can be treated as a matrix (because the operator is overloaded)
-	AngleAxisd rotation_vector(M_PI / 4, Vector3d(0, 0, 1)); // Rotate 45 degrees along the Z axis
+	
+	// Rotate 45 degrees along the Z axis
+	AngleAxisd rotation_vector(M_PI / 4, Vector3d(0, 0, 1));
 	cout.precision(3);
 	cout << "rotation matrix = \n " << rotation_vector.matrix() << endl; // convert to matrix with matrix()
+	
 	// can also be assigned directly
 	rotation_matrix = rotation_vector.toRotationMatrix();
+	
 	// coordinate transformation with AngleAxis
 	Vector3d v(1, 0, 0);
 	Vector3d v_rotated = rotation_vector * v;
@@ -70,3 +74,5 @@ int main(int argc, char **argv) {
 	return 0;
 }
 ```
+
+- Rotation matrix $(3 \times 3)$:  `Eigen::Matrix3D`

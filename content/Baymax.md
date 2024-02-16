@@ -84,7 +84,7 @@ ros2 lifecycle set /baymax_node cleanup
 - [x] Latency tolerances
 - [x] Distributed diagnostics
 - [x] Heartbeat status aggregator
-- [ ] Failure logging
+- [x] Failure logging
 - [x] Check existence of all expected topics
 - [x] Default to `BaseSensor` for unknown/unspecified sensor type
 - [ ] Unit tests?
@@ -106,6 +106,6 @@ If Baymax is monitoring something for a while and it's been unhealthy for a whil
 - Plain lifecycle nodes – same boat as non-lifecycle node
 
 - Expand config so that topics are associated with nodes – if all topics are not alive, then node is not alive – spit out warning in case node name is changed
-- Check number of expected publishers and node names for each topic – for joint states, there are 3 nodes publishing joint states at any given time
+- Check number of expected publishers and node names for each topic – for joint states, there are 3 nodes publishing joint states at any given times
 - Report publisher
 - `get_publishers_info_by_topic`
