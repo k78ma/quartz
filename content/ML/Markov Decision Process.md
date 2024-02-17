@@ -3,6 +3,7 @@ title: Markov Decision Process
 tags:
   - ml
   - robotics
+  - rl
 date: 2024-02-09
 aliases:
   - MDP

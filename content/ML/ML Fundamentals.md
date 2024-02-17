@@ -5,7 +5,12 @@ tags:
 date: 2024-01-14
 aliases:
 ---
-Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge from the ground up in a Feynman-like way. Notes are mostly from [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/), [Understanding Deep Learning](https://udlbook.github.io/udlbook/) and [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
+Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge from the ground up in a Feynman-like way. 
+
+Notes are mostly from:
+- [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/)
+- [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+- [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 ## Classification
 - [[Linear Classifier]]
 	- [[Perceptron|Perceptron]]
@@ -76,19 +81,7 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 - [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]
-## State Machines and MDPs
-- [[State Machine]]
-	- [[State Transition Diagram]]
-	- [[Linear Time-invariant Systems]]
-- [[Markov Decision Process]]
-	- [[Policy Evaluation]]
-	- [[Finite-horizon MDP Solutions]]
-	- [[Infinite-horizon MDP Solutions]]
 
-### Recurrent Networks
+## Recurrent Networks
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory|LSTM]]
-### Problems
-- [[MIT 6.036x Problems]]
-- [[SYDE 572 A1]]
-- [[UDL Problems]]

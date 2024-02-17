@@ -2,6 +2,7 @@
 title: Finite-horizon MDP Solutions
 tags:
   - ml
+  - rl
 date: 2024-02-10
 aliases:
 ---

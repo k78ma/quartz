@@ -2,6 +2,7 @@
 title: Policy Evaluation
 tags:
   - ml
+  - rl
 date: 2024-02-12
 aliases:
 ---

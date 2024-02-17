@@ -2,6 +2,7 @@
 title: Infinite-horizon MDP Solutions
 tags:
   - ml
+  - rl
 date: 2024-02-13
 aliases:
   - value iteration

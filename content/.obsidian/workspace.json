@@ -30,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7dd95ecc3a530f21",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/ML Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b4e92b1fd705e1ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/ML Fundamentals.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "eca9b348a4c6d99d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Review.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/3D View Synthesis.md"
+                "file": "ML/ML Fundamentals.md"
               }
             }
           },
@@ -146,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/3D View Synthesis.md",
+                "file": "ML/ML Fundamentals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/3D View Synthesis.md",
+                "file": "ML/ML Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/3D View Synthesis.md",
+                "file": "ML/ML Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -224,10 +260,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "fc0ebadc4f414ece",
+  "active": "7dd95ecc3a530f21",
   "lastOpenFiles": [
-    "Robotics/Eigen Geometry.md",
+    "ML/Machine Learning.md",
+    "ML/Reinforcement Learning.md",
+    "ML/Infinite-horizon MDP Solutions.md",
+    "ML/Finite-horizon MDP Solutions.md",
+    "ML/Policy Evaluation.md",
+    "ML/Markov Decision Process.md",
+    "ML/State Transition Diagram.md",
+    "ML/State Machine.md",
+    "ML/ML Fundamentals.md",
+    "Review.md",
     "ML/3D View Synthesis.md",
+    "ML/Instant NGP.md",
+    "Robotics/Eigen Geometry.md",
     "Off-site Notes.md",
     "Baymax.md",
     "Robotics/Eigen.md",
@@ -235,26 +282,15 @@
     "Robotics/Robot Configuration & Representation.md",
     "Robotics/Perspective Transformation.md",
     "Robotics/SLAM.md",
-    "ML/Policy Evaluation.md",
-    "ML/State Machine.md",
     "kai++.md",
-    "ML/Finite-horizon MDP Solutions.md",
-    "ML/ML Fundamentals.md",
-    "ML/Infinite-horizon MDP Solutions.md",
     "E-Stop.md",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
-    "ML/Markov Decision Process.md",
     "A Note on My Notes.md",
     "ML/Machine Learning as Optimization.md",
     "ML/1D Gradient Descent.md",
     "ML/Multiple Dimension Gradient Descent.md",
-    "ML/Gradient Descent.md",
     "ML/attachments/Infinite-horizon MDP Solutions.png",
-    "2B/MTE 204/Gaussian Elimination.md",
-    "index.md",
-    "Robotics/noVNC.md",
-    "ML/Logistic Regression.md",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

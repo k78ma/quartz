@@ -10,6 +10,7 @@ date: 2023-06-25
 ---
 ## Foundations / Areas
 - [[ML Fundamentals]]
+- [[Reinforcement Learning]]
 - [[Computer Vision]]
 - [[Natural Language Processing]] + [[Large Language Models]]
 - [[Reinforcement Learning]]

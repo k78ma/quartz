@@ -2,6 +2,8 @@
 title: State Transition Diagram
 tags:
   - ml
+  - rl
+  - robotics
 date: 2024-02-08
 aliases:
 ---
