@@ -87,3 +87,54 @@ cout << "should be equal to " << (q * Quaterniond(0, 1, 0, 0) * q.inverse()).coe
 - Euclidean transformation matrix $(4 \times 4)$: `Eigen::Isometry3d.`
 - Affine transform $( 4 \times 4 )$: `Eigen::Affine3d.`
 - Perspective transformation $(4\times 4)$: `Eigen::Projective3d`
+
+## Coordinate Transform Example
+Robot 1 and Robot 2 are located in the world coordinate system.
+- World coordinate: $W$
+- Robot coordinate systems: $R_{1}, R_{2}$
+
+The pose of Robot 1 is:
+- $q_{1}=[0.35, 0.2, 0.3,0.1]^{T}$
+- $t_{1}=[0.3,0.1,0.1]^{T}$
+
+The pose of Robot 2 is:
+- $q_{2}=[-0.5,0.4,-0.1,0.2]$
+- $t_{2}=[-0.1,0.5,0.3]^{T}$
+
+Here, $q$ and $t$ express $T_{R_{k}, W}$, where $k = 1,2$, which are the robot transform matrices. Now, assume that Robot 1 sees a point in its own coordinate system with coordinates of $p_{R_{1}}=[0.5,0,0.2]^{T}$. We want to find the coordinates of the vector in the robot 2’s coordinate system.
+
+```cpp
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <Eigen/Core>
+#include <Eigen/Geometry>
+
+using namespace std;
+using namespace Eigen;
+
+int main(int argc, char∗∗ argv) {
+	Quaterniond q1(0.35, 0.2, 0.3, 0.1), q2(−0.5, 0.4, −0.1, 0.2);
+	q1.normalize();
+	q2.normalize();
+	Vector3d t1(0.3, 0.1, 0.1), t2(−0.1, 0.5, 0.3);
+	Vector3d p1(0.5, 0, 0.2);
+	
+	Isometry3d T1w(q1), T2w(q2);
+	T1w.pretranslate (t1);
+	T2w.pretranslate (t2);
+
+	Vector3d p2 = T2w ∗ T1w.inverse() ∗ p1;
+	cout << endl << p2.transpose() << endl;
+	return 0;
+}
+```
+
+The above calculates:
+$$
+p_{R_{2}}=T_{R_{2},W} \; T_{W, R_{1}} \; p_{R_{1}}
+$$
+which produces the answer
+$$
+[−0.0309731, 0.73499, 0.296108]^{T}
+$$

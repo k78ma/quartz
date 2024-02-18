@@ -44,31 +44,29 @@
             }
           },
           {
-            "id": "b4e92b1fd705e1ff",
+            "id": "c057abde4bd58ca0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "ML/ML Fundamentals.md",
-                "mode": "source",
-                "source": false
+                "file": "kai++.md"
               }
             }
           },
           {
-            "id": "eca9b348a4c6d99d",
+            "id": "2992f5bfa473da50",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Review.md",
+                "file": "Robotics/Eigen Geometry.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -154,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/ML Fundamentals.md"
+                "file": "Robotics/Eigen Geometry.md"
               }
             }
           },
@@ -182,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "Robotics/Eigen Geometry.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "Robotics/Eigen Geometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "Robotics/Eigen Geometry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -260,8 +258,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7dd95ecc3a530f21",
+  "active": "2992f5bfa473da50",
   "lastOpenFiles": [
+    "kai++.md",
+    "ML/CNN Architecture.md",
+    "ML/Convolutional Neural Networks.md",
+    "ML/ML Fundamentals.md",
+    "ML/Understanding Deep Learning.md",
+    "Review.md",
+    "Statistics/Statistics.md",
+    "ML/Multi-layer Neural Network.md",
+    "ML/Neural Network Layer.md",
+    "ML/Neural Networks.md",
+    "ML/Loss Function.md",
+    "ML/Support Vector Machine.md",
+    "ML/Perceptron.md",
+    "ML/Adaptive step-size.md",
+    "ML/Averaged Perceptron.md",
     "ML/Machine Learning.md",
     "ML/Reinforcement Learning.md",
     "ML/Infinite-horizon MDP Solutions.md",
@@ -270,26 +283,11 @@
     "ML/Markov Decision Process.md",
     "ML/State Transition Diagram.md",
     "ML/State Machine.md",
-    "ML/ML Fundamentals.md",
-    "Review.md",
     "ML/3D View Synthesis.md",
     "ML/Instant NGP.md",
     "Robotics/Eigen Geometry.md",
-    "Off-site Notes.md",
-    "Baymax.md",
-    "Robotics/Eigen.md",
-    "Robotics/Robotics.md",
-    "Robotics/Robot Configuration & Representation.md",
-    "Robotics/Perspective Transformation.md",
-    "Robotics/SLAM.md",
-    "kai++.md",
-    "E-Stop.md",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
-    "A Note on My Notes.md",
-    "ML/Machine Learning as Optimization.md",
-    "ML/1D Gradient Descent.md",
-    "ML/Multiple Dimension Gradient Descent.md",
     "ML/attachments/Infinite-horizon MDP Solutions.png",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

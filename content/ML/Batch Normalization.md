@@ -17,7 +17,7 @@ This means that the scale of the inputs to each layer remains the same, no matte
 Batch normalization has a regularization effect similar to [[Weight Perturbation]] and [[Dropout]]. Each mini-batch of data ends up slightly perturbed, which prevents the network from exploiting very particular values of data points.
 
 >[!note] Use cases and weaknesses
->- **Use cases:** Particularly effective in [[Convolutional Neural Networks|CNNs]] and [[Single-layer Neural Network|fully-connected layers]]. 
+>- **Use cases:** Particularly effective in [[Convolutional Neural Networks|CNNs]] and [[Neural Network Layer|fully-connected layers]]. 
 >- **Weaknesses:** performance can degrade with small batch sizes because the estimate of the mean and variance becomes less accurate. BatchNorm also introduces a dependency between the examples in a mini-batch, which can be problematic for tasks that require strong independence assumptions between samples.
 
 ### Formulation

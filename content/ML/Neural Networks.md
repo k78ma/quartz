@@ -23,5 +23,5 @@ In their most basic form, networks are feed-forward; these networks define graph
 For simplicity of analysis, networks are generally organized into layers; a layer is a group of neurons in parallel, such that their inputs are outputs of neurons in the previous layer, and their outputs are the input to the neurons in the next layer.
 
 See:
-- [[Single-layer Neural Network]]
+- [[Neural Network Layer]]
 - [[Multi-layer Neural Network]]

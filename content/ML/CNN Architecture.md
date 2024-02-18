@@ -11,7 +11,7 @@ Here is the form of a typical convolutional network:
 Generally:
 - Each [[Convolution Layer]] is accompanied by a [[Rectifier Circuits|ReLU]] layer
 - Usually there are multiple filter/ReLU layers, then a max pooling layer, then some more filter/ReLU layers, then max pooling again
-- Once the output is down to a relatively small size, there is typically a last [[Single-layer Neural Network|fully-connected layer]], leading into an [[Activation Function]] such as softmax that produce the final output.
+- Once the output is down to a relatively small size, there is typically a last [[Neural Network Layer|fully-connected layer]], leading into an [[Activation Function]] such as softmax that produce the final output.
 
 The exact design of these structures is an art—there is not currently any clear theoretical (or even systematic empirical) understanding of how these various design choices affect overall performance of the network.
 

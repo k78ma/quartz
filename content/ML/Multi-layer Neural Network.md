@@ -5,7 +5,7 @@ tags:
 date: 2024-01-16
 aliases:
 ---
-Multi-layer neural networks allow us to express more complex hypotheses, as a [[Single-layer Neural Network]] can only really express linear separators. Multi-layer networks neural, as the name suggests, combine multiple layers, most typically by feeding the outputs of one layer into the inputs of another layer.
+Multi-layer neural networks allow us to express more complex hypotheses, as a [[Neural Network Layer]] can only really express linear separators. Multi-layer networks neural, as the name suggests, combine multiple layers, most typically by feeding the outputs of one layer into the inputs of another layer.
 
 Nomenclature:
 - We use $l$ to name a layer.

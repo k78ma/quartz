@@ -10,7 +10,19 @@ Never a bad idea to brush up my ML/DL fundamentals; trying to build my knowledge
 Notes are mostly from:
 - [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/)
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+	- [[Understanding Deep Learning]]
 - [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
+
+## Neural Networks
+- [[Neural Networks]]
+	- [[Artificial Neuron]]
+	- [[Neural Network Layer]]
+	- [[Multi-layer Neural Network]]
+- 
+- [[Universal Approximation Theorem]]
+- [[Backpropagation]] 
+- [[Neural Network Training]]
+- [[Neural Network Weight Initialization]]
 ## Classification
 - [[Linear Classifier]]
 	- [[Perceptron|Perceptron]]
@@ -57,15 +69,6 @@ Notes are mostly from:
 	- [[Multiple Dimension Gradient Descent]]
 - [[Stochastic Gradient Descent]]
 - [[Batch Gradient Descent]]
-## Neural Networks
-- [[Neural Networks]]
-	- [[Artificial Neuron]]
-	- [[Single-layer Neural Network]]
-	- [[Multi-layer Neural Network]]
-- [[Universal Approximation Theorem]]
-- [[Backpropagation]] 
-- [[Neural Network Training]]
-- [[Neural Network Weight Initialization]]
 ## Optimizing Neural Network Parameters
 - [[Adaptive step-size]]
 	- [[Running Averages]]
@@ -81,7 +84,6 @@ Notes are mostly from:
 - [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]
-
 ## Recurrent Networks
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory|LSTM]]

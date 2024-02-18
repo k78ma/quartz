@@ -1,8 +1,8 @@
 ---
-title: Single-layer Neural Network
+title: Neural Network Layer
 tags:
   - ml
-date: 2024-01-16
+date: 2024-02-17
 aliases:
   - fully-connected layer
   - FC layer
