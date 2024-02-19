@@ -7,11 +7,11 @@ draft: "true"
 
 ## Today
 
-- [ ] micrograd
 - [ ] makemore (part 1)
 - [ ] makemore (part 2)
-- [ ] backprop nina
-- [ ] wavenet
+- [ ] makemore (part 3)
+- [ ] makemore (part 4)
+- [ ] makemore (part 5)
 - [ ] gpt from scratch
 
 
@@ -680,6 +680,7 @@ draft: "true"
 - [ ] 1.1.2 - Protein structure
 - [ ] 1.1.3 - Image synthesis
 - [ ] 1.1.4 - Large language models
+- [ ] micrograd
 
 %% kanban:settings
 ```

@@ -52,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f2be6266531d9a26",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -140,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resume Review.md"
+                "file": "ML/Machine Learning.md"
               }
             }
           },
@@ -168,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Resume Review.md",
+                "file": "ML/Machine Learning.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resume Review.md",
+                "file": "ML/Machine Learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resume Review.md",
+                "file": "ML/Machine Learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -246,14 +258,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b3bbecfa834a46d0",
+  "active": "f2be6266531d9a26",
   "lastOpenFiles": [
+    "ML/Computer Vision.md",
+    "ML/MoCo.md",
+    "Resume Review.md",
+    "ML/SimCLR.md",
+    "ML/Machine Learning.md",
+    "ML/ML Fundamentals.md",
+    "CS/Sorting Algorithms.md",
     "kai++.md",
     "ML/3D View Synthesis.md",
     "Baymax.md",
-    "ML/ML Fundamentals.md",
     "ML/Instant NGP.md",
-    "CS/Sorting Algorithms.md",
     "Robotics/Robot Configuration & Representation.md",
     "Robotics/Robotics.md",
     "Robotics/Motion Planning.md",
@@ -263,17 +280,12 @@
     "Robotics/Eigen Geometry.md",
     "ML/CNN Architecture.md",
     "ML/Convolutional Neural Networks.md",
-    "Resume Review.md",
     "Statistics/Statistics.md",
     "ML/Multi-layer Neural Network.md",
     "ML/Neural Network Layer.md",
     "ML/Neural Networks.md",
     "ML/Loss Function.md",
     "ML/Support Vector Machine.md",
-    "ML/Perceptron.md",
-    "ML/Adaptive step-size.md",
-    "ML/Averaged Perceptron.md",
-    "ML/Machine Learning.md",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
     "ML/attachments/Infinite-horizon MDP Solutions.png",
