@@ -21,6 +21,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual*.
 ## Data Structures
 
 ## Sorting
+- [[Sorting Algorithms]]
 
 ## Divide and Conquer
 

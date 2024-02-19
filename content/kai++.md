@@ -165,11 +165,6 @@ draft: "true"
 ## DLFC
 
 - [ ] 1 - The Deep Learning Revolution
-- [ ] 1.1 - The Impact of Deep Learning
-- [ ] 1.1.1 - Medical diagnosis
-- [ ] 1.1.2 - Protein structure
-- [ ] 1.1.3 - Image synthesis
-- [ ] 1.1.4 - Large language models
 - [ ] 1.2 - A Tutorial Example
 - [ ] 1.2.1 - Synthetic data
 - [ ] 1.2.2 - Linear models
@@ -680,6 +675,11 @@ draft: "true"
 - [ ] W9 Lab
 - [ ] W9 Homework
 - [ ] 2.6 - Practice: Eigen Geometry Module
+- [ ] 1.1 - The Impact of Deep Learning
+- [ ] 1.1.1 - Medical diagnosis
+- [ ] 1.1.2 - Protein structure
+- [ ] 1.1.3 - Image synthesis
+- [ ] 1.1.4 - Large language models
 
 %% kanban:settings
 ```

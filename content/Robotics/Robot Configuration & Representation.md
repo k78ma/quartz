@@ -5,12 +5,13 @@ tags:
 date: 2024-01-27
 aliases:
 ---
-### Configuration
+## Configuration
 - [[Configuration Space|Configuration Space]]
 - [[Degrees of Freedom|Degrees of Freedom]]
 - [[Grubler’s Formula|Grubler’s Formula]]
 - [[Robot Joints]]
 - [[Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
+## Transforms
 ### Rotation Matrices
 - [[Points, Vectors, Coordinate Systems]]
 - [[Transforms Intuition]]
@@ -30,3 +31,5 @@ aliases:
 	- [[Similarity Transformation]]
 	- [[Affine Transformation]]
 	- [[Perspective Transformation]]
+
+## Lie Algebra
