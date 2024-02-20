@@ -52,21 +52,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f2be6266531d9a26",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Machine Learning.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,20 +127,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "07b79b6dc1ea62aa",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "a3fbcc1d27d0a654",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/Machine Learning.md"
+                "file": "Resume Review.md"
               }
             }
           },
@@ -167,8 +147,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "bc741b1b9d266092",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e4ce9e46915c52dc",
@@ -180,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "Resume Review.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "Resume Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/Machine Learning.md",
+                "file": "Resume Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -258,13 +247,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f2be6266531d9a26",
+  "active": "b3bbecfa834a46d0",
   "lastOpenFiles": [
+    "ML/Machine Learning.md",
     "ML/Computer Vision.md",
     "ML/MoCo.md",
     "Resume Review.md",
     "ML/SimCLR.md",
-    "ML/Machine Learning.md",
     "ML/ML Fundamentals.md",
     "CS/Sorting Algorithms.md",
     "kai++.md",
