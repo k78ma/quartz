@@ -90,6 +90,11 @@ ros2 lifecycle set /baymax_node cleanup
 - [ ] Unit tests?
 
 #### Node Functionality
+- Expand config so that topics are associated with nodes – if all topics are not alive, then node is not alive – spit out warning in case node name is changed
+- Check number of expected publishers and node names for each topic – for joint states, there are 3 nodes publishing joint states at any given times
+- Report publisher
+- `get_publishers_info_by_topic`
+
 - [x] Turn Baymax into a lifecycle node
 - [ ] Should I do sensor part and node part separately as component nodes?
 - [ ] Diagnostics still publishes after deactivating lifecycle?
@@ -105,7 +110,3 @@ If Baymax is monitoring something for a while and it's been unhealthy for a whil
 - Polymath lifecycle manager – does things that we want
 - Plain lifecycle nodes – same boat as non-lifecycle node
 
-- Expand config so that topics are associated with nodes – if all topics are not alive, then node is not alive – spit out warning in case node name is changed
-- Check number of expected publishers and node names for each topic – for joint states, there are 3 nodes publishing joint states at any given times
-- Report publisher
-- `get_publishers_info_by_topic`
