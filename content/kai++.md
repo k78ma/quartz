@@ -13,6 +13,13 @@ draft: "true"
 - [ ] makemore (part 4)
 - [ ] makemore (part 5)
 - [ ] gpt from scratch
+- [ ] Memory & Resource Management
+- [ ] Scheduling & Process Control
+- [ ] Hardware Virtualization
+- [ ] Interface Layer
+- [ ] Tracking Algorithms
+- [ ] Optical Flow Estimation
+- [ ] Computer System Architectures
 
 
 ## UDL

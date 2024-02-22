@@ -57,8 +57,9 @@
   "Editor@@bold-color@@dark": "#C6B4FF",
   "Editor@@italic-color@@dark": "#FFD2F5",
   "Editor@@h3-size": "1.2em",
-  "Editor@@h4-size": "1.1em",
+  "Editor@@h4-size": "1.05em",
   "Editor@@inline-title-color-select": "inline-title-color-customized",
   "Editor@@inline-title-color@@dark": "#7683FF",
-  "Appearance-light@@accent-light": "#FFFFFF"
+  "Appearance-light@@accent-light": "#FFFFFF",
+  "Editor@@h4-weight": 500
 }
