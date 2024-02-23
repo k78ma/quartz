@@ -20,3 +20,10 @@ draft: "true"
 ![[E-Stop-1.png|536]]
 
 
+3. Heat-sink – apply thermal pads and fasten e-stop
+
+![[E-Stop-3.png|504]]
+
+![[E-Stop-2.png|320]]
+
+4. Insert to microSD card.
