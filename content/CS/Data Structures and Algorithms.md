@@ -24,6 +24,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual*.
 - [[Sorting Algorithms]]
 
 ## Divide and Conquer
+- [[Binary Search]]
+	- [[One-sided Binary Search]]
 
 ## Hashing & Randomized Algorithms
 

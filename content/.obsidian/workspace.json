@@ -32,19 +32,19 @@
             }
           },
           {
-            "id": "a8e7aac1a77b216b",
+            "id": "e3880ce3d2a3d837",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Statically vs. Dynamically Typed Languages.md",
+                "file": "CS/One-sided Binary Search.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "729677180f5aa10d",
+            "id": "88dd93579f269918",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,21 +54,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "8114922e1148a573",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Binary Search (LC 20).md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Binary Search (LC 20).md"
+                "file": "CS/One-sided Binary Search.md"
               }
             }
           },
@@ -182,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Binary Search (LC 20).md",
+                "file": "CS/One-sided Binary Search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Binary Search (LC 20).md",
+                "file": "CS/One-sided Binary Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Binary Search (LC 20).md",
+                "file": "CS/One-sided Binary Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -260,10 +248,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8114922e1148a573",
+  "active": "e3880ce3d2a3d837",
   "lastOpenFiles": [
-    "Binary Search (LC 20).md",
     "CS/Problems/Trapping Rain Water (LC 42).md",
+    "CS/One-sided Binary Search.md",
+    "CS/Data Structures and Algorithms.md",
+    "CS/Binary Search.md",
+    "Binary Search (LC 20).md",
+    "CS/attachments/Binary Search for Boolean Array-1.png",
+    "CS/attachments/Binary Search for Boolean Array.png",
     "Resume Review.md",
     "CS/Statically vs. Dynamically Typed Languages.md",
     "OS/Memory & Resource Management.md",
@@ -292,16 +285,11 @@
     "ML/Instant NGP.md",
     "Robotics/Robot Configuration & Representation.md",
     "Robotics/Robotics.md",
-    "Robotics/Motion Planning.md",
-    "Robotics/Sensor-based Planning Intro.md",
-    "ML/Understanding Deep Learning.md",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
-    "ML/attachments/Infinite-horizon MDP Solutions.png",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "ML/attachments/State Transition Diagram.png",
     "Blog/attachments",
     "RL Conceptual Framework.canvas",
     "Robotics/slambook-en.pdf",
