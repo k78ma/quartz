@@ -8,7 +8,7 @@ aliases:
   - DSA
   - dsa
 ---
-Notes from Steven Skiena's *The Algorithm Design Manual*.
+Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https://algo.monster/dashboard).
 ## Algorithmic Analysis
 - [[Algorithmic Correctness]]
 - [[RAM Model of Computation]]
@@ -26,6 +26,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual*.
 ## Divide and Conquer
 - [[Binary Search]]
 	- [[One-sided Binary Search]]
+	- [[Square Root with Binary Search]]
 
 ## Hashing & Randomized Algorithms
 

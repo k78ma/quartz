@@ -29,3 +29,9 @@ def search(self, nums: List[int], target: int) -> int:
 			return m
 	return -1
 ```
+
+## Variations and Use-Cases
+- [[One-sided Binary Search]]
+- [[Square Root with Binary Search]]
+### Related Problems
+- [[Binary Search (LC 20)]]
