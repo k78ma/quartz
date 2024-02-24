@@ -24,6 +24,12 @@ draft: "true"
 
 ![[E-Stop-3.png|504]]
 
-![[E-Stop-2.png|320]]
+![[E-Stop-2.png|268]]
 
 4. Insert to microSD card.
+
+![[E-Stop-4.png|324]]
+
+![[E-Stop-5.png|184]]
+
+5. Solder

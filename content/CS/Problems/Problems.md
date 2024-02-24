@@ -38,4 +38,10 @@ date: 2023-09-21
 - [[Min Stack (LC 155)]]
 - [[Evaluate Reverse Polish Notation (LC 150]]
 
+#### Binary Search
+- [[Binary Search (LC 20)]]
+
+#### Linked List
+- [[Reverse Linked List]]
+
 ### Interview Questions
