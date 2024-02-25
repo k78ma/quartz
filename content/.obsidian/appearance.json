@@ -7,5 +7,6 @@
   ],
   "translucency": false,
   "theme": "obsidian",
-  "textFontFamily": "STIX Two Text"
+  "textFontFamily": "STIX Two Text",
+  "showViewHeader": true
 }

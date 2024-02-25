@@ -25,8 +25,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 
 ## Divide and Conquer
 - [[Binary Search]]
-	- [[One-sided Binary Search]]
-	- [[Square Root with Binary Search]]
+- [[One-sided Binary Search]]
 
 ## Hashing & Randomized Algorithms
 

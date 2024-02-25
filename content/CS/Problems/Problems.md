@@ -40,6 +40,9 @@ date: 2023-09-21
 
 #### Binary Search
 - [[Binary Search (LC 20)]]
+- [[Square Root with Binary Search]]
+- [[Find Minimum in Rotated Sorted Array]]
+- [[Peak of Mountain Array (LC 852)]]
 
 #### Linked List
 - [[Reverse Linked List]]

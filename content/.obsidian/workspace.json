@@ -32,55 +32,41 @@
             }
           },
           {
-            "id": "e3880ce3d2a3d837",
+            "id": "02babf42c68a597e",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "kai++.md"
+              }
+            }
+          },
+          {
+            "id": "a58b74fab41feab7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Square Root with Binary Search.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "6099e89b2c6e3285",
+            "id": "f484f8e1e33ec60d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Square Root with Binary Search.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "88dd93579f269918",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/Trapping Rain Water (LC 42).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d53d6ab693a6cdcc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Binary Search (LC 20).md",
+                "file": "CS/Problems/Problems.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -153,7 +139,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bc741b1b9d266092",
+            "id": "df850505d65acf9d",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -166,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Square Root with Binary Search.md"
+                "file": "CS/Problems/Problems.md"
               }
             }
           },
@@ -194,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Square Root with Binary Search.md",
+                "file": "CS/Problems/Problems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Square Root with Binary Search.md",
+                "file": "CS/Problems/Problems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Square Root with Binary Search.md",
+                "file": "CS/Problems/Problems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -272,20 +258,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e3880ce3d2a3d837",
+  "active": "f484f8e1e33ec60d",
   "lastOpenFiles": [
+    "CS/Problems/Peak of Mountain Array (LC 852).md",
+    "CS/Data Structures and Algorithms.md",
+    "CS/Problems/Problems.md",
+    "CS/One-sided Binary Search.md",
     "Binary Search (LC 20).md",
+    "Resume Review.md",
+    "CS/Find Minimum in Rotated Sorted Array.md",
+    "2024-02-25.md",
+    "kai++.md",
     "CS/Square Root with Binary Search.md",
     "CS/Binary Search.md",
-    "CS/Data Structures and Algorithms.md",
-    "CS/One-sided Binary Search.md",
     "CS/Problems/Trapping Rain Water (LC 42).md",
     "CS/attachments/Binary Search for Boolean Array-1.png",
     "CS/attachments/Binary Search for Boolean Array.png",
-    "Resume Review.md",
     "CS/Statically vs. Dynamically Typed Languages.md",
     "OS/Memory & Resource Management.md",
-    "CS/Problems/Problems.md",
     "E-Stop.md",
     "attachments/E-Stop-5.png",
     "attachments/E-Stop-4.png",
@@ -294,7 +284,6 @@
     "attachments/E-Stop-2.png",
     "OS/Operating Systems.md",
     "ML/Radar Perception.md",
-    "kai++.md",
     "ML/2D Convolution Operation.md",
     "ML/attachments/Radar Perception.png",
     "HW/SW Interface Layer.md",
@@ -306,9 +295,6 @@
     "attachments/Resume Review.png",
     "ML/MoCo.md",
     "ML/SimCLR.md",
-    "ML/3D View Synthesis.md",
-    "ML/Instant NGP.md",
-    "Robotics/Robot Configuration & Representation.md",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
     "Untitled 2.canvas",

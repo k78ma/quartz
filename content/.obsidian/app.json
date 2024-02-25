@@ -15,5 +15,6 @@
   },
   "strictLineBreaks": true,
   "smartIndentList": true,
-  "defaultViewMode": "source"
+  "defaultViewMode": "source",
+  "showInlineTitle": true
 }
