@@ -31,6 +31,10 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 
 ## Graph Traversal
 
+### Depth-first Search
+
+### Breadth-first Search
+
 ## Weighted Graph Algorithms
 
 ## Combinatorial Search

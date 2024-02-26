@@ -1,5 +1,5 @@
 ---
-title: Find Minimum in Rotated Sorted Array
+title: Find Minimum in Rotated Sorted Array (LC 153)
 tags:
   - cs
   - dsa

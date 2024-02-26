@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "a57c3b54de75b2bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resume Review.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "02babf42c68a597e",
             "type": "leaf",
             "state": {
@@ -54,7 +42,7 @@
             }
           },
           {
-            "id": "f484f8e1e33ec60d",
+            "id": "8d8853298c1ede6f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,9 +52,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb6d22ea570ad115",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Operations with Big O.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,7 +139,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df850505d65acf9d",
+            "id": "38ed62c6a1f2d5ec",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -258,18 +258,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "f484f8e1e33ec60d",
+  "active": "8d8853298c1ede6f",
   "lastOpenFiles": [
     "CS/Problems/Problems.md",
-    "CS/Problems/Peak of Mountain Array (LC 852).md",
     "CS/Data Structures and Algorithms.md",
+    "CS/Operations with Big O.md",
+    "kai++.md",
+    "CS/Square Root with Binary Search.md",
+    "CS/Find Minimum in Rotated Sorted Array (LC 153).md",
+    "CS/Problems/Peak of Mountain Array (LC 852).md",
     "CS/One-sided Binary Search.md",
     "Binary Search (LC 20).md",
     "Resume Review.md",
-    "CS/Find Minimum in Rotated Sorted Array (LC 153).md",
     "2024-02-25.md",
-    "kai++.md",
-    "CS/Square Root with Binary Search.md",
     "CS/Binary Search.md",
     "CS/Problems/Trapping Rain Water (LC 42).md",
     "CS/attachments/Binary Search for Boolean Array-1.png",
@@ -294,7 +295,6 @@
     "ML/Machine Learning.md",
     "attachments/Resume Review.png",
     "ML/MoCo.md",
-    "ML/SimCLR.md",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
     "Untitled 2.canvas",
