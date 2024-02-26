@@ -43,6 +43,7 @@ date: 2023-09-21
 - [[Square Root with Binary Search]]
 - [[Find Minimum in Rotated Sorted Array (LC 153)]]
 - [[Peak of Mountain Array (LC 852)]]
+- [[Koko Eating Bananas (LC 875)]]
 
 #### Linked List
 - [[Reverse Linked List]]
