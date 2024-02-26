@@ -1,5 +1,5 @@
 ---
-title: Peak of Mountain Array
+title: Peak of Mountain Array (LC 852)
 tags:
   - cs
 date: 2024-02-25
