@@ -61,5 +61,6 @@
   "Editor@@inline-title-color-select": "inline-title-color-customized",
   "Editor@@inline-title-color@@dark": "#7683FF",
   "Appearance-light@@accent-light": "#FFFFFF",
-  "Editor@@h4-weight": 500
+  "Editor@@h4-weight": 500,
+  "Editor@@inline-code-normal@@dark": "#59B5FF"
 }
