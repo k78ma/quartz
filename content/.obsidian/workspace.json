@@ -20,53 +20,43 @@
             }
           },
           {
-            "id": "02babf42c68a597e",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kai++.md"
-              }
-            }
-          },
-          {
-            "id": "a58b74fab41feab7",
+            "id": "e582a3ce03406ba9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Problems.md",
+                "file": "Sensor Fusion.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a1295dc29520525d",
+            "id": "c270a73f80850bd8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Robotics/Kalman Filter.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "636d485ab9b477c7",
+            "id": "7eb23272f7a7ba35",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Binary Tree.md",
+                "file": "CS/Depth First Search.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -152,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Binary Tree.md"
+                "file": "CS/Depth First Search.md"
               }
             }
           },
@@ -180,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Binary Tree.md",
+                "file": "CS/Depth First Search.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Binary Tree.md",
+                "file": "CS/Depth First Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Binary Tree.md",
+                "file": "CS/Depth First Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -258,13 +248,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "636d485ab9b477c7",
+  "active": "7eb23272f7a7ba35",
   "lastOpenFiles": [
+    "ML/Radar Perception.md",
+    "kai++.md",
+    "Sensor Fusion.md",
+    "Robotics/Kalman Filter.md",
+    "Robotics/Robotics.md",
+    "Control Theory/Control Theory.md",
+    "CS/Problems/Problems.md",
+    "CS/Tree Traversal.md",
+    "CS/Depth First Search.md",
     "CS/Data Structures and Algorithms.md",
+    "CS/attachments/Tree Traversal.png",
+    "CS/Balanced Binary Tree.md",
+    "CS/Binary Search Tree.md",
     "CS/Binary Tree.md",
     "CS/Trees.md",
-    "CS/Problems/Problems.md",
-    "kai++.md",
     "CS/One-sided Binary Search.md",
     "CS/Problems/Koko Eating Bananas (LC 875).md",
     "CS/Square Root with Binary Search.md",
@@ -279,24 +279,14 @@
     "CS/attachments/Binary Search for Boolean Array-1.png",
     "CS/attachments/Binary Search for Boolean Array.png",
     "CS/Statically vs. Dynamically Typed Languages.md",
-    "OS/Memory & Resource Management.md",
-    "E-Stop.md",
     "attachments/E-Stop-5.png",
     "attachments/E-Stop-4.png",
-    "Baymax.md",
     "attachments/E-Stop-3.png",
     "attachments/E-Stop-2.png",
-    "OS/Operating Systems.md",
-    "ML/Radar Perception.md",
-    "ML/2D Convolution Operation.md",
     "ML/attachments/Radar Perception.png",
-    "HW/SW Interface Layer.md",
     "HW",
-    "CS/Sorting Algorithms.md",
-    "ML/ML Fundamentals.md",
     "attachments/Resume Review.png",
     "attachments/E-Stop-1.png",
-    "attachments/E-Stop.png",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
     "Untitled.canvas",

@@ -14,6 +14,8 @@ aliases:
 - [[Motion Planning]]
 - [[SLAM]]
 - [[Control Theory]]
+
+- [[Kalman Filter]]
 ## Tools/Practical
 - [[ROS]]
 - [[CMake]]

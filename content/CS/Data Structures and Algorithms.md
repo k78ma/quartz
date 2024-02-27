@@ -33,8 +33,12 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Trees]]
 - [[Binary Tree]]
 - [[Binary Search Tree]]
-- 
-### Depth-first Search
+	- [[Balanced Binary Tree]]
+		- [[Red-black trees]]
+		- [[AVL trees]]
+- [[Tree Traversal]]
+
+- [[Depth First Search]]
 
 ### Breadth-first Search
 
