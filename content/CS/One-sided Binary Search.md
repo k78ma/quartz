@@ -18,7 +18,6 @@ An array of boolean values is divided into two sections; the left section consis
 from typing import List
 
 def find_boundary(arr: List[bool]) -> int:
-    # WRITE YOUR BRILLIANT CODE HERE
     
     l, r = 0, len(arr) - 1
     boundary = -1

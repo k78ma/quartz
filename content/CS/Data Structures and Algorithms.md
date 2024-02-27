@@ -30,7 +30,10 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal
-
+- [[Trees]]
+- [[Binary Tree]]
+- [[Binary Search Tree]]
+- 
 ### Depth-first Search
 
 ### Breadth-first Search

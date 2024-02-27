@@ -45,6 +45,8 @@ date: 2023-09-21
 - [[Peak of Mountain Array (LC 852)]]
 - [[Koko Eating Bananas (LC 875)]]
 
+#### Trees
+
 #### Linked List
 - [[Reverse Linked List]]
 

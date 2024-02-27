@@ -42,31 +42,31 @@
             }
           },
           {
-            "id": "65806c3dfd6f0052",
+            "id": "a1295dc29520525d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Koko Eating Bananas (LC 875).md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb6d22ea570ad115",
+            "id": "636d485ab9b477c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Operations with Big O.md",
+                "file": "CS/Binary Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Koko Eating Bananas (LC 875).md"
+                "file": "CS/Binary Tree.md"
               }
             }
           },
@@ -180,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Problems/Koko Eating Bananas (LC 875).md",
+                "file": "CS/Binary Tree.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Koko Eating Bananas (LC 875).md",
+                "file": "CS/Binary Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Koko Eating Bananas (LC 875).md",
+                "file": "CS/Binary Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -258,17 +258,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "65806c3dfd6f0052",
+  "active": "636d485ab9b477c7",
   "lastOpenFiles": [
-    "CS/Problems/Problems.md",
-    "CS/Problems/Koko Eating Bananas (LC 875).md",
-    "CS/Problems/Peak of Mountain Array (LC 852).md",
     "CS/Data Structures and Algorithms.md",
+    "CS/Binary Tree.md",
+    "CS/Trees.md",
+    "CS/Problems/Problems.md",
+    "kai++.md",
+    "CS/One-sided Binary Search.md",
+    "CS/Problems/Koko Eating Bananas (LC 875).md",
+    "CS/Square Root with Binary Search.md",
+    "CS/Problems/Peak of Mountain Array (LC 852).md",
     "CS/Find Minimum in Rotated Sorted Array (LC 153).md",
     "CS/Operations with Big O.md",
-    "kai++.md",
-    "CS/Square Root with Binary Search.md",
-    "CS/One-sided Binary Search.md",
     "Binary Search (LC 20).md",
     "Resume Review.md",
     "2024-02-25.md",
@@ -292,8 +294,6 @@
     "HW",
     "CS/Sorting Algorithms.md",
     "ML/ML Fundamentals.md",
-    "ML/Computer Vision.md",
-    "ML/Machine Learning.md",
     "attachments/Resume Review.png",
     "attachments/E-Stop-1.png",
     "attachments/E-Stop.png",
