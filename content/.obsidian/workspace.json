@@ -49,14 +49,62 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Depth First Search.md",
+                "file": "CS/Data Structures and Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ef8eed0482252ce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "65430656d7c0ee25",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Baymax.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7a2bc32745ebb4e1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Machine Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0c318817bbe2597b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/SYDE 572 A3.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -129,7 +177,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "38ed62c6a1f2d5ec",
+            "id": "c977cfd40753ddf6",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -142,7 +190,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Depth First Search.md"
+                "file": "ML/SYDE 572 A3.md"
               }
             }
           },
@@ -170,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Depth First Search.md",
+                "file": "ML/SYDE 572 A3.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +253,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Depth First Search.md",
+                "file": "ML/SYDE 572 A3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +270,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Depth First Search.md",
+                "file": "ML/SYDE 572 A3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -248,8 +296,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "7eb23272f7a7ba35",
+  "active": "0c318817bbe2597b",
   "lastOpenFiles": [
+    "ML/Machine Learning.md",
+    "ML/SYDE 572 A3.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Baymax.md",
+    "CS/Data Structures and Algorithms.md",
+    "CS/Depth First Search.md",
     "ML/Radar Perception.md",
     "kai++.md",
     "Sensor Fusion.md",
@@ -258,8 +312,6 @@
     "Control Theory/Control Theory.md",
     "CS/Problems/Problems.md",
     "CS/Tree Traversal.md",
-    "CS/Depth First Search.md",
-    "CS/Data Structures and Algorithms.md",
     "CS/attachments/Tree Traversal.png",
     "CS/Balanced Binary Tree.md",
     "CS/Binary Search Tree.md",
@@ -273,12 +325,8 @@
     "CS/Operations with Big O.md",
     "Binary Search (LC 20).md",
     "Resume Review.md",
-    "2024-02-25.md",
-    "CS/Binary Search.md",
-    "CS/Problems/Trapping Rain Water (LC 42).md",
     "CS/attachments/Binary Search for Boolean Array-1.png",
     "CS/attachments/Binary Search for Boolean Array.png",
-    "CS/Statically vs. Dynamically Typed Languages.md",
     "attachments/E-Stop-5.png",
     "attachments/E-Stop-4.png",
     "attachments/E-Stop-3.png",
