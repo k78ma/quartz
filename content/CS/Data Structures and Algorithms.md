@@ -37,15 +37,15 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 		- [[Red-black trees]]
 		- [[AVL trees]]
 - [[Tree Traversal]]
-
+### Depth First Search
 - [[Depth First Search]]
 	- [[Depth First Search on Trees]]
-
-### Breadth-first Search
-
+### Breadth First Search
+- [[Breadth First Search]]
 ## Weighted Graph Algorithms
 
 ## Combinatorial Search
+- [[Backtracking]]
 
 ## Dynamic Programming
 
