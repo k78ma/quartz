@@ -39,6 +39,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Tree Traversal]]
 
 - [[Depth First Search]]
+	- [[Depth First Search on Trees]]
 
 ### Breadth-first Search
 
