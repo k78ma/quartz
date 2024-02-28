@@ -52,7 +52,7 @@ We need to consider the problem of finding the maximum value in a binary tree. F
 ![[Depth First Search on Trees.png|428]]
 
 ### Return Value/Divide and Conquer
-One way to solve it is to use return value to pass the maximum value we have encountered back to parent node, and let the parent node compare it with the return value from the other child. This is more of a divide and conquer approach.
+One way to solve it is to use return value to pass the maximum value we have encountered back to parent node, and let the parent node compare it with the return value from the other child. This is more of a [[divide and conquer]] approach.
 
 ```python
 def dfs(node):

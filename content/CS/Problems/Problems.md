@@ -46,6 +46,9 @@ date: 2023-09-21
 - [[Koko Eating Bananas (LC 875)]]
 
 #### Trees
+- [[Maximum Depth of Binary Tree (LC 104)]]
+- [[Visible Tree Node]]
+- [[Balanc]]
 
 #### Linked List
 - [[Reverse Linked List]]
