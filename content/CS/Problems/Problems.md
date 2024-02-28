@@ -48,7 +48,7 @@ date: 2023-09-21
 #### Trees
 - [[Maximum Depth of Binary Tree (LC 104)]]
 - [[Visible Tree Node]]
-- [[Balanc]]
+- [[Balanced Binary Tree (LC 110)]]
 
 #### Linked List
 - [[Reverse Linked List]]
