@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Backtracking.md",
+                "file": "CS/Tree Pruning.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,38 +61,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/DSA Problems.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4aec8e1b5a21994",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "46832d75d7567bfd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -178,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Letter Combinations of a Phone Number (LC 17).md"
+                "file": "CS/Problems/Palindrome Partitioning (LC 131).md"
               }
             }
           },
@@ -206,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
+                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -241,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
+                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
+                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -284,15 +260,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c4aec8e1b5a21994",
+  "active": "87412ca920c41bb2",
   "lastOpenFiles": [
+    "CS/Tree Pruning.md",
+    "CS/Problems/Palindrome Partitioning (LC 131).md",
+    "CS/Data Structures and Algorithms.md",
+    "CS/Problems/DSA Problems.md",
     "CS/Backtracking.md",
     "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
-    "CS/Problems/DSA Problems.md",
     "Polymath/VIDAS ROS 2 Driver.md",
+    "Vault Stats.md",
+    "Statistics/Statistics.md",
+    "E-Stop.md",
+    "CS/Designing Functions.md",
     "CS/Problems/Ternary Tree Paths.md",
     "CS/Problems/attachments/Ternary Tree Paths.png",
-    "CS/Data Structures and Algorithms.md",
     "CS/Problems/Balanced Binary Tree (LC 110).md",
     "CS/Problems/Visible Tree Node.md",
     "Robotics/Kalman Filter.md",
@@ -308,13 +290,7 @@
     "kai++.md",
     "Robotics/Robotics.md",
     "Control Theory/Control Theory.md",
-    "CS/Tree Traversal.md",
     "CS/attachments/Tree Traversal.png",
-    "CS/Balanced Binary Tree.md",
-    "CS/Binary Search Tree.md",
-    "CS/Binary Tree.md",
-    "CS/Trees.md",
-    "CS/One-sided Binary Search.md",
     "CS/attachments/Binary Search for Boolean Array-1.png",
     "CS/attachments/Binary Search for Boolean Array.png",
     "attachments/E-Stop-5.png",

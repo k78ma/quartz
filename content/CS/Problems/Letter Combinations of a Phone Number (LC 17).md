@@ -10,7 +10,11 @@ A mapping of digits to letters (just like on the telephone buttons) is given bel
 
 ## Solution
 
-This is a simple [[backtracking]] problem
+This is a simple [[backtracking]] problem. 
+
+**Base case:** If our starting index is the length of our digits, we have reached a leaf node (solution) and append this to our list of results.
+
+**Recursion:** Find the current number based on its index, then traverse through all the of its possible characters and recurse.
 
 ```python
 class Solution:
@@ -33,8 +37,8 @@ class Solution:
                 result.append(''.join(path))
                 return
             
-            next_num = digits[start_index]
-            for letter in self.KEYBOARD[next_num]:
+            current_num = digits[start_index]
+            for letter in self.KEYBOARD[current_num]:
                 path.append(letter)
                 dfs(start_index + 1, path)
                 path.pop()
