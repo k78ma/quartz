@@ -16,3 +16,13 @@ docker run -it --name vidas --rm -v $(pwd):/vidas_ros2_ws osrf/ros:humble-deskto
 cd vidas_ros2_ws
 ```
 
+
+Launch command:
+```
+ros2 launch vidas_ros2 vidas_ros2_launch.py
+```
+
+Questions:
+- Depth image message type and visualization
+- OccupancyGrid → Costmap2D
+- OccupancyGrid GPS requirement?

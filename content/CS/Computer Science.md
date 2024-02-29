@@ -11,7 +11,7 @@ aliases:
 - [[Data Structures and Algorithms]]
 - [[Object Oriented Programming]]
 - [[Distributed Systems]]
-- [[Problems]]
+- [[DSA Problems]]
 ## Other
 - [[Strongly vs. Weakly Typed Languages|Strongly vs. Weakly Typed Languages]]
 - [[Statically vs. Dynamically Typed Languages|Statically vs. Dynamically Typed Languages]]
