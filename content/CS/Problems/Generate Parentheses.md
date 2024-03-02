@@ -13,6 +13,15 @@ Given an integer `n`, generate all strings with `n` matching parentheses. "ma
 For example, `()` is a valid string but `)(` is not a valid string because `)` has no matching parenthesis before it and `(` has no matching parenthesis after it.
 
 ## Solution
+This is a [[Backtracking]] problem (keywords: "generate all"). Starting with an empty string, we can add `(` or `)` and continue to do so until the length reaches `2 * n`. 
+
+Generated strings are invalid when:
+- There are more than `n` occurrences `(`
+- We want to add a `)` but there is no matching `(`
+
+![[Generate Parentheses.png|500]]
+
+We can [[Tree Pruning|prune]] branches that don't lead to a valid leaf node.
 
 ```python
 def generate_parentheses(n: int) -> List[str]:
