@@ -44,31 +44,55 @@
             }
           },
           {
-            "id": "c1e1e8550d9265e3",
+            "id": "360e254db86c4be6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Tree Pruning.md",
+                "file": "CS/Problems/DSA Problems.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "87412ca920c41bb2",
+            "id": "ee10bb431068a5e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
+                "file": "CS/Problems/Generate Parentheses.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "433770710d7b8fbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "728c1f841c0bef4c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Problems/Generate Parentheses.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -141,7 +165,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90887bf45ca5ff89",
+            "id": "b229d9ae47af6319",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -154,7 +178,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Palindrome Partitioning (LC 131).md"
+                "file": "CS/Problems/Generate Parentheses.md"
               }
             }
           },
@@ -182,7 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
+                "file": "CS/Problems/Generate Parentheses.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,7 +241,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
+                "file": "CS/Problems/Generate Parentheses.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +258,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Palindrome Partitioning (LC 131).md",
+                "file": "CS/Problems/Generate Parentheses.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -260,15 +284,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "87412ca920c41bb2",
+  "active": "728c1f841c0bef4c",
   "lastOpenFiles": [
-    "CS/Tree Pruning.md",
-    "CS/Problems/Palindrome Partitioning (LC 131).md",
+    "Sensor Fusion.md",
+    "Robotics/Kalman Filter.md",
+    "CS/Problems/Generate Parentheses.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Baymax.md",
     "CS/Data Structures and Algorithms.md",
     "CS/Problems/DSA Problems.md",
+    "ML/Radar Perception.md",
+    "CS/Problems/Palindrome Partitioning (LC 131).md",
     "CS/Backtracking.md",
+    "CS/Tree Pruning.md",
     "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
-    "Polymath/VIDAS ROS 2 Driver.md",
     "Vault Stats.md",
     "Statistics/Statistics.md",
     "E-Stop.md",
@@ -277,19 +306,14 @@
     "CS/Problems/attachments/Ternary Tree Paths.png",
     "CS/Problems/Balanced Binary Tree (LC 110).md",
     "CS/Problems/Visible Tree Node.md",
-    "Robotics/Kalman Filter.md",
     "CS/Depth First Search.md",
     "CS/Depth First Search on Trees.md",
     "CS/Problems/Maximum Depth of Binary Tree (LC 104).md",
-    "Baymax.md",
     "CS/attachments/Depth First Search on Trees.png",
-    "Sensor Fusion.md",
     "ML/Machine Learning.md",
     "ML/SYDE 572 A3.md",
-    "ML/Radar Perception.md",
     "kai++.md",
     "Robotics/Robotics.md",
-    "Control Theory/Control Theory.md",
     "CS/attachments/Tree Traversal.png",
     "CS/attachments/Binary Search for Boolean Array-1.png",
     "CS/attachments/Binary Search for Boolean Array.png",

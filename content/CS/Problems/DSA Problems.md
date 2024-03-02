@@ -53,6 +53,7 @@ aliases:
 #### Backtracking
 - [[Letter Combinations of a Phone Number (LC 17)]]
 - [[Palindrome Partitioning (LC 131)]]
+- [[Generate Parentheses]]
 
 ### Linked List
 - [[Reverse Linked List]]

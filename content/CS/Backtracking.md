@@ -34,6 +34,26 @@ def dfs(start_index, path):
 
 The main logic we have to fill out are `is_leaf()` and `get_edges()`, which correspond to the 2 questions above. Sometimes these helper functions can be just one line of code, in which case it wouldn't be necessary to separate into another function.
 
+Sometimes, we want to keep tracking of additional states that tell us whether a given branch is valid or not, such as for [[Tree Pruning]]. This looks like:
+
+```python
+ans = []
+def dfs(start_index, path, [...additional states]):
+    if is_leaf(start_index):
+        ans.append(path[:]) # add a copy of the path to the result
+        return
+    for edge in get_edges(start_index, [...additional states]):
+        # prune if needed
+        if not is_valid(edge):
+            continue
+        path.add(edge)
+        if additional states:
+            update(...additional states)
+        dfs(start_index + len(edge), path, [...additional states])
+        # revert(...additional states) if necessary e.g. permutations
+        path.pop()
+```
+
 ## Time & Space Complexity
 **Time:** We visit each node of the state-space tree exactly once so the time complexity of a backtracking algorithm is proportional to the number of nodes in the state-space tree. The number of nodes in a tree can be calculated by multiplying `number of children of each node ^ height of the tree`.
 

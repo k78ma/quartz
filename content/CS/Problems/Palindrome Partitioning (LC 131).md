@@ -78,3 +78,11 @@ class Solution:
             l, r = l + 1, r - 1
         return True
 ```
+
+### Complexity
+Time complexity for both above is $O(2^{n} \cdot n)$:
+- For each letter in the input string, we can either include it as a previous string or start a new string with it. With those two choices, the total number of operations is $2^{n}$.
+- We also need $O(n)$ operations to check if the string is a palindrome.
+
+Space complexity depends on the height of the tree; in the worst case, it's $O(n)$.
+- Maximum amount of memory used at any time is proportional to the maximum depth of the recursive call stack
