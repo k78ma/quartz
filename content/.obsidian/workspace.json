@@ -44,31 +44,31 @@
             }
           },
           {
-            "id": "360e254db86c4be6",
+            "id": "d38c3461ae97c975",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/DSA Problems.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ee10bb431068a5e7",
+            "id": "0b5ac078b608b10e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Generate Parentheses.md",
+                "file": "CS/Tree Pruning.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +141,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b229d9ae47af6319",
+            "id": "42b0526b5039c3f2",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -154,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Generate Parentheses.md"
+                "file": "Sensor Fusion.md"
               }
             }
           },
@@ -182,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Problems/Generate Parentheses.md",
+                "file": "Sensor Fusion.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -217,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Generate Parentheses.md",
+                "file": "Sensor Fusion.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -234,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Generate Parentheses.md",
+                "file": "Sensor Fusion.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -260,20 +260,24 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "ee10bb431068a5e7",
+  "active": "e582a3ce03406ba9",
   "lastOpenFiles": [
-    "CS/Problems/attachments/Generate Parentheses.png",
-    "Polymath/VIDAS ROS 2 Driver.md",
-    "CS/Problems/Generate Parentheses.md",
-    "Sensor Fusion.md",
-    "Robotics/Kalman Filter.md",
-    "Baymax.md",
     "CS/Data Structures and Algorithms.md",
     "CS/Problems/DSA Problems.md",
+    "CS/Problems/Generate Permutations (LC 46).md",
+    "CS/Tree Pruning.md",
+    "CS/Backtracking.md",
+    "Robotics/Kalman Filter.md",
+    "The Art of Doing Science and Engineering.md",
+    "CS/Problems/Generate Parentheses (LC 22).md",
+    "Things I Want.md",
+    "Sensor Fusion.md",
+    "attachments/Sensor Fusion.png",
+    "CS/Problems/attachments/Generate Parentheses.png",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Baymax.md",
     "ML/Radar Perception.md",
     "CS/Problems/Palindrome Partitioning (LC 131).md",
-    "CS/Backtracking.md",
-    "CS/Tree Pruning.md",
     "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
     "Vault Stats.md",
     "Statistics/Statistics.md",
@@ -288,16 +292,12 @@
     "CS/Problems/Maximum Depth of Binary Tree (LC 104).md",
     "CS/attachments/Depth First Search on Trees.png",
     "ML/Machine Learning.md",
-    "ML/SYDE 572 A3.md",
-    "kai++.md",
     "CS/attachments/Tree Traversal.png",
     "CS/attachments/Binary Search for Boolean Array-1.png",
     "CS/attachments/Binary Search for Boolean Array.png",
     "attachments/E-Stop-5.png",
     "attachments/E-Stop-4.png",
     "attachments/E-Stop-3.png",
-    "attachments/E-Stop-2.png",
-    "ML/attachments/Radar Perception.png",
     "HW",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

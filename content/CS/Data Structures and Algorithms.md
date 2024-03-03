@@ -47,6 +47,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 ## Combinatorial Search
 - [[Backtracking]]
 - [[Tree Pruning]]
+- [[Backtracking Aggregation]]
 
 ## Dynamic Programming
 

@@ -1,9 +1,9 @@
 ---
-title: Generate Parentheses
+title: Generate Parentheses (LC 22)
 tags:
   - cs
   - problems
-date: 2024-02-29
+date: 2024-03-02
 aliases:
 ---
 Given an integer `n`, generate all strings with `n` matching parentheses. "matching" parentheses mean

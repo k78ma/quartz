@@ -6,9 +6,10 @@ aliases:
 draft: "true"
 ---
 Books I would like to own a physical copy of (once I settle somewhere permanently/semi-permanently):
-- Feynman Lectures on Physics
-- Proofs (Jay Cummings)
-- Understanding Deep Learning (Simon J.D. Prince)
+- [ ] Feynman Lectures on Physics
+- [x] Proofs (Jay Cummings)
+- [ ] Understanding Deep Learning (Simon J.D. Prince)
+- [x] [[The Art of Doing Science and Engineering]]
 
 Stuff:
 - Telescope of decent quality
