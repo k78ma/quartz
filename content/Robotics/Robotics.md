@@ -11,6 +11,7 @@ aliases:
 **Visual SLAM:**   <progress max=356 value=54> </progress> 
 ## Areas
 - [[Robot Configuration & Representation]]
+- [[Sensing]]
 - [[Motion Planning]]
 - [[SLAM]]
 - [[Control Theory]]
