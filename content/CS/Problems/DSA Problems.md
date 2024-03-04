@@ -55,6 +55,7 @@ aliases:
 - [[Palindrome Partitioning (LC 131)]]
 - [[Generate Parentheses (LC 22)]]
 - [[Generate Permutations (LC 46)]]
+- [[Word Break (LC 139)]]
 
 ### Linked List
 - [[Reverse Linked List]]

@@ -48,6 +48,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Backtracking]]
 - [[Tree Pruning]]
 - [[Backtracking Aggregation]]
+- [[Memoization]]
 
 ## Dynamic Programming
 

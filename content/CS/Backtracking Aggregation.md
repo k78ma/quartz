@@ -31,4 +31,10 @@ Differences:
 - No `path` push/pop; we don't need to actually generate the solutions, just the aggregated value.
 - Use return value to aggregate results from child `dfs`calls
 
-Depending on what the problem asks, 
+Depending on what the problem asks for, the `initial_value` and `aggregate` function here can be:
+
+| Problem | `initial_value` | `aggregate` |
+| ---- | ---- | ---- |
+| Is it possible? Does it exist? | boolean | logical OR (`\|\|`) |
+| Number of ways to… | 0 | addition (`+`) |
+| Max/min ways/value to | 0, inf | max/min |
