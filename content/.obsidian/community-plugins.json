@@ -1,5 +1,4 @@
 [
-  "callout-manager",
   "dataview",
   "obsidian-latex-suite",
   "mousewheel-image-zoom",
@@ -20,6 +19,6 @@
   "obsidian-image-caption",
   "nl-fast-image-cleaner",
   "oz-clear-unused-images",
-  "pseudocode-in-obs",
-  "table-editor-obsidian"
+  "table-editor-obsidian",
+  "callout-manager"
 ]

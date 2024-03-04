@@ -17,3 +17,7 @@ Let's say we are trying to predict the motion of an airplane. To build our model
 - Random/unknown inputs
 
 Our model for the motion of the plane would take the first two into account, while adding process noise to deal with random/unknown inputs.
+
+## Types of Filters
+- [[Kalman Filter]]
+- [[Interacting Multiple Model Filter]]

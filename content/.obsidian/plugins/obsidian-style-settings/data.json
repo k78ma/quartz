@@ -62,5 +62,6 @@
   "Editor@@inline-title-color@@dark": "#7683FF",
   "Appearance-light@@accent-light": "#FFFFFF",
   "Editor@@h4-weight": 500,
-  "Editor@@inline-code-normal@@dark": "#59B5FF"
+  "Editor@@inline-code-normal@@dark": "#59B5FF",
+  "Appearance-light@@color-pink-rgb@@light": "#D00077"
 }

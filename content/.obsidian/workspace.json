@@ -32,31 +32,43 @@
             }
           },
           {
-            "id": "fe06b48a01b54c09",
+            "id": "ad49cc436e117ef5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Sensing.md",
+                "file": "Robotics/Interacting Multiple Model Filter.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "855f45f50663378d",
+            "id": "12bdfbb412dd1c9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Robotics/Multi-Object Tracking.md",
+                "file": "Baymax.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "56c31ff86f22c0b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Backtracking Aggregation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -142,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robotics/Multi-Object Tracking.md"
+                "file": "CS/Backtracking Aggregation.md"
               }
             }
           },
@@ -170,7 +182,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Robotics/Multi-Object Tracking.md",
+                "file": "CS/Backtracking Aggregation.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +217,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Multi-Object Tracking.md",
+                "file": "CS/Backtracking Aggregation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +234,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Multi-Object Tracking.md",
+                "file": "CS/Backtracking Aggregation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -248,48 +260,48 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "855f45f50663378d",
+  "active": "56c31ff86f22c0b6",
   "lastOpenFiles": [
-    "Robotics/Sensing.md",
-    "Robotics/Multi-Object Tracking.md",
-    "ML/Radar Perception.md",
-    "Sensor Fusion.md",
-    "Interacting Multiple Model Filter.md",
-    "attachments/Interacting Multiple Model Filter.png",
-    "Robotics/Estimation Filter.md",
-    "Robotics/Robotics.md",
     "CS/Data Structures and Algorithms.md",
-    "CS/Tree Pruning.md",
+    "CS/Backtracking Aggregation.md",
+    "Baymax.md",
     "Robotics/Kalman Filter.md",
-    "attachments/Sensor Fusion-1.png",
+    "Robotics/attachments/Kalman Filter-5.png",
+    "Robotics/attachments/Kalman Filter-4.png",
+    "Robotics/attachments/Kalman Filter-3.png",
+    "Robotics/attachments/Kalman Filter-2.png",
+    "Robotics/attachments/Kalman Filter-1.png",
+    "Robotics/attachments/Kalman Filter.png",
+    "Robotics/Interacting Multiple Model Filter.md",
+    "Robotics/Sensing.md",
+    "Robotics/Track-to-Track Fusion.md",
+    "Baymax Architecture.canvas",
+    "Untitled.md",
+    "Robotics/attachments/Track-to-Track Fusion-2.png",
+    "Robotics/attachments/Track-to-Track Fusion-1.png",
+    "Robotics/attachments/Track-to-Track Fusion.png",
+    "Robotics/Mahalanobis Distance.md",
+    "Robotics/Multi-Object Tracking.md",
+    "Robotics/Estimation Filter.md",
+    "Robotics/attachments/Pasted image 20240303150022.png",
+    "ML/Radar Perception.md",
+    "Robotics/Sensor Fusion.md",
+    "Robotics/Robotics.md",
+    "CS/Tree Pruning.md",
     "CS/Problems/DSA Problems.md",
     "CS/Problems/Generate Permutations (LC 46).md",
     "CS/Backtracking.md",
     "The Art of Doing Science and Engineering.md",
     "CS/Problems/Generate Parentheses (LC 22).md",
     "Things I Want.md",
-    "attachments/Sensor Fusion.png",
-    "CS/Problems/attachments/Generate Parentheses.png",
     "Polymath/VIDAS ROS 2 Driver.md",
-    "Baymax.md",
     "CS/Problems/Palindrome Partitioning (LC 131).md",
     "CS/Problems/Letter Combinations of a Phone Number (LC 17).md",
     "Vault Stats.md",
     "Statistics/Statistics.md",
-    "E-Stop.md",
-    "CS/Designing Functions.md",
-    "CS/Problems/Ternary Tree Paths.md",
-    "CS/Problems/attachments/Ternary Tree Paths.png",
-    "CS/Problems/Balanced Binary Tree (LC 110).md",
-    "CS/attachments/Depth First Search on Trees.png",
-    "CS/attachments/Tree Traversal.png",
-    "CS/attachments/Binary Search for Boolean Array-1.png",
-    "CS/attachments/Binary Search for Boolean Array.png",
-    "attachments/E-Stop-5.png",
     "HW",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
-    "Untitled.canvas",
     "Blog/attachments",
     "RL Conceptual Framework.canvas",
     "Robotics/slambook-en.pdf",
