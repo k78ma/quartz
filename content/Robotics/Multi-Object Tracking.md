@@ -16,11 +16,11 @@ So, what are some ways of doing data association and track maintenance?
 ### Observations
 When thinking about data association with a specific object, we need to think about what kind of data we're getting and the characteristics of that data. 
 
-For example, if we're using radar to detect a bunch of planes, we have some *measured quantities* such as range, range rate, line of sight. We also have *measured attributes* like target type, ID number, and object shape. If we have convenient object attributes, like an ID number, the data association problem becomes significantly easier. We could also try to do classification from our data, such as using Doppler spectrum/fluctuations to figure out what an object is.
+For example, if we're using radar to detect a bunch of planes, we have some *measured quantities* about the kinematic nature of the object such as range, range rate, line of sight. We also have *measured attributes* like target type, ID number, and object shape. If we have convenient object attributes, like an ID number, the data association problem becomes significantly easier. We could also try to do classification from our data, such as using Doppler spectrum/fluctuations to figure out what an object is.
 
 We also need to think about *resolution*. If our target object is a point target, each object would contain at most one radar point, resulting in 1-to-1 association between detections and objects. However, if we have large objects or high resolution, we will have several points, or even a point cloud (many-to-one). If we have low resolution, several objects may be shown by a single detection (1-to-many).
 ### Assignment
-Assignment is the process of matching an observation to a tracked project. A simple algorithm for doing this is [[Global Nearest Neighbour|GNN]], which simply assigns a track to the nearest observation; note that this doesn't have to use Euclidean distance and can instead use a probabilistic distance metric like [[Mahalanobis Distance]]. 
+Assignment is the process of matching an observation to a tracked object. A simple algorithm for doing this is [[Global Nearest Neighbour]], which simply assigns a track to the nearest observation; note that this doesn't have to use Euclidean distance and can instead use a probabilistic distance metric like [[Mahalanobis Distance]]. 
 
 GNN works well for sparsely distributed objects, but for clustered objects, something like [[Joint Probabilistic Data Association]] might be better. Instead of making a hard assignment between 1 observation and 1 track, it makes weighted combination of all of the neighboring observations, with closer observations being weighted higher than further ones.
 

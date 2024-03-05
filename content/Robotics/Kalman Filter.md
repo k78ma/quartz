@@ -129,18 +129,18 @@ $$
 As such, the new best estimate is is a prediction made from previous best estimate, plus a correction for known external influences. The new uncertainty is predicted from the old uncertainty, with some additional uncertainty from the environment. 
 
 ### Measurement
-We might have several sensors which give us information about the state of our system. These give indirect readings; based on the state, the sensors have some transfer function/mapping:
+We might have several sensors which give us information about the state of our system. These give indirect readings; based on the state, the sensors have some transfer function/mapping to their measurement:
 
 ![[Kalman Filter-4.png|480]]
 
-This transfer function can for the sensors can be modeled with a matrix, $\mathbf{H}_{k}$. This lets us figure out the distribution of sensor readings:
+This transfer function can for the sensors can be modeled with a matrix, $\mathbf{H}_{k}$; it takes a predicted state vector $\mathbf{\hat{x}}_{k}$ and turns it into a predicted measurement vector (what the sensor reading should be). This sensor reading distribution is given by:
 $$
 \begin{align}
 \vec{\mu}_{\text{expected}} = \mathbf{H}_{k}\mathbf{\hat{x}}_{k} \\[2ex]
 \Sigma_{\text{expected}} = \mathbf{H}_{k} \, \mathbf{P}_{k} \, \mathbf{H}_{k}^{T}
 \end{align}
 $$
-We also need to deal with *sensor noise*; every very state in our original estimate might result in a range of sensor readings. For a given reading, because there is uncertainty, some states are more likely than others to have have produced the reading we saw.  The covariance of this uncertainty (sensor noise) is called $\mathbf{R}$ – this is called the **measurement noise covariance matrix**. 
+We also need to deal with *sensor noise*; every very state in our original estimate might result in a range of sensor readings. The covariance of this uncertainty (sensor noise) is called $\mathbf{R}$ – this is called the **measurement noise covariance matrix**. 
 
 The distribution has a mean equal to the reading we observed, which we’ll call $\mathbf{\vec{z}}_{k}$.
 
@@ -171,7 +171,9 @@ $$
 \Sigma'  & = \Sigma_{0} - \mathbf{K}\Sigma_{0}
 \end{align}
 $$
-$\mathbf{K}$ is a matrix called the **Kalman gain**.
+$\mathbf{K}$ is a matrix called the **Kalman gain**, which essentially represents the weight given to the difference between the actual measurement and the predicted state. 
+- If the Kalman gain is high, the filter places more trust in the latest measurements. 
+- Conversely, a low Kalman gain indicates more confidence in the model predictions.
 
 ### Update Step
 We have two distributions:
