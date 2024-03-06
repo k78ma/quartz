@@ -92,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -153,7 +153,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 210.5,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -169,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Baymax.md"
+                "file": "Polymath/VIDAS ROS 2 Driver.md"
               }
             }
           },
@@ -206,7 +207,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Baymax.md",
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -241,7 +242,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Baymax.md",
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -258,7 +259,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Baymax.md",
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -284,10 +285,11 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "e3be47f565210539",
+  "active": "575b70fb06334461",
   "lastOpenFiles": [
-    "Robotics/Estimation Filter.md",
     "Baymax.md",
+    "Blog/Writing.md",
+    "Robotics/Estimation Filter.md",
     "Polymath/VIDAS ROS 2 Driver.md",
     "Untitled.md",
     "Robotics/Interacting Multiple Model Filter.md",
@@ -322,7 +324,6 @@
     "The Art of Doing Science and Engineering.md",
     "CS/Problems/Generate Parentheses (LC 22).md",
     "Things I Want.md",
-    "CS/Problems/Palindrome Partitioning (LC 131).md",
     "HW",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
