@@ -32,36 +32,22 @@
             }
           },
           {
+            "id": "c5e384ee9ed0cb8a",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
             "id": "fa997cffb3de42ad",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Robotics/Multi-Object Tracking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e7ad531158e682b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Interacting Multiple Model Filter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bf7e5818124458cc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Estimation Filter.md",
                 "mode": "source",
                 "source": false
               }
@@ -80,19 +66,55 @@
             }
           },
           {
-            "id": "e3be47f565210539",
+            "id": "c4c7a35b896bd9b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Baymax.md",
+                "file": "Resume Review.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f54ed061a7ba99f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/noVNC.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3c8e35905c23c81a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/SYDE 572 A3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f4f2904730b43a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Docker vs. VM.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -170,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md"
+                "file": "Docker vs. VM.md"
               }
             }
           },
@@ -207,7 +229,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "Docker vs. VM.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -242,7 +264,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "Docker vs. VM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -259,7 +281,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "Docker vs. VM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -285,16 +307,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "575b70fb06334461",
+  "active": "6f4f2904730b43a0",
   "lastOpenFiles": [
-    "Baymax.md",
-    "Blog/Writing.md",
-    "Robotics/Estimation Filter.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
-    "Untitled.md",
-    "Robotics/Interacting Multiple Model Filter.md",
+    "Docker vs. VM.md",
+    "Resume Review.md",
+    "ML/SYDE 572 A3.md",
     "Robotics/Multi-Object Tracking.md",
     "Robotics/Kalman Filter.md",
+    "Robotics/noVNC.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Baymax.md",
+    "Robotics/Interacting Multiple Model Filter.md",
+    "Robotics/Estimation Filter.md",
+    "Blog/Writing.md",
     "Robotics/Sensing.md",
     "ML/Radar Perception.md",
     "2B/SYDE 252/Fourier Transform.md",
@@ -321,9 +346,6 @@
     "CS/Tree Pruning.md",
     "CS/Problems/Generate Permutations (LC 46).md",
     "CS/Backtracking.md",
-    "The Art of Doing Science and Engineering.md",
-    "CS/Problems/Generate Parentheses (LC 22).md",
-    "Things I Want.md",
     "HW",
     "Untitled 2.canvas",
     "Untitled 1.canvas",

@@ -18,6 +18,13 @@ docker run -it --name vidas -p 8765:8765 --rm -v $(pwd):/vidas_ros2_ws osrf/ros:
 cd vidas_ros2_ws
 ```
 
+Lifecycle
+```
+ros2 lifecycle set /vidas_ros2_driver configure
+ros2 lifecycle set /vidas_ros2_driver activate
+ros2 lifecycle set /vidas_ros2_driver deactivate
+ros2 lifecycle set /vidas_ros2_driver cleanup
+```
 
 Launch command:
 ```
