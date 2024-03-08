@@ -26,13 +26,10 @@ Thus, both our sensor and model tell us some information about the state, but on
 The Kalman filter assumes that both position and velocity are random variables that are Gaussian distributed. Each variable has:
 - Mean of $\mu$, which is the center of the distribution.
 - Variance of $\sigma$, which is the uncertainty.
-
-![[Kalman Filter.png|292]]
-
 ### Covariance
 However, it's important to note that position and velocity could be *correlated*; the likelihood of observing a particular position depends on what velocity you have:
 
-![[Kalman Filter-1.png|288]]
+![[Kalman Filter.png|336]]
 
 In this case, the correlation between position and velocity is obvious. If our velocity was high, we probably moved farther, so our position will be more distant. This relationship gives us more information about the system; one measurement tells us something about what the others could be.
 
@@ -55,7 +52,7 @@ $$
 
 Next, we need to **predict** the next state at time $k$ based on the current state at $k-1$. This prediction step is done with a **prediction matrix** $\mathbf{F}_{k}$, which takes every point in our original Gaussian estimate and moves it to a new predicted location.
 
-![[Kalman Filter-3.png|290]]
+![[Kalman Filter-1.png|280]]
 
 In our position/velocity example, we can formulate a model based on kinematic laws (assuming constant velocity):
 $$
@@ -75,8 +72,6 @@ $$
 \end{align}
 $$
 which gives us our prediction matrix which gives us our next state. 
-
-![[Kalman Filter-2.png|290]]
 
 ### Covariance Matrix
 We can update the covariance matrix by observing what happens when we multiply every point in a distribution by a matrix $\mathbf{A}$:
@@ -131,7 +126,7 @@ As such, the new best estimate is is a prediction made from previous best est
 ### Measurement
 We might have several sensors which give us information about the state of our system. These give indirect readings; based on the state, the sensors have some transfer function/mapping to their measurement:
 
-![[Kalman Filter-4.png|480]]
+![[Kalman Filter-2.png]]
 
 This transfer function can for the sensors can be modeled with a matrix, $\mathbf{H}_{k}$; it takes a predicted state vector $\mathbf{\hat{x}}_{k}$ and turns it into a predicted measurement vector (what the sensor reading should be). This sensor reading distribution is given by:
 $$
@@ -147,7 +142,7 @@ The distribution has a mean equal to the reading we observed, which we’ll ca
 ### Combining Gaussians
 Now we have two Gaussian blobs: one for our prediction, and one surrounding the actual sensor reading we got, which we must reconcile. 
 
-![[Kalman Filter-5.png|320]]
+![[Kalman Filter-3.png|368]]
 
 For any possible reading $(z_{1},z_{2})$, we have two associated probabilities:
 1. The probability that our sensor reading $\mathbf{\vec{z}}_{k}$ is a mis-measurement of $(z_{1},z_{2})$

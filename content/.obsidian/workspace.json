@@ -8,54 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7425168c80770319",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/Radar Perception.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9996709ce2333e56",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Kalman Filter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "fa997cffb3de42ad",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Multi-Object Tracking.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "575b70fb06334461",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c478446635b7e6f4",
             "type": "leaf",
             "state": {
@@ -102,9 +54,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc5a615f07470031",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Robotics/Interacting Multiple Model Filter.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f81a16cd9ee41f18",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -190,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md"
+                "file": "Robotics/Kalman Filter.md"
               }
             }
           },
@@ -218,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "file": "Robotics/Kalman Filter.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -253,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "file": "Robotics/Kalman Filter.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -270,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "file": "Robotics/Kalman Filter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -296,18 +272,27 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0f112132be949e4d",
+  "active": "d6af9c9bd92d3cbd",
   "lastOpenFiles": [
+    "Robotics/attachments/Kalman Filter-3.png",
+    "Robotics/attachments/Kalman Filter-2.png",
+    "Robotics/attachments/Kalman Filter-1.png",
+    "Polymath/VIDAS ROS 2 Driver.md",
     "Robotics/Kalman Filter.md",
+    "Robotics/attachments/Kalman Filter.png",
+    "Robotics/Interacting Multiple Model Filter.md",
+    "Robotics/Track-to-Track Fusion.md",
+    "Robotics/Sensing.md",
+    "Robotics/Multi-Object Tracking.md",
+    "Resume Review.md",
     "Linear Algebra/Cholesky Decomposition.md",
+    "ML/Radar Perception.md",
     "2B/MTE 204/Gauss-Seidel.md",
     "Linear Algebra/Linear Algebra.md",
     "Cholesky Decom.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
     "Linear Algebra/Singular Value Decomposition.md",
     "Linear Algebra/Orthogonal Matrix.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
-    "Resume Review.md",
     "A Note on My Notes.md",
     "Polymath/Baymax.md",
     "Polymath/Polymath ML Productization Simplified.canvas",
@@ -317,17 +302,11 @@
     "Untitled",
     "ML/SYDE 572 A3.md",
     "Robotics/noVNC.md",
-    "Robotics/Multi-Object Tracking.md",
-    "Robotics/Interacting Multiple Model Filter.md",
     "Robotics/Estimation Filter.md",
     "Blog/Writing.md",
-    "Robotics/Sensing.md",
-    "ML/Radar Perception.md",
     "2B/SYDE 252/Fourier Transform.md",
     "CS/Data Structures and Algorithms.md",
     "CS/Memoization.md",
-    "CS/Problems/Word Break (LC 139).md",
-    "CS/Problems/DSA Problems.md",
     "CS/attachments/Memoization.png",
     "Robotics/attachments/Kalman Filter-5.png",
     "Robotics/attachments/Kalman Filter-4.png",
@@ -336,9 +315,6 @@
     "Robotics/attachments/Kalman Filter-1.png",
     "Robotics/attachments/Kalman Filter.png",
     "Baymax Architecture.canvas",
-    "Robotics/attachments/Track-to-Track Fusion-2.png",
-    "Robotics/attachments/Track-to-Track Fusion-1.png",
-    "Robotics/attachments/Track-to-Track Fusion.png",
     "HW",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
