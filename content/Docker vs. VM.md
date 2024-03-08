@@ -24,7 +24,7 @@ Containers have their own filesystem.
 - This is achieved through a union filesystem, which stacks read-only layers with a writable layer on top where the container can modify data. 
 - When you modify an existing Docker image, Docker only adds a new layer on top of the base image, making it very efficient in terms of disk space and speed.
 
-Docker also provides isolation between containers using Linux features; namespaces and control groups.
+Docker containers achieve isolation and resource allocation through Linux features; namespaces and control groups.
 
 Where it gets tricky is cross-platform. I used to have a Windows computer and use Docker on Windows; in that case, my understanding is that Docker will actually create a lightweight Linux VM (Hype-V), and I think similar things are done for Mac too. So in this case, you might be doing some virtualization or emulation. 
 

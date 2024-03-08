@@ -9,6 +9,8 @@ aliases:
 
 A good foundation of linear algebra contributes to deeper understanding of [[Machine Learning]] and [[Robotics]].
 
+- [[Singular Value Decomposition]]
+- [[Cholesky Decomposition]]
 ## Basic Concepts
 - [[Geometry of Linear Equations]]
 - [[Vector Combinations]]

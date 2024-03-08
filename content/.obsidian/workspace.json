@@ -32,16 +32,6 @@
             }
           },
           {
-            "id": "c5e384ee9ed0cb8a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.8"
-              }
-            }
-          },
-          {
             "id": "fa997cffb3de42ad",
             "type": "leaf",
             "state": {
@@ -66,7 +56,19 @@
             }
           },
           {
-            "id": "c4c7a35b896bd9b4",
+            "id": "eeeef51858a3da8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Linear Algebra/Singular Value Decomposition.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19ccba6e305e4906",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -76,45 +78,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f54ed061a7ba99f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/noVNC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3c8e35905c23c81a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/SYDE 572 A3.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6f4f2904730b43a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Docker vs. VM.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 8
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -187,21 +153,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a3fbcc1d27d0a654",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Docker vs. VM.md"
-              }
-            }
-          },
-          {
             "id": "d6af9c9bd92d3cbd",
             "type": "leaf",
             "state": {
               "type": "git-view",
               "state": {}
+            }
+          },
+          {
+            "id": "a3fbcc1d27d0a654",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Resume Review.md"
+              }
             }
           },
           {
@@ -216,8 +182,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "e4ce9e46915c52dc",
@@ -229,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Docker vs. VM.md",
+                "file": "Resume Review.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -264,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Docker vs. VM.md",
+                "file": "Resume Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -281,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Docker vs. VM.md",
+                "file": "Resume Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -307,16 +272,23 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6f4f2904730b43a0",
+  "active": "19ccba6e305e4906",
   "lastOpenFiles": [
-    "Docker vs. VM.md",
-    "Resume Review.md",
-    "ML/SYDE 572 A3.md",
-    "Robotics/Multi-Object Tracking.md",
     "Robotics/Kalman Filter.md",
-    "Robotics/noVNC.md",
+    "Resume Review.md",
+    "Linear Algebra/Singular Value Decomposition.md",
+    "Linear Algebra/Linear Algebra.md",
     "Polymath/VIDAS ROS 2 Driver.md",
-    "Baymax.md",
+    "A Note on My Notes.md",
+    "Polymath/Baymax.md",
+    "Polymath/Polymath ML Productization Simplified.canvas",
+    "Polymath/Polymath ML Productization.canvas",
+    "Other/idfk.canvas",
+    "Docker vs. VM.md",
+    "Untitled",
+    "ML/SYDE 572 A3.md",
+    "Robotics/noVNC.md",
+    "Robotics/Multi-Object Tracking.md",
     "Robotics/Interacting Multiple Model Filter.md",
     "Robotics/Estimation Filter.md",
     "Blog/Writing.md",
@@ -343,9 +315,6 @@
     "Robotics/Mahalanobis Distance.md",
     "Robotics/Sensor Fusion.md",
     "Robotics/Robotics.md",
-    "CS/Tree Pruning.md",
-    "CS/Problems/Generate Permutations (LC 46).md",
-    "CS/Backtracking.md",
     "HW",
     "Untitled 2.canvas",
     "Untitled 1.canvas",
@@ -357,10 +326,6 @@
     "Thermodynamics",
     "Control Theory",
     "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
-    "ML/attachments/perceptron_through_origin.pdf",
-    "ML/attachments/perceptron.pdf",
-    "Polymath/Polymath ML Productization.canvas",
-    "Polymath/Polymath ML Productization Simplified.canvas",
-    "Other/idfk.canvas"
+    "ML/attachments/perceptron_through_origin.pdf"
   ]
 }

@@ -15,11 +15,7 @@ Nice way to get ROS/ROS2 visualization working on Docker, which lets me use it o
 - Create network: `docker network create ros`
 - Can then run noVNC with:
 ```bash
-docker run -d --rm --net=ros \  
-	--env="DISPLAY_WIDTH=3000" \  
-	--env="DISPLAY_HEIGHT=1800" \  
-	--name=novnc -p=8080:8080 \  
-	theasp/novnc:latest
+docker run -d --rm --net=ros --env="DISPLAY_WIDTH=3000" --env="DISPLAY_HEIGHT=1800" --name=novnc -p=8080:8080 theasp/novnc:latest
 ```
 
 - Make sure the sim container is on the same network and has the display env set to to noVNC:
