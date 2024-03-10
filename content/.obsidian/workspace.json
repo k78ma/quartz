@@ -32,18 +32,6 @@
             }
           },
           {
-            "id": "eba01f6c48ff1df8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Kalman Filter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0f112132be949e4d",
             "type": "leaf",
             "state": {
@@ -78,9 +66,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb33d4c9bccc5011",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "kai++.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -153,7 +151,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6af9c9bd92d3cbd",
+            "id": "d2f00f935cd447da",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -166,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Robotics/Kalman Filter.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -194,7 +192,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Robotics/Kalman Filter.md",
+                "file": "kai++.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -229,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Robotics/Kalman Filter.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -246,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Robotics/Kalman Filter.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -272,19 +270,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d6af9c9bd92d3cbd",
+  "active": "eb33d4c9bccc5011",
   "lastOpenFiles": [
+    "Resume Review.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Robotics/Kalman Filter.md",
     "Robotics/attachments/Kalman Filter-3.png",
     "Robotics/attachments/Kalman Filter-2.png",
     "Robotics/attachments/Kalman Filter-1.png",
-    "Polymath/VIDAS ROS 2 Driver.md",
-    "Robotics/Kalman Filter.md",
     "Robotics/attachments/Kalman Filter.png",
     "Robotics/Interacting Multiple Model Filter.md",
     "Robotics/Track-to-Track Fusion.md",
     "Robotics/Sensing.md",
     "Robotics/Multi-Object Tracking.md",
-    "Resume Review.md",
     "Linear Algebra/Cholesky Decomposition.md",
     "ML/Radar Perception.md",
     "2B/MTE 204/Gauss-Seidel.md",
@@ -313,7 +311,6 @@
     "Robotics/attachments/Kalman Filter-3.png",
     "Robotics/attachments/Kalman Filter-2.png",
     "Robotics/attachments/Kalman Filter-1.png",
-    "Robotics/attachments/Kalman Filter.png",
     "Baymax Architecture.canvas",
     "HW",
     "Untitled 2.canvas",

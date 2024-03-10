@@ -37,3 +37,8 @@ Questions:
 - OccupancyGrid GPS requirement?
 
 Requires: 12V power supply – at least 12V/5A because system requires 60W during startup
+
+
+```
+
+```
