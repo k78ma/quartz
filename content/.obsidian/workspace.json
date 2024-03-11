@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c478446635b7e6f4",
+            "id": "eb33d4c9bccc5011",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Linear Algebra/Singular Value Decomposition.md",
-                "mode": "source",
-                "source": false
+                "file": "kai++.md"
               }
             }
           },
@@ -32,53 +30,19 @@
             }
           },
           {
-            "id": "0f112132be949e4d",
+            "id": "f842c1fffba4adc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Linear Algebra/Cholesky Decomposition.md",
+                "file": "Docker vs. VM.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "fc5a615f07470031",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/Interacting Multiple Model Filter.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f81a16cd9ee41f18",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb33d4c9bccc5011",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kai++.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kai++.md"
+                "file": "Resume Review.md"
               }
             }
           },
@@ -192,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kai++.md",
+                "file": "Resume Review.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -227,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kai++.md",
+                "file": "Resume Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kai++.md",
+                "file": "Resume Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -270,10 +234,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "eb33d4c9bccc5011",
+  "active": "19ccba6e305e4906",
   "lastOpenFiles": [
+    "Docker vs. VM.md",
+    "CS/Binary Tree.md",
+    "CS/Tree Traversal.md",
+    "CS/Data Structures and Algorithms.md",
     "Resume Review.md",
+    "kai++.md",
     "Polymath/VIDAS ROS 2 Driver.md",
+    "Linear Algebra/Singular Value Decomposition.md",
     "Robotics/Kalman Filter.md",
     "Robotics/attachments/Kalman Filter-3.png",
     "Robotics/attachments/Kalman Filter-2.png",
@@ -289,22 +259,17 @@
     "Linear Algebra/Linear Algebra.md",
     "Cholesky Decom.md",
     "2B/MTE 204/MTE 204 - Numerical Methods.md",
-    "Linear Algebra/Singular Value Decomposition.md",
     "Linear Algebra/Orthogonal Matrix.md",
     "A Note on My Notes.md",
     "Polymath/Baymax.md",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Polymath/Polymath ML Productization.canvas",
     "Other/idfk.canvas",
-    "Docker vs. VM.md",
     "Untitled",
     "ML/SYDE 572 A3.md",
     "Robotics/noVNC.md",
     "Robotics/Estimation Filter.md",
     "Blog/Writing.md",
-    "2B/SYDE 252/Fourier Transform.md",
-    "CS/Data Structures and Algorithms.md",
-    "CS/Memoization.md",
     "CS/attachments/Memoization.png",
     "Robotics/attachments/Kalman Filter-5.png",
     "Robotics/attachments/Kalman Filter-4.png",

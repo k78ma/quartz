@@ -61,8 +61,8 @@ draft: "true"
 	- Read papers → help turn into algorithms
 
 ## NRC
-- COVID-Net project – initiative from UWaterloo and NRC for ML-assisted COVID measures
-- I worked on COVID diagnosis from lung radiographs
+- COVID-Net project – initiative from UWaterloo and NRC for ML-assisted COVID diagnosis
+- I worked on COVID diagnosis from lung radiographs (X-rays)
 - The core problem I worked on was addressing the data weaknesses that come with novel diseases:
 	- Lack of data
 	- Imbalanced data – a lot more benign (negative) than malignant (positive)

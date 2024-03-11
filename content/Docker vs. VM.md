@@ -25,6 +25,13 @@ Containers have their own filesystem.
 - When you modify an existing Docker image, Docker only adds a new layer on top of the base image, making it very efficient in terms of disk space and speed.
 
 Docker containers achieve isolation and resource allocation through Linux features; namespaces and control groups.
+- Namespaces – Isolation
+	- Isolate process ID space – different PID namespaces can have the same PID
+	- Network namespace: Provides isolated instances of the network stack, including network interfaces, routing tables, port numbers, etc
+	- User namespace: Isolates user and group IDs, allowing a process to have a different set of privileges for interacting with system resources outside of its namespace.
+- Control groups (cgroups) – Resource allocation
+	- Provide a mechanism for aggregating/partitioning sets of tasks (processes), and all their future children, into hierarchical groups with specialized behavior.
+	- Limit the amount of system resources a group of processes can consume. This prevents any single process or user from monopolizing system resources.
 
 Where it gets tricky is cross-platform. I used to have a Windows computer and use Docker on Windows; in that case, my understanding is that Docker will actually create a lightweight Linux VM (Hype-V), and I think similar things are done for Mac too. So in this case, you might be doing some virtualization or emulation. 
 
