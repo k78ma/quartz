@@ -47,6 +47,7 @@ aliases:
 ### Trees
 - [[Maximum Depth of Binary Tree (LC 104)]]
 - [[Visible Tree Node]]
+- [[Reconstruct Tree from Paths]]
 - [[Balanced Binary Tree (LC 110)]]
 - [[Ternary Tree Paths]]
 
