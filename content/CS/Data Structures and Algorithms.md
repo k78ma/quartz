@@ -24,6 +24,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Sorting Algorithms]]
 
 ## Divide and Conquer
+- [[Fast Exponentiation Algorithm]]
 - [[Binary Search]]
 - [[One-sided Binary Search]]
 

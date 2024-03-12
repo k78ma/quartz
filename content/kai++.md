@@ -546,7 +546,6 @@ draft: "true"
 
 ## CS
 
-- [ ] ADM - 2.6 (Summations)
 - [ ] ADM - 2.7 (Logarithms + Applications)
 - [ ] ADM - 2.8 (Properties of Logarithms)
 - [ ] ADM - 2.9 (War Story!)
@@ -688,6 +687,7 @@ draft: "true"
 - [ ] 1.1.4 - Large language models
 - [ ] micrograd
 - [ ] ADM - 2.5 (Reasoning about Efficiency)
+- [ ] ADM - 2.6 (Summations)
 
 %% kanban:settings
 ```
