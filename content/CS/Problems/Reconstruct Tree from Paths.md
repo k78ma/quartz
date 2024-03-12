@@ -41,13 +41,13 @@ Node* buildTree(char in[], char pre[], int inStart, int inEnd)
     Node* tNode = newNode(pre[preIndex++]); 
 
     /* If this node has no children then return */
-    if (inStrt == inEnd) 
+    if (inStart == inEnd) 
         return tNode; 
 
-    /* Else find the index of this node in Inorder traversal */
+    /* Else find the index of this node in in-order traversal */
     int inIndex = search(in, inStart, inEnd, tNode->data); 
 
-    /* Using index in Inorder traversal, construct left and 
+    /* Using index in in-order traversal, construct left and 
     right subtress */
     tNode->left = buildTree(in, pre, inStart, inIndex - 1); 
     tNode->right = buildTree(in, pre, inIndex + 1, inEnd); 

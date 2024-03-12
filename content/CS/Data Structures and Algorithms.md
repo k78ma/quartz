@@ -15,9 +15,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Algorithmic Complexity]]
 - [[Big O Notation]]
 	- [[Operations with Big O]]
-- [[Summations for Algorithms]]
-- [[Logarithms for Algorithms]]
-
+- [[Logarithmic Algorithms]]
 ## Data Structures
 
 ## Sorting
