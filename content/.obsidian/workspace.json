@@ -52,6 +52,14 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9eca5c67c5c0cf2e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
         "currentTab": 3
@@ -248,15 +256,16 @@
   },
   "active": "44d4760788d0d571",
   "lastOpenFiles": [
-    "CS/Problems/DSA Problems.md",
+    "kai++.md",
     "CS/Problems/Reconstruct Tree from Paths.md",
+    "CS/Problems/attachments/Reconstruct Tree from Paths.png",
+    "CS/Tree Traversal.md",
+    "CS/Problems/DSA Problems.md",
     "CS/Docker vs. VM.md",
     "The Art of Doing Science and Engineering.md",
     "Other/Resume Review.md",
     "CS/Binary Tree.md",
-    "CS/Tree Traversal.md",
     "CS/Data Structures and Algorithms.md",
-    "kai++.md",
     "Polymath/VIDAS ROS 2 Driver.md",
     "Linear Algebra/Singular Value Decomposition.md",
     "Robotics/Kalman Filter.md",
@@ -281,13 +290,11 @@
     "Polymath/Polymath ML Productization.canvas",
     "Other/idfk.canvas",
     "Untitled",
-    "ML/SYDE 572 A3.md",
     "CS/attachments/Memoization.png",
     "Robotics/attachments/Kalman Filter-5.png",
     "Robotics/attachments/Kalman Filter-4.png",
     "Robotics/attachments/Kalman Filter-3.png",
     "Robotics/attachments/Kalman Filter-2.png",
-    "Robotics/attachments/Kalman Filter-1.png",
     "Polymath/Baymax Architecture.canvas",
     "HW",
     "Untitled 2.canvas",
