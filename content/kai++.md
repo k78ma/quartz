@@ -545,17 +545,27 @@ draft: "true"
 
 
 ## CS
-
-- [ ] ADM - 2.7 (Logarithms + Applications)
-- [ ] ADM - 2.8 (Properties of Logarithms)
-- [ ] ADM - 2.9 (War Story!)
-- [ ] ADM - 2.10 (Advanced Analysis)
-- [ ] ADM - 2.11 (Exercises)
-- [ ] Evaluate Reverse Polish Notation
-- [ ] Generate Parentheses
-- [ ] Daily Temperatures
-- [ ] Car Fleet
-- [ ] Largest Rectangle in Histogram
+- [ ] 3 - Data Structures
+- [ ] 3.1 - Contiguous vs. Linked Data Structures
+- [ ] 3.1.1 - Arrays
+- [ ] 3.1.2 - Pointers and Linked Structures
+- [ ] 3.1.3 - Comparison
+- [ ] 3.2 - Containers: Stacks and Queues
+- [ ] 3.3 - Dictionaries
+- [ ] 3.4 - Binary Search Trees
+- [ ] 3.4.1 - Implementing Binary Search Trees
+- [ ] 3.4.2 - How Good are Binary Search Trees?
+- [ ] 3.4.3 - Balanced Search Trees
+- [ ] 3.5 - Priority Queues
+- [ ] 3.6 - War Story: Stripping Triangulations
+- [ ] 3.7 - Hashing
+- [ ] 3.7.1 - Collision Resolution
+- [ ] 3.7.2 - Duplicate Detection via Hashing
+- [ ] 3.7.3 - Other Hashing Tricks
+- [ ] 3.7.4 - Canonicalization
+- [ ] 3.7.5 - Compaction
+- [ ] 3.8 - Specialized Data Structures
+- [ ] 3.9 - War Story: String ’em Up
 - [ ] [1.1.4 Compound Procedures](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e4)
 - [ ] [1.1.5 The Substitution Model for Procedure Application](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e5)
 - [ ] [1.1.6 Conditional Expressions and Predicates](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e6)
@@ -688,6 +698,15 @@ draft: "true"
 - [ ] micrograd
 - [ ] ADM - 2.5 (Reasoning about Efficiency)
 - [ ] ADM - 2.6 (Summations)
+- [ ] ADM - 2.7 (Logarithms + Applications)
+- [ ] ADM - 2.8 (Properties of Logarithms)
+- [ ] ADM - 2.9 (War Story!)
+- [ ] Evaluate Reverse Polish Notation
+- [ ] Generate Parentheses
+- [ ] Daily Temperatures
+- [ ] Car Fleet
+- [ ] Largest Rectangle in Histogram
+- [ ] ADM - 2.10 (Advanced Analysis)
 
 %% kanban:settings
 ```

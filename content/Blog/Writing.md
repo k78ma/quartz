@@ -20,4 +20,5 @@ aliases:
 
 ## Writing I Like
 - [Paul Graham's Essays](https://paulgraham.com/articles.html)
+- [Gwern](https://gwern.net)
 - [Vagabond](https://en.wikipedia.org/wiki/Vagabond_(manga))

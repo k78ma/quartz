@@ -110,3 +110,15 @@ If Baymax is monitoring something for a while and it's been unhealthy for a whil
 - Polymath lifecycle manager – does things that we want
 - Plain lifecycle nodes – same boat as non-lifecycle node
 
+
+- Put main function in separate file
+
+## Speed-up
+- Asynchronous
+- Was doing data receive and data processing serially in the same thread
+- Having both the Orin and my laptop on Ethernet brought rates up to 20 Hz WITHOUT point cloud
+- Point cloud projection from depth0 brought speed down significantly (back to <1 Hz)
+
+## Dolagon Sim Testing
+- CompressedImage vs. Image – any difference?
+- 
