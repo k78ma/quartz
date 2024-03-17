@@ -30,24 +30,12 @@
             }
           },
           {
-            "id": "c486209a68b297df",
+            "id": "7f31e7495b099017",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "339d19e4e92e2dd9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Problems/Slice Notation.md",
+                "file": "ML/SYDE 572 SVM Grad.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md"
+                "file": "ML/SYDE 572 SVM Grad.md"
               }
             }
           },
@@ -168,7 +156,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
+                "file": "ML/SYDE 572 SVM Grad.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +191,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
+                "file": "ML/SYDE 572 SVM Grad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +208,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
+                "file": "ML/SYDE 572 SVM Grad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -246,15 +234,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "c486209a68b297df",
+  "active": "7f31e7495b099017",
   "lastOpenFiles": [
+    "ML/attachments/SYDE 572 SVM Grad.png",
+    "ML/Machine Learning.md",
+    "ML/SYDE 572 SVM Grad.md",
+    "ML/SYDE 572 A1.md",
+    "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "CS/Data Structures and Algorithms.md",
     "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
     "CS/Problems/Slice Notation.md",
+    "Other/Finnish/Finnish.md",
     "CS/Array.md",
     "Polymath/Baymax.md",
     "Polymath/VIDAS ROS 2 Driver.md",
-    "Other/Finnish/Finnish.md",
     "Other/Finnish",
     "CS/Problems/attachments/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).png",
     "CS/Problems/Reconstruct Tree from Paths.md",
@@ -272,12 +265,7 @@
     "2B/MTE 220/Transfer Functions.md",
     "CS/Fast Exponentiation Algorithm.md",
     "CS/Big O Notation.md",
-    "CS/Docker vs. VM.md",
-    "CS/Problems/DSA Problems.md",
     "CS/Problems/attachments/Reconstruct Tree from Paths.png",
-    "CS/Tree Traversal.md",
-    "The Art of Doing Science and Engineering.md",
-    "Other/Resume Review.md",
     "Robotics/attachments/Kalman Filter-3.png",
     "Robotics/attachments/Kalman Filter-2.png",
     "Robotics/attachments/Kalman Filter-1.png",

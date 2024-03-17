@@ -28,5 +28,6 @@ date: 2023-06-25
 	- [[SYDE 572 A1]]
 	- [[SYDE 572 A2]]
 	- [[SYDE 572 A3]]
+	- [[SYDE 572 SVM Grad]]
 - [[UDL Problems]]
 
