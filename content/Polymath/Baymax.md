@@ -120,5 +120,144 @@ If Baymax is monitoring something for a while and it's been unhealthy for a whil
 - Point cloud projection from depth0 brought speed down significantly (back to <1 Hz)
 
 ## Dolagon Sim Testing
+```
+Lifecycle transition events:
+	/behavior_server/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/controller_server/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/bt_navigator/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/cortex/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/global_costmap/global_costmap/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/local_costmap/local_costmap/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/map_saver/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/map_server/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/planner_server/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/smoother_server/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/velocity_smoother/transition_event [lifecycle_msgs/msg/TransitionEvent]
+	/waypoint_follower/transition_event [lifecycle_msgs/msg/TransitionEvent]`
+
+Camera info:
+	/front_camera/camera_info [sensor_msgs/msg/CameraInfo]
+	/front_camera/depth/camera_info [sensor_msgs/msg/CameraInfo]
+	/rear_camera/camera_info [sensor_msgs/msg/CameraInfo]
+	/rear_camera/depth/camera_info [sensor_msgs/msg/CameraInfo]
+	/top_camera/camera_info [sensor_msgs/msg/CameraInfo]
+
+Image:
+	/front_camera/depth/image_raw [sensor_msgs/msg/Image]
+	/front_camera/image_raw [sensor_msgs/msg/Image]
+	/rear_camera/depth/image_raw [sensor_msgs/msg/Image]
+	/rear_camera/image_raw [sensor_msgs/msg/Image]
+	/top_camera/image_raw [sensor_msgs/msg/Image]
+
+Occupancy grid + update:
+	/global_costmap/costmap [nav_msgs/msg/OccupancyGrid]
+	/global_costmap/costmap_updates [map_msgs/msg/OccupancyGridUpdate]
+	/local_costmap/costmap [nav_msgs/msg/OccupancyGrid]
+	/local_costmap/costmap_updates [map_msgs/msg/OccupancyGridUpdate]
+	/map [nav_msgs/msg/OccupancyGrid]
+	/map_updates [map_msgs/msg/OccupancyGridUpdate]
+
+Point cloud:
+	/front_camera/points [sensor_msgs/msg/PointCloud2]
+	/os0/points [sensor_msgs/msg/PointCloud2]
+	/os0/points/crop_box [sensor_msgs/msg/PointCloud2]
+	/os0/points/voxel_grid [sensor_msgs/msg/PointCloud2]
+	/rear_camera/points [sensor_msgs/msg/PointCloud2]
+
+Twist:
+	/behavior_vel [geometry_msgs/msg/Twist]
+	/formant/cmd_vel [geometry_msgs/msg/Twist]
+	/geofence/cmd_vel [geometry_msgs/msg/Twist]
+	/joy/cmd_vel [geometry_msgs/msg/Twist]
+	/polymath/cmd_vel [geometry_msgs/msg/Twist]
+	/navigation/cmd_vel [geometry_msgs/msg/Twist]
+	/navigation/cmd_vel/smoothed [geometry_msgs/msg/Twist]
+	/user/cmd_vel [geometry_msgs/msg/Twist]
+	/vehicle/cmd_vel [geometry_msgs/msg/Twist]
+	/cmd_vel [geometry_msgs/msg/TwistStamped]
+
+Bool:
+	/cortex/vehicle_enable_start [std_msgs/msg/Bool]
+	/cortex/velocity_relative_enabled [std_msgs/msg/Bool]
+	/formant/cmd_vel/pause [std_msgs/msg/Bool]
+	/geofence/cmd_vel/pause [std_msgs/msg/Bool]
+	/joy/cmd_vel/pause [std_msgs/msg/Bool]
+	/navigation/cmd_vel/pause [std_msgs/msg/Bool]
+	/polymath/cmd_vel/pause [std_msgs/msg/Bool]
+	/user/cmd_vel/pause [std_msgs/msg/Bool]
+
+Cortex Misc:
+	/cortex/feedback [cortex_msgs/msg/CortexFeedback]
+	/cortex/reference_targets [cortex_msgs/msg/ReferenceTarget]
+
+NavSatFix:
+	/gps/filtered [sensor_msgs/msg/NavSatFix]
+	/gps/fix [sensor_msgs/msg/NavSatFix]
+	/gps/fix/updated [sensor_msgs/msg/NavSatFix]
+
+Odometry:
+	/odom [nav_msgs/msg/Odometry]
+	/odometry [nav_msgs/msg/Odometry]
+	/odometry/filtered [nav_msgs/msg/Odometry] *
+	/odometry/global [nav_msgs/msg/Odometry] *
+	/odometry/gps [nav_msgs/msg/Odometry]
+
+Polygon:
+	/global_costmap/footprint [geometry_msgs/msg/Polygon]
+	/global_costmap/published_footprint [geometry_msgs/msg/PolygonStamped]
+	/local_costmap/footprint [geometry_msgs/msg/Polygon]
+	/local_costmap/published_footprint [geometry_msgs/msg/PolygonStamped]
+
+Costmap:
+	/global_costmap/costmap_raw [nav2_msgs/msg/Costmap]
+	/local_costmap/costmap_raw [nav2_msgs/msg/Costmap]
+
+IMU:
+	/os0/imu [sensor_msgs/msg/Imu]
+	/os0/imu/updated [sensor_msgs/msg/Imu]
+
+Pose:
+	/cortex/goal_poses [geometry_msgs/msg/PoseArray]
+	/goal_pose [geometry_msgs/msg/PoseStamped]
+	/set_pose [geometry_msgs/msg/PoseWithCovarianceStamped]
+
+Path:
+	/lookahead_collision_arc [nav_msgs/msg/Path]
+	/plan [nav_msgs/msg/Path]
+	/plan_smoothed [nav_msgs/msg/Path]
+	/received_global_plan [nav_msgs/msg/Path]
+	/unsmoothed_plan [nav_msgs/msg/Path]
+
+Joint and Link states:
+	/joint_states [sensor_msgs/msg/JointState]
+	/link_states [gazebo_msgs/msg/LinkStates]
+
+TF:
+	/tf [tf2_msgs/msg/TFMessage]
+	/tf_static [tf2_msgs/msg/TFMessage]
+
+Points and vectors:
+	/gps_plugin/vel [geometry_msgs/msg/Vector3Stamped]
+	/lookahead_point [geometry_msgs/msg/PointStamped]
+
+Gazebo:
+	/model_states [gazebo_msgs/msg/ModelStates]
+	/robot_description [std_msgs/msg/String]
+
+Logs:
+	/behavior_tree_log [nav2_msgs/msg/BehaviorTreeLog]
+	/performance_metrics [gazebo_msgs/msg/PerformanceMetrics]
+
+System/other:
+	/bond [bond/msg/Status]
+	/diagnostics [diagnostic_msgs/msg/DiagnosticArray]
+	/parameter_events [rcl_interfaces/msg/ParameterEvent]
+	/rosout [rcl_interfaces/msg/Log]
+	/clock [rosgraph_msgs/msg/Clock]
+	/controller_selector [std_msgs/msg/String]
+	/planner_selector [std_msgs/msg/String]
+	/speed_limit [nav2_msgs/msg/SpeedLimit]
+```
+
 - CompressedImage vs. Image – any difference?
 - 

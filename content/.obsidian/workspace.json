@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9eca5c67c5c0cf2e",
+            "id": "a65ce810fe90677c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "kanban",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
-                "mode": "source",
-                "source": false
+                "file": "kai++.md"
               }
             }
           },
@@ -30,9 +28,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c486209a68b297df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "339d19e4e92e2dd9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Problems/Slice Notation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +83,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "array",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md"
+                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md"
               }
             }
           },
@@ -146,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -224,23 +246,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "1f3c7d77b2d559e5",
+  "active": "c486209a68b297df",
   "lastOpenFiles": [
-    "CS/Backtracking.md",
     "CS/Data Structures and Algorithms.md",
-    "kai++.md",
+    "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
+    "CS/Problems/Slice Notation.md",
+    "CS/Array.md",
+    "Polymath/Baymax.md",
     "Polymath/VIDAS ROS 2 Driver.md",
+    "Other/Finnish/Finnish.md",
+    "Other/Finnish",
+    "CS/Problems/attachments/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).png",
+    "CS/Problems/Reconstruct Tree from Paths.md",
+    "kai++.md",
+    "CS/Contiguous vs Linked Data Structures.md",
+    "CS/Backtracking.md",
     "Blog/Writing.md",
     "CS/Structure and Interpretation of Programs.md",
     "CS/Logarithmic Algorithms.md",
-    "Polymath/Baymax.md",
     "Robotics/noVNC.md",
     "Blog/Becoming Good At Things.md",
     "Blog/attachments/hog-exploding.gif",
     "CS/Algorithm Design Manual (Skiena).md",
     "2B/MTE 220/Sensor Transfer Function.md",
     "2B/MTE 220/Transfer Functions.md",
-    "CS/Problems/Reconstruct Tree from Paths.md",
     "CS/Fast Exponentiation Algorithm.md",
     "CS/Big O Notation.md",
     "CS/Docker vs. VM.md",
@@ -249,15 +278,10 @@
     "CS/Tree Traversal.md",
     "The Art of Doing Science and Engineering.md",
     "Other/Resume Review.md",
-    "CS/Binary Tree.md",
-    "Linear Algebra/Singular Value Decomposition.md",
-    "Robotics/Kalman Filter.md",
     "Robotics/attachments/Kalman Filter-3.png",
     "Robotics/attachments/Kalman Filter-2.png",
     "Robotics/attachments/Kalman Filter-1.png",
     "Robotics/attachments/Kalman Filter.png",
-    "Robotics/Interacting Multiple Model Filter.md",
-    "Robotics/Track-to-Track Fusion.md",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Polymath/Polymath ML Productization.canvas",
     "Other/idfk.canvas",
@@ -265,7 +289,6 @@
     "CS/attachments/Memoization.png",
     "Robotics/attachments/Kalman Filter-5.png",
     "Robotics/attachments/Kalman Filter-4.png",
-    "Robotics/attachments/Kalman Filter-3.png",
     "Polymath/Baymax Architecture.canvas",
     "HW",
     "Untitled 2.canvas",
@@ -277,7 +300,6 @@
     "CS/Problems/attachments",
     "Thermodynamics",
     "Control Theory",
-    "ML/UnderstandingDeepLearning_23_10_23_C.pdf",
-    "ML/attachments/perceptron_through_origin.pdf"
+    "ML/UnderstandingDeepLearning_23_10_23_C.pdf"
   ]
 }

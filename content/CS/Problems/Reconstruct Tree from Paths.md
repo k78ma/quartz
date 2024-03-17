@@ -6,6 +6,9 @@ tags:
 date: 2024-03-11
 aliases:
 ---
+Leetcode versions of this problem:
+- [[Construct Binary Tree from Preorder and Inorder Traversal (LC 105)]]
+
 Let's say we have this tree:
 
 ![[Reconstruct Tree from Paths.png|212]]
