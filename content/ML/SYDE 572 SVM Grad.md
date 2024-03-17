@@ -5,6 +5,8 @@ tags:
 date: 2024-03-17
 aliases:
 ---
+## Q2 
+
 ![[SYDE 572 SVM Grad.png]]
 
 For the first term, $| w |$, provided that this is the L2 norm, we have:
@@ -36,3 +38,21 @@ Combining everything, we have:
 $$
 \nabla_{w}\left( L_{\text{soft margin}}\left( \left[ \frac{w}{w_{0}} \right] \right) \right) = \frac{w}{| w |} + \frac{\beta}{N}\cdot \sum (-c_{i}\cdot x_{i}) \cdot I(1-c_{i}\cdot h(x_{i}|w, w_{0}) > 0)
 $$
+
+## Q3
+
+![[SYDE 572 SVM Grad-1.png]]
+
+The given formula provides a numerical approximation of the partial derivative using the definition of partial derivative as the limit of the slope of the tangent line. It calculates the difference in the value of $L$ when $w'_{i}$ is slightly perturbed by $h$, divided by $h$.
+
+To calculate this approximation for each dimension of the 1000-dimensional weight vector $w$, we need to:
+1. Evaluate $L$ once with the original weight vector $(w'_{1}, w'_{2}, \dots, w'_{1000})$
+2. For each dimension $i$ from $1$ to $1000$:
+	1. Create a perturbed weight vector by adding $h$ to $w'_{i}$.
+	2. Evaluate $L$ with this perturbed weight vector.
+
+Therefore, we need:
+- $1$ evaluation of $L$ with the original weight vector
+- $1000$ evaluations of $L$ for each perturbed weight vector
+
+So, we have a total of $1+1000=1001$ forward evaluations.
