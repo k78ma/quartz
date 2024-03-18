@@ -18,7 +18,7 @@
             }
           },
           {
-            "id": "1f3c7d77b2d559e5",
+            "id": "a50c1619b1727993",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -152,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md"
+                "file": "CS/Dynamic Array.md"
               }
             }
           },
@@ -180,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "CS/Dynamic Array.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "CS/Dynamic Array.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "CS/Dynamic Array.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -258,12 +258,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "3fc3d17d332d3d08",
+  "active": "a50c1619b1727993",
   "lastOpenFiles": [
-    "Robotics/noVNC.md",
+    "kai++.md",
     "CS/Dynamic Array.md",
-    "CS/Data Structures and Algorithms.md",
     "Polymath/VIDAS ROS 2 Driver.md",
+    "Robotics/noVNC.md",
+    "CS/Data Structures and Algorithms.md",
     "ML/ML Fundamentals.md",
     "ML/Machine Learning.md",
     "ML/SYDE 572 SVM Grad.md",
@@ -279,7 +280,6 @@
     "Other/Finnish",
     "CS/Problems/attachments/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).png",
     "CS/Problems/Reconstruct Tree from Paths.md",
-    "kai++.md",
     "CS/Contiguous vs Linked Data Structures.md",
     "CS/Backtracking.md",
     "Blog/Writing.md",
