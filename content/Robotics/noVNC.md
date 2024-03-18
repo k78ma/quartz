@@ -28,3 +28,6 @@ Alternatively, the Dockerfile can include the line `ENV DISPLAY=novnc:0.0` in it
 Gazebo sim running on noVNC on `localhost:8080`:
 
 ![[noVNC.png]]
+
+
+

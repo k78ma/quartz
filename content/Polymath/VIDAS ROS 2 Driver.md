@@ -42,3 +42,8 @@ Requires: 12V power supply – at least 12V/5A because system requires 60W durin
 ```
 
 ```
+
+TODO:
+- Make faster
+- Costmap2D from point cloud
+- Automate putting the camera in perception mode
