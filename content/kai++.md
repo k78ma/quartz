@@ -172,13 +172,6 @@ draft: "true"
 ## DLFC
 
 - [ ] 1 - The Deep Learning Revolution
-- [ ] 1.2 - A Tutorial Example
-- [ ] 1.2.1 - Synthetic data
-- [ ] 1.2.2 - Linear models
-- [ ] 1.2.3 - Error function
-- [ ] 1.2.4 - Model complexity
-- [ ] 1.2.5 - Regularization
-- [ ] 1.2.6 - Model selection
 - [ ] 1.3 - A Brief History of Machine Learning
 - [ ] 1.3.1 - Single-layer networks
 - [ ] 1.3.2 - Backpropagation
@@ -545,6 +538,7 @@ draft: "true"
 
 
 ## CS
+
 - [ ] 3 - Data Structures
 - [ ] 3.1 - Contiguous vs. Linked Data Structures
 - [ ] 3.1.1 - Arrays
@@ -707,6 +701,13 @@ draft: "true"
 - [ ] Car Fleet
 - [ ] Largest Rectangle in Histogram
 - [ ] ADM - 2.10 (Advanced Analysis)
+- [ ] 1.2 - A Tutorial Example
+- [ ] 1.2.1 - Synthetic data
+- [ ] 1.2.2 - Linear models
+- [ ] 1.2.3 - Error function
+- [ ] 1.2.4 - Model complexity
+- [ ] 1.2.5 - Regularization
+- [ ] 1.2.6 - Model selection
 
 %% kanban:settings
 ```

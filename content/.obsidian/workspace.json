@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Dynamic Array.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -40,33 +40,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3fc3d17d332d3d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c27d0473a08c7080",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Robotics/noVNC.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -152,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Dynamic Array.md"
+                "file": "kai++.md"
               }
             }
           },
@@ -180,7 +155,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Dynamic Array.md",
+                "file": "kai++.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -215,7 +190,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Dynamic Array.md",
+                "file": "kai++.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -232,7 +207,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Dynamic Array.md",
+                "file": "kai++.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -258,14 +233,14 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a50c1619b1727993",
+  "active": "a65ce810fe90677c",
   "lastOpenFiles": [
-    "kai++.md",
-    "CS/Dynamic Array.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
-    "Robotics/noVNC.md",
     "CS/Data Structures and Algorithms.md",
     "ML/ML Fundamentals.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "CS/Dynamic Array.md",
+    "kai++.md",
+    "Robotics/noVNC.md",
     "ML/Machine Learning.md",
     "ML/SYDE 572 SVM Grad.md",
     "ML/attachments/SYDE 572 SVM Grad-1.png",
