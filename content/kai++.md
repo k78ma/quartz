@@ -171,11 +171,6 @@ draft: "true"
 
 ## DLFC
 
-- [ ] 1 - The Deep Learning Revolution
-- [ ] 1.3 - A Brief History of Machine Learning
-- [ ] 1.3.1 - Single-layer networks
-- [ ] 1.3.2 - Backpropagation
-- [ ] 1.3.3 - Deep networks
 - [ ] 2 - Probabilities
 - [ ] 2.1 - The Rules of Probability
 - [ ] 2.1.1 - A medical screening example
@@ -708,6 +703,11 @@ draft: "true"
 - [ ] 1.2.4 - Model complexity
 - [ ] 1.2.5 - Regularization
 - [ ] 1.2.6 - Model selection
+- [ ] 1.3.1 - Single-layer networks
+- [ ] 1.3 - A Brief History of Machine Learning
+- [ ] 1.3.2 - Backpropagation
+- [ ] 1.3.3 - Deep networks
+- [ ] 1 - The Deep Learning Revolution
 
 %% kanban:settings
 ```

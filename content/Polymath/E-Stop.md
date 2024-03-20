@@ -33,3 +33,28 @@ draft: "true"
 ![[E-Stop-5.png|184]]
 
 5. Solder
+
+```mermaid
+graph TD
+    USB-C -->|Power Out| UPS(UPS)
+    UPS(UPS) -->|Power Out| R(Raspi)
+    R -->|Control| ES(Eink Screen)
+    R <-->|USB Power and Data| C(Cell Modem)
+		C -->|USB Power and Data| E(ESP32)
+    E -->|D2 to DI, + and GND| L(LED Ring)
+    E -->|D22 to switch, + and GNDx2| PB(Power Button)
+    PB -->|switch to input| UPS
+    UPS -->|Lowbat to D34| E
+    EB(Estop Button) -->|C to D18| E
+    EB -->|NC to D21| E
+    EB -->|NO to D19| E
+
+    classDef component fill:#346beb,stroke:#333,stroke-width:2px;
+    class USB-C,UPS,R,E,C,ES,L,PB,EB component;
+```
+
+Here are pictures of the solders:
+
+- E-stop button:
+- Power Button:
+- LED Ring

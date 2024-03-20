@@ -8,40 +8,55 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a65ce810fe90677c",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kai++.md"
-              }
-            }
-          },
-          {
-            "id": "a50c1619b1727993",
+            "id": "0f31eb18bfcf74c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8c73d15066f391f2",
+            "id": "bed22b94e460319d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "Statistics/Statistics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "45d036c3be962a9b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff242724219d41e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Polymath/E-Stop.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,8 +117,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5,
-    "collapsed": true
+    "width": 210.5
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -127,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "kai++.md"
+                "file": "Polymath/E-Stop.md"
               }
             }
           },
@@ -155,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "kai++.md",
+                "file": "Polymath/E-Stop.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "kai++.md",
+                "file": "Polymath/E-Stop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -207,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "kai++.md",
+                "file": "Polymath/E-Stop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -233,14 +247,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a65ce810fe90677c",
+  "active": "ff242724219d41e6",
   "lastOpenFiles": [
     "CS/Data Structures and Algorithms.md",
-    "ML/ML Fundamentals.md",
+    "CS/Algorithm Design Manual (Skiena).md",
+    "Polymath/E-Stop.md",
     "Polymath/VIDAS ROS 2 Driver.md",
-    "CS/Dynamic Array.md",
-    "kai++.md",
+    "Statistics/Statistics.md",
+    "Untitled.md",
+    "attachments/Untitled.png",
+    "Polymath/Baymax.md",
     "Robotics/noVNC.md",
+    "kai++.md",
+    "ML/ML Fundamentals.md",
+    "CS/Dynamic Array.md",
     "ML/Machine Learning.md",
     "ML/SYDE 572 SVM Grad.md",
     "ML/attachments/SYDE 572 SVM Grad-1.png",
@@ -251,7 +271,6 @@
     "CS/Problems/Slice Notation.md",
     "Other/Finnish/Finnish.md",
     "CS/Array.md",
-    "Polymath/Baymax.md",
     "Other/Finnish",
     "CS/Problems/attachments/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).png",
     "CS/Problems/Reconstruct Tree from Paths.md",
@@ -262,10 +281,6 @@
     "CS/Logarithmic Algorithms.md",
     "Blog/Becoming Good At Things.md",
     "Blog/attachments/hog-exploding.gif",
-    "CS/Algorithm Design Manual (Skiena).md",
-    "2B/MTE 220/Sensor Transfer Function.md",
-    "2B/MTE 220/Transfer Functions.md",
-    "CS/Fast Exponentiation Algorithm.md",
     "CS/Problems/attachments/Reconstruct Tree from Paths.png",
     "Robotics/attachments/Kalman Filter-3.png",
     "Robotics/attachments/Kalman Filter-2.png",
@@ -275,7 +290,6 @@
     "Polymath/Polymath ML Productization.canvas",
     "Other/idfk.canvas",
     "Untitled",
-    "CS/attachments/Memoization.png",
     "Polymath/Baymax Architecture.canvas",
     "HW",
     "Untitled 2.canvas",

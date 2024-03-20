@@ -38,12 +38,12 @@ Questions:
 
 Requires: 12V power supply – at least 12V/5A because system requires 60W during startup
 
-
-```
-
-```
-
 TODO:
 - Make faster
 - Costmap2D from point cloud
 - Automate putting the camera in perception mode
+
+Criteria:
+- Colorized point cloud consistency issue
+- Costmap from both their cost0 frame and our costmap_2d
+- Test outside

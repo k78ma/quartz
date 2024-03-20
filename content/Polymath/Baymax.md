@@ -120,6 +120,18 @@ If Baymax is monitoring something for a while and it's been unhealthy for a whil
 - Point cloud projection from depth0 brought speed down significantly (back to <1 Hz)
 
 ## Dolagon Sim Testing
+
+Run sim with:
+```
+docker run --name dolagon --env="DISPLAY=novnc:0.0" --network=ros -e ROS_DOMAIN_ID=9 -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp registry.gitlab.com/polymathrobotics/dolagon/dolagon_sim:humble ros2 launch dolagon_sim sim.launch.py
+```
+
+Run baymax with:
+```
+docker run -it --name baymax --network=ros -v $(pwd):/baymax_ws -e ROS_DOMAIN_ID=9 -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp registry.gitlab.com/polymathrobotics/dolagon/dolagon_sim:humble bash
+```
+
+List of dolagon sim topics:
 ```
 Lifecycle transition events:
 	/behavior_server/transition_event [lifecycle_msgs/msg/TransitionEvent]
