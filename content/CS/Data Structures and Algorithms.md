@@ -21,6 +21,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Array]]
 	- [[Dynamic Array]]
 - [[Pointers]]
+- [[Linked List]]
 
 ## Sorting
 - [[Sorting Algorithms]]

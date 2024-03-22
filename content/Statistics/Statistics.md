@@ -5,7 +5,7 @@ tags:
 date: 2023-10-24
 ---
 ## Probabilities
-
+- [[Sum and Product Rules of Probability]]
 
 ## Distributions
 
