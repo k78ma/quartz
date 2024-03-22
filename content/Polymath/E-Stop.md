@@ -8,32 +8,36 @@ draft: "true"
 ---
 ## Materials
 - Raspberry Pi Zero 2 W
+- ESP32
+- 
 
 ## Steps
 
-1. Tape over Raspberry Pi USB connections?
+### Preliminary
+1. Tape over Raspberry Pi USB connections
 
-![[E-Stop.png|400]]
+![[attachments/E-Stop.png|3984]]
 
 2. Solder pins. May want to clean flux singe marks after soldering
 
-![[E-Stop-1.png|536]]
+![[attachments/E-Stop-1.png|480]]
 
 
 3. Heat-sink – apply thermal pads and fasten e-stop
 
-![[E-Stop-3.png|504]]
+![[attachments/E-Stop-3.png|56]]
 
-![[E-Stop-2.png|268]]
+![[attachments/E-Stop-2.png|172]]
 
 4. Insert to microSD card.
 
-![[E-Stop-4.png|324]]
+![[attachments/E-Stop-4.png|324]]
 
 ![[E-Stop-5.png|184]]
 
-5. Solder
+### Wire Soldering
 
+Overall system diagram:
 ```mermaid
 graph TD
     USB-C -->|Power Out| UPS(UPS)
@@ -53,8 +57,23 @@ graph TD
     class USB-C,UPS,R,E,C,ES,L,PB,EB component;
 ```
 
-Here are pictures of the solders:
+#### E-stop button to ESP32:
+- E-stop C → ESP32 D18 (Blue wire)
+- E-stop NO → ESP32 D19 (Yellow wire)
+- E-stop NC → ESP32 D21 (White wire)
+- Don't forget to put O-ring on E-stop button!
 
-- E-stop button:
-- Power Button:
-- LED Ring
+![[Polymath/attachments/E-Stop-1.png|200]]
+
+![[Polymath/attachments/E-Stop-2.png|200]]
+
+#### LED Ring to ESP32
+- LED Ring D1 → ESP32 D2 (Green wire)
+- LED Ring PWR5V → ESP32 VIN (Red wire)
+- LED Ring GND → ESP32 GND (Black wire)
+
+![[Polymath/attachments/E-Stop-3.png|200]]
+
+![[Polymath/attachments/E-Stop-4.png|200]]
+
+#### Start Button to ESP32 and RPi

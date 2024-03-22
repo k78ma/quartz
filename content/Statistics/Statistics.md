@@ -4,7 +4,10 @@ tags:
   - stats
 date: 2023-10-24
 ---
-## Probability
+## Probabilities
+
+
+## Distributions
 
 - [[Bayes' Theorem]]
 - [[Prior and Posterior]]

@@ -272,4 +272,8 @@ System/other:
 ```
 
 - CompressedImage vs. Image – any difference?
-- 
+
+
+## Unit test
+
+Testing class that inherits from BaseSensor, test BaseSensor functionality
