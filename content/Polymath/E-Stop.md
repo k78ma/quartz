@@ -25,7 +25,7 @@ draft: "true"
 
 3. Heat-sink – apply thermal pads and fasten e-stop
 
-![[attachments/E-Stop-3.png|56]]
+![[attachments/E-Stop-3.png|300]]
 
 ![[attachments/E-Stop-2.png|172]]
 
