@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Stacks and Queues.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -250,11 +250,13 @@
   },
   "active": "bed22b94e460319d",
   "lastOpenFiles": [
-    "Statistics/Prior and Posterior.md",
+    "Statistics/Independent Variables.md",
     "Statistics/Statistics.md",
-    "CS/Stacks and Queues.md",
-    "Statistics/Sum and Product Rules of Probability.md",
     "CS/Data Structures and Algorithms.md",
+    "CS/Stacks and Queues.md",
+    "ML/Machine Learning.md",
+    "Statistics/Prior and Posterior.md",
+    "Statistics/Sum and Product Rules of Probability.md",
     "CS/Computer Science.md",
     "Statistics/Bayes' Theorem.md",
     "CS/Linked List.md",
@@ -277,7 +279,6 @@
     "attachments/Untitled.png",
     "ML/ML Fundamentals.md",
     "CS/Dynamic Array.md",
-    "ML/Machine Learning.md",
     "ML/SYDE 572 SVM Grad.md",
     "ML/attachments/SYDE 572 SVM Grad-1.png",
     "ML/attachments/SYDE 572 SVM Grad.png",
@@ -285,7 +286,6 @@
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
     "CS/Problems/Slice Notation.md",
-    "Other/Finnish/Finnish.md",
     "Other/Finnish",
     "CS/Problems/attachments/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).png",
     "Polymath/Polymath ML Productization Simplified.canvas",
