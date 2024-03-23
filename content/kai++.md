@@ -172,10 +172,6 @@ draft: "true"
 ## DLFC
 
 - [ ] 2 - Probabilities
-- [ ] 2.1 - The Rules of Probability
-- [ ] 2.1.1 - A medical screening example
-- [ ] 2.1.2 - The sum and product rules
-- [ ] 2.1.3 - Bayes’ theorem
 - [ ] 2.1.4 - Medical screening revisited
 - [ ] 2.1.5 - Prior and posterior probabilities
 - [ ] 2.1.6 - Independent variables
@@ -535,8 +531,6 @@ draft: "true"
 ## CS
 
 - [ ] 3 - Data Structures
-- [ ] 3.1 - Contiguous vs. Linked Data Structures
-- [ ] 3.1.1 - Arrays
 - [ ] 3.1.2 - Pointers and Linked Structures
 - [ ] 3.1.3 - Comparison
 - [ ] 3.2 - Containers: Stacks and Queues
@@ -708,6 +702,12 @@ draft: "true"
 - [ ] 1.3.2 - Backpropagation
 - [ ] 1.3.3 - Deep networks
 - [ ] 1 - The Deep Learning Revolution
+- [ ] 2.1 - The Rules of Probability
+- [ ] 2.1.1 - A medical screening example
+- [ ] 2.1.2 - The sum and product rules
+- [ ] 2.1.3 - Bayes’ theorem
+- [ ] 3.1 - Contiguous vs. Linked Data Structures
+- [ ] 3.1.1 - Arrays
 
 %% kanban:settings
 ```

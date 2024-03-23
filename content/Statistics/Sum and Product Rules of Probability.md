@@ -4,6 +4,8 @@ tags:
   - stats
 date: 2024-03-22
 aliases:
+  - product rule
+  - sum rule
 ---
 ## Rules
 Sum rule:
