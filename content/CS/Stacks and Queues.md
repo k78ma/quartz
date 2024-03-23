@@ -7,13 +7,12 @@ aliases:
   - stack
   - queue
 ---
-
-Basic array-like data structures.
+Stacks and queues are containers – abstract data types permit data storage and retrieval of items irrespective of actual content.
 
 ## Stack
-- FILO (first in last out)
+- LIFO (last-in, first-out)
 - Use a pointer to keep track of the top of the stack
-- Insertion:
+- Insertion (Push):
 	- Set the value of the pointer to the item being inserted
 	- Increment pointer by 1
 - Deletion:
@@ -28,7 +27,7 @@ Basic array-like data structures.
 
 
 ## Queues
-- LIFO (last in first out)
+- FIFO (first-in, first-out)
 - Use two pointers to keep track of the start and end of the queue
 - Insertion:
 	- Set the entry at the end pointer to the value and increase the end pointer by one.

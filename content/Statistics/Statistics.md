@@ -4,12 +4,15 @@ tags:
   - stats
 date: 2023-10-24
 ---
+Notes from:
+- Chapters 2 and 3 of [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 ## Probabilities
 - [[Sum and Product Rules of Probability]]
 - [[Bayes' Theorem]]
-
-## Distributions
 - [[Prior and Posterior]]
+- [[Independent Variables]]
+- [[Probability Density]]
+## Distributions
 - [[Likelihood Ratio]]
 - [[Decision Boundary]]
 - [[Maximum Likelihood Estimation]]
