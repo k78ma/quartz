@@ -32,24 +32,12 @@
             }
           },
           {
-            "id": "bed22b94e460319d",
+            "id": "2fc0453d4a712429",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Probability Density Function.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4af941059e958553",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other/Resume Review.md",
+                "file": "ML/NeRF.md",
                 "mode": "source",
                 "source": false
               }
@@ -117,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5,
-    "collapsed": true
+    "width": 210.5
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -129,7 +116,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "28ca4eff5c76d1d0",
+            "id": "67d5f73ea1e9c26a",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -142,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Probability Density Function.md"
+                "file": "ML/NeRF.md"
               }
             }
           },
@@ -170,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Probability Density Function.md",
+                "file": "ML/NeRF.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Probability Density Function.md",
+                "file": "ML/NeRF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Probability Density Function.md",
+                "file": "ML/NeRF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -248,16 +235,18 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bed22b94e460319d",
+  "active": "2fc0453d4a712429",
   "lastOpenFiles": [
-    "Statistics/Sum and Product Rules of Probability.md",
+    "Polymath/E-Stop.md",
+    "private/Resume Review.md",
+    "private/private.md",
     "Statistics/Probability Density Function.md",
+    "Statistics/Sum and Product Rules of Probability.md",
     "Statistics/Statistics.md",
     "Statistics/Multivariate Probability Density.md",
     "Statistics/Cumulative Distribution Function.md",
     "Statistics/attachments/Cumulative Distribution Function.png",
     "Statistics/attachments/Probability Density Function.png",
-    "Other/Resume Review.md",
     "CS/Designing Functions.md",
     "CS/Data Structures and Algorithms.md",
     "Other/Vault Stats.md",
@@ -275,7 +264,6 @@
     "Statistics/sum rule.md",
     "Statistics/attachments/Sum and Product Rules of Probability.png",
     "Statistics/attachments",
-    "Polymath/E-Stop.md",
     "Polymath/Baymax.md",
     "Polymath/attachments/E-Stop-4.png",
     "Polymath/attachments/E-Stop-3.png",
@@ -284,7 +272,6 @@
     "Polymath/attachments/E-Stop.png",
     "Robotics/noVNC.md",
     "CS/Algorithm Design Manual (Skiena).md",
-    "Untitled.md",
     "attachments/Untitled.png",
     "ML/attachments/SYDE 572 SVM Grad-1.png",
     "Other/Finnish",

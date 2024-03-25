@@ -15,5 +15,3 @@ A scene is represented using a MLP, whose input is a single continuous 5D coordi
 The loss function is just the total squared error between the rendered and true pixel colors.
 
 I like this paper because of how clever it is in terms of data representation; they don't use any architecture or function that's super fancy, they just found a way to formulate the problem in a nice way.
-
-$$
