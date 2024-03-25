@@ -30,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "2fc0453d4a712429",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/NeRF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ML/NeRF.md"
+                "file": "Polymath/E-Stop.md"
               }
             }
           },
@@ -157,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "ML/NeRF.md",
+                "file": "Polymath/E-Stop.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ML/NeRF.md",
+                "file": "Polymath/E-Stop.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ML/NeRF.md",
+                "file": "Polymath/E-Stop.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -235,8 +223,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "2fc0453d4a712429",
+  "active": "6ee5cee02dbaa2c7",
   "lastOpenFiles": [
+    "ML/NeRF.md",
     "Polymath/E-Stop.md",
     "private/Resume Review.md",
     "private/private.md",
@@ -271,10 +260,9 @@
     "Polymath/attachments/E-Stop-1.png",
     "Polymath/attachments/E-Stop.png",
     "Robotics/noVNC.md",
-    "CS/Algorithm Design Manual (Skiena).md",
     "attachments/Untitled.png",
     "ML/attachments/SYDE 572 SVM Grad-1.png",
-    "Other/Finnish",
+    "Finnish",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Polymath/Polymath ML Productization.canvas",
     "Other/idfk.canvas",
