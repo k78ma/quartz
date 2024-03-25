@@ -1,9 +1,9 @@
 ---
-title: Dictionaries
+title: Dictionary
 tags:
   - cs
   - dsa
-date: 2024-03-23
+date: 2024-03-24
 aliases:
 ---
 Dictionaries allow access to data items by content.

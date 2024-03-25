@@ -23,7 +23,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Pointers]]
 - [[Linked List]]
 - [[Stacks and Queues]]
-- [[Dictionaries]]
+- [[Dictionary]]
+	- [[Dictionary Implementations]]
 
 ## Sorting
 - [[Sorting Algorithms]]

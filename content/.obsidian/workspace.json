@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Dictionaries.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5541be3e7927993e",
+            "id": "28ca4eff5c76d1d0",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Dictionaries.md"
+                "file": "CS/Data Structures and Algorithms.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Dictionaries.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Dictionaries.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Dictionaries.md",
+                "file": "CS/Data Structures and Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -248,10 +248,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5541be3e7927993e",
+  "active": "f16f9de71075d569",
   "lastOpenFiles": [
+    "CS/Dictionary.md",
     "CS/Data Structures and Algorithms.md",
-    "CS/Dictionaries.md",
     "CS/Stacks and Queues.md",
     "Statistics/Statistics.md",
     "Statistics/Independent Variables.md",
