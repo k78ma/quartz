@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e8a0d1d0557d65f8",
+        "id": "064a2835136cff55",
         "type": "tabs",
         "children": [
           {
-            "id": "adac174e04f49e28",
+            "id": "9d0725267e8023c4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other/Resume Review.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -91,7 +87,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "67d5f73ea1e9c26a",
+            "id": "109d2ebd5657d413",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -104,7 +100,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Other/Resume Review.md"
+                "file": "private/Resume Review.md"
               }
             }
           },
@@ -132,7 +128,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Other/Resume Review.md",
+                "file": "private/Resume Review.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -167,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Other/Resume Review.md",
+                "file": "private/Resume Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -184,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other/Resume Review.md",
+                "file": "private/Resume Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -210,8 +206,10 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "adac174e04f49e28",
+  "active": "109d2ebd5657d413",
   "lastOpenFiles": [
+    "private/Resume Review.md",
+    "private/Untitled.md",
     "Other/Resume Review.md",
     "Other/Resume Review.md",
     "Polymath/VIDAS ROS 2 Driver.md",
@@ -238,10 +236,8 @@
     "CS/Linked List.md",
     "CS/Pointers.md",
     "kai++.md",
-    "Statistics/sum rule.md",
     "Statistics/attachments/Sum and Product Rules of Probability.png",
     "Statistics/attachments",
-    "Polymath/Baymax.md",
     "Polymath/attachments/E-Stop-4.png",
     "Polymath/attachments/E-Stop-3.png",
     "Polymath/attachments/E-Stop-2.png",
