@@ -17,14 +17,13 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 	- [[Operations with Big O]]
 - [[Logarithmic Algorithms]]
 ## Data Structures
-- [[Combinatorial Objects]]
-- [[Recursive Objects]]
 - [[Contiguous vs Linked Data Structures]]
 - [[Array]]
 	- [[Dynamic Array]]
 - [[Pointers]]
 - [[Linked List]]
 - [[Stacks and Queues]]
+- [[Dictionaries]]
 
 ## Sorting
 - [[Sorting Algorithms]]

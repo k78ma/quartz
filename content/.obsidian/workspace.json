@@ -49,14 +49,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Dictionaries.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Statistics.md"
+                "file": "CS/Dictionaries.md"
               }
             }
           },
@@ -170,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "CS/Dictionaries.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "CS/Dictionaries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "CS/Dictionaries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -248,12 +248,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "bed22b94e460319d",
+  "active": "5541be3e7927993e",
   "lastOpenFiles": [
-    "Statistics/Independent Variables.md",
-    "Statistics/Statistics.md",
     "CS/Data Structures and Algorithms.md",
+    "CS/Dictionaries.md",
     "CS/Stacks and Queues.md",
+    "Statistics/Statistics.md",
+    "Statistics/Independent Variables.md",
     "ML/Machine Learning.md",
     "Statistics/Prior and Posterior.md",
     "Statistics/Sum and Product Rules of Probability.md",
@@ -285,7 +286,6 @@
     "ML/SYDE 572 A1.md",
     "2B/SYDE 252/SYDE 252 - Signals and Systems.md",
     "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
-    "CS/Problems/Slice Notation.md",
     "Other/Finnish",
     "CS/Problems/attachments/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).png",
     "Polymath/Polymath ML Productization Simplified.canvas",
