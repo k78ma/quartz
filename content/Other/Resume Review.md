@@ -148,3 +148,16 @@ draft: "true"
 
 
 ![[Resume Review.png]]
+
+- Thank you for your help, feel like I've been bothering you a bunch with different stuff, I really appreciate the help
+
+Background info:
+- My school typically does 5-year programs, so my original graduation date was 2026
+- My plan was to initially overload and take extra courses to graduate early in 2025
+- This morning, I got a notification that I got accepted into an exchange program to do a semester abroad in Asia
+	- This is a really cool opportunity
+- For semesters abroad, you're not allowed take extra courses to get extra credit
+- So, if I take the offer to go abroad, my graduation date would be pushed back to the original 2026
+- So I wanted to come discuss this with you as soon as I heard the news; I know there's probably some flexibility (anticipated grad dates are anticipated for a reason), but I still want to be as open with you guys as possible, I don't think it would be cool for me to apply as a 2025 and then switch to 2026 without communicating anything
+- So my question is: if I were to go abroad and switch back to 2026, is that something I could do without affecting my NVIDIA offer? Or is there like a process I have to go through?
+	- Because I really want to go abroad but I also really want to work for NVIDIA, so if you tell me like if I switch to 2026 you're gonna rescind my offer or something like that, then I have some thinking to do

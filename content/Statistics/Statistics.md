@@ -11,7 +11,9 @@ Notes from:
 - [[Bayes' Theorem]]
 - [[Prior and Posterior]]
 - [[Independent Variables]]
-- [[Probability Density]]
+- [[Probability Density Function]]
+	- [[Multivariate Probability Density]]
+- [[Cumulative Distribution Function]]
 ## Distributions
 - [[Likelihood Ratio]]
 - [[Decision Boundary]]
