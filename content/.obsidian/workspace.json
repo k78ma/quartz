@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "30ca213c5eba4d48",
+        "id": "e8a0d1d0557d65f8",
         "type": "tabs",
         "children": [
           {
-            "id": "0f31eb18bfcf74c9",
+            "id": "adac174e04f49e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff242724219d41e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath/E-Stop.md",
+                "file": "Other/Resume Review.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +104,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polymath/E-Stop.md"
+                "file": "Other/Resume Review.md"
               }
             }
           },
@@ -145,7 +132,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Polymath/E-Stop.md",
+                "file": "Other/Resume Review.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,7 +167,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polymath/E-Stop.md",
+                "file": "Other/Resume Review.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +184,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polymath/E-Stop.md",
+                "file": "Other/Resume Review.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -223,11 +210,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6ee5cee02dbaa2c7",
+  "active": "adac174e04f49e28",
   "lastOpenFiles": [
-    "ML/NeRF.md",
+    "Other/Resume Review.md",
+    "Other/Resume Review.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
     "Polymath/E-Stop.md",
-    "private/Resume Review.md",
+    "ML/NeRF.md",
     "private/private.md",
     "Statistics/Probability Density Function.md",
     "Statistics/Sum and Product Rules of Probability.md",
@@ -249,7 +238,6 @@
     "CS/Linked List.md",
     "CS/Pointers.md",
     "kai++.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
     "Statistics/sum rule.md",
     "Statistics/attachments/Sum and Product Rules of Probability.png",
     "Statistics/attachments",
@@ -259,7 +247,6 @@
     "Polymath/attachments/E-Stop-2.png",
     "Polymath/attachments/E-Stop-1.png",
     "Polymath/attachments/E-Stop.png",
-    "Robotics/noVNC.md",
     "attachments/Untitled.png",
     "ML/attachments/SYDE 572 SVM Grad-1.png",
     "Finnish",
