@@ -11,9 +11,16 @@ Notes from:
 - [[Bayes' Theorem]]
 - [[Prior and Posterior]]
 - [[Independent Variables]]
+
+### Probability Densities
 - [[Probability Density Function]]
 	- [[Multivariate Probability Density]]
 - [[Cumulative Distribution Function]]
+- [[Expected Value]]
+- [[Variance]]
+- [[Covariance]]
+### Gaussian Distribution
+
 ## Distributions
 - [[Likelihood Ratio]]
 - [[Decision Boundary]]
