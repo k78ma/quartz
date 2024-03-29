@@ -14,5 +14,6 @@ Ideas:
 - [ ] Computer algebra system
 - [ ] Semantic search from scratch on a .txt file (Shakespeare?)
 - [ ] Block diagram → model
+- [ ] Learned Kalman Filter
 
 Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)

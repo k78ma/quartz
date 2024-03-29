@@ -21,6 +21,7 @@ Notes from:
 - [[Standard Deviation]]
 ### Gaussian Distribution
 - [[Gaussian Distribution]]
+- [[Likelihood Function]]
 
 ## Distributions
 - [[Likelihood Ratio]]
