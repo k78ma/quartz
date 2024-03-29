@@ -4,6 +4,7 @@ tags:
   - stats
 date: 2024-03-27
 aliases:
+  - variance
 ---
 The variance of $f(x)$ is defined by
 $$

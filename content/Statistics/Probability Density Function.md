@@ -5,6 +5,7 @@ tags:
 date: 2024-03-25
 aliases:
   - PDF
+  - probability density
 ---
 Probability density functions allow us to quantify probabilities with respect to continuous variables.
 

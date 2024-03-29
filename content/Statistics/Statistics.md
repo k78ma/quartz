@@ -18,7 +18,9 @@ Notes from:
 - [[Expected Value]]
 - [[Variance]]
 - [[Covariance]]
+- [[Standard Deviation]]
 ### Gaussian Distribution
+- [[Gaussian Distribution]]
 
 ## Distributions
 - [[Likelihood Ratio]]
