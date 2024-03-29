@@ -26,3 +26,23 @@ $$
 \int_{-\infty}^{\infty} N(x|\mu, \sigma^{2})  \, dx =1
 $$
 This means it satisfies the two requirements of a valid probability density.
+
+The maximum of a distribution is known as its *mode* – for a Gaussian, the mode and the mean are the same.
+
+### Mean and Variance
+The average value of $x$ is given by:
+$$
+E[x]=\int_{-\infty}^{\infty} N(x|\mu, \sigma^{2})x \, dx  = \mu
+$$
+The integral above is referred to as the *first-order moment* of the distribution, because it's the expectation of $x$ raised to the power one. We can find the second-order with:
+$$
+E[x^{2}]=\int_{-\infty}^{\infty} N(x|\mu, \sigma^{2})x^{2} \, dx=\mu^{2}+\sigma^{2} 
+$$
+Thus, we have:
+$$
+\begin{align}
+\text{var}[x]  & = E[x^{2}]-E[x]^{2} \\
+	 & =(\mu^{2}+\sigma^{2})-\mu^{2} \\
+	 & = \sigma^{2}
+\end{align}
+$$

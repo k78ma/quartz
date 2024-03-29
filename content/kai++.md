@@ -172,12 +172,6 @@ draft: "true"
 ## DLFC
 
 - [ ] 2 - Probabilities
-- [ ] 2.1.4 - Medical screening revisited
-- [ ] 2.1.5 - Prior and posterior probabilities
-- [ ] 2.1.6 - Independent variables
-- [ ] 2.2 - Probability Densities
-- [ ] 2.2.1 - Example distributions
-- [ ] 2.2.2 - Expectations and covariances
 - [ ] 2.3 - The Gaussian Distribution
 - [ ] 2.3.1 - Mean and variance
 - [ ] 2.3.2 - Likelihood function
@@ -708,6 +702,12 @@ draft: "true"
 - [ ] 2.1.3 - Bayes’ theorem
 - [ ] 3.1 - Contiguous vs. Linked Data Structures
 - [ ] 3.1.1 - Arrays
+- [ ] 2.1.4 - Medical screening revisited
+- [ ] 2.1.5 - Prior and posterior probabilities
+- [ ] 2.1.6 - Independent variables
+- [ ] 2.2 - Probability Densities
+- [ ] 2.2.1 - Example distributions
+- [ ] 2.2.2 - Expectations and covariances
 
 %% kanban:settings
 ```
