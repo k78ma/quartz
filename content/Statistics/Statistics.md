@@ -24,6 +24,7 @@ Notes from:
 - [[Gaussian Distribution]]
 - [[Likelihood Function]]
 - [[Maximum Likelihood Estimation]]
+	- [[Gaussian Maximum Likehood Estimation]]
 	- [[Bessel's Correction]]
 - 
 
