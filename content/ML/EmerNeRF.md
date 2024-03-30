@@ -13,7 +13,3 @@ Features:
 
 Method:
 - High-level: Builds a hybrid static-dynamic world representation via a density-regularized objective, generating density for dynamic objects only as necessary (i.e., when points intersect dynamic objects).
-
-```bash
-docker run -it --name emernerf ghcr.io/watonomous/wato-dense-prediction/emernerf:latest /bin/bash
-```

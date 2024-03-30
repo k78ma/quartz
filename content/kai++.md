@@ -165,9 +165,6 @@ draft: "true"
 ## DLFC
 
 - [ ] 2 - Probabilities
-- [ ] 2.3 - The Gaussian Distribution
-- [ ] 2.3.1 - Mean and variance
-- [ ] 2.3.2 - Likelihood function
 - [ ] 2.3.3 - Bias of maximum likelihood
 - [ ] 2.3.4 - Linear regression
 - [ ] 2.4 - Transformation of Densities
@@ -701,6 +698,9 @@ draft: "true"
 - [ ] 2.2 - Probability Densities
 - [ ] 2.2.1 - Example distributions
 - [ ] 2.2.2 - Expectations and covariances
+- [ ] 2.3 - The Gaussian Distribution
+- [ ] 2.3.1 - Mean and variance
+- [ ] 2.3.2 - Likelihood function
 
 %% kanban:settings
 ```

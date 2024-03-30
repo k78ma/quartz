@@ -6,7 +6,8 @@ date: 2023-10-24
 ---
 Notes from:
 - Chapters 2 and 3 of [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
-## Probabilities
+## Probability
+### Probability Basics
 - [[Sum and Product Rules of Probability]]
 - [[Bayes' Theorem]]
 - [[Prior and Posterior]]
@@ -19,11 +20,12 @@ Notes from:
 - [[Variance]]
 - [[Covariance]]
 - [[Standard Deviation]]
-### Gaussian Distribution
+### Distribution Basics
 - [[Gaussian Distribution]]
 - [[Likelihood Function]]
+- [[Maximum Likelihood Estimation]]
+	- [[Bessel's Correction]]
+- 
 
 ## Distributions
-- [[Likelihood Ratio]]
-- [[Decision Boundary]]
-- [[Maximum Likelihood Estimation]]
+

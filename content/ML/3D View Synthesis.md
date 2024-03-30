@@ -11,3 +11,5 @@ aliases:
 - [[Instant NGP]]
 - [[FeatureNeRF]]
 - [[Polynomial Neural Fields]]
+
+- [[WATONeRF]]
