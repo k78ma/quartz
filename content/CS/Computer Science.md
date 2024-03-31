@@ -8,6 +8,7 @@ aliases:
 ---
 ## Notes 
 - [[Structure and Interpretation of Programs|Programming]]
+- [[Computational Theory]]
 - [[Data Structures and Algorithms]]
 - [[Object Oriented Programming]]
 - [[Distributed Systems]]
