@@ -26,7 +26,7 @@ Notes from:
 - [[Maximum Likelihood Estimation]]
 	- [[Gaussian Maximum Likehood Estimation]]
 	- [[Bessel's Correction]]
-- 
+- [[Linear ]]
 
 ## Distributions
 

@@ -12,6 +12,11 @@ Notes are mostly from:
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 - [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 
+## Regression
+- [[Linear Regression
+- [[Regression]]
+- [[Ordinary Least Squares]]
+- [[Ridge Regression]]
 ## Neural Networks
 - [[Neural Networks]]
 	- [[Artificial Neuron]]
@@ -58,10 +63,6 @@ Notes are mostly from:
 - [[Weight Perturbation]]
 - [[Dropout]]
 - [[Batch Normalization]]
-## Regression
-- [[Regression]]
-- [[Ordinary Least Squares]]
-- [[Ridge Regression]]
 ## Gradient Descent
 - [[Gradient Descent]]
 	- [[1D Gradient Descent]]
