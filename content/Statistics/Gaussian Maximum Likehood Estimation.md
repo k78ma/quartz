@@ -45,6 +45,6 @@ $$
 $$
 Setting to zero and solving for $\sigma^{2}$:
 $$
-\boxed{\sigma^{2}_{\text{ML}}=\frac{1}{N}\sum_{n=1}^{N}(x_{n}-\mu)^{2}}
+\boxed{\sigma^{2}_{\text{ML}}=\frac{1}{N}\sum_{n=1}^{N}(x_{n}-\mu_{ML})^{2}}
 $$
 This is the *sample variance* measured with respect to the sample mean $\mu$.

@@ -4,6 +4,7 @@ tags:
   - stats
 date: 2024-03-26
 aliases:
+  - expectation
 ---
 The weighted average of some function $f(x)$ under a probability distribution $p(x)$ is called the *expectation* or *expected value* of $f(x)$ and defined by $E(f)$.
 
