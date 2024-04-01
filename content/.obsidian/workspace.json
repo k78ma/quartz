@@ -56,18 +56,31 @@
             }
           },
           {
-            "id": "f25996bced4203d7",
+            "id": "cf3eed8c9a4b75fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML/ML Fundamentals.md",
+                "file": "ML/SYDE 572 A5.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58192ffc0b2791f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ML/Convolutional Neural Networks.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Statistics.md"
+                "file": "ML/SYDE 572 A5.md"
               }
             }
           },
@@ -181,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "ML/SYDE 572 A5.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,7 +229,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "ML/SYDE 572 A5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +246,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "ML/SYDE 572 A5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -259,17 +272,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d0725267e8023c4",
+  "active": "cf3eed8c9a4b75fa",
   "lastOpenFiles": [
-    "ML/ML Fundamentals.md",
-    "ML/Regression.md",
+    "ML/Convolutional Neural Networks.md",
+    "ML/SYDE 572 A5.md",
+    "ML/Vanishing + Exploding Gradient Problem.md",
     "ML/Machine Learning.md",
+    "ML/SYDE 572 A4.md",
+    "Statistics/Gaussian Maximum Likehood Estimation.md",
+    "ML/ML Fundamentals.md",
     "Statistics/Statistics.md",
+    "ML/Regression.md",
     "Statistics/Bessel's Correction.md",
     "Statistics/attachments/Bessel's Correction.png",
     "CS/Computational Theory.md",
     "CS/Data Structures and Algorithms.md",
-    "Statistics/Gaussian Maximum Likehood Estimation.md",
     "Statistics/Expected Value.md",
     "private/Resume Review.md",
     "CS/Computer Science.md",
@@ -277,7 +294,6 @@
     "Statistics/Maximum Likelihood Estimation.md",
     "Polymath/VIDAS ROS 2 Driver.md",
     "ML/WATONeRF.md",
-    "ML/SYDE 572 SVM Gradient.md",
     "kai++.md",
     "Statistics/Likelihood Function.md",
     "Statistics/Gaussian Distribution.md",
@@ -286,9 +302,6 @@
     "ML/3D View Synthesis.md",
     "ML/EmerNeRF.md",
     "Other/Projects.md",
-    "Statistics/Standard Deviation.md",
-    "Statistics/Variance.md",
-    "Statistics/Probability Density Function.md",
     "Statistics/attachments/Cumulative Distribution Function.png",
     "Statistics/attachments/Probability Density Function.png",
     "Statistics/attachments/Sum and Product Rules of Probability.png",
