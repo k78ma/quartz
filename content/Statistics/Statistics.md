@@ -26,7 +26,9 @@ Notes from:
 - [[Maximum Likelihood Estimation]]
 	- [[Gaussian Maximum Likehood Estimation]]
 	- [[Bessel's Correction]]
-- [[Linear ]]
+- [[Linear Regression as MLE]]
 
+### Information Theory
+- [[Probabilistic Entropy]]
 ## Distributions
 

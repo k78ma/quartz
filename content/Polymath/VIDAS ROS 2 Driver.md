@@ -45,3 +45,7 @@ Criteria:
 - Colorized point cloud consistency issue
 - Costmap from both their cost0 frame and our costmap_2d
 - Test outside
+
+### TF
+- Point clouds are published to frame `camera_0`
+- 

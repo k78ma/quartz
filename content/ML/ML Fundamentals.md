@@ -13,7 +13,6 @@ Notes are mostly from:
 - [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 
 ## Regression
-- [[Linear Regression
 - [[Regression]]
 - [[Ordinary Least Squares]]
 - [[Ridge Regression]]
@@ -22,7 +21,7 @@ Notes are mostly from:
 	- [[Artificial Neuron]]
 	- [[Neural Network Layer]]
 	- [[Multi-layer Neural Network]]
-- 
+
 - [[Universal Approximation Theorem]]
 - [[Backpropagation]] 
 - [[Neural Network Training]]
