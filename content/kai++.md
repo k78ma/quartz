@@ -165,8 +165,6 @@ draft: "true"
 ## DLFC
 
 - [ ] 2 - Probabilities
-- [ ] 2.3.3 - Bias of maximum likelihood
-- [ ] 2.3.4 - Linear regression
 - [ ] 2.4 - Transformation of Densities
 - [ ] 2.4.1 - Multivariate distributions
 - [ ] 2.5 - Information Theory
@@ -515,9 +513,6 @@ draft: "true"
 ## CS
 
 - [ ] 3 - Data Structures
-- [ ] 3.1.2 - Pointers and Linked Structures
-- [ ] 3.1.3 - Comparison
-- [ ] 3.2 - Containers: Stacks and Queues
 - [ ] 3.3 - Dictionaries
 - [ ] 3.4 - Binary Search Trees
 - [ ] 3.4.1 - Implementing Binary Search Trees
@@ -701,6 +696,11 @@ draft: "true"
 - [ ] 2.3 - The Gaussian Distribution
 - [ ] 2.3.1 - Mean and variance
 - [ ] 2.3.2 - Likelihood function
+- [ ] 3.1.2 - Pointers and Linked Structures
+- [ ] 3.1.3 - Comparison
+- [ ] 3.2 - Containers: Stacks and Queues
+- [ ] 2.3.3 - Bias of maximum likelihood
+- [ ] 2.3.4 - Linear regression
 
 %% kanban:settings
 ```
