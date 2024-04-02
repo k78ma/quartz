@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "642b71e9757251f8",
+            "id": "32106576d27a7e81",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md"
+                "file": "CS/Dictionary Implementations.md"
               }
             }
           },
@@ -150,7 +151,7 @@
             }
           },
           {
-            "id": "5379cf60c359e83c",
+            "id": "480893aded436052",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -170,7 +171,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
+                "file": "CS/Dictionary Implementations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -205,7 +206,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
+                "file": "CS/Dictionary Implementations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +223,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
+                "file": "CS/Dictionary Implementations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -248,20 +249,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "9d0725267e8023c4",
+  "active": "32106576d27a7e81",
   "lastOpenFiles": [
+    "Statistics/Linear Regression as MLE.md",
+    "CS/Dictionary Implementations.md",
+    "CS/Data Structures and Algorithms.md",
     "ML/Negative log-likelihood.md",
     "ML/ML Fundamentals.md",
     "ML/Loss Function.md",
-    "Statistics/Linear Regression as MLE.md",
     "Statistics/Maximum Likelihood Estimation.md",
     "Statistics/attachments/Linear Regression as MLE.png",
     "Statistics/Statistics.md",
     "Polymath/VIDAS ROS 2 Driver.md",
     "ML/Regression.md",
     "ML/Ordinary Least Squares.md",
-    "CS/Dictionary Implementations.md",
-    "CS/Data Structures and Algorithms.md",
     "CS/Computational Theory.md",
     "Statistics/Gaussian Maximum Likehood Estimation.md",
     "ML/SYDE 572 A5.md",
