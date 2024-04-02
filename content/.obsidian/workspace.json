@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "32106576d27a7e81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Dictionary Implementations.md",
+                "file": "Statistics/Statistics.md",
                 "mode": "source",
                 "source": false
               }
@@ -54,19 +42,19 @@
             }
           },
           {
-            "id": "486b81713c2e89cc",
+            "id": "af2b22bf0f0a65a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Dictionary.md",
+                "file": "Statistics/Linear Regression as MLE.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -139,12 +127,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "d6e8c4cd88f9f0f6",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
             "id": "a3fbcc1d27d0a654",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Dictionary Implementations.md"
+                "file": "Statistics/Linear Regression as MLE.md"
               }
             }
           },
@@ -159,17 +155,8 @@
                 "searchQuery": ""
               }
             }
-          },
-          {
-            "id": "480893aded436052",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "e4ce9e46915c52dc",
@@ -181,7 +168,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Dictionary Implementations.md",
+                "file": "Statistics/Linear Regression as MLE.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -216,7 +203,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Dictionary Implementations.md",
+                "file": "Statistics/Linear Regression as MLE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -233,7 +220,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Dictionary Implementations.md",
+                "file": "Statistics/Linear Regression as MLE.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -259,20 +246,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "32106576d27a7e81",
+  "active": "af2b22bf0f0a65a7",
   "lastOpenFiles": [
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Statistics/Statistics.md",
+    "kai++.md",
     "CS/Dictionary.md",
     "CS/Dictionary Implementations.md",
-    "kai++.md",
-    "ML/Negative log-likelihood.md",
     "Statistics/Linear Regression as MLE.md",
+    "ML/Negative log-likelihood.md",
     "CS/Data Structures and Algorithms.md",
     "ML/ML Fundamentals.md",
     "ML/Loss Function.md",
     "Statistics/Maximum Likelihood Estimation.md",
     "Statistics/attachments/Linear Regression as MLE.png",
-    "Statistics/Statistics.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
     "ML/Regression.md",
     "ML/Ordinary Least Squares.md",
     "CS/Computational Theory.md",

@@ -513,7 +513,6 @@ draft: "true"
 ## CS
 
 - [ ] 3 - Data Structures
-- [ ] 3.3 - Dictionaries
 - [ ] 3.4 - Binary Search Trees
 - [ ] 3.4.1 - Implementing Binary Search Trees
 - [ ] 3.4.2 - How Good are Binary Search Trees?
@@ -701,6 +700,7 @@ draft: "true"
 - [ ] 3.2 - Containers: Stacks and Queues
 - [ ] 2.3.3 - Bias of maximum likelihood
 - [ ] 2.3.4 - Linear regression
+- [ ] 3.3 - Dictionaries
 
 %% kanban:settings
 ```

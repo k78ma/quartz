@@ -6,7 +6,7 @@ date: 2024-04-01
 aliases:
   - sum-of-squares derivation
 ---
-[[Regression]] problems can be expressed in terms of error minimization, such as [[Ordinary Least Squares]]. We can also view it as a probabilistic [[maximum likelihood estimation]] problem. 
+[[Regression]] problems can be expressed in terms of error minimization, such as [[Ordinary Least Squares]]. We can also view it as a probabilistic [[Maximum Likelihood Estimation|maximum likelihood estimation]] problem. 
 
 The goal in the regression problem is to make predictions for the target variable $t$ given some new value of the input variable $x$. This is done by using a set of training data comprising $N$ input values, $\mathbf{x} = (x_{1}, \dots, x_{N})$ and their corresponding values $\mathbf{t}=(t_{1}, \dots, t_{N})$. 
 

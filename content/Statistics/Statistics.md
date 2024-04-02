@@ -20,6 +20,9 @@ Notes from:
 - [[Variance]]
 - [[Covariance]]
 - [[Standard Deviation]]
+### Transformation of Densities
+- [[Transformation of Densities]]
+- [[Multivariate Distributions]]
 ### Distribution Basics
 - [[Gaussian Distribution]]
 - [[Likelihood Function]]
@@ -30,5 +33,5 @@ Notes from:
 
 ### Information Theory
 - [[Probabilistic Entropy]]
-## Distributions
+## Standard Distributions
 
