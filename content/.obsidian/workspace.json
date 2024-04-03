@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9d0725267e8023c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Statistics/Statistics.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "901366900842685d",
             "type": "leaf",
             "state": {
@@ -32,29 +20,55 @@
             }
           },
           {
-            "id": "82989f29fd8245ca",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "kai++.md"
-              }
-            }
-          },
-          {
-            "id": "af2b22bf0f0a65a7",
+            "id": "eff8fcb9c4e36639",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
+                "file": "Statistics/Transformation of Densities.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "101603fc1692a01d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Maximum of Transformed Density.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bce7519ef37fa0d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Sum and Product Rules of Probability.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3098552b952b0a3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Probability Density Function.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -127,20 +141,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d6e8c4cd88f9f0f6",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
-          },
-          {
             "id": "a3fbcc1d27d0a654",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md"
+                "file": "Statistics/Maximum of Transformed Density.md"
               }
             }
           },
@@ -155,8 +161,17 @@
                 "searchQuery": ""
               }
             }
+          },
+          {
+            "id": "ba7054f745b0ec8d",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "e4ce9e46915c52dc",
@@ -168,7 +183,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
+                "file": "Statistics/Maximum of Transformed Density.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -203,7 +218,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
+                "file": "Statistics/Maximum of Transformed Density.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -220,7 +235,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Linear Regression as MLE.md",
+                "file": "Statistics/Maximum of Transformed Density.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -246,14 +261,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "af2b22bf0f0a65a7",
+  "active": "101603fc1692a01d",
   "lastOpenFiles": [
-    "Polymath/VIDAS ROS 2 Driver.md",
+    "Statistics/Transformation of Densities.md",
+    "Statistics/Sum and Product Rules of Probability.md",
+    "Statistics/Probability Density Function.md",
+    "ML/Sigmoid.md",
+    "Statistics/Maximum of Transformed Density.md",
+    "Statistics/attachments/Transformation of Densities.png",
     "Statistics/Statistics.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
     "kai++.md",
+    "Statistics/Linear Regression as MLE.md",
     "CS/Dictionary.md",
     "CS/Dictionary Implementations.md",
-    "Statistics/Linear Regression as MLE.md",
     "ML/Negative log-likelihood.md",
     "CS/Data Structures and Algorithms.md",
     "ML/ML Fundamentals.md",
@@ -271,11 +292,6 @@
     "ML/SYDE 572 A4.md",
     "Statistics/Bessel's Correction.md",
     "Statistics/attachments/Bessel's Correction.png",
-    "Statistics/Expected Value.md",
-    "private/Resume Review.md",
-    "CS/Computer Science.md",
-    "CS/Structure and Interpretation of Programs.md",
-    "ML/WATONeRF.md",
     "Statistics/attachments/Likelihood Function.png",
     "Statistics/attachments/Cumulative Distribution Function.png",
     "Statistics/attachments/Probability Density Function.png",
@@ -284,7 +300,6 @@
     "Polymath/attachments/E-Stop-4.png",
     "Polymath/attachments/E-Stop-3.png",
     "Polymath/attachments/E-Stop-2.png",
-    "Polymath/attachments/E-Stop-1.png",
     "Finnish",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Polymath/Polymath ML Productization.canvas",
