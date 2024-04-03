@@ -22,7 +22,7 @@ Notes from:
 - [[Standard Deviation]]
 ### Transformation of Densities
 - [[Transformation of Densities]]
-- [[Multivariate Distributions]]
+- [[Transformation of Multivariate Distributions]]
 ### Distribution Basics
 - [[Gaussian Distribution]]
 - [[Likelihood Function]]
@@ -30,8 +30,8 @@ Notes from:
 	- [[Gaussian Maximum Likehood Estimation]]
 	- [[Bessel's Correction]]
 - [[Linear Regression as MLE]]
-
 ### Information Theory
+- [[Information Theory]]
 - [[Probabilistic Entropy]]
 ## Standard Distributions
 
