@@ -32,6 +32,7 @@ Notes from:
 - [[Linear Regression as MLE]]
 ### Information Theory
 - [[Information Theory]]
-- [[Probabilistic Entropy]]
+- [[Measure of Information]]
+- [[Information Entropy]]
 ## Standard Distributions
 

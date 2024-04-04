@@ -48,4 +48,3 @@ Criteria:
 
 ### TF
 - Point clouds are published to frame `camera_0` – Line 495
-- 
