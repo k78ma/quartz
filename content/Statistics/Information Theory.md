@@ -8,4 +8,5 @@ aliases:
 Probability theory forms the basis of *information theory*, which quantifies the information present in a data set and plays an important element in [[Machine Learning]].
 
 Topics:
-- [[Entropy]]
+- [[Measure of Information]]
+- [[Information Entropy]]
