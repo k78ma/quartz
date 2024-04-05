@@ -12,7 +12,7 @@ Elliptic equations represent steady state problems, such as temperature distribu
 The [[Laplace’s Equation]] is used here:
 $$
 \frac{ \partial^{2}T }{ \partial x^{2} } + \frac{ \partial^{2}T }{ \partial y^{2} } =0
-		$$Consider a thin plate (thickness $\Delta z$) insulated on the front and back surfaces. A small element of width $\Delta x$ and $\Delta y$ can be described at steady state by heat flux into and out of the element:
+$$Consider a thin plate (thickness $\Delta z$) insulated on the front and back surfaces. A small element of width $\Delta x$ and $\Delta y$ can be described at steady state by heat flux into and out of the element:
 
 ![[Elliptic Equations.png|378]]
 
