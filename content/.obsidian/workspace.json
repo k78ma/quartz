@@ -15,7 +15,7 @@
               "state": {
                 "file": "Polymath/VIDAS ROS 2 Driver.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -27,7 +27,7 @@
               "state": {
                 "file": "Statistics/Statistics.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -39,7 +39,7 @@
               "state": {
                 "file": "CS/Data Structures and Algorithms.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           },
@@ -51,16 +51,8 @@
               "state": {
                 "file": "private/Resume Review.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
-            }
-          },
-          {
-            "id": "72cf905fd2827ec3",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           },
           {
@@ -71,12 +63,12 @@
               "state": {
                 "file": "2B/MTE 204/Elliptic Equations.md",
                 "mode": "source",
-                "source": false
+                "source": true
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -272,6 +264,7 @@
   "active": "b9074144d1c1093b",
   "lastOpenFiles": [
     "private/Resume Review.md",
+    "2B/MTE 204/Elliptic Equations.md",
     "Robotics/Quaternions.md",
     "Statistics/Information Theory.md",
     "Statistics/Statistics.md",
@@ -299,7 +292,6 @@
     "Statistics/attachments/Linear Regression as MLE.png",
     "ML/Regression.md",
     "ML/Ordinary Least Squares.md",
-    "CS/Computational Theory.md",
     "Statistics/attachments/Bessel's Correction.png",
     "Statistics/attachments/Likelihood Function.png",
     "Statistics/attachments/Cumulative Distribution Function.png",
