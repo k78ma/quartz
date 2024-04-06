@@ -25,7 +25,13 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Stacks and Queues]]
 - [[Dictionary]]
 	- [[Dictionary Implementations]]
-
+- [[Trees]]
+- [[Binary Tree]]
+- [[Binary Search Tree]]
+	- [[Balanced Binary Tree]]
+		- [[Red-black trees]]
+		- [[AVL trees]]
+- [[Tree Traversal]]
 ## Sorting
 - [[Sorting Algorithms]]
 
@@ -37,13 +43,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal
-- [[Trees]]
-- [[Binary Tree]]
-- [[Binary Search Tree]]
-	- [[Balanced Binary Tree]]
-		- [[Red-black trees]]
-		- [[AVL trees]]
-- [[Tree Traversal]]
+
 ### Depth First Search
 - [[Depth First Search]]
 	- [[Depth First Search on Trees]]

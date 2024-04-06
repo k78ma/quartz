@@ -34,5 +34,6 @@ Notes from:
 - [[Information Theory]]
 - [[Measure of Information]]
 - [[Information Entropy]]
+	- [[Physical Entropy]]
 ## Standard Distributions
 
