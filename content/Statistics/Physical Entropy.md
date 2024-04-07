@@ -27,17 +27,20 @@ H  & = \frac{1}{N} \ln W \\[2ex]
  & = \frac{1}{N}\ln N! - \frac{1}{N}\sum_{i}\ln n_{i}! \\[2ex] 
 \end{align}
 $$
-
 We can then apply Stirling’s approximation of $\ln N! \approx N \ln N -N$. This gives us:
 $$
 \begin{align}
-H  & \approx \frac{1}{N}(N \ln N - N) - \frac{1}{N}\sum_{i}(n_{i}\ln n_{i}-n_{i}) \\[2ex]
- & = \ln N - \sum_{i} \frac{n_{i}}{N} \ln n_{i}+ \sum_{i} \frac{n_{i}}{N}
+H & \approx \frac{1}{N}(N \ln N - N) - \frac{1}{N}\sum_{i}(n_{i}\ln n_{i} - n_{i}) \\[2ex]
+& = \ln N - 1 - \sum_{i}\frac{n_{i}}{N}\ln n_{i} + \sum_{i}\frac{n_{i}}{N} \\[2ex]
+& = \ln N - 1 -\sum_{i}\frac{n_{i}}{N}\ln n_{i} + 1 \\[2ex]
+& = \ln N -  \sum_{i}\frac{n_{i}}{N}\ln n_{i} \\[2ex]
+& = -\sum_{i}\frac{n_{i}}{N}\ln\left(\frac{n_{i}}{N}\right)
 \end{align}
 $$
-Some simplifications:
-- $\sum_{i}n_{i}=N$, so the last term simplifies to 1
-- The logarithm of a number divided by $N$ can be expressed as the logarithm of the fraction minus $\ln N$
+
+Some simplifications that we used above:
+- $\sum_{i}n_{i}=N$, so $\sum_{i}n_{i} / N=1$
+- $\ln\left( \frac{n_{i}}{N} \right) = \ln(n_{i})-\ln(N)$
 
 This gives us:
 $$
@@ -50,9 +53,9 @@ p_{i}  & = \lim_{ N \to \infty }\left( \frac{n_{i}}{N} \right) \\[2ex]
 H  & =-\sum_{i}p_{i}\ln p_{i}
 \end{align}
 $$
-The specific allocation of objects into bins is called a *microstate*. The overall distribution of occupation numbers, expressed $n_{i} / N$, is called a *macrostate*.
+The specific allocation of objects into bins is called a *microstate*. The overall distribution of occupation numbers, expressed by $n_{i} / N$, is called a *macrostate*.
 
-We can interpret the bins at the states $x_{i}$ of a discrete random variable $X$, where $p(X=x_{i})=p_{i}$. The entropy of the random variable $X$ is then:
+We can interpret the bins as the states $x_{i}$ of a discrete random variable $X$, where $p(X=x_{i})=p_{i}$. The entropy of the random variable $X$ is then:
 $$
 H[p]=-\sum_{i}p(x_{i})\ln p(x_{i})
 $$
