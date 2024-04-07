@@ -27,16 +27,30 @@ H  & = \frac{1}{N} \ln W \\[2ex]
  & = \frac{1}{N}\ln N! - \frac{1}{N}\sum_{i}\ln n_{i}! \\[2ex] 
 \end{align}
 $$
-Consider the limit $N \to \infty$, in which the fractions $n_{i}/N$ are held fixed, and apply Stirling’s approximation of $\ln N! \approx N \ln N -N$. This gives us:
+
+We can then apply Stirling’s approximation of $\ln N! \approx N \ln N -N$. This gives us:
 $$
 \begin{align}
-H  & = -\lim_{ N \to \infty } \sum_{i}\left( \frac{n_{i}}{N} \right)\ln\left( \frac{n_{i}}{N} \right)\\[2ex] 
- & =-\sum_{i}p_{i}\ln p_{i}
+H  & \approx \frac{1}{N}(N \ln N - N) - \frac{1}{N}\sum_{i}(n_{i}\ln n_{i}-n_{i}) \\[2ex]
+ & = \ln N - \sum_{i} \frac{n_{i}}{N} \ln n_{i}+ \sum_{i} \frac{n_{i}}{N}
 \end{align}
 $$
-where we have used $\sum_{i}n_{i}=N$. Here, $p_{i} = \lim_{ N \to \infty }(n_{i} / N)$ is the probability of an object being assigned to the $i$th bin. 
-- The specific allocation of objects into bins is called a *microstate*
-- The overall distribution of occupation numbers, expressed $n_{i} / N$, is called a *macrostate*.
+Some simplifications:
+- $\sum_{i}n_{i}=N$, so the last term simplifies to 1
+- The logarithm of a number divided by $N$ can be expressed as the logarithm of the fraction minus $\ln N$
+
+This gives us:
+$$
+H = -\sum_{i}\left( \frac{n_{i}}{N} \right) \ln \left( \frac{n_{i}}{N} \right)
+$$
+Consider the limit $N \to \infty$, in which the fractions $n_{i}/N$ are approach the probabilities $p_{i}$ of finding an object in the $i$th bin:
+$$
+\begin{align} \\
+p_{i}  & = \lim_{ N \to \infty }\left( \frac{n_{i}}{N} \right) \\[2ex]
+H  & =-\sum_{i}p_{i}\ln p_{i}
+\end{align}
+$$
+The specific allocation of objects into bins is called a *microstate*. The overall distribution of occupation numbers, expressed $n_{i} / N$, is called a *macrostate*.
 
 We can interpret the bins at the states $x_{i}$ of a discrete random variable $X$, where $p(X=x_{i})=p_{i}$. The entropy of the random variable $X$ is then:
 $$
