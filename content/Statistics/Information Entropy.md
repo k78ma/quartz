@@ -39,6 +39,17 @@ $$
 which again is the same as the entropy of the random variable. 
 - Note that shorter code strings cannot be used because it must be possible to disambiguate a concatenation of such strings into its component parts. For instance, 11001110 decodes uniquely into the state sequence $c, a, d$. 
 - This relation between entropy and shortest coding length is a general one. The noiseless coding theorem states that the entropy is a lower bound on the number of bits needed to transmit the state of a random variable.
+- The non-uniform distribution has a smaller entropy than the uniform one.
 
+## Physical Entropy
+The concept of entropy has origins in physics where it was introduced in the context of equilibrium thermodynamics and later given a deeper interpretation as a measure of disorder through developments in statistical mechanics. 
 
-The non-uniform distribution has a smaller entropy than the uniform one
+This alternative view of entropy can be understood by considering a set of $N$ identical objects that are to be divided amongst a set of bins, such that there are $n_{i}$ objects in the $i$th bin. Consider the number of different ways of allocating the objects to the bins: 
+- There are $N$ ways to choose the first object
+- There are $N-1$ ways to choose the second object, and so on. 
+- This leads to a total of $N!$ ways to allocate all $N$ objects to the bins.
+
+We don't want to to distinguish between rearrangements of objects within each bin. In the $i$th bin there are $n_{i}!$ ways of reordering the objects, and so the total number of ways of allocating the $N$ objects to the bins is given by:
+$$
+W = \frac{N!}{\prod_{i}n_{i}!}
+$$

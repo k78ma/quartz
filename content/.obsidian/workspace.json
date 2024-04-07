@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "Statistics/Physical Entropy.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Binary Search Tree.md"
+                "file": "Statistics/Physical Entropy.md"
               }
             }
           },
@@ -158,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Binary Search Tree.md",
+                "file": "Statistics/Physical Entropy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Binary Search Tree.md",
+                "file": "Statistics/Physical Entropy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Binary Search Tree.md",
+                "file": "Statistics/Physical Entropy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -236,20 +235,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "643e3df25cdacb02",
+  "active": "afdeec1b3ad028eb",
   "lastOpenFiles": [
+    "Statistics/Statistics.md",
+    "Statistics/Physical Entropy.md",
+    "Statistics/Information Entropy.md",
+    "Polymath/Baymax.md",
     "CS/Binary Search Tree.md",
     "CS/Data Structures and Algorithms.md",
     "CS/Trees.md",
-    "Statistics/Statistics.md",
     "Polymath/VIDAS ROS 2 Driver.md",
-    "Polymath/Baymax.md",
     "2B/MTE 204/Elliptic Equations.md",
     "private/Resume Review.md",
     "Robotics/Quaternions.md",
     "Statistics/Information Theory.md",
     "Statistics/Measure of Information.md",
-    "Statistics/Information Entropy.md",
     "Statistics/Multivariate Probability Density.md",
     "Statistics/Transformation of Multivariate Distributions.md",
     "Statistics/attachments/Transformation of Multivariate Distributions.png",
@@ -265,7 +265,6 @@
     "CS/Dictionary Implementations.md",
     "ML/Negative log-likelihood.md",
     "ML/ML Fundamentals.md",
-    "ML/Loss Function.md",
     "Statistics/attachments/Linear Regression as MLE.png",
     "Statistics/attachments/Bessel's Correction.png",
     "Statistics/attachments/Likelihood Function.png",
