@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Physical Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Physical Entropy.md"
+                "file": "Statistics/Statistics.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Physical Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Physical Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Physical Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -231,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 209.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,16 +250,16 @@
   },
   "active": "afdeec1b3ad028eb",
   "lastOpenFiles": [
+    "Statistics/Physical Entropy.md",
+    "Statistics/Statistics.md",
     "Statistics/attachments/Physical Entropy.png",
     "CS/Data Structures and Algorithms.md",
     "Statistics/Information Entropy.md",
     "Polymath/Baymax.md",
     "ML/Support Vector Machine.md",
-    "Statistics/Physical Entropy.md",
     "Statistics/Measure of Information.md",
     "CS/Binary Search Tree.md",
     "Statistics/Information Theory.md",
-    "Statistics/Statistics.md",
     "CS/Trees.md",
     "Polymath/VIDAS ROS 2 Driver.md",
     "2B/MTE 204/Elliptic Equations.md",
@@ -285,7 +286,6 @@
     "Statistics/attachments/Sum and Product Rules of Probability.png",
     "Statistics/attachments",
     "Polymath/attachments/E-Stop-4.png",
-    "Polymath/attachments/E-Stop-3.png",
     "Finnish",
     "Polymath/Polymath ML Productization Simplified.canvas",
     "Polymath/Polymath ML Productization.canvas",

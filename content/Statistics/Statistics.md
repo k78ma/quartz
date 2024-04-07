@@ -35,5 +35,6 @@ Notes from:
 - [[Measure of Information]]
 - [[Information Entropy]]
 	- [[Physical Entropy]]
+- [[Differential Entropy]]
 ## Standard Distributions
 
