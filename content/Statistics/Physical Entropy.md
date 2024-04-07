@@ -2,10 +2,11 @@
 title: Physical Entropy
 tags:
   - stats
+  - physics
 date: 2024-04-06
 aliases:
 ---
-The concept of entropy has origins in physics where it was introduced in the context of equilibrium thermodynamics and later given a deeper interpretation as a measure of disorder through developments in statistical mechanics. 
+The concept of entropy has origins in physics where it was introduced in the context of [[Thermodynamics|equilibrium thermodynamics]] and later given a deeper interpretation as a measure of disorder through developments in statistical mechanics. 
 
 This alternative view of entropy can be understood by considering a set of $N$ identical objects that are to be divided amongst a set of bins, such that there are $n_{i}$ objects in the $i$th bin. Consider the number of different ways of allocating the objects to the bins: 
 - There are $N$ ways to choose the first object
@@ -22,6 +23,7 @@ The entropy is then defined as the logarithm of the multiplicity scaled by a con
 $$
 \begin{align}
 H  & = \frac{1}{N} \ln W \\[2ex] 
+	 & = \frac{1}{n} \ln\left(\frac{N!}{\prod_{i}n_{i}!}\right) \\[2ex] 
  & = \frac{1}{N}\ln N! - \frac{1}{N}\sum_{i}\ln n_{i}! \\[2ex] 
 \end{align}
 $$
@@ -32,4 +34,24 @@ H  & = -\lim_{ N \to \infty } \sum_{i}\left( \frac{n_{i}}{N} \right)\ln\left( \f
  & =-\sum_{i}p_{i}\ln p_{i}
 \end{align}
 $$
-where we have used $\sum_{i}n_{i}=N$.
+where we have used $\sum_{i}n_{i}=N$. Here, $p_{i} = \lim_{ N \to \infty }(n_{i} / N)$ is the probability of an object being assigned to the $i$th bin. 
+- The specific allocation of objects into bins is called a *microstate*
+- The overall distribution of occupation numbers, expressed $n_{i} / N$, is called a *macrostate*.
+
+We can interpret the bins at the states $x_{i}$ of a discrete random variable $X$, where $p(X=x_{i})=p_{i}$. The entropy of the random variable $X$ is then:
+$$
+H[p]=-\sum_{i}p(x_{i})\ln p(x_{i})
+$$
+Distributions $p(x_{i})$ that are sharply peaked around a few values will have lower entropy, whereas those spread more evenly will have higher entropy. Because $0 \leq p_{i} \leq 1$, the entropy is non-negative, and it will equal its minimum value of $0$ when one of the $p_{i}=1$ and all other $p_{j \neq i}=0$.
+
+![[Physical Entropy.png]]
+
+The maximum entropy configuration can be found by maximizing $H$ using a [[Lagrange Multipliers|Lagrange multiplier]] to enforce the normalization constraint on the probabilities. Thus, we maximize
+$$
+\tilde{H}=-\sum_{i}p(x_{i})\ln p(x_{i}) + \lambda\left( \sum_{i}p(x_{i})-1 \right)
+$$
+from which we find that all of the $p(x_{i})$ are equal and are given by $p(x_{i})=1 / M$ where $M$ is the total number of states $x_{i}$. The corresponding value of the entropy is then $H = \ln M$. This result can also be derived from [[Jensen’s Inequality]]. To verify that the stationary point is indeed a maximum, we can evaluate the second derivative of the entropy, which gives
+$$
+\frac{ \partial \tilde{H} }{ \partial p(x_{i})\partial p(x_{j}) } =-I_{ij} \frac{1}{p_{i}}
+$$
+where $I_{ij}$ are the elements of the identity matrix. We see that these values are all negative and, hence, the stationary point is indeed a maximum.

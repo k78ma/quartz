@@ -11,7 +11,7 @@ A supervised learning algorithm for [[Linear Classifier|linear classifiers]] tha
 
 Specifically, SVM aims to choose the hyperplane so that the distance from the hyperplane to the nearest data point on each side is maximized. These nearest points are called support vectors because they "support" the hyperplane.
 
-![[Support Vector Machine.png|440]]
+![[Support Vector Machine.png|416]]
 
 The distance between the two hyperplanes is $\frac{2}{\lvert \theta \rvert}$. So, to maximize the margin, $\lvert \theta \rvert$ needs to be minimized. This is why objective functions for SVMs typically include a $\lambda || \theta ||^{2}$ [[Regularization|regularizer]]. A typical training object would be:
 $$
