@@ -5,7 +5,7 @@ tags:
 date: 2024-04-07
 aliases:
 ---
-We can extend the definition of [[Physical Entropy|entropy]] to include distributions $p(x)$ over continuous variables $x$. 
+We can extend the definition of [[Entropy|entropy]] to include distributions $p(x)$ over continuous variables $x$. 
 
 We can do this by dividing $x$ into "bins" of width $\Delta$. Then, assuming $p(x)$ is continuous, the *mean value theorem* tells us that, for each such bin, there must exist a value $x_{i}$ in the range $i\Delta \leq x_{i} \leq (i+1)\Delta$ such that
 $$

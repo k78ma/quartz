@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Information Entropy.md",
+                "file": "Statistics/Entropy.md",
                 "mode": "source",
                 "source": false
               }
@@ -192,7 +192,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.3220553551539369,
+                  "scale": 1.0579493715571964,
                   "close": true
                 }
               }
@@ -249,19 +249,20 @@
   },
   "active": "afdeec1b3ad028eb",
   "lastOpenFiles": [
-    "Statistics/Physical Entropy.md",
+    "Statistics/Maximum Entropy.md",
+    "Statistics/Entropy.md",
     "Statistics/Statistics.md",
-    "Statistics/Differential Entropy.md",
-    "Statistics/Information Entropy.md",
     "Statistics/Information Theory.md",
-    "Statistics/attachments/Physical Entropy.png",
+    "Statistics/Information Entropy.md",
     "CS/Data Structures and Algorithms.md",
     "Polymath/Baymax.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Statistics/Differential Entropy.md",
+    "Statistics/attachments/Physical Entropy.png",
     "ML/Support Vector Machine.md",
     "Statistics/Measure of Information.md",
     "CS/Binary Search Tree.md",
     "CS/Trees.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
     "2B/MTE 204/Elliptic Equations.md",
     "private/Resume Review.md",
     "Robotics/Quaternions.md",
@@ -277,7 +278,6 @@
     "kai++.md",
     "Statistics/Linear Regression as MLE.md",
     "CS/Dictionary.md",
-    "CS/Dictionary Implementations.md",
     "Statistics/attachments/Linear Regression as MLE.png",
     "Statistics/attachments/Bessel's Correction.png",
     "Statistics/attachments/Likelihood Function.png",

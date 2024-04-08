@@ -37,7 +37,7 @@ Notes from:
 - [[Mutual Information]]
 #### Entropy
 - [[Information Entropy]]
-	- [[Physical Entropy]]
+	- [[Entropy]]
 - [[Differential Entropy]]
 - [[Maximum Entropy]]
 - [[Conditional entropy]]

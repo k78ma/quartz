@@ -11,10 +11,11 @@ draft: "true"
 ```shell
 cd vidas_ros2_ws
 
-docker run -it --name vidas -p 8765:8765 --rm -v $(pwd):/vidas_ros2_ws registry.gitlab.com/polymathrobotics/autonomy/polymath_autonomy:humble bash
+docker run -it --name vidas -p 8765:8765 --rm -v $(pwd):/colcon_ws registry.gitlab.com/polymathrobotics/autonomy/polymath_autonomy:humble bash
 
 cd vidas_ros2_ws
 ```
+
 
 Lifecycle
 ```
