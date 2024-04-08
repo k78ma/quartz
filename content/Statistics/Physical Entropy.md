@@ -63,6 +63,7 @@ Distributions $p(x_{i})$ that are sharply peaked around a few values will have l
 
 ![[Physical Entropy.png]]
 
+## Maximum Entropy
 The maximum entropy configuration can be found by maximizing $H$ using a [[Lagrange Multipliers|Lagrange multiplier]] to enforce the normalization constraint on the probabilities. Thus, we maximize
 $$
 \tilde{H}=-\sum_{i}p(x_{i})\ln p(x_{i}) + \lambda\left( \sum_{i}p(x_{i})-1 \right)
