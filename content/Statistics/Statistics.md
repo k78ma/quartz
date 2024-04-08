@@ -33,8 +33,14 @@ Notes from:
 ### Information Theory
 - [[Information Theory]]
 - [[Measure of Information]]
+- [[Kullback-Leibler Divergence]]
+- [[Mutual Information]]
+#### Entropy
 - [[Information Entropy]]
 	- [[Physical Entropy]]
 - [[Differential Entropy]]
+- [[Maximum Entropy]]
+- [[Conditional entropy]]
+
 ## Standard Distributions
 

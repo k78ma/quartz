@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Differential Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Differential Entropy.md"
+                "file": "Statistics/Statistics.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Differential Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Differential Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Differential Entropy.md",
+                "file": "Statistics/Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -249,10 +249,10 @@
   },
   "active": "afdeec1b3ad028eb",
   "lastOpenFiles": [
+    "Statistics/Physical Entropy.md",
     "Statistics/Statistics.md",
     "Statistics/Differential Entropy.md",
     "Statistics/Information Entropy.md",
-    "Statistics/Physical Entropy.md",
     "Statistics/Information Theory.md",
     "Statistics/attachments/Physical Entropy.png",
     "CS/Data Structures and Algorithms.md",

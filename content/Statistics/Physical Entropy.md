@@ -8,7 +8,7 @@ aliases:
 ---
 The concept of entropy has origins in physics where it was introduced in the context of [[Thermodynamics|equilibrium thermodynamics]] and later given a deeper interpretation as a measure of disorder through developments in statistical mechanics. 
 
-This alternative view of entropy can be understood by considering a set of $N$ identical objects that are to be divided amongst a set of bins, such that there are $n_{i}$ objects in the $i$th bin. Consider the number of different ways of allocating the objects to the bins: 
+This view of entropy can be understood by considering a set of $N$ identical objects that are to be divided amongst a set of bins, such that there are $n_{i}$ objects in the $i$th bin. Consider the number of different ways of allocating the objects to the bins: 
 - There are $N$ ways to choose the first object
 - There are $N-1$ ways to choose the second object, and so on. 
 - This leads to a total of $N!$ ways to allocate all $N$ objects to the bins.
