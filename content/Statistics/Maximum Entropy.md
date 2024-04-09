@@ -5,7 +5,21 @@ tags:
 date: 2024-04-08
 aliases:
 ---
-We saw that the [[Entropy#Maximum Entropy|maximum entropy configuration for discrete distributions]] corresponds to a uniform distribution of probabilities across the possible states of the variable. For continuous distributions, if we want the maximum to be well-defined, we need to constrain the first and second moments $p(x)$ and to preserve the normalization constraint.
+## Discrete
+The maximum entropy configuration can be found by maximizing $H$ using a [[Lagrange Multipliers|Lagrange multiplier]] to enforce the normalization constraint on the probabilities, such that $\sum_{i=1}^{n}p_{i}=1$.
+
+Thus, we maximize
+$$
+\tilde{H}=-\sum_{i}p(x_{i})\ln p(x_{i}) + \lambda\left( \sum_{i}p(x_{i})-1 \right)
+$$
+from which we find that all of the $p(x_{i})$ are equal and are given by $p(x_{i})=1 / M$ where $M$ is the total number of states $x_{i}$. The corresponding value of the entropy is then $H = \ln M$. This result can also be derived from [[Jensen’s Inequality]]. To verify that the stationary point is indeed a maximum, we can evaluate the second derivative of the entropy, which gives
+$$
+\frac{ \partial \tilde{H} }{ \partial p(x_{i})\partial p(x_{j}) } =-I_{ij} \frac{1}{p_{i}}
+$$
+where $I_{ij}$ are the elements of the identity matrix. We see that these values are all negative and, hence, the stationary point is indeed a maximum.
+
+## Continuous
+We saw that the maximum entropy configuration for discrete distributions corresponds to a uniform distribution of probabilities across the possible states of the variable. For continuous distributions, if we want the maximum to be well-defined, we need to constrain the first and second moments $p(x)$ and to preserve the normalization constraint.
 
 Thus, we maximize [[Differential Entropy|differential entropy]] with three constraints:
 $$

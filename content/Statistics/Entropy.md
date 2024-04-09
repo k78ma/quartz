@@ -63,13 +63,3 @@ Distributions $p(x_{i})$ that are sharply peaked around a few values will have l
 
 ![[Physical Entropy.png]]
 
-## Maximum Entropy
-The maximum entropy configuration can be found by maximizing $H$ using a [[Lagrange Multipliers|Lagrange multiplier]] to enforce the normalization constraint on the probabilities. Thus, we maximize
-$$
-\tilde{H}=-\sum_{i}p(x_{i})\ln p(x_{i}) + \lambda\left( \sum_{i}p(x_{i})-1 \right)
-$$
-from which we find that all of the $p(x_{i})$ are equal and are given by $p(x_{i})=1 / M$ where $M$ is the total number of states $x_{i}$. The corresponding value of the entropy is then $H = \ln M$. This result can also be derived from [[Jensen’s Inequality]]. To verify that the stationary point is indeed a maximum, we can evaluate the second derivative of the entropy, which gives
-$$
-\frac{ \partial \tilde{H} }{ \partial p(x_{i})\partial p(x_{j}) } =-I_{ij} \frac{1}{p_{i}}
-$$
-where $I_{ij}$ are the elements of the identity matrix. We see that these values are all negative and, hence, the stationary point is indeed a maximum.
