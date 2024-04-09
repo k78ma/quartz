@@ -1,0 +1,20 @@
+---
+title: Kullback-Leibler Divergence
+tags:
+  - stats
+date: 2024-04-09
+aliases:
+  - relative entropy
+---
+Consider some unknown distribution $p(\mathbf{x})$, and we've modelled this using an approximating distribution $q(\mathbf{x})$. 
+
+If we use $q(\mathbf{x})$ to construct a coding scheme for transmitting values of $\mathbf{x}$ to a receiver, then the average additional amount of information (in nats) required to specify the the value of $\mathbf{x}$ as a result of using $q(\mathbf{x})$ instead of the true distribution $p(\mathbf{x})$ is given by:
+$$
+\begin{align}
+\text{KL}(p||q)  & = -\int p(\mathbf{x})\ln q(\mathbf{x}) \, d\mathbf{x} -\left( -\int p(\mathbf{x})\ln p(\mathbf{x}) \, d\mathbf{x}  \right) \\[2ex]
+	 & = -\int p(\mathbf{x})\ln \left\{  \frac{q(\mathbf{x})}{p(\mathbf{x})}  \right\} \, d\mathbf{x} 
+\end{align}
+$$
+This is known as the *relative entropy* or *Kullback-Leibler divergence* between the distributions $p(\mathbf{x})$ and $q(\mathbf{x})$.
+
+The KL divergence is not a symmetrical quantity; that is, $\text{KL}(p||q)\not\equiv\text{KL}(q||p)$.

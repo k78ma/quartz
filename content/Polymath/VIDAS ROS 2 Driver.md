@@ -49,3 +49,26 @@ Criteria:
 
 ### TF
 - Point clouds are published to frame `camera_0` – Line 495
+
+PCL installation:
+```
+apt update
+apt install libpcl-dev
+apt-get install ros-${ROS_DISTRO}-pcl-msgs
+```
+
+
+### Feedback for Linwei's Perception Pipeline
+
+- Is there a way to add support for 3-field $(x,y,z)$ point clouds?
+```
+[perception_pipeline-3] Failed to find match for field 'intensity'.
+```
+
+- Perception pipeline lifecycle seems to be written to configure and activate in `main.cpp` – not sure this is best practice, as this can be done in a launch file instead with `nav2_lifecycle_manager`
+	- In my Compound Eye launch file, I have the costmap node configured to run with lifecycle manager, and perception pipeline is messing with stuff (costmap node doesn't activate, etc)
+
+Some notes:
+- Still some tuning to be done on costmaps and point cloud filters, but obstacles are showing up more or less where I would expect and the noise has been reduced by a lot
+- Odom is a bit slow and finicky – you can see the camera move first and the tf takes a bit to react and sometimes moves in the wrong direction before correcting itself
+- Footprint is not to scale (inherited from Troy's equipmentshare config)

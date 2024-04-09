@@ -34,6 +34,7 @@ Notes from:
 - [[Information Theory]]
 - [[Measure of Information]]
 - [[Kullback-Leibler Divergence]]
+	- [[Convex Function]]
 - [[Mutual Information]]
 #### Entropy
 - [[Information Entropy]]
