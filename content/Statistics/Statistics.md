@@ -35,6 +35,7 @@ Notes from:
 - [[Measure of Information]]
 - [[Kullback-Leibler Divergence]]
 	- [[Convex Function]]
+	- [[Jensen’s Inequality]]
 - [[Mutual Information]]
 #### Entropy
 - [[Information Entropy]]
