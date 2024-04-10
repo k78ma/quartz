@@ -54,18 +54,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3176bb503bcd187b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS/Tree Traversal.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
         "currentTab": 1
@@ -262,11 +250,12 @@
   },
   "active": "19f63dce79a70f3f",
   "lastOpenFiles": [
-    "Statistics/Statistics.md",
-    "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
-    "Statistics/Kullback-Leibler Divergence.md",
     "Polymath/VIDAS ROS 2 Driver.md",
     "CS/Tree Traversal.md",
+    "Polymath/E-Stop.md",
+    "Statistics/Kullback-Leibler Divergence.md",
+    "Statistics/Statistics.md",
+    "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "Statistics/Convex Function.md",
     "Statistics/attachments/Convex Function.png",
@@ -290,7 +279,6 @@
     "Statistics/attachments/Transformation of Multivariate Distributions.png",
     "Statistics/Transformation of Densities.md",
     "Statistics/Maximum of Transformed Density.md",
-    "Statistics/Sum and Product Rules of Probability.md",
     "Statistics/attachments/Transformation of Densities.png",
     "Statistics/attachments/Linear Regression as MLE.png",
     "Statistics/attachments/Bessel's Correction.png",

@@ -77,3 +77,6 @@ graph TD
 ![[Polymath/attachments/E-Stop-4.png|200]]
 
 #### Start Button to ESP32 and RPi
+
+username: `polymath`
+password: `estop`
