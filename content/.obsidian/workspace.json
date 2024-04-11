@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "Statistics/Kullback-Leibler Divergence.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Kullback-Leibler Divergence.md",
+                "file": "Statistics/Convex Function.md",
                 "mode": "source",
                 "source": false
               }
@@ -55,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -141,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Statistics.md"
+                "file": "Statistics/Convex Function.md"
               }
             }
           },
@@ -169,7 +170,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "Statistics/Convex Function.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +205,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "Statistics/Convex Function.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +222,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "Statistics/Convex Function.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -231,7 +232,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 407.5
+    "width": 215.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,13 +249,15 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "33ba83433711f10a",
+  "active": "19f63dce79a70f3f",
   "lastOpenFiles": [
     "Statistics/Kullback-Leibler Divergence.md",
+    "Statistics/Jensen’s Inequality.md",
+    "Statistics/Statistics.md",
+    "ML/Deep Learning - Foundations and Concepts.pdf",
     "Polymath/VIDAS ROS 2 Driver.md",
     "Polymath/E-Stop.md",
     "CS/Tree Traversal.md",
-    "Statistics/Statistics.md",
     "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
     "Statistics/Convex Function.md",
@@ -276,8 +280,6 @@
     "Statistics/Multivariate Probability Density.md",
     "Statistics/Transformation of Multivariate Distributions.md",
     "Statistics/attachments/Transformation of Multivariate Distributions.png",
-    "Statistics/Transformation of Densities.md",
-    "Statistics/Maximum of Transformed Density.md",
     "Statistics/attachments/Transformation of Densities.png",
     "Statistics/attachments/Linear Regression as MLE.png",
     "Statistics/attachments/Bessel's Correction.png",
@@ -300,7 +302,6 @@
     "Robotics/slambook-en.pdf",
     "Physics",
     "CS/Problems/attachments",
-    "Thermodynamics",
-    "Control Theory"
+    "Thermodynamics"
   ]
 }

@@ -18,3 +18,9 @@ $$
 This is known as the *relative entropy* or *Kullback-Leibler divergence* between the distributions $p(\mathbf{x})$ and $q(\mathbf{x})$.
 
 The KL divergence is not a symmetrical quantity; that is, $\text{KL}(p||q)\not\equiv\text{KL}(q||p)$.
+
+We can apply the continuous form of [[Jensen’s Inequality]] to KL divergence to give
+$$
+\text{KL}(p||q) = -\int p(\mathbf{x})\ln \left\{  \frac{q(\mathbf{x})}{p(\mathbf{x})}  \right\} \, d\mathbf{x} \geq-\ln \int q(\mathbf{x}) \, d\mathbf{x} =0
+$$
+Here, we've used $-\ln x$ as a convex function, together with the normalization condition $\int q(\mathbf{x}) \, d\mathbf{x}=1$. Since $-\ln x$ is actually strictly convex, so the equality will hold if and only if $q(\mathbf{x})=p(\mathbf{x})$ for all $\mathbf{x}$.
