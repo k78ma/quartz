@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -142,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Kullback-Leibler Divergence.md"
+                "file": "Statistics/Statistics.md"
               }
             }
           },
@@ -170,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Kullback-Leibler Divergence.md",
+                "file": "Statistics/Statistics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,7 +192,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 1.0579493715571964,
+                  "scale": 1.0367172431269198,
                   "close": true
                 }
               }
@@ -205,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Kullback-Leibler Divergence.md",
+                "file": "Statistics/Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -222,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Kullback-Leibler Divergence.md",
+                "file": "Statistics/Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -232,7 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 209.5
+    "width": 407.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -248,12 +247,12 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "19f63dce79a70f3f",
+  "active": "33ba83433711f10a",
   "lastOpenFiles": [
-    "Polymath/VIDAS ROS 2 Driver.md",
-    "CS/Tree Traversal.md",
-    "Polymath/E-Stop.md",
     "Statistics/Kullback-Leibler Divergence.md",
+    "Polymath/VIDAS ROS 2 Driver.md",
+    "Polymath/E-Stop.md",
+    "CS/Tree Traversal.md",
     "Statistics/Statistics.md",
     "CS/Problems/Construct Binary Tree from Preorder and Inorder Traversal (LC 105).md",
     "2B/MTE 220/MTE 220 - Sensors and Instrumentation.md",
