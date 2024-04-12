@@ -3,7 +3,8 @@ title: Roamr
 tags:
   - robotics
 date: 2024-04-11
-aliases:
+aliases: 
+draft: "true"
 ---
 Docker container
 ```bash
