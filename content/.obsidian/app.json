@@ -16,5 +16,6 @@
   "strictLineBreaks": true,
   "smartIndentList": true,
   "defaultViewMode": "source",
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "vimMode": false
 }

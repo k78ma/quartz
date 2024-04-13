@@ -5,8 +5,11 @@ tags:
 date: 2024-04-09
 aliases:
   - relative entropy
+  - KL divergence
 ---
-Consider some unknown distribution $p(\mathbf{x})$, and we've modelled this using an approximating distribution $q(\mathbf{x})$. 
+Kullback-Leibler Divergence, or relative entropy, measures the dissimilarity between two distributions.
+
+Consider some unknown distribution $p(\mathbf{x})$, approximated by a distribution $q(\mathbf{x})$. 
 
 If we use $q(\mathbf{x})$ to construct a coding scheme for transmitting values of $\mathbf{x}$ to a receiver, then the average additional amount of information (in nats) required to specify the the value of $\mathbf{x}$ as a result of using $q(\mathbf{x})$ instead of the true distribution $p(\mathbf{x})$ is given by:
 $$
@@ -19,8 +22,11 @@ This is known as the *relative entropy* or *Kullback-Leibler divergence* between
 
 The KL divergence is not a symmetrical quantity; that is, $\text{KL}(p||q)\not\equiv\text{KL}(q||p)$.
 
-We can apply the continuous form of [[Jensen’s Inequality]] to KL divergence to give
+We can apply the [[Jensen’s Inequality#Continuous Form|continuous form of Jensen’s Inequality]] to KL divergence to give
 $$
 \text{KL}(p||q) = -\int p(\mathbf{x})\ln \left\{  \frac{q(\mathbf{x})}{p(\mathbf{x})}  \right\} \, d\mathbf{x} \geq-\ln \int q(\mathbf{x}) \, d\mathbf{x} =0
 $$
-Here, we've used $-\ln x$ as a convex function, together with the normalization condition $\int q(\mathbf{x}) \, d\mathbf{x}=1$. Since $-\ln x$ is actually strictly convex, so the equality will hold if and only if $q(\mathbf{x})=p(\mathbf{x})$ for all $\mathbf{x}$.
+- Here, $-\ln x$ as a convex function so Jensen's inequality applies.
+- We're also using the normalization condition $\int q(\mathbf{x}) \, d\mathbf{x}=1$. 
+
+Since $-\ln x$ is actually strictly convex, the equality will hold if and only if $q(\mathbf{x})=p(\mathbf{x})$ for all $\mathbf{x}$. Thus, we can interpret the KL divergence as a measure of the dissimilarity between $p(\mathbf{x})$ and $q(\mathbf{x})$.

@@ -36,13 +36,15 @@ Notes from:
 - [[Kullback-Leibler Divergence]]
 	- [[Convex Function]]
 	- [[Jensen’s Inequality]]
+	- [[Density Estimation with KL Divergence]]
 - [[Mutual Information]]
 #### Entropy
 - [[Information Entropy]]
 	- [[Entropy]]
 - [[Differential Entropy]]
 - [[Maximum Entropy]]
-- [[Conditional entropy]]
+- [[Kullback-Leibler Divergence|Relative Entropy]] (really just KL divergence)
+- [[Conditional Entropy]]
 
 ## Standard Distributions
 

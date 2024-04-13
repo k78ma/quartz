@@ -87,10 +87,10 @@
   "obsidian-git:push": [
     {
       "modifiers": [
-        "Mod",
-        "Shift"
+        "Ctrl",
+        "Mod"
       ],
-      "key": "B"
+      "key": "G"
     }
   ]
 }

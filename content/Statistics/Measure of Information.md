@@ -18,4 +18,8 @@ h(x)=-\log_{2}p(x)
 $$
 Now, events that are certain (probability $1$) have zero information content, and events that are less likely carry more information. The choice of base $2$ is arbitrary, but is a prevalent convention in information theory. The units of $h(x)$ here are bits ('binary digits'). 
 
-Another common choice is to use natural logarithms in defining entropy, In this case, the entropy is measured in units of *nats* (from ‘natural logarithm’) instead of bits, which differ simply by a factor of $\ln 2$.
+Another common choice is to use natural logarithms in defining entropy, such that
+$$
+h(x)=-\ln p(x)
+$$
+In this case, the entropy is measured in units of *nats* (from ‘natural logarithm’) instead of bits, which differ simply by a factor of $\ln 2$.
