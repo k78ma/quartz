@@ -45,6 +45,9 @@ Notes from:
 - [[Maximum Entropy]]
 - [[Kullback-Leibler Divergence|Relative Entropy]] (KL divergence)
 - [[Conditional Entropy]]
+### Bayesian Probability
+- [[Bayesian Probability]]
+- [[Bayesian Machine Learning]]
 
 ## Standard Distributions
 
