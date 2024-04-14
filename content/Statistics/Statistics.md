@@ -43,7 +43,7 @@ Notes from:
 	- [[Entropy]]
 - [[Differential Entropy]]
 - [[Maximum Entropy]]
-- [[Kullback-Leibler Divergence|Relative Entropy]] (really just KL divergence)
+- [[Kullback-Leibler Divergence|Relative Entropy]] (KL divergence)
 - [[Conditional Entropy]]
 
 ## Standard Distributions
