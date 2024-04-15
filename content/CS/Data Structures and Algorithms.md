@@ -39,7 +39,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Fast Exponentiation Algorithm]]
 - [[Binary Search]]
 - [[One-sided Binary Search]]
-
+ 
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal
