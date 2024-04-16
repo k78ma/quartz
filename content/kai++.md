@@ -165,16 +165,6 @@ draft: "true"
 ## DLFC
 
 - [ ] 2 - Probabilities
-- [ ] 2.4 - Transformation of Densities
-- [ ] 2.4.1 - Multivariate distributions
-- [ ] 2.5 - Information Theory
-- [ ] 2.5.1 - Entropy
-- [ ] 2.5.2 - Physics perspective
-- [ ] 2.5.3 - Differential entropy
-- [ ] 2.5.4 - Maximum entropy
-- [ ] 2.5.5 - Kullback–Leibler divergence
-- [ ] 2.5.6 - Conditional entropy
-- [ ] 2.5.7 - Mutual information
 - [ ] 2.6 - Bayesian Probabilities
 - [ ] 2.6.1 - Model parameters
 - [ ] 2.6.2 - Regularization
@@ -701,6 +691,16 @@ draft: "true"
 - [ ] 2.3.3 - Bias of maximum likelihood
 - [ ] 2.3.4 - Linear regression
 - [ ] 3.3 - Dictionaries
+- [ ] 2.4 - Transformation of Densities
+- [ ] 2.4.1 - Multivariate distributions
+- [ ] 2.5 - Information Theory
+- [ ] 2.5.1 - Entropy
+- [ ] 2.5.2 - Physics perspective
+- [ ] 2.5.3 - Differential entropy
+- [ ] 2.5.4 - Maximum entropy
+- [ ] 2.5.5 - Kullback–Leibler divergence
+- [ ] 2.5.6 - Conditional entropy
+- [ ] 2.5.7 - Mutual information
 
 %% kanban:settings
 ```
