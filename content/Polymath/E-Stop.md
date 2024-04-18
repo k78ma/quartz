@@ -80,3 +80,9 @@ graph TD
 
 username: `polymath`
 password: `polymathestop`
+
+`polymath-estop-2`: 192.168.93.157, tailscale: 100.120.145.73
+
+
+- Add state field and target field to EStopMsg – both are just strings
+- look into flask webpage for configuring sender ID, heartbeat rate, timeout, target
