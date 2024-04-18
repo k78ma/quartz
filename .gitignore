@@ -5,7 +5,8 @@ public
 prof
 tsconfig.tsbuildinfo
 .quartz-cache
-private/
-Private/
+private/*
+Private/*
 .replit
 replit.nix
+Polymath/*

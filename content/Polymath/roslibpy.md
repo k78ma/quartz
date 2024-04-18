@@ -4,6 +4,7 @@ tags:
   - polymath
 date: 2024-04-16
 aliases:
+  - draft
 ---
 On Mac:
 ```shell
