@@ -132,7 +132,7 @@ Deleting a node is tricky because its children have to be linked back into the t
 ## Time Complexity
 Binary search trees have all three dictionary operations (search, insert, delete) take $O(h)$ time, where $h$ is the height of the tree. The smallest height we can hope for occurs when the tree is perfectly balanced, meaning that $h = \log n$. This is very good, but the tree must be [[Balanced Binary Tree|perfectly balanced]].
 
-Consider what happens if the user inserts the keys in sorted order. The operations `insert(a)`, followed by `insert(b)`, `insert(c)`, `insert(d)`, . . . will produce a skinny, linear height tree where only right pointers are used.
+Consider what happens if the user inserts the keys in sorted order. The operations `insert(a)`, followed by `insert(b)`, `insert(c)`, `insert(d)`, . . . will produce a skinny, linear height tree where only right pointers are used. In this case, we would be $O(n)$.
 
 Something interesting is the *average case*. If we assume each of the $n!$ insertion orderings to be equally likely, there is actually high probability that the tree has $\Theta(\log n)$ height. 
 - This argument is an important example of the power of *randomization*. We can often develop simple algorithms that offer good performance with high probability.
