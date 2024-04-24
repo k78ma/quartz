@@ -9,8 +9,8 @@ draft: "true"
 ## Materials
 - Raspberry Pi Zero 2 W
 - ESP32
-- 
 
+40 + 6 + 6 + 5 + 4 + 2
 ## Steps
 
 ### Preliminary
@@ -89,7 +89,7 @@ password: `polymathestop`
 
 - [x] TODO: handle shutdown gracefully on the Pi side
 - [ ] Create custom image/clone SD card
-- [ ] Document sources
+- [x] Document sources
 - [x] Adding instructions for start on boot
-- [ ] Write intro in README on what we're trying to do and what the parts are generally
-- [ ] Quick start on robot specifically – if we ship e-stop to someone
+- [x] Write intro in README on what we're trying to do and what the parts are generally
+- [x] Quick start on robot specifically – if we ship e-stop to someone

@@ -5,7 +5,7 @@ draft: "true"
 
 ---
 
-## Today
+## Karpathy
 
 - [ ] makemore (part 1)
 - [ ] makemore (part 2)
@@ -13,153 +13,6 @@ draft: "true"
 - [ ] makemore (part 4)
 - [ ] makemore (part 5)
 - [ ] gpt from scratch
-
-
-## UDL
-
-- [ ] 3 - Shallow neural networks
-- [ ] 3.1 - Neural network example
-- [ ] 3.2 - Universal approximation theorem
-- [ ] 3.3 - Multivariate inputs and outputs
-- [ ] 3.4 - Shallow neural networks: general case
-- [ ] 3.5 - Terminology
-- [ ] 3.6 - Summary
-- [ ] 4 - Deep neural networks
-- [ ] 4.1 - Composing neural networks
-- [ ] 4.2 - From composing networks to deep networks
-- [ ] 4.3 - Deep neural networks
-- [ ] 4.4 - Matrix notation
-- [ ] 4.5 - Shallow vs. deep neural networks
-- [ ] 4.6 - Summary
-- [ ] 5 - Loss functions
-- [ ] 5.1 - Maximum likelihood
-- [ ] 5.2 - Recipe for constructing loss functions
-- [ ] 5.3 - Example 1: univariate regression
-- [ ] 5.4 - Example 2: binary classification
-- [ ] 5.5 - Example 3: multiclass classification
-- [ ] 5.6 - Multiple outputs
-- [ ] 5.7 - Cross-entropy loss
-- [ ] 5.8 - Summary
-- [ ] 6 - Fitting models
-- [ ] 6.1 - Gradient descent
-- [ ] 6.2 - Stochastic gradient descent
-- [ ] 6.3 - Momentum
-- [ ] 6.4 - Adam
-- [ ] 6.5 - Training algorithm hyperparameters
-- [ ] 6.6 - Summary
-- [ ] 7 - Gradients and initialization
-- [ ] 7.1 - Problem definitions
-- [ ] 7.2 - Computing derivatives
-- [ ] 7.3 - Toy example
-- [ ] 7.4 - Backpropagation algorithm
-- [ ] 7.5 - Parameter initialization
-- [ ] 7.6 - Example training code
-- [ ] 7.7 Summary
-- [ ] 8 - Measuring performance
-- [ ] 8.1 - Training a simple model
-- [ ] 8.2 - Sources of error
-- [ ] 8.3 - Reducing error
-- [ ] 8.4 - Double descent
-- [ ] 8.5 - Choosing hyperparameters
-- [ ] 8.6 - Summary
-- [ ] 9 - Regularization
-- [ ] 9.1 Explicit regularization
-- [ ] 9.2 Implicit regularization
-- [ ] 9.3 Heuristics to improve performance
-- [ ] 9.4 Summary
-- [ ] 10 - Convolutional networks
-- [ ] 10.1 - Invariance and equivariance
-- [ ] 10.2 - Convolutional networks for 1D inputs
-- [ ] 10.3 - Convolutional networks for 2D inputs
-- [ ] 10.4 - Downsampling and upsampling
-- [ ] 10.5 - Applications
-- [ ] 10.6 - Summary
-- [ ] 11 - Residual networks
-- [ ] 11.1 - Sequential processing
-- [ ] 11.2 - Residual connections and residual blocks
-- [ ] 11.3 - Exploding gradients in residual networks
-- [ ] 11.4 - Batch normalization
-- [ ] 11.5 - Common residual architectures
-- [ ] 11.6 - Why do nets with residual connections perform so well?
-- [ ] 11.7 - Summary
-- [ ] 12 - Transformers
-- [ ] 12.1 - Processing text data
-- [ ] 12.2 - Dot-product self-attention
-- [ ] 12.3 - Extensions to dot-product self-attention
-- [ ] 12.4 - Transformers
-- [ ] 12.5 - Transformers for natural language processing
-- [ ] 12.6 - Encoder model example: BERT
-- [ ] 12.7 - Decoder model example: GPT3
-- [ ] 12.8 - Encoder-decoder model example: machine translation
-- [ ] 12.9 - Transformers for long sequences
-- [ ] 12.10 -  Transformers for images
-- [ ] 12.11 - Summary
-- [ ] 13 - Graph neural networks
-- [ ] 13.1 -  What is a graph?
-- [ ] 13.2 - Graph representation
-- [ ] 13.3 - Graph neural networks, tasks, and loss functions
-- [ ] 13.4 - Graph convolutional networks
-- [ ] 13.5 - Example: graph classification
-- [ ] 13.6 - Inductive vs. transductive models
-- [ ] 13.7 - Example: node classification
-- [ ] 13.8 - Layers for graph convolutional networks
-- [ ] 13.9 - Edge graphs
-- [ ] 13.10 - Summary
-- [ ] 14 - Unsupervised learning
-- [ ] 14.1 - Taxonomy of unsupervised learning models
-- [ ] 14.2 - What makes a good generative model?
-- [ ] 14.3 - Quantifying performance
-- [ ] 14.4 - Summary
-- [ ] 15 - Generative Adversarial Networks
-- [ ] 15.1 - Discrimination as a signal
-- [ ] 15.2 - Improving stability
-- [ ] 15.3 - Progressive growing, mini-batch discrimination, and truncation
-- [ ] 15.4 - Conditional generation
-- [ ] 15.5 - Image translation
-- [ ] 15.6 - StyleGAN
-- [ ] 15.7 - Summary
-- [ ] 16 - Normalizing flows
-- [ ] 16.1 - 1D example
-- [ ] 16.2 - General case
-- [ ] 16.3 - Invertible network layers
-- [ ] 16.4 - Multi-scale flows
-- [ ] 16.5 - Applications
-- [ ] 16.6 - Summary
-- [ ] 17 - Variational autoencoders
-- [ ] 17.1 - Latent variable models
-- [ ] 17.2 - Nonlinear latent variable model
-- [ ] 17.3 - Training
-- [ ] 17.4 - ELBO properties
-- [ ] 17.5 - Variational approximation
-- [ ] 17.6 - The variational autoencoder
-- [ ] 17.7 - The reparameterization trick
-- [ ] 17.8 - Applications
-- [ ] 17.9 - Summary
-- [ ] 18 - Diffusion models
-- [ ] 18.1 - Overview
-- [ ] 18.2 - Encoder (forward process)
-- [ ] 18.3 - Decoder model (reverse process)
-- [ ] 18.4 - Training
-- [ ] 18.5 - Re-parameterization of loss function
-- [ ] 18.6 - Implementation
-- [ ] 18.7 - Summary
-- [ ] 19 - Reinforcement learning
-- [ ] 19.1 - Markov decision processes, returns, and policies
-- [ ] 19.2 - Expected return
-- [ ] 19.3 - Tabular reinforcement learning
-- [ ] 19.4 - Fitted Q-learning
-- [ ] 19.5 - Policy gradient methods
-- [ ] 19.6 - Actor-critic methods
-- [ ] 19.7 - Offline reinforcement learning
-- [ ] 19.8 - Summary
-- [ ] 20 - Why does deep learning work?
-- [ ] 20.1 - The case against deep learning
-- [ ] 20.2 - Factors that influence fitting performance
-- [ ] 20.3 - Properties of loss functions
-- [ ] 20.4 - Factors that determine generalization
-- [ ] 20.5 - Do we need so many parameters?
-- [ ] 20.6 - Do networks have to be deep?
-- [ ] 20.7 - Summary
 
 
 ## DLFC
@@ -500,7 +353,7 @@ draft: "true"
 - [ ] 20.4.1 - Classifier guidance
 
 
-## CS
+## DSA
 
 - [ ] 3 - Data Structures
 - [ ] 3.4 - Binary Search Trees
@@ -517,24 +370,10 @@ draft: "true"
 - [ ] 3.7.5 - Compaction
 - [ ] 3.8 - Specialized Data Structures
 - [ ] 3.9 - War Story: String ’em Up
-- [ ] [1.1.4 Compound Procedures](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e4)
-- [ ] [1.1.5 The Substitution Model for Procedure Application](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e5)
-- [ ] [1.1.6 Conditional Expressions and Predicates](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e6)
-- [ ] [1.1.7 Example: Square Roots by Newton’s Method](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e7)
-- [ ] [1.1.8 Procedures as Black-Box Abstractions](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e8)
-- [ ] [1.2.1 Linear Recursion and Iteration](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e1)
-- [ ] [1.2.2 Tree Recursion](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e2)
-- [ ] [1.2.3 Orders of Growth](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e3)
-- [ ] [1.2.4 Exponentiation](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e4)
-- [ ] [1.2.5 Greatest Common Divisors](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e5)
-- [ ] [1.2.6 Example: Testing for Primality](https://sarabander.github.io/sicp/html/1_002e2.xhtml#g_t1_002e2_002e6)
-- [ ] [1.3.1 Procedures as Arguments](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e1)
-- [ ] [1.3.2 Constructing Procedures Using `Lambda`](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e2)
-- [ ] [1.3.3 Procedures as General Methods](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e3)
-- [ ] [1.3.4 Procedures as Returned Values](https://sarabander.github.io/sicp/html/1_002e3.xhtml#g_t1_002e3_002e4)
 
+***
 
-## Robotics
+## Archive
 
 - [ ] 2.7 - Visualization Demo
 - [ ] 3.1 - Basics of Lie Group and Lie Algebra
@@ -553,39 +392,149 @@ draft: "true"
 - [ ] Control Bootcamp: Degrees of Controllability and Gramians
 - [ ] Control Bootcamp: Controllability and the PBH Test
 - [ ] Control Bootcamp: Cayley-Hamilton Theorem
-
-
-## Thermodynamics
-
-- [ ] Thermo 1.1 - Semantics
-- [ ] Thermo 1.2 - History
-- [ ] Thermo 1.3 - Philosophy
-- [ ] Thermo 1.4 - Practical applications
-- [ ] Thermo 1.5 - Style
-- [ ] Thermo 1.6 - Thermodynamic system and control volume
-- [ ] Thermo 1.7 - Macro vs micro
-- [ ] Thermo 1.8 - Properties and state of substance
-- [ ] Thermo 1.9 - Processes and cycles
-- [ ] Thermo 1.10 - Fundamental variables and units
-- [ ] Thermo 1.11 - Zeroth law
-- [ ] Thermo 1.12 - Secondary variables and units
-- [ ] Thermo 2.1 - The pure substance
-- [ ] Thermo 2.2 - Vapor-liquid-solid phase equilibrium
-- [ ] Thermo 2.3 - Independent properties
-- [ ] Thermo 2.4.1 - Ideal gas law
-- [ ] Thermo 2.4.2 - Non-ideal thermal equations of state
-- [ ] Thermo 2.4.3 - Compressibility factor
-- [ ] Thermo 2.4.4 - Tabular thermal equations of state
-- [ ] Thermo 3.1 - Mathematical preliminaries
-- [ ] Thermo 3.2 - Work
-- [ ] Thermo 3.3 - heat
-- [ ] Therm 3.4 - Representations of the first law
-
-
-***
-
-## Archive
-
+- [ ] 3 - Shallow neural networks
+- [ ] 3.1 - Neural network example
+- [ ] 3.2 - Universal approximation theorem
+- [ ] 3.3 - Multivariate inputs and outputs
+- [ ] 3.4 - Shallow neural networks: general case
+- [ ] 3.5 - Terminology
+- [ ] 3.6 - Summary
+- [ ] 4 - Deep neural networks
+- [ ] 4.1 - Composing neural networks
+- [ ] 4.2 - From composing networks to deep networks
+- [ ] 4.3 - Deep neural networks
+- [ ] 4.4 - Matrix notation
+- [ ] 4.5 - Shallow vs. deep neural networks
+- [ ] 4.6 - Summary
+- [ ] 5 - Loss functions
+- [ ] 5.1 - Maximum likelihood
+- [ ] 5.2 - Recipe for constructing loss functions
+- [ ] 5.3 - Example 1: univariate regression
+- [ ] 5.4 - Example 2: binary classification
+- [ ] 5.5 - Example 3: multiclass classification
+- [ ] 5.6 - Multiple outputs
+- [ ] 5.7 - Cross-entropy loss
+- [ ] 5.8 - Summary
+- [ ] 6 - Fitting models
+- [ ] 6.1 - Gradient descent
+- [ ] 6.2 - Stochastic gradient descent
+- [ ] 6.3 - Momentum
+- [ ] 6.4 - Adam
+- [ ] 6.5 - Training algorithm hyperparameters
+- [ ] 6.6 - Summary
+- [ ] 7 - Gradients and initialization
+- [ ] 7.1 - Problem definitions
+- [ ] 7.2 - Computing derivatives
+- [ ] 7.3 - Toy example
+- [ ] 7.4 - Backpropagation algorithm
+- [ ] 7.5 - Parameter initialization
+- [ ] 7.6 - Example training code
+- [ ] 7.7 Summary
+- [ ] 8 - Measuring performance
+- [ ] 8.1 - Training a simple model
+- [ ] 8.2 - Sources of error
+- [ ] 8.3 - Reducing error
+- [ ] 8.4 - Double descent
+- [ ] 8.5 - Choosing hyperparameters
+- [ ] 8.6 - Summary
+- [ ] 9 - Regularization
+- [ ] 9.1 Explicit regularization
+- [ ] 9.2 Implicit regularization
+- [ ] 9.3 Heuristics to improve performance
+- [ ] 9.4 Summary
+- [ ] 10 - Convolutional networks
+- [ ] 10.1 - Invariance and equivariance
+- [ ] 10.2 - Convolutional networks for 1D inputs
+- [ ] 10.3 - Convolutional networks for 2D inputs
+- [ ] 10.4 - Downsampling and upsampling
+- [ ] 10.5 - Applications
+- [ ] 10.6 - Summary
+- [ ] 11 - Residual networks
+- [ ] 11.1 - Sequential processing
+- [ ] 11.2 - Residual connections and residual blocks
+- [ ] 11.3 - Exploding gradients in residual networks
+- [ ] 11.4 - Batch normalization
+- [ ] 11.5 - Common residual architectures
+- [ ] 11.6 - Why do nets with residual connections perform so well?
+- [ ] 11.7 - Summary
+- [ ] 12 - Transformers
+- [ ] 12.1 - Processing text data
+- [ ] 12.2 - Dot-product self-attention
+- [ ] 12.3 - Extensions to dot-product self-attention
+- [ ] 12.4 - Transformers
+- [ ] 12.5 - Transformers for natural language processing
+- [ ] 12.6 - Encoder model example: BERT
+- [ ] 12.7 - Decoder model example: GPT3
+- [ ] 12.8 - Encoder-decoder model example: machine translation
+- [ ] 12.9 - Transformers for long sequences
+- [ ] 12.10 -  Transformers for images
+- [ ] 12.11 - Summary
+- [ ] 13 - Graph neural networks
+- [ ] 13.1 -  What is a graph?
+- [ ] 13.2 - Graph representation
+- [ ] 13.3 - Graph neural networks, tasks, and loss functions
+- [ ] 13.4 - Graph convolutional networks
+- [ ] 13.5 - Example: graph classification
+- [ ] 13.6 - Inductive vs. transductive models
+- [ ] 13.7 - Example: node classification
+- [ ] 13.8 - Layers for graph convolutional networks
+- [ ] 13.9 - Edge graphs
+- [ ] 13.10 - Summary
+- [ ] 14 - Unsupervised learning
+- [ ] 14.1 - Taxonomy of unsupervised learning models
+- [ ] 14.2 - What makes a good generative model?
+- [ ] 14.3 - Quantifying performance
+- [ ] 14.4 - Summary
+- [ ] 15 - Generative Adversarial Networks
+- [ ] 15.1 - Discrimination as a signal
+- [ ] 15.2 - Improving stability
+- [ ] 15.3 - Progressive growing, mini-batch discrimination, and truncation
+- [ ] 15.4 - Conditional generation
+- [ ] 15.5 - Image translation
+- [ ] 15.6 - StyleGAN
+- [ ] 15.7 - Summary
+- [ ] 16 - Normalizing flows
+- [ ] 16.1 - 1D example
+- [ ] 16.2 - General case
+- [ ] 16.3 - Invertible network layers
+- [ ] 16.4 - Multi-scale flows
+- [ ] 16.5 - Applications
+- [ ] 16.6 - Summary
+- [ ] 17 - Variational autoencoders
+- [ ] 17.1 - Latent variable models
+- [ ] 17.2 - Nonlinear latent variable model
+- [ ] 17.3 - Training
+- [ ] 17.4 - ELBO properties
+- [ ] 17.5 - Variational approximation
+- [ ] 17.6 - The variational autoencoder
+- [ ] 17.7 - The reparameterization trick
+- [ ] 17.8 - Applications
+- [ ] 17.9 - Summary
+- [ ] 18 - Diffusion models
+- [ ] 18.1 - Overview
+- [ ] 18.2 - Encoder (forward process)
+- [ ] 18.3 - Decoder model (reverse process)
+- [ ] 18.4 - Training
+- [ ] 18.5 - Re-parameterization of loss function
+- [ ] 18.6 - Implementation
+- [ ] 18.7 - Summary
+- [ ] 19 - Reinforcement learning
+- [ ] 19.1 - Markov decision processes, returns, and policies
+- [ ] 19.2 - Expected return
+- [ ] 19.3 - Tabular reinforcement learning
+- [ ] 19.4 - Fitted Q-learning
+- [ ] 19.5 - Policy gradient methods
+- [ ] 19.6 - Actor-critic methods
+- [ ] 19.7 - Offline reinforcement learning
+- [ ] 19.8 - Summary
+- [ ] 20 - Why does deep learning work?
+- [ ] 20.1 - The case against deep learning
+- [ ] 20.2 - Factors that influence fitting performance
+- [ ] 20.3 - Properties of loss functions
+- [ ] 20.4 - Factors that determine generalization
+- [ ] 20.5 - Do we need so many parameters?
+- [ ] 20.6 - Do networks have to be deep?
+- [ ] 20.7 - Summary
 - [ ] W5 Exercises
 - [ ] ADM - 2.2 (Big O)
 - [ ] Permutation Is String
@@ -701,9 +650,10 @@ draft: "true"
 - [ ] 2.5.5 - Kullback–Leibler divergence
 - [ ] 2.5.6 - Conditional entropy
 - [ ] 2.5.7 - Mutual information
+- [ ] [1.1.4 Compound Procedures](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e4)
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","show-checkboxes":false}
 ```
 %%
