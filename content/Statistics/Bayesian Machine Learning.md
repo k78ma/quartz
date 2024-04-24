@@ -33,4 +33,3 @@ $$
 In both the Bayesian and frequentist paradigms, the likelihood function $p(D|\mathbf{w})$ plays a central role, but the way it's used is fundamentally different in the two approaches. 
 - In a frequentist setting, $\mathbf{w}$ is considered to be a fixed parameter, whose value is determined by some form of ‘estimator’, and error bars on this estimate are determined (conceptually, at least) by considering the distribution of possible data sets $D$. 
 - From the Bayesian viewpoint there is only a single data set $D$ (the one that is actually observed), and the uncertainty in the parameters is expressed through a probability distribution over $\mathbf{w}$.
-
