@@ -88,6 +88,43 @@ Binary search trees make it easy to report the nodes in sorted order since we ca
 
 Each item is only processed once during traversal, so it runs in $O(n)$ time where $n$ is the number of nodes in the tree.
 ## Insertion
+There is only one place to insert an item $x$ into a BST, so we know where to find it again. We replace the `NULL` pointer found in $T$ after unsuccessfully searching for the key of $x$.
 
+```c
+void insert_tree(tree **l, item_type x, tree *parent){
+	tree *p;
 
+	if (*l == NULL){
+		p = malloc(sizeof(tree));
+		p->item = x;
+		p->left = p->right = NULL;
+		p->parent = parent;
+		*l = p;
+		return;
+	}
+
+	if (x < (*l)->item){
+		insert_tree(&((*l)->left), x, *l);
+	} else {
+		insert_tree(&((*l)->right), x, *l);
+	}
+}
+```
+
+Here, we use recursion to combine search and insertion. The arguments are:
+- A pointer `l` to the pointer linking the search subtree to the rest of the tree
+- The key `x` to be inserted
+- A `parent` pointer to the parent node containing `l`
+
+The node is allocated and linked in after hitting the `NULL` pointer. We pass the pointer to the left/right pointer in the node during the search, so the assignment `*l = p` links the new node into the tree.
+
+Allocating the node and linking it into the tree is a constant-time operation, after the search has been performed in $O(h)$ time.
 ## Deletion
+Deleting a node is tricky because its children have to be linked back into the tree somewhere else.
+- Leafs nodes with no children can simply be deleted by clearing the pointer to the given node.
+- Deleting nodes with 1 child are also simple, we just need to link the child to the deleted node's parent without violating the in-order labeling of the tree.
+- For nodes with 2 children, we need to relabel this node with the key of its immediate successor in sorted order.
+	- The successor is the smallest value in the right subtree – the left-most descendant in the right subtree `p`. 
+	- Moving this descendant to the point of deletion results in a properly labeled binary search tree, and reduces our deletion problem to physically removing a node with at most one child, which we already know how to do. 
+
+![[Binary Search Tree-2.png]]

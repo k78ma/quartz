@@ -20,63 +20,31 @@
             }
           },
           {
-            "id": "9ed59e593f07e681",
+            "id": "7fde81a705cfc3e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polymath/VIDAS ROS 2 Driver.md",
+                "file": "CS/Binary Search Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5e49ce115977f3b6",
+            "id": "1a697c32721ab8f3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Polymath/roslibpy.md",
+                "file": "CS/Problems/DSA Problems.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "96cfa4a6ebcd2294",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath/Baymax.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06e21c034ae92e91",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Polymath/E-Stop.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b9fdf1c0614dc49",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,7 +105,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 210.5
+    "width": 210.5,
+    "collapsed": true
   },
   "right": {
     "id": "15813062ea777ec2",
@@ -161,7 +130,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Polymath/roslibpy.md"
+                "file": "CS/Binary Search Tree.md"
               }
             }
           },
@@ -189,7 +158,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Polymath/roslibpy.md",
+                "file": "CS/Binary Search Tree.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Polymath/roslibpy.md",
+                "file": "CS/Binary Search Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -241,7 +210,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Polymath/roslibpy.md",
+                "file": "CS/Binary Search Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -251,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5,
-    "collapsed": true
+    "width": 215.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -268,24 +236,29 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5e49ce115977f3b6",
+  "active": "7fde81a705cfc3e8",
   "lastOpenFiles": [
-    "Statistics/Statistics.md",
-    "Polymath/E-Stop.md",
-    "Polymath/roslibpy.md",
-    "Polymath/Baymax.md",
+    "CS/attachments/Binary Search Tree-2.png",
+    "CS/Data Structures and Algorithms.md",
+    "CS/Binary Search Tree.md",
+    "CS/Problems/DSA Problems.md",
     "Polymath/VIDAS ROS 2 Driver.md",
+    "Computer Architecture/Computer Architecture.md",
+    "Polymath/E-Stop.md",
+    "Polymath/Baymax.md",
+    "Robotics/noVNC.md",
+    "Polymath/Baymax Architecture.canvas",
+    "Polymath/attachments/Baymax.png",
+    "Statistics/Statistics.md",
+    "Statistics/Bayesian Machine Learning.md",
+    "Polymath/roslibpy.md",
     "CS/Tree Traversal.md",
     "Polymath/Polymath.md",
     "Robotics/ROS Bridge.md",
-    "CS/Binary Search Tree.md",
     "kai++.md",
     "CS/attachments/Binary Search Tree-1.png",
-    "CS/Data Structures and Algorithms.md",
     "CS/Binary Tree.md",
     "CS/Balanced Binary Tree.md",
-    "Robotics/noVNC.md",
-    "Polymath/Baymax Architecture.canvas",
     "CS/attachments/Binary Search Tree.png",
     "Statistics/Bayesian Probability.md",
     "Statistics/Maximum Likelihood Estimation.md",
@@ -295,10 +268,6 @@
     "Statistics/Conditional Entropy.md",
     "Statistics/Differential Entropy.md",
     "Statistics/Information Entropy.md",
-    "Statistics/Kullback-Leibler Divergence.md",
-    "Statistics/Measure of Information.md",
-    "Statistics/Multivariate Probability Density.md",
-    "Statistics/Independent Variables.md",
     "ML/Deep Learning - Foundations and Concepts.pdf",
     "Statistics/attachments/Convex Function.png",
     "Statistics/attachments/Physical Entropy.png",
@@ -307,7 +276,6 @@
     "Statistics/attachments/Linear Regression as MLE.png",
     "Statistics/attachments/Bessel's Correction.png",
     "Statistics/attachments/Likelihood Function.png",
-    "Statistics/attachments/Cumulative Distribution Function.png",
     "Statistics/attachments",
     "Finnish",
     "Polymath/Polymath ML Productization Simplified.canvas",
