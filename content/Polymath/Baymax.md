@@ -277,3 +277,6 @@ System/other:
 ## Unit test
 
 Testing class that inherits from BaseSensor, test BaseSensor functionality
+
+
+- Always logging mode vs. only logging when unhealthy
