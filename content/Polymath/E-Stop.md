@@ -93,3 +93,6 @@ password: `polymathestop`
 - [x] Adding instructions for start on boot
 - [x] Write intro in README on what we're trying to do and what the parts are generally
 - [x] Quick start on robot specifically – if we ship e-stop to someone
+
+[https://192.168.93.87/login/](https://192.168.93.87/login/ "https://192.168.93.87/login/")
+user: admin, password: admin

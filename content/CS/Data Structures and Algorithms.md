@@ -17,6 +17,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 	- [[Operations with Big O]]
 - [[Logarithmic Algorithms]]
 ## Data Structures
+
+### Basic Data Structures
 - [[Contiguous vs Linked Data Structures]]
 - [[Array]]
 	- [[Dynamic Array]]
@@ -25,6 +27,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Stacks and Queues]]
 - [[Dictionary]]
 	- [[Dictionary Implementations]]
+- [[Priority Queue]]
+### Trees
 - [[Trees]]
 - [[Binary Tree]]
 - [[Binary Search Tree]]
@@ -32,6 +36,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 		- [[Red-black trees]]
 		- [[AVL trees]]
 - [[Tree Traversal]]
+
+### Hashing
 ## Sorting
 - [[Sorting Algorithms]]
 
