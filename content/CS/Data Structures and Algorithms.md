@@ -28,6 +28,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Dictionary]]
 	- [[Dictionary Implementations]]
 - [[Priority Queue]]
+	- [[Priority Queue Implementations]]
 ### Trees
 - [[Trees]]
 - [[Binary Tree]]
