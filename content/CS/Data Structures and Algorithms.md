@@ -37,8 +37,11 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 		- [[Red-black trees]]
 		- [[AVL trees]]
 - [[Tree Traversal]]
-
 ### Hashing
+- [[Hashing]]
+	- [[Hash Table Example]]
+- [[Hash Collision]]
+
 ## Sorting
 - [[Sorting Algorithms]]
 
