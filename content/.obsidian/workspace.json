@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md"
+                "file": "Statistics/Statistics.md"
               }
             }
           },
@@ -145,7 +146,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Statistics/Statistics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -180,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Statistics/Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Statistics/Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -207,8 +208,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5,
-    "collapsed": true
+    "width": 215.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,12 +224,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c1e75fd8699b364",
+  "active": "8db7c03f374d5ad7",
   "lastOpenFiles": [
-    "CS/Hashing.md",
-    "Statistics/Statistics.md",
-    "CS/Hash Table Example.md",
     "CS/Data Structures and Algorithms.md",
+    "Tron 3A.md",
+    "MTE 351 - Systems Models.md",
+    "MTE 321 - Design and Dynamics of Machines.md",
+    "MTE 325 - Microprocessor Systems and Interfacing.md",
+    "MTE 320 - Actuators and Power Electronics.md",
+    "Statistics/Statistics.md",
+    "2B/MTE 203/MTE 203 - Advanced Calculus.md",
+    "MTE 309 - Introduction to Thermodynamics and Heat Transfer.md",
+    "CS/Hashing.md",
+    "CS/Hash Table Example.md",
     "CS/Priority Queue Implementations.md",
     "CS/Dictionary Implementations.md",
     "CS/Priority Queue.md",
@@ -245,17 +252,10 @@
     "CS/Binary Search Tree.md",
     "kai++.md",
     "CS/Problems/DSA Problems.md",
-    "private/Resume Review.md",
     "CS/attachments/Binary Search Tree-2.png",
-    "Robotics/noVNC.md",
     "Polymath/Baymax Architecture.canvas",
     "Polymath/attachments/Baymax.png",
-    "Polymath/roslibpy.md",
-    "CS/Tree Traversal.md",
-    "Polymath/Polymath.md",
-    "Robotics/ROS Bridge.md",
     "CS/attachments/Binary Search Tree-1.png",
-    "CS/Binary Tree.md",
     "CS/attachments/Binary Search Tree.png",
     "ML/Deep Learning - Foundations and Concepts.pdf",
     "Statistics/attachments/Convex Function.png",

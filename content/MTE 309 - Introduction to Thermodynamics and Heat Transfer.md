@@ -1,0 +1,7 @@
+---
+title: MTE 309 - Introduction to Thermodynamics and Heat Transfer
+tags:
+  - mte309
+date: 2024-04-27
+aliases:
+---
