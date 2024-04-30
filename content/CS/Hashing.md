@@ -8,7 +8,7 @@ aliases:
 ---
 Hashing is a practical way of maintaining a [[Dictionary|dictionary]], taking advantage of the fact that looking an item up in an array takes constant time once you have its index. With a hash function, we can create a [[Hash Table Example|hash table]] for fast look-ups.
 
-Hash functions also provide useful tools for many things beyond powering hash tables, since the fundamental idea is just of *many-to-one* mappings, where "many" is controlled so it is very unlikely to be "too many". Some examples of this are [[Duplicate Detection via Hashing]], [[Canonicalization]], and [[Compaction]].
+Hash functions also provide useful tools for many things beyond powering hash tables, since the fundamental idea is just of *many-to-one* mappings, where "many" is controlled so it is very unlikely to be "too many". Some examples of this are [[Duplicate Detection via Hashing|duplicate detection]], [[Canonicalization|canonicalization]], and [[Compaction|compaction]].
 ## Hash Function
 Let's say we have a key and a value.
 
