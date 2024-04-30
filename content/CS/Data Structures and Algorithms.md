@@ -41,7 +41,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Hashing]]
 	- [[Hash Table Example]]
 - [[Hash Collision]]
-
+	- [[Separate Chaining]]
+	- [[Open Addressing]]
 ## Sorting
 - [[Sorting Algorithms]]
 

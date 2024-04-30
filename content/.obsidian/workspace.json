@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Separate Chaining.md",
                 "mode": "source",
                 "source": false
               }
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Statistics.md"
+                "file": "CS/Separate Chaining.md"
               }
             }
           },
@@ -146,7 +145,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "CS/Separate Chaining.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "CS/Separate Chaining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -198,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Statistics.md",
+                "file": "CS/Separate Chaining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -208,7 +207,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 215.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -224,19 +224,22 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8db7c03f374d5ad7",
+  "active": "6c1e75fd8699b364",
   "lastOpenFiles": [
+    "CS/attachments/Pasted image 20240429193833.png",
     "CS/Data Structures and Algorithms.md",
+    "CS/Separate Chaining.md",
+    "CS/Hash Table Example.md",
+    "CS/Hash Collision.md",
+    "Statistics/Statistics.md",
     "Tron 3A.md",
     "MTE 351 - Systems Models.md",
     "MTE 321 - Design and Dynamics of Machines.md",
     "MTE 325 - Microprocessor Systems and Interfacing.md",
     "MTE 320 - Actuators and Power Electronics.md",
-    "Statistics/Statistics.md",
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "MTE 309 - Introduction to Thermodynamics and Heat Transfer.md",
     "CS/Hashing.md",
-    "CS/Hash Table Example.md",
     "CS/Priority Queue Implementations.md",
     "CS/Dictionary Implementations.md",
     "CS/Priority Queue.md",
@@ -249,9 +252,6 @@
     "Statistics/Bayesian Machine Learning.md",
     "Other/Vault Stats.md",
     "Statistics/Bayesian Probability.md",
-    "CS/Binary Search Tree.md",
-    "kai++.md",
-    "CS/Problems/DSA Problems.md",
     "CS/attachments/Binary Search Tree-2.png",
     "Polymath/Baymax Architecture.canvas",
     "Polymath/attachments/Baymax.png",
