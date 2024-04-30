@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Computer Science.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md"
+                "file": "CS/Computer Science.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Computer Science.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,7 +192,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Computer Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +209,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "CS/Computer Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -219,7 +219,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 215.5
+    "width": 215.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,9 +238,13 @@
   },
   "active": "6c1e75fd8699b364",
   "lastOpenFiles": [
+    "Computer Architecture/Computer Architecture.md",
+    "CS/Computer Science.md",
+    "CS/Computational Theory.md",
+    "CS/Data Structures and Algorithms.md",
+    "CS/Languages and Compilers.md",
     "CS/Hashing.md",
     "CS/Hash Table Example.md",
-    "CS/Data Structures and Algorithms.md",
     "ML/WATONeRF.md",
     "Statistics/Statistics.md",
     "ML/EmerNeRF.md",
@@ -260,10 +265,6 @@
     "Polymath/E-Stop.md",
     "Polymath/VIDAS ROS 2 Driver.md",
     "Polymath/Baymax.md",
-    "CS/Balanced Binary Tree.md",
-    "Computer Architecture/Computer Architecture.md",
-    "Statistics/Bayesian Machine Learning.md",
-    "Other/Vault Stats.md",
     "CS/attachments/Binary Search Tree-2.png",
     "Polymath/Baymax Architecture.canvas",
     "Polymath/attachments/Baymax.png",
