@@ -43,6 +43,9 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Hash Collision]]
 	- [[Separate Chaining]]
 	- [[Open Addressing]]
+- [[Duplicate Detection via Hashing]]
+- [[Canonicalization]]
+- [[Compaction]]
 ## Sorting
 - [[Sorting Algorithms]]
 

@@ -1,8 +1,11 @@
 ---
 title: Hash Table Example
-tags: 
+tags:
+  - dsa
+  - cs
 date: 2024-04-27
 aliases:
+  - hash table
 ---
 Hash tables maps an arbitrary data type to another arbitrary data type using [[Hashing|hashing]].
 
