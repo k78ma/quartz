@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Open Addressing.md",
+                "file": "CS/Separate Chaining.md",
                 "mode": "source",
                 "source": false
               }
@@ -141,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Open Addressing.md"
+                "file": "CS/Separate Chaining.md"
               }
             }
           },
@@ -169,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Open Addressing.md",
+                "file": "CS/Separate Chaining.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -204,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Open Addressing.md",
+                "file": "CS/Separate Chaining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -221,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Open Addressing.md",
+                "file": "CS/Separate Chaining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -250,11 +250,11 @@
   },
   "active": "6c1e75fd8699b364",
   "lastOpenFiles": [
-    "CS/attachments/Open Addressing-1.png",
-    "CS/attachments/Open Addressing.png",
+    "CS/Data Structures and Algorithms.md",
     "CS/Separate Chaining.md",
     "CS/Open Addressing.md",
-    "CS/Data Structures and Algorithms.md",
+    "CS/attachments/Open Addressing-1.png",
+    "CS/attachments/Open Addressing.png",
     "CS/Hashing.md",
     "ML/WATONeRF.md",
     "ML/Universal Approximation Theorem.md",
@@ -287,7 +287,6 @@
     "Statistics/attachments/Convex Function.png",
     "Statistics/attachments/Physical Entropy.png",
     "Statistics/attachments/Transformation of Multivariate Distributions.png",
-    "Statistics/attachments/Transformation of Densities.png",
     "Statistics/attachments",
     "Finnish",
     "Polymath/Polymath ML Productization Simplified.canvas",

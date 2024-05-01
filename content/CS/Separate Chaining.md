@@ -16,4 +16,4 @@ Chaining is intuitive but devotes a lot of memory to pointers. This is space tha
 
 Given that $m$
 - Chaining costs $O(m)$ to initialize an $m$-element hash table with null elements prior to the first insertion.
-- Traversing all the elements in the table takes $O(n + m$) time, since we have to visit each bucket and each element within those buckets. The $+m$ accounts for visiting each bucket, even those that are empty.
+- Traversing all the elements in the table takes $O(n + m$) time, where $n$ is the actual number of insertions. This is because we have to visit each of the $m$ buckets and all $n$ elements within those buckets. The $+m$ accounts for visiting each bucket, even those that are empty.
