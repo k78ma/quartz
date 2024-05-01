@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Computer Architecture/Computer Architecture.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "8db7c03f374d5ad7",
+            "id": "e1a610df39520e16",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,20 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ecc72a9c9843af39",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "ML/WATONeRF.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -129,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md"
+                "file": "Statistics/Statistics.md"
               }
             }
           },
@@ -157,7 +146,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Statistics/Statistics.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Statistics/Statistics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +198,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Data Structures and Algorithms.md",
+                "file": "Statistics/Statistics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -235,10 +224,19 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "6c1e75fd8699b364",
+  "active": "e1a610df39520e16",
   "lastOpenFiles": [
-    "CS/Canonicalization.md",
+    "Statistics/Kullback-Leibler Divergence.md",
+    "Statistics/Statistics.md",
+    "Statistics/Maximum Likelihood Estimation.md",
+    "Statistics/Gaussian Maximum Likehood Estimation.md",
+    "Statistics/Likelihood Function.md",
+    "Statistics/Bayesian Machine Learning.md",
+    "Computer Architecture/Computer Architecture.md",
+    "CS/Computer Science.md",
+    "CS/Structure and Interpretation of Programs.md",
     "CS/Data Structures and Algorithms.md",
+    "CS/Canonicalization.md",
     "CS/Hashing.md",
     "CS/Duplicate Detection via Hashing.md",
     "ML/WATONeRF.md",
@@ -253,19 +251,10 @@
     "ML/Stochastic Gradient Descent.md",
     "ML/Machine Learning as Optimization.md",
     "ML/Optimizing Neural Networks.md",
-    "CS/Computer Science.md",
-    "Computer Architecture/Computer Architecture.md",
     "CS/Computational Theory.md",
     "CS/Languages and Compilers.md",
     "CS/Hash Table Example.md",
-    "Statistics/Statistics.md",
-    "ML/EmerNeRF.md",
     "CS/attachments/Pasted image 20240429193833.png",
-    "CS/Hash Collision.md",
-    "Tron 3A.md",
-    "MTE 351 - Systems Models.md",
-    "MTE 321 - Design and Dynamics of Machines.md",
-    "MTE 325 - Microprocessor Systems and Interfacing.md",
     "CS/attachments/Binary Search Tree-2.png",
     "Polymath/Baymax Architecture.canvas",
     "Polymath/attachments/Baymax.png",
