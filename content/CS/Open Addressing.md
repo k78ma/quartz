@@ -14,6 +14,8 @@ Here's how it works:
 	- If it's empty, we insert the item there.
 	- If not empty, we find some other place to put the item.
 
+![[Open Addressing-1.png]]
+
 The simplest possibility is to do *sequential probing*, where we just insert the item into the next open cell in the table. If the table isn't too full, contiguous runs of non-empty cells should be fairly short, so this location should only be a few cells away form its intended position.
 
 Searching for a given key now involves:
