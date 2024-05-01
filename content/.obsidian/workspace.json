@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CS/Hashing.md",
+                "file": "CS/Open Addressing.md",
                 "mode": "source",
                 "source": false
               }
@@ -38,6 +38,18 @@
               "type": "markdown",
               "state": {
                 "file": "ML/WATONeRF.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca97177f24b2fc72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CS/Separate Chaining.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CS/Hashing.md"
+                "file": "CS/Open Addressing.md"
               }
             }
           },
@@ -157,7 +169,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "CS/Hashing.md",
+                "file": "CS/Open Addressing.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -192,7 +204,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS/Hashing.md",
+                "file": "CS/Open Addressing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -209,7 +221,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS/Hashing.md",
+                "file": "CS/Open Addressing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               }
@@ -238,17 +250,23 @@
   },
   "active": "6c1e75fd8699b364",
   "lastOpenFiles": [
+    "CS/Separate Chaining.md",
+    "CS/Open Addressing.md",
     "CS/Data Structures and Algorithms.md",
+    "CS/Hashing.md",
+    "ML/WATONeRF.md",
+    "ML/Universal Approximation Theorem.md",
+    "ML/Regularization.md",
+    "ML/Stochastic Gradient Descent.md",
+    "ML/Machine Learning as Optimization.md",
+    "ML/Optimizing Neural Networks.md",
     "CS/Computer Science.md",
     "Computer Architecture/Computer Architecture.md",
     "CS/Computational Theory.md",
     "CS/Languages and Compilers.md",
-    "CS/Hashing.md",
     "CS/Hash Table Example.md",
-    "ML/WATONeRF.md",
     "Statistics/Statistics.md",
     "ML/EmerNeRF.md",
-    "CS/Separate Chaining.md",
     "CS/attachments/Pasted image 20240429193833.png",
     "CS/Hash Collision.md",
     "Tron 3A.md",
@@ -259,12 +277,6 @@
     "2B/MTE 203/MTE 203 - Advanced Calculus.md",
     "MTE 309 - Introduction to Thermodynamics and Heat Transfer.md",
     "CS/Priority Queue Implementations.md",
-    "CS/Dictionary Implementations.md",
-    "CS/Priority Queue.md",
-    "CS/Contiguous vs Linked Data Structures.md",
-    "Polymath/E-Stop.md",
-    "Polymath/VIDAS ROS 2 Driver.md",
-    "Polymath/Baymax.md",
     "CS/attachments/Binary Search Tree-2.png",
     "Polymath/Baymax Architecture.canvas",
     "Polymath/attachments/Baymax.png",
