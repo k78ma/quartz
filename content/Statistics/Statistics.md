@@ -48,6 +48,5 @@ Notes from:
 ### Bayesian Probability
 - [[Bayesian Probability]]
 - [[Bayesian Machine Learning]]
-
 ## Standard Distributions
 
