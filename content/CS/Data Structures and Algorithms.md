@@ -50,6 +50,10 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Compaction]]
 ## Sorting
 - [[Sorting Algorithms]]
+- [[Heapsort]]
+- [[Mergesort]]
+- [[Quicksort]]
+- [[Distribution Sort]]
 
 ## Divide and Conquer
 - [[Fast Exponentiation Algorithm]]

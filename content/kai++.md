@@ -17,11 +17,6 @@ draft: "true"
 
 ## DLFC
 
-- [ ] 2 - Probabilities
-- [ ] 2.6 - Bayesian Probabilities
-- [ ] 2.6.1 - Model parameters
-- [ ] 2.6.2 - Regularization
-- [ ] 2.6.3 - Bayesian machine learning
 - [ ] 3 - Standard Distributions
 - [ ] 3.1 - Discrete Variables
 - [ ] 3.1.1 - Bernoulli distribution
@@ -354,22 +349,202 @@ draft: "true"
 
 
 ## DSA
+- [ ] 4 - Sorting
+- [ ] 4.1 - Applications of Sorting
+- [ ] 4.2 - Pragmatics of Sorting
+- [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
+- [ ] 4.3.1 - Heaps
+- [ ] 4.3.2 - Constructing Heaps
+- [ ] 4.3.3 - Extracting the Minimum
+- [ ] 4.3.4 - Faster Heap Construction (*)
+- [ ] 4.3.5 - Sorting by Incremental Insertion
+- [ ] 4.4 - War Story: Give me a Ticket on an Airplane
+- [ ] 4.5 - Mergesort: Sorting by Divide and Conquer
+- [ ] 4.6 - Quicksort: Sorting by Randomization
+- [ ] 4.6.1 - Intuition: The Expected Case for Quicksort
+- [ ] 4.6.2 - Randomized Algorithms
+- [ ] 4.6.3 - Is Quicksort Really Quick?
+- [ ] 4.7 - Distribution Sort: Sorting via Bucketing
+- [ ] 4.7.1 - Lower Bounds for Sorting
+- [ ] 4.8 - War Story: Skiena for the Defense
+- [ ] 4.9 - Exercises
+- [ ] 5 - Divide and Conquer
+- [ ] 5.1 - Binary Search and Related Algorithms
+- [ ] 5.1.1 - Counting Occurrences
+- [ ] 5.1.2 - One-Sided Binary Search
+- [ ] 5.1.3 - Square and Other Roots
+- [ ] 5.2 - War Story: Finding the Bug in the Bug
+- [ ] 5.3 - Recurrence Relations
+- [ ] 5.3.1 - Divide-and-Conquer Recurrences
+- [ ] 5.4 - Solving Divide-and-Conquer Recurrences
+- [ ] 5.5 - Fast Multiplication
+- [ ] 5.6 - Largest Subrange and Closest Pair
+- [ ] 5.7 - Parallel Algorithms
+- [ ] 5.7.1 - Data Parallelism
+- [ ] 5.7.2 - Pitfalls of Parallelism
+- [ ] 5.8 - War Story: Going Nowhere Fast
+- [ ] 5.9 - Convolution (*)
+- [ ] 5.9.1 - Applications of Convolution
+- [ ] 5.9.2 - Fast Polynomial Multiplication (**)
+- [ ] 5.10 - Exercises
+- [ ] 6 - Hashing and Randomized Algorithms
+- [ ] 6.1 - Probability Review
+- [ ] 6.1.1 - Probability
+- [ ] 6.1.2 - Compound Events and Independence
+- [ ] 6.1.3 - Conditional Probability
+- [ ] 6.1.4 - Probability Distributions
+- [ ] 6.1.5 - Mean and Variance
+- [ ] 6.1.6 - Tossing Coins
+- [ ] 6.2 - Understanding Balls and Bins
+- [ ] 6.2.1 - The Coupon Collector’s Problem
+- [ ] 6.3 - Why is Hashing a Randomized Algorithm?
+- [ ] 6.4 - Bloom Filters
+- [ ] 6.5 - The Birthday Paradox and Perfect Hashing
+- [ ] 6.6 - Minwise Hashing
+- [ ] 6.7 - Efficient String Matching
+- [ ] 6.8 - Primality Testing
+- [ ] 6.9 - War Story: Giving Knuth the Middle Initial
+- [ ] 6.10 - Where do Random Numbers Come From?
+- [ ] 6.11 - Exercises
+- [ ] 7 - Graph Traversal
+- [ ] 7.1 - Flavors of Graphs
+- [ ] 7.1.1 - The Friendship Graph
+- [ ] 7.2 - Data Structures for Graphs
+- [ ] 7.3 - War Story: I was a Victim of Moore’s Law
+- [ ] 7.4 - War Story: Getting the Graph
+- [ ] 7.5 - Traversing a Graph
+- [ ] 7.6 - Breadth-First Search
+- [ ] 7.6.1 - Exploiting Traversal
+- [ ] 7.6.2 - Finding Paths
+- [ ] 7.7 - Applications of Breadth-First Search
+- [ ] 7.7.1 - Connected Components
+- [ ] 7.7.2 - Two-Coloring Graphs
+- [ ] 7.8 - Depth-First Search
+- [ ] 7.9 - Applications of Depth-First Search
+- [ ] 7.9.1 - Finding Cycles
+- [ ] 7.9.2 - Articulation Vertices
+- [ ] 7.10 - Depth-First Search on Directed Graphs
+- [ ] 7.10.1 - Topological Sorting
+- [ ] 7.10.2 - Strongly Connected Components
+- [ ] 7.11 - Exercises
+- [ ] 8 - Weighted Graph Algorithms
+- [ ] 8.1 - Minimum Spanning Trees
+- [ ] 8.1.1 - Prim’s Algorithm
+- [ ] 8.1.2 - Kruskal’s Algorithm
+- [ ] 8.1.3 - The Union–Find Data Structure
+- [ ] 8.1.4 - Variations on Minimum Spanning Trees
+- [ ] 8.2 - War Story: Nothing but Nets
+- [ ] 8.3 - Shortest Paths
+- [ ] 8.3.1 - Dijkstra’s Algorithm
+- [ ] 8.3.2 - All-Pairs Shortest Path
+- [ ] 8.3.3 - Transitive Closure
+- [ ] 8.4 - War Story: Dialing for Documents
+- [ ] 8.5 - Network Flows and Bipartite Matching
+- [ ] 8.5.1 - Bipartite Matching
+- [ ] 8.5.2 - Computing Network Flows
+- [ ] 8.6 - Randomized Min-Cut
+- [ ] 8.7 - Design Graphs, Not Algorithms
+- [ ] 8.8 - Exercises
+- [ ] 9 - Combinatorial Search
+- [ ] 9.1 - Backtracking
+- [ ] 9.2 - Examples of Backtracking
+- [ ] 9.2.1 - Constructing All Subsets
+- [ ] 9.2.2 - Constructing All Permutations
+- [ ] 9.2.3 - Constructing All Paths in a Graph
+- [ ] 9.3 - Search Pruning
+- [ ] 9.4 - Sudoku
+- [ ] 9.5 - War Story: Covering Chessboards
+- [ ] 9.6 - Best-First Search
+- [ ] 9.7 - The A* Heuristic
+- [ ] 9.8 - Exercises
+- [ ] 10 - Dynamic Programming
+- [ ] 10.1 - Caching vs. Computation
+- [ ] 10.1.1 - Fibonacci Numbers by Recursion
+- [ ] 10.1.2 - Fibonacci Numbers by Caching
+- [ ] 10.1.3 - Fibonacci Numbers by Dynamic Programming
+- [ ] 10.1.4 - Binomial Coefficients
+- [ ] 10.2 - Approximate String Matching
+- [ ] 10.2.1 - Edit Distance by Recursion
+- [ ] 10.2.2 - Edit Distance by Dynamic Programming
+- [ ] 10.2.3 - Reconstructing the Path
+- [ ] 10.2.4 - Varieties of Edit Distance
+- [ ] 10.3 - Longest Increasing Subsequence
+- [ ] 10.4 - War Story: Text Compression for Bar Codes
+- [ ] 10.5 - Unordered Partition or Subset Sum
+- [ ] 10.6 - War Story: The Balance of Power
+- [ ] 10.7 - The Ordered Partition Problem
+- [ ] 10.8 - Parsing Context-Free Grammars
+- [ ] 10.9 - Limitations of Dynamic Programming: TSP
+- [ ] 10.9.1 - When is Dynamic Programming Correct?
+- [ ] 10.9.2 - When is Dynamic Programming Efficient?
+- [ ] 10.10 - War Story: What’s Past is Prolog
+- [ ] 10.11 - Exercises
+- [ ] 11 - NP-Completeness
+- [ ] 11.1 - Problems and Reductions
+- [ ] 11.1.1 - The Key Idea
+- [ ] 11.1.2 - Decision Problems
+- [ ] 11.2 - Reductions for Algorithms
+- [ ] 11.2.1 - Closest Pair
+- [ ] 11.2.2 - Longest Increasing Subsequence
+- [ ] 11.2.3 - Least Common Multiple
+- [ ] 11.2.4 - Convex Hull (*)
+- [ ] 11.3 - Elementary Hardness Reductions
+- [ ] 11.3.1 - Hamiltonian Cycle
+- [ ] 11.3.2 - Independent Set and Vertex Cover
+- [ ] 11.3.3 - Clique
+- [ ] 11.4 - Satisfiability
+- [ ] 11.4.1 - 3-Satisfiability
+- [ ] 11.5 - Creative Reductions from SAT
+- [ ] 11.5.1 - Vertex Cover
+- [ ] 11.5.2 - Integer Programming
+- [ ] 11.6 - The Art of Proving Hardness
+- [ ] 11.7 - War Story: Hard Against the Clock
+- [ ] 11.8 - War Story: And Then I Failed
+- [ ] 11.9 - P vs. NP
+- [ ] 11.9.1 - Verification vs. Discovery
+- [ ] 11.9.2 - The Classes P and NP
+- [ ] 11.9.3 - Why Satisfiability is Hard
+- [ ] 11.9.4 - NP-hard vs. NP-complete?
+- [ ] 11.10 - Exercises
+- [ ] 12 - Dealing with Hard Problems
+- [ ] 12.1 - Approximation Algorithms
+- [ ] 12.2 - Approximating Vertex Cover
+- [ ] 12.2.1 - A Randomized Vertex Cover Heuristic
+- [ ] 12.3 - Euclidean TSP
+- [ ] 12.3.1 - The Christofides Heuristic
+- [ ] 12.4 - When Average is Good Enough
+- [ ] 12.4.1 - Maximum k-SAT
+- [ ] 12.4.2 - Maximum Acyclic Subgraph
+- [ ] 12.5 - Set Cover
+- [ ] 12.6 - Heuristic Search Methods
+- [ ] 12.6.1 - Random Sampling
+- [ ] 12.6.2 - Local Search
+- [ ] 12.6.3 - Simulated Annealing
+- [ ] 12.6.4 - Applications of Simulated Annealing
+- [ ] 12.7 - War Story: Only it is Not a Radio
+- [ ] 12.8 - War Story: Annealing Arrays
+- [ ] 12.9 - Genetic Algorithms and Other Heuristics
+- [ ] 12.10 - Quantum Computing
+- [ ] 12.10.1 - Properties of “Quantum” Computers
+- [ ] 12.10.2 - Grover’s Algorithm for Database Search
+- [ ] 12.10.3 - The Faster “Fourier Transform”
+- [ ] 12.10.4 - Shor’s Algorithm for Integer Factorization
+- [ ] 12.10.5 - Prospects for Quantum Computing
+- [ ] 12.11 - Exercises
+- [ ] 13 - How to Design Algorithms
+- [ ] 13.1 - Preparing for Tech Company Interviews
 
-- [ ] 3 - Data Structures
-- [ ] 3.4 - Binary Search Trees
-- [ ] 3.4.1 - Implementing Binary Search Trees
-- [ ] 3.4.2 - How Good are Binary Search Trees?
-- [ ] 3.4.3 - Balanced Search Trees
-- [ ] 3.5 - Priority Queues
-- [ ] 3.6 - War Story: Stripping Triangulations
-- [ ] 3.7 - Hashing
-- [ ] 3.7.1 - Collision Resolution
-- [ ] 3.7.2 - Duplicate Detection via Hashing
-- [ ] 3.7.3 - Other Hashing Tricks
-- [ ] 3.7.4 - Canonicalization
-- [ ] 3.7.5 - Compaction
-- [ ] 3.8 - Specialized Data Structures
-- [ ] 3.9 - War Story: String ’em Up
+
+## CS:APP
+
+
+
+## Problems
+
+- [ ] DLFC Chapter 2 Exercises
+- [ ] ADM Chapter 2 Exercises
+- [ ] ADM Chapter 3 Exercises
+
 
 ***
 
@@ -651,6 +826,11 @@ draft: "true"
 - [ ] 2.5.6 - Conditional entropy
 - [ ] 2.5.7 - Mutual information
 - [ ] [1.1.4 Compound Procedures](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e4)
+- [ ] 2 - Probabilities
+- [ ] 2.6 - Bayesian Probabilities
+- [ ] 2.6.1 - Model parameters
+- [ ] 2.6.2 - Regularization
+- [ ] 2.6.3 - Bayesian machine learning
 
 %% kanban:settings
 ```

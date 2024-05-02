@@ -26,6 +26,6 @@ aliases:
 	- [NeetCode](https://neetcode.io/practice)
 
 ## Related
-- [[Computer Architecture]]
+- [[Computer Systems]]
 - [[Operating Systems]]
 - [[Machine Learning]]

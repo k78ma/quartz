@@ -20,7 +20,7 @@ See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
 - **UWaterloo Courses**
 	- [[Tron 2B]]
 - **Computers**
-	- [[Computer Architecture]]
+	- [[Computer Systems]]
 	- [[Operating Systems|Operating Systems]] + [[MTE 241 - Computer Structures & Real-Time Systems|RTOS]]
 - **Mathematics**
 	- [[Calculus III|Calculus]]
