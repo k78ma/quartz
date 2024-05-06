@@ -7,7 +7,7 @@ aliases:
   - fully-connected layer
   - FC layer
 ---
-- A layer (as described [[Neural Networke#General Definition|here]]) is a set of units that are not connected to each other. 
+- A layer is a set of units that are not connected to each other. 
 - A layer is called ***fully connected*** if every neuron in the layer shares the same inputs.
 - A layer has input $x \in \mathbb{R}^{m}$ and output (also known as activation) $a \in \mathbb{R}^{n}$.
 
