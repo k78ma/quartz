@@ -5,17 +5,8 @@ tags:
 date: 2023-12-29
 aliases:
 ---
-### Basics
-- [[Basics of Thermodynamics]]
-
-### First Law of Thermodynamics
-
-
-### Second Law of Thermodynamics
-
-
-### Entropy
-
+- Greek root – "Therme" – Heat, "Dynamis" – Power (or work)
+- Energy transformations of work, heat, KE, PE, internal energy, electrical energy
 
 ### Resources
 - [Lecture Notes on Thermodynamics (Joseph Powers, University of Notre Dame)](https://www3.nd.edu/~powers/ame.20231/notes.pdf)
