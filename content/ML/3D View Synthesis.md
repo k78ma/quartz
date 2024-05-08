@@ -11,5 +11,6 @@ aliases:
 - [[Instant NGP]]
 - [[FeatureNeRF]]
 - [[Polynomial Neural Fields]]
+- [[Gaussian Splatting]]
 
 - [[WATONeRF]]
