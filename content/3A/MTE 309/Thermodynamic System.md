@@ -8,9 +8,13 @@ aliases:
 ---
 A "system" is a *quantity of matter* or a *region in space* for study. The "surroundings" or "environment" is everything that interacts with the system.
 
+![[Thermodynamic System.png|512]]
+
 A *boundary* separates the system from the surroundings. They may be:
 - Fixed or movable
 - Real or imaginary
+
+An *isolated system* has neither mass or energy cross the boundary.
 
 A *closed system* has no mass exchange with surroundings, but energy is exchanged with the surroundings. Mass is fixed (and conserved), which is called a "control mass".
 
@@ -28,6 +32,6 @@ A *property* is any characteristic of a system.
 	- Specific volume, $v = \frac{V}{m}$
 	- Specific energy, $e= \frac{E}{m}$
 	- Specific entropy, $s=\frac{S}{m}$
-	- Molecular weight
-	- Pressure
-	- Density
+	- Molecular weight, $M = \frac{m}{n}$
+	- Pressure, $P$
+	- Density, $\rho=\frac{m}{v}$
