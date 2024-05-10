@@ -1,8 +1,8 @@
 ---
-title: Continuum
+title: Thermodynamic Continuum
 tags:
   - mte309
-date: 2024-05-08
+date: 2024-05-10
 aliases:
 ---
 A *continuum* is continuous, homogeneous matter with no holes.

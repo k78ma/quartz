@@ -16,3 +16,21 @@ In C/C++ syntax:
 - We use `*p` to denote the item that is pointed to by pointer `p`.
 - We use `&x` to denote the address of (i.e. pointer to) a particular variable `x`.
 - A special `NULL` pointer value is used to denote structure-terminating or unassigned pointers.
+
+## Example
+```c
+int myAge = 23; // An int variable
+int* ptr = &myAge; // A pointer variable, with the name ptr, that stores the address of myAge  
+
+// Output the value of myAge (23)  
+printf("%d\n", myAge);  
+
+// Output the memory address of myAge (0x00220022)  
+printf("%p\n", &myAge);  
+
+// Output the memory address of myAge using the pointer (0x00220022)  
+printf("%p\n", ptr);  
+
+// Dereference: Output the value of myAge using the pointer (23)  
+printf("%d\n", *ptr);
+```

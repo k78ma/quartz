@@ -10,4 +10,6 @@ aliases:
 - [[Embedded Systems]]
 - [[Processor Types]]
 - [[Embedded C Intro]]
+	- [[Pointers]]
+	- [[Volatile Keyword]]
 - [[Software Synchronization]]

@@ -9,6 +9,6 @@ aliases:
 - [[Thermodynamics]]
 - [[Heat Transfer]]
 - [[Thermodynamic System]]
-- [[Continuum]]
+- [[Thermodynamic Continuum]]
 - [[Microscopic vs. Macroscopic]]
 - [[Thermodynamic Temperature and Pressure]]
