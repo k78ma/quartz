@@ -5,7 +5,9 @@ tags:
 date: 2024-05-06
 aliases:
 ---
+## Notes
+### Week 1
 - [[Embedded Systems]]
 - [[Processor Types]]
-- [[Embedded C]]
+- [[Embedded C Intro]]
 - [[Software Synchronization]]

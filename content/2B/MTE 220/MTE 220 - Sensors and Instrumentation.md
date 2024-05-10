@@ -52,7 +52,7 @@ aliases:
 
 - [[Sinusoidal Steady-state Response]]
 	- [[Example - Sinusoidal Steady-state Response]]
-- [[Phasors]]
+- [[Phasor Intro]]
 	- [[Phasor Example]]
 
 ## New Circuit Elements

@@ -22,7 +22,7 @@ v(t) = \sqrt{ 2 }V_{\text{rms}}\cos(\omega t+\theta) \;\;\; \longrightarrow  \;\
 $$
 The idea of this is that if a vector $\vec{V}$ of magnitude $V_{peak}$ and phase angle $\theta$ with respect to the real axis at $t=0$, rotates in the positive direction (ccw) at an angular speed of $\omega$ radians per second, its *real component* is $V_{\text{peak}}\cos(\omega t+\theta)$. 
 
-Therefore, the value of sinusoidal voltage $v$ is equal to $\sqrt{ 2 }$ times the component of $\vec{V}$ along the real axis. Thus, all the information about $v$ can be represented by $\vec{V}$.
+Therefore, the value of sinusoidal voltage $v$ is equal to $\sqrt{ 2 }$ times the component of $\vec{V}$ along the real axis. Thus, all the information about $v$ can be represented by $\vec{V}$. A phasor is a vector that rotates counterclockwise.
 
 ![[Phasor Representation of Sinusoids.png|480]]
 

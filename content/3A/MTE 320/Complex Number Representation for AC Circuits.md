@@ -5,7 +5,7 @@ tags:
 date: 2024-05-08
 aliases:
 ---
-For AC circuits, sinusoidal values such as voltage are generally represented by [[Phasors]], which are based on complex numbers, allowing us to avoid trigonometric functions.
+For AC circuits, sinusoidal values such as voltage are generally represented by [[Phasor Intro]], which are based on complex numbers, allowing us to avoid trigonometric functions.
 
 A complex number $A$ can be represented as:
 - Rectangular: 

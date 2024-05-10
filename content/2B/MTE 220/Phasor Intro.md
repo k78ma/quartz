@@ -1,8 +1,9 @@
 ---
-title: Phasors
+title: Phasor Intro
 tags:
   - mte220
-date: 2023-10-21
+date: 2024-05-10
+aliases:
 ---
 The idea is that since every state in a linear system will have the same frequency (see [[Sinusoidal Steady-state Response]]), we don't want to bother carrying around the $e^{ j\omega t }$ term.
 
