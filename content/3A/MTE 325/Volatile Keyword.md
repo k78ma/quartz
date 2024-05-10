@@ -32,4 +32,3 @@ If we were to run this, no matter what we did to the switches, we would never ge
 Here, the problem is that the compiler doesn't realize the variable can be updated externally by a change in the switches, so it needs to be told with the `volatile` keyword. Now, when the code is compiled:
 - The compiler won't perform any optimizations on `switches`
 - Thus, very time the loop runs, a read of the source register will occur, and any changes to the switch value will be processed as expected
-

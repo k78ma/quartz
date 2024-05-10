@@ -1,10 +1,11 @@
 ---
-title: Thermodynamic System
+title: Thermodynamic Systems, Boundaries, Properties
 tags:
   - mte309
-date: 2024-05-08
+date: 2024-05-10
 aliases:
   - system
+  - boundary
 ---
 A "system" is a *quantity of matter* or a *region in space* for study. The "surroundings" or "environment" is everything that interacts with the system.
 
@@ -20,18 +21,3 @@ A *closed system* has no mass exchange with surroundings, but energy is exchange
 
 An *open system* has both mass and energy exchange with surroundings.
 
-A *property* is any characteristic of a system.
-- Extensive properties depend on the size of the system
-	- Mass, $m$
-	- Volume, $V$
-	- Energy, $E$
-	- Entropy, $S$
-	- Number of molecules, $n$
-- Intensive properties are independent of the mass of the system
-	- Temperature, $T$
-	- Specific volume, $v = \frac{V}{m}$
-	- Specific energy, $e= \frac{E}{m}$
-	- Specific entropy, $s=\frac{S}{m}$
-	- Molecular weight, $M = \frac{m}{n}$
-	- Pressure, $P$
-	- Density, $\rho=\frac{m}{v}$

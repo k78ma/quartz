@@ -8,7 +8,13 @@ aliases:
 ## Introductory Material
 - [[Thermodynamics]]
 - [[Heat Transfer]]
+### Basics
 - [[Thermodynamic System]]
+- [[Thermodynamic Properties]]
 - [[Thermodynamic Continuum]]
 - [[Microscopic vs. Macroscopic]]
 - [[Thermodynamic Temperature and Pressure]]
+### States and Equilibrium
+- [[Thermodynamic State]]
+- [[Equilibrium State]]
+- [[State Postulate]]
