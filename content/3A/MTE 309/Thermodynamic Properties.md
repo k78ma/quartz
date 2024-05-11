@@ -6,12 +6,14 @@ date: 2024-05-10
 aliases:
 ---
 A *property* is any characteristic of a [[Thermodynamic System]].
+
 - Extensive properties depend on the size of the system
 	- Mass, $m$
 	- Volume, $V$
 	- Energy, $E$
 	- Entropy, $S$
 	- Number of molecules, $n$
+
 - Intensive properties are independent of the mass of the system
 	- Temperature, $T$
 	- Specific volume, $v = \frac{V}{m}$
