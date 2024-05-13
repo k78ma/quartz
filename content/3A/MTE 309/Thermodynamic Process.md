@@ -5,8 +5,8 @@ tags:
 date: 2024-05-13
 aliases:
 ---
-A *process* is the change a system undergoes from one [[Equilibrium State|equilibrium state]] to another.
-
+A *process* is the change a system undergoes from one [[Equilibrium State|equilibrium state]] to another. Processes often involve either mechanical work or heat transfer.
+## Examples
 For example, transferring a heated ball of iron to water would be a process involving heat transfer to water.
 
 Another example is a truck with combusted diesel exhaust cooling down to normal temperature and pressure. 

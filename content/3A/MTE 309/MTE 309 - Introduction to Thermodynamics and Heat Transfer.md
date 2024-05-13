@@ -20,4 +20,5 @@ aliases:
 - [[State Postulate]]
 ### Processes
 - [[Thermodynamic Process]]
+- [[Thermodynamic Cycle]]
 - [[Quasi-equilibrium Process]]
