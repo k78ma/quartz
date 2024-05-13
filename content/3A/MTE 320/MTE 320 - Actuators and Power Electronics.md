@@ -2,8 +2,8 @@
 title: MTE 320 - Actuators and Power Electronics
 tags:
   - mte320
-date: 2024-04-27
-aliases:
+date: 2024-05-13
+aliases: []
 ---
 ## AC Circuits
 - [[Complex Number Representation for AC Circuits]]
@@ -17,6 +17,6 @@ aliases:
 - [[Apparent Power]]
 - [[Power Triangle]]
 - [[Power Factor]]
-
+- [[Power Factor Correction]]
 ## 3-Phase AC Circuits
-- 
+- [[Three-Phase AC Circuit]]

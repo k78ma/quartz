@@ -2,10 +2,11 @@
 title: Phasor Representation of Sinusoids
 tags:
   - mte320
-date:
-  "{ date:YYYY-MM-DD }": 
-aliases: []
+date: 2024-05-06
+aliases:
+  - phasor representation of sinusoids
 ---
+
 Consider a sinusoidal voltage $v$, written as $v(t)=V_{peak}\cos(\omega t+\theta)$.
 
 $V_{rms}$ is the RMS of $v$, such that

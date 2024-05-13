@@ -4,6 +4,7 @@ tags:
   - mte320
 date: 2024-05-13
 aliases:
+  - instantaneous power
 ---
 ### Instantaneous Power
 Instantaneous power is the power at the current time $t$:
@@ -14,3 +15,4 @@ or in the frequency domain:
 $$
 p(\omega t)=v(\omega t)+i(\omega t)
 $$
+ 
