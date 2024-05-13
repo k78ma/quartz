@@ -12,6 +12,8 @@ A quasi-equilibrium process is *sufficiently slow*, such that the system remains
 ## Examples
 - Nickel ball that is cooling in such a way that it has uniform temperature distribution.
 
-
+![[Quasi-equilibrium Process.png|528]]
 
 - Piston motion in a car engine is a slow process relative to air molecule motion, such that it can be considered a quasi-equilibrium process. 
+
+![[Quasi-equilibrium Process-1.png|524]]

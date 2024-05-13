@@ -9,8 +9,14 @@ aliases:
 - [[Complex Number Representation for AC Circuits]]
 - [[Phasor Representation of Sinusoids]]
 - [[Impedance]]
-### Phasor Power
+### AC Power
 - [[Instantaneous Power]]
 - [[Average Power|Average/Active Power]]
 - [[Reactive Power]]
 - [[Complex Power]]
+- [[Apparent Power]]
+- [[Power Triangle]]
+- [[Power Factor]]
+
+## 3-Phase AC Circuits
+- 

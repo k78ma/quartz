@@ -24,3 +24,8 @@ We can draw a state diagram like this:
 - Isothermal – constant temperature, $T$
 - Isochoric – constant specific volume, $v$
 - Adiabatic – no heat transfer
+
+## Work Done
+Given a process path, the area under the curve is the work output.
+
+![[Thermodynamic Process-1.png|376]]
