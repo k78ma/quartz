@@ -5,7 +5,7 @@ tags:
 date: 2024-05-06
 aliases:
 ---
-## Notes
+## Intro
 - [[Embedded Systems]]
 - [[Processor Types]]
 - [[Embedded C Intro]]
@@ -13,3 +13,6 @@ aliases:
 	- [[Volatile Keyword]]
 
 - [[Embedded Software Design]]
+- [[Latency and Throughput]]
+
+## Synchronization Mechanisms

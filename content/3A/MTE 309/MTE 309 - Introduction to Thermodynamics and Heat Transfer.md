@@ -5,7 +5,7 @@ tags:
 date: 2024-04-27
 aliases:
 ---
-## Introductory Material
+## Basic Concepts
 - [[Thermodynamics]]
 - [[Heat Transfer]]
 ### Basics
@@ -18,3 +18,5 @@ aliases:
 - [[Thermodynamic State]]
 - [[Equilibrium State]]
 - [[State Postulate]]
+### Processes
+- [[Thermodynamic Process]]
