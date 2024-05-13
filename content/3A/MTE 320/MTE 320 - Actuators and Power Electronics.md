@@ -9,3 +9,8 @@ aliases:
 - [[Complex Number Representation for AC Circuits]]
 - [[Phasor Representation of Sinusoids]]
 - [[Impedance]]
+### Phasor Power
+- [[Instantaneous Power]]
+- [[Average Power|Average/Active Power]]
+- [[Reactive Power]]
+- [[Complex Power]]

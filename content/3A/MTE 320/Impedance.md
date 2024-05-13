@@ -33,7 +33,7 @@ $$
 $$
 The reactance $X$ can be thought of as the imaginary part of $Z$, while $R$ is the real part.
 
-![[Voltage and Current Phasor Relationships.png]]
+![[Voltage and Current Phasor Relationships.png|516]]
 
 Understanding resistors, inductors and capacitors in the context of impedance:
 - In a resistor, the voltage and current are in phase. 
