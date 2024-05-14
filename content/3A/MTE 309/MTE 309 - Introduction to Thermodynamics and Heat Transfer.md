@@ -22,3 +22,6 @@ aliases:
 - [[Thermodynamic Process]]
 - [[Thermodynamic Cycle]]
 - [[Quasi-equilibrium Process]]
+
+## Assignments
+- [[MTE 309 Assignment 1]]

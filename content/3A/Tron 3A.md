@@ -9,4 +9,4 @@ aliases:
 - [[MTE 325 - Embedded Systems]]
 - [[MTE 309 - Introduction to Thermodynamics and Heat Transfer]]
 - [[MTE 321 - Design and Dynamics of Machines]]
-- [[MTE 351 - Systems Models]]
+- [[SYDE 351 - Systems Models]]
