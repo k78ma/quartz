@@ -2,8 +2,9 @@
 title: MTE 320 - Actuators and Power Electronics
 tags:
   - mte320
+  - 3a
 date: 2024-05-13
-aliases: []
+aliases:
 ---
 ## AC Circuits
 - [[Complex Number Representation for AC Circuits]]

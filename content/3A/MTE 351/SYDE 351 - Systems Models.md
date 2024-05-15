@@ -2,6 +2,7 @@
 title: MTE 351 - Systems Models
 tags:
   - syde351
+  - 3a
 date: 2024-04-27
 aliases:
 ---

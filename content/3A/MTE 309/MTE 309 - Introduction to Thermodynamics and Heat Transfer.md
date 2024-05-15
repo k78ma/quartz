@@ -2,6 +2,7 @@
 title: MTE 309 - Introduction to Thermodynamics and Heat Transfer
 tags:
   - mte309
+  - 3a
 date: 2024-04-27
 aliases:
 ---
@@ -27,5 +28,11 @@ aliases:
 - [[Energy Balance]]
 - [[Internal Energy]]
 - [[Thermal Energy]]
-## Assignments
+- [[Heat Transfer]]
+
+- [[Energy Transfer by Heat]]
+- [[Energy Transfer by Work]]
+
+## Assignments/Problems
 - [[MTE 309 Assignment 1]]
+- [[Air Piston Heat Transfer]]
