@@ -12,7 +12,13 @@ aliases:
 	- [[Pointers]]
 	- [[Volatile Keyword]]
 
+## Software and Synchronization
 - [[Embedded Software Design]]
 - [[Latency and Throughput]]
+- [[Device Drivers]]
 
-## Synchronization Mechanisms
+### Synchronization Mechanisms
+- [[Blind Synchronization]]
+- [[Polling Synchronization]]
+	- [[Tight Polling Implementations]]
+- [[Interrupts]]
