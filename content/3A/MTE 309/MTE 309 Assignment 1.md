@@ -3,7 +3,8 @@ title: MTE 309 Assignment 1
 tags:
   - mte309
 date: 2024-05-14
-aliases: []
+aliases: 
+draft: "true"
 ---
 1. A bicyclist picks up speed on a downhill road due to gravity, which pulls them downward and converts potential energy into kinetic energy, increasing their speed. This does not violate the conservation of energy principle because the total energy remains constant, simply changing from potential to kinetic energy.
 
@@ -19,8 +20,55 @@ aliases: []
 
 7. Extensive depend on the size of a system. They change when the size of the system changes. Examples are mass, volume, and total energy. Intensive properties remain the same regardless of the system's size, such as temperature, pressure, and density.
 
-8. A simple compressible substance has no (or negligible) electromagnetic fields, gravity, surface tension.
+8. A simple compressible substance has no significant electromagnetic fields, gravitational effects, or surface tension.
 
-9. The "state postulate" for a simple compressible substance is that it can be completely specified by two independent intensive properties.
+9. The "state postulate" for a simple compressible substance states that the state of the substance can be completely defined by two independent intensive properties.
 
-10. A system will inherently go through intermediate non-equilibrium states during a process; a quasi-equilibrium process is *sufficiently slow*, such that the system remains infinitesimally close to thermodynamic equilibrium throughout.
+10. Adiabatic" is used to refer to a process in which no heat is transferred to or from the system. During an adiabatic process, the system is thermally insulated from its surroundings, meaning that all changes in the system's internal energy are due to work done by or on the system, without any heat exchange. 
+
+11. During a process, a system typically passes through intermediate non-equilibrium states. However, in a quasi-equilibrium process, the process occurs slowly enough that the system remains almost in thermodynamic equilibrium throughout.
+
+12. I would define the system, boundary surrounding as:
+	- *System* – The direct air carbon capture device, as in all the components involved in capturing CO2 from the air (fans, filters, and chemical reactants)
+	- *Boundary* – The physical outer limits of the direct air carbon capture device. This boundary separates the system from the external environment.
+	- *Surroundings* – Everything outside the boundary, including the ambient air, the environment where the device is located, and any nearby equipment/infrastructure.
+	- The system is an *open system* because it exchanges both matter (air and captured CO2) and energy (due to operational energy input and heat exchange) with its surroundings.
+	- Intensive properties: Temperature of system, pressure of system, concentration of carbon dioxide
+	- Extensive properties: Amount of carbon dioxide captured, mass of processed air, energy consumed by the device
+
+13. Petajoules (PJ) to joules:
+
+$$
+1\text{ petajoule (PJ)} = 10^{15} \text{ joules (J)} \\
+$$
+Kilowatt-hours to joules:
+$$
+\begin{align}
+1\text{ kilowatt-hour (kWh)}  & = 1000 \text{ W} \cdot 1 \text{ hour} \\[2ex]
+	 & = 1000 \frac{\text{J}}{s} \times  \frac{60 \text{ s}}{1 \text{ min}} \times  \frac{60 \text{ min}}{1 \text{ hour}} \times  1 \text{ hour}\\[2ex]
+	 & = 3.6 \times  10^{6} \text{ J}
+\end{align}
+$$
+
+The total energy consumption in the industrial sector is 3,739 PJ, so:
+
+$$
+3,739 \text{ PJ} \times 10^{15} \text{ J/PJ} = 3,739 \times 10^{15} \text{ J}
+$$
+
+Conversion from joules into kilowatt-hours:
+$$
+\begin{align*}
+3,739 \times 10^{15} \text{ J} \times \frac{1 \text{ kWh}}{3.6 \times 10^6 \text{ J}} = \frac{3,739 \times 10^{15}}{3.6 \times 10^6} \text{ kWh}\\[2ex]
+=1.0386 \times 10^{12} \text{ kWh}
+\end{align*}
+$$
+
+
+Given that one kilogram of hydrogen provides 33.3 kWh of energy:
+$$
+\begin{align}
+\text{Hydrogen required (kg)} = \frac{1.0386 \times 10^{12} \text{ kWh}}{33.3 \text{ kWh/kg}} \\[2ex]
+= \boxed{3.12 \times 10^{10} \text{ kg}}
+\end{align}
+$$

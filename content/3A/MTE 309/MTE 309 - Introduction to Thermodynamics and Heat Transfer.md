@@ -28,8 +28,7 @@ aliases:
 - [[Energy Balance]]
 - [[Internal Energy]]
 - [[Thermal Energy]]
-- [[Heat Transfer]]
-
+### Energy Transfer
 - [[Energy Transfer by Heat]]
 - [[Energy Transfer by Work]]
 
