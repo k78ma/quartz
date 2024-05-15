@@ -8,7 +8,7 @@ aliases:
   - sensible energy
   - latent energy
 ---
-Thermal energy is a type of [[Internal Energy|internal energy]] associated with random, disorganized microscopic motion.
+Thermal energy is a part of the [[Internal Energy|internal energy]] of a system associated with random, disorganized microscopic motion due to temperature.
 
 ![[Thermal Energy.png|500]]
 

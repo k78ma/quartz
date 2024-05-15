@@ -22,12 +22,10 @@ aliases:
 - [[Thermodynamic Process]]
 - [[Thermodynamic Cycle]]
 - [[Quasi-equilibrium Process]]
-
 ## Energy, Heat, and the First Law
 - [[First Law of Thermodynamics]]
 - [[Energy Balance]]
 - [[Internal Energy]]
 - [[Thermal Energy]]
-
 ## Assignments
 - [[MTE 309 Assignment 1]]
