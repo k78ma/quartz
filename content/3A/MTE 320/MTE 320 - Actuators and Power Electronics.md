@@ -8,7 +8,7 @@ aliases: []
 ## AC Circuits
 - [[Complex Number Representation for AC Circuits]]
 - [[Phasor Representation of Sinusoids]]
-- [[Impedance]]
+- [[Impedance|Impedance and Reactance]]
 ### AC Power
 - [[Instantaneous Power]]
 - [[Average Power|Average/Active Power]]

@@ -1,7 +1,7 @@
 ---
 title: Power Factor Correction
 tags:
-  - mte309
+  - mte320
 date: 2024-05-15
 aliases:
   - power factor correction

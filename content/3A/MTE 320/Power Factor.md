@@ -11,8 +11,10 @@ $$
 \text{PF}=\frac{P}{| S |}=\cos(\theta_{v}-\theta_{i})
 $$
 We must specify whether a power value is lagging or leading:
-- Lagging power factor: $\vec{I}$ lags $\vec{V}$ – inductive load
-- Leading power factor: $\vec{I}$ leads $\vec{V}$ – capacitative load
+- Lagging power factor: $\vec{I}$ lags $\vec{V}$
+	- Inductive load, $Q > 0$, such that $Q$ is drawn by the load
+- Leading power factor: $\vec{I}$ leads $\vec{V}$ 
+	- Capacitative load, $Q<0$ such that $Q$ is delivered by the load
 
 Ideally, the largest possible portion of the capacity of the system is dedicated to handling real power; as such, it is desirable to achieve as high a power factor as possible, ideally a unity power factor.
 

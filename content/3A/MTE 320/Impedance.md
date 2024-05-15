@@ -4,6 +4,7 @@ tags:
   - mte320
 date: 2024-05-10
 aliases:
+  - reactance
 ---
 Voltage and current phasors are related through the impedance of element $Z$, based on Ohm's law, such that:
 $$

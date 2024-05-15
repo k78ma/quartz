@@ -17,5 +17,11 @@ Reactive power is defined as:
 $$
 Q=VI\sin(\theta_{v}-\theta_{i})
 $$
+It can also be written as:
+$$
+Q=\frac{V^{2}}{X}
+$$
+where $X$ is the reactance.
+
 The unit for this is $\text{VAr}$, or Voltage Ampere reactive.
 

@@ -7,6 +7,8 @@ aliases:
 ---
 An **embedded system** is a special-purpose computer to perform a task without the user's knowledge of its existence. The user may provide input to the embedded system via controls and sensors but the user need not be aware of the system's presence.
 
+A *real-time* embedded system guarantees a worst-case latency for critical events.
+
 The definition of embedded system is not always clear – digital cameras are embedded systems, but are cell phones?
 
 ## Embedded System Design
