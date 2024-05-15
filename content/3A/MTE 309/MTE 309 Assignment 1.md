@@ -19,4 +19,8 @@ aliases: []
 
 7. Extensive depend on the size of a system. They change when the size of the system changes. Examples are mass, volume, and total energy. Intensive properties remain the same regardless of the system's size, such as temperature, pressure, and density.
 
-8. 
+8. A simple compressible substance has no (or negligible) electromagnetic fields, gravity, surface tension.
+
+9. The "state postulate" for a simple compressible substance is that it can be completely specified by two independent intensive properties.
+
+10. A system will inherently go through intermediate non-equilibrium states during a process; a quasi-equilibrium process is *sufficiently slow*, such that the system remains infinitesimally close to thermodynamic equilibrium throughout.
