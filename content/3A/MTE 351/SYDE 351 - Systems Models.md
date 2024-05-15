@@ -8,4 +8,5 @@ aliases:
 - [[System Model]]
 - [[Lumped and Distributed System]]
 
-- [[Rigid-body System Modeling]]
+## Rigid-body Modeling
+- [[Rigid-body Translational Motion]]

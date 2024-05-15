@@ -16,7 +16,7 @@ P  & = \frac{1}{T} \int_{t_{1}}^{t_{1}+T} p(t) \, dt \\[2ex]
 $$
 where $T=1/f$ is the period.
 
-Alternatiuvely, this can also be written in the frequency domain with:
+Alternatively, this can also be written in the frequency domain with:
 $$
 P=\frac{1}{2\pi}\int_{\omega t_{1}}^{\omega t_{1}+2\pi}p(\omega t)  \, d\omega t 
 $$

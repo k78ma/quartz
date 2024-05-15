@@ -4,6 +4,7 @@ tags:
   - mte320
 date: 2024-05-13
 aliases:
+  - power factor
 ---
 Power factor is defined as the ratio of [[Average Power|real power]] to [[Apparent Power|apparent power]]. It shows how efficiently the capacity of a system of a system (represented by apparent power) has been utilized.
 $$

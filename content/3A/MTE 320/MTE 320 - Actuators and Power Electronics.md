@@ -18,5 +18,6 @@ aliases: []
 - [[Power Triangle]]
 - [[Power Factor]]
 - [[Power Factor Correction]]
+
 ## 3-Phase AC Circuits
 - [[Three-Phase AC Circuit]]

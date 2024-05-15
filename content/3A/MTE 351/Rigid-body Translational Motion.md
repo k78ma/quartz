@@ -1,13 +1,12 @@
 ---
-title: Rigid-body System Modeling
+title: Rigid-body Translational Motion
 tags:
   - syde351
-date: 2024-05-14
+date: 2024-05-15
 aliases:
-  - rigid-body system modeling
+  - rigid-body translational motion
 ---
 
-## Translational Motion
 Newton's 2nd law states:
 $$
 \begin{align}
