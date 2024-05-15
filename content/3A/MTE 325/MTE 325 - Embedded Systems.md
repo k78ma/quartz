@@ -18,7 +18,7 @@ aliases:
 - [[Device Drivers]]
 
 ### Synchronization Mechanisms
-- [[Blind Synchronization]]
+- [[Blind Cycle Synchronization]]
 - [[Polling Synchronization]]
 	- [[Tight Polling Implementations]]
 - [[Interrupts]]
