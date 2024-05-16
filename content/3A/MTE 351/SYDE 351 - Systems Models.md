@@ -11,3 +11,4 @@ aliases:
 
 ## Rigid-body Modeling
 - [[Rigid-body Translational Motion]]
+- [[Rigid-body Rotational Motion]]
