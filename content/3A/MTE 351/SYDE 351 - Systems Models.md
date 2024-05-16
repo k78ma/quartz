@@ -1,10 +1,11 @@
 ---
-title: MTE 351 - Systems Models
+title: SYDE 351 - Systems Models
 tags:
   - syde351
   - 3a
-date: 2024-04-27
+date: 2024-05-16
 aliases:
+  - syde 351 - systems models
 ---
 - [[System Model]]
 - [[Lumped and Distributed System]]
