@@ -4,6 +4,8 @@ tags:
 date: 2024-05-17
 aliases:
   - non-vectored and vectored interrupts
+  - non-vectored interrupt
+  - vectored interrupt
 ---
 ## Non-vectored interrupts
 
