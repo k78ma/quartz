@@ -5,6 +5,7 @@ tags:
 date: 2024-05-17
 aliases:
   - interrupt handling
+  - ISR
 ---
 Once the microcontroller recognizes that an interrupt has occurred, the software takes over to handle the interrupt.
 

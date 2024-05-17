@@ -33,7 +33,7 @@ Shaft power is then given by:
 $$
 \dot{W}_{\text{sh}}=2\pi \dot{n}T
 $$
-- $\dot{n}$ is revolutions/time
+- $\dot{n}$ is revolutions/time, such as RPM.
 ## Work of Compression/Expansion
 Work done by compression/expansion is given by:
 $$

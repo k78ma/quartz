@@ -20,6 +20,7 @@ aliases:
 - [[Device Drivers]]
 
 ### Synchronization Mechanisms
+- [[Embedded Systems Synchronization]]
 - [[Blind Cycle Synchronization]]
 - [[Polling Synchronization]]
 	- [[Tight Polling Implementations]]
