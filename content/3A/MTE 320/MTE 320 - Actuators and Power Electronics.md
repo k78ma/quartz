@@ -22,3 +22,11 @@ aliases:
 
 ## 3-Phase AC Circuits
 - [[Three-Phase AC Circuit]]
+- [[Three-Phase Source]]
+- [[Three-Phase Load]]
+
+### Connection Styles
+- [[Y Connection Style]]
+- [[Delta Connection Style]]
+
+### Power in 3-Phase Circuits

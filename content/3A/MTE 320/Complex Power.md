@@ -23,3 +23,13 @@ Q=\text{Im}(S)
 \end{align}
 $$
 
+We can also write:
+$$
+\begin{align}
+S  & = VI^{*} \\
+	 & =IZI^{*} \\
+	 & = ZI^{2} \\[2ex]
+	 & =V\left( \frac{V}{Z} \right)^{*} \\[2ex]
+	 & = \boxed{\frac{V^{2}}{Z^{*}}}
+\end{align}
+$$

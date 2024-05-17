@@ -15,6 +15,8 @@ We must specify whether a power value is lagging or leading:
 	- Inductive load, $Q > 0$, such that $Q$ is drawn by the load
 - Leading power factor: $\vec{I}$ leads $\vec{V}$ 
 	- Capacitative load, $Q<0$ such that $Q$ is delivered by the load
+	
+$Q$ is [[Reactive Power|reactive power]]!
 
 Ideally, the largest possible portion of the capacity of the system is dedicated to handling real power; as such, it is desirable to achieve as high a power factor as possible, ideally a unity power factor.
 
