@@ -21,3 +21,8 @@ Modes of work transfer:
 - Magnetic work  
 - Electrical polarization work  
 - etc.
+
+Power is the rate at which work is done:
+$$
+\dot{W}=\frac{dW}{dt} \;\;\;\;\left[ \frac{\text{kJ}}{s} \right] = [\text{kW}]
+$$
