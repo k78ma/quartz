@@ -5,6 +5,7 @@ tags:
   - 3a
 date: 2024-05-06
 aliases:
+  - MTE 325
 ---
 ## Intro
 - [[Embedded Systems]]
@@ -22,4 +23,8 @@ aliases:
 - [[Blind Cycle Synchronization]]
 - [[Polling Synchronization]]
 	- [[Tight Polling Implementations]]
-- [[Interrupts]]
+- [[Hardware Interrupts]]
+	- [[Interrupt Lines]]
+	- [[Interrupt Handling]]
+	- [[Non-vectored and Vectored Interrupts]]
+	- [[Interrupt Initialization]]

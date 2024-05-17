@@ -5,6 +5,7 @@ tags:
   - 3a
 date: 2024-04-27
 aliases:
+  - MTE 309
 ---
 ## Basic Concepts
 - [[Thermodynamics]]
@@ -33,5 +34,5 @@ aliases:
 - [[Energy Transfer by Work]]
 
 ## Assignments/Problems
-- [[MTE 309 Assignment 1]]
+- [[MTE 309 A1]]
 - [[Air Piston Heat Transfer]]

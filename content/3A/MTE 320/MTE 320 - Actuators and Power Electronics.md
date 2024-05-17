@@ -5,6 +5,7 @@ tags:
   - 3a
 date: 2024-05-13
 aliases:
+  - MTE 320
 ---
 ## AC Circuits
 - [[Complex Number Representation for AC Circuits]]
@@ -24,9 +25,7 @@ aliases:
 - [[Three-Phase AC Circuit]]
 - [[Three-Phase Source]]
 - [[Three-Phase Load]]
-
 ### Connection Styles
 - [[Y Connection Style]]
 - [[Delta Connection Style]]
-
 ### Power in 3-Phase Circuits
