@@ -32,8 +32,7 @@ aliases:
 ### Energy Transfer
 - [[Energy Transfer by Heat]]
 - [[Energy Transfer by Work]]
-- [[Work]]
-
-## Assignments/Problems
-- [[MTE 309 A1]]
+## Problems
 - [[Air Piston Heat Transfer]]
+## Assignments
+- [[MTE 309 A1]]

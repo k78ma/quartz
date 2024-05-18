@@ -16,7 +16,6 @@ Example:
 Input: preorder = [3, 9, 20, 15, 7], inorder = [9, 3, 15, 20, 7]
 Output: [3,9,20,null,null,15,7]
 ```
-
 ## Solution
 There are two facts we can take advantage of to construct our tree.
 1. The first item in `preorder` will always be the root.
