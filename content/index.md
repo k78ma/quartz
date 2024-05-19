@@ -14,10 +14,10 @@ Welcome to my notes!
 - [[Machine Learning|Machine Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]
-- [[Thermodynamics]]
 ### Other:
 See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
 - **UWaterloo Courses**
+	- [[Tron 3A]]
 	- [[Tron 2B]]
 - **Computers**
 	- [[Computer Systems]]

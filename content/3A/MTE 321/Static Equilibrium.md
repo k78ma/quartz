@@ -16,3 +16,16 @@ $$
 \end{align}
 $$
 which states that the sum of all force and moment vectors acting upon a system at equilibrium is zero.
+
+## Rigid Body Equilibrium in 3D
+Scalar equations:
+$$
+\begin{align}
+\sum F_{x}=0, \quad \sum F_{y}=0, \quad \sum F_{z}=0\\[2ex] 
+\sum M_{x}=0, \quad \sum M_{y}=0, \quad \sum M_{z}=0
+\end{align}
+$$
+These can also be obtained as vector equations:
+$$
+\sum \vec{F}=0, \quad \sum \vec{M}_{o}=\sum(\vec{r}\times \vec{F})=0
+$$
