@@ -7,7 +7,7 @@ date: 2024-04-27
 aliases:
 ---
 ## Load and Stress Analysis
-- [[Equilibrium and Free-Body Diagram]]
+- [[Static Equilibrium]]
 - [[Shear Force]]
 - [[Bending Moments in Beams]]
 - [[Mechanical Stress]]
