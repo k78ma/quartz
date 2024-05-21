@@ -89,6 +89,10 @@ I_{\text{line}}=I_{\text{phase}}
 $$
 The same relationships hold true for the currents in a 3-phase balanced Y-connected voltage source.
 
+>[!note] Phase current vs Line current
+>- Phase current: The current that flows through each impedance (load) connected between a phase and the neutral point.
+>- Line current: The current that flows in the conductors connecting the source to the load.
+
 Note that in a 3-phase Y-connected balanced system:
 $$
 \begin{align}
