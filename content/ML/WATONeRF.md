@@ -3,7 +3,8 @@ title: WATONeRF
 tags:
   - wato
 date: 2024-03-29
-aliases:
+aliases: 
+draft: "true"
 ---
 Run container:
 
