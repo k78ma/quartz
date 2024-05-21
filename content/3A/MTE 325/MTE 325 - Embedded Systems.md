@@ -31,4 +31,4 @@ aliases:
 	- [[Interrupt Initialization]]
 
 ## Data Generation and Transfer
-- [[Data Transmission]]
+- [[Data Transmission Model]]

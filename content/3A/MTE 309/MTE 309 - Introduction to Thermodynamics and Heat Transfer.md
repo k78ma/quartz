@@ -29,10 +29,11 @@ aliases:
 - [[Energy Balance]]
 - [[Internal Energy]]
 - [[Thermal Energy]]
-### Energy Transfer
-- [[Energy Transfer by Heat]]
-- [[Energy Transfer by Work]]
+	- [[Energy Transfer by Heat]]
+	- [[Energy Transfer by Work]]
+- [[Efficiency of Thermodynamic Processes]]
 ## Problems
 - [[Air Piston Heat Transfer]]
 ## Assignments
 - [[MTE 309 A1]]
+- [[MTE 309 A2]]

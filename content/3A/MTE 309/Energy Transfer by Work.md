@@ -5,7 +5,7 @@ date: 2024-05-15
 aliases:
   - energy transfer by work
 ---
-[[Work]], $W$, is energy transfer associated with a force acting through a distance.
+Work, $W$, is energy transfer associated with a force acting through a distance.
 
 Sign convention:
 - If the system does work, $W(+)$

@@ -29,15 +29,32 @@ Sometimes, bending is caused by a distributed load $q(x)$.
 
 This $q(x)$ is called the load intensity with units of force per unit length, and is positive in the positive $y$ direction. Differentiating the equation above gives
 $$
-\frac{ dV }{ dx } =\frac{d^{2}M}{dx^{2}}=q
+\begin{align}
+\frac{ dV }{ dx }  & =q = -w \\[2ex] 
+\frac{ dM }{ dx }   & =V  
+\end{align}
 $$
 Normally, this applied distributed load is directed downward and labeled $w$, such that $w=-q$.
 
 If we integrate between two points $x_{A}$ and $x_{B}$, we obtain
 $$
-\int_{V_{A}}^{V_{B}}  \, dV =V_{B}-V_{A}=\int_{x_{A}}^{x_{B}} q \, dx 
+\begin{align}
+\int_{V_{A}}^{V_{B}}  \, dV =V_{B}-V_{A}=\int_{x_{A}}^{x_{B}} q \, dx \\[2ex] 
+\Delta V=-\int_{x_{A}}^{x_{B}} w \, dx
+\end{align}
 $$
 which tells us that
 $$
-\text{Change in shear force from A to B } = \text{Area of the loading diagram between } x_{A} \text{ and } x_{B}
+\text{Change in shear force from A to B } = \text{Area of the load curve between } x_{A} \text{ and } x_{B}
+$$
+Furthermore, we have
+$$
+\begin{align}
+\int_{V_{A}}^{V_{B}}  \, dM =M_{B}-M_{A}=\int_{x_{A}}^{x_{B}} V \, dx \\[2ex] 
+\Delta M=-\int_{x_{A}}^{x_{B}} V \, dx
+\end{align}
+$$
+and
+$$
+\text{Change in moment from A to B } = \text{Area of the shear curve between } x_{A} \text{ and } x_{B}
 $$
