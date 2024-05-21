@@ -23,6 +23,7 @@ In a star or wye (Y) connection style, one terminal of each phase of the source 
 | Phase-to-neutral and line-to-line voltage magnitudes   | $V_{L L}=\sqrt{ 3 }V_{\text{phase}}$                                                                        |
 | Phase-to-neutral and line-to-line voltage phase angles | $\vec{V}_{xy}$ leads $\vec{V}_{xn}$ by $30\degree$, e.g. $\vec{V}_{ab}$ leads $\vec{V}_{an}$ by $30\degree$ |
 | Phase and line current phasors                         | $\vec{I}_{L}=\vec{I}_{\text{phase}}$                                                                        |
+
 The derivations for these values are shown below.
 
 ---
