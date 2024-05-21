@@ -15,16 +15,20 @@ In a star or wye (Y) connection style, one terminal of each phase of the source 
 
 - All of the negative terminals are connected together, all the positive terminals are free
 
-Voltage and current relationships in Y-connection style:
+---
+## Voltage and Current Relationships
 
 | Relationship                                           | Value                                                                                                       |
 | ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
 | Phase-to-neutral and line-to-line voltage magnitudes   | $V_{L L}=\sqrt{ 3 }V_{\text{phase}}$                                                                        |
 | Phase-to-neutral and line-to-line voltage phase angles | $\vec{V}_{xy}$ leads $\vec{V}_{xn}$ by $30\degree$, e.g. $\vec{V}_{ab}$ leads $\vec{V}_{an}$ by $30\degree$ |
 | Phase and line current phasors                         | $\vec{I}_{L}=\vec{I}_{\text{phase}}$                                                                        |
+The derivations for these values are shown below.
+
+---
 ## Voltage
 ### Phase-to-Neutral Voltage
-The ph$asor representation of the voltages of the three phases with respect to the neutral point $N$ are as follows:
+The phasor representation of the voltages of the three phases with respect to the neutral point $N$ are as follows:
 $$
 \begin{align}
 \vec{V}_{AN}  & =V_{\text{phase}}\angle 0\degree\\
@@ -60,6 +64,7 @@ $$
 \end{align}
 $$
 
+---
 ## Loads and Currents
 The relationship between the phase and line voltages will be the same as that for a 3-phase Y-connected source. Let’s look at the currents in the three phases.
 
