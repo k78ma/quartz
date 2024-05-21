@@ -15,9 +15,16 @@ In a star or wye (Y) connection style, one terminal of each phase of the source 
 
 - All of the negative terminals are connected together, all the positive terminals are free
 
+Voltage and current relationships in Y-connection style:
+
+| Relationship                                           | Value                                                                                                       |
+| ------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| Phase-to-neutral and line-to-line voltage magnitudes   | $V_{L L}=\sqrt{ 3 }V_{\text{phase}}$                                                                        |
+| Phase-to-neutral and line-to-line voltage phase angles | $\vec{V}_{xy}$ leads $\vec{V}_{xn}$ by $30\degree$, e.g. $\vec{V}_{ab}$ leads $\vec{V}_{an}$ by $30\degree$ |
+| Phase and line current phasors                         | $\vec{I}_{L}=\vec{I}_{\text{phase}}$                                                                        |
 ## Voltage
 ### Phase-to-Neutral Voltage
-The phasor representation of the voltages of the three phases with respect to the neutral point $N$ are as follows:
+The ph$asor representation of the voltages of the three phases with respect to the neutral point $N$ are as follows:
 $$
 \begin{align}
 \vec{V}_{AN}  & =V_{\text{phase}}\angle 0\degree\\
@@ -82,4 +89,13 @@ I_{\text{line}}=I_{\text{phase}}
 $$
 The same relationships hold true for the currents in a 3-phase balanced Y-connected voltage source.
 
-Note that in a 
+Note that in a 3-phase Y-connected balanced system:
+$$
+\begin{align}
+\vec{V}_{AN}+\vec{V}_{BN}+\vec{V}_{CN}=0 \quad  & \text{or} \quad \vec{V}_{an}+\vec{V}_{bn}+\vec{V}_{cn}=0 \\
+\vec{V}_{AB}+\vec{V}_{BC}+\vec{V}_{CA}=0 \quad  & \text{or} \quad \vec{V}_{ab}+\vec{V}_{bc}+\vec{V}_{ca}=0 \\
+\vec{I}_{A}+\vec{I}_{B}+\vec{I}_{C}=0 \quad  & \text{or} \quad \vec{I}_{a}+\vec{I}_{b}+\vec{I}_{c}=0 \\
+\end{align}
+$$
+
+![[Y Connection Style-4.png|460]]
