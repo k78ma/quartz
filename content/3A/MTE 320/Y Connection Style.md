@@ -5,7 +5,7 @@ tags:
 date: 2024-05-21
 aliases:
   - wye connection style
-  - star connection
+  - star connection style
 ---
 In a star or wye (Y) connection style, one terminal of each phase of the source or load is connected to the corresponding terminals of the other two phases, making it a *neutral point*, and leaving three terminals free for connection to the rest of the circuit.
 
