@@ -18,3 +18,11 @@ $$
 $$
 where $Q$ is the heat added and $W$ is the work done.
 
+This can also be expanded to include kinetic and potential energy:
+$$
+\begin{align}
+\Delta \text{KE} + \Delta \text{PE}+\Delta U_{\text{system}} & =Q-W \\[2ex]
+\frac{d(\text{KE})}{dt} +\frac{d(\text{PE})}{dt} +\frac{dU}{dt}  & = \dot{Q}-\dot{W}
+\end{align}
+$$
+where the left side is the rate at which system energy changed, $\dot{Q}$ is the rate of heat addition, and $\dot{W}$ is the rate of work done (power).

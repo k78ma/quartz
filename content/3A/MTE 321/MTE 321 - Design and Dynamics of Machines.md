@@ -8,7 +8,7 @@ aliases:
 ---
 ## Load and Stress Analysis
 - [[Static Equilibrium]]
-- [[Shear Force]]
+- [[Shear Force and Bending Moment]]
 - [[Bending Moments in Beams]]
 - [[Mechanical Stress]]
 - [[Cartesian Stress Components]]
