@@ -29,3 +29,6 @@ aliases:
 	- [[Interrupt Handling]]
 	- [[Non-vectored and Vectored Interrupts]]
 	- [[Interrupt Initialization]]
+
+## Data Generation and Transfer
+- [[Data Transmission]]
