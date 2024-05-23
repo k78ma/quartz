@@ -18,6 +18,10 @@ If a beam is loaded with some forces, an internal shear forces $V$ and bending m
 
 ![[Shear Force-1.png|342]]
 
+In general, sagging is positive and hogging is negative.
+
+![[Shear Force and Bending Moment-1.png|368]]
+
 ## Mathematical Foundations
 Shear force and bending moment are related by the equation:
 $$
