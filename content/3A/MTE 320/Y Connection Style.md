@@ -25,9 +25,6 @@ In a star or wye (Y) connection style, one terminal of each phase of the source 
 | Phase and line current phasors                         | $\vec{I}_{L}=\vec{I}_{\text{phase}}$                                                                        |
 
 The derivations for these values are shown below.
-
----
-## Voltage
 ### Phase-to-Neutral Voltage
 The phasor representation of the voltages of the three phases with respect to the neutral point $N$ are as follows:
 $$

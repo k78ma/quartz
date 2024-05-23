@@ -27,4 +27,5 @@ aliases:
 ### Connection Styles
 - [[Y Connection Style]]
 - [[Delta Connection Style]]
+- [[Y-Delta Transformation]]
 ### Power in 3-Phase Circuits

@@ -19,8 +19,7 @@ aliases:
 - [[Latency and Throughput]]
 - [[Device Drivers]]
 
-### Synchronization Mechanisms
-- [[Embedded Systems Synchronization]]
+### Low-Level Synchronization Mechanisms
 - [[Blind Cycle Synchronization]]
 - [[Polling Synchronization]]
 	- [[Tight Polling Implementations]]
@@ -31,4 +30,14 @@ aliases:
 	- [[Interrupt Initialization]]
 
 ## Data Generation and Transfer
+- [[Embedded Systems Synchronization]]
 - [[Data Transmission Model]]
+	- [[Data Generation]]
+	- [[Data Notification]]
+	- [[Data Transfer]]
+- [[Synchronous vs Asynchronous Systems]]
+
+## Computer Architecture and Drivers
+
+## Tutorials
+- [[STM32 Interrupts]]

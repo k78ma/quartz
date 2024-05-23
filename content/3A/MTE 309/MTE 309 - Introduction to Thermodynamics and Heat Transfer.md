@@ -10,6 +10,7 @@ aliases:
 ## Basic Concepts
 - [[Thermodynamics]]
 - [[Heat Transfer]]
+- [[Thermodynamics Glossary]]
 ### Basics
 - [[Thermodynamic System]]
 - [[Thermodynamic Properties]]
@@ -32,6 +33,11 @@ aliases:
 	- [[Energy Transfer by Heat]]
 	- [[Energy Transfer by Work]]
 - [[Efficiency of Thermodynamic Processes]]
+
+## Substance Properties
+- [[Pure Substance]]
+- [[Equation of State]]
+- [[Phase Change]]
 ## Problems
 - [[Air Piston Heat Transfer]]
 ## Assignments

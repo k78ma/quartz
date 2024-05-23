@@ -6,7 +6,7 @@ date: 2024-05-20
 aliases:
   - shear force and bending moment
 ---
-If a beam is loaded with some forces, and the beam is cut at some portion, an internal shear force $V$ and bending moment $M$ must act on the cut surface to ensure equilibrium.
+If a beam is loaded with some forces, an internal shear forces $V$ and bending moments $M$ develop to ensure equilibrium.
 
 - The shear force is obtained by summing the forces on the isolated system. 
 	- Sign convention: Positive shear causes a clockwise rotation of the beam – pushes left-facing cross-section upward and a right-facing cross-section downward.
@@ -51,7 +51,7 @@ Furthermore, we have
 $$
 \begin{align}
 \int_{V_{A}}^{V_{B}}  \, dM =M_{B}-M_{A}=\int_{x_{A}}^{x_{B}} V \, dx \\[2ex] 
-\Delta M=-\int_{x_{A}}^{x_{B}} V \, dx
+\Delta M=\int_{x_{A}}^{x_{B}} V \, dx
 \end{align}
 $$
 and

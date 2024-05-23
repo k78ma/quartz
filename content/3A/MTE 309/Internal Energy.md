@@ -13,7 +13,7 @@ $$
 - Internal energy, $U\;[\text{kJ}]$, is an extensive property of a system
 - Specific internal energy, $u\left[ \frac{\text{kJ}}{\text{kg}} \right]$, is an intensive property of a system
 
-For example, the total energy of a closed system would be:
+The *total energy* of a closed system includes internal energy, such as:
 $$
 \begin{align}
 E & =\frac{1}{2}mv^{2}+mgh+U \\[2ex]

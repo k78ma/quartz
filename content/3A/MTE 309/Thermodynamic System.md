@@ -19,5 +19,7 @@ An *isolated system* has neither mass or energy cross the boundary.
 
 A *closed system* has no mass exchange with surroundings, but energy is exchanged with the surroundings. Mass is fixed (and conserved), which is called a "control mass".
 
-An *open system* has both mass and energy exchange with surroundings.
+An *open system* has both mass and energy exchange with surroundings. 
+- The mass is generally not fixed.
+- Boundary is usually fixed – “control volume”.
 

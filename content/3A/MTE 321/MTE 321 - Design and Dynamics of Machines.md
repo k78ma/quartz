@@ -9,7 +9,8 @@ aliases:
 ## Load and Stress Analysis
 - [[Static Equilibrium]]
 - [[Shear Force and Bending Moment]]
-- [[Bending Moments in Beams]]
+	- [[Shear and Bending Moment Diagram Example]]
+- [[Singularity Functions]]
 - [[Mechanical Stress]]
 - [[Cartesian Stress Components]]
 - [[Mohr's Circle for Plane Stress]]
