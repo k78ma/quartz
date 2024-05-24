@@ -1,10 +1,10 @@
 ---
-title: Synchronous and Asynchronous Systems
+title: Data Transfer Synchronization
 tags:
   - mte325
 date: 2024-05-24
 aliases:
-  - synchronous and asynchronous systems
+  - data transfer synchronization
 ---
 ## Blind
 In the case of blind synchronization, both the producer and consumer have their own internal clocks. This is seen when [[Blind Cycle Synchronization|blind cycle synchronization]] is used for synchronization at the second level. 

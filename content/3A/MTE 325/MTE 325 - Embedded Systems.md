@@ -18,7 +18,6 @@ aliases:
 - [[Embedded Software Design]]
 - [[Latency and Throughput]]
 - [[Device Drivers]]
-
 ### Low-Level Synchronization Mechanisms
 - [[Blind Cycle Synchronization]]
 - [[Polling Synchronization]]
@@ -35,7 +34,7 @@ aliases:
 	- [[Data Generation]]
 	- [[Data Notification]]
 	- [[Data Transfer]]
-- [[Synchronous and Asynchronous Systems]]
+- [[Data Transfer Synchronization]]
 
 ## Computer Architecture and Drivers
 
