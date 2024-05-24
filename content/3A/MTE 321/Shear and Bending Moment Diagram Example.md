@@ -30,7 +30,7 @@ Draw a free body diagram, showing all the applied and reaction loads acting on t
 ![[Shear and Bending Moment Diagram Example-5.png]]
 
 ### Reaction Forces and Moments at Supports
-If the number of unknowns and equilibrium equations are equal, our problem is statically determinate.
+Considering **the entire beam**, find the reaction forces based on the equilibrium equations.
 $$
 \begin{align}
 \sum F_{y}=0 \quad  & \longrightarrow \quad R_{A}+R_{B}=15+6=21 \\[2ex] 

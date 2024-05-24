@@ -20,6 +20,7 @@ aliases:
 - [[Power Triangle]]
 - [[Power Factor]]
 - [[Power Factor Correction]]
+
 ## 3-Phase AC Circuits
 - [[Three-Phase AC Circuit]]
 - [[Three-Phase Source]]
@@ -29,3 +30,6 @@ aliases:
 - [[Delta Connection Style]]
 - [[Y-Delta Transformation]]
 ### Power in 3-Phase Circuits
+- [[Three-Phase Power]]
+
+## Electromagnetism and Magnetic Circuits
