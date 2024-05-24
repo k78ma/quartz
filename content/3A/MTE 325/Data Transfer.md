@@ -14,5 +14,5 @@ Some aspects of the transfer to consider:
 - *Data persistence* considers how long the data is valid for communication purposes.
 	- *Persistent data* remains available and valid until the consumer indicates that it has received it
 	- *Transient data* only remains valid for a period of time, which is usually known by the designer. If the consumer doesn’t get the data in time, its gone. This is how synchronous buses operate. Most data we deal with in embedded systems will be transient in nature.
-- Synchronization and clocking characterizes the views of time between the two sides and how data is enabled or validated. See [[Synchronous vs Asynchronous Systems]] for some options.
+- Synchronization and clocking characterizes the views of time between the two sides and how data is enabled or validated. See [[Synchronous and Asynchronous Systems]] for some options.
 - Additional control signals may indicate which device should respond and the type of transaction. See [[Synchronous Buses]] for more information.

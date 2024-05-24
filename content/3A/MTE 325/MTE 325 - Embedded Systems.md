@@ -35,7 +35,7 @@ aliases:
 	- [[Data Generation]]
 	- [[Data Notification]]
 	- [[Data Transfer]]
-- [[Synchronous vs Asynchronous Systems]]
+- [[Synchronous and Asynchronous Systems]]
 
 ## Computer Architecture and Drivers
 
