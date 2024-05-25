@@ -21,12 +21,12 @@ $$
 $$
 These are called the plane-stress transformation equations.
 
-## Principle Stresses and Directions
+## Principal Stresses and Directions
 We can maximize $\sigma$ by differentiate the expression for $\sigma$ above and setting this equal to zero. This gives:
 $$
 \tan 2 \phi_{p}=\frac{2\tau_{xy}}{\sigma_{x}-\sigma_{y}}
 $$
-This gives the two principal directions associated with two *principal stresses*; one is the maximum normal stress, and one is the minimum. The angle between the principal direction is $90\degree$.
+This gives the two principal directions associated with two *principal stresses*; one is the maximum normal stress, and one is the minimum. The angle between the principal directions is $90\degree$.
 
 These principal stresses can be found with:
 $$
@@ -40,6 +40,10 @@ At the principal stresses, the shear stress is zero! See [[Mohr's Circle]] for g
 Similarly, the shear plane-stress transformation equation can be differentiated and set to zero to find:
 $$
 \tan(2\phi_{s})=\frac{\sigma_{x}-\sigma_{y}}{2\tau_{xy}}
+$$
+This is related to the principal planes by:
+$$
+\phi_{s}=45\degree \pm \phi_{p}
 $$
 This gives us 2 extreme-value shear stresses:
 $$
