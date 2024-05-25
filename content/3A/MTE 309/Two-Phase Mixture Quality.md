@@ -22,4 +22,9 @@ v & =v_{f}+x(v_{g}-v_{f}) \\
 	 & =v_{f}+xv_{fg}
 \end{align}
 $$
+- The $f$ point corresponds to the saturated liquid state. 1. At this point, the substance is entirely in the liquid phase but is about to start vaporizing. This is also known as the "boiling point" or "liquid saturation point."
+- The $g$ usually corresponds to the saturated vapor state. At this point, the substance is entirely in the vapor phase but is about to start condensing. This is also known as the "dew point" or "vapor saturation point."
+
 **Mass-average:** Overall properties based on the amount $x$ of vapor and $1-x$ of liquid present.
+
+![[Two-Phase Mixture Quality.png]]

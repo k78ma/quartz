@@ -9,4 +9,4 @@ aliases:
 A pure substance has a fixed chemical composition throughout the system and throughout the process.
 - Examples: Water, hydrogen, air, carbon dioxide, etc.
 
-Notably, a mixture of liquid and gaseous air is not a pure substance.
+Notably, a mixture of liquid and gaseous air is not a pure substance. However, air in just gas form is considered pure.
