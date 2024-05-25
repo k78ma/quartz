@@ -10,6 +10,11 @@ Let's say we have a uniaxial stress in the $x$-direction (the figure below is an
 - Under a direct axial tensile load, member will stretch and lengthen  
 - Under a direct axial compressive load, member will compress and shorten
 
+This is often called *pure tension* or *pure compression* or "simple tension/compression" to indicate there are no other effects. Some assumptions:
+- Bar is straight and made of homogeneous material
+- Line of action of force contains centroid
+- Section is not taken at: the ends, a discontinuity, or abrupt change in cross section
+
 ![[Axial Load.png]]
 
 The normal stress is:

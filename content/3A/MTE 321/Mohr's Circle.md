@@ -29,7 +29,7 @@ C = \left[ \frac{\sigma_{x}+\sigma_{y}}{2}, 0 \right]
 $$
 The radius is given by:
 $$
-R = \sqrt{ \left[ \frac{(\sigma_{x}-\sigma_{y})^{2}}{2} \right] + \tau_{xy}^{2} }=\tau_{1}
+R = \sqrt{ \left[ \frac{(\sigma_{x}-\sigma_{y})^{2}}{2} \right] + \tau_{xy}^{2} }=\tau_{\text{max}}
 $$
 The [[Plane Stress Transformation|principal stresses]] can then be easily obtained with:
 $$

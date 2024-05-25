@@ -14,7 +14,7 @@ aliases:
 	- [[Shear and Bending Moment Diagram Example]]
 - [[Singularity Functions]]
 
-### Mechanical Stress and Strain
+### Mechanical Stress
 - [[Mechanical Stress]]
 - [[Cartesian Stress Components]]
 - [[Stress Tensors]]
@@ -22,13 +22,16 @@ aliases:
 - [[Plane Stress Transformation]]
 - [[Mohr's Circle]]
 - [[Generalized 3D Stress]]
+
+### General Stress and Strain
 - [[Axial Load]]
 - [[Elastic Strain]]
 - [[Direct Shear Stress]]
 - [[Pure Shear Stress]]
-- [[Elastic Constants]]
 - [[Elastic Strain]]
+- [[Elastic Constants]]
 
-- [[Uniformly Distributed Stresses]]
+### Stress for Beams
 - [[Normal Stresses for Beams in Bending]]
+- [[Two-Plane Bending]]
 - [[Shear Stresses for Beams in Bending]]
