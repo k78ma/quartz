@@ -33,11 +33,11 @@ aliases:
 	- [[Energy Transfer by Heat]]
 	- [[Energy Transfer by Work]]
 - [[Efficiency of Thermodynamic Processes]]
-
 ## Substance Properties
 - [[Pure Substance]]
 - [[Equation of State]]
 - [[Phase Change]]
+- [[Two-Phase Mixture Quality]]
 ## Problems
 - [[Air Piston Heat Transfer]]
 ## Assignments

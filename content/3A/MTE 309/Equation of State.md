@@ -7,10 +7,10 @@ aliases:
   - equation of state
 ---
 An equation of state relates intensive properties of a pure substance.
-- For example, a gas equation, $P(T,v)$, like the ideal gas low is an equation of state
+- For example, the ideal gas law, $PV=nRT$, is an equation of state
 
 It can take the following forms:
-- Algebraic (ideal gas law – when valid)
+- Algebraic (ideal gas law – may only be valid for certain conditions/assumptions)
 - Graphical (P-v-T surface)
 - Tabular (Property tables)
 

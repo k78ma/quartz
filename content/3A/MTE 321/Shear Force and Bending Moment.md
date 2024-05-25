@@ -22,6 +22,8 @@ In general, sagging is positive and hogging is negative.
 
 ![[Shear Force and Bending Moment-1.png|368]]
 
+- When doing equilibrium calculations at the beginning of a beam bending question, use the hand rule.
+- When doing equilibrium calculations for a cut section's **internal moments**, use sagging/hogging convention.
 ## Mathematical Foundations
 Shear force and bending moment are related by the equation:
 $$
