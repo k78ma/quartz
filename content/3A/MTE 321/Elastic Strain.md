@@ -1,10 +1,10 @@
 ---
-title: Mechanical Strain
+title: Elastic Strain
 tags:
   - mte321
-date: 2024-05-24
+date: 2024-05-25
 aliases:
-  - mechanical strain
+  - elastic strain
 ---
 For an [[Axial Load|uniaxial load]], only stress in one direction is applied. Let's call this direction $x$. Then, the strain is:
 $$

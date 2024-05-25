@@ -32,6 +32,7 @@ These principal stresses can be found with:
 $$
 \sigma_{1}, \sigma_{2} = \frac{\sigma_{x}+\sigma_{y}}{2} \pm \sqrt{ \left( \frac{\sigma_{x}-\sigma_{y}}{2} \right)^{2} + \tau^{2}_{xy} }
 $$
+At the principal stresses, the shear stress is zero! See [[Mohr's Circle]] for geometric intuition.
 
 ![[Mohr's Circle-1.png|279]]
 

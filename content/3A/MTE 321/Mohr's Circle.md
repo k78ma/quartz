@@ -36,4 +36,11 @@ $$
 \sigma_{\text{max, min}}=\sigma_{\text{avg}} \pm R
 $$
 
-![[Mohr's Circle-2.png]]
+![[Mohr's Circle-2.png|496]]
+
+## Procedure
+1. Locate the center $C = \left[ \frac{(\sigma_{x}+\sigma_{y})}{2},0 \right]$.
+2. Locate face $A$ at $(\sigma_{x}, -\tau_{xy})$.
+3. Locate face $B$ at $(\sigma_{y}, \tau_{xy})$.
+4. Connects $A, B, C$ to form the circle diameter and draw the circle around it.
+5. Use geometry to compute the [[Plane Stress Transformation|principal stresses]], [[Plane Stress Transformation|extreme-value shear stresses]], principle angles, etc.
