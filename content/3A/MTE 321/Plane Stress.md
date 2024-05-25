@@ -12,3 +12,7 @@ Plane stress refers to a state of stress in which two faces of a cubic element a
 
 - In the above, the stresses that exist are $\sigma_{x}, \sigma_{y}, \tau_{xy}$. Note that $\tau_{yx}=\tau_{xy}$ (for equilibrium)!
 - The stresses acting on the faces perpendicular to the thickness ($z$-direction) are assumed to be zero, such that $\sigma_{z}=\tau_{zx}=\tau_{zy}=0$.
+
+The state of plane stress occurs in a thin plate subjected to forces acting in the midplane of the plate.
+
+![[Pasted image 20240524233927.png]]

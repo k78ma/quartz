@@ -6,6 +6,12 @@ date: 2024-05-24
 aliases:
   - Mohr's circle
 ---
+Mohr's circle provides a graphical description of stress at a single point in a structure; each location on the circle represents the stress state on a specific surface point on the structure.
+
+Conventions:
+- If the shear stress tends to rotate the element clockwise, it's plotted as positive on Mohr's circle.
+- If the shear stress tends to rotate the element counterclockwise, it's plotted as negative.
+
 We saw that principal stress, average stress, and extreme-value shear stresses can be found with [[Plane Stress Transformation|plane stress transformation]]. Specifically, we had:
 $$
 \begin{align}
