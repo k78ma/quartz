@@ -31,7 +31,8 @@ aliases:
 - [[Elastic Strain]]
 - [[Elastic Constants]]
 
-### Stress for Beams
+### Stress for Beam Bending
 - [[Normal Stresses for Beams in Bending]]
 - [[Two-Plane Bending]]
 - [[Shear Stresses for Beams in Bending]]
+- [[Shear Flow]]

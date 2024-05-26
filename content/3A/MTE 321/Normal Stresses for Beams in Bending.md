@@ -4,6 +4,7 @@ tags:
 date: 2024-05-25
 aliases:
   - normal stresses for beams in bending
+  - bending stress
 ---
 For a straight beam that is being acted upon by a positive bending moment in one axis:
 
@@ -24,9 +25,10 @@ Mathematically, this is given by:
 $$
 \sigma_{x}=-\frac{M_{z}y}{I_{z}}
 $$
-where $y$ is the distance from the neutral axis. Note that the negative sign makes it so that positive $y$ is compression, and negative $y$ is tension, just like we want.
+where $y$ is the distance from the neutral axis. Note that the negative sign makes it so that positive $y$ is compression, and negative $y$ is tension, just like we want. 
+- If the beam is bending downward, don't use the negative!
 
-$I$ is the *second moment of area* about the $z$-axis:
+$I$ is the *moment of inertia* or second moment of area about the $z$-axis:
 $$
 I=\int y^{2} \, dA 
 $$
