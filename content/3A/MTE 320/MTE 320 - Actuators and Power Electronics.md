@@ -46,5 +46,11 @@ aliases:
 - [[Magnetic Field Intensity in a Core]]
 - [[Magnetic Reluctance]]
 - [[Magnetic Permeability]]
-
 ### Ferromagnetic Materials
+- [[Ferromagnetic Materials]]
+- [[Magnetization Curve of Ferromagnetic Materials]]
+- [[Core Losses]]
+- [[Flux Leakage]]
+- [[Fringing Effect]]
+
+## Magnetic Circuit Analysis

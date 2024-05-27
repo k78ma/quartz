@@ -8,7 +8,7 @@ aliases:
 ---
 Data generation for [[Data Transmission Model|data transmission]] in computer systems mostly depends on the question of "why is the data being produced"? Based on the answer, one of the data generation scenarios below can be chosen.
 
-Data generation requires action by the producer. However, the creation of the data can be initiated by either the producer or the consumer
+Data generation requires action by the producer. However, the creation of the data can be initiated by either the producer or the consumer.
 
 ![[Data Generation.png|580]]
 

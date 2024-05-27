@@ -35,7 +35,7 @@ aliases:
 	- [[Data Notification]]
 	- [[Data Transfer]]
 - [[Data Transfer Synchronization]]
-
+- [[Data Transfer Case Study]]
 ## Computer Architecture and Drivers
 
 

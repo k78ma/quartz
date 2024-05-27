@@ -43,5 +43,3 @@ where:
 - $l$ is the mean path length in $\text{m}$
 - $A$ is the cross-sectional area in $\text{m}^{2}$
 - $\mu$ is the [[Magnetic Permeability|permeability]] of the core in Henry/meter ($\text{H}/\text{m}$).
-
-## Permeability
