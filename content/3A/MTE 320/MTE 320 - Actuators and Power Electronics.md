@@ -33,8 +33,10 @@ aliases:
 - [[Three-Phase Power]]
 
 ## Electromagnetism and Magnetic Circuits
-
+- [[Electric Machines]]
 ### Magnetic Fields
+- [[Permanent Magnet]]
 - [[Magnetic Flux]]
 - [[Magnetic Field around Current-Carrying Wire]]
 - [[Magnetic Field Intensity]]
+- [[Electromagnets|Electromagnets/Solenoids]]
