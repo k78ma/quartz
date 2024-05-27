@@ -4,6 +4,7 @@ tags:
   - mte309
 date: 2024-05-10
 aliases:
+  - thermodynamic property
 ---
 A *property* is any characteristic of a [[Thermodynamic System]].
 
@@ -22,3 +23,6 @@ A *property* is any characteristic of a [[Thermodynamic System]].
 	- Molecular weight, $M = \frac{m}{n}$
 	- Pressure, $P$
 	- Density, $\rho=\frac{m}{v}$
+
+- [[Enthalpy]]
+- [[Two-Phase Mixture Quality]]

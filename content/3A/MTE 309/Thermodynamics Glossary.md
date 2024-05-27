@@ -15,6 +15,12 @@ aliases:
 | Specific heat                     | $q$    | $\text{kJ} / \text{kg}$ |
 | [[Energy Transfer by Work\|Work]] | $W$    | $\text{kJ}$             |
 
+## Thermodynamic Properties
+| Term         | Symbol | Units |
+| ------------ | ------ | ----- |
+| [[Enthalpy]] |        |       |
+
+
 ## Unit Breakdowns
 | Unit               | Breakdown                                                                      |
 | ------------------ | ------------------------------------------------------------------------------ |

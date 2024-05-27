@@ -36,10 +36,19 @@ aliases:
 ## Substance Properties
 - [[Pure Substance]]
 - [[Equation of State]]
-- [[Phase Change]]
+- [[Substance Phase Identification]]
+- [[Phase Change Diagram]]
 - [[Two-Phase Mixture Quality]]
+- [[Enthalpy]]
+### Phase Properties
+- [[Subcooled Liquid]]
+- [[Ideal Gas]]
+- [[Ideal Gas Correction Factor]]
+
+---
 ## Problems
 - [[Air Piston Heat Transfer]]
 ## Assignments
 - [[MTE 309 A1]]
 - [[MTE 309 A2]]
+- [[MTE 309 A3]]

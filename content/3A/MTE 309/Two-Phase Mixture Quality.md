@@ -8,7 +8,7 @@ aliases:
   - dryness fraction
   - mass-average
 ---
-Quality is a thermodynamic property that defines the [[Thermodynamic State|state]] of a two-phase mixture. It's also called a dryness fraction.
+Quality is a [[Thermodynamic Properties|thermodynamic property]] that defines the [[Thermodynamic State|state]] of a two-phase mixture. It's also called a dryness fraction.
 $$
 \text{Quality}=x=\frac{m_{\text{vapor}}}{m_{\text{total}}}=\frac{m_{\text{vapor}}}{m_{\text{liquid}}+m_{\text{vapor}}}=\frac{m_{g}}{m_{f}+m_{g}}
 $$
