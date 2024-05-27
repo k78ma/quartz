@@ -40,3 +40,11 @@ aliases:
 - [[Magnetic Field around Current-Carrying Wire]]
 - [[Magnetic Field Intensity]]
 - [[Electromagnets|Electromagnets/Solenoids]]
+### Magnetic Circuits
+- [[Magnetic Circuit]]
+- [[Magnetomotive Force]]
+- [[Magnetic Field Intensity in a Core]]
+- [[Magnetic Reluctance]]
+- [[Magnetic Permeability]]
+
+### Ferromagnetic Materials
