@@ -12,7 +12,7 @@ Phases:
 - **Two-phase mixture** – Consists of both liquid and vapor phases in equilibrium. In this region, the temperature and pressure remain constant during the phase change. The [[Two-Phase Mixture Quality|quality]] (dryness fraction) defines the proportion of vapor in the mixture.
 - **Saturated vapor** – A saturated vapor is a state where the vapor is at its condensation point and is about to start condensing. At this point, any removal of heat will start converting the vapor into liquid without decreasing the temperature. Point $g$ on the [[Phase Change Diagram|T-v diagram]].
 - **Superheated vapor** – A superheated vapor is a state where the vapor is at a temperature above its condensation point at a given pressure. In this state, the vapor is not about to condense. It is fully in the vapor phase and is above the temperature required for condensation at the current pressure. Right of point $g$ on the T-v diagram.
-- **Critical point** – Distinction between liquid and vapor phases ceajjjjy,ses to exist.
+- **Critical point** – Distinction between liquid and vapor phases ceases to exist.
 
 How do we identify the state of a substance?
 ### Subcooled Liquid
