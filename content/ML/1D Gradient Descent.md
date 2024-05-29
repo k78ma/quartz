@@ -9,7 +9,7 @@ This is an example of [[Gradient Descent]] in one dimension. Expanded to multipl
 
 Let's say we have some arbitrary function $f(\Theta)$. We specify an initial value for parameter $\Theta$, a step-size parameter $\eta$, and an accuracy parameter $\epsilon$. Then, the 1D gradient descent algorithm is:
 
-![[1D Gradient Descent.png|440]]
+![[1D Gradient Descent.png|388]]
 
 This algorithm terminates when the change in the function $f$ is sufficiently small (less than $\epsilon$). This is similar to the convergence criterion used in [[MTE 204 - Numerical Methods|Numerical Methods]]. There are also other options on when to terminate this algorithm, such as:
 - Stop after a fixed number of iterations, $T$

@@ -20,7 +20,7 @@ Analyze just like a regular diode, using $V_{Z}$ instead of $V_{F}$.
 
 The Zener diode is going to lock in at 3 volts, so the voltage across our resistor is the leftover 2 volts. Knowing that $I_{Z} = 1\text{ mA}$, we have:
 $$
-R = \frac{V}{I} = 2 \text{ k} \Omega
+R = \frac{2\text{ V}}{1 \text{ mA}} = 2 \text{ k} \Omega
 $$
 Extra: we can find the static ("all the time") power of the diode:
 $$

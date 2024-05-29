@@ -1,78 +1,32 @@
 ---
-title: "Robotics"
-tag: robotics
+title: Robotics
+tags:
+  - robotics
+  - moc
 date: 2023-06-30
-alias:
+aliases:
 ---
-*There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.*
-
-**Modern Robotics:**   <progress max=642 value=36> </progress> 
+*There is a certain enchanting magic that comes from working with robots; by waving our hands, we can make machines seem alive.* - Ilia Baranov?
 
 **Visual SLAM:**   <progress max=356 value=54> </progress> 
+## Areas
+- [[Robot Configuration & Representation]]
+- [[Sensing]]
+- [[Motion Planning]]
+- [[SLAM]]
+- [[Control Theory]]
 
-## Robot Configuration + Motion
-- [x] [[Configuration Space|Configuration Space]]
-	- [ ] [[Configuration Space Topology]]
-	- [ ] [[Configuration Space Representation]]
-- [x] [[Degrees of Freedom|Degrees of Freedom]]
-- [x] [[Grubler’s Formula|Grubler’s Formula]]
-- [x] [[Robot Joints]]
-- [x] [[Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
-- [ ] [[Configuration and Velocity Constraints]]
-- [ ] [[Task Space and Workspace]]
-### Rigid Body Motions
-- [Rotation Matrix](Rotation%20Matrix.md)
-	- [[Points, Vectors, Coordinate Systems]]
-	- [[Transforms Intuition]]
-	- [[Euclidean Transforms]]
-	- [[Transform Matrix]]
-	- [[Homogeneous Coordinates]]
-- [[Rotation Vectors]]
-- [[Euler Angles]]
-- [[Quaternions]]
-	- [[Quaternion Operations]]
-	- [[Quaternions for Representing Rotation]]
-	- [[Quaternion Conversion]]
-- [[Affine and Projective Transformation]]
-
-## Kinematics + Dynamics
-### Forward Kinematics
-
-### Velocity Kinematics
-
-### Statics
-
-### Inverse Kinematics
-
-### Closed-chain Kinematics	  
-
-### Open-chain Dynamics
-
-## Planning
-### Trajectory Generation
-
-### Motion Planning
-
-## Control
-### Robot Control
-
-### Grasping and Manipulation
-
-### Wheeled Mobile Robots
-
-## SLAM
-- [[Visual SLAM Framework]]
-- [[Mathematical Formulation of SLAM]]
-- [[State Estimation]]
-
-## Tools
-- [ROS](ROS.md)
+- [[Kalman Filter]]
+## Tools/Practical
+- [[ROS]]
 - [[CMake]]
 - [[Eigen]]
-
+- [[noVNC]]
 ## Resources
 - [Modern Robotics – Lynch, Park](https://hades.mech.northwestern.edu/index.php/Modern_Robotics)
+- [Visual SLAM Book](https://github.com/gaoxiang12/slambook-en/tree/master)
+- [Lectures on Robotic Planning and Kinematics](https://ece.uwaterloo.ca/~sl2smith/book-lrpk/).
 - [MIT RSS](https://github.com/mit-rss)
-
 ## Projects
 - [[Desktop Bot]]
+- [[Roamr]]

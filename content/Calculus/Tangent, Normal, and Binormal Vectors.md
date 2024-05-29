@@ -1,8 +1,9 @@
 ---
-title: "Tangent, Normal, and Binormal Vectors"
-tag: calc3
+title: Tangent, Normal, and Binormal Vectors
+tags:
+  - calc3
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 Given $\vec{r}(t)$, the derivative $\vec{r}'(t)$ is the tangent vector.

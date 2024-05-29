@@ -53,19 +53,33 @@ aliases:
 - [[Romberg Integration]]
 - [[Gauss Quadrature]]
 ### Numerical Differentiation
-- [[Forward Difference]]
-- [[Backward Difference]]
-- [[Centered Difference]]
-- [[Unequally-spaced data]]
+- [[Numerical Differentiation]]
+- [[Numerical Differentiation for 2nd Derivative]]
 ### Ordinary Differential Equations
 - [[ODEs]]
-- [[Euler's Method]]
-	- [[Implicit Euler]]
-- [[Heun's Method]]
-- [[Midpoint Method]] 
+- [[Runge-Kutta Methods Intro]]
+	- [[Euler's Method]]
+		- [[Implicit Euler]]
+	- [[Heun's Method]]
+	- [[Midpoint Method]] 
 - [[Runge-Kutta Method]]
-- [[Initial Value Problems with ODEs]]
+- [[Systems of ODEs]]
+- [[2nd-order ODEs]]
 - [[Boundary Value Problems with ODEs]]
+	- [[Shooting Method]]
+	- [[Method of Finite Differences]]
+### Finite Element Method
+- [[Finite Element Method]]
+	- [[Finite Element Method - 1D Poisson]]
+- [[Finite Element Method for Structural Analysis]]
+
+### Partial Differential Equations
+- [[Numerical Partial Differential Equations]]
+- [[Elliptic Equations]]
+- [[Parabolic Equations]]
+- [[Hyperbolic Equations]]
+
 ### Problems
 - [[Project 1 - Gauss-Seidel Circuit Solver]]
-- [[204 Midterm Problems]]
+- [[Midterm Problems 204]]
+- [[MTE 204 Project 2 – Finite Element Analysis]]

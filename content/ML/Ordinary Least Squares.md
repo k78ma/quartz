@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2023-11-04
 aliases:
+  - OLS
 ---
 Recall that Ordinary Least Squares is a regression problem aiming to minimize the mean squared loss, such that we have objective function:
 $$
@@ -11,7 +12,7 @@ J(\theta, \theta_{0})=\frac{1}{n}\sum_{i=1}^{n}(\theta^{T}x^{(i)}+\theta_{0}-y^{
 $$
 This problem actually has an analytical solution based on calculus.
 
-### Analytical Solution
+### Analytical/Closed-Form Solution
 We can approach this like a minimization problem by taking the derivative of $J$ with respect to $\theta$, set it to 0, and then solve for $\theta$. It's possible to do this by:
 - Finding $\frac{ \partial J }{ \partial \theta_{k} }$ for $k$ in $1,\dots,d$
 - Constructing a set of $k$ equations of the form $\frac{ \partial J }{ \partial \theta_{k} } = 0$
@@ -79,8 +80,13 @@ W^{T}(W\theta-T)  & = 0  \\
 W^{T}W\theta  & =W^{T}T \\
 \theta  &= (W^{T}W)^{-1}W^{T}T
 \end{align}
-$$And the dimensions work out!
+$$
+And the dimensions work out!
 $$
 \theta  = \underbrace{ (W^{T}W)^{-1} }_{ d \times d } \;\underbrace{ W^{T} }_{ d \times n }\;\underbrace{ T }_{ n \times 1 }
 $$
-To be really good and proper, we should also check that this solution wields a minimum, not just a critical point…
+This is cool because it's a rare closed-form solution!
+
+To be really good and proper, we should also check that this solution wields a minimum, not just a critical point. Also, what if $(W^{T}W)$ is not invertible?
+
+

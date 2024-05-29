@@ -1,41 +1,37 @@
 ---
-title: "Hashing"
-tag: cs, algos
+title: Hashing
+tags:
+  - cs
 date: 2023-06-25
-alias:
+aliases:
+  - hash function
 ---
+Hashing is a practical way of maintaining a [[Dictionary|dictionary]], taking advantage of the fact that looking an item up in an array takes constant time once you have its index. With a hash function, we can create a [[Hash Table Example|hash table]] for fast look-ups.
+
+Hash functions also provide useful tools for many things beyond powering hash tables, since the fundamental idea is just of *many-to-one* mappings, where "many" is controlled so it is very unlikely to be "too many". Some examples of this are [[Duplicate Detection via Hashing|duplicate detection]], [[Canonicalization|canonicalization]], and [[Compaction|compaction]].
 ## Hash Function
-A function that converts data of arbitrary size to a value of a fixed size (usually a 32-bit int).
-Result is called **hash value**.
+Let's say we have a key and a value.
+
+The hash function maps the key to an integer. Then, the output of the hash function (*hash value*) is used as index, such that the value is stored in the array (*hash table*) at this position.
+
+The first step of the hash function is usually to map each key to a big integer. For example, let's say we are writing a hash function for a string $S$. Let $\alpha$ be the size of the alphabet on which $S$ is written. Let `char(c)` be a function that maps each symbol of the alphabet to a unique integer from $0$ to $\alpha − 1$. The function
+$$
+H(S) = \alpha^{| S |}+\sum_{i=0}^{| S |-1}\alpha^{| S |-(i+1)} \times \text{char}(s_{i})
+$$
+maps each string to a unique large integer by treating the characters of the string as "digits" in the base-$\alpha$ number system. We have to make sure the numbers produced by this function are small enough to fit in our hash table, so we do $H'(s)=H(s)\mod m$.
+
+- Hash functions must always return the same hash value for two items representing the same values.
+- Two different items hashing to the same value is a [[Hash Collision|hash collision]].
+
+Some properties of good hash functions:
+- Easy to calculate the hash value (function has low time complexity)
+- Low chance of [[Hash Collision|hash collision]]
+- All possible values are utilized approximately equally
 
 >[!example] Hash Function Example
->A simple hash function for an integer array:
+>Hash functions are an abstract concept that can be applied to any arbitrary data type. For example, here is a simple hash function for an integer array:
 >- Sum up each entry in the array and modulo the sum by 100
 >`[5, 23, 84] -> (5 + 23 + 84) % 100 = 12`
-
-Must always return the same hash value for two items representing the same values.
-Two different items hashing to the same value is a **hash collision.**
-
->[!info] Properties of Good Hash Functions
->- Easy to calculate the hash value (function has low time complexity)
->- Low chance of hash collision
->- All possible values are utilized approximately equally
-
-## Hash Table
-Data structure that maps an arbitrary data type to another arbitrary data type using hashing.
-Data is stored in an array, where each data value has an unique index. 
-- When we add `(key, value)` pair to the array, we use a hash function to map `key` to a hash value within the range of the array. 
-- When we retrieve the data with `key`, we hash the `key` again and look up the data in the array with the corresponding index.
-
-> [!example]- Graphical example of hash table
-> ![500](Pasted%20image%2020230726171358.png)
-> ![500](Pasted%20image%2020230726171415.png)
-> ![500](Pasted%20image%2020230726171425.png)
-> ![500](Pasted%20image%2020230726171436.png)
-
-We need to deal with collisions as the possibility of keys increases, collision is unavoidable by the pigeonhole principle. An example of this is using separate chaining, where each hash value corresponds to a list:
-
-![Pasted image 20230726172114](Pasted%20image%2020230726172114.png)
 
 ## Efficiency
 Average time complexity is $O(n/k)$ for each insertion/access operation on the table, where $n$ is the number of entries in the hash tables and $k$ is the array size of the table. This is due to the pigeonhole principle.

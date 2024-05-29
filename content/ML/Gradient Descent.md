@@ -12,3 +12,5 @@ The main idea is if we're trying to optimize a function *f*, we compute the deri
 - [[1D Gradient Descent]]
 - [[Multiple Dimension Gradient Descent]]
 - [[Stochastic Gradient Descent]]
+- [[Batch Gradient Descent]]
+- [[Vanishing + Exploding Gradient Problem]]

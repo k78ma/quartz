@@ -4,10 +4,49 @@ tags:
   - stats
 date: 2023-10-24
 ---
-I need a better understanding of Statistics to support my study of machine learning. Not planning to study this systematically currently, but will take some notes when relevant concepts come up.
-
-- [[Bayes Rule]]
+Notes from:
+- Chapters 2 and 3 of [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
+## Probability
+### Probability Basics
+- [[Sum and Product Rules of Probability]]
+- [[Bayes' Theorem]]
 - [[Prior and Posterior]]
-- [[Likelihood Ratio]]
-- [[Decision Boundary]]
+- [[Independent Variables]]
+### Probability Densities
+- [[Probability Density Function]]
+	- [[Multivariate Probability Density]]
+- [[Cumulative Distribution Function]]
+- [[Expected Value]]
+- [[Variance]]
+- [[Covariance]]
+- [[Standard Deviation]]
+### Transformation of Densities
+- [[Transformation of Densities]]
+- [[Transformation of Multivariate Distributions]]
+### Distribution Basics
+- [[Gaussian Distribution]]
+- [[Likelihood Function]]
 - [[Maximum Likelihood Estimation]]
+	- [[Gaussian Maximum Likehood Estimation]]
+	- [[Bessel's Correction]]
+- [[Linear Regression as MLE]]
+### Information Theory
+- [[Information Theory]]
+- [[Measure of Information]]
+- [[Kullback-Leibler Divergence]]
+	- [[Convex Function]]
+	- [[Jensen’s Inequality]]
+	- [[Density Estimation with KL Divergence]]
+- [[Mutual Information]]
+#### Entropy
+- [[Information Entropy]]
+	- [[Entropy]]
+- [[Differential Entropy]]
+- [[Maximum Entropy]]
+- [[Kullback-Leibler Divergence|Relative Entropy]] (KL divergence)
+- [[Conditional Entropy]]
+### Bayesian Probability
+- [[Bayesian Probability]]
+- [[Bayesian Machine Learning]]
+## Standard Distributions
+

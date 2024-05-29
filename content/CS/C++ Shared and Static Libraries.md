@@ -22,7 +22,7 @@ add_library( hello_shared SHARED libHelloSLAM.cpp)
 target_link_libraries( helloExecutable hello )
 ```
 
-This `add_library` is needed whenever we are including `.h` files and these interface files have implementation files (`.cpp`). For existing libraries like [[Eigen]], `add_library` isn’t needed because it doesn’t have `.cpp` files, only `.h`.
+This `add_library` is needed whenever we are including `.h` files and these interface files have implementation files (`.cpp`). For existing libraries like [[Eigen Basics]], `add_library` isn’t needed because it doesn’t have `.cpp` files, only `.h`.
 
 Common CMake commands:
 - `cmake_minimum_required`

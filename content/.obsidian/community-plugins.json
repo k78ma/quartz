@@ -1,13 +1,10 @@
 [
-  "table-editor-obsidian",
-  "callout-manager",
   "dataview",
   "obsidian-latex-suite",
   "mousewheel-image-zoom",
   "quick-latex",
   "obsidian-minimal-settings",
   "obsidian-excalidraw-plugin",
-  "obsidian-tasks-plugin",
   "omnisearch",
   "obsidian-kanban",
   "obsidian-smart-typography",
@@ -20,8 +17,9 @@
   "obsidian-image-layouts",
   "obsidian-style-settings",
   "obsidian-image-caption",
-  "obsidian-outliner",
   "nl-fast-image-cleaner",
   "oz-clear-unused-images",
-  "pseudocode-in-obs"
+  "table-editor-obsidian",
+  "callout-manager",
+  "templater-obsidian"
 ]

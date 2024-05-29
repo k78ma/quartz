@@ -1,6 +1,7 @@
 ---
-title: "Task Arithmetic"
-tag: ml
+title: Task Arithmetic
+tags:
+  - ml
 date: 2023-08-09
 draft:
 ---

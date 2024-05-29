@@ -1,6 +1,7 @@
 ---
-title: "Linear Independence"
-tag: lin-alg
+title: Linear Independence
+tags:
+  - lin-alg
 date: 2023-08-20
 draft:
 ---

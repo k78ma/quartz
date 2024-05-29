@@ -9,8 +9,7 @@ aliases:
 ---
 Hypothesis class of machine learning models.
 
-
-A linear classifier in $d$ dimensions is defined by the parameters $\theta \in \mathbb{R}^d$ and $\theta_{0} \in \mathbb{R}$:
+A simple linear classifier in $d$ dimensions is defined by the parameters $\theta \in \mathbb{R}^d$ and $\theta_{0} \in \mathbb{R}$:
 $$
 h(x; \theta, \theta_{0}) = \text{sign}(\theta^{T}x+ \theta_{0})= 
 \begin{cases} 
@@ -29,5 +28,5 @@ $$
 
 
 Algorithms:
-- [Perceptron](Perceptron.md)
-- [Averaged Perceptron](Averaged%20Perceptron.md)
+- [[Perceptron]]
+- [[Averaged Perceptron]]

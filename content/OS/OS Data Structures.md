@@ -1,8 +1,9 @@
 ---
-title: "OS Data Structures"
-tag: os
+title: OS Data Structures
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 [[Operating Systems]] are programs, so they also have data structures

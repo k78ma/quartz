@@ -1,6 +1,7 @@
 ---
-title: "Statically vs. Dynamically Typed Languages"
-tag: cs
+title: Statically vs. Dynamically Typed Languages
+tags:
+  - cs
 date: 2023-08-09
 draft:
 ---

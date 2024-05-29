@@ -1,8 +1,9 @@
 ---
-title: "Degrees of Freedom"
-tag: robotics
+title: Degrees of Freedom
+tags:
+  - robotics
 date: 2023-06-30
-alias:
+aliases:
 ---
 
 >[!info] Definition: Degrees of Freedom (DOF)

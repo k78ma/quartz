@@ -1,10 +1,10 @@
 ---
-title: "Geometry of Linear Equations"
-tag: lin-alg
+title: Geometry of Linear Equations
+tags:
+  - lin-alg
 date: 2023-08-20
 draft:
 ---
-
 The fundamental problem of linear algebra:
 $$
 n \text{ linear equations}, n \text{ unknowns}

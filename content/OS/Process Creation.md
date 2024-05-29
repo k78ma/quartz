@@ -1,8 +1,9 @@
 ---
-title: "Process Creation"
-tag: os
+title: Process Creation
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 > [!faq] How are programs transformed into processes?

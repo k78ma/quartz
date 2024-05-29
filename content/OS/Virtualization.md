@@ -1,8 +1,9 @@
 ---
-title: "Virtualization"
-tag: os
+title: Virtualization
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 **Basic idea:** Presenting virtual versions of computer resources like CPU and memory to each [[Process]] so they think they have it to themselves.
@@ -13,6 +14,6 @@ alias:
 **Solution:** Virtualize the CPU.
 - Ex: [[Time-sharing]]
 
-[[Mechanisms]]
-[[Policies]]
+[[OS Mechanisms]]
+[[OS Policies]]
 

@@ -1,8 +1,9 @@
 ---
-title: "Vector Equations of Lines"
-tag: calc3
+title: Vector Equations of Lines
+tags:
+  - calc3
 date: 2023-07-22
-alias:
+aliases:
 ---
 
 How do we use vector functions to describe lines?

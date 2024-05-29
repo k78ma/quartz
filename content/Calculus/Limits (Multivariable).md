@@ -1,6 +1,7 @@
 ---
-title: "Limits (Multivariable)"
-tag:
+title: Limits (Multivariable)
+tags:
+  - calc3
 date: 2023-08-10
 draft:
 ---

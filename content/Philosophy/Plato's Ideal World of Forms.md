@@ -1,10 +1,10 @@
 ---
-title: "Plato"
-tag: philosophy
+title: Plato
+tags:
+  - philosophy
 date: 2023-08-22
 draft:
 ---
-
 ### Ideal World of Forms:
 
 >[!info] Basic Idea of World of Forms

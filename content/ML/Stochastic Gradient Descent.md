@@ -6,7 +6,7 @@ date: 2023-10-30
 aliases:
   - SGD
 ---
-Consider an [[Machine Learning as Optimization|objective function]] of the form:
+Consider an [[Machine Learning as Optimization|objective function]] in the form of a sum:
 $$
 f(\Theta) = \sum_{i=1}^{n}f_{i}(\Theta)
 $$
@@ -17,7 +17,7 @@ During [[Gradient Descent]], we select one term of the sum and take a step in th
 Note that now instead of a fixed $\eta$, it is indexed by the iteration of the algorithm, $t$. Choosing a good stopping criterion can be a little trickier for SGD than traditional gradient descent. In the above, we’ve just chosen to stop after a fixed number of iterations $T$. 
 
 For SGD to converge to a local optimum as $t$ increases, the step size has to decrease as a function of time.
->[!theorem] Step size and convergence
+>[!theorem] Theorem: Step size and convergence
 >If $J$ is convex and $\eta(t)$ is a sequence satisfying
 >$$
 >\sum_{i=1}^{\infty} \eta(t) = \infty \quad \text{and} \quad \sum_{t=1}^{\infty} \eta(t)^{2} \leq \infty

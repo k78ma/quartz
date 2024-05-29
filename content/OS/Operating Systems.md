@@ -1,27 +1,36 @@
 ---
-title: "Operating Systems"
-tag: os, moc
+title: Operating Systems
+tags:
+  - os
+  - moc
 date: 2023-06-25
-alias: OS
+aliases:
+  - OS
 ---
 
 **OS: 3 Easy Pieces**:     <progress max=643 value=75> </progress> 
 
-[MTE 241 – Introduction to Computer Structures & Real-Time Systems](MTE%20241%20%E2%80%93%20Introduction%20to%20Computer%20Structures%20&%20Real-Time%20Systems)
+[[MTE 241 - Computer Structures & Real-Time Systems|MTE 241]]
 
 ## Concepts
-- [Virtualization](Virtualization.md)
-	- [Time-sharing](Time-sharing.md)
+- [[Virtualization]]
+	- [[Memory & Resource Management]]
+	- [[Scheduling & Process Control]]
+	- [[Hardware Virtualization]]
+	- [[Interface Layer]]
+	- [[Operating Systems]]
+	- [[Time-sharing]]
 - Concurrency
 - Persistence
 
-- [Process](Process.md)
-	- [Process API](Process%20API.md)
-	- [Process Creation](Process%20Creation.md)
-	- [Process States](Process%20States.md)
-	- [UNIX System Calls](UNIX%20System%20Calls.md)
-		- [fork()](fork().md)
-		- [exec()](exec().md)
-		- [wait()](wait().md)
-- [Mechanisms](Mechanisms.md)
-- [Policies](Policies.md)
+- [[Process]]
+	- [[Process API]]
+	- [[Process Creation]]
+	- [[Process States]]
+	- [[UNIX System Calls]]
+		- [[fork()]]
+		- [[exec()]]
+		- [[wait()]]
+- [[OS Mechanisms]]
+- [[OS Policies]]
+

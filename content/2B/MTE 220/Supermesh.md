@@ -5,6 +5,7 @@ tags:
 date: 2023-10-07
 ---
 There is a problem when there are two unknown mesh currents passing through a current source, like the 2A source in the diagram below. Since the current source may have any voltage across it, there is no device equation to plug into the [[Kirchhoff’s Voltage Law (KVL)|KVL]] equations. If you try to write the unknown voltage as:
+
 ![[bad mesh.png|453]]
 $$
 \begin{align}

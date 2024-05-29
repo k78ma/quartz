@@ -1,10 +1,10 @@
 ---
-title: "Differentials"
-tag: calc3
+title: Differentials
+tags:
+  - calc3
 date: 2023-08-18
 draft:
 ---
-
 Multi-variable functions have differentials just like single-variable functions do. 
 
 Given the function $z=f(x,y)$ the differential $dz$ or $df$ is given by: 

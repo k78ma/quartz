@@ -1,121 +1,36 @@
 ---
-title: "Machine Learning"
-tag: ml, moc
-alias: ML, ml
+title: Machine Learning
+tags:
+  - ml
+  - moc
+aliases:
+  - ML
+  - ml
 date: 2023-06-25
 ---
-## Foundational Concepts
-
-#### Basics
-- [[Artificial Neuron]]
-- [[Machine Learning as Optimization]]
-
-#### Classifiers
-- [[Linear Classifier|Linear Classifier]]
-	- [[Perceptron|Perceptron]]
-		- [[Averaged Perceptron|Averaged Perceptron]]
-		- [[Perceptron Convergence Theorem|Perceptron Convergence Theorem]]
-- [[Margin|Margin]]
-- [[Logistic Regression]]
-	- [[Gradient Descent for Logistic Regression]]
-- [[Support Vector Machine]]
-
-#### Features
-- [[Feature Representation|Feature Representation]]
-	- [[Feature Engineering|Feature Engineering]]
-	- [[Polynomial Basis|Polynomial Basis]]
-
-#### Mathematical Functions
-- [[Sigmoid]]
-
-#### Loss Functions
-- [[Loss Function]]
-- [[Negative log-likelihood]]
-- [[Hinge Loss]]
-
-#### Regularization
-- [[Regularization]]
-- [[L1 Regularization]]
-- [[L2 Regularization]]
-
-#### Regression
-- [[Regression]]
-- [[Ordinary Least Squares]]
-- [[Regularizing Linear Regression]]
-
-#### Gradient Descent
-- [[Gradient Descent]]
-	- [[1D Gradient Descent]]
-	- [[Multiple Dimension Gradient Descent]]
-- [[Stochastic Gradient Descent]]
-
-#### Backpropagation
-- [[Backpropagation]]
-
-#### Neural Networks
-- [[Neural Networks]]
-
-- [[Convolutional Neural Networks]]
-
-- [[State Machines and Markov Decision Processes]]
-
+## Foundations / Areas
+- [[ML Fundamentals]]
+	- Background: [[Statistics]]
 - [[Reinforcement Learning]]
+- [[Computer Vision]]
+- [[Natural Language Processing]] + [[Large Language Models]]
+- [[3D View Synthesis]]
+## Reading Papers
 
-- [[Recurrent Neural Networks]]
-
-- [[Recommender Systems]]
-
-- [[Decision Trees and Nearest Neighbours]]
-
-## Models/Architectures
-- [[Gated Recurrent Unit]]
-- [[Long Term Short Memory]]
-## Transformers
-- [[Transformer]]
-## Computer Vision
-- [[SAM: Segment Anything]]
-- [[SimCLR]]
-- [[ResNet]]
-- [[EfficientNet]]
-- [[HyRSM]]
-
-## LLMs
-- [[GPT]]
-- [[Llama]]
-- [[Chinchilla]]
-
-## Robotics
-- [[Legged Locomotion from Egocentric Vision]]
-
-## 3D Object Detection
-- [[BEVFusion]]
-- [[PointPillars]]
-- [[Seal: Segment Any Point Cloud]]
-
-## 3D Scene Representation
-- [[NeRF]]
-- [[NICE-SLAM]]
-- [[Block-NeRF]]
-- [[Instant-NGP]]
-
-## Model Behavior/Alteration
-- [[Task Arithmetic|Task Arithmetic]]
-
-## Other
+## Tools & Techniques
+- [[Distributed Training]]
+- [[ML Compilers]]
+## Other/Uncategorized
+- [[Paper List]]
 - [[World Models]]
 
+## Problems
+- [[MIT 6.036x Problems]]
+- SYDE 572
+	- [[SYDE 572 A1]]
+	- [[SYDE 572 A2]]
+	- [[SYDE 572 A3]]
+	- [[SYDE 572 A4]]
+	- [[SYDE 572 A5]]
+- [[UDL Problems]]
 
-- [[Jacobian]]
-- [[Hessian]]
-
-- [[Recurrent Neural Networks]]
-- [[Long Term Short Memory|LSTM]]
-- [[Vanishing Gradient Problem]]
-- [[Transformers]]
-
-- [[CNNs]]
-- [[Generative AI]]
-- [[Imitation Learning]]
-- [[Sim2Real]]
-
-[[Paper List]]

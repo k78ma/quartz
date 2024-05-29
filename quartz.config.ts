@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "{cortex}",
+    pageTitle: "/notes/",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
@@ -14,8 +14,8 @@ const config: QuartzConfig = {
     defaultDateType: "created",
     theme: {
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "STIX Two Text", // Schibsted Grotesk
+        body: "STIX Two Text", // Source Sans Pro
         code: "IBM Plex Mono",
       },
       colors: {
@@ -30,13 +30,13 @@ const config: QuartzConfig = {
           highlight: "rgba(66, 154, 169, 0.15)",
         },
         darkMode: {
-          light: "#091429",
+          light: "#0B121F",
           lightgray: "#393639",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#4783de",
-          tertiary: "#d587ed",
+          secondary: "#5a8edb",
+          tertiary: "#d587ed", //#d587ed
           highlight: "rgba(139, 81, 214, 0.15)",
         },
       },
@@ -47,13 +47,15 @@ const config: QuartzConfig = {
       Plugin.FrontMatter(),
       Plugin.TableOfContents( { maxDepth: 4, minEntries: 1, showByDefault: true }),
       Plugin.CreatedModifiedDate({
-        priority: ["frontmatter", "filesystem"], // you can add 'git' here for last modified from Git but this makes the build slower
+        // you can add 'git' here for last modified from Git
+        // if you do rely on git for dates, ensure defaultDateType is 'modified'
+        priority: ["frontmatter", "filesystem"],
       }),
+      Plugin.Latex({ renderEngine: "katex" }),
       Plugin.SyntaxHighlighting(),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
-      Plugin.Latex({ renderEngine: "katex" }),
       Plugin.Description(),
     ],
     filters: [Plugin.RemoveDrafts()],
@@ -69,6 +71,7 @@ const config: QuartzConfig = {
       }),
       Plugin.Assets(),
       Plugin.Static(),
+      Plugin.NotFoundPage(),
     ],
   },
 }

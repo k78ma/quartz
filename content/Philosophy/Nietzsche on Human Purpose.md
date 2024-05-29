@@ -1,6 +1,7 @@
 ---
-title: "Nietzsche on Human Purpose"
-tag: philosophy
+title: Nietzsche on Human Purpose
+tags:
+  - philosophy
 date: 2023-08-22
 draft:
 ---

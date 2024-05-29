@@ -1,0 +1,1160 @@
+---
+
+kanban-plugin: basic
+draft: "true"
+
+---
+
+## Karpathy
+
+- [ ] makemore (part 1)
+- [ ] makemore (part 2)
+- [ ] makemore (part 3)
+- [ ] makemore (part 4)
+- [ ] makemore (part 5)
+- [ ] gpt from scratch
+
+
+## DLFC
+
+- [ ] 3 - Standard Distributions
+- [ ] 3.1 - Discrete Variables
+- [ ] 3.1.1 - Bernoulli distribution
+- [ ] 3.1.2 - Binomial distribution
+- [ ] 3.1.3 - Multinomial distribution
+- [ ] 3.2 - The Multivariate Gaussian
+- [ ] 3.2.1 - Geometry of the Gaussian
+- [ ] 3.2.2 - Moments
+- [ ] 3.2.3 - Limitations
+- [ ] 3.2.4 - Conditional distribution
+- [ ] 3.2.5 - Marginal distribution
+- [ ] 3.2.6 - Bayes’ theorem
+- [ ] 3.2.7 - Maximum likelihood
+- [ ] 3.2.8 - Sequential estimation
+- [ ] 3.2.9 - Mixtures of Gaussians
+- [ ] 3.3 - Periodic Variables
+- [ ] 3.3.1 - Von Mises distribution
+- [ ] 3.4 - The Exponential Family
+- [ ] 3.4.1 - Sufficient statistics
+- [ ] 3.5 - Nonparametric Methods
+- [ ] 3.5.1 - Histograms
+- [ ] 3.5.2 - Kernel densities
+- [ ] 3.5.3 - Nearest-neighbours
+- [ ] 4 - Single-layer Networks: Regression
+- [ ] 4.1 - Linear Regression
+- [ ] 4.1.1 - Basis functions
+- [ ] 4.1.2 - Likelihood function
+- [ ] 4.1.3 - Maximum likelihood
+- [ ] 4.1.4 - Geometry of least squares
+- [ ] 4.1.5 - Sequential learning
+- [ ] 4.1.6 - Regularized least squares
+- [ ] 4.1.7 - Multiple outputs
+- [ ] 4.2 - Decision theory
+- [ ] 4.3 - The Bias–Variance Trade-off
+- [ ] 5 - Single-layer Networks: Classification
+- [ ] 5.1 - Discriminant Functions
+- [ ] 5.1.1 - Two classes
+- [ ] 5.1.2 - Multiple classes
+- [ ] 5.1.3 - 1-of-K coding
+- [ ] 5.1.4 - Least squares for classification
+- [ ] 5.2 - Decision Theory
+- [ ] 5.2.1 - Misclassification rate
+- [ ] 5.2.2 - Expected loss
+- [ ] 5.2.3 - The reject option
+- [ ] 5.2.4 - Inference and decision
+- [ ] 5.2.5 - Classifier accuracy
+- [ ] 5.2.6 - ROC curve
+- [ ] 5.3 - Generative Classifiers
+- [ ] 5.3.1 - Continuous inputs
+- [ ] 5.3.2 - Maximum likelihood solution
+- [ ] 5.3.3 - Discrete features
+- [ ] 5.3.4 - Exponential family
+- [ ] 5.4 - Discriminative Classifiers
+- [ ] 5.4.1 - Activation functions
+- [ ] 5.4.2 - Fixed basis functions
+- [ ] 5.4.3 - Logistic regression
+- [ ] 5.4.4 - Multi-class logistic regression
+- [ ] 5.4.5 - Probit regression
+- [ ] 5.4.6 - Canonical link functions
+- [ ] 6 - Deep Neural Networks
+- [ ] 6.1 - Limitations of Fixed Basis Functions
+- [ ] 6.1.1 - The curse of dimensionality
+- [ ] 6.1.2 - High-dimensional spaces
+- [ ] 6.1.3 - Data manifolds
+- [ ] 6.1.4 - Data-dependent basis functions
+- [ ] 6.2 - Multilayer Networks
+- [ ] 6.2.1 - Parameter matrices
+- [ ] 6.2.2 - Universal approximation
+- [ ] 6.2.3 - Hidden unit activation functions
+- [ ] 6.2.4 - Weight-space symmetries
+- [ ] 6.3 - Deep Networks
+- [ ] 6.3.1 - Hierarchical representations
+- [ ] 6.3.2 - Distributed representations
+- [ ] 6.3.3 - Representation learning
+- [ ] 6.3.4 - Transfer learning
+- [ ] 6.3.5 - Contrastive learning
+- [ ] 6.3.6 - General network architectures
+- [ ] 6.3.7 - Tensors
+- [ ] 6.4 - Error Functions
+- [ ] 6.4.1 - Regression
+- [ ] 6.4.2 - Binary classification
+- [ ] 6.4.3 - Multiclass classification
+- [ ] 6.5 - Mixture Density Networks
+- [ ] 6.5.1 - Robot kinematics example
+- [ ] 6.5.2 - Conditional mixture distributions
+- [ ] 6.5.3 - Gradient optimization
+- [ ] 6.5.4 - Predictive distribution
+- [ ] 7 - Gradient Descent
+- [ ] 7.1 - Error Surfaces
+- [ ] 7.1.1 - Local quadratic approximation
+- [ ] 7.2 - Gradient Descent Optimization
+- [ ] 7.2.1 - Use of gradient information
+- [ ] 7.2.2 - Batch gradient descent
+- [ ] 7.2.3 - Stochastic gradient descent
+- [ ] 7.2.4 - Mini-batches
+- [ ] 7.2.5 - Parameter initialization
+- [ ] 7.3 - Convergence
+- [ ] 7.3.1 - Momentum
+- [ ] 7.3.2 - Learning rate schedule
+- [ ] 7.3.3 - RMSProp and Adam
+- [ ] 7.4 - Normalization
+- [ ] 7.4.1 - Data normalization
+- [ ] 7.4.2 - Batch normalization
+- [ ] 7.4.3 - Layer normalization
+- [ ] 8 - Backpropagation
+- [ ] 8.1 - Evaluation of Gradients
+- [ ] 8.1.1 - Single-layer networks
+- [ ] 8.1.2 - General feed-forward networks
+- [ ] 8.1.3 - A simple example
+- [ ] 8.1.4 - Numerical differentiation
+- [ ] 8.1.5 - The Jacobian matrix
+- [ ] 8.1.6 - The Hessian matrix
+- [ ] 8.2 - Automatic Differentiation
+- [ ] 8.2.1 - Forward-mode automatic differentiation
+- [ ] 8.2.2 - Reverse-mode automatic differentiation
+- [ ] 9 - Regularization
+- [ ] 9.1 - Inductive Bias
+- [ ] 9.1.1 - Inverse problems
+- [ ] 9.1.2 - No free lunch theorem
+- [ ] 9.1.3 - Symmetry and invariance
+- [ ] 9.1.4 - Equivariance
+- [ ] 9.2 - Weight Decay
+- [ ] 9.2.1 - Consistent regularizers
+- [ ] 9.2.2 - Generalized weight decay
+- [ ] 9.3 - Learning Curves
+- [ ] 9.3.1 - Early stopping
+- [ ] 9.3.2 - Double descent
+- [ ] 9.4 - Parameter Sharing
+- [ ] 9.4.1 - Soft weight sharing
+- [ ] 9.5 - Residual Connections
+- [ ] 9.6 - Model Averaging
+- [ ] 9.6.1 - Dropout
+- [ ] 10 - Convolutional Networks
+- [ ] 10.1 - Computer Vision
+- [ ] 10.1.1 - Image data
+- [ ] 10.2 - Convolutional Filters
+- [ ] 10.2.1 - Feature detectors
+- [ ] 10.2.2 - Translation equivariance
+- [ ] 10.2.3 - Padding
+- [ ] 10.2.4 - Strided convolutions
+- [ ] 10.2.5 - Multi-dimensional convolutions
+- [ ] 10.2.6 - Pooling
+- [ ] 10.2.7 - Multilayer convolutions
+- [ ] 10.2.8 - Example network architectures
+- [ ] 10.3 - Visualizing Trained CNNs
+- [ ] 10.3.1 - Visual cortex
+- [ ] 10.3.2 - Visualizing trained filters
+- [ ] 10.3.3 - Saliency maps
+- [ ] 10.3.4 - Adversarial attacks
+- [ ] 10.3.5 - Synthetic images
+- [ ] 10.4 - Object Detection
+- [ ] 10.4.1 - Bounding boxes
+- [ ] 10.4.2 - Intersection-over-union
+- [ ] 10.4.3 - Sliding windows
+- [ ] 10.4.4 - Detection across scales
+- [ ] 10.4.5 - Non-max suppression
+- [ ] 10.4.6 - Fast region CNNs
+- [ ] 10.5 - Image Segmentation
+- [ ] 10.5.1 - Convolutional segmentation
+- [ ] 10.5.2 - Up-sampling
+- [ ] 10.5.3 - Fully convolutional networks
+- [ ] 10.5.4 - The U-net architecture
+- [ ] 10.6 - Style Transfer
+- [ ] 11 - Structured Distributions
+- [ ] 11.1 - Graphical Models
+- [ ] 11.1.1 - Directed graphs
+- [ ] 11.1.2 - Factorization
+- [ ] 11.1.3 - Discrete variables
+- [ ] 11.1.4 - Gaussian variables
+- [ ] 11.1.5 - Binary classifier
+- [ ] 11.1.6 - Parameters and observations
+- [ ] 11.1.7 - Bayes’ theorem
+- [ ] 11.2 - Conditional Independence
+- [ ] 11.2.1 - Three example graphs
+- [ ] 11.2.2 - Explaining away
+- [ ] 11.2.3 - D-separation
+- [ ] 11.2.4 - Naive Bayes
+- [ ] 11.2.5 - Generative models
+- [ ] 11.2.6 - Markov blanket
+- [ ] 11.2.7 - Graphs as filters
+- [ ] 11.3 - Sequence Models
+- [ ] 11.3.1 - Hidden variables
+- [ ] 12 - Transformers
+- [ ] 12.1 - Attention
+- [ ] 12.1.1 - Transformer processing
+- [ ] 12.1.2 - Attention coefficients
+- [ ] 12.1.3 - Self-attention
+- [ ] 12.1.4 - Network parameters
+- [ ] 12.1.5 - Scaled self-attention
+- [ ] 12.1.6 - Multi-head attention
+- [ ] 12.1.7 - Transformer layers
+- [ ] 12.1.8 - Computational complexity
+- [ ] 12.1.9 - Positional encoding
+- [ ] 12.2 - Natural Language
+- [ ] 12.2.1 - Word embedding
+- [ ] 12.2.2 - Tokenization
+- [ ] 12.2.3 - Bag of words
+- [ ] 12.2.4 - Autoregressive models
+- [ ] 12.2.5 - Recurrent neural networks
+- [ ] 12.2.6 - Backpropagation through time
+- [ ] 12.3 - Transformer Language Models
+- [ ] 12.3.1 - Decoder transformers
+- [ ] 12.3.2 - Sampling strategies
+- [ ] 12.3.3 - Encoder transformers
+- [ ] 12.3.4 - Sequence-to-sequence transformers
+- [ ] 12.3.5 - Large language models
+- [ ] 12.4 - Multimodal Transformers
+- [ ] 12.4.1 - Vision transformers
+- [ ] 12.4.2 - Generative image transformers
+- [ ] 12.4.3 - Audio data
+- [ ] 12.4.4 - Text-to-speech
+- [ ] 12.4.5 - Vision and language transformers
+- [ ] 13 - Graph Neural Networks
+- [ ] 13.1 - Machine Learning on Graphs
+- [ ] 13.1.1 - Graph properties
+- [ ] 13.1.2 - Adjacency matrix
+- [ ] 13.1.3 - Permutation equivariance
+- [ ] 13.2 - Neural Message-Passing
+- [ ] 13.2.1 - Convolutional filters
+- [ ] 13.2.2 - Graph convolutional networks
+- [ ] 13.2.3 - Aggregation operators
+- [ ] 13.2.4 - Update operators
+- [ ] 13.2.5 - Node classification
+- [ ] 13.2.6 - Edge classification
+- [ ] 13.2.7 - Graph classification
+- [ ] 13.3 - General Graph Networks
+- [ ] 13.3.1 - Graph attention networks
+- [ ] 13.3.2 - Edge embeddings
+- [ ] 13.3.3 - Graph embeddings
+- [ ] 13.3.4 - Over-smoothing
+- [ ] 13.3.5 - Regularization
+- [ ] 13.3.6 - Geometric deep learning
+- [ ] 14 - Sampling
+- [ ] 14.1 - Basic Sampling Algorithms
+- [ ] 14.1.1 - Expectations
+- [ ] 14.1.2 - Standard distributions
+- [ ] 14.1.3 - Rejection sampling
+- [ ] 14.1.4 - Adaptive rejection sampling
+- [ ] 14.1.5 - Importance sampling
+- [ ] 14.1.6 - Sampling-importance-resampling
+- [ ] 14.2 - Markov Chain Monte Carlo
+- [ ] 14.2.1 - The Metropolis algorithm
+- [ ] 14.2.2 - Markov chains
+- [ ] 14.2.3 - The Metropolis–Hastings algorithm
+- [ ] 14.2.4 - Gibbs sampling
+- [ ] 14.2.5 - Ancestral sampling
+- [ ] 14.3 - Langevin Sampling
+- [ ] 14.3.1 - Energy-based models
+- [ ] 14.3.2 - Maximizing the likelihood
+- [ ] 14.3.3 - Langevin dynamics
+- [ ] 15 - Discrete Latent Variables
+- [ ] 15.1 - K-means Clustering
+- [ ] 15.1.1 - Image segmentation
+- [ ] 15.2 - Mixtures of Gaussians
+- [ ] 15.2.1 - Likelihood function
+- [ ] 15.2.2 - Maximum likelihood
+- [ ] 15.3 - Expectation–Maximization Algorithm
+- [ ] 15.3.1 - Gaussian mixtures
+- [ ] 15.3.2 - Relation to K-means
+- [ ] 15.3.3 - Mixtures of Bernoulli distributions
+- [ ] 15.4 - Evidence Lower Bound
+- [ ] 15.4.1 - EM revisited
+- [ ] 15.4.2 - Independent and identically distributed data
+- [ ] 15.4.3 - Parameter priors
+- [ ] 15.4.4 - Generalized EM
+- [ ] 15.4.5 - Sequential EM
+- [ ] 16 - Continuous Latent Variables
+- [ ] 16.1 - Principal Component Analysis
+- [ ] 16.1.1 - Maximum variance formulation
+- [ ] 16.1.2 - Minimum-error formulation
+- [ ] 16.1.3 - Data compression
+- [ ] 16.1.4 - Data whitening
+- [ ] 16.1.5 - High-dimensional data
+- [ ] 16.2 - Probabilistic Latent Variables
+- [ ] 16.2.1 - Generative model
+- [ ] 16.2.2 - Likelihood function
+- [ ] 16.2.3 - Maximum likelihood
+- [ ] 16.2.4 - Factor analysis
+- [ ] 16.2.5 - Independent component analysis
+- [ ] 16.2.6 - Kalman filters
+- [ ] 16.3 - Evidence Lower Bound
+- [ ] 16.3.1 - Expectation maximization
+- [ ] 16.3.2 - EM for PCA
+- [ ] 16.3.3 - EM for factor analysis
+- [ ] 16.4 - Nonlinear Latent Variable Models
+- [ ] 16.4.1 - Nonlinear manifolds
+- [ ] 16.4.2 - Likelihood function
+- [ ] 16.4.3 - Discrete data
+- [ ] 16.4.4 - Four approaches to generative modelling
+- [ ] 17 - Generative Adversarial Networks
+- [ ] 17.1 - Adversarial Training
+- [ ] 17.1.1 - Loss function
+- [ ] 17.1.2 - GAN training in practice
+- [ ] 17.2 - Image GANs
+- [ ] 17.2.1 - CycleGAN
+- [ ] 18 - Normalizing Flows
+- [ ] 18.1 - Coupling Flows
+- [ ] 18.2 - Autoregressive Flows
+- [ ] 18.3 - Continuous Flows
+- [ ] 18.3.1 - Neural differential equations
+- [ ] 18.3.2 - Neural ODE backpropagation
+- [ ] 18.3.3 - Neural ODE flows
+- [ ] 19 - Autoencoders
+- [ ] 19.1 - Deterministic Autoencoders
+- [ ] 19.1.1 - Linear autoencoders
+- [ ] 19.1.2 - Deep autoencoders
+- [ ] 19.1.3 - Sparse autoencoders
+- [ ] 19.1.4 - Denoising autoencoders
+- [ ] 19.1.5 - Masked autoencoders
+- [ ] 19.2 - Variational Autoencoders
+- [ ] 19.2.1 - Amortized inference
+- [ ] 19.2.2 - The reparameterization trick
+- [ ] 20 - Diffusion Models
+- [ ] 20.1 - Forward Encoder
+- [ ] 20.1.1 - Diffusion kernel
+- [ ] 20.1.2 - Conditional distribution
+- [ ] 20.2 - Reverse Decoder
+- [ ] 20.2.1 - Training the decoder
+- [ ] 20.2.2 - Evidence lower bound
+- [ ] 20.2.3 - Rewriting the ELBO
+- [ ] 20.2.4 - Predicting the noise
+- [ ] 20.2.5 - Generating new samples
+- [ ] 20.3 - Score Matching
+- [ ] 20.3.1 - Score loss function
+- [ ] 20.3.2 - Modified score loss
+- [ ] 20.3.3 - Noise variance
+- [ ] 20.3.4 - Stochastic differential equations
+- [ ] 20.4 - Guided Diffusion
+- [ ] 20.4.1 - Classifier guidance
+
+
+## DSA
+- [ ] 4 - Sorting
+- [ ] 4.1 - Applications of Sorting
+- [ ] 4.2 - Pragmatics of Sorting
+- [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
+- [ ] 4.3.1 - Heaps
+- [ ] 4.3.2 - Constructing Heaps
+- [ ] 4.3.3 - Extracting the Minimum
+- [ ] 4.3.4 - Faster Heap Construction (*)
+- [ ] 4.3.5 - Sorting by Incremental Insertion
+- [ ] 4.4 - War Story: Give me a Ticket on an Airplane
+- [ ] 4.5 - Mergesort: Sorting by Divide and Conquer
+- [ ] 4.6 - Quicksort: Sorting by Randomization
+- [ ] 4.6.1 - Intuition: The Expected Case for Quicksort
+- [ ] 4.6.2 - Randomized Algorithms
+- [ ] 4.6.3 - Is Quicksort Really Quick?
+- [ ] 4.7 - Distribution Sort: Sorting via Bucketing
+- [ ] 4.7.1 - Lower Bounds for Sorting
+- [ ] 4.8 - War Story: Skiena for the Defense
+- [ ] 4.9 - Exercises
+- [ ] 5 - Divide and Conquer
+- [ ] 5.1 - Binary Search and Related Algorithms
+- [ ] 5.1.1 - Counting Occurrences
+- [ ] 5.1.2 - One-Sided Binary Search
+- [ ] 5.1.3 - Square and Other Roots
+- [ ] 5.2 - War Story: Finding the Bug in the Bug
+- [ ] 5.3 - Recurrence Relations
+- [ ] 5.3.1 - Divide-and-Conquer Recurrences
+- [ ] 5.4 - Solving Divide-and-Conquer Recurrences
+- [ ] 5.5 - Fast Multiplication
+- [ ] 5.6 - Largest Subrange and Closest Pair
+- [ ] 5.7 - Parallel Algorithms
+- [ ] 5.7.1 - Data Parallelism
+- [ ] 5.7.2 - Pitfalls of Parallelism
+- [ ] 5.8 - War Story: Going Nowhere Fast
+- [ ] 5.9 - Convolution (*)
+- [ ] 5.9.1 - Applications of Convolution
+- [ ] 5.9.2 - Fast Polynomial Multiplication (**)
+- [ ] 5.10 - Exercises
+- [ ] 6 - Hashing and Randomized Algorithms
+- [ ] 6.1 - Probability Review
+- [ ] 6.1.1 - Probability
+- [ ] 6.1.2 - Compound Events and Independence
+- [ ] 6.1.3 - Conditional Probability
+- [ ] 6.1.4 - Probability Distributions
+- [ ] 6.1.5 - Mean and Variance
+- [ ] 6.1.6 - Tossing Coins
+- [ ] 6.2 - Understanding Balls and Bins
+- [ ] 6.2.1 - The Coupon Collector’s Problem
+- [ ] 6.3 - Why is Hashing a Randomized Algorithm?
+- [ ] 6.4 - Bloom Filters
+- [ ] 6.5 - The Birthday Paradox and Perfect Hashing
+- [ ] 6.6 - Minwise Hashing
+- [ ] 6.7 - Efficient String Matching
+- [ ] 6.8 - Primality Testing
+- [ ] 6.9 - War Story: Giving Knuth the Middle Initial
+- [ ] 6.10 - Where do Random Numbers Come From?
+- [ ] 6.11 - Exercises
+- [ ] 7 - Graph Traversal
+- [ ] 7.1 - Flavors of Graphs
+- [ ] 7.1.1 - The Friendship Graph
+- [ ] 7.2 - Data Structures for Graphs
+- [ ] 7.3 - War Story: I was a Victim of Moore’s Law
+- [ ] 7.4 - War Story: Getting the Graph
+- [ ] 7.5 - Traversing a Graph
+- [ ] 7.6 - Breadth-First Search
+- [ ] 7.6.1 - Exploiting Traversal
+- [ ] 7.6.2 - Finding Paths
+- [ ] 7.7 - Applications of Breadth-First Search
+- [ ] 7.7.1 - Connected Components
+- [ ] 7.7.2 - Two-Coloring Graphs
+- [ ] 7.8 - Depth-First Search
+- [ ] 7.9 - Applications of Depth-First Search
+- [ ] 7.9.1 - Finding Cycles
+- [ ] 7.9.2 - Articulation Vertices
+- [ ] 7.10 - Depth-First Search on Directed Graphs
+- [ ] 7.10.1 - Topological Sorting
+- [ ] 7.10.2 - Strongly Connected Components
+- [ ] 7.11 - Exercises
+- [ ] 8 - Weighted Graph Algorithms
+- [ ] 8.1 - Minimum Spanning Trees
+- [ ] 8.1.1 - Prim’s Algorithm
+- [ ] 8.1.2 - Kruskal’s Algorithm
+- [ ] 8.1.3 - The Union–Find Data Structure
+- [ ] 8.1.4 - Variations on Minimum Spanning Trees
+- [ ] 8.2 - War Story: Nothing but Nets
+- [ ] 8.3 - Shortest Paths
+- [ ] 8.3.1 - Dijkstra’s Algorithm
+- [ ] 8.3.2 - All-Pairs Shortest Path
+- [ ] 8.3.3 - Transitive Closure
+- [ ] 8.4 - War Story: Dialing for Documents
+- [ ] 8.5 - Network Flows and Bipartite Matching
+- [ ] 8.5.1 - Bipartite Matching
+- [ ] 8.5.2 - Computing Network Flows
+- [ ] 8.6 - Randomized Min-Cut
+- [ ] 8.7 - Design Graphs, Not Algorithms
+- [ ] 8.8 - Exercises
+- [ ] 9 - Combinatorial Search
+- [ ] 9.1 - Backtracking
+- [ ] 9.2 - Examples of Backtracking
+- [ ] 9.2.1 - Constructing All Subsets
+- [ ] 9.2.2 - Constructing All Permutations
+- [ ] 9.2.3 - Constructing All Paths in a Graph
+- [ ] 9.3 - Search Pruning
+- [ ] 9.4 - Sudoku
+- [ ] 9.5 - War Story: Covering Chessboards
+- [ ] 9.6 - Best-First Search
+- [ ] 9.7 - The A* Heuristic
+- [ ] 9.8 - Exercises
+- [ ] 10 - Dynamic Programming
+- [ ] 10.1 - Caching vs. Computation
+- [ ] 10.1.1 - Fibonacci Numbers by Recursion
+- [ ] 10.1.2 - Fibonacci Numbers by Caching
+- [ ] 10.1.3 - Fibonacci Numbers by Dynamic Programming
+- [ ] 10.1.4 - Binomial Coefficients
+- [ ] 10.2 - Approximate String Matching
+- [ ] 10.2.1 - Edit Distance by Recursion
+- [ ] 10.2.2 - Edit Distance by Dynamic Programming
+- [ ] 10.2.3 - Reconstructing the Path
+- [ ] 10.2.4 - Varieties of Edit Distance
+- [ ] 10.3 - Longest Increasing Subsequence
+- [ ] 10.4 - War Story: Text Compression for Bar Codes
+- [ ] 10.5 - Unordered Partition or Subset Sum
+- [ ] 10.6 - War Story: The Balance of Power
+- [ ] 10.7 - The Ordered Partition Problem
+- [ ] 10.8 - Parsing Context-Free Grammars
+- [ ] 10.9 - Limitations of Dynamic Programming: TSP
+- [ ] 10.9.1 - When is Dynamic Programming Correct?
+- [ ] 10.9.2 - When is Dynamic Programming Efficient?
+- [ ] 10.10 - War Story: What’s Past is Prolog
+- [ ] 10.11 - Exercises
+- [ ] 11 - NP-Completeness
+- [ ] 11.1 - Problems and Reductions
+- [ ] 11.1.1 - The Key Idea
+- [ ] 11.1.2 - Decision Problems
+- [ ] 11.2 - Reductions for Algorithms
+- [ ] 11.2.1 - Closest Pair
+- [ ] 11.2.2 - Longest Increasing Subsequence
+- [ ] 11.2.3 - Least Common Multiple
+- [ ] 11.2.4 - Convex Hull (*)
+- [ ] 11.3 - Elementary Hardness Reductions
+- [ ] 11.3.1 - Hamiltonian Cycle
+- [ ] 11.3.2 - Independent Set and Vertex Cover
+- [ ] 11.3.3 - Clique
+- [ ] 11.4 - Satisfiability
+- [ ] 11.4.1 - 3-Satisfiability
+- [ ] 11.5 - Creative Reductions from SAT
+- [ ] 11.5.1 - Vertex Cover
+- [ ] 11.5.2 - Integer Programming
+- [ ] 11.6 - The Art of Proving Hardness
+- [ ] 11.7 - War Story: Hard Against the Clock
+- [ ] 11.8 - War Story: And Then I Failed
+- [ ] 11.9 - P vs. NP
+- [ ] 11.9.1 - Verification vs. Discovery
+- [ ] 11.9.2 - The Classes P and NP
+- [ ] 11.9.3 - Why Satisfiability is Hard
+- [ ] 11.9.4 - NP-hard vs. NP-complete?
+- [ ] 11.10 - Exercises
+- [ ] 12 - Dealing with Hard Problems
+- [ ] 12.1 - Approximation Algorithms
+- [ ] 12.2 - Approximating Vertex Cover
+- [ ] 12.2.1 - A Randomized Vertex Cover Heuristic
+- [ ] 12.3 - Euclidean TSP
+- [ ] 12.3.1 - The Christofides Heuristic
+- [ ] 12.4 - When Average is Good Enough
+- [ ] 12.4.1 - Maximum k-SAT
+- [ ] 12.4.2 - Maximum Acyclic Subgraph
+- [ ] 12.5 - Set Cover
+- [ ] 12.6 - Heuristic Search Methods
+- [ ] 12.6.1 - Random Sampling
+- [ ] 12.6.2 - Local Search
+- [ ] 12.6.3 - Simulated Annealing
+- [ ] 12.6.4 - Applications of Simulated Annealing
+- [ ] 12.7 - War Story: Only it is Not a Radio
+- [ ] 12.8 - War Story: Annealing Arrays
+- [ ] 12.9 - Genetic Algorithms and Other Heuristics
+- [ ] 12.10 - Quantum Computing
+- [ ] 12.10.1 - Properties of “Quantum” Computers
+- [ ] 12.10.2 - Grover’s Algorithm for Database Search
+- [ ] 12.10.3 - The Faster “Fourier Transform”
+- [ ] 12.10.4 - Shor’s Algorithm for Integer Factorization
+- [ ] 12.10.5 - Prospects for Quantum Computing
+- [ ] 12.11 - Exercises
+- [ ] 13 - How to Design Algorithms
+- [ ] 13.1 - Preparing for Tech Company Interviews
+
+
+## CS:APP
+- [ ] A Tour of Computer Systems
+- [ ] 1.1 - Information Is Bits + Context
+- [ ] 1.2 - Programs Are Translated by Other Programs into Different Forms
+- [ ] 1.3 - It Pays to Understand How Compilation Systems Work
+- [ ] 1.4 - Processors Read and Interpret Instructions Stored in Memory
+- [ ] 1.4.1 - Hardware Organization of a System
+- [ ] 1.4.2 - Running the hello Program
+- [ ] 1.5 - Caches Matter
+- [ ] 1.6 - Storage Devices Form a Hierarchy
+- [ ] 1.7 - The Operating System Manages the Hardware
+- [ ] 1.7.1 - Processes
+- [ ] 1.7.2 - Threads
+- [ ] 1.7.3 - Virtual Memory
+- [ ] 1.7.4 - Files
+- [ ] 1.8 - Systems Communicate with Other Systems Using Networks
+- [ ] 1.9 - Important Themes
+- [ ] 1.9.1 - Amdahl’s Law
+- [ ] 1.9.2 - Concurrency and Parallelism
+- [ ] 1.9.3 - The Importance of Abstractions in Computer Systems
+- [ ] 1.10 - Summary
+- [ ] Representing and Manipulating Information
+- [ ] 2.1 - Information Storage
+- [ ] 2.1.1 - Hexadecimal Notation
+- [ ] 2.1.2 - Data Sizes
+- [ ] 2.1.3 - Addressing and Byte Ordering
+- [ ] 2.1.4 - Representing Strings
+- [ ] 2.1.5 - Representing Code
+- [ ] 2.1.6 - Introduction to Boolean Algebra
+- [ ] 2.1.7 - Bit-Level Operations in C
+- [ ] 2.1.8 - Logical Operations in C
+- [ ] 2.1.9 - Shift Operations in C
+- [ ] 2.2 - Integer Representations
+- [ ] 2.2.1 - Integral Data Types
+- [ ] 2.2.2 - Unsigned Encodings
+- [ ] 2.2.3 - Two’s-Complement Encodings
+- [ ] 2.2.4 - Conversions between Signed and Unsigned
+- [ ] 2.2.5 - Signed versus Unsigned in C
+- [ ] 2.2.6 - Expanding the Bit Representation of a Number
+- [ ] 2.2.7 - Truncating Numbers
+- [ ] 2.2.8 - Advice on Signed versus Unsigned
+- [ ] 2.3 - Integer Arithmetic
+- [ ] 2.3.1 - Unsigned Addition
+- [ ] 2.3.2 - Two’s-Complement Addition
+- [ ] 2.3.3 - Two’s-Complement Negation
+- [ ] 2.3.4 - Unsigned Multiplication
+- [ ] 2.3.5 - Two’s-Complement Multiplication
+- [ ] 2.3.6 - Multiplying by Constants
+- [ ] 2.3.7 - Dividing by Powers of 2
+- [ ] 2.3.8 - Final Thoughts on Integer Arithmetic
+- [ ] 2.4 - Floating Point
+- [ ] 2.4.1 - Fractional Binary Numbers
+- [ ] 2.4.2 - IEEE Floating-Point Representation
+- [ ] 2.4.3 - Example Numbers
+- [ ] 2.4.4 - Rounding
+- [ ] 2.4.5 - Floating-Point Operations
+- [ ] 2.4.6 - Floating Point in C
+- [ ] Processor Architecture
+- [ ] 4.1 - The Y86-64 Instruction Set Architecture
+- [ ] 4.1.1 - Programmer-Visible State
+- [ ] 4.1.2 - Y86-64 Instructions
+- [ ] 4.1.3 - Instruction Encoding
+- [ ] 4.1.4 - Y86-64 Exceptions
+- [ ] 4.1.5 - Y86-64 Programs
+- [ ] 4.1.6 - Some Y86-64 Instruction Details
+- [ ] 4.2 - Logic Design and the Hardware Control Language HCL
+- [ ] 4.2.1 - Logic Gates
+- [ ] 4.2.2 - Combinational Circuits and HCL Boolean Expressions
+- [ ] 4.2.3 - Word-Level Combinational Circuits and HCL Integer Expressions
+- [ ] 4.2.4 - Set Membership
+- [ ] 4.2.5 - Memory and Clocking
+- [ ] 4.3 - Sequential Y86-64 Implementations
+- [ ] 4.3.1 - Organizing Processing into Stages
+- [ ] 4.3.2 - SEQ Hardware Structure
+- [ ] 4.3.3 - SEQ Timing
+- [ ] 4.3.4 - SEQ Stage Implementations
+- [ ] 4.4 - General Principles of Pipelining
+- [ ] 4.4.1 - Computational Pipelines
+- [ ] 4.4.2 - A Detailed Look at Pipeline Operation
+- [ ] 4.4.3 - Limitations of Pipelining
+- [ ] 4.4.4 - Pipelining a System with Feedback
+- [ ] 4.5 - Pipelined Y86-64 Implementations
+- [ ] 4.5.1 - SEQ+: Rearranging the Computation Stages
+- [ ] 4.5.2 - Inserting Pipeline Registers
+- [ ] 4.5.3 - Rearranging and Relabeling Signals
+- [ ] 4.5.4 - Next PC Prediction
+- [ ] 4.5.5 - Pipeline Hazards
+- [ ] 4.5.6 - Exception Handling
+- [ ] 4.5.7 - PIPE Stage Implementations
+- [ ] 4.5.8 - Pipeline Control Logic
+- [ ] 4.5.9 - Performance Analysis
+- [ ] 4.5.10 - Unfinished Business
+- [ ] Optimizing Program Performance
+- [ ] 5.1 - Capabilities and Limitations of Optimizing Compilers
+- [ ] 5.2 - Expressing Program Performance
+- [ ] 5.3 - Program Example
+- [ ] 5.4 - Eliminating Loop Inefficiencies
+- [ ] 5.5 - Reducing Procedure Calls
+- [ ] 5.6 - Eliminating Unneeded Memory References
+- [ ] 5.7 - Understanding Modern Processors
+- [ ] 5.7.1 - Overall Operation
+- [ ] 5.7.2 - Functional Unit Performance
+- [ ] 5.7.3 - An Abstract Model of Processor Operation
+- [ ] 5.8 - Loop Unrolling
+- [ ] 5.9 - Enhancing Parallelism
+- [ ] 5.9.1 - Multiple Accumulators
+- [ ] 5.9.2 - Reassociation Transformation
+- [ ] 5.10 - Summary of Results for Optimizing Combining Code
+- [ ] 5.11 - Some Limiting Factors
+- [ ] 5.11.1 - Register Spilling
+- [ ] 5.11.2 - Branch Prediction and Misprediction Penalties
+- [ ] 5.12 - Understanding Memory Performance
+- [ ] 5.12.1 - Load Performance
+- [ ] 5.12.2 - Store Performance
+- [ ] 5.13 - Life in the Real World: Performance Improvement Techniques
+- [ ] 5.14 - Identifying and Eliminating Performance Bottlenecks
+- [ ] 5.14.1 - Program Profiling
+- [ ] 5.14.2 - Using a Profiler to Guide Optimization
+- [ ] 5.15 - Summary
+- [ ] The Memory Hierarchy
+- [ ] 6.1 - Storage Technologies
+- [ ] 6.1.1 - Random Access Memory
+- [ ] 6.1.2 - Disk Storage
+- [ ] 6.1.3 - Solid State Disks
+- [ ] 6.1.4 - Storage Technology Trends
+- [ ] 6.2 - Locality
+- [ ] 6.2.1 - Locality of References to Program Data
+- [ ] 6.2.2 - Locality of Instruction Fetches
+- [ ] 6.2.3 - Summary of Locality
+- [ ] 6.3 - The Memory Hierarchy
+- [ ] 6.3.1 - Caching in the Memory Hierarchy
+- [ ] 6.3.2 - Summary of Memory Hierarchy Concepts
+- [ ] 6.4 - Cache Memories
+- [ ] 6.4.1 - Generic Cache Memory Organization
+- [ ] 6.4.2 - Direct-Mapped Caches
+- [ ] 6.4.3 - Set Associative Caches
+- [ ] 6.4.4 - Fully Associative Caches
+- [ ] 6.4.5 - Issues with Writes
+- [ ] 6.4.6 - Anatomy of a Real Cache Hierarchy
+- [ ] 6.4.7 - Performance Impact of Cache Parameters
+- [ ] 6.5 - Writing Cache-Friendly Code
+- [ ] 6.6 - Putting It Together: The Impact of Caches on Program Performance
+- [ ] 6.6.1 - The Memory Mountain
+- [ ] 6.6.2 - Rearranging Loops to Increase Spatial Locality
+- [ ] 6.6.3 - Exploiting Locality in Your Programs
+- [ ] Linking
+- [ ] 7.1 - Compiler Drivers
+- [ ] 7.2 - Static Linking
+- [ ] 7.3 - Object Files
+- [ ] 7.4 - Relocatable Object Files
+- [ ] 7.5 - Symbols and Symbol Tables
+- [ ] 7.6 - Symbol Resolution
+- [ ] 7.6.1 - How Linkers Resolve Duplicate Symbol Names
+- [ ] 7.6.2 - Linking with Static Libraries
+- [ ] 7.6.3 - How Linkers Use Static Libraries to Resolve References
+- [ ] 7.7 - Relocation
+- [ ] 7.7.1 - Relocation Entries
+- [ ] 7.7.2 - Relocating Symbol References
+- [ ] 7.8 - Executable Object Files
+- [ ] 7.9 - Loading Executable Object Files
+- [ ] 7.10 - Dynamic Linking with Shared Libraries
+- [ ] 7.11 - Loading and Linking Shared Libraries from Applications
+- [ ] 7.12 - Position-Independent Code (PIC)
+- [ ] 7.13 - Library Interpositioning
+- [ ] 7.13.1 - Compile-Time Interpositioning
+- [ ] 7.13.2 - Link-Time Interpositioning
+- [ ] 7.13.3 - Run-Time Interpositioning
+- [ ] 7.14 - Tools for Manipulating Object Files
+- [ ] Exceptional Control Flow
+- [ ] 8.1 - Exceptions
+- [ ] 8.1.1 - Exception Handling
+- [ ] 8.1.2 - Classes of Exceptions
+- [ ] 8.1.3 - Exceptions in Linux/x86-64 Systems
+- [ ] 8.2 - Processes
+- [ ] 8.2.1 - Logical Control Flow
+- [ ] 8.2.2 - Concurrent Flows
+- [ ] 8.2.3 - Private Address Space
+- [ ] 8.2.4 - User and Kernel Modes
+- [ ] 8.2.5 - Context Switches
+- [ ] 8.3 - System Call Error Handling
+- [ ] 8.4 - Process Control
+- [ ] 8.4.1 - Obtaining Process IDs
+- [ ] 8.4.2 - Creating and Terminating Processes
+- [ ] 8.4.3 - Reaping Child Processes
+- [ ] 8.4.4 - Putting Processes to Sleep
+- [ ] 8.4.5 - Loading and Running Programs
+- [ ] 8.4.6 - Using fork and execve to Run Programs
+- [ ] 8.5 - Signals
+- [ ] 8.5.1 - Signal Terminology
+- [ ] 8.5.2 - Sending Signals
+- [ ] 8.5.3 - Receiving Signals
+- [ ] 8.5.4 - Blocking and Unblocking Signals
+- [ ] 8.5.5 - Writing Signal Handlers
+- [ ] 8.5.6 - Synchronizing Flows to Avoid Nasty Concurrency Bugs
+- [ ] 8.5.7 - Explicitly Waiting for Signals
+- [ ] 8.6 - Nonlocal Jumps
+- [ ] 8.7 - Tools for Manipulating Processes
+- [ ] Virtual Memory
+- [ ] 9.1 - Physical and Virtual Addressing
+- [ ] 9.2 - Address Spaces
+- [ ] 9.3 - VM as a Tool for Caching
+- [ ] 9.3.1 - DRAM Cache Organization
+- [ ] 9.3.2 - Page Tables
+- [ ] 9.3.3 - Page Hits
+- [ ] 9.3.4 - Page Faults
+- [ ] 9.3.5 - Allocating Pages
+- [ ] 9.3.6 - Locality to the Rescue Again
+- [ ] 9.4 - VM as a Tool for Memory Management
+- [ ] 9.5 - VM as a Tool for Memory Protection
+- [ ] 9.6 - Address Translation
+- [ ] 9.6.1 - Integrating Caches and VM
+- [ ] 9.6.2 - Speeding Up Address Translation with a TLB
+- [ ] 9.6.3 - Multi-Level Page Tables
+- [ ] 9.6.4 - Putting It Together: End-to-End Address Translation
+- [ ] 9.7 - Case Study: The Intel Core i7/Linux Memory System
+- [ ] 9.7.1 - Core i7 Address Translation
+- [ ] 9.7.2 - Linux Virtual Memory System
+- [ ] 9.8 - Memory Mapping
+- [ ] 9.8.1 - Shared Objects Revisited
+- [ ] 9.8.2 - The fork Function Revisited
+- [ ] 9.8.3 - The execve Function Revisited
+- [ ] 9.8.4 - User-Level Memory Mapping with the mmap Function
+- [ ] 9.9 - Dynamic Memory Allocation
+- [ ] 9.9.1 - The malloc and free Functions
+- [ ] 9.9.2 - Why Dynamic Memory Allocation?
+- [ ] 9.9.3 - Allocator Requirements and Goals
+- [ ] 9.9.4 - Fragmentation
+- [ ] 9.9.5 - Implementation Issues
+- [ ] 9.9.6 - Implicit Free Lists
+- [ ] 9.9.7 - Placing Allocated Blocks
+- [ ] 9.9.8 - Splitting Free Blocks
+- [ ] 9.9.9 - Getting Additional Heap Memory
+- [ ] 9.9.10 - Coalescing Free Blocks
+- [ ] 9.9.11 - Coalescing with Boundary Tags
+- [ ] 9.9.12 - Putting It Together: Implementing a Simple Allocator
+- [ ] 9.9.13 - Explicit Free Lists
+- [ ] 9.9.14 - Segregated Free Lists
+- [ ] 9.10 - Garbage Collection
+- [ ] 9.10.1 - Garbage Collector Basics
+- [ ] 9.10.2 - Mark&Sweep Garbage Collectors
+- [ ] 9.10.3 - Conservative Mark&Sweep for C Programs
+- [ ] 9.11 - Common Memory-Related Bugs in C Programs
+- [ ] 9.11.1 - Dereferencing Bad Pointers
+- [ ] 9.11.2 - Reading Uninitialized Memory
+- [ ] 9.11.3 - Allowing Stack Buffer Overflows
+- [ ] 9.11.4 - Assuming That Pointers and the Objects They Point to Are the Same Size
+- [ ] 9.11.5 - Making Off-by-One Errors
+- [ ] 9.11.6 - Referencing a Pointer Instead of the Object It Points To
+- [ ] 9.11.7 - Misunderstanding Pointer Arithmetic
+- [ ] 9.11.8 - Referencing Nonexistent Variables
+- [ ] 9.11.9 - Referencing Data in Free Heap Blocks
+- [ ] 9.11.10 - Introducing Memory Leaks
+- [ ] System-Level I/O
+- [ ] 10.1 - Unix I/O
+- [ ] 10.2 - Files
+- [ ] 10.3 - Opening and Closing Files
+- [ ] 10.4 - Reading and Writing Files
+- [ ] 10.5 - Robust Reading and Writing with the Rio Package
+- [ ] 10.5.1 - Rio Unbuffered Input and Output Functions
+- [ ] 10.5.2 - Rio Buffered Input Functions
+- [ ] 10.6 - Reading File Metadata
+- [ ] 10.7 - Reading Directory Contents
+- [ ] 10.8 - Sharing Files
+- [ ] 10.9 - I/O Redirection
+- [ ] 10.10 - Standard I/O
+- [ ] 10.11 - Putting It Together: Which I/O Functions Should I Use?
+- [ ] Network Programming
+- [ ] 11.1 - The Client-Server Programming Model
+- [ ] 11.2 - Networks
+- [ ] 11.3 - The Global IP Internet
+- [ ] 11.3.1 - IP Addresses
+- [ ] 11.3.2 - Internet Domain Names
+- [ ] 11.3.3 - Internet Connections
+- [ ] 11.4 - The Sockets Interface
+- [ ] 11.4.1 - Socket Address Structures
+- [ ] 11.4.2 - The socket Function
+- [ ] 11.4.3 - The connect Function
+- [ ] 11.4.4 - The bind Function
+- [ ] 11.4.5 - The listen Function
+- [ ] 11.4.6 - The accept Function
+- [ ] 11.4.7 - Host and Service Conversion
+- [ ] 11.4.8 - Helper Functions for the Sockets Interface
+- [ ] 11.4.9 - Example Echo Client and Server
+- [ ] 11.5 - Web Servers
+- [ ] 11.5.1 - Web Basics
+- [ ] 11.5.2 - Web Content
+- [ ] 11.5.3 - HTTP Transactions
+- [ ] 11.5.4 - Serving Dynamic Content
+- [ ] 11.6 - Putting It Together: The Tiny Web Server
+- [ ] Concurrent Programming
+- [ ] 12.1 - Concurrent Programming with Processes
+- [ ] 12.1.1 - A Concurrent Server Based on Processes
+- [ ] 12.1.2 - Pros and Cons of Processes
+- [ ] 12.2 - Concurrent Programming with I/O Multiplexing
+- [ ] 12.2.1 - A Concurrent Event-Driven Server Based on I/O Multiplexing
+- [ ] 12.2.2 - Pros and Cons of I/O Multiplexing
+- [ ] 12.3 - Concurrent Programming with Threads
+- [ ] 12.3.1 - Thread Execution Model
+- [ ] 12.3.2 - Posix Threads
+- [ ] 12.3.3 - Creating Threads
+- [ ] 12.3.4 - Terminating Threads
+- [ ] 12.3.5 - Reaping Terminated Threads
+- [ ] 12.3.6 - Detaching Threads
+- [ ] 12.3.7 - Initializing Threads
+- [ ] 12.3.8 - A Concurrent Server Based on Threads
+- [ ] 12.4 - Shared Variables in Threaded Programs
+- [ ] 12.4.1 - Threads Memory Model
+- [ ] 12.4.2 - Mapping Variables to Memory
+- [ ] 12.4.3 - Shared Variables
+- [ ] 12.5 - Synchronizing Threads with Semaphores
+- [ ] 12.5.1 - Progress Graphs
+- [ ] 12.5.2 - Semaphores
+- [ ] 12.5.3 - Using Semaphores for Mutual Exclusion
+- [ ] 12.5.4 - Using Semaphores to Schedule Shared Resources
+- [ ] 12.5.5 - Putting It Together: A Concurrent Server Based on Prethreading
+- [ ] 12.6 - Using Threads for Parallelism
+- [ ] 12.7 - Other Concurrency Issues
+- [ ] 12.7.1 - Thread Safety
+- [ ] 12.7.2 - Reentrancy
+- [ ] 12.7.3 - Using Existing Library Functions in Threaded Programs
+- [ ] 12.7.4 - Races
+- [ ] 12.7.5 - Deadlocks
+
+
+
+## Problems
+
+- [ ] DLFC Chapter 2 Exercises
+- [ ] ADM Chapter 2 Exercises
+- [ ] ADM Chapter 3 Exercises
+
+
+***
+
+## Archive
+
+- [ ] 2.7 - Visualization Demo
+- [ ] 3.1 - Basics of Lie Group and Lie Algebra
+- [ ] 3.2 - Exponential and Logarithmic Mapping
+- [ ] 3.3 -  Lie Algebra Derivation and Perturbation Model
+- [ ] 3.4 - Practice: Sophus
+- [ ] 3.5 - Similar Transform Group and Its Lie Algebra
+- [ ] 3.6 - Summary
+- [ ] Control Bootcamp: Overview
+- [ ] Control Bootcamp: Linear Systems
+- [ ] Control Bootcamp: Stability and Eigenvalues
+- [ ] Control Bootcamp: Linearizing Around a Fixed Point
+- [ ] Control Bootcamp: Controllability
+- [ ] Control Bootcamp: Controllability, Reachability, Eigenvalue Placement
+- [ ] Control Bootcamp: Controllability and the Discrete-Time Impulse Response
+- [ ] Control Bootcamp: Degrees of Controllability and Gramians
+- [ ] Control Bootcamp: Controllability and the PBH Test
+- [ ] Control Bootcamp: Cayley-Hamilton Theorem
+- [ ] 3 - Shallow neural networks
+- [ ] 3.1 - Neural network example
+- [ ] 3.2 - Universal approximation theorem
+- [ ] 3.3 - Multivariate inputs and outputs
+- [ ] 3.4 - Shallow neural networks: general case
+- [ ] 3.5 - Terminology
+- [ ] 3.6 - Summary
+- [ ] 4 - Deep neural networks
+- [ ] 4.1 - Composing neural networks
+- [ ] 4.2 - From composing networks to deep networks
+- [ ] 4.3 - Deep neural networks
+- [ ] 4.4 - Matrix notation
+- [ ] 4.5 - Shallow vs. deep neural networks
+- [ ] 4.6 - Summary
+- [ ] 5 - Loss functions
+- [ ] 5.1 - Maximum likelihood
+- [ ] 5.2 - Recipe for constructing loss functions
+- [ ] 5.3 - Example 1: univariate regression
+- [ ] 5.4 - Example 2: binary classification
+- [ ] 5.5 - Example 3: multiclass classification
+- [ ] 5.6 - Multiple outputs
+- [ ] 5.7 - Cross-entropy loss
+- [ ] 5.8 - Summary
+- [ ] 6 - Fitting models
+- [ ] 6.1 - Gradient descent
+- [ ] 6.2 - Stochastic gradient descent
+- [ ] 6.3 - Momentum
+- [ ] 6.4 - Adam
+- [ ] 6.5 - Training algorithm hyperparameters
+- [ ] 6.6 - Summary
+- [ ] 7 - Gradients and initialization
+- [ ] 7.1 - Problem definitions
+- [ ] 7.2 - Computing derivatives
+- [ ] 7.3 - Toy example
+- [ ] 7.4 - Backpropagation algorithm
+- [ ] 7.5 - Parameter initialization
+- [ ] 7.6 - Example training code
+- [ ] 7.7 Summary
+- [ ] 8 - Measuring performance
+- [ ] 8.1 - Training a simple model
+- [ ] 8.2 - Sources of error
+- [ ] 8.3 - Reducing error
+- [ ] 8.4 - Double descent
+- [ ] 8.5 - Choosing hyperparameters
+- [ ] 8.6 - Summary
+- [ ] 9 - Regularization
+- [ ] 9.1 Explicit regularization
+- [ ] 9.2 Implicit regularization
+- [ ] 9.3 Heuristics to improve performance
+- [ ] 9.4 Summary
+- [ ] 10 - Convolutional networks
+- [ ] 10.1 - Invariance and equivariance
+- [ ] 10.2 - Convolutional networks for 1D inputs
+- [ ] 10.3 - Convolutional networks for 2D inputs
+- [ ] 10.4 - Downsampling and upsampling
+- [ ] 10.5 - Applications
+- [ ] 10.6 - Summary
+- [ ] 11 - Residual networks
+- [ ] 11.1 - Sequential processing
+- [ ] 11.2 - Residual connections and residual blocks
+- [ ] 11.3 - Exploding gradients in residual networks
+- [ ] 11.4 - Batch normalization
+- [ ] 11.5 - Common residual architectures
+- [ ] 11.6 - Why do nets with residual connections perform so well?
+- [ ] 11.7 - Summary
+- [ ] 12 - Transformers
+- [ ] 12.1 - Processing text data
+- [ ] 12.2 - Dot-product self-attention
+- [ ] 12.3 - Extensions to dot-product self-attention
+- [ ] 12.4 - Transformers
+- [ ] 12.5 - Transformers for natural language processing
+- [ ] 12.6 - Encoder model example: BERT
+- [ ] 12.7 - Decoder model example: GPT3
+- [ ] 12.8 - Encoder-decoder model example: machine translation
+- [ ] 12.9 - Transformers for long sequences
+- [ ] 12.10 -  Transformers for images
+- [ ] 12.11 - Summary
+- [ ] 13 - Graph neural networks
+- [ ] 13.1 -  What is a graph?
+- [ ] 13.2 - Graph representation
+- [ ] 13.3 - Graph neural networks, tasks, and loss functions
+- [ ] 13.4 - Graph convolutional networks
+- [ ] 13.5 - Example: graph classification
+- [ ] 13.6 - Inductive vs. transductive models
+- [ ] 13.7 - Example: node classification
+- [ ] 13.8 - Layers for graph convolutional networks
+- [ ] 13.9 - Edge graphs
+- [ ] 13.10 - Summary
+- [ ] 14 - Unsupervised learning
+- [ ] 14.1 - Taxonomy of unsupervised learning models
+- [ ] 14.2 - What makes a good generative model?
+- [ ] 14.3 - Quantifying performance
+- [ ] 14.4 - Summary
+- [ ] 15 - Generative Adversarial Networks
+- [ ] 15.1 - Discrimination as a signal
+- [ ] 15.2 - Improving stability
+- [ ] 15.3 - Progressive growing, mini-batch discrimination, and truncation
+- [ ] 15.4 - Conditional generation
+- [ ] 15.5 - Image translation
+- [ ] 15.6 - StyleGAN
+- [ ] 15.7 - Summary
+- [ ] 16 - Normalizing flows
+- [ ] 16.1 - 1D example
+- [ ] 16.2 - General case
+- [ ] 16.3 - Invertible network layers
+- [ ] 16.4 - Multi-scale flows
+- [ ] 16.5 - Applications
+- [ ] 16.6 - Summary
+- [ ] 17 - Variational autoencoders
+- [ ] 17.1 - Latent variable models
+- [ ] 17.2 - Nonlinear latent variable model
+- [ ] 17.3 - Training
+- [ ] 17.4 - ELBO properties
+- [ ] 17.5 - Variational approximation
+- [ ] 17.6 - The variational autoencoder
+- [ ] 17.7 - The reparameterization trick
+- [ ] 17.8 - Applications
+- [ ] 17.9 - Summary
+- [ ] 18 - Diffusion models
+- [ ] 18.1 - Overview
+- [ ] 18.2 - Encoder (forward process)
+- [ ] 18.3 - Decoder model (reverse process)
+- [ ] 18.4 - Training
+- [ ] 18.5 - Re-parameterization of loss function
+- [ ] 18.6 - Implementation
+- [ ] 18.7 - Summary
+- [ ] 19 - Reinforcement learning
+- [ ] 19.1 - Markov decision processes, returns, and policies
+- [ ] 19.2 - Expected return
+- [ ] 19.3 - Tabular reinforcement learning
+- [ ] 19.4 - Fitted Q-learning
+- [ ] 19.5 - Policy gradient methods
+- [ ] 19.6 - Actor-critic methods
+- [ ] 19.7 - Offline reinforcement learning
+- [ ] 19.8 - Summary
+- [ ] 20 - Why does deep learning work?
+- [ ] 20.1 - The case against deep learning
+- [ ] 20.2 - Factors that influence fitting performance
+- [ ] 20.3 - Properties of loss functions
+- [ ] 20.4 - Factors that determine generalization
+- [ ] 20.5 - Do we need so many parameters?
+- [ ] 20.6 - Do networks have to be deep?
+- [ ] 20.7 - Summary
+- [ ] W5 Exercises
+- [ ] ADM - 2.2 (Big O)
+- [ ] Permutation Is String
+- [ ] [1.1.1 Expressions](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e1)
+- [ ] W5 Lab
+- [ ] [1.1.2 Naming and the Environment](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e2)
+- [ ] Minimum Window Substring
+- [ ] ADM - 2.3 (Growth and Dominance Relations)
+- [ ] Review slambook 2.1
+- [ ] 2.2 - Practice: Use Eigen
+- [ ] 2.3 - Rotation Vectors and Euler Angles
+- [ ] Sliding Window Maximum
+- [ ] Valid Parentheses
+- [ ] ADM - 2.4 (Working with Big O)
+- [ ] [1.1.3 Evaluating Combinations](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e3)
+- [ ] 2.4 - Quaternions
+- [ ] Min Stack
+- [ ] W5 Homework
+- [ ] W6 Neural Networks Intro
+- [ ] W6 Basic Element
+- [ ] W6 Networks
+- [ ] W6 Choices of Activation Function
+- [ ] W6 Error Backpropagation
+- [ ] W6 Training
+- [ ] W6 Loss Functions and Activation Functions
+- [ ] W6 Exercises
+- [ ] W6 Lab
+- [ ] W6 Homework
+- [ ] W7 Batch Gradient Descent
+- [ ] W7 Running Averages
+- [ ] W7 Adaptive Step Size
+- [ ] W7 - Momentum
+- [ ] W7 - AdaGrad and AdaDelta
+- [ ] W7 - Adam
+- [ ] W7 - Regularization by Weight Decay
+- [ ] W7 - Regularization by Early Stopping and Dropout
+- [ ] 2.5 - Affine and Projective Transformation
+- [ ] W7 - Regularization by Batch Normalization
+- [ ] W7 Exercises
+- [ ] W7 Lab
+- [ ] W7 Homework
+- [ ] W8 - Introduction to CNNs
+- [ ] W8 - Filters
+- [ ] W8 - Max Pooling
+- [ ] W8 - Typical Architecture
+- [ ] W8 Exercises
+- [ ] W8 Lab
+- [ ] W8 Homework
+- [ ] W9 - Intro to sequential models
+- [ ] W9 - State Machines
+- [ ] W9 - Markov Decision Processes
+- [ ] W9 Exercises
+- [ ] W9 Lab
+- [ ] W9 Homework
+- [ ] 2.6 - Practice: Eigen Geometry Module
+- [ ] 1.1 - The Impact of Deep Learning
+- [ ] 1.1.1 - Medical diagnosis
+- [ ] 1.1.2 - Protein structure
+- [ ] 1.1.3 - Image synthesis
+- [ ] 1.1.4 - Large language models
+- [ ] micrograd
+- [ ] ADM - 2.5 (Reasoning about Efficiency)
+- [ ] ADM - 2.6 (Summations)
+- [ ] ADM - 2.7 (Logarithms + Applications)
+- [ ] ADM - 2.8 (Properties of Logarithms)
+- [ ] ADM - 2.9 (War Story!)
+- [ ] Evaluate Reverse Polish Notation
+- [ ] Generate Parentheses
+- [ ] Daily Temperatures
+- [ ] Car Fleet
+- [ ] Largest Rectangle in Histogram
+- [ ] ADM - 2.10 (Advanced Analysis)
+- [ ] 1.2 - A Tutorial Example
+- [ ] 1.2.1 - Synthetic data
+- [ ] 1.2.2 - Linear models
+- [ ] 1.2.3 - Error function
+- [ ] 1.2.4 - Model complexity
+- [ ] 1.2.5 - Regularization
+- [ ] 1.2.6 - Model selection
+- [ ] 1.3.1 - Single-layer networks
+- [ ] 1.3 - A Brief History of Machine Learning
+- [ ] 1.3.2 - Backpropagation
+- [ ] 1.3.3 - Deep networks
+- [ ] 1 - The Deep Learning Revolution
+- [ ] 2.1 - The Rules of Probability
+- [ ] 2.1.1 - A medical screening example
+- [ ] 2.1.2 - The sum and product rules
+- [ ] 2.1.3 - Bayes’ theorem
+- [ ] 3.1 - Contiguous vs. Linked Data Structures
+- [ ] 3.1.1 - Arrays
+- [ ] 2.1.4 - Medical screening revisited
+- [ ] 2.1.5 - Prior and posterior probabilities
+- [ ] 2.1.6 - Independent variables
+- [ ] 2.2 - Probability Densities
+- [ ] 2.2.1 - Example distributions
+- [ ] 2.2.2 - Expectations and covariances
+- [ ] 2.3 - The Gaussian Distribution
+- [ ] 2.3.1 - Mean and variance
+- [ ] 2.3.2 - Likelihood function
+- [ ] 3.1.2 - Pointers and Linked Structures
+- [ ] 3.1.3 - Comparison
+- [ ] 3.2 - Containers: Stacks and Queues
+- [ ] 2.3.3 - Bias of maximum likelihood
+- [ ] 2.3.4 - Linear regression
+- [ ] 3.3 - Dictionaries
+- [ ] 2.4 - Transformation of Densities
+- [ ] 2.4.1 - Multivariate distributions
+- [ ] 2.5 - Information Theory
+- [ ] 2.5.1 - Entropy
+- [ ] 2.5.2 - Physics perspective
+- [ ] 2.5.3 - Differential entropy
+- [ ] 2.5.4 - Maximum entropy
+- [ ] 2.5.5 - Kullback–Leibler divergence
+- [ ] 2.5.6 - Conditional entropy
+- [ ] 2.5.7 - Mutual information
+- [ ] [1.1.4 Compound Procedures](https://sarabander.github.io/sicp/html/1_002e1.xhtml#g_t1_002e1_002e4)
+- [ ] 2 - Probabilities
+- [ ] 2.6 - Bayesian Probabilities
+- [ ] 2.6.1 - Model parameters
+- [ ] 2.6.2 - Regularization
+- [ ] 2.6.3 - Bayesian machine learning
+
+%% kanban:settings
+```
+{"kanban-plugin":"basic","show-checkboxes":false}
+```
+%%

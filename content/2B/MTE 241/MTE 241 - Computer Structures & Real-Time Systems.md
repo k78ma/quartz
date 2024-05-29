@@ -33,13 +33,16 @@ aliases:
 - [[ARM Architeture]]
 ### Operating Systems Theory
 - [[OS Intro]]
+- [[OS Resource Management]]
 - [[RTOS]]
 - [[Operating Modes]]
-- [[Memory Protection (Kernelspace vs. Userspace)]]
+- [[Kernelspace and Userspace]]
 - [[Concurrent vs Parallel]]
+	- [[Concurrency Problems]]
 - [[Executables and Threads]]
 - [[System Calls]]
-#### Kernel Architectures
+#### Kernels
+- [[Kernel]]
 - [[Microkernel]]
 - [[Monolithic Kernel]]
 - [[Modular Kernel]]
@@ -52,14 +55,26 @@ aliases:
 - [[Model of Process in Memory]]
 - [[Stack]]
 	- [[Cortex M4 Stack]]
+	- [[Reset Vector Table]]
 - [[Heap]]
 - [[Application Binary Interface]]
 ### Interrupts
-- 
+- [[Interrupt]]
+- [[Interrupt Flow]]
+	- [[Interrupt Setup]]
+	- [[Interrupt Execution]]
+	- [[Interrupt Return]]
+	- [[ISR Implementation]]
+		- [[Re-entrant Functions]]
+- [[Non-Maskable Interrupt]]
 
-### Resource Management
+### Multithreading
 
 ### Scheduling
+
+#### Time-Based Scheduling
+
+#### Pre-Emptive Time-Based Scheduling
 
 ### Synchronization
 
@@ -67,7 +82,6 @@ aliases:
 - [[Pointers]]
 	- [[void Pointer]]
 	- [[function Pointer]]
-- [[Stack]]
 - [[C struct]]
 - [[Memory Alignment]]
 	- [[Bitfields]]

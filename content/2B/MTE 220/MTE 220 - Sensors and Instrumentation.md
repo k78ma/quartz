@@ -52,7 +52,7 @@ aliases:
 
 - [[Sinusoidal Steady-state Response]]
 	- [[Example - Sinusoidal Steady-state Response]]
-- [[Phasors]]
+- [[Phasor Intro]]
 	- [[Phasor Example]]
 
 ## New Circuit Elements
@@ -93,16 +93,85 @@ Applications:
 #### Transistors
 - [[MOSFET]]
 - [[MOSFET Usage]]
-- [[H-Bridge]]
+- [[H-Bridge Circuit]]
 - [[Controlled Current Sources]]
-
 #### Powering Embedded Systems
+- [[Power Supplies]]
+- [[Power Sources]]
 
+- [[Batteries]]
+	- [[Battery Capacity]]
+	- [[Battery Packs]]
+	- [[Battery State of Charge]]
+	- [[Rechargeable Batteries]]
+
+- [[Power Conditioning Circuits]]
+	- [[Power Conditioning Circuits Figures of Merit]]
+	- [[Transformers (AC)]] (AC/AC)
+	- [[Rectifier Circuits]] (AC/DC)
+	- [[Linear Regulators]], [[Switching Regulators]] (DC/DC)
+	- [[Power Inverter]]
 ### Sensors and Interfacing
+#### Sensor Characteristics
+- [[Transducers vs. Sensors vs. Actuators]]
+- [[Sensor Range]]
+- [[Sensor Transfer Function]]
+- [[Sensor Accuracy]]
+- [[Sensor Sensitivity]]
+- [[Hysteresis]]
+- [[Reproducibility]]
+- [[Sensor Resolution]]
+- [[Sensor Linearity]]
+- [[Sensor Step Response]]
+- [[Sensor Characteristics Example Problem]]
+#### Sensor Interfacing
+- [[Wheatstone Bridge]]
+- [[Pulse Width Modulation]]
+	- [[Low-pass Filter]]
+- [[Single-Ended and Differential Signaling]]
+- [[Instrumentation Amplifiers]]
+- [[Analog to Digital Threshold Detection]]
+- [[ADCs and DACs]]
+- [[Voltage Translation Interfacing]]
+#### Passive Sensors and Techniques
+- [[Passive vs. Active Sensors]]
+- [[Passive Sensor Principles]]
+- [[Resistive Sensing Techniques]]
+- [[Capacitive Sensing Techniques]]
+- [[Inductive Sensing Techniques]]
+#### Active Sensors and Techniques
+- [[Active Sensor Principles]]
+- [[Hall Effect]]
+- [[Electromagnetic Effect]]
+- [[Thermoelectric Effect]]
+- [[Piezoelectric Effect]]
+- [[Photoelectric Effect]]
+- [[Photovoltaic Effect]]
 
+## Filtering
+- [[Laplace Domain Premise]]
+- [[Signals in Different Domains]]
+- [[Decibels]]
+- [[Transfer Functions]]
+	- [[Laplace Domain RC Circuit]]
+	- [[Circuit to Transfer Function]]
+- [[Bode Plots]]
+- [[Bode Magnitude Plots]]
+- [[Bode Phase Plots]]
 
+#### Frequency-Selective Circuits
+- [[Constructing Filters]]
+- [[Transducer Example]]
+- [[Low-pass Filter]]
+- [[High-pass Filter]]
+- [[Bandpass Filter]]
+- [[Band Reject Filter]]
+- [[Filter Summary]]
 ## Labs
 - [[Lab 1]]
 - [[Lab 2]]
 	- [[Pulse Width Modulation]]
 	- [[Filters]]
+
+## Problems
+- [[Practice Problems MTE 220]]

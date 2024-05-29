@@ -5,5 +5,11 @@ public
 prof
 tsconfig.tsbuildinfo
 .quartz-cache
-private/
-Private/
+private/*
+Private/*
+.replit
+replit.nix
+Polymath/*
+Finnish/*
+content/.obsidian/workspace.json
+content/.obsidian/workspace-mobile.json

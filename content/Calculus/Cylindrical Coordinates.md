@@ -1,6 +1,7 @@
 ---
-title: "Cylindrical Coordinates"
-tag:
+title: Cylindrical Coordinates
+tags:
+  - calc3
 date: 2023-08-10
 draft:
 ---

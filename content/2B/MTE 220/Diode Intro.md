@@ -1,6 +1,7 @@
 ---
 title: Diode Intro
-tags: 
+tags:
+  - mte220
 date: 2023-10-24
 ---
 A diode is like a one way valve:

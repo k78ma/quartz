@@ -1,8 +1,10 @@
 ---
-title: "Functions of Several Variables"
-tag: calc3
+title: Functions of Several Variables
+tags:
+  - calc3
 date: 2023-07-22
-alias: Multivariable Functions
+aliases:
+  - Multivariable Functions
 ---
 
 Multivariable functions.

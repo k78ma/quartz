@@ -1,6 +1,7 @@
 ---
-title: "Basic PP Node"
-tag:
+title: Basic PP Node
+tags:
+  - polymath
 date: 2023-08-18
 draft: true
 ---

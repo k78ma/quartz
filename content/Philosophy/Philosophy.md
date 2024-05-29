@@ -1,6 +1,8 @@
 ---
-title: "Philosophy"
-tag: philosophy, moc
+title: Philosophy
+tags:
+  - philosophy
+  - moc
 date: 2023-08-22
 draft:
 ---

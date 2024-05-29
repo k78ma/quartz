@@ -1,10 +1,10 @@
 ---
-title: "Feature Engineering"
-tag: ml
+title: Feature Engineering
+tags:
+  - ml
 date: 2023-06-25
-alias:
+aliases:
 ---
-
 In many ML problems, we are descriptions of the inputs with many different types of attributes, including numbers, words, and discrete features. An important factor in the success of an ML application is the way that the features are chosen to be encoded by the human who is framing the learning problem. 
 
 Let us say we have $k$ discrete features in the raw data. Encoding strategies:

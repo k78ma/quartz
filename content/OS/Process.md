@@ -1,8 +1,9 @@
 ---
-title: "Process"
-tag: os
+title: Process
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 **Definition of a process:** Running a program.

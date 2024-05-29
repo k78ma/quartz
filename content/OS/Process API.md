@@ -1,8 +1,9 @@
 ---
-title: "Process API"
-tag: os
+title: Process API
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 - [[Process Creation|Create]]: An OS must include some method to create new processes

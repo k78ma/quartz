@@ -5,10 +5,11 @@ tags:
 date: 2023-10-09
 aliases:
 ---
-On a general-purpose OS, the executable is a single program that runs amongst possibly hundreds or thousands of others. On your RTOS things are a little different.
+On a general-purpose OS, the **executable** is a single program that runs amongst possibly hundreds or thousands of others. In an RTOS, things are a little different.
+- Your RTOS does not run separately from a user’s application. The RTOS is like an API that the user includes into their code, then compiles a single executable that contains both the RTOS and their code that uses it. 
+- The whole thing is loaded onto the microcontroller to run. This executable will, however, run multiple concurrent **threads** of operation. 
 
-- Your RTOS does not run separately from a user’s application. Instead, think of your RTOS as an API that the user includes into their code, then compiles a single executable that contains both the RTOS and their code that uses it. 
-- The whole thing is loaded onto the microcontroller to run. This executable will, however, run multiple concurrent threads of operation. For our purposes, we can assume that a thread is made up of three things.
+A thread is made up of three things:
 
 ![[Executables and Threads.png|480]]
 

@@ -1,6 +1,7 @@
 ---
-title: "Matrix-Vector Multiplication"
-tag: lin-alg
+title: Matrix-Vector Multiplication
+tags:
+  - lin-alg
 date: 2023-08-20
 draft:
 ---

@@ -1,8 +1,9 @@
 ---
-title: "wait()"
-tag: os
+title: wait()
+tags:
+  - os
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 An example of [UNIX System Calls](UNIX%20System%20Calls.md).

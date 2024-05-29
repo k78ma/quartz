@@ -11,7 +11,7 @@ We are considering a linear separator defined by $\theta, \theta_{0}$, where our
 $$
 J_{\text{lr}}(\theta, \theta_{0}) = \frac{1}{n}\sum_{i=1}^{n}L_{\text{NLL}}(g^{(i)}, y^{(i)}) + \frac{\lambda}{2} ||\theta ||^{2}
 $$
-We use $\frac{\lambda}{2}$ as a constant for convenience to make the differentiation nicer. The idea of using $|| \theta ||^{2}$ as a regularizer ([[L2 Penalty]]) forces the magnitude of the separator to stay small, so that it doesn't overfit to data.
+We use $\frac{\lambda}{2}$ as a constant for convenience to make the differentiation nicer. The idea of using $|| \theta ||^{2}$ as a regularizer ([[L2 Regularization]]) forces the magnitude of the separator to stay small, so that it doesn't overfit to data.
 
 Finding the gradient of $J$, we have:
 $$

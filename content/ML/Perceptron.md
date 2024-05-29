@@ -1,8 +1,9 @@
 ---
-title: "Perceptron"
-tag: ml
+title: Perceptron
+tags:
+  - ml
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 One of the most basic of ML algorithms - but it has a cool name!

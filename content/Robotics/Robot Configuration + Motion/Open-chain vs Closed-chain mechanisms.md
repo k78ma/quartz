@@ -1,6 +1,7 @@
 ---
-title: "Open-chained vs Closed-chain mechanisms"
-tag:
+title: Open-chained vs Closed-chain mechanisms
+tags:
+  - robotics
 date: 2023-08-27
 ---
 

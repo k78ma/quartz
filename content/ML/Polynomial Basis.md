@@ -1,8 +1,9 @@
 ---
-title: "Polynomial Basis"
-tag: ml
+title: Polynomial Basis
+tags:
+  - ml
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 Systematic strategy for constructing a feature space if features are are naturally numerical

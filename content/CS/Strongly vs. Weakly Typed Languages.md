@@ -1,6 +1,7 @@
 ---
-title: "Strongly vs. Weakly Typed Languages"
-tag: cs
+title: Strongly vs. Weakly Typed Languages
+tags:
+  - cs
 date: 2023-08-09
 draft:
 ---

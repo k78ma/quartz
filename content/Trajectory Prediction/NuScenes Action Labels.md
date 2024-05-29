@@ -1,8 +1,9 @@
 ---
-title: "NuScenes Action Labels"
-tag: prediction
+title: NuScenes Action Labels
+tags:
+  - wato
 date: 2023-07-29
-alias:
+aliases:
 ---
 
 ### Cars

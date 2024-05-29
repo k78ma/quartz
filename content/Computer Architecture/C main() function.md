@@ -1,8 +1,10 @@
 ---
-title: "C main() function"
-tag: os, cs-arch 
+title: C main() function
+tags:
+  - os
+  - cs-arch
 date: 2023-06-25
-alias:
+aliases:
 ---
 
 What does `int main(int argc, char *argv[]) `mean?

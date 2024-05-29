@@ -1,7 +1,9 @@
 {
   "callouts": {
     "custom": [
-      "theorem"
+      "theorem",
+      "note",
+      "question"
     ],
     "settings": {
       "info": [
@@ -15,6 +17,27 @@
         {
           "changes": {
             "icon": "lucide-circle-dot"
+          }
+        }
+      ],
+      "note": [
+        {
+          "changes": {
+            "color": "63, 109, 248"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "changes": {
+            "color": "66, 143, 85"
+          }
+        }
+      ],
+      "question": [
+        {
+          "changes": {
+            "color": "58, 217, 148"
           }
         }
       ]

@@ -1,6 +1,7 @@
 ---
-title: "Higher Order Partial Derivatives"
-tag:
+title: Higher Order Partial Derivatives
+tags:
+  - calc3
 date: 2023-08-15
 draft:
 ---

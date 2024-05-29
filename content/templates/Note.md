@@ -1,6 +1,6 @@
 ---
-title: "{{title}}"
+title: "<%tp.file.title%>"
 tags: 
-date: {{date:YYYY-MM-DD}}
-aliases:
+date: "<%tp.date.now()%>"
+aliases: "<%tp.file.title.toLowerCase()%>"
 ---

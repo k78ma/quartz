@@ -15,10 +15,10 @@
       }
     },
     {
-      "query": "tag:#os  ",
+      "query": "tag:#problems  ",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 12669664
       }
     },
     {
@@ -90,6 +90,13 @@
         "a": 1,
         "rgb": 11657298
       }
+    },
+    {
+      "query": "tag:#stats  ",
+      "color": {
+        "a": 1,
+        "rgb": 5422560
+      }
     }
   ],
   "collapse-display": false,
@@ -97,11 +104,11 @@
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "collapse-forces": false,
+  "centerStrength": 0.474894205729167,
+  "repelStrength": 11.7952473958333,
   "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.1521295302669804,
+  "linkDistance": 132,
+  "scale": 0.1558107650717246,
   "close": false
 }

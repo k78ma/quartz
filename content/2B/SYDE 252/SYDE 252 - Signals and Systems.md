@@ -8,8 +8,6 @@ tags:
 aliases:
   - SYDE 252
 ---
-## SYDE 252
-
 #### Intro
 - [[Signals|Signals]]
 - [[Systems|Systems]]
@@ -41,16 +39,28 @@ aliases:
 - [[Causal and Non-Causal Systems]]
 - [[Stable and Unstable Systems]]
 - [[Linear and non-linear systems]]
+- [[Linear Time-invariant Systems]]
 
 #### Convolutions
 - [[Convolution Integral]]
 - [[Convolution Sum]]
 
+#### Frequency Domain
 - [[Total Response of Linear System]]
-- [[Signals in Frequency Domain]]
-- [[Laplace Transform]]
-- [[Z-transform]]
 
-#### Problem Types
-- [[System Summation Problems]]
-- [[System Convolution Problems]]
+- [[Laplace Transform for C.T. System Analysis]]
+	- [[Properties of Laplace Transform]]
+- [[Z-transform for D.T. System Analysis]]
+- [[Poles and Zeros]]
+- [[Region of Convergence and Existence]]
+- [[Unilateral Laplace and Z Transform]]
+
+- [[System Stability]]
+
+- [[Fourier Series]]
+- [[Fourier Transform]]
+	- [[Fourier Transform Properties]]
+
+#### Project
+- [[Phase 2 Tasks]]
+- [[Phase 3 Tasks]]

@@ -1,6 +1,7 @@
 ---
 title: Kodiak Robotics Take-Home Assignment
-tags: 
+tags:
+  - cs
 date: 2023-10-13
 draft: "true"
 ---

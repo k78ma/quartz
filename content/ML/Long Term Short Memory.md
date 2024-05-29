@@ -19,7 +19,7 @@ When I read words, I don't think from scratch but understand each word based on 
 >
 >![[LSTM (Long Term Short Memory)-1.png|472]]
 >
->While RNNs are theoretically capable of handling these long-term dependencies, they don't seem to be able to learn them due to the [[Vanishing Gradient Problem]].
+>While RNNs are theoretically capable of handling these long-term dependencies, they don't seem to be able to learn them due to the [[Vanishing + Exploding Gradient Problem]].
 
 ## LSTM
 LSTMs are a special type of [[Recurrent Neural Networks|RNN]], designed for learning long term dependencies. All RNNs have the form of a chain of repeating modules of neural network. In standard neural networks, this repeating module will have a simple structure such as a single $\tanh$ layer:

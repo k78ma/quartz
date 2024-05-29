@@ -1,8 +1,9 @@
 ---
-title: "Configuration Space"
-tag: robotics
+title: Configuration Space
+tags:
+  - robotics
 date: 2023-06-30
-alias:
+aliases:
 ---
 
 A robot is composed of a set of ***links***, connected to each other using ***joints***.
