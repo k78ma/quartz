@@ -1,6 +1,7 @@
 ---
 title: Thermodynamics Glossary
-tags: 
+tags:
+  - mte309
 date: 2024-05-22
 aliases:
   - thermodynamics glossary
