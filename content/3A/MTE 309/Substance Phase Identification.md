@@ -17,13 +17,29 @@ Phases:
 How do we identify the state of a substance?
 ### Subcooled Liquid
 A substance is a [[Subcooled Liquid|subcooled liquid]] if:
-- T 
+- $T<T_{\text{sat}}$ at a given $P$
+- $P>P_{\text{sat}}$ at a given $T$
+- $v<v_{f}$ at a given $P$ or $T$
+- $u<u_{f}$ at a given $P$ or $T$
+- $h<h_{f}$ at a given $P$ or $T$
 
+![[Substance Phase Identification.png|485]]
 
 ### Superheated Vapor
 A substance is a superheated vapor if:
+- $T>T_{\text{sat}}$ at a given $P$
+- $P<P_{\text{sat}}$ at a given $T$
+- $v>v_{f}$ at a given $P$ or $T$
+- $u>u_{f}$ at a given $P$ or $T$
+- $h>h_{f}$ at a given $P$ or $T$
 
-
+![[Substance Phase Identification-1.png|485]]
 
 ### Two-Phase Mixture
-A substance is a two-phase mixture
+A substance is a two-phase mixture:
+- $0<x<1$
+- $v_{f}<v<v_{g}$ at a given $P$ or $T$
+- $u_{f}<u<u_{g}$ at a given $P$ or $T$
+- $h_{f}<h<h_{g}$ at a given $P$ or $T$
+
+![[Substance Phase Identification-2.png|485]]

@@ -39,5 +39,6 @@ aliases:
 ## Computer Architecture and Drivers
 
 
-## Tutorials
+## Tutorials/Labs
 - [[STM32 Interrupts]]
+- [[MTE 325 Lab Notes]]
