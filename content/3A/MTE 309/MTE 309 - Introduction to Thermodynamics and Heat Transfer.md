@@ -44,6 +44,11 @@ aliases:
 - [[Subcooled Liquid]]
 - [[Ideal Gas]]
 - [[Ideal Gas Correction Factor]]
+- [[Polytropic Process]]
+- [[Specific Heat]]
+	- [[Constant Volume Specific Heat]]
+	- [[Constant Pressure Specific Heat]]
+	- [[Specific Heat Relationships]]
 
 ---
 ## Problems

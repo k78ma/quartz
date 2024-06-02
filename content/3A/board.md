@@ -9,7 +9,6 @@ draft: "true"
 
 - [ ] Chapter 3 Problems
 - [ ] Chapter 4 Problems
-- [ ] Read Lab 2 Manual
 
 
 ## MTE 325
@@ -21,6 +20,10 @@ draft: "true"
 ## MTE 309
 
 - [ ] Assignment 3
+- [ ] Assignment 4
+- [ ] Lecture 11
+- [ ] Lecture 12
+- [ ] Lecture Examples
 
 
 ## MTE 321
@@ -64,6 +67,7 @@ draft: "true"
 - [ ] Data Generation and Transfer Notes
 - [ ] Problem Set 1
 - [ ] Tutorial 3
+- [ ] Read Lab 2 Manual
 
 %% kanban:settings
 ```

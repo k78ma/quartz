@@ -17,3 +17,7 @@ The heat required to heat up a close system isobarically (constant pressure) is 
 $$
 Q_{\text{in}}=\Delta H
 $$
+This can be split up to:
+$$
+dh=du+P\,dv+v\,dP
+$$

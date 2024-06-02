@@ -13,3 +13,7 @@ $$
 - For an ideal gas, $Z=1$ and $v_{\text{actual}}=v_{\text{ideal}}$.
 - Molecular attraction makes it easier to compress a gas, such that $Z<1$ and $v_{\text{actual}}<v_{\text{ideal}}$.
 - Molecular repulsion makes it harder to compress a gas, such that $Z>1$ and $v_{\text{actual}}>v_{\text{ideal}}$.
+
+![[Ideal Gas Correction Factor.png]]
+
+![[Ideal Gas Correction Factor-1.png]]

@@ -18,3 +18,5 @@ Enthalpy is an exception, where:
 $$
 h(T,P)\approx h_{f}(T)+v_{f}(T)[P-P_{\text{sat}}(T)]
 $$
+
+![[Subcooled Liquid.png]]
