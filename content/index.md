@@ -10,25 +10,10 @@ Welcome to my notes!
 >[!info] About Me
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
-### Currently Focused On:
+### Currently Focused On
+- [[Tron 3A]]
 - [[Machine Learning|Machine Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]
-### Other:
+
 See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
-- **UWaterloo Courses**
-	- [[Tron 3A]]
-	- [[Tron 2B]]
-- **Computers**
-	- [[Computer Systems]]
-	- [[Operating Systems|Operating Systems]] + [[MTE 241 - Computer Structures & Real-Time Systems|RTOS]]
-- **Mathematics**
-	- [[Calculus III|Calculus]]
-	- [[Linear Algebra|Linear Algebra]]
-	- [[Discrete Mathematics]]
-- **Engineering**
-	- [[MTE 220 - Sensors and Instrumentation|Circuits and Sensors]]
-	- [[SYDE 252 - Signals and Systems|Signals and Systems]]
-- **Other**
-	- [[Philosophy|Philosophy]]
----

@@ -21,9 +21,8 @@ draft: "true"
 
 - [ ] Assignment 3
 - [ ] Assignment 4
-- [ ] Lecture 11
-- [ ] Lecture 12
 - [ ] Lecture Examples
+- [ ] Tutorial Questions
 
 
 ## MTE 321
@@ -68,6 +67,8 @@ draft: "true"
 - [ ] Problem Set 1
 - [ ] Tutorial 3
 - [ ] Read Lab 2 Manual
+- [ ] Lecture 11
+- [ ] Lecture 12
 
 %% kanban:settings
 ```

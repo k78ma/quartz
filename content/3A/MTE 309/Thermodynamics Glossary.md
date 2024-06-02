@@ -17,9 +17,10 @@ aliases:
 | [[Energy Transfer by Work\|Work]] | $W$    | $\text{kJ}$             |
 
 ## Thermodynamic Properties
-| Term         | Symbol | Units |
-| ------------ | ------ | ----- |
-| [[Enthalpy]] | $H$    |       |
+| Term         | Symbol | Units       |
+| ------------ | ------ | ----------- |
+| [[Enthalpy]] | $H$    | $\text{kJ}$ |
+|              |        |             |
 
 ## Unit Breakdowns
 | Unit               | Breakdown                                                                      |

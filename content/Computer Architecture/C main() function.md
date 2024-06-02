@@ -2,7 +2,7 @@
 title: C main() function
 tags:
   - os
-  - cs-arch
+  - comp
 date: 2023-06-25
 aliases:
 ---

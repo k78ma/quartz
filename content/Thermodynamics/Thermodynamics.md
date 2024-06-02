@@ -1,7 +1,7 @@
 ---
 title: Thermodynamics
 tags:
-  - thermo
+  - mte309
 date: 2023-12-29
 aliases:
 ---

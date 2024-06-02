@@ -5,6 +5,7 @@ tags:
   - csapp
 date: 2023-06-25
 aliases:
+  - comp
 ---
 ## Information Representation & Manipulation
 
