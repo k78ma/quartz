@@ -65,7 +65,7 @@ Alternatively, we can use:
 $$
 W_{1-2}=\int_{1}^{2} P(V) \, dV 
 $$
-In general, the amount of work depends on the process path.
+In general, the amount of work depends on the process path. This is also known as *P-V work* or *boundary work*.
 
 ![[Work-1.png|316]]
 
