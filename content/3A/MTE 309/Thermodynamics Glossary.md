@@ -6,7 +6,11 @@ date: 2024-05-22
 aliases:
   - thermodynamics glossary
 ---
-## Energy
+
+## Equations
+
+
+## Energy Quantities
 
 | Term                              | Symbol | Units                   |
 | --------------------------------- | ------ | ----------------------- |
@@ -17,10 +21,10 @@ aliases:
 | [[Energy Transfer by Work\|Work]] | $W$    | $\text{kJ}$             |
 
 ## Thermodynamic Properties
-| Term         | Symbol | Units       |
-| ------------ | ------ | ----------- |
-| [[Enthalpy]] | $H$    | $\text{kJ}$ |
-|              |        |             |
+| Term                                   | Symbol | Units         |
+| -------------------------------------- | ------ | ------------- |
+| [[Enthalpy]]                           | $H$    | $\text{kJ}$   |
+| [[Two-Phase Mixture Quality\|Quality]] | $x$    | Dimensionless |
 
 ## Unit Breakdowns
 | Unit               | Breakdown                                                                      |
