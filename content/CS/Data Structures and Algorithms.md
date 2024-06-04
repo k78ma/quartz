@@ -10,7 +10,7 @@ aliases:
 ---
 Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https://algo.monster/dashboard).
 
-**The Algorithm Design Manual**   <progress max=447 value=125> </progress> 
+**The Algorithm Design Manual**   <progress max=447 value=128> </progress> 
 ## Algorithmic Analysis
 - [[Algorithmic Correctness]]
 - [[RAM Model of Computation]]
@@ -50,7 +50,6 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Compaction]]
 ## Sorting
 - [[Sorting Algorithms]]
-- [[Sorting Applications]]
 - [[Heapsort]]
 - [[Mergesort]]
 - [[Quicksort]]

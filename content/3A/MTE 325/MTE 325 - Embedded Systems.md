@@ -37,7 +37,8 @@ aliases:
 - [[Data Transfer Synchronization]]
 - [[Data Transfer Case Study]]
 ## Computer Architecture and Drivers
-
+- [[Signal Notations and Conventions]]
+- [[Control Signal]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
