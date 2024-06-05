@@ -40,6 +40,7 @@ aliases:
 - [[Signal Notations and Conventions]]
 - [[Control Signal]]
 - [[Microcontroller Architecture]]
+- [[Bus]]
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[MTE 325 Lab Notes]]
