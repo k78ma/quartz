@@ -15,6 +15,8 @@ A typical microcontroller contains: a processor, memory (RAM and ROM), a clock, 
 
 The **system bus** is the main bus in the microcontroller and connects the microprocessor to the other blocks in the system. Using a system bus reduces the number of wires, and decreases the size of the chip itself. Buses also allow for easy expansion or reconfiguration of peripherals, which is useful in re-using hardware designs from one microcontroller to the next.
 
+To understand how a processor and the system bus interface, see [[CPU-Memory Interface]].
+
 ## MMIO
 In [[MTE 325 - Embedded Systems|MTE 325]], only systems where the CPU is connected to the same system bus for both memory and I/O are considered – this is called the memory mapped I/O configuration. 
 - The I/O interfaces are given addresses, just like memory locations. 
@@ -25,3 +27,6 @@ In [[MTE 325 - Embedded Systems|MTE 325]], only systems where the CPU is connect
 Both data and instructions are stored in memory. If we put an oscilloscope on a bus transaction, we wouldn’t see any difference between reading data or reading an instruction, both are accessed using addresses. As far as the CPU is concerned, it can only distinguish them by how they are used internally. 
 - Most systems have both ROM which is read only, and some form of memory which can be read and written. The ROM is typically used for the start up code of the processor that boots it into a known state. 
 - The other memory can be used to store both runtime data and instructions. Both RAM and flash are common in modern systems. The biggest difference is ram is volatile, meaning the information is gone when power is lost whereas flash is not. In the labs, your code is programmed to the flash memory in the controller, which is why your most recent code is still there the next time you power on the board.
+
+Microcontrollers are typically byte-addressable; regardless of the width of the system bus, every byte has a unique address. For a 32-bit system, reading an int (which will be 32 bits) actually reads 4 addresses, starting from the one that was targeted. 
+- A read of address `0x20` will actually return the bytes at address `0x20`, `0x21`, `0x22` and `0x23`

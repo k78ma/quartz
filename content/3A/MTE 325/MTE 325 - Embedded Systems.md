@@ -41,6 +41,7 @@ aliases:
 - [[Control Signal]]
 - [[Microcontroller Architecture]]
 - [[Bus]]
+- [[CPU-Memory Interface]]
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[MTE 325 Lab Notes]]
