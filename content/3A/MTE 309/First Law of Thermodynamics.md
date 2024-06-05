@@ -27,4 +27,8 @@ $$
 $$
 where the left side is the rate at which system energy changed, $\dot{Q}$ is the rate of heat addition, and $\dot{W}$ is the rate of work done (power).
 
+![[First Law of Thermodynamics.png|652]]
+
 ## Open Systems
+For an open system where mass can transfer across boundaries, mass coming in and out of the system carries its energy with it ($e = u +\text{KE} + \text{PE}$).
+

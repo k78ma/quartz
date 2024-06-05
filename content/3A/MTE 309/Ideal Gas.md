@@ -20,6 +20,11 @@ In an ideal gas, molecules are spaced far enough apart that intermolecular force
 >PV=mRT
 >$$
 >where $R=\frac{R\degree}{M}\left[ \frac{\text{kJ}}{\text{kg}\cdot \text{K}} \right]$.
+>
+>Specific volume form:
+>$$
+> Pv = RT
+>$$
 
 For an ideal gas, there is no [[Thermal Energy|latent energy]] stored in intermolecular bonds. 
 - As such, internal energy is due entirely to [[Thermal Energy|sensible energy]] from molecular motion (translation, rotation, vibration). 

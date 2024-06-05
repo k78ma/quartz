@@ -27,6 +27,7 @@ aliases:
 - [[Quasi-equilibrium Process]]
 ## Energy, Heat, and the First Law
 - [[First Law of Thermodynamics]]
+- [[Conservation of Mass]]
 - [[Energy Balance]]
 - [[Internal Energy]]
 - [[Thermal Energy]]

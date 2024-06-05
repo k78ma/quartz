@@ -24,7 +24,6 @@ draft: "true"
 
 - [ ] Lab 2 Notes
 - [ ] Lab 2 Report
-- [ ] 6.2. Computer Architecture
 - [ ] 6.3. CPU-Memory Interface (CPU view)
 - [ ] 6.4. CPU-Memory Interface (Memory view)
 - [ ] 6.5. Bus drivers
@@ -37,6 +36,9 @@ draft: "true"
 - [ ] Assignment 2
 - [ ] Assignment 3
 - [ ] Assignment 4
+- [ ] W2024 Midterm
+- [ ] W2023 Midterm
+- [ ] W2020 Midterm
 
 
 ## MTE 309
@@ -108,6 +110,7 @@ draft: "true"
 - [ ] Lab 2 Excel Report
 - [ ] 6.1. Signal Notations and Conventions
 - [ ] 5-4
+- [ ] 6.2. Computer Architecture
 
 %% kanban:settings
 ```
