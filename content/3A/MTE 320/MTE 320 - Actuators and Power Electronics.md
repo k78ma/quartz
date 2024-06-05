@@ -52,5 +52,13 @@ aliases:
 - [[Core Losses]]
 - [[Flux Leakage]]
 - [[Fringing Effect]]
+### Magnetic Circuit Analysis
+- [[Magnetic-Electric Circuit Analogies]]
+### EMF and Force Generation
+- [[EMF Generation]]
+- [[Faraday’s Law]]
+- [[Lenz's Law]]
+- [[Relative Motion with Conductor and Magnetic Field]]
 
-## Magnetic Circuit Analysis
+## Transformers
+- [[Electrical Transformer|Transformer]]

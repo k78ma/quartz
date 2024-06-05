@@ -9,7 +9,9 @@ draft: "true"
 
 - [ ] Chapter 3 Problems
 - [ ] Chapter 4 Problems
-- [ ] 5-4
+- [ ] Chapter 5 Problems
+- [ ] Chapter 9 Problems
+- [ ] Examples
 - [ ] 5-5
 - [ ] 5-6
 - [ ] 9-1
@@ -22,7 +24,6 @@ draft: "true"
 
 - [ ] Lab 2 Notes
 - [ ] Lab 2 Report
-- [ ] 6.1. Signal Notations and Conventions
 - [ ] 6.2. Computer Architecture
 - [ ] 6.3. CPU-Memory Interface (CPU view)
 - [ ] 6.4. CPU-Memory Interface (Memory view)
@@ -32,6 +33,10 @@ draft: "true"
 - [ ] 7.1. Synchronous Bus Transactions
 - [ ] 7.2 Asynchronous Bus
 - [ ] 7.3 Bus Speed Comparisons
+- [ ] Assignment 1
+- [ ] Assignment 2
+- [ ] Assignment 3
+- [ ] Assignment 4
 
 
 ## MTE 309
@@ -43,12 +48,15 @@ draft: "true"
 - [ ] L5 - Torsion and Stress Concentration
 - [ ] L6.1 - Deflection due to bending
 - [ ] L6.2 - Beam deflection by superposition
+- [ ] L7.1 - Static Failures
 - [ ] PSet 3
 - [ ] PSet 4
+- [ ] PSet 5
 
 
 ## SYDE 351
 
+- [ ] Assignment 2
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
@@ -98,6 +106,8 @@ draft: "true"
 - [ ] Review CE 1
 - [ ] Read Lab 2 Manual
 - [ ] Lab 2 Excel Report
+- [ ] 6.1. Signal Notations and Conventions
+- [ ] 5-4
 
 %% kanban:settings
 ```

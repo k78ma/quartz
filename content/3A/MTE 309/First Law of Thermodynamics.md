@@ -26,3 +26,5 @@ $$
 \end{align}
 $$
 where the left side is the rate at which system energy changed, $\dot{Q}$ is the rate of heat addition, and $\dot{W}$ is the rate of work done (power).
+
+## Open Systems

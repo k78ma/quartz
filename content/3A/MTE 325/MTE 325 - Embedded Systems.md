@@ -39,7 +39,7 @@ aliases:
 ## Computer Architecture and Drivers
 - [[Signal Notations and Conventions]]
 - [[Control Signal]]
-
+- [[Microcontroller Architecture]]
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[MTE 325 Lab Notes]]
