@@ -21,8 +21,6 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] Lab 2 Notes
-- [ ] Lab 2 Report
 - [ ] 6.5. Bus drivers
 - [ ] 6.6. Device Selection
 - [ ] 6.7. Metastability
@@ -111,6 +109,8 @@ draft: "true"
 - [ ] 5-5
 - [ ] 6.3. CPU-Memory Interface (CPU view)
 - [ ] 6.4. CPU-Memory Interface (Memory view)
+- [ ] Lab 2 Notes
+- [ ] Lab 2 Report
 
 %% kanban:settings
 ```

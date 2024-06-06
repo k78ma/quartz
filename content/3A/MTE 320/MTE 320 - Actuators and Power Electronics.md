@@ -60,5 +60,8 @@ aliases:
 - [[Lenz's Law]]
 - [[EMF Generation with Conductor Relative Motion]]
 - [[Generation of Force with Conductor in a Magnetic Field]]
+
+### Rotational Motion
+- [[Rotational Motion]]
 ## Transformers
 - [[Electrical Transformer|Transformer]]
