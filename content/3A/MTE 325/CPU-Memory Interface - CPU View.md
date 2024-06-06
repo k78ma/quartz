@@ -1,10 +1,9 @@
 ---
-title: CPU-Memory Interface
+title: CPU-Memory Interface - CPU View
 tags:
   - mte320
 date: 2024-06-05
-aliases:
-  - cpu-memory interface
+aliases: []
 ---
 ## CPU View
 A Central Processing Unit (CPU) is composed of the following:

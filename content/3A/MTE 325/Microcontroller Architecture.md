@@ -15,7 +15,7 @@ A typical microcontroller contains: a processor, memory (RAM and ROM), a clock, 
 
 The **system bus** is the main bus in the microcontroller and connects the microprocessor to the other blocks in the system. Using a system bus reduces the number of wires, and decreases the size of the chip itself. Buses also allow for easy expansion or reconfiguration of peripherals, which is useful in re-using hardware designs from one microcontroller to the next.
 
-To understand how a processor and the system bus interface, see [[CPU-Memory Interface]].
+To understand how a processor and the system bus interface, see [[CPU-Memory Interface - CPU View]].
 
 ## MMIO
 In [[MTE 325 - Embedded Systems|MTE 325]], only systems where the CPU is connected to the same system bus for both memory and I/O are considered – this is called the memory mapped I/O configuration. 
