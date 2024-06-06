@@ -58,7 +58,7 @@ aliases:
 - [[EMF Generation]]
 - [[Faraday’s Law]]
 - [[Lenz's Law]]
-- [[EMF Generation with Relative Motion between Conductor and Magnetic Field]]
-- [[Generation of Force on a Current-Carrying Conductor in a Magnetic Field]]
+- [[EMF Generation with Conductor Relative Motion]]
+- [[Generation of Force with Conductor in a Magnetic Field]]
 ## Transformers
 - [[Electrical Transformer|Transformer]]

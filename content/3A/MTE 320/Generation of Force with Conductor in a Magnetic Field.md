@@ -1,10 +1,10 @@
 ---
-title: Generation of Force on a Current-Carrying Conductor in a Magnetic Field
+title: Generation of Force with Conductor in a Magnetic Field
 tags:
   - mte320
 date: 2024-06-05
 aliases:
-  - generation of force on a current-carrying conductor in a magnetic field
+  - generation of force with conductor in a magnetic field
 ---
 When a conductor of length $l$, carrying a current $i$, is placed in a magnetic field $B$, a force will be exerted on it which is given by:
 $$

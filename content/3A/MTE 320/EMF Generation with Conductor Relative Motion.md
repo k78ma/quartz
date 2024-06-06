@@ -1,10 +1,10 @@
 ---
-title: EMF Generation with Relative Motion between Conductor and Magnetic Field
+title: EMF Generation with Conductor Relative Motion
 tags:
   - mte320
 date: 2024-06-05
 aliases:
-  - emf generation with relative motion between conductor and magnetic field
+  - emf generation with conductor relative motion
 ---
 In electric machines, emf is generated based on the relative motion involving conductors and a magnetic field.
 
