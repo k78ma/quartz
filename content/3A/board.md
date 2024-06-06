@@ -23,7 +23,6 @@ draft: "true"
 
 - [ ] Lab 2 Notes
 - [ ] Lab 2 Report
-- [ ] 6.3. CPU-Memory Interface (CPU view)
 - [ ] 6.4. CPU-Memory Interface (Memory view)
 - [ ] 6.5. Bus drivers
 - [ ] 6.6. Device Selection
@@ -111,6 +110,7 @@ draft: "true"
 - [ ] 5-4
 - [ ] 6.2. Computer Architecture
 - [ ] 5-5
+- [ ] 6.3. CPU-Memory Interface (CPU view)
 
 %% kanban:settings
 ```
