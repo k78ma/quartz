@@ -12,7 +12,6 @@ draft: "true"
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
-- [ ] 5-5
 - [ ] 5-6
 - [ ] 9-1
 - [ ] 9-2
@@ -111,6 +110,7 @@ draft: "true"
 - [ ] 6.1. Signal Notations and Conventions
 - [ ] 5-4
 - [ ] 6.2. Computer Architecture
+- [ ] 5-5
 
 %% kanban:settings
 ```
