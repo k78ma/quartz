@@ -11,8 +11,8 @@ $$
 \frac{dm_{\text{cv}}}{dt}=\sum_{\text{in}}\dot{m}_{\text{in}} - \sum_{\text{out}}\dot{m}_{\text{out}}
 $$
 - where $\frac{dm_{\text{cv}}}{dt}$ is the rate of system mass change
-- d
-- d
+- $\sum_{\text{in}}\dot{m}_{\text{in}}$ is the rate of mass inflow
+- $\sum_{\text{out}}\dot{m}_{\text{out}}$ is the rate of mass outflow
 
 ## Steady-State
 At steady-state (not changing with time), we have $d(m_{\text{cv}}) / dt = 0$. Thus, we have
