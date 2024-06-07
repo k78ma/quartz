@@ -50,6 +50,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Compaction]]
 ## Sorting
 - [[Sorting Algorithms]]
+- [[Comparison Function]]
 - [[Heapsort]]
 - [[Mergesort]]
 - [[Quicksort]]

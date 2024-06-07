@@ -12,7 +12,6 @@ draft: "true"
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
-- [ ] 5-6
 - [ ] 9-1
 - [ ] 9-2
 - [ ] 9-3
@@ -111,6 +110,7 @@ draft: "true"
 - [ ] 6.4. CPU-Memory Interface (Memory view)
 - [ ] Lab 2 Notes
 - [ ] Lab 2 Report
+- [ ] 5-6
 
 %% kanban:settings
 ```

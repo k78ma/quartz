@@ -36,13 +36,18 @@ aliases:
 	- [[Data Transfer]]
 - [[Data Transfer Synchronization]]
 - [[Data Transfer Case Study]]
-## Computer Architecture and Drivers
+
+## Computer Architecture
 - [[Signal Notations and Conventions]]
 - [[Control Signal]]
 - [[Microcontroller Architecture]]
 - [[Bus]]
 - [[CPU-Memory Interface - CPU View]]
 - [[CPU-Memory Interface - Memory View]]
+
+## Bus Drivers
+- [[Bus Drivers]]
+
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[MTE 325 Lab Notes]]
