@@ -11,7 +11,7 @@ Recall the meaning of read and write in the context of the system bus in this co
 - A write transaction will transfer information from the CPU to memory (or a device register)
 - Read will get information from memory (or a device register), and transfer it to the CPU. In other words, read and write are from the perspective of the transaction’s controller, in this case the CPU.
 
-Consider a system with just a CPU and memory as shown in Figure 8. They are connected by a system bus with address lines, set by the MAR, control lines and data lines, which are connected to the MDR. The control signals are  `MARin`, `MDRin`, `MDRout`, `READ`, `WRITE`, `MFC`.
+Consider a system with just a CPU and memory as shown in Figure 8. They are connected by a system bus with address lines, set by the `MAR`, control lines and data lines, which are connected to the `MDR`. The control signals are  `MARin`, `MDRin`, `MDRout`, `READ`, `WRITE`, `MFC`.
 
 ![[CPU-Memory Interface-2.png|484]]
 
@@ -27,33 +27,9 @@ The CPU runs on an internal clock with a 10 ns period while a memory access take
 Regardless of the specific implementation details of the system bus, a read will always follow the same general pattern as shown in Figure 9. 
 - The CPU will place the address contained in the `MAR` onto the address lines of the bus. 
 - There will then be some period of time where there is no valid data on the bus, as the CPU is not driving the data lines and the information to be read hasn’t been retrieved yet. 
-- It takes time between the address being set and the data being available. Based on the address, the target data will be retrieved and placed on the bus, at which point it is ready to be clocked into the MDR.
+- It takes time between the address being set and the data being available. Based on the address, the target data will be retrieved and placed on the bus, at which point it is ready to be clocked into the `MDR`.
 
-There are two choices in how the system bus is clocked: synchronous or asynchronous. 
-### Synchronous Case
-In the synchronous case, a common clock is shared between the CPU interface and the memory or device interface as shown in Figure 10. 
+There are two choices in how the system bus is clocked: [[Synchronous Bus|synchronous]] or [[Asynchronous Bus|asynchronous]]. 
 
-![[CPU-Memory Interface - Memory View-1.png|572]]
 
-- Actions are timed based on the edges of the clock, and timing is dictated by the worst case scenario. In this example, the worst case memory access time is 55 ns. 
-- Synchronous buses require that everything be timed to complete cycles. The CPU would start the transaction, possible using a synch pulse as shown, wait 6 cycles, and then assume the data on the data lines is valid and can be clocked into the MDR. 
-- After the end of the 6th cycle, the data is assumed to be gone. In other words, there is transient data.
-	- *Transient data*: Information is made available to the consumer and only remains valid for a period of time. In most cases the minimum period of time the data will remain valid is known by the designer.
-- Bling synchronization is being used as there is no communication to memory to verify the transaction is actually done. 
-	- *Bling synchronization*: When there is no communication between the two sides of a transaction to check that data is available or the validity of the data.
-- It’s possible the transaction used a bad address and no data was ever put on the bus, but the CPU won’t know that. 
-- The functionality of the memory function complete signal is being implemented virtually by counting to the 6th clock edge instead of using a physical signal.
-
-### Asynchronous Case
-One of the downsides of a synchronous implementation is having to always assume a worst case scenario. If most of the time the memory responds closer to the minimum time of 45 ns, this implementation forces an extra bus cycle to be wasted as data was available at the end of the 5th clock cycle but the CPU wasn’t able to take advantage of it. 
-
-In the asynchronous case shown in Figure 11, the clock is not shared with memory. The transaction could start the same way as in the synchronous case, but instead of always counting 6 cycles, the CPU is waiting for the memory synch pulse to indicate that data is ready. 
-
-![[CPU-Memory Interface - Memory View-2.png|436]]
-
-- This is one possible implementation of the “wait for memory function complete” discussed previously. 
-- One advantage of this implementation is that in cases where the memory is able to respond closer to the minimum time, the CPU can complete the transaction after 5 cycles instead of being forced to wait 6.
-- Persistent data behavior is observed as data will remain available until the CPU changes the address on the address lines. 
-	- *Persistent data:* Information remains valid until consumer signals that the data has been consumed (processed).
-- The fact that memory is driving the synch pulse also means there is verification the device actually responded. If the CPU attempted to read from an unused address, there would be no response and the bus would hang unless some other mitigation technique was used.
 

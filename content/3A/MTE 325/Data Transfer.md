@@ -15,4 +15,4 @@ Some aspects of the transfer to consider:
 	- *Persistent data* remains available and valid until the consumer indicates that it has received it
 	- *Transient data* only remains valid for a period of time, which is usually known by the designer. If the consumer doesn’t get the data in time, its gone. This is how synchronous buses operate. Most data we deal with in embedded systems will be transient in nature.
 - Synchronization and clocking characterizes the views of time between the two sides and how data is enabled or validated. See [[Data Transfer Synchronization]] for some options.
-- Additional control signals may indicate which device should respond and the type of transaction. See [[Synchronous Buses]] for more information.
+- Additional control signals may indicate which device should respond and the type of transaction. See [[Synchronous Bus]] for more information.

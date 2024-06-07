@@ -65,3 +65,25 @@ aliases:
 - [[Rotational Motion]]
 ## Transformers
 - [[Electrical Transformer|Transformer]]
+### Single Phase Transformers
+- [[Core-Type Transformer]]
+- [[Shell-Type Transformer]]
+- [[Transformer Core Structure]]
+- [[Transformer Noise]]
+- [[Transformer Cooling]]
+- [[Ideal Single-Phase Transformer]]
+- [[Impedance Matching]]
+- [[Practical Single-Phase Transformer]]
+- [[Transformer Under Load]]
+- [[Transformer Equivalent Circuit]]
+- [[Transformer Voltage Regulation]]
+- [[Transformer Efficiency]]
+- [[Autotransformer]]
+
+### Instrument Transformer
+- [[Instrument Transformer]]
+- [[Potential Transformer]]
+- [[Current Transformer]]
+
+### 3-Phase Transformer
+- [[Three-Phase Transformer]]

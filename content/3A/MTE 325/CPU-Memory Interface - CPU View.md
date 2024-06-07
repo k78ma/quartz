@@ -34,7 +34,7 @@ The MAR and MDR are of particular interest. The control unit signals `MFC`, `REA
 `MFC` (memory function complete) is an input to the control unit. This is the only signal driven by memory. It serves as a mechanism for the memory to acknowledge the requested action has been completed. 
  - For a read transaction, it would signal that the requested data is now available at the D-input of the MDR. For a write, it is used to signal that the data has been saved to the requested location.
  - For a write, it is used to signal that the data has been saved to the requested location. 
- - This signal does not have to be a physical wire. Instead, it can be implemented virtually, meaning something else in the system can be taken as the acknowledgment of these actions. For [[Synchronous Buses|synchronous buses]] are studied in detail, a clock edge is used to fulfill this function.
+ - This signal does not have to be a physical wire. Instead, it can be implemented virtually, meaning something else in the system can be taken as the acknowledgment of these actions. For [[Synchronous Bus|synchronous buses]] are studied in detail, a clock edge is used to fulfill this function.
 
 ## Operation Logic
 Recall that read and write are from the CPU’s perspective.

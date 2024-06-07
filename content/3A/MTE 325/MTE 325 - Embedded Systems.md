@@ -44,10 +44,11 @@ aliases:
 - [[Bus]]
 - [[CPU-Memory Interface - CPU View]]
 - [[CPU-Memory Interface - Memory View]]
+	- [[Synchronous Bus]]
+	- [[Asynchronous Bus]]
 
 ## Bus Drivers
 - [[Bus Drivers]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
-- [[MTE 325 Lab Notes]]

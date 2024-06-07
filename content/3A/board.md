@@ -12,7 +12,6 @@ draft: "true"
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
-- [ ] 9-1
 - [ ] 9-2
 - [ ] 9-3
 - [ ] 9-4
@@ -52,7 +51,7 @@ draft: "true"
 
 ## SYDE 351
 
-- [ ] Assignment 2
+- [ ] Assignment 2 - June 14
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
@@ -62,6 +61,7 @@ draft: "true"
 - [ ] General planar motion
 - [ ] Spring elements
 - [ ] Coordinate references
+- [ ] Multi DOF mass-spring system
 
 
 ***
@@ -111,6 +111,7 @@ draft: "true"
 - [ ] Lab 2 Notes
 - [ ] Lab 2 Report
 - [ ] 5-6
+- [ ] 9-1
 
 %% kanban:settings
 ```
