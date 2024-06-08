@@ -15,10 +15,12 @@ draft: "true"
 - [ ] 9-2
 - [ ] 9-3
 - [ ] 9-4
+- [ ] Read Lab Manual
 
 
 ## MTE 325
 
+- [ ] Read Lab Manual
 - [ ] 6.5. Bus drivers
 - [ ] 6.6. Device Selection
 - [ ] 6.7. Metastability

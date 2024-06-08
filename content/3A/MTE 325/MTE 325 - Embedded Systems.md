@@ -17,7 +17,7 @@ aliases:
 ## Software and Synchronization
 - [[Embedded Software Design]]
 - [[Latency and Throughput]]
-- [[Device Drivers]]
+- [[Software Device Drivers]]
 ### Low-Level Synchronization Mechanisms
 - [[Blind Cycle Synchronization]]
 - [[Polling Synchronization]]
@@ -49,6 +49,15 @@ aliases:
 
 ## Bus Drivers
 - [[Bus Drivers]]
+- [[Hardware Driver]]
+- [[Transistor]]
+- [[Transistor Inverter]]
+- [[Push-Pull Driver]]
+- [[Open-Drain Driver]]
+- [[Tri-State Driver]]
+## Buses
+- [[Synchronous Bus]]
+- [[Asynchronous Bus]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]

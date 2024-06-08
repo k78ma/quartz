@@ -1,12 +1,12 @@
 ---
-title: Device Drivers
+title: <%tp.file.title%>
 tags:
   - mte325
-date: 2024-05-15
+date: <%tp.date.now()%>
 aliases:
-  - device drivers
+  - <%tp.file.title.toLowerCase()%>
 ---
-A device driver is the software associated with a particular external hardware device. This is usually included in the HAL in the [[Embedded Software Design|embedded software model]]. 
+This is usually included in the HAL in the [[Embedded Software Design|embedded software model]]. 
 
 The device driver includes:
 - Data structures
