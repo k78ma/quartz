@@ -22,6 +22,10 @@ draft: "true"
 
 - [ ] Read Lab Manual
 - [ ] 6.5. Bus drivers
+- [ ] 6.5.1. Push-Pull Drivers
+- [ ] 6.5.2. Open Drain Drivers
+- [ ] 6.5.3. Tri-State Drivers
+- [ ] 6.5.4. Non-ideal Realities
 - [ ] 6.6. Device Selection
 - [ ] 6.7. Metastability
 - [ ] 7.1. Synchronous Bus Transactions

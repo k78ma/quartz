@@ -15,3 +15,12 @@ The transistor is modeled as a switch. A transistor that is "on" acts like a sho
 A simple digital model of an NMOS transistor:
 - If the input voltage ($V_{\text{GS}}$) is a logic 0, the NMOS transistor is modeled as an open circuit between source (S) and drain (D).
 - If the input voltage ($V_{\text{GS}}$) is a logic 1, the NMOS transistor is modeled as an closed circuit between source (S) and drain (D).
+
+![[Transistor-1.png]]
+
+## PMOS
+A simple digital model of an PMOS transistor:
+- If the input voltage ($V_{\text{GS}}$) is a logic 1, the NMOS transistor is modeled as an open circuit between source (S) and drain (D).
+- If the input voltage ($V_{\text{GS}}$) is a logic 0, the NMOS transistor is modeled as an closed circuit between source (S) and drain (D).
+
+![[Transistor.png]]

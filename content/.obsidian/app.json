@@ -17,5 +17,5 @@
   "smartIndentList": true,
   "defaultViewMode": "source",
   "showInlineTitle": true,
-  "vimMode": true
+  "vimMode": false
 }
