@@ -28,12 +28,16 @@ aliases:
 ## Energy, Heat, and the First Law
 - [[First Law of Thermodynamics]]
 - [[Conservation of Mass]]
+- [[Conservation of Energy for Open Systems]]
 - [[Energy Balance]]
 - [[Internal Energy]]
 - [[Thermal Energy]]
 	- [[Energy Transfer by Heat]]
 	- [[Energy Transfer by Work]]
 - [[Efficiency of Thermodynamic Processes]]
+
+- [[Steady-Flow Devices]]
+- [[Nozzles and Diffusers]]
 ## Substance Properties
 - [[Pure Substance]]
 - [[Equation of State]]

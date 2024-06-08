@@ -9,6 +9,7 @@ Things on the internet:
 - [jsomers.net | I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 - [Poor Charlie’s Almanack](https://www.stripe.press/poor-charlies-almanack/cover)
 - [Main Content | Jeremy Kun](https://www.jeremykun.com/main-content/)
+	- [A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
 - [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
 
