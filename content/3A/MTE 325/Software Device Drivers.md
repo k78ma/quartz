@@ -1,10 +1,10 @@
 ---
-title: <%tp.file.title%>
+title: Software Device Drivers
 tags:
   - mte325
-date: <%tp.date.now()%>
+date: 2024-06-08
 aliases:
-  - <%tp.file.title.toLowerCase()%>
+  - software device drivers
 ---
 This is usually included in the HAL in the [[Embedded Software Design|embedded software model]]. 
 

@@ -22,7 +22,6 @@ draft: "true"
 
 - [ ] Read Lab Manual
 - [ ] 6.5. Bus drivers
-- [ ] 6.5.1. Push-Pull Drivers
 - [ ] 6.5.2. Open Drain Drivers
 - [ ] 6.5.3. Tri-State Drivers
 - [ ] 6.5.4. Non-ideal Realities
@@ -118,6 +117,7 @@ draft: "true"
 - [ ] Lab 2 Report
 - [ ] 5-6
 - [ ] 9-1
+- [ ] 6.5.1. Push-Pull Drivers
 
 %% kanban:settings
 ```
