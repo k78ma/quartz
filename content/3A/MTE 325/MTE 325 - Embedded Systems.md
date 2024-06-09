@@ -56,6 +56,11 @@ aliases:
 - [[Open-Drain Driver]]
 - [[Tri-State Driver]]
 - [[Driver Considerations]]
+### Addressing and Metastability
+- [[Device Selection]]
+- [[Device Addressing|Device Addressing / Decoding]]
+- [[Address Aliasing]]
+- [[Metastability]]
 
 ## Buses
 - [[Synchronous Bus]]

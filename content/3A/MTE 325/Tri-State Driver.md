@@ -5,6 +5,7 @@ tags:
 date: 2024-06-08
 aliases:
   - tri-state driver
+  - tri-states
 ---
 If permanently solving the conflict problem by eliminating transistors from the driver design is not desirable, we can temporarily solve it by selectively enabling only one driver at a time. This is how a tri-state driver works. The schematic symbol is a buffer with an enable added.
 
@@ -14,6 +15,12 @@ Tri-state drivers are a variation on the push-pull drivers, where the transistor
 - Both transistors are off if the enable is low, making the output high-Z regardless of the input. 
 - The input is passed through if the enable signal is high.
 
+## Multi-Device Sharing
 One caveat is that enable signals must be mutually exclusive. If we have a line fed by two tri-state drivers, both transistors on one of the drivers must be off, and it is impossible for one driver to turn on both of its own transistors. Thus, only one transistor in this circuit can turn on at a time to eliminate the conflict problem.
 
 ![[Tri-State Driver-1.png]]
+
+## Pull-up Resistor
+What if none of the drivers are enabled? Digital lines should be binary, either a 1 or 0. Unpredictable behavior when lines are left floating. To deal with this, a pull-up resistor can be added to the output as shown in Figure 2. 
+
+![[Device Selection-1.png]]
