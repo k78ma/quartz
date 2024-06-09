@@ -55,6 +55,8 @@ aliases:
 - [[Push-Pull Driver]]
 - [[Open-Drain Driver]]
 - [[Tri-State Driver]]
+- [[Driver Considerations]]
+
 ## Buses
 - [[Synchronous Bus]]
 - [[Asynchronous Bus]]
