@@ -6,7 +6,17 @@ date: 2024-06-07
 aliases:
   - synchronous bus
 ---
-In the synchronous case, a common clock is shared between the CPU interface and the memory or device interface as shown in Figure 10. 
+In a synchronous bus, a common clock is shared between the CPU interface and the peripherals. Thus, one of the control signals in the synchronous bus will be the clock. 
+
+## Transactions
+The transactions on a synchronous bus are timed relative to the edges of a clock signal, with each read/write transaction finishing within one cycle. 
+- At the end of the cycle, the transaction is assumed to be complete as there is no feedback from the peripheral to the controller with this type of bus. 
+- A successful transaction is assumed, but there is no mechanism to verify this.
+- There is also no mechanism to change the rate of transfer.
+
+A second read/write or R/W control line indicates the type of transaction being executed. 
+- Following convention, the name "R/W" indicates the mode is being set to read when a signal is a 1, and a write when this signal is a 0.
+## Simple Example
 
 ![[CPU-Memory Interface - Memory View-1.png|572]]
 

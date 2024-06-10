@@ -6,6 +6,8 @@ date: 2024-06-09
 aliases:
   - device addressing
   - address decoding
+  - centralized address decoder
+  - de-centralized address decoder
 ---
 From the [[CPU-Memory Interface - CPU View|CPU perspective]], addressing is easy, we just load a value into the MAR. But how does a device *recognize* its addresses?
 
@@ -15,7 +17,7 @@ Memory will require a large number of address, in many systems taking at least h
 
 ## Address Decoding
 There are two common ways to decode addresses on the system bus: centralized and de-centralized. Decoding here means that we are translating an address into a selection signal that activates the appropriate device on the bus. This way, only one devices responds on the bus at any given time, avoiding conflict.
-### Centralized
+### Centralized Address Decoder
 In the centralized scheme, a separate block of logic is used to select the active device. Each device only needs one line, commonly known as a chip select or enable, that tells it it is participating in the current transaction when activated.
 
 ![[Device Addressing.png]]
@@ -30,7 +32,7 @@ For example, if we were given the address `10100101`:
 - The lower bits `0101` are used by Device 10 to access internal register 5.
 
 Where the split is depends on how many registers are inside the devices. The upper bits fed to the centralized decoder must provide a sufficient amount of information for each of the devices it supports to be uniquely identified.
-### De-centralized
+### De-centralized Address Decoder
 The de-centralized scheme requires each device to have the hardware to check the full address and control information for themselves. 
 ### Comparison
 From a logical perspective, there is little reason to use centralized decoding but it has several physical advantages:

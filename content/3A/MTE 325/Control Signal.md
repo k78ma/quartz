@@ -9,7 +9,7 @@ aliases:
   - active low
   - clock
 ---
-Control signals are used to trigger operations. 
+Control signals are used to trigger operations.
 ## Active High vs. Low
 They can be *active high*. meaning they indicate or perform a certain action when they are a logic 1. Or they can be *active low*, meaning they indicate or perform a certain action when they are a logic 0.
 

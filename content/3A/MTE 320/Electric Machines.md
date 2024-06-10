@@ -5,7 +5,6 @@ tags:
 date: 2024-05-26
 aliases:
   - electric machines
-  - transformer
   - generator
   - motor
 ---

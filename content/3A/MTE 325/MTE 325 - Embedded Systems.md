@@ -63,6 +63,7 @@ aliases:
 - [[Metastability]]
 
 ## Buses
+- [[System Bus]]
 - [[Synchronous Bus]]
 - [[Asynchronous Bus]]
 

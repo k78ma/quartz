@@ -13,7 +13,6 @@ draft: "true"
 - [ ] Chapter 9 Problems
 - [ ] Examples
 - [ ] 9-3
-- [ ] 9-4
 - [ ] Read Lab Manual
 
 
@@ -58,7 +57,6 @@ draft: "true"
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
-- [ ] Rotational Rigid Bodies
 - [ ] Pulley Dynamics
 - [ ] Equivalent Mass and Inertia
 - [ ] General planar motion
@@ -124,6 +122,8 @@ draft: "true"
 - [ ] 6.6. Device Selection
 - [ ] 6.7. Metastability
 - [ ] 9-2
+- [ ] Rotational Rigid Bodies
+- [ ] 9-4
 
 %% kanban:settings
 ```
