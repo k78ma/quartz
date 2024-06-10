@@ -5,6 +5,20 @@ draft: "true"
 
 ---
 
+## Today
+
+- [ ] 7.1. Synchronous Bus Transactions
+- [ ] 7.1.1. Synchronous Bus Timing - Read
+- [ ] 7.1.2. Synchronous Bus Timing - Write
+- [ ] 7.1.3. Timing Calculations
+- [ ] Lecture 15
+- [ ] Pulley Dynamics
+- [ ] Equivalent Mass and Inertia
+- [ ] MTE 320 - Chapter 3 Examples
+- [ ] MTE 320 - Read Lab Manual
+- [ ] MTE 325 - Implement Limit Switches
+
+
 ## MTE 320
 
 - [ ] Chapter 3 Problems
@@ -12,24 +26,22 @@ draft: "true"
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
-- [ ] 9-3
-- [ ] Read Lab Manual
 
 
 ## MTE 325
 
-- [ ] Read Lab Manual
-- [ ] 7.1. Synchronous Bus Transactions
-- [ ] 7.1.1. Synchronous Bus Timing - Read
-- [ ] 7.1.2. Synchronous Bus Timing - Write
-- [ ] 7.1.3. Timing Calculations
+- [ ] MTE 325 - Read Lab Manual
 - [ ] 7.2 Asynchronous Bus
 - [ ] 7.2.1 Asynchronous Bus Timing
 - [ ] 7.3 Bus Speed Comparisons
+- [ ] 8.1. Parallel Ports
+- [ ] 8.1.1. Unidirectional Parallel Ports
+- [ ] 8.1.2. Bidirectional Parallel Ports
 - [ ] Assignment 1
 - [ ] Assignment 2
 - [ ] Assignment 3
 - [ ] Assignment 4
+- [ ] Section 7 Review Exercises
 - [ ] W2024 Midterm
 - [ ] W2023 Midterm
 - [ ] W2020 Midterm
@@ -37,6 +49,8 @@ draft: "true"
 
 ## MTE 309
 
+- [ ] Lecture Examples
+- [ ] Assignment 5
 
 
 ## MTE 321
@@ -44,8 +58,8 @@ draft: "true"
 - [ ] L5 - Torsion and Stress Concentration
 - [ ] L6.1 - Deflection due to bending
 - [ ] L6.2 - Beam deflection by superposition
-- [ ] L7.1 - Static Failures
-- [ ] L 7.2 - Failure Theories
+- [ ] L 7.1 - Static Failures
+- [ ] L7.2 - Failure Theories
 - [ ] PSet 3
 - [ ] PSet 4
 - [ ] PSet 5
@@ -57,8 +71,6 @@ draft: "true"
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
-- [ ] Pulley Dynamics
-- [ ] Equivalent Mass and Inertia
 - [ ] General planar motion
 - [ ] Spring elements
 - [ ] Coordinate references
@@ -124,6 +136,7 @@ draft: "true"
 - [ ] 9-2
 - [ ] Rotational Rigid Bodies
 - [ ] 9-4
+- [ ] 9-3
 
 %% kanban:settings
 ```

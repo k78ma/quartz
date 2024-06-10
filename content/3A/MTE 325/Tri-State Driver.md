@@ -6,6 +6,7 @@ date: 2024-06-08
 aliases:
   - tri-state driver
   - tri-states
+  - tri-state
 ---
 If permanently solving the conflict problem by eliminating transistors from the driver design is not desirable, we can temporarily solve it by selectively enabling only one driver at a time. This is how a tri-state driver works. The schematic symbol is a buffer with an enable added.
 

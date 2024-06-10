@@ -38,6 +38,8 @@ aliases:
 
 - [[Steady-Flow Devices]]
 - [[Nozzles and Diffusers]]
+- [[Turbines]]
+- [[Compressors and Pumps]]
 ## Substance Properties
 - [[Pure Substance]]
 - [[Equation of State]]

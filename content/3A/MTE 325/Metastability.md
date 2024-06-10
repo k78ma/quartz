@@ -14,7 +14,7 @@ As a result, the behavior of the device is only guaranteed when the input change
 
 ![[Metastability.png]]
 
-The critical time before the clock edge is the setup time, the time after the clock edge is the hold time. These times create a window during which the data input to the flow must not change.
+The critical time before the clock edge is the **setup time**, the time after the clock edge is the **hold time**. These times create a window during which the data input to the flow must not change.
 - If the input changes before this time, the output will be the new value.
 - If the input changes after this time, the output will be the old value until the next clock edge.
 - If it changes during this window, we might have metastability.
