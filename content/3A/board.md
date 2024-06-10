@@ -12,7 +12,6 @@ draft: "true"
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
-- [ ] 9-2
 - [ ] 9-3
 - [ ] 9-4
 - [ ] Read Lab Manual
@@ -21,10 +20,12 @@ draft: "true"
 ## MTE 325
 
 - [ ] Read Lab Manual
-- [ ] 6.6. Device Selection
-- [ ] 6.7. Metastability
 - [ ] 7.1. Synchronous Bus Transactions
+- [ ] 7.1.1. Synchronous Bus Timing - Read
+- [ ] 7.1.2. Synchronous Bus Timing - Write
+- [ ] 7.1.3. Timing Calculations
 - [ ] 7.2 Asynchronous Bus
+- [ ] 7.2.1 Asynchronous Bus Timing
 - [ ] 7.3 Bus Speed Comparisons
 - [ ] Assignment 1
 - [ ] Assignment 2
@@ -120,6 +121,9 @@ draft: "true"
 - [ ] 6.5. Bus drivers
 - [ ] 6.5.4. Non-ideal Realities
 - [ ] 6.6.1. Aliasing
+- [ ] 6.6. Device Selection
+- [ ] 6.7. Metastability
+- [ ] 9-2
 
 %% kanban:settings
 ```
