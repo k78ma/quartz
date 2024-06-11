@@ -43,7 +43,6 @@ draft: "true"
 ## MTE 309
 
 - [ ] Lecture Examples
-- [ ] Lecture 15
 - [ ] Assignment 5
 
 
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] MTE 320 - Chapter 3 Examples
 - [ ] MTE 325 - Implement Limit Switches
 - [ ] Sliding vs. rolling motion
+- [ ] Lecture 15
 
 %% kanban:settings
 ```
