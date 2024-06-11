@@ -17,3 +17,4 @@ aliases:
 - [[Pulley Dynamics]]
 - [[Equivalent Mass and Inertia]]
 - [[Sliding and Rolling Motion]]
+- [[General ]]

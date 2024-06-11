@@ -10,11 +10,10 @@ draft: "true"
 - [ ] 7.2 Asynchronous Bus
 - [ ] 7.2.1 Asynchronous Bus Timing
 - [ ] 7.3 Bus Speed Comparisons
-- [ ] Sliding vs. rolling motion
 - [ ] General planar motion
 - [ ] Spring elements
-- [ ] L5 - Torsion and Stress Concentration
 - [ ] Chapter 3 Problems
+- [ ] L5 - Torsion and Stress Concentration
 
 
 ## MTE 320
@@ -139,6 +138,7 @@ draft: "true"
 - [ ] MTE 320 - Read Lab Manual
 - [ ] MTE 320 - Chapter 3 Examples
 - [ ] MTE 325 - Implement Limit Switches
+- [ ] Sliding vs. rolling motion
 
 %% kanban:settings
 ```
