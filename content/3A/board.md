@@ -7,21 +7,18 @@ draft: "true"
 
 ## Today
 
-- [ ] 7.1. Synchronous Bus Transactions
-- [ ] 7.1.1. Synchronous Bus Timing - Read
-- [ ] 7.1.2. Synchronous Bus Timing - Write
-- [ ] 7.1.3. Timing Calculations
-- [ ] Lecture 15
-- [ ] Pulley Dynamics
-- [ ] Equivalent Mass and Inertia
-- [ ] MTE 320 - Chapter 3 Examples
-- [ ] MTE 320 - Read Lab Manual
-- [ ] MTE 325 - Implement Limit Switches
+- [ ] 7.2 Asynchronous Bus
+- [ ] 7.2.1 Asynchronous Bus Timing
+- [ ] 7.3 Bus Speed Comparisons
+- [ ] Sliding vs. rolling motion
+- [ ] General planar motion
+- [ ] Spring elements
+- [ ] L5 - Torsion and Stress Concentration
+- [ ] Chapter 3 Problems
 
 
 ## MTE 320
 
-- [ ] Chapter 3 Problems
 - [ ] Chapter 4 Problems
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
@@ -31,9 +28,6 @@ draft: "true"
 ## MTE 325
 
 - [ ] MTE 325 - Read Lab Manual
-- [ ] 7.2 Asynchronous Bus
-- [ ] 7.2.1 Asynchronous Bus Timing
-- [ ] 7.3 Bus Speed Comparisons
 - [ ] 8.1. Parallel Ports
 - [ ] 8.1.1. Unidirectional Parallel Ports
 - [ ] 8.1.2. Bidirectional Parallel Ports
@@ -50,15 +44,15 @@ draft: "true"
 ## MTE 309
 
 - [ ] Lecture Examples
+- [ ] Lecture 15
 - [ ] Assignment 5
 
 
 ## MTE 321
 
-- [ ] L5 - Torsion and Stress Concentration
 - [ ] L6.1 - Deflection due to bending
 - [ ] L6.2 - Beam deflection by superposition
-- [ ] L 7.1 - Static Failures
+- [ ] L7.1 - Static Failures
 - [ ] L7.2 - Failure Theories
 - [ ] PSet 3
 - [ ] PSet 4
@@ -68,11 +62,10 @@ draft: "true"
 ## SYDE 351
 
 - [ ] Assignment 2 - June 14
+- [ ] Lecture Examples
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
-- [ ] General planar motion
-- [ ] Spring elements
 - [ ] Coordinate references
 - [ ] Multi DOF mass-spring system
 
@@ -137,6 +130,15 @@ draft: "true"
 - [ ] Rotational Rigid Bodies
 - [ ] 9-4
 - [ ] 9-3
+- [ ] 7.1. Synchronous Bus Transactions
+- [ ] 7.1.1. Synchronous Bus Timing - Read
+- [ ] 7.1.2. Synchronous Bus Timing - Write
+- [ ] 7.1.3. Timing Calculations
+- [ ] Pulley Dynamics
+- [ ] Equivalent Mass and Inertia
+- [ ] MTE 320 - Read Lab Manual
+- [ ] MTE 320 - Chapter 3 Examples
+- [ ] MTE 325 - Implement Limit Switches
 
 %% kanban:settings
 ```

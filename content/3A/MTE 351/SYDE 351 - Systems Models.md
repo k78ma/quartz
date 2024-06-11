@@ -10,7 +10,10 @@ aliases:
 - [[System Model]]
 - [[Lumped and Distributed System]]
 
-## Rigid-body Modeling
+## Modeling of Rigid-Body Mechanical Systems
 - [[Rigid-body Translational Motion]]
 - [[Rigid-body Rotational Motion]]
 - [[Mass Moment of Inertia]]
+- [[Pulley Dynamics]]
+- [[Equivalent Mass and Inertia]]
+- [[Sliding and Rolling Motion]]
