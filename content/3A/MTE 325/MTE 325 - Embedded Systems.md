@@ -75,5 +75,10 @@ aliases:
 - [[Bus Timing Parameters]]
 - [[Bus Comparison]]
 
+## Parallel Ports
+- [[Parallel Port]]
+- [[Unidirectional Parallel Ports]]
+- [[Bidirectional Parallel Ports]]
+
 ## Tutorials/Labs
 - [[STM32 Interrupts]]

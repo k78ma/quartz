@@ -7,13 +7,15 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 3 Problems
+- [ ] Chapter 4 Problems
 - [ ] L5 - Torsion and Stress Concentration
+- [ ] Coordinate references
+- [ ] Multi DOF mass-spring system
+- [ ] Assignment 1
 
 
 ## MTE 320
 
-- [ ] Chapter 4 Problems
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
@@ -24,14 +26,11 @@ draft: "true"
 ## MTE 325
 
 - [ ] MTE 325 - Read Lab Manual
-- [ ] 8.1. Parallel Ports
-- [ ] 8.1.1. Unidirectional Parallel Ports
-- [ ] 8.1.2. Bidirectional Parallel Ports
-- [ ] Assignment 1
 - [ ] Assignment 2
 - [ ] Assignment 3
 - [ ] Assignment 4
 - [ ] Section 7 Review Exercises
+- [ ] Section 8 Review Exercises
 - [ ] W2024 Midterm
 - [ ] W2023 Midterm
 - [ ] W2020 Midterm
@@ -61,8 +60,6 @@ draft: "true"
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
-- [ ] Coordinate references
-- [ ] Multi DOF mass-spring system
 
 
 ***
@@ -141,6 +138,10 @@ draft: "true"
 - [ ] 7.3 Bus Speed Comparisons
 - [ ] General planar motion
 - [ ] Spring elements
+- [ ] Chapter 3 Problems
+- [ ] 8.1. Parallel Ports
+- [ ] 8.1.1. Unidirectional Parallel Ports
+- [ ] 8.1.2. Bidirectional Parallel Ports
 
 %% kanban:settings
 ```
