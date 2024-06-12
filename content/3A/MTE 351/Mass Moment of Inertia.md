@@ -5,6 +5,7 @@ tags:
 date: 2024-06-10
 aliases:
   - mass moment of inertia
+  - parallel axis theorem
 ---
 The mass moment of inertia $I$ about a specified reference axis is defined as:
 $$

@@ -18,3 +18,6 @@ aliases:
 - [[Equivalent Mass and Inertia]]
 - [[Sliding and Rolling Motion]]
 - [[General Planar Motion]]
+- [[Spring Elements]]
+	- [[Series and Parallel Springs]]
+	- [[Mass-Spring System]]

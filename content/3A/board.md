@@ -7,11 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] 7.2 Asynchronous Bus
-- [ ] 7.2.1 Asynchronous Bus Timing
-- [ ] 7.3 Bus Speed Comparisons
-- [ ] General planar motion
-- [ ] Spring elements
 - [ ] Chapter 3 Problems
 - [ ] L5 - Torsion and Stress Concentration
 
@@ -22,6 +17,8 @@ draft: "true"
 - [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
+- [ ] S2023 Midterm
+- [ ] S2022 Midterm
 
 
 ## MTE 325
@@ -139,6 +136,11 @@ draft: "true"
 - [ ] MTE 325 - Implement Limit Switches
 - [ ] Sliding vs. rolling motion
 - [ ] Lecture 15
+- [ ] 7.2 Asynchronous Bus
+- [ ] 7.2.1 Asynchronous Bus Timing
+- [ ] 7.3 Bus Speed Comparisons
+- [ ] General planar motion
+- [ ] Spring elements
 
 %% kanban:settings
 ```
