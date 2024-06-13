@@ -82,3 +82,6 @@ aliases:
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
+
+## Assignments
+- [[MTE 325 A1]]

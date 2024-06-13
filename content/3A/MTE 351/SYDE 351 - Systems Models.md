@@ -18,6 +18,15 @@ aliases:
 - [[Equivalent Mass and Inertia]]
 - [[Sliding and Rolling Motion]]
 - [[General Planar Motion]]
+
+### Springs
 - [[Spring Elements]]
-	- [[Series and Parallel Springs]]
-	- [[Mass-Spring System]]
+- [[Series and Parallel Springs]]
+- [[Mass-Spring System]]
+- [[Multi-mass Spring System]]
+- [[Spring Energy]]
+- [[Rayleigh's Method]]
+- [[Dampened Spring Systems]]
+
+
+4.10, 4.17, 4.19, 4.31

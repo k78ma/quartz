@@ -8,15 +8,15 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 4 Problems
-- [ ] L5 - Torsion and Stress Concentration
-- [ ] Coordinate references
-- [ ] Multi DOF mass-spring system
+- [ ] Assignment 2 - June 14
+- [ ] Chapter 5 Problems
 - [ ] Assignment 1
+- [ ] L5 - Torsion and Stress Concentration
+- [ ] PSet 3 - Q3
 
 
 ## MTE 320
 
-- [ ] Chapter 5 Problems
 - [ ] Chapter 9 Problems
 - [ ] Examples
 - [ ] S2023 Midterm
@@ -40,6 +40,7 @@ draft: "true"
 
 - [ ] Lecture Examples
 - [ ] Assignment 5
+- [ ] Lecture 16
 
 
 ## MTE 321
@@ -48,14 +49,19 @@ draft: "true"
 - [ ] L6.2 - Beam deflection by superposition
 - [ ] L7.1 - Static Failures
 - [ ] L7.2 - Failure Theories
-- [ ] PSet 3
+- [ ] L8.1 - Fatigue and Fatigue-Life Methods
+- [ ] L8.2 - Stress-Life and S-N
+- [ ] L9.1 - Endurance Limit Factors
+- [ ] L9.2 - Stress Concentration
 - [ ] PSet 4
 - [ ] PSet 5
+- [ ] PSet 6
+- [ ] PSet 7
+- [ ] CE 2
 
 
 ## SYDE 351
 
-- [ ] Assignment 2 - June 14
 - [ ] Lecture Examples
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
@@ -142,6 +148,9 @@ draft: "true"
 - [ ] 8.1. Parallel Ports
 - [ ] 8.1.1. Unidirectional Parallel Ports
 - [ ] 8.1.2. Bidirectional Parallel Ports
+- [ ] Coordinate references
+- [ ] Rayleigh's Method
+- [ ] Dampened Springs
 
 %% kanban:settings
 ```
