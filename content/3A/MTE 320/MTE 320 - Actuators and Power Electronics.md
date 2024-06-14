@@ -68,10 +68,11 @@ aliases:
 ### Single Phase Transformers
 - [[Core-Type Transformer]]
 - [[Shell-Type Transformer]]
-- [[Transformer Core Structure]]
+- [[Transformer Cross-Section Structure]]
 - [[Transformer Noise]]
 - [[Transformer Cooling]]
 - [[Ideal Single-Phase Transformer]]
+- [[Transformer Dot Convention]]
 - [[Impedance Matching]]
 - [[Practical Single-Phase Transformer]]
 - [[Transformer Under Load]]

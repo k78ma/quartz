@@ -12,7 +12,6 @@ draft: "true"
 - [ ] L5 - Torsion and Stress Concentration
 - [ ] PSet 3 - Q3
 - [ ] Assignment 2
-- [ ] Lecture 16
 
 
 ## MTE 320
@@ -37,8 +36,9 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Lecture Examples
+- [ ] Lecture 13-16 Examples
 - [ ] Assignment 5
+- [ ] Review Lecture
 
 
 ## MTE 321
@@ -152,6 +152,7 @@ draft: "true"
 - [ ] Assignment 1
 - [ ] Assignment 2 - June 14
 - [ ] Chapter 4 Problems
+- [ ] Lecture 16
 
 %% kanban:settings
 ```
