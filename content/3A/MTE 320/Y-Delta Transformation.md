@@ -6,7 +6,7 @@ date: 2024-05-22
 aliases:
   - y-delta transformation
 ---
-Usually, working with [[Y Connection Style]] is easier than [[Delta Connection Style]], since you can solve the problem on a per-phase basis. As a result, sometimes we may need to transform a -connected impedance load to a Y-connected impedance load.
+Usually, working with [[Y Connection Style]] is easier than [[Delta Connection Style]], since you can solve the problem on a per-phase basis. As a result, sometimes we may need to transform a $\Delta$-connected impedance load to a Y-connected impedance load.
 
 The transformation of the source follows the voltage and current relationships explained before.
 

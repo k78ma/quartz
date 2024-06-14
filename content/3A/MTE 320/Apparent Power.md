@@ -11,3 +11,5 @@ $$
 | S |=VI=\sqrt{ P^{2}+Q^{2} }
 $$
 Apparent power indicates the capacity of a system.
+
+The unit for apparent power is volt-amperes ($\text{VA}$).
