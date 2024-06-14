@@ -9,8 +9,6 @@ aliases:
 
 A good foundation of linear algebra contributes to deeper understanding of [[Machine Learning]] and [[Robotics]].
 
-- [[Singular Value Decomposition]]
-- [[Cholesky Decomposition]]
 ## Basic Concepts
 - [[Geometry of Linear Equations]]
 - [[Vector Combinations]]
@@ -18,6 +16,10 @@ A good foundation of linear algebra contributes to deeper understanding of [[Mac
 	- [[Matrix-Vector Multiplication]]
 	- Matrix-Matrix Multiplication
 - [[Subspaces|Subspaces]]
+
+## Decomposition
+- [[Singular Value Decomposition]]
+- [[Cholesky Decomposition]]
 
 ## Solving Linear Equations with Linear Algebra
 - [[Elimination with Matrices]]

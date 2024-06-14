@@ -36,25 +36,5 @@ Notes I took from [Paul’s Online Math Notes](https://tutorial.math.lamar.edu/C
 
 ## Applications of Partial Derivatives
 - [ ] [[Tangent Planes and Linear Approximations|Tangent Planes and Linear Approximations]]
-- [ ] [[Gradient Vector, Tangent Planes and Normal Lines]]
-- [ ] [[Relative Minimums and Maximums]]
-- [ ] [[Absolute Minimums and Maximums]]
 - [ ] [[Lagrange Multipliers]]
 
-
-## Multiple Integrals
-- [ ] [[Double Integrals]]
-	- [ ] [[Double Integrals over General Regions]]
-	- [ ] [[Double Integrals in Polar Coordinates]]
-- [ ] [[Iterated Integrals]]
-- [ ] [[Triple Integrals]]
-	- [ ] [[Triple Integrals in Cylindrical Coordinates]]
-	- [ ] [[Triple Integrals in Spherical Coordinates]]
-- [ ] [[Change of Variables]]
-- [ ] [[Surface Area]]
-- [ ] [[Area and Volume]]
-
-## Line Integrals
-
-
-## Surface Integrals

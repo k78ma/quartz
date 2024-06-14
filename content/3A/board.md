@@ -8,9 +8,7 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 4 Problems
-- [ ] Assignment 2 - June 14
 - [ ] Chapter 5 Problems
-- [ ] Assignment 1
 - [ ] L5 - Torsion and Stress Concentration
 - [ ] PSet 3 - Q3
 
@@ -151,6 +149,8 @@ draft: "true"
 - [ ] Coordinate references
 - [ ] Rayleigh's Method
 - [ ] Dampened Springs
+- [ ] Assignment 1
+- [ ] Assignment 2 - June 14
 
 %% kanban:settings
 ```
