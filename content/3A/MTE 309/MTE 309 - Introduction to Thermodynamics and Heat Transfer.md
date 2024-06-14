@@ -35,15 +35,6 @@ aliases:
 	- [[Energy Transfer by Heat]]
 	- [[Energy Transfer by Work]]
 - [[Efficiency of Thermodynamic Processes]]
-
-### Steady-Flow Devices
-- [[Steady-Flow Devices]]
-- [[Nozzles and Diffusers]]
-- [[Turbines]]
-- [[Compressors and Pumps]]
-- [[Fluid Throttles]]
-- [[Heat Exchangers]]
-
 ## Substance Properties
 - [[Pure Substance]]
 - [[Equation of State]]
@@ -60,7 +51,13 @@ aliases:
 	- [[Constant Volume Specific Heat]]
 	- [[Constant Pressure Specific Heat]]
 	- [[Specific Heat Relationships]]
-
+## Steady-Flow Devices
+- [[Steady-Flow Devices]]
+- [[Nozzles and Diffusers]]
+- [[Turbines]]
+- [[Compressors and Pumps]]
+- [[Fluid Throttles]]
+- [[Heat Exchangers]]
 ---
 ## Problems
 - [[Air Piston Heat Transfer]]

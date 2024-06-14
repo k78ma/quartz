@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Rest of Chapter 9 notes (up to page 12)
 - [ ] Chapter 5 Problems
 - [ ] L5 - Torsion and Stress Concentration
 - [ ] PSet 3 - Q3
@@ -153,6 +152,7 @@ draft: "true"
 - [ ] Assignment 2 - June 14
 - [ ] Chapter 4 Problems
 - [ ] Lecture 16
+- [ ] Rest of Chapter 9 notes (up to page 12)
 
 %% kanban:settings
 ```

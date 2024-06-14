@@ -60,9 +60,9 @@ aliases:
 - [[Lenz's Law]]
 - [[EMF Generation with Conductor Relative Motion]]
 - [[Generation of Force with Conductor in a Magnetic Field]]
-
 ### Rotational Motion
 - [[Rotational Motion]]
+
 ## Transformers
 - [[Electrical Transformer|Transformer]]
 ### Single Phase Transformers
@@ -80,11 +80,9 @@ aliases:
 - [[Transformer Voltage Regulation]]
 - [[Transformer Efficiency]]
 - [[Autotransformer]]
-
 ### Instrument Transformer
 - [[Instrument Transformer]]
 - [[Potential Transformer]]
 - [[Current Transformer]]
-
 ### 3-Phase Transformer
 - [[Three-Phase Transformer]]
