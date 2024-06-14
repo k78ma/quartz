@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2024-01-28
 aliases:
+  - activation function
 ---
 Activation functions aim to introduce non-linearity or certain characteristics to [[Artificial Neuron|artificial neurons]].
 - They transform the summed weighted input from the node into an output value to be fed to the next hidden layer. 

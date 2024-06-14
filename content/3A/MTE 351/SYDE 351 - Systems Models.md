@@ -27,6 +27,3 @@ aliases:
 - [[Spring Energy]]
 - [[Rayleigh's Method]]
 - [[Dampened Spring Systems]]
-
-
-4.10, 4.17, 4.19, 4.31

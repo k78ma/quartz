@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2023-10-29
 aliases:
+  - gradient descent
 ---
 Given an [[Machine Learning as Optimization|objective function]], how do we optimize it?
 

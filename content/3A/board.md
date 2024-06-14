@@ -11,6 +11,8 @@ draft: "true"
 - [ ] Chapter 5 Problems
 - [ ] L5 - Torsion and Stress Concentration
 - [ ] PSet 3 - Q3
+- [ ] Assignment 2
+- [ ] Lecture 16
 
 
 ## MTE 320
@@ -23,8 +25,7 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] MTE 325 - Read Lab Manual
-- [ ] Assignment 2
+- [ ] MTE 325 - Two-Axis Project
 - [ ] Assignment 3
 - [ ] Assignment 4
 - [ ] Section 7 Review Exercises
@@ -38,7 +39,6 @@ draft: "true"
 
 - [ ] Lecture Examples
 - [ ] Assignment 5
-- [ ] Lecture 16
 
 
 ## MTE 321

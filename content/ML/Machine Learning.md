@@ -24,7 +24,8 @@ date: 2023-06-25
 	- [[Artificial Neuron]]
 	- [[Neural Network Layer]]
 	- [[Multi-layer Neural Network]]
-
+- [[Shallow Neural Network]]
+- [[Deep Neural Network]]
 - [[Universal Approximation Theorem]]
 - [[Backpropagation]] 
 - [[Neural Network Training]]

@@ -4,6 +4,7 @@ tags:
   - ml
 date: 2023-12-30
 aliases:
+  - ReLU
 ---
 The rectified linear unit is a standard activation function; it returns the input when it is positive and zero otherwise:
 $$
