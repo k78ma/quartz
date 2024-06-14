@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 4 Problems
 - [ ] Rest of Chapter 9 notes (up to page 12)
 - [ ] Chapter 5 Problems
 - [ ] L5 - Torsion and Stress Concentration
@@ -152,6 +151,7 @@ draft: "true"
 - [ ] Dampened Springs
 - [ ] Assignment 1
 - [ ] Assignment 2 - June 14
+- [ ] Chapter 4 Problems
 
 %% kanban:settings
 ```

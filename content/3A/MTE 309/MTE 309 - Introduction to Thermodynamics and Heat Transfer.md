@@ -36,10 +36,14 @@ aliases:
 	- [[Energy Transfer by Work]]
 - [[Efficiency of Thermodynamic Processes]]
 
+### Steady-Flow Devices
 - [[Steady-Flow Devices]]
 - [[Nozzles and Diffusers]]
 - [[Turbines]]
 - [[Compressors and Pumps]]
+- [[Fluid Throttles]]
+- [[Heat Exchangers]]
+
 ## Substance Properties
 - [[Pure Substance]]
 - [[Equation of State]]
