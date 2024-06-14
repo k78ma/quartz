@@ -8,9 +8,7 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 5 Problems
-- [ ] L5 - Torsion and Stress Concentration
 - [ ] PSet 3 - Q3
-- [ ] Assignment 2
 
 
 ## MTE 320
@@ -23,14 +21,15 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] MTE 325 - Two-Axis Project
 - [ ] Assignment 3
 - [ ] Assignment 4
+- [ ] Assignment 5
 - [ ] Section 7 Review Exercises
 - [ ] Section 8 Review Exercises
 - [ ] W2024 Midterm
 - [ ] W2023 Midterm
 - [ ] W2020 Midterm
+- [ ] MTE 325 - Two-Axis Project
 
 
 ## MTE 309
@@ -55,6 +54,8 @@ draft: "true"
 - [ ] PSet 6
 - [ ] PSet 7
 - [ ] CE 2
+- [ ] Tutorials
+- [ ] Lecture Examples
 
 
 ## SYDE 351
@@ -153,6 +154,8 @@ draft: "true"
 - [ ] Chapter 4 Problems
 - [ ] Lecture 16
 - [ ] Rest of Chapter 9 notes (up to page 12)
+- [ ] Assignment 2
+- [ ] L5 - Torsion and Stress Concentration
 
 %% kanban:settings
 ```

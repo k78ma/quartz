@@ -32,3 +32,11 @@ aliases:
 - [[Two-Plane Bending]]
 - [[Shear Stresses for Beams in Bending]]
 - [[Shear Flow]]
+### Torsion
+- [[Torsion]]
+- [[Torsion for Rectangular Sections]]
+- [[Polar Moment of Inertia]]
+- [[Shaft Torque, Power, and Speed]]
+- [[Closed Thin-Walled Tubes]]
+- [[Open Thin-Walled Sections]]
+- [[Stress Concentration]]
