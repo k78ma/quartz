@@ -7,22 +7,21 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 5 Problems
-- [ ] PSet 3 - Q3
+- [ ] Chapter 9 Problems
+- [ ] S2023 Midterm
+- [ ] L6.2 - Beam deflection by superposition
+- [ ] Assignment 3
+- [ ] Assignment 4
 
 
 ## MTE 320
 
-- [ ] Chapter 9 Problems
-- [ ] Examples
-- [ ] S2023 Midterm
 - [ ] S2022 Midterm
+- [ ] Lab 3
 
 
 ## MTE 325
 
-- [ ] Assignment 3
-- [ ] Assignment 4
 - [ ] Assignment 5
 - [ ] Section 7 Review Exercises
 - [ ] Section 8 Review Exercises
@@ -34,15 +33,14 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Lecture 13-16 Examples
+- [ ] Lecture 13-17 Examples
 - [ ] Assignment 5
-- [ ] Review Lecture
+- [ ] Midterm Extra Study Problems
+- [ ] Tutorials
 
 
 ## MTE 321
 
-- [ ] L6.1 - Deflection due to bending
-- [ ] L6.2 - Beam deflection by superposition
 - [ ] L7.1 - Static Failures
 - [ ] L7.2 - Failure Theories
 - [ ] L8.1 - Fatigue and Fatigue-Life Methods
@@ -156,6 +154,11 @@ draft: "true"
 - [ ] Rest of Chapter 9 notes (up to page 12)
 - [ ] Assignment 2
 - [ ] L5 - Torsion and Stress Concentration
+- [ ] PSet 3 - Q3
+- [ ] Chapter 5 Problems
+- [ ] L6.1 - Deflection due to bending
+- [ ] Lecture 17
+- [ ] Examples
 
 %% kanban:settings
 ```

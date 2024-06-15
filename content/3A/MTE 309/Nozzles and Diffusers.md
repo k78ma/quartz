@@ -18,4 +18,4 @@ Typically:
 - Adiabatic ($\dot{Q}\approx 0$)
 - No work ($\dot{W}=0$)
 - Potential energy is approximately zero, $\Delta \text{PE}\simeq 0$
-- The change in kinetic energy is not identically zero, $\Delta \text{KE} \not\equiv 0$.
+- The change in kinetic energy is not zero, $\Delta \text{KE} \not\equiv 0$.
