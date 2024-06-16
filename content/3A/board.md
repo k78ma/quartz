@@ -7,14 +7,13 @@ draft: "true"
 
 ## Today
 
-- [ ] L7.1 - Static Failures
+- [ ] Section 7 Review Exercises
+- [ ] S2022 Midterm
+- [ ] Lecture 13 Examples
 - [ ] L7.2 - Failure Theories
 - [ ] W2024 Midterm
-- [ ] S2022 Midterm
 - [ ] Assignment 5
 - [ ] Midterm Extra Study Problems
-- [ ] Section 7 Review Exercises
-- [ ] Lecture 13 Examples
 - [ ] Lecture 14 Examples
 
 
@@ -170,6 +169,7 @@ draft: "true"
 - [ ] L6.2 - Beam deflection by superposition
 - [ ] Assignment 4 Review
 - [ ] Assignment 4 Review
+- [ ] L7.1 - Static Failures
 
 %% kanban:settings
 ```

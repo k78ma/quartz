@@ -36,13 +36,13 @@ In the timing diagram, we see that here is a `Address Decoded` signal and a `Reg
 
 `Address Decoded` functions identically to the read case, indicating that the target device is now aware of its involvement in the transaction.
 
-`Register Clock` is the signal whose rising edge will result in the value being stored into the register int he device interface. This rising edge will be aligned with the rising edge of the clock. This signal is:
+`Register Clock` is the signal whose rising edge will result in the value being stored into the register in the device interface. This rising edge will be aligned with the rising edge of the clock. This signal is:
 - High most of the time. This doesn't matter because only the rising edge has any effect.
 - Goes low once the device knows it has been selected and determines which specific register to store information in
 - Goes back to high on the next rising edge of the clock
 
 Consider the logic that drives `Register Clock`. We can't just use the clock directly, because this would result in all registers being written to every clock cycle, which is not the desired behavior. The conditions under which data should be stored are:
-1. Address on the bus should be that of the registes
+1. Address on the bus should be that of the registers
 2. Transaction is a write
 3. Currently in the peripheral clock phase
 
