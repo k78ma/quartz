@@ -7,9 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Section 7 Review Exercises
-- [ ] S2022 Midterm
-- [ ] Lecture 13 Examples
 - [ ] L7.2 - Failure Theories
 - [ ] W2024 Midterm
 - [ ] Assignment 5
@@ -19,6 +16,7 @@ draft: "true"
 
 ## MTE 320
 
+- [ ] S2023 Q2, MC
 
 
 ## MTE 325
@@ -170,6 +168,9 @@ draft: "true"
 - [ ] Assignment 4 Review
 - [ ] Assignment 4 Review
 - [ ] L7.1 - Static Failures
+- [ ] Section 7 Review Exercises
+- [ ] S2022 Midterm
+- [ ] Lecture 13 Examples
 
 %% kanban:settings
 ```

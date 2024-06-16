@@ -30,4 +30,4 @@ For one-dimensional flow, we have
 $$
 \dot{m}=\rho AV=\frac{AV}{v}
 $$
-where $A$ is cross-sectional area and $V$ is velocity (not volume!).
+where $A$ is cross-sectional area and $V$ is velocity (not volume!). $\rho$ is density ($\rho=\frac{1}{v}$).

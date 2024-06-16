@@ -35,7 +35,7 @@ I_{p}= \frac{1}{a}I_{s}
 $$
 Knowing that $\frac{V_{s}}{I_{s}}=R_{L}$ and $\frac{V_{p}}{I_{p}}=R_{in}$, we can choose $a$ such that:
 $$
-R_{in}=a^{2}RL=R_{s}
+R_{in}=a^{2}R_{L}=R_{s}
 $$
 or:
 $$
