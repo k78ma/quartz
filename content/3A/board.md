@@ -7,10 +7,8 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 9 Problems
-- [ ] S2023 Midterm
-- [ ] L6.2 - Beam deflection by superposition
 - [ ] Assignment 3
+- [ ] L6.2 - Beam deflection by superposition
 - [ ] Assignment 4
 
 
@@ -159,6 +157,8 @@ draft: "true"
 - [ ] L6.1 - Deflection due to bending
 - [ ] Lecture 17
 - [ ] Examples
+- [ ] Chapter 9 Problems
+- [ ] S2023 Midterm
 
 %% kanban:settings
 ```
