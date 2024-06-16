@@ -5,8 +5,9 @@ tags:
 date: 2024-05-25
 aliases:
   - generalized 3d stress
+  - 3D stress
 ---
-In the 3D stress instead of [[Plane Stress]], we have to deal with 3 principal directions and 3 principal stresses. This involves finding the roots of the cubic equation:
+In 3D stress instead of [[Plane Stress]], we have to deal with 3 principal directions and 3 principal stresses. This involves finding the roots of the cubic equation:
 $$
 \begin{align}
  & \sigma^{3}-(\sigma_{x}+\sigma_{y}+\sigma_{z})\sigma^{2} \\

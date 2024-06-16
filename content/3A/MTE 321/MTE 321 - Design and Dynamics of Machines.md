@@ -52,3 +52,10 @@ aliases:
 
 ## Failures from Static Loading
 - [[Static vs. Dynamic Loading]]
+
+### Ductile Failure Theories
+- [[Maximum Shear Stress Theory]]
+- [[Distortion Energy Theory]]
+- [[Coulomb-Mohr Theory]]
+
+### Brittle Failure Theories

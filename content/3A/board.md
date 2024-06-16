@@ -10,13 +10,14 @@ draft: "true"
 - [ ] L7.2 - Failure Theories
 - [ ] W2024 Midterm
 - [ ] Assignment 5
-- [ ] Midterm Extra Study Problems
 - [ ] Lecture 14 Examples
+- [ ] Lecture 15 Examples
 
 
 ## MTE 320
 
 - [ ] S2023 Q2, MC
+- [ ] 3-Phase Review
 
 
 ## MTE 325
@@ -28,7 +29,7 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Lecture 15 Examples
+- [ ] Midterm Extra Study Problems
 - [ ] Assignment 5
 - [ ] Tutorials
 - [ ] Lecture 16 Examples
