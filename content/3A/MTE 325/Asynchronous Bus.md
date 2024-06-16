@@ -82,8 +82,6 @@ $$
 
 For a write, the `peripheral` signal will be asserted once the data has been stored. This is the peripheral telling the controller "I have finished my part of the transaction".
 
-![[Asynchronous Bus-5.png]]
-
 Why is there $t_{\text{skew}}$ after `peripheral` was asserted? Skew only applies to data and addresses (multi-line). This is a design decision, since it simplifies the hardware to use the same logic on the controller side regardless of whether the transaction was a read or write. Therefore, the controller waits $t_{\text{skew}}$ after seeing the peripheral signal asserted before proceeding. 
 - After waiting this skew time and an extra margin time, the transaction will be cleaned up in the same way it was for a read: controller is de-asserted, and $2t_{p}$ later it will see that `peripheral` has been de-asserted. The bus is now ready for the next transaction to begin.
 
