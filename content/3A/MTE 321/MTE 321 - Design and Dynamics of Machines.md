@@ -48,3 +48,4 @@ aliases:
 	- [[Second Moment of Area]]
 - [[Equation of Elastic Curve]]
 - [[Statically Indeterminate Beams]]
+- [[Beam Deflections with Superposition Method]]

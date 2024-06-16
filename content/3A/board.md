@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Assignment 3
 - [ ] L6.2 - Beam deflection by superposition
 - [ ] Assignment 4
 
@@ -31,10 +30,14 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Lecture 13-17 Examples
 - [ ] Assignment 5
 - [ ] Midterm Extra Study Problems
 - [ ] Tutorials
+- [ ] Lecture 13 Examples
+- [ ] Lecture 14 Examples
+- [ ] Lecture 15 Examples
+- [ ] Lecture 16 Examples
+- [ ] Lecture 17 Examples
 
 
 ## MTE 321
@@ -159,6 +162,8 @@ draft: "true"
 - [ ] Examples
 - [ ] Chapter 9 Problems
 - [ ] S2023 Midterm
+- [ ] Lecture 13-17 Examples
+- [ ] Assignment 3
 
 %% kanban:settings
 ```
