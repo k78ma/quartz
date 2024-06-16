@@ -52,7 +52,7 @@ The falling edge (aka peripheral edge) is marked as time $B$. It marks the start
 
 After the falling edge, the first thing that needs to happen is the address needs to be checked to determine which device or memory is to be read from, and which specific piece of data within the peripheral is being requested. This is done by using [[Device Addressing|centralized address decoding]] to select the device, and internal logic to identify the specific source. 
 
-Once the target location is known, the device retrieves the desired information and places it on the data lines, as marked by time $C$. It must be possible for the device to place the data on the lines and for the values to be stable at the input of the `MDR` before the next rising edge, which is marked as time $D$.\
+Once the target location is known, the device retrieves the desired information and places it on the data lines, as marked by time $C$. It must be possible for the device to place the data on the lines and for the values to be stable at the input of the `MDR` before the next rising edge, which is marked as time $D$.
 
 ## Write Transaction
 Every write transaction follows the same form:

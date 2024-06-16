@@ -7,43 +7,40 @@ draft: "true"
 
 ## Today
 
-- [ ] L6.2 - Beam deflection by superposition
-- [ ] Assignment 4
+- [ ] L7.1 - Static Failures
+- [ ] L7.2 - Failure Theories
+- [ ] W2024 Midterm
+- [ ] S2022 Midterm
+- [ ] Assignment 5
+- [ ] Midterm Extra Study Problems
+- [ ] Section 7 Review Exercises
+- [ ] Lecture 13 Examples
+- [ ] Lecture 14 Examples
 
 
 ## MTE 320
 
-- [ ] S2022 Midterm
-- [ ] Lab 3
 
 
 ## MTE 325
 
-- [ ] Assignment 5
-- [ ] Section 7 Review Exercises
-- [ ] Section 8 Review Exercises
-- [ ] W2024 Midterm
 - [ ] W2023 Midterm
+- [ ] Section 8 Review Exercises
 - [ ] W2020 Midterm
-- [ ] MTE 325 - Two-Axis Project
 
 
 ## MTE 309
 
-- [ ] Assignment 5
-- [ ] Midterm Extra Study Problems
-- [ ] Tutorials
-- [ ] Lecture 13 Examples
-- [ ] Lecture 14 Examples
 - [ ] Lecture 15 Examples
+- [ ] Assignment 5
+- [ ] Tutorials
 - [ ] Lecture 16 Examples
 - [ ] Lecture 17 Examples
+- [ ] A4 Review
 
 
 ## MTE 321
 
-- [ ] L7.1 - Static Failures
-- [ ] L7.2 - Failure Theories
 - [ ] L8.1 - Fatigue and Fatigue-Life Methods
 - [ ] L8.2 - Stress-Life and S-N
 - [ ] L9.1 - Endurance Limit Factors
@@ -63,6 +60,12 @@ draft: "true"
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
+
+
+## Post-Midterms
+
+- [ ] Lab 3
+- [ ] MTE 325 - Two-Axis Project
 
 
 ***
@@ -164,6 +167,9 @@ draft: "true"
 - [ ] S2023 Midterm
 - [ ] Lecture 13-17 Examples
 - [ ] Assignment 3
+- [ ] L6.2 - Beam deflection by superposition
+- [ ] Assignment 4 Review
+- [ ] Assignment 4 Review
 
 %% kanban:settings
 ```

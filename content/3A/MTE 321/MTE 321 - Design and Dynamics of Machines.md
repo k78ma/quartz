@@ -49,3 +49,6 @@ aliases:
 - [[Equation of Elastic Curve]]
 - [[Statically Indeterminate Beams]]
 - [[Beam Deflections with Superposition Method]]
+
+## Failures from Static Loading
+- [[Static vs. Dynamic Loading]]
