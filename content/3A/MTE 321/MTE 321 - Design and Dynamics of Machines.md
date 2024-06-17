@@ -59,4 +59,6 @@ aliases:
 - [[Coulomb-Mohr Theory]]
 ### Brittle Failure Theories
 - [[Failure Theories for Brittle Materials]]
-- [[Maximum Normal Stress Theory]]
+- [[Maximum Normal Stress Theory]]\
+- [[Brittle Coulomb-Mohr Theory]]
+- [[Modified Mohr Theory]]

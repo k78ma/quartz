@@ -11,12 +11,14 @@ Brittle materials have $\epsilon_{f}< 0.05$, such that the material has a maximu
 Instead of $S_{yt}=S_{yc}=S_{y}$ in the [[Failure Theories for Ductile Materials|ductile case]], we use $S_{ut}$ and $S_{uc}$, which are the ultimate tensile and compressive strengths. 
 
 Applicable failure theories to determine **fracture criteria**:
-- [[Maximum Shear Stress Theory]]
-	- Quick, easy, conservative
-	- Useful for design purposes
-- [[Distortion Energy Theory]]
-	- Not as conservative, need to consider the $n$ value carefully
-	- Useful when we want to learn why a part failed
-- [[Coulomb-Mohr Theory]]
-	- Useful when yield strengths are unequal in tension and compression
-	- Magnesium alloys and gray cast irons
+- [[Maximum Normal Stress Theory]]
+	- Generally not used
+	- Only works well in first and third quadrant
+	- Issues when applying to second and fourth
+- [[Modified Mohr Theory]]
+	- Works well overall
+	- Does best job in fourth quadrant, particularly when compared to [[Maximum Normal Stress Theory|MNS]]
+- [[Brittle Coulomb-Mohr Theory]]
+	- More conservative
+
+![[Failure Theories for Brittle Materials.png]]
