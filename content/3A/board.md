@@ -9,7 +9,6 @@ draft: "true"
 
 - [ ] W2024 Midterm
 - [ ] Assignment 5
-- [ ] Lecture 14 Examples
 - [ ] Lecture 15 Examples
 
 
@@ -172,6 +171,7 @@ draft: "true"
 - [ ] S2022 Midterm
 - [ ] Lecture 13 Examples
 - [ ] L7.2 - Failure Theories
+- [ ] Lecture 14 Examples
 
 %% kanban:settings
 ```

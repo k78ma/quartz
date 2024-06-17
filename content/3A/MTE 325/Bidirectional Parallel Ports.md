@@ -6,7 +6,7 @@ date: 2024-06-12
 aliases:
   - bidirectional parallel ports
 ---
-[[Unidirectional Parallel Ports]] let us read and write to a device separately. How do we do both read and write to the same lines of a device? We can use the unidirectional parallel ports as a starting piont and glue them together. Two variations are discussed here; one sets the direction of the lines at a given time explicitly, while the other one figures it out from the contents of the write-only register.
+[[Unidirectional Parallel Ports]] let us read and write to a device separately. How do we do both read and write to the same lines of a device? We can use the unidirectional parallel ports as a starting point and glue them together. Two variations are discussed here; one sets the direction of the lines at a given time explicitly, while the other one figures it out from the contents of the write-only register.
 
 ## Explicit Bidirectional Parallel Ports
 In the case of the explicit bidirectional port, we start with unidirectional read-only and write-only ports. Then, an additional register is added, the Data Direction Register `DDR`. 
@@ -15,7 +15,7 @@ In the case of the explicit bidirectional port, we start with unidirectional rea
 
 ![[Bidirectional Parallel Ports.png]]
 
-Why does this work? Let's think about a two-bit parallel port. It's configured such that data is to be written in `D[0]` and read from `D[1]`.
+Why does this work? Let's think about a two-bit [[Parallel Port|parallel port]]. It's configured such that data is to be written in `D[0]` and read from `D[1]`.
 1. The first step is to write `DDR = 01`. This enables the tri-state on the `D[0]` line, while disabling the tri-state on `D[1]`.
 2. Now that the port is configured, write a `1` to `D[0]`. The CPU would write to the address of `D0` with a value of `x1`, where `x` is a don't care. 
 	- Since the tri-state on `D[1]` is disabled, the data at the output of `D[1]` is disconnected from the bidirectional line. 

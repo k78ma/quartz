@@ -7,7 +7,7 @@ aliases:
   - unidirectional parallel ports
 ---
 ## Unidirectional Read
-A unidirectional read port is only able to read from one register. This is suitable for interfacing with a simple, persistent data source such as a switch. 
+A unidirectional read [[Parallel Port|port]] is only able to read from one register. This is suitable for interfacing with a simple, persistent data source such as a switch. 
 
 The ideas in this section are applicable to any read-only register, such as the status register `SR` and Data In `DI`. In terms of the hardware required, and the transaction from the CPU's perspective, the only difference between the two registers is their address.
 
