@@ -71,3 +71,6 @@ aliases:
 	- [[Strain-Life Method]]
 	- [[Linear-Elastic Fracture Mechanics Method]]
 - [[Fatigue Design Criteria]]
+- [[Endurance Limit Modifying Factors]]
+- [[Stress Concentration for Dynamic Conditions]]
+- [[Notch Sensitivity]]
