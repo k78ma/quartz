@@ -62,3 +62,12 @@ aliases:
 - [[Maximum Normal Stress Theory]]\
 - [[Brittle Coulomb-Mohr Theory]]
 - [[Modified Mohr Theory]]
+
+## Failures from Dynamic Loading
+- [[Fatigue Failure]]
+- [[Fatigue-Life Methods]]
+- [[Stress-Life Method]]
+	- [[S-N Diagram for Steels]]
+	- [[Strain-Life Method]]
+	- [[Linear-Elastic Fracture Mechanics Method]]
+- [[Fatigue Design Criteria]]
