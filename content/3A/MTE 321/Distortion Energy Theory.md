@@ -49,6 +49,7 @@ This can be visualized as a rotated ellipse on the $\sigma_{A}, \sigma_{B}$ plan
 	- DE theory: $S_{sy}=0.577S_{y}$
 	- MSS theory: $S_{sy}=0.5S_{y}$
 
+## Shear Stress
 For shear stress (pure shear, $\sigma_{x}=\sigma_{y}-0$), we have yield conditions such that:
 $$
 \begin{align}

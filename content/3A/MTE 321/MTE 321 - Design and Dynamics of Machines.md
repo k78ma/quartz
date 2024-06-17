@@ -52,10 +52,11 @@ aliases:
 
 ## Failures from Static Loading
 - [[Static vs. Dynamic Loading]]
-
-### Ductile Failure Theories
+### Ductile Failure Theories\
+- [[Failure Theories for Ductile Materials]]
 - [[Maximum Shear Stress Theory]]
 - [[Distortion Energy Theory]]
 - [[Coulomb-Mohr Theory]]
-
 ### Brittle Failure Theories
+- [[Failure Theories for Brittle Materials]]
+- [[Maximum Normal Stress Theory]]

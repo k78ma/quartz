@@ -9,7 +9,7 @@ aliases:
   - Tresca theory
   - Guest theory
 ---
-Maximum-shear-stress theory predicts that yielding begins whenever the maximum shear stress in any element equals or exceeds the maximum shear stress in a tension-test specimen of the same material when that specimen begins to yield.
+Maximum-shear-stress theory predicts that yielding begins whenever the maximum shear stress in any element equals or exceeds the maximum shear stress in a tension-test specimen of the same material when that specimen begins to yield. Also known as **Tresca stress**.
 
 In general, MSS is a conservative predictor of failure; the predicted yield strength in shear is about 15% lower than actuality.
 

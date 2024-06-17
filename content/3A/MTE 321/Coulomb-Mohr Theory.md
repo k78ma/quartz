@@ -28,7 +28,27 @@ $$
 ## Plane Stress
 For plane stress, we have two principal stresses in the plane of analysis, such that $\sigma_{A}\geq \sigma_{B}$. The third principal stress is zero. We have 3 cases:
 
-|        | Case 1: $\sigma_{A}\geq \sigma_{B}\geq 0$ | Case 2: $\sigma_{A}\geq 0\geq \sigma_{B}$ | Case 3: $0 \geq \sigma_{A}\geq \sigma_{B}$ |
-| ------ | ----------------------------------------- | ----------------------------------------- | ------------------------------------------ |
-| Yield  | $\sigma_A \geq S_y$                       | $\sigma_A -\sigma_{B}\geq S_y$            | $\sigma_{B}\leq -S_{y}$                    |
-| Design | $\sigma_A = \frac{S_y}{n}$                | $\sigma_A -\sigma_{B}= \frac{S_y}{n}$     | $\sigma_{B} = -\frac{S_{y}}{n}$            |
+|          | Case 1: $\sigma_{A}\geq \sigma_{B}\geq 0$  | Case 2: $\sigma_{A}\geq 0\geq \sigma_{B}$                       | Case 3: $0 \geq \sigma_{A}\geq \sigma_{B}$ |
+| -------- | ------------------------------------------ | --------------------------------------------------------------- | ------------------------------------------ |
+| Stresses | $\sigma_{1}=\sigma_{A}$ and $\sigma_{3}=0$ | $\sigma_{1}=\sigma_{A}$ and $\sigma_{3}=\sigma_{B}$             | $\sigma_{1}=0$ and $\sigma_{3}=\sigma_{B}$ |
+| Yield    | $\sigma_A \geq S_t$                        | $\frac{\sigma_{A}}{S_{t}}-\frac{\sigma_{B}}{S_{c}}\geq 1$       | $\sigma_{B}\leq -S_{c}$                    |
+| Design   | $\sigma_A = \frac{S_t}{n}$                 | $\frac{\sigma_A}{S_{t}} -\frac{\sigma_{B}}{S_{c}}= \frac{1}{n}$ | $\sigma_{B} = -\frac{S_{y}}{n}$            |
+## Shear Stress
+For shear stress (pure shear, $\sigma_{1}=-\sigma_{3}=\tau$), we have yield conditions such that:
+$$
+\begin{align}
+\tau_{max} & \geq S_{xy} \\
+\sigma_{1} & =-\sigma_{3} \geq S_{xy}
+\end{align}
+$$
+For design:
+$$
+\begin{align}
+\tau_{max}=\frac{S_{sy}}{n}\\[2ex] 
+\sigma_{1}=-\sigma_{3}=\frac{S_{xy}}{n}
+\end{align}
+$$
+Relationship between $S_{sy}, S_{yt}$ and $S_{yc}$:
+$$
+S_{sy}=\frac{S_{yt}S_{yc}}{S_{yt}+S_{yc}}
+$$
