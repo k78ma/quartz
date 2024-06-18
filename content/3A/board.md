@@ -7,9 +7,14 @@ draft: "true"
 
 ## Today
 
+- [ ] Lecture 17 Examples
+- [ ] Midterm Extra Study Problems
 - [ ] Assignment 5
-- [ ] W2020 Midterm
-- [ ] W2023 Review
+- [ ] Tutorials
+- [ ] A4 Review
+- [ ] L9.1 - Endurance Limit Factors
+- [ ] PSet 4
+- [ ] PSet 5
 
 
 ## MTE 320
@@ -22,18 +27,10 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Lecture 17 Examples
-- [ ] Midterm Extra Study Problems
-- [ ] Assignment 5
-- [ ] Tutorials
-- [ ] A4 Review
 
 
 ## MTE 321
 
-- [ ] L9.1 - Endurance Limit Factors
-- [ ] PSet 4
-- [ ] PSet 5
 - [ ] PSet 6
 - [ ] PSet 7
 - [ ] CE 2
@@ -173,6 +170,9 @@ draft: "true"
 - [ ] L9.2 - Stress Concentration
 - [ ] W2024 Midterm
 - [ ] W2023 Midterm
+- [ ] W2020 Midterm
+- [ ] W2023 Review
+- [ ] Assignment 5
 
 %% kanban:settings
 ```
