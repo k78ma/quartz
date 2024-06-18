@@ -7,15 +7,9 @@ draft: "true"
 
 ## Today
 
-- [ ] W2024 Midterm
 - [ ] Assignment 5
-- [ ] W2023 Midterm
-- [ ] Section 8 Review Exercises
 - [ ] W2020 Midterm
-- [ ] Lecture 15 Examples
-- [ ] Lecture 16 Examples
-- [ ] L8.1 - Fatigue and Fatigue-Life Methods
-- [ ] L8.2 - Stress-Life and S-N
+- [ ] W2023 Review
 
 
 ## MTE 320
@@ -38,7 +32,6 @@ draft: "true"
 ## MTE 321
 
 - [ ] L9.1 - Endurance Limit Factors
-- [ ] L9.2 - Stress Concentration
 - [ ] PSet 4
 - [ ] PSet 5
 - [ ] PSet 6
@@ -172,6 +165,14 @@ draft: "true"
 - [ ] Lecture 14 Examples
 - [ ] 3-Phase Review
 - [ ] S2023 Q2, MC
+- [ ] L8.1 - Fatigue and Fatigue-Life Methods
+- [ ] L8.2 - Stress-Life and S-N
+- [ ] Lecture 15 Examples
+- [ ] Lecture 16 Examples
+- [ ] Section 8 Review Exercises
+- [ ] L9.2 - Stress Concentration
+- [ ] W2024 Midterm
+- [ ] W2023 Midterm
 
 %% kanban:settings
 ```

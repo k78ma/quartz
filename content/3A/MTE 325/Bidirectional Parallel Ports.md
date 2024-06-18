@@ -38,7 +38,7 @@ Recall the truth table for a passive pull-up buffer:
 - If the input is a 1, the output is high impedance. 
 - If the input is a 0, the output is 0.
 
-Since pull-ups have been connected to the data lines, writing `DO = 11` will have the effect of disconnected `D0` from the data liens and allowing the pull-up to drive `D[0]` to a `1` as desired. If we assume `D[1]` can be driven by the device, we can now read it as well. 
+Since pull-ups have been connected to the data lines, writing `DO = 11` will have the effect of disconnected `D0` from the data linesg and allowing the pull-up to drive `D[0]` to a `1` as desired. If we assume `D[1]` can be driven by the device, we can now read it as well. 
 
 The key is to understand that if bit `1` in `D0` was currently set to 0, a 0 will always be read on this line, regardless of what the device was actually trying to set the value to. Furthermore, the device must use passive pull-up drivers on these lines; otherwise, there is the potential for bus conflicts if the device happened to try and drive an active 1 while `D0` was set to 0 on the same line.
 
