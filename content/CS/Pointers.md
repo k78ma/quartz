@@ -13,7 +13,7 @@ Analogy: A cell-phone number can be thought of as a pointer to its owner as they
 ## Syntax
 In C/C++ syntax:
 - A pointer `p` is assumed to give the address in memory where a particular chunk of data is located.
-- We use `*p` to denote the item that is pointed to by pointer `p`.
+- We use `*p` to denote the item that is pointed to by pointer `p` – **de-reference**.
 - We use `&x` to denote the address of (i.e. pointer to) a particular variable `x`.
 - A special `NULL` pointer value is used to denote structure-terminating or unassigned pointers.
 

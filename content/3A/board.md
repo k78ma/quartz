@@ -7,30 +7,15 @@ draft: "true"
 
 ## Today
 
-- [ ] Lecture 17 Examples
 - [ ] Midterm Extra Study Problems
-- [ ] Assignment 5
 - [ ] Tutorials
 - [ ] A4 Review
-- [ ] L9.1 - Endurance Limit Factors
-- [ ] PSet 4
-- [ ] PSet 5
-
-
-## MTE 320
-
-
-
-## MTE 325
-
-
-
-## MTE 309
-
 
 
 ## MTE 321
 
+- [ ] PSet 4
+- [ ] PSet 5
 - [ ] PSet 6
 - [ ] PSet 7
 - [ ] CE 2
@@ -44,6 +29,19 @@ draft: "true"
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
+
+
+## MTE 320
+
+
+
+## MTE 325
+
+- [ ] A5
+
+
+## MTE 309
+
 
 
 ## Post-Midterms
@@ -172,6 +170,9 @@ draft: "true"
 - [ ] W2023 Midterm
 - [ ] W2020 Midterm
 - [ ] W2023 Review
+- [ ] Assignment 5
+- [ ] L9.1 - Endurance Limit Factors
+- [ ] Lecture 17 Examples
 - [ ] Assignment 5
 
 %% kanban:settings
