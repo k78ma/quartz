@@ -7,20 +7,15 @@ draft: "true"
 
 ## Today
 
-- [ ] Midterm Extra Study Problems
+- [ ] PSet 5
+- [ ] PSet 6
+- [ ] CE 2
 - [ ] Tutorials
-- [ ] A4 Review
+- [ ] Lecture Examples
 
 
 ## MTE 321
 
-- [ ] PSet 4
-- [ ] PSet 5
-- [ ] PSet 6
-- [ ] PSet 7
-- [ ] CE 2
-- [ ] Tutorials
-- [ ] Lecture Examples
 
 
 ## SYDE 351
@@ -174,6 +169,10 @@ draft: "true"
 - [ ] L9.1 - Endurance Limit Factors
 - [ ] Lecture 17 Examples
 - [ ] Assignment 5
+- [ ] Midterm Extra Study Problems
+- [ ] Tutorials
+- [ ] A4 Review
+- [ ] PSet 4
 
 %% kanban:settings
 ```

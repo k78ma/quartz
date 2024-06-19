@@ -8,7 +8,7 @@ aliases:
 ---
 In an ideal gas, molecules are spaced far enough apart that intermolecular forces are negligible.
 
->[!definition] Ideal Gas Law
+>[!note] Ideal Gas Law
 >Original form:
 >$$
 >PV = nR\degree T
