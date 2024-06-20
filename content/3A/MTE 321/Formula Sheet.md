@@ -13,4 +13,4 @@ $$
 $$
 [[Beam Deflection Due to Bending]] equations
 
-$\epsilon_{f}\geq 0.05$ is ductile
+$\epsilon_{f}\geq 0.05$ is ductile, $\epsilon_{f} < 0.05$ is brittle

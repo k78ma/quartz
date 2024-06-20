@@ -7,31 +7,28 @@ draft: "true"
 
 ## Today
 
-- [ ] PSet 5
-- [ ] PSet 6
-- [ ] CE 2
-- [ ] Tutorials
-- [ ] Lecture Examples
-
-
-## MTE 321
-
-
-
-## SYDE 351
-
 - [ ] Lecture Examples
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
+- [ ] SYDE 351 HW 4
+- [ ] SYDE 351 HW 6
+- [ ] Practice Midterm
+- [ ] Tutorials
+
+
+## SYDE 351
+
 
 
 ## MTE 320
 
+- [ ] Lab 3
 
 
 ## MTE 325
 
+- [ ] MTE 325 - Two-Axis Project
 - [ ] A5
 
 
@@ -39,10 +36,8 @@ draft: "true"
 
 
 
-## Post-Midterms
+## MTE 321
 
-- [ ] Lab 3
-- [ ] MTE 325 - Two-Axis Project
 
 
 ***
@@ -173,6 +168,11 @@ draft: "true"
 - [ ] Tutorials
 - [ ] A4 Review
 - [ ] PSet 4
+- [ ] PSet 5
+- [ ] PSet 6
+- [ ] CE 2
+- [ ] Tutorials
+- [ ] Lecture Examples
 
 %% kanban:settings
 ```
