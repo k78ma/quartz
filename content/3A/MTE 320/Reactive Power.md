@@ -11,7 +11,7 @@ Reactive power, unlike [[Average Power|active power]], does not convert to usefu
 - Capacitative loads send reactive power
 - Pure resistive loads receive [[Average Power|real power]]
 
-In AC circuits, reactive power goes back and forth between the inductors and capacitors, occupying part of the capacity of the system which is meant for generating, transmitting, and distributing real power. This causes extra losses. Reactive power does not perform any real work but is essential for maintaining voltage levels in the power system to ensure the efficient operation of equipment.
+In AC circuits, reactive power goes back and forth between the inductors and capacitors, occupying part of the capacity of the system which is meant for generating, transmitting, and distributing real power. This causes extra losses. *Reactive* power does not perform any real work but is essential for maintaining voltage levels in the power system to ensure the efficient operation of equipment.
 
 Reactive power is defined as:
 $$

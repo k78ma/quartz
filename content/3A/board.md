@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] NeRFStudio installation
 - [ ] 9.2 - Dynamic Failure-Stress Concentration and Notch Sensitivity
 
 
@@ -38,6 +37,7 @@ draft: "true"
 
 ## WATonomous
 
+- [ ] NeRFStudio installation
 - [ ] NeRF-RPN Dataset
 
 
