@@ -7,18 +7,8 @@ draft: "true"
 
 ## Today
 
-- [ ] Lecture Examples
-- [ ] SYDE 351 HW 2
-- [ ] SYDE 351 HW 3
-- [ ] SYDE 351 HW 4
-- [ ] SYDE 351 HW 4
-- [ ] SYDE 351 HW 6
-- [ ] Practice Midterm
-- [ ] Tutorials
-
-
-## SYDE 351
-
+- [ ] NeRFStudio installation
+- [ ] 9.2 - Dynamic Failure-Stress Concentration and Notch Sensitivity
 
 
 ## MTE 320
@@ -34,10 +24,21 @@ draft: "true"
 
 ## MTE 309
 
+- [ ] Midterm Extra Study Questions
 
 
 ## MTE 321
 
+
+
+## SYDE 351
+
+- [ ] SYDE 351 HW 6
+
+
+## WATonomous
+
+- [ ] NeRF-RPN Dataset
 
 
 ***
@@ -173,9 +174,12 @@ draft: "true"
 - [ ] CE 2
 - [ ] Tutorials
 - [ ] Lecture Examples
+- [ ] SYDE 351 HW 2
+- [ ] SYDE 351 HW 3
+- [ ] SYDE 351 HW 4
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","lane-width":215,"show-checkboxes":true}
 ```
 %%

@@ -27,3 +27,5 @@ aliases:
 - [[Spring Energy]]
 - [[Rayleigh's Method]]
 - [[Dampened Spring Systems]]
+
+- [[Formulas]]

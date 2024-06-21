@@ -1,5 +1,5 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 18,
   "accentColor": "#9c66ff",
   "cssTheme": "Border",
   "enabledCssSnippets": [
@@ -8,5 +8,6 @@
   "translucency": false,
   "theme": "obsidian",
   "textFontFamily": "STIX Two Text",
-  "showViewHeader": true
+  "showViewHeader": true,
+  "baseFontSizeAction": false
 }
