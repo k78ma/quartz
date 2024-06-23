@@ -21,20 +21,23 @@ aliases:
 - [[Thermodynamic State]]
 - [[Equilibrium State]]
 - [[State Postulate]]
-### Processes
+### Thermodynamic Processes
 - [[Thermodynamic Process]]
 - [[Thermodynamic Cycle]]
 - [[Quasi-equilibrium Process]]
+- [[Energy Transfer by Heat]]
+- [[Energy Transfer by Work]]
+- [[Moving Boundary Work]]
+- [[Efficiency of Thermodynamic Processes]]
+
 ## Energy, Heat, and the First Law
 - [[First Law of Thermodynamics]]
+- [[First Law of Thermodynamics for Closed Systems]]
 - [[Conservation of Mass]]
 - [[Conservation of Energy for Open Systems]]
-- [[Energy Balance]]
 - [[Internal Energy]]
 - [[Thermal Energy]]
-	- [[Energy Transfer by Heat]]
-	- [[Energy Transfer by Work]]
-- [[Efficiency of Thermodynamic Processes]]
+
 ## Substance Properties
 - [[Pure Substance]]
 - [[Equation of State]]
@@ -47,10 +50,12 @@ aliases:
 - [[Ideal Gas]]
 - [[Ideal Gas Correction Factor]]
 - [[Polytropic Process]]
+### Specific Heats
 - [[Specific Heat]]
 	- [[Constant Volume Specific Heat]]
 	- [[Constant Pressure Specific Heat]]
 	- [[Specific Heat Relationships]]
+
 ## Steady-Flow Devices
 - [[Steady-Flow Devices]]
 - [[Nozzles and Diffusers]]
@@ -58,6 +63,7 @@ aliases:
 - [[Compressors and Pumps]]
 - [[Fluid Throttles]]
 - [[Heat Exchangers]]
+
 ---
 ## Problems
 - [[Air Piston Heat Transfer]]

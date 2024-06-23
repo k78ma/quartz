@@ -1,11 +1,14 @@
 ---
-title: Thermodynamic Systems, Boundaries, Properties
+title: Thermodynamic Systems
 tags:
   - mte309
-date: 2024-05-10
+date: 2024-05-09
 aliases:
-  - system
-  - boundary
+  - thermodynamic system
+  - system boundary
+  - isolated system
+  - closed system
+  - open system
 ---
 A "system" is a *quantity of matter* or a *region in space* for study. The "surroundings" or "environment" is everything that interacts with the system.
 

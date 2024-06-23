@@ -15,6 +15,7 @@ Ideas:
 - [ ] Semantic search from scratch for Obsidian notes
 - [ ] Block diagram → model
 - [ ] Learned Kalman Filter
-- [ ] AUTONOMOUS MOBILE ROBOT WOOOO
+- [ ] Autonomous Mobile Robot
+- [ ] Neural Network Description Language / Compiler
 
 Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)

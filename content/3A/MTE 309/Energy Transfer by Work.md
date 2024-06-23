@@ -54,20 +54,6 @@ $$
 \dot{W}_{\text{sh}}=2\pi \dot{n}T
 $$
 - $\dot{n}$ is revolutions/time, such as RPM.
-## Work of Compression/Expansion
-Work done by compression/expansion is given by:
-$$
-W_{1-2}=\int_{1}^{2} PA \, dx 
-$$
-- $PA$ is the force, since pressure is defined to be $P = F/A$.
-
-Alternatively, we can use:
-$$
-W_{1-2}=\int_{1}^{2} P(V) \, dV 
-$$
-In general, the amount of work depends on the process path. This is also known as *P-V work* or *boundary work*.
-
-![[Work-1.png|316]]
 
 ## Electrical Work
 Electrical work is given by:

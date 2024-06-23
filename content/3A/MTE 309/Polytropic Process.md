@@ -6,7 +6,7 @@ date: 2024-06-01
 aliases:
   - polytropic process
 ---
-Polytropic processes follow the equation
+Many expansion and compression processes of gases are *polytropic*, such that they follow the equation
 $$
 PV^{n}=C \quad \text{or} \quad P=CV^{-n} 
 $$
@@ -43,7 +43,10 @@ W_{1-2}=\int_{V_{1}}^{V_{2}} \frac{C}{V} \, dV =C\ln V \bigg|_{V_{1}}^{V_{2}}=C\
 $$
 Thus, we have:
 $$
-W_{1-2}=P_{1}V_{1}\ln\left( \frac{V_{2}}{V_{1}} \right)=P_{2}V_{2}\ln\left( \frac{V_{2}}{V_{1}} \right) 
+\begin{align}
+W_{1-2}=P_{1}V_{1}\ln\left( \frac{V_{2}}{V_{1}} \right)\\[2ex] 
+=\boxed{P_{2}V_{2}\ln\left( \frac{V_{2}}{V_{1}} \right) }
+\end{align}
 $$
 This can again be simplified for an ideal gas with $PV=mRT$. In this case, this would be an isothermal process, since $R$ and $m$ are constant in the system, so $T$ must also be constant to have $P_{1}V_{1}=P_{2}V_{2}$.
 

@@ -13,6 +13,7 @@ draft: "true"
 ## MTE 320
 
 - [ ] Lab 3
+- [ ] Practical Transformers
 
 
 ## MTE 325
