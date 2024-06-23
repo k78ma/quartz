@@ -7,13 +7,19 @@ draft: "true"
 
 ## Today
 
-- [ ] 9.2 - Dynamic Failure-Stress Concentration and Notch Sensitivity
+- [ ] Textbook Revision #mte309
+- [ ] Second Law of Thermodynamics #mte309
+- [ ] Transformer Efficiency #mte320
 
 
 ## MTE 320
 
 - [ ] Lab 3
-- [ ] Practical Transformers
+- [ ] Autotransformer #mte320
+- [ ] Potential transformer #mte320
+- [ ] 3-Phase Transformer #mte320
+- [ ] Transformer Ch. 9 Problems #mte320
+- [ ] Example 9-1, 9-2, 9-3 #mte320
 
 
 ## MTE 325
@@ -24,7 +30,7 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Midterm Extra Study Questions
+- [ ] Midterm Extra Study Questions #mte309
 
 
 ## MTE 321
@@ -178,9 +184,15 @@ draft: "true"
 - [ ] SYDE 351 HW 2
 - [ ] SYDE 351 HW 3
 - [ ] SYDE 351 HW 4
+- [ ] 9.2 - Dynamic Failure-Stress Concentration and Notch Sensitivity
+- [ ] Practical Transformers #mte320
+- [ ] Transformer Under Load #mte320
+- [ ] Transformer Equivalent Circuit #mte320
+- [ ] Determining Equivalent Circuit Parameters #mte320
+- [ ] Voltage regulation in Transformers #mte320
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","lane-width":215,"show-checkboxes":true}
+{"kanban-plugin":"basic","lane-width":215,"show-checkboxes":false,"hide-tags-in-title":false,"hide-tags-display":true}
 ```
 %%

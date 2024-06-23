@@ -68,6 +68,7 @@ aliases:
 ### Single Phase Transformers
 - [[Core-Type Transformer]]
 - [[Shell-Type Transformer]]
+- [[Copper Loss]]
 - [[Transformer Cross-Section Structure]]
 - [[Transformer Noise]]
 - [[Transformer Cooling]]
@@ -77,10 +78,11 @@ aliases:
 - [[Practical Single-Phase Transformer]]
 - [[Transformer Under Load]]
 - [[Transformer Equivalent Circuit]]
-- [[Transformer Voltage Regulation]]
+- [[Determining Transformer Equivalent Circuit Parameters|Determining Transformer Equivalent Circuit Parameters - Open/Closed Circuit Tests]]
+- [[Voltage Regulation in Transformers]]
 - [[Transformer Efficiency]]
 - [[Autotransformer]]
-### Instrument Transformer
+### Instrument Transformers
 - [[Instrument Transformer]]
 - [[Potential Transformer]]
 - [[Current Transformer]]
