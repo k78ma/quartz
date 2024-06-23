@@ -28,6 +28,8 @@ The sign convention is to assume that heat, $Q$, is being transferred *into* the
 
 ![[First Law of Thermodynamics.png|540]]
 
+![[First Law of Thermodynamics for Closed Systems.png|540]]
+
 Note that in the full form with kinetic and potential energy, we have:
 $$
 \begin{align}
@@ -36,3 +38,14 @@ $$
 \end{align}
 $$
 where the left side is the rate at which system energy changed, $\dot{Q}$ is the rate of heat addition, and $\dot{W}$ is the rate of work done (power). 
+## Steady-state
+At a steady state such that $dE_{\text{CV}} / dt = 0$, we have
+$$
+0=\dot{Q}-\dot{W}+\dot{m}_{\text{in}}\left( h+\frac{1}{2}V^{2}+gz \right)_{\text{in}} - \dot{m}_{\text{out}}\left( h+\frac{1}{2}V^{2} + gz \right)_{\text{out}}
+$$
+## One inlet, one outlet and steady
+### Extrinsic form
+$$
+0=\dot{Q}-\dot{V}+\dot{m}\left[\left( h+\frac{1}{2}V^{2}+gz \right)_{\text{in}} -\left( h+\frac{1}{2}V^{2} + gz \right)_{\text{out}}\right]
+$$
+### Intrinsic form

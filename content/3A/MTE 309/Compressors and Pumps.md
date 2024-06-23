@@ -15,6 +15,6 @@ Pumps use work input to increase the pressure of a liquid.
 
 Typically:
 - Negligible heat transfer unless there is intentional cooling ($\dot{Q}\approx 0$)
-- Potential and kinetic energy are negligible compared to change in enthalpy
+- Potential and kinetic energy are negligible compared to changes in enthalpy
 	- $\Delta \text{PE}\approx 0$
 	- $\Delta \text{KE}\approx 0$

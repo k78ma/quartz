@@ -6,7 +6,7 @@ date: 2024-06-05
 aliases:
   - conservation of mass
 ---
-For an open system where mass can transfer across boundaries, mass coming in and out of the system is conserved.
+Conservation of mass states that for a control volume where mass can transfer across boundaries, mass coming in and out of the system is conserved.
 $$
 \frac{dm_{\text{cv}}}{dt}=\sum_{\text{in}}\dot{m}_{\text{in}} - \sum_{\text{out}}\dot{m}_{\text{out}}
 $$
@@ -14,8 +14,10 @@ $$
 - $\sum_{\text{in}}\dot{m}_{\text{in}}$ is the rate of mass inflow
 - $\sum_{\text{out}}\dot{m}_{\text{out}}$ is the rate of mass outflow
 
+For the special case of no mass flowing across the boundary of the control volume, conservation of mass reduces to $\frac{dm_{\text{cv}}}{dt}=0$.
+
 ## Steady-State
-At steady-state (not changing with time), we have $d(m_{\text{cv}}) / dt = 0$. Thus, we have
+Dt steady-state (not changing with time), we have $d(m_{\text{cv}}) / dt = 0$. Thus, we have
 $$
 \sum_{\text{in}}\dot{m}_{\text{in}}=\sum_{\text{out}}\dot{m}_{\text{out}}
 $$

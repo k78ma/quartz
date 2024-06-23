@@ -33,8 +33,8 @@ aliases:
 ## Energy, Heat, and the First Law
 - [[First Law of Thermodynamics]]
 - [[First Law of Thermodynamics for Closed Systems]]
+- [[First Law of Thermodynamics for Open Systems]]
 - [[Conservation of Mass]]
-- [[Conservation of Energy for Open Systems]]
 - [[Internal Energy]]
 - [[Thermal Energy]]
 
@@ -57,7 +57,7 @@ aliases:
 	- [[Specific Heat Relationships]]
 
 ## Steady-Flow Devices
-- [[Steady-Flow Devices]]
+- [[Steady-Flow Process]]
 - [[Nozzles and Diffusers]]
 - [[Turbines]]
 - [[Compressors and Pumps]]
