@@ -9,13 +9,13 @@ aliases:
 One of the most basic of ML algorithms - but it has a cool name!
 
 Method for learning a linear classifier: $h(x; \theta, \theta_{0})= \text{sign}(\theta^T + \theta_0)$
-- Can also be used to learn non-linear classifiers through methods like [Polynomial Basis](Polynomial%20Basis.md)
+- Can also be used to learn non-linear classifiers through methods like [[Polynomial Basis]]
 
 The basic idea is:
 - If a prediction is correct (sign is positive), make no changes
 - If a prediction is incorrect (negative), edit $\theta$ and $\theta_0$
 
-![perceptron](perceptron.pdf)
+![[perceptron.pdf]]
 
 Python implementation:
 ```python
@@ -43,4 +43,4 @@ def perceptron(data, labels, params={}, hook=None):
     return th, th0
 ```
 
-Variation: [Averaged Perceptron](Averaged%20Perceptron.md)
+Variation: [[Averaged Perceptron]]

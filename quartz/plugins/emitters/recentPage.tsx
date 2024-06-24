@@ -33,7 +33,7 @@ export const RecentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
       const [tree, file] = defaultProcessedContent({
         slug,
         // text: "# Recent Notes",
-        description: "Sorted by data of creation + alphabetical.",
+        description: "Sorted by date of creation + alphabetical.",
         frontmatter: { title: "Recent Notes", tags: [] },
       })
 

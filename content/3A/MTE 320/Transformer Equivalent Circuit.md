@@ -27,11 +27,11 @@ When secondary impedance is referred to the primary side, it gets multiplied by 
 $$
 \frac{V_{p}}{I_{p}}=\frac{aV_{s}}{\frac{1}{a}I_{s}}=a^{2} \frac{V_{s}}{I_{s}} \quad \longrightarrow \quad Z_{p}=a^{2}Z_{s}
 $$
-
+The power and power factor do not change due to referral.
 ### Further Simplification
 We can combine the resistances and inductances above (9-18) to get an even more simplified circuit.
 
-![[Transformer Equivalent Circuit-2.png]]
+![[Transformer Equivalent Circuit-2.png|636]]
 
 Here, we have:
 $$
@@ -42,12 +42,12 @@ X_{ep}=X_{p}+a^{2}X_{s}
 $$
 The phasor diagram of the corresponding circuit is given below.
 
-![[Transformer Equivalent Circuit-3.png]]
+![[Transformer Equivalent Circuit-3.png|636]]
 
 ### Secondary Side Referral
 If the primary circuit is referred to the secondary-side, and the resistances and inductances are integrated, we get the equivalent circuit shown in Fig. 9-21 and the phasor diagram shown in Fig. 9-22.
 
-![[Transformer Equivalent Circuit-4.png]]
+![[Transformer Equivalent Circuit-4.png|628]]
 
 In this case:
 $$
