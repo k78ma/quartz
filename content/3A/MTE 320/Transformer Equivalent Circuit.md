@@ -56,3 +56,5 @@ R_{es}=R_{s}+\frac{R_{s}}{a^{2}} \\[2ex]
 X_{es}=X_{s}+\frac{X_{s}}{a^{2}}
 \end{align}
 $$
+## Example
+![[MTE 320 Example 9-1.pdf]]
