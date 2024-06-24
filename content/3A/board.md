@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Textbook Revision #mte309
 - [ ] Second Law of Thermodynamics #mte309
 
 
@@ -190,6 +189,7 @@ draft: "true"
 - [ ] Determining Equivalent Circuit Parameters #mte320
 - [ ] Voltage regulation in Transformers #mte320
 - [ ] Transformer Efficiency #mte320
+- [ ] Textbook Revision #mte309
 
 %% kanban:settings
 ```

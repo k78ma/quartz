@@ -64,8 +64,16 @@ aliases:
 - [[Fluid Throttles]]
 - [[Heat Exchangers]]
 
-## Second Law of Thermodynamics
+## Heat Transfer
+- [[Heat Transfer]]
+- [[Conduction]]
+- [[Convection]]
+- [[Radiation]]
 
+
+## Second Law of Thermodynamics
+- [[Second Law of Thermodynamics]]
+  
 ---
 ## Problems
 - [[Air Piston Heat Transfer]]
