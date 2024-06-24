@@ -34,7 +34,7 @@ where $\epsilon$ is the **emissivity** of the surface. The property emissivity, 
 Another important radiation property of a surface is its **absorptivity** $\alpha$, which is the fraction of the radiation energy incident on a surface that is absorbed by the surface. Like emissivity, its value is in the range $0 \leq \alpha \leq 1$. A blackbody absorbs all radiation incident on it. That is, a blackbody is a perfect absorber ($\alpha=1$) as well as a perfect emitter.
 
 ## Kirchoff's Law
-In general, both $\epsilon$ and $\alpha$ of a surface depend on the temperature and the wavelength of the radiation. Kirchoff's law of radiation states that the emissivity and the absorptivity of a surface at a given temperature and wavelength are equal, $\epsilon(\lambda,T)=\alpha(\lambda,T)$
+In general, both $\epsilon$ and $\alpha$ of a surface depend on the temperature and the wavelength of the radiation. Kirchoff's law of radiation states that the emissivity and the absorptivity of a surface at a given temperature and wavelength are equal, $\epsilon(\lambda,T)=\alpha(\lambda,T)$, for a body in thermal equilibrium.
 
 ## Net Heat Transfer
 Net radiation heat transfer is the difference between the rates of radiation emitted by the surface and the radiation absorbed. 
@@ -46,8 +46,8 @@ In general, the determination of the net rate of heat transfer by radiation betw
 When a surface is 
 $$
 \begin{align}
-\dot{Q}_{\text{rad}}'' & =\epsilon\sigma(T_{s}^{4}-T_{\text{surr}}^{4}) \\[2ex]
-\dot{Q}_{\text{rad}}'' & =h_{\text{rad}}(T_{s}-T_{\text{surr}})
+\dot{Q}_{\text{net}}'' & =\epsilon\sigma(T_{s}^{4}-T_{\text{surr}}^{4}) \\[2ex]
+\dot{Q}_{\text{net}}'' & =h_{\text{rad}}(T_{s}-T_{\text{surr}})
 \end{align}
 $$
 

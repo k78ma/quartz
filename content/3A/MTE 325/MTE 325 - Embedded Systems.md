@@ -80,6 +80,9 @@ aliases:
 - [[Unidirectional Parallel Ports]]
 - [[Bidirectional Parallel Ports]]
 
+## Analog Interfaces
+
+
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 

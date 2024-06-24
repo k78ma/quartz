@@ -13,7 +13,10 @@ Conduction can take place in solids, liquids, or gases. In gases and liquids, co
 
 Conduction is governed by **Fourier's Law**, in any direction $\hat{n}$:
 $$
-\dot{Q}_{n}''=-k \frac{ \partial T }{ \partial n } 
+\begin{align}
+\dot{Q}_{n}'' & =-k \frac{ \partial T }{ \partial n }  \\[2ex] 
+\dot{Q}_{x} & =-k \frac{ dT }{ dx } 
+\end{align}
 $$
 where:
 - $\dot{Q}''_{n}$ is **heat flux** in $[\text{W} / \text{m}^{2}]$. Just $\dot{Q}$ is the heat transfer rate, the double prime $''$ indicates that this is heat transfer rate per unit area.

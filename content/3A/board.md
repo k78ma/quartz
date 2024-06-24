@@ -21,8 +21,9 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] MTE 325 - Two-Axis Project
-- [ ] A5
+- [ ] MTE 325 - Two-Axis Project #mte325
+- [ ] Parallel Port Review / A5 #mte325
+- [ ] Analog Interfaces Notes #mte325
 
 
 ## MTE 309
@@ -45,9 +46,10 @@ draft: "true"
 - [ ] NeRF-RPN Dataset
 
 
-***
-
 ## Archive
+
+
+
 
 
 %% kanban:settings
