@@ -12,7 +12,7 @@ A three-phase transformer can be realized in one of the two following ways:
 
 Three single-phase transformers connected in $Y$ on the primary side and $\Delta$ on the secondary side.
 
-![[Three-Phase Transformer.png]]
+![[Three-Phase Transformer-2.png]]
 
 Three-phase transformer implemented with a 5-legged core:
 
