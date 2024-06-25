@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Example 9-2, 9-3 #mte320
 - [ ] Week 4 Tuesday #syde351
 - [ ] Autotransformer #mte320
 - [ ] Analog Interfaces Notes #mte325
@@ -60,6 +59,7 @@ draft: "true"
 ## Archive
 
 - [ ] Lab 3
+- [ ] Example 9-2, 9-3 #mte320
 
 %% kanban:settings
 ```
