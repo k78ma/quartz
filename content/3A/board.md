@@ -8,8 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] Week 4 Tuesday #syde351
-- [ ] Autotransformer #mte320
-- [ ] Analog Interfaces Notes #mte325
 
 
 ## MTE 320
@@ -23,6 +21,16 @@ draft: "true"
 
 - [ ] MTE 325 - Two-Axis Project #mte325
 - [ ] Parallel Port Review / A5 #mte325
+- [ ] Op-Amp Review #mte325
+- [ ] 9.2.1 Binary Weighted Resistor Ladder DAC #mte325
+- [ ] 9.2.2 R-2R DAC #mte325
+- [ ] 9.2.3 D/A Converter Specifications #mte325
+- [ ] 9.2.4 D/A Converter Errors #mte325
+- [ ] 9.3.1. Converter Bias #mte325
+- [ ] 9.3.2 Binary Ramp ADC #mte325
+- [ ] 9.3.3 Successive Approximation ADC #mte325
+- [ ] 9.3.4. Flash ADC #mte325
+- [ ] 9.4. A/D Converter Specifications and Errors #mte325
 
 
 ## MTE 309
@@ -60,6 +68,10 @@ draft: "true"
 
 - [ ] Lab 3
 - [ ] Example 9-2, 9-3 #mte320
+- [ ] Autotransformer #mte320
+- [ ] Analog Interfaces Notes #mte325
+- [ ] 9.1 Analog Signal Conversion Issues #mte325
+- [ ] 9.2 Digital-to-Analog Converters #mte325
 
 %% kanban:settings
 ```

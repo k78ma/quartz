@@ -28,4 +28,3 @@ aliases:
 - [[Rayleigh's Method]]
 - [[Dampened Spring Systems]]
 
-- [[Formulas]]
