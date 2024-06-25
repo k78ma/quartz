@@ -44,7 +44,7 @@ Bending, torsion, and axial stresses may be present in a combined loading scenar
 ![[Shaft Design for Stresses-1.png|576]]
 
 ## Stress Equations
-Shaft-specific stress equations (negligible axial loads):
+Shaft-specific stress equations are presented here. This is for dynamic loadings, where we account for the alternating stress (amplitude) and mean stress over a loading cycle.
 $$
 \begin{align}
 \sigma_{a}=K_{f} \frac{M_{a}c}{I}, \quad \sigma_{m}=K_{f} \frac{M_{m}c}{I} \\[2ex] 
@@ -62,7 +62,7 @@ $$
 - $M_{a}$ – alternating/amplitude bending moment  
 - $K_{f}$ and $K_{fs}$ – fatigue stress-concentration factor
 
-[[Distortion Energy Theory|von Mises stresses]] for rotating round shafts (negligible axial loads):
+Then, we can modify [[Distortion Energy Theory|von Mises stresses]] for rotating round shafts instead of static loads. Again assuming negligible axial loads, we have:
 $$
 \begin{align}
 \sigma_{a}' & =(\sigma_{a}^{2}+3\tau_{a}^{2})^{1 / 2}=\left[ \left( \frac{32K_{f}M_{a}}{\pi d^{3}} \right)^{2}+3\left( \frac{16K_{fs}T_{a}}{\pi d^{3}} \right)^{2} \right]^{1 / 2} \\[2ex] 

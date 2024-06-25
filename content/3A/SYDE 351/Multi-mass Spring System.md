@@ -17,7 +17,7 @@ m_{1} \ddot{x}_{1} & =f-k_{1}(x_{1}-x_{2}) \\
 m_{2} \ddot{x}_{2} & =k_{1}(x_{1}-x_{2})-k_{2}x_{2}
 \end{align}
 $$
-If we move all terms ot the left side of the equal sign except for the external force $f$, we have:
+If we move all terms to the left side of the equal sign except for the external force $f$, we have:
 $$
 \begin{align}
 m_{1} \ddot{x_{1}}+k_{1}(x_{1}-x_{2}) & =f \\

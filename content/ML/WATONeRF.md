@@ -23,3 +23,6 @@ docker exec -it wato_dense_prediction_emernerf_1 /bin/bash
 - run a gaussian splatting model on nerfRPN dataset (nerfStudio?)
 - output stuff in Gaussian splat format
 - try 3D object detection model on gaussian splats
+
+- Downgrade pip to 23.1.1
+- Downgrade `setuptools` to 66.1.1 

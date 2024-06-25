@@ -13,6 +13,7 @@ draft: "true"
 - [ ] 9.2.2 R-2R DAC #mte325
 - [ ] Parallel Port Review / A5 #mte325
 - [ ] Week 4 Thursday #syde351
+- [ ] Thermal Resistance #mte309
 
 
 ## MTE 320
@@ -49,6 +50,7 @@ draft: "true"
 - [ ] Week 5 Tuesday #syde351
 - [ ] Week 6 Tuesday #syde351
 - [ ] Week 6 Thursday #syde351
+- [ ] Example 4: Complex multi-DOF mass-spring system #syde351
 
 
 ## WATonomous

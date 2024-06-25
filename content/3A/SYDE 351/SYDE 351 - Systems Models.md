@@ -28,3 +28,5 @@ aliases:
 - [[Rayleigh's Method]]
 - [[Dampened Spring Systems]]
 
+## System Models
+- [[Block Diagram]]
