@@ -75,3 +75,7 @@ $$
 Note that short-circuit test determines $R_{eHV}$ and $X_{eHV}$.
 
 As seen, $R_{eHV}$ and $X_{eHV}$ are referred to the high-voltage side and $R_{cLV}$ and $X_{mLV}$ are referred to the low-voltage side. To refer to a different side, the values found must be multiplied by the appropriate factors.
+
+## Example
+
+![[MTE 320 Example 9-3.pdf]]

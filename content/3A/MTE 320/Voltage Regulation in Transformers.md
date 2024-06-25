@@ -33,3 +33,11 @@ $$
 VR = \frac{V_{p} / a-V_{s}}{V_{s}}\times 100\%
 $$
 Note that at no-load, $V_{s}=V_{p} / a$.
+
+## Examples
+
+![[MTE 320 Example 9-2.pdf]]
+
+![[MTE 320 Example 9-3.pdf]]
+
+- Example 9-3 is also relevant to [[Determining Transformer Equivalent Circuit Parameters]]
