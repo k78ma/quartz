@@ -75,4 +75,8 @@ aliases:
 - [[Stress Concentration for Dynamic Conditions]]
 - [[Notch Sensitivity]]
 
-- [[Formula Sheet]]
+## Shaft Design
+- [[Shaft Design]]
+- [[Shaft Materials]]
+- [[Shaft Layout]]
+- [[Shaft Design for Stresses]]

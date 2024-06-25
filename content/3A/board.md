@@ -7,23 +7,23 @@ draft: "true"
 
 ## Today
 
-- [ ] Week 4 Tuesday #syde351
+- [ ] Potential transformer #mte320
+- [ ] 3-Phase Transformer #mte320
+- [ ] 9.2.1 Binary Weighted Resistor Ladder DAC #mte325
+- [ ] 9.2.2 R-2R DAC #mte325
+- [ ] Parallel Port Review / A5 #mte325
+- [ ] Week 4 Thursday #syde351
 
 
 ## MTE 320
 
-- [ ] Potential transformer #mte320
-- [ ] 3-Phase Transformer #mte320
 - [ ] Transformer Ch. 9 Problems #mte320
 
 
 ## MTE 325
 
 - [ ] MTE 325 - Two-Axis Project #mte325
-- [ ] Parallel Port Review / A5 #mte325
 - [ ] Op-Amp Review #mte325
-- [ ] 9.2.1 Binary Weighted Resistor Ladder DAC #mte325
-- [ ] 9.2.2 R-2R DAC #mte325
 - [ ] 9.2.3 D/A Converter Specifications #mte325
 - [ ] 9.2.4 D/A Converter Errors #mte325
 - [ ] 9.3.1. Converter Bias #mte325
@@ -45,7 +45,6 @@ draft: "true"
 ## SYDE 351
 
 - [ ] SYDE 351 HW 6
-- [ ] Week 4 Thursday #syde351
 - [ ] Week 5 Monday #syde351
 - [ ] Week 5 Tuesday #syde351
 - [ ] Week 6 Tuesday #syde351
@@ -72,6 +71,7 @@ draft: "true"
 - [ ] Analog Interfaces Notes #mte325
 - [ ] 9.1 Analog Signal Conversion Issues #mte325
 - [ ] 9.2 Digital-to-Analog Converters #mte325
+- [ ] Week 4 Tuesday #syde351
 
 %% kanban:settings
 ```

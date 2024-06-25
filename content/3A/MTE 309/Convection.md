@@ -22,3 +22,5 @@ where:
 The convection heat transfer coefficient $h$ is not a property of the fluid. It is an experimentally determined parameter whose value depends on all the variables influencing convection such as the surface geometry, the nature of fluid motion, the properties of the fluid, and the bulk fluid velocity.
 
 Thus, the coefficient $h$ is highly dependent on various conditions. 
+
+![[Convection.png]]

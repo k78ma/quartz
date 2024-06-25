@@ -43,6 +43,7 @@ $$
 \sigma_{\text{max}}=\frac{M}{Z}
 $$
 where $Z = I / c$ is called the section modulus. For rectangular beams, $Z = I / c = \frac{1}{12}bd^{3} / \frac{d}{2}=\frac{1}{6}bd^{3}$.
+
 ## Bending due to Axial Loading
 Normal stress can occur due to axial loading *and* loading, such that:
 $$
