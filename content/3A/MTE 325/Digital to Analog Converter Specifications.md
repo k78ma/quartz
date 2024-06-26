@@ -45,4 +45,4 @@ $$
 $$
 20\log(kV_{\text{ref}}\times (2^{n}-1))-20\log(kV_{ref})=20\log(2^{n}-1) \text{ dB}
 $$
-	- For example, 4 bits would mean we have $20\log 15 \approx 20 \text{ dB}$.
+- For example, 4 bits would mean we have $20\log 15 \approx 20 \text{ dB}$.

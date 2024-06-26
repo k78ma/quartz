@@ -10,7 +10,6 @@ draft: "true"
 - [ ] Parallel Port Review / A5 #mte325
 - [ ] Week 4 Thursday #syde351
 - [ ] Thermo Notes Revision #mte309
-- [ ] Example 4: Complex multi-DOF mass-spring system #syde351
 
 
 ## MTE 320
@@ -87,6 +86,7 @@ draft: "true"
 - [ ] 9.2.2 R-2R DAC #mte325
 - [ ] 9.2.3 D/A Converter Specifications #mte325
 - [ ] 9.2.4 D/A Converter Errors #mte325
+- [ ] Example 4: Complex multi-DOF mass-spring system #syde351
 
 %% kanban:settings
 ```
