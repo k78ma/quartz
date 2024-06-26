@@ -88,3 +88,6 @@ aliases:
 - [[Current Transformer]]
 ### 3-Phase Transformer
 - [[Three-Phase Transformer]]
+
+## DC Machines
+- [[DC Machine]]
