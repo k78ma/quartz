@@ -3,9 +3,7 @@ title: ADCs and DACs
 tags:
   - mte220
 date: 2023-11-30
-aliases:
-  - ADC
-  - DAC
+aliases: []
 ---
 ## Analog-to-Digital Converter (ADC)
 Converts an analog signal (usually voltage) to an $N$-bit digital representation, where:

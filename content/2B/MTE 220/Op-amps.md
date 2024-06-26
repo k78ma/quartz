@@ -3,6 +3,8 @@ title: Op-amps
 tags:
   - mte220
 date: 2023-10-09
+aliases:
+  - op-amps
 ---
 An operational amplifier is a kind of difference amplifier. 
 

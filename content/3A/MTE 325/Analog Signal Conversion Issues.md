@@ -5,6 +5,7 @@ tags:
 date: 2024-06-24
 aliases:
   - analog signal conversion issues
+  - FSAR
 ---
 There are several issues associated with conversion between discrete (digital) and continuous (analog) systems that need to be considered before looking at the hardware to convert between them. 
 
@@ -39,7 +40,7 @@ In this course, all quantizations of the analog range will be linear. This means
 ## Full Scale Analog Range
 As a result, when quantizing the analog signal, the full scale analog range (**FSAR**) is used:
 $$
-\text{LSB}=\frac{\text{FSAR}}{2^{n}-1}
+1\text{ LSB}=\frac{\text{FSAR}}{2^{n}-1}
 $$
 where
 - $\text{FSAR}=\text{Max analog value} - \text{Min analog value}$

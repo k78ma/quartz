@@ -5,6 +5,7 @@ tags:
 date: 2024-06-24
 aliases:
   - digital to analog converter
+  - DAC
 ---
 How DACs are characterized? What specifications are there to consider when choosing one?
 

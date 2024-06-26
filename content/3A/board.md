@@ -7,10 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Potential transformer #mte320
-- [ ] 3-Phase Transformer #mte320
-- [ ] 9.2.1 Binary Weighted Resistor Ladder DAC #mte325
-- [ ] 9.2.2 R-2R DAC #mte325
 - [ ] Parallel Port Review / A5 #mte325
 - [ ] Week 4 Thursday #syde351
 - [ ] Thermal Resistance #mte309
@@ -74,6 +70,10 @@ draft: "true"
 - [ ] 9.1 Analog Signal Conversion Issues #mte325
 - [ ] 9.2 Digital-to-Analog Converters #mte325
 - [ ] Week 4 Tuesday #syde351
+- [ ] Potential transformer #mte320
+- [ ] 3-Phase Transformer #mte320
+- [ ] 9.2.1 Binary Weighted Resistor Ladder DAC #mte325
+- [ ] 9.2.2 R-2R DAC #mte325
 
 %% kanban:settings
 ```
