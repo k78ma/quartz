@@ -69,6 +69,8 @@ aliases:
 - [[Conduction]]
 - [[Convection]]
 - [[Radiation]]
+- [[Steady Heat Conduction in Plane Walls]]
+- [[Thermal Resistance]]
 
 
 ## Second Law of Thermodynamics

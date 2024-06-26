@@ -9,20 +9,25 @@ draft: "true"
 
 - [ ] Parallel Port Review / A5 #mte325
 - [ ] Week 4 Thursday #syde351
-- [ ] Thermal Resistance #mte309
+- [ ] Thermo Notes Revision #mte309
+- [ ] 9.2.4 D/A Converter Errors #mte325
+- [ ] Example 4: Complex multi-DOF mass-spring system #syde351
 
 
 ## MTE 320
 
 - [ ] Transformer Ch. 9 Problems #mte320
+- [ ] P9-1, 9-2 #mte320
+- [ ] P9-3, 9-4 #mte320
+- [ ] P9-5, 9-6 #mte320
+- [ ] P9-7, 9-8 #mte320
+- [ ] P9-9, 9-10 #mte320
 
 
 ## MTE 325
 
 - [ ] MTE 325 - Two-Axis Project #mte325
 - [ ] Op-Amp Review #mte325
-- [ ] 9.2.3 D/A Converter Specifications #mte325
-- [ ] 9.2.4 D/A Converter Errors #mte325
 - [ ] 9.3.1. Converter Bias #mte325
 - [ ] 9.3.2 Binary Ramp ADC #mte325
 - [ ] 9.3.3 Successive Approximation ADC #mte325
@@ -46,7 +51,6 @@ draft: "true"
 - [ ] Week 5 Tuesday #syde351
 - [ ] Week 6 Tuesday #syde351
 - [ ] Week 6 Thursday #syde351
-- [ ] Example 4: Complex multi-DOF mass-spring system #syde351
 
 
 ## WATonomous
@@ -74,6 +78,7 @@ draft: "true"
 - [ ] 3-Phase Transformer #mte320
 - [ ] 9.2.1 Binary Weighted Resistor Ladder DAC #mte325
 - [ ] 9.2.2 R-2R DAC #mte325
+- [ ] 9.2.3 D/A Converter Specifications #mte325
 
 %% kanban:settings
 ```

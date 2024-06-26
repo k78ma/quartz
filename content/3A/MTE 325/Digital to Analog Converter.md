@@ -7,12 +7,6 @@ aliases:
   - digital to analog converter
   - DAC
 ---
-How DACs are characterized? What specifications are there to consider when choosing one?
-
-Generic block diagram of a DAC:
-
-![[Digital to Analog Converter.png]]
-
 At the highest level, the DAC is a black box that takes in a reference voltage, $V_{\text{ref}}$, and scales it by both a proportionality constant, $| k |$, and the binary value, $B$, to produce an analog output signal, such that:
 $$
 x=k\cdot V_{\text{ref}}\cdot B
@@ -30,6 +24,10 @@ $$
 therefore it will always be smaller than $V_{\text{ref}}$.
 
 The binary value $B$ can be provided to the DAC in either serial or parallel form; either way, a [[Parallel Port|parallel port]] is used to provide a connection to the system bus, thus providing a path for the CPU to set the binary value by writing to an interface register .
+
+Generic block diagram of a DAC:
+
+![[Digital to Analog Converter.png]]
 
 ## Quantization and LSB
 Analog signals are continuous, digital signals are discrete. As such, for $n$ digital values, we can only produce outputs at $n$ points along the analog range, ideally at equally spaced intervals. Those intervals, or steps between outputs, are 1 LSB each. 
