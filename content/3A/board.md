@@ -10,7 +10,6 @@ draft: "true"
 - [ ] Parallel Port Review / A5 #mte325
 - [ ] Week 4 Thursday #syde351
 - [ ] Thermo Notes Revision #mte309
-- [ ] 9.2.4 D/A Converter Errors #mte325
 - [ ] Example 4: Complex multi-DOF mass-spring system #syde351
 
 
@@ -22,6 +21,14 @@ draft: "true"
 - [ ] P9-5, 9-6 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
+- [ ] 6-1: Introduction #mte320
+- [ ] 6-2: A Simple Generator #mte320
+- [ ] 6-3: DC Voltage Generation by Commutation #mte320
+- [ ] 6-4: Improving the Waveform of DC Generator Output Voltage #mte320
+- [ ] 6-5: Field and Armature #mte320
+- [ ] 6-6: Armature Connection Classification #mte320
+- [ ] 6-7: Generated Voltage in a DC Generator #mte320
+- [ ] 6-8: DC Motor #mte320
 
 
 ## MTE 325
@@ -79,6 +86,7 @@ draft: "true"
 - [ ] 9.2.1 Binary Weighted Resistor Ladder DAC #mte325
 - [ ] 9.2.2 R-2R DAC #mte325
 - [ ] 9.2.3 D/A Converter Specifications #mte325
+- [ ] 9.2.4 D/A Converter Errors #mte325
 
 %% kanban:settings
 ```

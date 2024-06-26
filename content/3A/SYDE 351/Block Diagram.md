@@ -52,3 +52,5 @@ In block diagram form:
 - Example 2: Simple feedback loop system
 - Example 3: Numerically defined system
 - Example 4: Complex multi-DOF mass-spring system
+
+![[SYDE 351 - Block Diagram Examples.pdf]]
