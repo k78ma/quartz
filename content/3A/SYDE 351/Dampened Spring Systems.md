@@ -12,7 +12,7 @@ f=cv = c\dot{x}
 $$
 where $c$ is the damping coefficient.
 
-In the context of a dampened spring system, we then have:
+In the context of a dampened mass-spring system, we then have:
 $$
 m \ddot{x}=f-kx-c\dot{x}
 $$

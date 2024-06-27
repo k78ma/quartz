@@ -30,3 +30,4 @@ aliases:
 
 ## System Models
 - [[Block Diagram]]
+- [[State Variable Models]]
