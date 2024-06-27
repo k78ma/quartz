@@ -15,7 +15,6 @@ Conduction is governed by **Fourier's Law**, in any direction $\hat{n}$:
 $$
 \begin{align}
 \dot{Q}_{n}'' & =-k \frac{ \partial T }{ \partial n }  \\[2ex] 
-\dot{Q}_{x} & =-k \frac{ dT }{ dx } 
 \end{align}
 $$
 where:
@@ -24,16 +23,6 @@ where:
 - $\frac{ \partial T }{ \partial n }$ is the temperature gradient, which is the slope of the temperature curve on a T-x diagram (the rate of change of $N$ with $n$), at location $n$.
 
 Heat is conducted in the direction of decreasing temperature, and the temperature gradient becomes negative when temperature decreases with increasing $n$. The negative sign in Eq. 16–2 ensures that heat transfer in the positive $n$-direction is a positive quantity.
-
-For example, for a plane wall at steady-state, we have:
-$$
-\begin{align}
-\dot{Q}''_{\text{cond}} & =-k \,\frac{ dT }{ dx } \\[2ex] 
-& = -k\, \frac{T_{2}-T_{1}}{L}
-\end{align}
-$$
-
-![[Conduction.png|456]]
 
 The heat transfer area A is always normal to the direction of heat transfer. For heat loss through a 5-m-long, 3-m-high, and 25-cm-thick wall, for example, the heat transfer area is $A=15 \text{m}^{2}$ .
 
