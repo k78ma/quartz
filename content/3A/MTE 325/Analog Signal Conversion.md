@@ -1,11 +1,10 @@
 ---
-title: Analog Signal Conversion Issues
+title: Analog Signal Conversion
 tags:
   - mte325
-date: 2024-06-24
+date: 2024-06-27
 aliases:
-  - analog signal conversion issues
-  - FSAR
+  - analog signal conversion
 ---
 There are several issues associated with conversion between discrete (digital) and continuous (analog) systems that need to be considered before looking at the hardware to convert between them. 
 
@@ -24,13 +23,12 @@ $$
 
 ![[Analog Signal Conversion Issues.png]]
 
-## Conversion Issues
-### Quantization
+## Quantization
 By definition, the analog signal is continuous and can take on any real value while digital signals are discrete and can only be integer values. Thus, converting between them requires some form of mapping, where a range of analog values are assigned to the same digital value. 
 
-When converting digital signals to analog, only a subset of the possible analog values can be produced, one per digital value. (Lossy?)
+When converting digital signals to analog, only a subset of all possible analog values can be produced, one per digital value. (Lossy?)
 
-### Least Significant Bit
+## Least Significant Bit
 Another issue to consider is the least significant bit - **LSB**. 
 - In the digital sense, 1 LSB refers to a flip in the lowest bit of the digital binary value.
 - In the analog sense, 1 LSB refers to the change in voltage (or current) required to produce a change in the lowest bit of the digital representation.

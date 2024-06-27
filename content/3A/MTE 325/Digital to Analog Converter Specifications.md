@@ -27,7 +27,7 @@ For example, a converter with $10\text{ V}$ full scale and an accuracy of $0.2\%
 - If the precision of a 10-bit DAC is 1 in $2^{10}$ or $0.1\%$, the accuracy should ideally just be $\leq 0.05\%$
 
 ## Range and Dynamic Range
-- **Range**: Also referred to as [[Analog Signal Conversion Issues|FSAR]], this is the difference between the maximum and minimum output voltages.
+- **Range**: Also referred to as [[Analog Signal Conversion|FSAR]], this is the difference between the maximum and minimum output voltages.
 $$
 \text{FSAR}=V_{\text{out max}}-V_{\text{out min}}
 $$

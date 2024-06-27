@@ -50,7 +50,7 @@ aliases:
 - [[Statically Indeterminate Beams]]
 - [[Beam Deflections with Superposition Method]]
 
-## Failures from Static Loading
+## Failures from Static Loading (Yield)
 - [[Static vs. Dynamic Loading]]
 ### Ductile Failure Theories
 - [[Failure Theories for Ductile Materials]]
@@ -63,7 +63,7 @@ aliases:
 - [[Brittle Coulomb-Mohr Theory]]
 - [[Modified Mohr Theory]]
 
-## Failures from Dynamic Loading
+## Failures from Dynamic Loading (Fatigue)
 - [[Fatigue Failure]]
 - [[Fatigue-Life Methods]]
 - [[Stress-Life Method]]

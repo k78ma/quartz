@@ -44,7 +44,9 @@ Bending, torsion, and axial stresses may be present in a combined loading scenar
 ![[Shaft Design for Stresses-1.png|576]]
 
 ## Stress Equations
-Shaft-specific stress equations are presented here. This is for dynamic loadings, where we account for the alternating stress (amplitude) and mean stress over a loading cycle.
+Shaft-specific stress equations are presented here. Bending, torsion, and axial stresses may be present in both mean and alternating components. This is for dynamic loadings, where we account for the alternating stress (amplitude) and mean stress over a loading cycle. 
+
+The fluctuating stresses due to bending and torsion are given below. Axial loads are relatively very small at critical locations where bending and torsion dominate, so they will neglected.
 $$
 \begin{align}
 \sigma_{a}=K_{f} \frac{M_{a}c}{I}, \quad \sigma_{m}=K_{f} \frac{M_{m}c}{I} \\[2ex] 
@@ -56,16 +58,83 @@ $$
 - $T_{m}$ – mean torque  
 - $I$ – second moment of area  
 - $M_{m}$ – mean bending moment  
-- $c$ – distance from centroidal axis  
+- $c$ – distance from centroidal axis
 - $J$ – polar second moment of area  
 - $T_{a}$ – alternating/amplitude torque  
 - $M_{a}$ – alternating/amplitude bending moment  
 - $K_{f}$ and $K_{fs}$ – fatigue stress-concentration factor
 
-Then, we can modify [[Distortion Energy Theory|von Mises stresses]] for rotating round shafts instead of static loads. Again assuming negligible axial loads, we have:
+We can then use these values to derive [[Distortion Energy Theory|von Mises stresses]] for rotating round shafts instead of static loads. Again assuming negligible axial loads, we have:
 $$
 \begin{align}
 \sigma_{a}' & =(\sigma_{a}^{2}+3\tau_{a}^{2})^{1 / 2}=\left[ \left( \frac{32K_{f}M_{a}}{\pi d^{3}} \right)^{2}+3\left( \frac{16K_{fs}T_{a}}{\pi d^{3}} \right)^{2} \right]^{1 / 2} \\[2ex] 
 \sigma_{m}' & =(\sigma_{m}^{2}+3\tau_{m}^{2})^{1 / 2}=\left[ \left( \frac{32K_{f}M_{m}}{\pi d^{3}} \right)^{2}+3\left( \frac{16K_{fs}T_{m}}{\pi d^{3}} \right)^{2} \right]^{1 / 2}
 \end{align}
 $$
+## Shaft Fatigue Failure Criteria
+The von Mises stresses above can be substituted into various failure criterion equations, which we can solve to find factor of safety $n$, or diameter $d$.
+
+To keep the equations in simpler form, we first establish a pair of terms to be used in each of the criteria equations:
+$$
+\begin{align}
+A & =\sqrt{ 4(K_{f}M_{a})^{2}+3(K_{fs}T_{a})^{2} } \\
+B & =\sqrt{ 4(K_{f}M_{m})^{2}+3(K_{fs}T_{m})^{2} } 
+\end{align}
+$$
+**DE-Goodman:**
+$$
+\begin{align}
+n & =\frac{\pi d^{3}}{16}\left( \frac{A}{S_{e}}+\frac{B}{S_{ut}} \right)^{-1}\\[2ex] 
+d & =\left[ \frac{16n}{\pi}\left( \frac{A}{S_{e}}+\frac{B}{S_{ut}} \right) \right]^{1 / 3}
+\end{align}
+$$
+**DE-Morrow:**
+$$
+\begin{align}
+n & =\frac{\pi d^{3}}{16}\left( \frac{A}{S_{e}}+\frac{B}{\tilde{\sigma}_{f}} \right)^{-1}\\[2ex] 
+d & =\left[ \frac{16n}{\pi}\left( \frac{A}{S_{e}}+\frac{B}{\tilde{\sigma}_{f}} \right) \right]^{1 / 3}
+\end{align}
+$$
+where:
+- $n$ is factor of safety
+- $d$: Diameter of the shaft or component.
+- $K_{f}$ and ​$K_{fs}$: Fatigue stress concentration factors for normal and shear stresses.
+- $M_{a}, M_{m}$: Alternating and mean moments.
+- $T_{a}, T_{m}$​: Alternating and mean torques.
+- $S_{e}$​: Endurance limit of the material.
+- $S_{ut}$: Ultimate tensile strength of the material.
+- $\tilde{\sigma}_{f}$: True fracture strength
+- $\sigma_{f}'$: Fatigue strength coefficient – used for deriving $\tilde{\sigma}_{f}$
+	- For steel, $\sigma_{f}'=S_{ut}+345 \text{ MPa}$
+
+**DE-Gerber:**
+$$
+\begin{align}
+\frac{1}{n} & =\frac{8A}{\pi d^{3}S_{e}}\left\{  1+\left[ 1+\left( \frac{2BS_{e}}{AS_{ut}} \right)^{2} \right]^{1 / 2}  \right\} \\[2ex] 
+d  & = \left( \frac{8nA}{\pi S_{e}}\left\{  1+\left[ 1+\left( \frac{2BS_{e}}{AS_{ut}} \right)^{2} \right]^{1 / 2}  \right\} \right)^{ 1/3}
+\end{align}
+$$
+**DE-SWT:**
+$$
+\begin{align}
+n & =\frac{\pi d^{3}}{16} \frac{S_{e}}{(A^{2}+AB)^{ 1 / 2}}\\[2ex] 
+d & =\left[ \frac{16n}{\pi S_{e}}(A^{2}+AB)^{1 / 2} \right]^{1/3}
+\end{align}
+$$
+
+![[Shaft Design for Stresses-2.png|568]]
+
+## Shaft Yield Check
+It is always necessary to consider the possibility of static failure in the first load cycle. A von Mises maximum stress is calculated for this purpose:
+$$
+\begin{align}
+\sigma'_{\text{max}} & =[(\sigma_{m}+\sigma_{a})^{2}+3(\tau_{m}+\tau_{a})^{2}]^{ 1 / 2}
+\\[2ex] 
+	 & =\left[ \left( \frac{32K_{f}(M_{m}+M_{a})}{\pi d^{3}} \right)^{2} +3\left( \frac{16K_{fs}(T_{m}+T_{a})}{\pi d^{3}} \right)^{2}\right]^{1 / 2}
+\end{align}
+$$
+To check for yielding, we can then compare this to the yield strength as usual:
+$$
+n_{y}=\frac{S_{y}}{\sigma'_{\text{max}}}
+$$
+For a quick conservative check, we can use the estimate of $\sigma'_{\text{max}}=\sigma_{a}'+\sigma_{m}'$.
