@@ -91,3 +91,4 @@ aliases:
 
 ## DC Machines
 - [[DC Machine]]
+- [[Simple Generator]]
