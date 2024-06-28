@@ -21,7 +21,8 @@ x_{3}(t) & =\dot{x}_{2}(t)=\ddot{x}(t) \\
 x_{4}(t) & =\dot{x}_{3}(t)=\dddot{x}(t)
 \end{align}
 $$
-## Example: Mass-Spring-Damper
+## Examples
+### Mass-Spring-Damper
 An example is the typical [[Dampened Spring Systems|mass-spring-damper system]]:
 $$
 \begin{align} \\
@@ -53,7 +54,7 @@ $$
 $$
 This is our state-variable model. The variables $x_{1}$ and $x_{2}$ are the *state variables*.
 
-## Example: 3rd Order System
+### 3rd Order System
 A third order system:
 $$
 a_{3}\dddot{y}(t)+a_{2}\ddot{y}(t)+a_{1}\dot{y}(t)+a_{0}y(t)=f(t)
@@ -123,3 +124,50 @@ x_{3}
 \end{bmatrix}
 f(t)
 $$
+## Standard State-Variable Model
+The standard form of a state variable model is given by the state equation and the output equation.
+
+State equation:
+$$
+\begin{Bmatrix}
+\dot{x}
+\end{Bmatrix}=\begin{bmatrix}
+A
+\end{bmatrix}\begin{Bmatrix}
+x
+\end{Bmatrix}
++\begin{bmatrix}
+B
+\end{bmatrix}\begin{Bmatrix}
+u
+\end{Bmatrix}
+$$
+where:
+- $\{ \dot{x} \}$ is the state variable, $n\times 1$
+- $[A]$ is the system/state matrix, $n\times n$
+- $\{ x \}$ is the state vector, $n\times 1$
+- $[B]$ is the input/control matrix, $n\times m$
+- $\{ u \}$ is the input vector, $m\times 1$
+
+Output equation:
+$$
+\begin{Bmatrix}
+y
+\end{Bmatrix}=\begin{bmatrix}
+C
+\end{bmatrix}\begin{Bmatrix}
+x
+\end{Bmatrix}+\begin{bmatrix}
+D
+\end{bmatrix}\begin{Bmatrix}
+u
+\end{Bmatrix}
+$$
+where:
+- $\{ y \}$ is the output vector, $p\times 1$
+- $[C]$ is the state output matrix, $p\times n$
+- $\{ x \}$ is the state vector, $n\times 1$
+- $[D]$ is the control output, $p\times m$
+- $\{ u \}$ is the input vector, $m\times 1$
+
+Note that $n\neq p$ in general.

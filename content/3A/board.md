@@ -7,9 +7,7 @@ draft: "true"
 
 ## Today
 
-- [ ] Limit Switch Code + Test Cases #mte325
 - [ ] 6-2: A Simple Generator #mte320
-- [ ] 9.3.2 Binary Ramp ADC #mte325
 - [ ] P9-1, 9-2 #mte320
 - [ ] Week 5 Monday #syde351
 
@@ -93,6 +91,8 @@ draft: "true"
 - [ ] Parallel Port Review / A5 #mte325
 - [ ] Week 4 Thursday #syde351
 - [ ] 9.3.1. Converter Bias #mte325
+- [ ] Limit Switch Code + Test Cases #mte325
+- [ ] 9.3.2 Binary Ramp ADC #mte325
 
 %% kanban:settings
 ```
