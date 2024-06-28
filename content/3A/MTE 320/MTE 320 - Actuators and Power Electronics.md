@@ -92,3 +92,4 @@ aliases:
 ## DC Machines
 - [[DC Machine]]
 - [[Simple Generator]]
+- [[DC Voltage Generation by Commutation]]

@@ -9,7 +9,6 @@ draft: "true"
 
 - [ ] 6-3: DC Voltage Generation by Commutation #mte320
 - [ ] P9-1, 9-2 #mte320
-- [ ] 9.3.3 Successive Approximation ADC #mte325
 - [ ] 9.3.4. Flash ADC #mte325
 - [ ] Week 5 Monday #syde351
 
@@ -94,6 +93,7 @@ draft: "true"
 - [ ] Limit Switch Code + Test Cases #mte325
 - [ ] 9.3.2 Binary Ramp ADC #mte325
 - [ ] 6-2: A Simple Generator #mte320
+- [ ] 9.3.3 Successive Approximation ADC #mte325
 
 %% kanban:settings
 ```
