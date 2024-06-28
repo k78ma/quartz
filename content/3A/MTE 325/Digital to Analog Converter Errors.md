@@ -5,6 +5,7 @@ tags:
 date: 2024-06-26
 aliases:
   - digital to analog converter errors
+  - glitching
 ---
 We defined [[Digital to Analog Converter Specifications|parameters for DAC specification]]; what are some errors DACs suffer from?
 

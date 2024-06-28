@@ -7,8 +7,10 @@ draft: "true"
 
 ## Today
 
-- [ ] 6-2: A Simple Generator #mte320
+- [ ] 6-3: DC Voltage Generation by Commutation #mte320
 - [ ] P9-1, 9-2 #mte320
+- [ ] 9.3.3 Successive Approximation ADC #mte325
+- [ ] 9.3.4. Flash ADC #mte325
 - [ ] Week 5 Monday #syde351
 
 
@@ -19,7 +21,6 @@ draft: "true"
 - [ ] P9-5, 9-6 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-3: DC Voltage Generation by Commutation #mte320
 - [ ] 6-4: Improving the Waveform of DC Generator Output Voltage #mte320
 - [ ] 6-5: Field and Armature #mte320
 - [ ] 6-6: Armature Connection Classification #mte320
@@ -37,11 +38,10 @@ draft: "true"
 
 - [ ] MTE 325 - Two-Axis Project #mte325
 - [ ] Op-Amp Review #mte325
-- [ ] 9.3.3 Successive Approximation ADC #mte325
-- [ ] 9.3.4. Flash ADC #mte325
 - [ ] 9.4. A/D Converter Specifications and Errors #mte325
 - [ ] Assignment 6-1 #mte325
 - [ ] Assignment 6-2 #mte325
+- [ ] Lab Notes
 
 
 ## MTE 309
@@ -93,6 +93,7 @@ draft: "true"
 - [ ] 9.3.1. Converter Bias #mte325
 - [ ] Limit Switch Code + Test Cases #mte325
 - [ ] 9.3.2 Binary Ramp ADC #mte325
+- [ ] 6-2: A Simple Generator #mte320
 
 %% kanban:settings
 ```

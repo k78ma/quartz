@@ -8,7 +8,7 @@ aliases:
 ---
 In a binary ramp ADC, a comparator is used to determine if the output of the DAC is greater than the analog signal to be converted. 
 
-Operation Procedure
+Operation Procedure:
 1. Processor starts conversion by asserting the start of conversion (`SOC`) signal.
 2. `SOC` resets the counter and the flip-flop.
 3. Free-running clock increments counter when enabled. As the counter increases, its value is saved in `DV`.

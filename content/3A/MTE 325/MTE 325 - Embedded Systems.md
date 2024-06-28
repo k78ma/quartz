@@ -95,7 +95,7 @@ aliases:
 - [[Analog to Digital Converter]]
 - [[Converter Bias]]
 - [[Binary Ramp ADC]]
-  
+- [[Successive Approximation ADC]]
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 
