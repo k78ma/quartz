@@ -59,6 +59,22 @@ R_{e}=\frac{L}{\sigma A}
 $$
 This is very similar to $kA \frac{T_{1}-T_{2}}{L}$.
 
-Like electrical resistors, thermal resistances in series add together!
+## Thermal Resistances in Series and Parallel
+Like electrical resistors, thermal resistances in series add together.
 
 ![[Thermal Resistance-1.png]]
+
+Like electrical resistors, thermal resistances in parallel follow:
+$$
+\frac{1}{R_{eq}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}
+$$
+![[Thermal Resistance-2.png|400]]
+
+In the case shown above, we would have:
+$$
+R_{\text{total}}=\frac{R_{1}R_{2}}{R_{1}+R_{2}}+R_{3}+R_{\text{conv}}
+$$
+
+In general:
+- Any plane wall normal to the x-axis is isothermal (assu
+- Any plane parallel to the x-axis is

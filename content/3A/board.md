@@ -7,15 +7,14 @@ draft: "true"
 
 ## Today
 
-- [ ] 6-3: DC Voltage Generation by Commutation #mte320
 - [ ] P9-1, 9-2 #mte320
 - [ ] 9.3.4. Flash ADC #mte325
 - [ ] Week 5 Monday #syde351
+- [ ] Course Feedback #mte309
 
 
 ## MTE 320
 
-- [ ] Transformer Ch. 9 Problems #mte320
 - [ ] P9-3, 9-4 #mte320
 - [ ] P9-5, 9-6 #mte320
 - [ ] P9-7, 9-8 #mte320
@@ -31,6 +30,14 @@ draft: "true"
 - [ ] 6-12: $L di/dt$ Voltages #mte320
 - [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
 - [ ] 6-14: DC Machine Cooling #mte320
+- [ ] 6-15: Problems with Commutator Brushes #mte320
+- [ ] 6-16: Direction of Rotation of DC Motors #mte320
+- [ ] 6-17: Terminal Characteristics of DC Motors #mte320
+- [ ] 6-18: Magnetization Curve of DC Machines #mte320
+- [ ] 6-19: DC Motor Types #mte320
+- [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
+- [ ] 6-21: Shunt DC Motor Starting #mte320
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 
 
 ## MTE 325
@@ -40,7 +47,6 @@ draft: "true"
 - [ ] 9.4. A/D Converter Specifications and Errors #mte325
 - [ ] Assignment 6-1 #mte325
 - [ ] Assignment 6-2 #mte325
-- [ ] Lab Notes
 
 
 ## MTE 309
@@ -94,6 +100,7 @@ draft: "true"
 - [ ] 9.3.2 Binary Ramp ADC #mte325
 - [ ] 6-2: A Simple Generator #mte320
 - [ ] 9.3.3 Successive Approximation ADC #mte325
+- [ ] 6-3: DC Voltage Generation by Commutation #mte320
 
 %% kanban:settings
 ```

@@ -71,6 +71,7 @@ aliases:
 - [[Radiation]]
 - [[Steady Heat Conduction in Plane Walls]]
 - [[Thermal Resistance|Thermal Resistance / Thermal Circuits]]
+- [[Thermal Contact Resistance]]
 
 
 ## Second Law of Thermodynamics
