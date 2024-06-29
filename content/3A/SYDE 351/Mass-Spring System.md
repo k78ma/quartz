@@ -22,16 +22,29 @@ The mass is at equilibrium when the spring is at its free length ($x=0$).
 ## Equilibrium as Coordinate Reference
 If we write the equation of motion based on the equilibrium position as the coordinate reference, the equation of spring systems will be $m \ddot{x}+kx=0$.
 
+### Inclined Plane Example
+
 ![[Mass-Spring System-2.png]]
+
+For a static deflection $\delta_{st}$ at equilibrium position, we would have:
+$$
+\begin{align}
+k\delta_{st}-mg\sin \phi & =0\\
+k\delta_{st} & =mg\sin \phi
+\end{align}
+$$
 
 In the above example, we have:
 $$
 \begin{align}
 m \ddot{x} & =-k(\delta_{\text{st}}+x) + mg\sin \phi \\
-m \ddot{x} & =-kx+(mg\sin \phi-k\delta_{\text{st}})
+m \ddot{x} & =-kx+\underbrace{ (mg\sin \phi-k\delta_{\text{st}}) }_{ 0 } \\
+m\ddot{x} & =-kx
 \end{align}
 $$
 The term on the right side will be 0 at static equilibrium.
+
+### Vertical Spring Example
 
 ![[Mass-Spring System-1.png]]
 
@@ -39,7 +52,7 @@ In the example above, we have:
 $$
 \begin{align}
 m \ddot{x} & =-k(\delta_{x+\text{st}}) + mg \\
-	 & = -kx+(mg-k\delta_{\text{st}})
+	 & = -kx+\underbrace{ (mg-k\delta_{\text{st}}) }_{ 0 }
 \end{align}
 $$
 where $mg-k\delta_{\text{st}} = 0$ if the system is static. 
