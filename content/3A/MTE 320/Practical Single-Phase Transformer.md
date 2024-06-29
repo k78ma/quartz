@@ -48,7 +48,7 @@ $$
 $$
 - Magnetizing reactance $X_{m}$. This represents the path for the current that magnetizes the core. 
 
-The resistance Rc and magnetizing reactance Xm are usually very large compared to those of resistances and leakage reactances of the primary and secondary windings. 
+The resistance $R_{c}$ and magnetizing reactance $X_{m}$ are usually very large compared to those of resistances and leakage reactances of the primary and secondary windings. 
 
 ![[Practical Single-Phase Transformer-2.png]]
 
@@ -58,4 +58,4 @@ When the transformer is not loaded, $I_s=0$. Thus, we have $I'_{p}= 1 / aI_{s}=0
 - Note that $I_{o}$ is usually very small and the losses in $R_{p}$ at no load can be neglected. It is due to the no-load losses that the transformer gets warm even when it is not loaded.
 - Under load, copper losses, which are the losses due to the resistances of primary and secondary circuits, are added to the core losses (no-load losses) to make the total loss in the transformer.
 
-Since the impedances of the shunt branch is normally very high (especially in large power transformers), the current $I_{o}$ is negligible compared to the currents in the windings. As a result, the shunt branch is usually neglected in the analysis of transformers. If the efficiency of the transformer is to be calculated, the shunt branch cannot be neglected, as it contains the resistance standing for the no-load or core losses.
+Since the impedances of the shunt branch is normally very high (especially in large power transformers), the current $I_{o}$ is negligible compared to the currents in the windings. As a result, **the shunt branch is usually neglected in the analysis of transformers**. If the efficiency of the transformer is to be calculated, the shunt branch cannot be neglected, as it contains the resistance standing for the no-load or core losses.

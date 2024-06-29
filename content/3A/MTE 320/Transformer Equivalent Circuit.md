@@ -6,7 +6,8 @@ date: 2024-06-23
 aliases:
   - transformer equivalent circuit
 ---
-Below we have the equivalent circuit diagram of a single-phase transformer. The [[Practical Single-Phase Transformer#Phasor Equivalent Circuit|magnetizing branch]] has been neglected for this analysis (can't do this if we're calculating efficiency!).
+Below we have the equivalent circuit diagram of a [[Practical Single-Phase Transformer|practical single-phase transformer]]. 
+- The [[Practical Single-Phase Transformer#Phasor Equivalent Circuit|magnetizing branch]] has been neglected for this analysis (can't neglect if we're calculating efficiency!).
 
 ![[Transformer Equivalent Circuit.png]]
 

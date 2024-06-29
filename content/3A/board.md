@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] P9-3, 9-4 #mte320
 
 
 ## MTE 320
@@ -104,6 +103,7 @@ draft: "true"
 - [ ] 9.4. A/D Converter Specifications and Errors #mte325
 - [ ] 6-4: Improving the Waveform of DC Generator Output Voltage #mte320
 - [ ] Week 5 Monday #syde351
+- [ ] P9-3, 9-4 #mte320
 
 %% kanban:settings
 ```
