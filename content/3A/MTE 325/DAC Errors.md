@@ -1,11 +1,13 @@
 ---
-title: Digital to Analog Converter Errors
+title: DAC Errors
 tags:
   - mte325
-date: 2024-06-26
+date: 2024-06-29
 aliases:
-  - digital to analog converter errors
-  - glitching
+  - DAC errors
+  - gain error
+  - offset error
+  - linearity error
 ---
 We defined [[DAC Specifications|parameters for DAC specification]]; what are some errors DACs suffer from?
 

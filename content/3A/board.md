@@ -9,9 +9,7 @@ draft: "true"
 
 - [ ] Week 5 Monday #syde351
 - [ ] 6-4: Improving the Waveform of DC Generator Output Voltage #mte320
-- [ ] 9.4. A/D Converter Specifications and Errors #mte325
 - [ ] P9-3, 9-4 #mte320
-- [ ] Textbook Revision #mte309
 
 
 ## MTE 320
@@ -52,6 +50,7 @@ draft: "true"
 ## MTE 309
 
 - [ ] Midterm Review #mte309
+- [ ] Textbook Revision #mte309
 
 
 ## MTE 321
@@ -104,6 +103,7 @@ draft: "true"
 - [ ] Course Feedback #mte309
 - [ ] 9.3.4. Flash ADC #mte325
 - [ ] P9-1, 9-2 #mte320
+- [ ] 9.4. A/D Converter Specifications and Errors #mte325
 
 %% kanban:settings
 ```

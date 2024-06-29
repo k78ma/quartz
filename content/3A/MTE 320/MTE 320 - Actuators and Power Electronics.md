@@ -93,3 +93,4 @@ aliases:
 - [[DC Machine]]
 - [[Simple Generator]]
 - [[DC Voltage Generation by Commutation]]
+- [[Improving DC Generator Waveform]]

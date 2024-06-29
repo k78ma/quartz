@@ -75,7 +75,7 @@ The total conversion time can be improved by observing that the DAC output does 
 Advantages:
 - Simple to implement (H/W or S/W)
 - Fixed conversion time
-- [[Digital to Analog Converter Errors|Glitching]] is eliminated as only one bit changes at a time
+- [[DAC Errors|Glitching]] is eliminated as only one bit changes at a time
 
 Disadvantages:
 - Still requires multiple clock periods for a conversion

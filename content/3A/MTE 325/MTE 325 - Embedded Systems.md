@@ -89,7 +89,7 @@ aliases:
 	- [[Binary Weighted Resistor Ladder DAC]]
 	- [[R-2R DAC]]
 - [[DAC Specifications|DAC Specifications]]
-- [[Digital to Analog Converter Errors|DAC Errors]]
+- [[DAC Errors|DAC Errors]]
 
 ### ADC
 - [[Analog to Digital Converter]]

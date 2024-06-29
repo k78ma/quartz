@@ -5,6 +5,7 @@ tags:
 date: 2024-06-27
 aliases:
   - simple generator
+  - AC generator
 ---
 See:
 - [[EMF Generation with Conductor Relative Motion]]
@@ -54,7 +55,12 @@ e_{AB}=2vBl
 $$
 The voltage $e_{AB}$ given corresponds to the loop position illustrated in Fig 6-1. 
 
-As the loop rotates, for half a revolution, or $180\degree$, the loop side *bc* is under the face of the south pole and loop side de under the face of the north pole, and $e_{AB}=2vBl$. Thus, it can be concluded that the output voltage will have a constant value of $2vBl$ for as long as the situation is as described above.
+As the loop rotates, for half a revolution, or $180\degree$:
+- *bc* is under the face of the south pole
+- *de* is under the face of the north pole,
+- $e_{AB}=2vBl$. 
+
+Thus, it can be concluded that the output voltage will have a constant value of $2vBl$ for as long as the situation is as described above.
 
 When the loop sides leave the pole faces, $v$ and $B$ make an angle of $0\degree$ and $180\degree$, and thus, $\vec{v}\times \vec{B}=0$ . Therefore, beyond pole faces, we have:
 $$
@@ -75,8 +81,6 @@ e_{AB} & =e_{\text{induced}, ab}+e_{\text{induced}, bc}+e_{\text{induced}, cd}+e
 	 & =-2vBl
 \end{align}
 $$
-
-
 The waveform on the induced emf in the loop will look like that shown below in Fig. 6-4. Note that $e_{AB}$ is either at $2vBl$ or $-2vBl$, with a quick transition between the two levels and a short period at zero, since the loop sides leave the pole faces for only a very short period of time during each revolution.
 
 ![[Simple Generator-3.png]]

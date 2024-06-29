@@ -5,6 +5,7 @@ tags:
 date: 2024-06-28
 aliases:
   - DC voltage generation by commutation
+  - DC generator
 ---
 The emf generated in the loop of a [[Simple Generator|simple generator]] is inherently alternating, as previously shown. In a DC generator, it is required to produce a DC voltage at the output terminals. The AC-to-DC conversion is performed via the mechanism of commutation. 
 
