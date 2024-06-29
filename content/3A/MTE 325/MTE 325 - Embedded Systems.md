@@ -88,7 +88,7 @@ aliases:
 - [[Digital to Analog Converter|DAC]]
 	- [[Binary Weighted Resistor Ladder DAC]]
 	- [[R-2R DAC]]
-- [[Digital to Analog Converter Specifications|DAC Specifications]]
+- [[DAC Specifications|DAC Specifications]]
 - [[Digital to Analog Converter Errors|DAC Errors]]
 
 ### ADC
@@ -96,6 +96,8 @@ aliases:
 - [[Converter Bias]]
 - [[Binary Ramp ADC]]
 - [[Successive Approximation ADC]]
+- [[Flash ADC]]
+- [[ADC Specifications]]
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 

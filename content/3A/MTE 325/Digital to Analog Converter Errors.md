@@ -7,7 +7,7 @@ aliases:
   - digital to analog converter errors
   - glitching
 ---
-We defined [[Digital to Analog Converter Specifications|parameters for DAC specification]]; what are some errors DACs suffer from?
+We defined [[DAC Specifications|parameters for DAC specification]]; what are some errors DACs suffer from?
 
 ## Gain and Offset Errors
 Gain and offset errors are not dependent on the input code.

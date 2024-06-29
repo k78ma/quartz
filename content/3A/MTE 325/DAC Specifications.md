@@ -1,11 +1,10 @@
 ---
-title: Digital to Analog Converter Specifications
+title: DAC Specifications
 tags:
   - mte325
-date: 2024-06-26
+date: 2024-06-28
 aliases:
-  - digital to analog converter specifications
-  - DAC specifications
+  - dac specifications
 ---
 What are parameters used to specify [[Digital to Analog Converter|DACs]]?
 - Initial filters – Device interface, Packaging, Voltage Range, Temperature Range

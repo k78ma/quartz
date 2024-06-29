@@ -8,9 +8,7 @@ draft: "true"
 ## Today
 
 - [ ] P9-1, 9-2 #mte320
-- [ ] 9.3.4. Flash ADC #mte325
 - [ ] Week 5 Monday #syde351
-- [ ] Course Feedback #mte309
 
 
 ## MTE 320
@@ -101,6 +99,8 @@ draft: "true"
 - [ ] 6-2: A Simple Generator #mte320
 - [ ] 9.3.3 Successive Approximation ADC #mte325
 - [ ] 6-3: DC Voltage Generation by Commutation #mte320
+- [ ] Course Feedback #mte309
+- [ ] 9.3.4. Flash ADC #mte325
 
 %% kanban:settings
 ```
