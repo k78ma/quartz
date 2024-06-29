@@ -7,17 +7,18 @@ draft: "true"
 
 ## Today
 
-- [ ] P9-1, 9-2 #mte320
 - [ ] Week 5 Monday #syde351
+- [ ] 6-4: Improving the Waveform of DC Generator Output Voltage #mte320
+- [ ] 9.4. A/D Converter Specifications and Errors #mte325
+- [ ] P9-3, 9-4 #mte320
+- [ ] Textbook Revision #mte309
 
 
 ## MTE 320
 
-- [ ] P9-3, 9-4 #mte320
 - [ ] P9-5, 9-6 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-4: Improving the Waveform of DC Generator Output Voltage #mte320
 - [ ] 6-5: Field and Armature #mte320
 - [ ] 6-6: Armature Connection Classification #mte320
 - [ ] 6-7: Generated Voltage in a DC Generator #mte320
@@ -42,9 +43,10 @@ draft: "true"
 
 - [ ] MTE 325 - Two-Axis Project #mte325
 - [ ] Op-Amp Review #mte325
-- [ ] 9.4. A/D Converter Specifications and Errors #mte325
 - [ ] Assignment 6-1 #mte325
 - [ ] Assignment 6-2 #mte325
+- [ ] 9.5. Sample and Hold Circuits #mte325
+- [ ] 9.6. Sample and Hold Hardware #mte325
 
 
 ## MTE 309
@@ -101,6 +103,7 @@ draft: "true"
 - [ ] 6-3: DC Voltage Generation by Commutation #mte320
 - [ ] Course Feedback #mte309
 - [ ] 9.3.4. Flash ADC #mte325
+- [ ] P9-1, 9-2 #mte320
 
 %% kanban:settings
 ```

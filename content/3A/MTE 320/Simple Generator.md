@@ -20,7 +20,7 @@ $$
 \vec{e}_{\text{induced}}=(\vec{v}\times \vec{B})\cdot \vec{l}
 \end{align}
 $$
-where $\vec{v}, \vec{B}, \vec{l}$ are the vectors of linear speed, magnetic flux density and length of conductor. Note that the magnitude of $\vec{l}$ is equal to the length of the conductor and its direction is such that it makes an angle between $0\degree$ and $90\degree$ with $\vec{v}\times \vec{B}$ . If $\vec{v}\times \vec{B}$ is collinear with $\vec{l}$ , $(1)$ simplifies to $(2)$:
+where $\vec{v}, \vec{B}, \vec{l}$ are the vectors of linear speed, magnetic flux density and length of conductor. Note that the magnitude of $\vec{l}$ is equal to the length of the conductor and its direction is such that it makes an angle between $0\degree$ and $90\degree$ with $\vec{v}\times \vec{B}$ . If $\vec{v}\times \vec{B}$ is collinear with $\vec{l}$ , $(1)$ simplifies to:
 $$
 \vec{e}_{\text{induced}}=(\vec{v}\,l\times \vec{B})
 $$
@@ -52,7 +52,9 @@ If $l_{bc}=l_{de}=l$, then:
 $$
 e_{AB}=2vBl
 $$
-The voltage $e_{AB}$ given corresponds to the loop position illustrated in Fig 6-1. As the loop rotates, for half a revolution, or $180\degree$, the loop side *bc* is under the face of the south pole and loop side de under the face of the north pole, and $e_{AB}=2vBl$. Thus, it can be concluded that the output voltage will have a constant value of $2vBl$ for as long as the situation is as described above.
+The voltage $e_{AB}$ given corresponds to the loop position illustrated in Fig 6-1. 
+
+As the loop rotates, for half a revolution, or $180\degree$, the loop side *bc* is under the face of the south pole and loop side de under the face of the north pole, and $e_{AB}=2vBl$. Thus, it can be concluded that the output voltage will have a constant value of $2vBl$ for as long as the situation is as described above.
 
 When the loop sides leave the pole faces, $v$ and $B$ make an angle of $0\degree$ and $180\degree$, and thus, $\vec{v}\times \vec{B}=0$ . Therefore, beyond pole faces, we have:
 $$
@@ -61,7 +63,11 @@ e_{AB} & =e_{\text{induced}, ab}+e_{\text{induced}, bc}+e_{\text{induced}, cd}+e
 	 & =0+0+0+0+0=0
 \end{align}
 $$
-During the next half revolution or $180\degree$, when the loop side *bc* will be under the face of the north pole and the loop side *de* under the face of the south pole, as shown in Fig. 6-3. The emfs induced in the loop sides *bc* and *de* will change polarity, while keeping the same magnitude. This is because the angle between $\vec{v}$ and $\vec{B}$ changes sign from $90\degree$ to $-90\degree$. For *ab*, *cd* and *ef* segments, we again have $(\vec{v} \times \vec{B})\perp \vec{l}$, and thus, $e_{\text{induced}}=0$. Therefore, during the second half of a revolution, we have:
+During the next half revolution or $180\degree$, when the loop side *bc* will be under the face of the north pole and the loop side *de* under the face of the south pole, as shown in Fig. 6-3. 
+
+![[Simple Generator-2.png]]
+
+The emfs induced in the loop sides *bc* and *de* will change polarity, while keeping the same magnitude. This is because the angle between $\vec{v}$ and $\vec{B}$ changes sign from $90\degree$ to $-90\degree$. For *ab*, *cd* and *ef* segments, we again have $(\vec{v} \times \vec{B})\perp \vec{l}$, and thus, $e_{\text{induced}}=0$. Therefore, during the second half of a revolution, we have:
 $$
 \begin{align}
 e_{AB} & =e_{\text{induced}, ab}+e_{\text{induced}, bc}+e_{\text{induced}, cd}+e_{\text{induced}, de}+e_{\text{induced}, ef} \\
@@ -69,8 +75,6 @@ e_{AB} & =e_{\text{induced}, ab}+e_{\text{induced}, bc}+e_{\text{induced}, cd}+e
 	 & =-2vBl
 \end{align}
 $$
-
-![[Simple Generator-2.png]]
 
 
 The waveform on the induced emf in the loop will look like that shown below in Fig. 6-4. Note that $e_{AB}$ is either at $2vBl$ or $-2vBl$, with a quick transition between the two levels and a short period at zero, since the loop sides leave the pole faces for only a very short period of time during each revolution.
