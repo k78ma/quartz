@@ -17,10 +17,7 @@ draft: "true"
 ## DSA
 
 - [ ] 4 - Sorting
-- [ ] 4.1 - Applications of Sorting
-- [ ] 4.2 - Pragmatics of Sorting
 - [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
-- [ ] 4.3.1 - Heaps
 - [ ] 4.3.2 - Constructing Heaps
 - [ ] 4.3.3 - Extracting the Minimum
 - [ ] 4.3.4 - Faster Heap Construction (*)
@@ -1158,6 +1155,9 @@ draft: "true"
 - [ ] 2.6.1 - Model parameters
 - [ ] 2.6.2 - Regularization
 - [ ] 2.6.3 - Bayesian machine learning
+- [ ] 4.1 - Applications of Sorting
+- [ ] 4.2 - Pragmatics of Sorting
+- [ ] 4.3.1 - Heaps
 
 %% kanban:settings
 ```

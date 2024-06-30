@@ -48,11 +48,14 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Duplicate Detection via Hashing]]
 - [[Canonicalization]]
 - [[Compaction]]
+
 ## Sorting
 - [[Sorting Algorithms]]
 - [[Comparison Function]]
 - [[Selection Sort]]
 - [[Heapsort]]
+	- [[Heap Data Structure|Heaps]]
+
 - [[Mergesort]]
 - [[Quicksort]]
 - [[Distribution Sort]]

@@ -9,7 +9,7 @@ However, the approximate model below tells us a lot about the things we have to 
 
 ![[Model of Process in Memory.png|340]]
 
-The first thing to notice is the two new areas – the [[stack]] and the [[heap]].
+The first thing to notice is the two new areas – the [[stack]] and the [[Heap Memory]].
 - The stack is used for temporary variables and is typically managed either at compile-time (that is, the compiler encodes the appropriate push/pop operations) or by a very skillful programmer. 
 - The heap is used for dynamically allocated variables and is always managed by the programmer. 
 

@@ -5,6 +5,7 @@ tags:
   - cs
 date: 2024-04-26
 aliases:
+  - priority queue
 ---
 Priority queues are an abstract data type that supports these 3 operations:
 - $\text{Insert}(Q, x)$ – Given an item $x$, insert it into priority queue $Q$

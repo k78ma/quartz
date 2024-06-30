@@ -1,5 +1,5 @@
 ---
-title: Heap
+title: Heap Memory
 tags:
   - mte241
 date: 2023-11-06

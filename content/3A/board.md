@@ -8,7 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] 9.5. Sample and Hold Circuits #mte325
-- [ ] 6-5: Field and Armature #mte320
 - [ ] P9-5, 9-6 #mte320
 - [ ] Week 5 Tuesday #syde351
 
@@ -105,6 +104,7 @@ draft: "true"
 - [ ] 6-4: Improving the Waveform of DC Generator Output Voltage #mte320
 - [ ] Week 5 Monday #syde351
 - [ ] P9-3, 9-4 #mte320
+- [ ] 6-5: Field and Armature #mte320
 
 %% kanban:settings
 ```

@@ -56,7 +56,7 @@ aliases:
 - [[Stack]]
 	- [[Cortex M4 Stack]]
 	- [[Reset Vector Table]]
-- [[Heap]]
+- [[Heap Memory]]
 - [[Application Binary Interface]]
 ### Interrupts
 - [[Interrupt]]

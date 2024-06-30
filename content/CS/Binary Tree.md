@@ -21,7 +21,7 @@ class Node:
 
 **Full-binary tree:** Every node has 0 or 2 children.
 
-**Complete binary tree:** All levels are completely filled except possibly the last level and all nodes in the last level are as far left as possible. This may sound like an odd concept. We will see its usage in relation to [[Heap|heaps]].
+**Complete binary tree:** All levels are completely filled except possibly the last level and all nodes in the last level are as far left as possible. This may sound like an odd concept. We will see its usage in relation to [[Heap Memory|heaps]].
 
 **Perfect binary tree:** All internals nodes have two children and all leaf nodes have the same level. Perfect binary trees are often used to estimate time complexity for combinatorial problems where the search space is a perfect binary tree.
 

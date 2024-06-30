@@ -6,6 +6,7 @@ tags:
 date: 2024-02-26
 aliases:
   - BST
+  - binary search tree
 ---
 A binary search tree (BST) is a type of [[Binary Tree]] where:
 $$
