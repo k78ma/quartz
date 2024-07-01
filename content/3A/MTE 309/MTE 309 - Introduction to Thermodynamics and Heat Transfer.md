@@ -70,7 +70,7 @@ aliases:
 - [[Convection]]
 - [[Radiation]]
 - [[Steady Heat Conduction in Plane Walls]]
-- [[Thermal Resistance|Thermal Resistance / Thermal Circuits]]
+- [[Thermal Resistance]]
 - [[Thermal Contact Resistance]]
 
 

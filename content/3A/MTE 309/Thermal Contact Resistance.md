@@ -12,11 +12,22 @@ When two such surfaces are pressed against each other, the peaks form good mater
 
 Thermal contact resistance is given by:
 $$
-R_{c}=\frac{1}{h_{c}}=\frac{\Delta T_{\text{interface}}}{\dot{Q} / A} \quad\left[ \frac{\text{m}^{2} / \text{K}}{\text{W}} \right]
+\begin{align}
+R_{c}'' & =\frac{1}{h_{c}}=\frac{\Delta T_{\text{interface}}}{\dot{Q} / A} \quad\left[ \frac{\text{m}^{2} / \text{K}}{\text{W}} \right] \\[2ex] 
+R_{c} & =\frac{1}{h_{c}A}
+\end{align}
 $$
 where $h_{c}$ is the thermal contact conductance.
 
+The value of thermal contact resistance depends on:
+- Surface roughness
+- Material properties
+- Temperature and pressure at the interface
+- Type of fluid trapped at the interface
+
 ![[Thermal Contact Resistance.png]]
 
+
 ## Example
+
 ![[MTE 309 - Thermal Contact Resistance Example.pdf]]

@@ -94,3 +94,5 @@ aliases:
 - [[Simple Generator]]
 - [[DC Voltage Generation by Commutation]]
 - [[Improving DC Generator Waveform]]
+- [[Field and Armature]]
+- [[Generated Voltage in DC Generator]]

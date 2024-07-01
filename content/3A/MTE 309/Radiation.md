@@ -37,18 +37,19 @@ Another important radiation property of a surface is its **absorptivity** $\alph
 In general, both $\epsilon$ and $\alpha$ of a surface depend on the temperature and the wavelength of the radiation. Kirchoff's law of radiation states that the emissivity and the absorptivity of a surface at a given temperature and wavelength are equal, $\epsilon(\lambda,T)=\alpha(\lambda,T)$, for a body in thermal equilibrium.
 
 ## Net Heat Transfer
-Net radiation heat transfer is the difference between the rates of radiation emitted by the surface and the radiation absorbed. 
+Net radiation heat transfer is the difference between the rates of radiation *emitted* by the surface and the radiation *absorbed*. 
 - If the rate of radiation absorption is greater than the rate of radiation emission, the surface is said to be gaining energy by radiation. 
 - Otherwise, the surface is said to be losing energy by radiation.
 
 In general, the determination of the net rate of heat transfer by radiation between two surfaces is a complicated matter since it depends on the properties of the surfaces, their orientation relative to each other, and the interaction of the medium between the surfaces with radiation.
 
-When a surface is 
+When a surface of emissivity $\epsilon$ surface area $A_{s}$ at a thermodynamic temperature $T_{s}$ is completely enclosed by a much larger (or black) surface at thermodynamic temperature $T_{\text{surr}}$ separated by a gas (such as air) that does not intervene with radiation, the net rate of radiation heat transfer between these two surfaces is given by:
 $$
 \begin{align}
 \dot{Q}_{\text{net}}'' & =\epsilon\sigma(T_{s}^{4}-T_{\text{surr}}^{4}) \\[2ex]
 \dot{Q}_{\text{net}}'' & =h_{\text{rad}}(T_{s}-T_{\text{surr}})
 \end{align}
 $$
+In this special case, the emissivity and the surface area of the surrounding surface do not have any effect on the net radiation heat transfer.
 
 ![[Radiation.png|384]]

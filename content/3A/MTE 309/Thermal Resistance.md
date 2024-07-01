@@ -5,7 +5,6 @@ tags:
 date: 2024-06-26
 aliases:
   - thermal resistance
-  - thermal circuits
 ---
 ## Conduction Resistance
 We showed that [[Steady Heat Conduction in Plane Walls|steady heat conduction in plane walls]] can be written as:
@@ -68,7 +67,7 @@ Like electrical resistors, thermal resistances in parallel follow:
 $$
 \frac{1}{R_{eq}}=\frac{1}{R_{1}}+\frac{1}{R_{2}}
 $$
-![[Thermal Resistance-2.png|400]]
+![[Thermal Resistance-2.png|372]]
 
 In the case shown above, we would have:
 $$
@@ -76,5 +75,5 @@ R_{\text{total}}=\frac{R_{1}R_{2}}{R_{1}+R_{2}}+R_{3}+R_{\text{conv}}
 $$
 
 In general:
-- Any plane wall normal to the x-axis is isothermal (assu
-- Any plane parallel to the x-axis is
+- Any plane wall normal to the x-axis is isothermal (the temperature varies in the $x$-direction only)
+- Any plane parallel to the x-axis is adiabatic (heat transfer occurs in $x$-axis only)

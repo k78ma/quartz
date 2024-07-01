@@ -9,10 +9,7 @@ draft: "true"
 
 - [ ] P9-5, 9-6 #mte320
 - [ ] Week 5 Tuesday #syde351
-- [ ] Read Lab Manual #mte320
-- [ ] 9.6. Sample and Hold Hardware #mte325
 - [ ] Textbook Revision (Chapters 16-17) #mte309
-- [ ] 6-6: Armature Connection Classification #mte320
 
 
 ## MTE 320
@@ -105,6 +102,9 @@ draft: "true"
 - [ ] P9-3, 9-4 #mte320
 - [ ] 6-5: Field and Armature #mte320
 - [ ] 9.5. Sample and Hold Circuits #mte325
+- [ ] 9.6. Sample and Hold Hardware #mte325
+- [ ] 6-6: Armature Connection Classification #mte320
+- [ ] Read Lab Manual #mte320
 
 %% kanban:settings
 ```
