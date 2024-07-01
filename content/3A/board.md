@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] 9.5. Sample and Hold Circuits #mte325
 - [ ] P9-5, 9-6 #mte320
 - [ ] Week 5 Tuesday #syde351
 
@@ -105,6 +104,7 @@ draft: "true"
 - [ ] Week 5 Monday #syde351
 - [ ] P9-3, 9-4 #mte320
 - [ ] 6-5: Field and Armature #mte320
+- [ ] 9.5. Sample and Hold Circuits #mte325
 
 %% kanban:settings
 ```

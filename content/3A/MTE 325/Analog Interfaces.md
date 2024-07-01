@@ -15,4 +15,4 @@ Example: Phone converts digital representation of caller's voice to an analog si
 - Analog voltage signal drives the speaker to create an analog sound wave
 - If you want to reply, microphone is used to convert the sound waves of your voice to an analog voltage signal, which is converted to digital values by an [[Analog to Digital Converter]] (ADC).
 
-There are physical limitations of ADCs, which combined with the frequency of practical analog voltage signals, means an additional piece of hardware is needed. This hardware is called the [[sample and hold block]] and is used to make a clean conversion possible.
+There are physical limitations of ADCs, which combined with the frequency of practical analog voltage signals, means an additional piece of hardware is needed. This hardware is called the [[Sample and Hold Circuits|sample and hold block]] and is used to make a clean conversion possible.

@@ -98,6 +98,11 @@ aliases:
 - [[Successive Approximation ADC]]
 - [[Flash ADC]]
 - [[ADC Specifications]]
+
+### Sample and Hold Circuits
+- [[Sample and Hold Circuits]]
+- [[Sample and Hold Circuit Implementation]]
+
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 
