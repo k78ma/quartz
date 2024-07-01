@@ -9,14 +9,16 @@ draft: "true"
 
 - [ ] P9-5, 9-6 #mte320
 - [ ] Week 5 Tuesday #syde351
+- [ ] Read Lab Manual #mte320
+- [ ] 9.6. Sample and Hold Hardware #mte325
+- [ ] Textbook Revision (Chapters 16-17) #mte309
+- [ ] 6-6: Armature Connection Classification #mte320
 
 
 ## MTE 320
 
-- [ ] Read Lab Manual #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-6: Armature Connection Classification #mte320
 - [ ] 6-7: Generated Voltage in a DC Generator #mte320
 - [ ] 6-8: DC Motor #mte320
 - [ ] 6-9: Torque Reduction Factor #mte320
@@ -41,13 +43,11 @@ draft: "true"
 - [ ] Op-Amp Review #mte325
 - [ ] Assignment 6-1 #mte325
 - [ ] Assignment 6-2 #mte325
-- [ ] 9.6. Sample and Hold Hardware #mte325
 
 
 ## MTE 309
 
 - [ ] Midterm Review #mte309
-- [ ] Textbook Revision (Chapters 16-17) #mte309
 
 
 ## MTE 321
