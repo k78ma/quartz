@@ -18,6 +18,8 @@ A **heap-labeled tree** is defined to be a binary tree such that the key of each
 
 The most natural implementation of this binary tree would store each key in a node with pointers to its two children. However, similar to [[Binary Search Tree|binary search trees]], the memory used by the pointers can easily outweigh the size of keys, which is the data we're mostly interested in. 
 
+Sometimes, "heap" is used to refer to a heap-labeled tree.
+
 ## Heap Data Structure
 The **heap** is a slick data structure that enables us to represent binary trees without using any pointers. We store data as as an array of keys, and use the position of the keys to implicitly play the role of pointers. We assume that the array starts with index 1 for simplicity.
 
@@ -116,5 +118,22 @@ void bubble_up(priority_queue *q, int p) {
 		bubble_up(q, pq_parent(p));
 	}
 
+}
+```
+
+This swap process takes constant time at each level. Since the height of an $n$-element heap is $\log_{2}n$, each insertion takes at most $O(\log n)$ time. A heap of $n$ elements can thus be constructed in $O(n \log n)$ time through $n$ such insertions:
+
+```c
+void pq_init(priority_queue *q) {
+	q->n = 0
+}
+
+void make_heap(priority_queue *q, item_type s[], int n) {
+	int i;
+	pq_init(q);
+
+	for (i = 0; i < n; i++){
+		pq_insert(q, s[i]);
+	}
 }
 ```
