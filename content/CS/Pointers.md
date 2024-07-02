@@ -34,3 +34,20 @@ printf("%p\n", ptr);
 // Dereference: Output the value of myAge using the pointer (23)  
 printf("%d\n", *ptr);
 ```
+
+## Structs
+The `->` operator in C is specifically used for accessing members of a struct through a pointer. When we have a pointer to a struct, we use the `->` operator to access the fields of the struct that the pointer points to.
+
+```c
+struct example { 
+	int a; 
+};
+
+struct example e;
+e.a = 5;
+
+struct example *p = &e; 
+
+// Returns 5
+printf(p->a); // This would return 5, and is equivalent to (*p).a or e.a
+```

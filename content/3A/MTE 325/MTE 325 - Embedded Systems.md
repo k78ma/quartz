@@ -80,7 +80,7 @@ aliases:
 - [[Unidirectional Parallel Ports]]
 - [[Bidirectional Parallel Ports]]
 
-## Analog Interfaces
+## Analog Interfacing
 
 ### DAC
 - [[Analog Interfaces]]
@@ -102,6 +102,8 @@ aliases:
 ### Sample and Hold Circuits
 - [[Sample and Hold Circuits]]
 - [[Sample and Hold Circuit Implementation]]
+
+## Serial Interfacing
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]

@@ -6,6 +6,8 @@ tags:
 date: 2024-06-30
 aliases:
   - heap data structure
+  - heap
+  - heaps
 ---
 Heaps are a data structure for supporting the [[Priority Queue|priority queue]] operations *insert* and *find-minimum*. They work by maintaining a partial order on the set of elements that is weaker than the sorted order (so it can be efficient to maintain), yet stronger than random order (so the minimum element can be quickly identified).
 
@@ -15,6 +17,7 @@ A **heap-labeled tree** is defined to be a binary tree such that the key of each
 - In a **max-heap**, a node dominates its children by having a bigger key than they do
 
 The most natural implementation of this binary tree would store each key in a node with pointers to its two children. However, similar to [[Binary Search Tree|binary search trees]], the memory used by the pointers can easily outweigh the size of keys, which is the data we're mostly interested in. 
+
 ## Heap Data Structure
 The **heap** is a slick data structure that enables us to represent binary trees without using any pointers. We store data as as an array of keys, and use the position of the keys to implicitly play the role of pointers. We assume that the array starts with index 1 for simplicity.
 
@@ -60,6 +63,7 @@ To avoid these holes and ensure space efficiency, we make each level be packed a
 - Only the last level may be incomplete.
 - The elements of the last level as far left as possible.
 
+
 Thus, we can represent an $n$-key tree using the first $n$ elements of the array. If we did not enforce these structural constraints, we might need an array of size $2n − 1$ to store $n$ elements. 
 
 With heaps, all but the last level are filled, so the height $h$ of an $n$ element heap is logarithmic because:
@@ -67,10 +71,10 @@ $$
 \begin{align}
 \sum_{i=0}^{h-1}2^{i}=2^{h}-1 & \geq n \\[2ex] 
 2^{h} & \geq n+1 \\[2ex] 
-h  & = \lceil \lg(n+1) \rceil
+h  & = \lceil \log_{2}(n+1) \rceil
 \end{align}
 $$
-### Benefits/Drawbacks
+## Benefits/Drawbacks
 This implicit representation of binary trees saves memory, but is less flexible than using pointers. 
 - We cannot store arbitrary tree topologies without wasting large amounts of space. 
 - We cannot move subtrees around by just changing a single pointer, only by explicitly moving all the elements in the subtree. 
@@ -78,3 +82,39 @@ This implicit representation of binary trees saves memory, but is less flexible 
 This loss of flexibility explains why we cannot use this idea to represent binary search trees, but it works just fine for heaps.
 
 *How can we efficiently search for a particular key $k$ in a heap?*  We can’t. Binary search does not work because a heap is not a binary search tree, and the array form of the heap is not sorted. We know almost nothing about the relative order of the $n/2$ leaf elements in a heap that would let us avoid doing linear search through them.
+
+## Heap Construction
+Heaps can be constructed incrementally, by inserting each new element into the left-most open spot in the array ($(n+1)$st position of a previously $n$-element heap). This ensures the desired balanced shape of the heap-labeled tree, but does not maintain the dominance ordering of the keys. The new key might be less than its parent in a min-heap, or greater than its parent in a max-heap, which we don't want.
+
+The solution to this is to swap any dissatisfied element with its parent:
+- The old parent is now happy, as it is properly dominated
+- The other child of the old parent is happy, because it is now dominated by an element even more extreme than before
+- The new element is now happier, but may still dominate its new parent. So we recur at a higher level, *bubbling up* the new key to its proper position in the hierarchy.
+	- Since we replace the root of a subtree by a larger one at each step of bubbling up, we preserve the heap order elsewhere.
+
+```c
+void pq_insert(priority_queue *q, item_type x) {
+
+	if (q->n >= PQ_SIZE) { // q->n dereferences pointer and accesses member of the struct it points to. Equivalent to (*q).n
+		printf("Warning: priority queue overflow! \n");
+	}
+	else {
+		q->n = (q->n) + 1; 
+		q->q[q->n] = x;
+		bubble_up(q, q->n);
+	}
+}
+
+void bubble_up(priority_queue *q, int p) {
+
+	if (pq_parent(p) == -1){
+		return;
+	}
+
+	if (q->q[pq_parent(p)] > q->q[p]) {
+		pq_swap(q, p, pq_parent(p));
+		bubble_up(q, pq_parent(p));
+	}
+
+}
+```
