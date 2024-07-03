@@ -7,6 +7,9 @@ draft: "true"
 
 ## Today
 
+- [ ] Assignment 3 #syde351
+- [ ] Assignment 6 #mte309
+- [ ] Commutation Review #mte320
 - [ ] P9-5, 9-6 #mte320
 - [ ] Week 5 Tuesday #syde351
 
@@ -39,6 +42,10 @@ draft: "true"
 - [ ] Op-Amp Review #mte325
 - [ ] Assignment 6-1 #mte325
 - [ ] Assignment 6-2 #mte325
+- [ ] 10.1 - Serial Interfacing #mte325
+- [ ] 10.1.1 - Terminology #mte325
+- [ ] 10.1.2 - Encoding schemes #mte325
+- [ ] 10.1.3 - Other considerations #mte325
 
 
 ## MTE 309
@@ -48,13 +55,17 @@ draft: "true"
 
 ## MTE 321
 
+- [ ] Lecture 10 Examples
+- [ ] PPS 8
 
 
 ## SYDE 351
 
-- [ ] SYDE 351 HW 6
+- [ ] SYDE 351 HW 6 #syde351
 - [ ] Week 6 Tuesday #syde351
 - [ ] Week 6 Thursday #syde351
+- [ ] SYDE 351 HW 7 #syde351
+- [ ] Laplace Transform Review #syde351
 
 
 ## WATonomous
@@ -105,6 +116,7 @@ draft: "true"
 - [ ] 6-6: Armature Connection Classification #mte320
 - [ ] Read Lab Manual #mte320
 - [ ] Textbook Revision (Chapters 16-17) #mte309
+- [ ] Lecture 11 Notes
 
 %% kanban:settings
 ```

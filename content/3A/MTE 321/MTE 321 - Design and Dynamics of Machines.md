@@ -80,3 +80,6 @@ aliases:
 - [[Shaft Materials]]
 - [[Shaft Layout]]
 - [[Shaft Design for Stresses]]
+
+## Machine Design
+- [[Kinematics Fundamentals]]

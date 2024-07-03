@@ -59,7 +59,6 @@ What is the significance of this if it only introduces a tiny potential offset? 
 > Consider the following scenario: We need to sample a 10 kHz signal using a 10 $\mu \text{s}$ converter. How much jitter can be tolerated?
 > 
 > Assume that the uncertainty occurs at the maximum rate of change point, using $\frac{1}{4} \text{ LSB} = 0.6 \text{ mV}$ from [[Sample and Hold Circuits|here]]. Then, we have:
-> 
 >$$
 \begin{align}
 >\frac{\Delta V}{\Delta t} & = 2\pi fV_{\text{peak}} \\[2ex] 
