@@ -48,6 +48,7 @@ draft: "true"
 - [ ] 10.1.2 - Encoding schemes #mte325
 - [ ] 10.1.3 - Other considerations #mte325
 - [ ] Op-Amp Review #mte325
+- [ ] ADC Lab Prep #mte325
 
 
 ## MTE 309
