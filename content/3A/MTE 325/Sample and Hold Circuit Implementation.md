@@ -60,7 +60,7 @@ What is the significance of this if it only introduces a tiny potential offset? 
 > 
 > Assume that the uncertainty occurs at the maximum rate of change point, using $\frac{1}{4} \text{ LSB} = 0.6 \text{ mV}$ from [[Sample and Hold Circuits|here]]. Then, we have:
 >$$
-\begin{align}
+>\begin{align}
 >\frac{\Delta V}{\Delta t} & = 2\pi fV_{\text{peak}} \\[2ex] 
 >\frac{0.6\times10^{-3}}{T_{\text{jitter}}} & = 2\pi \cdot 10^{4} \cdot 5\\[2ex] 
 >T_{\text{jitter}} & = \frac{0.6\times 10^{-3}}{\pi \times 10^{5}}\\[2ex] 
