@@ -25,6 +25,11 @@ $$
 which we call the **thermal resistance** or **conduction resistance** of the wall.
 
 More in general, the thermal resistance can be described as the ratio between the driving potential to the corresponding heat transfer rate, $R=\Delta T / \dot{Q}_{\text{cond}}$.
+
+Some other geometries other than plane walls:
+
+![[Thermal Resistance-3.png|660]]
+
 ## Convection Resistance
 Consider convection heat transfer from a solid surface of area $A_{s}$ and temperature $T_{s}$ to a fluid whose temperature sufficiently far from the surface is $T_{\infty}$, with a convection heat transfer coefficient $h$. Newton’s law of cooling for convection heat transfer rate $\dot{Q}_{\text{conv}}=hA_{s}(T_{s}-T_{\infty})$ can be rearranged as
 $$

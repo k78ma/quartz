@@ -10,12 +10,11 @@ draft: "true"
 - [ ] Assignment 3 #syde351
 - [ ] Assignment 6 #mte309
 - [ ] Commutation Review #mte320
-- [ ] P9-5, 9-6 #mte320
-- [ ] Week 5 Tuesday #syde351
 
 
 ## MTE 320
 
+- [ ] P9-5, 9-6 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
 - [ ] 6-7: Generated Voltage in a DC Generator #mte320
@@ -23,7 +22,7 @@ draft: "true"
 - [ ] 6-9: Torque Reduction Factor #mte320
 - [ ] 6-10: Counter Torque and Counter EMF #mte320
 - [ ] 6-11: Armature Reaction #mte320
-- [ ] 6-12: $L di/dt$ Voltages #mte320
+- [ ] 6-12: $L\, di/dt$ Voltages #mte320
 - [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
 - [ ] 6-14: DC Machine Cooling #mte320
 - [ ] 6-15: Problems with Commutator Brushes #mte320
@@ -34,35 +33,42 @@ draft: "true"
 - [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
+- [ ] P6-1, 6-2, 6-3 #mte320
+- [ ] P6-4, 6-5, 6-6 #mte320
+- [ ] P6-7, 6-8, 6-9 #mte320
 
 
 ## MTE 325
 
-- [ ] MTE 325 - Two-Axis Project #mte325
-- [ ] Op-Amp Review #mte325
-- [ ] Assignment 6-1 #mte325
-- [ ] Assignment 6-2 #mte325
+- [ ] MTE 325 - 2-Axis Project #mte325 <br>- ADC Character<br>- Motor Control<br>- Double Motor (B)<br>- Functional Demo<br>- Individual Lab Note<br>- Block Diagram<br>- Bug Slaying (B)<br>- Serial Decoding (B)
+- [ ] Problem Set 6 #mte325
+- [ ] Problem Set 7 #mte325
+- [ ] Problem Set 8 #mte325
 - [ ] 10.1.1 - Terminology #mte325
 - [ ] 10.1.2 - Encoding schemes #mte325
 - [ ] 10.1.3 - Other considerations #mte325
+- [ ] Op-Amp Review #mte325
 
 
 ## MTE 309
 
 - [ ] Midterm Review #mte309
+- [ ] Lecture 21 Revision #mte309 <br>- Forced Convection<br>- Natural Convection<br>- Radiation<br>- Examples
 
 
 ## MTE 321
 
-- [ ] Lecture 10 Examples
-- [ ] PPS 8
+- [ ] Lecture 10 Examples #mte321
+- [ ] PPS 8 #mte321
+- [ ] Machine Research Project #mte321
 
 
 ## SYDE 351
 
-- [ ] SYDE 351 HW 6 #syde351
+- [ ] Week 5 Tuesday #syde351
 - [ ] Week 6 Tuesday #syde351
 - [ ] Week 6 Thursday #syde351
+- [ ] SYDE 351 HW 6 #syde351
 - [ ] SYDE 351 HW 7 #syde351
 - [ ] Laplace Transform Review #syde351
 

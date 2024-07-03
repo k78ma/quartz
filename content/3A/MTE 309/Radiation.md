@@ -36,6 +36,8 @@ Another important radiation property of a surface is its **absorptivity** $\alph
 ## Kirchoff's Law
 In general, both $\epsilon$ and $\alpha$ of a surface depend on the temperature and the wavelength of the radiation. Kirchoff's law of radiation states that the emissivity and the absorptivity of a surface at a given temperature and wavelength are equal, $\epsilon(\lambda,T)=\alpha(\lambda,T)$, for a body in thermal equilibrium.
 
+Kirchoff's Law is a simplification; we need to be proceed with caution when $T_{s}-T_{\text{surr}}>100 \text{ K}$.
+
 ## Net Heat Transfer
 Net radiation heat transfer is the difference between the rates of radiation *emitted* by the surface and the radiation *absorbed*. 
 - If the rate of radiation absorption is greater than the rate of radiation emission, the surface is said to be gaining energy by radiation. 

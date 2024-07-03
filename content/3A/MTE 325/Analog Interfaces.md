@@ -2,7 +2,7 @@
 title: Analog Interfaces
 tags:
   - mte325
-date: 2024-07-03
+date: 2024-06-30
 aliases:
   - analog interfaces
 ---
