@@ -103,7 +103,11 @@ aliases:
 - [[Sample and Hold Circuits]]
 - [[Sample and Hold Circuit Implementation]]
 
+### Pulse Width Modulation
+- [[Pulse Width Modulation]]
+
 ## Serial Interfacing
+- [[Serial Interfaces]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]

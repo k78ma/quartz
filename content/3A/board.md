@@ -42,7 +42,6 @@ draft: "true"
 - [ ] Op-Amp Review #mte325
 - [ ] Assignment 6-1 #mte325
 - [ ] Assignment 6-2 #mte325
-- [ ] 10.1 - Serial Interfacing #mte325
 - [ ] 10.1.1 - Terminology #mte325
 - [ ] 10.1.2 - Encoding schemes #mte325
 - [ ] 10.1.3 - Other considerations #mte325
@@ -117,6 +116,7 @@ draft: "true"
 - [ ] Read Lab Manual #mte320
 - [ ] Textbook Revision (Chapters 16-17) #mte309
 - [ ] Lecture 11 Notes
+- [ ] 10.1 - Serial Interfacing #mte325
 
 %% kanban:settings
 ```
