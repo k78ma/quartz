@@ -40,6 +40,13 @@
             "color": "58, 217, 148"
           }
         }
+      ],
+      "example": [
+        {
+          "changes": {
+            "icon": "lucide-arrow-right"
+          }
+        }
       ]
     }
   },

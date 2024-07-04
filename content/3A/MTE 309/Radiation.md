@@ -19,7 +19,7 @@ The maximum rate of radiation that can be emitted from a surface at a thermodyna
 $$
 \dot{Q}_{\text{emit, max}}''=\sigma T^{4}
 $$
-where $\sigma=5.670\times 10^{8} \text{ W} / \text{m}^{2}\cdot \text{K}^{4}$ is the Stefan-Boltzmann `constant`.
+where $\sigma=5.670\times 10^{8} \text{ W} / \text{m}^{2}\cdot \text{K}^{4}$ is the Stefan-Boltzmann constant.
 
 The idealized surface that emits radiation at this maximum rate is called a **blackbody**, and the radiation emitted by a blackbody is called **blackbody radiation**.
 
@@ -33,8 +33,12 @@ where $\epsilon$ is the **emissivity** of the surface. The property emissivity, 
 ## Absorptivity
 Another important radiation property of a surface is its **absorptivity** $\alpha$, which is the fraction of the radiation energy incident on a surface that is absorbed by the surface. Like emissivity, its value is in the range $0 \leq \alpha \leq 1$. A blackbody absorbs all radiation incident on it. That is, a blackbody is a perfect absorber ($\alpha=1$) as well as a perfect emitter.
 
-## Kirchoff's Law
-In general, both $\epsilon$ and $\alpha$ of a surface depend on the temperature and the wavelength of the radiation. Kirchoff's law of radiation states that the emissivity and the absorptivity of a surface at a given temperature and wavelength are equal, $\epsilon(\lambda,T)=\alpha(\lambda,T)$, for a body in thermal equilibrium.
+Absorptivity is related to reflectivity and transmissivity.
+
+![[Radiation-2.png]]
+
+### Kirchoff's Law
+In general, both $\epsilon$ and $\alpha$ of a surface depend on the temperature and the wavelength of the radiation. Kirchoff's law of radiation states that, for any surface in an isothermal enclosure, the emissivity and the absorptivity of a surface at a given temperature and wavelength are equal, $\epsilon(\lambda,T)=\alpha(\lambda,T)$, for a body in thermal equilibrium.
 
 Kirchoff's Law is a simplification; we need to be proceed with caution when $T_{s}-T_{\text{surr}}>100 \text{ K}$.
 
@@ -42,8 +46,7 @@ Kirchoff's Law is a simplification; we need to be proceed with caution when $T_{
 Net radiation heat transfer is the difference between the rates of radiation *emitted* by the surface and the radiation *absorbed*. 
 - If the rate of radiation absorption is greater than the rate of radiation emission, the surface is said to be gaining energy by radiation. 
 - Otherwise, the surface is said to be losing energy by radiation.
-
-In general, the determination of the net rate of heat transfer by radiation between two surfaces is a complicated matter since it depends on the properties of the surfaces, their orientation relative to each other, and the interaction of the medium between the surfaces with radiation.
+- Kirchoff's Law applies for net radiation from a surface enclosed by surroundings. 
 
 When a surface of emissivity $\epsilon$ surface area $A_{s}$ at a thermodynamic temperature $T_{s}$ is completely enclosed by a much larger (or black) surface at thermodynamic temperature $T_{\text{surr}}$ separated by a gas (such as air) that does not intervene with radiation, the net rate of radiation heat transfer between these two surfaces is given by:
 $$
@@ -55,3 +58,7 @@ $$
 In this special case, the emissivity and the surface area of the surrounding surface do not have any effect on the net radiation heat transfer.
 
 ![[Radiation.png|384]]
+
+## Other
+
+![[Radiation-1.png]]

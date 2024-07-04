@@ -10,11 +10,12 @@ draft: "true"
 - [ ] Commutation Review #mte320
 - [ ] 10.1.1 - Synchronization #mte325
 - [ ] Week 5 Tuesday #syde351
-- [ ] Lecture 21 Revision #mte309 <br>- Forced Convection<br>- Natural Convection<br>- Radiation<br>- Examples
+- [ ] Lecture 21 Revision #mte309 <br>- [x] Forced Convection<br>- [x] Natural Convection<br>- [x] Radiation<br>- [ ] Examples
 
 
 ## MTE 320
 
+- [ ] Lab 4 #mte320
 - [ ] P9-5, 9-6 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
@@ -23,17 +24,6 @@ draft: "true"
 - [ ] 6-9: Torque Reduction Factor #mte320
 - [ ] 6-10: Counter Torque and Counter EMF #mte320
 - [ ] 6-11: Armature Reaction #mte320
-- [ ] 6-12: $L\, di/dt$ Voltages #mte320
-- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
-- [ ] 6-14: DC Machine Cooling #mte320
-- [ ] 6-15: Problems with Commutator Brushes #mte320
-- [ ] 6-16: Direction of Rotation of DC Motors #mte320
-- [ ] 6-17: Terminal Characteristics of DC Motors #mte320
-- [ ] 6-18: Magnetization Curve of DC Machines #mte320
-- [ ] 6-19: DC Motor Types #mte320
-- [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
-- [ ] 6-21: Shunt DC Motor Starting #mte320
-- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 - [ ] P6-1, 6-2, 6-3 #mte320
 - [ ] P6-4, 6-5, 6-6 #mte320
 - [ ] P6-7, 6-8, 6-9 #mte320
@@ -41,7 +31,7 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] MTE 325 - 2-Axis Project #mte325 <br>- ADC Character<br>- Motor Control<br>- Double Motor (B)<br>- Functional Demo<br>- Individual Lab Note<br>- Block Diagram<br>- Bug Slaying (B)<br>- Serial Decoding (B)
+- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [ ] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
 - [ ] Problem Set 6 #mte325
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
@@ -54,11 +44,13 @@ draft: "true"
 ## MTE 309
 
 - [ ] Midterm Review #mte309
+- [ ] Quiz 2 Studying #mte309
 
 
 ## MTE 321
 
 - [ ] Lecture 10 Examples #mte321
+- [ ] Lecture 12 Revision and Examples #mte321
 - [ ] PPS 8 #mte321
 - [ ] Machine Research Project #mte321
 
@@ -76,6 +68,21 @@ draft: "true"
 
 - [ ] NeRFStudio installation
 - [ ] NeRF-RPN Dataset
+
+
+## Overflow
+
+- [ ] 6-12: $L\, di/dt$ Voltages #mte320
+- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
+- [ ] 6-14: DC Machine Cooling #mte320
+- [ ] 6-15: Problems with Commutator Brushes #mte320
+- [ ] 6-16: Direction of Rotation of DC Motors #mte320
+- [ ] 6-17: Terminal Characteristics of DC Motors #mte320
+- [ ] 6-18: Magnetization Curve of DC Machines #mte320
+- [ ] 6-19: DC Motor Types #mte320
+- [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
+- [ ] 6-21: Shunt DC Motor Starting #mte320
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 
 
 ***
@@ -128,6 +135,6 @@ draft: "true"
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","lane-width":215,"show-checkboxes":false,"hide-tags-in-title":false,"hide-tags-display":true}
+{"kanban-plugin":"basic","lane-width":216,"show-checkboxes":false,"hide-tags-in-title":false,"hide-tags-display":true}
 ```
 %%

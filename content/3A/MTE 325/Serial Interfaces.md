@@ -5,6 +5,7 @@ tags:
 date: 2024-07-03
 aliases:
   - serial interfaces
+  - serial systems
 ---
 Communication mechanisms between the microcontroller and the outside world are one of three types: analog, serial or parallel. 
 - [[Parallel Port|Parallel]] allowed interfacing to the system bus inside the microcontroller
@@ -21,7 +22,7 @@ Where does serial interfacing fit in the larger picture of embedded systems?
 
 ![[Serial Interfaces-1.png]]
 
-## Communication Context and Bit/Byte/Block Synchronization
+## Communication Context
 Serial implementations are considerably simpler than analog or parallel interfaces. Imagine a file that is being transferred. 
 
 Under the hood, this file is just a big string of 1s and 0s. To transmit it, it's broken into successively smaller pieces. 
@@ -36,7 +37,7 @@ How does the receiver take the information and re-create the original file? This
 
 For more, see [[Serial Synchronization]].
 
-## Channels
+## Terminology
 - **Endpoints:** The entities between which the data is flowing.
 - **Channels:** are characterized by how the data flows between endpoints. The channel itself can take many forms: 
 	- Wire where voltage/current levels are used to signify data value

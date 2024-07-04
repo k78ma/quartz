@@ -84,4 +84,5 @@ aliases:
 ## Machine Design
 - [[Kinematics Fundamentals]]
 - [[Kinematic Chain]]
-- [[Gruebler's Equation]]
+- [[Gruebler's Equation|Gruebler's Equation + Kutzbach's Modification]]
+- [[Grashof's Condition]]
