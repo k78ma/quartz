@@ -8,7 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] Commutation Review #mte320
-- [ ] 10.1.1 - Synchronization #mte325
 - [ ] Week 5 Tuesday #syde351
 - [ ] Lecture 21 Revision #mte309 <br>- [x] Forced Convection<br>- [x] Natural Convection<br>- [x] Radiation<br>- [ ] Examples
 
@@ -132,6 +131,7 @@ draft: "true"
 - [ ] 10.1.1 - Terminology #mte325
 - [ ] Assignment 3 #syde351
 - [ ] Assignment 6 #mte309
+- [ ] 10.1.1 - Synchronization #mte325
 
 %% kanban:settings
 ```

@@ -69,6 +69,7 @@ aliases:
 - [[Conduction]]
 - [[Convection]]
 - [[Radiation]]
+	- [[Properties of Emissive Power]]
 - [[Steady Heat Conduction in Plane Walls]]
 - [[Thermal Resistance]]
 - [[Thermal Contact Resistance]]

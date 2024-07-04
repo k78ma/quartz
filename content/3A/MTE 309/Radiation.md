@@ -37,7 +37,7 @@ Absorptivity is related to reflectivity and transmissivity.
 
 ![[Radiation-2.png]]
 
-### Kirchoff's Law
+## Kirchoff's Law
 In general, both $\epsilon$ and $\alpha$ of a surface depend on the temperature and the wavelength of the radiation. Kirchoff's law of radiation states that, for any surface in an isothermal enclosure, the emissivity and the absorptivity of a surface at a given temperature and wavelength are equal, $\epsilon(\lambda,T)=\alpha(\lambda,T)$, for a body in thermal equilibrium.
 
 Kirchoff's Law is a simplification; we need to be proceed with caution when $T_{s}-T_{\text{surr}}>100 \text{ K}$.
@@ -59,6 +59,6 @@ In this special case, the emissivity and the surface area of the surrounding sur
 
 ![[Radiation.png|384]]
 
-## Other
+### Example
 
-![[Radiation-1.png]]
+![[MTE 309 L21 Radiation Example.pdf]]
