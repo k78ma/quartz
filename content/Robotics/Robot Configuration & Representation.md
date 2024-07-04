@@ -8,7 +8,7 @@ aliases:
 ## Configuration
 - [[Configuration Space|Configuration Space]]
 - [[Degrees of Freedom|Degrees of Freedom]]
-- [[Grubler’s Formula|Grubler’s Formula]]
+- [[Grubler's Formula|Grubler's Formula]]
 - [[Robot Joints]]
 - [[Open-chain vs Closed-chain mechanisms|Open-chain vs Closed-chain mechanisms]]
 ## Transforms

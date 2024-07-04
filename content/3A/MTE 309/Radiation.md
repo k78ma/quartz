@@ -19,7 +19,7 @@ The maximum rate of radiation that can be emitted from a surface at a thermodyna
 $$
 \dot{Q}_{\text{emit, max}}''=\sigma T^{4}
 $$
-where $\sigma=5.670\times 10^{8} \text{ W} / \text{m}^{2}\cdot \text{K}^{4}$ is the Stefan-Boltzmann constant.
+where $\sigma=5.670\times 10^{8} \text{ W} / \text{m}^{2}\cdot \text{K}^{4}$ is the Stefan-Boltzmann `constant`.
 
 The idealized surface that emits radiation at this maximum rate is called a **blackbody**, and the radiation emitted by a blackbody is called **blackbody radiation**.
 

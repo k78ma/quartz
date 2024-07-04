@@ -5,6 +5,8 @@ tags:
 date: 2024-07-02
 aliases:
   - kinematics fundamentals
+  - DoF
+  - degrees of freedom
 ---
 Kinematics is the study of the geometric aspects of motion.
 ## Particle vs. Rigid Body Motion

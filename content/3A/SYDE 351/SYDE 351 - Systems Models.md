@@ -31,5 +31,3 @@ aliases:
 ## System Models
 - [[Block Diagram]]
 - [[State Variable Models]]
-
-5.4, 5.7, 5.16 (similar), 5.21 (similar)

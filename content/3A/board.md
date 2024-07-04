@@ -7,9 +7,10 @@ draft: "true"
 
 ## Today
 
-- [ ] Assignment 3 #syde351
-- [ ] Assignment 6 #mte309
 - [ ] Commutation Review #mte320
+- [ ] 10.1.1 - Synchronization #mte325
+- [ ] Week 5 Tuesday #syde351
+- [ ] Lecture 21 Revision #mte309 <br>- Forced Convection<br>- Natural Convection<br>- Radiation<br>- Examples
 
 
 ## MTE 320
@@ -44,7 +45,6 @@ draft: "true"
 - [ ] Problem Set 6 #mte325
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
-- [ ] 10.1.1 - Terminology #mte325
 - [ ] 10.1.2 - Encoding schemes #mte325
 - [ ] 10.1.3 - Other considerations #mte325
 - [ ] Op-Amp Review #mte325
@@ -54,7 +54,6 @@ draft: "true"
 ## MTE 309
 
 - [ ] Midterm Review #mte309
-- [ ] Lecture 21 Revision #mte309 <br>- Forced Convection<br>- Natural Convection<br>- Radiation<br>- Examples
 
 
 ## MTE 321
@@ -66,7 +65,6 @@ draft: "true"
 
 ## SYDE 351
 
-- [ ] Week 5 Tuesday #syde351
 - [ ] Week 6 Tuesday #syde351
 - [ ] Week 6 Thursday #syde351
 - [ ] SYDE 351 HW 6 #syde351
@@ -124,6 +122,9 @@ draft: "true"
 - [ ] Textbook Revision (Chapters 16-17) #mte309
 - [ ] Lecture 11 Notes
 - [ ] 10.1 - Serial Interfacing #mte325
+- [ ] 10.1.1 - Terminology #mte325
+- [ ] Assignment 3 #syde351
+- [ ] Assignment 6 #mte309
 
 %% kanban:settings
 ```

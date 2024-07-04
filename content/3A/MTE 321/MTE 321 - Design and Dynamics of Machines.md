@@ -83,3 +83,5 @@ aliases:
 
 ## Machine Design
 - [[Kinematics Fundamentals]]
+- [[Kinematic Chain]]
+- [[Gruebler's Equation]]
