@@ -18,7 +18,8 @@ $$
 In order to maximize the magnitude of the induced emf, for a given conductor length, conductor velocity and magnetic flux density, the structure of electric machines are designed such that 
 $$
 \begin{align}
-\vec{v} \perp \vec{B}  & \quad \longrightarrow \quad v\times B\times \sin(90\degree)=vB \\
+|\vec{v}\times \vec{B}| & =vB\sin \theta \\
+\vec{v} \perp \vec{B}  & \quad \longrightarrow \quad v B \sin(90\degree)=vB \\
 \end{align}
 $$
 and $(\vec{v}\times \vec{B})$ collinear with $\vec{l}$, so that

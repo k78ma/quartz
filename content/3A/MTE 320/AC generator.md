@@ -1,12 +1,11 @@
 ---
-title: Simple Generator
+title: AC generator
 tags:
   - mte320
-date: 2024-07-01
+date: 2024-07-05
 aliases:
-  - simple generator
   - AC generator
-  - simple AC generator
+  - simple generator
 ---
 See:
 - [[EMF Generation with Conductor Relative Motion]]

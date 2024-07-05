@@ -91,8 +91,9 @@ aliases:
 
 ## DC Machines
 - [[DC Machine]]
-- [[Simple Generator]]
-- [[DC Voltage Generation by Commutation]]
-- [[Improving DC Generator Waveform]]
-- [[Field and Armature]]
-- [[Generated Voltage in DC Generator]]
+- [[AC generator|Simple AC Generator]]
+- [[DC Generator]]
+	- [[Improving DC Generator Waveform]]
+	- [[Field and Armature]]
+	- [[Generated Voltage in DC Generator]]
+- [[DC Motor]]

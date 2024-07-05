@@ -7,18 +7,16 @@ draft: "true"
 
 ## Today
 
-- [ ] Commutation Review #mte320
 - [ ] Week 5 Tuesday #syde351
-- [ ] Lecture 21 Revision #mte309 <br>- [x] Forced Convection<br>- [x] Natural Convection<br>- [x] Radiation<br>- [ ] Examples
+- [ ] 10.1.2 - Encoding schemes #mte325
+- [ ] P9-5, 9-6 #mte320
 
 
 ## MTE 320
 
 - [ ] Lab 4 #mte320
-- [ ] P9-5, 9-6 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-7: Generated Voltage in a DC Generator #mte320
 - [ ] 6-8: DC Motor #mte320
 - [ ] 6-9: Torque Reduction Factor #mte320
 - [ ] 6-10: Counter Torque and Counter EMF #mte320
@@ -34,9 +32,7 @@ draft: "true"
 - [ ] Problem Set 6 #mte325
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
-- [ ] 10.1.2 - Encoding schemes #mte325
 - [ ] 10.1.3 - Other considerations #mte325
-- [ ] Op-Amp Review #mte325
 - [ ] ADC Lab Prep #mte325
 
 
@@ -132,6 +128,9 @@ draft: "true"
 - [ ] Assignment 3 #syde351
 - [ ] Assignment 6 #mte309
 - [ ] 10.1.1 - Synchronization #mte325
+- [ ] Lecture 21 Revision #mte309 <br>- [x] Forced Convection<br>- [x] Natural Convection<br>- [x] Radiation<br>- [x] Examples
+- [ ] Commutation Review #mte320
+- [ ] 6-7: Generated Voltage in a DC Generator #mte320
 
 %% kanban:settings
 ```

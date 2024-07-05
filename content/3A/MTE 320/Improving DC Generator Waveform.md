@@ -6,7 +6,7 @@ date: 2024-06-29
 aliases:
   - improving dc generator waveform
 ---
-The simple [[DC Voltage Generation by Commutation|DC generator]] has two distinct shortcomings:
+The simple [[DC Generator|DC generator]] has two distinct shortcomings:
 1. The magnitude of the output voltage is low.
 2. The output voltage is not a smooth DC and has high ripple content.
 
