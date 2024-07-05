@@ -46,3 +46,7 @@ This means that the dynamics of the system can be described by the model $I_{e}\
 The torque $T_{2}$ is *not* the torque on the load shaft due to the torque $T_{1}$. Rather, $T_{2}$ is due to external causes. 
 - For example, if $I_{1}$ represents a motor, and $I_{2}$ represents a vehicle wheel, then $T_{2}$ would be due to road forces, or gravity. 
 - If the vehicle were going downhill, gravity would act to accelerate the vehicle ($\omega_{2} > 0$), and the resulting torque $T_{2}$ would be positive. If the vehicle were going uphill, gravity would act to decelerate the vehicle ($\omega_{2} < 0$), and the resulting torque $T_{2}$ would be negative.
+
+## Table of Common Elements
+
+![[Levers of Small Rotation-5.png]]

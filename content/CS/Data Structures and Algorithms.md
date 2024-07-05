@@ -10,7 +10,7 @@ aliases:
 ---
 Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https://algo.monster/dashboard).
 
-**The Algorithm Design Manual**   <progress max=447 value=131> </progress> 
+**The Algorithm Design Manual**   <progress max=447 value=136> </progress> 
 ## Algorithmic Analysis
 - [[Algorithmic Correctness]]
 - [[RAM Model of Computation]]

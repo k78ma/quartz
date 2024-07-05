@@ -137,3 +137,8 @@ void make_heap(priority_queue *q, item_type s[], int n) {
 	}
 }
 ```
+
+## Dominant Element Extraction
+The remaining priority queue operations are identifying and deleting the dominant element (min or max). Identification is easy, since the top of the heap sits in the first position of the array.
+
+Removing the 

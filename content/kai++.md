@@ -197,6 +197,9 @@ draft: "true"
 - [ ] 12.11 - Exercises
 - [ ] 13 - How to Design Algorithms
 - [ ] 13.1 - Preparing for Tech Company Interviews
+- [ ] 1.10 - Exercises
+- [ ] 2.11 - Exercises
+- [ ] 3.10 - Exercises
 
 
 ## Karpathy

@@ -73,7 +73,7 @@ aliases:
 - [[Steady Heat Conduction in Plane Walls]]
 - [[Thermal Resistance]]
 - [[Thermal Contact Resistance]]
-
+- [[Extended Surfaces|Extended Surfaces / Fins]]
 
 ## Second Law of Thermodynamics
 - [[Second Law of Thermodynamics]]

@@ -25,6 +25,7 @@ aliases:
 - [[Mass-Spring System]]
 - [[Multi-mass Spring System]]
 - [[Spring Energy]]
+- [[Levers of Small Rotation]]
 - [[Rayleigh's Method]]
 - [[Dampened Spring Systems]]
 

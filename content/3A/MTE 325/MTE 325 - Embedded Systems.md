@@ -109,6 +109,7 @@ aliases:
 ## Serial Interfacing
 - [[Serial Interfaces]]
 - [[Serial Synchronization]]
+- [[Serial Encoding Schemes]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
