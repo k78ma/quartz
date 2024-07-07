@@ -7,10 +7,12 @@ draft: "true"
 
 ## Today
 
-- [ ] Week 5 Tuesday #syde351
+- [ ] Fins Revision #mte309
+- [ ] Week 6 Tuesday #syde351
 - [ ] 6-8: DC Motor #mte320
 - [ ] P9-5, 9-6 #mte320
-- [ ] Fins Revision #mte309
+- [ ] Problem Set 6 #mte325
+- [ ] Lecture 10 Examples #mte321
 
 
 ## MTE 320
@@ -29,7 +31,6 @@ draft: "true"
 ## MTE 325
 
 - [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [ ] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
-- [ ] Problem Set 6 #mte325
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] ADC Lab Prep #mte325
@@ -44,7 +45,6 @@ draft: "true"
 
 ## MTE 321
 
-- [ ] Lecture 10 Examples #mte321
 - [ ] Lecture 12 Revision and Examples #mte321
 - [ ] PPS 8 #mte321
 - [ ] Machine Research Project #mte321
@@ -53,7 +53,6 @@ draft: "true"
 
 ## SYDE 351
 
-- [ ] Week 6 Tuesday #syde351
 - [ ] Week 6 Thursday #syde351
 - [ ] SYDE 351 HW 6 #syde351
 - [ ] SYDE 351 HW 7 #syde351
@@ -133,6 +132,7 @@ draft: "true"
 - [ ] Commutation Review #mte320
 - [ ] 6-7: Generated Voltage in a DC Generator #mte320
 - [ ] 10.1.2 - Encoding schemes #mte325
+- [ ] Week 5 Tuesday #syde351
 
 %% kanban:settings
 ```
