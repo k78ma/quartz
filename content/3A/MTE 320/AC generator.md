@@ -9,7 +9,6 @@ aliases:
 ---
 See:
 - [[EMF Generation with Conductor Relative Motion]]
-- [[Generation of Force with Conductor in a Magnetic Field]]
 
 To explain the structure and operation of DC machines, let’s consider a loop of wire rotating about its axis in a constant uniform magnetic field produced by a permanent magnet, as shown in Fig. 6-1.
 

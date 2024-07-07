@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Fins Revision #mte309
 - [ ] Week 6 Tuesday #syde351
 - [ ] 6-8: DC Motor #mte320
 - [ ] P9-5, 9-6 #mte320
@@ -48,7 +47,6 @@ draft: "true"
 - [ ] Lecture 12 Revision and Examples #mte321
 - [ ] PPS 8 #mte321
 - [ ] Machine Research Project #mte321
-- [ ] Pick a mechanism #mte321
 
 
 ## SYDE 351
@@ -133,6 +131,8 @@ draft: "true"
 - [ ] 6-7: Generated Voltage in a DC Generator #mte320
 - [ ] 10.1.2 - Encoding schemes #mte325
 - [ ] Week 5 Tuesday #syde351
+- [ ] Fins Revision #mte309
+- [ ] Pick a mechanism #mte321
 
 %% kanban:settings
 ```
