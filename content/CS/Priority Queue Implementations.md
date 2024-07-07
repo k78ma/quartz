@@ -27,3 +27,4 @@ Find-min/max can actually be improved to constant time for all 3 data structures
 - In this case, Delete-min/max would become involve delete that minimum element we point to, and then doing a search to restore this canned value. The time complexity of this would just be whatever the time complexity of searching is.
 
 ## Heap
+See [[Heap Data Structure|Heap]].

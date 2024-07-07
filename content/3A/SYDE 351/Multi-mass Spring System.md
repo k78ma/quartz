@@ -27,3 +27,5 @@ $$
 We have to make some assumptions about the relative motions of each mass. 
 - For example, we assumed that the $x_{1}>x_{2}$, which results in part **(b)** of the diagram. 
 - If we instead assumed that $x_{2}>x_{1}$, we would have part **(c)**, where the directions of the forces associated with $k_{1}$ are the opposite. However, this assumption still generates the same equations of motion.
+
+An easy way to visualize the relative motions of the masses would be to imagine that $x_{1}=0$ and only $x_{2}$ has been displaced, or vice versa.

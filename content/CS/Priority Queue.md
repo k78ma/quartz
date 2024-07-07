@@ -12,6 +12,8 @@ Priority queues are an abstract data type that supports these 3 operations:
 - $\text{Find-Minimum}(Q)$ or $\text{Find-Maximum}(Q)$ – Return a pointer to the item whose key value is smallest or largest among all keys in priority queue $Q$.
 - $\text{Delete-Minimum}(Q)$ or $\text{Delete-Maximum}(Q)$ – Remove the item whose key value is minimum or maximum from priority queue $Q$.
 
+They can be [[Priority Queue Implementations|implemented in various ways]].
+
 A priority queue that supports Find-Minimum and Delete-Minimum is a min-priority queue, and the definition of max-priority queue follows. Usually, we only support either min or max, not both.
 
 Many algorithms need to process items in a specific order, such as scheduling jobs according to their importance. Priority queue provide more flexibility than simple sorting, since it allows new elements to enter a system at arbitrary intervals. It's more effective to insert a new job into a priority queue than to re-sort everything on each such arrival.

@@ -20,7 +20,7 @@ The most natural implementation of this binary tree would store each key in a no
 
 Sometimes, "heap" is used to refer to a heap-labeled tree.
 
-## Heap Data Structure
+## Heap Array
 The **heap** is a slick data structure that enables us to represent binary trees without using any pointers. We store data as as an array of keys, and use the position of the keys to implicitly play the role of pointers. We assume that the array starts with index 1 for simplicity.
 
 ![[Heap Data Structure.png]]

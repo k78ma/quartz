@@ -12,6 +12,7 @@ draft: "true"
 - [ ] P9-5, 9-6 #mte320
 - [ ] Problem Set 6 #mte325
 - [ ] Lecture 10 Examples #mte321
+- [ ] CE 3
 
 
 ## MTE 320
