@@ -19,7 +19,6 @@ draft: "true"
 
 - [ ] 4 - Sorting
 - [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
-- [ ] 4.3.3 - Extracting the Minimum
 - [ ] 4.3.4 - Faster Heap Construction (*)
 - [ ] 4.3.5 - Sorting by Incremental Insertion
 - [ ] 4.4 - War Story: Give me a Ticket on an Airplane
@@ -1162,6 +1161,7 @@ draft: "true"
 - [ ] 4.2 - Pragmatics of Sorting
 - [ ] 4.3.1 - Heaps
 - [ ] 4.3.2 - Constructing Heaps
+- [ ] 4.3.3 - Extracting the Minimum
 
 %% kanban:settings
 ```

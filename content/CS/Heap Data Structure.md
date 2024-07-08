@@ -11,6 +11,7 @@ aliases:
 ---
 Heaps are a data structure for supporting the [[Priority Queue|priority queue]] operations *insert* and *find-minimum*. They work by maintaining a partial order on the set of elements that is weaker than the sorted order (so it can be efficient to maintain), yet stronger than random order (so the minimum element can be quickly identified).
 
+---
 ## Heap-Labeled Tree
 A **heap-labeled tree** is defined to be a binary tree such that the key of each node dominates the keys of its children.
 - In a **min-heap**, a node dominates its children by having a smaller key than they do
@@ -20,6 +21,7 @@ The most natural implementation of this binary tree would store each key in a no
 
 Sometimes, "heap" is used to refer to a heap-labeled tree.
 
+---
 ## Heap Array
 The **heap** is a slick data structure that enables us to represent binary trees without using any pointers. We store data as as an array of keys, and use the position of the keys to implicitly play the role of pointers. We assume that the array starts with index 1 for simplicity.
 
@@ -76,7 +78,7 @@ $$
 h  & = \lceil \log_{2}(n+1) \rceil
 \end{align}
 $$
-## Benefits/Drawbacks
+### Benefits/Drawbacks
 This implicit representation of binary trees saves memory, but is less flexible than using pointers. 
 - We cannot store arbitrary tree topologies without wasting large amounts of space. 
 - We cannot move subtrees around by just changing a single pointer, only by explicitly moving all the elements in the subtree. 
@@ -138,7 +140,57 @@ void make_heap(priority_queue *q, item_type s[], int n) {
 }
 ```
 
-## Dominant Element Extraction
-The remaining priority queue operations are identifying and deleting the dominant element (min or max). Identification is easy, since the top of the heap sits in the first position of the array.
+## Find and Delete Min/Max
+The remaining priority queue operations are **identifying** and **deleting** the dominant element (min or max). Identification is easy, since the top of the heap sits in the first position of the array.
 
-Removing the 
+Removing the top elements leaves a hole in the array, which can be filled by moving the *right-most* leaf (sitting in the $n$th position of the array) into the first position. This restores the shape of the tree, but the labeling of the root might not satisfy the heap property. The new root might be dominated by both of its children. 
+
+For example, the root of a min-heap should be the smallest of 3 elements: the current root and its 2 children. The cases are:
+- If the current root is dominant, the heap order has been restored.
+- If not, the dominant child should be swapped with the root, and the problem is pushed down to its next level.
+
+The dissatisfied element *bubbles down* the heap until it dominates all its children. This operation is called *heapify*, because it merges two heaps (the subtrees below the original root) with a new key.
+
+```c
+item_type extract_min (priority_queue *q) {
+	int min = -1;
+	
+	if (q->n <= 0){
+		printf("Warning: empty priority queue. \n")
+	}
+	
+	else{
+		min = q->q[1];
+		q->q[1]= q->q[q->n];
+		q->n = q->n - 1;
+		bubble_down(q, 1);
+	}
+
+	return min;
+}
+
+void bubble_down(priority_queue *q, int p){
+	int c; // child index
+	int i; // counter
+	int min_index; // index of lightest child
+
+	c = pq_young_child(p);
+	min_index = p;
+
+	for (i = 0; i <= 1; i++) {
+		if ((c+1) <= q->n) {
+			if (q->q[min_index] > q->q[c+i]) {
+				min_index = c + i;
+			}
+		}
+	}
+	if (min_index != p) {
+		pq_swap(q, p, min_index);
+		bubble_down(q, min_index);
+	}
+}
+```
+
+We will reach a leaf after $\lfloor \log_{2}n \rfloor$ steps of `bubble_down`, each constant time. Thus, root deletion is completed in $O(\log n)$ time.
+
+Repeatedly exchanging the maximum element with the last element and caling heapify yields an $O(n\log n)$ sorting algorithm, [[Heapsort|heapsort]].

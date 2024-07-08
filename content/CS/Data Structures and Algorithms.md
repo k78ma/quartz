@@ -31,6 +31,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 	- [[Dictionary Implementations]]
 - [[Priority Queue]]
 	- [[Priority Queue Implementations]]
+- [[Heap Data Structure|Heap]]
 ### Trees
 - [[Trees]]
 - [[Binary Tree]]
