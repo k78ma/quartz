@@ -5,6 +5,8 @@ tags:
 date: 2024-07-08
 aliases:
   - counter torque and emf
+  - counter torque
+  - counter emf
 ---
 ## Counter Torque in DC generators
 In a DC generator, a torque is applied by a prime mover to turn the rotor, leading to generation of a DC voltage at the terminals of the machine. When the generator is loaded, such that an electrical load is connected across machine terminals, a current will flow into the load through the armature conductors. 

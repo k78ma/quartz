@@ -17,7 +17,6 @@ draft: "true"
 - [ ] Lab 4 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-10: Counter Torque and Counter EMF #mte320
 - [ ] 6-11: Armature Reaction #mte320
 - [ ] 6-12: $L\, di/dt$ Voltages #mte320
 - [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
@@ -48,6 +47,7 @@ draft: "true"
 - [ ] Lecture 11 Examples and Revision #mte321
 - [ ] Lecture 12 Revision and Examples #mte321
 - [ ] PPS 8 #mte321
+- [ ] PPS 9 #mte321
 - [ ] Machine Research Project #mte321
 
 
@@ -135,6 +135,7 @@ draft: "true"
 - [ ] 6-8: DC Motor #mte320
 - [ ] P9-5, 9-6 #mte320
 - [ ] 6-9: Torque Reduction Factor #mte320
+- [ ] 6-10: Counter Torque and Counter EMF #mte320
 
 %% kanban:settings
 ```

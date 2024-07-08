@@ -147,7 +147,7 @@ $$
 \end{align*}
 $$
 
-### Convection from Fin Tip
+### Convection from Fin Tip + Corrected Fin Length
 In practice, the fin tips are exposed to the surroundings, so the boundary conditions should include convection. This temperature distribution can be written as:
 $$
 \frac{T(x)-T\infty}{T_{b}-T_{\infty}}=\frac{\cosh m(L-x)+(h /mk)\sinh m(L-x)}{\cosh mL+(h / mk)\sinh mL}
@@ -159,8 +159,30 @@ $$
  & =\sqrt{ hpkA_{c} }(T_{b}-T_{\infty}) \frac{\sinh mL+(h / mk)\cosh mL}{\cosh mL+(h / mk)\sinh mL}
 \end{align}
 $$
+The solution to the general fin equation for the case of *convection from fin tip* is rather complex. An practical way of accounting for this is to replace fin length $L$ in the case of the insulated tip with a **corrected fin length**:
+$$
+L_{c}=L+\frac{A_{c}}{p}
+$$
+where $A_{c}$ is the cross-sectional area, and $p$ is the perimeter of the fin at the tip. Multiplying the above by the perimeter gives $A_{\text{corrected}} = A_{\text{fin (lateral)}} + A_{\text{tip}}$, which indicates that the fin area determined using the corrected length is equivalent to the sum of the lateral fin area plus the fin tip area.
+
+![[Extended Surfaces-5.png|396]]
+
+Fins subjected to convection at their tips can be treated as fins with insulated tips by replacing the actual fin length with the corrected length in the equations for the adiabatic case:
+$$
+\begin{align}
+\frac{T(x)-T\infty}{T_{b}-T_{\infty}} & =\frac{\cosh m(L_{c}-x)}{\cosh mL_{c}} \\[2ex]
+\dot{Q} & =\sqrt{ hpkA_{c} }(T_{b}-T_{\infty})\tanh mL
+\end{align}
+$$
+Corrected lengths for rectangular and cylindrical fins:
+$$
+\begin{align}
+L_{\text{c, rectangular}} & =L+\frac{t}{2} \\[2ex]
+L_{\text{c, cylindrical}} & =L+\frac{D}{4}
+\end{align}
+$$
 ## Fin Temperature Distributions
-The conduction and convection in a fin occurs as a function of location $x$. Thus, we cannot use the standard [[Thermal Resistance|thermal resistance]] equations for conduction and convection.
+The conduction and convection in a fin occurs as a function of location $x$. See Figure 17-38 above for example. Thus, we cannot use the standard [[Thermal Resistance|thermal resistance]] equations for conduction and convection.
 
 ![[Extended Surfaces-4.png|432]]
 
