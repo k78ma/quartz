@@ -4,7 +4,7 @@ tags:
   - mte320
 date: 2024-07-07
 aliases:
-  - dc motor
+  - DC motor
 ---
 When a current-carrying conductor is placed in a magnetic field, [[Generation of Force with Conductor in a Magnetic Field|a force is exerted on it]]. The magnitude and direction of this force is given as:
 $$

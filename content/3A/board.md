@@ -10,8 +10,6 @@ draft: "true"
 - [ ] Problem Set 6 #mte325
 - [ ] Lecture 10 Examples #mte321
 - [ ] Week 6 Thursday #syde351
-- [ ] ADC Lab Prep #mte325
-- [ ] 6-9: Torque Reduction Factor #mte320
 
 
 ## MTE 320
@@ -21,6 +19,10 @@ draft: "true"
 - [ ] P9-9, 9-10 #mte320
 - [ ] 6-10: Counter Torque and Counter EMF #mte320
 - [ ] 6-11: Armature Reaction #mte320
+- [ ] 6-12: $L\, di/dt$ Voltages #mte320
+- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
+- [ ] 6-14: DC Machine Cooling #mte320
+- [ ] 6-15: Problems with Commutator Brushes #mte320
 - [ ] P6-1, 6-2, 6-3 #mte320
 - [ ] P6-4, 6-5, 6-6 #mte320
 - [ ] P6-7, 6-8, 6-9 #mte320
@@ -29,6 +31,7 @@ draft: "true"
 ## MTE 325
 
 - [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [ ] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
+- [ ] ADC Lab Prep #mte325
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] One-Byte Serial Register #mte321
@@ -64,10 +67,6 @@ draft: "true"
 
 ## Overflow
 
-- [ ] 6-12: $L\, di/dt$ Voltages #mte320
-- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
-- [ ] 6-14: DC Machine Cooling #mte320
-- [ ] 6-15: Problems with Commutator Brushes #mte320
 - [ ] 6-16: Direction of Rotation of DC Motors #mte320
 - [ ] 6-17: Terminal Characteristics of DC Motors #mte320
 - [ ] 6-18: Magnetization Curve of DC Machines #mte320
@@ -135,6 +134,7 @@ draft: "true"
 - [ ] Week 6 Tuesday #syde351
 - [ ] 6-8: DC Motor #mte320
 - [ ] P9-5, 9-6 #mte320
+- [ ] 6-9: Torque Reduction Factor #mte320
 
 %% kanban:settings
 ```

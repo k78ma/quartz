@@ -97,3 +97,5 @@ aliases:
 	- [[Field and Armature]]
 	- [[Generated Voltage in DC Generator]]
 - [[DC Motor]]
+- [[Torque Reduction Factor]]
+- [[Counter Torque and EMF]]
