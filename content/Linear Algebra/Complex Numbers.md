@@ -11,7 +11,7 @@ $$
 i^{2}=-1
 $$
 
-> [!definition] **Definition:** Complex Numbers, $\mathbb{C}$
+> [!definition] Definition: Complex Numbers
 >- A *complex number* is an ordered pair $(a,b)$ where $a,b\in\mathbb{R}$, but we write it as $a+bi$.
 >- The set of all complex numbers is denoted by $\mathbb{C}$:
 >$$
