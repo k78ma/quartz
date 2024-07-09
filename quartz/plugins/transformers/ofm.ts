@@ -88,6 +88,7 @@ const calloutMapping = {
   info: "info",
   todo: "todo",
   proof: "proof",
+  definition: "definition",
   theorem: "theorem",
   tip: "tip",
   hint: "tip",
