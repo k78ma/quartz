@@ -15,7 +15,7 @@ draft: "true"
 - [ ] **SICP, PIM**<br>- Interesting but not directly useful yet
 
 
-## DSA
+## Algorithm Design Manual
 
 - [ ] 4 - Sorting
 - [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
@@ -199,6 +199,151 @@ draft: "true"
 - [ ] 1.10 - Exercises
 - [ ] 2.11 - Exercises
 - [ ] 3.10 - Exercises
+
+
+## Understanding Deep Learning
+
+- [ ] 3 - Shallow neural networks
+- [ ] 3.3 - Multivariate inputs and outputs
+- [ ] 3.4 - Shallow neural networks: general case
+- [ ] 3.5 - Terminology
+- [ ] 3.6 - Summary
+- [ ] 4 - Deep neural networks
+- [ ] 4.1 - Composing neural networks
+- [ ] 4.2 - From composing networks to deep networks
+- [ ] 4.3 - Deep neural networks
+- [ ] 4.4 - Matrix notation
+- [ ] 4.5 - Shallow vs. deep neural networks
+- [ ] 4.6 - Summary
+- [ ] 5 - Loss functions
+- [ ] 5.1 - Maximum likelihood
+- [ ] 5.2 - Recipe for constructing loss functions
+- [ ] 5.3 - Example 1: univariate regression
+- [ ] 5.4 - Example 2: binary classification
+- [ ] 5.5 - Example 3: multiclass classification
+- [ ] 5.6 - Multiple outputs
+- [ ] 5.7 - Cross-entropy loss
+- [ ] 5.8 - Summary
+- [ ] 6 - Fitting models
+- [ ] 6.1 - Gradient descent
+- [ ] 6.2 - Stochastic gradient descent
+- [ ] 6.3 - Momentum
+- [ ] 6.4 - Adam
+- [ ] 6.5 - Training algorithm hyperparameters
+- [ ] 6.6 - Summary
+- [ ] 7 - Gradients and initialization
+- [ ] 7.1 - Problem definitions
+- [ ] 7.2 - Computing derivatives
+- [ ] 7.3 - Toy example
+- [ ] 7.4 - Backpropagation algorithm
+- [ ] 7.5 - Parameter initialization
+- [ ] 7.6 - Example training code
+- [ ] 7.7 Summary
+- [ ] 8 - Measuring performance
+- [ ] 8.1 - Training a simple model
+- [ ] 8.2 - Sources of error
+- [ ] 8.3 - Reducing error
+- [ ] 8.4 - Double descent
+- [ ] 8.5 - Choosing hyperparameters
+- [ ] 8.6 - Summary
+- [ ] 9 - Regularization
+- [ ] 9.1 Explicit regularization
+- [ ] 9.2 Implicit regularization
+- [ ] 9.3 Heuristics to improve performance
+- [ ] 9.4 Summary
+- [ ] 10 - Convolutional networks
+- [ ] 10.1 - Invariance and equivariance
+- [ ] 10.2 - Convolutional networks for 1D inputs
+- [ ] 10.3 - Convolutional networks for 2D inputs
+- [ ] 10.4 - Downsampling and upsampling
+- [ ] 10.5 - Applications
+- [ ] 10.6 - Summary
+- [ ] 11 - Residual networks
+- [ ] 11.1 - Sequential processing
+- [ ] 11.2 - Residual connections and residual blocks
+- [ ] 11.3 - Exploding gradients in residual networks
+- [ ] 11.4 - Batch normalization
+- [ ] 11.5 - Common residual architectures
+- [ ] 11.6 - Why do nets with residual connections perform so well?
+- [ ] 11.7 - Summary
+- [ ] 12 - Transformers
+- [ ] 12.1 - Processing text data
+- [ ] 12.2 - Dot-product self-attention
+- [ ] 12.3 - Extensions to dot-product self-attention
+- [ ] 12.4 - Transformers
+- [ ] 12.5 - Transformers for natural language processing
+- [ ] 12.6 - Encoder model example: BERT
+- [ ] 12.7 - Decoder model example: GPT3
+- [ ] 12.8 - Encoder-decoder model example: machine translation
+- [ ] 12.9 - Transformers for long sequences
+- [ ] 12.10 -  Transformers for images
+- [ ] 12.11 - Summary
+- [ ] 13 - Graph neural networks
+- [ ] 13.1 -  What is a graph?
+- [ ] 13.2 - Graph representation
+- [ ] 13.3 - Graph neural networks, tasks, and loss functions
+- [ ] 13.4 - Graph convolutional networks
+- [ ] 13.5 - Example: graph classification
+- [ ] 13.6 - Inductive vs. transductive models
+- [ ] 13.7 - Example: node classification
+- [ ] 13.8 - Layers for graph convolutional networks
+- [ ] 13.9 - Edge graphs
+- [ ] 13.10 - Summary
+- [ ] 14 - Unsupervised learning
+- [ ] 14.1 - Taxonomy of unsupervised learning models
+- [ ] 14.2 - What makes a good generative model?
+- [ ] 14.3 - Quantifying performance
+- [ ] 14.4 - Summary
+- [ ] 15 - Generative Adversarial Networks
+- [ ] 15.1 - Discrimination as a signal
+- [ ] 15.2 - Improving stability
+- [ ] 15.3 - Progressive growing, mini-batch discrimination, and truncation
+- [ ] 15.4 - Conditional generation
+- [ ] 15.5 - Image translation
+- [ ] 15.6 - StyleGAN
+- [ ] 15.7 - Summary
+- [ ] 16 - Normalizing flows
+- [ ] 16.1 - 1D example
+- [ ] 16.2 - General case
+- [ ] 16.3 - Invertible network layers
+- [ ] 16.4 - Multi-scale flows
+- [ ] 16.5 - Applications
+- [ ] 16.6 - Summary
+- [ ] 17 - Variational autoencoders
+- [ ] 17.1 - Latent variable models
+- [ ] 17.2 - Nonlinear latent variable model
+- [ ] 17.3 - Training
+- [ ] 17.4 - ELBO properties
+- [ ] 17.5 - Variational approximation
+- [ ] 17.6 - The variational autoencoder
+- [ ] 17.7 - The reparameterization trick
+- [ ] 17.8 - Applications
+- [ ] 17.9 - Summary
+- [ ] 18 - Diffusion models
+- [ ] 18.1 - Overview
+- [ ] 18.2 - Encoder (forward process)
+- [ ] 18.3 - Decoder model (reverse process)
+- [ ] 18.4 - Training
+- [ ] 18.5 - Re-parameterization of loss function
+- [ ] 18.6 - Implementation
+- [ ] 18.7 - Summary
+- [ ] 19 - Reinforcement learning
+- [ ] 19.1 - Markov decision processes, returns, and policies
+- [ ] 19.2 - Expected return
+- [ ] 19.3 - Tabular reinforcement learning
+- [ ] 19.4 - Fitted Q-learning
+- [ ] 19.5 - Policy gradient methods
+- [ ] 19.6 - Actor-critic methods
+- [ ] 19.7 - Offline reinforcement learning
+- [ ] 19.8 - Summary
+- [ ] 20 - Why does deep learning work?
+- [ ] 20.1 - The case against deep learning
+- [ ] 20.2 - Factors that influence fitting performance
+- [ ] 20.3 - Properties of loss functions
+- [ ] 20.4 - Factors that determine generalization
+- [ ] 20.5 - Do we need so many parameters?
+- [ ] 20.6 - Do networks have to be deep?
+- [ ] 20.7 - Summary
 
 
 ## Karpathy
@@ -534,13 +679,6 @@ draft: "true"
 - [ ] 12.7.3 - Using Existing Library Functions in Threaded Programs
 - [ ] 12.7.4 - Races
 - [ ] 12.7.5 - Deadlocks
-
-
-## Problems
-
-- [ ] DLFC Chapter 2 Exercises
-- [ ] ADM Chapter 2 Exercises
-- [ ] ADM Chapter 3 Exercises
 
 
 ***
@@ -1162,6 +1300,8 @@ draft: "true"
 - [ ] 4.3.1 - Heaps
 - [ ] 4.3.2 - Constructing Heaps
 - [ ] 4.3.3 - Extracting the Minimum
+- [ ] 3.1 - Neural network example
+- [ ] 3.2 - Universal approximation theorem
 
 %% kanban:settings
 ```

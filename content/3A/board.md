@@ -7,10 +7,10 @@ draft: "true"
 
 ## Today
 
-- [ ] Problem Set 6 #mte325
 - [ ] Lecture 11 Examples and Revision #mte321
 - [ ] Lecture 12 Revision and Examples #mte321
 - [ ] PPS 8 #mte321
+- [ ] Problem Set 6 #mte325
 
 
 ## MTE 320
@@ -56,10 +56,10 @@ draft: "true"
 
 ## SYDE 351
 
-- [ ] SYDE 351 HW 6 #syde351
 - [ ] SYDE 351 HW 7 #syde351
 - [ ] SYDE 351 HW 8 #syde351
 - [ ] Laplace Transform Review #syde351
+- [ ] State-Variable Model of Circuit Review #syde351
 
 
 ## WATonomous
@@ -68,7 +68,7 @@ draft: "true"
 - [ ] NeRF-RPN Dataset
 
 
-## Overflow
+## Overflow/Later
 
 - [ ] 6-16: Direction of Rotation of DC Motors #mte320
 - [ ] 6-17: Terminal Characteristics of DC Motors #mte320
@@ -77,6 +77,7 @@ draft: "true"
 - [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
+- [ ] SYDE 351 HW 6 #syde351
 
 
 ***

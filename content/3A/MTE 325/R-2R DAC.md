@@ -3,8 +3,7 @@ title: R-2R DAC
 tags:
   - mte325
 date: 2024-06-25
-aliases:
-  - r-2r dac
+aliases: []
 ---
 The solution to needing a wide range of resistor values, like in the case of the [[Binary Weighted Resistor Ladder DAC]], is to make use of equivalent resistances.
 

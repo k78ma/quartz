@@ -32,3 +32,8 @@ aliases:
 ## System Models
 - [[Block Diagram]]
 - [[State Variable Models]]
+
+## Electrical Systems
+- [[Electrical Systems Modelling]]
+- [[Electrical Elements in Laplace Domain]]
+- [[Electromechanical Systems]]
