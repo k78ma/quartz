@@ -77,7 +77,9 @@ aliases:
 ### Fins
 - [[Extended Surfaces|Fins]]
 	- [[Fin Efficiency]]
+	- [[Corrected Fin Length]]
 	- [[Fin Effectiveness]]
+	- [[Multiple Fins]]
 
 ## Second Law of Thermodynamics
 - [[Second Law of Thermodynamics]]

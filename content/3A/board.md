@@ -8,8 +8,10 @@ draft: "true"
 ## Today
 
 - [ ] Problem Set 6 #mte325
-- [ ] Lecture 10 Examples #mte321
-- [ ] Week 6 Thursday #syde351
+- [ ] 6-11: Armature Reaction #mte320
+- [ ] Lecture 11 Examples and Revision #mte321
+- [ ] Lecture 12 Revision and Examples #mte321
+- [ ] PPS 8 #mte321
 
 
 ## MTE 320
@@ -17,7 +19,6 @@ draft: "true"
 - [ ] Lab 4 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-11: Armature Reaction #mte320
 - [ ] 6-12: $L\, di/dt$ Voltages #mte320
 - [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
 - [ ] 6-14: DC Machine Cooling #mte320
@@ -40,14 +41,14 @@ draft: "true"
 
 - [ ] Midterm Review #mte309
 - [ ] Quiz 2 Studying #mte309
+- [ ] Lumped Capacitance #mte309
+- [ ] Fin 2 Example #mte309
 
 
 ## MTE 321
 
-- [ ] Lecture 11 Examples and Revision #mte321
-- [ ] Lecture 12 Revision and Examples #mte321
-- [ ] PPS 8 #mte321
 - [ ] PPS 9 #mte321
+- [ ] CE 3 Review #mte321
 - [ ] Machine Research Project #mte321
 
 
@@ -136,6 +137,9 @@ draft: "true"
 - [ ] P9-5, 9-6 #mte320
 - [ ] 6-9: Torque Reduction Factor #mte320
 - [ ] 6-10: Counter Torque and Counter EMF #mte320
+- [ ] Fin 2 Revision #mte309
+- [ ] Week 6 Thursday #syde351
+- [ ] Lecture 10 Examples #mte321
 
 %% kanban:settings
 ```
