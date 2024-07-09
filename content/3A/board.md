@@ -8,7 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] Problem Set 6 #mte325
-- [ ] 6-11: Armature Reaction #mte320
 - [ ] Lecture 11 Examples and Revision #mte321
 - [ ] Lecture 12 Revision and Examples #mte321
 - [ ] PPS 8 #mte321
@@ -50,6 +49,9 @@ draft: "true"
 - [ ] PPS 9 #mte321
 - [ ] CE 3 Review #mte321
 - [ ] Machine Research Project #mte321
+- [ ] Tutorial 8 #mte321
+- [ ] Tutorial 9 #mte321
+- [ ] Lecture 14 Notes #mte321
 
 
 ## SYDE 351
@@ -140,6 +142,7 @@ draft: "true"
 - [ ] Fin 2 Revision #mte309
 - [ ] Week 6 Thursday #syde351
 - [ ] Lecture 10 Examples #mte321
+- [ ] 6-11: Armature Reaction #mte320
 
 %% kanban:settings
 ```

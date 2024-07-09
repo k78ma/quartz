@@ -99,3 +99,4 @@ aliases:
 - [[DC Motor]]
 - [[Torque Reduction Factor]]
 - [[Counter Torque and EMF]]
+- [[Armature Reaction]]
