@@ -7,10 +7,9 @@ draft: "true"
 
 ## Today
 
-- [ ] Lecture 11 Examples and Revision #mte321
-- [ ] Lecture 12 Revision and Examples #mte321
-- [ ] PPS 8 #mte321
-- [ ] Problem Set 6 #mte325
+- [ ] CE 3 Review #mte321
+- [ ] Tutorial 8 #mte321
+- [ ] ADC Lab Prep #mte325
 
 
 ## MTE 320
@@ -30,7 +29,6 @@ draft: "true"
 ## MTE 325
 
 - [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [ ] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
-- [ ] ADC Lab Prep #mte325
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] One-Byte Serial Register #mte321
@@ -40,17 +38,13 @@ draft: "true"
 
 - [ ] Midterm Review #mte309
 - [ ] Quiz 2 Studying #mte309
-- [ ] Lumped Capacitance #mte309
 - [ ] Fin 2 Example #mte309
+- [ ] Lumped Capacitance #mte309
 
 
 ## MTE 321
 
-- [ ] PPS 9 #mte321
-- [ ] CE 3 Review #mte321
 - [ ] Machine Research Project #mte321
-- [ ] Tutorial 8 #mte321
-- [ ] Tutorial 9 #mte321
 - [ ] Lecture 14 Notes #mte321
 
 
@@ -144,6 +138,14 @@ draft: "true"
 - [ ] Week 6 Thursday #syde351
 - [ ] Lecture 10 Examples #mte321
 - [ ] 6-11: Armature Reaction #mte320
+- [ ] Problem Set 6 #mte325
+- [ ] Lecture 11 Examples and Revision #mte321
+- [ ] Lecture 12 Revision and Examples #mte321
+- [ ] PPS 8 #mte321
+- [ ] Notch Sensitivity Review #mte321
+- [ ] Lecture 9.2 Examples #mte321
+- [ ] PPS 9 #mte321
+- [ ] Tutorial 9 #mte321
 
 %% kanban:settings
 ```

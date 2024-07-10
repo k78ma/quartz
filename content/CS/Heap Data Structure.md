@@ -194,3 +194,34 @@ void bubble_down(priority_queue *q, int p){
 We will reach a leaf after $\lfloor \log_{2}n \rfloor$ steps of `bubble_down`, each constant time. Thus, root deletion is completed in $O(\log n)$ time.
 
 Repeatedly exchanging the maximum element with the last element and caling heapify yields an $O(n\log n)$ sorting algorithm, [[Heapsort|heapsort]].
+
+## Faster Heap Construction
+As we saw previously, a heap can be constructed on $n$ elements by incremental insertion in $O(n\log n)$ time. We can actually construct them even faster by using our `bubble_down` procedure above.
+
+Suppose we pack $n$ keys into the first $n$ elements of our priority queue array. The shape of our heap will be right, but the dominance order will be wrong. How can we restore it?
+
+Consider the array in reverse order, starting from the last ($n$th) position. It represents a leaf of the tree and so dominates its non-existent children. The same is the case for the last $n/2$ positions in the array, because all are leaves. If we continue to walk backwards through the array we will eventually encounter an internal node with children. This element may not dominate its children, but its children represent well-formed (if small) heaps.
+
+This is exactly the situation the `bubble_down` procedure was designed to handle, restoring the heap order of an arbitrary root element sitting on top of two sub-heaps. Thus, we can create a heap by performing $n/2$ non-trivial calls to the bubble down procedure:
+```c
+void make_heap_fast(priority_queue *q, item_type s[], int n){
+	int i;
+
+	q->n = n;
+	for (i = 0; i < n; i++){
+		q->q[i + 1] = s[i];
+	}
+
+	for (i = q->n/2; i >= 1; i--){
+		bubble_down(q, i);
+	}
+}
+```
+
+Multiplying the number of calls to bubble down ($n$) times an upper bound on the cost of each operation ($O(log n)$) gives us a running time analysis of $O(n \log n)$. This would make it the same speed as the incremental insertion algorithm described above. But note that it is indeed an upper bound, because only the last insertion will actually take $\lg n$ steps. Recall that bubble down takes time proportional to the height of the heaps it is merging. Most of these heaps are extremely small. In a full binary tree on $n$ nodes, there are $n/2$ nodes that are leaves (i.e. height 0), $n/4$ nodes that are height 1, $n/8$ nodes that are height 2, and so on. In general, there are at most $\lceil n/2h+1 \rceil$nodes of height $h$, so the cost of building a heap is:
+$$
+\sum_{h=0}^{\lceil \lg n\rceil}{\lceil n / 2^{h+1} \rceil}h\leq n\sum_{h=0}^{\lceil \lg n\rceil}h / 2^{h} \leq 2n
+$$
+Since this sum is not quite a geometric series, we can’t apply the usual identity to get the sum, but the puny contribution of the numerator ($h$) is crushed by the denominator ($2^{h}$). The series quickly converges to linear.
+
+Does it matter that we can construct heaps in linear time instead of $O(n \log n)$? Not really. The construction time did not dominate the complexity of [[Heapsort|heapsort]], so improving the construction time does not improve its worst-case performance. Still, it is an impressive display of the power of careful analysis, and the free lunch that geometric series convergence can sometimes provide.

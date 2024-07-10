@@ -100,3 +100,4 @@ aliases:
 - [[Torque Reduction Factor]]
 - [[Counter Torque and EMF]]
 - [[Armature Reaction]]
+- [[L di dt Voltages|L di/dt Voltages]]
