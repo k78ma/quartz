@@ -17,7 +17,6 @@ draft: "true"
 - [ ] Lab 4 #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-12: $L\, di/dt$ Voltages #mte320
 - [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
 - [ ] 6-14: DC Machine Cooling #mte320
 - [ ] 6-15: Problems with Commutator Brushes #mte320
@@ -146,6 +145,7 @@ draft: "true"
 - [ ] Lecture 9.2 Examples #mte321
 - [ ] PPS 9 #mte321
 - [ ] Tutorial 9 #mte321
+- [ ] 6-12: $L\, di/dt$ Voltages #mte320
 
 %% kanban:settings
 ```
