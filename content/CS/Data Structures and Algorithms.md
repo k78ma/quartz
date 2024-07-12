@@ -54,9 +54,9 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Sorting Algorithms]]
 - [[Comparison Function]]
 - [[Selection Sort]]
+- [[Insertion Sort]]
 - [[Heapsort]]
 	- [[Heap Data Structure|Heaps]]
-
 - [[Mergesort]]
 - [[Quicksort]]
 - [[Distribution Sort]]

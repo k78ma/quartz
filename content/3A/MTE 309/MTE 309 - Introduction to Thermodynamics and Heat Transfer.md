@@ -75,7 +75,7 @@ aliases:
 - [[Thermal Contact Resistance]]
 
 ### Fins
-- [[Extended Surfaces|Fins]]
+- [[Finned Surfaces|Fins]]
 	- [[Fin Efficiency]]
 	- [[Corrected Fin Length]]
 	- [[Fin Effectiveness]]

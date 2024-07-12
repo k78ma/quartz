@@ -35,3 +35,5 @@ def post_order_traversal(root: Node):
         post_order_traversal(root.right)
         print(root.val)
 ```
+
+![[Tree Traversal.png]]

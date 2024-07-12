@@ -22,3 +22,5 @@ How do we interpret efficiency?
 - $\epsilon_{\text{fin}}=1$ indicates that the addition of fins does not affect heat transfer at all.
 - $\epsilon_{\text{fin}}<1$ indicates that the fin actually acts as insulation, slowing down heat transfer from the surface.
 - $\epsilon_{\text{fin}}>1$ indicates that fins are enhancing heat transfer from the surface, as they should.
+
+![[MTE 309 L24 Example.pdf]]

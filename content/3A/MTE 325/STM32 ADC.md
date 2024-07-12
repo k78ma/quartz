@@ -1,7 +1,7 @@
 ---
 title: STM32 ADC
 tags:
-  - mte320
+  - mte325
 date: 2024-07-10
 aliases:
   - stm32 adc

@@ -18,9 +18,6 @@ draft: "true"
 ## Algorithm Design Manual
 
 - [ ] 4 - Sorting
-- [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
-- [ ] 4.3.4 - Faster Heap Construction (*)
-- [ ] 4.3.5 - Sorting by Incremental Insertion
 - [ ] 4.4 - War Story: Give me a Ticket on an Airplane
 - [ ] 4.5 - Mergesort: Sorting by Divide and Conquer
 - [ ] 4.6 - Quicksort: Sorting by Randomization
@@ -1302,6 +1299,9 @@ draft: "true"
 - [ ] 4.3.3 - Extracting the Minimum
 - [ ] 3.1 - Neural network example
 - [ ] 3.2 - Universal approximation theorem
+- [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
+- [ ] 4.3.4 - Faster Heap Construction (*)
+- [ ] 4.3.5 - Sorting by Incremental Insertion
 
 %% kanban:settings
 ```

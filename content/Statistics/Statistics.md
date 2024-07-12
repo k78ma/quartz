@@ -40,13 +40,14 @@ Notes from:
 - [[Mutual Information]]
 #### Entropy
 - [[Information Entropy]]
-	- [[Entropy]]
+	- [[Statistical Entropy]]
 - [[Differential Entropy]]
 - [[Maximum Entropy]]
-- [[Kullback-Leibler Divergence|Relative Entropy]] (KL divergence)
+- [[Kullback-Leibler Divergence]] (Relative entropy)
 - [[Conditional Entropy]]
 ### Bayesian Probability
 - [[Bayesian Probability]]
 - [[Bayesian Machine Learning]]
+
 ## Standard Distributions
 

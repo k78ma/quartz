@@ -1,5 +1,5 @@
 ---
-title: Extended Surfaces
+title: Finned Surfaces
 tags:
   - mte309
 date: 2024-07-05

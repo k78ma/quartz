@@ -6,7 +6,7 @@ date: 2024-07-08
 aliases:
   - fin efficiency
 ---
-Let us consider a [[Extended Surfaces|fin]] of constant cross-sectional area $A_{c} = A_{b}$ and length $L$ that is attached to the surface with perfect contact. Heat is transferred from the surface to the fin by conduction and from the fin to the surrounding medium by convection with the same heat transfer coefficient $h$. The temperature of the fin is $T_{b}$ at the fin base and gradually decreases toward the fin tip. 
+Let us consider a [[Finned Surfaces|fin]] of constant cross-sectional area $A_{c} = A_{b}$ and length $L$ that is attached to the surface with perfect contact. Heat is transferred from the surface to the fin by conduction and from the fin to the surrounding medium by convection with the same heat transfer coefficient $h$. The temperature of the fin is $T_{b}$ at the fin base and gradually decreases toward the fin tip. 
 
 In the ideal case of zero thermal resistance or infinite thermal conductivity ($k\to \infty$), the temperature of the fin is uniform, at the base value of $T_{b}$. In this case, the heat transfer from the fin is maximum, and can be expressed as:
 $$
@@ -22,3 +22,5 @@ $$
 \end{align}
 $$
 where $A_{F}$ is the "wetted area" (total fin area). The expression for $\dot{Q}_{\text{fin}}$ depends on what assumptions we make about the fin, such as very long fin, adiabatic, etc.
+
+![[MTE 309 L24 Example.pdf]]

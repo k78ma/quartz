@@ -7,19 +7,29 @@ draft: "true"
 
 ## Today
 
-- [ ] CE 3 Review #mte321
-- [ ] Tutorial 8 #mte321
-- [ ] ADC Lab Prep #mte325
+- [ ] Lab 4 #mte320
+- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
+- [ ] Character Oriented Asynchronous Protocol #mte325
+- [ ] Character-Oriented Serial Interfaces #mte325
+- [ ] Lumped Capacitance #mte309
 
 
 ## MTE 320
 
-- [ ] Lab 4 #mte320
-- [ ] P9-7, 9-8 #mte320
+- [ ] Read Lab 5 Manual #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
+- [ ] P9-7, 9-8 #mte320
 - [ ] 6-14: DC Machine Cooling #mte320
 - [ ] 6-15: Problems with Commutator Brushes #mte320
+- [ ] 6-16: Direction of Rotation of DC Motors #mte320
+- [ ] 6-17: Terminal Characteristics of DC Motors #mte320
+- [ ] 6-18: Magnetization Curve of DC Machines #mte320
+- [ ] Example 6-1 #mte320
+- [ ] Example 6-2 #mte320
+- [ ] Example 6-3 #mte320
+- [ ] Example 6-4 #mte320
+- [ ] Example 6-5 #mte320
+- [ ] Example 6-6 #mte320
 - [ ] P6-1, 6-2, 6-3 #mte320
 - [ ] P6-4, 6-5, 6-6 #mte320
 - [ ] P6-7, 6-8, 6-9 #mte320
@@ -27,18 +37,24 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [ ] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
+- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
-- [ ] One-Byte Serial Register #mte321
+- [ ] Motor Characteristics #mte325
+- [ ] Clock Phase Alignment #mte325
+- [ ] Synchronous Serial Communication #mte325
+- [ ] Synchronous Serial Interfaces #mte325
+- [ ] I2C #mte325
+- [ ] SPI #mte325
+- [ ] USB #mte325
 
 
 ## MTE 309
 
-- [ ] Midterm Review #mte309
 - [ ] Quiz 2 Studying #mte309
-- [ ] Fin 2 Example #mte309
-- [ ] Lumped Capacitance #mte309
+- [ ] Lec 25 Examples #mte309
+- [ ] A7 #mte309
+- [ ] 2nd Law of Thermo Revision #mte309
 
 
 ## MTE 321
@@ -53,6 +69,7 @@ draft: "true"
 - [ ] SYDE 351 HW 8 #syde351
 - [ ] Laplace Transform Review #syde351
 - [ ] State-Variable Model of Circuit Review #syde351
+- [ ] Week 11 Thursday Review #syde351
 
 
 ## WATonomous
@@ -63,14 +80,13 @@ draft: "true"
 
 ## Overflow/Later
 
-- [ ] 6-16: Direction of Rotation of DC Motors #mte320
-- [ ] 6-17: Terminal Characteristics of DC Motors #mte320
-- [ ] 6-18: Magnetization Curve of DC Machines #mte320
 - [ ] 6-19: DC Motor Types #mte320
 - [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
 - [ ] SYDE 351 HW 6 #syde351
+- [ ] Midterm Review #mte309
+- [ ] Midterm Review #syde351
 
 
 ***
@@ -146,6 +162,10 @@ draft: "true"
 - [ ] PPS 9 #mte321
 - [ ] Tutorial 9 #mte321
 - [ ] 6-12: $L\, di/dt$ Voltages #mte320
+- [ ] Tutorial 8 #mte321
+- [ ] CE 3 Review #mte321
+- [ ] ADC Lab Prep #mte325
+- [ ] Fin 2 Example #mte309
 
 %% kanban:settings
 ```

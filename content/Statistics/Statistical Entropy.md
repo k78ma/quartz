@@ -1,10 +1,11 @@
 ---
-title: Entropy
+title: Statistical Entropy
 tags:
   - stats
   - physics
-date: 2024-04-08
+date: 2024-07-12
 aliases:
+  - statistical entropy
 ---
 The concept of entropy has origins in physics where it was introduced in the context of [[Thermodynamics|equilibrium thermodynamics]] and later given a deeper interpretation as a measure of disorder through developments in statistical mechanics. 
 
