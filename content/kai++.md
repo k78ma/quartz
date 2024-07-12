@@ -8,9 +8,9 @@ draft: "true"
 ## The Plan
 
 - [ ] **Algorithm Design Manual + Leetcode<br>**<br>- Get ready for 6th co-op interview season and 5th co-op
+- [ ] **Linear Algebra Done Right**<br>- It's about time
 - [ ] **Radar (Aug break)**<br>- Get ready for NVIDIA
 - [ ] **Understanding Deep Learning** <br>- DLFC is nice but not very digestible<br>- Karpathy videos as supplement
-- [ ] **Linear Algebra Done Right**<br>- It's about time
 - [ ] **CS: APP**<br>- Learn lower level, seems very useful overall
 - [ ] **SICP, PIM**<br>- Interesting but not directly useful yet
 

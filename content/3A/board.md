@@ -7,8 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Lab 4 #mte320
-- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
 - [ ] Character Oriented Asynchronous Protocol #mte325
 - [ ] Character-Oriented Serial Interfaces #mte325
 - [ ] Lumped Capacitance #mte309
@@ -166,6 +164,8 @@ draft: "true"
 - [ ] CE 3 Review #mte321
 - [ ] ADC Lab Prep #mte325
 - [ ] Fin 2 Example #mte309
+- [ ] Lab 4 #mte320
+- [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
 
 %% kanban:settings
 ```

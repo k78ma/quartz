@@ -34,9 +34,11 @@ where:
 - $A$ is the cross-sectional area in $\text{m}^{2}$
 - $\sigma$ is the conductivity of the material in siemens per meter ($S / m$)
 
-Similarly, in a similar formula relates reluctance $\mathcal{R}$ to the property of material and geometry of the magnetic core:
+Similarly, in a similar formula relates **reluctance** $\mathcal{R}$ to the property of material and geometry of the magnetic core:
 $$
+\boxed{
 \mathcal{R}=\frac{l}{\mu A} \quad (A.t / \text{Wb})
+}
 $$
 where:
 - $\mathcal{R}$ is the reluctance in $A.t / \text{Wb}$
