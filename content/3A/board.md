@@ -7,8 +7,7 @@ draft: "true"
 
 ## Today
 
-- [ ] Character Oriented Asynchronous Protocol #mte325
-- [ ] Character-Oriented Serial Interfaces #mte325
+- [ ] Clock Phase Alignment #mte325
 - [ ] Lumped Capacitance #mte309
 
 
@@ -39,7 +38,7 @@ draft: "true"
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] Motor Characteristics #mte325
-- [ ] Clock Phase Alignment #mte325
+- [ ] Character Oriented Asynchronous Protocol #mte325
 - [ ] Synchronous Serial Communication #mte325
 - [ ] Synchronous Serial Interfaces #mte325
 - [ ] I2C #mte325
@@ -166,6 +165,7 @@ draft: "true"
 - [ ] Fin 2 Example #mte309
 - [ ] Lab 4 #mte320
 - [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
+- [ ] Character-Oriented Serial Interfaces #mte325
 
 %% kanban:settings
 ```
