@@ -49,7 +49,7 @@ $$
 $$
 \frac{\beta}{\alpha}=\beta\left( \frac{1}{\alpha} \right)
 $$
-## $\mathbb{F}_{n}$
+## $\mathbb{F}$
 So that we can conveniently make definitions and prove theorems that apply to both real and complex numbers, we adopt the notation of $\mathbb{F}$, which stands for either $\mathbb{R}$ or $\mathbb{C}$. The letter $\mathbb{F}$ is used because $\mathbb{R}$ and $\mathbb{C}$ are examples of [[Fields|fields]].
 
 Thus, if we prove a theorem involving $\mathbb{F}$, we will know that it holds when $\mathbb{F}$ is replaced by $\mathbb{R}$, and when $\mathbb{F}$ is replaced with $\mathbb{C}$. 

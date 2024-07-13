@@ -46,6 +46,7 @@
     --color: #3c8b40;
     --border: #448aff44;
     --bg: #44ff8f10;
+    --callout-icon: var(--callout-icon-success);
   }
 
   &[data-callout="theorem"] {

@@ -7,9 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] 6-14: DC Machine Cooling #mte320
-- [ ] 6-15: Problems with Commutator Brushes #mte320
-- [ ] 6-16: Direction of Rotation of DC Motors #mte320
 - [ ] Character Oriented Asynchronous Protocol #mte325
 - [ ] Lec 25 Examples #mte309
 
@@ -19,8 +16,6 @@ draft: "true"
 - [ ] Read Lab 5 Manual #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-17: Terminal Characteristics of DC Motors #mte320
-- [ ] 6-18: Magnetization Curve of DC Machines #mte320
 - [ ] Example 6-1 #mte320
 - [ ] Example 6-2 #mte320
 - [ ] Example 6-3 #mte320
@@ -166,6 +161,11 @@ draft: "true"
 - [ ] Character-Oriented Serial Interfaces #mte325
 - [ ] Clock Phase Alignment #mte325
 - [ ] Lumped Capacitance #mte309
+- [ ] 6-14: DC Machine Cooling #mte320
+- [ ] 6-15: Problems with Commutator Brushes #mte320
+- [ ] 6-16: Direction of Rotation of DC Motors #mte320
+- [ ] 6-17: Terminal Characteristics of DC Motors #mte320
+- [ ] 6-18: Magnetization Curve of DC Machines #mte320
 
 %% kanban:settings
 ```

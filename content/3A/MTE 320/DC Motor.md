@@ -67,3 +67,6 @@ $$
 where $K=\frac{ZP}{2\pi a}$. Reminder that $P$ is the number of magnetic poles in the generator.
 
 The multiplier $K$ is related to the machine structure and is fixed, whereas $\phi$ and $I_{a}$ can be changed during machine operation.
+
+## Direction of Rotation
+The direction of rotation of a DC motor depends on the direction of the developed torque. The direction of torque can be reversed by changing the direction of armature current or magnetic field. Changing the direction of armature current by changing the polarity of the voltage applied to the armature (armature voltage) is the common method for changing the direction of rotation of a DC motor.
