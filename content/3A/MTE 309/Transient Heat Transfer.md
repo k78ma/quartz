@@ -50,10 +50,10 @@ $$
 Then, we have:
 $$
 \boxed{
-\begin{align}
+\begin{align*}
 \frac{T(t)-T_{\infty}}{T_{0}-T_{\infty}} & =e^{-bt} \quad \text{ where }\quad b =\frac{hA_{s}}{pVc_{p}}=\frac{1}{\tau} \\[2ex] 
 	  & =e^{-t/\tau}
-\end{align}
+\end{align*}
 }
 $$
 where $\tau$ is a time constant.
