@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Clock Phase Alignment #mte325
 - [ ] Lumped Capacitance #mte309
 
 
@@ -166,6 +165,7 @@ draft: "true"
 - [ ] Lab 4 #mte320
 - [ ] 6-13: Power Flow, Power Losses, and Efficiency in DC Machines #mte320
 - [ ] Character-Oriented Serial Interfaces #mte325
+- [ ] Clock Phase Alignment #mte325
 
 %% kanban:settings
 ```

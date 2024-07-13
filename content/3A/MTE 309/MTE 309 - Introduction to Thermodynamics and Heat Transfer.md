@@ -81,6 +81,8 @@ aliases:
 	- [[Fin Effectiveness]]
 	- [[Multiple Fins]]
 
+- [[Transient Heat Transfer]]
+
 ## Second Law of Thermodynamics
 - [[Second Law of Thermodynamics]]
   

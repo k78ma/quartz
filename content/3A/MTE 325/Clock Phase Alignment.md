@@ -13,13 +13,14 @@ Consider a simple serial system with two endpoints, a transmit `Tx` endpoint and
 - In many of the diagrams in this section, the clocks are drawn as external to the interface, but the reality is the precise source rarely matters. It may be a local oscillator dedicated to the interface, a clock derived elsewhere in the chip or a clock sources from outside the chip completely. 
 - Whether or not both the `Tx` and `Rx` endpoints have *visibility* of the same signal is the determining factor for asynchronous vs. synchronous communication.
 
-## Asynchronous Communication
+## Motivation for Asynchronous Case
 As shown in Figure 4, there may be up to 4 clocks or oscillators in this system if each endpoint has separate transmit and receive clocks, and data is being transmitted asynchronously. **Thus, for the asynchronous case, we need to think about clock phase alignment.**
 
 ![[Clock Phase Alignment.png]]
 
 Consider system A as the transmitter and system B as the receiver; even if the two clocks have perfectly matched frequencies, how can the system ensure that sampling occurs at the correct time? 
-- The two clocks are completely independent, so simply saying something like transmit on the rising edge and receive on the falling edge doesn’t help. If the clocks are $180\degree$ out of phase with each other these edges will occur at the same time! 
+
+The two clocks are completely independent, so simply saying something like transmit on the rising edge and receive on the falling edge doesn’t help. If the clocks are $180\degree$ out of phase with each other these edges will occur at the same time! 
 
 >[!note] Why do we care about the middle of the bit?
 >By sampling in the middle, the receiver maximizes the tolerance for any slight timing differences or clock drift between the two devices. Thus, it is the optimal point within the duration of a single bit period where the receiver should sample the incoming data to minimize errors.
