@@ -57,10 +57,11 @@ y\begin{bmatrix}
 \end{bmatrix}
 $$
 Here, we solve the equation by thinking in terms of linear combinations of vectors:
-	- We need to add $x$ copies of the first vector to $y$ copies of the 2nd vector to get \[0,3]
-![column picture](column%20picture.png)
-We find that having having $x=1$ and $y=2$ indeed gives us:
+- We need to add $x$ copies of the first vector to $y$ copies of the 2nd vector to get $[0,3]$
 
+![column picture](column%20picture.png)
+
+We find that having having $x=1$ and $y=2$ indeed gives us:
 $$
 1\begin{bmatrix}
 2 \\

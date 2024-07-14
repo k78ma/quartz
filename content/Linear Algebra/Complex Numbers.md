@@ -35,7 +35,7 @@ Properties of complex arithmetic:
 - **Multiplicative inverse:** For every $\alpha \in \mathbb{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha \beta=1$
 - **Distributive property:** $\lambda(\alpha+\beta)=\lambda \alpha+\lambda \beta$ for all $\lambda, \alpha,\beta \in \mathbb{C}$
 
-### Subtraction and Divsion
+## Subtraction and Divsion
 We can use the additive and multiplicative inverses to define subtraction and division operations with complex numbers.
 
 Suppose $\alpha,\beta \in \mathbb{C}$.

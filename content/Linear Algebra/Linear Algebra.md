@@ -12,16 +12,20 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 ### $\mathbb{R}^{n}$ and $\mathbb{C}^{n}$
 - [[Complex Numbers]]
 - [[Lists]]
-- [[Higher-Dimensional Spaces]]
+- [[n-dimensional Spaces]]
 - [[Fields]]
+
+### Definition of Vector Spaces
+- [[Vector Space]]
+
+## Exercises
+- [[LADR Exercises 1A]]
 
 ## Others
 - [[Geometry of Linear Equations]]
 - [[Vector Combinations]]
 - [[Matrix Basics]]
 	- [[Matrix-Vector Multiplication]]
-	- Matrix-Matrix Multiplication
 - [[Subspaces|Subspaces]]
 - [[Singular Value Decomposition]]
 - [[Cholesky Decomposition]]
-
