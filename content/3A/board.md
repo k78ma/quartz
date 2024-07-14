@@ -16,6 +16,10 @@ draft: "true"
 - [ ] Read Lab 5 Manual #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
+- [ ] 6-19: DC Motor Types #mte320
+- [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
+- [ ] 6-21: Shunt DC Motor Starting #mte320
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 - [ ] Example 6-1 #mte320
 - [ ] Example 6-2 #mte320
 - [ ] Example 6-3 #mte320
@@ -70,10 +74,6 @@ draft: "true"
 
 ## Overflow/Later
 
-- [ ] 6-19: DC Motor Types #mte320
-- [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
-- [ ] 6-21: Shunt DC Motor Starting #mte320
-- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 - [ ] SYDE 351 HW 6 #syde351
 - [ ] Midterm Review #mte309
 - [ ] Midterm Review #syde351

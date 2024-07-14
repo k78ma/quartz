@@ -52,3 +52,11 @@ We can simplify the notation to just use one letter, such as just $x$ and $y$ in
 > Q.E.D.
 
 ## Definition of Zero
+Let $0$ denote the list of length $n$ whose coordinates are all $0$:
+$$
+0=(0, \dots, 0)
+$$
+- On the left side, the symbol $0$ denotes a list of length $n$, which is an element of $\mathbb{F}^{n}$.
+- On the right side, each $0$ denotes a number.
+
+## Intuition of Spaces

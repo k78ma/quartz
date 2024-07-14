@@ -82,30 +82,35 @@ $$
 \text{Wall:} & \quad L_{c}=\frac{t}{2}
 \end{align}
 $$
-### Example
+### Examples
 
-![[Transient Heat Transfer-2.png]]
-
+> [!example]- Example 1
+> ![[Transient Heat Transfer-2.png]]
+>
 First, we want to check that $\text{Bi}\leq 0.1$:
-$$
-\begin{align}
-\text{Bi}_{\text{sphere}}=\frac{hL_{c}}{k} & =\frac{h}{k}\left( \frac{r}{3} \right) \\[2ex] 
-	 & =\frac{(1000 \;[\text{W/}\text{m}^{2}\text{K}])(0.001 \;[\text{m}])}{3(50 \;[\text{W/}\text{mK}])} \\[2ex] 
-	 & =0.066 \leq 0.1
-\end{align}
-$$
-Thus, lumped capacitance method is valid.
+>$$
+>\begin{align}
+>\text{Bi}_{\text{sphere}}=\frac{hL_{c}}{k} & =\frac{h}{k}\left( \frac{r}{3} \right) \\[2ex] 
+>	 & =\frac{(1000 \;[\text{W/}\text{m}^{2}\text{K}])(0.001 \;[\text{m}])}{3(50 \;[\text{W/}\text{mK}])} \\[2ex] 
+>	 & =0.066 \leq 0.1
+>\end{align}
+>$$
+>Thus, lumped capacitance method is valid.
+>
+>We have:
+>
+>$$
+>\begin{align}
+>\frac{T(t)-T_{\infty}}{(T_{0}-T_{\infty})}& =\exp\left( -\frac{hA_{s}}{pVc_{p}}t \right) \\[2ex] 
+>\frac{100  -25\degree \text{C}}{1200 -25 \degree \text{C}} & =\exp\left( \frac{-1000\;\left[ \frac{\text{J}}{\text{s}\,\text{m}^{2}\text{K}} \right]3t}{8000 \; [\text{kg/}\text{m}^{3}](0.01 \;[\text{m}])(502 [\text{J/}\text{kg/}\text{K}])} \right) \\[2ex] 
+>0.0638 & =\exp(-7.47\;[\text{s}^{-1}]\;t) \\[2ex] 
+>t & =\frac{\ln(0.0638)}{-7.47 [\text{s}^{-1}]} \\[2ex]
+>	 & =0.368 \text{ s}
+>\end{align}
+>$$
 
-We have:
-$$
-\begin{align}
-\frac{T(t)-T_{\infty}}{(T_{0}-T_{\infty})}& =\exp\left( -\frac{hA_{s}}{pVc_{p}}t \right) \\[2ex] 
-\frac{100  -25\degree \text{C}}{1200 -25 \degree \text{C}} & =\exp\left( \frac{-1000\;\left[ \frac{\text{J}}{\text{s}\,\text{m}^{2}\text{K}} \right]3t}{8000 \; [\text{kg/}\text{m}^{3}](0.01 \;[\text{m}])(502 [\text{J/}\text{kg/}\text{K}])} \right) \\[2ex] 
-0.0638 & =\exp(-7.47\;[\text{s}^{-1}]\;t) \\[2ex] 
-t & =\frac{\ln(0.0638)}{-7.47 [\text{s}^{-1}]} \\[2ex]
-	 & =0.368 \text{ s}
-\end{align}
-$$
+> [!example]- Example 2
+> ![[MTE 309 LE 25-1.pdf]]
 
 ## Lumped Capacitance as a Thermal Circuit
 Lumped capacitances are similar to [[RC Circuit Behaviour|RC circuits]]. We have:
@@ -116,6 +121,6 @@ where
 $$
 \tau=\left( \frac{1}{hA_{s}} \right)(pVc_{p})=R_{\text{th}}C_{\text{th}}
 $$
-where $R_{th}$ is the [[Thermal Resistance|convection resistance]]. Convection resistance is used because the object has high thermal conductivity, so heat transfer is limited by the rate at which heat can be transferred to or from the surrounding fluid, which is a convection process.
+where $R_{th}$ is the [[Thermal Resistance|convection resistance]] and $C_{\text{th}}$ is the thermal capacitance. Convection resistance is used because the object has high thermal conductivity, so heat transfer is limited by the rate at which heat can be transferred to or from the surrounding fluid, which is a convection process.
 
 ![[Transient Heat Transfer-3.png]]
