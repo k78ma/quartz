@@ -8,7 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] Character Oriented Asynchronous Protocol #mte325
-- [ ] Lec 25 Examples #mte309
 
 
 ## MTE 320
@@ -166,6 +165,7 @@ draft: "true"
 - [ ] 6-16: Direction of Rotation of DC Motors #mte320
 - [ ] 6-17: Terminal Characteristics of DC Motors #mte320
 - [ ] 6-18: Magnetization Curve of DC Machines #mte320
+- [ ] Lec 25 Examples #mte309
 
 %% kanban:settings
 ```

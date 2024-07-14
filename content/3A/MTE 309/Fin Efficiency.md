@@ -23,4 +23,6 @@ $$
 $$
 where $A_{F}$ is the "wetted area" (total fin area). The expression for $\dot{Q}_{\text{fin}}$ depends on what assumptions we make about the fin, such as very long fin, adiabatic, etc.
 
+## Example
+
 ![[MTE 309 L24 Example.pdf]]

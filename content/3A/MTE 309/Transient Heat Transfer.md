@@ -87,7 +87,7 @@ $$
 > [!example]- Example 1
 > ![[Transient Heat Transfer-2.png]]
 >
-First, we want to check that $\text{Bi}\leq 0.1$:
+>First, we want to check that $\text{Bi}\leq 0.1$:
 >$$
 >\begin{align}
 >\text{Bi}_{\text{sphere}}=\frac{hL_{c}}{k} & =\frac{h}{k}\left( \frac{r}{3} \right) \\[2ex] 
