@@ -1,10 +1,10 @@
 ---
-title: Character-Oriented Serial Interfaces
+title: Character-Oriented Serial Interface
 tags:
   - mte325
-date: 2024-07-12
+date: 2024-07-13
 aliases:
-  - character-oriented serial interfaces
+  - character-oriented serial interface
 ---
  We discuss a simple character-oriented interfaces, where data is transferred one character (or byte) at a time. Here, "serial interface" means that we are talking about the internal interface that manages serial communication, not the simple external serial wire connection itself.
 

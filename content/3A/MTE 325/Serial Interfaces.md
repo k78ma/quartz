@@ -45,9 +45,9 @@ For more, see [[Serial Synchronization]].
 	- Light for an optical system, etc.
 
 Channels can be have one of three ways:
-	- **Simplex:** Unidirectional
-	- **Half Duplex:** Bidirectional, one way at a time. There is additional hardware to determine the current direction. There must be some mechanism for the two sides to agree on the current direction of data flow. Examples are walkie-talkies; whoever pushes the button first takes control of the channel and is able to act as the transmitter.
-	- **Full Duplex:** Simultaneous bidirectional. All endpoints need to have separate transmit and receive hardware, allowing transmissions in both directions to take place simultaneously.
+- **Simplex:** Unidirectional
+- **Half Duplex:** Bidirectional, one way at a time. There is additional hardware to determine the current direction. There must be some mechanism for the two sides to agree on the current direction of data flow. Examples are walkie-talkies; whoever pushes the button first takes control of the channel and is able to act as the transmitter.
+- **Full Duplex:** Simultaneous bidirectional. All endpoints need to have separate transmit and receive hardware, allowing transmissions in both directions to take place simultaneously.
 
 ![[Serial Interfaces-2.png]]
 

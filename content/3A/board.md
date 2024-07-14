@@ -7,7 +7,10 @@ draft: "true"
 
 ## Today
 
-- [ ] Character Oriented Asynchronous Protocol #mte325
+- [ ] Example 6-1 #mte320
+- [ ] Example 6-2 #mte320
+- [ ] Example 6-3 #mte320
+- [ ] 2nd Law of Thermo Revision #mte309
 
 
 ## MTE 320
@@ -19,9 +22,6 @@ draft: "true"
 - [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
-- [ ] Example 6-1 #mte320
-- [ ] Example 6-2 #mte320
-- [ ] Example 6-3 #mte320
 - [ ] Example 6-4 #mte320
 - [ ] Example 6-5 #mte320
 - [ ] Example 6-6 #mte320
@@ -36,10 +36,6 @@ draft: "true"
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] Motor Characteristics #mte325
-- [ ] Synchronous Serial Communication #mte325
-- [ ] Synchronous Serial Interfaces #mte325
-- [ ] I2C #mte325
-- [ ] SPI #mte325
 - [ ] USB #mte325
 
 
@@ -47,7 +43,6 @@ draft: "true"
 
 - [ ] Quiz 2 Studying #mte309
 - [ ] A7 #mte309
-- [ ] 2nd Law of Thermo Revision #mte309
 
 
 ## MTE 321
@@ -58,8 +53,9 @@ draft: "true"
 
 ## SYDE 351
 
-- [ ] SYDE 351 HW 7 #syde351
-- [ ] SYDE 351 HW 8 #syde351
+- [ ] Homework 7 #syde351
+- [ ] Homework 8 #syde351
+- [ ] Homework 9 #syde351
 - [ ] Laplace Transform Review #syde351
 - [ ] State-Variable Model of Circuit Review #syde351
 - [ ] Week 11 Thursday Review #syde351
@@ -166,6 +162,11 @@ draft: "true"
 - [ ] 6-17: Terminal Characteristics of DC Motors #mte320
 - [ ] 6-18: Magnetization Curve of DC Machines #mte320
 - [ ] Lec 25 Examples #mte309
+- [ ] Character Oriented Asynchronous Protocol #mte325
+- [ ] Synchronous Serial Communication #mte325
+- [ ] Synchronous Serial Interfaces #mte325
+- [ ] I2C #mte325
+- [ ] SPI #mte325
 
 %% kanban:settings
 ```

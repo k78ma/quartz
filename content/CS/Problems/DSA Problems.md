@@ -6,11 +6,18 @@ tags:
 date: 2024-02-28
 aliases:
 ---
+## ADM Exercises
+- [[ADM Chapter 1 Exercises]]
+- [[ADM Chapter 2 Exercises]]
+- [[ADM Chapter 3 Exercises]]
+- [[ADM Chapter 4 Exercises]]
+
+## Leetcode
 ### Arrays and Hashing
 - [[Contains Duplicate (LC 217)]]
 - [[Valid Anagram (LC 242)]]
 - [[Two Sum (LC 1)]]
-- [[Group Anagrams (LC 49)]]
+- [[Group Anagrams (Ls
 - [[Top K Frequent Elements (LC 347)]]
 - [[Product of Array Except Self (LC 238)]]
 - [[Valid Sudoku (LC 36)]]

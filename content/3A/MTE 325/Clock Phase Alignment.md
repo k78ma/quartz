@@ -6,7 +6,7 @@ date: 2024-07-12
 aliases:
   - clock phase alignment
 ---
-In a [[Character-Oriented Serial Interfaces|character-oriented serial interface]], there can be errors in the system that cause data corruption. Two common causes of corruption are noise in the channel, and timing problems such differences in clock frequencies between the two end points. The magnitude of allowable error related to the phase shift and frequency between the `Tx Clock` and `Rx Clock` signals.
+In a [[Character-Oriented Serial Interface|character-oriented serial interface]], there can be errors in the system that cause data corruption. Two common causes of corruption are noise in the channel, and timing problems such differences in clock frequencies between the two end points. The magnitude of allowable error related to the phase shift and frequency between the `Tx Clock` and `Rx Clock` signals.
 
 Consider a simple serial system with two endpoints, a transmit `Tx` endpoint and a receive `Rx` endpoint. 
 - The `Tx Clock` and `Rx Clock` on a given interface do not have to be at the same data rate, but in practice they typically are. 

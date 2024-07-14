@@ -112,12 +112,15 @@ aliases:
 - [[Serial Encoding Schemes]]
 
 ### Asynchronous Serial Communication
-- [[Character-Oriented Serial Interfaces]]
+- [[Character-Oriented Serial Interface]]
 - [[Clock Phase Alignment]]
 - [[Character-Oriented Asynchronous Protocol]]
 
 ### Synchronous Serial Communication
-
+- [[Synchronous Serial Communication]]
+- [[Synchronous Serial Interface]]
+- [[I2C]]
+- [[SPI]]
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[STM32 ADC]]
