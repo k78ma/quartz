@@ -52,7 +52,7 @@ draft: "true"
 
 ## MTE 321
 
-- [ ] Machine Research Project #mte321
+- [ ] Machine Research Project (July 23) #mte321
 - [ ] Lecture 14 Notes #mte321
 
 

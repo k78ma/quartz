@@ -14,7 +14,7 @@ The hardware needed to build serial interfaces is minimal, we just need a [[Para
 
 - The **control** register is used by the CPU to send non-data information to the interface, while **status** is used by the interface to communicate non-data information to the CPU. These are standard [[Parallel Port|parallel port]] registers.
 - The final two registers of the parallel interface are used for data, which are known as transmit (`XMIT`) and receive (`RCV`)  the serial interface. These are the same as the DO and DI in a parallel port.
-- The additional hardware required to add serial support to the interface consists of two sift registers: serial in (`SRin`) and serial out (`SRout`). The `Tx` and `Rx` lines are the data lines through which the serial data is transmitted or received to the registers.
+- The additional hardware required to add serial support to the interface consists of two shift registers: serial in (`SRin`) and serial out (`SRout`). The `Tx` and `Rx` lines are the data lines through which the serial data is transmitted or received to the registers.
 - Depending on whether an asynchronous or synchronous clocking scheme is used, as well as the desired clock source, a local oscillator may also be required.
 
 ## Interface → Peripheral
