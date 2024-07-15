@@ -7,16 +7,18 @@ draft: "true"
 
 ## Today
 
+- [ ] 6-19: DC Motor Types #mte320
 - [ ] Example 6-2 #mte320
 - [ ] Example 6-3 #mte320
+- [ ] Read Lab 5 Manual #mte320
+- [ ] USB #mte325
+- [ ] A7 #mte309
 
 
 ## MTE 320
 
-- [ ] Read Lab 5 Manual #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-19: DC Motor Types #mte320
 - [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
@@ -34,13 +36,13 @@ draft: "true"
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] Motor Characteristics #mte325
-- [ ] USB #mte325
 
 
 ## MTE 309
 
 - [ ] Quiz 2 Studying #mte309
-- [ ] A7 #mte309
+- [ ] Tutorial 8 #mte309
+- [ ] Entropy #mte309
 
 
 ## MTE 321

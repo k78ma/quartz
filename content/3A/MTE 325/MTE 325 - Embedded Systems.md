@@ -120,7 +120,8 @@ aliases:
 - [[Synchronous Serial Communication]]
 - [[Synchronous Serial Interface]]
 - [[I2C]]
-- [[SPI]]
+- [[SPI]] 
+- [[USB]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
