@@ -11,7 +11,6 @@ draft: "true"
 - [ ] Example 6-2 #mte320
 - [ ] Example 6-3 #mte320
 - [ ] Read Lab 5 Manual #mte320
-- [ ] USB #mte325
 - [ ] A7 #mte309
 
 
@@ -169,6 +168,7 @@ draft: "true"
 - [ ] SPI #mte325
 - [ ] Example 6-1 #mte320
 - [ ] 2nd Law of Thermo Revision #mte309
+- [ ] USB #mte325
 
 %% kanban:settings
 ```
