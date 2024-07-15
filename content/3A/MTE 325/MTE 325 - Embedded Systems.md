@@ -121,6 +121,7 @@ aliases:
 - [[Synchronous Serial Interface]]
 - [[I2C]]
 - [[SPI]]
+
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[STM32 ADC]]

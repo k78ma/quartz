@@ -5,6 +5,7 @@ tags:
 date: 2024-07-05
 aliases:
   - generated voltage in dc generator
+  - prime mover
 ---
 We saw how the mechanism of how [[DC Generator|DC generators]] generate voltage, and derived a formula for the voltage induced in a loop of wire was derived. Here, an expression for the terminal voltage of a general DC generator in terms of the structural parameters of the machine, field flux and rotor speed will be derived.
 
@@ -71,3 +72,9 @@ $$
 This means that besides the number of conductors in series, the products $\omega_{m}P$ or $nP$ can also affect the magnitude of the generated voltage. 
 - To produce a DC voltage of certain magnitude using a low-speed prime mover, a large number of poles are required.
 - In the case of a high-speed prime mover, a small number of poles are needed. A similar observation can be made in other types of electric machines, as well.
+
+A **prime mover** is a source of mechanical power, such as a diesel engine, gas turbine, steam turbine, or wind turbine that drives the shaft of the rotor.
+
+>[!example]- Example 6-1
+>![[MTE 320 E6-1.pdf]]
+> - Note that this example makes reference to [[Field and Armature|lap and wave windings]].

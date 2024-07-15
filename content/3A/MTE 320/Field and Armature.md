@@ -5,6 +5,8 @@ tags:
 date: 2024-07-01
 aliases:
   - field and armature
+  - lap winding
+  - wave winding
 ---
 In DC machines, the **field** is where excitation is placed (stator) and **armature** is where emf is induced (rotor).
 

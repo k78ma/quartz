@@ -7,10 +7,8 @@ draft: "true"
 
 ## Today
 
-- [ ] Example 6-1 #mte320
 - [ ] Example 6-2 #mte320
 - [ ] Example 6-3 #mte320
-- [ ] 2nd Law of Thermo Revision #mte309
 
 
 ## MTE 320
@@ -167,6 +165,8 @@ draft: "true"
 - [ ] Synchronous Serial Interfaces #mte325
 - [ ] I2C #mte325
 - [ ] SPI #mte325
+- [ ] Example 6-1 #mte320
+- [ ] 2nd Law of Thermo Revision #mte309
 
 %% kanban:settings
 ```

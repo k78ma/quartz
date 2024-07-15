@@ -85,6 +85,7 @@ aliases:
 
 ## Second Law of Thermodynamics
 - [[Second Law of Thermodynamics]]
+- [[Thermal Energy Reservoir]]
   
 ---
 ## Problems
