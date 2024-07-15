@@ -49,7 +49,7 @@ The hub also needs to be able to drive differential signals, which is done using
 
 Finally, the root hub has two pull-down resistors. They are used to passively pull the lines to 0 when they are not being driven so that they don't float.
 
-### Device End
+### Device Side
 On the other end, each device will have the same set of transmitters and receivers as the hub. In USB 1.x, they also had an additional resistor. 
 
 This extra resistor was used to tell the root hub whether it was a 1.5 Mbps low speed device, or a 12 Mbps full speed device.

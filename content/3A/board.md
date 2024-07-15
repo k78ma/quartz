@@ -39,7 +39,7 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Quiz 2 Studying #mte309
+- [ ] Tutorial 7 #mte309
 - [ ] Tutorial 8 #mte309
 - [ ] Entropy #mte309
 
