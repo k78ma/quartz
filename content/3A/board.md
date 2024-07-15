@@ -10,7 +10,6 @@ draft: "true"
 - [ ] 6-19: DC Motor Types #mte320
 - [ ] Example 6-2 #mte320
 - [ ] Example 6-3 #mte320
-- [ ] Read Lab 5 Manual #mte320
 - [ ] A7 #mte309
 
 
@@ -169,6 +168,7 @@ draft: "true"
 - [ ] Example 6-1 #mte320
 - [ ] 2nd Law of Thermo Revision #mte309
 - [ ] USB #mte325
+- [ ] Read Lab 5 Manual #mte320
 
 %% kanban:settings
 ```

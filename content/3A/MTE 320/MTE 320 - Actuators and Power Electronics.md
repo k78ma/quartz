@@ -96,13 +96,21 @@ aliases:
 	- [[Improving DC Generator Waveform]]
 	- [[Field and Armature]]
 	- [[Generated Voltage in DC Generator]]
+
 - [[DC Motor]]
 	- [[Torque Reduction Factor]]
 	- [[Counter Torque and EMF]]
 	- [[Armature Reaction]]
 	- [[L di dt Voltages|L di/dt Voltages]]
 	- [[Terminal Characteristics of DC Motors]]
+
 - [[DC Machine Power]]
 - [[DC Machine Cooling]]
 - [[Commutator Brush Issues]]
 - [[Magnetization Curve of DC Machines]]
+
+### DC Motor Types
+- [[Separately-Excited DC Motor]]
+- [[Shunt DC Motor]]
+- [[Series DC Motor]]
+- [[Compound DC Motor]]
