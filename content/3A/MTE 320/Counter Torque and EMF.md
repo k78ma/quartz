@@ -23,3 +23,18 @@ $$
 E_{c}=K\phi \omega_{m} = K'\phi n
 $$
 The larger the mechanical load connected to the machine's shaft, the larger the counter emf produced.
+
+## Example
+*If the DC generator of [[Generated Voltage in DC Generator|Example 6-1]] is feeding a resistive load of $10 \text{ }\Omega$, find the counter torque developed because of loading the generator.*
+
+The generated voltage was found in Example 6-1 to be $E_{\text{gen}}=4320\text{ V}$. Therefore, the armature current is:
+$$
+I_{a}=\frac{4320\text{ V}}{10\text{ }\Omega}=432 \text{ A}
+$$
+Then, we can find the counter torque with:
+$$
+\begin{align}
+\tau_{c}&=\left( \frac{ZP}{2\pi a} \right)\phi I_{a} \\\\[2ex] 
+	 & =\frac{1440\times 10}{2\pi \times 2}\times 0.01\times 432=\boxed{4950.4 \text{ N}\cdot\text{m}}
+\end{align}
+$$

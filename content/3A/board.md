@@ -7,10 +7,8 @@ draft: "true"
 
 ## Today
 
-- [ ] 6-19: DC Motor Types #mte320
-- [ ] Example 6-2 #mte320
-- [ ] Example 6-3 #mte320
-- [ ] A7 #mte309
+- [ ] Tutorial 8 #mte309
+- [ ] Thermal Resistance Review #mte309
 
 
 ## MTE 320
@@ -33,13 +31,11 @@ draft: "true"
 - [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
-- [ ] Motor Characteristics #mte325
+- [ ] Lab Motor Characteristics/Control #mte325
 
 
 ## MTE 309
 
-- [ ] Tutorial 7 #mte309
-- [ ] Tutorial 8 #mte309
 - [ ] Entropy #mte309
 
 
@@ -169,6 +165,10 @@ draft: "true"
 - [ ] 2nd Law of Thermo Revision #mte309
 - [ ] USB #mte325
 - [ ] Read Lab 5 Manual #mte320
+- [ ] 6-19: DC Motor Types #mte320
+- [ ] A7 #mte309
+- [ ] Example 6-2 #mte320
+- [ ] Example 6-3 #mte320
 
 %% kanban:settings
 ```

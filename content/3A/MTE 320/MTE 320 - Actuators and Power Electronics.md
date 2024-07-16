@@ -114,3 +114,6 @@ aliases:
 - [[Shunt DC Motor]]
 - [[Series DC Motor]]
 - [[Compound DC Motor]]
+
+## Problem
+- [[DC Machine Example Problem]]
