@@ -48,7 +48,8 @@ draft: "true"
 ## MTE 321
 
 - [ ] Machine Research Project (July 23) #mte321
-- [ ] Lecture 14 Notes #mte321
+- [ ] Lecture 15.1 #mte321
+- [ ] Lecture 15.2 #mte321
 
 
 ## SYDE 351
@@ -177,6 +178,7 @@ draft: "true"
 - [ ] Thermal Resistance Review #mte309
 - [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] Arbitration #mte325
+- [ ] Lecture 14 Notes #mte321
 
 %% kanban:settings
 ```

@@ -35,6 +35,25 @@ In **translation**, all points on the body have the same displacement. As a resu
 
 In **rotation**, different points in the body undergo different displacements and thus there is a displacement difference between any two points chosen. The link now changes its angular orientation in the reference frame, and all points have different displacements.
 
-In **complex motion**, 
+The general case of **complex motion** has both translation and rotation components. Note that the order in which these two components are added is irrelevant; the resulting complex displacement will be the same whether you first rotate and then translate or vice versa. This is so because the two factors are independent. The total complex displacement of point $B$ is defined by the following expression
+$$
+\begin{align}
+\text{Total displacement} & =\text{Translation component}+\text{Rotation component} \\[2ex] 
+R_{B''B} & =R_{B'B}+R_{B''B'}
+\end{align}
+$$
+The new absolute position of point B referred to the origin at $A$ is:
+$$
+R_{B''A}=R_{A'A}+R_{B''A'}
+$$
 
 ![[Position and Displacement-2.png]]
+
+These motion states can be expressed as the following theorems.
+
+>[!theorem] Euler's Theorem
+>The general displacement of a rigid body with one point fixed is a rotation about some axis.
+
+>[!theorem] Chasles' Theorem
+>Any displacement of a rigid body is equivalent to the sum of a translation of any one point on that body and a rotation of the body about an axis through that point.
+

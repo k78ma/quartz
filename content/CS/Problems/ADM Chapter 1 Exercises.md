@@ -7,7 +7,7 @@ date: 2024-07-17
 aliases:
   - adm chapter 1 exercises
 ---
-## Finding Counterexample
+## Finding Counterexamples
 
 >[!question] Exercise 1-1
 >Show that $a+b$ can be less than $\min(a,b)$.
