@@ -22,3 +22,19 @@ R_{Y}=R_{x}\sin\delta+R_{y}\cos\delta
 \end{align}
 $$
 ## Displacement
+Displacement is the straight-line distance between the initial and final position of a point that has moved in the reference frame. It is not the same as path length.
+$$
+R_{BA}=R_{B}-R_{A}
+$$
+![[Position and Displacement-1.png]]
+
+## Translation, Rotation, Complex Motion
+In **translation**, all points on the body have the same displacement. As a result, the link retains its angular orientation.
+- Note that the translation need not be along a straight path. The curved lines from $A$ to $A’$ and $B$ to $B’$ are the curvilinear translation path of the link. There is no rotation of the link if these paths are parallel. 
+- If the path happens to be straight, then it will be the special case of rectilinear translation, and the path and the displacement will be the same.
+
+In **rotation**, different points in the body undergo different displacements and thus there is a displacement difference between any two points chosen. The link now changes its angular orientation in the reference frame, and all points have different displacements.
+
+In **complex motion**, 
+
+![[Position and Displacement-2.png]]

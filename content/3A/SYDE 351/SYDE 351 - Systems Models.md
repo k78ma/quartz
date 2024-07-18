@@ -37,3 +37,5 @@ aliases:
 - [[Electrical Systems Modelling]]
 - [[Electrical Elements in Laplace Domain]]
 - [[Electromechanical Systems]]
+
+6.11, 6.15, 6.22, 6.55

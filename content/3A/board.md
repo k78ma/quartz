@@ -7,15 +7,16 @@ draft: "true"
 
 ## Today
 
-- [ ] Tutorial 8 #mte309
-- [ ] Thermal Resistance Review #mte309
+- [ ] Assignment 4 #syde351
+- [ ] Week 10 Thursday Review #syde351
+- [ ] State-Variable Model of Circuit Review #syde351
+- [ ] Week 11 Tuesday #mte321
 
 
 ## MTE 320
 
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
-- [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
 - [ ] Example 6-4 #mte320
@@ -32,6 +33,11 @@ draft: "true"
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] Lab Motor Characteristics/Control #mte325
+- [ ] Distributed Arbitration #mte325
+- [ ] Priority Uncertainty #mte325
+- [ ] Monolithic Arbiter #mte325
+- [ ] Non-Daisy Chained Schemes #mte325
+- [ ] CAN Arbitration #mte325
 
 
 ## MTE 309
@@ -51,8 +57,6 @@ draft: "true"
 - [ ] Homework 8 #syde351
 - [ ] Homework 9 #syde351
 - [ ] Laplace Transform Review #syde351
-- [ ] State-Variable Model of Circuit Review #syde351
-- [ ] Week 11 Thursday Review #syde351
 
 
 ## WATonomous
@@ -169,6 +173,10 @@ draft: "true"
 - [ ] A7 #mte309
 - [ ] Example 6-2 #mte320
 - [ ] Example 6-3 #mte320
+- [ ] Tutorial 8 #mte309
+- [ ] Thermal Resistance Review #mte309
+- [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
+- [ ] Arbitration #mte325
 
 %% kanban:settings
 ```

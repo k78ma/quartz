@@ -49,6 +49,13 @@
     --callout-icon: var(--callout-icon-success);
   }
 
+  &[data-callout="question"] {
+    --color: #615dd4;
+    --border: #448aff44;
+    --bg: #4495ff10;
+    --callout-icon: var(--callout-icon-question);
+  }
+
   &[data-callout="theorem"] {
     --color: #188242;
     --border: #44ffae44;
@@ -126,11 +133,11 @@
     --callout-icon: var(--callout-icon-danger);
   }
 
-  &[data-callout="example"] {
-    --color: #7a43b5;
-    --border: #7a43b544;
-    --bg: #7a43b510;
-    --callout-icon: var(--callout-icon-example);
+  &[data-callout="question"] {
+    --color: #615dd4;
+    --border: #448aff44;
+    --bg: #4495ff10;
+    --callout-icon: var(--callout-icon-question);
   }
 
   &[data-callout="quote"] {

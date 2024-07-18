@@ -142,7 +142,9 @@ date: 2023-06-25
 	- [[SYDE 572 A3]]
 	- [[SYDE 572 A4]]
 	- [[SYDE 572 A5]]
-- [[UDL Problems]]
+- Understanding Deep Learning
+	- [[UDL Chapter 2 Problems]]
+	- [[UDL Chapter 3 Problems]]
 
 ## Resources
 - [MIT 6.036x](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/)

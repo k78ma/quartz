@@ -17,3 +17,8 @@ In *short-shunt* compound DC motors, the shunt field is between the series field
 ![[Compound DC Motor-1.png|576]]
 
 Depending on the direction of fluxes produced by the series and shunt field windings, the series and shunt fields can assist each other (cumulative compound) or oppose each other (differential compound).
+
+## Speed-Torque Characteristic
+Due to the combined effects of a shunt field and a series field, the speed-torque characteristic of a cumulatively-compounded DC motor will fall between those of shunt and series motors:
+
+![[Compound DC Motor-2.png|584]]

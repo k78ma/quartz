@@ -31,3 +31,39 @@ E_{c} & =\frac{ZP}{2\pi a}\phi \omega_{m}=\frac{ZP}{60a}\phi n \\[2ex]
 \end{align}
 $$
 Thus, if $\phi$ is constant, $\tau_{m}\propto I_{a}$.
+
+## Speed-Torque Characteristics
+Consider the equivalent circuit diagram of the shunt DC motor shown below. 
+
+![[Shunt DC Motor-1.png|528]]
+
+We have:
+$$
+\begin{align}
+V_{L} & =I_{a}R_{a}+E_{c} \\[2ex] 
+	 & = I_{a}R_{a}+\frac{ZP}{60a}\phi n
+\end{align}
+$$
+Using
+$$
+\tau_{m}=\frac{ZP}{2\pi a}\phi I_{a}
+$$
+we have:
+$$
+I_{a}=\frac{2\pi a}{ZP} \frac{\tau_{m}}{\phi}
+$$
+Then, we have
+$$
+V_{L}=\frac{2\pi a}{ZP} \frac{\tau_{m}}{\phi}R_{a}+\frac{ZP}{60a}\phi n
+$$
+The rotor speed can ge found from above as:
+$$
+\begin{align}
+n & = \frac{V_{L}}{\frac{ZP}{60a}\phi}-\frac{\frac{2\pi a}{ZP} \frac{\tau_{m}}{\phi} R_{a}}{\frac{ZP}{60a}\phi} \\[2ex] 
+	 & =\frac{V_{L}}{K'\phi}-\frac{R_{a}}{KK'\phi^{2}}\tau_{m}
+\end{align}$$
+This means that $n$ plotted as a function of $\tau$ is a straight line, provided that $\phi$ is constant:
+
+![[Shunt DC Motor-2.png|640]]
+
+Thus, the speed of a shunt DC motor drops under load. This drop, however, is limited to below 8% of the rated speed, from no load to full load. Shunt DC motors are well-known for their fairly constant speed under load.

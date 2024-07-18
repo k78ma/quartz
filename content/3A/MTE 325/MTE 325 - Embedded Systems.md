@@ -123,6 +123,12 @@ aliases:
 - [[SPI]] 
 - [[USB]]
 
+## Arbitration
+- [[Controller Arbitration]]
+- [[Daisy Chain Arbitration]]
+- [[Parallel Non-Daisy Chain Arbitration]]
+- [[CAN Bus Arbitration]]
+
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[STM32 ADC]]

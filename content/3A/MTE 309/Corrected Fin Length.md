@@ -16,8 +16,8 @@ where $A_{c}$ is the **cross-sectional area of the tip**, and $p$ is the **perim
 Multiplying the above by the perimeter gives 
 $$
 \begin{align}
-A_{\text{corrected}}  & = A_{\text{conv}} + A_{\text{c}}  \\
-PL_{\text{corrected}} &  = PL+A_{\text{c}}
+PL_{\text{corrected}} &  = PL+A_{\text{c}} \\
+A_{\text{corrected}}  & = A_{\text{conv}} + A_{\text{c}}  
 \end{align}
 $$
 where $A_{\text{conv}}$ is basically the lateral area of the fin, since this is where convection occurs (other than the fin tip). Thus, the fin area determined using the corrected length is equivalent to the sum of the lateral fin area plus the fin tip area.
