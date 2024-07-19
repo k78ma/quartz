@@ -32,7 +32,24 @@ and
 $$
 \min(a,b)=b=-3
 $$
+>[!question] Exercise 1-3
+>Design/draw a road network with two points $a$ and $b$ such that the fastest route between $a$ and $b$ is not the shortest route.
 
+We can have:
+- Path 1: $a$ to $b$ directly is short but slow
+- Path 2: $a$ to $b$ through some other point $c$ is longer but faster.
+
+For example, Path 1 can be 30 km with a speed limit of 30 km/h. Then, the travel time would be:
+$$
+30 \text{ km}\times \frac{1\text{ h}}{30\text{ km}}=1 \text{ h}
+$$
+Path 2 is longer at 60km but with a speed limit of 120 km/h. Then, the travel time would be:
+$$
+60 \text{ km}\times \frac{1 \text{ h}}{120 \text{ km}}=0.5 \text{ h}
+$$
+
+>[!question] Exercise 1-4
+>Design/draw a road network with two points a and b such that the shortest route between a and b is not the route with the fewest turns.
 
 ## Proofs of Correctness
 

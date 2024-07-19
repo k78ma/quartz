@@ -132,6 +132,7 @@ aliases:
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[STM32 ADC]]
+- [[2-ADC Bug]]
 
 ## Assignments
 - [[MTE 325 A1]]

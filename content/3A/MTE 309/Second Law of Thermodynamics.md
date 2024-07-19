@@ -5,6 +5,7 @@ tags:
 date: 2024-07-12
 aliases:
   - second law of thermodynamics
+  - second law
 ---
 Previously we applied the [[First Law of Thermodynamics|first law of thermodynamics]], or the conservation of energy principle, to processes involving closed and open systems. This states that energy is a conserved property. However, satisfying the first law alone does not ensure that a given process will take place.
 

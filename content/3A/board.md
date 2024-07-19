@@ -7,14 +7,18 @@ draft: "true"
 
 ## Today
 
-- [ ] Assignment 4 #syde351
 - [ ] Week 10 Thursday Review #syde351
-- [ ] State-Variable Model of Circuit Review #syde351
-- [ ] Week 11 Tuesday #mte321
+- [ ] DC motors #syde351
+- [ ] Week 11 Tuesday #syde351
+- [ ] DC motor state-variable motor #syde351
+- [ ] System analysis in time domain #syde351
+- [ ] Response of 2nd-order systems #syde351
+- [ ] Week 11 Thursday #syde351
 
 
 ## MTE 320
 
+- [ ] Lab 5 Excel #mte320
 - [ ] P9-7, 9-8 #mte320
 - [ ] P9-9, 9-10 #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
@@ -58,6 +62,8 @@ draft: "true"
 - [ ] Homework 8 #syde351
 - [ ] Homework 9 #syde351
 - [ ] Laplace Transform Review #syde351
+- [ ] Tutorial 8 #syde351
+- [ ] Tutorial 7 #syde351
 
 
 ## WATonomous
@@ -179,6 +185,10 @@ draft: "true"
 - [ ] 6-20: Speed-Torque Characteristics of DC Motors #mte320
 - [ ] Arbitration #mte325
 - [ ] Lecture 14 Notes #mte321
+- [ ] Electrical Systems #syde351
+- [ ] State-variable model of Circuits #syde351
+- [ ] Block Diagrams for Electrical Systems #syde351
+- [ ] Assignment 4 #syde351
 
 %% kanban:settings
 ```

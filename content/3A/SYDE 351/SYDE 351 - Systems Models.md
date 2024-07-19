@@ -4,8 +4,7 @@ tags:
   - syde351
   - 3a
 date: 2024-05-16
-aliases:
-  - syde 351 - systems models
+aliases: []
 ---
 - [[System Model]]
 - [[Lumped and Distributed System]]
@@ -31,11 +30,15 @@ aliases:
 
 ## System Models
 - [[Block Diagram]]
-- [[State Variable Models]]
+- [[State-Variable Models]]
 
 ## Electrical Systems
-- [[Electrical Systems Modelling]]
+- [[Electrical Systems Overview]]
 - [[Electrical Elements in Laplace Domain]]
-- [[Electromechanical Systems]]
+- [[State-Variable Circuit Model]]
+- [[Electrical-Mechanical Systems Analogy]]
+- [[Block Diagrams for Electrical Systems]]
+- [[Electromechanical Systems|Electromechanical Systems + DC Motor]]
 
-6.11, 6.15, 6.22, 6.55
+
+6.12, 6.15, 6.22, 6.55

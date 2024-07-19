@@ -1,10 +1,10 @@
 ---
-title: State Variable Models
+title: State-Variable Models
 tags:
   - syde351
 date: 2024-06-27
 aliases:
-  - state variable models
+  - state-variable models
 ---
 State-variable models are made of first-order differential equations, allowing linear algebra to be used to solve problems. They are formed by defining higher-order derivatives as a cascade of first-order derivatives.
 
@@ -143,12 +143,15 @@ u
 \end{Bmatrix}
 $$
 where:
-- $\{ \dot{x} \}$ is the state variable, $n\times 1$
+- $\{ \dot{x} \}$ is the derivative of the state vector, $n\times 1$
 - $[A]$ is the system/state matrix, $n\times n$
 - $\{ x \}$ is the state vector, $n\times 1$
 - $[B]$ is the input/control matrix, $n\times m$
 - $\{ u \}$ is the input vector, $m\times 1$
 
+**Essentially, $x$ and $u$ are column vectors containing the state variables and the inputs, if any.**
+
+## Output Equation
 Output equation:
 $$
 \begin{Bmatrix}

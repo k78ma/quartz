@@ -85,9 +85,10 @@ aliases:
 
 ## Second Law of Thermodynamics
 - [[Second Law of Thermodynamics]]
-- [[Thermal Energy Reservoir]]
+- [[Thermodynamic Entropy|Entropy]]
+- [[Entropy Balance in a Closed System]]
   
----
+ 
 ## Problems
 - [[Air Piston Heat Transfer]]
 ## Assignments
