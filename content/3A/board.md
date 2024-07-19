@@ -47,6 +47,7 @@ draft: "true"
 ## MTE 309
 
 - [ ] Entropy #mte309
+- [ ] Lecture 28 - TdS #mte309
 
 
 ## MTE 321

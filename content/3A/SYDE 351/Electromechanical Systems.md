@@ -60,3 +60,70 @@ The electrical subsystems of the motor can be represented by the armature circui
 - $n$ – Number of armature coils
 - $l$ – Length of each coil
 - $r$ – Radius of the rotor (armature)
+
+The force on the armature due to magnetic field is:
+$$
+f=nBli_{a}
+$$
+Then, the torque produced by the motor is
+$$
+\begin{align}
+T & =fr \\
+ & =nBli_{a}r \\
+  & =(nBlr)i_{a} \\
+	 & =K_{T}i_{a}
+\end{align}
+$$
+where $K_{T}=nBlr$ is the motor's torque constant.
+
+As we have seen, the motion of a current-carrying conductor in a field produces a voltage in the conductor that opposes the current. This voltage in the armature is called the back emf (for electromotive force, an older term for voltage). Its magnitude is proportional to the speed. The coils’ linear velocity $v$ is related to their angular velocity by $v=r\omega$. Thus:
+$$
+v_{b}=nBLv=(nBLr)\omega=K_{b}\omega
+$$
+Note that $K_{T}=K_{B}$.
+
+### System Model
+Kirchhoff’s voltage law gives
+$$
+v_{a}-R_{a}i_{a}-L_{a} \frac{di_{a}}{dt}-K_{b}\omega=0
+$$
+Newton's law applied to the inertia $I$ gives
+$$
+\begin{align}
+I \frac{d\omega}{dt} & =T-c\omega-T_{L} \\[2ex] 
+	 & =K_{T}i_{a}-c\omega-T_{L}
+\end{align}
+$$
+The two equations above constitute the system model.
+
+We can convert to Laplace domain:
+$$
+\begin{align}
+V_{a}-R_{a}I_{a}(s)-L_{a}sI_{a}(s)-K_{b}\Omega(s)=0 \\[2ex]
+Is\Omega(s)=K_{T}I_{a}(s)-c\Omega(s)-T_{L}(s)
+\end{align}
+$$
+Re-arrange:
+$$
+\begin{align}
+I_{a}(R_{a}+L_{a}s)=V_{a}-K_{b}\Omega \\[2ex]
+\Omega(c+Is)=K_{T}I_{a}-T_{L}
+\end{align}
+$$
+Solving:
+$$
+\begin{align}
+I_{a} & =\frac{1}{R_{a}+L_{a}s}(V_{a}-K_{b}\Omega) \\[2ex]
+\Omega & =\frac{1}{c+Is}(K_{T}I_{a}-T_{L})
+\end{align}
+$$
+This can be drawn as a block diagram:
+
+![[Electromechanical Systems-4.png]]
+
+### Transfer Function
+Normally we are interested in both the motor speed $\omega$ and the current $i_{a}$. The two inputs are the applied voltage $v_{a}$ and the load torque $T_{L}$ . Thus, there are four transfer functions for the motor, one transfer function for each input-output pair:
+$$
+\frac{I_{a}(s)}{V_{a}(s)}, \quad \frac{I_{a}(s)}{T_{L}(s)}, \quad \frac{\Omega(s)}{V_{a}(s)}, \quad \frac{\Omega(s)}{T_{L}(s)}
+$$
+We can obtain these transfer functions either by reducing the block diagram shown above, or by solving the equations above.
