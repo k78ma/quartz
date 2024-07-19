@@ -7,10 +7,7 @@ draft: "true"
 
 ## Today
 
-- [ ] Week 10 Thursday Review #syde351
-- [ ] DC motors #syde351
 - [ ] Week 11 Tuesday #syde351
-- [ ] DC motor state-variable motor #syde351
 - [ ] System analysis in time domain #syde351
 - [ ] Response of 2nd-order systems #syde351
 - [ ] Week 11 Thursday #syde351
@@ -48,6 +45,7 @@ draft: "true"
 
 - [ ] Entropy #mte309
 - [ ] Lecture 28 - TdS #mte309
+- [ ] A8 #mte309
 
 
 ## MTE 321
@@ -190,6 +188,9 @@ draft: "true"
 - [ ] State-variable model of Circuits #syde351
 - [ ] Block Diagrams for Electrical Systems #syde351
 - [ ] Assignment 4 #syde351
+- [ ] Week 10 Thursday Review #syde351
+- [ ] DC motors #syde351
+- [ ] DC motor state-variable motor #syde351
 
 %% kanban:settings
 ```

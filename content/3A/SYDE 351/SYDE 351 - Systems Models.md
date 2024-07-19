@@ -38,7 +38,8 @@ aliases: []
 - [[State-Variable Circuit Model]]
 - [[Electrical-Mechanical Systems Analogy]]
 - [[Block Diagrams for Electrical Systems]]
-- [[Electromechanical Systems|Electromechanical Systems + DC Motor]]
+- [[Electromechanical Systems|Electromechanical Systems]]
+- [[DC Motor System Analysis]]
 
-
-6.12, 6.15, 6.22, 6.55
+## System Analysis In Time Domain
+- [[Response of First-Order Systems]]
