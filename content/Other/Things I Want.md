@@ -10,6 +10,8 @@ Books I would like to own a physical copy of (once I settle somewhere permanentl
 - [x] Proofs (Jay Cummings)
 - [ ] Understanding Deep Learning (Simon J.D. Prince)
 - [x] [[The Art of Doing Science and Engineering]]
+- [ ] Spivak Calculus
+- [ ] Linear Algebra Done Right
 
 Stuff:
 - Telescope of decent quality

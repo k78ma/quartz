@@ -87,6 +87,7 @@ aliases:
 - [[Second Law of Thermodynamics]]
 - [[Thermodynamic Entropy|Entropy]]
 - [[Entropy Balance in a Closed System]]
+- [[TdS Equations]]
   
  
 ## Problems

@@ -8,6 +8,8 @@ draft: "true"
 ## Today
 
 - [ ] Machine Research Project (July 23) #mte321
+- [ ] Example 6-4 #mte320
+- [ ] Lecture 28 - TdS #mte309
 
 
 ## MTE 320
@@ -17,7 +19,6 @@ draft: "true"
 - [ ] P9-9, 9-10 #mte320
 - [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
-- [ ] Example 6-4 #mte320
 - [ ] Example 6-5 #mte320
 - [ ] Example 6-6 #mte320
 - [ ] P6-1, 6-2, 6-3 #mte320
@@ -40,8 +41,6 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] Entropy #mte309
-- [ ] Lecture 28 - TdS #mte309
 - [ ] A8 #mte309
 
 
@@ -56,6 +55,7 @@ draft: "true"
 - [ ] Homework 7 #syde351
 - [ ] Homework 8 #syde351
 - [ ] Homework 9 #syde351
+- [ ] Homework 10 #syde31
 - [ ] Laplace Transform Review #syde351
 - [ ] Tutorial 8 #syde351
 - [ ] Tutorial 7 #syde351
@@ -191,6 +191,7 @@ draft: "true"
 - [ ] Week 11 Tuesday #syde351
 - [ ] Response of 2nd-order systems #syde351
 - [ ] Week 11 Thursday #syde351
+- [ ] Entropy #mte309
 
 %% kanban:settings
 ```
