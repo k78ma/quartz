@@ -7,10 +7,7 @@ draft: "true"
 
 ## Today
 
-- [ ] Week 11 Tuesday #syde351
-- [ ] System analysis in time domain #syde351
-- [ ] Response of 2nd-order systems #syde351
-- [ ] Week 11 Thursday #syde351
+- [ ] Machine Research Project (July 23) #mte321
 
 
 ## MTE 320
@@ -50,7 +47,6 @@ draft: "true"
 
 ## MTE 321
 
-- [ ] Machine Research Project (July 23) #mte321
 - [ ] Lecture 15.1 #mte321
 - [ ] Lecture 15.2 #mte321
 
@@ -191,6 +187,10 @@ draft: "true"
 - [ ] Week 10 Thursday Review #syde351
 - [ ] DC motors #syde351
 - [ ] DC motor state-variable motor #syde351
+- [ ] System analysis in time domain #syde351
+- [ ] Week 11 Tuesday #syde351
+- [ ] Response of 2nd-order systems #syde351
+- [ ] Week 11 Thursday #syde351
 
 %% kanban:settings
 ```

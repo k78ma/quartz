@@ -43,3 +43,4 @@ aliases: []
 
 ## System Analysis In Time Domain
 - [[Response of First-Order Systems]]
+- [[Response of Second-Order System]]
