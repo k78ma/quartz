@@ -32,12 +32,13 @@ export const RecentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
       const externalResources = pageResources(pathToRoot(slug), resources)
       const [tree, file] = defaultProcessedContent({
         slug,
-        // text: "# Recent Notes",
+        text: "# Recent Notes\n\nThese are your most recent notes, sorted by date of creation.",
         description: "Sorted by date of creation + alphabetical.",
         frontmatter: { title: "Recent Notes", tags: [] },
       })
-
+    
       const componentData: QuartzComponentProps = {
+        ctx,
         fileData: file.data,
         externalResources,
         cfg: ctx.cfg.configuration,
@@ -45,15 +46,15 @@ export const RecentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
         tree,
         allFiles: content.map(([_tree, file]) => file.data),
       }
-
-      const pageContent = renderPage(slug, componentData, opts, externalResources)
+    
+      const pageContent = renderPage(ctx.cfg.configuration, slug, componentData, opts, externalResources)
       const fp = await write({
         ctx,
         content: pageContent,
         slug,
         ext: ".html",
       })
-
+    
       return [fp]
     },
   }
