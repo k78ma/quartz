@@ -125,7 +125,7 @@ aliases:
 
 ## Arbitration
 - [[Controller Arbitration]]
-- [[Daisy Chain Arbitration]]
+- [[Distributed Arbitration]]
 - [[Parallel Non-Daisy Chain Arbitration]]
 - [[CAN Bus Arbitration]]
 

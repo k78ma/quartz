@@ -9,7 +9,7 @@ draft: "true"
 
 - [ ] Machine Research Project (July 23) #mte321
 - [ ] Example 6-4 #mte320
-- [ ] Lecture 28 - TdS #mte309
+- [ ] Distributed Arbitration #mte325
 
 
 ## MTE 320
@@ -32,7 +32,6 @@ draft: "true"
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
 - [ ] Lab Motor Characteristics/Control #mte325
-- [ ] Distributed Arbitration #mte325
 - [ ] Priority Uncertainty #mte325
 - [ ] Monolithic Arbiter #mte325
 - [ ] Non-Daisy Chained Schemes #mte325
@@ -42,12 +41,16 @@ draft: "true"
 ## MTE 309
 
 - [ ] A8 #mte309
+- [ ] 2nd Law for Steady Flow Devices #mte309
 
 
 ## MTE 321
 
 - [ ] Lecture 15.1 #mte321
 - [ ] Lecture 15.2 #mte321
+- [ ] Lecture 16 #mte321
+- [ ] PPS 10 #mte321
+- [ ] PPS 11 #mte321
 
 
 ## SYDE 351
@@ -192,6 +195,7 @@ draft: "true"
 - [ ] Response of 2nd-order systems #syde351
 - [ ] Week 11 Thursday #syde351
 - [ ] Entropy #mte309
+- [ ] Lecture 28 - TdS #mte309
 
 %% kanban:settings
 ```

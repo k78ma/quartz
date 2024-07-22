@@ -10,7 +10,7 @@ Real systems often support multiple controllers. Examples of such systems are th
 - The DMA controller is a peripheral in the system that is capable of being bus controller, as well as facilitate transactions between memory and another device without the CPU’s involvement. It is common to use it for tasks like transferring large amounts of data from memory to an external drive. 
 
 In order to have multiple controllers, there must be a mechanism that ensures only one is in control of the bus at any moment in time. Some different arbitration schemes:
-- [[Daisy Chain Arbitration]]
+- [[Distributed Arbitration|Distributed/Daisy Chain Arbitration]]
 - [[Parallel Non-Daisy Chain Arbitration]]
 - [[CAN Bus Arbitration]]
 

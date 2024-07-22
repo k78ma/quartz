@@ -107,12 +107,27 @@ $$
 as desired.
 
 >[!question] Problem 4
->Show that $\lambda+(\alpha+\beta)=\lambda \alpha+\lambda \beta$ for all $\alpha,\beta, \lambda \in \mathbb{C}$.
+>Show that $\lambda(\alpha+\beta)=\lambda \alpha+\lambda \beta$ for all $\alpha,\beta, \lambda \in \mathbb{C}$.
 
-
-
-
-
+*Proof*. Let $\alpha=a+bi, \beta=c+di$ and $\lambda=e+fi$, where $a,b,c,d,e,f \in \mathbb{R}$. Then:
+$$
+\begin{align}
+\lambda(\alpha+\beta) & =(e+fi)[(a+bi)+(c+di)] \\
+	 & =(e+fi)[(a+c)+(b+d)i] \\
+	 & =e(a+c)+e(b+d)i+fi(a+c)+fi(b+d)i \\
+	 & =ea+ec+ebi+edi+fai+fci-fb-fd \\
+	 & =(ea+ec-fd-fb)+(af+eb+ed+cf)i
+\end{align}
+$$
+and
+$$
+\begin{align}
+\lambda(\alpha)+\lambda \beta & =(e+fi)(a+bi)+(e+fi)(c+di) \\
+	 & =(ea+afi+ebi-fb)+(ec+cfi+edi-fd) \\
+	 & =(ea+ec-fd-fb)+(af+eb+cf+ed)i
+\end{align}
+$$
+Thus, we have $\lambda(\alpha+\beta)=\lambda(\alpha)+\lambda(\beta)$ as desired.
 
 
 >[!question] Problem 5
@@ -141,10 +156,25 @@ and thus $\beta$ is unique.
 >[!question] Problem 6
 >Show that for every $\alpha \in \mathbb{C}$ with $\alpha \neq 0$, there exists a unique $\beta \in \mathbb{C}$ such that $\alpha \beta=1$.
 
-
-
-
-
+*Proof*. Let $\alpha=a+bi$ and $\beta=\frac{1}{a+bi}$. Then, we have:
+$$
+\begin{align}
+\alpha \beta & =(a+bi)\left( \frac{1}{a+bi} \right) \\[2ex]
+	 & =1\left( \frac{a+bi}{a+bi} \right) \\[2ex]
+	 & =1(1) \\[2ex]
+	 & =1
+\end{align}
+$$
+which proves existence. To show $\beta$ is unique, suppose $\lambda \in \mathbb{C}$ such that $\alpha \lambda=1$. Then:
+$$
+\begin{align}
+\lambda & =\lambda(\alpha \beta) \\
+	 & =(\lambda \alpha)(\beta) \\
+	 & =(1)(\beta) \\
+	 & =\beta
+\end{align}
+$$
+and thus $\beta$ is unique.
 
 >[!question] Problem 7
 >Show that
@@ -153,8 +183,21 @@ and thus $\beta$ is unique.
 >$$
 >is a cube root of $1$ (meaning its cube equals $1$).
 
-
-
+We have
+$$
+\left( \frac{-1+\sqrt{ 3 }i}{2} \right)^{2}=\frac{1-\sqrt{ 3 }i-\sqrt{ 3 }i-3}{4}=\frac{-2-2\sqrt{ 3 }i}{4}=\frac{-1-\sqrt{ 3 }i}{2}
+$$
+Then:
+$$
+\begin{align}
+\left( \frac{-1+\sqrt{ 3 }i}{2} \right)^{3} & =\left( \frac{-1+\sqrt{ 3 }i}{2} \right)^{2}\left( \frac{-1+\sqrt{ 3 }i}{2} \right) \\[2ex]
+	 & =\left( \frac{-1-\sqrt{ 3 }i}{2} \right)\left( \frac{-1+\sqrt{ 3 }i}{2} \right)\\[2ex] 
+	 & =\frac{1-\sqrt{ 3 }i+\sqrt{ 3 }i-\sqrt{ 3 }\sqrt{ 3 }i^{2}}{4} \\[2ex]
+	 & =\frac{1-(3)(-1)}{4} \\[2ex]
+	 & =\frac{4}{4}=1
+\end{align}
+$$
+as desired.
 
 >[!question] Problem 8
 >Find two distinct square roots of $i$.
