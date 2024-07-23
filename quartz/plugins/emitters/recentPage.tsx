@@ -32,7 +32,7 @@ export const RecentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
       const externalResources = pageResources(pathToRoot(slug), resources)
       const [tree, file] = defaultProcessedContent({
         slug,
-        text: "# Recent Notes\n\nThese are your most recent notes, sorted by date of creation.",
+        text: "# Recent Notes.",
         description: "Sorted by date of creation + alphabetical.",
         frontmatter: { title: "Recent Notes", tags: [] },
       })

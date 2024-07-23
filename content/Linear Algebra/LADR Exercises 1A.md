@@ -202,8 +202,37 @@ as desired.
 >[!question] Problem 8
 >Find two distinct square roots of $i$.
 
-
-
+Suppose $a,b\in \mathbb{R}$ for some $a+bi$ such that $(a+bi)^{2}=i$. Then, we have:
+$$
+(a+bi)^{2}=(a+bi)(a+bi)=a^{2}+2abi-b^{2}=i
+$$
+Grouping real and imaginary terms together, we have
+$$
+(a^{2}-b^{2})+(2ab)i=i
+$$
+Since the real and imaginary parts on each side must be equal, we have
+$$
+\begin{align}
+a^{2}+b^{2} & =0 \\[2ex] 
+ab & =\frac{1}{2}
+\end{align}
+$$
+The first equation tells us that $b=\pm a$. If we have $b=-a$, we would have
+$$
+a(-a)=-a^{2}=\frac{1}{2}
+$$
+which is impossible since $a,b\in \mathbb{R}$. Thus, we must have $b=a$, which gives:
+$$
+\begin{align}
+a^{2} & =\frac{1}{2} \\[2ex] 
+a & =\pm \frac{1}{\sqrt{ 2 }}
+\end{align}
+$$
+Hence, our two roots are:
+$$
+a+bi=\pm\left( \frac{1}{ \sqrt{ 2 }} \right)(1+i)
+$$
+as desired.
 
 >[!question] Problem 9
 >Find $x \in \mathbb{R}^{4}$ such that

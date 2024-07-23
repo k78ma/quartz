@@ -7,9 +7,10 @@ draft: "true"
 
 ## Today
 
-- [ ] Machine Research Project (July 23) #mte321
 - [ ] Example 6-4 #mte320
 - [ ] Distributed Arbitration #mte325
+- [ ] 2nd Law for Steady Flow Devices #mte309
+- [ ] Lab Motor Characteristics/Control Prep #mte325
 
 
 ## MTE 320
@@ -31,7 +32,6 @@ draft: "true"
 - [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
 - [ ] Problem Set 7 #mte325
 - [ ] Problem Set 8 #mte325
-- [ ] Lab Motor Characteristics/Control #mte325
 - [ ] Priority Uncertainty #mte325
 - [ ] Monolithic Arbiter #mte325
 - [ ] Non-Daisy Chained Schemes #mte325
@@ -41,7 +41,6 @@ draft: "true"
 ## MTE 309
 
 - [ ] A8 #mte309
-- [ ] 2nd Law for Steady Flow Devices #mte309
 
 
 ## MTE 321
@@ -196,6 +195,7 @@ draft: "true"
 - [ ] Week 11 Thursday #syde351
 - [ ] Entropy #mte309
 - [ ] Lecture 28 - TdS #mte309
+- [ ] Machine Research Project (July 23) #mte321
 
 %% kanban:settings
 ```

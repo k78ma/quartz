@@ -132,6 +132,7 @@ aliases:
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[STM32 ADC]]
+- [[Motor Characterization]]
 - [[2-ADC Bug]]
 
 ## Assignments
