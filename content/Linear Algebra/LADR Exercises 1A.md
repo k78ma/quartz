@@ -240,8 +240,39 @@ as desired.
 >(4,-3, 1,7)+2x=(5,9, -6, 8)
 >$$
 
+We have:
+$$
+\begin{align}
+2x & =(5,9,-6,8)-(4,-3,1,7)\\[2ex] 
+ & =(1, 12, -7, 1)
+\end{align}
+$$
+which then gives:
+$$
+x=\frac{1}{2}(1, 12, -7, 1)=\left( \frac{1}{2}, 6, -\frac{7}{2}, \frac{1}{2} \right)
+$$
 
+>[!question] Problem 10
+>Explain why there does not exist $\lambda \in \mathbb{C}$ such that
+>$$
+>\lambda(2-3i, 5+4i, -6+7i)=(12-5i, 7+22i, -32-9i)
+>$$
 
+If such $\lambda \in \mathbb{C}$ exists, then we have
+$$
+\begin{align}
+\lambda(2-3i) & =12-5i \\
+\lambda(-6+7i) & =-32-9i
+\end{align}
+$$
+Then, we must have:
+$$
+\begin{align}
+\lambda(2-3i)(-32-9i) & =\lambda(-6+7i)(12-5i) \\
+-91+78i & =-37+114i
+\end{align}
+$$
+which is impossible. Hence, such $\lambda \in \mathbb{C}$ does not exist.
 
 >[!question] Problem 11
 >Show that for every $(x+y)+z=x+(y+z)$ for all $x,y,z \in \mathbb{F}^{n}$.
