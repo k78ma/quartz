@@ -112,6 +112,7 @@ aliases:
 ### DC Motor Types
 - [[Separately-Excited DC Motor]]
 - [[Shunt DC Motor]]
+	- [[Shunt DC Motor Starting]]
 - [[Series DC Motor]]
 - [[Compound DC Motor]]
 

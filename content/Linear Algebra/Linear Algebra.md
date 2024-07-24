@@ -14,12 +14,17 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Lists]]
 - [[n-dimensional Spaces]]
 - [[Fields]]
-
 ### Definition of Vector Spaces
 - [[Vector Space]]
+### Subspaces
+- [[Subspaces]]
+
+## Finite-Dimensional Vector Spaces
+
 
 ## Exercises
 - [[LADR Exercises 1A]]
+
 
 ## Others
 - [[Geometry of Linear Equations]]

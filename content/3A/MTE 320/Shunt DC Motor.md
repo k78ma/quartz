@@ -4,7 +4,7 @@ tags:
   - mte320
 date: 2024-07-15
 aliases:
-  - shunt dc motor
+  - shunt DC motor
 ---
 Below we the schematic diagram of a shunt DC motor and its equivalent circuit diagram.
 
@@ -61,7 +61,8 @@ $$
 \begin{align}
 n & = \frac{V_{L}}{\frac{ZP}{60a}\phi}-\frac{\frac{2\pi a}{ZP} \frac{\tau_{m}}{\phi} R_{a}}{\frac{ZP}{60a}\phi} \\[2ex] 
 	 & =\frac{V_{L}}{K'\phi}-\frac{R_{a}}{KK'\phi^{2}}\tau_{m}
-\end{align}$$
+\end{align}
+$$
 This means that $n$ plotted as a function of $\tau$ is a straight line, provided that $\phi$ is constant:
 
 ![[Shunt DC Motor-2.png|640]]
