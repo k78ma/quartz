@@ -5,3 +5,7 @@ tags:
 date: 2024-07-11
 aliases:
 ---
+## Flipping Issue
+
+## Cross-Talk Issue
+Separate analog and digital grounds

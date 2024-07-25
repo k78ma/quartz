@@ -7,11 +7,7 @@ draft: "true"
 
 ## Today
 
-- [ ] 6-21: Shunt DC Motor Starting #mte320
 - [ ] Example 6-4 #mte320
-- [ ] Distributed Arbitration #mte325
-- [ ] 2nd Law for Steady Flow Devices #mte309
-- [ ] Lab Motor Characteristics/Control Prep #mte325
 
 
 ## MTE 320
@@ -29,6 +25,7 @@ draft: "true"
 ## MTE 325
 
 - [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
+- [ ] Bug Slaying #mte325
 - [ ] Assignment 7 #mte325
 - [ ] Assignment 8 #mte325
 - [ ] Priority Uncertainty #mte325
@@ -44,11 +41,13 @@ draft: "true"
 - [ ] Security and Ethics #mte325
 - [ ] Assignment 9 #mte325
 - [ ] Assignment 10 #mte325
+- [ ] Distributed Arbitration Example #mte325
 
 
 ## MTE 309
 
 - [ ] A8 #mte309
+- [ ] Lecture 30 #mte309
 
 
 ## MTE 321
@@ -69,6 +68,7 @@ draft: "true"
 - [ ] Laplace Transform Review #syde351
 - [ ] Tutorial 7 #syde351
 - [ ] Tutorial 8 #syde351
+- [ ] Week 12 Tuesday #syde351
 
 
 ## WATonomous
@@ -205,6 +205,10 @@ draft: "true"
 - [ ] Lecture 28 - TdS #mte309
 - [ ] Machine Research Project (July 23) #mte321
 - [ ] Lab 5 Excel #mte320
+- [ ] 6-21: Shunt DC Motor Starting #mte320
+- [ ] Distributed Arbitration #mte325
+- [ ] Lab Motor Characteristics/Control Prep #mte325
+- [ ] 2nd Law for Steady Flow Devices #mte309
 
 %% kanban:settings
 ```

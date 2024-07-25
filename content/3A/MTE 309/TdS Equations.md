@@ -84,7 +84,7 @@ T\,ds=dh-v\,dP
 \end{align}
 }
 $$
-- The TdS equations relate state properties. Thus, in order to use them, [[Equation of State|equation of state]] must be defined, such as the P-v-T surface.
+- The TdS equations relate state properties. Thus, in order to use them, [[Equation of State|equation of state]] must be defined, such as the P-v-T surface. See [[Entropy Change of Pure Substances]].
 - ==The TdS equations relate state properties, so they do not rely on the process path. They are valid for reversible or irreversible processes and closed/open systems.== This is a bit of a bait and switch since we specifically used internally reversible processes to do this derivation.
 - To use the TdS equations, $T$ and $P$ during the process must be known, and entropy may still be generated.
 
@@ -135,4 +135,8 @@ s_{2}-s_{1}=\overline{c}_{p}\ln \frac{T_{2}}{T_{1}}+R\ln \frac{P_{2}}{P_{1}}
 $$
 ## Example
 
-![[MTE 309 - LE28.pdf]]
+> [!example]- Example 1
+> ![[MTE 309 - LE28.pdf]]
+
+> [!example]- Example 2
+>![[MTE 309 LE29-1.pdf]]

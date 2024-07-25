@@ -88,8 +88,9 @@ aliases:
 - [[Thermodynamic Entropy|Entropy]]
 - [[Entropy Balance in a Closed System]]
 - [[TdS Equations]]
-  
- 
+- [[Second Law for Steady-Flow Devices]]
+- [[Isentropic Efficiency of Turbines]]
+
 ## Problems
 - [[Air Piston Heat Transfer]]
 ## Assignments
