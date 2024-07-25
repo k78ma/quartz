@@ -126,6 +126,8 @@ aliases:
 ## Arbitration
 - [[Controller Arbitration]]
 - [[Distributed Arbitration]]
+	- [[Distributed Arbitration Priority Uncertainty]]
+	- [[Monolithic Arbiter]]
 - [[Parallel Non-Daisy Chain Arbitration]]
 - [[CAN Bus Arbitration]]
 

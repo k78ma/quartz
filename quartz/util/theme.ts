@@ -8,6 +8,7 @@ export interface ColorScheme {
   tertiary: string
   highlight: string
   textHighlight: string
+  codelightgray: string
 }
 
 interface Colors {
@@ -44,6 +45,7 @@ ${stylesheet.join("\n\n")}
 :root {
   --light: ${theme.colors.lightMode.light};
   --lightgray: ${theme.colors.lightMode.lightgray};
+  --codelightgray: ${theme.colors.lightMode.codelightgray};
   --gray: ${theme.colors.lightMode.gray};
   --darkgray: ${theme.colors.lightMode.darkgray};
   --dark: ${theme.colors.lightMode.dark};
@@ -60,6 +62,7 @@ ${stylesheet.join("\n\n")}
 :root[saved-theme="dark"] {
   --light: ${theme.colors.darkMode.light};
   --lightgray: ${theme.colors.darkMode.lightgray};
+  --codelightgray: ${theme.colors.darkMode.codelightgray};
   --gray: ${theme.colors.darkMode.gray};
   --darkgray: ${theme.colors.darkMode.darkgray};
   --dark: ${theme.colors.darkMode.dark};
