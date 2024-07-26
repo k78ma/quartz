@@ -90,6 +90,9 @@ aliases:
 ## Position Analysis
 - [[Global and Local Coordinate Systems]]
 - [[Position and Displacement]]
+- [[Graphical Position Analysis]]
+- [[Algebraic Position Analysis]]
+- [[Vector Loop Linkage Analysis]]
 
 ## Project
-- [[MTE 321 Project Script]]
+- [[Front Loader Project Script]]

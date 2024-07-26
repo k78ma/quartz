@@ -1,9 +1,10 @@
 ---
-title: MTE 321 Project Script
+title: Front Loader Project Script
 tags:
   - mte321
-date: 2024-07-22
-aliases: 
+date: 2024-07-25
+aliases:
+  - front loader project script
 draft: "true"
 ---
 Today, I will be explaining the front loader mechanism. It's commonly used with various industrial and agricultural machines, especially tractors. The one I'll be using as an example today is the 120R front loader from John Deere, which is designed for small tractors.

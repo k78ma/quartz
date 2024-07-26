@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Monolithic Arbiter #mte325
 - [ ] Lecture 15.1 #mte321
 - [ ] Bug Slaying #mte325
 - [ ] Week 12 Tuesday #syde351
@@ -26,7 +25,7 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [ ] Motor Control<br>- [ ] Double Motor (B)<br>- [ ] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)<br>- [ ] Serial Decoding (B)
+- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [x] Motor Control<br>- [x] Double Motor (B)<br>- [x] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)
 - [ ] Assignment 7 #mte325
 - [ ] Assignment 8 #mte325
 - [ ] Non-Daisy Chained Schemes #mte325
@@ -207,6 +206,8 @@ draft: "true"
 - [ ] Lab Motor Characteristics/Control Prep #mte325
 - [ ] 2nd Law for Steady Flow Devices #mte309
 - [ ] Priority Uncertainty #mte325
+- [ ] Monolithic Arbiter #mte325
+- [ ] MTE 321 Peer Reviews #mte321
 
 %% kanban:settings
 ```
