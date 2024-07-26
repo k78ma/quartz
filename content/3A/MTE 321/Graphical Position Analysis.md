@@ -14,5 +14,4 @@ There are two possible solutions (aka circuits) for the four bar linkage. The so
 - Crossed: Two links adjacent to the shortest link cross one another
 - Open: Two links adjacent to the shortest link do not cross one another
 
-
 ![[Graphical Position Analysis-1.png]]
