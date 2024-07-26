@@ -90,6 +90,7 @@ aliases:
 - [[TdS Equations]]
 - [[Second Law for Steady-Flow Devices]]
 - [[Isentropic Efficiency of Turbines]]
+- [[Entropy Change of Pure Substances]]
 
 ## Problems
 - [[Air Piston Heat Transfer]]

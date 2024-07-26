@@ -68,7 +68,6 @@
   "Appearance-dark@@input-radius-dark": 6,
   "Appearance-dark@@input-shadow-dark": "inset 0 0 0 1px rgba(205, 217, 229, 0.1)",
   "Appearance-dark@@input-shadow-hover-dark": "inset 0 0 0 1px rgb(118, 131, 144)",
-  "Appearance-light@@accent-light": "#5A6DED",
   "Appearance-light@@accent-color-override-light": false,
   "Editor@@h1-accent-color@@dark": "#70FF6D",
   "Editor@@h1-accent-color@@light": "#95E56A",

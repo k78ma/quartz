@@ -23,3 +23,6 @@ Notes from: [SICP](https://sarabander.github.io/sicp/html/index.xhtml#SEC_Conten
 ## Metalinguistic Abstraction
 
 ## Computing with Register Machines
+
+## Exercises
+- [[SICP Chapter 1 Exercises]]

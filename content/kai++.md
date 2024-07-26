@@ -678,6 +678,12 @@ draft: "true"
 - [ ] 12.7.5 - Deadlocks
 
 
+## Loading
+
+- [ ] Abstract Algebra - Dummit and Foote
+- [ ] Crafting Interpreters
+
+
 ***
 
 ## Archive

@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Lecture 15.1 #mte321
 - [ ] Bug Slaying #mte325
 - [ ] Week 12 Tuesday #syde351
 - [ ] Laplace Transform Review #syde351
@@ -44,7 +43,7 @@ draft: "true"
 
 ## MTE 309
 
-- [ ] A8 #mte309
+- [ ] A8 Concept Questions #mte309
 
 
 ## MTE 321
@@ -208,6 +207,8 @@ draft: "true"
 - [ ] Priority Uncertainty #mte325
 - [ ] Monolithic Arbiter #mte325
 - [ ] MTE 321 Peer Reviews #mte321
+- [ ] Lecture 15.1 #mte321
+- [ ] A8 #mte309
 
 %% kanban:settings
 ```
