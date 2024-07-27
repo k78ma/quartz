@@ -125,16 +125,16 @@ aliases:
 
 ## Arbitration
 - [[Controller Arbitration]]
-- [[Distributed Arbitration]]
+- [[Distributed Arbitration|Distributed/Daisy-chain Arbitration]]
 	- [[Distributed Arbitration Priority Uncertainty]]
 	- [[Monolithic Arbiter]]
-- [[Parallel Non-Daisy Chain Arbitration]]
+- [[Non-Daisy Chain Arbitration]]
 - [[CAN Bus Arbitration]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[STM32 ADC]]
-- [[Bug Slaying - 2-ADC Bugs]]
+- [[Bug Slaying - 2-ADC Flipping Bug]]
 
 ## Assignments
 - [[MTE 325 A1]]

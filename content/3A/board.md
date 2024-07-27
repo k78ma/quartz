@@ -7,10 +7,14 @@ draft: "true"
 
 ## Today
 
-- [ ] Bug Slaying #mte325
-- [ ] Week 12 Tuesday #syde351
 - [ ] Laplace Transform Review #syde351
 - [ ] Lecture 30 #mte309
+- [ ] Non-Daisy Chained Schemes #mte325
+- [ ] CAN Arbitration #mte325
+- [ ] Block-Oriented Program Controlled I/O #mte325
+- [ ] Lecture 15.2 #mte321
+- [ ] Block Diagram #mte325
+- [ ] Individual Lab Note #mte325
 
 
 ## MTE 320
@@ -18,18 +22,15 @@ draft: "true"
 - [ ] Chapter 9 Problems #mte320
 - [ ] Example 6-4, 6-5, 6-6 #mte320
 - [ ] Chapter 6 Problems #mte320
-- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 - [ ] Motors Review #mte320
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 
 
 ## MTE 325
 
-- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [x] Motor Control<br>- [x] Double Motor (B)<br>- [x] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [ ] Bug Slaying (B)
+- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [x] Motor Control<br>- [x] Double Motor (B)<br>- [x] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [x] Bug Slaying (B)
 - [ ] Assignment 7 #mte325
 - [ ] Assignment 8 #mte325
-- [ ] Non-Daisy Chained Schemes #mte325
-- [ ] CAN Arbitration #mte325
-- [ ] Block-Oriented Program Controlled I/O #mte325
 - [ ] Integrated DMA #mte325
 - [ ] Integrated DMA Data Transfer Sequence #mte321
 - [ ] Complete DMA Cycle #mte325
@@ -44,11 +45,11 @@ draft: "true"
 ## MTE 309
 
 - [ ] A8 Concept Questions #mte309
+- [ ] Lecture 31 #mte309
 
 
 ## MTE 321
 
-- [ ] Lecture 15.2 #mte321
 - [ ] Lecture 16 #mte321
 - [ ] Lecture 17 #mte321
 - [ ] Lecture 18 #mte321
@@ -64,6 +65,9 @@ draft: "true"
 - [ ] Homework 10 #syde31
 - [ ] Tutorial 7 #syde351
 - [ ] Tutorial 8 #syde351
+- [ ] SYDE 351 Project #mte325<br>- [ ] Task 1<br>- [ ] Task 2<br>- [ ] Task 3<br>- [ ] Task 4<br>- [ ] Task 5<br>- [ ] Task 6<br>- [ ] Task 7<br>- [ ] Task 8<br>- [ ] Task 9<br>- [ ] Task 10
+- [ ] Week 12 Thursday Problem 9.9 #syde351
+- [ ] Tutorial 9 #syde351
 
 
 ## WATonomous
@@ -209,6 +213,8 @@ draft: "true"
 - [ ] MTE 321 Peer Reviews #mte321
 - [ ] Lecture 15.1 #mte321
 - [ ] A8 #mte309
+- [ ] Bug Slaying #mte325
+- [ ] Week 12 Tuesday #syde351
 
 %% kanban:settings
 ```

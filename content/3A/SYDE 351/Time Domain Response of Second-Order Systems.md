@@ -1,12 +1,15 @@
 ---
-title: Response of Second-Order System
+title: Time Domain Response of Second-Order Systems
 tags:
   - syde351
-date: 2024-07-20
+date: 2024-07-27
 aliases:
-  - response of second-order system
-  - general second-order systems
+  - time domain response of second-order systems
 ---
+See specific response types:
+- [[Undamped Response for Second-Order System]]
+- [[Damped Response for Second-Order System]]
+
 ## General Second-Order Systems
 The equations of motion of many systems containing mass, spring, and damping elements have the form:
 $$
@@ -54,6 +57,3 @@ $$
 $$
 So this model has numerator dynamics. **The input does not affect the characteristic equation, and therefore does not affect the stability of the model or its free response**. Thus, this model has the same stability characteristics and the same free response, because they have the same characteristic equation, $ms^{2} + cs + k = 0$.
 
-See specific responses:
-- [[Undamped Response for Second-Order System]]
-- [[Damped Response for Second-Order System]]

@@ -1,12 +1,14 @@
 ---
-title: Response of First-Order Systems
+title: Time-Domain Response of First-Order Systems
 tags:
   - syde351
-date: 2024-07-19
+date: 2024-07-27
 aliases:
-  - response of first-order systems
+  - time-domain response of first-order systems
+  - steady-state response
+  - transient response
 ---
-We now examine the response of first-order systems. Let's use the system:
+We now examine the response of first-order systems in time domain. Let's use the system:
 $$
 m\dot{v}+cv=f(t)
 $$

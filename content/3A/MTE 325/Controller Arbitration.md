@@ -11,7 +11,7 @@ Real systems often support multiple controllers. Examples of such systems are th
 
 In order to have multiple controllers, there must be a mechanism that ensures only one is in control of the bus at any moment in time. Some different arbitration schemes:
 - [[Distributed Arbitration|Distributed/Daisy Chain Arbitration]]
-- [[Parallel Non-Daisy Chain Arbitration]]
+- [[Non-Daisy Chain Arbitration]]
 - [[CAN Bus Arbitration]]
 
 The primary goal of arbitration is to select a unique bus controller (one and only one). Beyond this, there may be secondary goals depending on the particular system such as cost, fixed priority, or “fair” allocation. 

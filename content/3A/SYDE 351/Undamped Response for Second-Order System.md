@@ -6,7 +6,7 @@ date: 2024-07-20
 aliases:
   - undamped response for second-order system
 ---
-Consider the undamped systems shown below. They all have the same model form: $m\ddot{x} + kx = f(t)$. We can consider this to be the same as the [[Response of Second-Order System|general second-order system]]  $m\ddot{x}+c\dot{x}+kx=f(t)$ above but with $c=0$.
+Consider the undamped systems shown below. They all have the same model form: $m\ddot{x} + kx = f(t)$. We can consider this to be the same as the [[Time Domain Response of Second-Order Systems|general second-order system]]  $m\ddot{x}+c\dot{x}+kx=f(t)$ above but with $c=0$.
 
 ![[Response of Second-Order System-1.png|512]]
 

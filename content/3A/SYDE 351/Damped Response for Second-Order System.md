@@ -41,7 +41,7 @@ s & =\frac{-2\zeta \omega_{n}\pm \sqrt{ 4\zeta^{2}\omega_{n}^{2}-4\omega_{n}^{2}
 	 & =-\zeta \omega_{n}\pm \omega_{n}\sqrt{ \zeta^2-1 }
 \end{align}
 $$
-Recall that in general, for [[Response of Second-Order System|second-order systems]] we have:
+Recall that in general, for [[Time Domain Response of Second-Order Systems|second-order systems]] we have:
 $$
 X(s) =\underbrace{ \frac{F(s)}{ms^{2}+cs+k} }_{ \text{ZSR} }+\underbrace{ \frac{msx(0)+m\dot{x}(0)+cx(0)}{ms^{2}+cs+k} }_{ \text{ZIR} }
 $$
@@ -58,7 +58,7 @@ s=-\zeta \omega_{n}\pm \omega_{n}\sqrt{ \zeta^{2}-1 }
 $$
 There are three cases we need to consider.
 
-### Case 1: Overdamped
+## Case 1: Overdamped
 This occurs when $\zeta>1$ (or equivalently $c/c_{\text{cr}}>1$). We have
 $$
 \zeta=\frac{c}{c_{\text{cr}}}=\frac{c}{2m\omega_{n}}=\frac{c}{2\sqrt{ km }}
@@ -117,7 +117,7 @@ Note that since $s_{2}>s_{1}$, we call $s_{2}$ the *dominant pole*.
 >where $\tau_{1}=\frac{1}{20}=50 \text{ ms}$ and $\tau_{2}=\frac{1}{620}=1.2 \text{ ms}$
 >
 
-### Case 2: Critically Damped
+## Case 2: Critically Damped
 In the critically damped cause $\zeta=1$, or $\frac{c}{c_{\text{cr}}}=1$, such that $c=c_{\text{cr}}=2\sqrt{ km }$. This is the minimum damping to have no oscillation. 
 
 In this case, we have $\zeta^{2}-1=0$, so $s=-\zeta \omega_{n}\pm0$, so we have repeated real poles, $s=-\omega_{n}$. Thus, we have:
@@ -135,7 +135,7 @@ x(t) & =(C_{1}+tC_{2})e^{st}=(C_{1}+tC_{2})e^{-\omega_{n}t}
 \end{align}
 $$
 
-### Case 3: Underdamped
+## Case 3: Underdamped
 For the underdamped case, we have $0<\zeta<1$, such that $c<c_{\text{cr}}$ or $c<2\sqrt{ km }$. Then, we have
 $$
 s=-\zeta \omega_{n}\pm \omega \sqrt{ \zeta^{2}-1 }
@@ -195,3 +195,18 @@ and
 $$
 x(t)=De^{-\zeta \omega_{n}t}\sin(\omega_{d}t+\phi)
 $$
+## Graphical Interpretation
+
+### Effects of Damping
+With $c < c_{\text{cr}}$, oscillation will occur. This is illustrated in the example problem below.
+
+![[Damped Response for Second-Order System-2.png]]
+
+### Effect of Root Location
+In finding the roots of the characteristic equation in the complex plane, the location of the roots affects the free response. The real part of the root is plotted on the horizontal axis, and the imaginary part is plotted on the vertical axis. Because the roots are conjugates of each other, we only show the upper root.
+- Unstable behavior occurs if any root lies to the right of the imaginary axis.
+- The response oscillates only when a root has a nonzero imaginary part.
+- The greater the imaginary part, the higher the frequency of oscillation.
+- The farther to the left the root lies, the faster the response due to that root decays.
+
+![[Damped Response for Second-Order System-4.png]]
