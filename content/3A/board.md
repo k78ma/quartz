@@ -7,13 +7,11 @@ draft: "true"
 
 ## Today
 
-- [ ] Laplace Transform Review #syde351
 - [ ] Lecture 30 #mte309
-- [ ] Non-Daisy Chained Schemes #mte325
 - [ ] CAN Arbitration #mte325
 - [ ] Block-Oriented Program Controlled I/O #mte325
 - [ ] Lecture 15.2 #mte321
-- [ ] Block Diagram #mte325
+- [ ] Check Block Diagram #mte325
 - [ ] Individual Lab Note #mte325
 
 
@@ -215,6 +213,8 @@ draft: "true"
 - [ ] A8 #mte309
 - [ ] Bug Slaying #mte325
 - [ ] Week 12 Tuesday #syde351
+- [ ] Non-Daisy Chained Schemes #mte325
+- [ ] Laplace Transform Review #syde351
 
 %% kanban:settings
 ```

@@ -22,15 +22,18 @@ The IEEE-696 standard was released in the early 80’s, and was quite common bef
 ![[Non-Daisy Chain Arbitration-1.png]]
 
 - Notice that the wires are active low and pull up resistors are used. This is a big hint as to the type of logic used by the drivers inside the arbiter. They are open-collector, which behaves the same as open-drain.
+- Each bus arbiter has a unique 4 bit ID, with the ID of `0000` being reserved for an idle bus. This leaves 15 ID numbers available for devices. The priority of the devices is fixed, with the highest ID having the highest priority. 
+	- During an arbitration cycle, all devices wishing to use the bus will assert the inverse of their ID on the shared lines at the same time. Remember that they are open-collector drivers, so this will not cause a conflict. 
+	- The final value on the bus lines will be the complement of the ID of the device that has won the arbitration round, and a grant signal will be generated for that device only.
 
 A simplified model of the logic inside each arbiter is shown in Figure 13. 
 
 ![[Non-Daisy Chain Arbitration-2.png]]
 
 - There is a control signal to indicate the start of an arbitration cycle. This is essential, otherwise a request from a higher priority device would result in the transfer of the grant to that device whether the device currently using the bus was done or not. Since there is a restriction of no pre-emption, this is not allowed. 
-- Notice that if it does not have a request, the output of the first set of and gates will be 0000, which is the reserved ID for idle. If there is a request at the start of a cycle, it will drive the inverse of its ID. 
+- Notice that if it does not have a request, the output of the first set of AND gates will be 0000, which is the reserved ID for idle. If there is a request at the start of a cycle, it will drive the inverse of its ID. 
 	- Caveat: There is a cascading logic between subsequently lower bits, so while all lines are driven at the same time, there will be a delay for the values to settle out. 
 - Starting from the MSB, the value is driven through an open collector inverter. 
-	- This means if any device in the system is outputting a zero, it will dominate the passive one and be what is seen at the input to the leftmost OR gate. 
-	- Since this is then NANDed with the next lower bit, the output of this driver depends both on the result of the arbitration for the MSB as well as the ID’s value in this bit position. 
+	- This means if any device in the system is outputting a zero, it will dominate the passive 1 and be what is seen at the input to the leftmost OR gate. 
+	- Since this is then NAND-ed with the next lower bit, the output of this driver depends both on the result of the arbitration for the MSB as well as the ID’s value in this bit position. 
 	- Moving towards the LSB, notice that it is dependent on the results of the arbitration for all previous bits.
