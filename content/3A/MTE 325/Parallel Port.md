@@ -5,6 +5,8 @@ tags:
 date: 2024-06-12
 aliases:
   - parallel port
+  - parallel interface
+  - parallel interfaces
 ---
 Peripheral interfaces typically connect to the [[System Bus|system bus]] using a parallel port.
 

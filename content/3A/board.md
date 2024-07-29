@@ -7,10 +7,15 @@ draft: "true"
 
 ## Today
 
-- [ ] Lecture 30 #mte309
 - [ ] Block-Oriented Program Controlled I/O #mte325
 - [ ] Lecture 15.2 #mte321
-- [ ] Individual Lab Note #mte325
+- [ ] Motors Review #mte320
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
+- [ ] 7-1: Introduction to Power Electronics #mte320
+- [ ] 7-1-2: Overview of Power Semiconductor Devices #mte320
+- [ ] 7-1-3: Diode Rectifiers #mte320
+- [ ] 7-1-4: Thyristor Converters #mte320
+- [ ] 7-1-5: Switch-Mode DC/DC Converters #mte320
 
 
 ## MTE 320
@@ -18,13 +23,10 @@ draft: "true"
 - [ ] Chapter 9 Problems #mte320
 - [ ] Example 6-4, 6-5, 6-6 #mte320
 - [ ] Chapter 6 Problems #mte320
-- [ ] Motors Review #mte320
-- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 
 
 ## MTE 325
 
-- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [x] Motor Control<br>- [x] Double Motor (B)<br>- [x] Functional Demo<br>- [ ] Individual Lab Note<br>- [x] Block Diagram<br>- [x] Bug Slaying (B)
 - [ ] Assignment 7 #mte325
 - [ ] Assignment 8 #mte325
 - [ ] Integrated DMA #mte325
@@ -42,6 +44,7 @@ draft: "true"
 
 - [ ] A8 Concept Questions #mte309
 - [ ] Lecture 31 #mte309
+- [ ] Lecture 32 #mte309
 
 
 ## MTE 321
@@ -215,6 +218,9 @@ draft: "true"
 - [ ] Laplace Transform Review #syde351
 - [ ] CAN Arbitration #mte325
 - [ ] Check Block Diagram #mte325
+- [ ] Lecture 30 #mte309
+- [ ] Individual Lab Note #mte325
+- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [x] Motor Control<br>- [x] Double Motor (B)<br>- [x] Functional Demo<br>- [x] Individual Lab Note<br>- [x] Block Diagram<br>- [x] Bug Slaying (B)
 
 %% kanban:settings
 ```

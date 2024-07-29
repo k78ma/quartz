@@ -131,10 +131,15 @@ aliases:
 - [[Non-Daisy Chain Arbitration]]
 - [[CAN Bus Arbitration]]
 
+## Direct Memory Access (DMA)
+- [[Direct Memory Access]]
+- [[Block-Oriented Program Controlled Input and Output]]
+
 ## Tutorials/Labs
 - [[STM32 Interrupts]]
 - [[STM32 ADC]]
 - [[Bug Slaying - 2-ADC Flipping Bug]]
+- [[Final Individual Lab Note]]
 
 ## Assignments
 - [[MTE 325 A1]]

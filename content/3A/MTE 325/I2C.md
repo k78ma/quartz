@@ -33,7 +33,7 @@ For MTE 325, how data synchronization is achieved is of particular interest.
 - Once the controller has set the start condition, it will begin toggling the clock and shifting out the **address**, starting with the MSB. 
 - The address bits are followed by a `R/W` control bit used to indicate if a read or write transaction is taking place.
 - This is followed by an `ACK` or acknowledgement bit, which ensures that the peripheral is present and responding. 
-- While the controller was responsible for driving the clock and sending the address bits, it is the peripheral's responsibility to pull `SDA` low after the `R/W`is received to indicate it has seen its address and is participating int he transaction.
+- While the controller was responsible for driving the clock and sending the address bits, it is the peripheral's responsibility to pull `SDA` low after the `R/W`is received to indicate it has seen its address and is participating in the transaction.
 
 There will then be at least a 1-bit period where the SDA line idles before the first data byte is sent. 
 - If the transaction is a read, the peripheral will drive the data on `SDA` one bit at a time, starting from the MSB. The shifting out of the data bits is still controlled with the clock driven by the controller. 
