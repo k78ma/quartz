@@ -1,9 +1,10 @@
 ---
-title: Polymath
+title: Polymath Robotics
 tags:
   - polymath
-date: 2024-02-07
-aliases: 
+date: 2024-07-28
+aliases:
+  - polymath robotics
 draft: "true"
 ---
 - [[Baymax]]

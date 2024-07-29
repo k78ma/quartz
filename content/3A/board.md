@@ -8,10 +8,8 @@ draft: "true"
 ## Today
 
 - [ ] Lecture 30 #mte309
-- [ ] CAN Arbitration #mte325
 - [ ] Block-Oriented Program Controlled I/O #mte325
 - [ ] Lecture 15.2 #mte321
-- [ ] Check Block Diagram #mte325
 - [ ] Individual Lab Note #mte325
 
 
@@ -26,7 +24,7 @@ draft: "true"
 
 ## MTE 325
 
-- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [x] Motor Control<br>- [x] Double Motor (B)<br>- [x] Functional Demo<br>- [ ] Individual Lab Note<br>- [ ] Block Diagram<br>- [x] Bug Slaying (B)
+- [ ] MTE 325 - 2-Axis Project #mte325 <br>- [x] Limit Switches<br>- [x] ADC Character<br>- [x] Motor Control<br>- [x] Double Motor (B)<br>- [x] Functional Demo<br>- [ ] Individual Lab Note<br>- [x] Block Diagram<br>- [x] Bug Slaying (B)
 - [ ] Assignment 7 #mte325
 - [ ] Assignment 8 #mte325
 - [ ] Integrated DMA #mte325
@@ -215,6 +213,8 @@ draft: "true"
 - [ ] Week 12 Tuesday #syde351
 - [ ] Non-Daisy Chained Schemes #mte325
 - [ ] Laplace Transform Review #syde351
+- [ ] CAN Arbitration #mte325
+- [ ] Check Block Diagram #mte325
 
 %% kanban:settings
 ```

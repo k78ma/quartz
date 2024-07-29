@@ -8,7 +8,7 @@ aliases: []
 Serial Peripheral Interface (SPI) is a common synchronous protocol for [[Serial Interfaces|serial systems]]. 
 - Similar to [[I2C]], it is used for chip-to-chip communication on the same PCB, or between PCBs that connect to one another. It is not typically used in applications where a cable would be required to connect the chips. 
 - One of the reasons SPI is very popular is that it requires trivial hardware – it can be implemented using only shift registers. 
-- SPI does not support multiple controllers on the same set of liens, but there can be multiple peripherals.
+- SPI does not support multiple controllers on the same set of lines, but there can be multiple peripherals.
 
 The SPI protocol uses separate lines to send and receive data. There are two different naming conventions for the data lines at present, depending on device capabilities.
 - For devices that can act either as a controller or peripheral, we use peripheral in controller out (`PICO`) and peripheral out controller in (`POCI`).

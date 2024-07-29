@@ -89,7 +89,10 @@ aliases:
 - [[Entropy Balance in a Closed System]]
 - [[TdS Equations]]
 - [[Second Law for Steady-Flow Devices]]
-- [[Isentropic Efficiency of Turbines]]
+	- [[Isentropic Efficiency of Turbines]]
+	- [[Isentropic Efficiency of Compressors]]
+	- [[Isentropic Efficiency of Nozzles]]
+- [[Isentropic Process for Ideal Gases]]
 - [[Entropy Change of Pure Substances]]
 
 ## Problems
