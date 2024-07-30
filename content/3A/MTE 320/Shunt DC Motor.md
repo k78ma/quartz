@@ -56,7 +56,7 @@ Then, we have
 $$
 V_{L}=\frac{2\pi a}{ZP} \frac{\tau_{m}}{\phi}R_{a}+\frac{ZP}{60a}\phi n
 $$
-The rotor speed can ge found from above as:
+The rotor speed can be found from above as:
 $$
 \begin{align}
 n & = \frac{V_{L}}{\frac{ZP}{60a}\phi}-\frac{\frac{2\pi a}{ZP} \frac{\tau_{m}}{\phi} R_{a}}{\frac{ZP}{60a}\phi} \\[2ex] 
@@ -65,6 +65,8 @@ n & = \frac{V_{L}}{\frac{ZP}{60a}\phi}-\frac{\frac{2\pi a}{ZP} \frac{\tau_{m}}{\
 $$
 This means that $n$ plotted as a function of $\tau$ is a straight line, provided that $\phi$ is constant:
 
-![[Shunt DC Motor-2.png|640]]
+![[Shunt DC Motor-2.png|532]]
 
 Thus, the speed of a shunt DC motor drops under load. This drop, however, is limited to below 8% of the rated speed, from no load to full load. Shunt DC motors are well-known for their fairly constant speed under load.
+
+## Example

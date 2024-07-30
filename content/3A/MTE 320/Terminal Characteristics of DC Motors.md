@@ -27,7 +27,7 @@ At no load, when $\tau_{L}=0$, $\tau_{m}$ will be at its lowest value – just e
 $$
 E_{c}=V_{a}-R_{a}I_{a}
 $$
-will be at its highest value. From equation $(2)$, the motor speed $\omega_{m}$ will be at its highest value as well. Thus, **no-load = highest speed**.
+will be at its highest value. From equation $(2)$, since the counter emf is at maximum value, the motor speed $\omega_{m}$ will be at its highest value as well. Thus, **no-load = highest speed**.
 
 As the motor is loaded, $\tau_{L}$ increases, leading to an increase in $\tau_{m}$, increase in $I_{a}$, and decrease in $E_{c}$, thus resulting in lower speed. Thus, **the motor slows down under load**.
 

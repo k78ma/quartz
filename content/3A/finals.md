@@ -7,18 +7,17 @@ draft: "true"
 
 ## July 30
 
-- [ ] Integrated DMA Data Transfer Sequence #mte321
-- [ ] Motors Review #mte320
-- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 - [ ] Example 6-4, 6-5, 6-6 #mte320
 - [ ] Lecture 16 #mte321
 - [ ] SYDE Project Work
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
 
 
 ## July 31
 
 - [ ] Chapter 9 Problems #mte320
 - [ ] Chapter 6 Problems #mte320
+- [ ] Lecture 17 #mte321
 - [ ] Lecture 31 #mte309
 - [ ] SYDE Project Work
 
@@ -27,7 +26,7 @@ draft: "true"
 
 - [ ] S2022 Final Exam #mte320
 - [ ] S2023 Final Exam #mte320
-- [ ] Lecture 17 #mte321
+- [ ] Lecture 18 #mte321
 - [ ] SYDE Project Work
 
 
@@ -37,8 +36,8 @@ draft: "true"
 - [ ] Complete DMA Cycle #mte325
 - [ ] DMA Controller Architecture Alternatives #mte325
 - [ ] Performance Summary #mte325
-- [ ] Lecture 18 #mte321
 - [ ] SYDE Project Work
+- [ ] Lecture 19 #mte321
 
 
 ## Aug 3
@@ -268,6 +267,8 @@ draft: "true"
 - [ ] 7-1-4: Thyristor Converters #mte320
 - [ ] 7-1-5: Switch-Mode DC/DC Converters #mte320
 - [ ] Integrated DMA #mte325
+- [ ] Integrated DMA Data Transfer Sequence #mte321
+- [ ] Motors Review #mte320
 
 %% kanban:settings
 ```

@@ -8,7 +8,7 @@ aliases:
 ---
 Below we have the schematic diagram of a separately-excited DC motor and its equivalent circuit diagram.
 
-![[Separately-Excited DC Motor.png|616]]
+![[Separately-Excited DC Motor.png|524]]
 
 In this type of motor, the field and armature circuits are separately excited, resulting in a high degree of controllability. Due to the need for two separate voltage sources, unless the extra cost is justified and/or the offered control flexibility is important, this type of motor is not commonly used. 
 

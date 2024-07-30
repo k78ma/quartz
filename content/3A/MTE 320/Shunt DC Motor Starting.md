@@ -46,12 +46,15 @@ An automatic starter eliminates the need for a human operator and ensures proper
 - When the start button is pressed, $V_{L}$ is is applied to contactor $M$. Upon energization of $M$, all NO $M$ contacts will close. This connects power to the armature.
 - As long as motor speed is low, back emf is small, and contactors $A_{1}$, $A_{2}$ and $A_{3}$ are not energized and the NO contacts $A_{1}$, $A_{2}$ and $A_{3}$ remain open. Therefore, the whole $R_{\text{start}}$ is in series with the armature, and $I_{a}$ is limited.
 - As the motor accelerates, at different speeds, corresponding to different back emf values, contactors $A_{1}$, $A_{2}$, $A_{3}$ will be energized in turn and the NO contacts $A_{1}$, $A_{2}$ and $A_{3}$ will be closed in turn, short circuiting segments of $R_{\text{start}}$, letting the motor speed up at a safe armature current value.
-- $FL$, the field loss contactor, protects against the motor against loss of field, which results in overspeed. Note that we have:
+- $FL$, the field loss contactor, protects against the motor against loss of field, which results in overspeed. 
+
+Note that we have:
 $$
 \begin{align}
-V_{L}-R_{a}I_{a} & =E_{c} =K'\phi n \\[2ex] 
-n  & =\frac{V_{L}-R_{a}I_{a}}{K'\phi}=\frac{V_{a}-R_{a}I_{a}}{K'\phi}
+V_{L}-R_{a}I_{a}  =E_{c} =K'\phi n \\[2ex] 
+n  =\frac{V_{L}-R_{a}I_{a}}{K'\phi}=\frac{V_{a}-R_{a}I_{a}}{K'\phi}
 \end{align}
 $$
-- If for some reason, during the operation of the motor, the field is lost, i.e., $I_{f}$ =0, the flux $\phi$ will drop to the small value of residual flux, and $n$ will rise to dangerously high values. In this case, the $FL$ contactor will operate, and the closed contact $FL$ will open to shut down the motor. 
-- To stop the motor, one must disconnect power by pressing the stop push button to de-energize contactor $M$ and open $M$ contacts.
+If for some reason, during the operation of the motor, the field is lost, i.e., $I_{f}$ =0, the flux $\phi$ will drop to the small value of residual flux, and $n$ will rise to dangerously high values. In this case, the $FL$ contactor will operate, and the closed contact $FL$ will open to shut down the motor. 
+
+To stop the motor, one must disconnect power by pressing the stop push button to de-energize contactor $M$ and open $M$ contacts.

@@ -113,6 +113,7 @@ aliases:
 - [[Separately-Excited DC Motor]]
 - [[Shunt DC Motor]]
 	- [[Shunt DC Motor Starting]]
+	- [[Shunt DC Motor Speed Control]]
 - [[Series DC Motor]]
 - [[Compound DC Motor]]
 
