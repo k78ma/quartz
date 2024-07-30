@@ -12,7 +12,7 @@ A diode is like a one way valve:
 ![[Diode Intro.png|348]]
 
 How do they work? Diodes are made through [[Semiconductor Doping]], which intentionally introduces impurities into a semiconductor.
-#### Exponential Current Relationship
+## Exponential Current Relationship
 The current through a diode, $I_{D}$, can be written as:
 $$
 I_{D} = I_{S}\left( e^{\frac{V_{D}}{V_{T}}} -1 \right) \approx I_{S}e^{\frac{V_{D}}{V_{T}}}

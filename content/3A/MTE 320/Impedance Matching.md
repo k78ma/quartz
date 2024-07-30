@@ -10,10 +10,22 @@ Below we have a schematic diagram of an electrical circuit composed of an AC vol
 
 ![[Impedance Matching.png|632]]
 
-To maximize the power transferred from the source to the load, the condition $R_{L}=R_{s}$ must be satisfied. Since the load resistance $R_{L}$ is out of our control, we need to place a special device between the source and the load such that the resistance of the load, as seen from the source side, becomes equal to the source resistance. This is called *impedance matching*.
+To maximize the power transferred from the source to the load, the condition $R_{L}=R_{s}$ must be satisfied. This is because:
+$$
+\begin{align}
+P & =I^{2}R_{L} \\[2ex] 
+I &=\frac{e_{s}}{R_{s}+R_{L}} \\[2ex]
+P & =\left(\frac{e_{s}}{R_{s}+R_{L}}\right)^{2}R_{L}
+\end{align}
+$$
+Maximizing $P$ by solving $\frac{dP}{dR_{L}}=0$ gives us $R_{L}=R_{s}$.
 
-![[Impedance Matching-1.png|640]]
 
+Since the load resistance $R_{L}$ is out of our control, we need to place a special device between the source and the load such that the resistance of the load, as seen from the source side, becomes equal to the source resistance. This is called *impedance matching*.
+
+![[Impedance Matching-1.png|544]]
+
+---
 ## Transformers for Impedance Matching
 [[Electrical Transformer|Transformers]] can match the resistance of a load with that of the source:
 

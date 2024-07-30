@@ -91,7 +91,7 @@ Diode Circuits:
 Applications:
 - [[Protection for Inductive Kickback]]
 #### Transistors
-- [[MOSFET]]
+- [[MOSFET Intro]]
 - [[MOSFET Usage]]
 - [[H-Bridge Circuit]]
 - [[Controlled Current Sources]]

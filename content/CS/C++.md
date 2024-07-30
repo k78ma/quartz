@@ -8,3 +8,4 @@ aliases:
 - [[CMake]]
 - [[C++ Shared and Static Libraries]]
 - [[C++ Access Specifiers]]
+- [[Initializer LIst]]

@@ -5,78 +5,122 @@ draft: "true"
 
 ---
 
-## Today
+## July 30
 
-- [ ] Motors Review #mte320
-- [ ] 6-22: Shunt DC Motor Speed Control #mte320
-- [ ] 7-1-5: Switch-Mode DC/DC Converters #mte320
 - [ ] Integrated DMA #mte325
 - [ ] Integrated DMA Data Transfer Sequence #mte321
-- [ ] Lecture 31 #mte309
+- [ ] Motors Review #mte320
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
+- [ ] Example 6-4, 6-5, 6-6 #mte320
+- [ ] Lecture 16 #mte321
+- [ ] SYDE Project Work
 
 
-## MTE 320
+## July 31
 
 - [ ] Chapter 9 Problems #mte320
-- [ ] Example 6-4, 6-5, 6-6 #mte320
 - [ ] Chapter 6 Problems #mte320
-- [ ] S2023 Final Exam #mte320
+- [ ] Lecture 31 #mte309
+- [ ] SYDE Project Work
+
+
+## August 1
+
 - [ ] S2022 Final Exam #mte320
+- [ ] S2023 Final Exam #mte320
+- [ ] Lecture 17 #mte321
+- [ ] SYDE Project Work
 
 
-## MTE 325
+## Aug 2
 
-- [ ] Assignment 7 #mte325
-- [ ] Assignment 8 #mte325
+- [ ] MTE 320 Final #mte320
 - [ ] Complete DMA Cycle #mte325
 - [ ] DMA Controller Architecture Alternatives #mte325
 - [ ] Performance Summary #mte325
+- [ ] Lecture 18 #mte321
+- [ ] SYDE Project Work
+
+
+## Aug 3
+
+- [ ] Assignment 7 #mte325
+- [ ] Assignment 8 #mte325
 - [ ] Security and Ethics #mte325
-- [ ] Assignment 9 #mte325
-- [ ] Assignment 10 #mte325
 - [ ] Distributed Arbitration Example #mte325
 
 
-## MTE 309
+## Aug 4
 
-- [ ] A8 Concept Questions #mte309
-- [ ] Lecture 32 Questions #mte309
-
-
-## MTE 321
-
-- [ ] Lecture 16 #mte321
-- [ ] Lecture 17 #mte321
-- [ ] Lecture 18 #mte321
-- [ ] PPS 10 #mte321
-- [ ] PPS 11 #mte321
-- [ ] Lecture 15.2 Example Problems #mte321
+- [ ] Assignment 9 #mte325
+- [ ] Assignment 10 #mte325
+- [ ] SYDE 351 HW 6 #syde351
+- [ ] W2023 Midterm #mte325
 
 
-## SYDE 351
+## Aug 5
 
 - [ ] Homework 7 #syde351
+- [ ] W2019 Final #mte325
+- [ ] W2020 Midterm #mte325
+- [ ] W2024 Midterm #mte325
+
+
+## Aug 6
+
 - [ ] Homework 8 #syde351
+- [ ] Lecture 15.2 Example Problems #mte321
+- [ ] W2023 Final #mte325
+- [ ] W2024 Final #mte325
+
+
+## Aug 7
+
+- [ ] MTE 325 Final #mte325
 - [ ] Homework 9 #syde351
+- [ ] A8 Concept Questions #mte309
+- [ ] Lecture 32 Questions #mte309
+- [ ] Midterm Review #mte309
+
+
+## Aug 8
+
 - [ ] Homework 10 #syde31
+- [ ] Week 12 Thursday Problem 9.9 #syde351
+
+
+## Aug 9
+
+- [ ] MTE 309 Final #mte309
+- [ ] PPS 11 #mte321
+- [ ] CE 5 #mte325
+
+
+## Aug 10
+
 - [ ] Tutorial 7 #syde351
 - [ ] Tutorial 8 #syde351
-- [ ] SYDE 351 Project #mte325<br>- [ ] Task 1<br>- [ ] Task 2<br>- [ ] Task 3<br>- [ ] Task 4<br>- [ ] Task 5<br>- [ ] Task 6<br>- [ ] Task 7<br>- [ ] Task 8<br>- [ ] Task 9<br>- [ ] Task 10
-- [ ] Week 12 Thursday Problem 9.9 #syde351
+- [ ] PPS 10 #mte321
+
+
+## Aug 11
+
+- [ ] MTE 321 Final #mte321
 - [ ] Tutorial 9 #syde351
 
 
-## WATonomous
-
-- [ ] NeRFStudio installation
-- [ ] NeRF-RPN Dataset
+## Aug 12
 
 
-## Overflow/Later
 
-- [ ] SYDE 351 HW 6 #syde351
-- [ ] Midterm Review #mte309
+## Aug 13
+
 - [ ] Midterm Review #syde351
+
+
+## Aug 14
+
+- [ ] SYDE 351 Final #syde351
 
 
 ***
@@ -223,6 +267,7 @@ draft: "true"
 - [ ] 7-1: Introduction to Power Electronics #mte320
 - [ ] 7-1-3: Diode Rectifiers #mte320
 - [ ] 7-1-4: Thyristor Converters #mte320
+- [ ] 7-1-5: Switch-Mode DC/DC Converters #mte320
 
 %% kanban:settings
 ```

@@ -116,5 +116,24 @@ aliases:
 - [[Series DC Motor]]
 - [[Compound DC Motor]]
 
+
+## Power Electronics and DC/DC Converters
+- [[Power Electronics]]
+- [[Diode]]
+- [[Thyristor]]
+- [[Controllable Switch]]
+	- [[Bipolar Junction Transistor|Bipolar Junction Transistor (BJT)]]
+	- [[Metal-Oxide-Semiconductor Field Effect Transistor|Metal-Oxide-Semiconductor Field Effect Transistor (MOSFET)]]
+	- [[Gate-Turn-Off Thyristor|Gate-Turn-Off Thyristor (GTO)]]
+	- [[Insulated Gate Bipolar Transistor|Insulated Gate Bipolar Transistor (IGBT)]]
+	- [[Integrated Gate Commutated Thyristor|Integrated Gate Commutated Thyristor (IGCT)]]
+- [[Diode Rectifier]]
+	- [[Single-Phase Diode Bridge Rectifier]]
+	- [[Three-Phase Diode Bridge Rectifier]]
+- [[Thyristor Converters]]
+- [[Switch Mode DC-DC Converters]]
+	- [[Step-Down Converter]]
+	- [[Step-Up Converter]]
+
 ## Problem
 - [[DC Machine Example Problem]]

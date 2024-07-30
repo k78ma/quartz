@@ -1,5 +1,5 @@
 ---
-title: MOSFET
+title: MOSFET Intro
 tags:
   - mte220
 date: 2023-11-04

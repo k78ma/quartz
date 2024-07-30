@@ -5,6 +5,7 @@ tags:
 date: 2024-07-29
 aliases:
   - final individual lab note
+draft: "true"
 ---
 **Kai Ma**
 

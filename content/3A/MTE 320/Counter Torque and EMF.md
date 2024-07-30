@@ -19,7 +19,7 @@ $$
 The larger the electrical load connected to the machine’s terminals, the larger the counter torque produced.
 
 ## Counter EMF in DC motors
-Similarly, in a DC motor, an emf is applied by an external source to the armature winding. This results in a current and a torque, resulting in the rotation of the rotor. When rotor conductors are moved in the magnetic field of the stator, an emf will be induced in them. This emf will oppose the original emf applied by the external source, lowering the current. This emf is called **counter emf** $E_{c}$ and is given by
+Similarly, in a DC motor, an emf is applied by an external source to the armature winding. This results in a current and a torque, resulting in the rotation of the rotor. When rotor conductors are moved in the magnetic field of the stator, an emf will be induced in them ([[Lenz's Law]]). This emf will oppose the original emf applied by the external source, lowering the current. This emf is called **counter emf** $E_{c}$ and is given by
 $$
 E_{c}=K\phi \omega_{m} = K'\phi n
 $$
