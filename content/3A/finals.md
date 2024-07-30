@@ -7,7 +7,6 @@ draft: "true"
 
 ## July 30
 
-- [ ] Integrated DMA #mte325
 - [ ] Integrated DMA Data Transfer Sequence #mte321
 - [ ] Motors Review #mte320
 - [ ] 6-22: Shunt DC Motor Speed Control #mte320
@@ -268,6 +267,7 @@ draft: "true"
 - [ ] 7-1-3: Diode Rectifiers #mte320
 - [ ] 7-1-4: Thyristor Converters #mte320
 - [ ] 7-1-5: Switch-Mode DC/DC Converters #mte320
+- [ ] Integrated DMA #mte325
 
 %% kanban:settings
 ```
