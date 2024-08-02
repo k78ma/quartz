@@ -68,5 +68,3 @@ This means that $n$ plotted as a function of $\tau$ is a straight line, provided
 ![[Shunt DC Motor-2.png|532]]
 
 Thus, the speed of a shunt DC motor drops under load. This drop, however, is limited to below 8% of the rated speed, from no load to full load. Shunt DC motors are well-known for their fairly constant speed under load.
-
-## Example

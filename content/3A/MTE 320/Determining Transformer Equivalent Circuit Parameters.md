@@ -86,7 +86,7 @@ $$
 X_{eHV}=\sqrt{ Z^{2}_{eHV}-R^{2}_{eHV} }
 $$
 ## Combination of Properties
-We can combine all of the found parameters $R_{cLV}, X_{eLV}, R_{cLV}, R_{mLV}$ to find [[Transformer Equivalent Circuit|transformer equivalent circuit]] parameters. 
+We can combine all of the found parameters $R_{cLV}, X_{mLV}, R_{eHV}, X_{eHV}$ to find [[Transformer Equivalent Circuit|transformer equivalent circuit]] parameters. 
 
 The series impedance parameters $R_{eHV}$ and $X_{eHV}$​ determined from the short-circuit test are directly equal to the equivalent primary-side parameters $R_{ep}$ and $X_{ep}$:
 $$

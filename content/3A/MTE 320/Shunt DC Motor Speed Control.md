@@ -138,7 +138,7 @@ To combine the best of the two methods, the shunt DC motor is controlled by arma
 ## Examples
 
 > [!Example]- Example 6-5
-> 
+> ![[MTE 320 E6-5.pdf]]
 
-> [!Example]- Example 6-5
-> 
+> [!Example]- Example 6-6
+> ![[MTE 320 E6-6.pdf]]

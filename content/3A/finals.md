@@ -5,115 +5,111 @@ draft: "true"
 
 ---
 
-## July 30
-
-- [ ] Example 6-4, 6-5, 6-6 #mte320
-- [ ] Lecture 16 #mte321
-- [ ] SYDE Project Work
-- [ ] 6-22: Shunt DC Motor Speed Control #mte320
-
-
-## July 31
-
-- [ ] Chapter 9 Problems #mte320
-- [ ] Chapter 6 Problems #mte320
-- [ ] Lecture 17 #mte321
-- [ ] Lecture 31 #mte309
-- [ ] SYDE Project Work
-
-
-## August 1
-
-- [ ] S2022 Final Exam #mte320
-- [ ] S2023 Final Exam #mte320
-- [ ] Lecture 18 #mte321
-- [ ] SYDE Project Work
-
-
 ## Aug 2
 
+- [ ] S2023 P1 #mte320
+- [ ] S2023 P3 #mte320
 - [ ] MTE 320 Final #mte320
-- [ ] Complete DMA Cycle #mte325
 - [ ] DMA Controller Architecture Alternatives #mte325
+- [ ] Complete DMA Cycle #mte325
 - [ ] Performance Summary #mte325
 - [ ] SYDE Project Work
-- [ ] Lecture 19 #mte321
+- [ ] Lecture 17 #mte321
 
 
 ## Aug 3
 
 - [ ] Assignment 7 #mte325
-- [ ] Assignment 8 #mte325
+- [ ] W2020 Midterm #mte325
 - [ ] Security and Ethics #mte325
 - [ ] Distributed Arbitration Example #mte325
+- [ ] Lecture 20 #mte321
+- [ ] Lecture 31 #mte309
+- [ ] Lecture 18 #mte321
+- [ ] Thermo
 
 
 ## Aug 4
 
-- [ ] Assignment 9 #mte325
-- [ ] Assignment 10 #mte325
+- [ ] Assignment 8 #mte325
+- [ ] W2024 Midterm #mte325
 - [ ] SYDE 351 HW 6 #syde351
 - [ ] W2023 Midterm #mte325
+- [ ] Pre-midterm Review #mte325
+- [ ] Lecture 19 #mte321
+- [ ] Thermo
 
 
 ## Aug 5
 
+- [ ] Assignment 9 #mte325
 - [ ] Homework 7 #syde351
 - [ ] W2019 Final #mte325
-- [ ] W2020 Midterm #mte325
-- [ ] W2024 Midterm #mte325
+- [ ] Thermo
 
 
 ## Aug 6
 
+- [ ] Assignment 10 #mte325
 - [ ] Homework 8 #syde351
 - [ ] Lecture 15.2 Example Problems #mte321
 - [ ] W2023 Final #mte325
 - [ ] W2024 Final #mte325
+- [ ] Thermo
 
 
 ## Aug 7
 
 - [ ] MTE 325 Final #mte325
-- [ ] Homework 9 #syde351
 - [ ] A8 Concept Questions #mte309
 - [ ] Lecture 32 Questions #mte309
 - [ ] Midterm Review #mte309
+- [ ] Thermo
 
 
 ## Aug 8
 
-- [ ] Homework 10 #syde31
-- [ ] Week 12 Thursday Problem 9.9 #syde351
+- [ ] Homework 9 #syde351
+- [ ] Thermo
 
 
 ## Aug 9
 
 - [ ] MTE 309 Final #mte309
+- [ ] Homework 10 #syde31
 - [ ] PPS 11 #mte321
-- [ ] CE 5 #mte325
+- [ ] Tutorial 11 #mte321
+- [ ] Lecture 16 Examples #mte321
+- [ ] Lecture 19 Examples #mte321
 
 
 ## Aug 10
 
 - [ ] Tutorial 7 #syde351
-- [ ] Tutorial 8 #syde351
 - [ ] PPS 10 #mte321
+- [ ] Lecture 17 Examples #mte321
+- [ ] Lecture 15-2 Examples #mte321
 
 
 ## Aug 11
 
-- [ ] MTE 321 Final #mte321
-- [ ] Tutorial 9 #syde351
+- [ ] Tutorial 8 #syde351
+- [ ] Lecture 20 Examples #mte321
+- [ ] CE 4 #mte321
 
 
 ## Aug 12
 
+- [ ] MTE 321 Final #mte321
+- [ ] Tutorial 9 #syde351
+- [ ] Week 12 Thursday Problem 9.9 #syde351
 
 
 ## Aug 13
 
 - [ ] Midterm Review #syde351
+- [ ] Tutorial 10 #mte321
+- [ ] Tutorial 12 #mte321
 
 
 ## Aug 14
@@ -269,6 +265,18 @@ draft: "true"
 - [ ] Integrated DMA #mte325
 - [ ] Integrated DMA Data Transfer Sequence #mte321
 - [ ] Motors Review #mte320
+- [ ] 6-22: Shunt DC Motor Speed Control #mte320
+- [ ] Example 6-4, 6-5, 6-6 #mte320
+- [ ] Lecture 16 #mte321
+- [ ] Review E6-4 #mte320
+- [ ] SYDE Project Work
+- [ ] Transformer Review #mte320
+- [ ] Chapter 9 Problems #mte320
+- [ ] SYDE Project Work
+- [ ] S2022 Final Exam #mte320
+- [ ] Chapter 6 Problems #mte320
+- [ ] S2023 Final Exam #mte320
+- [ ] S2022 P2 #mte320
 
 %% kanban:settings
 ```

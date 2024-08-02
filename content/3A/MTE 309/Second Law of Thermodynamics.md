@@ -61,7 +61,7 @@ that can supply or absorb finite amounts of heat without undergoing any change i
 > This deals with thermal efficiency, where:
 > $$
 >\begin{align}
->\text{Thermal efficiency} & =\frac{\text{Net work output}}{\text{Total heat input}} \\
+>\text{Thermal efficiency} & =\frac{\text{Net work output}}{\text{Total heat input}} \\[2ex]
 >\eta_{\text{th}} & =\frac{\dot{W}}{\dot{Q}_{\text{H}}}=\frac{\dot{Q}_{\text{H}}-\dot{Q}_{\text{L}}}{\dot{Q}_{\text{H}}}=1-\frac{\dot{Q}_{\text{L}}}{\dot{Q}_{\text{H}}}
 >\end{align}
 > $$

@@ -18,7 +18,7 @@ In a magnetic circuit, the equivalent of Ohm’s law can be stated as follows:
 $$
 \mathcal{F}=\mathcal{R}\phi
 $$
-where $\mathcal{R}$ is the reluctance of the electric circuit in Ampere-turn/Weber ($A.t / \text{Wb}$). 
+where $\mathcal{F}$is the [[Magnetomotive Force|magnetomotive force]], and $\mathcal{R}$ is the reluctance of the electric circuit in Ampere-turn/Weber ($A.t / \text{Wb}$). 
 - In non-magnetic materials, $\mathcal{R}$ is constant over the entire range of variations of $\mathcal{F}$ and $\phi$, and therefore, $\mathcal{F}$ is proportional to $\phi$. 
 - In magnetic materials, $\mathcal{R}$ is not a constant and thus, $\mathcal{F}$-$\phi$ relation is not linear.
 

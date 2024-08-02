@@ -94,5 +94,8 @@ aliases:
 - [[Algebraic Position Analysis]]
 - [[Vector Loop Linkage Analysis]]
 
+- [[Velocity Analysis]]
+- [[Acceleration Analysis]]
+
 ## Project
 - [[Front Loader Project Script]]
