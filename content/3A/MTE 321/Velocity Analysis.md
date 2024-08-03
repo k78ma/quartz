@@ -26,7 +26,18 @@ Types of velocity:
 
 ![[Velocity Analysis-1.png|552]]
 
-## Vector Loop Analysis of Fourbar Linkage
+## Complex Number Representation
+Recall that position is given by:
+$$
+R_{PA}=pe^{j\theta}
+$$
+Thus, we have:
+$$
+V_{PA}=\frac{dR_{PA}}{dt}=p\,je^{j\theta} \frac{d\theta}{dt}=p\omega je^{j\theta}
+$$
+where $p$ is the scalar length of vector $R_{PA}$.
+
+## Vector Loop Velocity Analysis of Fourbar Linkage
 
 **Step 1:** Check the reference frame/coordinate system. $R_{1}$ should be fixed with angle of zero with respect to $x$-axis. If this is not the case, set up a local coordinate system that meets this convention.
 
@@ -85,7 +96,7 @@ V_{B} & =jc\omega_{4}(\cos \theta_{4}+j\sin \theta_{4})=c\omega_{3}(-\sin \theta
 $$
 If we need to solve for both the open and crossed positions, we will need to do steps 3 and 4 twice; once with $\theta_{3},\theta_{4}$ for the open position, and once with $\theta_{3}, \theta_{4}$ for the closed position.
 
-## Vector Loop Analysis of Crank-Slider
+## Vector Loop Velocity Analysis of Crank-Slider
 We can follow a similar approach for a crank-slider system. Crank is input, slider is output.
 
 ![[Velocity Analysis-3.png]]

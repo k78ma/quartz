@@ -5,6 +5,7 @@ tags:
 date: 2024-07-25
 aliases:
   - vector loop linkage analysis
+  - position analysis
 ---
 An alternate approach to linkage position analysis creates a vector loop (or loops) around the linkage.
 

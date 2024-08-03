@@ -5,18 +5,11 @@ draft: "true"
 
 ---
 
-## Aug 2
-
-- [ ] DMA Controller Architecture Alternatives #mte325
-- [ ] Performance Summary #mte325
-- [ ] Lecture 17 #mte321
-- [ ] Lecture 31 #mte309
-
-
 ## Aug 3
 
-- [ ] Assignment 7 #mte325
+- [ ] Lecture 31 #mte309
 - [ ] SYDE Project Work
+- [ ] Assignment 7 #mte325
 - [ ] W2020 Midterm #mte325
 - [ ] Security and Ethics #mte325
 - [ ] Distributed Arbitration Example #mte325
@@ -277,6 +270,9 @@ draft: "true"
 - [ ] S2023 P3 #mte320
 - [ ] MTE 320 Final #mte320
 - [ ] Complete DMA Cycle #mte325
+- [ ] DMA Controller Architecture Alternatives #mte325
+- [ ] Performance Summary #mte325
+- [ ] Lecture 17 #mte321
 
 %% kanban:settings
 ```
