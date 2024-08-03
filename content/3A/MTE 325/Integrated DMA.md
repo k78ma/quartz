@@ -4,14 +4,18 @@ tags:
   - mte325
 date: 2024-07-30
 aliases:
-  - integrated dma
+  - integrated DMAC
+  - cycle stealing
+  - burst mode
 ---
-The first DMA implementation that will be examined is **integrated DMA**. This implementation adds some additional hardware to the device interface allowing it to act as a bus controller. It takes on the role held by the CPU in bus transactions between the device it is integrated with and other peripherals or memory in the system. A simplified model is presented here, and the assumption is made that it is operating in an 8-bit system with a synchronous system bus. In other words, all bus transactions are one byte in size. 
+ **Integrated DMA** is an implementation of [[Direct Memory Access|DMA]]. It allows the device interface, such as a [[Parallel Port|parallel port]], to act as a bus controller by adding some additional hardware. The interface takes on the role held by the CPU in bus transactions between the device it is integrated with and other peripherals or memory in the system. 
+ 
+ A simplified model is presented here, and the assumption is made that it is operating in an 8-bit system with a synchronous system bus. In other words, all bus transactions are one byte in size. A block diagram of the model used in this course is shown below. 
 
-A block diagram of the model used in this course is shown below. The DMA controller consists of 3 registers that allow it to act as a controller on the bus. 
 
 ![[Integrated DMA.png|284]]
 
+The DMA controller consists of 3 registers that allow it to act as a controller on the bus:
 1. The `MAR` contains the address of the next byte of memory to be transferred. During a transaction initiated by the DMA controller, the contents of this register will be driven to the address lines of the system bus as it is fulfilling the same role as the `MAR` did in the CPU. 
 2. The byte count register (`BCR`) holds the number of bytes left to be transferred in this block. Recall that DMA is only used when a number of consecutive bytes need to be transferred to the same destination. 
 3. The last register is the `status/control` register. Some of the bits are read only and used by the device to share information with the CPU, while others can be written by the CPU to configure the operation of the interface. The bit map of this register is shown on the right below, where the purpose of each field is:
@@ -25,6 +29,7 @@ A block diagram of the model used in this course is shown below. The DMA control
 
 ![[Integrated DMA-1.png|340]]
 
+## Transfer Modes
 The `Mode` bits in the status/control register determine how many transfers can take place per bus controllership. In this course, only two modes are considered. 
 
 **Cycle stealing** mode only allows the transfer of 1 byte (word) per bus controllership. As a result, there may be an excessive number of arbitration cycles required to transfer the complete block of data. 
@@ -49,7 +54,7 @@ The process that takes place for each block of data to be transferred using the 
 7. Transfer is complete; release bus, synchronize CPU and DMAC.
 
 ## Hardware Implementation
-The [[Block-Oriented Program Controlled Input and Output#Hardware Support for Block Transfers|block transfer device interface]] can be modified to permit DMA transfers as shown below. An additional NAND gate has been added to produce the `/DMARequest` signal if DMA is enabled and data is pending. Note that only `/IRQ` or `/DMARequest` would be enabled at one time.
+The [[Program Controlled Input and Output#Hardware Support for Block Transfers|block transfer device interface]] can be modified to permit DMA transfers as shown below. An additional NAND gate has been added to produce the `/DMARequest` signal if DMA is enabled and data is pending. Note that only `/IRQ` or `/DMARequest` would be enabled at one time.
 
 ![[Integrated DMA-2.png|568]]
 

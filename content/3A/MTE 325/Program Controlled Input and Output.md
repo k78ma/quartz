@@ -4,9 +4,10 @@ tags:
   - mte325
 date: 2024-07-29
 aliases:
-  - block-oriented program controlled input and output
+  - programmed controlled I/O
+  - block-oriented interface
 ---
-Let's think about the process for the CPU to move a piece of data from a register in an interface to memory.
+Let's think about the process for the CPU to move a piece of data from a register in an interface to memory. We can then compare this to [[Direct Memory Access|DMA]] approaches.
 
 It takes two system bus transactions to complete the transfer, as illustrated below in Figure 1.
 1. The first is a read from the interface register, resulting in the data being available in the `MDR`.

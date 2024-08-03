@@ -100,5 +100,14 @@
       ],
       "key": "T"
     }
+  ],
+  "editor:insert-callout": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "C"
+    }
   ]
 }

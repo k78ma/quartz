@@ -133,8 +133,10 @@ aliases:
 
 ## Direct Memory Access (DMA)
 - [[Direct Memory Access]]
-- [[Block-Oriented Program Controlled Input and Output]]
+- [[Program Controlled Input and Output]]
 - [[Integrated DMA]]
+- [[DMA Cycle]]
+- [[Detached DMA]]
 
 ## Tutorials/Labs
 - [[STM32 Interrupts]]

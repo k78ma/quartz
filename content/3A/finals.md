@@ -7,24 +7,19 @@ draft: "true"
 
 ## Aug 2
 
-- [ ] S2023 P1 #mte320
-- [ ] S2023 P3 #mte320
-- [ ] MTE 320 Final #mte320
 - [ ] DMA Controller Architecture Alternatives #mte325
-- [ ] Complete DMA Cycle #mte325
 - [ ] Performance Summary #mte325
-- [ ] SYDE Project Work
 - [ ] Lecture 17 #mte321
+- [ ] Lecture 31 #mte309
 
 
 ## Aug 3
 
 - [ ] Assignment 7 #mte325
+- [ ] SYDE Project Work
 - [ ] W2020 Midterm #mte325
 - [ ] Security and Ethics #mte325
 - [ ] Distributed Arbitration Example #mte325
-- [ ] Lecture 20 #mte321
-- [ ] Lecture 31 #mte309
 - [ ] Lecture 18 #mte321
 - [ ] Thermo
 
@@ -46,6 +41,7 @@ draft: "true"
 - [ ] Homework 7 #syde351
 - [ ] W2019 Final #mte325
 - [ ] Thermo
+- [ ] Lecture 20 #mte321
 
 
 ## Aug 6
@@ -277,6 +273,10 @@ draft: "true"
 - [ ] Chapter 6 Problems #mte320
 - [ ] S2023 Final Exam #mte320
 - [ ] S2022 P2 #mte320
+- [ ] S2023 P1 #mte320
+- [ ] S2023 P3 #mte320
+- [ ] MTE 320 Final #mte320
+- [ ] Complete DMA Cycle #mte325
 
 %% kanban:settings
 ```
