@@ -8,7 +8,9 @@ aliases:
 ---
 The disadvantages of the [[Binary Ramp ADC|binary ramp ADC]] design, particularly the variable conversion time, make it unsuitable for most practical applications. The **successive approximation design** vastly improves the performance by changing the search algorithm, using binary search instead of linear search.
 
- This algorithm works by starting from the most significant bit, then successively testing each bit to determine whether it should be on or off. We use a comparator to test whether the output of DAC exceeds the analog value for each input combination being tested. Once the LSB has been tested, the resulting value with be the converted digital value. Since each bit in the digital value must be tested, the conversion time is consistent. It is also relatively fast with a conversion time for $n$ bits of $n$ cycles, compared to a worst case of $2^{n}-1$ for a binary ramp design. The successive approximation converter is biased low and provides a persistent converted value using the implementation shown in Figure 8.
+ This algorithm works by starting from the most significant bit, then successively testing each bit to determine whether it should be on or off. We use a comparator to test whether the output of DAC exceeds the analog value for each input combination being tested. Once the LSB has been tested, the resulting value with be the converted digital value. Since each bit in the digital value must be tested, the conversion time is consistent. It is also relatively fast with a conversion time for $n$ bits of $n$ cycles, compared to a worst case of $2^{n}-1$ for a binary ramp design. It provides a persistent converted value using the implementation shown in Figure 8.
+ 
+The successive approximation converter is biased low since bits are only set if the value output by the DAC is less than the analog value we want to convert. Thus, we cannot overestimate and can only underestimate.
 
 ## Operation Procedure
 1. The Successive Approximation Register `SAR` contains bits that determine the digital value `DV`, which is used by the ADC.

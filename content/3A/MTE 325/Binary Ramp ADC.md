@@ -6,7 +6,7 @@ date: 2024-06-27
 aliases:
   - binary ramp ADC
 ---
-In a binary ramp ADC, a comparator is used to determine if the output of the DAC is greater than the analog signal to be converted. 
+In a binary ramp ADC, a comparator is used to determine if the output of the DAC is greater than the analog signal to be converted. The binary ramp ADC is biased high; it doesn't stop conversion until its DAC output exceeds the input analog voltage, inherently rounding up to the next quantization level.
 
 Operation Procedure:
 1. Processor starts conversion by asserting the start of conversion (`SOC`) signal.
