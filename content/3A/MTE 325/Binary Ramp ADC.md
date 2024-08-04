@@ -41,11 +41,14 @@ It is possible to implement the digital portions of the converter hardware in so
 DV = 0; 
 
 /* Sleep, if necessary. */ 
+
 /* Loop while conversion not complete and the */ 
 /* maximum value has not been reached. */ 
 while ((S == 0) && (DV < pow(2,n)-1)) {
 	DV = DV + 1; /* Sleep, if necessary. */ 
-} /* DV now stores a representation of the */ /* analog value. */
+} 
+
+/* DV now stores a representation of the analog value. */
 ```
 
 ## Behavior

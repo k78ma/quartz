@@ -78,6 +78,6 @@ We have reached the end of the time period. We can fill in the outstanding signa
 
 ![[Distributed Arbitration Example-14.png|600]]
 
-We should note that there is a case of [[Distributed Arbitration Priority Uncertainty|priority uncertainty]] here – a higher priority device makes a request while the bus is not busy, but does not end up as bus master. At the highlighted point below, Device 1 made a request while the bus was not busy; however, Device 3 gets control of the bus, because the token had already propagated past Device 1 (`BusGrant1` was already high at this time).
+We should note that there is a case of [[Distributed Arbitration Priority Uncertainty|priority uncertainty]] here – a higher priority device makes a request while the bus is not busy, but does not end up as bus master. At the highlighted point below, Device 1 made a request while the bus was not busy; however, Device 3 gets control of the bus, because the token had already propagated past Device 1 (`BusGrant1`, which is issued by Device 1, was already high at this time).
 
 ![[Distributed Arbitration Example-16.png|600]]
