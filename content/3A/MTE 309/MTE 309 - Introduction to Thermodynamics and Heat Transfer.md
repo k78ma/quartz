@@ -94,6 +94,10 @@ aliases:
 	- [[Isentropic Efficiency of Nozzles]]
 - [[Isentropic Process for Ideal Gases]]
 - [[Entropy Change of Pure Substances]]
+- [[Thermal Energy Reservoir]]
+- [[Heat Engine]]
+- [[Thermal Efficiency]]
+- [[Refrigerators and Heat Pumps]]
 
 ## Problems
 - [[Air Piston Heat Transfer]]

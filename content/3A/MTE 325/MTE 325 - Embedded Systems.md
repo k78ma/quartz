@@ -130,6 +130,7 @@ aliases:
 	- [[Monolithic Arbiter]]
 - [[Non-Daisy Chain Arbitration]]
 - [[CAN Bus Arbitration]]
+- [[Distributed Arbitration Example]]
 
 ## Direct Memory Access (DMA)
 - [[Direct Memory Access]]

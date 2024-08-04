@@ -39,13 +39,6 @@ The system could possibly be restored to its initial state (“internally revers
 
 These are used to determine the best theoretical performance of cycles, engines, and other devices. We can then quantify factors which reduce performance from maximum.
 
-## Thermal Energy Reservoirs
-In the development of the second law of thermodynamics, it's convenient to have a hypothetical body with a relatively large thermal energy capacity
-$$
-\text{mass}\times \text{specific heat} = mc_{p}
-$$
-that can supply or absorb finite amounts of heat without undergoing any change in temperature. Such a body is called a **thermal energy reservoir**.
-
 ## Statements of the Second Law
 
 >[!definition] Clausius Statement of the Second Law

@@ -7,11 +7,8 @@ draft: "true"
 
 ## Aug 3
 
-- [ ] Lecture 31 #mte309
-- [ ] SYDE Project Work
 - [ ] Assignment 7 #mte325
 - [ ] W2020 Midterm #mte325
-- [ ] Security and Ethics #mte325
 - [ ] Distributed Arbitration Example #mte325
 - [ ] Lecture 18 #mte321
 - [ ] Thermo
@@ -25,7 +22,7 @@ draft: "true"
 - [ ] W2023 Midterm #mte325
 - [ ] Pre-midterm Review #mte325
 - [ ] Lecture 19 #mte321
-- [ ] Thermo
+- [ ] Lecture 31 and 32 Examples #mte309
 
 
 ## Aug 5
@@ -273,6 +270,9 @@ draft: "true"
 - [ ] DMA Controller Architecture Alternatives #mte325
 - [ ] Performance Summary #mte325
 - [ ] Lecture 17 #mte321
+- [ ] Lecture 31 #mte309
+- [ ] SYDE Project Work
+- [ ] Security and Ethics #mte325
 
 %% kanban:settings
 ```
