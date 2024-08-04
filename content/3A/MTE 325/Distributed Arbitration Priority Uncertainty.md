@@ -5,6 +5,7 @@ tags:
 date: 2024-07-25
 aliases:
   - distributed arbitration priority uncertainty
+  - priority uncertainty
 ---
 Up until this point, it has been stated that the devices in the [[Distributed Arbitration|distributed arbitration system]] have fixed priority. The one closest to the central arbiter has the highest priority, and they decrease in order from there. 
 
