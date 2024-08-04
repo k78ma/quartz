@@ -14,7 +14,7 @@ The flash ADC uses $2n-1$ comparators to check whether the analog voltage to be 
 
 - For a 3-bit ADC, we would have 7 comparators with reference voltages set at 1/8, 2/8, 3/8, ..., 7/8 of the full-scale voltage.
 - If $V_{\text{analog}}$ is greater than the reference voltage, the comparator outputs 1.
-- If $V_{\text{analog}}$ is less than the reference voltage, the comparator outputs 1.
+- If $V_{\text{analog}}$ is less than the reference voltage, the comparator outputs 0.
 	- For a 3-bit ADC with $V_{\text{analog}}=\frac{4.5}{8}V_{\text{max}}$, and reference voltages at $\frac{1}{8}V_{\text{max}}, \frac{2}{8}V_{\text{max}}, \ldots, \frac{7}{8}V_{\text{max}}$​, the thermometer code will be `1111000`.
 - This is inherently biased low, since a comparator won't round up.
 - An encoder is used to convert the $2n − 1$ bit comparator output to a $n$-bit digital value (`DV`).
