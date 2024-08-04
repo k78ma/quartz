@@ -21,11 +21,12 @@ The successive approximation converter is biased low since bits are only set if 
 	- For example, if we have a 4-bit system, we have `SAR = DV = 1000`.
 3. The DAC converts the `DV` to an analog voltage.
 4. The comparator compares this analog voltage to the input analog voltage.
-	- If the comparator output is high, $A<B$ (DAC is higher), so we clear the MSB back to `0`.
-	- If the comparator output is low, $A \geq B$ (DAC is lower), so keep the MSB set to `1`.
-5. Move to the next most significant bit by decrementing `X`. Go back to Step 2, set the next most significant bit to `1`, generate analog voltage with DAC and compare.
+	- If the comparator output is high, $A<B$ (DAC is higher), we clear the MSB back to `0`.
+	- If the comparator output is low, $A \geq B$ (DAC is lower), we keep the MSB set to `1`.
+	- Thus, ==the bit only remains `1` if we are NOT overestimating.== This is why SAR is biased low.
+1. Move to the next most significant bit by decrementing `X`. Go back to Step 2, set the next most significant bit to `1`, generate analog voltage with DAC and compare.
 	- Now, we would either be testing `1100` or `0100`, depending on the output of the comparator.
-6. Repeat this until we reach `X` has been decremented to `0`.
+2. Repeat this until we reach `X` has been decremented to `0`.
  
 ![[Successive Approximation ADC.png]]
 
