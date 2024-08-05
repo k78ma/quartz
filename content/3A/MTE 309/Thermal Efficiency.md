@@ -70,4 +70,6 @@ $$
 
 
 
-
+> [!example] Example
+> 
+>![[JPEG image-4822-9987-84-0.jpeg]]

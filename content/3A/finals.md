@@ -5,18 +5,6 @@ draft: "true"
 
 ---
 
-## Aug 4
-
-- [ ] Assignment 7 #mte325
-- [ ] W2020 Midterm #mte325
-- [ ] Assignment 8 #mte325
-- [ ] W2024 Midterm #mte325
-- [ ] Lecture 19 #mte321
-- [ ] Lecture 31 and 32 Examples #mte309
-- [ ] Pre-midterm Review #mte325
-- [ ] SYDE Project Work
-
-
 ## Aug 5
 
 - [ ] Assignment 9 #mte325
@@ -24,7 +12,7 @@ draft: "true"
 - [ ] W2023 Midterm #mte325
 - [ ] W2019 Final #mte325
 - [ ] Thermo
-- [ ] Lecture 20 #mte321
+- [ ] SYDE Project Work
 
 
 ## Aug 6
@@ -49,22 +37,26 @@ draft: "true"
 
 ## Aug 8
 
-- [ ] Homework 9 #syde351
 - [ ] Thermo
+- [ ] Assignment 9 #mte309
+- [ ] Quiz 2 Review #mte309
 
 
 ## Aug 9
 
 - [ ] MTE 309 Final #mte309
-- [ ] Homework 10 #syde31
+- [ ] Homework 9 #syde351
 - [ ] PPS 11 #mte321
 - [ ] Tutorial 11 #mte321
 - [ ] Lecture 16 Examples #mte321
 - [ ] Lecture 19 Examples #mte321
+- [ ] Lecture 19 #mte321
+- [ ] Lecture 20 #mte321
 
 
 ## Aug 10
 
+- [ ] Homework 10 #syde31
 - [ ] Tutorial 7 #syde351
 - [ ] PPS 10 #mte321
 - [ ] Lecture 17 Examples #mte321
@@ -269,6 +261,11 @@ draft: "true"
 - [ ] Security and Ethics #mte325
 - [ ] Distributed Arbitration Example #mte325
 - [ ] Lecture 18 #mte321
+- [ ] Assignment 7 #mte325
+- [ ] W2024 Midterm #mte325
+- [ ] Assignment 8 #mte325
+- [ ] W2020 Midterm #mte325
+- [ ] Lecture 31 and 32 Examples #mte309
 
 %% kanban:settings
 ```

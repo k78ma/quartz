@@ -19,7 +19,7 @@ Knowing that the ladder is just a series of $2R$ resistors in parallel, and equa
 - Input impedance is fixed at $Z_{\text{in}}=R$ (starting from the right)
 - $I = \frac{V_{\text{ref}}}{R}$
 - $I_{1}=\frac{I}{2}$
-- $I_{2}=\frac{I_{1}}{2}=\frac{I}{4}$\
+- $I_{2}=\frac{I_{1}}{2}=\frac{I}{4}$
 
 ## R-2R DAC 
 This R-2R ladder can be combined with an op-amp to build a DAC:

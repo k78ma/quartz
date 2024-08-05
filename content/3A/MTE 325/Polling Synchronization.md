@@ -8,8 +8,7 @@ aliases:
   - periodic polling
   - tight polling
 ---
-Polling is a synchronization technique using a question-answer sequence that is repeated until the answer is yes. The frequency at which the question is asked determines which of the three  
-variants of polling are being used.
+Polling is a synchronization technique using a question-answer sequence that is repeated until the answer is yes. The frequency at which the question is asked determines which of the three variants of polling are being used.
 
 With **occasional polling**, the device is checked at the convenience of the software designer. The time between checks will vary based on what else is happening or what has happened to the system.
 - Occasional polling is CPU-oriented; the device waits for the CPU to initiate synchronization.
