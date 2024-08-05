@@ -9,7 +9,6 @@ draft: "true"
 
 - [ ] Assignment 9 #mte325
 - [ ] SYDE 351 HW 6 #syde351
-- [ ] W2023 Midterm #mte325
 - [ ] W2019 Final #mte325
 - [ ] Thermo
 - [ ] SYDE Project Work
@@ -266,6 +265,7 @@ draft: "true"
 - [ ] Assignment 8 #mte325
 - [ ] W2020 Midterm #mte325
 - [ ] Lecture 31 and 32 Examples #mte309
+- [ ] W2023 Midterm #mte325
 
 %% kanban:settings
 ```

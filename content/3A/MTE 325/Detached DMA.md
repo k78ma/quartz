@@ -29,7 +29,7 @@ Assuming the DMAC is operating in [[Integrated DMA|cycle stealing mode]] (transf
 This ==requires twice as many bus cycles as the integrated version of the transfer, but no hardware changes to device interfaces.== 
 
 > [!note] Why bother if the number of cycles is the same?
-> Each DMA cycle requires 2 bus cycles, a read and a write. This is the same amount of cycles that are required for the data transfer portion of the [[Program Controlled Input and Output|programmed controlled I/O]] (CPU driven case). So why bother with using a detached DMA at all?
+> Each DMA cycle requires 2 bus cycles, a read and a write. This is the same amount of cycles that are required for the data transfer portion of the [[Program Controlled Input and Output|programmed controlled input and output]] (CPU driven case). So why bother with using a detached DMA at all?
 > 
 > While the number of transfers has not been reduced, there are still significant savings from the CPU perspective as it no longer needs to be involved with the transfers.
 
