@@ -66,4 +66,4 @@ Every write transaction follows the same form:
 
 Like read transactions, the CPU starts off by driving the address the write signal on the bus. Unlike the read case, the CPU is in possession of the data to be written. This data will be driven to the data lines at the same time as the address and control information are driven to the bus.
 
-At time $B$, we enter the peripheral phrase:\ The address is checked to determine which memory/device is involved and which specific location the information should be written to. Once this is determined, any necessary logic to route the value to the input of the destination will be triggered. The data will only be clocked into the destination on the next rising edge at time $C$.
+At time $B$, we enter the peripheral phrase: The address is checked to determine which memory/device is involved and which specific location the information should be written to. Once this is determined, any necessary logic to route the value to the input of the destination will be triggered. The data will only be clocked into the destination on the next rising edge at time $C$.

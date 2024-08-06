@@ -5,29 +5,22 @@ draft: "true"
 
 ---
 
-## Aug 5
-
-- [ ] Assignment 9 #mte325
-- [ ] SYDE 351 HW 6 #syde351
-- [ ] W2019 Final #mte325
-- [ ] Thermo
-- [ ] SYDE Project Work
-
-
 ## Aug 6
 
 - [ ] Assignment 10 #mte325
-- [ ] Homework 7 #syde351
-- [ ] Lecture 15.2 Example Problems #mte321
 - [ ] W2023 Final #mte325
 - [ ] W2024 Final #mte325
+- [ ] Converter Aperture Time and Errors #mte325
+- [ ] Bus Transfers #mte325
+- [ ] Security/Ethics #mte325
+- [ ] SYDE 351 HW 6 #syde351
+- [ ] SYDE Project Work
 - [ ] Thermo
 
 
 ## Aug 7
 
 - [ ] MTE 325 Final #mte325
-- [ ] Homework 8 #syde351
 - [ ] A8 Concept Questions #mte309
 - [ ] Lecture 32 Questions #mte309
 - [ ] Midterm Review #mte309
@@ -44,9 +37,10 @@ draft: "true"
 ## Aug 9
 
 - [ ] MTE 309 Final #mte309
-- [ ] Homework 9 #syde351
+- [ ] Homework 7 #syde351
 - [ ] PPS 11 #mte321
 - [ ] Tutorial 11 #mte321
+- [ ] Lecture 15.2 Example Problems #mte321
 - [ ] Lecture 16 Examples #mte321
 - [ ] Lecture 19 Examples #mte321
 - [ ] Lecture 19 #mte321
@@ -56,6 +50,7 @@ draft: "true"
 ## Aug 10
 
 - [ ] Homework 10 #syde31
+- [ ] Homework 8 #syde351
 - [ ] Tutorial 7 #syde351
 - [ ] PPS 10 #mte321
 - [ ] Lecture 17 Examples #mte321
@@ -65,6 +60,7 @@ draft: "true"
 ## Aug 11
 
 - [ ] Tutorial 8 #syde351
+- [ ] Homework 9 #syde351
 - [ ] Lecture 20 Examples #mte321
 - [ ] CE 4 #mte321
 
@@ -74,6 +70,8 @@ draft: "true"
 - [ ] MTE 321 Final #mte321
 - [ ] Tutorial 9 #syde351
 - [ ] Week 12 Thursday Problem 9.9 #syde351
+- [ ] Homework 10 #syde351
+- [ ] Homework 11 #syde351
 
 
 ## Aug 13
@@ -266,6 +264,10 @@ draft: "true"
 - [ ] W2020 Midterm #mte325
 - [ ] Lecture 31 and 32 Examples #mte309
 - [ ] W2023 Midterm #mte325
+- [ ] W2019 Final #mte325
+- [ ] Assignment 9 #mte325
+- [ ] Parallel Review #mte325
+- [ ] DMA Review #mte325
 
 %% kanban:settings
 ```
