@@ -32,7 +32,7 @@ Since data is to be stored in a flip-flop register, the setup time and hold time
 
 ![[Synchronous Write Timing-1.png]]
 
-In the timing diagram, we see that here is a `Address Decoded` signal and a `Register Clock`.
+In the timing diagram, we see that there is a `Address Decoded` signal and a `Register Clock`.
 
 `Address Decoded` functions identically to the read case, indicating that the target device is now aware of its involvement in the transaction.
 

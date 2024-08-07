@@ -44,7 +44,7 @@ T_{\text{bus cycle}}^{\text{Optimized, Synchronous, Read}}  & = t_{\text{phase 1
 	 & = t_{\text{PA}}+t_{\text{skew}}+t_{\text{hold}} + t_{\text{select}}+t_{\text{access}}^{\text{max}}+t_{\text{PD}}+t_{\text{skew}}+t_{\text{setup}}
 \end{align}
 $$
-Here, we're using $t_{\text{access}}^{\text{max}}$ to indicate the access time for the slowest interface ont he bus.
+Here, we're using $t_{\text{access}}^{\text{max}}$ to indicate the access time for the slowest interface on the bus.
 
 ## Write Transaction
 ### Controller Edge

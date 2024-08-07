@@ -11,7 +11,7 @@ aliases:
 ## Procedure
 - To use hardware interrupts, here needs to be some form of connection between the processor and the device to carry the interrupt signal (physical wires acting as [[Interrupt Lines|interrupt lines]]).
 - The hardware interrupt sequence starts with the device notifying the CPU of an interrupt by causing an edge (transition in signal value) on an external line. 
-- When the CPU sees this, it x`must finish the instruction it is working on. One instruction can be multiple CPU cycles and we can’t stop halfway through an instruction (for most microprocessors).
+- When the CPU sees this, it must finish the instruction it is working on. One instruction can be multiple CPU cycles and we can’t stop halfway through an instruction (for most microprocessors).
 - Once the instruction finishes, execution of the program is stopped, interrupts are disabled.
 - Any registers that will be changed as a result of handling the interrupt are saved (context switch).
 - Now, the processor is ready to actually run the service routine – acknowledging the device, selecting the appropriate [[Interrupt Handling|ISR]] and executing it.

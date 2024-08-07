@@ -15,6 +15,7 @@ Things on the internet:
 - [Neural network training makes beautiful fractals | Jascha’s blog](https://sohl-dickstein.github.io/2024/02/12/fractal.html)
 - [colah's blog](https://colah.github.io/)
 - [projects | Bones](https://bones-ai.bearblog.dev/projects/)
+- [Sorta Insightful | Alex Irpan](https://www.alexirpan.com/)
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
@@ -31,4 +32,4 @@ Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
 - [Minimum Description Length Principle](https://arxiv.org/abs/math/0406077)
 - [Autodidax: JAX core from scratch](https://jax.readthedocs.io/en/latest/autodidax.html)
-- 
+

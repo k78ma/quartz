@@ -5,21 +5,10 @@ draft: "true"
 
 ---
 
-## Aug 6
-
-- [ ] Assignment 10 #mte325
-- [ ] W2023 Final #mte325
-- [ ] W2024 Final #mte325
-- [ ] Converter Aperture Time and Errors #mte325
-- [ ] Bus Transfers #mte325
-- [ ] Security/Ethics #mte325
-- [ ] SYDE 351 HW 6 #syde351
-- [ ] SYDE Project Work
-- [ ] Thermo
-
-
 ## Aug 7
 
+- [ ] W2023/2024 Final Review #mte325
+- [ ] Bus Transactions Review #mte325
 - [ ] MTE 325 Final #mte325
 - [ ] A8 Concept Questions #mte309
 - [ ] Lecture 32 Questions #mte309
@@ -32,12 +21,12 @@ draft: "true"
 - [ ] Thermo
 - [ ] Assignment 9 #mte309
 - [ ] Quiz 2 Review #mte309
+- [ ] SYDE Project Work
 
 
 ## Aug 9
 
 - [ ] MTE 309 Final #mte309
-- [ ] Homework 7 #syde351
 - [ ] PPS 11 #mte321
 - [ ] Tutorial 11 #mte321
 - [ ] Lecture 15.2 Example Problems #mte321
@@ -45,6 +34,8 @@ draft: "true"
 - [ ] Lecture 19 Examples #mte321
 - [ ] Lecture 19 #mte321
 - [ ] Lecture 20 #mte321
+- [ ] SYDE 351 HW 6 #syde351
+- [ ] Homework 7 #syde351
 
 
 ## Aug 10
@@ -268,6 +259,12 @@ draft: "true"
 - [ ] Assignment 9 #mte325
 - [ ] Parallel Review #mte325
 - [ ] DMA Review #mte325
+- [ ] Security/Ethics #mte325
+- [ ] Bus Transfers #mte325
+- [ ] W2023 Final #mte325
+- [ ] Assignment 10 #mte325
+- [ ] W2024 Final #mte325
+- [ ] Converter Aperture Time and Errors #mte325
 
 %% kanban:settings
 ```
