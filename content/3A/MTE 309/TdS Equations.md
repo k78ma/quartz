@@ -118,7 +118,7 @@ Note that in the isentropic case, we have $s_{2}-s_{1}=0$ and $T_{2}-T_{1}=0$.
 In or near the vapor dome, we use the property tables with $T, P$ to find $u, h, s$.
 
 ### Ideal Gases
-For ideal gases, we have $du=c_{v}\,dT$ $Pv=RT$, which lets us write
+For ideal gases, we have $du=c_{v}\,dT$ and $Pv=RT$, which lets us write
 $$
 \begin{align} \\
 T\,ds & =du+P\,dv\\[2ex] 
