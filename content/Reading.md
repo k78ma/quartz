@@ -5,6 +5,8 @@ date: 2024-05-17
 aliases:
   - reading
 ---
+This is a collection of things I have read that led to enjoyment or learning, and thus wanted to note down for future reference. Some are things that I have not read yet, but think will be enjoyable or valuable.
+
 Things on the internet:
 - [jsomers.net | I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 - [Poor Charlie’s Almanack](https://www.stripe.press/poor-charlies-almanack/cover)
@@ -16,6 +18,8 @@ Things on the internet:
 - [colah's blog](https://colah.github.io/)
 - [projects | Bones](https://bones-ai.bearblog.dev/projects/)
 - [Sorta Insightful | Alex Irpan](https://www.alexirpan.com/)
+- [Deep Generative Models | CS 326 Notes](https://deepgenerativemodels.github.io/notes/)
+- [Lil'Log | Lilian Weng](https://lilianweng.github.io/)
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)

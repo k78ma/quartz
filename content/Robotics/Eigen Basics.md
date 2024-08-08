@@ -6,7 +6,7 @@ tags:
 date: 2024-01-27
 aliases:
 ---
-We can import it like this:
+	xWe can import it like this:
 ```cpp
 #include <iostream>
 using namespace std;

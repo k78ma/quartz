@@ -16,7 +16,7 @@ draft: "true"
 ### Preliminary
 1. Tape over Raspberry Pi USB connections
 
-![[attachments/E-Stop.png|3984]]
+![[E-Stop.png|3984]]
 
 2. Solder pins. May want to clean flux singe marks after soldering
 

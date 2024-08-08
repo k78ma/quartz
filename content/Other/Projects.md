@@ -6,6 +6,8 @@ aliases:
   - ideas
 draft: "true"
 ---
+- MNIST ResNet from scratch in numpy and torch
+
 Ideas:
 - [ ] Git VCS with Rust
 - [ ] Quantum ML project

@@ -78,10 +78,10 @@ $$
 Thus, considering a stationary, closed system undergoing a reversible process between State 1 and State 2, we arrive at the TdS equations:
 $$
 \boxed{
-\begin{align}
+\begin{align*}
 T\,ds=du+P\,dv \\
 T\,ds=dh-v\,dP
-\end{align}
+\end{align*}
 }
 $$
 - The TdS equations relate state properties. Thus, in order to use them, [[Equation of State|equation of state]] must be defined, such as the P-v-T surface. See [[Entropy Change of Pure Substances]].

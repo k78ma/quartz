@@ -97,5 +97,9 @@ aliases:
 - [[Velocity Analysis]]
 - [[Acceleration Analysis]]
 
+## Dynamics + Inverse Dynamics
+- [[Mass Moment of Inertia]]
+- [[Inverse Dynamics]]
+
 ## Project
 - [[Front Loader Project Script]]
