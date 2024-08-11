@@ -19,9 +19,9 @@ Things on the internet:
 - [projects | Bones](https://bones-ai.bearblog.dev/projects/)
 - [Sorta Insightful | Alex Irpan](https://www.alexirpan.com/)
 - [Deep Generative Models | CS 326 Notes](https://deepgenerativemodels.github.io/notes/)
-- [Lil'Log | Lilian Weng](https://lilianweng.github.io/)
+- [Lil'Log | Lilian Weng]
+- [An Infinite Descent into Pure Mathematics](https://infinitedescent.xyz/)
 
-Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
 - [The Algorithm Design Manual](https://www.algorist.com/)
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/)

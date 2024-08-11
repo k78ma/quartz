@@ -33,3 +33,7 @@ $$
 \end{align}
 $$
 For heat pumps, $\text{COP}_{\text{HP}}$ can be greater than 1, which implies that they can be thermodynamically efficient. In general, the COP increases as $T_{H}-T_{L}$ is reduced (HP is efficient in temperature climates )
+
+## COP Example
+
+![[MTE 309 LE32-1.pdf]]

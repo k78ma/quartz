@@ -5,46 +5,21 @@ draft: "true"
 
 ---
 
-## Aug 8
+## Aug 11
 
-- [ ] Assignment 9 #mte309
-- [ ] Assignment 7 #mte309
-- [ ] SYDE 351 HW 6? #syde351
-- [ ] Lecture 19 #mte321
-- [ ] Assignment 8 #mte309
-- [ ] Assignment 6 #mte309
-- [ ] Quiz 2 Review #mte309
-
-
-## Aug 9
-
-- [ ] MTE 309 Final #mte309
-- [ ] SYDE Project Work
+- [ ] Lecture 20 #mte321
+- [ ] Homework 7 #syde351
+- [ ] Homework 8 #syde351
+- [ ] Lecture 20 Examples #mte321
+- [ ] CE 4 #mte321
 - [ ] PPS 11 #mte321
 - [ ] Lecture 15.2 Example Problems #mte321
 - [ ] Lecture 16 Examples #mte321
 - [ ] Lecture 17 Examples #mte321
 - [ ] Tutorial 11 #mte321
-- [ ] Lecture 20 #mte321
-
-
-## Aug 10
-
-- [ ] Homework 7 #syde351
-- [ ] Homework 8 #syde351
-- [ ] Tutorial 7 #syde351
-- [ ] PPS 10 #mte321
 - [ ] Lecture 19 Examples #mte321
+- [ ] PPS 10 #mte321
 - [ ] Lecture 18 Examples #mte321
-
-
-## Aug 11
-
-- [ ] Tutorial 8 #syde351
-- [ ] Homework 9 #syde351
-- [ ] Homework 10 #syde31
-- [ ] Lecture 20 Examples #mte321
-- [ ] CE 4 #mte321
 
 
 ## Aug 12
@@ -52,6 +27,10 @@ draft: "true"
 - [ ] MTE 321 Final #mte321
 - [ ] Tutorial 9 #syde351
 - [ ] Week 12 Thursday Problem 9.9 #syde351
+- [ ] Homework 9 #syde351
+- [ ] Homework 10 #syde351
+- [ ] Tutorial 7 #syde351
+- [ ] Tutorial 8 #syde351
 
 
 ## Aug 13
@@ -59,8 +38,8 @@ draft: "true"
 - [ ] Midterm Review #syde351
 - [ ] Tutorial 10 #mte321
 - [ ] Tutorial 12 #mte321
-- [ ] Homework 10 #syde351
 - [ ] Homework 11 #syde351
+- [ ] Practice Final #syde351
 
 
 ## Aug 14
@@ -262,6 +241,12 @@ draft: "true"
 - [ ] MTE 325 Final #mte325
 - [ ] Thermo
 - [ ] A8 Concept Questions #mte309
+- [ ] Assignment 9 #mte309
+- [ ] Assignment 7 #mte309
+- [ ] Quiz 2 Review #mte309
+- [ ] MTE 309 Final #mte309
+- [ ] SYDE Project Work
+- [ ] Lecture 19 #mte321
 
 %% kanban:settings
 ```

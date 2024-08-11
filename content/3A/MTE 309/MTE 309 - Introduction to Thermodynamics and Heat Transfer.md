@@ -106,3 +106,11 @@ aliases:
 - [[MTE 309 A2]]
 - [[MTE 309 A3]]
 - [[MTE 309 A6]]
+
+- [x] A9 Isentropic Questions
+- [x] LE 32-2 Work/heat/first & second laws
+- [x] LE 30-2 Isentropic
+- [x] LE 32-1 COP Question
+- [x] Quiz 2 Q3 Thermal Circuit
+- [x] A9 Q5
+- [x] Refrigerator & Heat Pump Video

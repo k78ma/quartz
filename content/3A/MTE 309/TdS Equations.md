@@ -120,7 +120,7 @@ In or near the vapor dome, we use the property tables with $T, P$ to find $u, h,
 ### Ideal Gases
 For ideal gases, we have $du=c_{v}\,dT$ and $Pv=RT$, which lets us write
 $$
-\begin{align} \\
+\begin{align}
 T\,ds & =du+P\,dv\\[2ex] 
 T\,ds & =c_{v}dT+\left( \frac{RT}{v} \right)dv \\[2ex] 
 \int  \, ds & =\int_{1}^{2} c_{v}(T) \, \frac{dT}{T}+R\ln\left( \frac{v_{2}}{v_{1}} \right)  
