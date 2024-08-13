@@ -6,7 +6,7 @@ date: 2024-07-09
 aliases:
   - Grashof condition
 ---
-The Grashof condition predicts the rotation behavior of a four-bar linkage's inversions based on link lengths only.
+œThe Grashof condition predicts the rotation behavior of a four-bar linkage's inversions based on link lengths only.
 - **Inversion:** A mechanism inversion is said to occur when the fixed link is allowed to move, and an alternative link is fixed
 
 Let:

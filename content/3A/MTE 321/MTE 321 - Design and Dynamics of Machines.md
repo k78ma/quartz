@@ -103,7 +103,6 @@ aliases:
 - [[Force Analysis of Single Link]]
 - [[Force Analysis of Fourbar Linkage]]
 - [[Force Analysis of Crank-Slider Linkage]]
-- [[Inverse Dynamics]]
 
 ## Project
 - [[Front Loader Project Script]]

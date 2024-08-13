@@ -19,7 +19,8 @@ $$
 \begin{align}
 X(s)  & =\underbrace{ \frac{F(s)}{ms^{2}+k} }_{ \text{ZSR} }+\underbrace{ \frac{msx(0)+m\dot{x}(0)}{ms^{2}+k} }_{ \text{ZIR} }\\[2ex] 
 	 & =\frac{F(s)/m}{s^{2}+\frac{k}{m}}+\frac{\dot{x}(0)+sx(0)}{s^{2}+\frac{k}{m}}
-\end{align}$$
+\end{align}
+$$
 For the free response (ZIR) case of $F(s)=0$:
 $$
 X(s)_{\text{ZIR}}=\frac{\dot{x}(0)}{s^{2}+\frac{k}{m}}+\frac{sx(0)}{s^{2}+\frac{k}{m}}
