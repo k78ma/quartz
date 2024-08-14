@@ -7,16 +7,12 @@ draft: "true"
 
 ## Aug 13
 
-- [ ] Homework 10 #syde351
-- [ ] Homework 11 #syde351
-- [ ] Tutorial 9 #syde351
-- [ ] Week 12 Thursday Problem 9.9 #syde351
 - [ ] Midterm Review #syde351
-- [ ] Practice Final #syde351
 
 
 ## Aug 14
 
+- [ ] Practice Final #syde351
 - [ ] SYDE 351 Final #syde351
 
 
@@ -233,6 +229,10 @@ draft: "true"
 - [ ] Tutorial 8 #syde351
 - [ ] Homework 9 #syde351
 - [ ] Tutorial 8 #syde351
+- [ ] Homework 10 #syde351
+- [ ] Tutorial 9 #syde351
+- [ ] Week 12 Thursday Problem 9.9 #syde351
+- [ ] Homework 11 #syde351
 
 %% kanban:settings
 ```

@@ -58,3 +58,53 @@ $$
 x(t)_{\text{ZIR (Free response)}}=\left[ \frac{\dot{x}(0)}{\omega_{n}}\sin(\omega_{n}t)+x(0)\cos(\omega_{n}t) \right]u(t)
 $$
 This solution shows that the mass oscillates about the rest position $x = 0$ with a frequency of $\omega_{n}$. The period of the oscillation is $2\pi /\omega_{n}$.
+
+So we have some shit like
+$$
+m\ddot{x}+c\dot{x}+kx=0
+$$
+We assume that $x=e^{st}$. Then:
+$$
+\begin{align}
+\dot{x} & =se^{st} \\
+\ddot{x} & =s^{2}e^{st}
+\end{align}
+$$
+so we have
+$$
+\begin{align}
+ms^{2}e^{st}+cse^{st}+ke^{st}=0 \\
+e^{st}(ms^{2}+cs+k)=0
+\end{align}
+$$
+So we want to solve $ms^{2}+cs+k$. We have $s$ in the form of
+$$
+s=\sigma+j\omega
+$$
+So we have:
+$$
+e^{st}=e^{(\sigma+j\omega)t} = e^{\sigma t}e^{j\omega t}
+$$
+The real part $e^{\sigma t}$ governs the amplitude so if $\sigma>1$ the function explodes, if $\sigma<1$ it's stable. And this is why the time constant $\tau=\frac{1}{| \sigma |}$ because this tells us how it decays.
+
+The imaginary one is a sinusoid like
+$$
+e^{j\omega t}=\cos(\omega t)+j\sin(\omega t)
+$$
+
+Given:
+$$
+s=\sigma+j\omega
+$$
+We have:
+$$
+\begin{align}
+\omega_{d} & =\omega \\[2ex]
+\omega_{n} & =\sqrt{ \sigma^{2}+\omega^{2} } \\[2ex]
+\tau & =\frac{1}{| \sigma |} \\[2ex]
+\zeta & = \frac{\sigma}{\omega_{n}}= \cos\left( \tan ^{-1}\left( \frac{\omega}{\sigma} \right) \right)
+\end{align}
+$$
+- If $\sigma>1$, the system is unstable (increases over time) so $\zeta$ and $\tau$ are undefined.
+- If the roots are real and equal, (eg. $s=-10, -10$ or something), $\omega_{d}$ and $\omega_{n}$ are not defined because there's no oscillation.
+- If there is only one root, the system is first order, so damping $\zeta$ is not defined, and $\omega_{d}$ and $\omega_{n}$ are not defined because there's no oscillation.

@@ -183,7 +183,7 @@ and thus $\beta$ is unique.
 >$$
 >is a cube root of $1$ (meaning its cube equals $1$).
 
-We have
+*Proof.* We have
 $$
 \left( \frac{-1+\sqrt{ 3 }i}{2} \right)^{2}=\frac{1-\sqrt{ 3 }i-\sqrt{ 3 }i-3}{4}=\frac{-2-2\sqrt{ 3 }i}{4}=\frac{-1-\sqrt{ 3 }i}{2}
 $$
@@ -258,7 +258,7 @@ $$
 >\lambda(2-3i, 5+4i, -6+7i)=(12-5i, 7+22i, -32-9i)
 >$$
 
-If such $\lambda \in \mathbb{C}$ exists, then we have
+*Proof.* If such $\lambda \in \mathbb{C}$ exists, then we have
 $$
 \begin{align}
 \lambda(2-3i) & =12-5i \\
@@ -277,29 +277,66 @@ which is impossible. Hence, such $\lambda \in \mathbb{C}$ does not exist.
 >[!question] Problem 11
 >Show that for every $(x+y)+z=x+(y+z)$ for all $x,y,z \in \mathbb{F}^{n}$.
 
-
+*Proof.* We have $x=(x_{1},\dots,x_{n})$, $y=(y_{1}, \dots,y_{n})$ and $z=(z_{1}, \dots,z_{n})$. Then:
+$$
+\begin{align}
+(x+y)+z & =((x_1,\dots,x_{n})+(y_{1},\dots,y_{n}))+(z_{1},\dots,z_{n}) \\
+	 & =(x_{1}+y_{1},\dots,y_{1}+y_{n})+(z_{1},\dots,z_{n}) \\
+	 & =((x_{1}+y_{1})+z_{1},\dots,(x_{n}+y_{n})+z_{n}) \\
+	 & =(x_{1}+(y_{1}+z_{1}),\dots, x_{n}+(y_{n}+z_{n})) \\
+	 & =(x_{1},\dots,x_{n})+(y_{1}+z_{1},\dots,y_{n}+z_{n}) \\
+	 & =(x_{1},\dots,x_{n})+((y_{1},\dots,y_{n})+(z_{1},\dots,z_{n})) \\
+	 & =x+(y+z)
+\end{align}
+$$
 
 
 >[!question] Problem 12
 >Show that for every $(ab)x=a(bx)$ for all $x \in \mathbb{F}^{n}$ and all $a,b \in \mathbb{F}$.
 
-
-
+*Proof.* We have $x=(x_{1},\dots,x_{n})$ and $y=(y_{1},\dots,y_{n})$. Then:
+$$
+\begin{align}
+ab(x) & =ab(x_{1},\dots,x_{n}) \\
+	 & =(ab(x_{1}), \dots,(ab)x_{n}) \\
+	 & =(a(bx_{1}),\dots,a(bx_{n})) \\
+	 & =a(bx_{1},\dots,bx_{n}) \\
+	 & =a(bx)
+\end{align}
+$$
 
 >[!question] Problem 13
 >Show that $1x=x$ for all $x \in \mathbb{F}^{n}$.
 
-
-
-
+*Proof.* We have $x=(x_{1},\dots,x_{n})$. Then
+$$
+1x=1(x_{1},\dots,x_{n})=(1\cdot x_{1},\dots,1\cdot x_{n})=(x_{1},\dots,x_{n})=x
+$$
 
 >[!question] Problem 14
 >Show that $\lambda(x+y) =\lambda x+\lambda y$ for all $\lambda \in \mathbb{F}$ and all $x,y \in \mathbb{F}$.
 
-
-
-
-
+*Proof.* We have $x=(x_{1},\dots,x_{n})$ and $y=(y_{1},\dots,y_{n})$. It follows that:
+$$
+\begin{align}
+\lambda(x+y) & =\lambda((x_{1},\dots,x_{n})+(y_{1},\dots,y_{n})) \\
+	 & =\lambda((x_{1}+y_{1})+\dots+(x_{n}+y_{n})) \\
+	 & =(\lambda(x_{1}+y_{1})+\dots+\lambda(x_{n}+y_{n})) \\
+	 & =((\lambda x_{1}+\dots+\lambda x_{n}))+(\lambda y_{1}+\dots+\lambda y_{n}) \\
+	 & =\lambda x+\lambda y
+\end{align}
+$$
 
 >[!question] Problem 15
 >Show that $(a+b)x =ax+bx$ for all $a,b \in \mathbb{F}$ and all $x \in \mathbb{F}^{n}$.
+
+*Proof.* Suppose $x=(x_{1},\dots,x_{n})$. Then
+$$
+\begin{align}
+(a+b)x & =(a+b)(x_{1},\dots,x_{n}) \\
+	 & = (ax_{1}+bx_{1}, \dots,ax_{n}+bx_{n}) \\
+	 & =(ax_{1},\dots ax_{n})+(bx_{1},\dots,bx_{n}) \\
+	 & =a(x_{1},\dots,x_{n})+b(x_{1},\dots,x_{n}) \\
+	 & =ax+bx
+\end{align}
+$$

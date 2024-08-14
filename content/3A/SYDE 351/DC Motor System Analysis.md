@@ -63,7 +63,7 @@ I \frac{d\omega}{dt} & =T-c\omega-T_{L} \\[2ex]
 	 & =K_{T}i_{a}-c\omega-T_{L}
 \end{align}
 $$
-The two equations above constitute the system model.
+The two equations above constitute the system model.  
 
 We can convert to Laplace domain:
 $$
