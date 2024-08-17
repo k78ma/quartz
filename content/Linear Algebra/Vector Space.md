@@ -67,7 +67,7 @@ The vector space $\mathbb{F}^{n}$ is a special case of the vector space $\mathbb
 - In other words, we can think of $\mathbb{F}^{n}$ as $\mathbb{F}^{\{ 1,2,\dots,n \}}$.
 - Similarly, we can think of $\mathbb{F}^{\infty}$ as $\mathbb{F}^{\{ 1,2,\dots \}}$.
 
-## Elementary Properties of Vector Spaces
+## Elementary Properties
 We need to develop some of the elementary properties of vector spaces.
 ### Unique Additive Identity
 A vector space has a unique additive identity.
