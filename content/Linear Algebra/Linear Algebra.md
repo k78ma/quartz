@@ -24,7 +24,7 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 
 ## Exercises
 - [[LADR Exercises 1A]]
-
+- [[LADR Exercises 1B]]
 
 ## Others
 - [[Geometry of Linear Equations]]

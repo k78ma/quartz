@@ -39,7 +39,9 @@ Linear work is done merging all the elements on each level. Each of the $n$ elem
 The number of elements in a subproblem gets halved at each level. The number of times we can halve $n$ until we get to 1 is $\lg n$. Because the recursion goes $\lg n$ levels deep, and a linear amount of work is done per level, mergesort takes $O(n \log n)$ time in the worst case.
 
 ## Notes
-Mergesort is a great algorithm for sorting linked lists, because it does not rely on random access to elements like [[Heapsort|heapsort]] and [[Quicksort|quicksort]]. Its primary disadvantage is the need for an auxiliary buffer when sorting arrays. It is easy to merge two sorted linked lists without using any extra space, just by rearranging the pointers. However, to merge two sorted arrays (or portions of an array), we need to use a third array to store the result of the merge to avoid stepping on the component arrays. 
+Mergesort is a great algorithm for sorting linked lists, because it does not rely on random access to elements like [[Heapsort|heapsort]] and [[Quicksort|quicksort]]. 
+
+Its primary disadvantage is the need for an auxiliary buffer when sorting arrays. It is easy to merge two sorted linked lists without using any extra space, just by rearranging the pointers. However, to merge two sorted arrays (or portions of an array), we need to use a third array to store the result of the merge to avoid stepping on the component arrays. 
 
 Mergesort is a classic divide-and-conquer algorithm. We are ahead of the game whenever we can break one large problem into two smaller problems, because the smaller problems are easier to solve. The trick is taking advantage of the two partial solutions to construct a solution of the full problem, as we did with the merge operation.
 
