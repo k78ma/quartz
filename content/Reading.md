@@ -11,6 +11,7 @@ Things on the internet:
 - [jsomers.net | I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 - [Main Content | Jeremy Kun](https://www.jeremykun.com/main-content/)
 - [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
+- [An Intuition for Attention](https://jaykmody.com/blog/attention-intuition/)
 - [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
 - [Neural network training makes beautiful fractals | Jascha’s blog](https://sohl-dickstein.github.io/2024/02/12/fractal.html)
 - [colah's blog](https://colah.github.io/)
@@ -18,6 +19,7 @@ Things on the internet:
 - [Sorta Insightful | Alex Irpan](https://www.alexirpan.com/)
 - [Deep Generative Models | CS 326 Notes](https://deepgenerativemodels.github.io/notes/)
 - [Lil'Log | Lilian Weng]
+- [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html)
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
