@@ -7,6 +7,8 @@ date: 2024-07-12
 aliases:
   - mergesort
 ---
+Python implementation here: [implementations/sorting-algorithms/mergesort.py](https://github.com/k78ma/implementations/blob/main/sorting-algorithms/mergesort.py)
+
 Recursive algorithms reduce large problems into smaller ones. Mergesort is a recursive approach to sorting that involves partitioning the elements into two groups, sorting each of the smaller problems recursively, and then interleaving the two sorted lists to totally order the elements.
 $$
 \begin{align}

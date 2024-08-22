@@ -7,6 +7,8 @@ date: 2024-08-16
 aliases:
   - quicksort
 ---
+Python implementation here: [implementations/sorting-algorithms/quicksort.py](https://github.com/k78ma/implementations/blob/main/sorting-algorithms/quicksort.py)
+
 Suppose we select an arbitrary item $p$ from the $n$ items we seek to sort. Quicksort separates the $n-1$ other items into two piles: a low pile containing all the elements that are $<p$, and a high pile containing all the elements that are $\geq p$. Low and high denote the array positions into which we place the respective piles, leaving a single slot between them for $p$.
 
 Such partitioning buys as two things:

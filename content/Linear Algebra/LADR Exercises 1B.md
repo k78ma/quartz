@@ -74,10 +74,7 @@ Why does the multiplicative identity not fail? There are technically no countere
 >0 & \text{ if } t=0 \\
 >\infty & \text{ if }t>0
 >\end{cases}
-> $$
-> and
->$$
-> t(-\infty)=
+> \quad \text{and} \quad t(-\infty)=
 > \begin{cases}
 >\infty & \text{ if } t<0 \\
 >0 & \text{ if } t=0 \\
@@ -103,14 +100,11 @@ $$
 	 & =0
 \end{align}
 $$
-Hence we would have:
-$$
-t=0+t=\infty+t=\infty=0
-$$
-This is a contradiction since the zero vector is unique.
+$\infty=0$ is a contradiction because $\infty$ and $0$ are distinct elements by definition, since the zero vector must be unique.
 
 > [!question] Problem 7
 > Suppose $S$ is a non-empty set. Let $V^{S}$ denote the set of functions from $S$ to $V$. Define a natural addition and scalar multiplication on $V^{S}$, and show that $V^{S}$ is a vector space with these definitions.
+
 
 
 
