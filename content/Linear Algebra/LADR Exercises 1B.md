@@ -113,17 +113,17 @@ $\infty=0$ is a contradiction because $\infty$ and $0$ are distinct elements by 
 > Suppose $V$ is a real vector space.
 > - The *complexification* of $V$, defined by $V_{\mathbb{C}}$, equals $V\times V$. An element of $V_{\mathbb{C}}$ is an ordered pair $(u,v)$, where $u,v\in V$, but we write this as $u+iv$.
 > - Addition on $V_{\mathbb{C}}$ is defined by
->  $$
->  (u_{1}+iv_{1})+(u_{2}+iv_{2})=(u_{1}+u_{2})+i(v_{1}+v_{2}) 
-> $$
+>$$
+>(u_{1}+iv_{1})+(u_{2}+iv_{2})=(u_{1}+u_{2})+i(v_{1}+v_{2}) 
+>$$
 > for all $u_{1},v_{1},u_{2},v_{2}\in V$.
 > - Complex scalar multiplication on $V$ is defined by
->   $$
->  (a+bi)(u+iv)=(au-bv)+i(av+bu)
->  $$
->  for all $a,b\in \mathbb{R}$ and all $u,v \in V$.
+>$$
+>(a+bi)(u+iv)=(au-bv)+i(av+bu)
+>$$
+>for all $a,b\in \mathbb{R}$ and all $u,v \in V$.
 >  
-> Prove that with the definitions of addition and scalar multiplication as above, $V_{\mathbb{C}}$ is a complex vector space.
+>Prove that with the definitions of addition and scalar multiplication as above, $V_{\mathbb{C}}$ is a complex vector space.
 > 
-> *Think of $V$ as a subset of $V_{\mathbb{C}}$ by identifying $u\in V$ with $u+i0$. The construction of $V_{\mathbb{C}}$ from $V$ can then be thought of as generalizing the construction of $\mathbb{C}^{n}$ from $\mathbb{R}^{n}$ .*
+>*Think of $V$ as a subset of $V_{\mathbb{C}}$ by identifying $u\in V$ with $u+i0$. The construction of $V_{\mathbb{C}}$ from $V$ can then be thought of as generalizing the construction of $\mathbb{C}^{n}$ from $\mathbb{R}^{n}$ .*
 
