@@ -3,55 +3,35 @@ title: Subspaces
 tags: []
 date: 2023-09-01
 ---
-Let’s say we have:
-$$
-A = \begin{bmatrix}
-1 & 0 & 0 \\
--1 & 1 & 0 \\
-0 & -1 & 1
-\end{bmatrix}, ~ ~
-C = \begin{bmatrix}
-1 & 0 & -1 \\
--1 & 1 & 0 \\
-0 & -1 & 1
-\end{bmatrix}
-$$
-The columns of $C$ lie in the same plane such that they are *dependent*, and the columns of $A$ are *independent*, (see [[Linear Independence|Linear Independence]] and [[Vector Combinations|Vector Combinations]]). 
+A subset $U$ of $V$ is called a *subspace* of $V$ if $U$ is also a vector space with the same additive identity, addition, and scalar multiplication as on $V$.
 
-There are many vectors in $\mathbb{R}^3$ that don’t lie in the plane; these vectors cannot be written as a linear combination of the columns of $C$ and so correspond to values of $\vec{b}$ for which $C\vec{x}=\vec{b}$ has no solution $\vec{x}$. The linear combinations of the columns of $C$ form a 2-dimensional *subspace* of $\mathbb{R}^3$.
+## Conditions
+How do we check whether the subset of a vector space is a subspace? 
 
-This plane of combinations of $\vec{u}, \vec{v},\vec{w}$ (the columns of $C$) can be described as “all vectors $C\vec{x}$”. But we know that vectors $\vec{b}$ for which $C\vec{x}=\vec{b}$ satisfy the condition $b_{1}+b_{2}+b_{3}=0$ (from [[Matrix Basics#A Second Example|this example]]). So the plane of all combinations of $\vec{u}$ and $\vec{v}$ consists of all vectors whose combinations sum to $0$.
+A subset $U$ of $V$ is a subspace of $V$ if and only if $U$ satisfies the following three conditions:
+- **Additive identity:** $0 \in U$.
+- **Closed under addition:** $u,w\in U$ implies $u+w\in U$.
+- **Closed under scalar multiplication:** $a\in \mathbb{F}$ and $u\in U$ implies $au\in U$.
 
-On the other hand, if we take $A$, such that we have columns 
-$$
-\vec{u}=\begin{bmatrix}
-1 \\
--1 \\
-0
-\end{bmatrix},
-\vec{v}=\begin{bmatrix}
-0 \\
-1 \\
--1
-\end{bmatrix},
-\vec{w}=\begin{bmatrix}
-0 \\
-0 \\
-1
-\end{bmatrix}
-$$
-we get the entire space $\mathbb{R}^3$; the equation $A\vec{x}=\vec{b}$ has a solution for every $\vec{b}$ in $\mathbb{R}^{3}$. We say that $\vec{u}, \vec{v},\vec{w}$ form a *basis* for $\mathbb{R}^{3}$.
+*Proof*. If $U$ is a subspace of $V$, then $U$ satisfies the three conditions above by the definition of vector space. Conversely, suppose $U$ satisfies the three conditions above. The first condition ensures that the additive identity of $V$ is in $U$. The second condition ensures that addition makes sense on $U$. The third condition ensures that scalar multiplication makes sense on $U$.
 
->[!info] Basis, Vector Space, Subspace
->A *basis* for $\mathbb{R}^n$ is a collection of $n$ independent vectors in $\mathbb{R}^n$. Equivalently, a basis is a collection of $n$ vectors whose combinations cover the whole space. Or, a collection of vectors forms a basis whenever a matrix has those vectors as its columns is invertible.
->
->- A *vector space* is a collection of vectors that is closed under linear combinations.
->- A *subspace* is a vector space inside another vector space; a plane through the origin in $\mathbb{R}^3$ is an example of a subspace.
->	- A subspace could be equal to the space it’s contained in
->	- The small space contains only the zero vector $\vec{0}$
+If $u\in U$, then $-u$ (which is equal to $(-1)u$) is also in $U$ by the third condition above. Hence, every element of $U$ has an additive inverse in $U$.
 
-The subspaces of $\mathbb{R}^3$ are:
-- The origin
-- A line through the origin
-- A plane through the origin
-- All of $\mathbb{R}^{3}$
+The other parts of the definition of a vector space, such associativity and commutativity, are automatically satisfied for $U$ because they hold on the larger space $V$. Thus, $U$ is a vector space and hence is a subspace of $V$.  **Q.E.D.**
+
+The set $\{ 0 \}$ is the smallest subspace of $V$, and $V$ itself is the largest subspace of $V$. The empty set is not a subspace of $V$ because a subspace must be a vector space and hence must contain at least one element, namely, an additive identity.
+
+> [!example]- Subspace Example 1
+> If $b\in \mathbb{F}$, then $\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{F}^{4}: x_{3}=5x_{4}+b \}$ is a subspace of $\mathbb{F}^{4}$ if and only if $b=0$.
+
+> [!example]- Subspace Example 2
+> The set of continuous real-valued functions on the interval $[0,1]$ is a subspace of $\mathbb{R}^{[0,1]}$.
+
+> [!example]- Subspace Example 3
+> The set of differentiable real-valued functions on $\mathbb{R}$ is a subspace of $\mathbb{R}^{\mathbb{R}}$.
+
+> [!example]- Subspace Example 4
+> The set of differentiable real-valued functions $f$ on the interval $(0,3)$ such that $f'(2)=b$ is a subspace of $\mathbb{R}^{(0,3)}$ if and only if $b=0$.
+
+> [!example]- Subspace Example 5
+> The set of all sequences of complex numbers with limit 0 is a subspace of $\mathbb{C}^{\infty}$.

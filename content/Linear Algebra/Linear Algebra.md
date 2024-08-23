@@ -31,6 +31,6 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Vector Combinations]]
 - [[Matrix Basics]]
 	- [[Matrix-Vector Multiplication]]
-- [[Subspaces|Subspaces]]
+- [[Subspace Basics]]
 - [[Singular Value Decomposition]]
 - [[Cholesky Decomposition]]

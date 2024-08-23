@@ -17,7 +17,6 @@ draft: "true"
 
 ## Algorithm Design Manual
 
-- [ ] 5 - Divide and Conquer
 - [ ] 5.1 - Binary Search and Related Algorithms
 - [ ] 5.1.1 - Counting Occurrences
 - [ ] 5.1.2 - One-Sided Binary Search
@@ -182,6 +181,160 @@ draft: "true"
 - [ ] 12.11 - Exercises
 - [ ] 13 - How to Design Algorithms
 - [ ] 13.1 - Preparing for Tech Company Interviews
+
+
+## LADR
+
+- [ ] **Chapter 1: Vector Spaces**
+- [ ] 1C Subspaces
+- [ ] Sums of Subspaces
+- [ ] Direct Sums
+- [ ] Exercises 1C
+- [ ] **Chapter 2: Finite-Dimensional Vector Spaces**
+- [ ] 2A Span and Linear Independence
+- [ ] Linear Combinations and Span
+- [ ] Linear Independence
+- [ ] Exercises 2A
+- [ ] 2B Bases
+- [ ] Exercises 2B
+- [ ] 2C Dimension
+- [ ] Exercises 2C
+- [ ] **Chapter 3: Linear Maps**
+- [ ] 3A Vector Space of Linear Maps
+- [ ] Definition and Examples of Linear Maps
+- [ ] Algebraic Operations on ℒ(𝑉, 𝑊)
+- [ ] Exercises 3A
+- [ ] 3B Null Spaces and Ranges
+- [ ] Null Space and Injectivity
+- [ ] Range and Surjectivity
+- [ ] Fundamental Theorem of Linear Maps
+- [ ] Exercises 3B
+- [ ] 3C Matrices
+- [ ] Representing a Linear Map by a Matrix
+- [ ] Addition and Scalar Multiplication of Matrices
+- [ ] Matrix Multiplication
+- [ ] Column–Row Factorization and Rank of a Matrix
+- [ ] Exercises 3C
+- [ ] 3D Invertibility and Isomorphisms
+- [ ] Invertible Linear Maps
+- [ ] Isomorphic Vector Spaces
+- [ ] Linear Maps Thought of as Matrix Multiplication
+- [ ] Change of Basis
+- [ ] Exercises 3D
+- [ ] 3E Products and Quotients of Vector Spaces
+- [ ] Products of Vector Spaces
+- [ ] Quotient Spaces
+- [ ] Exercises 3E
+- [ ] 3F Duality
+- [ ] Dual Space and Dual Map
+- [ ] Null Space and Range of Dual of Linear Map
+- [ ] Matrix of Dual of Linear Map
+- [ ] Exercises 3F
+- [ ] **Chapter 4: Polynomials**
+- [ ] Zeros of Polynomials
+- [ ] Division Algorithm for Polynomials
+- [ ] Factorization of Polynomials over 𝐂
+- [ ] Factorization of Polynomials over 𝐑
+- [ ] Exercises 4
+- [ ] **Chapter 5: Eigenvalues and Eigenvectors**
+- [ ] 5A Invariant Subspaces
+- [ ] Eigenvalues
+- [ ] Polynomials Applied to Operators
+- [ ] Exercises 5A
+- [ ] 5B The Minimal Polynomial
+- [ ] Existence of Eigenvalues on Complex Vector Spaces
+- [ ] Eigenvalues and the Minimal Polynomial
+- [ ] Eigenvalues on Odd-Dimensional Real Vector Spaces
+- [ ] Exercises 5B
+- [ ] 5C Upper-Triangular Matrices
+- [ ] Exercises 5C
+- [ ] 5D Diagonalizable Operators
+- [ ] Diagonal Matrices
+- [ ] Conditions for Diagonalizability
+- [ ] Gershgorin Disk Theorem
+- [ ] Exercises 5D
+- [ ] 5E Commuting Operators
+- [ ] Exercises 5E
+- [ ] **Chapter 6: Inner Product Spaces**
+- [ ] 6A Inner Products and Norms
+- [ ] Inner Products
+- [ ] Norms
+- [ ] Exercises 6A
+- [ ] 6B Orthonormal Bases
+- [ ] Orthonormal Lists and the Gram–Schmidt Procedure
+- [ ] Linear Functionals on Inner Product Spaces
+- [ ] Exercises 6B
+- [ ] 6C Orthogonal Complements and Minimization Problems
+- [ ] Orthogonal Complements
+- [ ] Minimization Problems
+- [ ] Pseudoinverse
+- [ ] Exercises 6C
+- [ ] **Chapter 7: Operators on Inner Product Spaces**
+- [ ] 7A Self-Adjoint and Normal Operators
+- [ ] Adjoints
+- [ ] Self-Adjoint Operators
+- [ ] Normal Operators
+- [ ] Exercises 7A
+- [ ] 7B Spectral Theorem
+- [ ] Real Spectral Theorem
+- [ ] Complex Spectral Theorem
+- [ ] Exercises 7B
+- [ ] 7C Positive Operators
+- [ ] Exercises 7C
+- [ ] 7D Isometries, Unitary Operators, and Matrix Factorization
+- [ ] Isometries
+- [ ] Unitary Operators
+- [ ] QR Factorization
+- [ ] Cholesky Factorization
+- [ ] Exercises 7D
+- [ ] 7E Singular Value Decomposition
+- [ ] Singular Values
+- [ ] SVD for Linear Maps and for Matrices
+- [ ] Exercises 7E
+- [ ] 7F Consequences of Singular Value Decomposition
+- [ ] Norms of Linear Maps
+- [ ] Approximation by Linear Maps with Lower-Dimensional Range
+- [ ] Polar Decomposition
+- [ ] Operators Applied to Ellipsoids and Parallelepipeds
+- [ ] Volume via Singular Values
+- [ ] Properties of an Operator as Determined by Its Eigenvalues
+- [ ] Exercises 7F
+- [ ] **Chapter 8: Operators on Complex Vector Spaces**
+- [ ] 8A Generalized Eigenvectors and Nilpotent Operators
+- [ ] Null Spaces of Powers of an Operator
+- [ ] Generalized Eigenvectors
+- [ ] Nilpotent Operators
+- [ ] Exercises 8A
+- [ ] 8B Generalized Eigenspace Decomposition
+- [ ] Generalized Eigenspaces
+- [ ] Multiplicity of an Eigenvalue
+- [ ] Block Diagonal Matrices
+- [ ] Exercises 8B
+- [ ] 8C Consequences of Generalized Eigenspace Decomposition
+- [ ] Square Roots of Operators
+- [ ] Jordan Form
+- [ ] Exercises 8C
+- [ ] 8D Trace: A Connection Between Matrices and Operators
+- [ ] Exercises 8D
+- [ ] **Chapter 9: Multilinear Algebra and Determinants**
+- [ ] 9A Bilinear Forms and Quadratic Forms
+- [ ] Bilinear Forms
+- [ ] Symmetric Bilinear Forms
+- [ ] Quadratic Forms
+- [ ] Exercises 9A
+- [ ] 9B Alternating Multilinear Forms
+- [ ] Multilinear Forms
+- [ ] Alternating Multilinear Forms and Permutations
+- [ ] Exercises 9B
+- [ ] 9C Determinants
+- [ ] Defining the Determinant
+- [ ] Properties of Determinants
+- [ ] Exercises 9C
+- [ ] 9D Tensor Products
+- [ ] Tensor Product of Two Vector Spaces
+- [ ] Tensor Product of Inner Product Spaces
+- [ ] Tensor Product of Multiple Vector Spaces
+- [ ] Exercises 9D
 
 
 ## Understanding Deep Learning
@@ -1304,6 +1457,14 @@ draft: "true"
 - [ ] 4.7.1 - Lower Bounds for Sorting
 - [ ] 4.8 - War Story: Skiena for the Defense
 - [ ] 4 - Sorting
+- [ ] 5 - Divide and Conquer
+- [ ] Complex Numbers
+- [ ] Lists
+- [ ] 𝐅ⁿ
+- [ ] Digression on Fields
+- [ ] Exercises 1A
+- [ ] 1B Definition of Vector Space
+- [ ] Exercises 1B
 
 %% kanban:settings
 ```

@@ -27,6 +27,7 @@ def search(self, nums: List[int], target: int) -> int:
 			l = m + 1
 		elif nums[m] == target:
 			return m
+			
 	return -1
 ```
 
