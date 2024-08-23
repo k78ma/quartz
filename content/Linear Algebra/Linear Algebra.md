@@ -18,6 +18,8 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Vector Space]]
 ### Subspaces
 - [[Subspaces]]
+- [[Sums of Subspaces]]
+- [[Direct Sums]]
 
 ## Finite-Dimensional Vector Spaces
 

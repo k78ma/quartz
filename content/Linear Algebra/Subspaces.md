@@ -13,11 +13,21 @@ A subset $U$ of $V$ is a subspace of $V$ if and only if $U$ satisfies the follow
 - **Closed under addition:** $u,w\in U$ implies $u+w\in U$.
 - **Closed under scalar multiplication:** $a\in \mathbb{F}$ and $u\in U$ implies $au\in U$.
 
-*Proof*. If $U$ is a subspace of $V$, then $U$ satisfies the three conditions above by the definition of vector space. Conversely, suppose $U$ satisfies the three conditions above. The first condition ensures that the additive identity of $V$ is in $U$. The second condition ensures that addition makes sense on $U$. The third condition ensures that scalar multiplication makes sense on $U$.
+How do we prove that a subset $U$ that satisfies those conditions is a vector space with the same additive identity, addition, and scalar multiplication as on $V$?
 
-If $u\in U$, then $-u$ (which is equal to $(-1)u$) is also in $U$ by the third condition above. Hence, every element of $U$ has an additive inverse in $U$.
-
-The other parts of the definition of a vector space, such associativity and commutativity, are automatically satisfied for $U$ because they hold on the larger space $V$. Thus, $U$ is a vector space and hence is a subspace of $V$.  **Q.E.D.**
+> [!proof] Proof
+>If $U$ is already known to be a subspace of $V$, then $U$ satisfies the three conditions above by the definition of vector space. 
+>
+>Conversely, suppose $U$ satisfies the three conditions above. 
+>- The first condition ensures that the additive identity of $V$ is in $U$. 
+>- The second condition ensures that addition makes sense on $U$. 
+>- The third condition ensures that scalar multiplication makes sense on $U$.
+>
+>If $u\in U$, then $-u$ (which is equal to $(-1)u$) is also in $U$ by the third condition above. Hence, every element of $U$ has an additive inverse in $U$.
+>
+>The other parts of the definition of a vector space, such associativity and commutativity, are automatically satisfied for $U$ because they hold on the larger space $V$. Thus, $U$ is a vector space and hence is a subspace of $V$.  
+>
+>**Q.E.D.**
 
 The set $\{ 0 \}$ is the smallest subspace of $V$, and $V$ itself is the largest subspace of $V$. The empty set is not a subspace of $V$ because a subspace must be a vector space and hence must contain at least one element, namely, an additive identity.
 
