@@ -112,14 +112,66 @@ Definitions:
 - **Scalar multiplication:** For any scalar $\alpha \in \mathbb{F}$, and any function $f\in V^{S}$, we define scalar multiplication $(\alpha f)\in V^{S}$ by $(\alpha f)(s)=\alpha \cdot f(s)$ for all $s \in S$. Here, $\alpha \cdot f(s)$ is the usual scalar multiplication in $V$.
 
 With the above properties, we can show that $V^{S}$ is a vector space by verifying the properties of vector spaces:
-- **Commutativity:** $(f+g)(s)=f(s)+g(s)=g(s)+f(s)=(g+f)(s)$. Therefore, $f+g=g+f$.
-- **Associativity of Addition:** $((f+g)+h)(s)=(f+g)(s)+h(s)=(f(s)+g(s))+h(s)$. Since $f(s), g(s), h(s)$ are elements of $V$, we can use associativity in $V$ to have $(f(s)+g(s))+h(s)=f(s)+(g(s)+h(s))=(f+(g+h))(s)$. Therefore, $(f+g)+h=f+(g+h)$.
-- **Associativity of Multiplication:** For all $a,b \in \mathbb{F}$ and $f\in V^{S}$, we have $((ab)f)(s)=(ab)\cdot f(s)$. We can then use associativity in $V$ to get $(ab)\cdot f(s)=a\cdot(b\cdot f(s))=(a(bf))(s)$. Therefore, $(ab)f=a(bf)$.
-- **Additive Identity:** Define a zero function $0\in V^{S}$ by $0(s)=0_{V}$ for all $s \in S$, where $0_{V}$ is the zero vector in $V$. Then, for any $f\in V^{S}$, we have $(f+0)(s)=f(s)+0(s)=f(s)+0_{V}=f(s)$. Therefore $f+0=f$.
-- **Additive Inverse:** For any $f\in V^{S}$, define $-f\in V^{S}$ by $(-f)(s)=-f(s)$ for all $s\in S$. Then, we have $(f+(-f))(s)=f(s)+(-f(s))=0_{V}$. Therefore, $f+(-f)=0$, showing that $-f$ is the additive inverse of $f$ in $V^{S}$.
-- **Multiplicative Identity:** For the scalar $1\in \mathbb{F}$ and any $f\in V^{S}$, we have $(1f)(s)=1\cdot f(s)=f(s)$. Therefore, $1f=f$.
-- **Distribute Property 1:** For all $a\in \mathbb{F}$ and $f,g\in V^{S}$, we have $(a(f+g))(s)=a\cdot(f+g)(s)=a\cdot (f(s)+g(s))$. Then, using the distributive property in $V$, we have $a\cdot(f(s)+g(s))=a\cdot f(s)+a\cdot g(s)=(af)(s)+(ag)(s)$. Therefore, we have $a(f+g)=af+ag$.
-- **Distributive Property 2:** For all $a,b\in \mathbb{F}$ and $f\in V^{S}$, we have $((a+b)f)(s)=(a+b)\cdot f(s)$. By the distributive property in $V$, we have $(a+b)\cdot f(s)=a\cdot f(s)+b \cdot f(s)=(af)(s)+(bf)(s)$. Therefore, we have $(a+b)f=af+bf$.
+
+**Commutativity:** We have
+$$
+(f+g)(s)=f(s)+g(s)=g(s)+f(s)=(g+f)(s)
+$$
+Therefore, $f+g=g+f$.
+
+**Associativity of Addition:** We have
+$$
+((f+g)+h)(s)=(f+g)(s)+h(s)=(f(s)+g(s))+h(s)
+$$
+Since $f(s), g(s), h(s)$ are elements of $V$, we can use associativity in $V$ to have
+$$
+(f(s)+g(s))+h(s)=f(s)+(g(s)+h(s))=(f+(g+h))(s)
+$$
+Therefore, $(f+g)+h=f+(g+h)$.
+
+**Associativity of Multiplication:** For all $a,b \in \mathbb{F}$ and $f\in V^{S}$, we have
+$$
+((ab)f)(s)=(ab)\cdot f(s)
+$$
+We can then use associativity in $V$ to get
+$$
+(ab)\cdot f(s)=a\cdot(b\cdot f(s))=(a(bf))(s)
+$$
+Therefore, $(ab)f=a(bf)$.
+
+**Additive Identity:** Define a zero function $0\in V^{S}$ by $0(s)=0_{V}$ for all $s \in S$, where $0_{V}$ is the zero vector in $V$. Then, for any $f\in V^{S}$, we have
+$$
+(f+0)(s)=f(s)+0(s)=f(s)+0_{V}=f(s)
+$$
+Therefore $f+0=f$.
+
+**Additive Inverse:** For any $f\in V^{S}$, define $-f\in V^{S}$ by $(-f)(s)=-f(s)$ for all $s\in S$. Then, we have
+$$
+(f+(-f))(s)=f(s)+(-f(s))=0_{V}
+$$
+Therefore, $f+(-f)=0$, showing that $-f$ is the additive inverse of $f$ in $V^{S}$.
+
+**Multiplicative Identity:** For the scalar $1\in \mathbb{F}$ and any $f\in V^{S}$, we have $(1f)(s)=1\cdot f(s)=f(s)$. Therefore, $1f=f$.
+
+**Distribute Property 1:** For all $a\in \mathbb{F}$ and $f,g\in V^{S}$, we have
+$$
+(a(f+g))(s)=a\cdot(f+g)(s)=a\cdot (f(s)+g(s))
+$$
+Then, using the distributive property in $V$, we have
+$$
+a\cdot(f(s)+g(s))=a\cdot f(s)+a\cdot g(s)=(af)(s)+(ag)(s)
+$$
+Therefore, we have $a(f+g)=af+ag$.
+
+**Distributive Property 2:** For all $a,b\in \mathbb{F}$ and $f\in V^{S}$, we have
+$$
+((a+b)f)(s)=(a+b)\cdot f(s)
+$$
+By the distributive property in $V$, we have
+$$
+(a+b)\cdot f(s)=a\cdot f(s)+b \cdot f(s)=(af)(s)+(bf)(s)
+$$
+Therefore, we have $(a+b)f=af+bf$.
 
 > [!question] Problem 8
 > Suppose $V$ is a real vector space.
@@ -139,3 +191,6 @@ With the above properties, we can show that $V^{S}$ is a vector space by verifyi
 > 
 >*Think of $V$ as a subset of $V_{\mathbb{C}}$ by identifying $u\in V$ with $u+i0$. The construction of $V_{\mathbb{C}}$ from $V$ can then be thought of as generalizing the construction of $\mathbb{C}^{n}$ from $\mathbb{R}^{n}$ .*
 
+The complexification $V_{\mathbb{C}}$ of a real vector space $V$ is a complex vector space; so, we're just showing that $V_{\mathbb{C}}$ behaves like $\mathbb{C}^{n}$ as a vector space over $\mathbb{C}$.
+
+Thus, this is essentially just showing commutativity, associativity, additive and multiplicative identities, additive inverse, and distributive properties for complex numbers. Much of this is done in [[LADR Exercises 1A]].
