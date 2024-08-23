@@ -3,7 +3,7 @@ title: Subspaces
 tags: []
 date: 2023-09-01
 ---
-A subset $U$ of $V$ is called a *subspace* of $V$ if $U$ is also a vector space with the same additive identity, addition, and scalar multiplication as on $V$.
+A subset $U$ of $V$ is called a *subspace* of $V$ if $U$ is also a [[Vector Space|vector space]] with the same additive identity, addition, and scalar multiplication as on $V$.
 
 ## Conditions
 How do we check whether the subset of a vector space is a subspace? 
@@ -18,7 +18,7 @@ How do we prove that a subset $U$ that satisfies those conditions is a vector sp
 > [!proof] Proof
 >If $U$ is already known to be a subspace of $V$, then $U$ satisfies the three conditions above by the definition of vector space. 
 >
->Conversely, suppose $U$ satisfies the three conditions above. 
+>Conversely, suppose a subset $U$ satisfies the three conditions above. How do we know that $U$ is a vector space with the same properties as $V$ (hence being a subspace)? The three conditions tell us the following:
 >- The first condition ensures that the additive identity of $V$ is in $U$. 
 >- The second condition ensures that addition makes sense on $U$. 
 >- The third condition ensures that scalar multiplication makes sense on $U$.
