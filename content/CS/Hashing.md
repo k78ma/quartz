@@ -5,6 +5,7 @@ tags:
 date: 2023-06-25
 aliases:
   - hash function
+  - hashing
 ---
 Hashing is a practical way of maintaining a [[Dictionary|dictionary]], taking advantage of the fact that looking an item up in an array takes constant time once you have its index. With a hash function, we can create a [[Hash Table Example|hash table]] for fast look-ups.
 

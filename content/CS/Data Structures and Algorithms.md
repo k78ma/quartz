@@ -59,7 +59,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 	- [[Heap Data Structure|Heaps]]
 - [[Mergesort]]
 - [[Quicksort]]
-- [[Distribution Sort]]
+- [[Bucketsort]]
+- [[Sorting Algorithm Lower Bounds]]
 
 ## Divide and Conquer
 - [[Fast Exponentiation Algorithm]]

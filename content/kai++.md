@@ -17,12 +17,10 @@ draft: "true"
 
 ## Algorithm Design Manual
 
+- [ ] 1.10 - Exercises
+- [ ] 2.11 - Exercises
+- [ ] 3.10 - Exercises
 - [ ] 4 - Sorting
-- [ ] 4.4 - War Story: Give me a Ticket on an Airplane
-- [ ] 4.5 - Mergesort: Sorting by Divide and Conquer
-- [ ] 4.6 - Quicksort: Sorting by Randomization
-- [ ] 4.6.1 - Intuition: The Expected Case for Quicksort
-- [ ] 4.6.2 - Randomized Algorithms
 - [ ] 4.6.3 - Is Quicksort Really Quick?
 - [ ] 4.7 - Distribution Sort: Sorting via Bucketing
 - [ ] 4.7.1 - Lower Bounds for Sorting
@@ -193,9 +191,6 @@ draft: "true"
 - [ ] 12.11 - Exercises
 - [ ] 13 - How to Design Algorithms
 - [ ] 13.1 - Preparing for Tech Company Interviews
-- [ ] 1.10 - Exercises
-- [ ] 2.11 - Exercises
-- [ ] 3.10 - Exercises
 
 
 ## Understanding Deep Learning
@@ -1308,6 +1303,11 @@ draft: "true"
 - [ ] 4.3 - Heapsort: Fast Sorting via Data Structures
 - [ ] 4.3.4 - Faster Heap Construction (*)
 - [ ] 4.3.5 - Sorting by Incremental Insertion
+- [ ] 4.4 - War Story: Give me a Ticket on an Airplane
+- [ ] 4.5 - Mergesort: Sorting by Divide and Conquer
+- [ ] 4.6 - Quicksort: Sorting by Randomization
+- [ ] 4.6.1 - Intuition: The Expected Case for Quicksort
+- [ ] 4.6.2 - Randomized Algorithms
 
 %% kanban:settings
 ```

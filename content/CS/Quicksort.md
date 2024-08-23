@@ -7,7 +7,7 @@ date: 2024-08-16
 aliases:
   - quicksort
 ---
-Python implementation here: [implementations/sorting-algorithms/quicksort.py](https://github.com/k78ma/implementations/blob/main/sorting-algorithms/quicksort.py)
+Python implementation here: [implementations/sorting-algorithms/quicksort.py](https://github.com/k78ma/implementations/blob/main/sorting-algorithms/quicksort.py). When implemented well, quicksort is typically two to three times faster than [[Mergesort|mergesort]] or [[Heapsort|heapsort]].
 
 Suppose we select an arbitrary item $p$ from the $n$ items we seek to sort. Quicksort separates the $n-1$ other items into two piles: a low pile containing all the elements that are $<p$, and a high pile containing all the elements that are $\geq p$. Low and high denote the array positions into which we place the respective piles, leaving a single slot between them for $p$.
 
@@ -72,6 +72,8 @@ How likely is it that a randomly selected pivot is a good one? The best possible
 
 Suppose we say a key is a *good enough* pivot if it lies in the center half of the sorted space of keys – those ranked from $n / 4$ to $3n / 4$ in the space of all keys to be sorted. Such *good enough* pivot elements are quite plentiful, since half the elements lie closer to the middle than to one of the two ends, so we have a probability of $1/2$ of picking one. We will make good progress towards sorting whenever we pick a good enough pivot.
 
+![[Quicksort-1.png]]
+
 The worst possibly *good enough* pivot leaves the bigger of the two partitions with $3n/4$ items. This is also the expected size (idea of [[Expected Value|expected value]]) of the larger partition left after picking a random pivot $p$, at the median between the worse possible pivot ($p=1$ or $p=n$ leaving a partition of size $n-1$), and the best possible pivot ($p= n/2$ leaving two partitions of size $n / 2$). 
 
 So what is the height $h_{g}$ of a quicksort partition tree constructed repeatedly from the expected pivot value? The deepest path through this tree passes through partitions of size $n, (3 / 4)n, (3 / 4)^{2}n, \dots,$ down to $1$. How many times can we multiply $n$ by $3 / 4$ until it gets down to $1$?
@@ -83,3 +85,12 @@ so $h_{g}=\log_{4/3}n$.
 - On average, random quicksort partition trees (and by analogy, [[Binary Search Tree|binary search trees]] under random insertion) are very good. More careful analysis shows the average height after $n$ insertions is approximately $2\ln n$. Since $2 \ln n\approx 1.386\lg n$, this is only 39% taller than a perfectly balanced binary tree. 
 - Since quicksort does $O(n)$ work partitioning on each level, the average time is $O(n\log n)$.
 - If we are extremely unlucky, and our randomly selected elements are always among the largest or smallest element in the array, quicksort turns into selection sort and runs in $O(n^{2})$, but the odds against this are vanishingly small.
+
+## Randomization
+Our quicksort implementation selected the last element in each sub-array as a pivot. If this program were given a sorted array as input, then at each step it would pick the worst possible pivot, and run in quadratic time.
+
+For any [[Stochastic vs. Deterministic|deterministic]] method of pivot selection, there exists a worst-case input instance which will doom us to quadratic time. We can only claim that quicksort runs in $\Theta(n \log n)$ time, with high probability, *if we give it randomly ordered data to sort*. 
+
+But what if we add an initial step where we randomly permute the order of $n$ elements before we try to solve them. This can be done in $O(n)$ time (see [[Random Number Generation|random number generation]]). This seems like a lot of work but provides the guarantee that we can expect $\Theta(n\log n)$ running time whatever the initial input was. The worst case performance still can happen, but it now depends only upon how unlucky we are. Now, we can claim that randomized quicksort runs in $Θ(n \log n)$ time on *any input*, with high probability.
+
+Alternatively, we can get the same guarantee by selecting a random element to be the pivot at each step. 
