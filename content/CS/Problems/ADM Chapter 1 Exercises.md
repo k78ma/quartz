@@ -49,7 +49,9 @@ $$
 $$
 
 >[!question] Exercise 1-4
->Design/draw a road network with two points a and b such that the shortest route between a and b is not the route with the fewest turns.
+>Design/draw a road network with two points $a$ and $b$ such that the shortest route between $a$ and $b$ is not the route with the fewest turns.
+
+Just a short route with a lot of turns.
 
 ## Proofs of Correctness
 

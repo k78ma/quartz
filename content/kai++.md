@@ -17,15 +17,6 @@ draft: "true"
 
 ## Algorithm Design Manual
 
-- [ ] 1.10 - Exercises
-- [ ] 2.11 - Exercises
-- [ ] 3.10 - Exercises
-- [ ] 4 - Sorting
-- [ ] 4.6.3 - Is Quicksort Really Quick?
-- [ ] 4.7 - Distribution Sort: Sorting via Bucketing
-- [ ] 4.7.1 - Lower Bounds for Sorting
-- [ ] 4.8 - War Story: Skiena for the Defense
-- [ ] 4.9 - Exercises
 - [ ] 5 - Divide and Conquer
 - [ ] 5.1 - Binary Search and Related Algorithms
 - [ ] 5.1.1 - Counting Occurrences
@@ -1308,6 +1299,11 @@ draft: "true"
 - [ ] 4.6 - Quicksort: Sorting by Randomization
 - [ ] 4.6.1 - Intuition: The Expected Case for Quicksort
 - [ ] 4.6.2 - Randomized Algorithms
+- [ ] 4.6.3 - Is Quicksort Really Quick?
+- [ ] 4.7 - Distribution Sort: Sorting via Bucketing
+- [ ] 4.7.1 - Lower Bounds for Sorting
+- [ ] 4.8 - War Story: Skiena for the Defense
+- [ ] 4 - Sorting
 
 %% kanban:settings
 ```

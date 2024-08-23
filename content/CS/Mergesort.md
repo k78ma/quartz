@@ -45,7 +45,7 @@ Mergesort is a great algorithm for sorting linked lists, because it does not rel
 
 Its primary disadvantage is the need for an auxiliary buffer when sorting arrays. It is easy to merge two sorted linked lists without using any extra space, just by rearranging the pointers. However, to merge two sorted arrays (or portions of an array), we need to use a third array to store the result of the merge to avoid stepping on the component arrays. 
 
-Mergesort is a classic divide-and-conquer algorithm. We are ahead of the game whenever we can break one large problem into two smaller problems, because the smaller problems are easier to solve. The trick is taking advantage of the two partial solutions to construct a solution of the full problem, as we did with the merge operation.
+Mergesort is a classic [[Divide and Conquer Algorithms|divide-and-conquer algorithm]]. We are ahead of the game whenever we can break one large problem into two smaller problems, because the smaller problems are easier to solve. The trick is taking advantage of the two partial solutions to construct a solution of the full problem, as we did with the merge operation.
 
 ## Implementation
 The divide-and-conquer `mergesort` routine follows naturally from the pseudocode:

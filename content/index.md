@@ -11,7 +11,6 @@ Welcome to my notes!
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
 ### Currently Focused On
-- [[Tron 3A]]
 - [[Machine Learning|Machine Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]

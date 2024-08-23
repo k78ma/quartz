@@ -10,7 +10,7 @@ aliases:
 ---
 Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https://algo.monster/dashboard).
 
-**The Algorithm Design Manual**   <progress max=447 value=149> </progress> 
+**The Algorithm Design Manual**   <progress max=447 value=163> </progress> 
 ## Algorithmic Analysis
 - [[Algorithmic Correctness]]
 - [[RAM Model of Computation]]
@@ -63,10 +63,10 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Sorting Algorithm Lower Bounds]]
 
 ## Divide and Conquer
-- [[Fast Exponentiation Algorithm]]
+- [[Divide and Conquer Algorithms]]
 - [[Binary Search]]
 - [[One-sided Binary Search]]
- 
+- [[Fast Exponentiation Algorithm]]
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal
