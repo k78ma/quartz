@@ -65,8 +65,11 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 ## Divide and Conquer
 - [[Divide and Conquer Algorithms]]
 - [[Binary Search]]
+- [[Occurrence Counting]]
 - [[One-sided Binary Search]]
+- [[Square Root with Binary Search]]
 - [[Fast Exponentiation Algorithm]]
+
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal

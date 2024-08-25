@@ -44,14 +44,14 @@
 
   &[data-callout="proof"] {
     --color: #3c8b40;
-    --border: #448aff44;
+    --border: #44ff5d44;
     --bg: #44ff8f10;
     --callout-icon: var(--callout-icon-success);
   }
 
   &[data-callout="question"] {
     --color: #615dd4;
-    --border: #448aff44;
+    --border: #7644ff44;
     --bg: #4495ff10;
     --callout-icon: var(--callout-icon-question);
   }
@@ -59,7 +59,7 @@
 
   &[data-callout="example"] {
     --color: #615dd4;
-    --border: #448aff44;
+    --border: #8644ff44;
     --bg: #4495ff10;
     --callout-icon: var(--callout-icon-fold);
   }
