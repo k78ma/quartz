@@ -32,7 +32,9 @@ How do we prove that a subset $U$ that satisfies those conditions is a vector sp
 The set $\{ 0 \}$ is the smallest subspace of $V$, and $V$ itself is the largest subspace of $V$. The empty set is not a subspace of $V$ because a subspace must be a vector space and hence must contain at least one element, namely, an additive identity.
 
 > [!example]- Subspace Example 1
-> If $b\in \mathbb{F}$, then $\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{F}^{4}: x_{3}=5x_{4}+b \}$ is a subspace of $\mathbb{F}^{4}$ if and only if $b=0$.
+> Show that if $b\in \mathbb{F}$, then $\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{F}^{4}: x_{3}=5x_{4}+b \}$ is a subspace of $\mathbb{F}^{4}$ if and only if $b=0$.
+> 
+> ---
 > 
 > We need to check whether if our set satisfies the three conditions of being a subspace: zero vector, closed under addition, closed under scalar multiplication.
 > 
