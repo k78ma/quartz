@@ -1,6 +1,7 @@
 ---
 title: Gaussian Splatting
-tags: 
+tags:
+  - ml
 date: 2024-05-13
 aliases:
   - Gaussian splatting
