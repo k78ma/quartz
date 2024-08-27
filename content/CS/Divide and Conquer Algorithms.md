@@ -7,6 +7,7 @@ date: 2024-08-23
 aliases:
   - divide and conquer algorithms
   - divide-and-conquer
+  - divide-and-conquer algorithms
 ---
 One of the most powerful techniques for solving problems is to break them down into smaller, more easily solved pieces. Smaller problems are less overwhelming, and they permit us to focus on details that are lost when we are studying the whole thing. A recursive algorithm starts to become apparent whenever we can break the problem into smaller instances of the same type of problem. Multicore processors now sit in almost every computer, but effective parallel processing requires decomposing jobs into at least as many tasks as the number of processors.
 

@@ -36,7 +36,7 @@ The subspaces of $\mathbb{R}^{2}$ are precisely $\{ 0 \}$, all lines in $\mathbb
 ## Examples
 Some of the examples below show the linear structure underlying parts of calculus. For example:
 - Example 2 requires the result that the sum of two continuous functions is continuous. 
-- Example 4 requires the result that for a constant $c$, the derivative of $cf$ equals $c$ times the derivative of $f$.
+- Example 4 requires the result that for a constant $c$, the derivative of $cf$ equals $c$ times the derivative of $f$
 
 > [!example] Subspace Example 1
 > Show that if $b\in \mathbb{F}$, then $\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{F}^{4}: x_{3}=5x_{4}+b \}$ is a subspace of $\mathbb{F}^{4}$ if and only if $b=0$.
@@ -80,13 +80,24 @@ Thus, our set is a subspace of $\mathbb{F}^{4}$ if and only if $b=0$. Otherwise,
 > [!example] Subspace Example 2
 > The set of continuous real-valued functions on the interval $[0,1]$ is a subspace of $\mathbb{R}^{[0,1]}$.
 
+Recall that $\mathbb{R}^{[0,1]}$ is the set of all real functions on the interval $[0,1]$. This set includes every possible function that takes a real value for each $x \in[0,1]$. We can check whether the set of continuous real-valued functions meets the conditions of being a subspace of $\mathbb{R}^{[0,1]}$.
 
+**Zero vector:** The zero vector in $\mathbb{R}^{[0,1]}$ is the function $f(x)=0$ for all $x \in[0,1]$. This is continuous on the interval $[0,1]$ because it is constant and equal to $0$ for all $x$. Therefore, the zero function is an element of the set of continuous real-valued functions on $[0,1]$.
+
+**Closed under addition:** Let $f(x)$ and $g(x)$ be continuous real-valued functions on $[0,1]$, such that they are members of $\mathbb{R}^{[0,1]}$. The sum of two functions is continuous; since $f(x)$ and $g(x)$ are continuous on $[0,1]$, $h(x)=f(x)+g(x)$ is also continuous on $[0,1]$. Therefore, $h(x)$ also belongs to the set of continuous real-valued functions on $[0,1]$.
+
+**Closed under scalar multiplication:** Let $f(x)$ be a continuous real-valued function $[0,1]$ and $a\in \mathbb{R}$ be a scalar. The scalar multiple of a continuous function is continuous; thus, $af(x)$ is also continuous on $[0,1]$. Therefore, $cf(x)$ belongs to the set of continuous real-valued functions on $[0,1]$.
 
 > [!example] Subspace Example 3
 > The set of differentiable real-valued functions on $\mathbb{R}$ is a subspace of $\mathbb{R}^{\mathbb{R}}$.
 
+
+
 > [!example] Subspace Example 4
 > The set of differentiable real-valued functions $f$ on the interval $(0,3)$ such that $f'(2)=b$ is a subspace of $\mathbb{R}^{(0,3)}$ if and only if $b=0$.
 
+
+
 > [!example] Subspace Example 5
 > The set of all sequences of complex numbers with limit 0 is a subspace of $\mathbb{C}^{\infty}$.
+
