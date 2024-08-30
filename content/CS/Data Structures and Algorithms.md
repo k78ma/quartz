@@ -70,6 +70,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Square Root with Binary Search]]
 - [[Fast Exponentiation Algorithm]]
 - [[Recurrence Relations]]
+- [[Divide and Conquer Recurrences]]
 
 ## Hashing & Randomized Algorithms
 
