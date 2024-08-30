@@ -91,7 +91,21 @@ Recall that $\mathbb{R}^{[0,1]}$ is the set of all real functions on the interva
 > [!example] Subspace Example 3
 > The set of differentiable real-valued functions on $\mathbb{R}$ is a subspace of $\mathbb{R}^{\mathbb{R}}$.
 
+The notation $\mathbb{R}^{\mathbb{R}}$ represents the set of all functions from the real numbers $\mathbb{R}$ to the real numbers $\mathbb{R}$. We want to show that the set of *differentiable* functions is a subspace of this set of *all* functions.
 
+**Zero element:** The zero function $f(x)=0$ is differentiable on $\mathbb{R}$. Therefore, the set of differentiable real-valued functions on $\mathbb{R}$ fulfills the requirement of having the same zero element as $\mathbb{R}^{\mathbb{R}}$.
+
+**Closed under addition:** Let $f(x)$ and $g(x)$ be differentiable real-valued functions on $\mathbb{R}$. We need to show that $h(x)=f(x)+g(x)$ is also differentiable on $\mathbb{R}$. We have
+$$
+h'(x)=\frac{d}{dx}[f(x)+g(x)]=f'(x)+g'(x)
+$$
+Since $f'(x)$ and $g'(x)$ exist and are continuous, $h'(x)$ also exists and is continuous, which means that $h(x)$ is differentiable. Thus, $h(x)$ also belongs to the set of differentiable real-valued functions on $\mathbb{R}$, satisfying the closure under addition requirement.
+
+**Closed under scalar multiplication:** Let $f(x)$ be a differentiable real-valued function on $\mathbb{R}$. We need to show that $af(x)$ is also in the set of differentiable functions for some scalar $a\in \mathbb{R}$.  We have
+$$
+(af')(x)=\frac{d}{dx}(af(x))=a f'(x)
+$$
+Since $f'(x)$ exists and is continuous, $af'(x)$ also exists and is continuous, which means that $af(x)$ is differentiable. Thus, $af(x)$ also belongs to the set of differentiable real-valued functions on $\mathbb{R}$, satisfying the closure under scalar multiplication requirement.
 
 > [!example] Subspace Example 4
 > The set of differentiable real-valued functions $f$ on the interval $(0,3)$ such that $f'(2)=b$ is a subspace of $\mathbb{R}^{(0,3)}$ if and only if $b=0$.
