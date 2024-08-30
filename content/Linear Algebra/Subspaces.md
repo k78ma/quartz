@@ -107,6 +107,8 @@ $$
 $$
 Since $f'(x)$ exists and is continuous, $af'(x)$ also exists and is continuous, which means that $af(x)$ is differentiable. Thus, $af(x)$ also belongs to the set of differentiable real-valued functions on $\mathbb{R}$, satisfying the closure under scalar multiplication requirement.
 
+This examples shows the linear structure underlying parts of calculus. It requires the result that the sum of two continuous functions is continuous. 
+
 > [!example] Subspace Example 4
 > The set of differentiable real-valued functions $f$ on the interval $(0,3)$ such that $f'(2)=b$ is a subspace of $\mathbb{R}^{(0,3)}$ if and only if $b=0$.
 
