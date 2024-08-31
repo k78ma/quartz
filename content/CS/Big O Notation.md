@@ -15,7 +15,7 @@ $\Omega$ notation: $f(n) = \Omega(g(n))$ means $c\cdot g(n)$ is an *lower bound*
 
 $\Theta$ notation: $f(n) = \Theta(g(n))$ means $c_{1}\cdot g(n)$ is an upper bound on $f(n)$ and $c_{2}\cdot g(n)$ is a lower bound on $f(n)$. Thus, there exists some constant $c_{1}$ and $c_{2}$ such that $f(n)\leq c_{1}\cdot g(n)$ and $f(n)\geq c_{1}\cdot g(n)$ for every large enough $n$. This means that $g(n)$ provides a nice, tight bound on $f(n)$.
 
-#### Example
+### Example
 Is $2^{n+1} = \Theta(2^{n})$?
 
 $f(n) = O(g(n))$ iff there exists a constant $c$ such that $f(n)\leq c\cdot g(n)$. This holds for $2^{n+1}$ because $2^{n+1} \leq c\cdot 2^{n}$ for $c \geq 2$.

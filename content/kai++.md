@@ -15,6 +15,13 @@ draft: "true"
 - [ ] **SICP, PIM**<br>- Interesting but not directly useful yet
 
 
+## Small
+
+- [ ] ACT
+- [ ] PyTorch for Deep Learning
+- [ ] MiniTorch
+
+
 ## Algorithm Design Manual
 
 - [ ] 5.1 - Binary Search and Related Algorithms
