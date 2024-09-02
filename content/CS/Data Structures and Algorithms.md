@@ -71,7 +71,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Fast Exponentiation Algorithm]]
 - [[Recurrence Relations]]
 - [[Divide and Conquer Recurrences]]
-- [[Fast Multiplication]]
+- [[Fast Multiplication Algorithms]]
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal

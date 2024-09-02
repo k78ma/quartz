@@ -26,21 +26,30 @@ Divide-and-conquer recurrences of the form $T(n)=aT(n / b)+f(n)$ are generally e
 2. If $f(n)=\Theta(n^{\log_{b}a})$, then $T(n)=\Theta(n^{\log_{b}a}\lg n)$.
 3. If $f(n) = \Omega(n^{\log_{b}a+\epsilon})$ for some constant $\epsilon>0$, and if $af(n / b)\leq cf(n)$ for some $c<1$, then $T(n)=\Theta(f(n))$.
 
-We just need to identify which case of this master theorem holds for our given recurrence:
-- Case 1 holds for heap construction and matrix multiplication
-- Case 2 holds for mergesort
-- Case 3 generally arises with clumsier algorithms, where the cost of combining the subproblems dominates everything
+The above is called the **master theorem**.
 
 The figure below shows the recursion tree associated with a typical $T(n) = aT(n/b)+ f(n)$ divide-and-conquer algorithm. 
 
 ![[Divide and Conquer Recurrences.png]]
 
-- Each problem of size $n$ is decomposed into a problems of size $n/b$. 
-- Each subproblem of size $k$ takes $O(f(k))$ time to deal with internally, between partitioning and merging. 
-- The total time for the algorithm is the sum of these internal evaluation costs, plus the overhead of building the recursion tree. 
-- The height of this tree is $h = \log_{b} n$ and the number of leaf nodes is $a^{h}=a^{\log_{b}n}$, which simplifies to $n\log_{b}a$.
+ Each problem of size $n$ is decomposed into sub-problems of size $n/b$. 
+
+Each subproblem of size $k$ takes $O(f(k))$ time to deal with internally; there is an **internal evaluation cost** at each level of the recursion. 
+- This includes the work done outside of the recursive calls, such as dividing the problem, processing the subproblems (e.g., partitioning in quicksort), and combining or merging the results (e.g., merging in mergesort). 
+- At the root, the subproblem size is $k=n$ (*where $n$ is used to denote the size of the original problem*), but as we go down the tree, we have $k=n/b^{2}$, $k=n / b^{3}$, etc. 
+
+Why does we use $T(n)=a\cdot T(n/b)+f(n)$ instead of $f(k)$? This recurrence relation describes the total time to solve a problem of size $n$. Here $n$ is used in a generic way to denote the size of the *current* problem (which might be a sub-problem of the original!), instead of the size of the *original* problem. The function $f(n)$ specifically refers to the work done at this level when the problem is of size $n$, while $f(k)$ takes a more global view and refers to the work done at different levels of the recursion tree.
+
+Then, the total time for the algorithm is the sum of these internal evaluation costs, plus the time for solving each subproblem.
+
+The height of this tree is $h = \log_{b} n$ and the number of leaf nodes is $a^{h}=a^{\log_{b}n}$, which simplifies to $n\log_{b}a$.
 
 The three cases of the master theorem correspond to three different costs, each of which might be dominant as a function of $a$, $b$, and $f(n)$:
-- **Case 1: Too many leaves** – If the number of leaf nodes outweighs the overall internal evaluation cost, the total running time is $O(n^{\log_{b}a})$.
-- **Case 2: Equal work per level** – As we move down the tree, each problem gets smaller but there are more of them to solve. If the sums of the internal evaluation costs at each level are equal, the total running time is the cost per level ($n^{\log_{b}a}$) times the number of levels ($\log_{b} n$), for a total running time of $O(n^{\log_{b}a}\lg n)$.
+- **Case 1: Too many leaves** – If the number of leaf nodes outweighs the overall internal evaluation cost $f(n)$, the total running time is $O(n^{\log_{b}a})$. At each level, the recursive subproblems $a\cdot T(n / b)$ dominate the internal evaluation cost $f(n)$.  
+	- Examples: Heap construction and matrix multiplication
+- **Case 2: Equal work per level** – As we move down the tree, each problem gets smaller but there are more of them to solve. If the sums of the internal evaluation costs at each level are equal, the total running time is the cost per level ($n^{\log_{b}a}$) times the number of levels ($\log_{b} n$), for a total running time of $O(n^{\log_{b}a}\lg n)$. 
+	- Examples: Mergesort
 - **Case 3: Too expensive a root** – If the internal evaluation cost grows very rapidly with $n$, then the cost of the root evaluation may dominate everything. Then the total running time is $O(f(n))$.
+	- Case 3 generally arises with clumsier algorithms, where the cost of combining the subproblems dominates everything
+
+See [[Fast Multiplication Algorithms]] for an example of evaluating these recurrences.
