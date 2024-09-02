@@ -38,9 +38,9 @@ Each subproblem of size $k$ takes $O(f(k))$ time to deal with internally; there 
 - This includes the work done outside of the recursive calls, such as dividing the problem, processing the subproblems (e.g., partitioning in quicksort), and combining or merging the results (e.g., merging in mergesort). 
 - At the root, the subproblem size is $k=n$ (*where $n$ is used to denote the size of the original problem*), but as we go down the tree, we have $k=n/b^{2}$, $k=n / b^{3}$, etc. 
 
-Why does we use $T(n)=a\cdot T(n/b)+f(n)$ instead of $f(k)$? This recurrence relation describes the total time to solve a problem of size $n$. Here $n$ is used in a generic way to denote the size of the *current* problem (which might be a sub-problem of the original!), instead of the size of the *original* problem. The function $f(n)$ specifically refers to the work done at this level when the problem is of size $n$, while $f(k)$ takes a more global view and refers to the work done at different levels of the recursion tree.
+**Note on notation:** Why do we use $T(n)=a\cdot T(n/b)+f(n)$ instead of $f(k)$? This recurrence relation describes the total time to solve a problem of size $n$. Here $n$ is used in a generic way to denote the size of the *current* problem (which might be a sub-problem of the original!), instead of the size of the *original* problem. The function $f(n)$ specifically refers to the work done at this level when the problem is of size $n$, while $f(k)$ takes a more global view and refers to the work done at different levels of the recursion tree.
 
-Then, the total time for the algorithm is the sum of these internal evaluation costs, plus the time for solving each subproblem.
+The total time for the algorithm is the sum of these internal evaluation costs, plus the time for solving each subproblem.
 
 The height of this tree is $h = \log_{b} n$ and the number of leaf nodes is $a^{h}=a^{\log_{b}n}$, which simplifies to $n\log_{b}a$.
 
