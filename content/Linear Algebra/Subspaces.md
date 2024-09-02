@@ -78,7 +78,7 @@ which holds if $\lambda b=b$. This is true for all $\lambda$ only if $b=0$.
 Thus, our set is a subspace of $\mathbb{F}^{4}$ if and only if $b=0$. Otherwise, the set does not satisfy the conditions required to be subspace.
 
 > [!example] Subspace Example 2
-> The set of continuous real-valued functions on the interval $[0,1]$ is a subspace of $\mathbb{R}^{[0,1]}$.
+> Show that the set of continuous real-valued functions on the interval $[0,1]$ is a subspace of $\mathbb{R}^{[0,1]}$.
 
 Recall that $\mathbb{R}^{[0,1]}$ is the set of all real functions on the interval $[0,1]$. This set includes every possible function that takes a real value for each $x \in[0,1]$. We can check whether the set of continuous real-valued functions meets the conditions of being a subspace of $\mathbb{R}^{[0,1]}$.
 
@@ -89,7 +89,7 @@ Recall that $\mathbb{R}^{[0,1]}$ is the set of all real functions on the interva
 **Closed under scalar multiplication:** Let $f(x)$ be a continuous real-valued function $[0,1]$ and $a\in \mathbb{R}$ be a scalar. The scalar multiple of a continuous function is continuous; thus, $af(x)$ is also continuous on $[0,1]$. Therefore, $cf(x)$ belongs to the set of continuous real-valued functions on $[0,1]$.
 
 > [!example] Subspace Example 3
-> The set of differentiable real-valued functions on $\mathbb{R}$ is a subspace of $\mathbb{R}^{\mathbb{R}}$.
+> Show that the set of differentiable real-valued functions on $\mathbb{R}$ is a subspace of $\mathbb{R}^{\mathbb{R}}$.
 
 The notation $\mathbb{R}^{\mathbb{R}}$ represents the set of all functions from the real numbers $\mathbb{R}$ to the real numbers $\mathbb{R}$. We want to show that the set of *differentiable* functions is a subspace of this set of *all* functions.
 
@@ -110,10 +110,64 @@ Since $f'(x)$ exists and is continuous, $af'(x)$ also exists and is continuous, 
 This examples shows the linear structure underlying parts of calculus. It requires the result that the sum of two continuous functions is continuous. 
 
 > [!example] Subspace Example 4
-> The set of differentiable real-valued functions $f$ on the interval $(0,3)$ such that $f'(2)=b$ is a subspace of $\mathbb{R}^{(0,3)}$ if and only if $b=0$.
+> Show that the set of differentiable real-valued functions $f$ on the interval $(0,3)$ such that $f'(2)=b$ is a subspace of $\mathbb{R}^{(0,3)}$ if and only if $b=0$.
 
+$\mathbb{R}^{(0,3)}$ is the set of functions from $(0,3)$ to $\mathbb{R}$. To show that the set of differentiable real-valued functions $f$ on $(0,3)$ is a subspace of $\mathbb{R}^{(0,3)}$, we show that they share a zero element, and that the latter is closed under addition and scalar multiplication.
 
+**Zero element:** The zero function in $\mathbb{R}^{(0,3)}$ is $f(x)=0$, which is differentiable on $(0,3)$. Thus, the set of differentiable real-valued functions on $(0,3)$ fulfills the requirement of having the same zero element as $\mathbb{R}^{(0,3)}$.
+
+**Closed under addition:** Let $f(x)$ and $g(x)$ be differentiable real-valued functions on $(0,3)$ with $f'(2)=g'(2)=b$. 
+
+Let's say that we have the sum $h(x)=f(x)+g(x)$. We have
+$$
+h'(x)=\frac{d}{dx}[f(x)+g(x)]=f'(x)+g'(x)
+$$
+For the set of differentiable real-valued functions to be closed under addition, $h(x)$ must also be a member of this set, which means that we must have $h'(2)=b$. Thus, we have:
+$$
+\begin{align}
+h'(2) & =f'(2)+g'(2) \\
+b &  =b+b \\
+b & =2b
+\end{align}
+$$
+which is only true if we have $b=0$.
+
+**Closed under scalar multiplication:** Let $f(x)$ be a differentiable real-valued function on $(0,3)$ with $f'(2)=b$. For the set of differentiable real-valued functions to be closed under scalar multiplication, $af(x)$ is also in the set of differentiable functions on $(0,3)$ for some scalar $a\in \mathbb{R}$.  We have
+$$
+(af')(x)=\frac{d}{dx}(af(x))=a f'(x)
+$$
+where $(af')(2)=b$. Thus, we would have:
+$$
+\begin{align}
+(af')(2) & =af'(2) \\
+b & =ab
+\end{align}
+$$
+which is only true for all $a$ if $b=0$.
 
 > [!example] Subspace Example 5
-> The set of all sequences of complex numbers with limit 0 is a subspace of $\mathbb{C}^{\infty}$.
+> Show that the set of all sequences of complex numbers with limit 0 is a subspace of $\mathbb{C}^{\infty}$.
 
+Let $S$ be the set of all sequences of complex numbers that converge to $0$. That is,
+$$
+S=\{ (a_{n}) \,|\, \lim_{ n \to \infty }=0, a_{n}\in \mathbb{C} \text{ for all } n \}
+$$
+We want to show that this is a subspace of $\mathbb{C}^{\infty}$, which is the space of all infinite sequences of complex numbers.
+
+**Zero element:** The zero sequence $(0,0,0,\dots)$ is a sequence where every term is $0$. Since the sequence is constant and equal to $0$ for all $n$, it clearly converges to $0$. Therefore, the zero sequence is in $S$.
+
+**Closed under addition:** Let $(a_{n})$ and $(b_{n})$ be two sequences in $S$. By definition, we have:
+$$
+\lim_{ n \to \infty } a_{n}=0, \;\;\lim_{ n \to \infty } b_{n}=0
+$$
+Consider the sequence formed by adding these two sequences, $(a_{n}+b_{n})$. The limit of the sum of the sequences is:
+$$
+\lim_{ n \to \infty } (a_{n}+b_{n})=\lim_{ n \to \infty } a_{n}+\lim_{ n \to \infty } b_{n}=0+0=0
+$$
+Since $\lim_{ n \to \infty }(a_{n}+b_{n})=0$, the sequence $(a_{n}+b_{n})$ is in $S$. Hence, $S$ is closed under addition.
+
+**Closed under scalar multiplication:** Let $(a_{n})$ be a sequence in $S$ and let $c\in \mathbb{C}$ be any complex number. We need to check if the sequence $(c\cdot a_{n})$ is in $S$. The limit of the scalar multiple of the sequence is
+$$
+\lim_{ n \to \infty } (c\cdot a_{n})=c\cdot \lim_{ n \to \infty } a_{n}=c\cdot 0=0
+$$
+Since $\lim_{ n \to \infty }(c\cdot a_{n})=0$, the sequence $(c\cdot a_{n})$ is also in $S$. Therefore, $S$ is closed under scalar multiplication.
