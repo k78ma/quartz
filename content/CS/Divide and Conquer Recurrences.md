@@ -45,11 +45,24 @@ Then, the total time for the algorithm is the sum of these internal evaluation c
 The height of this tree is $h = \log_{b} n$ and the number of leaf nodes is $a^{h}=a^{\log_{b}n}$, which simplifies to $n\log_{b}a$.
 
 The three cases of the master theorem correspond to three different costs, each of which might be dominant as a function of $a$, $b$, and $f(n)$:
-- **Case 1: Too many leaves** – If the number of leaf nodes outweighs the overall internal evaluation cost $f(n)$, the total running time is $O(n^{\log_{b}a})$. At each level, the recursive subproblems $a\cdot T(n / b)$ dominate the internal evaluation cost $f(n)$.  
-	- Examples: Heap construction and matrix multiplication
-- **Case 2: Equal work per level** – As we move down the tree, each problem gets smaller but there are more of them to solve. If the sums of the internal evaluation costs at each level are equal, the total running time is the cost per level ($n^{\log_{b}a}$) times the number of levels ($\log_{b} n$), for a total running time of $O(n^{\log_{b}a}\lg n)$. 
-	- Examples: Mergesort
-- **Case 3: Too expensive a root** – If the internal evaluation cost grows very rapidly with $n$, then the cost of the root evaluation may dominate everything. Then the total running time is $O(f(n))$.
-	- Case 3 generally arises with clumsier algorithms, where the cost of combining the subproblems dominates everything
+
+### Case 1: Too many leaves
+If the amount of work or sheer number of leaf nodes outweighs the overall internal evaluation cost $f(n)$, the total running time is $O(n^{\log_{b}a})$. 
+
+At each level, the recursive subproblems $a\cdot T(n / b)$ dominate the internal evaluation cost $f(n)$. This means that the work done at each level of the tree decreases as you move down the tree. The total work done in the recursion tree is dominated by the work done at the leaf nodes. Each leaf corresponds to a base case of the recursion, where the problem size is minimal. As such, the overall running time is driven by the sum of all the work done at the leaves.
+
+- *Examples:* Heap construction and matrix multiplication
+
+### Case 2: Equal work per level
+As we move down the tree, each problem gets smaller but there are more of them to solve. If the sums of the internal evaluation costs at each level are equal, the total running time is the cost per level ($n^{\log_{b}a}$) times the number of levels ($\log_{b} n$), for a total running time of $O(n^{\log_{b}a}\lg n)$. 
+
+In this case, there is a significant accumulation of work at each level of the recursion tree, which is why it includes the additional $\lg n$ factor.
+
+- Examples: Mergesort. The cost to merge at every level is the same because we are always merging $2^{i}$ sub-problems of size $n / 2^{i}$, such that we have $2^{i}\times O(n / 2^{i})=O(n)$.
+
+### Case 3: Expensive Root
+If the internal evaluation cost grows very rapidly with $n$, then the cost of the root evaluation may dominate everything. Then the total running time is $O(f(n))$.
+
+Case 3 generally arises with clumsier algorithms, where the cost of combining the subproblems dominates everything.
 
 See [[Fast Multiplication Algorithms]] for an example of evaluating these recurrences.
