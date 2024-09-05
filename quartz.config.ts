@@ -15,7 +15,7 @@ const config: QuartzConfig = {
       provider: "plausible",
     },
     baseUrl: "k78ma.github.io/quartz",
-    ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private", "**/Excalidraw", "**/excalidraw"],
+    ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private", "**/Excalidraw", "**/excalidraw", "NVIDIA", "**/NVIDIA"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
