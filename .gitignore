@@ -7,6 +7,8 @@ tsconfig.tsbuildinfo
 .quartz-cache
 private/*
 Private/*
+NVIDIA/*
+nvidia/*
 .replit
 replit.nix
 Polymath/*
