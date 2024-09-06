@@ -18,8 +18,10 @@ Things on the internet:
 - [projects | Bones](https://bones-ai.bearblog.dev/projects/)
 - [Sorta Insightful | Alex Irpan](https://www.alexirpan.com/)
 - [Deep Generative Models | CS 326 Notes](https://deepgenerativemodels.github.io/notes/)
-- [Lil'Log | Lilian Weng]
+- [Lil'Log | Lilian Weng](https://lilianweng.github.io/)
 - [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html)
+- [Neel Nanda](https://www.neelnanda.io/)
+	- [An Extremely Opinionated Annotated List of My Favourite Mechanistic Interpretability Papers v2](https://www.alignmentforum.org/posts/NfFST5Mio7BCAQHPA/an-extremely-opinionated-annotated-list-of-my-favourite-1)
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)

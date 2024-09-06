@@ -1,7 +1,11 @@
 ---
 title: Subspaces
-tags: []
+tags:
+  - lin-alg
 date: 2023-09-01
+aliases:
+  - subspace
+  - subspaces
 ---
 A subset $U$ of $V$ is called a *subspace* of $V$ if $U$ is also a [[Vector Space|vector space]] with the same additive identity, addition, and scalar multiplication as on $V$.
 
