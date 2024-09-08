@@ -22,6 +22,8 @@ Things on the internet:
 - [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html)
 - [Neel Nanda](https://www.neelnanda.io/)
 	- [An Extremely Opinionated Annotated List of My Favourite Mechanistic Interpretability Papers v2](https://www.alignmentforum.org/posts/NfFST5Mio7BCAQHPA/an-extremely-opinionated-annotated-list-of-my-favourite-1)
+	- [Post 34: Learning how to learn — Neel Nanda](https://www.neelnanda.io/blog/34-learning)
+	
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
@@ -30,6 +32,7 @@ Books:
 - [An Infinite Descent into Pure Mathematics](https://infinitedescent.xyz/)
 - [A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Poor Charlie’s Almanack](https://www.stripe.press/poor-charlies-almanack/cover)
+- [The Napkin](https://web.evanchen.cc/napkin.html)
 
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
