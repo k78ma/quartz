@@ -10,6 +10,7 @@ Suppose $V_{1},\dots,V_{m}$ are [[Subspaces|subspaces]] of $V$. The *sum* of $V_
 $$
 V_{1}+\dots+V_{m}=\{ v_{1}+\dots+v_{m} : v_{1}\in V_{1},\dots,v_{m}\in V_{m} \}
 $$
+Sums of subspaces in the theory of vector spaces are analogous to unions of subsets in set theory. Given two subspaces of a vector space, the smallest subspace containing them is their sum. Analogously, given two subsets of a set, the smallest subset containing them is their union.
 ## Basic Examples
 Let's look at some examples of sums of subspaces.
 
