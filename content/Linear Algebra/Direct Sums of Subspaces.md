@@ -87,3 +87,26 @@ $$
 $$
 Because $v_{1}-u_{1}\in V_{1},\dots,v_{m}-u_{m}\in V_{m}$, the equation above implies that each $v_{k}-u_{k}$ equals $0$. This shows that any two representations of the same vector must be equal, so every vector actually only has one unique representation.
 
+## Direct Sum of Two Subspaces
+The next result gives a simple condition for testing whether a sum of two subspaces is a direct sum.
+
+> [!theorem] Direct sum of two subspaces
+> Suppose $U$ and $W$ are subspaces of $V$. Then
+> $$
+> U+W \text{ is a direct sum} \quad \Longleftrightarrow  \quad U \cap V = \{ 0 \}
+> $$
+> The symbol $\Longleftrightarrow$ means “if and only if ”; this symbol could also be read to mean “is equivalent to”. 
+
+*Proof.*
+
+First, we show that if we assume $U+W$ is a direct sum, we must have $U \cap W = \{ 0 \}$. 
+
+Suppose $U+W$ is a direct sum. Suppose some element $v$ is in both $U$ and $V$, or $v\in U\cap W$. Then, we can write the zero vector as $0=v+(-v)$, where $v\in U$ and $-v\in W$. Since $U+W$ is a direct sum, the only way for us express $0$ as a sum of vectors from $U$ and $W$ is if both vectors are $0$. Thus, we have $v=0$. Thus, $U \cap W = \{ 0 \}$, completing the proof in one direction.
+
+Now we want to prove the other direction; assuming that $U\cap W=\{ 0 \}$, we want to show that $U+W$ is a direct sum. 
+
+Suppose $u\in U, w\in W$, and
+$$
+0=u+w.
+$$
+To complete the proof, we only need to show that $u=w=0$, which we showed above for the condition for direct sums. The equation above implies that $u=-w$. Since we are dealing with subspaces that are closed under scalar multiplication, $u=-w \in W$ means that $u\in W$ as well, which in turn means $u\in U\cap W$. Since our beginning assumption was $U\in W=\{ 0 \}$, we must have $u=0$, which by the equation above implies that $w=0$, completing the proof.
