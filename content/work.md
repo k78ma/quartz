@@ -6,16 +6,21 @@ kanban-plugin: basic
 
 ## today
 
-- [ ] New Hire NVLearn Modules
-- [ ] MB-NVIDIA Meeting
-- [ ] Fill out Coaching/Mentoring form
+- [ ] Implicit Kalman Filter
+- [ ] B1B2 coordinates
 
 
 ## tasks
 
 
 
+***
 
+## Archive
+
+- [ ] MB-NVIDIA Meeting
+- [ ] Fill out Coaching/Mentoring form
+- [ ] New Hire NVLearn Modules
 
 %% kanban:settings
 ```

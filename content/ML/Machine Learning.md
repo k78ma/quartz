@@ -26,6 +26,7 @@ date: 2023-06-25
 	- [[Multi-layer Neural Network]]
 - [[Shallow Neural Network]]
 - [[Deep Neural Network]]
+- [[Multivariate Inputs and Outputs for Neural Networks]]
 - [[Universal Approximation Theorem]]
 - [[Backpropagation]] 
 - [[Neural Network Training]]
