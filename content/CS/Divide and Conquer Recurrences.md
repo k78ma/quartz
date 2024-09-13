@@ -6,6 +6,8 @@ tags:
 date: 2024-08-29
 aliases:
   - divide and conquer recurrences
+  - master theorem
+  - divide-and-conquer master theorem
 ---
 Typical [[Divide and Conquer Algorithms|divide-and-conquer algorithms]] break a given problem into $a$ smaller pieces, each of which is of size $n/b$. It then spends $f(n)$ time to combine these subproblem solutions into a complete result. 
 

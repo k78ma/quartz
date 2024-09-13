@@ -72,6 +72,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Recurrence Relations]]
 - [[Divide and Conquer Recurrences]]
 - [[Fast Multiplication Algorithms]]
+- [[Largest Subrange and Closest Pair]]
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal
