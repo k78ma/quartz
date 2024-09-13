@@ -33,8 +33,10 @@ LeftMidMaxRange(A, l, m)
 	for i = m down to l 
 		S = S + A[i] 
 		if (S>M) then M = S 
-	return S
+	return M
 ```
+
+where $S$ and $M$ are the running sum and maximum sum respectively.
 
 The corresponding value on the right can be found analogously. 
 
@@ -46,10 +48,12 @@ Case 2 of the [[Divide and Conquer Recurrences|divide-and-conquer master theorem
 
 This general approach of “find the best on each side, and then check what is straddling the middle” can be applied to other problems as well. 
 
+Implementation: https://github.com/k78ma/implementations/blob/main/misc/largest-subrange.py
+
 ## Closest Pair
 Consider the problem of finding the smallest distance between pairs among a set of $n$ points.
 
-In one dimension, this problem is easy: we saw that an [[Sorting Algorithms#Applications of Sorting|application of sorting]] is that after sorting the points, the closest pair must be neighbors. A linear-time sweep from left to right after sorting thus yields an $\Theta(n \log n)$ algorithm. 
+In one dimension, this problem is easy: we saw that an [[Sorting Algorithms#Applications of Sorting|application of sorting]] is that after sorting the points, the closest pair must be neighbors. A linear-time sweep from left to right after sorting thus yields an $\Theta(n \log n)$ algorithm. (**I think this is actually wrong…don't we need to preserve order in this case??**)
 
 But we can replace this sweep by a cute divide-and-conquer algorithm. The closest pair is defined by the left half of the points, the right half, or the pair in the middle, so the following algorithm must find it:
 ```python
@@ -76,3 +80,4 @@ as defined by Case 2 of the master theorem.
 
 ![[Largest Subrange and Closest Pair.png]]
 
+Implementation: https://github.com/k78ma/implementations/blob/main/misc/closest-pair.py

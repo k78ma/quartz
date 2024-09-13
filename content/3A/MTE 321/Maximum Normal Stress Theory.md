@@ -27,5 +27,5 @@ $$
 $$
 When designing with a factor of safety, we write:
 $$
-\sigma_{A}=\frac{S_{ut}}{n} \quad \text{or} \quad -\frac{S_{uåc}}{n}
+\sigma_{A}=\frac{S_{ut}}{n} \quad \text{or} \quad -\frac{S_{uc}}{n}
 $$
