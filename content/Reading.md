@@ -33,6 +33,7 @@ Books:
 - [A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Poor Charlie’s Almanack](https://www.stripe.press/poor-charlies-almanack/cover)
 - [The Napkin](https://web.evanchen.cc/napkin.html)
+- [Nonlinear Dynamics and Chaos](https://www.biodyn.ro/course/literatura/Nonlinear_Dynamics_and_Chaos_2018_Steven_H._Strogatz.pdf)
 
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
