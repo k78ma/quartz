@@ -84,6 +84,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 	- [[Applications of Convolution]]
 
 ## Hashing & Randomized Algorithms
+- [[Randomized Algorithms]]
 
 ## Graph Traversal
 

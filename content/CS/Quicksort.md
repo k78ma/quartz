@@ -7,7 +7,7 @@ date: 2024-08-16
 aliases:
   - quicksort
 ---
-Python implementation here: [implementations/sorting-algorithms/quicksort.py](https://github.com/k78ma/implementations/blob/main/sorting-algorithms/quicksort.py). When implemented well, quicksort is typically two to three times faster than [[Mergesort|mergesort]] or [[Heapsort|heapsort]].
+When implemented well, quicksort is typically two to three times faster than [[Mergesort|mergesort]] or [[Heapsort|heapsort]].
 
 Suppose we select an arbitrary item $p$ from the $n$ items we seek to sort. Quicksort separates the $n-1$ other items into two piles: a low pile containing all the elements that are $<p$, and a high pile containing all the elements that are $\geq p$. Low and high denote the array positions into which we place the respective piles, leaving a single slot between them for $p$.
 
@@ -56,6 +56,7 @@ int partition(item_type array[], int low, int high) {
 }
 ```
 
+- Python implementation here: [implementations/sorting-algorithms/quicksort.py](https://github.com/k78ma/implementations/blob/main/sorting-algorithms/quicksort.py). 
 ## Complexity
 Since the partitioning step consists of at most $n$ swaps, it takes linear time. Quicksort, like [[Mergesort]], builds a recursion tree of nested subranges of the $n$-element array Like mergesort, quicksort spends linear time processing (now with`partition` instead of `merge`) the elements in each subarray on each level. As with mergesort, quicksort runs in $O(n\cdot h)$ time, where $h$ is the height of the recursion tree. The difficulty is that the height of the tree depends upon where the pivot element ends up in each partition. 
 
