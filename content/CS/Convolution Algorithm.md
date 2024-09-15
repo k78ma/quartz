@@ -59,3 +59,50 @@ for (i = 0; i < n+m-1; i++) {
 ```
 
 Convolution multiplies every possible pair of elements from $A$ and $B$, and hence it seems like we should require quadratic time to get these $n + m − 1$ numbers. Like sorting, there exists a clever divide-and-conquer algorithm that runs in $O(n \log n)$ time, assuming that $n \geq m$. And just like sorting, there are a large number of applications that take advantage of this enormous speedup for large sequences.
+
+## Fast Convolution/Polynomial Multiplication
+We present convolution through a fast algorithm for multiplying polynomials. It is based on a series of observations:
+
+**Polynomials can can be represented either as equations or sets of points.** We know that every pair of points defines a line; more generally, any degree-$n$ polynomial $P(x)$ is completely defined by $n + 1$ points on the polynomial. For example, the points $(−1, −2)$, $(0, −1)$, and $(1, 2)$ define (and are defined by) the quadratic equation $y=x^{2}+2x-1$.
+
+**We can find $n+1$ such points on $P(x)$ by evaluation, but it looks expensive.** Generating a point on a given polynomial is easy – simply pick an arbitrary value $x$ and plug it into $P(x)$. The time it takes for one such $x$ will be linear in the degree of $P(x)$, which means $n$ doubles for the problems we are interested in. But doing this $n + 1$ times for different values of $x$ would take $O(n^{2})$ time, which is more than we can afford if we want fast multiplication.
+
+**Multiplying polynomials A and B in a points representation is easy, if they have both been evaluated on the same values of $x$:** Suppose we want to compute the product of $(3x^{2}+2x+6)(4x^{2}+3x+2)$. The result will be will be a degree-$4$ polynomial, so we need five points to define it. We can evaluate both factors on the same $x$ values:
+$$
+\begin{align}
+A(x)=3x^{2}+2x+6\quad  & \longrightarrow \quad (−2, 14),(−1, 7),(0, 6),(1, 11),(2, 22) \\
+B(x)=4x^{2}+3x+2\quad  & \longrightarrow \quad (−2, 12),(−1, 3),(0, 2),(1, 9),(2, 24)
+\end{align}
+$$
+Since $C(x) = A(x)B(x)$, we can now construct points on $C(x)$ by multiplying the corresponding $y$-values:
+$$
+C(x) \quad \longleftarrow \quad  (−2, 168),(−1, 21),(0, 12),(1, 99),(2, 528)
+$$
+Thus, multiplying points in this representation takes only linear time.
+
+**We can evaluate a degree-n polynomial $A(x)$ as two degree-$(n/2)$ polynomials in $x^{2}$**. We can partition the terms of $A$ into those of even and odd degree, for example:
+$$
+12x^{4} + 17x^{4} + 36x^{2} + 22x + 12 = (12x^{4} + 36x^{2} + 12) + x(17x^{2} + 22)
+$$
+By replacing $x^{2}$ with $x'$, the right side gives us two smaller, lower degree polynomials as promised.
+
+**This suggests an efficient divide-and-conquer algorithm.** We need to evaluate $n$ points of a degree-$d$ polynomial. We need $n \geq 2d + 1$ points, since we will be using them to compute the product of two polynomials. We can decompose the problem into doing this evaluation on two polynomials of half the degree, plus a linear amount of work stitching the results together. This defines the recurrence $T(n)=2T(n/2) + O(n)$, which evaluates to $O(n \log n)$.
+
+**Making this work correctly requires picking the right $x$ values to evaluate on.** The trick with the squares makes it desirable for our sample points to come in pairs of the form $\pm x$, since their evaluation requires half as much work because they are identical when squared.
+
+However, this property does not hold recursively, unless the $x$ values are carefully chosen complex numbers. The $n$th roots of unity are the set of solutions to the equation $x^{n} = 1$. In reals, we only get $x \in \{ -1,1 \}$, but there are $n$ solutions with complex numbers. The $k$th of these $n$ roots is given by
+$$
+w_{k}=\cos(2k\pi / n)+i\sin(2k\pi / n)
+$$
+To appreciate the magic properties of these numbers, look at what happens when we raise them to powers:
+$$
+\begin{align}
+w & =\left\{  1, \frac{1+i}{\sqrt{ 2 }}, i, -\frac{1-i}{\sqrt{ 2 }}, -1, -\frac{1+i}{\sqrt{ 2 }}, -i, \frac{1-i}{\sqrt{ 2 }}  \right\} \\[2ex] 
+w^{2} & =\{ 1, i, -1, -i, 1, i, -1, -i \} \\[2ex] 
+w^{4} & =\{ 1, -1, 1, -1, 1, -1, 1, -1 \} \\[2ex] 
+w^{8} & =\{ 1,1,1,1,1,1,1,1 \}
+\end{align}
+$$
+Observe that these terms come in positive/negative pairs, and the number of distinct terms gets halved with each squaring. These are the properties we need to make the divide and conquer work.
+
+The best implementations of fast convolution generally compute the [[fast Fourier transform]] (FFT), so usually we seek to reduce our problems to FFTs to take advantage of existing libraries.
