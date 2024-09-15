@@ -74,6 +74,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Fast Multiplication Algorithms]]
 - [[Largest Subrange and Closest Pair]]
 - [[Parallel Algorithms]]
+
 ## Hashing & Randomized Algorithms
 
 ## Graph Traversal
@@ -96,3 +97,8 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 ## NP-Completeness
 
 ## Dealing with Hard Problems
+
+## Miscellaneous
+- [[Convolution Algorithm]]
+	- [[Applications of Convolution]]
+	- 
