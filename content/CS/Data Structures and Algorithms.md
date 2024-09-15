@@ -10,7 +10,7 @@ aliases:
 ---
 Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https://algo.monster/dashboard).
 
-**The Algorithm Design Manual**   <progress max=447 value=163> </progress> 
+**The Algorithm Design Manual**   <progress max=447 value=186> </progress> 
 ## Algorithmic Analysis
 - [[Algorithmic Correctness]]
 - [[RAM Model of Computation]]
@@ -63,17 +63,25 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[Sorting Algorithm Lower Bounds]]
 
 ## Divide and Conquer
+
+### Basic Divide and Conquer Algorithms
 - [[Divide and Conquer Algorithms]]
 - [[Binary Search]]
 - [[Occurrence Counting]]
 - [[One-sided Binary Search]]
 - [[Square Root with Binary Search]]
 - [[Fast Exponentiation Algorithm]]
+
+### Recurrence Relations
 - [[Recurrence Relations]]
 - [[Divide and Conquer Recurrences]]
+
+### Other Divide and Conquer
 - [[Fast Multiplication Algorithms]]
 - [[Largest Subrange and Closest Pair]]
 - [[Parallel Algorithms]]
+- [[Convolution Algorithm]]
+	- [[Applications of Convolution]]
 
 ## Hashing & Randomized Algorithms
 
@@ -99,6 +107,3 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 ## Dealing with Hard Problems
 
 ## Miscellaneous
-- [[Convolution Algorithm]]
-	- [[Applications of Convolution]]
-	- [[Fast Polynomial Multiplication]]

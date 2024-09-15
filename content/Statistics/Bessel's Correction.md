@@ -6,6 +6,8 @@ date: 2024-03-31
 aliases:
   - MLE bias
 ---
+- Nice explanation here: https://www.visiondummy.com/2014/03/divide-variance-n-1/
+
 In [[Gaussian Maximum Likehood Estimation|Gaussian maximum likelihood estimation from a sample]], we found that the maximum likelihood solutions for our parameters, $\mu_{\text{ML}}$ and $\sigma^{2}_{\text{ML}}$ are given as:
 $$
 \begin{align}

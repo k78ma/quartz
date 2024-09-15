@@ -58,7 +58,7 @@ for (i = 0; i < n+m-1; i++) {
 }
 ```
 
-Convolution multiplies every possible pair of elements from $A$ and $B$, and hence it seems like we should require quadratic time to get these $n + m − 1$ numbers. Like sorting, there exists a clever divide-and-conquer algorithm that runs in $O(n \log n)$ time, assuming that $n \geq m$. And just like sorting, there are a large number of applications that take advantage of this enormous speedup for large sequences.
+Convolution multiplies every possible pair of elements from $A$ and $B$, and hence it seems like we should require quadratic time to get these $n + m − 1$ numbers. Like sorting, there exists a clever [[Divide and Conquer Algorithms|divide and conquer algorithm]] that runs in $O(n \log n)$ time, assuming that $n \geq m$. And just like sorting, there are a large number of applications that take advantage of this enormous speedup for large sequences.
 
 ## Fast Convolution/Polynomial Multiplication
 We present convolution through a fast algorithm for multiplying polynomials. It is based on a series of observations:
