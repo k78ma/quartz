@@ -3,6 +3,7 @@ title: Kalman Filter
 tags:
   - cs
   - robotics
+  - control
 date: 2024-02-26
 aliases:
 ---
