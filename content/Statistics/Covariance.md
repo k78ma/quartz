@@ -8,7 +8,7 @@ aliases:
 For two random variables $x$ and $y$, the *covariance* measures the extent to which the two variables vary together. This is defined by:
 $$
 \begin{align}
-\text{cov}[x,y] & =E_{x,y}\left[ \{ x-E[x] \} \{ y-E[y] \} \right] \\[1.5ex]
+\text{cov}[x,y] & =E_{x,y}\left[ ( x-E[x] ) ( y-E[y] ) \right] \\[1.5ex]
 	 & = E_{x,y}[xy]-E[x]E[y]
 \end{align}
 $$

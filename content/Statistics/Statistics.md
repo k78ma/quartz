@@ -6,8 +6,10 @@ date: 2023-10-24
 ---
 Notes from:
 - Chapters 2 and 3 of [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
+- Chapter 6 of The Algorithm Design Manual
 ## Probability
 ### Probability Basics
+- [[Basic Probability]]
 - [[Sum and Product Rules of Probability]]
 - [[Bayes' Theorem]]
 - [[Prior and Posterior]]
