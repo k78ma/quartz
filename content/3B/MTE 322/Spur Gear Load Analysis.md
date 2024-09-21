@@ -11,3 +11,5 @@ aliases:
 ![[Spur Gear Load Analysis-1.png]]
 
 ## Example
+
+![[MTE 322 Example 4.pdf]]
