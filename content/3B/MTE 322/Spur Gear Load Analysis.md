@@ -6,9 +6,9 @@ date: 2024-09-15
 aliases:
   - spur gear load analysis
 ---
-![[Spur Gear Load Analysis.png]]
+![[Spur Gear Load Analysis.png|680]]
 
-![[Spur Gear Load Analysis-1.png]]
+![[Spur Gear Load Analysis-1.png|680]]
 
 ## Example
 
