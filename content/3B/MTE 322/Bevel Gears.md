@@ -13,3 +13,5 @@ aliases:
 - Can be both straight bevels ([[Spur Gears|spur]]) or spiral bevels ([[Helical Gears|helical]]) 
 
 ![[Bevel Gears.png|320]]
+
+![[Bevel Gears-1.png]]

@@ -14,7 +14,13 @@ aliases:
 
 ![[Helical Gear Load Analysis-1.png|636]]
 
-## Example
-- Example 4 is from [[Spur Gear Load Analysis]]
+## Examples
+
+### Example 5
+- This problem references Example 4, which is from [[Spur Gear Load Analysis]]
 
 ![[MTE 322 ex 5.pdf]]
+
+### Example 6
+
+![[MTE 322 ex6.pdf]]
