@@ -99,3 +99,5 @@ The term $(z_{n}-\hat{x}_{n,n-1})$ is called the measurement residual or  [[Sign
 In this example, $1/n$ decreases as $n$ increases. In the beginning, we don’t have enough information about the current state; thus, the first estimation is based on the first measurement $\frac{1}{n}|_{n=1}=1$ . As we continue, each successive measurement has less weight in the estimation process, since $1/n$ decreases. At some point, the contribution of the new measurements will become negligible.
 
 Let’s continue with the example. Before we make the first measurement, we can guess (or rough estimate) the gold bar weight simply by reading the stamp on the gold bar. It is called the *initial guess*, and it is our first estimate. The Kalman Filter requires the initial guess as a preset, which can be very rough.
+
+### Numerical Example
