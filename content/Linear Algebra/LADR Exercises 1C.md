@@ -26,7 +26,8 @@ $$
 w & =u+v \\
 (w_{1},w_{2},w_{3}) & =(u_{1}+v_{1}, u_{2}+v_{2}, u_{3}+v_{3})
 \end{align}
-$$For closure under addition, we need to have $w\in S$. So we check:
+$$
+For closure under addition, we need to have $w\in S$. So we check:
 $$
 \begin{align}
 w_{1}+2w_{2}+3w_{3} & = (u_{1}+v_{1})+2(u_{2}+v_{2})+3(u_{3}+v_{3}) \\
