@@ -13,7 +13,7 @@ aliases:
 >- (c) $\{ (x_{1},x_{2},x_{3}) \}\in \mathbb{F}^{3}\, : \,x_{1}x_{2}x_{3}=0$
 >- (d) $\{ (x_{1},x_{2},x_{3}) \}\in \mathbb{F}^{3}\, : \,x_{1}=5x_{3}$
 
-#### 1(a)
+**1(a)**
 The zero vector in $\mathbb{F}^{3}$ is $(0,0,0)$. Since we have
 $$
 0+2(0)+3(0)=0,
@@ -48,14 +48,47 @@ $$
 $$
 Thus, $\lambda u$ satisfies the condition for belonging in $S$, so we have closure under scalar multiplication as well. 
 
-#### 1(b)
+**1(b)**
 This subset is not a subspace because the zero vector of $\mathbb{F}^{4}$ is not in it:
 $$
 0+2(0)+3(0)\neq 4
 $$
-#### 1(c)
+**1(c)**
+The zero vector exists in the subspace, since $(0,0,0)$ has $0\cdot 0 \cdot 0 =0$. However, the additive identity is not valid since for some $u, v\in S$, we do not always have
+$$
+(u_{1}+v_{1})(u_{2}+v_{2})(u_{3}+v_{3})=0
+$$
+For example, $(1,1,0)$ and $(0,1,1)$ both belong in the subset, but their sum $(1,2,1)$ does not.
 
+**1(d)**
+The zero vector/additive identity for $\mathbb{F}^{3}$ exists in the subspace, since $(0,0,0)$ satisfies $x_{1}=5x_{3}$ with $0=5(0)$.
 
+Closure under addition holds. For some $u, v \in S$ we have
+$$
+\begin{align}
+w & =u+v \\
+(w_{1}, w_{2}, w_{3}) & =(u_{1}+v_{1}, u_{2}+v_{2}, u_{3}+v_{3})
+\end{align}
+$$
+then, $w \in S$ if $w_{1}=5w_{3}$, which we can show with
+$$
+\begin{align}
+w_{1} & =5w_{3} \\
+u_{1}+v_{1} & =5(u_{3}+v_{3}) \\
+u_{1}+v_{1} & =5u_{3}+5v_{3}
+\end{align}
+$$
+For scalar multiplication, we have
+$$
+\lambda u=(\lambda u_{1}, \lambda u_{2}, \lambda u_{3})
+$$
+which satisfies the closure property because
+$$
+\begin{align}
+\lambda u_{1}=5(\lambda u_{3}) \\
+\lambda u_{1} = \lambda(5u_{3})
+\end{align}
+$$
 
 >[!question] Problem 2
 >Verify all assertions about subspaces in Example 1.35.
