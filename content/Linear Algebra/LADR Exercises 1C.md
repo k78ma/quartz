@@ -13,7 +13,7 @@ aliases:
 >- (c) $\{ (x_{1},x_{2},x_{3}) \}\in \mathbb{F}^{3}\, : \,x_{1}x_{2}x_{3}=0$
 >- (d) $\{ (x_{1},x_{2},x_{3}) \}\in \mathbb{F}^{3}\, : \,x_{1}=5x_{3}$
 
-#### (a)
+#### 1(a)
 The zero vector in $\mathbb{F}^{3}$ is $(0,0,0)$. Since we have
 $$
 0+2(0)+3(0)=0,
@@ -46,6 +46,15 @@ $$
 (\lambda u_{1})+2(\lambda u_{2})+3(\lambda u_{3})=\lambda(u_{1}+2u_{2}+3u_{3})=\lambda(0)=0
 $$
 Thus, $\lambda u$ satisfies the condition for belonging in $S$, so we have closure under scalar multiplication as well. 
+
+#### 1(b)
+This subset is not a subspace because the zero vector of $\mathbb{F}^{4}$ is not in it:
+$$
+0+2(0)+3(0)\neq 4
+$$
+#### 1(c)
+
+
 
 >[!question] Problem 2
 >Verify all assertions about subspaces in Example 1.35.

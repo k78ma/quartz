@@ -49,5 +49,4 @@ Other:
 
 Compilations:
 - [rsrch space | varepsilon](https://www.rsrch.space/)
-
-
+- [[Greg Yang Book List]]
