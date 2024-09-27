@@ -21,8 +21,11 @@ Things on the internet:
 - [Lil'Log | Lilian Weng](https://lilianweng.github.io/)
 - [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html)
 - [Neel Nanda](https://www.neelnanda.io/)
+	- [Become a person who Actually Does Things ](https://www.neelnanda.io/blog/become-a-person-who-actually-does-things)
 	- [An Extremely Opinionated Annotated List of My Favourite Mechanistic Interpretability Papers v2](https://www.alignmentforum.org/posts/NfFST5Mio7BCAQHPA/an-extremely-opinionated-annotated-list-of-my-favourite-1)
-	- [Post 34: Learning how to learn — Neel Nanda](https://www.neelnanda.io/blog/34-learning)
+	- [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started)
+	- [Learning how to learn](https://www.neelnanda.io/blog/34-learning)
+- [On Those Undefeatable Arguments for AI Doom](https://1a3orn.com/sub/essays-ai-doom-invincible.html)
 	
 
 Books:

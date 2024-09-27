@@ -8,7 +8,7 @@ aliases:
 ---
 ## Nomenclature
 - **Pinion**: the smaller of two gears
-- **Pitch circle**: theoretical circle for all analysis
+- **Pitch circle**: theoretical circle for analysis. The pitch circles of a pair of mating gears are tangent to each other.
 - **Pitch diameter** ($d$): diameter of pitch circle
 - **Circular pitch** ($p$): distance between teeth (see diagram)
 	- Units of $[\text{in}]$ or $[\text{mm}]$
