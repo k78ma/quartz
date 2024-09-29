@@ -1,13 +1,15 @@
 {
   "baseFontSize": 18,
-  "accentColor": "",
-  "cssTheme": "Border",
+  "accentColor": "#5789ff",
+  "cssTheme": "AnuPpuccin",
   "enabledCssSnippets": [
-    "center-img"
+    "center-img",
+    "extended-colorschemes"
   ],
   "translucency": false,
   "theme": "obsidian",
   "textFontFamily": "STIX Two Text",
   "showViewHeader": true,
-  "baseFontSizeAction": false
+  "baseFontSizeAction": false,
+  "interfaceFontFamily": "Inter"
 }

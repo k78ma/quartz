@@ -47,7 +47,7 @@ Our next example of a vector space involves a set of functions.
 >
 >This perspective generalizes the concept of vectors. While we usually think of vectors as ordered tuples (like points in $\mathbb{R}^{n}$), in this more abstract setting, we treat entire functions as vectors.
 
-As an example of the notation above, if $S$ is the interval $[0,1]$ and $\mathbb{F}=\mathbb{R}$, then $\mathbb{R}^{[0,1]}$ is the set of real-valued functions on the interval $[0,1]$. 
+As an example of the notation above, if $S$ is the interval $[0,1]$ and $\mathbb{F}=\mathbb{R}$, then $\mathbb{R}^{[0,1]}$ is the set of real-valued functions on the interval $[0,1]$. This means the the domain of each function are $[0,1]$, which is mapped to a real value $\mathbb{R}$. 
 - The elements of the vector space $\mathbb{R}^{[0,1]}$ are real-valued functions on $[0,1]$, not [[Lists|lists]]. In general, a vector space is an abstract entity whose elements might be lists, functions, or weird objects.
 
 We can show that $\mathbb{F}^{S}$ is a vector space by considering the following:

@@ -1,10 +1,10 @@
 ---
-title: Alpha-Beta-Gamma Filter
+title: Simple Static State Estimation Example
 tags:
   - robotics
-date: 2024-09-23
+date: 2024-09-28
 aliases:
-  - alpha-beta-gamma filter
+  - simple static state estimation example
 ---
 ## Weighing Gold Example
 In this example, we estimate the state of a static system. A static system is a system that doesn’t change its state over a reasonable period. Here, we we estimate the weight of the gold bar. We have unbiased scales (the measurements don’t have a systematic error), but the measurements do include random noise.
@@ -74,9 +74,7 @@ $$
 $$
 Recall that $\hat{x}_{n-1, n-1}$ is the estimated state of $x$ at time $n-1$ based on the measurement at the time $n-1$. 
 
-Let’s find $\hat{x}_{n-1, n-1}$ (the predicted state of $x$ at the time $n$), based on $\hat{x}_{n-1,n-1}$ (the estimation at the time $n − 1$). In other words, we would like to extrapolate $\hat{x}_{n-1, n-1}$ to the time $n$.
-
-Since the dynamic model in this example is static, the predicted state of $x$ equals the estimated state of $x$ with:
+Let’s find $\hat{x}_{n, n-1}$ (the predicted state of $x$ at the time $n$), based on $\hat{x}_{n-1,n-1}$ (the estimation at the time $n − 1$). In other words, we would like to extrapolate $\hat{x}_{n-1, n-1}$ to the time $n$. Since the dynamic model in this example is static, the predicted state of $x$ equals the estimated state of $x$ with:
 $$
 \hat{x}_{n, n-1}=\hat{x}_{n-1, n-1}
 $$
@@ -88,7 +86,7 @@ The State Update Equation is one of the five Kalman filter equations. It means t
 
 ![[Alpha-Beta-Gamma Filter-2.png]]
 
-The factor $1 / n$ is specific to our example. This is called the Kalman Gain. It is denoted by $K_{n}$. The subscript $n$ indicates that the Kalman Gain can change with every iteration.
+The factor $1 / n$ is specific to our example. This is called the **Kalman Gain**. It is denoted by $K_{n}$. The subscript $n$ indicates that the Kalman Gain can change with every iteration.
 
 Before we get into the [[Kalman Filter]] in depth, we will use the Greek letter $\alpha_{n}$ instead of $K_{n}$:
 $$
@@ -101,3 +99,83 @@ In this example, $1/n$ decreases as $n$ increases. In the beginning, we don’t 
 Let’s continue with the example. Before we make the first measurement, we can guess (or rough estimate) the gold bar weight simply by reading the stamp on the gold bar. It is called the *initial guess*, and it is our first estimate. The Kalman Filter requires the initial guess as a preset, which can be very rough.
 
 ### Numerical Example
+
+#### Iteration 0
+**Initialization:** Our initial guess of the gold bar weight is 1000 grams. The initial guess is used only once for the filter initiation. Thus, it won’t be required for successive iterations.
+$$
+\hat{x}_{0,0}=1000g
+$$
+**Prediction:** The weight of the gold bar is not supposed to change. Therefore, the dynamic model of the system is static. Our next state estimate (prediction) equals the initialization:
+$$
+\hat{x}_{1,0}=1000g
+$$
+#### Iteration 1
+Making the weight measurement with the scales:
+$$
+z_{1}=996g
+$$
+Calculating the gain. In our example, $\alpha_{n}=\frac{1}{n}$, so we have
+$$
+\alpha_{1}=\frac{1}{1}=1
+$$
+Calculating the current estimate using the state update equation:
+$$
+\hat{x}_{1,1}=\hat{x}_{1,0}+\alpha_{1}(z_{1}-\hat{x}_{1,0})=1000+1(996-1000)= 996g
+$$
+The dynamic model of the system is static; thus our next state estimate (prediction) is the same as the current state estimate:
+$$
+\hat{x}_{2,1}=\hat{x}_{1,1}=996g
+$$
+
+#### Iteration 2
+After a unit time delay, , the **predicted estimate** from the previous iteration becomes the **prior estimate** in the current iteration:
+$$
+\hat{x}_{2,1}=996g
+$$
+Making a second weight measurement:
+$$
+z_{2}=994g
+$$
+Calculating the gain:
+$$
+a_{2}=\frac{1}{2}
+$$
+Calculating the current estimate:
+$$
+\begin{align}
+\hat{x}_{2,2} & =\hat{x}_{2,1}+\alpha(z_{2}-\hat{x}_{2,1}) \\
+ & =996+\frac{1}{2}(994-996)=995g
+\end{align}
+$$
+Calculating the prediction:
+$$
+\hat{x}_{3,2}=\hat{x}_{2,2}=995g
+$$
+#### Iteration 3
+$$
+\begin{align}
+z_{3} & =1021g \\[2ex]
+a_{3} & =\frac{1}{3} \\[2ex] 
+\hat{x}_{3,3} & =995+\frac{1}{3}(1021-995)=1003.67g \\[2ex] 
+\hat{x}_{4,3} & = \hat{x}_{3,3}=1003.67g
+\end{align}
+$$
+#### Iteration 4
+$$
+\begin{align}
+z_{4} & =1000 \\[2ex] 
+\alpha_{4} & =\frac{1}{4}\\[2ex] 
+\hat{x}_{4,4} & = 1003.67g +\frac{1}{4}(1000-1003.67)=1002.57g \\[2ex]
+\hat{x}_{5,4} & =\hat{x}_{4,4}=1002.57
+\end{align}
+$$
+#### Results
+We can keep doing this. The below table summarizes up to the 10th iteration.
+
+![[Alpha-Beta-Gamma Filter-3.png]]
+
+The following chart compares the true, measured, and estimated values. The estimation algorithm has a smoothing effect on the measurements and converges toward the true value.
+
+![[Alpha-Beta-Gamma Filter-4.png]]
+
+In this example, we’ve developed a simple estimation algorithm for a static system. We have also derived the state update equation, one of the five Kalman Filter equations.

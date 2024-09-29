@@ -90,11 +90,40 @@ $$
 \end{align}
 $$
 
+
 >[!question] Problem 2
 >Verify all assertions about subspaces in Example 1.35.
 
 This is done in [[Subspaces#Examples]].
 
+
 >[!question] Problem 3
 >Show that the set of differentiable real-valued functions $f$ on the interval $(−4, 4)$ such that $f'(-1)=3f(2)$ is a subspace of $\mathbb{R}^{(-4,4)}$.
+
+ $\mathbb{R}^{(-4, 4)}$  is the set of functions from $(0,3)$ to $\mathbb{R}$. The zero function in $\mathbb{R}^{(-4,4)}$ is $f(x)=0$, which is differentiable on $(0,3)$. We also have:
+$$
+\begin{align}
+f'(-1) & =0 \\
+3f(2) & =3(0)=0
+\end{align}
+$$
+Thus, the zero function in $\mathbb{R}^{(-4,4)}$ is contained in $V$.
+
+Next, for addition, if $f,g\in V$, then $f$ and $g$ are differentiable real-valued functions. So, $f+g$ must also be differentiable. Then:
+$$
+(f+g)'(-1)=f'(-1)+g'(-1)=3f(2)+3g(2)=3(f(2)+g(2))=3(f+g)(2)
+$$
+from which we can conclude that $V$ is closed under addition.
+
+For scalar multiplication, if $f\in V$ for any $\lambda \in \mathbb{R}$, then $f$ is differentiable real-valued functions. So, $\lambda f$ is differentiable too. Moreover,
+$$
+(\lambda f)'(-1)=\lambda f'(-1)=\lambda(3f)(2)=3(\lambda f)(2)
+$$
+This shows $V$ is closed under scalar multiplication.
+
+Thus, we've shown that $V$ shares the same zero function/additive identity, is closed under addition, and is closed under scalar multiplication.
+
+
+> [!question] Problem 4
+> Suppose $b\in \mathbb{R}$. Show that the set of continuous real-valued functions $f$ on the interval $[0, 1]$ such that $\int_{0}^{1}f  =b$ is a subspace of $\mathbb{R}^{[0,1]}$ if and only if $b=0$.
 

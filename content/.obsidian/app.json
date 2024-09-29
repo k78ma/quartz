@@ -11,11 +11,12 @@
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 85
+    "downscalePercent": 60
   },
   "strictLineBreaks": true,
   "smartIndentList": true,
   "defaultViewMode": "source",
   "showInlineTitle": true,
-  "vimMode": true
+  "vimMode": true,
+  "showRibbon": true
 }

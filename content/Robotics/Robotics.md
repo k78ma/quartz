@@ -15,10 +15,7 @@ aliases:
 - [[Motion Planning]]
 - [[SLAM]]
 - [[Control Theory]]
-
-## State Estimation
-- [[Kalman Filter]]
-	- [[Alpha-Beta-Gamma Filter]]
+- [[State Estimation]]
 
 ## Tools/Practical
 - [[ROS]]

@@ -15,11 +15,11 @@
   "obsidian-paste-image-rename",
   "sheets",
   "obsidian-image-layouts",
-  "obsidian-style-settings",
   "obsidian-image-caption",
   "nl-fast-image-cleaner",
   "oz-clear-unused-images",
   "table-editor-obsidian",
   "callout-manager",
-  "templater-obsidian"
+  "templater-obsidian",
+  "obsidian-style-settings"
 ]
