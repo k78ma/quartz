@@ -1,13 +1,16 @@
 ---
-title: Worm and Wheel
+title: Worms and Worm Gears
 tags:
   - mte322
-date: 2024-09-14
+date: 2024-10-01
 aliases:
-  - worm and wheel
-  - worm gear
+  - worms and worm gears
 ---
-## Properties
+Worms and worm gears are a basic gear type. The worm resembles a screw. The direction of rotation of the worm gear (also called worm wheel) depends on the direction of rotation of the worm and upon whether the worm teeth are cut right-hand or left-hand. 
+
+Worm gearsets are also made so that the teeth of one or both wrap partly around the other. Such sets are called single-enveloping and double-enveloping worm gearsets. Worm gearsets are mostly used when the speed ratios of the two shafts are quite high (3 or more).
+
+Key points:
 - Non-intersecting orthogonal axes  
 - Can design them to prevent “backdriving”  
 - Poor efficiency (40 - 85%)  

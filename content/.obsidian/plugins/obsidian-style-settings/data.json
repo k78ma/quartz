@@ -18,5 +18,12 @@
   "anuppuccin-theme-settings-extended@@anp-theme-ext-light": false,
   "anuppuccin-theme-settings@@anp-code-text-color@@dark": "#95B3FF",
   "anuppuccin-theme-settings@@anp-callout-select": "anp-callout-block",
-  "anuppuccin-theme-settings@@callout-title-opacity": 0.3
+  "anuppuccin-theme-settings@@callout-title-opacity": 0.3,
+  "anuppuccin-theme-settings@@h2-size": 1.5,
+  "anuppuccin-theme-settings@@anp-colorful-frame": false,
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-light": false,
+  "anuppuccin-theme-settings@@anp-depth-tab-text-invert": false,
+  "anuppuccin-theme-settings@@anp-autohide-titlebar": false,
+  "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-dark": false,
+  "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": true
 }

@@ -33,3 +33,10 @@ $$
 
 The above system of equations is called a **State Extrapolation Equation** (also called the **Transition Equation** or **Prediction Equation**) and is also one of the five Kalman filter equations. This system of equations extrapolates the current state to the next state (prediction).
 
+The predictton equations depend on the system dynamics and differ from example to example. 
+
+## $\alpha$-$\beta$ filter
+
+Let the radar track-to-track period $\Delta t$ be 5 seconds. Assume that at time $n-1$, the estimated range of the unmanned air vehicle is 30,000 the estimated UAV velocity is 40 m/s. 
+
+Using the prediciton/state extrapolation equations, we can predict the target position at time $n$:

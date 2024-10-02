@@ -6,7 +6,11 @@ date: 2024-09-14
 aliases:
   - helical gears
 ---
-## Basic Properties
+Helical gears have gears inclined to the axis of rotation. Helical gears can be used for the same applications as [[Spur Gears|spur gears]] and are not as noisy, because of the more gradual engagement of the teeth during meshing. 
+
+The inclined tooth also develops thrust loads and bending couples, which are not present with spur gearing. Sometimes helical gears are used to transmit motion between nonparallel shafts.
+
+Some key points:
 - Teeth not parallel to axis  
 - More expensive than spur  
 - Quieter than others  

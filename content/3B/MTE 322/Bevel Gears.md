@@ -6,6 +6,9 @@ date: 2024-09-14
 aliases:
   - bevel gears
 ---
+Bevel gears have teeth formed on conical surfaces and are mostly used for transmitting motion between intersecting shafts. 
+
+Key points:
 - Based on rolling cones  
 - Intersecting axes  
 - Can turn any corner angle  

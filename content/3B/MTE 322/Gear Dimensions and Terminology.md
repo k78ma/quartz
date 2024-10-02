@@ -7,19 +7,24 @@ aliases:
   - gear dimensions and terminology
 ---
 ## Nomenclature
-- **Pinion**: the smaller of two gears
-- **Pitch circle**: theoretical circle for analysis. The pitch circles of a pair of mating gears are tangent to each other.
-- **Pitch diameter** ($d$): diameter of pitch circle
-- **Circular pitch** ($p$): distance between teeth (see diagram)
+- **Pinion**: The smaller of two gears. The larger is often called the gear.
+- **Pitch circle**: Theoretical circle for analysis. The pitch circles of a pair of mating gears are tangent to each other.
+- **Pitch diameter** ($d$): Diameter of pitch circle
+- **Circular pitch** ($p$): Distance between teeth. Measured from the from a point on one tooth to a corresponding point on an adjacent tooth. This can be thought of as the sum of the tooth thickness and the width of space.
 	- Units of $[\text{in}]$ or $[\text{mm}]$
 	- Note that $p=\pi d /N=\pi m$ (circumference divided by number of teeth)
 - **Number of teeth** ($N$)
-- **Module** ($m$): $m=d / N \;\; \;[\text{mm}]$
-- **Diametrical pitch** ($P$): Number of teeth divided by diameter
-	- $P=N / d=25.4 / m \;\; \;[/\text{in}]$
-		- This includes a conversion from mm to in, since 1 in = 25.4 mm
+- **Module** ($m$): $m=d / N \;\; \;[\text{mm}]$.
+- **Diametrical pitch** ($P$): Number of teeth divided by diameter. $P=N / d=25.4 / m \; \;[/\text{in}]$
+	- This includes a conversion from mm to in, since 1 in = 25.4 mm
 	- Note that $pP=\pi \,\,[\text{in}]$
 - **Gear ratio**: $\frac{N_{G}}{N_{P}}=\frac{d_{G}}{d_{P}}$
+- **Addendum** ($a$): Radial distance between the top land and the pitch circle.
+- **Dedendum** ($b$): Radial distance from the bottom land to the pitch circle.
+- **Whole depth** ($h_{t}$): Sum of the addendum and dedendum
+- **Clearance circle**: Circle that is tangent to the addendum circle of the mating gear.
+- **Clearance** ($c$): Amount by which the dedendum in a given gear exceeds the addendum of its mating gear.
+- **Backlash:** Amount by which the width of a tooth space exceeds the thickness of the engaging tooth measured on the pitch circles.
 - ==Mating gears must have the same tooth size==
 
 ![[Gear Dimensions and Terminology-2.png]]
