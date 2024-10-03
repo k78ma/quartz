@@ -127,7 +127,7 @@ Thus, we've shown that $V$ shares the same zero function/additive identity, is c
 > [!question] Problem 4
 > Suppose $b\in \mathbb{R}$. Show that the set of continuous real-valued functions $f$ on the interval $[0, 1]$ such that $\int_{0}^{1}f  =b$ is a subspace of $\mathbb{R}^{[0,1]}$ if and only if $b=0$.
 
-If the set $V$ is a subspace of $\mathbb{R}^{[0,1]}$, then for any $f\in V$, we have $\int_{0}^{1} f \,=b$. For $V$ to be a subspace, any $kf$, where $k\in \mathbb{R}$, must also be in $V$. Hence
+Let us call the set $V$. If $V$ is a subspace of $\mathbb{R}^{[0,1]}$, then for any $f\in V$, we have $\int_{0}^{1} f \,=b$. For $V$ to be a subspace, any $kf$, where $k\in \mathbb{R}$, must also be in $V$. Hence
 $$
 \begin{align}
 b & =\int_{0}^{1}(kf)   \\[2ex]
@@ -144,3 +144,9 @@ $$
 which satisfies closure under addition, $f+g\in V$. Note that $f+g$ is a continuous real-valued function since $f$ and $g$ are.
 
 Similarly,
+$$
+\int_{0}^{1} (\lambda f) =\lambda \int_{0}^{1}f=k0=0 
+$$
+and $\lambda f$ is a continuous real-valued function because $f$ is. Thus, we have closure under multiplication, $\lambda f\in V$.
+
+Finally, we note the constant function (additive identity) $f\equiv 0$ in $\mathbb{R}^{[0,1]}$ is also the additive identity in $V$. Hence, $V$ is a subspace of $\mathbb{R}^{[0,1]}$.
