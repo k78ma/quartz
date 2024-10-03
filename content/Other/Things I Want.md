@@ -15,3 +15,5 @@ Books I would like to own a physical copy of (once I settle somewhere permanentl
 
 Stuff:
 - Telescope of decent quality
+- Timbuk2 Custom Prospect Backpack?
+- Dockcase Pro USB hub

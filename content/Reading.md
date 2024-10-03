@@ -32,6 +32,7 @@ Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
 - [The Algorithm Design Manual](https://www.algorist.com/)
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+- [Deep Learning - Foundations and Concepts](https://www.bishopbook.com/)
 - [An Infinite Descent into Pure Mathematics](https://infinitedescent.xyz/)
 - [A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Poor Charlie’s Almanack](https://www.stripe.press/poor-charlies-almanack/cover)

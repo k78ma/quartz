@@ -127,3 +127,20 @@ Thus, we've shown that $V$ shares the same zero function/additive identity, is c
 > [!question] Problem 4
 > Suppose $b\in \mathbb{R}$. Show that the set of continuous real-valued functions $f$ on the interval $[0, 1]$ such that $\int_{0}^{1}f  =b$ is a subspace of $\mathbb{R}^{[0,1]}$ if and only if $b=0$.
 
+If the set $V$ is a subspace of $\mathbb{R}^{[0,1]}$, then for any $f\in V$, we have $\int_{0}^{1} f \,=b$. For $V$ to be a subspace, any $kf$, where $k\in \mathbb{R}$, must also be in $V$. Hence
+$$
+\begin{align}
+b & =\int_{0}^{1}(kf)   \\[2ex]
+ & = k \int_{0}^{1} f \\[2ex] 
+	 & =kb
+\end{align}
+$$
+which only happens if $b=0$.
+
+If $b=0$, then for any $f,g\in V$ and $\lambda \in \mathbb{R}$, we have
+$$
+\int_{0}^{1} (f+g) \,= \int_{1}^{0} f +\int_{1}^{0} g=0+0=0
+$$
+which satisfies closure under addition, $f+g\in V$. Note that $f+g$ is a continuous real-valued function since $f$ and $g$ are.
+
+Similarly,
