@@ -165,5 +165,42 @@ Hence, $\mathbb{R}^{2}$ is not a subspace of the complex vector space $\mathbb{C
 
 > [!question] Problem 6
 > - **(a)** Is $\{ (a,b,c)\in \mathbb{R}^{3}\, : \,a^{3}=b^{3} \}$ a subspace of $\mathbb{R}^{3}$?
-> - **(b)** Is $\{ (a,b,c)\in \mathbb{R}^{3}\, : \,a^{3}=b^{3} \}$ a subspace of $\mathbb{C}^{3}$?
+> - **(b)** Is $\{ (a,b,c)\in \mathbb{C}^{3}\, : \,a^{3}=b^{3} \}$ a subspace of $\mathbb{C}^{3}$?
 
+**6(a)**
+The additive identity in $\mathbb{R}^{3}$ is $(0,0,0)$. This same additive identity exists in $V$.
+
+For elements $x,y \in V$, we have:
+$$
+\begin{align}
+x+y & =(a_{x}, b_{x},c_{x})+(a_{y}, b_{y}, c_{y}) \\
+	 & = (a_{x}+a_{y}, b_{x}+b_{y}, c_{x}+c_{y})
+\end{align}
+$$
+For closure under addition, we need to have
+$$
+(a_{x}+a_{y})^{3}=(b_{x}+b_{y})^{3}
+$$
+or
+$$
+a_{x}^{3}+3a_{x}^{2}a_{y}+3a_{x}a_{y}^{2}+a_{y}^{3} = b_{x}^{3}+3b_{x}^{2}b_{y}+3b_{x}b_{y}^{2}+b_{y}^{3}
+$$
+This is true, since the $a_{x}^{3}=b_{x}^{3}$ and $a_{y}^{3}=b_{y}^{3}$ is only true if $a_{x}=b_{x}$ and $a_{y}=b_{y}$ (for real numbers). Thus, closure under addition is satisfied.
+
+Closure under multiplication is easy to show:
+$$
+\begin{align}
+\lambda x=(\lambda a_{x}, \lambda b_{x}, \lambda c_{x}) \\
+\end{align}
+$$
+and we have
+$$
+\begin{align}
+(\lambda a_{x})^{3} & =(\lambda b_{x})^{3} \\
+\lambda^{3}a_{x}^{3} & =\lambda^{3}b_{x}^{3} \\
+a_{x}^{3}&=b_{x}^{3}
+\end{align}
+$$
+Thus, we've shown that $V$ is indeed a subspace of $\mathbb{R}^{3}$.
+
+**6(b)**

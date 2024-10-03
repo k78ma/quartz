@@ -21,6 +21,7 @@ $$
 $$
 The radar sends a track beam in the direction of the target at a constant rate. The track-to-track interval is $\Delta t$. 
 
+### Prediction Equations
 Two motion equations describe the system dynamic model for constant velocity motion:
 $$
 \begin{align}
@@ -35,8 +36,70 @@ The above system of equations is called a **State Extrapolation Equation** (also
 
 The predictton equations depend on the system dynamics and differ from example to example. 
 
-## $\alpha$-$\beta$ filter
+## $\alpha$-$\beta$ Filter
 
 Let the radar track-to-track period $\Delta t$ be 5 seconds. Assume that at time $n-1$, the estimated range of the unmanned air vehicle is 30,000 the estimated UAV velocity is 40 m/s. 
 
-Using the prediciton/state extrapolation equations, we can predict the target position at time $n$:
+Using the prediction/state extrapolation equations, we can predict the target position at time $n$:
+$$
+\begin{align}
+\hat{x}_{n, n-1} & =\hat{x}_{n-1,n-1}+\Delta t \hat{\dot{x}}_{n-1,n-1}  \\
+	 & = 3000 + 5(40) \\
+	 & =30200\text{ m}
+\end{align}
+$$
+The target velocity prediction for time $n$:
+$$
+\hat{\dot{x}}_{n,n}=\hat{\dot{x}}_{n-1, n-1}
+$$
+However, at time $n$, the actual range measurement we get from the radar, $z_{n}$, is $30110$ and not $30200$; there is a 90 meter gap between the predicted range and the measured range. There are two possible explanations for this:
+1. The radar measurements are not precise.
+2. The aircraft velocity has changed. The new aircraft velocity would be $\frac{30110-30000}{5}=22 \text{ m/s}$.
+
+Which of these two is true?
+
+### State Update Equations
+#### Velocity
+We can write a State Update Equation for **velocity**:
+$$
+\hat{\dot{x}}_{n,n}=\hat{\dot{x}}_{n,n-1}+\beta\left( \frac{z_{n}-\hat{x}_{n,n-1}}{\Delta t} \right)
+$$
+The factor $\beta$ depends on the precision level of the radar.
+
+Suppose that the $1\sigma$ precision of the radar is 20m. The 90 meter gap between the predicted and measured ranges would most likely result from change in aircraft velocity. In this case, $\beta$ should be set to a high value. For example, with $\beta=0.9$, we would have
+$$
+\hat{\dot{x}}_{n,n}= 40+0.9\left( \frac{30110-30200}{5} \right)=23.8 \text{ m/s}
+$$
+Suppose that the $1\sigma$ precision of the radar is 150m. Then, the 90 meter gap probably results from measurement error. In this case, $\beta$ should be set low. If we have $\beta=0.1$, we would have:
+$$
+\hat{\dot{x}}_{n,n}= 40+0.1\left( \frac{30110-30200}{5} \right)=38.2 \text{ m/s}
+$$
+If the aircraft velocity has changed from 40m/s to 22m/s, we see this after 10 track cycles (running the above equation 10 times with $\beta = 0.1$). If the gap is caused by random measurement error, then the measurements will fluctuate around the predicted position, and might be in front or behind the predicted positions. Thus, on average, if the gap between the predicted and measured positions is caused by random measurement errors, the errors will cancel out over multiple measurement cycles and will not result in a significant change in the estimated velocity.
+
+#### Position
+The State Update Equation for the aircraft **position** is similar to the equation that was derived in the previous [[Simple Static State Estimation Example]]:
+$$
+\hat{x}_{n,n}=\hat{x}_{n,n-1}+\alpha(z_{n}-\hat{x}_{n,n-1})
+$$
+Unlike the previous example, where the $\alpha$ gain factor is re-calculated in each iteration with $\alpha=\frac{1}{n}$, the $\alpha$ factor is constant in this example. Its magnitude depends on the radar measurement precision. For high precision-radar, we should choose high $\alpha$, giving high weight to the measurements. 
+
+If $\alpha = 1$, then the estimated range equals the measured range:
+$$
+\hat{x}_{n, n}=\hat{x}_{n, n-1}+1(z_{n}-\hat{x}_{n,n-1})=z_{n}
+$$
+If $\alpha=0$, then the measurement has no meaning:
+$$
+\hat{x}_{n,n}=\hat{x}_{n,n-1}+0(z_{n}-\hat{x}_{n,n-1})=\hat{x}_{n,n-1}
+$$
+Thus, our State Update equations or $\alpha$-$\beta$ track update equations or $\alpha$-$\beta$ track filtering equations are:
+
+
+> [!theorem] State Update equations for position and velocity
+> $$
+> \begin{align}
+> \hat{x}_{n,n} & =\hat{x}_{n,n-1}+\alpha(z_{n}-\hat{x}_{n,n-1}) \\[2ex]
+> \hat{\dot{x}}_{n,n} & =\hat{\dot{x}}_{n,n-1} + \beta\left( \frac{z_{n}-\hat{x}_{n,n-1}}{\Delta t} \right)
+>\end{align}
+> $$
+
+## Estimation Algorithm
