@@ -16,6 +16,7 @@ A subset $U$ of $V$ is a subspace of $V$ if and only if $U$ satisfies the follow
 - **Additive identity:** $0 \in U$.
 - **Closed under addition:** $u,w\in U$ implies $u+w\in U$.
 - **Closed under scalar multiplication:** $a\in \mathbb{F}$ and $u\in U$ implies $au\in U$.
+	- More specifically, $a$ is a scalar from the [[Fields|field]] over which $V$ is defined.
 
 How do we prove that a subset $U$ that satisfies those conditions is a vector space with the same additive identity, addition, and scalar multiplication as on $V$?
 

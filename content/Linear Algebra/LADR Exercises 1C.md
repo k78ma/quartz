@@ -150,3 +150,20 @@ $$
 and $\lambda f$ is a continuous real-valued function because $f$ is. Thus, we have closure under multiplication, $\lambda f\in V$.
 
 Finally, we note the constant function (additive identity) $f\equiv 0$ in $\mathbb{R}^{[0,1]}$ is also the additive identity in $V$. Hence, $V$ is a subspace of $\mathbb{R}^{[0,1]}$.
+
+> [!question] Problem 5
+> Is $\mathbb{R}^{2}$ a subspace of $\mathbb{C}^{2}$?
+
+$\mathbb{R}^{2}$ is not a subspace of $\mathbb{C}^{2}$ because it does not satisfy closure under scalar multiplication. Specifically, we need to have $\lambda a\in \mathbb{R}^{2}$ for $\lambda \in \mathbb{C}$, $a\in \mathbb{R}^{2}$. 
+- Recall that for closure of multiplication where $U$ is a subspace of $V$, $\lambda$ is a scalar from the [[Fields|field]] over which $V$ is defined.
+
+This is clearly not true:
+$$
+\lambda =i, \,\, a=(1,1) \quad \longrightarrow \quad \lambda a=(i,i) \notin \mathbb{R}^{2}
+$$
+Hence, $\mathbb{R}^{2}$ is not a subspace of the complex vector space $\mathbb{C}^{2}$.
+
+> [!question] Problem 6
+> - **(a)** Is $\{ (a,b,c)\in \mathbb{R}^{3}\, : \,a^{3}=b^{3} \}$ a subspace of $\mathbb{R}^{3}$?
+> - **(b)** Is $\{ (a,b,c)\in \mathbb{R}^{3}\, : \,a^{3}=b^{3} \}$ a subspace of $\mathbb{C}^{3}$?
+
