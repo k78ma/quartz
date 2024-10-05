@@ -204,3 +204,19 @@ $$
 Thus, we've shown that $V$ is indeed a subspace of $\mathbb{R}^{3}$.
 
 **6(b)**
+We can show that the set is not a subspace of $\mathbb{C}^{3}$ by providing a counterexample. We have two elements in the subset, $x$ and $y$:
+$$
+\begin{align}
+x & =\left( 1, \frac{-1+\sqrt{ 3 }i}{2},0 \right) \in \{ (a,b,c)\in \mathbb{C}^{3} \, : \, a^{3}=b^{3} \} \\[2ex]
+y & =\left( 1, \frac{-1-\sqrt{ 3 }i}{2},0 \right) \in \{ (a,b,c)\in \mathbb{C}^{3} \, : \, a^{3}=b^{3} \} \\
+\end{align}
+$$
+Adding these two elements shows that the set is not closed under addition:
+$$
+x+y=(2, -1, 0) \notin \{ (a,b,c)\in \mathbb{C}^{3} \, : \, a^{3}=b^{3} \}
+$$
+
+> [!question] Problem 7
+> Prove or give a counterexample: If $U$ is a nonempty subset of $\mathbb{R}^{2}$ such that $U$ is closed under addition and under taking additive inverses (meaning $-u\in U$ whenever $u\in U$), then $U$ is a subspace of $\mathbb{R}^{2}$.
+
+We can say that

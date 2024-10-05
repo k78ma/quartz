@@ -103,3 +103,80 @@ Thus, our State Update equations or $\alpha$-$\beta$ track update equations or $
 > $$
 
 ## Estimation Algorithm
+
+![[Constant Velocity Tracking Example-1.png]]
+
+## Numerical Example
+
+Consider an aircraft moving radially toward a radar in a 1D setting. The parameters used are:
+- $\alpha=0.2$
+- $\beta=0.1$
+
+The track to track interval is 5 seconds.
+
+### Iteration 0
+The initialization for time $n=0$ is given as:
+$$
+\begin{align}
+\hat{x}_{0,0}=30000 \text{ m} \\
+\hat{\dot{x}}_{0,0}=40 \text{ m/s}
+\end{align}
+$$
+Prediction:
+- Position:
+$$
+\begin{align}
+\hat{x}_{n+1, n} & =\hat{x}_{n,n}+\Delta t \hat{\dot{x}}_{n,n} \\
+\hat{x}_{1, 0} & =30000+5\times 40 \text{ m/s} = 30200 \text{ m}  \\
+\end{align}
+$$
+- Velocity:
+$$
+\begin{align}
+\hat{\dot{x}}_{n,n} & =\hat{\dot{x}}_{n-1, n-1}  \\
+\hat{\dot{x}}_{1,0} & = 40 \text{ m/s}
+\end{align}
+$$
+### Iteration 1
+In the first cycle, the initial guess is the prior estimate:
+$$
+\begin{align}
+\hat{x}_{n,n-1}&=\hat{x}_{1,0}=30200 \text{ m/s} \\
+\hat{\dot{x}}_{n,n-1} & =\hat{\dot{x}}_{1,0}=40 \text{ m/s}
+\end{align}
+$$
+We get a measurement of:
+$$
+z_{1}=30171 \text{ m}
+$$
+Calculating the current estimate with the State Update Equation:
+- Position:
+$$
+\hat{x}_{1,1}=\hat{x}_{1,0}+\alpha(z_{1}-\hat{x}_{1,0})=30200+0.2(30171-30200)=30194.2 \text{ m/s}
+$$
+- Velocity:
+$$
+\begin{align}
+\hat{\dot{x}}_{1,1} & =\hat{\dot{x}}_{1,0}+\beta\left( \frac{z_{1}-\hat{{x}}_{1,0}}{\Delta t} \right)\\[2ex] 
+	 & =40 \text{ m/s}+0.1\left( \frac{30171-30200}{5} \right) \\[2ex] 
+	 & =39.42 \text{ m/s}
+\end{align}
+$$
+Calculating the next state estimate using the State Extrapolation equations:
+- Position:
+$$
+\begin{align}
+\hat{x}_{n+1, n} & =\hat{x}_{n,n}+\Delta t \hat{\dot{x}}_{n,n} \\
+\hat{x}_{2, 1} & =30194.2+5\times 39.42 \text{ m/s} \text{ m/s} = 30391.3\text{ m}  \\
+\end{align}
+$$
+- Velocity:
+$$
+\begin{align}
+\hat{\dot{x}}_{n+1,n} & =\hat{\dot{x}}_{n,n} \\
+\hat{\dot{x}}_{2,1} & =\hat{x}_{1,1}=39.42 \text{ m/s}
+\end{align}
+$$
+### Iteration 2
+
+### Iteration 3
