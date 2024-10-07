@@ -178,5 +178,58 @@ $$
 \end{align}
 $$
 ### Iteration 2
+After a unit time delay, the predictions from the previous iteration become the prior estimate in the current iteration:
+$$
+\begin{align}
+\hat{x}_{2,1}=30391.3 \text{ m} \\
+\hat{\dot{x}}_{2,1}=39.42 \text{ m/s}
+\end{align}
+$$
+We get a new measurement from the radar of
+$$
+z_{2}=30352 \text{ m}
+$$
+Calculating the current state estimate using the State Update Equation:
+$$
+\begin{align}
+\hat{x}_{2,2} & =\hat{x}_{2,1}+\alpha(z_{2}-\hat{x}_{2,1}) \\
+ & =30391.3+0.2(30353-30391.3)= 30383.64 \text{ m}
+\end{align}
+$$
+and
+$$
+\begin{align}
+\hat{\dot{x}}_{2,2} & = \hat{\dot{x}}_{2,1}+\beta\left( \frac{z_{2}-\hat{x}_{2,1}}{\Delta t} \right) \\[2ex] 
+	 & =39.42+0.1\left( \frac{30353-30391.3}{5} \right)=38.65 \text{ m/s}
+\end{align}
+$$
+Calculating the next state estimate using the Prediction Equations:
+$$
+\begin{align}
+\hat{x}_{3,2} & =\hat{x}_{2,2}+\Delta t \hat{\dot{x}}_{2,2}=30383.64+5\times 38.65  = 303576.9 \text{ m} \\
+\hat{\dot{x}}_{3,2} & =\hat{\dot{x}}_{2,2}=38.65 \text{ m/s}
+\end{align}
+$$
 
-### Iteration 3
+The following table summarizes the measurements and estimates for 10 iterations:
+
+### Calculation Summary
+
+![[Constant Velocity Tracking Example-2.png]]
+
+## Result Analysis
+The following chart compares the true values, measured values, and estimates:
+
+![[Constant Velocity Tracking Example-3.png]]
+
+Our estimation algorithm has a smoothing effect on the measurements and converges toward the true value.
+
+### Using high $\alpha$ and $\beta$
+
+The following chart depicts the true, measured, and estimated values for α = 0.8 and β = 0.5.
+
+![[Constant Velocity Tracking Example-4.png]]
+
+The “smoothing” degree of this filter is much lower. The “current estimate” is very close to the measured values, and the predicted estimate errors are relatively high.
+
+So, shall we always choose low values for $\alpha$ and $\beta$? **No.** The value of $\alpha$ and $\beta$ should depend on the measurement precision. If we use high-precision equipment, like laser radar, we would prefer a high $\alpha$ and $\beta$ that follow measurements. In this case, the filter would quickly respond to a velocity change of the target. On the other hand, if measurement precision is low, we prefer low $\alpha$ and $\beta$. In this case, the filter smoothes the uncertainty (errors) in the measurements. However, the filter reaction to target velocity changes would be much slower.
