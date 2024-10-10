@@ -12,6 +12,7 @@ aliases:
 
 - Pinion (driving gear): Contact force is **opposite** to motion
 - Gear (driven gear): Contact is in the same direction as motion
+
 ## Example
 
 ![[MTE 322 Example 4.pdf]]

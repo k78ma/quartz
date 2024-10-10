@@ -6,7 +6,15 @@ date: 2024-09-22
 aliases:
   - straight bevel gear load analysis
 ---
+When gears are used to transmit motion between intersecting shafts, some form of bevel gear is required. 
 ## Geometry
+The pitch of bevel gears is measured at the large end of the tooth. Both the circular pitch and the pitch diameter are used calculated in the same manner as for [[Spur Gears|spur gears]]. 
+
+The pitch angles are defined by the pitch cones meeting at the apex, as shown in the figure. They are related to the tooth numbers as follows:
+$$
+\tan \gamma=\frac{N_{P}}{N_{G}}, \quad \tan \Gamma =\frac{d_{P}}{d_{G}}
+$$
+where the subscripts refer to the pinion and gear, respectively, and where $\gamma$ and $\Gamma$ are the pitch angles of the pinion and gear.
 
 ![[Straight Bevel Gear Load Analysis.png]]
 
@@ -20,7 +28,7 @@ aliases:
 ![[Straight Bevel Gear Load Analysis-2.png]]
 
 ### Procedure
-- Load distribution is similar to [[Helical Gear Load Analysis|helical]] in that it has components in all three directions ($W_{r}, W_{t}, W_{x}$) which are applied at the pitch radii ($r_{P}, r_{G}$). 
+- Load distribution is similar to [[Helical Gear Load Analysis|helical gears]] in that it has components in all three directions ($W_{r}, W_{t}, W_{x}$) which are applied at the pitch radii ($r_{P}, r_{G}$). 
 	- With $P$ for pinion and $G$ for gear, we have:
 $$
 W_{tP}=\frac{T_{\text{in}}}{r_{P}}=W_{tG}=\frac{T_{\text{out}}}{r_{G}}
