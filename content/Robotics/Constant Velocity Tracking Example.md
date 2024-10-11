@@ -6,6 +6,7 @@ tags:
 date: 2024-09-28
 aliases:
   - constant velocity tracking example
+  - alpha-beta filter
 ---
 Here we look at an example of a more complicated state estimation filter than the [[Simple Static State Estimation Example]], where we have a dynamic system that changes its state over time. Specifically, we use an $\alpha$-$\beta$ filter in one dimension.
 
@@ -101,6 +102,8 @@ Thus, our State Update equations or $\alpha$-$\beta$ track update equations or $
 > \hat{\dot{x}}_{n,n} & =\hat{\dot{x}}_{n,n-1} + \beta\left( \frac{z_{n}-\hat{x}_{n,n-1}}{\Delta t} \right)
 >\end{align}
 > $$
+> - $\alpha$ and $\beta$ are gains for position update and velocity update. 
+> 	- For example, a higher $\alpha$ means that the update is more sensitive to new position measurements.
 
 ## Estimation Algorithm
 
