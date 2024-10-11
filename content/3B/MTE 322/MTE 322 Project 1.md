@@ -191,3 +191,7 @@ $$
 This can be verified by using the computed power and angular speed instead:
 $$
 T_{\text{motor}}=\frac{500000\text{ W}}{153.94 \text{ rad/s}}=box
+
+
+$$
+
