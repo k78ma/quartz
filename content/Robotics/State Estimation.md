@@ -17,6 +17,6 @@ Notes from: *Kalman Filter from The Ground Up* by Alex Becker
 ## Kalman Filtering
 - [[Kalman Filter]]
 - [[1D Kalman Filter without Process Noise]]
-
+- [[Kalman Gain Intuition]]
 
 
