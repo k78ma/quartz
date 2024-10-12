@@ -6,6 +6,12 @@ date: 2024-03-27
 aliases:
   - variance
 ---
+In intuitive terms, variance is a measure of the spreading of the data set from its mean. The variance of a data set can be found with:
+$$
+\sigma^{2}=\frac{1}{N}\sum_{n=1}^{N}(x_{n}-\mu)^{2}
+$$
+The [[Standard Deviation]] is the square root of the mean.
+
 The variance of $f(x)$ is defined by
 $$
 \text{var}[f] = E\left[(f(x)-E[f(x)])^{2}\right]
@@ -20,3 +26,4 @@ In particular, we can consider the variance of the variable itself, which is giv
 $$
 \text{var}[x]=E[x^{2}]-E[x]^{2}
 $$
+

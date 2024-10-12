@@ -16,7 +16,7 @@ Notes from: *Kalman Filter from The Ground Up* by Alex Becker
 - [[Constant Acceleration Tracking Example]]
 ## Kalman Filtering
 - [[Kalman Filter]]
-- [[1D Kalman Filter]]
+- [[1D Kalman Filter without Process Noise]]
 
 
 
