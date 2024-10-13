@@ -248,3 +248,131 @@ Based on the inputs, the state update process calculates the Kalman Gain and pro
 **Predict.** The prediction process extrapolates the current system state estimate and its variance to the next system state based on the dynamic model of the system. At the first filter iteration, the initialization is treated as the prior state estimate and variance. The prediction outputs are used as the prior (predicted) state estimate and variance on the following filter iterations.
 
 ## Numerical Example
+In this example, we would like to estimate the height of a building using an imprecise altimeter. 
+
+We know that the building height doesn't change over time (at least during the short measurement process).
+
+Information given:
+- The true height of the building is 50 meters.
+- The altimeter measurement error (standard deviation) is 5 meters.
+- The 10 measurements are: 49.03m, 48.44m, 55.21m, 49.98m, 50.6m, 52.61m, 45.87m, 42.64m, 48.26m, 55.84m.
+
+### Iteration 0
+**Initialization:** The estimated height of the building based on the human eye we start from is:
+$$
+\hat{x}_{0,0}=60 \text{ m}
+$$
+A human estimation error is about $\sigma=15$. So, the variance is $\sigma^{2}=225\text{ m}$, so we have:
+$$
+p_{0,0}=225
+$$
+**Prediction:** Now, we predict the next state based on the initialization values. Since our system model is constant (the building doesn't change height), we just have
+$$
+\hat{x}_{1,0}=\hat{x}_{0,0}=60\text{ m}
+$$
+The predicted variance also doesn't change:
+$$
+p_{1,0}=p_{0,0}=225
+$$
+### Iteration 1
+**Measurement:** The first measurement is $49.03 \text{ m}$. Since the standard deviation $\sigma$ of the altimeter measurement is 5, the variance $\sigma^{2}$ is $25$. Thus, the measurement uncertainty is $r_{1}=25$.
+
+**Update:** We first calculate the Kalman Gain with:
+$$
+K_{1}=\frac{p_{1,0}}{p_{1,0}+r_{1}}=\frac{225}{225+25}=0.9
+$$
+Estimating the current state:
+$$
+\begin{align}
+\hat{x}_{1,1} & =\hat{x}_{1,0}+K_{1}(z_{1}-\hat{x}_{1,0}) \\
+	 & =60+0.9(49.03-60) \\
+	 & =50.13 \text{ m}
+\end{align}
+$$
+Updating the current estimate covariance:
+$$
+\begin{align}
+p_{1,1} & =(1-K_{1})p_{1,0} \\
+ & =(1-0.9)225 \\
+ & =22.5
+\end{align}
+$$
+**Predict:** Since the dynamic model of our system is constant, i.e., the building doesn’t change its height, we have
+$$
+\hat{x}_{2,1}=\hat{x}_{1,1}=50.13 \text{ m}
+$$
+The extrapolated estimate variance also doesn't change:
+$$
+p_{2,1}=p_{1,1}=22.5
+$$
+### Iteration 2
+After a unit time delay, the predicted estimate from the previous iteration becomes the prior estimate in the current iteration:
+$$
+\hat{x}_{2,1}=50.13 \text{ m}
+$$
+The extrapolated estimate becomes the prior estimate variance:
+$$
+p_{2,1}=22.5
+$$
+**Measure:** The second measurement is $z_{2}=48.44 \text{ m}$. The measurement variance is $r_{2}=25$.
+
+**Update:** The Kalman Gain calculation is
+$$
+K_{2}=\frac{p_{2,1}}{p_{2,1}+r_{2}}=\frac{22.5}{22.5+25}=0.47
+$$
+Estimating the current state:
+$$
+\begin{align}
+\hat{x}_{2,2} & =\hat{x}_{2,1}+K_{2}(z_{2}-\hat{x}_{2,1}) \\
+	 & =50.13+0.47(48.44-50.13) \\
+	 & =49.33 \text{ m}
+\end{align}$$
+Updating the current estimate variance:
+$$
+\begin{align}
+p_{2,2} & =(1-K_{1})p_{2,1} \\
+	 & =(1-0.47)22.5 \\
+	 & =11.84
+\end{align}
+$$
+**Predict:** Since the dynamic model of our system is constant, i.e., the building doesn’t change its height, we have
+$$
+\hat{x}_{3,2}=\hat{x}_{2,2}=49.33 \text{ m}
+$$
+The extrapolated estimate variance also doesn't change:
+$$
+p_{3,2}=p_{2,2}=11.84
+$$
+### Results & Analysis
+First of all, we want to ensure Kalman Filter convergence. The Kalman Gain should gradually decrease until it reaches a steady state. When Kalman Gain is low, the weight of the noisy measurements is also low. The following plot describes the Kalman Gain for the first one hundred iterations of the Kalman Filter.
+
+![[1D Kalman Filter without Process Noise-7.png]]
+
+We can see a significant reduction in the Kalman Gain in the first 10 iterations; a steady state is hit after about 50 iterations.
+
+The estimation error is the difference between the true values (the green line) and the KF estimates (the red line). We can see that the estimation errors of our KF decrease in the filter convergence region.
+
+![[1D Kalman Filter without Process Noise-8.png]]
+
+The typical accuracy criteria are maximum error, mean error, and root mean square error.
+
+Another important parameter is estimation uncertainty. We want the Kalman Filter (KF) estimates to be precise; therefore, we are interested in low estimation uncertainty.
+
+Assume that for a building height measurement application, there is a requirement for 95% confidence. The following chart shows the KF estimates and the true values with 95% confidence intervals.
+
+![[1D Kalman Filter without Process Noise-9.png]]
+
+In the above chart, the confidence intervals are added to the estimates (the red line). 95% of the green samples should be within the 95% confidence region.
+
+We can see that the uncertainty is too high. Let us decrease the measurement uncertainty. The following chart describes the KF output for a low measurement uncertainty parameter.
+
+![[1D Kalman Filter without Process Noise-10.png]]
+
+Although we’ve decreased the uncertainty of the estimates, many green samples are outside the 95% confidence region. The Kalman Filter is overconfident and too optimistic about its accuracy.
+
+Let us find the measurement uncertainty that yields the desired estimate uncertainty.
+
+![[1D Kalman Filter without Process Noise-11.png]]
+
+The above chart shows that 2 out of 50 samples slightly exceed the 95% confidence region. This performance satisfies our requirements.
+

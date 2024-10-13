@@ -38,6 +38,7 @@ Books:
 - [Poor Charlie’s Almanack](https://www.stripe.press/poor-charlies-almanack/cover)
 - [The Napkin](https://web.evanchen.cc/napkin.html)
 - [Nonlinear Dynamics and Chaos](https://www.biodyn.ro/course/literatura/Nonlinear_Dynamics_and_Chaos_2018_Steven_H._Strogatz.pdf)
+- [Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land](https://arxiv.org/abs/2404.17625)
 
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
