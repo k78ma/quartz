@@ -219,4 +219,20 @@ $$
 > [!question] Problem 7
 > Prove or give a counterexample: If $U$ is a nonempty subset of $\mathbb{R}^{2}$ such that $U$ is closed under addition and under taking additive inverses (meaning $-u\in U$ whenever $u\in U$), then $U$ is a subspace of $\mathbb{R}^{2}$.
 
-We can say that
+Let's say we have $U=\{ (x,y)\in \mathbb{R}^{2}: x,y\in \mathbb{Z} \}$. $U$ is not empty. 
+
+If we have $(x_{1},y_{1})\in U$ and $(x_{2},y_{2})\in U$, then $x_{1},x_{2},y_{1},y_{2}\in \mathbb{Z}$. The sums of each pair are integers, $x_{1}+y_{1}\in \mathbb{Z}$ and $x_{2}+y_{2}\in \mathbb{Z}$, so we have
+$$
+(x_{1},y_{1})+(x_{2},y_{2})=(x_{1}+x_{2}, y_{1}+y_{2})\in U
+$$
+which means that $U$ is closed under addition.
+
+Similarly, since $(-x_{1},-y_{1})\in U$, $U$ is closed under additive inverses.
+
+However, $U$ is not closed under scalar multiplication if we have fractional scalars. For example, while $(1,1) \in U$, we do not have $\frac{1}{2}(1,1)\in U$.
+
+Therefore, $U$ is not a subspace of $\mathbb{R}^{2}$.
+
+> [!question] Problem 8
+> Give an example of a nonempty subset $U$ of $\mathbb{R}^{2}$ such that $U$ is closed under scalar multiplication, but $U$ is not a subspace of $\mathbb{R}^{2}$.
+

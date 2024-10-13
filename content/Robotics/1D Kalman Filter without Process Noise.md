@@ -9,11 +9,11 @@ This shows the derivation of the Kalman Filter in one dimension; the goal is int
 
 Unlike the [[Constant Acceleration Tracking Example|alpha-beta-gamma filter]], the Kalman filter treats measurements, the current state estimate, and the predicted state estimate as normally distributed random variables. Each random variable is described by its mean and variance.
 
-![[1D Kalman Filter without Process Noise.png]]
+![[1D Kalman Filter without Process Noise.png|600]]
 
 Recall the [[Simple Static State Estimation Example|simple static state estimation example]] with weighing gold. We made multiple measurements and computed the estimate by averaging. We got the following results:
 
-![[1D Kalman Filter without Process Noise-1.png]]
+![[1D Kalman Filter without Process Noise-1.png|600]]
 
 ## Estimate as a random variable
 The difference between the estimates (red line) and the true values (green line) is the **estimate error**. The estimate error becomes lower as we make additional measurements, converging to zero, while the estimated value converges toward the true value. We don't know the estimate error but we can estimate the state **uncertainty**. 
@@ -29,7 +29,7 @@ The variance of the measurement errors could be provided by the measurement equi
 
 Let's look at the weight measurements probability density function (PDF). The following plot shows 10 measurements of the gold bar weight.
 
-![[1D Kalman Filter without Process Noise-2.png]]
+![[1D Kalman Filter without Process Noise-2.png|600]]
 
 - The blue circles describe the measurements.
 - The true values are at the red dashed line.
@@ -50,7 +50,7 @@ $$
 $$
 Thus, we can see that the dynamic model equation depends on the system. Since the Kalman Filter treats the estimate as a random variable, we must extrapolate the estimate variance, $p_{n,n}$, to the next state as well.
 
-![[1D Kalman Filter without Process Noise-3.png]]
+![[1D Kalman Filter without Process Noise-3.png|600]]
 
 In the first static example, the dynamic model of the system is constant; thus, the estimate uncertainty extrapolation would be:
 $$
@@ -74,7 +74,7 @@ To estimate the current state of the system, we combine two random variables:
 - The prior state estimate (current state estimate predicted at the previous state)
 - The measurement
 
-![[1D Kalman Filter without Process Noise-5.png]]
+![[1D Kalman Filter without Process Noise-5.png|600]]
 
 The Kalman filter is an *optimal filter*. It combines the prior state estimate with the measurement in a way that minimizes the uncertainty of the current state estimate.
 
@@ -223,7 +223,7 @@ Note that the equations above don’t include the process noise. Process noise i
 
 ### Block Diagram
 
-![[1D Kalman Filter without Process Noise-6.png]]
+![[1D Kalman Filter without Process Noise-6.png|600]]
 
 The general steps are described below.
 
@@ -326,7 +326,8 @@ $$
 \hat{x}_{2,2} & =\hat{x}_{2,1}+K_{2}(z_{2}-\hat{x}_{2,1}) \\
 	 & =50.13+0.47(48.44-50.13) \\
 	 & =49.33 \text{ m}
-\end{align}$$
+\end{align}
+$$
 Updating the current estimate variance:
 $$
 \begin{align}
@@ -346,13 +347,13 @@ $$
 ### Results & Analysis
 First of all, we want to ensure Kalman Filter convergence. The Kalman Gain should gradually decrease until it reaches a steady state. When Kalman Gain is low, the weight of the noisy measurements is also low. The following plot describes the Kalman Gain for the first one hundred iterations of the Kalman Filter.
 
-![[1D Kalman Filter without Process Noise-7.png]]
+![[1D Kalman Filter without Process Noise-7.png|600]]
 
 We can see a significant reduction in the Kalman Gain in the first 10 iterations; a steady state is hit after about 50 iterations.
 
 The estimation error is the difference between the true values (the green line) and the KF estimates (the red line). We can see that the estimation errors of our KF decrease in the filter convergence region.
 
-![[1D Kalman Filter without Process Noise-8.png]]
+![[1D Kalman Filter without Process Noise-8.png|600]]
 
 The typical accuracy criteria are maximum error, mean error, and root mean square error.
 
@@ -360,19 +361,19 @@ Another important parameter is estimation uncertainty. We want the Kalman Filter
 
 Assume that for a building height measurement application, there is a requirement for 95% confidence. The following chart shows the KF estimates and the true values with 95% confidence intervals.
 
-![[1D Kalman Filter without Process Noise-9.png]]
+![[1D Kalman Filter without Process Noise-9.png|600]]
 
 In the above chart, the confidence intervals are added to the estimates (the red line). 95% of the green samples should be within the 95% confidence region.
 
 We can see that the uncertainty is too high. Let us decrease the measurement uncertainty. The following chart describes the KF output for a low measurement uncertainty parameter.
 
-![[1D Kalman Filter without Process Noise-10.png]]
+![[1D Kalman Filter without Process Noise-10.png|600]]
 
 Although we’ve decreased the uncertainty of the estimates, many green samples are outside the 95% confidence region. The Kalman Filter is overconfident and too optimistic about its accuracy.
 
 Let us find the measurement uncertainty that yields the desired estimate uncertainty.
 
-![[1D Kalman Filter without Process Noise-11.png]]
+![[1D Kalman Filter without Process Noise-11.png|600]]
 
 The above chart shows that 2 out of 50 samples slightly exceed the 95% confidence region. This performance satisfies our requirements.
 
