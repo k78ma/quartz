@@ -236,3 +236,25 @@ Therefore, $U$ is not a subspace of $\mathbb{R}^{2}$.
 > [!question] Problem 8
 > Give an example of a nonempty subset $U$ of $\mathbb{R}^{2}$ such that $U$ is closed under scalar multiplication, but $U$ is not a subspace of $\mathbb{R}^{2}$.
 
+An example nonempty subset is
+$$
+U=\{ (x,y)\in \mathbb{R}^{2} \, : \,x = 0 \text{ or }y = 0 \}
+$$
+This is closed under scalar multiplication because for some elements $u,v$ and a scalar $\lambda$, we have
+$$
+\begin{align}
+u=(x,0) \quad  & \longrightarrow \quad \lambda u=(\lambda x,0) \\
+v=(0,y) \quad  & \longrightarrow \quad \lambda u=(0,\lambda y) \\
+\end{align}
+$$
+where we have some $x,y\in \mathbb{R}$.
+
+However, $U$ is not closed under addition because
+$$
+u+v=(x,0)+(y,0)=(x,y) \notin U
+$$
+Hence, $U$ is not a subspace of $\mathbb{R}^{2}$.
+
+
+> [!question] A
+> Contents

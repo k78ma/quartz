@@ -28,7 +28,7 @@ Things on the internet:
 	- [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started)
 	- [Learning how to learn](https://www.neelnanda.io/blog/34-learning)
 - [On Those Undefeatable Arguments for AI Doom](https://1a3orn.com/sub/essays-ai-doom-invincible.html)
-	
+- [~agentydragon/How I got to OpenAI](https://agentydragon.com/posts/2023-01-11-how-i-got-to-openai.html)
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
