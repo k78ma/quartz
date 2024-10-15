@@ -178,3 +178,84 @@ The following chart compares the true value, measured values, and estimates. The
 ![[1D Kalman Filter with Process Noise-3.png|592]]
 
 As you can see, the estimated value converges toward the true value. The KF estimates uncertainties are too high for the 95% confidence level. The yellow area is too broad; the KF is too conservative, thinking that its uncertainty is higher than it actually is, despite the fact that the estimates appear to track the true values fairly well.
+
+## Example (Failed): Increasing Liquid Temperature
+We want to estimate the temperature of the liquid in the tank. In this case, the dynamic model of the system is not constant – the liquid is heating at a rate of $0.1 \degree C$ per second.
+
+The Kalman Filter parameters are similar to the previous example:
+- We assume that the model is accurate; the process noise variance $q$ is set to $0.0001$
+- The measurement error (standard deviation) is $0.1\degree C$.
+- The measurements are taken every 5 seconds.
+- The dynamic model of the system is constant.
+
+Let's say that:
+- The true liquid temperatures are: 50.505, 50.994, 51.493, 52.001, 52.506, 52.998, 53.521, 54.005, 54.5, and 54.997.
+- The measurements are: 50.486, 50.963, 51.597, 52.001, 52.518, 53.05, 53.438, 53.858, 54.465, and 55.114.
+
+The following chart compares the true liquid temperature and the measurements:
+
+![[1D Kalman Filter with Process Noise-4.png|588]]
+
+### Iteration 0
+Before the first iteration, we must initialize the Kalman Filter and predict the following state (which is the first state).
+
+**Initialization:** We don't know the true temperature of the liquid in a tank, and our guess is $10\degree C$:
+$$
+\hat{x}_{0,0}=10\degree C
+$$
+Our guess is imprecise, so we set our initialization estimate error $\sigma$ to 100. The **estimate variance** of the initialization is the error variance, $\sigma^{2}$:
+$$
+p_{0,0}=100^{2}=10,000
+$$
+**Prediction:** We predict the next state based on the initialization values. Since our model has constant dynamics, the predicted estimate is equal to the current estimate:
+$$
+\hat{x}_{1,0}=10\degree C
+$$
+The predicted estimate variance:
+$$
+p_{1,0}=p_{0,0}+q=10000+0.0001 = 10000.0001
+$$
+### Results
+The following chart compares the true value, measured values and estimates over 10 iterations:
+
+![[1D Kalman Filter with Process Noise-5.png|644]]
+
+As we can see, the Kalman Filter has failed to provide a reliable estimation. There is a **lag error**. There are two reasons for the lag error here:
+- The dynamic model doesn't fit the case. The dynamic model heats up by 0.25 degrees per unit time, while in reality it's more 0.5 degrees.
+- We have chosen very low process noise $q=0.0001$, while the true temperature fluctuations are much more significant.
+- Another problem is a low estimate uncertainty. The KF failed to provide accurate estimates and is also confident in its estimates. This is an example of a bad KF design.
+
+There are two ways to fix the lag error:
+- If we know that the liquid temperature can change linearly, we can define a new model that considers a possible linear change in the liquid temperature. We did this in Example 4. This method is preferred. However, this method won’t improve the Kalman Filter performance if the temperature change can’t be modeled.
+- On the other hand, since our model is not well defined, we can adjust the process model reliability by increasing the process noise ($q$). See the next example for details.
+
+## Example (Good): Increasing Liquid Temperature
+This example is similar to the previous example, with only one change. Since our process is not well-defined, we increase the process variance $q$ to $0.15$.
+
+### Iteration 0
+**Initialization**: We don't know the true temperature of the liquid in a tank, and our guess is
+$$
+\hat{x}_{0,0}=10\degree C
+$$
+**Prediction:** Now we predict the next state based on the initialization values
+$$
+\hat{x}_{1,0}=10\degree C
+$$
+The extrapolated estimate variance:
+$$
+p_{1,0}=p_{0,0}+q=10000+0.15=10000.15
+$$
+### Results
+The following chart compares the true value, measured values, and estimates.
+
+![[1D Kalman Filter with Process Noise-6.png|612]]
+
+As you can see, the estimates following the measurements. There is no **lag error.**
+
+Let's take a look at the Kalman Gain:
+
+![[1D Kalman Filter with Process Noise-7.png|620]]
+
+Due to the high process uncertainty, the measurement weight is much higher than the weight of the estimate. Thus, the Kalman Gain is high, and it converges to 0.94.
+
+The good news is we can trust the estimates of this KF. The true values are within the 95% confidence region.zkz

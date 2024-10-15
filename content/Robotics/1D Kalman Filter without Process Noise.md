@@ -247,7 +247,7 @@ Based on the inputs, the state update process calculates the Kalman Gain and pro
 
 **Predict.** The prediction process extrapolates the current system state estimate and its variance to the next system state based on the dynamic model of the system. At the first filter iteration, the initialization is treated as the prior state estimate and variance. The prediction outputs are used as the prior (predicted) state estimate and variance on the following filter iterations.
 
-## Numerical Example
+## Example: Estimating Building Height
 In this example, we would like to estimate the height of a building using an imprecise altimeter. 
 
 We know that the building height doesn't change over time (at least during the short measurement process).
@@ -376,4 +376,5 @@ Let us find the measurement uncertainty that yields the desired estimate uncerta
 ![[1D Kalman Filter without Process Noise-11.png|600]]
 
 The above chart shows that 2 out of 50 samples slightly exceed the 95% confidence region. This performance satisfies our requirements.
+
 

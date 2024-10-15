@@ -1,10 +1,10 @@
 ---
-title: Gear Dimensions and Terminology
+title: Gear Nomenclature
 tags:
   - mte322
-date: 2024-09-14
+date: 2024-10-13
 aliases:
-  - gear dimensions and terminology
+  - gear nomenclature
 ---
 ## Nomenclature
 - **Pinion**: The smaller of two gears. The larger is often called the gear.

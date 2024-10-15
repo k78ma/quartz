@@ -1,11 +1,10 @@
 ---
-title: Gear Bending Stress
+title: Gear Bending Analysis
 tags:
   - mte322
-date: 2024-09-26
+date: 2024-10-13
 aliases:
-  - gear bending stress
-  - Lewis equation
+  - gear bending analysis
 ---
 ## Lewis Equation
 Bending stress for gears is given by the Lewis equation.
