@@ -22,4 +22,5 @@ For $n=0$, we have scalars, for $n=1$ we have vectors, for $n=2$ we have matrice
 
 Tensors can be **indexed** to get **slices** (subsets) of their values, and most use [numpy indexing conventions](https://numpy.org/doc/stable/user/basics.indexing.html).
 
-For simple equations we use pedices. For example, for a 3-dimension vector $X \sim (a,b,c)$, we can write $X_{i}$ to denote a slice of size $(b,c)$, or $X_{ijk}$ for a single scalar. We can use commas for more complex expressions, as 
+For simple equations we use pedices. For example, for a 3-dimension vector $X \sim (a,b,c)$, we can write $X_{i}$ to denote a slice of size $(b,c)$, or $X_{ijk}$ for a single scalar. We can use commas for more complex expressions, as $X_{i,;,j:k}$ to denote a slice of size $(b,k-j)$.
+
