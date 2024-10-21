@@ -316,6 +316,15 @@ This seems to be a trivial extension of Problem 10 above. The idea is just that 
 > [!question] Problem 12
 > Prove that the union of two subspaces of $V$ is only a subspace if and only if one of the subspace is contained in the other.
 
+Suppose $U$ and $W$ are two subspace of $V$ and $U\cup V$ is a subspace of $V$.
+
+Let's say that $U$ is not a subset of $W$ and $W$ is not a subset of $U$. Consider elements $u \in U \setminus W$ and $w\in W \setminus U$. For $U \cup W$ to be closed under addition, their sum $u+w$ must belong to $U \cup W$. Hence, we must have $u+w\in U$ or $W$.
+
+If $u+w\in U$, then $w=(u+w)-u\in U$, leading to a contradiction because we defined $w\in W \setminus U$. 
+
+If $u+w\in W$, then $u=(u+w)-w\in W$, leading to a contradiction because we defined $u\in U \setminus W$.
+
+Therefore, if $U\cup W$ is a subspace of $V$, we must have $U \subset W$ or $W \subset U$.
 
 
 > [!question] Problem 13
