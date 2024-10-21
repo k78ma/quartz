@@ -6,7 +6,7 @@ date: 2024-09-22
 aliases:
   - worm gear load analysis
 ---
-
+	
 ![[Worm Gear Load Analysis.png|624]]
 
 In a worm gear, the actual work is done through $W_{tW}$ (input) and $W_{tG}$ (output). They are related to each other as

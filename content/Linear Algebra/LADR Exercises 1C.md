@@ -256,5 +256,81 @@ $$
 Hence, $U$ is not a subspace of $\mathbb{R}^{2}$.
 
 
-> [!question] A
-> Contents
+> [!question] Problem 9
+>A function $f\, : \,\mathbb{R}\to \mathbb{R}$ is called periodic if there exists a positive number $p$ such that $f(x)=f(x+p)$ for all $x \in \mathbb{R}$. Is the set of periodic functions from $\mathbb{R}$ to $\mathbb{R}$ a subspace of $\mathbb{R}^{\mathbb{R}}$? Explain.
+
+Consider two periodic functions from $\mathbb{R}$ to $\mathbb{R}$:
+$$
+\begin{align}
+f(x) & =\sin \sqrt{ 2 }x \\
+g(x) & =\cos x
+\end{align}
+$$
+Then, for this to be a subspace, it needs to be closed under addition, such that the sum of the above functions
+$$
+h(x)=\sin \sqrt{ 2 }x+\cos x
+$$
+is also periodic.
+
+For $h(x)$ to be periodic, we need to have some $p$ such that $h(x)=h(x+p)$ for all $x \in \mathbb{R}$. Then, we must have
+$$
+h(0)=1=h(p)=h(-p)
+$$
+This means we must have:
+$$
+1=\sin \sqrt{ 2 }p+\cos p=-\sin \sqrt{ 2 }p+\cos p
+$$
+which implies that $\sin \sqrt{ 2 }p=0$ and $\cos p=1$. We know from $\cos p=1$ that we must have $p=2\pi k$ where $k\in \mathbb{Z}$. However, $\sin \sqrt{ 2 }p=0$ implies that $\sqrt{ 2 }p=\ell \pi$, where $\ell \in \mathbb{Z}$. Hence,
+$$
+\sqrt{ 2 }=\frac{\ell \pi}{2k\pi}=\frac{1}{2k}\in \mathbb{Q}
+$$
+which is not possible since $\sqrt{ 2 } \notin \mathbb{Q}$. 
+
+Thus, this cannot be a subspace since our contradiction above shows it is not closed under addition.
+
+
+> [!question] Problem 10
+> Suppose $V_{1}$ and $V_{2}$ are subspace of $V$. Prove that the intersection $V_{1} \cap V_{2}$ is a subspace of $V$.
+
+**Additive identity:** Since $V_{1}$ and $V_{2}$ are subspaces of $V$, they both contain the zero vector. Then, the zero vector must also be in the intersection $V_{1}\cap V_{2}$.
+
+**Closure under addition:** Let $u,v\in V_{1}\cap V_{2}$. Then, this means that $u\in V_{1},u\in V_{2}, w\in V_{1}, w\in V_{2}$. Since $V_{1}$ is a subspace, it is closed under addition, so $u+v\in V_{1}$. Since $V_{2}$ is also a subspace, $u+v\in V_{2}$. Since $u+v$ is in both $V_{1}$ and $V_{2}$, we have
+$$
+u+v\in V_{1}\cap V_{2}
+$$
+which shows that $V_{1}\cap V_{2}$ is closed under addition.
+
+**Closure under scalar multiplication:** Let $u\in V_{1}\cap V_{2}$ and $\lambda \in \mathbb{F}$. We know that $u\in V_{1}$ and $u\in V_{2}$. Since $V_{1}$ and $V_{2}$ are both subspaces, they are closed under scalar multiplication, such that
+$$
+\lambda u\in V_{1}, \lambda u\in V_{2}
+$$
+Thus, we also have $\lambda u\in V_{1}\cap V_{2}$. Therefore, $V_{1}\cap V_{2}$ is closed under scalar multiplication.
+
+
+> [!question] Problem 11
+> Prove that the intersection of every collection of subspaces of $V$ is a subspace of $V$.
+
+This seems to be a trivial extension of Problem 10 above. The idea is just that if a given element exists in the intersection of a collection, it must also exist in each of the subspaces in the collection. Conversely, a sum of two such elements must also exist in each of the subspaces for each of them to be closed under addition; since they exist in every subspace in the collection, they're in the intersection. Same goes for scalar multiplication, and all of the subspaces must share the same additive identity since they are all subspaces of $V$.
+
+
+> [!question] Problem 12
+> Prove that the union of two subspaces of $V$ is only a subspace if and only if one of the subspace is contained in the other.
+
+
+
+> [!question] Problem 13
+> Prove that the union of three subspaces of $V$ is a subspace of $V$ if and only if one of the subspaces contains the other two.
+
+
+
+> [!question] Problem 14
+> Suppose
+> $$
+> \begin{align}
+> U & =\{ (x,-x,2x)\in \mathbb{F}^{3}\, : \,x \in \mathbb{F} \}\\
+>W & =\{ (x,x,2x)\in \mathbb{F}^{3}\, : \,x \in \mathbb{F} \}
+>\end{align}
+> $$
+> Describe $U+W$ using symbols, also give a description of $U+W$ that uses no symbols.
+
+

@@ -23,6 +23,8 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 
 ## Finite-Dimensional Vector Spaces
 
+### Span and Linear Independence
+- [[Linear Combinations]]
 
 ## Exercises
 - [[LADR Exercises 1A]]

@@ -18,7 +18,7 @@ Things on the internet:
 - [projects | Bones](https://bones-ai.bearblog.dev/projects/)
 - [Sorta Insightful | Alex Irpan](https://www.alexirpan.com/)
 	- [I'm Switching Into AI Safety](https://www.alexirpan.com/2024/08/06/switching-to-ai-safety.html)
-	- 
+	- ["How Do You Feel About Grad School?"](https://www.alexirpan.com/2016/01/03/grad-school.html) and [The 5 Year Update on Skipping Grad School (and Whether I'd Recommend It)](https://www.alexirpan.com/2021/04/07/grad-school-5years.html)
 - [Deep Generative Models | CS 326 Notes](https://deepgenerativemodels.github.io/notes/)
 - [Lil'Log | Lilian Weng](https://lilianweng.github.io/)
 - [An Opinionated Guide to ML Research](http://joschu.net/blog/opinionated-guide-ml-research.html)

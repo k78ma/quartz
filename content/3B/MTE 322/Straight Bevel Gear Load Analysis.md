@@ -12,7 +12,7 @@ The pitch of bevel gears is measured at the large end of the tooth. Both the cir
 
 The pitch angles are defined by the pitch cones meeting at the apex, as shown in the figure. They are related to the tooth numbers as follows:
 $$
-\tan \gamma=\frac{N_{P}}{N_{G}}, \quad \tan \Gamma =\frac{d_{P}}{d_{G}}
+\tan \gamma=\frac{N_{P}}{N_{G}}, \quad \tan \Gamma =\frac{N_{G}}{N_{P}}
 $$
 where the subscripts refer to the pinion and gear, respectively, and where $\gamma$ and $\Gamma$ are the pitch angles of the pinion and gear.
 
