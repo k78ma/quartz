@@ -37,7 +37,7 @@ TagList.css = `
 }
 
 .section-li > .section > .tags {
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
   
 .tags > li {

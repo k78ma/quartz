@@ -1,6 +1,7 @@
 ---
 title: Failure Modes of Gears
-tags: 
+tags:
+  - mte322
 date: 2024-10-13
 aliases:
   - failure modes of gears

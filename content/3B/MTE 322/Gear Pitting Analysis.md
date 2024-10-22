@@ -1,6 +1,7 @@
 ---
 title: Gear Pitting Analysis
-tags: 
+tags:
+  - mte322
 date: 2024-10-14
 aliases:
   - gear pitting analysis
