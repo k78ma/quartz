@@ -19,6 +19,7 @@ Notes from:
 	- [[Multivariate Probability Density]]
 - [[Cumulative Distribution Function]]
 - [[Expected Value]]
+	- [[Expectation Algebra]]
 - [[Variance]]
 - [[Covariance]]
 - [[Standard Deviation]]

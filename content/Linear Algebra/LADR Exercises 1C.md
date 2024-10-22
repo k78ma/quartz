@@ -342,4 +342,8 @@ Therefore, if $U\cup W$ is a subspace of $V$, we must have $U \subset W$ or $W \
 > $$
 > Describe $U+W$ using symbols, also give a description of $U+W$ that uses no symbols.
 
+Symbolic – To find $U+W$, we consider the elements of the form:
+$$
+(x_{1},-x_{1},2x_{1})+(x_{2},x_{2},2x_{2})=(x_{1}+x_{2},-x_{1}+x_{2}+2x_{1}+2x_{2})
+$$
 
