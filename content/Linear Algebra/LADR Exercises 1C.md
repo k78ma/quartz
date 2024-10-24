@@ -342,8 +342,31 @@ Therefore, if $U\cup W$ is a subspace of $V$, we must have $U \subset W$ or $W \
 > $$
 > Describe $U+W$ using symbols, also give a description of $U+W$ that uses no symbols.
 
-Symbolic – To find $U+W$, we consider the elements of the form:
+**Symbolic:** To find $U+W$, we consider all possible sums of elements from $U$ and $W$. Let $u\in U$ and $w\in W$, so:
 $$
-(x_{1},-x_{1},2x_{1})+(x_{2},x_{2},2x_{2})=(x_{1}+x_{2},-x_{1}+x_{2}+2x_{1}+2x_{2})
+\begin{align}
+u=(x,-x,2x), \quad x \in \mathbb{F} \\
+w=(y,y,2y), \quad y \in \mathbb{F}
+\end{align}
 $$
+Adding $u$ and $w$:
+$$
+u+w=(x+y, -x+y, 2(x+y))
+$$
+Let $s=x+y$ and $t=y-x$. Then we have:
+$$
+x=\frac{s-t}{2}, \quad y=\frac{s+t}{2}
+$$
+Therefore, every vector in $U+W$ can be expressed as:
+$$
+u+w=(s,t,2s) \, : \,s,t \in \mathbb{F}
+$$
+In set form:
+$$
+U+W=\{ (x,y,2x)\in \mathbb{F}^{3} \, | \, x,y \in \mathbb{F} \}
+$$
+**Without symbols:** $U+W$ is the set of all vectors in $\mathbb{F}^{3}$ whose third element is twice the first coordinate. This means that $U+W$ is a plane in $\mathbb{F}^{3}$ defined by $z=2x$.
+
+> [!question] Problem 15
+> Suppose $U$ is a subspace of $V$. What is $U+U$?
 
