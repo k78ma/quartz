@@ -49,14 +49,6 @@
     --callout-icon: var(--callout-icon-success);
   }
 
-  &[data-callout="question"] {
-    --color: #615dd4;
-    --border: #7644ff44;
-    --bg: #4495ff10;
-    --callout-icon: var(--callout-icon-question);
-  }
-
-
   &[data-callout="example"] {
     --color: #615dd4;
     --border: #8644ff44;
@@ -143,8 +135,8 @@
 
   &[data-callout="question"] {
     --color: #615dd4;
-    --border: #448aff44;
-    --bg: #4495ff10;
+    --border: #7644ff44;
+    --bg: #615dd410;
     --callout-icon: var(--callout-icon-question);
   }
 
