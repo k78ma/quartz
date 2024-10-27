@@ -370,3 +370,100 @@ $$
 > [!question] Problem 15
 > Suppose $U$ is a subspace of $V$. What is $U+U$?
 
+$U+U$ is the set of all possible sums of two elements from $U$. Since $U$ is a subspace of another space, it is closed under addition, the sum of two elements from $U$ should still be in $U$. Thus, $U+U=U$.
+
+> [!question] Problem 16
+> Is the operation of addition on the subspaces of $V$ commutative? In other words, if $U$ and $W$ are subspace of $V$, is $U+W=W+U$?
+
+The addition on the subspaces is commutative because the addition of individual elements is commutative as well. For $x \in U$ and $y \in W$, we have
+$$
+x+y \in U+W \quad = \quad y+x \in W+U
+$$
+because addition in $V$ is commutative. This implies that $U+W \subset W+U$, and $W+U\subset U+W$. Hence, $U+W=W+U$.  
+
+
+> [!question] Problem 17
+> Is the operation of addition on the subspaces of $V$ associative? In other words, if $V_{1}, V_{2}, V_{3}$ are subspaces of $V_s$ is
+> $$
+> (V_{1}+V_{2})+V_{3}=V_{1}+(V_{2}+V_{3})
+> $$
+
+This is similar to the question above. If $x_{1}\in V_{1}, x_{2}\in V_{2}, x_{3}\in V_{3}$, we have:
+$$
+(x_{1}+x_{2})+x_{3}=x_{1}+(x_{2}+x_{3})
+$$
+since $x_{1},x_{2},x_{3} \in V$, which is a vector space (must then satisfy associative addition). 
+
+> [!question] Problem 18
+> Does the operation of addition on the subspaces of $V$ have an additive identity? Which subspaces have additive inverses?
+
+If some subspace $U$ is an additive identity, for for any subspaces $W$ of $V$, we need to have $U+W=W$. This means $U \subset W$; the only possibility is $U=0$.
+
+Suppose some subspace of $W$ of $V$ has additive inverses, then there exists some $S$ of $V$ such that $W+S=0$. This can only happen when $W=0$ since $W \subset W+S$.
+
+
+> [!question] Problem 19
+> Prove or give a counterexample: If $V_{1}, V_{2}, U$ are subspaces of $V$ such that
+> $$
+> V_{1}+U=V_{2}+U
+> $$
+> then $V_{1}=V_{2}$.
+
+Let $V=V_{1}=\{ (a,b)\in \mathbb{R}^{2}\, : \,a,b\in \mathbb{R} \}$, $V_{2}=\{ (a,0)\in \mathbb{R}^{2}\, : \,a\in \mathbb{R} \}$ and $U=\{ (0,b)\in \mathbb{R}^{2}\, : \,b\in \mathbb{R} \}$. Then:
+$$
+V_{1}+U=V_{2}+U
+$$
+but $V_{1}\neq V_{2}$.
+
+> [!question] Problem 20
+> Suppose
+> $$
+> U=\{ (x,x,y,y)\in \mathbb{F}^{4}\, : \,x,y\in \mathbb{F} \}
+> $$
+> Find a subspace of $W$ of $\mathbb{F}^{4}$ such that $\mathbb{F}^{4}=U \oplus W$.
+
+
+
+
+> [!question] Problem 21
+> Suppose
+> $$
+> U=\{ x,y,x+y, x-y, 2x \in \mathbb{F}^{5}\, : \,x,y\in \mathbb{F}\}
+> $$
+> Find a subspace $W$ of $\mathbb{F}^{5}$ such that $\mathbb{F}^{5}=U\oplus W$.
+
+
+
+
+> [!question] Problem 22
+> Suppose
+> $$
+> U = \{ (x,y,x+y, x-y, 2x)\in \mathbb{F}^{5}\, : \,x,y \in \mathbb{F} \}
+> $$
+> Find three subspace $W_{1}, W_{2}, W_{3}$ of $\mathbb{F}^{5}$, none of which equal $\{ 0 \}$, such that $\mathbb{F}^{5}=U\oplus W_{1}\oplus W_{2}\oplus W_{3}$.
+
+
+
+
+> [!question] Problem 23
+> Prove or give a counterexample: If $V_{1}, V_{2}, U$ are subspaces of $V$ such that
+> $$
+> V=V_{1}\oplus U \quad \text{and} \quad V=V_{2}\oplus U
+> $$
+> then $V_{1}=V_{2}$.
+
+
+
+
+
+> [!question] Problem 24
+> A function $f:\mathbb{R}\to \mathbb{R}$ is called *even* if
+> $$
+> f(-x)=f(x)
+> $$
+> for all $x \in \mathbb{R}$. A function $f:\mathbb{R}\to \mathbb{R}$ is called *odd* if
+> $$
+> f(-x)=-f(x)
+> $$
+> for all $x \in \mathbb{R}$. Let $V_{e}$ denote the set of real-valued even functions on $\mathbb{R}$ and let $V_{o}$ denote the set of real-valued odd functions on $\mathbb{R}$. Show that $\mathbb{R}^{\mathbb{R}}=V_{e}\oplus V_{o}$.
+
