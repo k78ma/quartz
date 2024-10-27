@@ -33,3 +33,5 @@ A list of length 0 looks like this: $()$. We consider such an object to be a lis
 Lists differ from finite sets in two ways: in lists, order matters and repetitions have meaning; in sets, order and repetitions are irrelevant.
 - The lists $(3,5)$ and $(5,3)$ are not equal, but the sets $\{ 3,5 \}$ and $\{ 5,3 \}$ are.
 - The lists $(4,4)$ and $(4,4,4)$ are not equal (they do not have the same length), but $\{ 4,4 \}$ and $\{ 4,4,4 \}$ both equal the set $\{ 4 \}$.
+
+Sometimes, when we consider lists of vectors, we do not use surrounding parentheses. For example, $(4,1,6), (9,5,7)$ is a list of length two of vectors in $\mathbb{R}^{3}$.

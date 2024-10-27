@@ -25,11 +25,22 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 
 ### Span and Linear Independence
 - [[Linear Combinations]]
-
+- [[Span]]
+- [[Finite-Dimensional Vector Space]]
+- [[Polynomial]]
 ## Exercises
 - [[LADR Exercises 1A]]
 - [[LADR Exercises 1B]]
 - [[LADR Exercises 1C]]
+- [[LADR Exercises 2A]]
+- [[LADR Exercises 2B]]
+- [[LADR Exercises 2A]]
+- [[LADR Exercises 3A]]
+- [[LADR Exercises 3B]]
+- [[LADR Exercises 3C]]
+- [[LADR Exercises 3D]]
+- [[LADR Exercises 3E]]
+- [[LADR Exercises 3F]]
 
 ## Others
 - [[Geometry of Linear Equations]]
