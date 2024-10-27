@@ -89,7 +89,7 @@ $$
 $$
 Because $v_{1}-u_{1}\in V_{1},\dots,v_{m}-u_{m}\in V_{m}$, the equation above implies that each $v_{k}-u_{k}$ equals $0$. This shows that any two representations of the same vector must be equal, so every vector actually only has one unique representation.
 
-## Direct Sum of Two Subspaces
+## Condition for Direct Sum of Two Subspaces
 The next result gives a simple condition for testing whether a sum of two subspaces is a direct sum.
 
 > [!theorem] Direct sum of two subspaces

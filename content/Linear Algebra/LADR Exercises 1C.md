@@ -409,7 +409,7 @@ Suppose some subspace of $W$ of $V$ has additive inverses, then there exists som
 > $$
 > then $V_{1}=V_{2}$.
 
-Let $V=V_{1}=\{ (a,b)\in \mathbb{R}^{2}\, : \,a,b\in \mathbb{R} \}$, $V_{2}=\{ (a,0)\in \mathbb{R}^{2}\, : \,a\in \mathbb{R} \}$ and $U=\{ (0,b)\in \mathbb{R}^{2}\, : \,b\in \mathbb{R} \}$. Then:
+A counterexample: Let $V=V_{1}=\{ (a,b)\in \mathbb{R}^{2}\, : \,a,b\in \mathbb{R} \}$, $V_{2}=\{ (a,0)\in \mathbb{R}^{2}\, : \,a\in \mathbb{R} \}$ and $U=\{ (0,b)\in \mathbb{R}^{2}\, : \,b\in \mathbb{R} \}$. Then:
 $$
 V_{1}+U=V_{2}+U
 $$
@@ -422,8 +422,11 @@ but $V_{1}\neq V_{2}$.
 > $$
 > Find a subspace of $W$ of $\mathbb{F}^{4}$ such that $\mathbb{F}^{4}=U \oplus W$.
 
-
-
+A possible solution is:
+$$
+W=\{ (0,p,0,q)\in \mathbb{F}^{4}\, : \,p,q\in \mathbb{F} \}
+$$
+This can be checked by considering the [[Direct Sums of Subspaces#Direct Sum of Two Subspaces|condition for direct sums of 2 subspaces]], which is that if $U+W$ is a direct sum, we must have $U\cap W=\{ 0 \}$. This is indeed true, as there are no elements in $W$ other than $0$ that have the same 1st and 2nd coordinate, and the same 3rd and 4th coordinate.
 
 > [!question] Problem 21
 > Suppose
@@ -432,7 +435,15 @@ but $V_{1}\neq V_{2}$.
 > $$
 > Find a subspace $W$ of $\mathbb{F}^{5}$ such that $\mathbb{F}^{5}=U\oplus W$.
 
-
+$U$ only allows us to choose two coordinates arbitrarily; the rest of the coordinates depend on the first two. Thus, we take $W$ in which the first two coordinates are zero and the last three are variables:
+$$
+W=\{ 0,0,p,q,r\in \mathbb{F}^{5}\, : \,p,q,r\in \mathbb{F} \}
+$$
+We can show that $U\cap W=\{ 0 \}$ by considering that, for some $\lambda=(a,b,c,d,e)\in U\cap W$, it must have $a=b=0$ because this is true for all elements in $W$. Following this fact, for $\lambda$ to be in $U$, it must have
+$$
+\lambda=(x,y,x+y,x-y,2x)=(0,0,0+0,0-0,2(0))=(0,0,0,0,0)
+$$
+Hence, we must have $\lambda=0$ and $U\cap W=0$.
 
 
 > [!question] Problem 22
@@ -442,8 +453,14 @@ but $V_{1}\neq V_{2}$.
 > $$
 > Find three subspace $W_{1}, W_{2}, W_{3}$ of $\mathbb{F}^{5}$, none of which equal $\{ 0 \}$, such that $\mathbb{F}^{5}=U\oplus W_{1}\oplus W_{2}\oplus W_{3}$.
 
-
-
+We can have:
+$$
+\begin{align}
+W_{1}=\{ (0,0,p, 0,0)\in \mathbb{F}^{5}\, : \, p \in \mathbb{F} \} \\
+W_{2}=\{ (0,0,0,q,0) \in \mathbb{F}^{5} \, : \, q \in \mathbb{F} \} \\
+W_{3}=\{ (0,0,0,0,r) \in \mathbb{F}^{5}\, : \, r \in \mathbb{F} \}
+\end{align}
+$$
 
 > [!question] Problem 23
 > Prove or give a counterexample: If $V_{1}, V_{2}, U$ are subspaces of $V$ such that
@@ -452,8 +469,11 @@ but $V_{1}\neq V_{2}$.
 > $$
 > then $V_{1}=V_{2}$.
 
-
-
+A counterexample: Let $V=\mathbb{R}^{2}$, $V_{1}=\{ (x,0)\in \mathbb{R}^{2}\, : \,x \in \mathbb{R} \}$, $V_{2}=\{ (0,y)\in \mathbb{R}^{2}\, : \,y \in \mathbb{R} \}$, and $U=\{ (z,z)\in \mathbb{R}^{2}\, : \,z \in \mathbb{R} \}$. Then, we have
+$$
+V=V_{1}\oplus U \quad \text{and} \quad V=V_{2}\oplus U
+$$
+however $V_{1}\neq V_{2}$.
 
 
 > [!question] Problem 24
@@ -467,3 +487,26 @@ but $V_{1}\neq V_{2}$.
 > $$
 > for all $x \in \mathbb{R}$. Let $V_{e}$ denote the set of real-valued even functions on $\mathbb{R}$ and let $V_{o}$ denote the set of real-valued odd functions on $\mathbb{R}$. Show that $\mathbb{R}^{\mathbb{R}}=V_{e}\oplus V_{o}$.
 
+Given any $f\in \mathbb{R}^{\mathbb{R}}$ (the set of functions from $\mathbb{R}$ to $\mathbb{R}$), define an even part and an odd part
+$$
+f_{e}(x)=\frac{f(x)+f(-x)}{2}, \quad f_{o}(x)=\frac{f(x)-f(-x)}{2}
+$$
+for all $x \in \mathbb{R}$. Then, $f_{e}, f_{o}\in \mathbb{R}^{\mathbb{R}}$.
+
+For all $x \in \mathbb{R}$, we have
+$$
+f_{e}(-x)=\frac{f(-x)+f(x)}{2}=\frac{f(x)+f(-x)}{2}=f_{e}(x)
+$$
+and
+$$
+f_{o}(-x)=\frac{f(-x)-f(x)}{2}=- \frac{f(x)-f(-x)}{2}=-f_{o}(x)
+$$
+hence $f_{e}\in V_{e}$ and $f_{o}\in V_{o}$.
+
+We also have
+$$
+f(x)=\frac{f(x)+f(-x)}{2}+\frac{f(x)-f(-x)}{2}=f_{e}(x)+f_{o}(x)
+$$
+so $f=f_{e}+f_{o}$. By definition, $f_{e}+f_{o}\in V_{e}+V_{o}$,  so $f\in V_{e}+V_{o}$. Since we can choose $f$ arbitrarily from $\mathbb{R}^{\mathbb{R}}$, and we have shown that $f\in V_{e}+V_{o}$, it follows that every function in $\mathbb{R}^{\mathbb{R}}$ is in $V_{e}+V_{o}$, so we have $\mathbb{R}^{\mathbb{R}}=V_{e}+V_{o}$.
+
+Then, to show $\mathbb{R}^{\mathbb{R}}=V_{e}\oplus V_{o}$, we need to show that $V_{e}\cap V_{o}=\{ 0 \}$. Let $f\in V_{e}\cap V_{o}$. Then, we must have $f(x)=f(-x)$ since $f\in V_{e}$, and $f(x)=-f(-x)$ since $f\in V_{o}$ for all $x \in \mathbb{R}$. If we sum up $f(x)=f(-x)$ and $f(x)=-f(-x)$, we get $f(x)=0$ for all $x \in \mathbb{R}$. Hence, $f=0$, which implies $V_{e}\cap V_{o}=\{ 0 \}$.
