@@ -7,7 +7,6 @@ date: 2023-06-25
 aliases:
 ---
 Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
-
 ## Vector Spaces
 ### $\mathbb{R}^{n}$ and $\mathbb{C}^{n}$
 - [[Complex Numbers]]
@@ -20,14 +19,20 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Subspaces]]
 - [[Sums of Subspaces]]
 - [[Direct Sums of Subspaces]]
-
 ## Finite-Dimensional Vector Spaces
-
 ### Span and Linear Independence
 - [[Linear Combinations]]
 - [[Span]]
 - [[Finite-Dimensional Vector Space]]
 - [[Polynomial]]
+- [[Linear Independence]]
+- [[Linear Dependence Lemma]]
+### Bases
+### Dimension
+
+## Linear Maps
+
+
 ## Exercises
 - [[LADR Exercises 1A]]
 - [[LADR Exercises 1B]]

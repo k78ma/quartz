@@ -21,6 +21,6 @@ Notes from: *Kalman Filter from The Ground Up* by Alex Becker
 - [[1D Kalman Filter without Process Noise]]
 - [[Kalman Gain Intuition]]
 - [[1D Kalman Filter with Process Noise]]
-
 ### Multivariate Kalman Filters 
 - [[Multivariable State Vector]]
+- [[Expectation Algebra]]

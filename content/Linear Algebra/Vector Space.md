@@ -2,6 +2,7 @@
 title: Vector Space
 tags:
   - lin-alg
+  - math
 date: 2024-08-15
 aliases:
   - vector space

@@ -2,6 +2,7 @@
 title: Subspaces
 tags:
   - lin-alg
+  - math
 date: 2023-09-01
 aliases:
   - subspace

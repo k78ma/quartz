@@ -2,6 +2,7 @@
 title: Lists
 tags:
   - lin-alg
+  - math
 date: 2024-07-10
 aliases:
   - lists

@@ -2,6 +2,7 @@
 title: Direct Sums of Subspaces
 tags:
   - lin-alg
+  - math
 date: 2024-09-07
 aliases:
   - direct sums of subspaces

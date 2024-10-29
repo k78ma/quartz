@@ -2,6 +2,7 @@
 title: Fields
 tags:
   - lin-alg
+  - math
 date: 2024-07-14
 aliases:
   - fields

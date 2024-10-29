@@ -2,6 +2,7 @@
 title: Complex Numbers
 tags:
   - lin-alg
+  - math
 date: 2024-07-08
 aliases:
   - complex numbers
