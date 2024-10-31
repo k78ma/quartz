@@ -2,8 +2,11 @@
 title: Linear Independence
 tags:
   - lin-alg
-date: 2023-08-20
-draft:
+date: 2024-10-29
+draft: 
+aliases:
+  - linear independence
+  - linearly independent
 ---
 Suppose $v_{1},\dots,v_{m}\in V$ and $v\in \text{span}(v_{1},\dots,v_{m})$. By the definition of span, there exist $a_{1},\dots,a_{m}\in \mathbb{F}$ such that
 $$

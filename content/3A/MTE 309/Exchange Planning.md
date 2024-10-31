@@ -14,14 +14,16 @@ draft:
 | [MTE 360 - Automatic Control Systems](https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd44f5ad8d23749780e214)                | MECH 3610 - Control Principles<br>- Was not offered Spring '24<br><br>ELEC 3200 - System Modelling, Analysis, and Control                                                                                                   |
 | [MTE 380 - Mechatronics Engineering Design Workshop](https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd45233c5b448f141d6f28) | ISDN 2601 - Exploring the World through Smart Mechatronics<br>- Was not offered Spring '24<br><br>MECH 3907 - Mechatronic Design and Prototyping                                                                            |
 | CSE                                                                                                                                                               | CLAS 104 - Taking before                                                                                                                                                                                                    |
-
+Taken already:
 - [x] MTE 322
-- [x] MTE 352
-- [x] MTE 360
-- [ ] (50/50) MSCI 261
-- [ ] MTE 380
 - [x] CSE
 
+Remaining 3B:
+- [x] MTE 352 – MECH 2210 Fluid Mechanics
+- [x] MTE 360 – ELEC 3200 Systems Modeling, Analysis and Control
+- [ ] (50/50) MSCI 261
+- [ ] MTE 380
+
 So basically I need to take two 4A courses in Hong Kong, a TE and a CSE (can't take MTE 484 because MTE 360 is a pre-req):
-- [ ] TE: MTE 544
+- [x] TE: MTE 544
 - [ ] CSE: List C
