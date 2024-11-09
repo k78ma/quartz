@@ -38,3 +38,4 @@ Where it gets tricky is cross-platform. I used to have a Windows computer and us
 ## Virtualization vs. Emulation
 - Virtualization involves creating a virtual instance of device hardware, for example allowing multiple VMs to run on a single physical machine. The VMs share the host's hardware resources, but each VM is isolated and operates as if it has its own hardware.
 - Emulation involves using software replicating the functionality of one system on another system with different hardware. The emulator translates the instructions of the emulated (guest) system into instructions that the host system's CPU can execute. Emulation is typically slower than virtualization because it translates the hardware calls of the emulated device into something that the host can execute, which involves a significant overhead. 
+

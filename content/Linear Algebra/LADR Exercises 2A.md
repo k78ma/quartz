@@ -54,12 +54,39 @@ $$
 > $$
 > Show that $\text{span}(v_{1},\dots,v_{m})=\text{span}(w_{1}, \dots, w_{m})$.
 
+Any element $w_{k}$ is a linear combination of the vectors in $v_{1}, \dots, v_{m}$. For example, for some $w_{a}, w_{b}$, we would just have
+$$
+w_{a}+w_{b}=(v_{1}+\dots+v_{a})+(v_{1}+\dots+v_{b})
+$$
+Thus, any $w$, and any linear combination of $w$'s, can be written as a linear combination of $v$'s; hence, we can say that $\text{span}(w_{1},\dots ,w_{m})\subseteq \text{span}(v_{1},\dots,v_{m})$. 
 
+On the other hand, any $v_{k}$ can be written as:
+$$
+v_{k}=w_{k}-w_{k-1}
+$$
+where we have $w_{0}=0$. As such, we can also express any $v$ as a linear combination of $w$'s, giving us $\text{span}(v_{1},\dots,v_{m})\subseteq \text{span}(w_{1},\dots,w_{m})$. Thus,
+$$
+\text{span}(v_{1},\dots,v_{m})=\text{span}(w_{1},\dots w_{m})
+$$
 
 > [!question] Problem 4
 > - (a) Show that a list of length one in a vector space is linearly independent if and only if the vector in the list is not $0$.
 > - (b) Show that a list of length two in a vector space is linearly independent if and only if neither of the two vectors in the list is a scalar multiple of the other.
 
+**(a)** If the only vector in a list of length one is $0$, it is not linearly independent, since any $a\in \mathbb{F}$ makes $a(0)=0$. For any other element, we would need $a=0$, which would be linearly independent.
+
+**(b)** Call our vectors $v_{1}$ and $v_{2}$. If they are scalar multiples of each other, we could write $v_{1}=\lambda v_{2}$ for some scalar $\lambda \in \mathbb{F}$. Then, we would have:
+$$
+a_{1}v_{1}+a_{2}v_{2} =0
+$$
+For [[Linear Independence|linear independence]], the only solution to the above is $a_{1}=a_{2}=0$. However, in the case of scalar multiples, we could write:
+$$
+\begin{align}
+a_{1}v_{1}+a_{2}\lambda v_{1}  & = 0 \\
+(a_{1}+a_{2}\lambda)v_{1} & =0 \\
+\end{align}
+$$
+which could be true if we have $a_{1}=-a_{2}\lambda$. Thus, the only solution is not when $a_{1}=a_{2}=0$.
 
 
 > [!question] Problem 5
@@ -69,12 +96,64 @@ $$
 > $$
 > is not linearly independent in $\mathbb{R}^{3}$.
 
+First we can solve:
+$$
+\begin{align}
+3x+2y=5 \\
+x-3y=9 \\
+\end{align}
+$$
+$(\text{Eq 1})-3\cdot(\text{Eq2})$ gives:
+$$
+\begin{align}
+11y = -22 \quad  & \longrightarrow \quad y=-2 \\
+x-3(-2)=9 \quad  & \longrightarrow \quad x=3
+\end{align}
+$$
+which then gives
+$$
+t=4(3)+5(-2)=2
+$$
+Thus, if $t=2$, we can write $3(3,1,4)-2(2,-3,5)=(5,9,2)$. Since one of the vectors is a linear combination of the other ones, we do not have a linearly independent set.
 
 
 > [!question] Problem 6
-> Show that the list $(2,3,1),(1,-1,2),(7,3,c)$ is linearly independent in $\mathbb{F}^{3}$ if and only if $c=8$.
+> Show that the list $(2,3,1),(1,-1,2),(7,3,c)$ is linearly dependent in $\mathbb{F}^{3}$ if and only if $c=8$.
 
+Suppose $x, y, z\in \mathbb{F}$ exist such that not all are zero and
+$$
+x(2,3,1)+y(1,-1,2)+z(7,3,c)=0
+$$
+Then we have:
+$$
+\begin{align}
+2x+y+7z & =0 \\
+3x-y+3z & =0 \\
+\end{align}
+$$
+Eliminating $y$ gives
+$$
+5x+10z=0 \quad \longrightarrow \quad x=-2z
+$$
+Eliminating $x$ gives
+$$
+\begin{align}
+6x+3y+21z & =0 \\
+6x-2y+6z & =0 \\
+\therefore 5y+15z=0 \quad  & \longrightarrow \quad y=-3z
+\end{align}
+$$
+Since $x,y,z$ are not all zero, $z$ is not zero either. 
 
+We can write the final equation as:
+$$
+\begin{align}
+x+2y+cz & =0 \\
+-2z+2(-3z)+cz & =0 \\
+(c-8)z & =0
+\end{align}
+$$
+Hence, in the case that $x,y,z$ are not $0$, we can still write $x(2,3,1)+y(1,-1,2)+z(7,3,c)=0$ if $c=8$, in which case this would be linearly dependent. The only other way to solve would be $x=y=z=0$, which would be lienarly independent.
 
 > [!question] Problem 7
 > - (a) Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then the list $1+i, 1-i$ is linearly independent.
