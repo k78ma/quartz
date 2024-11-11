@@ -25,6 +25,7 @@ To avoid re-stating this many times, we declare that $V$ denotes a vector space 
 We can use some geometric language to aid our intuition by saying that elements of a vector space are called *vectors* or *points*.
 
 The scalar multiplication in a vector space depends on $\mathbb{F}$. Thus when we need to be precise, we will say that $V$ is a vector space over $\mathbb{F}$ instead of saying simply that $V$ is a vector space. For example, $\mathbb{R}^{n}$ is a vector space over $\mathbb{R}$, and $\mathbb{C}$ is a vector space over $\mathbb{C}^{n}$.
+- Note that vectors in $V$ and scalars in $\mathbb{F}$ can belong to different sets; the vectors do not need to be elements of the scalar field. For example, in Problem 7 of [[LADR Exercises 2A]], we see the $\mathbb{C}$ defined as a vector space over $\mathbb{R}$. In this case, complex numbers are vectors while real numbers are scalars. The closure of vector addition still applies, as the sum of any two complex numbers is a complex number. The closure of scalar multiplication still applies, as multiplying a complex number by a real number yields another complex number.
 
 Usually the choice of $\mathbb{F}$ is either clear from the context or irrelevant. Thus we often assume that $\mathbb{F}$ is lurking in the background without specifically mentioning it. With the usual operations of addition and scalar multiplication, $\mathbb{F^{n}}$ is a vector space over $\mathbb{F}$, as you should verify. The example of $\mathbb{F}^{n}$ ([[n-dimensional Spaces|see here]]) motivated our definition of vector space.
 

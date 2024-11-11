@@ -6,7 +6,6 @@ date: 2024-10-30
 aliases:
   - ladr exercises 2a
 ---
-
 > [!question] Problem 1
 > Find a list of four distinct vectors in $\mathbb{F}^{3}$ whose span equals
 > $$
@@ -159,7 +158,49 @@ Hence, in the case that $x,y,z$ are not $0$, we can still write $x(2,3,1)+y(1,-1
 > - (a) Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then the list $1+i, 1-i$ is linearly independent.
 > - (b) Show that if we think of $\mathbb{C}$ as a vector space over $\mathbb{C}$, then the list $1+i, 1-i$ is linearly dependent.
 
+**(a)** If we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then our vectors are in $\mathbb{C}$ and scalars are in $\mathbb{R}$, so scalar multiplication is done with real numbers. Thus, for the list $1+i, 1-i$ to be linearly independent, we need
+$$
+a(1+i)+b(1-i)=0
+$$
+where $a,b\in \mathbb{R}$ and $a=b=0$ is the only solution. Expanding:
+$$
+\begin{align}
+a+a(i)+b-b(i) & =0 \\
+(a+b)+(a-b)i & =0
+\end{align}
+$$
+We need both the real and imaginary parts to be zero:
+$$
+\begin{align}
+a+b & =0 \\
+a-b & =0 \\
+\therefore 2a & =0  \quad \longrightarrow \quad a=b=0
+\end{align}
+$$
+Since the only solution is the trivial one, when we think of $\mathbb{C}$ as a vector space over $\mathbb{R}$, then the list $1+i, 1-i$ is linearly independent.
 
+**(b)** If we think of $\mathbb{C}$ as a vector space over $\mathbb{C}$, then both our vectors and scalars are in $\mathbb{C}$, which means scalar multiplication can be done with a complex number. Thus, for the list $1+i, 1-i$ to be linearly independent, we need
+$$
+a(1+i)+b(1-i)=0
+$$
+with $a=b=0$, except that in this case we have $a,b\in \mathbb{C}$. Since this is a list with only two elements, we actually just need to show that one of the elements can be expressed as a scalar multiple of the other element:
+$$
+\begin{align}
+1-i & =c(1+i)  \\[2ex]
+c & =\frac{1-i}{1+i}=\frac{1-i}{1+i} \frac{1-i}{1-i}=\frac{(1-i)^{2}}{1^{2}-i^{2}}=\frac{-2i}{2}=-i
+\end{align}
+$$
+Since we have shown that one of the vectors can be written as a scalar multiple of the other (remember vectors and scalars are the same thing in this case because we have $\mathbb{C}$ defined over $\mathbb{C}$).
+
+Alternatively, we could also use the above result for $c$ to derive $a$ and $b$:
+$$
+\begin{align}
+(-i)(1+i) & =1-i \\
+(-i)(1+i)-(1-i) & =0 \\
+(-i)(1+i)+(-1)(1-i) & =0
+\end{align}
+$$
+which can be verified by expanding. This gives us $a=-i, b=-1$. Since $a\neq b\neq 0$, we have linear dependence.
 
 > [!question] Problem 8
 > Suppose $v_{1},v_{2},v_{3},v_{4}$ is linearly independent in $V$. Prove that the list
@@ -168,6 +209,24 @@ Hence, in the case that $x,y,z$ are not $0$, we can still write $x(2,3,1)+y(1,-1
 > $$
 > is also linearly independent.
 
+Let us consider a linear combination of these vectors:
+$$
+\begin{align}
+a_{1}(v_{1}-v_{2})+a_{2}(v_{2}-v_{3})+a_{3}(v_{3}-v_{4})+a_{4}v_{4} & =0 \\
+a_{1}v_{1}-a_{1}v_{2}+a_{2}v_{2}-a_{2}v_{3}+a_{3}v_{3}-a_{3}v_{4}+a_{4}v_{4} & =0 \\
+a_{1}v_{1}+(-a_{1}+a_{2})v_{2}+(-a_{2}+a_{3})v_{3}+(-a_{3}+a_{4})v_{4} & =0
+\end{align}
+$$
+Thus we can write the system
+$$
+\begin{align}
+a_{1} & =0 \\
+-a_{1}+a_{2} & =0 \\
+-a_{2}+a_{3} & =0 \\
+-a_{3}+a_{4} & =0
+\end{align}
+$$
+which has the solution $a_{1}=a_{2}=a_{3}=a_{4}=0$. Thus, since the only solution is the trivial one, this list is linearly independent.
 
 
 > [!question] Problem 9
@@ -177,12 +236,33 @@ Hence, in the case that $x,y,z$ are not $0$, we can still write $x(2,3,1)+y(1,-1
 > $$
 > is linearly independent.
 
-
+We can follow the same procedure as above:
+$$
+\begin{align}
+a_{1}(5v_{1}-4v_{2})+a_{2}v_{2}+a_{3}v_{3}+\dots+a_{m}v_{m} & =0 \\
+5a_{1}v_{1}-4a_{1}v_{2}+a_{2}v_{2}+a_{3}v_{3}+\dots+a_{m}v_{m} & =0 \\
+5a_{1}v_{1}+(-4a_{1}+a_{2})v_{2}+a_{3}v_{3}+\dots+a_{m}v_{m} & =0
+\end{align}
+$$
+which yields
+$$
+\begin{align}
+5a_{1} & =0 \\
+-4a_{1}+a_{2} & =0 \\
+a_{3} & =0 \\
+ & \dots \\
+a_{m} & =0
+\end{align}
+$$
+$5a_{1}=0$ yields $a_{1}=0$, which in turn gives $a_{2}=0$ from the second equation. We already know $a_{3},\dots,a_{m}=0$ because it was given that $a_{1},\dots,a_{m}$ is linearly independent.
 
 > [!question] Problem 10
 > Prove or give a counterexample: If $v_{1}, v_{2}, \dots, v_{m}$ is a linearly independent list of vectors in $V$ and $\lambda \in \mathbb{F}$, then $\lambda v_{1}, \lambda v_{2}, \dots, \lambda v_{m}$ is linearly independent.
 
-
+This is true for $\lambda \neq 0$ but false if $\lambda=0$. If $\lambda=0$, any solution of $a$'s will fold for
+$$
+a_{1}(\lambda v_{1})+a_{2}(\lambda v_{2})+\dots+a_{m}(\lambda v_{m})=0
+$$
 
 > [!question] Problem 11
 > Prove or give a counterexample: If $v_{1}, \dots, v_m$ and $w_{1}, \dots, w_{m}$ are linearly independent lists of vectors in $V$, then the list $v_{1}+w_{1}, \dots, v_{m}+w_{m}$ is linearly independent.
