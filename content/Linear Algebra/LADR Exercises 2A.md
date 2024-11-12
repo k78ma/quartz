@@ -267,18 +267,66 @@ $$
 > [!question] Problem 11
 > Prove or give a counterexample: If $v_{1}, \dots, v_m$ and $w_{1}, \dots, w_{m}$ are linearly independent lists of vectors in $V$, then the list $v_{1}+w_{1}, \dots, v_{m}+w_{m}$ is linearly independent.
 
-
+This is false. We can have $v_{k}=-w_{k}$, in which case any any $v_{k}+w_{k}=0$, so it doesn't matter what scalar $a_{k}$ is used, we will always have $a_{k}(v_{k}+v_{k})=0$. As such, the only solution is not trivial.
 
 > [!question] Problem 12
 > Suppose $v_{1}, \dots, v_{m}$ is linearly independent in $V$ and $w\in V$. Prove that if $v_{1}+w, \dots, v_{m}+w$ is linearly dependent, then $w\in \text{span}(v_{1}, \dots, v_{m})$.
 
+For linear independence, we have
+$$
+a_{1}(v_{1}+w)+a_{2}(v_{w}+w)+\dots+a_{m}(v_{m}+w)=0
+$$
+Expanding and collecting like terms:
+$$
+\begin{align}
+a_{1}v_{1}+a_{1}w+a_{2}v_{w}+a_{2}2+\dots+a_{m}v_{m}+a_{m}w & =0 \\
+\underbrace{ (a_{1}v_{1}+a_{2}v_{2}+\dots+a_{m}v_{m}) }_{ S }+\underbrace{ (a_{1}+a_{2}+\dots+a_{m}) }_{ A }w & =0 \\
+S+Aw & =0
+\end{align}
+$$
+If $A\neq 0$, we have
+$$
+w=-\frac{1}{A}S
+$$
+Since $S$ is a linear combination of $v_{1},\dots,v_{m}$, $w$ is also a linear combination.
 
+If $A=0$, we have $S=0$. Since $S=a_{1}v_{1}+\dots+a_{m}v_{m}$ and we started off with $v_{1},\dots,v_{m}$ being linearly independent, by definition we must have $a_{1}=\dots=a_{m}=0$. However, this cannot be true because $v_{1}+w , \dots,v_{m}+w$ is linearly dependent (there must be some solution other than the trivial). 
+
+Because of this contradiction, we must have $A=0$, which means $w$ is a linear combination of $v_{1},\dots,v_{m}$, which by definition means that $w\in \text{span}(v_{1},\dots, v_{m})$.
 
 > [!question] Problem 13
 > Suppose $v_{1}, \dots, v_{m}$ is linearly independent in $V$ and $w\in V$. Show that
 > $$
 > v_{1}, \dots, v_{m}, w \text{ is linearly independent} \Longleftrightarrow  w \notin \text{span}(v_{1}, \dots, v_{m})
 > $$
+
+First, we can show that $w \notin \text{span}(v_{1},\dots,v_{m}) \implies v_{1}, \dots, v_{m}, w \text{ is linearly independent}$. 
+
+Assume that $w \notin (v_{1},\dots,v_{m})$. Suppose there exists some linear combination such that
+$$
+a_{1}v_{1}+\dots a_{m}v_{m}+a_{w}w=0
+$$
+Then, if $a_{w}\neq 0$, we have
+$$
+w=-\frac{1}{a_{w}}(a_{1}v_{1}+a_{m}v_{m})
+$$
+which would make $w$ a linear combination of $v_{1},\dots,v_{m}$. Therefore, we must have $a_{w}=0$, which simplifies the original equation to
+$$
+a_{1}v_{1}+\dots+a_{m}v_{m}=0
+$$
+Since $\{ v_{1},\dots,v_{m} \}$ is linearly independent, all $a_{1},\dots,a_{m}$ must be zero. Thus, all coefficients $a_{1},\dots,a_{m}, w$ are zero, so $\{ v_{1},\dots,v_{m}, w \}$ is linearly independent.
+
+Then, we can show that $v_{1},\dots,v_{m},w$ being linearly independent implies $w \notin \text{span}(v_{1},\dots,v_{m})$. 
+
+Assume that $w\in \text{span}(v_{1},\dots,v_{m})$, so there exist scalars $a_{1},a_{2},\dots,a_{m}$ such that
+$$
+w=a_{1}v_{1}+a_{2}v_{2}+\dots+a_{m}v_{m}
+$$
+Consider the linear combination:
+$$
+(-a_{1})v_{1}+\dots+(-a_{m})v_{m}+w=0
+$$
+Not all coefficients are zero, since the coefficient of $w$ is $1$. This implies that $\{ v_{1},\dots,v_{m}, w \}$ is linearly dependent. This contradicts our assumption that $\{ v_{1},\dots,v_{m},w \}$ is linearly independent, so we must have $w\notin \text{span}(v_{1},\dots,v_{m})$.
 
 
 > [!question] Problem 14
@@ -289,24 +337,30 @@ $$
 > Show that the list $v_{1}, \dots, v_{m}$ is linearly independent if and only if the list $w_{1}, \dots, w_{m}$ is linearly independent.
 
 
+
 > [!question] Problem 15
 > Explain why there does not exist a list of six polynomials that is linearly independent in $\mathcal{P}_{4}(\mathbb{F})$.
+
 
 
 > [!question] Problem 16
 > Explain why no list of four polynomials spans $\mathcal{P}_{4}(\mathbb{F})$.
 
 
+
 > [!question] Problem 17
 > Prove that $V$ is infinite-dimensional if and only if there is a sequence $v_{1}, v_{2}, \dots$ of vectors in $V$ such that $v_{1}, \dots, v_{m}$ is linearly independent for every positive integer $m$.
+
 
 
 > [!question] Problem 18
 > Prove that $\mathbb{F}^{\infty}$ is infinite-dimensional.
 
 
+
 > [!question] Problem 19
 > Prove that the real vector space of all continuous real-valued functions on the interval $[0,1]$ is infinite-dimensional.
+
 
 
 > [!question] Problem 20

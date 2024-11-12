@@ -29,6 +29,7 @@ Things on the internet:
 	- [Learning how to learn](https://www.neelnanda.io/blog/34-learning)
 - [On Those Undefeatable Arguments for AI Doom](https://1a3orn.com/sub/essays-ai-doom-invincible.html)
 - [~agentydragon/How I got to OpenAI](https://agentydragon.com/posts/2023-01-11-how-i-got-to-openai.html)
+- [KL is All You Need](https://blog.alexalemi.com/kl-is-all-you-need.html)
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
