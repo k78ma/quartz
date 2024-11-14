@@ -7,7 +7,6 @@ date: 2024-10-27
 aliases:
   - polynomial
 ---
-
 > [!definition] **Definition:** Polynomial, $\mathcal{P}(\mathbb{F})$
 > A function $p:\mathbb{F}\to \mathbb{F}$ is called a *polynomial* with coefficients in $\mathbb{F}$ if there exists $a_{0},\dots,a_{m}\in \mathbb{F}$ such that
 > $$

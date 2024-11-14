@@ -328,7 +328,6 @@ $$
 $$
 Not all coefficients are zero, since the coefficient of $w$ is $1$. This implies that $\{ v_{1},\dots,v_{m}, w \}$ is linearly dependent. This contradicts our assumption that $\{ v_{1},\dots,v_{m},w \}$ is linearly independent, so we must have $w\notin \text{span}(v_{1},\dots,v_{m})$.
 
-
 > [!question] Problem 14
 > Suppose $v_{1}, \dots, v_{m}$ is a list of vectors in $V$. For $k\in \{ 1, \dots, m \}$, let
 > $$
@@ -336,12 +335,97 @@ Not all coefficients are zero, since the coefficient of $w$ is $1$. This implies
 > $$
 > Show that the list $v_{1}, \dots, v_{m}$ is linearly independent if and only if the list $w_{1}, \dots, w_{m}$ is linearly independent.
 
+First, we aim to show that independent $v$'s means independent $w$'s. If $w_{1},\dots,w_{m}$ is linearly independent, we have
+$$
+a_{1}w_{1}+\dots+a_{m}w_{m}=0
+$$
+if and only if all $a_{1},\dots,a_{m}$ are $0$. This can be expanded to
+$$
+a_{1}(v_{1})+\dots+a_{m}(v_{1}+\dots+v_{m})=0
+$$
+Expanding each term:
+$$
+\begin{align}
+ & a_{1}v_{1} \\
+	+ & a_{2}v_{1}+a_{2}v_{2} \\
+	+ & a_{3}v_{1} + a_{3}v_{2}+a_{3}v_{3} \\
++ & \dots \\
++  & a_{m}v_{1}+a_{m}v_{2}+a_{m}v_{3}+\dots+a_{m}v_{m} \\
+= & 0	
+\end{align}
+$$
+Grouping like terms:
+$$
+(a_{1}+\dots+a_{m})v_{1}+(a_{2}+\dots+a_{m})v_{2}+\dots+a_{m}v_{m}=0
+$$
+where each term has one less $a$ term in its coefficient than before.
 
+If the list $v_{1},\dots,v_{m}$ is linearly independent, then the only solution is where the coefficients are all zero. Thus we know that $a_{m}=0$. We can recursively work backward for the other coefficients; for example, for the second last term:
+$$
+\begin{align}
+(a_{m-1}+a_{m})a_{m-1}=0 \\
+a_{m}=0 \implies a_{m-1}=0
+\end{align}
+$$
+Following this, we have all $a_{1},\dots,a_{m}=0$. Since all scalar coefficients are zero, $w_{1},\dots,w_{m}$ are linearly independent.
+
+Second, we aim to show that independent $w$'s means independent $v$'s. Suppose that there exists
+$$
+a_{1}v_{1}+a_{2}v_{2}+\dots+a_{m}v_{m}=0
+$$
+where we want to show that $a_{1}=\dots=a_{m}=0$.
+
+We can express $v$'s in terms of $w$'s. For some term $v_k$, we can say that
+$$
+v_{k}=w_{k}-w_{k-1}
+$$
+with $w_{0}=0$. Then, we can substitute:
+$$
+a_{1}(w_{1}-w_{0})+a_{2}(w_{2}-w_{1})+\dots+a_{m}(w_{m}-w_{m-1})=0
+$$
+Expanding each term:
+$$
+\begin{align}
+a_{1}w_{1}-a_{1}w_{0}+a_{2}w_{2}-a_{2}w_{1}+\dots+a_{m}w_{m}-a_{m}w_{m-1} & =0 \\
+(a_{1}w_{1}-a_{2}w_{1})+(a_{2}w_{2}-a_{3}w_{2})+\dots+(a_{m}w_{m}-a_{m}w_{m-1}) & =0
+\end{align}
+$$
+Grouping like terms:
+$$
+(a_{1}-a_{2})w_{1}+(a_{2}-a_{3})w_{2}+\dots+(a_{m-1}-a_{m-2})w_{m-1}+a_{m}w_{m}=0
+$$
+Since $w_{1},\dots,w_{m}$ are linearly independent, each of these coefficient terms must be zero. Like what we did before, we can start from $a_{m}=0$ to algo get $a_{1},\dots,a_{m-1}=0$. Since all $a_{1},\dots,a_{m}=0$, we've shown that $v_{1},\dots,v_{m}$ are linearly independent.
+
+Thus, we've shown that if $v_{1},\dots,v_{m}$ are linearly independent, then $w_{1},\dots,w_{m}$ are linearly independent, as well as the other direction.
 
 > [!question] Problem 15
 > Explain why there does not exist a list of six polynomials that is linearly independent in $\mathcal{P}_{4}(\mathbb{F})$.
 
+The space $\mathcal{P}_{4}(\mathbb{F})$ consists of all polynomials with coefficients in $\mathbb{F}$ whose degree is at most 4:
+$$
+p(x)=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+a_{4}x^{4}
+$$
+where $a_{0}, a_{1}, a_{2}, a_{3}, a_{4}\in \mathbb{F}$.
 
+Suppose we have six polynomials such that each polynomial can be written as
+$$
+p_{i}(x)=a_{i0}+a_{i1}x+a_{i2}x^{2}+a_{i3}x^{3}+a_{i4}x^{4}
+$$
+Now, for linear independence, we write
+$$
+c_{1}p_{1}(x)+c_{2}p_{2}(x)+\dots+c_{6}p_{6}(x)=0
+$$
+where $a_{1},\dots,a_{6}\in \mathbb{F}$.
+
+We can expand these as:
+$$
+\sum_{i=1}^{6}c_{i}(a_{i 0}+a_{i1}x+a_{i 2}x^{2}+a_{i 3}x^{3}+a_{i 4}x^{4})=0
+$$
+which can be written in terms of each power of $x$:
+$$
+\left( \sum_{i=1}^{6} c_{i}a_{i 0} \right)+\left( \sum_{i=1}^{6} c_{i}a_{i 1} \right)x+\left( \sum_{i=1}^{6} c_{i}a_{i 2} \right)x^{2}+\left( \sum_{i=1}^{6} c_{i}a_{i 3} \right)x^{3}+\left( \sum_{i=1}^{6} c_{i}a_{i 4} \right)^{4}=0
+$$
+Each coefficient must be zero, which gives us a system of five linear equations with 6 unknowns. Since we have more unknowns than equations, there are always non-trivial solutions (not all coefficients are zero). Since non-trivial solutions exist, this list is linearly dependent.
 
 > [!question] Problem 16
 > Explain why no list of four polynomials spans $\mathcal{P}_{4}(\mathbb{F})$.
@@ -365,3 +449,4 @@ Not all coefficients are zero, since the coefficient of $w$ is $1$. This implies
 
 > [!question] Problem 20
 > Suppose $p_{0}, p_{1}, \dots, p_{m}$ are polynomials in $\mathcal{P}_{m}(\mathbb{F})$ such that $p_{k}(2)=0$ for each $k\in \{ 0,\dots,m \}$. Prove that $p_{0}, p_{1}, \dots, p_{m}$ is not linearly independent in $\mathcal{P}_{m}(\mathbb{F})$.
+
