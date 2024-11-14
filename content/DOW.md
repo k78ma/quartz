@@ -1,3 +1,11 @@
+---
+title: DOW
+tags: 
+date: 2024-11-14
+aliases:
+  - dow
+draft: "true"
+---
 ```mermaid
 graph TD
 	cameraObservationProbability --> obsMul["*"]
