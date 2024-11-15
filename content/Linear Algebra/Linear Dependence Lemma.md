@@ -58,8 +58,6 @@ $$
 (15,16,17)=a(1,2,3)+b(6,5,4)
 $$
 which is a system of three linear equations with two unknowns $a,b$. Solving gives us $a=3, b=2$. Thus, taking $k=3$ is the smallest value of $k$ that works in the linear dependence lemma.
-A key result states that no [[Linear Independence|linearly independent]] list in $V$ is longer than a [[Span#Spanning a Subspace|spanning]] list in $V$.
-
 ## Length of linearly independent list $\leq$ Length of spanning list
 Now we come to a key result. It says that no linearly independent list in $V$ is longer than a spanning list in $V$.
 

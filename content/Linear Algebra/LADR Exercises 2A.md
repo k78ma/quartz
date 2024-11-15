@@ -454,8 +454,42 @@ For every integer $k\in \mathbb{Z}$, define the vector $v_{k}$ such that it has 
 > [!question] Problem 19
 > Prove that the real vector space of all continuous real-valued functions on the interval $[0,1]$ is infinite-dimensional.
 
+- This means that each function $f$ has domain $x \in[0,1]$. And each $x \in[0,1]$, we have $f(x)\in \mathbb{R}$. The difference between this and $\mathbb{R}^{[0,1]}$ is that in this case, we are only concerned with real-valued functions. We will call the set $C[0,1]$.
 
+Consider the set of monomials:
+$$
+S=\{ 1,x,x^{2},x^{3},\dots \}
+$$
+Each function $x^{n}$ in this set is a continuous real-valued function on $[0,1]$, so $S\subseteq C[0,1]$.
+
+To show that $S$ is linearly independent, assume there exists a finite linear combination of elements of $S$ that equals the zero function:
+$$
+c_{0}(1)+c_{1}x+c_{2}x^{2}+\dots+c_{n}x^{n}=0
+$$
+where $c_{0}, c_{1},\dots,c_{n}$ are real coefficients. Expanding this, we have
+$$
+c_{0}+c_{1}t+c_{2}t^{2}+\dots+c_{n}t^{n}=0 \quad \text{ for all }t\in[0,1] 
+$$
+For this to be zero, all of its coefficients must be $0$. Therefore, the set $S$ is linearly independent as no non-trivial linear combination of the functions in $S$ is zero.
+
+Since any finite subset of $S$ is linearly independent, and $S$ is infinite, there exists an infinite linearly independent set in $S$. Since $S\subseteq C[0,1]$ there also exists an infinite linearly independent set in $C[0,1]$. Thus, $C[0,1]$ cannot be spanned by any finite set of functions and thus must be infinite-dimensional.
 
 > [!question] Problem 20
 > Suppose $p_{0}, p_{1}, \dots, p_{m}$ are polynomials in $\mathcal{P}_{m}(\mathbb{F})$ such that $p_{k}(2)=0$ for each $k\in \{ 0,\dots,m \}$. Prove that $p_{0}, p_{1}, \dots, p_{m}$ is not linearly independent in $\mathcal{P}_{m}(\mathbb{F})$.
 
+Suppose that $p_{0}, p_{1},\dots,p_{m}$ is linearly independent for contradiction. 
+- First, we show that this implies that $\text{span}(p_{0}, p_{1},\dots,p_{m})=\mathcal{P}_{m}(\mathbb{F})$.
+- Then, we show that the above leads to a contradiction, because we can find a polynomial in $\mathcal{P_{m}}(\mathbb{F})$ such that is not in $\text{span}(p_{0}, p_{1},\dots,p)$.
+- Therefore, $p_{0}, p_{1},\dots p_{m}$ must not be linearly independent.
+  
+Note that the list $1,z, \dots, z^{m}$ spans $\mathcal{P}_{m}(\mathbb{F})$ and has length $m+1$. Hence, every linearly independent list must be have length $m+1$ or less (see [[Linear Dependence Lemma#Length of linearly independent list $ leq$ Length of spanning list|here]]). If $\text{span}(p_{0},p_{1},\dots, p_{m})\neq \mathcal{P}_{m}(\mathbb{F})$, there exists some $p$ in $\mathcal{P}_{m}(\mathbb{F})$ such that $p \notin \text{span}(p_{0}, p_{1}, \dots, p_{m})$ , and thus the list $p_{0}, p_{1}, \dots p_{m}, p$ is linearly independent and has length $m+2$. This presents a contradiction. Thus, we must have $\text{span}(p_{0}, p_{1}, \dots,p_{m})=\mathcal{P}_{m}(\mathbb{F})$.
+
+Now, define the polynomial $q\equiv 1$. Then, $q\in \text{span}(p_{0}, p_{1}, \dots,p_{m})$, which means there must be $a_{0},\dots,a_{m}\in \mathbb{F}$ such that
+$$
+q=a_{0}p_{0}+a_{1}p_{1}+\dots+a_{m}p_{m}
+$$
+which in turn implies
+$$
+q(2)=a_{0}p_{0}(2)+a_{1}p_{1}(2)+\dots +a_{m}p_{m}(2)
+$$
+This would give us $1=0$. Therefore, $p_{0},p_{1}, \dots p_{m}$ cannot be linearly independent.
