@@ -28,6 +28,7 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Linear Independence]]
 - [[Linear Dependence Lemma]]
 ### Bases
+- [[Basis]]
 ### Dimension
 
 ## Linear Maps

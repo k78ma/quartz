@@ -50,6 +50,8 @@ $$
  & V(aX)=a^{2}V(X)
 \end{align}
 $$
+A constant doesn't vary, so the variance of a constant is zero. Adding a constant to a variable also doesn't change its variance.
+
 If we have two random variables and they are independent:
 $$
 COV(X,Y)=0

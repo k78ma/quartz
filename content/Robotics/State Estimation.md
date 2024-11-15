@@ -22,5 +22,8 @@ Notes from: *Kalman Filter from The Ground Up* by Alex Becker
 - [[Kalman Gain Intuition]]
 - [[1D Kalman Filter with Process Noise]]
 ### Multivariate Kalman Filters 
+
+#### Statistic Basics
 - [[Multivariable State Vector]]
 - [[Expectation Algebra]]
+- [[Multivariate Normal Distribution]]
