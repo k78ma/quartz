@@ -430,17 +430,26 @@ Each coefficient must be zero, which gives us a system of five linear equations 
 > [!question] Problem 16
 > Explain why no list of four polynomials spans $\mathcal{P}_{4}(\mathbb{F})$.
 
-
+A polynomial in $\mathcal{P}_{4}(\mathbb{F})$ has the form:
+$$
+p(x)=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+a_{4}x^{4}
+$$
+Since any polynomial in $\mathcal{P}_{4}(\mathbb{F})$ requires five coefficients to be uniquely determined and we have only four polynomials to combine, it's impossible to represent every polynomial in $\mathcal{P}_{4}(\mathbb{F})$ with just four polynomials.
 
 > [!question] Problem 17
 > Prove that $V$ is infinite-dimensional if and only if there is a sequence $v_{1}, v_{2}, \dots$ of vectors in $V$ such that $v_{1}, \dots, v_{m}$ is linearly independent for every positive integer $m$.
 
+($\implies$) First suppose $V$ is [[Finite-Dimensional Vector Space|infinite-dimensional]]. We can prove by induction that there exists a sequence $v_{1},v_{2},\dots$ of vectors in $V$ such that for every $m\in \mathbb{Z}^{+}$ (positive integers), the first $m$ vectors are linearly independent.
+- Base case: Since $V$ is infinite-dimensional, $V$ contains some nonzero vector $v_{1}$. The list containing only this vector is clearly linearly independent.
+- Inductive step: Suppose the list of vectors $v_{1},\dots,v_{k}$ is linearly dependent for some $k\in \mathbb{Z}^{+}$. Since $V$ is infinite-dimensional, these vectors cannot span $V$, and so there exists some $v_{k+1}\in V$ that is outside $\text{span}(v_{1},\dots,v_{k})$. Note that $v_{k+1}\neq 0$. But, then $v_{1},\dots,v_{k+1}$ is linearly independent by the [[Linear Dependence Lemma]]; if it were linearly independent, the lemma guarantees that there would exist a vector in the list which could be written as a linear combination of its predecessors, which is impossible by our construction.
+- By induction, we have shown there exists a list $v_{1}, v_{2}, \dots$ such that $v_{1}, \dots, v_{m}$ is linearly independent for every $m\in \mathbb{Z}^{+}$.
 
+($\Longleftarrow$) Second, assume there is a sequence $v_{1},v_{2}, \dots$ of vectors in $V$ such that $v_{1},\dots,v_{m}$ is linearly independent for every $m\in \mathbb{Z}^{+}$. If $V$ were finite-dimensional, there would exist a list $v_{1},\dots,v_{n}$ for some $n\in \mathbb{Z}^{+}$ such that $V=\text{span}(v_{1},\dots, v_{n})$. But, by our assumption, the list $v_{1},\dots, v_{n+1}$ is linearly independent since we specified independence for every positive integer $m$. Linearly independent lists must have length no longer than every spanning list, this is a contradiction. Thus $V$ is infinite-dimensional.
 
 > [!question] Problem 18
 > Prove that $\mathbb{F}^{\infty}$ is infinite-dimensional.
 
-
+For every integer $k\in \mathbb{Z}$, define the vector $v_{k}$ such that it has a $1$ in coordinate $k$ and $0$ everywhere else. Then, the list $v_{1}, \dots, v_{m}$ is linearly independent for any choice of $m\in \mathbb{Z}^{+}$. By Problem 17, $\mathbb{F}^{\infty}$ must be infinite-dimensional.
 
 > [!question] Problem 19
 > Prove that the real vector space of all continuous real-valued functions on the interval $[0,1]$ is infinite-dimensional.

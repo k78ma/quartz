@@ -39,7 +39,6 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[LADR Exercises 1C]]
 - [[LADR Exercises 2A]]
 - [[LADR Exercises 2B]]
-- [[LADR Exercises 2A]]
 - [[LADR Exercises 3A]]
 - [[LADR Exercises 3B]]
 - [[LADR Exercises 3C]]
