@@ -5,6 +5,8 @@ tags:
 date: 2024-10-27
 aliases:
   - span
+  - spans
+  - spanning
 ---
 > [!definition] Definition: Span
 > The set of all [[Linear Combinations|linear combinations]] of a list of vectors $v_{1}, \dots, v_{m}$ in $V$ is called the *span* of $v_{1},\dots,v_{m}$, denoted by $\text{span}(v_{1}, \dots,v_{m})$. In other words,

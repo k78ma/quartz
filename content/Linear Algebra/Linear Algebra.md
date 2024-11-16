@@ -29,6 +29,7 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Linear Dependence Lemma]]
 ### Bases
 - [[Basis]]
+- [[Basis Properties and Results]]
 ### Dimension
 
 ## Linear Maps

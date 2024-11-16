@@ -26,4 +26,5 @@ Notes from: *Kalman Filter from The Ground Up* by Alex Becker
 #### Statistic Basics
 - [[Multivariable State Vector]]
 - [[Expectation Algebra]]
-- [[Multivariate Normal Distribution]]
+- [[Multivariate Kalman Filter]]
+- [[Covariance Matrix]]
