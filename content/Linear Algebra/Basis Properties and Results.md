@@ -20,7 +20,7 @@ Start with $B$ equal to the list $v_{1},\dots,v_{m}$.
 
 **Step k:** If $v_{k}$ is in $\text{span}(v_{1},\dots,v_{k-1})$, then delete $v_{k}$ from the list $B$. If $v_{k}$ is not in $\text{span}(v_{1},\dots,v_{k-1})$, then leave $B$ unchanged.
 
-Stop the process after step $n$, getting a list $B$. This list $B$ spans $V$ because our original list spanned $V$ and we have discarded only vectors that were in the span of the previous vectors. The process ensures that no vector in $B$ is in the span of the previous ones. Thus $B$ is linearly independent, by the [[Linear Dependence Lemma|linear dependence lemma]]. Hence $B$ is a basis of $V$.
+Stop the process after step $n$, getting a list $B$. This list $B$ spans $V$ because our original list spanned $V$ and we have discarded only vectors that were in the span of the previous vectors. The process ensures that no vector in $B$ is in the span of the previous ones. Thus $B$ is linearly independent, by the [[Linear Dependence Lemma|linear dependence lemma]]. Hence $B$ is a basis of $V$. $\blacksquare$
 
 ### Basis of Finite-Dimensional Vector Space
 The above leads us to this important result:

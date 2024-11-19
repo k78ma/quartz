@@ -326,7 +326,7 @@ Consider the linear combination:
 $$
 (-a_{1})v_{1}+\dots+(-a_{m})v_{m}+w=0
 $$
-Not all coefficients are zero, since the coefficient of $w$ is $1$. This implies that $\{ v_{1},\dots,v_{m}, w \}$ is linearly dependent. This contradicts our assumption that $\{ v_{1},\dots,v_{m},w \}$ is linearly independent, so we must have $w\notin \text{span}(v_{1},\dots,v_{m})$.
+Not all coefficients are zero, since the coefficient of $w$ is $1$. This implies that $\{ v_{1},\dots,v_{m}, w \}$ is linearly dependent. This contradicts our assumption that $\{ v_{1},\dots,v_{m},w \}$ is linearly independent, so we must have $w\notin \text{span}(v_{1},\dots,v_{m})$. $\blacksquare$
 
 > [!question] Problem 14
 > Suppose $v_{1}, \dots, v_{m}$ is a list of vectors in $V$. For $k\in \{ 1, \dots, m \}$, let
