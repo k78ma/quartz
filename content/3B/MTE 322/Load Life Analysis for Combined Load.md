@@ -1,10 +1,10 @@
 ---
-title: Load Life for Combined Load
+title: Load Life Analysis for Combined Load
 tags:
   - mte322
-date: 2024-11-18
+date: 2024-11-19
 aliases:
-  - load life for combined load
+  - load life analysis for combined load
 ---
 The analysis done in [[Rolling Element Bearing Load Life and Size Selection]] is primarily for radial load only. 
 

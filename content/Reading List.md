@@ -15,8 +15,9 @@ Immediate:
 - [ ] minitorch
   
 Casual:
-- [ ] A Programmer's Guide To Mathematics
+- [ ] A Programmer's Guide To Mathematics <progress max=398 value=26> </progress>
 - [ ] Alice's Adventures in a Differential Wonderland
+- [ ] Building A Large Language Model (From Scratch) <progress max=1090 value=87> </progress>
 
 Next up?
 - [ ] Introduction to Statistical Learning
