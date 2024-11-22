@@ -37,6 +37,36 @@ Whenever appropriate, bearings are arranged with one as fixed-end and the other 
 
 ![[Bearing Arrangement and Mounting-5.png|568]]
 
-If the machine requires more precision, free-end may be constrained with Bellville spring washers. Bearing still allowed axially, but with some loads. Such preloading also reduces noise and vibration.
+### Precision Needed for Free-End
+If the machine requires more precision, free-end may be constrained with **Bellville spring washers**. Bearing still allowed axially, but with some loads. Such preloading also reduces noise and vibration.
 
 ![[Bearing Arrangement and Mounting-6.png|608]]
+
+### Abutment for Constraining Corners
+To constrain each corner of a bearing, we should follow guidelines from the bearing manufacturer. All dimensions are specified in the catalogue.
+
+![[Bearing Arrangement and Mounting-7.png]]
+
+## Mountings and Enclosures
+Common ways to fix bearing locations:
+- Steps on shaft and/or housing are used if possible
+- Housing cover is often used to fix the outer ring
+
+![[Bearing Arrangement and Mounting-8.png|640]]
+
+Other common ways to fix bearing locations:
+- Locknuts, snap rings and spaces (bushings).
+
+![[Bearing Arrangement and Mounting-9.png|648]]
+
+Locknuts and washers to fix bearing locations:
+- For shaft, locknut and lock washer are often used when the axial loads are significant
+- Machine threads need to be cut on shaft
+
+![[Bearing Arrangement and Mounting-10.png|656]]
+
+Snap rings are often used for smaller axial loads.
+
+![[Bearing Arrangement and Mounting-11.png|620]]
+
+In general, the choice of mounting varies by designer and may be driven by diverse factors.
