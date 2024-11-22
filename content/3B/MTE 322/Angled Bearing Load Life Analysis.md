@@ -24,10 +24,10 @@ Let's say that we have pair of angular contact ball bearings in B2B (or O) confi
 ![[Angled Bearing Load Life Analysis-1.png|411]]
 
 Equivalent loads are computed based on the effective axial loads. 
-- If $F_{ae}+\frac{0.6}{Y_{I I}F_{r II}}\geq \frac{0.6}{Y_{I}F_{r}I}$, we have:
+- If $F_{ae}+\frac{0.6}{Y_{I I}}F_{r II}\geq \frac{0.6}{Y_{I}F_{r}I}$, we have:
 $$
 \begin{cases}
-P_{I}=XF_{r}I+Y_{I}\underbrace{ \left( F_{ae}+\frac{0.6}{Y_{II}}F_{rII} \right) }_{ =F_{a I} } \\[2ex]
+P_{I}=XF_{rI}+Y_{I}\underbrace{ \left( F_{ae}+\frac{0.6}{Y_{II}}F_{rII} \right) }_{ =F_{a I} } \\[2ex]
 P_{II}= F_{rI I} \quad (\text{i.e. }F_{a II}=0)
 \end{cases}
 $$
@@ -42,3 +42,6 @@ Note that:
 - $\frac{0.6}{Y_{II}}F_{rII}$ is the axial load induced by $F_{r II}(\to)$
 - $\frac{0.6}{Y_{I}}F_{r I}$ is the axial load induced by $F_{rI}(\leftarrow)$
 
+## Example
+
+![[MTE 322 bearings ex 3.pdf]]

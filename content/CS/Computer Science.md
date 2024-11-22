@@ -15,6 +15,7 @@ aliases:
 - [[Languages and Compilers]]
 - [[Distributed Systems]]
 - [[C++]]
+- [[Python]]
 ## Resources
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)
 - [Introduction to Algorithms (MIT OpenCourseWare)](https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/)
