@@ -77,3 +77,41 @@ $$
 > [!question] Problem 5
 > Suppose $V$ is finite-dimensional and $U,W$ are subspaces of $V$ such that $V=U+W$. Prove that there exists a basis of $V$ consisting of vectors in $U\cup W$.
 
+
+> [!question] Problem 6
+> Prove or give a counterexample: If $p_{0}, p_{1}, p_{2}, p_{3}$ is a list in $\mathcal{P}_{3}(\mathbb{F})$ such that none of the polynomials $p_{0}, p_{1}, p_{2}, p_{3}$ has degree 2, then $p_{0}, p_{1}, p_{2}, p_{3}$ is not a basis of $\mathcal{P}_{3}(\mathbb{F})$.
+
+
+> [!question] Problem 7
+> Suppose that $v_{1},v_{2},v_{3},v_{4}$ is a basis of $V$. Prove that
+> $$
+> v_{1}+v_{2}, v_{2}+v_{3}, v_{3}+v_{4}, v_{4}
+> $$
+> is also a basis of $V$.
+
+
+> [!question] Problem 8
+> Prove or give a counterexample: If $v_{1},v_{2},v_{3},v_{4}$ is a basis of $V$ and $U$ is a subspace of $V$ such that $v_{1},v_{2}\in U$ and $v_{3} \notin U$ and $v_{4} \notin U$, then $v_{1},v_{2}$ is a basis of $U$.
+
+
+> [!question] Problem 9
+> Suppose $v_{1},\dots,v_{m}$ is a list of vectors in $V$. For $k\in \{ 1,\dots,m \}$, let
+> $$
+> w_{k}=v_{1}+\dots+v_{k}
+>$$
+> Show that $v_{1},\dots,v_{m}$ is a basis of $V$ if and only if $w_{1},\dots,w_{m}$ is a basis of $V$.
+
+
+
+> [!question] Problem 10
+> Suppose $U$ and $W$ are subspaces of $V$ such that $V=U\oplus W$. Suppose also that $u_{1},\dots,u_{m}$ is a basis of $U$ and $w_{1}, \dots, w_{n}$ is a basis of $W$. Prove that
+>$$
+> u_{1}, \dots, u_{m}, w_{1}, \dots, w_{n}
+>$$
+>is a basis of $V$.
+
+
+
+> [!question] Problem 11
+> Suppose $V$ is a real vector space. Show that if $v_{1}, \dots, v_{n}$ is a basis of $V$ (as a real vector space), then $v_{1},\dots, v_{n}$ is also a basis of the complexification $V_{\mathbb{C}}$ (as a complex vector space). 
+> - See [[LADR Exercises 1B]] for the definition of complexification.

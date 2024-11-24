@@ -9,10 +9,9 @@ aliases:
 Angled bearings are often used in pairs to support both axial directions.
 
 ![[Angled Bearing Load Life Analysis.png]]
-
-They are used for combined radial and (large) axial loads. 
 - Deep groove ball bearings can still be used when $F_{a}$ is comparable to $F_{r}$, but they are not advised if $F_{a}$ is more than 10-30% of $C_{0}$ (static load rating) or $F_{a}\gg F_{r}$ (axial load is excessively larger than radial one)
 
+They are used for combined radial and (large) axial loads. 
 These bearings require different load analysis due to the "effective load center" $a$, and the "induced axial load", given by 
 $$
 F_{ai}=\frac{0.6}{Y}F_{r}

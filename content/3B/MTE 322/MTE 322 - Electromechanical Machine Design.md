@@ -1,5 +1,5 @@
 ---
-title: MTE 322
+title: MTE 322 - Electromechanical Machine Design
 tags:
   - 3b
   - mte322
@@ -56,6 +56,10 @@ aliases:
 - [[Load Life Analysis for Combined Load]]
 - [[Angled Bearing Load Life Analysis]]
 - [[Bearing Arrangement and Mounting]]
+- [[Retaining Ring Load Analysis]]
+- [[Tolerances and Fits]]
+- [[Bearing Fits]]
+- [[Bearing Lubrication and Sealing]]
 
 ## Projects
 - [[MTE 322 Project 1]]
