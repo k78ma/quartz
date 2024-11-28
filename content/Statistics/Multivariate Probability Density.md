@@ -21,3 +21,5 @@ $$
 in which the integral is taken over the whole $\mathbf{x}$ space. 
 
 More generally, we can also consider *joint probability distributions* over a combination of discrete and continuous variables.
+
+Also see [[Multivariate Normal Distribution]].

@@ -60,3 +60,6 @@ $$
 $$ If $\tilde{\mathbf{P}}^{t}_{\tilde{c}}\neq \emptyset$ and $\tilde{\mathbf{P}}_{\tilde{c}}^{t-1}\neq \emptyset$, the cluster persists. Persistent clusters represent either static objects, which remain spatially consistent across frames, or dynamic objects which have been associated across frames despite spatial displacement. This lets us do static-dynamic decomposition of the scene implicitly.
 
 $\tilde{\mathbf{P}}^{t}_{\tilde{c}}\neq \emptyset$ and $\tilde{\mathbf{P}}_{\tilde{c}}^{t-1}\neq \emptyset$
+
+- Need to mention that we are capable of running on a real-time system - instead of optimizing each scene at once, we can add frames incrementally
+- 

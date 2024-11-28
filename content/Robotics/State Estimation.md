@@ -28,3 +28,6 @@ Notes from: *Kalman Filter from The Ground Up* by Alex Becker
 - [[Expectation Algebra]]
 - [[Multivariate Kalman Filter]]
 - [[Covariance Matrix]]
+- [[Multivariate Normal Distribution]]
+- [[Covariance Ellipse]]
+- [[Confidence Ellipse]]

@@ -33,6 +33,7 @@ Notes from:
 	- [[Gaussian Maximum Likehood Estimation]]
 	- [[Bessel's Correction]]
 - [[Linear Regression as MLE]]
+- [[Confidence Interval]]
 ### Information Theory
 - [[Information Theory]]
 - [[Measure of Information]]

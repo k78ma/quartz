@@ -3,12 +3,11 @@ title: LADR Exercises 2B
 tags:
   - lin-alg
 date: 2024-11-16
-aliases:
-  - ladr exercises 2b
+aliases: []
 ---
 
 > [!question] Problem 1
-> Find all vector spaces that have exactly one basis
+> Find all vector spaces that have exactly one basis.
 
 The only one is $\{ 0 \}$. If there is some nonzero vector $v$ in the basis, we can get a new basis by changing $v$ to $2v$.
 
@@ -77,10 +76,72 @@ $$
 > [!question] Problem 5
 > Suppose $V$ is finite-dimensional and $U,W$ are subspaces of $V$ such that $V=U+W$. Prove that there exists a basis of $V$ consisting of vectors in $U\cup W$.
 
+Suppose we have a set $\{ v_{1},v_{2},\dots,v_{m} \}$ as a basis for $U \cup W$. We can extend to to a basis of $U$ by adding vectors $\{ u_{1},u_{2}, \dots,u_{p-m} \}$ from $U$ such that $U=\text{span}(v_{1},\dots,v_{m}, u_{1},\dots,u_{p-m})$. Similarly, we can extend to basis for $W$ by adding vectors from $W$ such that $W=\text{span}(v_{1},\dots,v_{m}, w_{1}, \dots, w_{q-m})$.
+- Note that $u_{i}$ are vectors exclusive to $U$ such that $u_{i}\in U \setminus U\cap W$
+- Note that $w_{i}$ are vectors exclusive to $V$ such that $w_{i}\in W \setminus U\cap W$
+
+Let's construct a set $S$ that contains all of these.
+$$
+S=\{ u_{1},\dots,u_{p-m}, v_{1}, \dots v_{m}, w_{1},\dots,w_{q-m} \}
+$$
+Note that all elements of $S$ are in $U\cup W$.
+
+Let's show that $S$ is linearly independent. Suppose there exist scalars $c_{i}$ and $d_{j}$ such that
+$$
+\sum_{i=1}^{p-m}c_{i}u_{i}+\sum_{k=1}^{m}c_{p-m+k}v_{k}+\sum_{j=1}^{q-m}d_{j}w_{j}=0
+$$
+Re-arranging:
+$$
+\left(\sum_{i=1}^{p-m}c_{i}u_{i}+\sum_{k=1}^{m}c_{p-m+k}v_{k}\right)+\left(\sum_{j=1}^{q-m}d_{j}w_{j}\right)=0
+$$
+The first bracket is in $U$ (since $v_{k}\in U\cap V$) and the second bracket is in $W$. Note that we could do this proof grouping $v$ with $w$ as well.
+
+The sum being zero implies that their negatives are equal. Furthermore, since the left side is in $U$ and the right side is in $W$, they must both be in $U\cap W$:
+$$
+\left(\sum_{i=1}^{p-m}c_{i}u_{i}+\sum_{k=1}^{m}c_{p-m+k}v_{k}\right)=-\left(\sum_{j=1}^{q-m}d_{j}w_{j}\right) \in U\cap W
+$$
+Since $\{ u_{i} \}$ are in $U \setminus (U\cap W)$, their coefficients must be zero, such that $c_{i}=0$ for $i=1,\dots,p-m$. Similarly,  $\{ w_{j} \}$ are in $W \setminus (U\cap W)$, their coefficients must be zero, such that $d_{j}=0$ for $j=1,\dots,q-m$. Thus, we have
+$$
+\sum_{k=1}^{m}c_{p-m+k}v_{k}=0
+$$
+Since $\{ v_{k} \}$ is a basis, all $c_{p-m+k}=0$. Therefore, $S$ is linearly independent.
+
+Now we can show that $S$ spans $V$ – every vector in $V$ can be expressed as a sum of vectors from $U$ and $W$, because $V=U+W$. Since $S$ contains bases for $U$ and $W$, it spans $V$.
+
+We have constructed a basis $S$ of $V$ consisting entirely of vectors from $U\cup W$; therefore, such a basis exists.
 
 > [!question] Problem 6
 > Prove or give a counterexample: If $p_{0}, p_{1}, p_{2}, p_{3}$ is a list in $\mathcal{P}_{3}(\mathbb{F})$ such that none of the polynomials $p_{0}, p_{1}, p_{2}, p_{3}$ has degree 2, then $p_{0}, p_{1}, p_{2}, p_{3}$ is not a basis of $\mathcal{P}_{3}(\mathbb{F})$.
 
+Consider the list
+$$
+p_{0}, p_{1}, p_{2}, p_{3} = 1,x, x^{2}+x^{3}, x^{3}
+$$
+which contains no polynomial of degree 2.
+
+We can prove that $\text{span}(1,x,x^{2}+x^{3}, x^{3})=\mathcal{P}_{3}(\mathbb{F})$. 
+
+Let $q\in \mathcal{P}_{3}(\mathbb{F})$. Then, there exist
+$$
+a_{0},\dots,a_{3}\in \mathbb{F}
+$$
+such that $q=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}$. But notice that we can write
+$$
+\begin{align}
+a_{0}p_{0}+a_{1}p_{1}+a_{2}p_{2}+(a_{3}-a_{2})p_{3} & =a_{0}+a_{1}x+a_{2}(x^{2}+x^{3})+(a_{3}-a_{2})x^{3} \\
+	 & = a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3} \\
+	 & =q
+\end{align}
+$$
+To see the list is linearly independent, suppose $b_{0}, \dots , b_{3}\in \mathbb{F}$ such that
+$$
+b_{0}p_{0}+b_{1}p_{1}+b_{2}p_{2}+b_{3}p_{3}=0
+$$
+It follows that
+$$
+b_{0}+b_{1}x+b_{2}x^{2}+(b_{2}+b_{3})x^{3}=0
+$$
+which is true if and only if all coefficients are zero. Thus, this is a basis as claimed. $\blacksquare$
 
 > [!question] Problem 7
 > Suppose that $v_{1},v_{2},v_{3},v_{4}$ is a basis of $V$. Prove that
@@ -89,10 +150,50 @@ $$
 > $$
 > is also a basis of $V$.
 
+First, we need to show that the list is linearly independent. Suppose that
+$$
+\begin{align}
+a(v_{1}+v_{2})+b(v_{2}+v_{3})+c(v_{3}+v_{4})+dv_{4} & =0 \\
+av_{2}+(a+b)v_{2}+(b+c)v_{4} +(c+d)v_{4} & =0
+\end{align}
+$$
+If $a=0$, then we must have $b=0$, which in turn also gives us $c=0, d=0$. Thus, we have shown that the list is linearly independent.
+
+Now note that we can write:
+$$
+\begin{align}
+v_{3} & =(v_{3}+v_{4})-v_{4} \\
+v_{2} & =(v_{2}+v_{3})-v_{3}=(v_{2}+v_{3})-(v_{3}+v_{4})+v_{4} \\
+v_{1} & =(v_{1}+v_{2})-v_{2}=(v_{1}+v_{2})- (v_{2}+v_{3})+(v_{3}+v_{4})-v_{4}
+\end{align}
+$$
+and of course, $v_{4}=v_{4}$.
+
+Since we know that $v_{1},v_{2},v_{3},v_{4}$ is a basis of $V$, and we can write these basis vectors as linear combinations of elements from our list, then our list must span $V$ as well.
+
+Therefore, our list is a span of $V$.
 
 > [!question] Problem 8
 > Prove or give a counterexample: If $v_{1},v_{2},v_{3},v_{4}$ is a basis of $V$ and $U$ is a subspace of $V$ such that $v_{1},v_{2}\in U$ and $v_{3} \notin U$ and $v_{4} \notin U$, then $v_{1},v_{2}$ is a basis of $U$.
 
+The statement is false. Let $V=\mathbb{R}^{4}$ and let
+$$
+\begin{align}
+v_{1}=(1,0,0,0) \\
+v_{2}=(0,1,0,0) \\
+v_{3}=(0,0,1,0) \\
+v_{4}=(0,0,0,1)
+\end{align}
+$$
+Clearly $v_{1},v_{2},v_{3},v_{4}$ is a basis of $V$.
+
+Define
+$$
+U=\{ (x_{1},x_{2},x_{3},x_{4})\in \mathbb{R}^{4}\, : \,x_{3}=x_{4} \}
+$$
+Then $v_{1},v_{2}\in U$ but $v_{3},v_{4} \notin U$. 
+
+However $v_{1},v_{2}$ does not span $U$, since no combination of them can yield $(0,0,1,1)$.
 
 > [!question] Problem 9
 > Suppose $v_{1},\dots,v_{m}$ is a list of vectors in $V$. For $k\in \{ 1,\dots,m \}$, let
