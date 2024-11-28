@@ -202,6 +202,40 @@ However $v_{1},v_{2}$ does not span $U$, since no combination of them can yield 
 >$$
 > Show that $v_{1},\dots,v_{m}$ is a basis of $V$ if and only if $w_{1},\dots,w_{m}$ is a basis of $V$.
 
+First, we want to show that if $v_{1},\dots,v_{m}$ is a basis of $V$, then $w_{1},\dots, w_{m}$ is a basis of $V$. 
+
+We can first show that $w_{1},\dots,w_{m}$ spans $V$ if $v_{1},\dots,v_{m}$ is a basis. This can be done by considering that any element $v_{k}$ can be written as:
+$$
+\begin{align}
+v_{k} & =w_{k}-w_{k-1} \\
+ & =(v_{1}+\dots+v_{k})-(v_{1}+\dots+v_{k-1})
+\end{align}
+$$
+if we define $v_{0}=0$. Since we can write all any element $v_{k}$ as a linear combination of $w_{k}$'s, and $v_{1},\dots,v_{m}$ is a basis, then $w_{1},\dots,w_{m}$ span $V$ as well.
+
+We can then show that $w_{1},\dots,w_{m}$ is linearly independent by considering
+$$
+\begin{align}
+a_{1}w_{1}+ a_{2}w_{2}+\dots+a_{m}v_{m} & =0 \\
+a_{1}v_{1}+ a_{2}(v_{1}+v_{2}) \dots+a_{m}(v_{1}+\dots+v_{m}) & =0 \\
+(a_{1}+\dots+a_{m})v_{1}+(a_{2}+\dots+a_{m})v_{2}+\dots+a_{m}v_{m} & =0 \\
+\end{align}
+$$
+Since $v_{1},\dots,v_{m}$ are linearly independent, the coefficients of each $v_{k}$ needs to be zero. We can start from $a_{m}=0$ and work backward to get all $a_{1}=\dots=a_{m}=0$.
+
+Then, we want to show the opposite direction; if $w_{1},\dots,w_{m}$ is a basis of $V$, then $v_{1},\dots,v_{m}$ is a basis of $V$.
+
+We can first show that $v_{1},\dots,v_{m}$ spans $V$. Since $w_{1},\dots,w_{m}$ is basis in $V$, every vector in $W$ can be written as a linear combination of $w_{1}, \dots,w_{m}$. Since each $w_{k}$ can be written in terms of $v_{1}, \dots,v_{k}$, it follows that any vector in $V$ can also be written as a linear combination of $v_{1},\dots,v_{m}$.
+
+We can then show that $v_{1},\dots,v_{m}$ are linearly independent similar to above:
+$$
+\begin{align}
+a_{1}v_{1}+a_{2}v_{2}+\dots+a_{m}v_{m} & =0 \\
+a_{1}w_{1}+a_{2}(w_{2}-w_{1})+\dots+a_{m}(w_{m}-w_{m-1}) & =0 \\
+(a_{1}-a_{2})w_{1}+(a_{2}-a_{3})w_{2}+\dots+(a_{m-1}-a_{m})w_{m-1}+a_{m}w_{m} & =0
+\end{align}
+$$
+Since $w_{1},\dots,w_{m}$ are a basis of $V$, they are linearly independent, so each of the coefficients must be zero. We can work backward from $a_{m}=0$ back to get $a_{1}=\dots=a_{m}=0$.
 
 
 > [!question] Problem 10
@@ -211,8 +245,80 @@ However $v_{1},v_{2}$ does not span $U$, since no combination of them can yield 
 >$$
 >is a basis of $V$.
 
+First, we show that $u_{1},\dots,u_{m}, w_{1}, \dots, w_{n}$ is linearly independent. If there exist $a_{1},\dots,a_{m} \in \mathbb{F}$ and $b_{1},\dots,b_{n}\in \mathbb{F}$ such that
+$$
+a_{1}u_{1}+\dots+a_{m}u_{m}+b_{1}w_{1}+\dots+b_{n}w_{n}=0
+$$
+Then
+$$
+a_{1}u_{1}+\dots a_{m}u_{m}=-(b_{1}w_{1}+\dots+b_{n}w_{n})\in U\cap W
+$$
+since $V=U\oplus W$, we have $U\cap W=\{ 0 \}$. 
+
+However, note that $u_{1},\dots,u_{m}$ is a basis of $U$ and $w_{1},\dots,w_{n}$ is a basis of $W$. It follows that $a_{1}=\dots=a_{m}=0$ and $b_{1}=\dots=b_{n}=0$. Hence, $u_{1},\dots,u_{m}, w_{1},\dots,w_{n}$ is linearly independent.
+
+Second, we need to show that $u_{1},\dots,u_m, w_{1},\dots,w_{n}$ spans $V$. For any $v\in V$, there exist $u\in U$ and $w\in W$ such that $v=u+w$ since $V=U\oplus W$. Note that $u_{1},\dots,u_{m}$ is a basis of $U$ and $w_{1},\dots,w_{n}$ is a basis of $W$. It follows that for any $u$ and $w$, there exist $a_{1},\dots,a_{m}\in \mathbb{F}$ and $b_{1},\dots,b_{n}\in \mathbb{F}$ such that
+$$
+\begin{align}
+u=a_{1}u_{1}+\dots+a_{m}u_{m} \\
+w=b_{1}w_{1}+\dots+b_{n}w_{n}
+\end{align}
+$$
+Hence,
+$$
+v=u+w=a_{1}u_{1}+\dots+a_{m}v_{m}+b_{1}w_{1}+\dots+b_{n}w_{n}
+$$
+which means that $u_{1},\dots,u_{m}, w_{1},\dots,w_{n}$ spans $V$.
+
+This shows that
+$$
+u_{1},\dots,u_{m}, w_{1}, \dots, w_{n}
+$$
+is a basis of $V$.
 
 
 > [!question] Problem 11
 > Suppose $V$ is a real vector space. Show that if $v_{1}, \dots, v_{n}$ is a basis of $V$ (as a real vector space), then $v_{1},\dots, v_{n}$ is also a basis of the complexification $V_{\mathbb{C}}$ (as a complex vector space). 
 > - See [[LADR Exercises 1B]] for the definition of complexification.
+
+Recall that the complexification $V_{\mathbb{C}}$ of $V$ is defined as:
+$$
+V_{\mathbb{C}}=V\times V
+$$
+and we write elements of $V_{\mathbb{C}}$ as $u+iv$, where $u,v\in V$. Scalar multiplication by a complex scalar $a+bi$ is defined as $(a+bi)(u+iv)=(au-bv)+i(av+bu)$.
+
+Suppose there exist complex scalars $c_{1},\dots,c_{n}\in \mathbb{C}$ such that
+$$
+c_{1}v_{1}+c_{2}v_{2}+\dots+c_{n}v_{n}=0
+$$
+We can write each $c_{j}$ as $c_{j}=a_{j}+ib_{j}$ and express the sum
+$$
+c_{1}v_{1}+c_{2}v_{2}+\dots+c_{n}v_{n}=(a_{1}v_{1}+a_{2}v_{2}+\dots+a_{n}v_{n})+i(b_{1}v_{1}+b_{2}v_{2}+\dots+b_{n}v_{n})
+$$
+For this to be zero, we need the real and imaginary parts to be equal in $V$. Thus:
+$$
+\begin{align}
+a_{1}v_{1}+a_{2}v_{2}+\dots+a_{n}v_{n}=0 \\
+b_{1}v_{1}+b_{2}v_{2}+\dots+b_{n}v_{n}=0
+\end{align}
+$$
+Since $v_{1},\dots,v_{n}$ is a basis of $V$ as a real vector space, they are linearly independent over $\mathbb{R}$. Therefore
+$$
+\begin{align}
+a_{1}=a_{2}=\dots=a_{n}=0 \\
+b_{1}=b_{2}=\dots=b_{n}=0
+\end{align}
+$$
+This shows linear independence.
+
+Next, to show that $v_{1},\dots,v_{n}$ spans $V_{\mathbb{C}}$, we can write any arbitrary element of $V_{\mathbb{C}}$ in the form $u+iv$, where $u,v\in V$. Since $v_{1},\dots v_{n}$ is a basis of $V$, we can write
+$$
+u=\sum_{j=1}^{n}a_{j}v_{j}, \quad v=\sum_{j=1}^{n}b_{j}v_{j}
+$$
+for some $a_{j}, b_{j}\in \mathbb{R}$. Substituting these into $u+iv$:
+$$
+u+iv=\sum_{j=1}^{n}a_{j}v_{j}+i\sum_{j=1}^{n}b_{j}v_{j}=\sum_{j=1}^{n}(a_{j}+ib_{j})v_{j}
+$$
+The coefficients $a_{j}+ib_{j}$ are complex scalars, so $u+iv$ is a complex linear combination of $v_{1},\dots,v_{n}$. Thus, $v_{1},\dots v_{n}$ span $V_{\mathbb{C}}$ over $\mathbb{C}$.
+
+Since $v_{1},\dots,v_{n}$ are linearly independent and span $V_{\mathbb{C}}$, they form a basis of $V_{\mathbb{C}}$ as a complex vector space.
