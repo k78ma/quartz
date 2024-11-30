@@ -71,11 +71,9 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 - [[One-sided Binary Search]]
 - [[Square Root with Binary Search]]
 - [[Fast Exponentiation Algorithm]]
-
 ### Recurrence Relations
 - [[Recurrence Relations]]
 - [[Divide and Conquer Recurrences]]
-
 ### Other Divide and Conquer
 - [[Fast Multiplication Algorithms]]
 - [[Largest Subrange and Closest Pair]]

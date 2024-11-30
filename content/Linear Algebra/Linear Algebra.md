@@ -31,6 +31,7 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Basis]]
 - [[Basis Properties and Results]]
 ### Dimension
+- [[Dimension]]
 
 ## Linear Maps
 

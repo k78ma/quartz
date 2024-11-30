@@ -49,6 +49,13 @@ aliases:
 	- [[Synchronous Speed of Induction Motor]]
 	- [[Induction Motor Torque-Speed Characteristics]]
 
+- [[Permanent Magnet Synchronous Motor]]
+- [[Brushless DC Motor]]
+
+- [[Stepper Motors]]
+- [[Hybrid Stepper Motors]]
+- [[Stepper Motor Driving]]
+
 ## Bearings
 - [[Bearing Types]]
 - [[Rolling Element Bearings]]
