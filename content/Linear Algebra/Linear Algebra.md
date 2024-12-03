@@ -6,7 +6,7 @@ tags:
 date: 2023-06-25
 aliases:
 ---
-Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
+Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 ## Vector Spaces
 ### $\mathbb{R}^{n}$ and $\mathbb{C}^{n}$
 - [[Complex Numbers]]
@@ -24,7 +24,8 @@ Notes from: [Linear Algebra Done Right](https://linear.axler.net/)
 - [[Linear Combinations]]
 - [[Span]]
 - [[Finite-Dimensional Vector Space]]
-- [[Polynomial]]
+- [[Polynomial]]!
+- [[LADR4e.pdf]]
 - [[Linear Independence]]
 - [[Linear Dependence Lemma]]
 ### Bases

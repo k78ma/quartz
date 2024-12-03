@@ -62,4 +62,7 @@ $$ If $\tilde{\mathbf{P}}^{t}_{\tilde{c}}\neq \emptyset$ and $\tilde{\mathbf{P}}
 $\tilde{\mathbf{P}}^{t}_{\tilde{c}}\neq \emptyset$ and $\tilde{\mathbf{P}}_{\tilde{c}}^{t-1}\neq \emptyset$
 
 - Need to mention that we are capable of running on a real-time system - instead of optimizing each scene at once, we can add frames incrementally
-- 
+-
+
+
+Discrete temporal occupation
