@@ -73,7 +73,7 @@ aliases:
 - [[Force Analysis for Power Screws]]
 - [[Self-Locking and Back-Driving]]
 - [[Power Screw Efficiency]]
-
+- [[Low Friction Power Screws]]
 
 ## Projects
 - [[MTE 322 Project 1]]
