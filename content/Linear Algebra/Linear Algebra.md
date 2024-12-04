@@ -24,8 +24,7 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Linear Combinations]]
 - [[Span]]
 - [[Finite-Dimensional Vector Space]]
-- [[Polynomial]]!
-- [[LADR4e.pdf]]
+- [[Polynomial]]
 - [[Linear Independence]]
 - [[Linear Dependence Lemma]]
 ### Bases

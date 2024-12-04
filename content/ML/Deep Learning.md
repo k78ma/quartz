@@ -20,6 +20,6 @@ Most of these notes are also included in [[Machine Learning]].
 ## Shallow Neural Networks
 - [[Shallow Neural Network]]
 - [[Universal Approximation Theorem]]
-- [[Multivariate Inputs and Outputs for Neural Networks]]
+- [[Multivariate Inputs and Outputs]]
 
 ## Deep Neural Networks

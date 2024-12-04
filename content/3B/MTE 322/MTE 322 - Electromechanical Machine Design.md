@@ -68,6 +68,13 @@ aliases:
 - [[Bearing Fits]]
 - [[Bearing Lubrication and Sealing]]
 
+## Power Screws and Fasteners
+- [[Power Screws and Lead Screws]]
+- [[Force Analysis for Power Screws]]
+- [[Self-Locking Power Screw]]
+- [[Back-Driving Power Screw]]
+
+
 ## Projects
 - [[MTE 322 Project 1]]
 - [[MTE 322 Project 2]]
