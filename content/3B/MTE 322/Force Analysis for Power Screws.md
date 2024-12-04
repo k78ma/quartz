@@ -76,5 +76,9 @@ $$
 
 Example 1: Power Screw Jack
 
+![[MTE 322 screws ex 1.pdf]]
 
 Example 2: Scissor Jack
+
+![[MTE 322 screws ex 4 1.pdf]]
+

@@ -71,8 +71,8 @@ aliases:
 ## Power Screws and Fasteners
 - [[Power Screws and Lead Screws]]
 - [[Force Analysis for Power Screws]]
-- [[Self-Locking Power Screw]]
-- [[Back-Driving Power Screw]]
+- [[Self-Locking and Back-Driving]]
+- [[Power Screw Efficiency]]
 
 
 ## Projects
