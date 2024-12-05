@@ -80,6 +80,7 @@ aliases:
 ### Fasteners
 - [[Fastener Standards and Parameters]]
 - [[Screw Strength Analysis]]
+- [[Pre-loading Fasteners]]
 ## Projects
 - [[MTE 322 Project 1]]
 - [[MTE 322 Project 2]]
