@@ -5,6 +5,7 @@ tags:
 date: 2024-12-05
 aliases:
   - every linearly independent list extends to a basis
+  - extend to a basis
 ---
 
 > [!theorem] Every linearly independent list extends to a basis
