@@ -15,10 +15,14 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Fields]]
 ### Definition of Vector Spaces
 - [[Vector Space]]
+- [[Vector Spaces as Sets of Functions]]
 ### Subspaces
 - [[Subspaces]]
 - [[Sums of Subspaces]]
+	- [[Sum of Subspaces is the Smallest Containing Subspace]]
 - [[Direct Sums of Subspaces]]
+	- [[Condition for Direct Sums]]
+	- [[Condition for Direct Sum of Two Subspaces]]
 ## Finite-Dimensional Vector Spaces
 ### Span and Linear Independence
 - [[Linear Combinations]]
@@ -27,12 +31,20 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Polynomial]]
 - [[Linear Independence]]
 - [[Linear Dependence Lemma]]
+	- [[Length of Linearly Independent List ≤ Length of Spanning List]]
 ### Bases
 - [[Basis]]
-- [[Basis Properties and Results]]
+	- [[Every Spanning List Contains a Basis]]
+	- [[Basis of Finite-Dimensional Vector Space]]
+	- [[Every Linearly Independent List Extends to a Basis]]
+	- [[Every Subspace of V is a part of a direct sum equal to V]]
 ### Dimension
 - [[Dimension]]
-
+- [[Dimension of a Subspace]]
+	- [[Linearly Independent List of the Right Length is a Basis]]
+	- [[Subspace of Full Dimension Equals the Whole Space]]
+	- [[Spanning List of the Right Length is a Basis]]
+- [[Dimension of a Sum]]
 ## Linear Maps
 
 
@@ -58,3 +70,4 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Subspace Basics]]
 - [[Singular Value Decomposition]]
 - [[Cholesky Decomposition]]
+

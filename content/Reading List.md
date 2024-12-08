@@ -7,7 +7,7 @@ aliases:
 draft: "true"
 ---
 Immediate:
-- [ ] Linear Algebra Done Right   <progress max=447 value=57> </progress> 
+- [ ] Linear Algebra Done Right   <progress max=447 value=61> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 - [ ] Kalman Filters From The Ground Up   <progress max=436 value=140> </progress> 
 - [ ] Understanding Deep Learning 
@@ -26,5 +26,8 @@ Next up?
 - [ ] Structure and Interpretation of Classical Mechanics
 - [ ] Lectures on Robotic Planning and Kinematics
 - [ ] Computer Systems: A Programmer's Perspective
+
+Papers:
+- [SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention](https://arxiv.org/abs/2312.07987)
 
 Done:
