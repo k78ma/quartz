@@ -35,7 +35,6 @@ $$
 	 & =\dim V_{1}+\dim  V_{2}-\dim  (V_{1}\cap V_{2})
 \end{align}
 $$
-
 The list $v_{1}, \dots, v_{m}, u_{1}, \dots, u_{j}, w_{1}, \dots, w_{k}$ is contained in $V_{1}\cup V_{2}$, and thus is contained in $V_{1}+V_{2}$. The span of this list contains $V_{1}$ and $V_{2}$ and hence is equal to $V_{1}+V_{2}$. Thus, to show that the list is a basis of $V_{1}+V_{2}$, we only need to show that it is linearly independent.
 
 To prove that the list is linearly independent, suppose:
