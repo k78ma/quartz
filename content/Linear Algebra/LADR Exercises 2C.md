@@ -27,4 +27,60 @@ A subspace of $\mathbb{R}^{3}$ can have a basis of length 0, 1, 2, 3.
 
 
 > [!question] Problem 3
-> Contents
+> - (a) Let $U=\{ p \in \mathcal{P}_{4}(\mathbb{F})\, : \,p(6)=0 \}$. Find a basis of $U$.
+> - (b) Extend the basis in (a) to a basis of $\mathcal{P}_{4}(\mathbb{F})$.
+> - (c) Find the subspace $W$ of $\mathcal{P}_{4}(\mathbb{F})$ such that $\mathcal{P}_{4}(\mathbb{F})=U\oplus W$.
+
+
+
+> [!question] Problem 4
+> - (a) Let $U=\{ p \in \mathcal{P}_{4}(\mathbb{F})\, : \,p''(6)=0 \}$. Find a basis of $U$.
+> - (b) Extend the basis in (a) to a basis of $\mathcal{P}_{4}(\mathbb{F})$.
+> - (c) Find the subspace $W$ of $\mathcal{P}_{4}(\mathbb{F})$ such that $\mathcal{P}_{4}(\mathbb{F})=U\oplus W$.
+
+
+
+
+> [!question] Problem 5
+> - (a) Let $U=\{ p \in \mathcal{P}_{4}(\mathbb{F})\, : \,p(2)=p(5) \}$. Find a basis of $U$.
+> - (b) Extend the basis in (a) to a basis of $\mathcal{P}_{4}(\mathbb{F})$.
+> - (c) Find the subspace $W$ of $\mathcal{P}_{4}(\mathbb{F})$ such that $\mathcal{P}_{4}(\mathbb{F})=U\oplus W$.
+
+
+
+
+> [!question] Problem 6
+> - (a) Let $U=\{ p \in \mathcal{P}_{4}(\mathbb{F})\, : \,p(2)=p(5)=p(6)=0 \}$. Find a basis of $U$.
+> - (b) Extend the basis in (a) to a basis of $\mathcal{P}_{4}(\mathbb{F})$.
+> - (c) Find the subspace $W$ of $\mathcal{P}_{4}(\mathbb{F})$ such that $\mathcal{P}_{4}(\mathbb{F})=U\oplus W$.
+
+
+
+
+> [!question] Problem 7
+> - (a) Let $U=\left\{  p \in \mathcal{P}_{4}(\mathbb{F})\, : \, \int_{-1}^{1} p =0  \right\}$. Find a basis of $U$.
+> - (b) Extend the basis in (a) to a basis of $\mathcal{P}_{4}(\mathbb{F})$.
+> - (c) Find the subspace $W$ of $\mathcal{P}_{4}(\mathbb{F})$ such that $\mathcal{P}_{4}(\mathbb{F})=U\oplus W$.
+
+
+
+> [!question] Problem 8
+> Suppose $v_{1}, \dots,v_{m}$ is linearly independent in $V$ and $w\in V$. Prove that
+> $$
+> \dim  \text{span}(v_{1}+w, \dots, v_{m}+w)\geq m-1
+> $$
+
+
+
+> [!question] Problem 9
+> Suppose $m$ is a positive integer and $p_{0},p_{1}, \dots,p_{m}\in \mathcal{P}(\mathbb{F})$ are such that each $p_{k}$ has degree $k$. Prove that $p_{0}, p_{1}, \dots,p_{m}$ is a basis of $\mathcal{P}_{m}(\mathbb{F})$.
+
+
+
+> [!question] Problem 10
+> Suppose $m$ is a positive integer. For $0\leq k\leq m$, let
+> $$
+> p_{k}(x)=x^{k}(1-x)^{m-k}
+> $$
+> Show that $p_{0}, \dots,p_{m}$ is a basis of $\mathcal{P}_{m}(\mathbb{F})$.
+
