@@ -7,7 +7,7 @@ aliases:
 draft: "true"
 ---
 Immediate:
-- [ ] Linear Algebra Done Right   <progress max=447 value=61> </progress> 
+- [ ] Linear Algebra Done Right   <progress max=447 value=62> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 - [ ] Kalman Filters From The Ground Up   <progress max=436 value=140> </progress> 
 - [ ] Understanding Deep Learning 

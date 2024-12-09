@@ -7,7 +7,6 @@ aliases:
   - dimension of a subspace
   - "2.37"
 ---
-
 Every subspace of a finite-dimensional vector space is finite-dimension (see [[Finite-Dimensional Vector Space|here]]) and so has a dimension. The next result gives the expected inequality about the dimension of the subspace.
 
 > [!definition] Dimension of a subspace

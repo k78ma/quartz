@@ -49,7 +49,7 @@ Parameters for strength analysis:
 $$
 A_{t}=\frac{\pi}{4}\left( \frac{d_{p}+d_{r}}{2} \right)^{2} \quad \longrightarrow \quad \sigma_{t}=\frac{F}{A_{t}}
 $$
-	- For torsional shear stress, use the minimum area (given by $d_{r}$)
+- For torsional shear stress, use the minimum area (given by $d_{r}$)
 $$
 J=\frac{\pi r ^{4}}{2}=\frac{\pi d_{r}^{4}}{32} \quad \longrightarrow \quad \tau=\frac{Tr}{J}=\frac{16T}{\pi d_{r}^{3}}
 $$

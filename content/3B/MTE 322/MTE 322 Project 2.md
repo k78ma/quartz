@@ -161,3 +161,12 @@ $$
 $$
 \phi 72.000^{+0.059}_{\,\,\,0.000}
 $$
+
+
+$$
+(\cos(1-\eta))^{2}-4\mu^{2}\eta \geq 0
+$$
+goes to
+$$
+\eta^{2}-2\left( 1+\frac{2\mu^{2}}{\cos ^{2}\alpha} \right)\eta+1\geq 0
+$$
