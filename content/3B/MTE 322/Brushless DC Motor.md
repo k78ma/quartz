@@ -5,13 +5,14 @@ tags:
 date: 2024-11-29
 aliases:
   - brushless dc motor
+  - BLDC
 ---
 ## From PMSM to Brushless DC Motors
-There are two things we can simplify from PMSM:
+There are two things we can simplify from [[Permanent Magnet Synchronous Motor|PMSM]]:
 - Coils can be made concentrated instead of distributed
 - Drive signals can be made trapezoidal instead of smooth sinusoid
 
-Operation of [[Brushless DC Motor]] can be viewed as a series of switching actions on stator coils so that coil’s polarities match those of the rotor magnets at each instant of time.
+Operation of BLDC can be viewed as a series of switching actions on stator coils so that coil’s polarities match those of the rotor magnets at each instant of time.
 
 ![[Permanent Magnet Synchronous Motor-1.png]]
 

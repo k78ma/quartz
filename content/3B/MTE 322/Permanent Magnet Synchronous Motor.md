@@ -5,6 +5,7 @@ tags:
 date: 2024-11-29
 aliases:
   - permanent magnet synchronous motor
+  - PMSM
 ---
 Permanent magnet synchronous motors are a type of AC motor
 - An overlapping coil (usually $3 \phi$) creates smooth rotating field (like an induction motor)

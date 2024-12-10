@@ -16,9 +16,9 @@ How do we select rolling element bearings? Specifically, we want to ==determine 
 
 ## Load Rating
 Each bearing comes with a basic load rating:
-- Static load rating $C_{0}$ or $C_{0r}$ (radial direction). 
-	- This is the load at which permanent static deformation will occur in the raceway and rolling element. 
-	- This gives us a static safety factor $f_{s}=\frac{C_{0}}{P_{0}}$ where $P_{0}$ is the equivalent static load ($f_{s}$ must be $\geq 1$)
+- Static load rating $C_{0}$ or $C_{0r}$ (radial direction). This is the load at which permanent static deformation will occur in the raceway and rolling element. 
+- $P_{0}$ is the equivalent static load, which is the actual applied load (or a calculated equivalent load) that the component experiences under static conditions.
+- Static safety factor is given as $f_{s}=\frac{C_{0}}{P_{0}}$
 - Dynamic load rating $C$ (or $C_{r}$ to note radial direction)
 	- The (hypothetical) load that will give a life of 1 million revolutions. It is used to compute the (surface) fatigue life.
 

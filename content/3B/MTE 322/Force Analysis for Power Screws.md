@@ -56,6 +56,8 @@ T_{\text{up}}  = T+T_{B} , \quad  T_{\text{down}} =T'+T_{B}\\[2ex]
 $$
 where $T_{B}=\mu_{B}\cdot \frac{Pd_{c}}{2}$. Here, $\mu_{B}$ is the coefficient of friction in the bearings, and $d_{c}$ is the diameter of the shaft.
 
+If $T_{\text{down}}<0$, the load is large enough to make the screw spin with no external torque. If $T_{\text{down}}>0$, the screw is [[Self-Locking and Back-Driving|self-locking]].
+
 ## ACME Thread
 
 ![[Force Analysis for Power Screws-3.png|592]]\
