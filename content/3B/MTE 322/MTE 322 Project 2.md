@@ -164,7 +164,7 @@ $$
 
 
 $$
-(\cos(1-\eta))^{2}-4\mu^{2}\eta \geq 0
+( (1-\eta)\cos \alpha)^{2}-4\mu^{2}\eta \geq 0
 $$
 goes to
 $$
