@@ -189,11 +189,35 @@ $$
 > \dim  \text{span}(v_{1}+w, \dots, v_{m}+w)\geq m-1
 > $$
 
+The span is
+$$
+\text{span}(v_{1}+w,v_{2}+w, \dots, v_{m}+w)=\text{span}(w,v_{1},v_{2}, \dots, v_{m})
+$$
+Since $v_{1}, \dots,v_{m}$ are linearly independent, their span has dimension $m$. Adding $w$ changes the span, depending on whether $w$ is in the span of $v_{1}, \dots,v_{m}$.
+
+If $w\in \text{span}(v_{1}, \dots,v_{m})$, then $\text{span}(v_{1}, \dots,v_{m})=\text{span}(w,v_{1}, \dots,v_{m})$. In this case, $\dim \text{span}(w,v_{1}, \dots,v_{m})=m$.
+
+If $w\notin \text{span}(v_{1}, \dots,v_{m})$, then $w$ adds an additional dimension, and the dimension becomes $m+1$.
+
+Thus, in both cases, the minimum dimension is $m-1$.
+
+Alternatively, we can note that
+$$
+v_{2}-v_{1}=(v_{2}+w)-(v_{1}+w)
+$$
+it follows that $v_{2}-v_{1}\in \text{span}(v_{1}+w, \dots,v_{m}+w)$. Similarly, $v_{i}-v_{1}\in \text{span}(v_{1}+w, \dots,v_{m}+w)$ for all $2\leq i\leq m$.
+
+The list $v_{2}-v_{1}, \dots,v_{m}-v_{1}$ is linearly independent since $v_{1}, \dots,v_{m}$ is linearly independent in $V$. Thus, we have $\dim \text{span}(v_{1}+w, \dots,v_{m}+w)\geq m-1$.
 
 
 > [!question] Problem 9
 > Suppose $m$ is a positive integer and $p_{0},p_{1}, \dots,p_{m}\in \mathcal{P}(\mathbb{F})$ are such that each $p_{k}$ has degree $k$. Prove that $p_{0}, p_{1}, \dots,p_{m}$ is a basis of $\mathcal{P}_{m}(\mathbb{F})$.
 
+To prove that $p_{0},p_{1}, \dots,p_{m}$ is a basis, they must span $P_{m}(\mathbb{F})$ and they must be linearly independent.
+
+Any polynomial $q(x)\in P_{m}(\mathbb{F})$ can be written as a linear combination of polynomials of degree $0,1, \dots,m$. Since the list $p_{0}, p_{1}, \dots,p_{m}$ contains a polynomial from each of these degrees, their span must cover $P_{m}(\mathbb{F})$.
+
+By constructions, the list is linearly independent since each of them is a polynomial with a different degree. We can also think of this recursively (the highest degree polynomial $p_{m}$ has a term $x^{m}$ that doesn't exist in any other $p$'s), so for $c_{0}p_{0}+\dots+c_{m}p_{m}=0$, $c_{m}$ must be zero, and then we can work backward to see that all coefficients must be zero.
 
 
 > [!question] Problem 10
