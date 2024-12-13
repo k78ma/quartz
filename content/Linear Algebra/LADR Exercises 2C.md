@@ -127,14 +127,60 @@ $$
 > - (b) Extend the basis in (a) to a basis of $\mathcal{P}_{4}(\mathbb{F})$.
 > - (c) Find the subspace $W$ of $\mathcal{P}_{4}(\mathbb{F})$ such that $\mathcal{P}_{4}(\mathbb{F})=U\oplus W$.
 
-
-
+(a) The condition $U=\{ p \in P_{4}(\mathbb{F})\, : \,p(2)=p(5)=p(6)=0 \}$ means that any polynomial $p(x)\in U$ must have the form
+$$
+p(x)=(x-2)(x-5)(x-6)q(x)
+$$
+where $q(x)$ is some polynomial of at most degree 1, since $p(x)\in P_{4}(\mathbb{F})$ and the degree of $(x-2)(x-5)(x-6)$ is already 3. This means that:
+$$
+p(x)=a_{3}(x-2)(x-5)(x-6)+a_{4}x(x-2)(x-5)(x-6)
+$$
+where $a_{3},a_{4}\in \mathbb{F}$. The basis is thus
+$$
+\{ (x-2)(x-5)(x-6),x(x-2)(x-5)(x-6) \}
+$$
+(b) The dimension of $P_{4}(\mathbb{F})$ is 5, and the basis of $U$ in part (a) only had 2 elements. Thus, we need three additional linearly independent polynomials. A simple choice is
+$$
+\{ 1,x,x^{2} \}
+$$
+Thus, the extended basis is
+$$
+\{ (x-2)(x-5)(x-6),x (x-2)(x-5)(x-6),1,x,x^{2} \}
+$$
+(c) $W=\text{span}(1,x,x^{2})$. 
 
 > [!question] Problem 7
 > - (a) Let $U=\left\{  p \in \mathcal{P}_{4}(\mathbb{F})\, : \, \int_{-1}^{1} p =0  \right\}$. Find a basis of $U$.
 > - (b) Extend the basis in (a) to a basis of $\mathcal{P}_{4}(\mathbb{F})$.
 > - (c) Find the subspace $W$ of $\mathcal{P}_{4}(\mathbb{F})$ such that $\mathcal{P}_{4}(\mathbb{F})=U\oplus W$.
 
+(a) We can write $p(x)=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+a_{4}x^{4}$. The integral is then
+$$
+\begin{align}
+\int_{-1}^{1} p(x) \, dx &  =\int_{-1}^{1} a_{0} \, dx +\int_{-1}^{1} a_{1}x \, dx +\int_{-1}^{1} a_{2}x^{2} \, dx +\int_{-1}^{1} a_{3}x^{3} \, dx +\int_{-1}^{1} a_{4}x^{4} \, dx \\[2ex] 
+	 & = 2a_{0} +\frac{2}{3}a_{2}+\frac{2}{5}a_{4}
+\end{align}
+$$
+so for $p(x)=0$, we have
+$$
+\begin{align}
+2a_{0}+\frac{2}{3}a_{2}+\frac{2}{5}a_{4}=0\\[2ex] 
+a_{0}+\frac{1}{3}a_{2}+\frac{1}{5}a_{4}=0
+\end{align}
+$$
+which gives
+$$
+p(x)=\left( -\frac{1}{3}a_{2}-\frac{1}{5}a_{4} \right)+a_{1}x+a_{2}x^{2}+a_{3}x^{3}+a_{4}x^{4}
+$$
+Thus, the basis for $U$ is
+$$
+\left\{  x,x^{2}-\frac{1}{3},x^{3},x^{4}-\frac{1}{5}  \right\}
+$$
+(b) We have $\dim U=4$ and $\dim P_{4}=5$, so we need to find one more linearly independent vector.
+$$
+\left\{  1,x,x^{2}-\frac{1}{3},x^{3},x^{4}-\frac{1}{5}  \right\}
+$$
+(c) We have $W=\text{span}(1)$.
 
 
 > [!question] Problem 8
