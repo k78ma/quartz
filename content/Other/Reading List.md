@@ -12,17 +12,15 @@ progress_2_title: The Algorithm Design Manual
 progress_2_value: 186
 progress_2_max: 447
 progress_3_title: Kalman Filters From The Ground Up
-progress_3_value: 140
+progress_3_value: 143
 progress_3_max: 436
 ---
-
 ```dataview
 table without id
-  progress_1_title + " (" + round(progress_1_value / progress_1_max * 100, 0) + "%)" as "Progress 1",
-  progress_2_title + " (" + round(progress_2_value / progress_2_max * 100, 0) + "%)" as "Progress 2",
-  progress_3_title + " (" + round(progress_3_value / progress_3_max * 100, 0) + "%)" as "Progress 3"
+  round(progress_1_value / progress_1_max * 100, 2) + "%" as "Linear Algebra Done Right",
+  round(progress_2_value / progress_2_max * 100, 2) + "%" as "Algorithm Design Manual",
+  round(progress_3_value / progress_3_max * 100, 2) + "%" as "Kalman Filters From The Ground Up"
 from ""
-
 ```
 
 Immediate:

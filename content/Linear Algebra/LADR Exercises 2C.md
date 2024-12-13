@@ -157,3 +157,78 @@ $$
 > $$
 > Show that $p_{0}, \dots,p_{m}$ is a basis of $\mathcal{P}_{m}(\mathbb{F})$.
 
+
+
+
+> [!question] Problem 11
+> Suppose $U$ and $W$ are both four-dimensional subspaces of $\mathbb{C}^{6}$. Prove that there exist two vectors in $U\cap W$ such that neither of these vectors is a scalar multiple of the other.
+
+
+
+> [!question] Problem 12
+> Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^{9}$, such that $\dim U=3$, $\dim W=5$, and $U+W=\mathbb{R}^{8}$. Prove that $\mathbb{R}^{8}=U\oplus W$.
+
+
+
+> [!question] Problem 13
+> Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^{9}$. Prove that $U\cap W\neq \{ 0 \}$.
+
+
+
+> [!question] Problem 14
+> Suppose $V$ is a ten-dimensional vector space and $V_{1},V_{2},V_{3}$ are subspaces of $V$ with $\dim V_{1}=\dim V_{2}=\dim V_{3}=7$. Prove that $V_{1}\cap V_{2}\cap V_{3}\neq \{ 0 \}$.
+
+
+
+> [!question] Problem 15
+> Suppose $V$ is finite-dimensional and $V_{1},V_{2},V_{3}$ are subspaces of $V$ with $\dim V_{1}+\dim V_{2}+\dim V_{3}>2\dim V$. Prove that $V_{1}\cap V_{2}\cap V_{3}\neq \{ 0 \}$.
+
+
+
+> [!question] Problem 16
+> Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$ with $U\neq V$. Let $n=\dim V$ and $m=\dim U$. Prove that there exist $n-m$ subspaces of $V$, each of dimension $n-1$, whose intersection equals $U$.
+
+
+
+> [!question] Problem 17
+> Suppose $V_{1}, \dots,V_{m}$ are finite-dimensional subspaces of $V$. Prove that $V_{1}+\dots+V_{m}$ is finite-dimensional and
+> $$
+> \dim (V_{1}+\dots+V_{m})\leq \dim  V_{1}+\dots+\dim  V_{m}
+> $$
+
+
+
+> [!question] Problem 18
+> Suppose $V$ is finite-dimensional with $\dim V=n\geq 1$. Prove that there exist one-dimensional subspaces $V_{1}, \dots,V_{n}$ of $V$ such that
+> $$
+> V=V_{1}\oplus\dots \oplus V_{n}
+> $$
+
+
+
+> [!question] Problem 19
+> Explain why you might guess, motivated by some analogy with the formula for the number of elements in the union of three finite sets, that if $V_{1},V_{2},V_{3}$ are subspaces of finite-dimensional vector space, then
+> $$
+> \begin{align}
+> \dim  (V_{1}+ & V_{2}+V_{3}) \\ 
+> & = \dim  V_{1}+\dim  V_{2}+\dim  V_{3}\\
+>  & \quad - \dim  (V_{1}\cap V_{2})-\dim  (V_{1}\cap V_{3})-\dim  (V_{2}\cap V_{3}) \\
+>  & \quad +\dim  (V_{1}\cap V_{2}\cap V_{3})
+\end{align}
+> $$
+
+
+
+
+
+> [!question] Problem 20
+> Prove that if $V_{1}$, $V_{2}$ and $V_{3}$ are subspaces of finite-dimensional vector space, then
+> $$
+>\begin{align}
+> \dim  (&V_{1}+V_{2}+V_{3}) \\
+> &= \dim  V_{1}+\dim  V_{2}+\dim  V_{3} \\
+> & \quad - \frac{\dim  (V_{1}\cap V_{2})+\dim  (V_{1}\cap V_{3})+\dim  (V_{2}\cap V_{3})}{3}\\
+> & \quad - \frac{\dim  ((V_{1}+V_{2})\cap V_{3})+\dim  ((V_{1}+V_{3})\cap V_{2})+\dim  ((V_{2}+V_{3})\cap V_{1})}{3}
+>\end{align}
+> $$
+

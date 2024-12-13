@@ -20,9 +20,6 @@ graph TD
 	objectPersistenceProbability --> EBM
 	objectExistenceProbability --> EBM
 	EBM --> PoE
-	
-    classDef component fill:#346beb,stroke:#333,stroke-width:2px;
-    class USB-C,UPS,R,E,C,ES,L,PB,EB component;
 ```
 
 Detection probability: Probability of detecting the object with the sensor (camera/radar) in a single cycle, based on the object's predicted state and sensor parameters.
