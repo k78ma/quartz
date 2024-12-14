@@ -227,22 +227,78 @@ By constructions, the list is linearly independent since each of them is a polyn
 > $$
 > Show that $p_{0}, \dots,p_{m}$ is a basis of $\mathcal{P}_{m}(\mathbb{F})$.
 
+We need to show that they span $P_{m}(\mathbb{F})$ and they are linearly independent.
 
+For linear independence, we need
+$$
+\sum_{k=0}^{m}c_{k}p_{k}(x)=0 \quad \text{for all } x \in \mathbb{F} 
+$$
+where $c_{k}\in \mathbb{F}$ are constants. Substituting $p_{k}(x)=x^{k}(1-x)^{m-k}$, this becomes
+$$
+\sum_{k=0}^{m}c_{k}x^{k}(1-x)^{m-k}=0
+$$
+Each term $x^{k}(1-x)^{m-k}$ is a polynomial of degree $m$. These polynomials are linearly independent because they involve distinct contributions of powers of $x$ and $(1-x)$, which cannot cancel each other out unless all coefficients $c_{k}=0$. 
+
+Since the list contains $m+1$ linearly independent polynomials and $\dim (P_{m}(\mathbb{F}))=m+1$, it suffices to show linear independence. Thus, the list is a basis because [[Linearly Independent List of the Right Length is a Basis|linearly independent list of the right length is a basis]].
 
 
 > [!question] Problem 11
 > Suppose $U$ and $W$ are both four-dimensional subspaces of $\mathbb{C}^{6}$. Prove that there exist two vectors in $U\cap W$ such that neither of these vectors is a scalar multiple of the other.
 
-
+We treat $\mathbb{C}^{6}$ as a vector space over $\mathbb{C}$. We have
+$$
+\dim  (U+W)=\dim  U+\dim  W-\dim  (U\cap W)
+$$
+and thus $\dim U=\dim W=4$. Then we have
+$$
+\dim  (U+W)=8-\dim  (U \cap W)
+$$
+Since $U+W$ is a subspace of $\mathbb{C}^{6}$ and $\dim \mathbb{C}^{6}=6$, we must have $\dim (U+W) \leq 6$. Since $\dim (U+W)\geq \max(\dim U,\dim W)=4$, we have
+$$
+4 \leq \dim  (U+W)\leq 6
+$$
+and hence
+$$
+2\leq \dim  (U\cap W)\leq 4
+$$
+Thus, $U\cap W$ has a basis of length at least two. Since vectors in a basis are linearly independent from each other, there exist two vectors in $U\cap W$ such that neither is a scalar multiple of the other.
 
 > [!question] Problem 12
 > Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^{9}$, such that $\dim U=3$, $\dim W=5$, and $U+W=\mathbb{R}^{8}$. Prove that $\mathbb{R}^{8}=U\oplus W$.
 
+We have
+$$
+\dim  (U+W)=\dim  U+\dim  W-\dim  (U\cap W)
+$$
+and since $U+W=\mathbb{R}^{8}$ with $\dim U=5$ and $\dim W=3$, we have
+$$
+8=3+5-\dim  (U\cap W)
+$$
+and hence we must have $\dim (U\cap W)=0$. Therefore, we must have $U\cap W=\{ 0 \}$. By the [[Condition for Direct Sum of Two Subspaces|condition for direct sum of two subspaces]], we have $\mathbb{R}^{8}=U\oplus W$.
 
 
 > [!question] Problem 13
 > Suppose $U$ and $W$ are both five-dimensional subspaces of $\mathbb{R}^{9}$. Prove that $U\cap W\neq \{ 0 \}$.
 
+Since $U$ and $W$ are subspaces of $\mathbb{R}^{9}$, their sum is also a subspace (sums and scalar multiples of elements from $U+W$ remain in $U+W$). Thus, we must have:
+$$
+\begin{align}
+\dim  (U+W) & \leq \dim  (\mathbb{R}^{9}) \\
+\dim  (U+W) & \leq 9
+\end{align}
+$$
+We can write $\dim (U+W)$ as
+$$
+\dim  (U+W)=\dim  U+\dim  W-\dim  (U\cap W)
+$$
+which gives us
+$$
+\begin{align}
+\dim  U+\dim  W-\dim  (U\cap W) & \leq 9 \\
+5+5-\dim  (U\cap W) & \leq 9
+\end{align}
+$$
+which means $\dim (U\cap W)\geq 1$. This means that $U\cap W\neq 0$, as this would give $\dim (U\cap W)=0$.
 
 
 > [!question] Problem 14
@@ -301,4 +357,5 @@ By constructions, the list is linearly independent since each of them is a polyn
 > & \quad - \frac{\dim  ((V_{1}+V_{2})\cap V_{3})+\dim  ((V_{1}+V_{3})\cap V_{2})+\dim  ((V_{2}+V_{3})\cap V_{1})}{3}
 >\end{align}
 > $$
+
 
