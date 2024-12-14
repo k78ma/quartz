@@ -304,12 +304,65 @@ which means $\dim (U\cap W)\geq 1$. This means that $U\cap W\neq 0$, as this wou
 > [!question] Problem 14
 > Suppose $V$ is a ten-dimensional vector space and $V_{1},V_{2},V_{3}$ are subspaces of $V$ with $\dim V_{1}=\dim V_{2}=\dim V_{3}=7$. Prove that $V_{1}\cap V_{2}\cap V_{3}\neq \{ 0 \}$.
 
+We must have
+$$
+\dim  (V_{1}\cap V_{2})=\dim  V_{1}+\dim  V_{2}-\dim  (V_{1}+ V_{2})
+$$
+Since $V_{1}, V_{2}\subseteq V$, we must have $\dim (V_{1}+V_{2})\leq \dim V=10$. This implies that
+$$
+\dim  (V_{1}\cap V_{2}) \geq 7+7-10=4
+$$
+Now we can consider the intersection $V_{1}\cap V_{2}\cap V_{3}$. Let $W=V_{1}\cap V_{2}$, and observe that
+$$
+V_{1}\cap V_{2}\cap V_{3}=W\cap V_{3}
+$$
+Since $\dim W\geq 4$ and $\dim (W+V_{3})\leq \dim V=10$ we now have
+$$
+\begin{align}
+\dim  (W\cap V_{3}) & =\dim  W+\dim  V_{3}-\dim  (W+V_{3}) \\
+	 & \geq 4+7-10 \\
+	 & \geq 1
+\end{align}
+$$
+Because $\dim (V_{1}\cap V_{2}\cap V_{3})\geq 1$, the intersection is non-trivial, so $V_{1}\cap V_{2}\cap V_{3}\neq \{ 0 \}$.
 
 
 > [!question] Problem 15
 > Suppose $V$ is finite-dimensional and $V_{1},V_{2},V_{3}$ are subspaces of $V$ with $\dim V_{1}+\dim V_{2}+\dim V_{3}>2\dim V$. Prove that $V_{1}\cap V_{2}\cap V_{3}\neq \{ 0 \}$.
 
+Let $\dim V=n, \dim V_{1}=a, \dim V_{2}=b, \dim V_{3}=c$. We have $a+b+c>2n$.
 
+We have 
+$$
+\dim  (V_{1}+V_{2})=a+b-\dim  (V_{1}\cap V_{2})
+$$
+Then, we have
+$$
+\begin{align}
+\dim  (V_{1}+V_{2}+V_{3}) & =\dim  (V_{1}+V_{2})+c-\dim  ((V_{1}+V_{2})\cap V_{3}) \\
+	  & \leq a+b-\dim  (V_{1}\cap V_{2})-  \dim  ((V_{1}+V_{2})\cap V_{3}) \\
+\end{align}
+$$
+Since $V_{1}+V_{2}+V_{3}\subseteq V$, we have $\dim (V_{1}+V_{2}+V_{3})\leq n$. Thus:
+$$
+n\geq a+b+c-\dim  ((V_{1}+V_{2})\cap V_{3})
+$$
+Re-arranging:
+$$
+\dim  ((V_{1}+V_{2})\cap V_{3})\geq a+b+c-n
+$$
+but
+$$
+\dim  ((V_{1}+V_{2})\cap V_{3})=\dim  V_{3}+\dim  (V_{1}+V_{2})-\dim  (V_{1}+V_{2}+V_{3})
+$$
+and $\dim (V_{1}\cap V_{2}\cap V_{3})$ is a subspace of $(V_{1}+V_{2})\cap V_{3}$. Thus:
+$$
+\dim  (V_{1}\cap V_{2}\cap V_{3})\geq a+b+c-2n
+$$
+From the assumption that $a+b+c> 2n$, this implies
+$$
+\dim  (V_{1}\cap V_{2}\cap V_{3})
+$$
 
 > [!question] Problem 16
 > Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$ with $U\neq V$. Let $n=\dim V$ and $m=\dim U$. Prove that there exist $n-m$ subspaces of $V$, each of dimension $n-1$, whose intersection equals $U$.

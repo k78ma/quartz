@@ -45,7 +45,7 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 	- [[Subspace of Full Dimension Equals the Whole Space]]
 	- [[Spanning List of the Right Length is a Basis]]
 - [[Dimension of a Sum]]
-- [[Sets vs Vector Spaces]]
+- [[Number of Elements in Sets vs Vector Spaces]]
 ## Linear Maps
 
 

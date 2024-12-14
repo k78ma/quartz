@@ -16,7 +16,7 @@ $$
 > [!theorem] Dimension of a sum
 > If $V_{1}$ and $V_{2}$ are subspaces of a finite-dimensional vector space, then
 > $$
-> \dim  (V_{1}+V_{2})=\dim  V_{1}+\dim  V_{2}-\dim  (V_{1}\cup V_{2})
+> \dim  (V_{1}+V_{2})=\dim  V_{1}+\dim  V_{2}-\dim  (V_{1}\cap V_{2})
 > $$
 
 *Proof.*
