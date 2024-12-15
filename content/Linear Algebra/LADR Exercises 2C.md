@@ -483,6 +483,35 @@ $$
 >\end{align}
 > $$
 
+This can be shown by successively applying the dimension formula for sums of subspaces, $\dim (A+B)=\dim A+\dim B-\dim (A\cap B)$.
 
-
+We can treat $V_{1}+V_{2}$ as a single subspace, and add $V_{3}$. We have
+$$
+\begin{align}
+\dim  ((V_{1}+V_{2})+V_{3}) & =\dim  (V_{1}+V_{2})+\dim  V_{3}-\dim  ((V_{1}+V_{2})\cap V_{3}) \\
+ & =(\dim  V_{1}+V_{2}-\dim  (V_{1}\cap V_{2}))+\dim  V_{3}-\dim  ((V_{1}+V_{2})\cap V_{3}) \\
+	 & =\dim  V_{1}+\dim  V_{2}+\dim  V_{3}-\dim  (V_{1}\cap V_{2})-\dim  ((V_{1}+V_{2})\cap V_{3})
+\end{align}
+$$
+We can apply this symmetrically for the other two ways to group and sum the subspaces
+$$
+\dim  ((V_{1}+V_{3})+V_{2})=\dim  V_{1}+\dim  V_{3}+\dim  V_{2}-\dim  (V_{1}\cap V_{3})-\dim  ((V_{1}+V_{3})\cap V_{2})
+$$
+and
+$$
+\dim  ((V_{2}+V_{3})+V_{1})=\dim  V_{2}+\dim  V_{3}+\dim  V_{1}-\dim  (V_{2}\cap V_{3})-\dim  ((V_{2}+V_{3})\cap V_{1})
+$$
+All three expressions are valid and symmetric. We take the average of these three expressions:
+$$
+\dim  (V_{1}+V_{2}+V_{3})=\frac{1}{3}[ (\text{Expression 1})+(\text{Expression 2})+ (\text{Expression 3}) ]
+$$
+Substituting gives us:
+$$
+\begin{align}
+ \dim  (&V_{1}+V_{2}+V_{3}) \\
+ &= \dim  V_{1}+\dim  V_{2}+\dim  V_{3} \\
+ & \quad - \frac{\dim  (V_{1}\cap V_{2})+\dim  (V_{1}\cap V_{3})+\dim  (V_{2}\cap V_{3})}{3}\\
+ & \quad - \frac{\dim  ((V_{1}+V_{2})\cap V_{3})+\dim  ((V_{1}+V_{3})\cap V_{2})+\dim  ((V_{2}+V_{3})\cap V_{1})}{3}
+\end{align}
+$$
 
