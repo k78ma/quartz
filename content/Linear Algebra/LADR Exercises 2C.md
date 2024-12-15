@@ -355,7 +355,8 @@ but
 $$
 \dim  ((V_{1}+V_{2})\cap V_{3})=\dim  V_{3}+\dim  (V_{1}+V_{2})-\dim  (V_{1}+V_{2}+V_{3})
 $$
-and $\dim (V_{1}\cap V_{2}\cap V_{3})$ is a subspace of $(V_{1}+V_{2})\cap V_{3}$. Thus:
+because $\dim (A\cap B)=\dim A+\dim B-\dim (A+ B)$).
+
 $$
 \dim  (V_{1}\cap V_{2}\cap V_{3})\geq a+b+c-2n
 $$
@@ -367,6 +368,35 @@ $$
 > [!question] Problem 16
 > Suppose $V$ is finite-dimensional and $U$ is a subspace of $V$ with $U\neq V$. Let $n=\dim V$ and $m=\dim U$. Prove that there exist $n-m$ subspaces of $V$, each of dimension $n-1$, whose intersection equals $U$.
 
+We aim to construct $n-m$ subspaces $W_{1},W_{2}, \dots,W_{n-m}$, each of dimension $n-1$, such that
+$$
+W_{1}\cap W_{2}\cap \dots \cap W_{n-m}=U
+$$
+Since $U$ is a subspace of $V$, we can extend a basis of $U$ to a basis of $V$. That is, the basis
+$$
+\{ u_{1},u_{2}, \dots, u_{m} \}
+$$
+can be extended to a basis of $V$ by adding $n-m$ additional vectors:
+$$
+\{ u_{1},u_{2}, \dots, u_{m}, v_{1},v_{2} \dots,v_{m}  \}
+$$
+The additional $v_{1},v_{2}, \dots,v_{n-m}$ generate the complement of $U$ in $V$.
+
+For each $v_{i}$ in $i=1,2, \dots,n-m$, we can define a subspace $W_{i}$ of $V$ as follows:
+$$
+W_{i}=\{ x \in V\, : \,x\cdot v_{i}=0 \}
+$$
+Intuitively, $W_{i}$ is the hyperplane of $V$ orthogonal to $v_{i}$.
+
+Each $W_{i}$ has dimension $n-1$, since imposing a single linear constraint reduced the dimension of $V$. We also have $U\subseteq W_{i}$, because elements of $U$ are linear combinations of $u_{1}, \dots,u_{m}$, which are independent of $v_{i}$, so $U\subseteq W_{i}$. Thus, $x \in U \implies x\cdot v_{i}=0$.
+
+Now, consider the intersection $W_{1}\cap W_{2}\cap\dots \cap W_{n-m}$. Each $W_{i}$ imposes a constraint orthogonal to one of the $v_{i}$, ensuring that any $x \in W_{1}\cap W_{2}\cap\dots \cap W_{n-m}$ satisfies $x\cdot v_{i}=0$ for all $i$.
+
+The subspace of vectors orthogonal to all $v_{1}, \dots,v_{n-m}$ is precisely $U$, because $\{ v_{1}, \dots,v_{n-m} \}$ spans the complement of $U$. Enforcing orthogonality to the complement leaves us with exactly $U$. Thus:
+$$
+W_{1}\cap W_{2}\cap\dots \cap W_{n-m}=U
+$$
+With this, we have constructed $n-m$ subspaces $W_{1}, \dots,W_{n-m}$, each of dimension $n-1$, such that their intersection is $U$.
 
 
 > [!question] Problem 17
@@ -375,6 +405,13 @@ $$
 > \dim (V_{1}+\dots+V_{m})\leq \dim  V_{1}+\dots+\dim  V_{m}
 > $$
 
+For each $i=1, \dots,m$, choose a basis for $V_{i}$. Combine these bases to form a single list of vectors in $V$. This list clearly spans $V_{1}+\dots +V_{m}$ by construction. 
+
+Hence, $V_{1}+\dots+V_{m}$ is finite-dimensional, and has a dimension less than or equal to the number of vectors in the list we constructed. Notice that the number of vectors in the list is equal to $\dim V_{1}+\dots+\dim V_{m}$, since the list is just combined bases for each $V_{i}$. That is,
+$$
+\dim  (V_{1}+\dots+V_{m})\leq \dim  V_{1}+\dots+\dim  V_{m}
+$$
+as desired.
 
 
 > [!question] Problem 18
@@ -383,6 +420,17 @@ $$
 > V=V_{1}\oplus\dots \oplus V_{n}
 > $$
 
+Since $\dim V=n$, there exists a basis $v_{1}, \dots,v_{n}$ of $V$. Let $U_{i}=\text{span}(v_{i})$ for $i=1, \dots,n$, so that each $U_{k}$ has dimension $1$. Clearly,
+$$
+V=U_{1}+\dots+U_{n}
+$$
+so we need to show that this sum is direct. 
+
+For some $u\in U_{1}+\dots+U_{n}$, there exist $a_{1}, \dots,a_{n}\in \mathbb{F}$, such that
+$$
+u=a_{1}v_{1}+\dots+a_{n}v_{n}
+$$
+But since $v_{1}, \dots,v_{n}$ is a basis, this representation of $u$ as a linear combination of $v_{1}, \dots,v_{n}$ is unique, and thus the sum is direct.
 
 
 > [!question] Problem 19
@@ -396,8 +444,32 @@ $$
 \end{align}
 > $$
 
-
-
+The statement is false. Consider
+$$
+\begin{align}
+V_{1} & =\{ (x,0) \,\,|\,\,x \in \mathbb{R} \} \\
+V_{2} & =\{ (x,x)\in  \mathbb{R}^{2} \,\,|\,\, x \in \mathbb{R}  \} \\
+V_{3} & = \{ (0,y) \,\,|\,\, y \in  \mathbb{R}\} \\
+\end{align}
+$$
+We have
+$$
+\begin{align}
+ & \dim  (V_{1}+V_{2}+V_{3})=\dim  \mathbb{R}^{2}=2 \\
+ & \dim  V_{1}=\dim  V_{2}=\dim  V_{3} =1 \\
+	 & \dim  (V_{1}\cap V_{2})=\dim  (V_{2}\cap V_{3})=1 \\
+	 & \dim  (V_{1}\cap V_{3})=\dim  (V_{1}\cap V_{2}\cap V_{3})=0
+\end{align}
+$$
+and therefore
+$$
+\begin{align}
+\dim  (V_{1}+V_{2}+V_{3}) & \neq  \dim  V_{1}+\dim  V_{2}+\dim  V_{3} \\
+	 & -\dim  (V_{1}\cap V_{2})-\dim  (V_{1}\cap V_{3})-\dim    (V_{2}\cap V_{3}) \\
+ &  +\dim  (V_{1}\cap V_{2}\cap V_{3})	 \\
+2 & \neq 1
+\end{align}
+$$
 
 
 > [!question] Problem 20
@@ -410,5 +482,7 @@ $$
 > & \quad - \frac{\dim  ((V_{1}+V_{2})\cap V_{3})+\dim  ((V_{1}+V_{3})\cap V_{2})+\dim  ((V_{2}+V_{3})\cap V_{1})}{3}
 >\end{align}
 > $$
+
+
 
 
