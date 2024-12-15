@@ -7,6 +7,7 @@ date: 2023-06-25
 aliases:
 ---
 Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
+
 ## Vector Spaces
 ### $\mathbb{R}^{n}$ and $\mathbb{C}^{n}$
 - [[Complex Numbers]]
@@ -23,6 +24,7 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Direct Sums of Subspaces]]
 	- [[Condition for Direct Sums]]
 	- [[Condition for Direct Sum of Two Subspaces]]
+
 ## Finite-Dimensional Vector Spaces
 ### Span and Linear Independence
 - [[Linear Combinations]]
@@ -46,7 +48,11 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 	- [[Spanning List of the Right Length is a Basis]]
 - [[Dimension of a Sum]]
 - [[Number of Elements in Sets vs Vector Spaces]]
+
 ## Linear Maps
+
+### Vector Space of Linear Maps
+- [[Linear Map]]
 
 
 ## Exercises
