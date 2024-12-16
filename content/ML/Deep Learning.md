@@ -8,18 +8,22 @@ aliases:
   - deep learning
 ---
 Notes from:
-- [Understanding Deep Learning](https://udlbook.github.io/udlbook/). 
-- [Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land](https://www.sscardapane.it/alice-book/)
+- [[Understanding Deep Learning.pdf|Understanding Deep Learning]]
+- [[Alice’s Adventures in a Differentiable Wonderland.pdf|Alice's Adventures in a Differentiable Wonderland]]
 
-Most of these notes are also included in [[Machine Learning]].
-
+Some of these notes are also included in [[Machine Learning]].
 ## Foundations
 - [[Tensor]]
 - [[Einstein Notation]]
-
 ## Shallow Neural Networks
+- [[Supervised Learning]]
 - [[Shallow Neural Network]]
 - [[Universal Approximation Theorem]]
 - [[Multivariate Inputs and Outputs]]
 
 ## Deep Neural Networks
+
+
+## Exercises
+- [[UDL Chapter 2 Problems]]
+- [[UDL Chapter 3 Problems]]

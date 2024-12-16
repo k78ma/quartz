@@ -14,12 +14,16 @@ progress_2_max: 447
 progress_3_title: Kalman Filters From The Ground Up
 progress_3_value: 143
 progress_3_max: 436
+progress_4_title: Understanding Deep Learning
+progress_4_value: 31
+progress_4_max: 451
 ---
 ```dataview
 table without id
   round(progress_1_value / progress_1_max * 100, 2) + "%" as "Linear Algebra Done Right",
   round(progress_2_value / progress_2_max * 100, 2) + "%" as "Algorithm Design Manual",
-  round(progress_3_value / progress_3_max * 100, 2) + "%" as "Kalman Filters From The Ground Up"
+  round(progress_3_value / progress_3_max * 100, 2) + "%" as "Kalman Filters From The Ground Up",
+  round(progress_4_value / progress_4_max * 100, 2) + "%" as "Understanding Deep Learning"
 from ""
 ```
 
@@ -43,7 +47,7 @@ Next up?
 - [ ] Deep Learning: Foundations and Concepts
 - [ ] The Principles of Deep Learning Theory
 - [ ] Structure and Interpretation of Classical Mechanics
-- [ ] Lectures on Robotic Planning and Kinematics
+- [ ] Lectures on Robotic Planning and Kinematicsw
 - [ ] Computer Systems: A Programmer's Perspective
 
 Papers:

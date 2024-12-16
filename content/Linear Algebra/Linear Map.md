@@ -19,6 +19,8 @@ We use the notation $Tv$ as well as the function notation $T(v)$. Some use the t
 > - The set of linear maps from $V$ to $W$ is denoted by $\mathcal{L}(V,W)$
 > - The set of linear maps from $V$ to $V$ is denoted by $\mathcal{L}(V)$. In other words, $\mathcal{L}(V)=\mathcal{L}(V,V)$.
 
+Note that linear functions are not the same as linear maps! Suppose $m,b\in \mathbb{R}$. The function $f\,:\mathbb{R}\to \mathbb{R}$ defined by $f(x)=mx+b$ is a linear map if and only if $b=0$.
+
 ## Examples
 
 ### Zero

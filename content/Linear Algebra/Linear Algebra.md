@@ -53,7 +53,9 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 ### Vector Space of Linear Maps
 - [[Linear Map]]
 - [[Linear Map Lemma]]
-- [[Algebraic Operations on Sets of Linear Maps]]
+- [[Addition and Scalar Multiplication on Sets of Linear Maps]]
+- [[Products of Linear Maps]]
+- [[Linear Maps Take 0 to 0]]
 ### Null Spaces and Ranges
 
 

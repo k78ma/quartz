@@ -2,6 +2,7 @@
 title: Shallow Neural Network
 tags:
   - ml
+  - dl
 date: 2024-06-13
 aliases:
   - shallow neural network
