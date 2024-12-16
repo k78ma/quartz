@@ -53,6 +53,12 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 
 ### Vector Space of Linear Maps
 - [[Linear Map]]
+- [[Linear Map Lemma]]
+### Null Spaces and Ranges
+
+
+### Matrices
+
 
 
 ## Exercises

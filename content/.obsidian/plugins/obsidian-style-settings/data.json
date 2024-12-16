@@ -26,5 +26,8 @@
   "anuppuccin-theme-settings@@anp-autohide-titlebar": false,
   "anuppuccin-theme-settings@@anp-full-rainbow-text-color-toggle-dark": false,
   "anuppuccin-theme-settings@@anp-simple-rainbow-title-toggle": true,
-  "anuppuccin-theme-settings@@h4-size": 1.08
+  "anuppuccin-theme-settings@@h4-size": 1.08,
+  "anuppuccin-theme-settings@@anp-pdf-blend-toggle-dark": false,
+  "anuppuccin-theme-settings@@anp-pdf-blend-toggle-light": false,
+  "anuppuccin-theme-settings@@anp-tab-stacked-pane-width": 1
 }
