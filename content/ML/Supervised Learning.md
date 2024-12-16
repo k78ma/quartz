@@ -19,3 +19,12 @@ The model is a mathematical equation with a fixed form, representing a family of
 $$
 \mathbf{y}=\mathbf{f}[\mathbf{x},\phi]
 $$
+We learn these parameters using a training dataset of $I$ pairs of input and output examples $\{ x_{i},y_{i} \}$. We aim to select parameters that map each training input to its associated output as closely as possible. We quantify the degree of mismatch in this mapping with the **loss** $L$. This is a scalar value that summarizes how poorly the model predicts the training outputs from their corresponding inputs for parameters $\phi$.
+
+We can treat the loss as a function $L[\phi]$ of these parameters. When we train the model, we are seeking parameters $\hat{\phi}$ that minimize this **loss function**:
+$$
+\hat{\phi}=\underset{\phi}{\operatorname{argmin}}\Big[L[\phi]\Big]
+$$
+If the loss is small after this minimization, we have found model parameters that accurately predict the training outputs $\mathbf{y}_{i}$ from the training inputs $\mathbf{x}_{i}$.
+
+After training a model, we assess its performance by running the model on a separate test data to see how well it *generalizes* to examples that it didn't observe during training.
