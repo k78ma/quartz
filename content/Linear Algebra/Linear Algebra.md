@@ -50,10 +50,10 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Number of Elements in Sets vs Vector Spaces]]
 
 ## Linear Maps
-
 ### Vector Space of Linear Maps
 - [[Linear Map]]
 - [[Linear Map Lemma]]
+- [[Algebraic Operations on Sets of Linear Maps]]
 ### Null Spaces and Ranges
 
 

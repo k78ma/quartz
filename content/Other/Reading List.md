@@ -6,7 +6,7 @@ aliases:
   - reading list
 draft: "true"
 progress_1_title: Linear Algebra Done Right
-progress_1_value: 65
+progress_1_value: 68
 progress_1_max: 447
 progress_2_title: The Algorithm Design Manual
 progress_2_value: 186
@@ -24,7 +24,7 @@ from ""
 ```
 
 Immediate:
-- [ ] Linear Algebra Done Right   <progress max=447 value=63> </progress> 
+- [ ] Linear Algebra Done Right   <progress max=447 value=68> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 - [ ] Kalman Filters From The Ground Up   <progress max=436 value=140> </progress> 
 

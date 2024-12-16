@@ -7,7 +7,6 @@ aliases:
   - linear map
   - linear transformation
 ---
-
 > [!definition] Definition: Linear Map
 > A *linear map* from $V$ to $W$ is a function $T: \;V\to W$ with the following properties.
 >- **Additivity:** $T(u+v)=Tu+Tv$ for all $u,v\in V$.
