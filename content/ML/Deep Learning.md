@@ -17,6 +17,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Einstein Notation]]
 ## Shallow Neural Networks
 - [[Supervised Learning]]
+- [[Discriminative vs. Generative Models]]
 - [[Shallow Neural Network]]
 - [[Universal Approximation Theorem]]
 - [[Multivariate Inputs and Outputs]]
