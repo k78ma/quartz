@@ -172,15 +172,18 @@ Note that this problem shows the 2nd last example from [[Linear Map]].
 
 
 > [!question] Problem 4
-> 
+> Suppose $T\in \mathcal{L}(V,W)$ and $v_{1}, \dots,v_{m}$ is a list of vectors in $V$ such that $Tv_{1}, \dots,Tv_{m}$ is a linearly independent list in $W$. Prove that $v_{1}, \dots,v_{m}$ is linearly independent.
+
 
 
 > [!question] Problem 5
-> 
+> Prove that $\mathcal{L}(V,W)$ is a vector space.
+
 
 
 > [!question] Problem 6
-> 
+> Prove that multiplication of linear maps has the associative, identity, and distributive properties.
+
 
 
 > [!question] Problem 7
