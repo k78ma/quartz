@@ -14,3 +14,6 @@ z & z \geq 0
 \end{cases} = \text{max}(0,z)
 $$
 ![[Rectified Linear Unit.png]]
+
+The ReLU has a nice property that the derivative of the output with respect to the input is always one for inputs greater than zero. This contributes to the stability and efficiency of training, unlike [[Sigmoid|sigmoid]] activation functions, which saturate (become close to zero) for large positive and large negative inputs.
+

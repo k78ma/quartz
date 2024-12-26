@@ -52,7 +52,7 @@ Next up?
 
 Papers:
 - [SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention](https://arxiv.org/abs/2312.07987)
-
+- [Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks](https://arxiv.org/abs/2406.02550)
 Done:
 
 

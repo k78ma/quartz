@@ -28,8 +28,9 @@ Things on the internet:
 	- [Concrete Steps to Get Started in Transformer Mechanistic Interpretability](https://www.neelnanda.io/mechanistic-interpretability/getting-started)
 	- [Learning how to learn](https://www.neelnanda.io/blog/34-learning)
 - [On Those Undefeatable Arguments for AI Doom](https://1a3orn.com/sub/essays-ai-doom-invincible.html)
-- [~agentydragon/How I got to OpenAI](https://agentydragon.com/posts/2023-01-11-how-i-got-to-openai.html)
+- [How I got to OpenAI | agentydragon](https://agentydragon.com/posts/2023-01-11-how-i-got-to-openai.html)
 - [KL is All You Need](https://blog.alexalemi.com/kl-is-all-you-need.html)
+- [Autodidax: JAX core from scratch](https://jax.readthedocs.io/en/latest/autodidax.html
 
 Books:
 - [Linear Algebra Done Right](https://linear.axler.net/)
@@ -46,8 +47,9 @@ Books:
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
 - [Minimum Description Length Principle](https://arxiv.org/abs/math/0406077)
-- [Autodidax: JAX core from scratch](https://jax.readthedocs.io/en/latest/autodidax.html
 - [Automatic Gradient Descent: Deep Learning without Hyperparameters](https://arxiv.org/abs/2304.05187)
+- [SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention](https://arxiv.org/abs/2312.07987)
+- [Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks](https://arxiv.org/abs/2406.02550)
 
 Other:
 - [Vagabond](https://manga4life.com/manga/Vagabond)

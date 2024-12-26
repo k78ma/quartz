@@ -30,3 +30,6 @@ As we add more hidden units, the model can approximate more complex functions. W
 To see this, consider that every time we add a hidden unit, we add another linear region to the function. More regions means that each represents smaller sections of the function, which in turn means a better approximation.
 
 ![[Universal Approximation Theorem-1.png]]
+
+## Width Version
+The *width* version of this theorem states that there exists a network with one hidden layer containing a finite number of hidden units that can approximate any specified continuous function on a compact subset of $\mathbb{R}^{n}$ to arbitrary accuracy.  
