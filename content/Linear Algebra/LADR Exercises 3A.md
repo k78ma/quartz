@@ -169,7 +169,71 @@ which is also only true for all $\lambda$ is $c=0$.
 
 Note that this problem shows the 2nd last example from [[Linear Map]].
 
+We first determine $T$ using its action on the standard basis vectors of $\mathbb{F}^{n}$, denoted as $e_{1},e_{2}, \dots,e_{n}$, where $e_{k}$ is the vector with a $1$ in the $k$-th position and $0$ elsewhere. For each $k\in \{ 1,, \dots,n \}$, the transformation of $e_{k}$ by $T$ is a vector in $\mathbb{F}^{m}$, denoted as
+$$
+T(e_{k})=(A_{1,k}, A_{2,k}, \dots, A_{m,k})\in  \mathbb{F}^{m}
+$$
+where $A_{j,k}\in \mathbb{F}$ for each $j=1, \dots,m$.
 
+We can write an arbitrary vector $(x_{1}, \dots,x_{n})\in \mathbb{F}^{n}$ as a linear combination of the basis vectors $e_{1}, \dots,e_{n}$:
+$$
+(x_{1}, \dots, x_{n})=x_{1}e_{1}+\dots+x_{n}e_{n}
+$$
+By linearity of $T$, we have
+$$
+T(x_{1}e_{1}+\dots+x_{n}e_{n})=x_{1}T(e_{1})+\dots+x_{n}T(e_{n})
+$$
+Substituting $T(e_{k})=(A_{1,k}, A_{2,k}, \dots, A_{m,k})$, we have
+$$
+T(x_{1}, \dots, x_{n})=x_{1}(A_{1,1},\dots,A_{m,1})+\dots+x_{n}(A_{1,n} , \dots, A_{m,n})
+$$
+If we consider the $j$-th component of $T(x_{1}, \dots,x_{n})$, we have
+$$
+x_{1}A_{j,1}+x_{2}A_{j,2}+\dots+x_{n}A_{j,n}
+$$
+Thus, we have
+$$
+T(x_{1}, \dots, x_{n})=(A_{1,1}x_{1}+\dots+A_{1,n}x_{n},\dots,A_{m,1}x_{1}+\dots+A_{m,n}x_{n})
+$$
+
+We can look at an example of $T:\mathbb{F}^{3}\to \mathbb{F}^{2}$ so that $T$ takes vectors from $\mathbb{F}^{3}$ of the form $(x_{1},x_{2},x_{3})$ and maps them to vectors from $\mathbb{F}^{2}$ of the form $(y_{1},y_{2})$.
+
+We'll define $T$ by specifying how it acts on the basis standard vectors of $\mathbb{F}^{3}$, $e_{1}=(1,0,0)$, $e_{2}=(0,1,0)$, and $e_{3}=(0,0,1)$:
+$$
+\begin{align}
+T(e_{1})=(1,2) \\
+T(e_{2})=(3,4) \\
+T(e_{3})=(5,6)
+\end{align}
+$$
+For a general vector $(x_{1},x_{2},x_{3})\in \mathbb{F}^{3}$, we can have:
+$$
+\begin{align}
+(x_{1},x_{2},x_{3}) & =x_{1}e_{1}+x_{2}e_{2}+x_{3}e_{3} \\
+T(x_{1},x_{2},x_{3}) & =x_{1}T(e_{1})+x_{2}T(e_{2})+x_{3}T(e_{3}) \\
+ & =x_{1}(1,2)+x_{2}(3,4)+x_{3}(5,6)
+\end{align}
+$$
+Now we can compute the two components corresponding to $\mathbb{F}^{2}$
+- First component:
+$$
+x_{1}(1)+x_{2}(3)+x_{3}(5)=x_{1}+3x_{2}+5x_{3}
+$$
+- Second component:
+$$
+x_{1}(2)+x_{2}(4)+x_{3}(6)=2x_{1}+4x_{2}+6x_{3}
+$$
+Here, the scalars $A_{j,k}$ are
+- $A_{1,1}=1, A_{1,2}=3, A_{1,3}=5$
+- $A_{2,1}=2, A_{2,2}=4, A_{2,3}=6$
+
+So:
+$$
+\begin{align}
+T(x_{1},x_{2},x_{3}) & =(A_{1,1}x_{1}+A_{1,2}x_{2}+A_{1,3}x_{3},A_{2,1}x_{1}+A_{2,2}x_{2}+A_{2,3}x_{3}) \\
+T(1,2,3) & =(1(1)+3(2)+5(3),2(1)+4(2)+6(3))=(22,32)
+\end{align}
+$$
 
 > [!question] Problem 4
 > Suppose $T\in \mathcal{L}(V,W)$ and $v_{1}, \dots,v_{m}$ is a list of vectors in $V$ such that $Tv_{1}, \dots,Tv_{m}$ is a linearly independent list in $W$. Prove that $v_{1}, \dots,v_{m}$ is linearly independent.
