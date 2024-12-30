@@ -14,5 +14,8 @@ Welcome to my notes!
 - [[Machine Learning|Machine Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]
+### UWaterloo Courses
+- [[Tron 2B]]
+- [[Tron 3A]]
 
 See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
