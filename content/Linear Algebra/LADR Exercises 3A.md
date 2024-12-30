@@ -251,7 +251,8 @@ $$
 
 
 > [!question] Problem 7
-> 
+> Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V)$, then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V$.
+
 
 
 > [!question] Problem 8

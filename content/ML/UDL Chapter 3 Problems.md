@@ -19,6 +19,10 @@ aliases:
 
 
 > [!question] Problem 3.2
+> For each of the four linear regions in figure 3.3j, indicate which hidden units are inactive and which are active (i.e., which do and do not clip their inputs).
+> 
+> ![[UDL Chapter 3 Problems.png|300]]
+
 
 
 > [!question] Problem 3.3
