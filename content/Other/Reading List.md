@@ -15,7 +15,7 @@ progress_3_title: Kalman Filters From The Ground Up
 progress_3_value: 143
 progress_3_max: 436
 progress_4_title: Understanding Deep Learning
-progress_4_value: 39
+progress_4_value: 40
 progress_4_max: 541
 ---
 ```dataview

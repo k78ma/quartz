@@ -5,6 +5,7 @@ tags:
 date: 2024-12-15
 aliases:
   - linear maps take 0 to 0
+  - "3.10"
 ---
 
 > [!theorem] Linear maps take $0$ to $0$

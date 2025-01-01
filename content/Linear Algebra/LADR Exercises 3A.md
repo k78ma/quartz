@@ -238,11 +238,85 @@ $$
 > [!question] Problem 4
 > Suppose $T\in \mathcal{L}(V,W)$ and $v_{1}, \dots,v_{m}$ is a list of vectors in $V$ such that $Tv_{1}, \dots,Tv_{m}$ is a linearly independent list in $W$. Prove that $v_{1}, \dots,v_{m}$ is linearly independent.
 
+If $v_{1}, \dots,v_{m}$ are not linearly independent, there exist some $a_{1}, \dots,a_{m}$ that are not all $0$, such that
+$$
+a_{1}v_{1}+\dots+a_{m}v_{m}=0
+$$
+Applying the linear map to both sides:
+$$
+\begin{align}
+T(a_{1}v_{1}+\dots+a_{m}v_{m}) & =	T(0) \\
+T(a_{1}v_{1}+\dots+a_{m}v_{m}) & =0 \\
+T(a_{1}v_{1})+\dots+T(a_{m}v_{m}) & =0 \\
+	a_{1}T(v_{1})+\dots+a_{m}T(v_{m})  & =0\\
+\end{align}
+$$
+Note that $T(0)=0$ because [[Linear Maps Take 0 to 0|linear maps take 0 to 0]]. 
 
+The last line implies that $Tv_{1}, \dots,Tv_{m}$ is not linearly independent, since we are using some $a_{1}, \dots,a_{m}$ that are not all $0$. This presents a contradiction. Thus, $v_{1}, \dots,v_{m}$ must be linearly independent.
+
+This basically says that, by the linearity of the transformation $T$, if $v_{1}, \dots,v_{m}$ are linearly independent, so must $Tv_{1}, \dots,Tv_{m}$ and vice versa.
 
 > [!question] Problem 5
 > Prove that $\mathcal{L}(V,W)$ is a vector space.
 
+Recall that for a vector space, we need to show a zero element, closure under addition, and closure under scalar multiplication. Specifically, for these three operations, we verify that the result is still a linear map (for example, the addition of two linear maps must still be a linear map).
+
+We can define a zero map $0:V\to W$ by:
+$$
+0(v)=0_{W} \,\,\,\forall v\in  V
+$$
+where $0_{W}$ is the zero vector in $W$. The zero map is linear because is satisfies:
+- Additivity: $0(u+w)=0(u)+0(v)=0_{W}+0_{W}=0_{W}$
+- Homogeneity: $0(cv)=0_{W}=c 0(v)=c\cdot 0_{W}=c \cdot 0(v)$
+
+For closure under addition, let $T_{1},T_{2}\in \mathcal{L}(V,W)$. Define $(T_{1}+T_{2}):V\to W$ by:
+$$
+(T_{1}+T_{2})(v)=T_{1}(v)+T_{2}(v), \quad \forall  v \in  V
+$$
+Checking the linearity of $T_{1}+T_{2}$:
+- Additivity:
+$$
+\begin{align}
+(T_{1}+T_{2})(u+v) & =T_{1}(u+v)+T_{2}(u+v) \\
+ & =T_{1}(u)+T_{1}(v)+T_{2}(u)+T_{2}(v) \\
+ & =(T_{1}+T_{2})u+(T_{1}+T_{2})v
+\end{align}
+$$
+- Homogeneity:
+$$
+\begin{align}
+(T_{1}+T_{2})(\lambda v) & =T_{1}(\lambda v)+T_{2}(\lambda v) \\
+	 & = \lambda T_{1}(v)+ \lambda T_{2}(v) \\
+	 & =\lambda(T_{1}(v)+T_{2}(v)) \\
+	 & =\lambda(T_{1}+T_{2})(v)
+\end{align}
+$$
+Therefore, $T_{1}+T_{2}\in \mathcal{L}(V,W)$, showing closure under addition. 
+
+For closure under scalar multiplication, let $T\in \mathcal{L}(V,W)$, and define $\lambda T$ by:
+$$
+(\lambda T)(v)= \lambda T(v),\quad \forall  v \in  V, \quad c \in  \mathbb{F}
+$$
+Checking for linearity:
+- Additivity:
+$$
+\begin{align}
+(\lambda T)(u+v) & =\lambda T(u+v) \\
+	 & =\lambda(T(u)+T(v)) \\
+	 & =\lambda T(u)+\lambda T(v) \\
+	 & =(\lambda T)(u)+(\lambda T)(v)
+\end{align}
+$$
+- Homogeneity:
+$$
+\begin{align}
+(\lambda T)(\alpha v)=\lambda T(\alpha v)=\lambda (\alpha T(v))=(\lambda \alpha)T(v)=\alpha(\lambda T)(v)
+\end{align}
+$$
+Thus, $\lambda T\in \mathcal{L}(V,W)$, confirming closure under scalar multiplication.
+
+Since we've shown zero element, closure under addition, and closure under scalar multiplication, we've shown that $\mathcal{L}(V,W)$ is a vector space.
 
 
 > [!question] Problem 6

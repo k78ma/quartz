@@ -74,8 +74,6 @@ Slopes for each region are determined by which hidden units are active in that r
 > ![[UDL Chapter 3 Problems-1.png|500]]
 
 
-
-
 > [!question] Problem 3.5
 > Prove that the following property holds for $\alpha \in \mathbb{R}^{+}$:
 > $$
@@ -92,13 +90,21 @@ z & z \geq 0
 $$
 Thus,
 $$
-\text{ReLU}[\alpha\cdot z]=\alpha\cdot \text{ReLU}[z]
+\begin{align}
+\text{ReLU}[\alpha\cdot z] & = \text{max}(0,\alpha\cdot z) \\
+	 & =\alpha \cdot \text{max}(0,z) \\
+	 & =\alpha\cdot \text{ReLU}(z)
+\end{align}
 $$
 
 > [!question] Problem 3.6
+> Following on from problem 3.5, what happens to the shallow network defined in equations 3.3 and 3.4 when we multiply the parameters $\theta_{10}$ and $\theta_{11}$ by a positive constant $\alpha$ and divide the slope $\phi_{1}$ by the same parameter $\alpha$? What happens if $\alpha$ is negative?
+
 
 
 > [!question] Problem 3.7
+> Consider fitting the model in equation 3.1 using a least squares loss function. Does this loss function have a unique minimum? i.e., is there a single “best” set of parameters
+
 
 
 > [!question] Problem 3.8
