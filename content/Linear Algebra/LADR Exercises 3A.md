@@ -322,7 +322,44 @@ Since we've shown zero element, closure under addition, and closure under scalar
 > [!question] Problem 6
 > Prove that multiplication of linear maps has the associative, identity, and distributive properties.
 
+Associativity:
+$$
+\begin{align}
+((T_{1}T_{2})T_{3})(v) & =(T_{1}T_{2})(T_{3}(v)) \\
+	 & =T_{1}(T_{2}(T_{3}(v))) \\
+	 & =T_{1}((T_{2}T_{3})(v)) \\
+	 & =(T_{1}(T_{2}T_{3}))(v)
+\end{align}
+$$
+Identity:
+$$
+(IT)(v)=I(T(v))=T(v)
+$$
+and
+$$
+(TI)(v)=T(I(v))=T(v)
+$$
 
+Distributive properties:
+$$
+\begin{align}
+((S_{1}+S_{2})T)(v) & =(S_{1}+S_{2})(T(v)) \\
+	 & = (S_{1}+S_{2})(T(v)) \\
+	 & = S_{1}(T(v))+S_{2}(T(v)) \\
+	 & = (S_{1}T)(v)+ (S_{2}T)(v) \\
+	 & =(S_{1}T+S_{2}T)(v)
+\end{align}
+$$
+and
+$$
+\begin{align}
+(S(T_{1}+T_{2}))(v) & =S((T_{1}+T_{2})(v)) \\
+	 & =S(T_{1}(v)+T_{2}(v)) \\
+	 & =S(T_{1}(v))+S(T_{2}(v)) \\
+	 & =(ST_{1})(v)+(ST_{2})(v) \\
+	 & =(ST_{1}+ST_{2})(v)
+\end{align}
+$$
 
 > [!question] Problem 7
 > Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V)$, then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V$.
