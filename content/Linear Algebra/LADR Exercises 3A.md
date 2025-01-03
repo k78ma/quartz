@@ -344,7 +344,6 @@ Distributive properties:
 $$
 \begin{align}
 ((S_{1}+S_{2})T)(v) & =(S_{1}+S_{2})(T(v)) \\
-	 & = (S_{1}+S_{2})(T(v)) \\
 	 & = S_{1}(T(v))+S_{2}(T(v)) \\
 	 & = (S_{1}T)(v)+ (S_{2}T)(v) \\
 	 & =(S_{1}T+S_{2}T)(v)
@@ -361,17 +360,45 @@ $$
 \end{align}
 $$
 
+
 > [!question] Problem 7
 > Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V)$, then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V$.
 
+Since $\dim V=1$, there is some $v_{1}\in V$ that is a basis of $V$. Because $Tv_{1} \in V$, there exists some $\lambda \in \mathbb{F}$ such that $Tv_{1}=\lambda v_{1}$.
 
+Since $v_{1}$ is a basis every $v\in V$, there exists some $a\in \mathbb{F}$ such that $v=av_{1}$. This implies that
+$$
+Tv=T(av_{1})=aTv_{1}=a \lambda v_{1}=\lambda av_{1}=\lambda v
+$$
 
 > [!question] Problem 8
-> 
+> Give an example of a function $\phi: \,\mathbb{R}^{2}\to \mathbb{R}$ such that
+> $$
+> \phi(av)=a\phi(v)
+> $$
+> for all $a \in \mathbb{R}$ and all $v\in \mathbb{R}^{2}$ but $\phi$ is not linear.
+
+For $v=(v_{1},v_{2}) \in \mathbb{R}^{2}$, let
+$$
+\phi(v)=\begin{cases}
+\frac{v_{1}^{2}}{v_{2}},  &  v_{2}\neq 0 \\
+0, & v_{2}=0
+\end{cases}
+$$
+We can show that
+
 
 
 > [!question] Problem 9
-> 
+> Give an example of a function $\phi:\, \mathbb{C}\to \mathbb{C}$ such that
+> $$
+> \phi(w+z)=\phi(w)+\phi(z)
+> $$ 
+> for all $w,z \in  \mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
+
+
+
+
 
 
 > [!question] Problem 10
