@@ -385,8 +385,15 @@ $$
 0, & v_{2}=0
 \end{cases}
 $$
-We can show that
+Clearly, we have homogeneity in $\phi(av)=a\phi(v)$ for every $a \in \mathbb{R}$ and $v\in \mathbb{R}^{2}$.
 
+But, there obviously exists $u,v \in \mathbb{R}^{2}$ where $\phi(u+v)\neq \phi(u)+\phi(v)$, because
+$$
+\frac{(u_{1}+v_{1})^{2}}{u_{2}+v_{2}} \neq \frac{u_{1}^{2}}{u_{2}}+\frac{v_{1}^{2}}{v_{2}}
+$$
+Thus, $\phi$ is not linear.
+
+**Problem 8 and 9 show that neither homogeneity nor additivity alone is enough to imply that a function is a linear map.**
 
 
 > [!question] Problem 9
@@ -396,21 +403,51 @@ We can show that
 > $$ 
 > for all $w,z \in  \mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
 
+Let $\mathbb{C}=\{ a+bi \, : \,a,b\in \mathbb{R}\}$. For every $z=a+bi\in \mathbb{C}$, we define $\phi(z)=a$, so the function $\phi$ just returns the real part.
 
+Hence, $\forall w=a+bi, z=c+di\in \mathbb{C}$, we have
+$$
+\phi(w+z)=\phi((a+c)+(b+d)i)=a+c
+$$
+and
+$$
+\phi(w)+\phi(z)=a+c
+$$
+So we have $\phi(w+z)=\phi(w)+\phi(z)$.
 
-
+However, $\phi(i(1+i))=\phi(i-1)=-1$ and $i\phi(1+i)=i\cdot 1=i$. Then, we have
+$$
+\phi(i(1+i))\neq i\phi(1+i)
+$$
+Thus, in this case, for some $a\in \mathbb{C}$ and $w\in \mathbb{C}$, we don't have $\phi(aw)=a\phi(w)$. Therefore, $\phi$ is not linear.
 
 
 > [!question] Problem 10
-> 
+> Prove or give a counterexample: If $q \in \mathcal{P}(\mathbb{R})$ and $T\, : \,\mathcal{P}(\mathbb{R})\to \mathcal{P}(\mathbb{R})$ is defined by $Tp=q \circ p$, then $T$ is a linear map.
+>  - This differs from the composition example in [[Linear Map#Examples]] because the order of functions in the composition is different.
+
+
 
 
 > [!question] Problem 11
+> Suppose $V$ is finite-dimensional and $T \in \mathcal{L}(V)$. Prove that $T$ is a scalar multiple of the identity if and only if $ST=TS$ for every $S \in \mathcal{L}(V)$.
 > 
+
+
+
 
 
 > [!question] Problem 12
-> 
+> Suppose $U$ is a subspace of $V$ with $U\neq V$. Suppose $S\in \mathcal{L}(U,W)$ and $S\neq 0$ (which means that $Su\neq 0$ for some $u\in U$). Define $T\, : \,V\to W$ by
+> $$
+> Tv = \begin{cases}
+> Sv  & \text{if } v\in  U \\
+> 0 & \text{if } v \in  V \text{ and } v \notin U
+>\end{cases}
+> $$
+> Prove that $T$ is not a linear map on $V$.
+
+
 
 
 > [!question] Problem 13
