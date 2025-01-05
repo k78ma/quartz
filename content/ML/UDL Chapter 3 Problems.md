@@ -51,13 +51,14 @@ which is also a linear function of $x$.
 - Region 4: $h_{1}$ and $h_{2}$ are active
 
 
+
 > [!question] Problem 3.3
 > Derive expressions for the positions of the "joints" in function in figure 3.3j in terms of the ten parameters $\phi$ and input $x$. Derive expressions for slopes of the four linear regions.
 
 Joints are created by ReLU activations when a hidden unit has a joint at that point. Thus, we set each by the function computed before the ReLU is applied to zero.
 - Joint 1: $\theta_{10}+\theta_{11}x=0 \quad \longrightarrow \quad x=-\frac{\theta_{10}}{\theta_{11}}$
 - Joint 2: $\theta_{20}+\theta_{21}x=0 \quad \longrightarrow \quad x=- \frac{\theta_{20}}{\theta_{21}}$
-- Joint 3: $\theta_{30}+\theta_{31}x=0 \quad \longrightarrow \quad  x=- \frac{\theta_{30}}{\theta_{31}}$$
+- Joint 3: $\theta_{30}+\theta_{31}x=0 \quad \longrightarrow \quad  x=- \frac{\theta_{30}}{\theta_{31}}$
 
 Slopes for each region are determined by which hidden units are active in that region.
 - Region 1: $h_{3}$ is active, so we have $m_{1}=\phi_{3}\theta_{31}$
@@ -69,7 +70,8 @@ Slopes for each region are determined by which hidden units are active in that r
 > [!question] Problem 3.4
 > Draw a version of figure 3.3 where the $y$-intercept and slope of the 3rd hidden unit have changed as in 3.14c. Assume that the remaining parameters remain the same.
 > 
-> ![[UDL Chapter 3 Problems-1.png|500]]
+> ![[UDL Chapter 3 Problems-1.png|300]]
+
 
 
 > [!question] Problem 3.5
@@ -177,18 +179,19 @@ The four linear regions result from the 3 hidden units creating 3 joints from th
 > [!question] Problem 3.11
 > How many parameters does the model in figure 3.6 have?
 
-Each of the four hidden unit has one weight and one bias. Each of the two output unit has four weights and 1 bias. In total:
+Each of the four hidden unit has 1 weight and 1 bias. Each of the two output unit has four weights and 1 bias. In total:
 $$
-
+(4\times(1+1))+(2\times(4+1))=8+10=18
 $$
 
 
 > [!question] Problem 3.12
 > How many parameters does the model in figure 3.7 have?
 
-
-
-
+Each of the 3 hidden units has 2 weights and 1 bias (see Equation 3.9). The output unit has 3 weights and 1 bias:
+$$
+(3\times(2+1))+(3+1)=9+4=13
+$$
 
 > [!question] Problem 3.13
 > What is the activation pattern for each of the seven regions in figure 3.8? In other words, which hidden units are active (pass the input) and which are inactive (clip the input) for each region?
