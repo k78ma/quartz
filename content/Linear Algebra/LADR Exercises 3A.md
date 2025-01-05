@@ -474,7 +474,7 @@ $$
 $$
 so $ST=TS$.
 
-Next, we prove it in the opposite direction: if $ST=TS$ for every $S \in \mathcal{L}(V)$, we have $T=aI$. 
+Next, we prove it in the opposite direction: if $ST=TS$ for every $S \in \mathcal{L}(V)$, we have $T=aI$.  First, we show the effect of $T$ on basis vectors, and show that it is diagonal on a chosen basis. 
 
 Suppose $\dim V=n$ and $v_{1}, \dots,v_{n}$ is a basis of $V$. Define $S_{i}\in \mathcal{L}(V)$:
 $$
@@ -497,10 +497,9 @@ By definition of $S_{i}$, the transformation $S_{i}(T(v_{i}))$ retains only the 
 $$
 T(v_{i})=\lambda_{i}v_{i}, \quad  \text{where } \lambda_{i}\in  \mathbb{F}
 $$
+Now, we want to show that $T$ cannot treat different basis vectors differently; it must scale them all by the same scalar. Specifically, we want $\lambda_{i}=\lambda_{j}$ for all $i,j$ using the linear operator $S_{ij}$ and the assumption and that $ST=TS$ for all $S \in \mathcal{L}(V)$.
 
-Now, we want to show that $\lambda_{i}=\lambda_{j}$ for all $i,j$ using the linear operator $S_{ij}$ and the assumption and that $ST=TS$ for all $S \in \mathcal{L}(V)$.
-
-$S_{ij}$ is defined to swap the coefficients of $v_{i}$ and $v_{j}$ in any vector, such that
+Let our $S_{ij}$ be defined to swap the coefficients of $v_{i}$ and $v_{j}$ in any vector, such that
 $$
 S_{ij}(\dots+a_{i}v_{i}+\dots+a_{j}v_{j}+\dots)=\dots+a_{j}v_{i}+\dots+a_{i}v_{j}+\dots
 $$
@@ -543,7 +542,7 @@ which means that $\lambda_{i}=\lambda_{j}$ for all $i,j$. Thus, $T=\lambda I$, w
 > $$
 > Prove that $T$ is not a linear map on $V$.
 
-
+Consider every $u\in U$ such that $Su\neq0$, and every $v \in V$ such that $v \in U$. We have $u+v \notin U$.
 
 
 > [!question] Problem 13

@@ -41,7 +41,7 @@ na_{0} + \left( \sum x_{i} \right)a_{1}  & = \sum y_{i} \\[3ex]
 \end{align}
 $$
 
-\Thus, we can solve for $a_{0}, a_{1}$:
+Thus, we can solve for $a_{0}, a_{1}$:
 
 >[!info] Least Square Regression Equations
 >$$

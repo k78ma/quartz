@@ -31,10 +31,8 @@ Immediate:
 - [ ] Linear Algebra Done Right   <progress max=447 value=70> </progress> 
 - [ ] Understanding Deep Learning   <progress max=541 value=39> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
-- [ ] Kalman Filters From The Ground Up   <progress max=436 value=140> </progress> 
 
 Next:
-- [ ] Understanding Deep Learning 
 - [ ] Structure and Interpretation of Computer Programs
 - [ ] minitorch
   
@@ -48,13 +46,16 @@ Next up?
 - [ ] Deep Learning: Foundations and Concepts
 - [ ] The Principles of Deep Learning Theory
 - [ ] Structure and Interpretation of Classical Mechanics
-- [ ] Lectures on Robotic Planning and Kinematicsw
+- [ ] Lectures on Robotic Planning and Kinematics
 - [ ] Computer Systems: A Programmer's Perspective
 
 Papers:
 - [SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention](https://arxiv.org/abs/2312.07987)
 - [Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks](https://arxiv.org/abs/2406.02550)
+
 Done:
 
+Pause:
+- [ ] Kalman Filters From The Ground Up   <progress max=436 value=151> </progress> 
 
 Discarded (include reason):
