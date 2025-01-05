@@ -426,15 +426,111 @@ Thus, in this case, for some $a\in \mathbb{C}$ and $w\in \mathbb{C}$, we don't h
 > Prove or give a counterexample: If $q \in \mathcal{P}(\mathbb{R})$ and $T\, : \,\mathcal{P}(\mathbb{R})\to \mathcal{P}(\mathbb{R})$ is defined by $Tp=q \circ p$, then $T$ is a linear map.
 >  - This differs from the composition example in [[Linear Map#Examples]] because the order of functions in the composition is different.
 
+For additivity, we need $T(p_{1}+p_{2})=Tp_{1}+Tp_{2}$. Expanding these, we have:
+$$
+\begin{align}
+T(p_{1}+p_{2}) & =q \circ (p_{1}+p_{2}) \\
+Tp_{1}+Tp_{2} & =(q\circ p_{1})+(q\circ p_{2})
+\end{align}
+$$
+As a counterexample, let $q(x)=x^{2}, p_{1}(x)=x, p_{2}(x)=-x$. Then:
+$$
+T(p_{1}+p_{2})=T(0)=q \circ 0=q(0)= (0)^{2}= 0
+$$
+However,
+$$
+Tp_{1}+Tp_{2}  =(q\circ p_{1})+(q\circ p_{2}) = q(x)+q(-x)=x^{2}+(-x)^{2}=2x^{2}
+$$
 
-
+For homogeneity, we need $T(\lambda p)=\lambda \cdot Tp$. Expanding these, we have
+$$
+\begin{align}
+T(\lambda p) & = q \circ \lambda p \\
+\lambda \cdot  Tp & =\lambda(q \circ p)
+\end{align}
+$$
+As a counterexample, let $q(x)=x^{2},p(x)=x, \lambda=2$. Then:
+$$
+T(\lambda p)= q \circ  2x=(2x)^{2}=4x^{2}
+$$
+However:
+$$
+\lambda \cdot  Tp=2(q(p(x)))=2(q(x))=2x^{2}
+$$
 
 > [!question] Problem 11
 > Suppose $V$ is finite-dimensional and $T \in \mathcal{L}(V)$. Prove that $T$ is a scalar multiple of the identity if and only if $ST=TS$ for every $S \in \mathcal{L}(V)$.
 > 
 
+First we prove it in one direction, by showing that if $T=aI$, for some scalar $a\in \mathbb{F}$, we have $ST=TS$. 
 
+We have:
+$$
+ (ST)(x)=S(T(x))=S(aI(x))=S(ax)=aS(x)
+$$
+and
+$$
+(TS)(x)=T(S(x))=aI(S(x))=aS(x)
+$$
+so $ST=TS$.
 
+Next, we prove it in the opposite direction: if $ST=TS$ for every $S \in \mathcal{L}(V)$, we have $T=aI$. 
+
+Suppose $\dim V=n$ and $v_{1}, \dots,v_{n}$ is a basis of $V$. Define $S_{i}\in \mathcal{L}(V)$:
+$$
+S_{i}(a_{1}v_{1}+\dots+a_{n}v_{n})=a_{i}v_{i} \quad \text{where} \quad  a_{i}\in  \mathbb{F}, \,\,i=1, \dots, n
+$$
+Thus, $S_{i}$ projects any vector onto the basis vector $v_{i}$, scaled by a corresponding coefficient.
+
+From the assumption that $ST=TS$ for all $S \in \mathcal{L}(V)$, consider:
+$$
+\begin{align}
+S_{i}T(v_{i}) & =TS_{i}(v_{i}) \\
+S_{i}(T(v_{i})) & =T(S_{i}(v_{i}))
+\end{align}
+$$
+Since $S_{i}(v_{i})=v_{i}$, this reduces to
+$$
+S_{i}(T(v_{i}))=T(v_{i})
+$$
+By definition of $S_{i}$, the transformation $S_{i}(T(v_{i}))$ retains only the $v_{i}$-component of $T(v_{i})$. Therefore, $T(v_{i})$ must be a scalar multiple of $v_{i}$:
+$$
+T(v_{i})=\lambda_{i}v_{i}, \quad  \text{where } \lambda_{i}\in  \mathbb{F}
+$$
+
+Now, we want to show that $\lambda_{i}=\lambda_{j}$ for all $i,j$ using the linear operator $S_{ij}$ and the assumption and that $ST=TS$ for all $S \in \mathcal{L}(V)$.
+
+$S_{ij}$ is defined to swap the coefficients of $v_{i}$ and $v_{j}$ in any vector, such that
+$$
+S_{ij}(\dots+a_{i}v_{i}+\dots+a_{j}v_{j}+\dots)=\dots+a_{j}v_{i}+\dots+a_{i}v_{j}+\dots
+$$
+For example, $S_{12}(a_{1}v_{1}+a_{2}v_{2}+a_{3}v_{3})=a_{2}v_{1}+a_{1}v_{2}+a_{3}v_{3}$.
+
+From the assumption that $ST=TS$, we have
+$$
+S_{ij}T=TS_{ij}
+$$
+Applying the left side to $a_{i}v_{i}+a_{j}v_{j}$, we have
+$$
+T(a_{i}v_{i}+a_{j}v_{j})=\lambda_{i}a_{i}v_{i}+\lambda_{j}a_{j}v_{j}
+$$
+and then applying $S_{ij}$, we have
+$$
+S_{ij}(\lambda_{i}a_{i}v_{i}+\lambda_{j}a_{j}v_{j})=\lambda_{j}a_{i}v_{i}+\lambda_{i}a_{j}v_{j}
+$$
+Applying the right side, we have
+$$
+S_{ij}(a_{i}v_{i}+a_{j}v_{j})=a_{j}v_{i}+a_{i}v_{j}
+$$
+and then applying $T$ gives
+$$
+T(a_{j}v_{i}+a_{i}v_{j})=\lambda_{i}a_{j}v_{i}+\lambda_{j}a_{i}v_{j}
+$$
+Equating the two sides gives
+$$
+\lambda_{j}a_{j}v_{i}+\lambda_{i}a_{i}v_{j}=\lambda_{i}a_{j}v_{i}+\lambda_{j}a_{i}v_{j}
+$$
+which means that $\lambda_{i}=\lambda_{j}$ for all $i,j$. Thus, $T=\lambda I$, where $\lambda \in \mathbb{F}$.
 
 
 > [!question] Problem 12
