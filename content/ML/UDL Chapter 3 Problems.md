@@ -196,40 +196,89 @@ $$
 > [!question] Problem 3.13
 > What is the activation pattern for each of the seven regions in figure 3.8? In other words, which hidden units are active (pass the input) and which are inactive (clip the input) for each region?
 
+![[UDL Chapter 3 Problems-3.png|328]]
 
-
+- Region 1: $h_{1}$
+- Region 2: $h_{1}, h_{2}$
+- Region 3: None
+- Region 4: $h_{1}, h_{3}$
+- Region 5: $h_{1}, h_{2}, h_{3}$
+- Region 6: $h_{3}$
+- Region 7: $h_{2}, h_{3}$
 
 
 > [!question] Problem 3.14
 > Write out the equations that define the network in figure 3.11. There should be three equations to compute the three hidden units from the inputs and two equations to compute the outputs from the hidden units.
 
-
-
-
+Hidden units:
+$$
+\begin{align}
+h_{1} & =a[\theta_{10}+ \theta_{11}x_{1}+\theta_{12}x_{2}+\theta_{13}x_{3}] \\
+h_{2}  & =a[\theta_{20}+\theta_{21}x_{1}+\theta_{22}x_{2}+\theta_{23}x_{3}] \\
+h_{3} & =a[\theta_{30}+\theta_{31}x_{1}+\theta_{32}x_{2}+\theta_{33}x_{3}]
+\end{align}
+$$
+Outputs:
+$$
+\begin{align}
+y_{1} & =\phi_{10}+\phi_{11}h_{1}+\phi_{12}h_{2}+\phi_{13}h_{3} \\
+y_{2} & =\phi_{20}+\phi_{21}h_{1}+\phi_{22}h_{2}+\phi_{23}h_{3}
+\end{align}
+$$
 
 > [!question] Problem 3.15
 > What is the maximum possible number of 3D linear regions that can be created by the network in figure 3.11?
 
+Each hidden unit divides the input space into two regions: one where the linear function inside $a$ is positive, and one where it is zero. The maximum number of regions created by 3 planes intersecting in 3D space, following figure 3.10c, would be 8 regions.
 
-
-
+Can also use Zaslavsky's result (see problem 3.18) to get:
+$$
+\begin{align}
+R  & = \sum_{k=0}^{3} {3 \choose k}={3 \choose 0}+{3 \choose 1}+{3 \choose 2}+{3 \choose 3} \\[2ex]
+	 & =1+3+3+1 = 8
+\end{align}
+$$
 
 > [!question] Problem 3.16
-> Write out the equations for a network with two inputs, four hidden units, and three outputs. Draw this model in the style of figure 3.11
+> Write out the equations for a network with two inputs, four hidden units, and three outputs. 
 
-
-
+- Two inputs: $x_{1}, x_{2}$
+- Four hidden units:
+$$
+\begin{align}
+h_{1}=\theta_{10}+\theta_{11}x_{1}+\theta_{12}x_{2} \\
+h_{2}=\theta_{20}+\theta_{21}x_{1}+\theta_{22}x_{2} \\
+h_{3}=\theta_{30}+\theta_{31}x_{1}+\theta_{32}x_{2} \\
+h_{4}=\theta_{40}+\theta_{41}x_{1}+\theta_{42}x_{2} \\ 
+\end{align}
+$$
+- Three outputs:
+$$
+\begin{align}
+y_{1}=\phi_{10}+\phi_{11}h_{1}+\phi_{12}h_{2}+\phi_{13}h_{3}+\phi_{14}h_{4} \\
+y_{2}=\phi_{20}+\phi_{21}h_{1}+\phi_{22}h_{2}+\phi_{23}h_{3}+\phi_{24}h_{4} \\
+y_{3}=\phi_{30}+\phi_{31}h_{1}+\phi_{32}h_{2}+\phi_{33}h_{3}+\phi_{34}h_{4} \\
+\end{align}
+$$
 
 
 > [!question] Problem 3.17
 > Equations 3.11 and 3.12 define a general neural network with $D_{i}$ inputs, one hidden layer containing $D$ hidden units, and $D_{o}$ outputs. Find an expression for the number of parameters in the model in terms of $D_{i}$, $D$, and $D_{o}$.
 
+$$
+((D_{i}+1) \times D) + ((D+1) \times D_{o})
+$$
 
-
-
-
+See 3.11 and 3.12 for examples.
 
 > [!question] Problem 3.18
 > Show that the maximum number of regions created by a shallow network with $D_{i}=2$-dimensional input, $D_{o}=1$-dimensional output, and $D=3$ hidden units is seven, as in figure 3.8j. Use the result of Zaslavsky (1975) that the maximum number of regions created by partitioning a $D_{i}$-dimensional space with $D$ hyperplanes is $\sum_{j=0}^{D_{i}} {D \choose j}$. What is the maximum number of regions if we add two more hidden units to this model, so $D=5$?
 
-
+Original:
+$$
+N=\sum_{j=0}^{D_{i}} {D \choose j}= {3 \choose 0}+ {3 \choose 1}+ {3 \choose 2} = 1 + 3 + 3=7
+$$
+With $D=5$:
+$$
+N=\sum_{j=0}^{D_{i}} {D \choose j}= {5 \choose 0}+ {5 \choose 1}+ {5 \choose 2} = 1 + 5 + 10 =16
+$$
