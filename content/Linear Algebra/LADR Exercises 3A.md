@@ -554,29 +554,99 @@ Therefore, $T$ is not a linear map on $V$.
 > [!question] Problem 13
 > Suppose $V$ is finite-dimensional. Prove that every linear map on a subspace of $V$ can be extended to a linear map on $V$. In other words, show that if $U$ is a subspace of $V$ and $S \in \mathcal{L}(U,W)$, then there exists $T \in  \mathcal{L}(V,W)$ such that $Tu=Su$ for all $u \in U$.
 
+There exists a subspace $M$ of $V$ such that $V=U \oplus M$. For all $v \in V$, there exist $u \in U$ and $m \in M$ such that $v=u+m$. 
 
-
+Suppose $R \in \mathcal{L}(M,W)$. For all $v =u+m \in V$, define $Tv=Su+Rm$. We have
+$$
+\begin{align}
+T(\lambda v) & =T(\lambda u+\lambda m) \\
+ & =S(\lambda u)+R(\lambda m) \\
+  & =\lambda Su+\lambda Rm \\
+	 & =\lambda(Su+Rn) \\
+	 & =\lambda Tv
+\end{align}
+$$
+We also have:
+$$
+\begin{align}
+T(v_{1}+v_{2}) & = T((u_{1}+m_{1})+(u_{2}+m_{2})) \\
+	 & = S(u_{1}+u_{2})+R(m_{1}+m_{2}) \\
+	 & =Su_{1}+Su_{2}+Rm_{1}+Rm_{2} \\
+	 & =(Su_{1}+Rm_{1})+(Su_{2}+Rm_{2}) \\
+	 & =Tv_{1} + Tv_{2}
+\end{align}
+$$
+Hence, $T$ is linear.
 
 
 > [!question] Problem 14
 > Suppose $V$ is finite-dimensional with $\dim V>0$, and suppose $W$ is infinite- dimensional. Prove that $\mathcal{L}(V,W)$ is infinite-dimensional.
 
+Suppose $\dim V=n$ and $v_{1}, \dots,v_{n}$ is a basis of $V$. As $W$ is infinite-dimensional, we can find a sequence of elements in $W$, denoted by $w_{1}, \dots,w_{m}$, that is linearly independent for any positive integer $m$.
 
+For every $v=a_{1}v_{1}+\dots+a_{n}v_{n}\in V$, where $a_{i} \in \mathbb{F}$, define $T_{k}\in \mathcal{L}(V,W)$ such that
+$$
+T_{k}(v)=a_{1}w_{k}
+$$
+To prove $T_{1}, \dots,T_{m}$ is linearly independent for any $m$, assume that we have a linear combination of these maps that equals the zero map, which must exist since $\mathcal{L}(V,W)$ is a vector space.
+$$
+\lambda_{1}T_{1}+\dots+\lambda_{m}T_{m}=0
+$$
+This means, for every $v \in V$:
+$$
+\begin{align}
+(\lambda_{1}T_{1}+\dots+\lambda_{m}T_{m})(v)=0 \\
+a_{1}(\lambda_{1} w_{1}+\dots+\lambda_{m}w_{m})=0
+\end{align}
+$$
+For this to hold for all $a_{1} \in \mathbb{F}$, it must be true that $\lambda_{1}w_{1}+\dots+\lambda_{m}w_{m}=0$. Since $w_{1}, \dots,w_{m}$ are linearly independent by construction, the only solution is $\lambda_{1}, \dots,\lambda_{m}=0$.
+
+Hence, we find a sequence of elements in $\mathcal{L}(V,W)$, $T_{1}, \dots,T_{m}$ that is linearly independent for any positive $m$. Therefore, $\mathcal{L}(V,W)$ is infinite-dimensional. 
 
 
 >[!question] Problem 15
 > Suppose $v_{1}, \dots,v_{m}$ is a linearly dependent list of vectors in $V$. Suppose also that $W \neq \{ 0 \}$. Prove that there exist $w_{1}, \dots,w_{m} \in W$ such that no $T \in  \mathcal{L}(V,W)$ satisfies $Tv_{k}=w_{k}$ for each $k=1, \dots,m$.
 
+$v_{1}, \dots,v_{m}$ being linearly dependent implies that there exist some $a_{1}, \dots,a_{m}\in \mathbb{F}$, not all $0$, such that $a_{1}v_{1}+\dots+a_{m}v_{m}=0$.
 
+As $W \neq \{ 0 \}$ and $a_{1}, \dots,a_{m}$ are not all $0$, we can find $w_{1}, \dots,w_{m}$ such that $a_{1}w_{1}+\dots+a_{m}w_{m}\neq 0$.
 
+Now if we use this list $w_{1}, \dots,w_{m}$ with $T \in  \mathcal{L}(V,W)$ such that $Tv_{k}=w_{k}$, we have
+$$
+\begin{align}
+T(0) & =T(a_{1}v_{1}+\dots+a_{m}v_{m}) \\
+	 & =a_{1}Tv_{1}+\dots +a_{m}Tv_{m} \\
+	 & =a_{1}w_{1}+\dots +a_{  m}w_{m} \\
+	 & \neq 0
+\end{align}
+$$
+This is impossible. Hence, the result is proved.
 
 
 > [!question] Problem 16
 > Suppose $V$ is finite-dimensional with $\dim  V>1$. Prove that there exist $S,T \in \mathcal{L}(V)$ such that $ST\neq TS$.
 
+Suppose $v_{1}, \dots,v_{m}$ is a basis of $V$, such that every element of $V$ can be written as some $a_{1}v_{1}+\dots+a_{m}v_{m}$. Since $\dim V>1$, $m\geq 2$. 
 
+Let us define $S \in \mathcal{L}(V)$ to such that
+$$
+S(a_{1}v_{1}+a_{2}v_{2}+\dots+a_{m}v_{m})=a_{2}v_{1}+a_{1}v_{2}+\dots+a_{m}v_{m}
+$$
+where the coefficients of the $v_{1}$ and $v_{2}$ terms are switched.
 
-
+Let us define $T \in  \mathcal{L}(V)$ such that
+$$
+S(a_{1}v_{1}+a_{2}v_{2}+\dots +a_{m}v_{m})=a_{1}v_{1}
+$$
+Then:
+$$
+ST(v_{1}+2v_{2})=S(T(v_{1}+2v_{2}))=S(v_{1})=0v_{1}+1v_{2}=v_{2}
+$$
+and
+$$
+TS(v_{1}+2v_{2})=T(2v_{1}+v_{2})=2v_{1}
+$$
+Thus, $ST \neq TS$.
 
 
 > [!question] Problem 17
@@ -584,4 +654,23 @@ Therefore, $T$ is not a linear map on $V$.
 >
 >A subspace $\mathcal{E}$ of $\mathcal{L}(V)$ is called a two-sided ideal of $\mathcal{L}(V)$ if $TE \in \mathcal{E}$ and $ET \in \mathcal{E}$ for all $E \in \mathcal{E}$ and all $T \in \mathcal{L}(V)$.
 
+It's easy to verify that $\{ 0 \}$ and $\mathcal{L}(V)$ are two-sided ideals of $\mathcal{L}(V)$.
 
+Suppose for the sake of contradiction that another $\mathcal{E}$ exists. Let $e_{1}, \dots,e_{m}$ be its basis and let $e_{1}, \dots,e_{m}, e_{m+1}, \dots,e_{n}$ be the basis of $V$. 
+
+Define $T(v)$ as
+$$
+T(v)=T\left(  \sum_{i=1}^{n} a_{i}e_{i}  \right)= \sum_{i=1}^{n}a_{i}e_{n-i}
+$$
+to be a linear map in $V$. Essentially, this reverses the coefficients of the basis vectors.
+
+Define $E_{j}(u)$ as
+$$
+E_{j}(u)=E_{j}\left(  \sum_{k=1}^{m}b_{k}e_{k}  \right)=b_{j}e_{j}
+$$
+This maps acts a projection onto the basis vector $e_{j}$. Note that $E_{j} \in \mathcal{E}$ because $\mathcal{E}$ is spanned by $e_{1}, \dots,e_{m}$.
+
+We have reached the contradicting the example such that
+$$
+TE_{j}(v)=a_{j}e_{n-j} \in  V \setminus \mathcal{E}
+$$
