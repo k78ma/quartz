@@ -23,7 +23,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Multivariate Inputs and Outputs]]
 
 ## Deep Neural Networks
-
+- [[Composing Shallow Networks]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

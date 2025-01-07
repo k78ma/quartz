@@ -12,10 +12,10 @@ progress_2_title: The Algorithm Design Manual
 progress_2_value: 186
 progress_2_max: 447
 progress_3_title: Kalman Filters From The Ground Up
-progress_3_value: 143
+progress_3_value: 151
 progress_3_max: 436
 progress_4_title: Understanding Deep Learning
-progress_4_value: 40
+progress_4_value: 55
 progress_4_max: 541
 ---
 ```dataview
@@ -29,7 +29,7 @@ from ""
 
 Immediate:
 - [ ] Linear Algebra Done Right   <progress max=447 value=70> </progress> 
-- [ ] Understanding Deep Learning   <progress max=541 value=39> </progress> 
+- [ ] Understanding Deep Learning   <progress max=541 value=41> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 
 Next:

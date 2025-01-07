@@ -542,26 +542,46 @@ which means that $\lambda_{i}=\lambda_{j}$ for all $i,j$. Thus, $T=\lambda I$, w
 > $$
 > Prove that $T$ is not a linear map on $V$.
 
-Consider every $u\in U$ such that $Su\neq0$, and every $v \in V$ such that $v \in U$. We have $u+v \notin U$.
+Let $u\in U$ such that $Su\neq0$; such as $u$ exists because $S \neq 0$. Let $v \in V \setminus U$ such that $v \notin U$; such a $v$ exists because $U \neq V$.
+
+Since $u \in U$ and $v \notin U$, their sum $u+v$ cannot lie in $U$. Otherwise, we could write $v=(u+v)+(-u) \in U$, which is a contradiction.
+
+Therefore, $u+v \in V \setminus U$, and by the definition of $T$, we have $T(u+v)=0$. However, additivity requires $T(u)+T(v)=Su+0=Su$, implying $T(u+v) \neq Tu+Tv$.
+
+Therefore, $T$ is not a linear map on $V$.
 
 
 > [!question] Problem 13
-> 
+> Suppose $V$ is finite-dimensional. Prove that every linear map on a subspace of $V$ can be extended to a linear map on $V$. In other words, show that if $U$ is a subspace of $V$ and $S \in \mathcal{L}(U,W)$, then there exists $T \in  \mathcal{L}(V,W)$ such that $Tu=Su$ for all $u \in U$.
+
+
+
 
 
 > [!question] Problem 14
-> 
+> Suppose $V$ is finite-dimensional with $\dim V>0$, and suppose $W$ is infinite- dimensional. Prove that $\mathcal{L}(V,W)$ is infinite-dimensional.
 
 
-> [!question] Problem 15
-> 
+
+
+>[!question] Problem 15
+> Suppose $v_{1}, \dots,v_{m}$ is a linearly dependent list of vectors in $V$. Suppose also that $W \neq \{ 0 \}$. Prove that there exist $w_{1}, \dots,w_{m} \in W$ such that no $T \in  \mathcal{L}(V,W)$ satisfies $Tv_{k}=w_{k}$ for each $k=1, \dots,m$.
+
+
+
 
 
 > [!question] Problem 16
-> 
+> Suppose $V$ is finite-dimensional with $\dim  V>1$. Prove that there exist $S,T \in \mathcal{L}(V)$ such that $ST\neq TS$.
+
+
+
+
 
 
 > [!question] Problem 17
-> 
+> Suppose $V$ is finite-dimensional. Show that the only two-sided ideals of $\mathcal{L}(V)$ are $\{ 0 \}$ and $\mathcal{L}(V)$.
+>
+>A subspace $\mathcal{E}$ of $\mathcal{L}(V)$ is called a two-sided ideal of $\mathcal{L}(V)$ if $TE \in \mathcal{E}$ and $ET \in \mathcal{E}$ for all $E \in \mathcal{E}$ and all $T \in \mathcal{L}(V)$.
 
 
