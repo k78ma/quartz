@@ -21,9 +21,57 @@ Taken already:
 Remaining 3B:
 - [x] MTE 352 – MECH 2210 Fluid Mechanics
 - [x] MTE 360 – ELEC 3200 Systems Modeling, Analysis and Control
-- [ ] (50/50) MSCI 261
+- [x] (50/50) MSCI 261
 - [ ] MTE 380
 
 So basically I need to take two 4A courses in Hong Kong, a TE and a CSE (can't take MTE 484 because MTE 360 is a pre-req):
 - [x] TE: MTE 544
 - [ ] CSE: List C
+
+4A:
+- [ ] MTE 484
+- [ ] MTE 481
+- [x] TE
+- [ ] TE
+- [ ] CSE
+
+3B:
+- [x] MTE 322
+- [x] CSE
+- [x] MTE 352 – MECH 2210 Fluid Mechanics
+- [x] MTE 360 – ELEC 3200 Systems Modeling, Analysis and Control
+- [ ] MSCI 261
+- [ ] MTE 380
+
+4A:
+- [ ] MTE 484
+- [ ] MTE 481
+- [ ] TE
+- [ ] TE
+- [ ] CSE
+
+
+If I can get MSCI 261 equivalent, I don't need to take a 4A course in HK.
+- Just take MTE 544 equivalent
+	- ***Not sure ELEC 4260 will be approved as a MTE 544 equivalent?***
+		- This one actually seems more interesting…
+		- According to Thom, doesn't need to match
+	- Pro: Dodge course selection fight for this course in 4A
+	- Pro: Learn valuable robotics knowledge earlier
+	- Neutral: Could be a GPA booster in Waterloo but not sure
+	- Con: Could be time-consuming
+- Just take CSE equivalent:
+	- Pro: Lighter courseload than above, more time for traveling
+	- Con: Getting rid of potential GPA booster in Waterloo
+- Take both:
+	- Pro: Low courseload during 4A term, can focus on MTE 380
+	- Con: Higher courseload during exchange, less traveling time
+
+Decision:
+- Enroll in both and drop if needed based on professor/workload before Feb 15
+
+
+CSE list:
+- HUMA 2330 - Anime
+- HUMA 2104 - Music Theory I: Introduction to Tonal Music
+- HUMA 2202 - The Modern Japanese Novel
