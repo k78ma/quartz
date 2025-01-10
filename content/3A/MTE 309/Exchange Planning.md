@@ -73,5 +73,8 @@ Decision:
 
 CSE list:
 - HUMA 2330 - Anime
+- HUMA 1102 - Enjoyment of Classical Music
 - HUMA 2104 - Music Theory I: Introduction to Tonal Music
 - HUMA 2202 - The Modern Japanese Novel
+- HUMA 1160 - Weiqi and Chinese Culture (1 unit)
+	- Seems fun but early Monday morning…
