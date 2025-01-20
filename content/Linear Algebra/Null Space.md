@@ -6,7 +6,6 @@ date: 2025-01-20
 aliases:
   - null space
 ---
-
 > [!definition] Null space
 > For $T \in \mathcal{L}(V,W)$, the null space of $T$, denoted by null $T$, is the subset of $V$ consisting of those vectors that $T$ maps to $0$:
 > $$
