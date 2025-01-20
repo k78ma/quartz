@@ -24,7 +24,7 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Deep Neural Networks
 - [[Composing Shallow Networks]]
-
+- [[Deep Neural Network]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 ## Exercises

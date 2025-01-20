@@ -72,9 +72,10 @@ Decision:
 
 
 CSE list:
-- HUMA 2330 - Anime
-- HUMA 1102 - Enjoyment of Classical Music
-- HUMA 2104 - Music Theory I: Introduction to Tonal Music
-- HUMA 2202 - The Modern Japanese Novel
+- HUMA 2330 - Anime (time conflict? but can switch to ELEC 3200 LA2?)
+- HUMA 1102 - Enjoyment of Classical Music (time conflict?)
+- HUMA 2104 - Music Theory I: Introduction to Tonal Music (too hard?)
+- HUMA 2911 - Buddhism: Origin and Growth (boring?)
+- HUMA 2202 - The Modern Japanese Novel (boring?)
 - HUMA 1160 - Weiqi and Chinese Culture (1 unit)
 	- Seems fun but early Monday morning…

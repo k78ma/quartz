@@ -58,6 +58,7 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Linear Maps Take 0 to 0]]
 ### Null Spaces and Ranges
 - [[Null Space]]
+	- [[Null Space is a Subspace]]
 - [[Injectivity]]
 - [[Range of a Linear Map]]
 - [[Surjectivity]]
