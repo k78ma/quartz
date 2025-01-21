@@ -9,7 +9,7 @@ aliases:
 ---
 
 > [!theorem] The null space is a subspace.
-> Suppose $T \in \mathcal{L}(V,W)$. Then $\text{null } T$ is a subspace of $V$.
+> Suppose $T \in \mathcal{L}(V,W)$. Then the [[Null Space|null space]] of $T$,  $\text{null } T$, is a subspace of $V$.
 
 *Proof.* Because $T$ is a linear map, $T(0)=0$ ([[Linear Maps Take 0 to 0]]). Thus $0 \in \text{null } T$.
 

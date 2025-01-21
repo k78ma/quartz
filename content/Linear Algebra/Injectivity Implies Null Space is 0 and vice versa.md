@@ -5,6 +5,7 @@ tags:
 date: 2025-01-20
 aliases:
   - injectivity implies null space is 0 and vice versa
+  - "3.15"
 ---
 
 > [!definition] Injective $\Longleftrightarrow$ Null space is $\{ 0 \}$
