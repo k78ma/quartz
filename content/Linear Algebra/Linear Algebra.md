@@ -65,6 +65,9 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 	- [[Range is a Subspace]]
 - [[Surjectivity]]
 - [[Fundamental Theorem of Linear Maps]]
+- [[Linear Map to Lower-Dimensional Space is Not Injective]]
+- [[Linear Map to Lower-Dimensional Space is Not Injective]]
+- [[Homogeneous System of Linear Equations]]
 ### Matrices
 
 

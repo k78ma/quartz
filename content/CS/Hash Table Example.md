@@ -6,6 +6,7 @@ tags:
 date: 2024-04-27
 aliases:
   - hash table
+  - hash map
 ---
 Hash tables maps an arbitrary data type to another arbitrary data type using [[Hashing|hashing]].
 
