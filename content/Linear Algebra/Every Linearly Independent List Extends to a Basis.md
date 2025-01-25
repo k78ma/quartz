@@ -6,6 +6,7 @@ date: 2024-12-05
 aliases:
   - every linearly independent list extends to a basis
   - extend to a basis
+  - "2.32"
 ---
 > [!theorem] Every linearly independent list extends to a basis
 > Every linearly independent list of vectors in a finite-dimensional vector space can be extended to a basis of the vector space.

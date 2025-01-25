@@ -1,6 +1,5 @@
 [
   "dataview",
-  "mousewheel-image-zoom",
   "quick-latex",
   "obsidian-minimal-settings",
   "obsidian-excalidraw-plugin",
@@ -10,11 +9,8 @@
   "obsidian-link-converter",
   "obsidian-copy-block-link",
   "obsidian-git",
-  "obsidian-image-toolkit",
   "obsidian-paste-image-rename",
   "sheets",
-  "obsidian-image-layouts",
-  "obsidian-image-caption",
   "nl-fast-image-cleaner",
   "oz-clear-unused-images",
   "table-editor-obsidian",
@@ -23,5 +19,7 @@
   "obsidian-style-settings",
   "tabout",
   "obsidian-spaced-repetition",
-  "obsidian-latex-suite"
+  "obsidian-latex-suite",
+  "vertical-tabs",
+  "image-converter"
 ]

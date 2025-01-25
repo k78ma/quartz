@@ -19,5 +19,6 @@
   "showInlineTitle": true,
   "vimMode": true,
   "showRibbon": true,
-  "propertiesInDocument": "visible"
+  "propertiesInDocument": "visible",
+  "useTab": false
 }

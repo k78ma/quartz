@@ -10,7 +10,7 @@ As an entrypoint to [[Deep Neural Network|deep neural networks]], we first consi
 
 Consider two shallow networks with 3 hidden units each. 
 
-![[Composing Shallow Networks.png|580]]
+![[Composing Shallow Networks.png|550]]
 
 The first network takes an input $x$ and returns output $y$ and is defined by:
 $$
@@ -80,3 +80,4 @@ where $\psi_{10}=\theta'_{10}+\theta'_{11}\phi_{0}, \psi_{11}=\theta'_{11}\phi_{
 ![[Composing Shallow Networks-4.png|564]]
 
 It follows that a network with two layers can represent the family of functions created by passing the output of one single-layer network into another. It represents a broader family, because the nine slope parameters, $\psi_{11}, \psi_{21}, \dots, \psi_{33}$ can take arbitrary values, whereas the original parameters are constrained to be the outer product $[\theta_{11}', \theta_{21}', \theta'_{31}]^{T}[\phi_{1},\phi_{2}, \phi_{3}]$.
+
