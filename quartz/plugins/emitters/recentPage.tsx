@@ -29,14 +29,20 @@ export const RecentPage: QuartzEmitterPlugin<Partial<FullPageLayout>> = (userOpt
     },
     async emit(ctx, content, resources): Promise<FilePath[]> {
       const slug = "recent" as FullSlug
-      const externalResources = pageResources(pathToRoot(slug), resources)
+      const defaultResources = {
+        css: [],
+        js: [],
+      }
+
       const [tree, file] = defaultProcessedContent({
         slug,
         text: "# Recent Notes.",
         description: "Sorted by date of creation + alphabetical.",
         frontmatter: { title: "Recent Notes", tags: [] },
       })
-    
+
+      const externalResources = pageResources(pathToRoot(slug), file.data, resources ?? defaultResources)
+      
       const componentData: QuartzComponentProps = {
         ctx,
         fileData: file.data,
