@@ -8,7 +8,7 @@ aliases:
 ---
 - https://einops.rocks/api/rearrange/
 
-Tensor re-arrange with templates
+Tensor re-arrange with templates, seems to be useful
 
 ```python
 def rearrange_1() -> t.Tensor:
