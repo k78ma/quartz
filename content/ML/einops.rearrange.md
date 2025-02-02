@@ -8,6 +8,8 @@ aliases:
 ---
 - https://einops.rocks/api/rearrange/
 
+Tensor re-arrange with templates
+
 ```python
 def rearrange_1() -> t.Tensor:
     """Return the following tensor using only torch.arange and einops.rearrange:
