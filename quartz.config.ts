@@ -18,6 +18,7 @@ const config: QuartzConfig = {
     baseUrl: "k78ma.github.io/quartz",
     ignorePatterns: ["private", "templates", "**/private", "**/templates", "**/Private", "**/Excalidraw", "**/excalidraw", "NVIDIA", "**/NVIDIA"],
     defaultDateType: "created",
+    generateSocialImages: false,
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
