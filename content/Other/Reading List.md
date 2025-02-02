@@ -6,7 +6,7 @@ aliases:
   - reading list
 draft: "true"
 progress_1_title: Linear Algebra Done Right
-progress_1_value: 76
+progress_1_value: 78
 progress_1_max: 447
 progress_2_title: The Algorithm Design Manual
 progress_2_value: 186

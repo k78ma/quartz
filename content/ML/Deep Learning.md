@@ -27,6 +27,10 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Deep Neural Network]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
+
+## Practical
+- [[einops.rearrange]]
+
 ## Exercises
 - [[UDL Chapter 2 Problems]]
 - [[UDL Chapter 3 Problems]]

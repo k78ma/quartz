@@ -66,10 +66,14 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Surjectivity]]
 - [[Fundamental Theorem of Linear Maps]]
 - [[Linear Map to Lower-Dimensional Space is Not Injective]]
-- [[Linear Map to Lower-Dimensional Space is Not Injective]]
+- [[Linear Map to Higher-Dimensional Space is Not Surjective]]
 - [[Homogeneous System of Linear Equations]]
 ### Matrices
-
+- [[Matrix]]
+- [[Matrix Representation of Linear Map]]
+- [[Matrix Addition]]
+- [[Scalar Multiplication of Matrix]]
+- [[Matrix Multiplication]]
 
 
 ## Exercises
