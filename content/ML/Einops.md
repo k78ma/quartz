@@ -1,11 +1,12 @@
 ---
-title: einops.rearrange
+title: Einops
 tags:
   - dl
-date: 2025-02-02
+date: 2025-02-03
 aliases:
-  - einops.rearrange
+  - einops
 ---
+## Rearrange
 - https://einops.rocks/api/rearrange/
 
 Tensor re-arrange with templates, seems to be useful
@@ -42,3 +43,7 @@ def rearrange_3() -> t.Tensor:
     tensor = t.arange(1,7)
     return rearrange(tensor, "a -> 1 a 1")
 ```
+
+## Reduce
+- https://einops.rocks/api/reduce/
+

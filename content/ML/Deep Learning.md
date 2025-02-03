@@ -29,7 +29,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Neural Tangent Kernel]]
 
 ## Practical
-- [[einops.rearrange]]
+- [[Einops]]
 - [[PyTorch Tensor Creation]]
 
 ## Exercises
