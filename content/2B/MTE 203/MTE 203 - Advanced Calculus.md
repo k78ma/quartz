@@ -97,6 +97,7 @@ aliases:
 #### Lecture 20: Areas and volumes of rotation
 - [[Areas and volumes of rotation]]
 
+- [[Del Operator]]
 ## Problems
 - [[Suggested Problems]]
 - [[MATLAB Worksheet 1]]

@@ -30,6 +30,7 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Practical
 - [[einops.rearrange]]
+- [[PyTorch Tensor Creation]]
 
 ## Exercises
 - [[UDL Chapter 2 Problems]]
