@@ -11,5 +11,6 @@
   "textFontFamily": "STIX Two Text",
   "showViewHeader": true,
   "baseFontSizeAction": false,
-  "interfaceFontFamily": "Inter"
+  "interfaceFontFamily": "Inter",
+  "showRibbon": true
 }

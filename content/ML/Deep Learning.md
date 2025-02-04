@@ -31,6 +31,7 @@ Some of these notes are also included in [[Machine Learning]].
 ## Practical
 - [[Einops]]
 - [[PyTorch Tensor Creation]]
+- [[Einsum]]
 
 ## Exercises
 - [[UDL Chapter 2 Problems]]
