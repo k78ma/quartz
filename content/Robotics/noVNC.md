@@ -31,3 +31,34 @@ Gazebo sim running on noVNC on `localhost:8080`:
 
 
 
+## Noetic
+
+Start noVNC with:
+
+```bash
+docker run -d --rm --net=ros --env="DISPLAY_WIDTH=3000" --env="DISPLAY_HEIGHT=1800" --name=novnc -p=8080:8080 theasp/novnc:latest
+```
+
+
+Start ROS container with:
+
+```bash
+docker run -it --privileged --ipc=host \
+  --env="DISPLAY=novnc:0.0" \
+  --name="ros" \
+  --network=ros \
+  --device=/dev/ttyUSB0:/dev/ttyUSB0 \
+  -e "QT_X11_NO_MITSHM=1" \
+  -e "XAUTHORITY=$XAUTH" \
+  --cap-add=SYS_PTRACE \
+  osrf/ros:noetic-desktop-full bash
+```
+
+
+Attach windows to ROS container:
+
+```bash
+docker exec -it ros /bin/bash
+```
+
+- Remember to `source /opt/ros/noetic/setup.bash` and run `roscore`
