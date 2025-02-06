@@ -21,3 +21,4 @@ aliases:
 ## Commission
 - A service charge assessed by a broker for handling the purchase or sale of a security
 
+law of one price market question – why is "if the goods are trading in the same market" not true

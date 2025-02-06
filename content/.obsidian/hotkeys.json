@@ -85,22 +85,6 @@
       "key": "G"
     }
   ],
-  "templater-obsidian:replace-in-file-templater": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "R"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "T"
-    }
-  ],
   "editor:insert-callout": [
     {
       "modifiers": [
@@ -117,6 +101,22 @@
         "Mod"
       ],
       "key": "S"
+    }
+  ],
+  "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "R"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "T"
     }
   ]
 }
