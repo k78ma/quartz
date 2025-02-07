@@ -14,44 +14,23 @@ draft:
 | [MTE 360 - Automatic Control Systems](https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd44f5ad8d23749780e214)                | MECH 3610 - Control Principles<br>- Was not offered Spring '24<br><br>ELEC 3200 - System Modelling, Analysis, and Control                                                                                                   |
 | [MTE 380 - Mechatronics Engineering Design Workshop](https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd45233c5b448f141d6f28) | ISDN 2601 - Exploring the World through Smart Mechatronics<br>- Was not offered Spring '24<br><br>MECH 3907 - Mechatronic Design and Prototyping                                                                            |
 | CSE                                                                                                                                                               | CLAS 104 - Taking before                                                                                                                                                                                                    |
-Taken already:
-- [x] MTE 322
-- [x] CSE
-
-Remaining 3B:
-- [x] MTE 352 – MECH 2210 Fluid Mechanics
-- [x] MTE 360 – ELEC 3200 Systems Modeling, Analysis and Control
-- [x] (50/50) MSCI 261
-- [ ] MTE 380
-
-So basically I need to take two 4A courses in Hong Kong, a TE and a CSE (can't take MTE 484 because MTE 360 is a pre-req):
-- [x] TE: MTE 544
-- [ ] CSE: List C
-
-4A:
-- [ ] MTE 484
-- [ ] MTE 481
-- [x] TE
-- [ ] TE
-- [ ] CSE
-
 3B:
 - [x] MTE 322
-- [x] CSE
+- [x] CSE - CLAS 104
 - [x] MTE 352 – MECH 2210 Fluid Mechanics
 - [x] MTE 360 – ELEC 3200 Systems Modeling, Analysis and Control
-- [ ] MSCI 261
+- [x] MSCI 261 - FINA 2293
 - [ ] MTE 380
 
 4A:
 - [ ] MTE 484
 - [ ] MTE 481
-- [ ] TE
+- [x] TE - ELEC 4260 Intelligent Robotics and Embodied AI
 - [ ] TE
 - [ ] CSE
 
 
-If I can get MSCI 261 equivalent, I don't need to take a 4A course in HK.
+If I can get MSCI 261 equivalent, I only need to take one 4A course in HK.
 - Just take MTE 544 equivalent
 	- ***Not sure ELEC 4260 will be approved as a MTE 544 equivalent?***
 		- This one actually seems more interesting…
@@ -79,3 +58,31 @@ CSE list:
 - HUMA 2202 - The Modern Japanese Novel (boring?)
 - HUMA 1160 - Weiqi and Chinese Culture (1 unit)
 	- Seems fun but early Monday morning…
+
+Spring 2025:
+- CLAS 202??
+
+3B Plan:
+- [x] MTE 322
+- [x] MTE 351 - MECH 2210
+- [x] MTE 360 - ELEC 3200
+- [x] MSCI 261 - FINA 2203
+- [ ] MTE 380 - Move to 4A
+- [x] CSE – CLAS 104 
+
+6th Co-op:
+- [ ] PD 10
+- [ ] CLAS 202? 
+
+4A Plan:
+- [ ] MTE 481 - Capstone
+- [ ] MTE 484 - Digital Control Applications
+- [ ] MTE 380 - Project
+- [x] TE 1 – ELEC 4260
+- [ ] TE 2 – a math course?
+- [ ] CSE
+
+
+
+
+Midterm dates:
