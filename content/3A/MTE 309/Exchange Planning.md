@@ -82,7 +82,10 @@ Spring 2025:
 - [ ] TE 2 – a math course?
 - [ ] CSE
 
-
-
-
 Midterm dates:
+- Midterm break: April 1-3
+- MECH 2210 - ???
+- ELEC 3200 - April 8
+- FINA 2203 - March 29
+- HUMA 2911 (Quizzes) - Feb 28, Mar 31, May 2, May 9 presentation
+- ELEC 4260 - No midterm
