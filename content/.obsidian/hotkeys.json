@@ -103,18 +103,19 @@
       "key": "S"
     }
   ],
-  "templater-obsidian:replace-in-file-templater": [
-    {
-      "modifiers": [
-        "Ctrl"
-      ],
-      "key": "R"
-    }
-  ],
   "insert-template": [
     {
       "modifiers": [
         "Ctrl"
+      ],
+      "key": "T"
+    }
+  ],
+  "templater-obsidian:replace-in-file-templater": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Mod"
       ],
       "key": "T"
     }

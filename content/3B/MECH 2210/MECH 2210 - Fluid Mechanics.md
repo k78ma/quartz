@@ -9,5 +9,9 @@ aliases:
 ---
 ## Basic Properties of Fluids
 - [[Fluid]]
+- [[Physical Properties of Fluids]]
+- [[Ideal Gas Law]]
+- [[Viscosity]]
+- [[Compressibility]]
+- [[Surface Tension]]
 - 
-- [[Fluid Units and Dimensions]]

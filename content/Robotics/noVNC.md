@@ -51,6 +51,7 @@ docker run -it --privileged --ipc=host \
   -e "QT_X11_NO_MITSHM=1" \
   -e "XAUTHORITY=$XAUTH" \
   --cap-add=SYS_PTRACE \
+  -v /Users/kai/code/catkin_ws:/home/catkin_ws \
   osrf/ros:noetic-desktop-full bash
 ```
 

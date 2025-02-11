@@ -59,6 +59,11 @@ Papers:
 - [Automatic Gradient Descent: Deep Learning without Hyperparameters](https://arxiv.org/abs/2304.05187)
 - [SwitchHead: Accelerating Transformers with Mixture-of-Experts Attention](https://arxiv.org/abs/2312.07987)
 - [Learning to grok: Emergence of in-context learning and skill composition in modular arithmetic tasks](https://arxiv.org/abs/2406.02550)
+- [ACT](https://arxiv.org/abs/2304.13705)
+- [VQ-VAE](https://arxiv.org/abs/1711.00937)
+- [Automatic Gradient Descent: Deep Learning without Hyperparameters](https://arxiv.org/abs/2304.05187)
+- [Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations](https://arxiv.org/abs/2102.06559)
+    - [Partially Stochastic Infinitely Deep Bayesian Neural Networks
 
 Other:
 - [Vagabond](https://manga4life.com/manga/Vagabond)

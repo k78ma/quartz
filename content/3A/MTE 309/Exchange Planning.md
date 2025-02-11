@@ -82,6 +82,19 @@ Spring 2025:
 - [ ] TE 2 – a math course?
 - [ ] CSE
 
+AI Option:
+- List 1:
+    - STV 208
+- List 2:
+    - Two engineering courses, doesn't really matter
+    - SYDE 522
+    - ECE 457A or 457C
+- List 3:
+    - MTE 484
+    - A math course - CS 479, STAT 341?
+    - ECE 486, ECE 495, MTE 546, MTE 544?
+- Get ELEC 4260 counted?
+
 Midterm dates:
 - Midterm break: April 1-3
 - MECH 2210 - ???
@@ -89,3 +102,12 @@ Midterm dates:
 - FINA 2203 - March 29
 - HUMA 2911 (Quizzes) - Feb 28, Mar 31, May 2, May 9 presentation
 - ELEC 4260 - No midterm
+
+HUMA 2911:
+Overall, there is little practical usefulness - I probably won't use the credit given by this course since I want to take Waterloo CSEs to boost GPA.
+
+- Reasons to take:
+    - Could learn about Buddhism
+    - 
+- Reasons to not take:
+    - 
