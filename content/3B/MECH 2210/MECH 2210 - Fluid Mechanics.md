@@ -14,4 +14,5 @@ aliases:
 - [[Viscosity]]
 - [[Compressibility]]
 - [[Surface Tension]]
-- 
+
+## Fluid Statics

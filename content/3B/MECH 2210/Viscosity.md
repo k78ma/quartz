@@ -30,7 +30,50 @@ The fluid between the two plates moves with velocity $u=u(y)$ that varies linear
 The experimental observation that fluid "sticks" to solid boundaries is a very important one in fluid mechanics and is called the **no-slip condition**. All fluids satisfy this condition.
 
 ## Viscosity Derivation
-In a small time increment, $\delta t$, an imaginary vertical line $AB$ in the fluid would rotate through an angle, $\delta B$, so that
+As the force is applied, the velocity of the upper plate increases over time and eventually reaches a steady-state terminal velocity, $V_{T}$. 
+
+![[Pasted image 20250212121149.png|299]]
+
+A shear stress $\tau$ is developed to oppose the applied force $F$, since the layers close to the top plate want to move, but the bottom layers don't want to move. This shear stress is defined as:
 $$
-\tan\delta b\approx\delta B=\frac{\delta a}{b}
+\tau=\frac{F}{A}
 $$
+where $F$ is the applied force and $A$ is the area of the upper plate.
+
+![[Viscosity-3.png]]
+
+The velocity distribution of the fluid follows a linear gradient from the stationary lower plate to the moving upper plate, given by $\frac{du}{dy}$. Since the velocity profile is linear, the terminal velocity can be given as
+$$
+V_{T} =b \tan \theta=b \frac{du}{dy}
+$$
+where $b$ is the gap between the plates.
+
+The terminal velocity is proportional to the applied force, and thus also proportional to $\tau = F / A$:
+$$
+V_{T} \propto \frac{F\cdot  b}{A}
+$$
+which means that the velocity gradient is also proportional to the force
+$$
+\frac{du}{dy}\propto \frac{F\cdot b}{A}
+$$
+which means that $\tau \propto \frac{du}{dy}$ or
+$$
+\tau=\mu  \frac{du}{dy} \quad \text{or} \quad \tau=\left| \mu  \frac{du}{dy} \right|
+$$
+where $\mu$ is the **dynamic viscosity** of the fluid, with units of $\text{Pa}\cdot \text{s}$.
+
+Any fluid that satisfies the above is a **Newtonian fluid**.
+
+## Physical Intuition
+
+We can think about viscosity as a measure of momentum transfer in a fluid, or how strongly fluid layers resist relative motion. 
+
+![[Viscosity-4.png|612]]
+
+If the momentum transfer is strong within the fluid, the bottom surface will affect the fluid particles far away from it, thus reducing the terminal velocity $V_{T}$ of the top surface.
+
+Consider two fluids where the momentum transfer of fluid 1 is stronger than that of fluid 2. This means that
+$$
+V_{T}^{1} < V_{T}^{2}
+$$
+Using $\tau=\mu  \frac{du}{dy}$ for both, we see that this means $\mu_{1}>\mu_{2}$. Therefore, higher viscosity = better momentum transfer between fluid layers. This makes sense, since a solid, with infinitely high viscosity, transfer momentum perfectly.
