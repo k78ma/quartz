@@ -6,7 +6,9 @@ kanban-plugin: basic
 
 ## MECH 2210
 
-- [ ] Review Viscosity
+- [ ] Chapter 1
+- [ ] Assignment 1 - Feb 20
+- [ ] Chapter 2
 
 
 ## FINA 2203
@@ -23,7 +25,11 @@ kanban-plugin: basic
 
 
 
+***
 
+## Archive
+
+- [ ] Review Viscosity
 
 %% kanban:settings
 ```
