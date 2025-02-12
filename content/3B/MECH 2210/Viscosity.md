@@ -60,10 +60,36 @@ which means that $\tau \propto \frac{du}{dy}$ or
 $$
 \tau=\mu  \frac{du}{dy} \quad \text{or} \quad \tau=\left| \mu  \frac{du}{dy} \right|
 $$
-where $\mu$ is the **dynamic viscosity** of the fluid, with units of $\text{Pa}\cdot \text{s}$.
+where $\mu$ is the **dynamic viscosity** or **absolute viscosity** of the fluid
 
 Any fluid that satisfies the above is a **Newtonian fluid**.
 
+### Dimensions
+Shear stress $\tau$ is $F /A$ which is equivalent to $F / L^{2}$. We also know that the velocity gradient tells us how velocity changes with respect to distance, so it has units: 
+$$
+\frac{du}{dy} = \frac{L}{T} \times \frac{1}{L}=\frac{1}{T}
+$$
+Thus, re-arranging for $\mu$ would give
+$$
+\mu = \frac{\tau}{ du / dy}= \frac{F / L^{2}}{1  / T}=\frac{F\cdot T}{L^{2}}
+$$
+which would have SI units of $\frac{\text{N}\cdot \text{s}}{\text{m}^{2}}$.
+
+### Kinematic Viscosity
+Kinematic viscosity is defined as
+$$
+\nu = \frac{\mu}{\rho}
+$$
+which has units of
+$$
+\frac{F\cdot T}{L^{2}}\cdot \frac{L^{3}}{M} = \frac{L^{2}}{T} = \frac{\text{m}^{2}}{s}
+$$
+### Rate of Shearing Strain
+Another quantity we sometimes use is the rate of shearing strain:
+$$
+\dot{\gamma}= \frac{du}{dy}
+$$
+which signifies the rate at which $B$ is changing.
 ## Physical Intuition
 
 We can think about viscosity as a measure of momentum transfer in a fluid, or how strongly fluid layers resist relative motion. 
@@ -77,3 +103,4 @@ $$
 V_{T}^{1} < V_{T}^{2}
 $$
 Using $\tau=\mu  \frac{du}{dy}$ for both, we see that this means $\mu_{1}>\mu_{2}$. Therefore, higher viscosity = better momentum transfer between fluid layers. This makes sense, since a solid, with infinitely high viscosity, transfer momentum perfectly.
+

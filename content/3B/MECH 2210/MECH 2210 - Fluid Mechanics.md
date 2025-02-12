@@ -12,7 +12,8 @@ aliases:
 - [[Physical Properties of Fluids]]
 - [[Ideal Gas Law]]
 - [[Viscosity]]
-- [[Compressibility]]
+    - [[Viscosity Example]]
+- [[Bulk Modulus]]
 - [[Surface Tension]]
 
 ## Fluid Statics
