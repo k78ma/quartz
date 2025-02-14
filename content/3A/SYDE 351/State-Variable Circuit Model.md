@@ -10,6 +10,7 @@ For circuits, we can derive a [[State-Variable Models|state-variable model]] by:
 1. Find storage elements (inductances $L$ and capacitances $C$)
 2. Consider energy stored as $\frac{1}{2}Cv^{2}$ and $\frac{1}{2}Lv^{2}$
 
+## RLC Example 1
 Consider the series RLC circuit shown below.
 
 ![[State-Variable Circuit Model.png]]
@@ -54,3 +55,5 @@ v_{c}
 v_{s}
 \end{bmatrix}
 $$
+
+## RLC Example 2

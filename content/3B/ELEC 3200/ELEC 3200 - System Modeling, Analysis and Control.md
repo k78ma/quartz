@@ -13,5 +13,7 @@ aliases:
 - [[Unilateral Signal Review]]
 
 ## State-Space Models
-- [[State-Space Models]]
-- 
+- [[State-Variable Models]]
+    - [[Basic State-Space Model Examples]]
+- [[State-Variable Circuit Model]]
+    - 

@@ -5,10 +5,23 @@ tags:
 date: 2024-06-27
 aliases:
   - state-variable models
+  - state-space model
 ---
 State-variable models are made of first-order differential equations, allowing linear algebra to be used to solve problems. They are formed by defining higher-order derivatives as a cascade of first-order derivatives.
 
-Generally, we have various time derivatives of some function $x$:
+The state variables of a system are a set of independent variables whose values at time $t_{0}$, together with input for all $t \geq t_{0}$, determine the behavior of the system for all $t\geq t_{0}$.
+- **State variables** are used to represent the states of a system
+- The set of possible combinations of state variable values is called the **state space** of the system 
+- The equations relating the current state of a system to its most recent input and past states are called the **state equations**
+- The equations expressing the values of the output variables in terms of the state variables and inputs are called the **output equations**
+## Setting State Variables
+Suppose that a differential equation model of a system is already obtained, the variables in the differential equations are the input $u(t)$ and the internal variables $v_{1}(t), \dots,v_{p}(t)$, and the highest order of the derivatives of $v_{i}(t)$ in the differential equations is $q_{i}$. Then we can choose
+$$
+v_{i}(t), \dot{v}_{i}(t), \ddot{v}_{i}(t), \dots,v_{i}^{(q_{i}-1)}(t)\quad \quad \quad  i=1,2,\dots ,p
+$$
+as the **state variables**. So, we choose the state variables up to **one order lower** than the highest-order derivative.
+
+In SYDE 351, if we have various time derivatives of some function $x$:
 $$
 x(t), \dot{x}(t), \ddot{x}(t), \dddot{x}(t)
 $$

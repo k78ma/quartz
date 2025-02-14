@@ -7,8 +7,7 @@ aliases:
   - corporation
 ---
 ## Features of Corporations
-- Separate legal entity (the right to sue and be sued  
-in its own name)  
+- Separate legal entity (the right to sue and be sued in its own name)  
 - Unlimited life  
 - Investor ownership  
 - Limited liability of the shareholders  
