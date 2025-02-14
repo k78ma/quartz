@@ -27,4 +27,6 @@ aliases:
 - [[KD Tree]]
 
 ## Projects
-- [[TurtleBot Control]]
+- [[TurtleBot Control and Odometry]]
+
+

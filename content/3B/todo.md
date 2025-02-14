@@ -1,7 +1,6 @@
 ---
-
 kanban-plugin: basic
-
+draft: "true"
 ---
 
 ## MECH 2210

@@ -10,7 +10,11 @@ aliases:
 > [!question] Problem 1
 > Give an example of a linear map $T$ with $\dim \text{null } T=3$ and $\dim \text{range } T=2$.
 
-
+Consider
+$$
+T\in \mathcal{L}(\mathbb{F}^{5}, \mathbb{F}^{2})\, : \,T(x_{1},x_{2},x_{3},x_{4},x_{5})=(x_{1},x_{2})
+$$
+Then the null space is all vectors of the form $(0,0, x_{3},x_{4},x_{5})$, giving $\dim \text{null } T=3$. The range is all vectors of the form $(x_{1},x_{2})$, which clearly gives $$
 
 > [!question] Problem 2
 > 
