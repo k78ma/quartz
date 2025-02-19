@@ -11,9 +11,14 @@ aliases:
 - [[Fluid]]
 - [[Physical Properties of Fluids]]
 - [[Ideal Gas Law]]
+### Viscosity
 - [[Viscosity]]
     - [[Newtonian vs Non-Newtonian Fluids]]
+### Compressibility
 - [[Bulk Modulus]]
+- [[Compression and Expansion of Gases]]
+- [[Speed of Sound]]
+### Surface Tension
 - [[Surface Tension]]
 - [[Capillary Action]]
 

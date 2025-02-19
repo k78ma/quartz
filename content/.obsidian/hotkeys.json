@@ -106,7 +106,8 @@
   "templater-obsidian:replace-in-file-templater": [
     {
       "modifiers": [
-        "Alt"
+        "Alt",
+        "Shift"
       ],
       "key": "R"
     }
