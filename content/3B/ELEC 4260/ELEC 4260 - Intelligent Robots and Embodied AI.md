@@ -25,6 +25,9 @@ aliases:
 - [[Types of Maps]]
 - [[Grid Mapping]]
 - [[KD Tree]]
+## Sensors & ICP
+- [[Proprioceptive vs. Exteroceptive Sensors]]
+- 
 
 ## Projects
 - [[TurtleBot Control and Odometry]]
