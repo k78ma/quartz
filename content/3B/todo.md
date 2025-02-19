@@ -1,18 +1,23 @@
 ---
+
 kanban-plugin: basic
 draft: "true"
+
 ---
+
+## Today
+
+- [ ] Chapter 1
+
 
 ## MECH 2210
 
-- [ ] Chapter 1
-- [ ] Assignment 1 - Feb 20
 - [ ] Chapter 2
 
 
 ## FINA 2203
 
-- [ ] Homework 1 - Feb 17
+- [ ] Homework 2 - Feb 24
 
 
 ## ELEC 3200
@@ -24,14 +29,21 @@ draft: "true"
 
 
 
+## Learning + Research
+
+- [ ] [[LADR Exercises 3B]]
+
+
 ***
 
 ## Archive
 
 - [ ] Review Viscosity
+- [ ] Homework 1 - Feb 17
+- [ ] Assignment 1 - Feb 20
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"basic","lane-width":230}
 ```
 %%

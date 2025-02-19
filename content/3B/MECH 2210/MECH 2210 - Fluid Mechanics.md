@@ -12,8 +12,9 @@ aliases:
 - [[Physical Properties of Fluids]]
 - [[Ideal Gas Law]]
 - [[Viscosity]]
-    - [[Viscosity Example]]
+    - [[Newtonian vs Non-Newtonian Fluids]]
 - [[Bulk Modulus]]
 - [[Surface Tension]]
+- [[Capillary Action]]
 
 ## Fluid Statics

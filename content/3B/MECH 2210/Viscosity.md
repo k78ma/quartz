@@ -76,7 +76,7 @@ $$
 which would have SI units of $\frac{\text{N}\cdot \text{s}}{\text{m}^{2}}$.
 
 ### Kinematic Viscosity
-Kinematic viscosity is defined as
+Kinematic viscosity is combines viscosity with density, and is defined as:
 $$
 \nu = \frac{\mu}{\rho}
 $$
@@ -103,4 +103,8 @@ $$
 V_{T}^{1} < V_{T}^{2}
 $$
 Using $\tau=\mu  \frac{du}{dy}$ for both, we see that this means $\mu_{1}>\mu_{2}$. Therefore, higher viscosity = better momentum transfer between fluid layers. This makes sense, since a solid, with infinitely high viscosity, transfer momentum perfectly.
+
+## Example
+
+![[Viscosity-5.png]]
 

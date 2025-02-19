@@ -8,10 +8,10 @@ aliases:
 ---
 The ideal gas law is an [[Equation of State|equation of state]] stating:
 $$
-p=\rho'RT
+p=\rho RT
 $$
 where:
-- $\rho'$ is the number density
+- $\rho$ is the number density
 - $R$ is the gas constant $R=N_{A}k_B$
     - $N_{A}=6.023\times 10^{23}$ (Avogadro's number)
     - $k_{B}=1.38 \times 10^{-23} \text{J} / \text{K}$
