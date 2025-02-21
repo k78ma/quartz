@@ -6,6 +6,7 @@ date: 2025-01-21
 aliases:
   - surjectivity
   - onto
+  - surjective
 ---
 
 > [!defintion] Surjective

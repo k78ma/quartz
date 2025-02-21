@@ -27,7 +27,10 @@ aliases:
 - [[KD Tree]]
 ## Sensors & ICP
 - [[Proprioceptive vs. Exteroceptive Sensors]]
-- 
+- [[Sensor Characteristics]]
+- [[Sensor Calibration]]
+- [[IR Sensor]]
+- [[Time-of-Flight Sensors]]
 
 ## Projects
 - [[TurtleBot Control and Odometry]]

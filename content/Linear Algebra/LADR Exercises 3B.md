@@ -39,18 +39,60 @@ This means that $T(S(Tv))=0$ for all $v$. The final operation would be $S(0)$, a
 > - (a) What property of $T$ corresponds to $v_{1}, \dots,v_{m}$ spanning $V$?
 > - (b) What property of $T$ corresponds to $v_{1}, \dots,v_{m}$ being linearly indepedent?
 
-(a) 
+(a) If $v_{1}, \dots,v_{m}$ spans $V$, for all $v \in V$, there must exist scalars $z_{1}, \dots,z_{m}$ such that
+$$
+v=z_{1}v_{1}+\dots+z_{m}v_{m}
+$$
+which is the definition of the linear transformation $T(z_{1}, \dots, z_{m})=z_{1}v_{1}+\dots+z_{m}v_{m}$. Since every $v \in V$ can be written as $T(z_{1}, \dots,z_{m})$, we can say that $\text{range } T=V$. Thus, $T$ is [[Surjectivity|surjective]].
+
+(b) If $v_{1}, \dots,v_{m}$ are linearly independent, if we have $z_{1}v_{1}+\dots+z_{m}v_{m}=0$, we need $z_{1}, \dots,z_{m}=0$. 
+
+The key here again is to recognize that the $z_{1}v_{1}+\dots+z_{m}v_{m}$ is the operation applied by our map $T$. This means that if we apply the map and the result is zero as below:
+$$
+T(z_{1}, \dots, z_{m})=z_{1}v_{1}+\dots z_{m}v_{m}=0
+$$
+the only possible case when this happens is when $z_{1}=\dots=z_{m}=0$ for linear independence. This implies that $\text{null } T=0$, and since [[Injectivity Implies Null Space is 0 and vice versa|injectivity implies null space is 0 and vice versa]], the map $T$ must be [[Injectivity|injective]].
 
 > [!question] Problem 4
 > Show that $\{ T\in \mathcal{L}(\mathbb{R}^{5}, \mathbb{R}^{4})\, : \,\dim \text{null } T>2 \}$ is not a subspace of $\mathcal{L}(\mathbb{R}^{5}, \mathbb{R}^{4})$.
 
+We can show this is not closed under addition with a counterexample. Suppose we have $T_{1}, T_{2}\in T$, such that
+$$
+\begin{align}
+T_{1}(x_{1},x_{2},x_{3},x_{4},x_{5})=(0,0, x_{3},x_{4}) \\
+T_{2}(x_{1},x_{2},x_{3},x_{4},x_{5})=(x_{1},x_{2},0,0)
+\end{align}
+$$
+Then, we have
+$$
+\begin{align}
+\text{null }  (T_{1}) & =\{ (x_{1},x_{2},0,0, x_{5}) \, : \,x_{1},x_{2},x_{5}\in  \mathbb{R} \}\\
+\text{null }  (T_{2}) & =\{ (0,0,x_{3},x_{4}, x_{5}) \, : \, x_{3}, x_{4}, x_{5} \in  \mathbb{R} \}
+\end{align}
+$$
+This means that both $\text{null } (T_{1})$ and $\text{null } (T_{2})$ have dimension $3$.
+
+However, note that:
+$$
+\begin{align}
+(T_{1}+T_{2})(x_{1},x_{2},x_{3},x_{4},x_{5}) & =(0,0,x_{3},x_{4})+(x_{1},x_{2},0,0) \\
+     & =(x_{1},x_{2},x_{3},x_{4})
+\end{align}
+$$
+such that
+$$
+\text{null }  (T_{1}+T_{2})=\{ ((0,0,0,0,x_{5})) \, : \,x_{5}\in  \mathbb{R} \}
+$$
+which means that $\dim \text{null } (T_{1}+T_{2})=1$. Thus, $(T_{1}+T_{2})\notin T$, since members of $T$ must have null space dimension higher than 2. This means that $T$ is not closed under addition, and hence it cannot be a subspace of $\mathcal{L}(\mathbb{R}^{5}, \mathbb{R}^{4})$. 
+
 
 > [!question] Problem 5
+> Give an example of $T\in \mathcal{L}(\mathbb{R}^{4})$ such that $\text{range } T=\text{null } T$.
 > 
 
 
 > [!question] Problem 6
-> 
+> Prove that there does not exist $T \in \mathcal{L}(\mathbb{R}^{5})$ such that $\text{range } T=\text{null } T$.
 
 
 > [!question] Problem 7

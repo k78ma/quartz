@@ -26,4 +26,12 @@ aliases:
 - [[Fluid Pressure at a Point]]
 - [[Basic Equation for Pressure Field]]
 - [[Pressure Variation in a Fluid at Rest]]
-- 
+- [[Standard Atmosphere]]
+- [[Measure of Pressure]]
+- [[Manometry]]
+- [[Hydrostatic Force on a Plane Surface]]
+- [[Hydrostatic Force on a Plane Surface]]
+- [[Pressure Prism]]
+- [[Hydrostatic Force on a Curved Surface]]
+- [[Buoyancy and Stability]]
+- [[Pressure Variation in a Fluid with Rigid Motion]]
