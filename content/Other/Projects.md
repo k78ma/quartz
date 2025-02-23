@@ -9,6 +9,8 @@ draft: "true"
 - MNIST ResNet from scratch in numpy and torch
 
 Ideas:
+- [ ] NeRF of ponky sleeping
+    - [ ] Optimize camera poses jointly with NeRF training
 - [ ] Git VCS with Rust
 - [ ] Quantum ML project
 - [ ] War sentiment analysis – twitter API costs too much
@@ -19,5 +21,6 @@ Ideas:
 - [ ] Learned Kalman Filter
 - [ ] Autonomous Mobile Robot
 - [ ] Neural Network Description Language / Compiler
+
 
 Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)

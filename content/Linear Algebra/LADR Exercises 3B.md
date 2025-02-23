@@ -90,9 +90,23 @@ which means that $\dim \text{null } (T_{1}+T_{2})=1$. Thus, $(T_{1}+T_{2})\notin
 > Give an example of $T\in \mathcal{L}(\mathbb{R}^{4})$ such that $\text{range } T=\text{null } T$.
 > 
 
+An example would be
+$$
+T(x_{1},x_{2},x_{3},x_{4})=(0,0,x_{1},x_{2})
+$$
+as this would give
+$$
+\begin{align}
+\text{null }  T & =\{ (0,0,x_{3},x_{4})\, : \,x_{3},x_{4}\in  \mathbb{R} \} \\
+\text{range }  T & =\{ (0,0,x_{1},x_{2})\, : \,x_{1},x_{2}\in  \mathbb{R} \}
+\end{align}
+$$
+In both the null space and the range, the first two elements are zero and the last two elements are arbitrary scalars.
 
 > [!question] Problem 6
 > Prove that there does not exist $T \in \mathcal{L}(\mathbb{R}^{5})$ such that $\text{range } T=\text{null } T$.
+
+The [[Fundamental Theorem of Linear Maps|rank-nullity theorem]] requires $\dim  V=\dim  \text{null }  T+\dim  \text{range }  T$. In this case $V$ is $\mathbb{R}^{5}$, so $\dim V=5$. If we define $d =\text{range } T=\text{null } T$, we would need $5=2d$ or $d=2.5$. Since dimension needs to be a whole number, this is not possible.
 
 
 > [!question] Problem 7

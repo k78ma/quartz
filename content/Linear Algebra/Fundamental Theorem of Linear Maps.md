@@ -5,6 +5,7 @@ tags:
 date: 2025-01-22
 aliases:
   - fundamental theorem of linear maps
+  - rank-nullity theorem
 ---
 > [!theorem] Fundamental theorem of linear maps
 > Suppose $V$ is finite-dimensional and $T \in \mathcal{L}(V,W)$. Then $\text{range } T$ is finite-dimensional and

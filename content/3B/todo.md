@@ -33,10 +33,10 @@ draft: "true"
 
 ## ELEC 4260
 
-- [ ] A1.5 - Bonus<br>#elec3200
-- [ ] A1.6 - Report<br>#elec3200
 - [ ] A1.3 - ICP<br>#elec4260
 - [ ] A1.4 - Real-world<br>#elec4260
+- [ ] A1.5 - Bonus<br>#elec3200
+- [ ] A1.6 - Report<br>#elec3200
 
 
 ## Learning + Research
@@ -48,6 +48,7 @@ draft: "true"
 - [ ] LADR 3B: 23-26
 - [ ] LADR 3B: 27-30
 - [ ] LADR 3B: 31-32
+- [ ] 4D clustering<br>#wato
 
 
 ***
