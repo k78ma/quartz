@@ -6,7 +6,7 @@ aliases:
   - reading list
 draft: "true"
 progress_1_title: Linear Algebra Done Right
-progress_1_value: 78
+progress_1_value: 80
 progress_1_max: 447
 progress_2_title: The Algorithm Design Manual
 progress_2_value: 186
@@ -33,6 +33,7 @@ Immediate:
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 
 Next:
+- [ ] MLAB2
 - [ ] Structure and Interpretation of Computer Programs
 - [ ] minitorch
   
