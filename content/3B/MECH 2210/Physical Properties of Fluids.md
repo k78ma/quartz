@@ -6,6 +6,7 @@ date: 2025-02-10
 aliases:
   - physical properties of fluids
   - specific weight
+  - fluid properties
 ---
 ## Density
 The density of a fluid, $\rho$, is defined by mass per unit volume:
@@ -28,6 +29,8 @@ $$
 \gamma= \frac{mg}{\forall  }=\rho g \quad [\text{N} / \text{m}^{3}]
 $$
 where $g$ is the local acceleration by gravity, $g=9.81 \frac{\text{m}}{\text{s}^{2}}$.
+
+This is particularly useful in the form of $\text{weight}=\gamma\cdot \text{volume}$.
 
 ## Specific gravity
 The specific gravity of a fluid, $SG$, is defined as the ratio of the density of the fluid to the density of water at some specified temperature, usually $4\degree \text{C}$. At this point, $\rho_{\text{H}_{2}\text{O}@4\degree  \text{C}}=1000 \text{ kg}/\text{m}^{3}$.

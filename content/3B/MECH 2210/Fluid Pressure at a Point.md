@@ -5,6 +5,7 @@ tags:
 date: 2025-02-24
 aliases:
   - fluid pressure at a point
+  - Pascal's law
 ---
 Pressure is used to indicate the normal force per unit area at a given point acting on a given plane within the fluid mass of interest. How does the pressure at a point vary with the orientation of the plane passing through the point?
 
