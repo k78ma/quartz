@@ -5,6 +5,7 @@ tags:
 date: 2025-02-10
 aliases:
   - physical properties of fluids
+  - specific weight
 ---
 ## Density
 The density of a fluid, $\rho$, is defined by mass per unit volume:

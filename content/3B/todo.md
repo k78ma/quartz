@@ -7,14 +7,15 @@ draft: "true"
 
 ## Today
 
-- [ ] LADR 3B: 3-6
 - [ ] Chapter 2<br>#mech2210
 - [ ] Chapter 3 Notes<br>#fina2203
 - [ ] Lecture 4<br>#elec3200
+- [ ] LADR 3B: 7-10<br>#lin-alg
 
 
 ## MECH 2210
 
+- [ ] Homework 2 - Feb 27<br>#mech2210
 
 
 ## FINA 2203
@@ -41,7 +42,6 @@ draft: "true"
 
 ## Learning + Research
 
-- [ ] LADR 3B: 7-10
 - [ ] LADR 3B: 11-14
 - [ ] LADR 3B: 15-18
 - [ ] LADR 3B: 19-22
@@ -62,6 +62,7 @@ draft: "true"
 - [ ] Homework 2 - Feb 24
 - [ ] A1.1 - Wheel Odom<br>#elec4260
 - [ ] A1.2 - Gridmap<br>#elec4260
+- [ ] LADR 3B: 3-6
 
 %% kanban:settings
 ```

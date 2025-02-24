@@ -23,6 +23,7 @@ aliases:
 - [[Capillary Action]]
 
 ## Fluid Statics
+- [[Fluid Statics]]
 - [[Fluid Pressure at a Point]]
 - [[Basic Equation for Pressure Field]]
 - [[Pressure Variation in a Fluid at Rest]]
