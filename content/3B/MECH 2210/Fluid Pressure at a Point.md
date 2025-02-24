@@ -47,4 +47,4 @@ p_{y}=p_{s} \\
 p_{z}=p_{s}
 \end{align}
 $$
-or just $p_{y}=p_{z}=p_{s}$. The angle was arbitrarily chosen so we can conclude that the ==pressure at a point in a fluid at rest, or in motion, is independent of direction as long as there are no shearing stresses present==.
+or just $p_{y}=p_{z}=p_{s}$. The angle was arbitrarily chosen so we can conclude that the ==pressure at a point in a fluid at rest, or in motion, is independent of direction as long as there are no shearing stresses present.== This is known as **Pascal's Law**.
