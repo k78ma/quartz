@@ -107,9 +107,9 @@
     {
       "modifiers": [
         "Alt",
-        "Shift"
+        "Mod"
       ],
-      "key": "R"
+      "key": "T"
     }
   ],
   "insert-template": [

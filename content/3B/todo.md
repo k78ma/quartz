@@ -8,7 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 2<br>#mech2210
-- [ ] Chapter 3 Notes<br>#fina2203
 - [ ] Lecture 4<br>#elec3200
 - [ ] LADR 3B: 7-10<br>#lin-alg
 
@@ -63,6 +62,7 @@ draft: "true"
 - [ ] A1.1 - Wheel Odom<br>#elec4260
 - [ ] A1.2 - Gridmap<br>#elec4260
 - [ ] LADR 3B: 3-6
+- [ ] Chapter 3 Notes<br>#fina2203
 
 %% kanban:settings
 ```
