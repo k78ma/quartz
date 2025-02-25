@@ -112,7 +112,7 @@ The [[Fundamental Theorem of Linear Maps|rank-nullity theorem]] requires $\dim  
 > [!question] Problem 7
 > Suppose $V$ and $W$ are finite-dimensional with $2\leq \dim V\leq \dim W$. Show that $\{ T\in \mathcal{L}(V,W)\, : \,T \text{ is not injective}\}$ is not a subspace of $\mathcal{L}(V,W)$.
 
-
+$T$ is not injective means that for some distinct $u,v \in V$, $Tu=Tv \in W$. This means that for some 
 
 > [!question] Problem 8
 > Suppose $V$ and $W$ are finite-dimensional with $\dim V\geq \dim W\geq 2$. Show that $\{ T\in \mathcal{L}(V,W)\, : \,T \text{ is not surjective}\}$ is not a subspace of $\mathcal{L}(V,W)$.

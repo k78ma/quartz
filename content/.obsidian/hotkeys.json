@@ -103,19 +103,19 @@
       "key": "S"
     }
   ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "T"
+    }
+  ],
   "templater-obsidian:replace-in-file-templater": [
     {
       "modifiers": [
         "Alt",
         "Mod"
-      ],
-      "key": "T"
-    }
-  ],
-  "insert-template": [
-    {
-      "modifiers": [
-        "Alt"
       ],
       "key": "T"
     }
