@@ -7,7 +7,6 @@ aliases:
   - linear map to lower-dimensional space is not injective
   - "3.22"
 ---
-
 > [!theorem] Linear map to a lower-dimensional space is not injective
 > Suppose $V$ and $W$ are finite-dimensional vector spaces such that $\dim V > \dim W$. Then, no linear map from $V$ to $W$ is injective.
 

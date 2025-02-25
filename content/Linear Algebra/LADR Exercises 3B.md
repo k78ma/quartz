@@ -112,7 +112,27 @@ The [[Fundamental Theorem of Linear Maps|rank-nullity theorem]] requires $\dim  
 > [!question] Problem 7
 > Suppose $V$ and $W$ are finite-dimensional with $2\leq \dim V\leq \dim W$. Show that $\{ T\in \mathcal{L}(V,W)\, : \,T \text{ is not injective}\}$ is not a subspace of $\mathcal{L}(V,W)$.
 
-$T$ is not injective means that for some distinct $u,v \in V$, $Tu=Tv \in W$. This means that for some 
+Suppose $\dim V=n$ and $\dim W=m$, with $2\leq n\leq m$. Let $v_{1}, \dots,v_{n}$ be a basis of $V$ and $w_{1}, \dots,w_{m}$ be a basis of $W$.
+
+Define $T_{1},T_{2}\in \mathcal{L}(V,W)$ such that
+$$
+\begin{align}
+T_{1}(a_{1}v_{1}+\dots+a_{n}v_{n}) & =a_{2}w_{2}+\dots+a_{n}w_{n} \\
+T_{2}(a_{1}v_{1}+\dots+a_{n}v_{n}) & =a_{1}w_{1}+\dots+a_{n-1}w_{n-1}
+\end{align}
+$$
+To find the null space of $T_{1}$, we consider $a_{2}w_{2}+\dots+a_{n}w_{n}=0$. Since $w_{2}, \dots,w_{n}$ are linearly independent (as they are part of a basis), the only solution is $a_{2}=a_{3}=\dots=a_{n}=0$. This means that $a_{2}w_{2}+\dots+a_{n}w_{n}=0$ for any $v=a_{1}v_{1}$, meaning that the null space consists of all scalar multiples of $v_{1}$, which gives $\dim \text{null } T_{1}=1$. Similarly, $\dim \text{null } T_{2}=1$.
+
+Since $\dim \text{null } T_{1}=\dim \text{null } T_{2}=1$, these maps are not injective ([[Injectivity Implies Null Space is 0 and vice versa|injectivity implies null space is 0 and vice versa]]).
+
+However:
+$$
+\begin{align}
+(T_{1}+T_{2})(a_{1}v_{1}+\dots+a_{n}v_{n}) & =T_{1}(a_{1}v_{1}+\dots+a_{n}v_{n})+T_{2}(a_{1}v_{1}+\dots+a_{n}v_{n}) \\
+     & =a_{1}w_{1}+2a_{2}w_{2}+\dots+2a_{n-1}w_{n-1}+a_{n}w_{n}
+\end{align}
+$$
+Imitating the process above and finding the null space of $(T_{1}+T_{2})$ by finding $v$ such that $(T_{1}+T_{2})(v)=0$ would show us that the only solution is $v=0$, as we have the $n$ terms this time instead of $n-1$. This means that $T_{1}+T_{2}$ is injective. Hence, we have found a counterexample showing that set is not closed under addition, and cannot be a subspace of $\mathcal{L}(V,W)$. $\blacksquare$
 
 > [!question] Problem 8
 > Suppose $V$ and $W$ are finite-dimensional with $\dim V\geq \dim W\geq 2$. Show that $\{ T\in \mathcal{L}(V,W)\, : \,T \text{ is not surjective}\}$ is not a subspace of $\mathcal{L}(V,W)$.
