@@ -36,6 +36,7 @@ Next:
 - [ ] MLAB2
 - [ ] Structure and Interpretation of Computer Programs
 - [ ] minitorch
+- [ ] Nand2Tetris
   
 Casual:
 - [ ] A Programmer's Guide To Mathematics <progress max=398 value=26> </progress>
