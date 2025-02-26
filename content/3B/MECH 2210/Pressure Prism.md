@@ -55,3 +55,40 @@ y_{2} & =\frac{2}{3}(h_{2}-h_{1})
 \end{align}
 $$
 are the $y$ coordinates for centroids of the rectangle and triangle ABDE and BCD respectively.
+
+## Example
+
+A pressurized tank contains oil ($SG=0.90$) and has a square, 0.6-m by 0.6-m plate bolted to its side. The pressure gage on the top of the tank reads 50 kPa, and the outside of the tank is at atmospheric pressure. What is the magnitude and location of the resultant force on the attached plate?
+
+![[Pressure Prism-3.png]]
+
+We first find $F_{1}$ and $F_{2}$:
+$$
+\begin{align}
+F_{1} & = \gamma h_{1}A+p_{s}A \\
+ &  = (\gamma h_{1}+p_{s}) A \\
+     & =[(0.90) (9.8\cdot 10^{3} \text{ N/m}^{3})(2 \text{ m}) +50\times 10^{3} \text{ N/m}^{2} \\
+     & =24.4 \times 10^{3} \text{ N}
+\end{align}
+$$
+$$
+\begin{align}
+F_{2} & =\gamma  \frac{1}{2}(h_{2}-h_{1})A \\
+ & =(0.9)(9.8\cdot 10^{3}\text{ N/m}^{3}) \cdot  \frac{1}{2}(0.6 \text{ m})\cdot (0.36 \text{ m}^{2}) \\
+ & =954 \text{ N} \\
+\end{align}
+$$
+
+Then we can find the magnitude of the resultant force with:
+$$
+F_{R}=F_{1}+F_{2}=25.4 \times 10^{3} \text{ N}
+$$
+The center of pressure can be found with:
+$$
+\begin{align}
+F_{R}y_{o} & =F_{1}y_{1}+F_{2}y_{2} \\
+F_{R}y_{o} & =F_{1}\cdot 0.3+F_{2}\cdot 0.2 \\
+y_{o} & =0.296 \text{ m}
+\end{align}
+$$
+

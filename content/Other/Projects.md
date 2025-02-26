@@ -21,6 +21,7 @@ Ideas:
 - [ ] Learned Kalman Filter
 - [ ] Autonomous Mobile Robot
 - [ ] Neural Network Description Language / Compiler
+- [ ] mini VLA or distilled VLA?
 
 
 Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)

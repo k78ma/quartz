@@ -8,9 +8,11 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 2<br>#mech2210
-- [ ] Lecture 4<br>#elec3200
-- [ ] LADR 3B: 7-10<br>#lin-alg
 - [ ] Homework 2 - Feb 27<br>#mech2210
+- [ ] Chapter 4 Notes<br>#fina2203
+- [ ] Chapter 4 MFL Study<br>#fina2203
+- [ ] Lecture 4 + HW 1.1<br>#elec3200
+- [ ] LADR 3B: 7-10<br>#lin-alg
 
 
 ## MECH 2210
@@ -19,16 +21,18 @@ draft: "true"
 
 ## FINA 2203
 
-- [ ] Chapter 4 Notes<br>#fina2203
 - [ ] Chapter 5 Notes<br>#fina2203
-- [ ] Chapter 4 MFL Study<br>#fina2203
 - [ ] Chapter 5 MFL Study<br>#fina2203
 - [ ] Homework 3 - March 3<br>#fina2203
+- [ ] Chapter 8 Notes<br>#fina2203
+- [ ] Chapter 8 MFL Study<br>#fina2203
 
 
 ## ELEC 3200
 
-- [ ] Lecture 5/6<br>#elec3200
+- [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
+- [ ] Lecture 7 + HW 1.4, 1.5<br>#elec3200
+- [ ] Homework 1 - March 11<br>#elec3200
 
 
 ## ELEC 4260
@@ -63,6 +67,7 @@ draft: "true"
 - [ ] A1.2 - Gridmap<br>#elec4260
 - [ ] LADR 3B: 3-6
 - [ ] Chapter 3 Notes<br>#fina2203
+- [ ] HW 1.1<br>#elec3200
 
 %% kanban:settings
 ```

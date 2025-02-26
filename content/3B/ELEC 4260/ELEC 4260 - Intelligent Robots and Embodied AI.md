@@ -33,6 +33,12 @@ aliases:
 - [[Time-of-Flight Sensors]]
 
 ## Localization
+- [[Localization]]
+- [[Probability for Localization]]
+- [[Bayes Filter]]
+- [[Discrete Bayes Filter]]
+- [[Particle Filter]]
+- [[Kalman Filter]]
 ## Projects
 - [[TurtleBot Control and Odometry]]
 

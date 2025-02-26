@@ -28,15 +28,18 @@ aliases:
 - [[Fluid Pressure at a Point]]
 - [[Basic Equation for Pressure Field]]
 - [[Pressure Variation in a Fluid at Rest]]
-
+### Pressure Measurement
 - [[Standard Atmosphere]]
 - [[Measurement of Pressure]]
 - [[Manometry]]
-
+### Hydrostatic Forces
 - [[Hydrostatic Force on a Plane Surface]]
 - [[Pressure Prism]]
 - [[Hydrostatic Force on a Curved Surface]]
-- [[Buoyancy and Stability]]
+
+### Buoyancy and Stability
+- [[Archimedes' Principle]]
+- [[Fluid Stability]]
 - [[Pressure Variation in a Fluid with Rigid Motion]]
 
 ## Bernoulli's Equation
