@@ -7,6 +7,7 @@ date: 2025-02-02
 aliases:
   - mech 2210 - fluid mechanics
 ---
+- [[Fluid Mechanics Summary Slides]]
 ## Basic Properties of Fluids
 - [[Fluid]]
 - [[Physical Properties of Fluids]]
@@ -33,8 +34,9 @@ aliases:
 - [[Manometry]]
 
 - [[Hydrostatic Force on a Plane Surface]]
-- [[Hydrostatic Force on a Plane Surface]]
 - [[Pressure Prism]]
 - [[Hydrostatic Force on a Curved Surface]]
 - [[Buoyancy and Stability]]
 - [[Pressure Variation in a Fluid with Rigid Motion]]
+
+## Bernoulli's Equation

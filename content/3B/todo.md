@@ -10,11 +10,11 @@ draft: "true"
 - [ ] Chapter 2<br>#mech2210
 - [ ] Lecture 4<br>#elec3200
 - [ ] LADR 3B: 7-10<br>#lin-alg
+- [ ] Homework 2 - Feb 27<br>#mech2210
 
 
 ## MECH 2210
 
-- [ ] Homework 2 - Feb 27<br>#mech2210
 
 
 ## FINA 2203

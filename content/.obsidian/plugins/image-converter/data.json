@@ -38,7 +38,7 @@
   "customOutputPath": "",
   "previewPath": "",
   "manage_duplicate_filename": "disabled",
-  "destructive_resizeMode": "Width",
+  "destructive_resizeMode": "None",
   "destructive_desiredWidth": 580,
   "destructive_desiredHeight": 800,
   "destructive_desiredLongestEdge": 800,
