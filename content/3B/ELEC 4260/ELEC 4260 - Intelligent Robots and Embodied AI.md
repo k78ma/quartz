@@ -32,6 +32,7 @@ aliases:
 - [[IR Sensor]]
 - [[Time-of-Flight Sensors]]
 
+## Localization
 ## Projects
 - [[TurtleBot Control and Odometry]]
 

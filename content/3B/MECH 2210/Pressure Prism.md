@@ -33,14 +33,25 @@ In this instance, the cross section of the pressure prism is trapezoidal. Howeve
 $$
 F_{R}=F_{1}+F_{2}
 $$
-where the components are can readily be determined by inspection for rectangular surfaces. The location of $F_{R}$ can be determined by summing moments about some convenient axis, such as one passing through A. In this instance
-$$
-F_{R}y_{A}=F_{1}y_{1}+F_{2}y_{2}
-$$
-where
+where the components are can readily be determined by inspection for rectangular surfaces, such that
 $$
 \begin{align}
 F_{1} & =\gamma h_{1}A \\[2ex] 
 F_{2} & =\frac{1}{2}(h_{2}-h_{1})\gamma A
 \end{align}
 $$
+The location of $F_{R}$ can be determined by summing moments about some convenient axis, such as one passing through $A$. In this instance
+$$
+\begin{align}
+F_{R}y_{A} & =F_{1}y_{1}+F_{2}y_{2} \\[2ex]
+    y_{A} & = \frac{F_{1}y_{1}+F_{2}y_{2}}{F_{R}}
+\end{align}
+$$
+where
+$$
+\begin{align}
+y_{1} & =\frac{1}{2}(h_{2}-h_{1}) \\[2ex]
+y_{2} & =\frac{2}{3}(h_{2}-h_{1})
+\end{align}
+$$
+are the $y$ coordinates for centroids of the rectangle and triangle ABDE and BCD respectively.
