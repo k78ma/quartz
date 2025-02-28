@@ -5,7 +5,6 @@ tags:
 date: 2023-10-24
 aliases:
 ---
-The convolution integral of two $x_{1}(t)$ and $x_{2}(t)$ is denoted symbolically as:
 $$
 x_{1}(t) * x_{2}(t) = \int_{-\infty}^{\infty} x_{1}(\tau)\;x_{1}(t-\tau) \, d\tau 
 $$

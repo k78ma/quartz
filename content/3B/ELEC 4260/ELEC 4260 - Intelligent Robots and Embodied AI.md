@@ -31,7 +31,7 @@ aliases:
 - [[Sensor Calibration]]
 - [[IR Sensor]]
 - [[Time-of-Flight Sensors]]
-
+- [[Iterative Closest Point]]
 ## Localization
 - [[Localization]]
 - [[Probability for Localization]]

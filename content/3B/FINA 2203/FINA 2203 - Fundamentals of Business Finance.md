@@ -1,11 +1,10 @@
 ---
-title: FINA 2203
+title: FINA 2203 - Fundamentals of Business Finance
 tags:
   - 3b
   - fina2203
 date: 2025-02-04
 aliases:
-  - fina 2203
 ---
 ## Basics
 - [[Corporation]]
@@ -24,10 +23,17 @@ aliases:
 
 ### Valuing Cash Flow Streams
 - [[Value of a Cash Flow Stream]]
+- [[Perpetuity]]
+- [[Annuity]]
+- [[Growing Perpetuity]]
+- [[Growing Annuity]]
+- [[Solving Cash Flow Problems]]
+- [[Non-Annual Cash Flow]]
 
+## Interest Rates
+- [[Effective Annual Rate]]
+- [[Annual Percentage Rate]]
+- [[Amortizing Loans]]
 
-- unless specified, always assume end of the year
-
-- Discount rate = discount factor
 ## Other
 - [[FINA 2203 Glossary]]

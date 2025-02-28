@@ -7,22 +7,23 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 2<br>#mech2210
-- [ ] Homework 2 - Feb 27<br>#mech2210
 - [ ] Chapter 4 Notes<br>#fina2203
 - [ ] Chapter 4 MFL Study<br>#fina2203
+- [ ] Understand ICP<br>#elec4260
 - [ ] Lecture 4 + HW 1.1<br>#elec3200
 - [ ] LADR 3B: 7-10<br>#lin-alg
+- [ ] Chapter 5 Notes<br>#fina2203
+- [ ] Chapter 5 MFL Study<br>#fina2203
 
 
 ## MECH 2210
 
+- [ ] Homework 3 - March 7<br>#mech2210
+- [ ] Chapter 3 Notes<br>#mech2210
 
 
 ## FINA 2203
 
-- [ ] Chapter 5 Notes<br>#fina2203
-- [ ] Chapter 5 MFL Study<br>#fina2203
 - [ ] Homework 3 - March 3<br>#fina2203
 - [ ] Chapter 8 Notes<br>#fina2203
 - [ ] Chapter 8 MFL Study<br>#fina2203
@@ -40,7 +41,10 @@ draft: "true"
 - [ ] A1.3 - ICP<br>#elec4260
 - [ ] A1.4 - Real-world<br>#elec4260
 - [ ] A1.5 - Bonus<br>#elec3200
-- [ ] A1.6 - Report<br>#elec3200
+- [ ] A1.6 - Report<br>#elec4260
+- [ ] L2 - Kinematics & Transformations Notes<br>#elec4260
+- [ ] L3 - Sensors & ICP Notes<br>#elec4260
+- [ ] L4 - Localization Notes<br>#elec4260
 
 
 ## Learning + Research
@@ -68,6 +72,8 @@ draft: "true"
 - [ ] LADR 3B: 3-6
 - [ ] Chapter 3 Notes<br>#fina2203
 - [ ] HW 1.1<br>#elec3200
+- [ ] Chapter 2<br>#mech2210
+- [ ] Homework 2 - Feb 27<br>#mech2210
 
 %% kanban:settings
 ```
