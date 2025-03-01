@@ -121,7 +121,7 @@ aliases:
 - [[Synchronous Serial Interface]]
 - [[I2C]]
 - [[SPI]] 
-- [[USB]]
+- [[Universal Serial Bus]]
 
 ## Arbitration
 - [[Controller Arbitration]]

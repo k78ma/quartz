@@ -6,7 +6,6 @@ tags:
 date: 2025-02-04
 aliases:
 ---
-## Basics
 - [[Corporation]]
 - [[Financial Manager]]
 - [[Ownership and Control]]

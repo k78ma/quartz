@@ -1,9 +1,10 @@
 ---
-title: USB
+title: Universal Serial Bus
 tags:
   - mte325
-date: 2024-07-15
-aliases: []
+date: 2025-03-01
+aliases:
+  - USB
 ---
 In the early 1990's, if we wanted to connect a new device, such as a joystick to play a new game, we'd have to turn off the computer, open it up, install a card with the proper connector, close the computer back up, connect the joystick, and power the whole thing back on.
 

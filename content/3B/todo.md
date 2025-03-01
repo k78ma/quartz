@@ -38,7 +38,6 @@ draft: "true"
 
 ## ELEC 4260
 
-- [ ] A1.3 - ICP<br>#elec4260
 - [ ] A1.4 - Real-world<br>#elec4260
 - [ ] A1.5 - Bonus<br>#elec3200
 - [ ] A1.6 - Report<br>#elec4260
@@ -74,6 +73,7 @@ draft: "true"
 - [ ] HW 1.1<br>#elec3200
 - [ ] Chapter 2<br>#mech2210
 - [ ] Homework 2 - Feb 27<br>#mech2210
+- [ ] A1.3 - ICP<br>#elec4260
 
 %% kanban:settings
 ```
