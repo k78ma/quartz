@@ -19,7 +19,6 @@ aliases:
 - [[Valuation Principle]]
 - [[Law of One Price]]
 - [[Time Value of Money]]
-
 ### Valuing Cash Flow Streams
 - [[Value of a Cash Flow Stream]]
 - [[Perpetuity]]
@@ -27,12 +26,12 @@ aliases:
 - [[Growing Perpetuity]]
 - [[Growing Annuity]]
 - [[Solving Cash Flow Problems]]
-- [[Non-Annual Cash Flow]]
 
 ## Interest Rates
-- [[Effective Annual Rate]]
 - [[Annual Percentage Rate]]
+- [[Effective Annual Rate]]
 - [[Amortizing Loans]]
+- [[Opportunity Cost of Capital]]
 
 ## Other
 - [[FINA 2203 Glossary]]

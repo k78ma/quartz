@@ -22,6 +22,7 @@ draft: "true"
 - [cis.upenn.edu/~jean/math-deep.pdf](https://www.cis.upenn.edu/~jean/math-deep.pdf)
 - [Deep Learning Interviews](https://arxiv.org/abs/2201.00650)
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)
+- [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/pdf/2104.13478)
 ### Theses/Long Papers
 - [A Cookbook of Self-Supervised Learning](https://arxiv.org/abs/2304.12210)
 - [Learning to Learn with Gradients](https://ai.stanford.edu/~cbfinn/_files/dissertation.pdf)
@@ -34,6 +35,7 @@ draft: "true"
 - [AI links - bilal2vec](file:///Users/kai/Downloads/AI%20links.pdf)
 - [Just know stuff. (Or, how to achieve success in a machine learning PhD.) · Patrick Kidger](https://kidger.site/thoughts/just-know-stuff/)
 - [6.036 - Introduction to Machine Learning | MIT Open Learning Library](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/)
+- [CMU: 11-785 Deep Learning](https://deeplearning.cs.cmu.edu)
 ### Videos
 - [Karpathy – Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 - [PyTorch 24 Hours](https://www.youtube.com/watch?v=Z_ikDlimN6A&t=69548s)
