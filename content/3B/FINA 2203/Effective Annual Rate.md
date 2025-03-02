@@ -38,3 +38,8 @@ $$
 i_{m}=(1+\text{EAR})^{1/m}-1
 $$
 where $m$ is the number of compounding periods.
+
+Equivalent $n$-period discount rate:
+$$
+(1+r)^{n}-1
+$$

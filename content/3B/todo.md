@@ -7,10 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 4 MFL Study<br>#fina2203
-- [ ] Chapter 5 Notes<br>#fina2203
-- [ ] Chapter 5 MFL Study<br>#fina2203
-- [ ] Homework 3 - March 3<br>#fina2203
 - [ ] Understand ICP<br>#elec4260
 - [ ] Lecture 4 + HW 1.1<br>#elec3200
 - [ ] LADR 3B: 7-10<br>#lin-alg
@@ -24,6 +20,8 @@ draft: "true"
 
 ## FINA 2203
 
+- [ ] Chapter 4 MFL Study<br>#fina2203
+- [ ] Chapter 5 MFL Study<br>#fina2203
 - [ ] Chapter 8 Notes<br>#fina2203
 - [ ] Chapter 8 MFL Study<br>#fina2203
 
@@ -74,6 +72,8 @@ draft: "true"
 - [ ] Homework 2 - Feb 27<br>#mech2210
 - [ ] A1.3 - ICP<br>#elec4260
 - [ ] Chapter 4 Notes<br>#fina2203
+- [ ] Homework 3 - March 3<br>#fina2203
+- [ ] Chapter 5 Notes<br>#fina2203
 
 %% kanban:settings
 ```
