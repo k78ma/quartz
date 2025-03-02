@@ -137,17 +137,52 @@ Imitating the process above and finding the null space of $(T_{1}+T_{2})$ by fin
 > [!question] Problem 8
 > Suppose $V$ and $W$ are finite-dimensional with $\dim V\geq \dim W\geq 2$. Show that $\{ T\in \mathcal{L}(V,W)\, : \,T \text{ is not surjective}\}$ is not a subspace of $\mathcal{L}(V,W)$.
 
+Let $T_{1},T_{2}\in \mathcal{L}(\mathbb{R}^{2})$ such that $\dim T_{1}=\dim T_{2}=2$. Then define
+$$
+\begin{align}
+T_{1}(x,y)=(x,0) \\
+T_{2}(x,y)=(0,y)
+\end{align}
+$$
+Neither $T_{1}$ or $T_{2}$ are surjective since both of their ranges are one-dimensional subspaces of $\mathbb{R}^{2}$.
+
+However
+$$
+\begin{align}
+(T_{1}+T_{2})(x,y) & =T_{1}(x,y)+T_{2}(x,y) \\
+     & = (x,0)+(0,y) \\
+     & =(x,y)
+\end{align}
+$$
+So $T_{1}+T_{2}$ has range $\mathbb{R}^{2}$, making it surjective.
+
+Thus, since closure under addition does not hold, we have shown that this set cannot be a subspace of $\mathcal{L}(V,W)$.
 
 
 > [!question] Problem 9
 > Suppose $T\in \mathcal{L}(V,W)$ is injective and $v_{1}, \dots,v_{n}$ is linearly independent in $V$. Prove that $Tv_{1}, \dots,Tv_{n}$ is linearly independent in $W$.
 
+Let
+$$
+0=a_{1}Tv_{1}+\dots+a_{n}Tv_{n}
+$$
+where $a_{1},\dots,a_{n}\in \mathbb{F}$.
+
+By linearity, this implies that $T(a_{1}v_{1}+\dots+a_{n}v_{n})=0$. 
+
+Since $T$ is injective, the equation $T(a_{1}v_{1}+\dots+a_{n}v_{n})=0$ implies that $a_{1}v_{1}+\dots+a_{n}v_{n}=0$. 
+- This is because [[Linear Maps Take 0 to 0|linear maps take 0 to 0]], so in an injective map, $0$ can be the only input that gets mapped to $0$.
+
+Thus, we've shown that the original equation is equivalent to solving $a_{1}v_{1}+\dots+a_{n}v_{n}=0$. Because $v_{1}, \dots,v_{n}$ is linearly independent, the only solution is $a_{1}=\dots=a_{n}=0$. This means the only solution to $a_{1}Tv_{1}+\dots+a_{n}Tv_{n}=0$ is also $a_{1}=\dots=a_{n}=0$. Thus, $Tv_{1},\dots ,Tv_{n}$ is also linearly independent.
 
 
 > [!question] Problem 10
 > Suppose $v_{1}, \dots,v_{n}$ spans $V$ and $T\in \mathcal{L}(V,W)$. Show that $Tv_{1}, \dots,Tv_{n}$ spans $\text{range } T$.
 
-
+- For every $w \in \text{range } T$, there exists some $v$ such that $w=Tv$. 
+- As $v_{1}, \dots,v_{n}$ spans $V$, there exists $a_{1}, \dots,a_{n}$ for which $v=a_{1}v_{1}+\dots +a_{n}v_{n}$.
+- Thus, $w=Tv=T(a_{1}v_{1}+\dots+a_{n}v_{n})=a_{1}Tv_{1}+\dots+a_{n}Tv_{n}$.
+- Therefore, $Tv_{1}, \dots,Tv_{n}$ spans $\text{range } T$.
 
 > [!question] Problem 11
 > 
