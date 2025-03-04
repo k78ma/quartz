@@ -33,5 +33,13 @@ aliases:
 - [[Amortizing Loans]]
 - [[Opportunity Cost of Capital]]
 
+## Investment Decisions
+- [[Investment Decision Rules]]
+    - [[Net Present Value]]
+    - [[Internal Rate of Return]]
+    - [[Delayed Investments]]
+    - [[Payback Rule]]
+- [[Mutually Exclusive Projects]]
+
 ## Other
 - [[FINA 2203 Glossary]]
