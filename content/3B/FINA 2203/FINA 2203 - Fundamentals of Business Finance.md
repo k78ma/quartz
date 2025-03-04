@@ -40,6 +40,7 @@ aliases:
     - [[Delayed Investments]]
     - [[Payback Rule]]
 - [[Mutually Exclusive Projects]]
+- [[Projects with Different Lives]]
 
 ## Other
 - [[FINA 2203 Glossary]]

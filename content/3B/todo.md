@@ -8,9 +8,9 @@ draft: "true"
 ## Today
 
 - [ ] A1.5 - Bonus<br> - [ ] EKF<br> - [ ] Novel method<br>#elec3200
-- [ ] Chapter 8 Notes<br>#fina2203
-- [ ] Homework 4 - March 9<br>#fina2203
-- [ ] Lecture 4 + HW 1.1<br>#elec3200
+- [ ] Lecture 4 + HW 1.1, 1.2<br>#elec3200
+- [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
+- [ ] Lecture 7 + HW 1.4, 1.5<br>#elec3200
 - [ ] Homework 1 - March 11<br>#elec3200
 - [ ] Chapter 3 Notes<br>#mech2210
 - [ ] Homework 3 - March 7<br>#mech2210
@@ -18,19 +18,19 @@ draft: "true"
 
 ## MECH 2210
 
+- [ ] Chapter 4 Notes<br>#mech2210
 
 
 ## FINA 2203
 
-- [ ] Chapter 8 MFL Study<br>#fina2203
 - [ ] Chapter 4 MFL Study<br>#fina2203
 - [ ] Chapter 5 MFL Study<br>#fina2203
+- [ ] Online Quiz - March 10, 19:30<br>#fina2203
+- [ ] Chapter 8 MFL Study<br>#fina2203
 
 
 ## ELEC 3200
 
-- [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
-- [ ] Lecture 7 + HW 1.4, 1.5<br>#elec3200
 
 
 ## ELEC 4260
@@ -79,6 +79,7 @@ draft: "true"
 - [ ] Understand ICP<br>#elec4260
 - [ ] A1.4 - Real-world<br>#elec4260
 - [ ] A1.6 - Report<br>#elec4260
+- [ ] Homework 4 - March 9<br>#fina2203
 
 %% kanban:settings
 ```
