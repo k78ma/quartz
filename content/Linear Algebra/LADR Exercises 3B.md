@@ -181,15 +181,23 @@ Thus, we've shown that the original equation is equivalent to solving $a_{1}v_{1
 
 - For every $w \in \text{range } T$, there exists some $v$ such that $w=Tv$. 
 - As $v_{1}, \dots,v_{n}$ spans $V$, there exists $a_{1}, \dots,a_{n}$ for which $v=a_{1}v_{1}+\dots +a_{n}v_{n}$.
-- Thus, $w=Tv=T(a_{1}v_{1}+\dots+a_{n}v_{n})=a_{1}Tv_{1}+\dots+a_{n}Tv_{n}$.
+- Thus, any $w$ can be written as $w=Tv=T(a_{1}v_{1}+\dots+a_{n}v_{n})=a_{1}Tv_{1}+\dots+a_{n}Tv_{n}$. This means that any $w\in \text{range } T$ is can be expressed as a linear combination of $Tv_{1}, \dots,Tv_{n}$.  
 - Therefore, $Tv_{1}, \dots,Tv_{n}$ spans $\text{range } T$.
 
 > [!question] Problem 11
-> 
+> Suppose that $V$ is finite-dimensional and $T \in \mathcal{L}(V,W)$. Prove that there exists a subspace $U$ of $V$ such that
+> $$
+> U \cap \text{null }  T=\{ 0 \} \quad \text{and} \quad \text{range }  T=\{ Tu\, : \,u\in  U \}
+> $$
 
 
 > [!question] Problem 12
-> 
+> Suppose $T$ is a linear map from $\mathbb{F}^{4}$ to $\mathbb{F}^{2}$ such that
+> $$
+> \text{null }  T=\{ (x_{1},x_{2},x_{3},x_{4})\in  \mathbb{F}^{4}\, : \,x_{1}=5x_{2} \text{ and } x_{3}=7x_{4} \}.
+> $$
+> Prove that $T$ is surjective.
+
 
 
 > [!question] Problem 13

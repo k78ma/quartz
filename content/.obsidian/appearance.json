@@ -1,7 +1,7 @@
 {
   "baseFontSize": 18,
   "accentColor": "#5789ff",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "",
   "enabledCssSnippets": [
     "center-img",
     "extended-colorschemes"

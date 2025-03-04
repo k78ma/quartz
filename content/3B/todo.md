@@ -7,37 +7,34 @@ draft: "true"
 
 ## Today
 
-- [ ] Understand ICP<br>#elec4260
+- [ ] A1.5 - Bonus<br> - [ ] EKF<br> - [ ] Novel method<br>#elec3200
+- [ ] Chapter 8 Notes<br>#fina2203
+- [ ] Homework 4 - March 9<br>#fina2203
 - [ ] Lecture 4 + HW 1.1<br>#elec3200
-- [ ] LADR 3B: 7-10<br>#lin-alg
+- [ ] Homework 1 - March 11<br>#elec3200
+- [ ] Chapter 3 Notes<br>#mech2210
+- [ ] Homework 3 - March 7<br>#mech2210
 
 
 ## MECH 2210
 
-- [ ] Homework 3 - March 7<br>#mech2210
-- [ ] Chapter 3 Notes<br>#mech2210
 
 
 ## FINA 2203
 
+- [ ] Chapter 8 MFL Study<br>#fina2203
 - [ ] Chapter 4 MFL Study<br>#fina2203
 - [ ] Chapter 5 MFL Study<br>#fina2203
-- [ ] Chapter 8 Notes<br>#fina2203
-- [ ] Chapter 8 MFL Study<br>#fina2203
 
 
 ## ELEC 3200
 
 - [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
 - [ ] Lecture 7 + HW 1.4, 1.5<br>#elec3200
-- [ ] Homework 1 - March 11<br>#elec3200
 
 
 ## ELEC 4260
 
-- [ ] A1.4 - Real-world<br>#elec4260
-- [ ] A1.5 - Bonus<br>#elec3200
-- [ ] A1.6 - Report<br>#elec4260
 - [ ] L2 - Kinematics & Transformations Notes<br>#elec4260
 - [ ] L3 - Sensors & ICP Notes<br>#elec4260
 - [ ] L4 - Localization Notes<br>#elec4260
@@ -52,6 +49,10 @@ draft: "true"
 - [ ] LADR 3B: 27-30
 - [ ] LADR 3B: 31-32
 - [ ] 4D clustering<br>#wato
+- [ ] 3C-1: Representing a Linear Map by a Matrix
+- [ ] 3C-2: Addition and Scalar Multiplication of Matrices
+- [ ] 3C-3: Matrix Multiplication
+- [ ] 3C-4: Column-Row Factorization and Rank of a Matrix
 
 
 ***
@@ -74,6 +75,10 @@ draft: "true"
 - [ ] Chapter 4 Notes<br>#fina2203
 - [ ] Homework 3 - March 3<br>#fina2203
 - [ ] Chapter 5 Notes<br>#fina2203
+- [ ] LADR 3B: 7-10<br>#lin-alg
+- [ ] Understand ICP<br>#elec4260
+- [ ] A1.4 - Real-world<br>#elec4260
+- [ ] A1.6 - Report<br>#elec4260
 
 %% kanban:settings
 ```
