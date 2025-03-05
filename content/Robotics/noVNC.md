@@ -36,7 +36,7 @@ Gazebo sim running on noVNC on `localhost:8080`:
 Start noVNC with:
 
 ```bash
-docker run -d --rm --net=ros --env="DISPLAY_WIDTH=3000" --env="DISPLAY_HEIGHT=1800" --name=novnc -p=8080:8080 theasp/novnc:latest
+docker run -d --rm --net=ros --env="DISPLAY_WIDTH=1512" --env="DISPLAY_HEIGHT=982" --name=novnc -p=8080:8080 theasp/novnc:latest
 ```
 
 

@@ -7,7 +7,6 @@ aliases:
   - elec 4260
 ---
 ## Kinematics and Transformations
-
 ### Kinematics
 - [[Robot Kinematics]]
     - [[Forward Kinematics]]
@@ -25,6 +24,7 @@ aliases:
 - [[Types of Maps]]
 - [[Grid Mapping]]
 - [[KD Tree]]
+
 ## Sensors & ICP
 - [[Proprioceptive vs. Exteroceptive Sensors]]
 - [[Sensor Characteristics]]
@@ -32,6 +32,7 @@ aliases:
 - [[IR Sensor]]
 - [[Time-of-Flight Sensors]]
 - [[Iterative Closest Point]]
+
 ## Localization
 - [[Localization]]
 - [[Probability for Localization]]
@@ -39,6 +40,18 @@ aliases:
 - [[Discrete Bayes Filter]]
 - [[Particle Filter]]
 - [[Kalman Filter]]
+
+## Path Planning and Following
+- [[Configuration Space]]
+- [[Path Planning Approaches and Guarantees]]
+- [[Breadth First Search]]
+- [[Depth First Search]]
+- [[Dijkstra's Algorithm]]
+- [[A* Algorithm]]
+- [[Probabilistic Road Maps]]
+- [[Rapidly Exploring Random Tree]]
+- [[Potential Field Path Planning]]
+
 ## Projects
 - [[ELEC 4260 Project 1 Report]]
 

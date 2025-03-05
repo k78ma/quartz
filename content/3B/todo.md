@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] A1.5 - Bonus<br> - [ ] EKF<br> - [ ] Novel method<br>#elec3200
 - [ ] Lecture 4 + HW 1.1, 1.2<br>#elec3200
 - [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
 - [ ] Lecture 7 + HW 1.4, 1.5<br>#elec3200
@@ -37,9 +36,11 @@ draft: "true"
 
 ## ELEC 4260
 
-- [ ] L2 - Kinematics & Transformations Notes<br>#elec4260
+- [ ] L2 - Kinematics & Transformations<br>#elec4260
 - [ ] L3 - Sensors & ICP Notes<br>#elec4260
-- [ ] L4 - Localization Notes<br>#elec4260
+- [ ] L4 - Localization<br>#elec4260
+- [ ] L5 - Path Planning & Following<br>#elec4260
+- [ ] Project 2<br>- [ ] A<br>- [ ] B<br>- [ ] C<br>- [ ] D<br>#elec4260
 
 
 ## Learning + Research
@@ -82,6 +83,7 @@ draft: "true"
 - [ ] A1.4 - Real-world<br>#elec4260
 - [ ] A1.6 - Report<br>#elec4260
 - [ ] Homework 4 - March 9<br>#fina2203
+- [ ] A1.5 - Bonus<br> - [x] EKF<br> - [x] Novel method<br>#elec3200
 
 %% kanban:settings
 ```

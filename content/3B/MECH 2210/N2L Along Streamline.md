@@ -65,3 +65,5 @@ p+\frac{1}{2}\rho V^{2}+\gamma z=c
 }
 $$
 which is the [[Bernoulli Equation]].
+
+## Example
