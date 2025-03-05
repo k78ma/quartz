@@ -31,6 +31,8 @@ draft: "true"
 
 ## ELEC 3200
 
+- [ ] Lecture 8<br>#elec3200
+- [ ] Lecture 9<br>#elec3200
 
 
 ## ELEC 4260
