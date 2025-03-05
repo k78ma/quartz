@@ -1,10 +1,10 @@
 ---
-title: ELEC 3200
+title: ELEC 3200 - System Modeling, Analysis and Control
 tags:
   - elec3200
-date: 2025-02-05
+date: 2025-02-03
 aliases:
-  - elec 3200
+  - elec 3200 - system modeling, analysis and control
 ---
 ## Control Systems Basics
 - [[Control System]]
