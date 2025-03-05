@@ -10,12 +10,12 @@ Welcome to my notes!
 >[!info] About Me
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
-### Currently Focused On
 - [[Machine Learning|Machine Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]
 ### UWaterloo Courses
 - [[Tron 2B]]
 - [[Tron 3A]]
+- [[Tron 3B]]
 
 See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
