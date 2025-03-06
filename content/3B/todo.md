@@ -11,13 +11,14 @@ draft: "true"
 - [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
 - [ ] Lecture 7 + HW 1.4, 1.5<br>#elec3200
 - [ ] Homework 1 - March 11<br>#elec3200
-- [ ] Chapter 3 Notes<br>#mech2210
-- [ ] Homework 3 - March 7<br>#mech2210
+- [ ] 3C-1: Representing a Linear Map by a Matrix
 
 
 ## MECH 2210
 
 - [ ] Chapter 4 Notes<br>#mech2210
+- [ ] Chapter 3 Notes<br>#mech2210
+- [ ] Review Homework 3<br>#mech2210
 
 
 ## FINA 2203
@@ -52,7 +53,6 @@ draft: "true"
 - [ ] LADR 3B: 27-30
 - [ ] LADR 3B: 31-32
 - [ ] 4D clustering<br>#wato
-- [ ] 3C-1: Representing a Linear Map by a Matrix
 - [ ] 3C-2: Addition and Scalar Multiplication of Matrices
 - [ ] 3C-3: Matrix Multiplication
 - [ ] 3C-4: Column-Row Factorization and Rank of a Matrix

@@ -55,5 +55,3 @@ v_{c}
 v_{s}
 \end{bmatrix}
 $$
-
-## RLC Example 2

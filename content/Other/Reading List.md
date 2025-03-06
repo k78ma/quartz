@@ -34,6 +34,7 @@ Immediate:
 
 Next:
 - [ ] MLAB2
+- [ ] Reinforcement Learning: An Introduction
 - [ ] Structure and Interpretation of Computer Programs
 - [ ] minitorch
 - [ ] Nand2Tetris
