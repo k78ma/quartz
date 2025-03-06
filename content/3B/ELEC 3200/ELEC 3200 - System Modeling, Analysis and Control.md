@@ -21,6 +21,6 @@ aliases:
 - [[Mechanical System Modeling]]
 - [[Electromechanical System Modeling]]
 ### System Linearization
-
+- [[Linear Time-invariant Systems]]
 
 ## System Analysis
