@@ -43,4 +43,5 @@ aliases:
 - [[Projects with Different Lives]]
 
 ## Other
-- [[FINA 2203 Glossary]]
+- [[Finance Glossary]]
+- [[Quiz 1]]

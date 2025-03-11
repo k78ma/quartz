@@ -27,12 +27,17 @@ For example, a $30,000 loan paid over 60 months:
 ![[Amortizing Loans-3.png|597]]
 
 ## Payment Amount
-We can find the payment amount by considering it as an [[Annuity|annuity]]:
+We can find the payment amount by considering it as an [[Annuity|annuity]]. Recall that annuities have present value:
 $$
 \begin{align}
 PV=C\times \frac{1}{r}\left( 1-\frac{1}{(1+r)^{N}} \right)
 \end{align}
 $$
+Thus to find the payment amount, we have:
+$$
+C=\frac{P}{\frac{1}{r}\left( 1-\frac{1}{(1+r)^{N}} \right)}
+$$
+where $P$ is the original payment.
 
 ## Outstanding Loan Balance
-The outstanding balance on an amortizing loan is different each month. The amount owed can be calculated as the present of future obligations ont he loan. So the outstanding balance (aka outstanding principal) is equal to the present value of the remaining future loan payments.
+The outstanding balance on an amortizing loan is different each month. The amount owed can be calculated as the present of future obligations on the loan. So the outstanding balance (aka outstanding principal) is equal to the present value of the remaining future loan payments.

@@ -41,6 +41,7 @@ draft: "true"
 - [PyTorch 24 Hours](https://www.youtube.com/watch?v=Z_ikDlimN6A&t=69548s)
     - [Zero to Mastery Learn PyTorch for Deep Learning](https://www.learnpytorch.io/)
 - [3Blue1Brown - Neural Networks](https://www.3blue1brown.com/topics/neural-networks)
+- [Simple Assembly Neural Network](https://www.youtube.com/watch?v=AYuyN8vvkAM)
 ### Exercises/Puzzles
 - [rougier/numpy-100](https://github.com/rougier/numpy-100)
 - [srush/GPU-Puzzles](https://github.com/srush/GPU-Puzzles)
@@ -50,9 +51,7 @@ draft: "true"
 - [Chip Huyen](https://huyenchip.com/blog/)
 - [Gwern.net](https://gwern.net/)
 - [colah's blog](https://colah.github.io/)
-
----
-
+### Projects/Repos
 ---
 ## Code
 ### Courses/Guides

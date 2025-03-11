@@ -7,25 +7,21 @@ draft: "true"
 
 ## Today
 
-- [ ] Lecture 4 + HW 1.1, 1.2<br>#elec3200
-- [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
-- [ ] Lecture 7 + HW 1.4, 1.5<br>#elec3200
+- [ ] Lecture 7<br>#elec3200
 - [ ] Homework 1 - March 11<br>#elec3200
-- [ ] 3C-1: Representing a Linear Map by a Matrix
+- [ ] Homework 5 - Chapter 8<br>#fina2203
+- [ ] Chapter 3 Notes<br>#mech2210
 
 
 ## MECH 2210
 
 - [ ] Chapter 4 Notes<br>#mech2210
-- [ ] Chapter 3 Notes<br>#mech2210
 - [ ] Review Homework 3<br>#mech2210
+- [ ] Chapter 5 Notes<br>#mech2210
 
 
 ## FINA 2203
 
-- [ ] Chapter 4 MFL Study<br>#fina2203
-- [ ] Chapter 5 MFL Study<br>#fina2203
-- [ ] Online Quiz - March 10, 19:30<br>#fina2203
 - [ ] Chapter 8 MFL Study<br>#fina2203
 
 
@@ -33,6 +29,7 @@ draft: "true"
 
 - [ ] Lecture 8<br>#elec3200
 - [ ] Lecture 9<br>#elec3200
+- [ ] Lecture 10<br>#elec3200
 
 
 ## ELEC 4260
@@ -41,7 +38,7 @@ draft: "true"
 - [ ] L3 - Sensors & ICP Notes<br>#elec4260
 - [ ] L4 - Localization<br>#elec4260
 - [ ] L5 - Path Planning & Following<br>#elec4260
-- [ ] Project 2<br>- [ ] A<br>- [ ] B<br>- [ ] C<br>- [ ] D<br>#elec4260
+- [ ] Project 2<br>- [ ] A-Star<br>- [ ] PID<br>- [ ] Exploration<br>- [ ] Real-world<br>- [ ] Report<br>#elec4260
 
 
 ## Learning + Research
@@ -84,6 +81,12 @@ draft: "true"
 - [ ] A1.6 - Report<br>#elec4260
 - [ ] Homework 4 - March 9<br>#fina2203
 - [ ] A1.5 - Bonus<br> - [x] EKF<br> - [x] Novel method<br>#elec3200
+- [ ] 3C-1: Representing a Linear Map by a Matrix
+- [ ] Lecture 4 + HW 1.1, 1.2<br>#elec3200
+- [ ] Online Quiz - March 10, 19:30<br>#fina2203
+- [ ] Chapter 4 MFL Study<br>#fina2203
+- [ ] Chapter 5 MFL Study<br>#fina2203
+- [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
 
 %% kanban:settings
 ```

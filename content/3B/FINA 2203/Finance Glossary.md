@@ -1,10 +1,10 @@
 ---
-title: FINA 2203 Glossary
+title: Finance Glossary
 tags:
   - fina2203
-date: 2025-02-21
+date: 2025-03-10
 aliases:
-  - fina 2203 glossary
+  - finance glossary
 ---
 | Symbol | Term              |
 | ------ | ----------------- |
