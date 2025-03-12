@@ -5,30 +5,9 @@ date: 2024-11-16
 aliases:
   - reading list
 draft: "true"
-progress_1_title: Linear Algebra Done Right
-progress_1_value: 80
-progress_1_max: 447
-progress_2_title: The Algorithm Design Manual
-progress_2_value: 186
-progress_2_max: 447
-progress_3_title: Kalman Filters From The Ground Up
-progress_3_value: 151
-progress_3_max: 436
-progress_4_title: Understanding Deep Learning
-progress_4_value: 55
-progress_4_max: 541
 ---
-```dataview
-table without id
-  round(progress_1_value / progress_1_max * 100, 2) + "%" as "Linear Algebra Done Right",
-  round(progress_2_value / progress_2_max * 100, 2) + "%" as "Algorithm Design Manual",
-  round(progress_3_value / progress_3_max * 100, 2) + "%" as "Kalman Filters From The Ground Up",
-  round(progress_4_value / progress_4_max * 100, 2) + "%" as "Understanding Deep Learning"
-from ""
-```
-
 Immediate:
-- [ ] Linear Algebra Done Right   <progress max=447 value=70> </progress> 
+- [ ] Linear Algebra Done Right   <progress max=447 value=85> </progress> 
 - [ ] Understanding Deep Learning   <progress max=541 value=41> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 

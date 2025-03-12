@@ -8,8 +8,6 @@ draft: "true"
 ## Today
 
 - [ ] Lecture 7<br>#elec3200
-- [ ] Homework 1 - March 11<br>#elec3200
-- [ ] Homework 5 - Chapter 8<br>#fina2203
 - [ ] Chapter 3 Notes<br>#mech2210
 
 
@@ -22,7 +20,7 @@ draft: "true"
 
 ## FINA 2203
 
-- [ ] Chapter 8 MFL Study<br>#fina2203
+- [ ] Chapter 2 Notes<br>#fina2203
 
 
 ## ELEC 3200
@@ -87,6 +85,9 @@ draft: "true"
 - [ ] Chapter 4 MFL Study<br>#fina2203
 - [ ] Chapter 5 MFL Study<br>#fina2203
 - [ ] Lecture 5/6 + HW 1.2, 1.3<br>#elec3200
+- [ ] Homework 1 - March 11<br>#elec3200
+- [ ] Chapter 8 MFL Study<br>#fina2203
+- [ ] Homework 5 - Chapter 8<br>#fina2203
 
 %% kanban:settings
 ```

@@ -29,7 +29,7 @@ $$
 Tv_{k}=\sum_{j=1}^{m}A_{j,k}w_{j}
 $$
 > [!example] Clarifying example
-> For example, if we have $T\, : \,\mathbb{R}^{3}\to \mathbb{R}^{2}$:
+> For example, if we have $T\, : \,\mathbb{\mathbb{F}}^{3}\to \mathbb{F}^{2}$:
 > $$
 \begin{align}
 >  & \begin{matrix}
@@ -45,7 +45,7 @@ $$
 \end{bmatrix}
 \end{align}
 > $$
-> Then we can calculate $Tv_{1}$ as $1w_{1}+0w_{2}$ and $Tv_{2}$ as $2w_{1}+3w_{2}$.
+> Then we can calculate $Tv_{1}$ as $1w_{1}+0w_{2}$, $Tv_{2}$ as $2w_{1}+3w_{2}$, and $Tv_{3}=0w_{1}+4w_{2}$.
 
 If $T$ is a linear map from $\mathbb{F}^{n}$ to $\mathbb{F}^{m}$, then we can generally assume the bases in questions are the standard ones ($k$-th basis vector is $1$ in the $k$-th slot and $0$ in all other slots). If we think of the elements of $\mathbb{F}^{m}$ as columns of $m$ numbers, we can think of the $k$-th column of $\mathcal{M}(T)$ as $T$ applied to the $k$-th standard basis vector.
 
@@ -56,7 +56,7 @@ Suppose $T\in \mathcal{L}(\mathbb{F}^{2}, \mathbb{F}^{3})$ is defined by
 $$
 T(x,y)=(x+3y, 2x+5y, 7x+9y)
 $$
-We have:
+We can check the results of the bases of $\mathbb{F}^{2}$:
 - $T(1,0)=(1,2,7)$
 - $T(0,1)=(3,5,9)$
 

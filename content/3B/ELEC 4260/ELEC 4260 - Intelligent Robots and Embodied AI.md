@@ -52,6 +52,10 @@ aliases:
 - [[Rapidly Exploring Random Tree]]
 - [[Potential Field Path Planning]]
 
+- [[Bezier Curve]]
+- [[Bang-Bang Controller]]
+- [[PID Controller]]
+
 ## Projects
 - [[ELEC 4260 Project 1 Report]]
 
