@@ -28,6 +28,7 @@ draft: "true"
 - [Learning to Learn with Gradients](https://ai.stanford.edu/~cbfinn/_files/dissertation.pdf)
 - [Neuro-Symbolic Learning for Bilevel Planning](file:///Users/kai/Downloads/silver-tslvr-phd-eecs-2024-thesis.pdf)
 ### Courses/Guides
+- [CMU 16-831: Introduction to Robot Learning](https://16-831-s24.github.io/lectures)
 - [minitorch](https://minitorch.github.io/module1/scalar/)
 - [Spinning Up as a Deep RL Researcher](https://spinningup.openai.com/en/latest/spinningup/spinningup.html)
 - [Ilya's 30](https://github.com/jayxin/Ilya-30u30?tab=readme-ov-file)
