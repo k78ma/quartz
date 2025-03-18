@@ -67,3 +67,7 @@ $$
 which is the [[Bernoulli Equation]].
 
 ## Example
+Let's determine the pressure on a bicyclist due to airflow. We analyze two points:
+- At point (1) th
+
+![[N2L Along Streamline.png|492]]

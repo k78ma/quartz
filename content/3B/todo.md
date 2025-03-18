@@ -7,20 +7,25 @@ draft: "true"
 
 ## Today
 
-- [ ] Lecture 7<br>#elec3200
 - [ ] Chapter 3 Notes<br>#mech2210
+- [ ] Chapter 4 Notes<br>#mech2210
+- [ ] Lecture 7<br>#elec3200
 
 
 ## MECH 2210
 
-- [ ] Chapter 4 Notes<br>#mech2210
 - [ ] Review Homework 3<br>#mech2210
 - [ ] Chapter 5 Notes<br>#mech2210
+- [ ] Homework 4 - March 20<br>#mech2210
 
 
 ## FINA 2203
 
 - [ ] Chapter 2 Notes<br>#fina2203
+- [ ] Chapter 4 MFL<br>#fina2203
+- [ ] Chapter 5 MFL<br>#fina2203
+- [ ] Chapter 8 MFL<br>#fina2203
+- [ ] Practice with financial calculator!<br>#fina2203
 
 
 ## ELEC 3200
@@ -41,16 +46,14 @@ draft: "true"
 
 ## Learning + Research
 
-- [ ] LADR 3B: 11-14
-- [ ] LADR 3B: 15-18
-- [ ] LADR 3B: 19-22
-- [ ] LADR 3B: 23-26
-- [ ] LADR 3B: 27-30
-- [ ] LADR 3B: 31-32
-- [ ] 4D clustering<br>#wato
 - [ ] 3C-2: Addition and Scalar Multiplication of Matrices
 - [ ] 3C-3: Matrix Multiplication
 - [ ] 3C-4: Column-Row Factorization and Rank of a Matrix
+- [ ] MLAB Day 0
+- [ ] PixelCNN MNIST
+- [ ] MLP Snake
+- [ ] Obsidian Language Model
+- [ ] NeRF
 
 
 ***
