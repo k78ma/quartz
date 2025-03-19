@@ -8,10 +8,10 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 4 Notes<br>#mech2210
+- [ ] Homework 4 - March 20<br>#mech2210
 - [ ] Chapter 5 Notes<br>#mech2210
 - [ ] Bernoulli Applications<br>#mech2210
 - [ ] Review Homework 3 and Chapter 3 Examples<br>#mech2210
-- [ ] Homework 4 - March 20<br>#mech2210
 - [ ] Streamline/Pathline/Streakline Example<br>#mech2210
 - [ ] Homework 5<br>#mech2210
 

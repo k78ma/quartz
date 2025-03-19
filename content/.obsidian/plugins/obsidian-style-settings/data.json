@@ -35,5 +35,7 @@
   "Editor@@h3-size": "1.15em",
   "Editor@@h2-size": "1.4em",
   "Editor@@h1-size": "1.7em",
-  "Editor@@link-color@@dark": "#75A0FF"
+  "Editor@@link-color@@dark": "#75A0FF",
+  "Editor@@img-center-align": true,
+  "Editor@@zoom-off": true
 }
