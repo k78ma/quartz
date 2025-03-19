@@ -7,16 +7,18 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 3 Notes<br>#mech2210
 - [ ] Chapter 4 Notes<br>#mech2210
-- [ ] Lecture 7<br>#elec3200
+- [ ] Chapter 5 Notes<br>#mech2210
+- [ ] Bernoulli Applications<br>#mech2210
+- [ ] Review Homework 3 and Chapter 3 Examples<br>#mech2210
+- [ ] Homework 4 - March 20<br>#mech2210
+- [ ] Streamline/Pathline/Streakline Example<br>#mech2210
+- [ ] Homework 5<br>#mech2210
 
 
 ## MECH 2210
 
-- [ ] Review Homework 3<br>#mech2210
-- [ ] Chapter 5 Notes<br>#mech2210
-- [ ] Homework 4 - March 20<br>#mech2210
+- [ ] Textbook Study<br>#mech2210
 
 
 ## FINA 2203
@@ -30,9 +32,15 @@ draft: "true"
 
 ## ELEC 3200
 
+- [ ] Lecture 7<br>#elec3200
 - [ ] Lecture 8<br>#elec3200
 - [ ] Lecture 9<br>#elec3200
 - [ ] Lecture 10<br>#elec3200
+- [ ] Lecture 11<br>#elec3200
+- [ ] Lecture 12<br>#elec3200
+- [ ] Lecture 13<br>#elec3200
+- [ ] Lecture 14<br>#elec3200
+- [ ] Lecture 15<br>#elec3200
 
 
 ## ELEC 4260
@@ -41,19 +49,18 @@ draft: "true"
 - [ ] L3 - Sensors & ICP Notes<br>#elec4260
 - [ ] L4 - Localization<br>#elec4260
 - [ ] L5 - Path Planning & Following<br>#elec4260
-- [ ] Project 2<br>- [ ] A-Star<br>- [ ] PID<br>- [ ] Exploration<br>- [ ] Real-world<br>- [ ] Report<br>#elec4260
+- [ ] Project 2<br>- [x] A-Star<br>- [x] PID<br>- [x] Exploration<br>- [ ] Real-world<br>- [ ] Report<br>#elec4260
 
 
 ## Learning + Research
 
-- [ ] 3C-2: Addition and Scalar Multiplication of Matrices
 - [ ] 3C-3: Matrix Multiplication
 - [ ] 3C-4: Column-Row Factorization and Rank of a Matrix
 - [ ] MLAB Day 0
 - [ ] PixelCNN MNIST
 - [ ] MLP Snake
 - [ ] Obsidian Language Model
-- [ ] NeRF
+- [ ] NeRF-- on ponk
 
 
 ***
@@ -91,9 +98,11 @@ draft: "true"
 - [ ] Homework 1 - March 11<br>#elec3200
 - [ ] Chapter 8 MFL Study<br>#fina2203
 - [ ] Homework 5 - Chapter 8<br>#fina2203
+- [ ] 3C-2: Addition and Scalar Multiplication of Matrices
+- [ ] Chapter 3 Notes<br>#mech2210
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","lane-width":230,"hide-tags-in-title":true}
+{"kanban-plugin":"basic","hide-tags-in-title":true,"lane-width":235,"show-checkboxes":false}
 ```
 %%

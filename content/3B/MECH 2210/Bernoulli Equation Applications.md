@@ -13,13 +13,13 @@ aliases: []
 
 ![[Bernoulli Equation Applications-2.png]]
 
-![[Bernoulli Equation Applications-3.png]]
+![[Bernoulli Equation Applications-6.png]]
 
 ## Cavitation
 
-![[Bernoulli Equation Applications-4.png]]
+![[Pasted image 20250319010554.png]]
 
 
 ## Flow Measurement
 
-![[Bernoulli Equation Applications-5.png]]
+![[Bernoulli Equation Applications-7.png]]

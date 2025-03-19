@@ -23,6 +23,7 @@ draft: "true"
 - [Deep Learning Interviews](https://arxiv.org/abs/2201.00650)
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)
 - [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/pdf/2104.13478)
+- [Probabilistic Artificial Intelligence](https://arxiv.org/pdf/2502.05244)
 ### Theses/Long Papers
 - [A Cookbook of Self-Supervised Learning](https://arxiv.org/abs/2304.12210)
 - [Learning to Learn with Gradients](https://ai.stanford.edu/~cbfinn/_files/dissertation.pdf)

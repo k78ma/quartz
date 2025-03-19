@@ -1,7 +1,7 @@
 {
   "baseFontSize": 18,
   "accentColor": "#5789ff",
-  "cssTheme": "AnuPpuccin",
+  "cssTheme": "Border",
   "enabledCssSnippets": [
     "center-img",
     "extended-colorschemes"
@@ -12,5 +12,5 @@
   "showViewHeader": true,
   "baseFontSizeAction": false,
   "interfaceFontFamily": "Inter",
-  "showRibbon": true
+  "showRibbon": false
 }
