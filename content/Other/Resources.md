@@ -53,7 +53,9 @@ draft: "true"
 - [Chip Huyen](https://huyenchip.com/blog/)
 - [Gwern.net](https://gwern.net/)
 - [colah's blog](https://colah.github.io/)
+- [ICLR Blogposts 2024](https://iclr-blogposts.github.io/2024/blog/index.html)
 ### Projects/Repos
+
 ---
 ## Code
 ### Courses/Guides
@@ -71,8 +73,6 @@ draft: "true"
 - [Designing Data-Intensive Applications](file:///Users/kai/books/Designing%20Data-Intensive%20Applications%20-%20Martin%20Kleppmann.pdf)
 - [The Nature of Code](https://natureofcode.com/)
 - [The Computer Science Book](https://thecomputersciencebook.com/)
-
-
 
 ---
 ## Robotics
