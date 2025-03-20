@@ -7,18 +7,17 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 4 Notes<br>#mech2210
-- [ ] Homework 4 - March 20<br>#mech2210
 - [ ] Chapter 5 Notes<br>#mech2210
 - [ ] Bernoulli Applications<br>#mech2210
 - [ ] Review Homework 3 and Chapter 3 Examples<br>#mech2210
 - [ ] Streamline/Pathline/Streakline Example<br>#mech2210
 - [ ] Homework 5<br>#mech2210
+- [ ] Chapter 5 Examples<br>#mech2210
 
 
 ## MECH 2210
 
-- [ ] Textbook Study<br>#mech2210
+- [ ] Textbook Problems<br>#mech2210
 
 
 ## FINA 2203
@@ -27,11 +26,15 @@ draft: "true"
 - [ ] Chapter 4 MFL<br>#fina2203
 - [ ] Chapter 5 MFL<br>#fina2203
 - [ ] Chapter 8 MFL<br>#fina2203
+- [ ] Chapter 2 MFL<br>#fina2203
 - [ ] Practice with financial calculator!<br>#fina2203
+- [ ] Practice midterm<br>#fina2203
+- [ ] 2016 midterm<br>#fina2203
 
 
 ## ELEC 3200
 
+- [ ] Homework 2 - Apr 2<br>#elec3200
 - [ ] Lecture 7<br>#elec3200
 - [ ] Lecture 8<br>#elec3200
 - [ ] Lecture 9<br>#elec3200
@@ -57,10 +60,6 @@ draft: "true"
 - [ ] 3C-3: Matrix Multiplication
 - [ ] 3C-4: Column-Row Factorization and Rank of a Matrix
 - [ ] MLAB Day 0
-- [ ] PixelCNN MNIST
-- [ ] MLP Snake
-- [ ] Obsidian Language Model
-- [ ] NeRF-- on ponk
 
 
 ***
@@ -100,6 +99,8 @@ draft: "true"
 - [ ] Homework 5 - Chapter 8<br>#fina2203
 - [ ] 3C-2: Addition and Scalar Multiplication of Matrices
 - [ ] Chapter 3 Notes<br>#mech2210
+- [ ] Chapter 4 Notes<br>#mech2210
+- [ ] Homework 4 - March 20<br>#mech2210
 
 %% kanban:settings
 ```

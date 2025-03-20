@@ -5,7 +5,7 @@ tags:
 date: 2025-03-20
 aliases: []
 ---
-The Reynolds Transport Theorem lets us convert system-based property changes into [[Control Volume and System|control-volume]] based property changes.
+The Reynolds Transport Theorem lets us convert system-based property changes into [[Control Volume, Control Surface, System|control-volume]] based property changes.
 
 Let $B$ represent any of these (or other) fluid parameters and $b$ represent the amount of that parameter per unit mass. That is,
 $$

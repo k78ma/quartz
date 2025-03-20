@@ -54,10 +54,10 @@ aliases:
 - [[Eulerian and Lagrangian Flow Descriptions]]
 - [[Steady and Unsteady Flows]]
 - [[Acceleration Field]]
-- [[Control Volume and System]]
+- [[Control Volume, Control Surface, System]]
 - [[Reynolds Transport Theorem]]
 
 ## Flow Analysis Using Control Volume
-- [[Fluid Conservation of Mass]]
-- [[Fluid Conservation of Momentum]]
+- [[Fluid Conservation of Mass|Continuity Equation]]
+- [[Fluid Conservation of Momentum|Linear Momentum Equation]]
 - [[Fluid Conservation of Energy]]

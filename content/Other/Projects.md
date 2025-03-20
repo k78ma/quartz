@@ -6,7 +6,12 @@ aliases:
   - ideas
 draft: "true"
 ---
-- MNIST ResNet from scratch in numpy and torch
+- [ ] MNIST ResNet
+- [ ] PixelCNN MNIST
+- [ ] MLP Snake
+- [ ] Obsidian Language Model
+- [ ] NeRF-- on ponk
+- [ ] 1-pixel bouncing ball
 
 Ideas:
 - [ ] NeRF of ponky sleeping
@@ -25,3 +30,5 @@ Ideas:
 
 
 Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)
+
+a
