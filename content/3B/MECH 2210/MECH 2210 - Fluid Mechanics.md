@@ -58,6 +58,6 @@ aliases:
 - [[Reynolds Transport Theorem]]
 
 ## Flow Analysis Using Control Volume
-- [[Fluid Conservation of Mass|Continuity Equation]]
-- [[Fluid Conservation of Momentum|Linear Momentum Equation]]
-- [[Fluid Conservation of Energy]]
+- [[Fluid Conservation of Mass|Fluid Conservation of Mass / Continuity Equation]]
+- [[Fluid Conservation of Momentum|Fluid Conservation of Momentum / Linear Momentum Equation]]
+- [[Fluid Conservation of Energy|Fluid Conservation of Energy / Energy Equation]]
