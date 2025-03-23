@@ -61,5 +61,3 @@ A pathline is the trajectory of a given fluid particle
 ## Differences between lines
 - For steady flows, the three lines are the same
 - For unsteady flows, they can be very different
-
-## Example

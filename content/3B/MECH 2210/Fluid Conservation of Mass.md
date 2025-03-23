@@ -6,7 +6,7 @@ date: 2025-03-20
 aliases:
   - continuity equation
 ---
-A system is defined as a collection of unchanging contents, so the conservation of mass principle for a system tells us that the time rate of change of the system mass is 0. In terms of the [[Reynolds Transport Theorem]], we have
+ system is defined as a collection of unchanging contents, so the conservation of mass principle for a system tells us that the time rate of change of the system mass is 0. In terms of the [[Reynolds Transport Theorem]], we have
 $$
 \begin{align}
 \frac{Dm_{\text{sys}}}{Dt} & =0 \\[2ex] 

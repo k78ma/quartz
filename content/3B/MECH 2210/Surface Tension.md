@@ -21,7 +21,7 @@ $$
 $$
 For a given liquid the surface tension depends on temperature as well as the other fluid it is in contact with at the interface.
 
-If a spherical drop is cit in half, the drop developed around the edge due to the surface tension must be balanced by the pressure difference, $\Delta p$, between the internal pressure, $p_{i}$, and the external pressure, $p_{e}$, acting over the circular area, $\pi R^{2}$
+If a spherical drop is cut in half, the drop developed around the edge due to the surface tension must be balanced by the pressure difference, $\Delta p$, between the internal pressure, $p_{i}$, and the external pressure, $p_{e}$, acting over the circular area, $\pi R^{2}$
 
 Thus, for a droplet or bubble, we have:
 $$
