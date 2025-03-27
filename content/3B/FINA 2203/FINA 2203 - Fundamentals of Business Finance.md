@@ -42,6 +42,14 @@ aliases:
 - [[Mutually Exclusive Projects]]
 - [[Projects with Different Lives]]
 
+## Cash Flows
+- [[Balance Sheet]]
+- [[Book Value and Market Value]]
+- [[Income Statement]]
+- [[Cash Flow]]
+- [[Capital Expenditure vs. Operating Expenses]]
+- [[EBITDA]]
+- [[Statement of Cash Flows]]
+
 ## Other
 - [[Finance Glossary]]
-- [[Quiz 1]]

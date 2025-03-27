@@ -7,6 +7,7 @@ draft: "true"
 
 ## Today
 
+- [ ] Textbook Problems<br>#mech2210
 - [ ] Bernoulli Applications<br>#mech2210
 - [ ] Review Homework 3 and Chapter 3 Examples<br>#mech2210
 - [ ] Streamline/Pathline/Streakline Example<br>#mech2210
@@ -15,7 +16,7 @@ draft: "true"
 
 ## MECH 2210
 
-- [ ] Textbook Problems<br>#mech2210
+- [ ] Chapter 6 Notes<br>#mech2210
 
 
 ## FINA 2203
@@ -101,6 +102,9 @@ draft: "true"
 - [ ] Homework 4 - March 20<br>#mech2210
 - [ ] Chapter 5 Notes<br>#mech2210
 - [ ] Homework 5<br>#mech2210
+- [ ] Clarify chapter 2 equation terms<br>#mech2210
+- [ ] Chapter 2 textbook problems<br>#mech2210
+- [ ] Chapter 5 examples<br>#mech2210
 
 %% kanban:settings
 ```

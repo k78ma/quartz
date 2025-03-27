@@ -67,10 +67,11 @@ $$
 \begin{align}
 F_{1} & = \gamma h_{1}A+p_{s}A \\
  &  = (\gamma h_{1}+p_{s}) A \\
-     & =[(0.90) (9.8\cdot 10^{3} \text{ N/m}^{3})(2 \text{ m}) +50\times 10^{3} \text{ N/m}^{2} \\
+     & =[(0.90) (9.8\cdot 10^{3} \text{ N/m}^{3})(2 \text{ m}) +50\times 10^{3} \text{ N/m}^{2}] \cdot (0.6 \text{ m} \cdot  0.6 \text{ m}) \\
      & =24.4 \times 10^{3} \text{ N}
 \end{align}
 $$
+and
 $$
 \begin{align}
 F_{2} & =\gamma  \frac{1}{2}(h_{2}-h_{1})A \\

@@ -11,7 +11,7 @@
     "pageSize": "Letter",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 55
+    "downscalePercent": 65
   },
   "strictLineBreaks": true,
   "smartIndentList": true,
@@ -19,5 +19,6 @@
   "showInlineTitle": true,
   "vimMode": true,
   "propertiesInDocument": "visible",
-  "useTab": false
+  "useTab": false,
+  "showLineNumber": false
 }

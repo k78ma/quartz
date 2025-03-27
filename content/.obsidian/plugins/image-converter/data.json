@@ -1,7 +1,7 @@
 {
   "autoRename": true,
   "showRenameNotice": false,
-  "useCustomRenaming": false,
+  "useCustomRenaming": true,
   "customRenameTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
   "customRenameDefaultTemplate": "{noteName}-{date:YYYYMMDDHHmmssSSS}",
   "convertToWEBP": true,
