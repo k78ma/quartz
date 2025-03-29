@@ -10,6 +10,7 @@ aliases:
 - [[Control System]]
 - [[Stabilization (Control)]]
 - [[Regulation (Control)]]
+
 ## State-Space Models
 - [[State-Variable Models]]
     - [[Basic State-Space Model Examples]]
@@ -24,7 +25,8 @@ aliases:
 - [[Linearization]]
 
 ## Laplace Transform
-
+- [[Laplace Transform]]
+- [[Properties of Laplace Transform]]
 
 ## System Analysis
 

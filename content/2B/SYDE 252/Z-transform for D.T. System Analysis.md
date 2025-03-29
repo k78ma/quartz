@@ -5,7 +5,7 @@ tags:
 date: 2023-11-22
 aliases:
 ---
-The Z-transform is the discrete time equivalent of [[Laplace Transform for C.T. System Analysis]]. 
+The Z-transform is the discrete time equivalent of [[2B/SYDE 252/Laplace Transform]]. 
 - The Laplace transform converts integro-differential equations into algebraic equations.
 - The Z-transform changes difference equations into algebraic equations, thereby simplifying the analysis of discrete-time systems.
 

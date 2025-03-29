@@ -48,7 +48,7 @@ aliases:
 #### Frequency Domain
 - [[Total Response of Linear System]]
 
-- [[Laplace Transform for C.T. System Analysis]]
+- [[2B/SYDE 252/Laplace Transform]]
 	- [[Properties of Laplace Transform]]
 - [[Z-transform for D.T. System Analysis]]
 - [[Poles and Zeros]]

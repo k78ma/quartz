@@ -7,11 +7,10 @@ draft: "true"
 
 ## Today
 
-- [ ] Textbook Problems<br>#mech2210
-- [ ] Bernoulli Applications<br>#mech2210
-- [ ] Review Homework 3 and Chapter 3 Examples<br>#mech2210
-- [ ] Streamline/Pathline/Streakline Example<br>#mech2210
-- [ ] Chapter 5 Examples<br>#mech2210
+- [ ] Chapter 2 MFL<br>#fina2203
+- [ ] Practice midterm<br>#fina2203
+- [ ] Chapter 8 MFL<br>#fina2203
+- [ ] Chapter 5 MFL<br>#fina2203
 
 
 ## MECH 2210
@@ -21,14 +20,8 @@ draft: "true"
 
 ## FINA 2203
 
-- [ ] Chapter 2 Notes<br>#fina2203
-- [ ] Chapter 4 MFL<br>#fina2203
-- [ ] Chapter 5 MFL<br>#fina2203
-- [ ] Chapter 8 MFL<br>#fina2203
-- [ ] Chapter 2 MFL<br>#fina2203
-- [ ] Practice with financial calculator!<br>#fina2203
-- [ ] Practice midterm<br>#fina2203
-- [ ] 2016 midterm<br>#fina2203
+- [ ] Chapter 9 Notes<br>#fina2203
+- [ ] Chapter 6 Notes<br>#fina2203
 
 
 ## ELEC 3200
@@ -51,7 +44,8 @@ draft: "true"
 - [ ] L3 - Sensors & ICP Notes<br>#elec4260
 - [ ] L4 - Localization<br>#elec4260
 - [ ] L5 - Path Planning & Following<br>#elec4260
-- [ ] Project 2<br>- [x] A-Star<br>- [x] PID<br>- [x] Exploration<br>- [ ] Real-world<br>- [ ] Report<br>#elec4260
+- [ ] L6 - Camera & Stereo<br>#elec4260
+- [ ] L7 - Neural Networks<br>#elec4260
 
 
 ## Learning + Research
@@ -105,6 +99,10 @@ draft: "true"
 - [ ] Clarify chapter 2 equation terms<br>#mech2210
 - [ ] Chapter 2 textbook problems<br>#mech2210
 - [ ] Chapter 5 examples<br>#mech2210
+- [ ] Chapter 2 Notes<br>#fina2203
+- [ ] Chapter 4 MFL<br>#fina2203
+- [ ] Project 2<br>- [x] A-Star<br>- [x] PID<br>- [x] Exploration<br>- [x] Real-world<br>- [x] Report<br>#elec4260
+- [ ] 2016 midterm<br>#fina2203
 
 %% kanban:settings
 ```

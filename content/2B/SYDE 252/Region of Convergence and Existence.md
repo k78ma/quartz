@@ -4,6 +4,7 @@ tags:
   - syde252
 date: 2023-11-22
 aliases:
+  - region of convergence
 ---
 The region in the complex plane (set of values $s$) for which $\mathcal{L}$ or $Z$ converges or exists.
 

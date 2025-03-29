@@ -1,23 +1,29 @@
 ---
-title: Laplace Transform for C.T. System Analysis
+title: Laplace Transform
 tags:
   - syde252
-date: 2023-11-22
+  - elec3200
+date: 2025-03-27
 aliases:
-  - Laplace Transform
 ---
 Because of the linearity property of linear time-invariant (LTI) systems, we can find the response of these systems by breaking the input $x(t)$ into several components and then summing the system response to all the components of $x(t)$. We have already used this procedure in time-domain analysis, in which the input $x(t)$ is broken into impulsive components.
 
 In the frequency domain, we break up the input $x(t)$ into exponentials of the form $e^{st}$, where the parameter $s$ is the complex frequency of the signal $e^{st}$. This method offers an insight into the system behavior complementary to that seen in the time-domain analysis. The tool to represent an arbitrary input $x(t)$ in terms of exponential components is the Laplace transform.
 
-### Definition
+## Definition
 For a signal $x(t)$, its Laplace transform $X(s)$ is given by:
 $$
 X(s) = \int_{-\infty}^{\infty} x(t)e^{-st} \, dt 
 $$
 where $s$ is a complex number such that $s=\sigma+j\omega$.
 
-The signal $x(t)$ is said to be the inverse Laplace transform of $X(s)$. It can be shown that:
+For a unilateral signals $x(t)$ with $x(t)=0$ for all $t < 0$, we have
+$$
+X(s)=\mathcal{L}[x(t)]=\int_{0^{-}}^{\infty} x(t)e^{-s t} \, dt 
+$$
+The [[Region of Convergence and Existence|region of convergence]] is the set of complex numbers $s$ that make the integral meaningful.
+
+The signal $x(t)$ is said to be the **inverse Laplace transform** of $X(s)$. It can be shown that:
 $$
 x(t) =\frac{1}{2\pi j} \int_{c-j\infty}^{c+j\infty} X(s)e^{st} \, ds
 $$

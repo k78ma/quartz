@@ -62,4 +62,4 @@ We can say that:
 $$
 \mathcal{F}[x(t)]=X(\omega)
 $$
-This is similar to the [[Laplace Transform for C.T. System Analysis|Laplace Transform]], where we have $\mathcal{L}[x(t)]=\int_{-\infty}^{\infty} x(t) \; e^{-st} \, dt$. Fourier is a special case of the Laplace Transform for $s=j\omega$, only when ROC of $X(s)$ includes the imaginary axis such that $X(j\omega)=X(\omega)$.
+This is similar to the [[2B/SYDE 252/Laplace Transform|Laplace Transform]], where we have $\mathcal{L}[x(t)]=\int_{-\infty}^{\infty} x(t) \; e^{-st} \, dt$. Fourier is a special case of the Laplace Transform for $s=j\omega$, only when ROC of $X(s)$ includes the imaginary axis such that $X(j\omega)=X(\omega)$.

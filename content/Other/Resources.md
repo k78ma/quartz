@@ -47,6 +47,7 @@ draft: "true"
 ### Exercises/Puzzles
 - [rougier/numpy-100](https://github.com/rougier/numpy-100)
 - [srush/GPU-Puzzles](https://github.com/srush/GPU-Puzzles)
+- [Pen and Paper Exercises in Machine Learning](https://arxiv.org/abs/2206.13446)
 ### Papers
 - [Ilya's 30](https://github.com/jayxin/Ilya-30u30?tab=readme-ov-file)
 ### Technical Blogs
