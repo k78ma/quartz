@@ -2,9 +2,19 @@
 title: System Stability
 tags:
   - syde252
+  - elec3200
 date: 2023-12-16
 aliases:
 ---
+## Bounded Signals
+A signal $x(t)$ is said to be **bounded** if there is a real positive number $M$ such that
+$$
+| x(t) |\leq M
+$$
+for all $t \in [0,\infty)$.
+
+## BIBO Stability
+
 ### Continuous Time
 If we have an impulse response $h(t)$ and scaling factor $H(s)$ of the form:
 $$

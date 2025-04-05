@@ -43,4 +43,4 @@ Weaknesses:
     - [[Delayed Investments]] (positive cash flows precede negative cash flows)
 - Cannot be used for mutually-exclusive projects
     - it is scale-independent
-    - affected affected by timing of cash flows
+    - affected by timing of cash flows

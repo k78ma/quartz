@@ -1,5 +1,5 @@
 ---
-title: Transfer Functions
+title: Sensor Transfer Functions
 tags:
   - mte220
 date: 2023-12-02

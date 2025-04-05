@@ -24,3 +24,13 @@ $$
 R_{out} = 10P_{\text{kPa}}+0.02P_{\text{kPa}}^{2} +7 \quad [\text{k} \Omega]
 $$
 Transfer functions can include frequency effects, like lowpass behaviour.
+
+Transfer functions can be a general way to relate one state to another – similar to gain for [[Op-amps]] and [[Sensor Transfer Function]].
+
+For example, for a voltage divider, the transfer function would be:
+$$
+\frac{V_{out}}{V_{in}} = \frac{R_{2}}{R_{1}+R_{2}} \quad [\text{V}/\text{V}]
+$$
+Applies to linear systems.
+
+For a formalization, see [[Transfer Function]].

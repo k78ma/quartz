@@ -27,8 +27,6 @@ draft: "true"
 ## ELEC 3200
 
 - [ ] Homework 2 - Apr 2<br>#elec3200
-- [ ] Lecture 7<br>#elec3200
-- [ ] Lecture 8<br>#elec3200
 - [ ] Lecture 9<br>#elec3200
 - [ ] Lecture 10<br>#elec3200
 - [ ] Lecture 11<br>#elec3200
@@ -103,6 +101,8 @@ draft: "true"
 - [ ] Chapter 4 MFL<br>#fina2203
 - [ ] Project 2<br>- [x] A-Star<br>- [x] PID<br>- [x] Exploration<br>- [x] Real-world<br>- [x] Report<br>#elec4260
 - [ ] 2016 midterm<br>#fina2203
+- [ ] Lecture 7<br>#elec3200
+- [ ] Lecture 8<br>#elec3200
 
 %% kanban:settings
 ```
