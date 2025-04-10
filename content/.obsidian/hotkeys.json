@@ -128,5 +128,13 @@
       ],
       "key": "T"
     }
+  ],
+  "omnisearch:show-modal": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "F"
+    }
   ]
 }

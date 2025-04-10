@@ -4,6 +4,14 @@ tags:
   - mte204
 date: 2023-10-11
 ---
+2D matrix:
+$$
+\det A=| A |= \begin{vmatrix}
+a & b \\
+c & d
+\end{vmatrix}=ad-bc
+$$
+
 The determinant of a matrix $[A]$ is a single value.
 $$
 \begin{align}

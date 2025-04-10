@@ -22,7 +22,29 @@ Amount reported in "Change in Cash" on will be equal to the difference between b
 - Add depreciation to net income
 - Adjust net income by all non-cash items related to operating activities
 
-![[Statement of Cash Flows-20250327151614746.png|545]]
+### Accounts Receivable
+Accounts receivable are goods and services that we have provided to customers, but for which we **haven't been paid yet**.
+
+An increase in AR means:
+- Increase in cash that we need to collect from customers
+- Decrease in cash that customers paid us in this period
+- Therefore, **decrease in cash flow**.
+
+A decrease in AR means:
+- An increase in cash that customers paid us in this period
+- A decrease in cash that we need to collect from customers.
+- Therefore, **increase in cash flow**.
+
+### Accounts Payable
+Accounts payable are goods and services that we received from suppliers, but for which we **haven't paid yet**.
+
+An increase in AP means:
+
+
+### Inventory
+
+### Net working capital
+
 
 ![[Statement of Cash Flows-20250327151627556.png|549]]
 
@@ -30,9 +52,11 @@ Amount reported in "Change in Cash" on will be equal to the difference between b
 
 ![[Statement of Cash Flows-20250327151703381.png|558]]
 
+- Net working capital = Accounts receivable + Inventory - Accounts payable
+
 ## Cash from investment activities:
-- subtract actual capital expenditure
-- deduct other assets purchased or investments
+- Subtract actual capital expenditure
+- Deduct other assets purchased or investments
 
 ![[Statement of Cash Flows-20250327151717441.png|535]]
 

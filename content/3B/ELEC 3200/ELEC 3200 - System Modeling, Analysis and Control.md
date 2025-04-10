@@ -50,5 +50,16 @@ aliases:
 
 ## Stability
 - [[System Stability]]
+    - [[Stability Analysis Examples]]
 - [[Stability Criterion]]
+    - [[Polynomial Stability]]
 - [[Routh-Hurwitz Criterion]]
+- [[Robust Stability]]
+- [[Internal Stability for Feedback Systems]]
+- [[Unity Feedback Systems]]
+- [[Controller Design]]
+
+## Unresolved
+- What is internal stability?
+- What is a unity feedback system?
+- Solve polynomial inequalities with MATLAB

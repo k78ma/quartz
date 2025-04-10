@@ -44,14 +44,14 @@ $G(s)$ is called **coprime** if $a(s)$ and $b(s)$ don't have common factors.
 
 ## Transfer Function Forms
 ### Zero-pole Gain Form
-A transfer function or any rational function can be written in either factored or unfactored form.
+A transfer function or any rational function can be written in either factored or unfactored form. The factored form is also called zero-pole gain form.
 
-Factored form:
+Unfactored form:
 $$
 G(s)=\frac{b_{0}s ^{m}+b_{1}s ^{m-1}+\dots+b_{m}}{a_{0} s ^{n}+a_{1}s ^{n-1}+\dots+a_{n}}
 $$
 
-Unfactored form:
+Factored (zero-pole gain form) form:
 $$
 G(s)=K \frac{(s-z_{1})(s-z_{2})\dots(s-z_{m})}{(s-p_{1})(s-p_{2})\dots(s-p_{n})}
 $$
@@ -65,3 +65,8 @@ $$
 - **Bi-proper:** It is said to be bi-proper if $\deg b(s)=\deg a(s)$, or equivalently $0\neq | G(\infty) | \neq \infty$.
 - **Degree:** The difference $\deg a(s)-\deg b(s)$ is called the relative degree of $G(s)$, $\deg a(s)$ is called the order or degree of $G(s)$.
 - **DC gain:** $G(0)$ is called the DC gain of $G(s)$.
+
+$$
+\frac{\left(C_{1}\,R_{1}\,s+1\right)\,\left(C_{2}\,R_{2}\,s+1\right)}{C_{1}\,R_{1}\,s+C_{2}\,R_{1}\,s+C_{2}\,R_{2}\,s+C_{1}\,C_{2}\,R_{1}\,R_{2}\,s^2+1}
+$$
+

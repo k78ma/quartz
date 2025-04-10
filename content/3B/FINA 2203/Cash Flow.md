@@ -33,11 +33,9 @@ Book profits:
 ## Impact of Depreciation on Cash Flow
 - Acquisition of assets as [[Capital Expenditure vs. Operating Expenses|capital expenditures]] do not affect earnings (net income) directly. Instead, the depreciation of $1 million would appear as an operating expense on the income statement.
 - Depreciation is an operating expense, so the firm’s operating income, EBIT, and pretax income would be affected.
-- What is the effect of the additional depreciation on cash flows?
-- Recall that depreciation is not an actual cash outflow, even though it is treated as an expense, i.e., cash flow of the firm will not decrease because of additional depreciation.
-- So the only effect on cash flow is through the reduction in taxes.
 
+What is the effect of the additional depreciation on cash flows? Depreciation is not an actual cash outflow, even though it is treated as an expense, i.e., cash flow of the firm will not decrease because of additional depreciation. So, the only effect on cash flow is through the reduction in taxes.
 $$
 \text{Cash flow}= \text{NI} + \text{Non-cash expense (i.e. depreciation)}
 $$
-
+Basically, depreciation reduces net income on the income statement because it’s treated as an expense

@@ -51,5 +51,18 @@ aliases:
 - [[EBITDA]]
 - [[Statement of Cash Flows]]
 
+## Capital Budgeting
+- [[Capital Budgeting]]
+- [[Incremental Free Cash Flow]]
+- [[Forecasting Incremental Earnings]]
+
+## Bonds
+
+
+
+
 ## Other
 - [[Finance Glossary]]
+
+## Clarification
+- Impact of depreciation on cash flow? 

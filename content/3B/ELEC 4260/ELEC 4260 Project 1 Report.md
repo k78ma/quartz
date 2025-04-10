@@ -26,11 +26,11 @@ Mapping result:
 
 ---
 ## 3. ICP Odometry
-The occupancy grid map is turned into a point cloud by extracting cells that represent obstacles, and incoming laser scans are projected into the map frame. For each scan, the node transforms the laser data into a 2D point cloud using available `tf` transformations. Then, the ICP algorithm \[2] is applied to align the current scan's point cloud with the obstacle map cloud. This process computes the optimal rigid transformation by matching corresponding points and minimizing the alignment error through centroid computation, cross-covariance analysis, and singular value decomposition (SVD). The updated transformation is broadcast as a new map-to-base transform, and an odometry message reflecting the refined pose is published.
+The occupancy grid map is turned into a point cloud by extracting cells that represent obstacles, and incoming laser scans are projected into the map frame. For each scan, the node transforms the laser data into a 2D point cloud using available `tf` transformations. Then, the ICP algorithm is applied to align the current scan's point cloud with the obstacle map cloud. This process computes the optimal rigid transformation by matching corresponding points and minimizing the alignment error through centroid computation, cross-covariance analysis, and singular value decomposition (SVD). The updated transformation is broadcast as a new map-to-base transform, and an odometry message reflecting the refined pose is published.
 
 ICP odometry result:
 
-![[ELEC 4260 Project 1-1.png]]
+![[ELEC 4260 Project 1-1.png|700]]
 
 ---
 ## 4. Real-World

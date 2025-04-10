@@ -13,8 +13,12 @@ $$
 $$
 for all $t \in [0,\infty)$.
 
+The smallest bound, called the peak magnitude or amplitude, is denoted by
+$$
+|| x(t) ||=\sup_{t\in  [0, \infty)}| x(t) |
+$$
 ## BIBO Stability
-
+A system is said to be **bounded-input-bounded-output stable** if for each bounded input the corresponding output is bounded.
 ### Continuous Time
 If we have an impulse response $h(t)$ and scaling factor $H(s)$ of the form:
 $$

@@ -49,3 +49,4 @@ Note that we can also write the gang of four as
 $$
 S(s), C(s)S(s), P(s)S(S), T(s)
 $$
+

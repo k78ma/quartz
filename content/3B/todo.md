@@ -7,10 +7,8 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 2 MFL<br>#fina2203
-- [ ] Practice midterm<br>#fina2203
-- [ ] Chapter 8 MFL<br>#fina2203
-- [ ] Chapter 5 MFL<br>#fina2203
+- [ ] Chapter 9 Notes<br>#fina2203
+- [ ] 6.1 - 6.3 Notes<br>#mech2210
 
 
 ## MECH 2210
@@ -20,20 +18,15 @@ draft: "true"
 
 ## FINA 2203
 
-- [ ] Chapter 9 Notes<br>#fina2203
 - [ ] Chapter 6 Notes<br>#fina2203
+- [ ] Chapter 9 MFL Study Plan<br>#fina2203
+- [ ] Chapter 6 MFL Study Plan<br>#fina2203
+- [ ] Homework 7 - April 14<br>#fina2203
 
 
 ## ELEC 3200
 
-- [ ] Homework 2 - Apr 2<br>#elec3200
-- [ ] Lecture 9<br>#elec3200
-- [ ] Lecture 10<br>#elec3200
-- [ ] Lecture 11<br>#elec3200
-- [ ] Lecture 12<br>#elec3200
-- [ ] Lecture 13<br>#elec3200
-- [ ] Lecture 14<br>#elec3200
-- [ ] Lecture 15<br>#elec3200
+- [ ] Magnetic Levitation Pre-Lab<br>#elec3200
 
 
 ## ELEC 4260
@@ -103,6 +96,19 @@ draft: "true"
 - [ ] 2016 midterm<br>#fina2203
 - [ ] Lecture 7<br>#elec3200
 - [ ] Lecture 8<br>#elec3200
+- [ ] Chapter 2 MFL<br>#fina2203
+- [ ] Practice midterm<br>#fina2203
+- [ ] Chapter 8 MFL<br>#fina2203
+- [ ] Chapter 5 MFL<br>#fina2203
+- [ ] Lecture 9<br>#elec3200
+- [ ] Lecture 10<br>#elec3200
+- [ ] Lecture 11<br>#elec3200
+- [ ] Lecture 12<br>#elec3200
+- [ ] Lecture 13<br>#elec3200
+- [ ] Lecture 14<br>#elec3200
+- [ ] Lecture 15<br>#elec3200
+- [ ] Homework 2 - Apr 2<br>#elec3200
+- [ ] Sample Midterm<br>#elec3200
 
 %% kanban:settings
 ```

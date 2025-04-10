@@ -11,3 +11,5 @@ aliases:
 - [[MTE 309 - Introduction to Thermodynamics and Heat Transfer]]
 - [[MTE 321 - Design and Dynamics of Machines]]
 - [[SYDE 351 - Systems Models]]
+
+## Thoughts

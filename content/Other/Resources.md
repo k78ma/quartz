@@ -38,6 +38,8 @@ draft: "true"
 - [Just know stuff. (Or, how to achieve success in a machine learning PhD.) · Patrick Kidger](https://kidger.site/thoughts/just-know-stuff/)
 - [6.036 - Introduction to Machine Learning | MIT Open Learning Library](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/course/)
 - [CMU: 11-785 Deep Learning](https://deeplearning.cs.cmu.edu)
+- [Notes for CS181: Machine Learning](https://onefishy.github.io/ML_notes/)
+    - [cs181-textbook.pdf](https://harvard-ml-courses.github.io/cs181-web-2024/static/cs181-textbook.pdf)
 ### Videos
 - [Karpathy – Neural Networks: Zero to Hero](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ)
 - [PyTorch 24 Hours](https://www.youtube.com/watch?v=Z_ikDlimN6A&t=69548s)
@@ -96,6 +98,8 @@ draft: "true"
 - [Linear Algebra - 3b1b](https://www.3blue1brown.com/topics/linear-algebra)
 - [Interactive Linear Algebra](https://textbooks.math.gatech.edu/ila/systems-of-eqns.html)
 - [MATH 115 Lectures.pdf](file:///Users/kai/Library/CloudStorage/OneDrive-UniversityofWaterloo/1A/MATH%20115%20Lectures.pdf)
+### Statistics
+- [All of Statistics](https://www.stat.cmu.edu/~brian/valerie/617-2022/0%20-%20books/2004%20-%20wasserman%20-%20all%20of%20statistics.pdf)
 ### CS
 - [A Programmer's Introduction to Mathematics](https://pimbook.org/)
 - [Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring18/mcs.pdf)

@@ -88,3 +88,6 @@ April 18 - 21: Could go somewhere
 
 - Need to wait for MECH 2210 midterm date announcement
 - Need to wait for badminton competition schedule announcement in April
+
+Harbin planning:
+- 
