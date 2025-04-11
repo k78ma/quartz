@@ -44,7 +44,7 @@ y=\phi_{0}+\phi_{1}h_{1}+\phi_{2}h_{2}+\phi_{3}h_{3}
 $$
 The flow of computation is shown here:
 
-![[Shallow Neural Network.png]]
+![[Shallow Neural Network-20250410160534919.png|699]]
 
 - Each hidden unit contains a linear function $\theta_{\bullet0}+\theta_{\bullet 1}x$.
 - This line is clipped by the ReLU $a[\bullet]$ below zero.
@@ -61,8 +61,6 @@ The slope of each linear region is determined by the original slopes $\theta_{\b
 Each hidden unit contributes one “joint” to the function, so with three hidden units, there can be four linear regions. However, only three of the slopes of these regions are independent; the fourth is either zero (if all the hidden units are inactive in this region) or is a sum of slopes from the other regions.
 
 A network may also have [[Multivariate Inputs and Outputs|multivariate inputs and outputs]]. 
-
-![[Shallow Neural Network-3.png|592]]
 
 ## Network Visualization
 The network we've been discussing has one input, one output, and three hidden units. This can be depicted as such:

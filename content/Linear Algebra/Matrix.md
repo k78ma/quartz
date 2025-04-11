@@ -35,6 +35,7 @@ With the definition of [[Matrix Addition|matrix addition]] and [[Scalar Multipli
 
 For $m$ and $n$ positive integers, the set of all $m$-by-$n$ matrices with entries in $\mathbb{F}$ is denoted by $\mathbb{F}^{m,n}$.
 
+### Dimension of $\mathbb{F}^{m,n}$
 Suppose $m$ and $n$ are positive integers. With addition and scalar multiplication as defined above, $\mathbb{F}^{m,n}$ is a vector space with $\dim \mathbb{F}^{m,n}=mn$. 
 - The additive identity of $\mathbb{F}^{m,n}$ is the $m$-by-$n$ matrix all of whose entries are $0$.
 

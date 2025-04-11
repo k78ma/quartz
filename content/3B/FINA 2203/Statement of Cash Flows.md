@@ -39,26 +39,46 @@ A decrease in AR means:
 Accounts payable are goods and services that we received from suppliers, but for which we **haven't paid yet**.
 
 An increase in AP means:
+- A increase in cash that we need to pay suppliers
+- An decrease in cash that we paid to suppliers this period
+- Therefore, **increase in cash flow**.
 
+A decrease in AP means:
+- A decrease in cash that we need to pay suppliers
+- An increase in cash that we paid to suppliers this period
+- Therefore, **decrease in cash flow**.
 
 ### Inventory
+Inventory: Unsold finished goods and intermediate goods that were not used for production. For example, in the case of Apple, unsold iPhones (finished goods), yet-to-be-assembled iPhone screens (intermediate goods).
+
+An increase in inventory means:
+- An increase in either i) stock of goods we did not sell or ii) higher purchases from intermediate goods suppliers, or both
+- Decrease in cash flow
+
+A decrease in inventory means:
+- An decrease in either i) stock of goods we did not sell or ii) lower purchases from intermediate goods suppliers, or both
+- An increase in cash coming from either i) higher sales of finished goords or ii) lower purchases from intermediate goods suppliers, or both
+- Increase in cash flow
 
 ### Net working capital
-
-
-![[Statement of Cash Flows-20250327151627556.png|549]]
-
-![[Statement of Cash Flows-20250327151641449.png|550]]
-
-![[Statement of Cash Flows-20250327151703381.png|558]]
-
+- Accounts receivable plus inventory minus accounts payable is the amount we adjust for the change in net working capital
 - Net working capital = Accounts receivable + Inventory - Accounts payable
+- This is the share of assets and liabilities that comes from the firm running its core operating activities
+- When NWC increases, cash flow decreases
+    - Because of higher inventory, higher accounts receivable, or lower accounts payable
+- When NWC decreases, cash flow decreases
+    - Because of lower inventory, lower accounts receivable, or higher accounts payable
+
+- **Net working capital** = Accounts receivable + Inventory - Accounts payable
 
 ## Cash from investment activities:
 - Subtract actual capital expenditure
 - Deduct other assets purchased or investments
 
-![[Statement of Cash Flows-20250327151717441.png|535]]
+Investment entails a cash outlow:
+- [[Capital Expenditure vs. Operating Expenses|Capital expenditures]] decrease cash flows (we are paying cash for fixed assets like machinery, plants, etc)
+- Acquisitions also decrease cash flows (we are paying cash to buy another firm)
+- Selling fixed assets increases cash flows
 
 
 ## Cash from financing activities:
@@ -66,7 +86,8 @@ An increase in AP means:
 - Add cash from sale of stock / deduct cash spent repurchasing own stock
 - Changes to short-term and long-term borrowing (new borrowing, repayment of debt)
 
-![[Statement of Cash Flows-20250327151749641.png|562]]
+- An increase in dividends and interest payments decreases cash flows (paying more to shareholders and lenders).
+- An increase in equity capital and debt (taking a loan from a bank) increases cash flows to the firm (receiving cash from shareholders/lenders).
 
 
 ## Sources and Uses of Cash

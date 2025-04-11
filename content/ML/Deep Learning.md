@@ -36,3 +36,4 @@ Some of these notes are also included in [[Machine Learning]].
 ## Exercises
 - [[UDL Chapter 2 Problems]]
 - [[UDL Chapter 3 Problems]]
+- [[UDL Chapter 4 Problems]]

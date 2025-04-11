@@ -196,8 +196,6 @@ $$
 > [!question] Problem 3.13
 > What is the activation pattern for each of the seven regions in figure 3.8? In other words, which hidden units are active (pass the input) and which are inactive (clip the input) for each region?
 
-![[UDL Chapter 3 Problems-3.png|328]]
-
 - Region 1: $h_{1}$
 - Region 2: $h_{1}, h_{2}$
 - Region 3: None

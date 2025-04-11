@@ -52,12 +52,12 @@ draft:
 
 AI Option:
 - List 1:
-    - STV 208
-- List 2:
+    - [x] STV 208
+- List 2 (two courses):
     - Two engineering courses, doesn't really matter
     - SYDE 522
     - ECE 457A or 457C
-- List 3:
+- List 3 (three courses):
     - MTE 484
     - A math course - CS 479, STAT 341?
     - ECE 486, ECE 495, MTE 546, MTE 544?
