@@ -9,8 +9,7 @@ aliases:
 > [!question] Problem 4.1
 > Consider composing the two neural networks in figure 4.8. Draw a plot of the relationship between the input $x$ and output $y'$ for $x \in  [−1, 1]$. 
 
-![[UDL Chapter 4 Problems-20250410155525157.png|467]]
-
+![[UDL Chapter 4 Problems-20250412023633412.png]]
 
 
 

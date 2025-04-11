@@ -43,7 +43,6 @@ which is also a linear function of $x$.
 > [!question] Problem 3.2
 > For each of the four linear regions in figure 3.3j, indicate which hidden units are inactive and which are active (i.e., which do and do not clip their inputs).
 > 
-> ![[UDL Chapter 3 Problems.png|300]]
 
 - Region 1: $h_{3}$ is active
 - Region 2: $h_{1}$ and $h_{3}$ are active
@@ -70,7 +69,6 @@ Slopes for each region are determined by which hidden units are active in that r
 > [!question] Problem 3.4
 > Draw a version of figure 3.3 where the $y$-intercept and slope of the 3rd hidden unit have changed as in 3.14c. Assume that the remaining parameters remain the same.
 > 
-> ![[UDL Chapter 3 Problems-1.png|300]]
 
 
 

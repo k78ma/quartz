@@ -59,8 +59,17 @@ $$
 
 With more than 2 inputs, the visualization becomes difficult, but the interpretation is similar; the output is just a continuous piecewise linear function of the output, where the linear regions are now convex polytopes in the multi-dimensional input space.
 
+## Number of Linear Regions
 As the input dimensions grow, the number of linear regions increases rapidly. Each hidden unit defines a hyperplane ($n-1$ dimensional plane) that delineates the part of the space where this unit is active from the part it is not. If we had the same number of hidden units as input dimensions $D_{i}$, we could align each hyperplane with one of the coordinate axes. For two input dimensions, this would divide the space into four quadrants. For three dimensions, this would create eight octants, and for $D_{i}$ dimensions, this would create $2^{D_{i}}$ orthants. hallow neural networks usually have more hidden units than input dimensions, so they typically create more than $2^{D_{i}}$ linear regions.
 
 ![[Multivariate Inputs and Outputs-2.png|616]]
 
-![[Multivariate Inputs and Outputs-3.png|624]]
+![[Multivariate Inputs and Outputs-3.png|617]]
+
+**Zavslavsky's formula:** The number of regions created by $D$ hyperplanes in the $D_{i}\leq D$-dimensional input space is at most
+$$
+\sum_{j=0}^{D_{i}} {D \choose j}
+$$
+which is a sum of binomial coefficients. 
+
+As a rule of thumb, shallow neural networks almost always have a larger number $D$ of hidden units than input dimensions $D_{i}$ and create between $2D_{i}$ and $2D$ linear regions. 
