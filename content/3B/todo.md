@@ -8,6 +8,7 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 9 Notes<br>#fina2203
+- [ ] Magnetic Levitation Pre-Lab<br>#elec3200
 - [ ] 6.1 - 6.3 Notes<br>#mech2210
 
 
@@ -26,7 +27,8 @@ draft: "true"
 
 ## ELEC 3200
 
-- [ ] Magnetic Levitation Pre-Lab<br>#elec3200
+- [ ] Lecture 16<br>#elec3200
+- [ ] Lecture 17<br>#elec3200
 
 
 ## ELEC 4260

@@ -55,6 +55,7 @@ aliases:
 - [[Capital Budgeting]]
 - [[Incremental Free Cash Flow]]
 - [[Forecasting Incremental Earnings]]
+- [[Converting Earnings to Cash Flows]]
 
 ## Bonds
 
