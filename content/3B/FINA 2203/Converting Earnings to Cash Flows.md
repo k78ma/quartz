@@ -67,7 +67,7 @@ Accounting principles require recovery of working capital over the life of the p
 
 ## Example
 A sports drink project:  
-- Projected EBIT = $5 mil per year  
+- Projected EBIT = $700,000 per year  
 - Cost of equipment = $90,000 (100% depreciated over the three year period straight line)  
 - Product life = 3 years  
 - Interest on borrowing = $5,000 per year  
