@@ -1,0 +1,1 @@
+{"path":"2B/MTE 241/attachments/System Calls-1.png","text":"Normal Operation SVC Instruction + Integer Trigger system call SVC_Handler (Assembly) Extract integer, call C function SVC_Handler_Main (C) Call individual system calls","libVersion":"0.3.2","langs":"eng"}

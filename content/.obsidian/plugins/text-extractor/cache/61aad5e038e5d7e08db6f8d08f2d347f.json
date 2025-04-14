@@ -1,0 +1,1 @@
+{"path":"3B/ELEC 3200/attachments/Routh-Hurwitz Criterion-20250406185103610.png","text":"» Example Determine the stability of as(s) = s® + 10s* + 35s% + 50s2 + 245 + 300. e Construct the Routh table s° 1 35 24 st 10 50 300 53 T20 = 30 T91 = —6 e As soon as the negative entry appears, the polynominal is unstable.","libVersion":"0.3.2","langs":"eng"}

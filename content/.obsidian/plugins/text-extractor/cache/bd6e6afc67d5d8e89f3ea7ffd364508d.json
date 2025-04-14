@@ -1,0 +1,1 @@
+{"path":"ML/attachments/Gradient Descent for Logistic Regression.png","text":"LR-GRADIENT-DESCENT(0;yit, Ooinit, M, €) 1 00 = 0 2 9(()0) = Ooinit 3 t=0 4 repeat 5 t=t+1 6 o) =gt-D) _q(Lyn (o (pt-DTx() 4 o{t=D) _y®)) XD +;\\9(t—1)) 7 e = e —n (2 x (o (0 X o) —yt)) 8 until [J1(0\"),0§) — Ji(0 1, 0§ )| < e 9 return 6V, 0\"","libVersion":"0.3.2","langs":"eng"}

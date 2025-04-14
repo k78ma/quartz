@@ -1,0 +1,1 @@
+{"path":"2B/MTE 241/attachments/Interrupt Execution-3.png","text":"PO Interrupt Interrupt exit exit P v Interrupt Stacking Unstacking Processing PUSH to stack POP from stack Tail-chain Figure 23: Tail chaining","libVersion":"0.3.2","langs":"eng"}

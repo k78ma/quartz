@@ -1,0 +1,1 @@
+{"path":"ML/attachments/1D Gradient Descent.png","text":"1D-GRADIENT-DESCENT(®;,it, 1, f, /, €) 1 00 = @ 2 t=0 3 repeat 4 t=t+1 5 @(t) — @(tfl) -1 f/(@(tfl)) 6 until [f(OM)) —fO@tD) <€ 7 return @V","libVersion":"0.3.2","langs":"eng"}

@@ -1,0 +1,1 @@
+{"path":"3A/MTE 325/attachments/Analog Signal Conversion Issues.png","text":"Expected Output Actual Output Vi NN n v +/-10% | | of final | | value | | | | | | 10% | | | Delay Slew [ Ring | ) Settling Time > Figure 2: An ideal signal transition from logic 0 to logic 1 vs. a more realistic transition. Real signals have delay, slew and ring time.","libVersion":"0.3.2","langs":"eng"}

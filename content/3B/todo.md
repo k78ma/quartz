@@ -22,7 +22,7 @@ draft: "true"
 - [ ] Chapter 6 Notes<br>#fina2203
 - [ ] Chapter 9 MFL Study Plan<br>#fina2203
 - [ ] Chapter 6 MFL Study Plan<br>#fina2203
-- [ ] Homework 7 - April 14<br>#fina2203
+- [ ] Chapter 7 Notes<br>#mech2210
 
 
 ## ELEC 3200
@@ -111,6 +111,7 @@ draft: "true"
 - [ ] Lecture 15<br>#elec3200
 - [ ] Homework 2 - Apr 2<br>#elec3200
 - [ ] Sample Midterm<br>#elec3200
+- [ ] Homework 7 - April 14<br>#fina2203
 
 %% kanban:settings
 ```

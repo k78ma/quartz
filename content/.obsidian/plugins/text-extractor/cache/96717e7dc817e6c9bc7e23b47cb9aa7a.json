@@ -1,0 +1,1 @@
+{"path":"ML/attachments/Infinite-horizon MDP Solutions.png","text":"VALUE-ITERATION(S, A, T, R,v, €) 1 forse8,acA: 2 Qold(s,a) =0 3 while True: 4 forse§,acA: 5 Quew(s, @) =R(s,a) +v 3., T(s,a,s\") maxa: Quua(s’, a’) 6 if maxs,a|Qowa(s, @) — Qnew(s, a)l < e: 7 return Qnew 8 Qold = Qnew","libVersion":"0.3.2","langs":"eng"}

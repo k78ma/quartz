@@ -61,15 +61,12 @@ A decrease in inventory means:
 - Increase in cash flow
 
 ### Net working capital
-- Accounts receivable plus inventory minus accounts payable is the amount we adjust for the change in net working capital
 - Net working capital = Accounts receivable + Inventory - Accounts payable
 - This is the share of assets and liabilities that comes from the firm running its core operating activities
 - When NWC increases, cash flow decreases
     - Because of higher inventory, higher accounts receivable, or lower accounts payable
 - When NWC decreases, cash flow decreases
     - Because of lower inventory, lower accounts receivable, or higher accounts payable
-
-- **Net working capital** = Accounts receivable + Inventory - Accounts payable
 
 ## Cash from investment activities:
 - Subtract actual capital expenditure

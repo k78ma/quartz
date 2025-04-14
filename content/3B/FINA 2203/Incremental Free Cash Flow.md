@@ -1,8 +1,10 @@
 ---
-title: "Incremental Free Cash Flow"
+title: Incremental Free Cash Flow
 tags: 
-date: "2025-04-10"
-aliases: "incremental free cash flow"
+date: 2025-04-10
+aliases:
+  - incremental free cash flow
+  - free cash flow
 ---
 Note that sometimes we just say "incremental cash flow".
 

@@ -1,0 +1,1 @@
+{"path":"ML/attachments/Batch Gradient Descent.png","text":"MINI-BATCH-SGD(NN, data, k) 1 n =length(data) 2 while not done: 3 RANDOM-SHUFFLE(data) 4 fori=1ton/k 5 BATCH-GRADIENT-UPDATE(NN, data[(i — 1)k : ik])","libVersion":"0.3.2","langs":"eng"}

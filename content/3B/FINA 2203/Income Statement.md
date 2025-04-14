@@ -17,6 +17,9 @@ Earnings calculations include:
 - Pretax Income = EBIT $\pm$ Interest Income (Expense)
 - Net Income = Pretax Income - Taxes
 
+![[Income Statement-20250414121359441.png|598]]
+
+
 After net income, we also include earning per share:
 - Earnings per share (EPS) = Net Income / Shares Outstanding
 

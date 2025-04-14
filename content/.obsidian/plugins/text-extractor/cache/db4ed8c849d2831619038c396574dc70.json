@@ -1,0 +1,1 @@
+{"path":"3A/MTE 325/attachments/Non-Daisy Chain Arbitration.png","text":"Monolithic Non-Daisy-Chained Bus Arbiter Requestl Request2 Request3 Request4 Grantl Grant2 Grant3 Grant4 Figure 11: The monolithic non-daisy chained arbiter only exposes the request and grant signals outside of the arbiter","libVersion":"0.3.2","langs":"eng"}

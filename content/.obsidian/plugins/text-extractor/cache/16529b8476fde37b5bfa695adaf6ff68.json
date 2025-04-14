@@ -1,0 +1,1 @@
+{"path":"3B/ELEC 3200/attachments/Routh-Hurwitz Criterion-20250406185131832.png","text":"» Example Determine the stability of az(s) = s* + 35> + 352 + 35 + 2. e Construct the Routh table st 1 3 2 58 3 3 52 2 2 81 30 — 0 $0 40 e Since r39 = 0, r49 cannot be computed. The polynominal is unstable.","libVersion":"0.3.2","langs":"eng"}

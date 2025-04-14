@@ -1,0 +1,1 @@
+{"path":"3B/ELEC 3200/attachments/Internal Stability for Feedback Systems-20250406194301637.png","text":"-1 33s—6 » Example Let P(s) = h and C(s) = Ss_—% Both P(s) and C(s) are unstable, but the closed-loop characteristic polynomial s(s—2)(s —25)+ (s —1)(33s — 6) = s> + 65> + 115 + 6 is stable. Hence, the closed-loop system is stable.","libVersion":"0.3.2","langs":"eng"}

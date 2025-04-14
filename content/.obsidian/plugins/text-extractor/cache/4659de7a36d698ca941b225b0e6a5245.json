@@ -1,0 +1,1 @@
+{"path":"3A/MTE 325/attachments/Interrupt Handling-2.png","text":". Interrupt Vector x . ‘ Interrupt Vector y . . Interrupt Vector z . Interrupt Request Hardware Automatically Desired Handler Initiated Selects Desired Handler is Executed Figure 10: Vectored interrupts provide a 1:1 mapping between interrupt trigger and asso- ciated handler","libVersion":"0.3.2","langs":"eng"}

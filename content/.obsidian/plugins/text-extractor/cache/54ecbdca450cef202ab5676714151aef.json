@@ -1,0 +1,1 @@
+{"path":"3A/MTE 325/attachments/CPU-Memory Interface.png","text":"Clock Read . Write Control | Select Unit ALU Operat on 32 Bit Internal Other Control Signals CPU Bus A[31..0] D[31..0] E : To Memory Via System Bus Select ALU Operation Constant 4 Figure 6: Structure of a simple 32-bit CPU","libVersion":"0.3.2","langs":"eng"}

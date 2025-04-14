@@ -22,5 +22,6 @@
   "vertical-tabs",
   "image-converter",
   "shrink-pinned-tabs",
-  "homepage"
+  "homepage",
+  "text-extractor"
 ]

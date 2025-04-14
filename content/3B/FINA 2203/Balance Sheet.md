@@ -33,6 +33,8 @@ $$
 \text{Assets}=\text{Liabilities}+\text{Stockholders' Equity}
 $$
 
+![[Balance Sheet-20250414123240082.png]]
+
 ## Purpose
 The balance sheet shows the financial position of the firm at a specific point in time.
 - a snapshot of the firm’s assets and liabilities  e.g., values as of Mar 31, 2015

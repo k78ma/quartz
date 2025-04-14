@@ -1,0 +1,1 @@
+{"path":"3B/ELEC 3200/attachments/Routh-Hurwitz Criterion-20250406185149397.png","text":"» Example Determine the value of K such that a(s) = s* + 2s% + 4s? + 4s + K is stable. e Construct the Routh table st 1 4 K 53 2 4 s? 2 K st |4-K g K e a(s) is stable if K > 0 and 4 — K > 0. Hence the polynominal a(s) is stable iff 0 < K < 4.","libVersion":"0.3.2","langs":"eng"}

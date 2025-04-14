@@ -56,6 +56,7 @@ aliases:
 - [[Incremental Free Cash Flow]]
 - [[Forecasting Incremental Earnings]]
 - [[Converting Earnings to Cash Flows]]
+- [[Incremental Earning and Cash Flow Example]]
 
 ## Bonds
 

@@ -1,0 +1,1 @@
+{"path":"ML/attachments/Momentum (ML).png","text":"The red arrows show the update after one step of mini-batch gradient descent with momentum. The blue points show the direction of the gradient with respect to the mini-batch at each step. Momentum smooths the path taken towards the local minimum and leads to faster convergence.","libVersion":"0.3.2","langs":"eng"}

@@ -1,0 +1,1 @@
+{"path":"3B/ELEC 3200/attachments/Internal Stability for Feedback Systems-20250406194312691.png","text":"1 » Example Let P(s) = Grip and C(s) = 10. Both P(s) and C(s) are e 3 stable, but the closed-loop characteristic polynomial (s+1)%+10 =5 +3s% + 35 + 11 is unstable. Hence, the closed-loop system is unstable.","libVersion":"0.3.2","langs":"eng"}

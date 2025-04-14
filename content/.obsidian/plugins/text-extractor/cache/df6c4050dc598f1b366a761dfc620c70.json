@@ -1,0 +1,1 @@
+{"path":"CS/attachments/Pasted image 20240429193833.png","text":"o 1 2 3 4 5 6 7 8 9 L d = by = . —_— —_ j— ? Figure 3.10: Collision resolution by chaining, after hashing the first eight Fi- bonacci numbers in increasing order, with hash function H(z) = (2z + 1) mod 10. Insertions occur at the head of each list in this figure.","libVersion":"0.3.2","langs":"eng"}

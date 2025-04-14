@@ -1,0 +1,1 @@
+{"path":"3A/MTE 325/attachments/Interrupt Handling.png","text":"Interrupt Request General ISR Selects Desired Handler Initiated Desired Handler is Executed Figure 9: Non-vectored interrupts being handled by a general interrupt service routine","libVersion":"0.3.2","langs":"eng"}
