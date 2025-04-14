@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 9 Notes<br>#fina2203
 - [ ] Magnetic Levitation Pre-Lab<br>#elec3200
 - [ ] 6.1 - 6.3 Notes<br>#mech2210
 
@@ -23,6 +22,7 @@ draft: "true"
 - [ ] Chapter 9 MFL Study Plan<br>#fina2203
 - [ ] Chapter 6 MFL Study Plan<br>#fina2203
 - [ ] Chapter 7 Notes<br>#mech2210
+- [ ] 9c examples<br>#fina2203
 
 
 ## ELEC 3200
@@ -112,6 +112,7 @@ draft: "true"
 - [ ] Homework 2 - Apr 2<br>#elec3200
 - [ ] Sample Midterm<br>#elec3200
 - [ ] Homework 7 - April 14<br>#fina2203
+- [ ] Chapter 9 Notes<br>#fina2203
 
 %% kanban:settings
 ```

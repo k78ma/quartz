@@ -27,13 +27,14 @@ Incremental free cash flow part:
 ![[Incremental Earning and Cash Flow Example-20250414215925996.png]]
 
 
-We will:
-- Forecast the incremental earnings from the HomeNet project.
-- Compute the incremental free cash flows for HomeNet to decide whether Linksys should proceed with the project.
+After-tax salvage value part:
+- Suppose that the $7.5 million lab equipment can be sold for $800,000 when the production discontinues and the lab is shut down in year 4. So the machine won’t be kept till year 5. What adjustments must we make to HomeNet’s free cash flow?
 
 ## Solution
 
 ### Incremental Earnings
+In this part, we forecast the incremental earnings from the HomeNet project.
+
 In general, we want to solve
 $$
 \begin{align}
@@ -62,6 +63,8 @@ $$
 ![[Forecasting Incremental Earnings-20250414123136375.png]]
 
 ### Incremental Free Cash Flows
+In this part, we compute the incremental free cash flows for HomeNet to decide whether Linksys should proceed with the project.
+
 We recognize that:
 - There is a 7.5 million cash outflow associated with the purchase in year 0
 - We need to add back the 1.5 million depreciation expenses from year 1 to 5 as they are not actually cash outflows
@@ -86,3 +89,23 @@ $$
 \text{NPV}=-7500+ \frac{2295}{1.12}+\frac{3420}{1.12^{2}}+\frac{3420}{1.12^{3}}+\frac{3420}{1.12^{4}}+\frac{1725}{1.12^{5}}=2862
 $$
 HomeNet's NPV is thus $2862 million dollars.
+
+### After-Tax Salvage
+Suppose that the $7.5 million lab equipment can be sold for $800,000 when the production discontinues and the lab is shut down in year 4. So the machine won’t be kept till year 5. What adjustments must we make to HomeNet’s free cash flow?
+
+We want to:
+1. Compute accumulated depreciation and determine the book value of equipment at end of year 4. 
+2. Compute difference between sale price and book value. 
+3. Compute tax credit/due on capital loss/gain and subtract it from the sale price. 
+4. Remove the depreciation expense in year 5
+
+We have:
+- BV = 1.5 million in year 4
+- BV > SV → Capital loss → Tax credit
+- Capital loss = $1,500,000 - $800,000 = $700,000
+- Tax credit = 0.4 × $700,000 = $280,000
+- After-tax cash flow from selling the equipment: = $800,000 + $280,000 = $1,080,000
+
+As sale price is lower than book value, there will be a capital loss which leads to tax credit. $1,080,000 will need to be added to HomeNet’s free cash flow in year 4.
+
+![[Incremental Earning and Cash Flow Example-20250414230506341.png]]

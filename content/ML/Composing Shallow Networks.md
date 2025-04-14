@@ -75,9 +75,32 @@ h_{2}'=a[\psi_{20}+\psi_{21}h_{1}+\psi_{22}h_{2}+\psi_{23}h_{3}] \\
 h_{3}'=a[\psi_{30}+\psi_{31}h_{1}+\psi_{32}h_{2}+\psi_{33}h_{3}] \\
 \end{align}
 $$
-where $\psi_{10}=\theta'_{10}+\theta'_{11}\phi_{0}, \psi_{11}=\theta'_{11}\phi_{1}, \psi_{12}=\theta'_{11}\phi_{2}$ and so on. The result is a network with two hidden layers.
+where $\psi_{10}=\theta'_{10}+\theta'_{11}\phi_{0}, \psi_{11}=\theta'_{11}\phi_{1}, \psi_{12}=\theta'_{11}\phi_{2}$ and so on. Finally we can define the output by:
+$$
+y'=\phi'_{0}+\phi_{1}'h_{1}'+\phi_{2}'h_{2}'+\phi_{3}'h_{3}'
+$$
+
+The result is a network with two hidden layers.
 
 ![[Composing Shallow Networks-4.png|564]]
 
 It follows that a network with two layers can represent the family of functions created by passing the output of one single-layer network into another. It represents a broader family, because the nine slope parameters, $\psi_{11}, \psi_{21}, \dots, \psi_{33}$ can take arbitrary values, whereas the original parameters are constrained to be the outer product $[\theta_{11}', \theta_{21}', \theta'_{31}]^{T}[\phi_{1},\phi_{2}, \phi_{3}]$.
 
+Considering the above equations leads to another way of thinking about how the network constructs an increasingly complex function:
+1. The three hidden units $h_{1}, h_{2}$ and $h_{3}$ in the first layer are computed as usual by forming linear functions of the input and passing these through ReLU activation functions.
+2. The pre-activations at second layer are computed by taking three new linear functions of these hidden units. At this point, we effectively have a shallow network with three outputs; we have computed three piecewise linear functions with the "joints" between linear regions in the same places.
+3. At the second hidden layer, another ReLU function is applied to each function, which clips them and adds new "joints" to each.
+4. The final output is a linear combination of these hidden units.
+
+We can think of each layer as "folding" the input space or as creating the new functions, which are clipped (creating new regions) and then recombined. The former view emphasizes the dependencies in the output, but not how clipping creates new joints, and the latter has the opposite emphasis. Both only provide partial insight into how deep neural networks operate.
+
+It's important to not lose sight of the fact that this is still merely an equation relating input $x$ to output $y'$. We can combine all the equations to get one expression:
+$$
+\begin{align}
+y'=\phi_{0}' & +\phi_{1}'a[\psi_{10}+\psi_{11}a[\theta_{10}+\theta_{11}x]+\psi_{12}a[\theta_{20}+\theta_{21}x]+\psi_{13}a[\theta_{30}+\theta_{31}x]] \\
+&+\phi_{2}'a[\psi_{20}+\psi_{21}a[\theta_{10}+\theta_{11}x]+\psi_{22}a[\theta_{20}+\theta_{21}x]+\psi_{23}a[\theta_{30}+\theta_{31}x]] \\
+&+\phi_{3}'a[\psi_{30}+\psi_{31}a[\theta_{10}+\theta_{11}x]+\psi_{32}a[\theta_{20}+\theta_{21}x]+\psi_{33}a[\theta_{30}+\theta_{31}x]]    
+\end{align}
+$$
+
+![[Composing Shallow Networks-20250415003023211.png|599]]
