@@ -65,6 +65,10 @@ Papers:
 - [Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations](https://arxiv.org/abs/2102.06559)
     - [Partially Stochastic Infinitely Deep Bayesian Neural Networks
 
+Writing I enjoyed:
+- [The Colors Of Her Coat - by Scott Alexander](https://www.astralcodexten.com/p/the-colors-of-her-coat)
+- [escaping flatland: career advice for CS undergrads](https://space.ong.ac/escaping-flatland)
+
 Other:
 - [Vagabond](https://manga4life.com/manga/Vagabond)
 

@@ -55,8 +55,14 @@ A different way to think about composing networks is that the first network "fol
 ![[Composing Shallow Networks-3.png|612]]
 
 ## From composing networks to deep networks
-We can show that our composition of networks is a special case of a [[Deep Neural Network]] with two hidden layers.
-
+We can show that our composition of networks is a special case of a [[Deep Neural Network]] with two hidden layers. The first layer is defined by
+$$
+\begin{align}
+h_{1} & = a[\theta_{10}+\theta_{11}x] \\
+h_{2} & =a[\theta_{20}+\theta_{21}x] \\
+h_{3} & =a[\theta_{30}+\theta_{31}x]
+\end{align}
+$$
 The output of the first network ($y=\phi_{0}+\phi_{1}h_{1}+\phi_{2}h_{2}+\phi_{3}h_{3}$) is a linear combination of the activations of the hidden units. The first operations of the second network ($\theta'_{10}+\theta'_{11}y, \theta'_{20}+\theta'_{21}y, \theta'_{30}+\theta'_{31}y$) are linear in the output of the first network. Applying one linear function to another yields another linear function. 
 
 Substituting the expression for $y$ in the calculation of hidden units in the second network gives:
@@ -104,3 +110,64 @@ y'=\phi_{0}' & +\phi_{1}'a[\psi_{10}+\psi_{11}a[\theta_{10}+\theta_{11}x]+\psi_{
 $$
 
 ![[Composing Shallow Networks-20250415003023211.png|599]]
+
+## Matrix Notation
+We can describe our composition above in matrix notation as:
+$$
+\begin{bmatrix}
+h_{1} \\
+h_{2} \\
+h_{3}
+\end{bmatrix}=a\begin{bmatrix}
+\begin{bmatrix}
+\theta_{10} \\
+\theta_{20} \\
+\theta_{30}
+\end{bmatrix}+\begin{bmatrix}
+\theta_{11} \\
+\theta_{21} \\
+\theta_{31}
+\end{bmatrix}x
+\end{bmatrix}
+$$
+and
+$$
+\begin{bmatrix}
+h_{1}' \\
+h_{2}' \\
+h_{3}'
+\end{bmatrix}=a \begin{bmatrix}
+\begin{bmatrix}
+\psi_{10} \\
+\psi_{20} \\
+\psi_{30}
+\end{bmatrix}+\begin{bmatrix}
+\psi_{11} & \psi_{12} & \psi_{13} \\
+\psi_{21} & \psi_{22} & \psi_{23} \\
+\psi_{31} & \psi_{32} & \psi_{33}
+\end{bmatrix} \begin{bmatrix}
+h_{1} \\
+h_{2} \\
+h_{3}
+\end{bmatrix}
+\end{bmatrix}
+$$
+and
+$$
+y'=\phi_{0}'+\begin{bmatrix}
+\phi_{1}'  & \phi_{2}' & \phi_{3}'
+\end{bmatrix} \begin{bmatrix}
+h_{1}' \\
+h_{2}' \\
+h_{3}'
+\end{bmatrix}
+$$
+or even more compactly as
+$$
+\begin{align}
+\mathbf{h} & =a[\mathbf{\theta}_{0}+\mathbf{\theta}x] \\
+\mathbf{h}' & =a[\mathbf{\psi}_{0}+\Psi \mathbf{h}] \\
+y' & =\phi_{0}'+\mathbf{\phi}'\mathbf{h}'
+\end{align}
+$$
+where, in each case, the function $a[\cdot]$ applies the activation function separately to every element of its vector input.

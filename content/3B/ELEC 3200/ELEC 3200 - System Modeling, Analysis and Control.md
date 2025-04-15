@@ -59,7 +59,3 @@ aliases:
 - [[Unity Feedback Systems]]
 - [[Controller Design]]
 
-## Unresolved
-- What is internal stability?
-- What is a unity feedback system?
-- Solve polynomial inequalities with MATLAB

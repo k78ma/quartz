@@ -7,18 +7,18 @@ draft: "true"
 
 ## Today
 
-- [ ] Magnetic Levitation Pre-Lab<br>#elec3200
 - [ ] 6.1 - 6.3 Notes<br>#mech2210
+- [ ] Chapter 6 Notes<br>#mech2210
+- [ ] Chapter 6 Notes<br>#fina2203
 
 
 ## MECH 2210
 
-- [ ] Chapter 6 Notes<br>#mech2210
+- [ ] Chapter 7 Notes<br>#mech2210
 
 
 ## FINA 2203
 
-- [ ] Chapter 6 Notes<br>#fina2203
 - [ ] Chapter 9 MFL Study Plan<br>#fina2203
 - [ ] Chapter 6 MFL Study Plan<br>#fina2203
 - [ ] Chapter 7 Notes<br>#mech2210
@@ -29,6 +29,7 @@ draft: "true"
 
 - [ ] Lecture 16<br>#elec3200
 - [ ] Lecture 17<br>#elec3200
+- [ ] Lecture 18<br>#elec3200
 
 
 ## ELEC 4260
@@ -113,6 +114,7 @@ draft: "true"
 - [ ] Sample Midterm<br>#elec3200
 - [ ] Homework 7 - April 14<br>#fina2203
 - [ ] Chapter 9 Notes<br>#fina2203
+- [ ] Magnetic Levitation Pre-Lab<br>#elec3200
 
 %% kanban:settings
 ```
