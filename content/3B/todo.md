@@ -35,12 +35,7 @@ draft: "true"
 
 ## ELEC 4260
 
-- [ ] L2 - Kinematics & Transformations<br>#elec4260
-- [ ] L3 - Sensors & ICP Notes<br>#elec4260
-- [ ] L4 - Localization<br>#elec4260
-- [ ] L5 - Path Planning & Following<br>#elec4260
-- [ ] L6 - Camera & Stereo<br>#elec4260
-- [ ] L7 - Neural Networks<br>#elec4260
+- [ ] Tune fast PID<br>#elec4260
 
 
 ## Learning + Research

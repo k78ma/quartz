@@ -17,7 +17,7 @@ We denote the number of layers as $K$ and the number of hidden units in each lay
 ## General Formulation
 - See [[Composing Shallow Networks#Matrix Notation]] for an introduction to matrix notation for a simple composition of shallow networks
 
-We describe the vector of hidden units at layer $k$ as $\mathbf{h}_{k}$, the vector of biases (intercepts) that contribute to hidden layer $k+1$ as $\beta_k$, and the weights (slopes) that are applied to the $k$-th layer and contribute to the $(k+1)$-th layer as $\Omega_{k}$. A general deep network $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with $K$ layers can now be written as:
+We describe the vector of hidden units at layer $k$ as $\mathbf{h}_{k}$, the vector of biases (intercepts) that contribute to hidden layer $k+1$ as $\mathbf{\beta}_k$, and the weights (slopes) that are applied to the $k$-th layer and contribute to the $(k+1)$-th layer as $\Omega_{k}$. A general deep network $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with $K$ layers can now be written as:
 $$
 \begin{align}
 \mathbf{h}_{1} & =a[\beta_{0}+\Omega_{0}\mathbf{x}] \\
@@ -38,6 +38,8 @@ We can equivalently write the network as a single function:
 $$
 \mathbf{y}=\beta_{K}+\Omega_{K}[\beta_{K-1}+\Omega_{K-1}a[\dots \beta_{2}+\Omega_{2}a[\beta_{1}+\Omega_{1}a[\beta_{0}+\Omega_{0}\mathbf{x}]] \dots]]
 $$
+
+In diagram form:
 
 ![[Deep Neural Network-20250415173138789.png|606]]
 
