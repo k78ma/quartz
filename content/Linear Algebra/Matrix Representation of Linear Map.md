@@ -24,14 +24,14 @@ To remember how $\mathcal{M}(T)$ is constructed from $T$, we can write:
 
 - In the matrix above, only the $k$-th column is shown. Thus, the second index of each displayed entry is $k$.
 
-==This reminds us that $Tv_{k}$ can be computed from $\mathcal{M}(T)$ by multiplying each entry in the $k$-th column by the corresponding $w_{j}$ from the left column, and then adding up the resulting vectors.== Or, the $k$-th column of $\mathcal{M}(T)$ consists of the scalars required to write $Tv_{k}$ as a combination of $w_{1},\dots,w_{m}$:
+This reminds us that $Tv_{k}$ can be computed from $\mathcal{M}(T)$ by multiplying each entry in the $k$-th column by the corresponding $w_{j}$ from the left column, and then adding up the resulting vectors. Or, the $k$-th column of $\mathcal{M}(T)$ consists of the scalars required to write $Tv_{k}$ as a combination of $w_{1},\dots,w_{m}$:
 $$
 Tv_{k}=\sum_{j=1}^{m}A_{j,k}w_{j}
 $$
 > [!example] Clarifying example
 > For example, if we have $T\, : \,\mathbb{\mathbb{F}}^{3}\to \mathbb{F}^{2}$:
 > $$
-\begin{align}
+>\begin{align}
 >  & \begin{matrix}
 > v_{1} &  v_{2}  & v_{3}
 >\end{matrix} \\[2ex] 

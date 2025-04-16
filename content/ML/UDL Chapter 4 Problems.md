@@ -29,6 +29,10 @@ aliases:
 > $$
 > where $\lambda_{0}$ and $\lambda_{1}$ are non-negative scalars. From this, we see that the weight matrices can be rescaled by any magnitude as long as the biases are also adjusted, and the scale factors can be re-applied at the end of the network.
 
+The non-negative homogeneity property states that:
+$$
+\text{ReLU}[\alpha\cdot z]=\alpha\cdot \text{ReLU}[z]
+$$
 
 
 

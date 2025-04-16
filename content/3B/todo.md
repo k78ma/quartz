@@ -23,6 +23,7 @@ draft: "true"
 - [ ] Chapter 6 MFL Study Plan<br>#fina2203
 - [ ] Chapter 7 Notes<br>#mech2210
 - [ ] 9c examples<br>#fina2203
+- [ ] Homework 8 - April 25<br>#fina2203
 
 
 ## ELEC 3200
