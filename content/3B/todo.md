@@ -31,6 +31,8 @@ draft: "true"
 - [ ] Lecture 16<br>#elec3200
 - [ ] Lecture 17<br>#elec3200
 - [ ] Lecture 18<br>#elec3200
+- [ ] Lecture 19<br>#elec3200
+- [ ] Homework 3 - May 1<br>#elec3200
 
 
 ## ELEC 4260

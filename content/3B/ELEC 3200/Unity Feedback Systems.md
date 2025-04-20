@@ -8,7 +8,7 @@ aliases:
 ---
 In a unity feedback system, is a control system where the output is fed back directly to be compared with the input without any additional processing or modification — meaning the feedback transfer function is 1.
 
-Given a plant $P(s)$ and controller $P(s)$, the **closed-loop transfer function** is
+Given a plant $P(s)$ and controller $C(s)$, the **closed-loop transfer function** is
 $$
 T(s)=\frac{C(s)P(s)}{1+C(s)P(s)}
 $$

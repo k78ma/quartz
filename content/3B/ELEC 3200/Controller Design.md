@@ -5,6 +5,7 @@ tags:
 date: 2025-04-06
 aliases:
   - controller design
+  - pole placement
 ---
 **Stabilizing controller design:** Given the plant $P(s)$, design the controller $C(s)$ so that the closed-loop system is internally stable.
 
