@@ -108,8 +108,59 @@ Increase width by 1:
 - Total:  $11+1089+11+99+1=1211$
 
 > [!question] Problem 4.7
-> 
+> Choose values for the parameters $\mathbf{\phi}=\{ \phi_{0}, \phi_{1}, \phi_{2}, \phi_{3}, \theta_{10}, \theta_{11}, \theta_{20}, \theta_{21}, \theta_{30}, \theta_{31} \}$  for the shallow neural network in equation 3.1 (with ReLU activation functions) that will define an identity function over a finite range $x \in [a,b]$.
 
+The function is:
+$$
+\begin{align}
+y & =f[x, \phi] \\
+ & = \phi_{0}+\phi_{1}a[\theta_{10}+\theta_{11}x]+\phi_{2}a[\theta_{20}+\theta_{21}x]+\phi_{3}a[\theta_{30}+\theta_{31}x]
+\end{align}
+$$
+We want it to be the identity function, such that
+$$
+\begin{align}
+y & = f[x,\phi] \\
+     & =x
+\end{align}
+$$
+If we have:
+- $\phi_{0}=0$
+- $\phi_{1}=1$
+- $\theta_{10}=0$
+- $\theta_{11}=1$
+- $\phi_{2}=1$
+- $\theta_{20}=0$
+- $\theta_{21}=1$
+- $\phi_{3}=1$
+- $\theta_{30}=0$
+- $\theta_{31}=1$
+
+We would get $y=3\cdot\text{ReLU}[x]$, which only equals $x>0$ and has slope $3$ instead of $1$.
+
+Instead, we need
+- $\phi_{0}=a$
+- $\phi_{1}=1$
+- $\theta_{10}=-a$
+- $\theta_{11}=1$
+- $\phi_{2}=-1$
+- $\theta_{20}=-b$
+- $\theta_{21}=1$
+- $\phi_{3}=0$
+- $\theta_{30}=0$
+- $\theta_{31}=1$
+
+which expands to
+$$
+\begin{align}
+f[x, \phi] & =a+ \text{ReLU}[x-a]-\text{ReLU}[x-b] \\
+     & = a+ \text{max}[0, x-a]-\text{max}[0,x-b]
+\end{align}
+$$
+If we have:
+- $x\leq a$, both ReLUs are 0 so $f[x]=a$
+- $a\leq x\leq b$, the first ReLU is active, so we have $f[x]=a+(x-a)=x$
+- $x\geq b$, both ReLUs are active, so we have $f[x]=a+(x-a)-(x-b)=b$
 
 > [!question] Problem 4.8
 > 
