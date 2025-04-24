@@ -59,3 +59,9 @@ aliases:
 - [[Unity Feedback Systems]]
 - [[Controller Design]]
 
+## Feedback Control
+- [[Feedback Control]]
+- [[Motor Control Case Study]]
+- [[Bode Sensitivity]]
+
+open loop poles mean a(s) = 0, closed-loop poles mean b(s) = 0
