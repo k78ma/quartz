@@ -19,7 +19,7 @@ Open-loop control:
 
 - Cheaper/easier to implement (no sensor) required
 - Does not destabilize the system. This means that if both $K$ and $P$ are stable (all poles are in the open left-half plane),
- $$
+    $$
     \frac{Y}{R}=KP
     $$
     is also stable, and we have
