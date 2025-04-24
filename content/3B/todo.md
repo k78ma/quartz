@@ -9,8 +9,6 @@ draft: "true"
 
 - [ ] Chapter 6 Notes<br>#mech2210
 - [ ] Chapter 6 Notes<br>#fina2203
-- [ ] Lecture 16<br>#elec3200
-- [ ] Homework 6<br>#mech2210
 
 
 ## MECH 2210
@@ -21,10 +19,12 @@ draft: "true"
 
 ## FINA 2203
 
-- [ ] Chapter 9 MFL Study Plan<br>#fina2203
-- [ ] Chapter 6 MFL Study Plan<br>#fina2203
+- [ ] Chapter 9 MFL Study <br>#fina2203
+- [ ] Chapter 6 MFL Study <br>#fina2203
 - [ ] Chapter 7 Notes<br>#mech2210
 - [ ] 9c examples<br>#fina2203
+- [ ] Chapter 7 MFL<br>#fina2203
+- [ ] Chapter 11 MFL<br>#fina2203
 
 
 ## ELEC 3200
@@ -114,6 +114,8 @@ draft: "true"
 - [ ] Chapter 9 Notes<br>#fina2203
 - [ ] Magnetic Levitation Pre-Lab<br>#elec3200
 - [ ] Homework 8 - April 25<br>#fina2203
+- [ ] Lecture 16<br>#elec3200
+- [ ] Homework 6<br>#mech2210
 
 %% kanban:settings
 ```

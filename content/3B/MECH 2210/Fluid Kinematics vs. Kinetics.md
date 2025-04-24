@@ -1,5 +1,5 @@
 ---
-title: Fluid Kinematics
+title: Fluid Kinematics vs. Kinetics
 tags:
   - mech2210
 date: 2025-03-19

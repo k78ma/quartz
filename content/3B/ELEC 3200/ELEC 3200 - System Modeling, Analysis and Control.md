@@ -64,4 +64,9 @@ aliases:
 - [[Motor Control Case Study]]
 - [[Bode Sensitivity]]
 
+## PID Control
+- [[Proportional Feedback]]
+
+
+
 open loop poles mean a(s) = 0, closed-loop poles mean b(s) = 0

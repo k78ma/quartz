@@ -49,7 +49,7 @@ aliases:
 - [[Bernoulli Equation Applications]]
 
 ## Kinematics of Fluid Motion
-- [[Fluid Kinematics]]
+- [[Fluid Kinematics vs. Kinetics]]
 - [[Velocity Field]]
 - [[Eulerian and Lagrangian Flow Descriptions]]
 - [[Steady and Unsteady Flows]]
