@@ -7,10 +7,10 @@ draft: "true"
 
 ## Today
 
-- [ ] 6.1 - 6.3 Notes<br>#mech2210
 - [ ] Chapter 6 Notes<br>#mech2210
 - [ ] Chapter 6 Notes<br>#fina2203
 - [ ] Lecture 16<br>#elec3200
+- [ ] Homework 6<br>#mech2210
 
 
 ## MECH 2210

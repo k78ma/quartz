@@ -12,12 +12,15 @@ $$
 $$
 where $u(t)=1(t)$.
 
-By the [[Final Value Theorem]], we can compute DC gain with easy (when FVT holds). For example, for the unit step response where we have 
+![[DC Gain-20250424165852285.png]]
+
+
+By the [[Final Value Theorem]], we can compute DC gain with ease (when FVT holds). For example, for the unit step response where we have 
 $$
 \begin{align}
 u(t) & =1(t) \\[2ex] 
 U(s) & =\frac{1}{s} \\[2ex] 
-Y(s) & =\frac{H(s)}{s}
+Y(s) & = U(s)H(s)=\frac{H(s)}{s}
 \end{align}
 $$
 If all poles of $sY(s)=H(s)$ are strictly stable, then by FVT
