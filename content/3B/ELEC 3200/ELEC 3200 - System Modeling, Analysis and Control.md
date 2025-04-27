@@ -66,7 +66,10 @@ aliases:
 
 ## PID Control
 - [[Proportional Feedback]]
-
-
+- [[Derivative Feedback]]
+- [[Proportional-Derivative Control]]
+- [[Proportional-Integral-Derivative Control]]
+- [[Integral Windup]]
+- [[Feedback System Type]]
 
 open loop poles mean a(s) = 0, closed-loop poles mean b(s) = 0
