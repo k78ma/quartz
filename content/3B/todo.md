@@ -29,10 +29,11 @@ draft: "true"
 
 ## ELEC 3200
 
-- [ ] Lecture 17<br>#elec3200
 - [ ] Lecture 18<br>#elec3200
 - [ ] Lecture 19<br>#elec3200
 - [ ] Homework 3 - May 1<br>#elec3200
+- [ ] Lecture 20, 21, 22<br>#elec3200
+- [ ] Lecture 23, 24<br>#elec3200
 
 
 ## ELEC 4260
@@ -116,6 +117,7 @@ draft: "true"
 - [ ] Homework 8 - April 25<br>#fina2203
 - [ ] Lecture 16<br>#elec3200
 - [ ] Homework 6<br>#mech2210
+- [ ] Lecture 17<br>#elec3200
 
 %% kanban:settings
 ```
