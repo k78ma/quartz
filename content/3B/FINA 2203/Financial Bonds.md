@@ -18,9 +18,17 @@ Terminology:
 - **Principal** or **Face/Par Value:** Maturity value/principal – notional amount used to compute coupon payments
 - **Coupon rate:** A percentage of par value, expressed as an APR. This is fixed at issuance, and determines the amount of each coupon payment.
 - **Coupon payment:** Promised interest payments, defined as
-    
     $$
+    \begin{align}
+    \\
     \text{CPN}=\frac{\text{Coupon Rate}\times \text{Face Value}}{\text{Number of Coupon Payments per Year}}
+    \end{align}
     $$
 
 ## Bond Valuation
+Following the [[Valuation Principle|valuation principle]], the value of a bond is the PV of its expected future cash flows. Thus, the calculate the value of a bond, we need to:
+1. Identify the size and timing of cash flows
+2. Discount them at the correct discount rate, which depends on the default risk of the bond
+
+![[Financial Bonds-20250428121006201.png]]
+

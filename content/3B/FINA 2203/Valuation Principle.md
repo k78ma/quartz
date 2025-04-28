@@ -7,3 +7,5 @@ aliases:
   - valuation principle
 ---
 The value of a commodity or an asset to the firm or its investors is determined by its competitive market price. The benefits and costs of a decision should be evaluated using those market prices. When the value of the benefits exceeds the value of the costs, the decision will increase the market value of the firm.
+
+Value of an asset is PV of Expected Future Cash Flows
