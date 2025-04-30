@@ -76,4 +76,8 @@ aliases:
 - [[Second-Order System]]
 - [[Transient Response Specifications]]
 
+## Additional/Dominant Poles and Zeros
+- [[Additional Poles and Zeroes]]
+- [[Low-Order Approximations of High-Order Systems]]
+
 open loop poles mean a(s) = 0, closed-loop poles mean b(s) = 0
