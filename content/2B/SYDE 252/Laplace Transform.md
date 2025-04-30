@@ -64,3 +64,8 @@ Like we said before, $H(s)$ is just the Laplace transform of $h(t)$, so we have:
 $$
 H(s)=\mathcal{L}[h(t)]=\int_{-\infty}^{\infty} h(t) \,e^{-st} \, dt 
 $$
+
+![[Laplace Transform-20250430121830992.png]]
+
+![[Laplace Transform-20250430121848100.png]]
+

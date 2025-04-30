@@ -70,3 +70,7 @@ $$
 \frac{\left(C_{1}\,R_{1}\,s+1\right)\,\left(C_{2}\,R_{2}\,s+1\right)}{C_{1}\,R_{1}\,s+C_{2}\,R_{1}\,s+C_{2}\,R_{2}\,s+C_{1}\,C_{2}\,R_{1}\,R_{2}\,s^2+1}
 $$
 
+## Characteristic Polynomial/Equation
+- The denominator $D(s)$ of a transfer function $G(s)=\frac{N(s)}{D(s)}$ is called the characteristic polynomial. 
+- The characteristic equation is $D(s)=0$.
+- The roots of the characteristic equation are called the **poles** of the system.[]()

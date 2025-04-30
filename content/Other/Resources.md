@@ -56,8 +56,12 @@ draft: "true"
 ### Technical Blogs
 - [Chip Huyen](https://huyenchip.com/blog/)
 - [Gwern.net](https://gwern.net/)
+    - [gwern.net/scaling-hypothesis](https://gwern.net/scaling-hypothesis)
 - [colah's blog](https://colah.github.io/)
 - [ICLR Blogposts 2024](https://iclr-blogposts.github.io/2024/blog/index.html)
+- [Distill.pub](https://distill.pub/)
+    - [Why Momentum Really Works](https://distill.pub/2017/momentum/)
+- [Go With The Flow | yadnyesh's blog](https://ydnyshhh.github.io/posts/go_with_the_flow/)
 ### Projects/Repos
 
 ---

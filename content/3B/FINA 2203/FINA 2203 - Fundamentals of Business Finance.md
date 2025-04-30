@@ -63,6 +63,7 @@ aliases:
 
 ## Bonds
 - [[Financial Bonds|Bonds]]
+- [[Zero Coupon Bonds]]
 
 
 

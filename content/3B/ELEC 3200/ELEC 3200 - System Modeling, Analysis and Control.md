@@ -62,7 +62,7 @@ aliases:
 ## Feedback Control
 - [[Feedback Control]]
 - [[Motor Control Case Study]]
-- [[Bode Sensitivity]]
+- [[Bode's Sensitivity]]
 
 ## PID Control
 - [[Proportional Feedback]]
@@ -71,5 +71,9 @@ aliases:
 - [[Proportional-Integral-Derivative Control]]
 - [[Integral Windup]]
 - [[Feedback System Type]]
+
+## Second-Order Systems
+- [[Second-Order System]]
+- [[Transient Response Specifications]]
 
 open loop poles mean a(s) = 0, closed-loop poles mean b(s) = 0

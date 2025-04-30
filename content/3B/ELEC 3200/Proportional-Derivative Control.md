@@ -31,5 +31,5 @@ $$
  & \neq 1
 \end{align}
 $$
-Thus, with PD control, we can't have perfect tracking of constant reference.
+Thus, with PD control, we can't have perfect tracking of constant reference. [[Proportional-Integral-Derivative Control|PID control]] addresses.
 

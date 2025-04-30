@@ -19,10 +19,7 @@ Terminology:
 - **Coupon rate:** A percentage of par value, expressed as an APR. This is fixed at issuance, and determines the amount of each coupon payment.
 - **Coupon payment:** Promised interest payments, defined as
     $$
-    \begin{align}
-    \\
     \text{CPN}=\frac{\text{Coupon Rate}\times \text{Face Value}}{\text{Number of Coupon Payments per Year}}
-    \end{align}
     $$
 
 ## Bond Valuation
@@ -31,4 +28,5 @@ Following the [[Valuation Principle|valuation principle]], the value of a bond i
 2. Discount them at the correct discount rate, which depends on the default risk of the bond
 
 ![[Financial Bonds-20250428121006201.png]]
+
 

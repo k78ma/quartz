@@ -124,6 +124,11 @@ We always assume that the system starts operation at time $t = 0$; we assume tha
 - This initial value is called the **initial condition**. 
 
 To conform to our standard mathematical treatment of signals, we also view $x(t)$ as a unilateral function. If the initial condition is nonzero, then $x(t)$ has a jump discontinuity at $t = 0$ and its derivative $\dot{x}(t)$ contains impulse functions.
+
+The characteristic equation of the system is given by:
+$$
+\det(sI-A)=0
+$$
 ## Examples
 ### Mass-Spring-Damper
 An example is the typical [[Dampened Spring Systems|mass-spring-damper system]]:

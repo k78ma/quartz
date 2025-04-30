@@ -1,5 +1,5 @@
 ---
-title: Bode Sensitivity
+title: Bode's Sensitivity
 tags:
   - elec3200
 date: 2025-04-24
@@ -65,7 +65,7 @@ $$
 In our case:
 $$
 \begin{align}
-\frac{dT_{\text{cl}}}{dA} & =\frac{K_{\text{cl}}}{1+AK_{\text{cl}}}-\frac{AK^{2}_{\text{cl}}}{(1+AK_{\text{cl}})^{2}} \\
+\frac{dT_{\text{cl}}}{dA} & =\frac{K_{\text{cl}}}{1+AK_{\text{cl}}}-\frac{AK^{2}_{\text{cl}}}{(1+AK_{\text{cl}})^{2}} \\[2ex]
  & =\frac{K_{\text{cl}}}{(1+AK_{\text{cl}})^{2}}
 \end{align}
 $$

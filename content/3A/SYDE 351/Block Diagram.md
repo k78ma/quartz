@@ -20,6 +20,10 @@ Block diagrams consist of four basic symbols:
 - (b) $X(s)=\frac{F(s)}{s}$
 
 ## Equivalent Block Diagrams
+
+![[Block Diagram-20250429152521091.png|619]]
+
+
 Let's say we have a system described by:
 $$
 \dot{x}(t)+ax(t)=f(t)
