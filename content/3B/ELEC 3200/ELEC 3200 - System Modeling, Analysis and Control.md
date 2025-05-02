@@ -79,5 +79,7 @@ aliases:
 ## Additional/Dominant Poles and Zeros
 - [[Additional Poles and Zeroes]]
 - [[Low-Order Approximations of High-Order Systems]]
+    - [[Dominant Poles and Zeros]]
+    - [[Second-Order System Approximation]]
 
 open loop poles mean a(s) = 0, closed-loop poles mean b(s) = 0
