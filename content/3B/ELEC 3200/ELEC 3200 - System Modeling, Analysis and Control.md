@@ -82,4 +82,11 @@ aliases:
     - [[Dominant Poles and Zeros]]
     - [[Second-Order System Approximation]]
 
-open loop poles mean a(s) = 0, closed-loop poles mean b(s) = 0
+## Root-Locus Method
+- [[Root Locus Method]]
+
+### Root-Locus Example
+- [[Simple Root Locus Example]]
+- [[PD Control of Unstable Second-Order Plant]]
+- [[Advanced Root Locus Example]]
+

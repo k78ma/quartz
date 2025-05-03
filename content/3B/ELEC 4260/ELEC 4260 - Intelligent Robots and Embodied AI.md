@@ -69,5 +69,6 @@ aliases:
 ## Projects
 - [[ELEC 4260 Project 1 Report]]
 - [[ELEC 4260 Project 2 Report]]
+- [[ELEC 4260 Project 3 Report]]
 
 
