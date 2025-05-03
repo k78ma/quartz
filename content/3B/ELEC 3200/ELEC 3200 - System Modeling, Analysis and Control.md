@@ -84,9 +84,8 @@ aliases:
 
 ## Root-Locus Method
 - [[Root Locus Method]]
-
 ### Root-Locus Example
 - [[Simple Root Locus Example]]
 - [[PD Control of Unstable Second-Order Plant]]
 - [[Advanced Root Locus Example]]
-
+- [[Root Locus Design for Double Integrator System]]

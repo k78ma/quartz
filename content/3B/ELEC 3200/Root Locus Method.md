@@ -112,4 +112,42 @@ This sum must be $\pm 180 \degree$ for any $s$ that lies on the root locus.
 
 See [[Advanced Root Locus Example|this example]] to see how this works in practice.
 
-Rule D: If $s$ is real, then it is on the root locus of $1+KL$ if and only if there are an odd number of real open-loop poles and zeros to the right of $s$.
+Rule D: If $s$ is real, then it is on the real line of $1+KL$ if and only if there are an odd number of real open-loop poles and zeros to the right of $s$.
+
+## Rule E – Asymptotes
+How does the locus as $s\to \infty$?
+$$
+\begin{align}
+180\degree  &  =\angle L(s)=\angle \frac{s ^{m}+b_{1}s ^{m-1}+\dots}{s ^{n}+a_{1}s ^{n-1}+\dots} \\[2ex]
+     & = \angle \frac{s ^{m-n}+b_{1}s ^{m-n-1}+\dots}{1+a_{1}s ^{-1}+\dots} \\[2ex]
+     & = \angle s ^{m-n} \text{ if } | s |\to \infty
+\end{align}
+$$
+Claim: If $\angle s ^{m-n}=180\degree$, then
+$$
+\angle s = \frac{180\degree  +\ell\cdot 360\degree  }{n-m}, \quad  \ell=0,1,\dots,n-m-1
+$$
+Proof of the above claim:
+
+![[Root Locus Method-20250503221451403.png|578]]
+
+
+Thus, Rule E tells us that branches near $\infty$ have phase
+$$
+\begin{align}
+\angle s  & \simeq \frac{180\degree  +\ell\cdot 360\degree  }{n-m}\\[2ex] 
+     & =\frac{(2\ell+1)\cdot 180\degree  }{n-m},\quad \ell=0,1,\dots,n-m-1
+\end{align}
+$$
+Note that if $m=n$, then there are no branches at $\infty$.
+
+## Rule F: Imaginary Axis Crossing
+Do the branches of the root locus cross the $j\omega$ axis? This signifies a transition from stability to instability.
+
+Our goal is to determine if the equation
+$$
+a(j\omega)+Kb(j\omega)=0
+$$
+has a solution $\omega \geq 0$ for some $K\geq 0$.
+
+The best approach here is to use [[Routh-Hurwitz Criterion|Routh Criterion]] to first determine the critical value of $K$ (when the characteristic polynomial becomes unstable), then plug it in and solve for $j\omega$-crossing (numerically or analytically).
