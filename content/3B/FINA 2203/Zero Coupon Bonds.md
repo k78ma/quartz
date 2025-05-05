@@ -7,7 +7,7 @@ aliases:
   - zero coupon bonds
 ---
 A zero-coupon bond makes no coupon payments, only making a single cash flow at the end. It always sells at a discount (price lower than face value), so they are called pure discount bonds. 
-- **Treasury bills** are U.S. government zero-coupon bonds with a maturity of up to one year. 
+- Treasury bills are U.S. government zero-coupon bonds with a maturity of up to one year. 
 
 Suppose that a one-year, risk-free, zero-coupon bond with a $100,000 face value has an initial price of $96,618.36. The cash flows would be:
 
@@ -37,4 +37,20 @@ $$
 P=\frac{\text{FV}}{(1+\text{YTM}_{n})^{n}}
 $$
 
-## Risk-Free
+## Risk-Free Interest Rates
+In a competitive market, all risk-free investments must earn the same rate of return over the same period. A default-free (risk free) zero-coupon that matures on date $n$ provides a risk-free return over this period.
+
+Thus, the [[Law of One Price]] guarantees that the risk-free interest rate equals the yield to maturity on such a bond. That is, the YTM of a risk free bond is a proxy for risk free rate.
+
+"Spot interest rate" is another term for a default-free, zero-coupon yield "on the spot".
+
+## Yield Curve
+The yield curve is a plot of the yield of risk-free zero-coupon bonds as a function of the bond's maturity date.
+
+![[Zero Coupon Bonds-20250504230655352.png|516]]
+
+![[Zero Coupon Bonds-20250504230707394.png|509]]
+
+
+If the yield curve is downward sloping, longer maturity bonds generally have lower yields than shorter maturity bonds.
+

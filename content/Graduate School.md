@@ -25,3 +25,60 @@ Advice:
 - [Research Advice from Alex_Wong.pdf](file:///Users/kai/Downloads/Research_Advice_from_prof_Alex_Wong.pdf)
 - [Structure is Magic (A Guide to the Graduate SOP) - WriteIvy](https://writeivy.com/structure-is-magic-a-guide-to-the-graduate-sop/)
 - [DAGAP](https://www-cs.stanford.edu/~rkarthik/DAGAP.pdf)
+
+## Stanford MS CS vs. EE
+
+### CS
+Required:
+- Logic, Automata & Complexity (CS103)
+- Probability (CS109, Stat116, CME106, MS&E220, EE178)
+- Algorithmic Analysis (CS161)
+- Computer Organization & Systems (CS107 or 107E)
+- Principles of Computer Systems  (CS111)
+
+Significant Software Requirement:
+-  Deep Multi-task and Meta Learning (CS330) or Deep Reinforcement Learning (CS224R)
+
+Breadth:
+- A: Quantum Computing (CS259Q) or Machine Learning Theory (CS229M)
+- B: Systems for Machine Learning (CS229S)
+- D: Some humanities stuff
+
+Depth (AI option):
+- Artificial Intelligence: Principles and Techniques
+
+- Introduction to Robotics (CS 223A)
+- Deep Reinforcement Learning (CS224R)
+- Principles of Robot Autonomy I (CS237A)
+- Principles of Robot Autonomy II (CS237B)
+
+- Deep Learning (CS230)
+- Deep Multi-task and Meta Learning (CS330)
+- Robot Perception (CS227)
+- Deep Reinforcement Learning (CS224R)
+
+- Practical Machine Learning (CS329P)
+- Information Theory and Statistics (EE377)?
+
+### EE
+Depth:
+- Reinforcement Learning (CS 234)
+- Robot Perception (EE 227/CS 227A)
+- Principles of Robot Autonomy II
+- Principles of Robotic Autonomy II
+
+Breadth:
+- Deep Learning (CS 230)
+- Deep Generative Models (CS 236)
+- Quantum Control and Engineering (EE 224)
+
+Technical – Basically can take CS courses here I guess?
+- Deep Reinforcement Learning
+- Deep Multi-task and Meta Learning
+- 3 more courses
+
+
+Other Courses:
+- Optimal and Learning-based Control (AA 203)
+- Machine Learning on Embedded Systems (EE 292D)
+- Neuromorphics: Brains in Silicon or Information Theory or more Applied Quantum Mechanics I or Principles of Sensing for Autonomy

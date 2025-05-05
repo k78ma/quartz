@@ -64,8 +64,8 @@ aliases:
 ## Bonds
 - [[Financial Bonds|Bonds]]
 - [[Zero Coupon Bonds]]
-
-
+- [[Coupon Bonds]]
+- [[Bond Pricing]]
 
 ## Other
 - [[Finance Glossary]]
