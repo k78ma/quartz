@@ -44,6 +44,7 @@ Thus, the [[Law of One Price]] guarantees that the risk-free interest rate equal
 
 "Spot interest rate" is another term for a default-free, zero-coupon yield "on the spot".
 
+
 ## Yield Curve
 The yield curve is a plot of the yield of risk-free zero-coupon bonds as a function of the bond's maturity date.
 

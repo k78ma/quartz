@@ -8,7 +8,7 @@ draft: "true"
 ## Today
 
 - [ ] Chapter 6 Notes<br>#mech2210
-- [ ] Chapter 6 Notes<br>#fina2203
+- [ ] Chapter 7 Notes<br>#mech2210
 
 
 ## MECH 2210
@@ -19,22 +19,27 @@ draft: "true"
 
 ## FINA 2203
 
+- [ ] 9c examples<br>#fina2203
 - [ ] Chapter 9 MFL Study <br>#fina2203
 - [ ] Chapter 6 MFL Study <br>#fina2203
-- [ ] Chapter 7 Notes<br>#mech2210
-- [ ] 9c examples<br>#fina2203
 - [ ] Chapter 7 MFL<br>#fina2203
 - [ ] Chapter 11 MFL<br>#fina2203
+- [ ] TAPPS problems<br>#fina2203
+- [ ] Chapter 11 Notes<br>#fina2203
+- [ ] Chapter 12 Notes<br>#fina2203
 
 
 ## ELEC 3200
 
 - [ ] Lecture 23, 24<br>#elec3200
+- [ ] Review Lecture<br>#elec3200
+- [ ] Assignment 4 - May 22<br>#elec3200
+- [ ] Sample Final Exam<br>#elec3200
 
 
 ## ELEC 4260
 
-- [ ] Tune fast PID<br>#elec4260
+- [ ] Project 3 Report<br>#elec4260
 
 
 ## Learning + Research
@@ -119,6 +124,8 @@ draft: "true"
 - [ ] Homework 3 - May 1<br>#elec3200
 - [ ] Lecture 20, 21, 22<br>#elec3200
 - [ ] Homework MFL<br>#fina2203
+- [ ] Chapter 6 TAPPS problems #fina2203
+- [ ] Chapter 6 Notes<br>#fina2203
 
 %% kanban:settings
 ```

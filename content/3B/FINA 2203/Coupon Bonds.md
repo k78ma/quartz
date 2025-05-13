@@ -59,3 +59,5 @@ Consider three 30-year bonds with annual coupon payments. One bond has a 10% cou
 - **Premium/Above par:** Bond price > Face Value, or Coupon rate > YTM
 - **At par**: Bond value = Face Value, or Coupon Rate = YTM
 - **Discount/Below par**: Bond price < Face Value, or Coupon Rate < YTM
+
+The terms “discount” and “premium” are simply descriptive and are not meant to imply that you should try to buy bonds at a discount and avoid buying bonds at a premium. In a competitive market, the Law of One Price ensures that all similar bonds are priced to earn the same return. When you buy a bond, the price exactly equals the present value of the bond’s cash flows, so that you earn a fair return, but not an abnormally good (or bad) return.
