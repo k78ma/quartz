@@ -47,7 +47,15 @@ draft:
 - [ ] MTE 484 - Digital Control Applications
 - [ ] MTE 380 - Project
 - [x] TE 1 – ELEC 4260
-- [ ] TE 2 – a math course?
+- [ ] TE 2 – a math course? CS 479, STAT 341
+- [ ] CSE
+
+4B Plan:
+- [ ] MTE 482 - Capstone
+- [ ] MTE 484 - Digital Control Applications
+- [ ] MTE 380 - Project
+- [x] TE 1 – ELEC 4260
+- [ ] TE 2 – a math course? CS 479, STAT 341
 - [ ] CSE
 
 AI Option:
@@ -79,6 +87,11 @@ Shenzhen: Feb 15-16
 Shenzhen: Feb 22-23
 Beijing: March 7-10
 Vietnam: March 13-17
+Japan: March 30-April 4
+Guangzhou: April 17-20
+Sai Kung beach camping: April 25-26
+Bali: May 9-15
+Singapore: May 15
 
 March 30 - April 6: Could go somewhere
 - ELEC3200 Midterm April 9

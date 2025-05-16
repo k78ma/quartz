@@ -24,6 +24,7 @@ draft: "true"
 - [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)
 - [Geometric Deep Learning: Grids, Groups, Graphs, Geodesics, and Gauges](https://arxiv.org/pdf/2104.13478)
 - [Probabilistic Artificial Intelligence](https://arxiv.org/pdf/2502.05244)
+- [Dive into Deep Learning](https://d2l.ai/)
 ### Theses/Long Papers
 - [A Cookbook of Self-Supervised Learning](https://arxiv.org/abs/2304.12210)
 - [Learning to Learn with Gradients](https://ai.stanford.edu/~cbfinn/_files/dissertation.pdf)
@@ -62,6 +63,9 @@ draft: "true"
 - [Distill.pub](https://distill.pub/)
     - [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 - [Go With The Flow | yadnyesh's blog](https://ydnyshhh.github.io/posts/go_with_the_flow/)
+- [Llama from scratch (or how to implement a paper without crying) | Brian Kitano](https://blog.briankitano.com/llama-from-scratch/)
+- [Transformer Circuits Thread](https://transformer-circuits.pub/)
+    - [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
 ### Projects/Repos
 
 ---
@@ -116,6 +120,7 @@ draft: "true"
 ## Quantum Computing
 - [Introduction to Classical and Quantum Computing - Thomas G. Wong](https://www.thomaswong.net/introduction-to-classical-and-quantum-computing-1e4p.pdf)
 - [Qiskit Textbook - Introduction to Quantum Computing](https://github.com/Qiskit/textbook/tree/main/notebooks/intro#)
+- [Quantum Machine Learning Tutorial](https://qml-tutorial.github.io/)
 
 ---
 ## Grad School

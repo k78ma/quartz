@@ -7,8 +7,9 @@ draft: "true"
 
 ## Today
 
+- [ ] Chapter 7 Notes<br>#fina2203
+- [ ] Chapter 11 Notes<br>#fina2203
 - [ ] Chapter 6 Notes<br>#mech2210
-- [ ] Chapter 7 Notes<br>#mech2210
 
 
 ## MECH 2210
@@ -25,8 +26,8 @@ draft: "true"
 - [ ] Chapter 7 MFL<br>#fina2203
 - [ ] Chapter 11 MFL<br>#fina2203
 - [ ] TAPPS problems<br>#fina2203
-- [ ] Chapter 11 Notes<br>#fina2203
 - [ ] Chapter 12 Notes<br>#fina2203
+- [ ] Chapter 13 Notes<br>#fina2203
 
 
 ## ELEC 3200
@@ -39,7 +40,6 @@ draft: "true"
 
 ## ELEC 4260
 
-- [ ] Project 3 Report<br>#elec4260
 
 
 ## Learning + Research
@@ -126,6 +126,9 @@ draft: "true"
 - [ ] Homework MFL<br>#fina2203
 - [ ] Chapter 6 TAPPS problems #fina2203
 - [ ] Chapter 6 Notes<br>#fina2203
+- [ ] Project 3 Report<br>#elec4260
+- [ ] Pick up tickets
+- [ ] PD10 Assignment 1
 
 %% kanban:settings
 ```

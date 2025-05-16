@@ -69,7 +69,7 @@ aliases:
 - [[Credit Risk and Bond Rating]]
 
 ## Stock Valuation
-- 
+- [[Stock Basics]]
 
 ## Other
 - [[Finance Glossary]]
