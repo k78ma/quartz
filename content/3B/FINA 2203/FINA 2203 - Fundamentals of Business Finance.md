@@ -95,7 +95,9 @@ aliases:
 - [[Portfolio Beta and Risk]]
 
 ## Cost of Capital
-
+- [[Weighted Average Cost of Capital]]
+- [[Costs of Debt Capital]]
+- [[WACC for Project Valuation]]
 ## Other
 - [[Finance Glossary]]
 

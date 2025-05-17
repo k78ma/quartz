@@ -7,8 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 12 Notes<br>#fina2203
-- [ ] Chapter 13 Notes<br>#fina2203
 - [ ] Chapter 6 Notes<br>#mech2210
 
 
@@ -16,6 +14,9 @@ draft: "true"
 
 - [ ] Chapter 9 Notes<br>#mech2210
 - [ ] Chapter 8 Notes<br>#mech2210
+- [ ] Homework 6<br>#mech2210
+- [ ] Homework 8<br>#mech2210
+- [ ] Homework 9<br>#mech2210
 
 
 ## FINA 2203
@@ -26,13 +27,15 @@ draft: "true"
 - [ ] Chapter 7 MFL<br>#fina2203
 - [ ] Chapter 11 MFL<br>#fina2203
 - [ ] TAPPS/PRS problems<br>#fina2203
+- [ ] Chapter 13 Project-based Cost of Capital Examples<br>#fina2203
 
 
 ## ELEC 3200
 
-- [ ] Review Lecture<br>#elec3200
+- [ ] Review Lecture Problems<br>#elec3200
 - [ ] Assignment 4 - May 22<br>#elec3200
 - [ ] Sample Final Exam<br>#elec3200
+- [ ] Block Diagram Simplification<br>#elec3200
 
 
 ***
@@ -117,6 +120,8 @@ draft: "true"
 - [ ] PD10 Assignment 1
 - [ ] Chapter 7 Notes<br>#fina2203
 - [ ] Chapter 11 Notes<br>#fina2203
+- [ ] Chapter 12 Notes<br>#fina2203
+- [ ] Chapter 13 Notes<br>#fina2203
 
 %% kanban:settings
 ```

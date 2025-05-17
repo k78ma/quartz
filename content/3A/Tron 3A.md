@@ -13,3 +13,24 @@ aliases:
 - [[SYDE 351 - Systems Models]]
 
 ## Thoughts
+### MTE 320
+Final Grade: 92
+
+
+### MTE 325
+Final Grade: 88
+
+
+### MTE 309
+Final Grade: 90
+
+
+
+### MTE 321
+Final Grade: 88
+
+
+
+### SYDE 351
+Final Grade: 89
+
