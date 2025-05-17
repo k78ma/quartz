@@ -80,6 +80,21 @@ aliases:
 - [[Realized Returns]]
 - [[Average Annual Returns]]
 - [[Variance and Volatility of Returns]]
+- [[Using Past Returns to Predict the Future]]
+- [[Historical Tradeoff Between Risk and Return]]
+- [[Common and Independent Risk]]
+- [[Systematic and Unsystematic Risk]]
+- [[Risk Premium]]
+
+## Systematic Risk and Equity Risk Premium
+- [[Portfolio Diversification]]
+- [[Portfolio Volatility]]
+- [[Estimating Systematic Risk]]
+- [[Systematic Risk and Asset Return]]
+- [[Capital Asset Pricing Model]]
+- [[Portfolio Beta and Risk]]
+
+## Cost of Capital
 
 ## Other
 - [[Finance Glossary]]

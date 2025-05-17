@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Chapter 11 Notes<br>#fina2203
 - [ ] Chapter 12 Notes<br>#fina2203
 - [ ] Chapter 13 Notes<br>#fina2203
 - [ ] Chapter 6 Notes<br>#mech2210
@@ -31,21 +30,9 @@ draft: "true"
 
 ## ELEC 3200
 
-- [ ] Lecture 23, 24<br>#elec3200
 - [ ] Review Lecture<br>#elec3200
 - [ ] Assignment 4 - May 22<br>#elec3200
 - [ ] Sample Final Exam<br>#elec3200
-
-
-## ELEC 4260
-
-
-
-## Learning + Research
-
-- [ ] 3C-3: Matrix Multiplication
-- [ ] 3C-4: Column-Row Factorization and Rank of a Matrix
-- [ ] MLAB Day 0
 
 
 ***
@@ -129,6 +116,7 @@ draft: "true"
 - [ ] Pick up tickets
 - [ ] PD10 Assignment 1
 - [ ] Chapter 7 Notes<br>#fina2203
+- [ ] Chapter 11 Notes<br>#fina2203
 
 %% kanban:settings
 ```
