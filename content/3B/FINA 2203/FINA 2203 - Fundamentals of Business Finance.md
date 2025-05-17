@@ -72,7 +72,14 @@ aliases:
 - [[Stock Basics]]
 - [[Stock Prices and Returns]]
 - [[Constant Dividend Growth Model]]
-- [[Dividends vs. Growth]]
+- [[Simple Growth Model]]
+- [[Changing Growth Rates]]
+- [[Total Payout Model]]
+
+## Risk and Return in Capital Markets
+- [[Realized Returns]]
+- [[Average Annual Returns]]
+- [[Variance and Volatility of Returns]]
 
 ## Other
 - [[Finance Glossary]]

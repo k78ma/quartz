@@ -6,6 +6,7 @@ date: 2025-05-16
 aliases:
   - stock prices and returns
   - stock valuation
+  - dividend-discount model
 ---
 ## One-Year Investor
 When an investor buys a stock, they pay the current market price for a share, $P_{0}$. When they hold the stock, they will be entitled to any dividends the stock pays; let $Div_{1}$ be the total dividends the investor expects to be paid per share during the year. At the end of the year, if we sell the share for market price, we can expect $P_{1}$ at the end of the year.

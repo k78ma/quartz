@@ -32,7 +32,7 @@ $$
 Thus, we would pay 25 times this year's dividend of 1.44 to own AT&T stocks because we are buying claim to this year's dividend and to an infinite growing series of future dividends.
 
 Note that:
-- If the question says the company **paid** a dividend of $X last year, this is $D_{0}$.
-- If the question says the company **will pay** a dividend $X this year, this will be $D_1$.
-- If the question says "the company expects the learnings this year to be $X and the pay out to be Y%", then they will be $E_{1}$, and we can assume **this year** is "**at the end of this year**".
+- If the question says the company **paid** a dividend of X dollars last year, this is $D_{0}$.
+- If the question says the company **will pay** a dividend X dollars this year, this will be $D_1$.
+- If the question says "the company expects the learnings this year to be X dollars and the payout to be Y%", then they will be $E_{1}$, and we can assume **this year** is "**at the end of this year**".
 
