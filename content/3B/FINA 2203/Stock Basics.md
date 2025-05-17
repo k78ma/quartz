@@ -12,4 +12,17 @@ The ownership of a corporation is divided into shares of stock. A public corpora
 
 On the other hand, investors buy common stock hoping that the earnings of the company will grow and the share price will increase, and receive dividends in the form of cash or additional shares.
 
-**Dividends** are profits distributed to the shareholders, approved by the company's board of directors. **Dividend yield** is the annual return received fr
+**Dividends** are profits distributed to the shareholders, approved by the company's board of directors. **Dividend yield** is the annual return received from dividends if you purchase the stock and the divided payments remain unchanged.
+- Start-ups generally don't pay dividends, using all excess cash to grow the business.
+
+**Voting rights:** In return for investing in the company, stockholders have voting rights to elect a board of directors and decide other major company policies.
+
+Shares represent only a residual claim on assets and earnings of the company. Shareholders are the last to receive any money in a bankruptcy; all other claims must be paid before shareholders receive any distribution.
+
+Some companies have an additional issue of **preferred stock**, which has preference over common shares in the distribution of dividends or cash during liquidation.
+- Pays a dividend as a percentage of par value
+- Has priority over common shares for payment of dividends
+- Terms are negotiable
+- Carries no voting rights
+- Cumulative feature: Unpaid dividends accumulate and must be paid before any cash dividends are paid to the common stockholders
+- Conversion feature: Can convert to shares of common stock and provide growth potential

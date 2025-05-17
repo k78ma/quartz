@@ -70,6 +70,9 @@ aliases:
 
 ## Stock Valuation
 - [[Stock Basics]]
+- [[Stock Prices and Returns]]
+- [[Constant Dividend Growth Model]]
+- [[Dividends vs. Growth]]
 
 ## Other
 - [[Finance Glossary]]
