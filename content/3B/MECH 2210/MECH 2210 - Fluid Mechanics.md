@@ -82,4 +82,4 @@ aliases:
     - [[Vortex Flow]]
     - [[Doublet Flow]]
 ### Viscous Flows
-- [[Viscous Flows]]
+- [[Navier-Stokes Equations for Incompressible Flows|Navier Stokes Equations]]

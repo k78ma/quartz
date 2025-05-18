@@ -25,7 +25,7 @@ y: \quad   & \rho g_y - \frac{\partial p}{\partial y} = \rho \left(\frac{\partia
 z: \quad   & \rho g_z - \frac{\partial p}{\partial z} = \rho \left(\frac{\partial w}{\partial t} + u \frac{\partial w}{\partial x} + v \frac{\partial w}{\partial y} + w \frac{\partial w}{\partial z}\right)
 \end{align}
 $$
-which are the **Euler Equations of Motion for invscid flow**.
+which are the **Euler Equations of Motion for inviscid flow**.
 
 In a compact vector notation, we can write
 $$

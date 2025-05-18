@@ -37,14 +37,33 @@ $$
 \psi = -\frac{K \sin \theta}{r}
 $$
 where $K = \frac{ma}{\pi}$ is the strength of the doublet.
-- From this expression, we know that $c=-\frac{K}{r}$ for a constant streamline. This rearranges to a parametric form:
+
+From this expression, we know that $c=-\frac{K}{r}$ for a constant streamline. This rearranges to a parametric form:
 $$
 c\sin \theta = r
 $$
-- Multiplying both sides by $r$:
+Multiplying both sides by $r$:
 $$
 cr\sin \theta = r^{2}
 $$
+This is the equation of the circle in polar coordinates!
+
+In Cartesian form, this can be expressed as
+$$
+cy = x^{2}+y^{2}
+$$
+Re-arranging, this represents:
+$$
+x^{2}+\left( y - \frac{c}{2} \right)^{2} =\left( \frac{c}{2} \right)^{2}
+$$
+This is the equation of a circle, indicating that the streamlines of a doublet are circular and symmetric about the origin.
+
+![[Doublet Flow-20250518140156809.png]]
+
+
+- Fluid is emitted from the source and absorbed by the sink, creating **closed circular patterns**.
+- As the distance a decreases, the flow field around the origin intensifies, leading to the characteristic pattern of a **doublet**.
+
 
 The velocity potential for a doublet is given by
 $$
@@ -53,10 +72,3 @@ $$
 Note that the velocity potential lines ($\phi = \text{const}$) are orthogonal to the streamlines. - The lines are structured such that fluid moves **towards the sink** and **away from the source** symmetrically.
 
 
-
-
-![[Doublet Flow-20250518140156809.png]]
-
-- Streamlines wrap symmetrically around the source and sink.
-- Fluid is emitted from the source and absorbed by the sink, creating **closed circular patterns**.
-- As the distance a decreases, the flow field around the origin intensifies, leading to the characteristic pattern of a **doublet**.

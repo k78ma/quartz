@@ -45,6 +45,7 @@ V_{\theta} = \omega r,\quad  V_{r} = 0
 $$
 This type of motion is different from the free vortex because it requires a continuous input of energy to maintain the rotation.
 
+![[Vortex Flow-20250518141652079.png|166]]
 ## Circulation
 Circulation represents the line integral of the tangential component of velocity around a closed path:
 $$
