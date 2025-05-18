@@ -1,10 +1,10 @@
 ---
-title: Navier-Stokes Equations
+title: Navier-Stokes Equations for Incompressible Flows
 tags:
   - mech2210
 date: 2025-05-18
 aliases:
-  - navier-stokes equations
+  - navier-stokes equations for incompressible flows
 ---
 Recall the [[Differential Fluid Elements Forces and Equations of Motion|equations of motion]] for a fluid element:
 $$
