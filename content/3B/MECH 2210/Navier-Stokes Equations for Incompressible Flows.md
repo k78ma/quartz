@@ -44,3 +44,9 @@ $$
 $$
 
 These are a generalization of [[Euler's Equations of Motion for Inviscid Flows]]; we just set $\mu=0$ for no viscosity for the inviscid case.
+
+There is a fully generalized form of the Navier-Stokes equations that applies to compressible flows as well:
+$$
+\rho \left(\frac{\partial \mathbf{V}}{\partial t} + (\mathbf{V} \cdot \nabla) \mathbf{V}\right) = -\nabla p + \nabla \cdot \mathbf{T} + \rho \mathbf{g}
+$$
+where $\mathbf{T}$ is a viscous stress tensor.
