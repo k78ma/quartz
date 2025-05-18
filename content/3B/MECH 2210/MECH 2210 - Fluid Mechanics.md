@@ -64,14 +64,22 @@ aliases:
 - [[Fluid Conservation of Energy|Fluid Conservation of Energy / Energy Equation]]
 
 ## Differential Analysis of Fluid Flow
-
 ### Conservation of Mass
 - [[Fluid Element Kinematics]]
 - [[Differential Form of Conservation of Mass]]
 - [[Cylindrical Polar Coordinates for Conservation of Mass]]
 - [[Stream Function]]
-
 ### Conservation of Linear Momentum
 - [[Differential Fluid Elements Forces and Equations of Motion]]
-- [[Equations of Motion for Inviscid Flows]]
+### Inviscid and Irrotational Flows
+- [[Euler's Equations of Motion for Inviscid Flows]]
 - [[Bernoulli Equation for Irrotational Flows]]
+- [[Velocity Potential]]
+### Basic Plane Potential Flows
+- [[Plane Potential Flows]]
+    - [[Uniform Flows]]
+    - [[Source and Sink Flows]]
+    - [[Vortex Flow]]
+    - [[Doublet Flow]]
+### Viscous Flows
+- [[Viscous Flows]]

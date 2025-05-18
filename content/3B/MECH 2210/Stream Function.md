@@ -16,7 +16,7 @@ For 2D flows, this simplifies to:
 $$
 \begin{align}
 \frac{\partial u}{\partial x} + \frac{\partial v}{\partial y}  & = 0 \\[2ex] 
-\frac{ \partial u }{ \partial x }  & = \frac{ \partial -v }{ \partial y } 
+\frac{ \partial u }{ \partial x }  & = \frac{ \partial (-v) }{ \partial y } 
 \end{align}
 $$
 This possible to relate $u$ and $v$ using a single function $\psi$?

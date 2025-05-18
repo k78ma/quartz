@@ -1,10 +1,10 @@
 ---
-title: Equations of Motion for Inviscid Flows
+title: Euler's Equations of Motion for Inviscid Flows
 tags:
   - mech2210
 date: 2025-05-18
 aliases:
-  - equations of motion for inviscid flows
+  - euler's equations of motion for inviscid flows
 ---
 In inviscid flows, viscous shearing stresses are neglected. This results in Euler's Equation of Motion.
 
