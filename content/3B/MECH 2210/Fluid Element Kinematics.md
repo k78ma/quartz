@@ -5,6 +5,7 @@ tags:
 date: 2025-04-15
 aliases:
   - fluid element kinematics
+  - vorticity
 ---
 We want to form a mathematic description of the motion of fluid elements moving in a flow field. A small fluid element in the shape of a cube which is initially in one position will move to another position during a short time interval $\delta t$. We expect the element not only to translate but also have its volume changed (linear deformation), rotate, and undergo change in shape (angular deformation).
 

@@ -72,6 +72,6 @@ aliases:
 - [[Stream Function]]
 
 ### Conservation of Linear Momentum
-- [[Forces Acting on Differential Fluid Elements]]
-- 
-
+- [[Differential Fluid Elements Forces and Equations of Motion]]
+- [[Equations of Motion for Inviscid Flows]]
+- [[Bernoulli Equation for Irrotational Flows]]

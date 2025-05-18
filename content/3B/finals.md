@@ -28,6 +28,7 @@ draft: "true"
 - [ ] Chapter 11 MFL<br>#fina2203
 - [ ] Assignment 4 Problem 2<br>#elec3200
 - [ ] Chapter 13 TAPPS/PRS<br>#fina2203
+- [ ] Chapter 6 Examples (Slides 18-21)<br>#mech2210
 
 
 ## May 20
