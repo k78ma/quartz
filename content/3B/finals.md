@@ -5,37 +5,61 @@ draft: "true"
 
 ---
 
-## Today
+## May 18
 
 - [ ] Chapter 6 Notes<br>#mech2210
-
-
-## MECH 2210
-
-- [ ] Chapter 9 Notes<br>#mech2210
-- [ ] Chapter 8 Notes<br>#mech2210
-- [ ] Homework 6<br>#mech2210
-- [ ] Homework 8<br>#mech2210
-- [ ] Homework 9<br>#mech2210
-
-
-## FINA 2203
-
+- [ ] Chapter 9 TAPPS/PRS<br>#fina2203
 - [ ] 9c examples<br>#fina2203
 - [ ] Chapter 9 MFL Study <br>#fina2203
+- [ ] Chapter 6 TAPPS/PRS<br>#fina2203
 - [ ] Chapter 6 MFL Study <br>#fina2203
+- [ ] Chapter 9 Notes<br>#mech2210
+- [ ] Assignment 4 Problem 1<br>#elec3200
+- [ ] CLAS 202 Module 1
+
+
+## May 19
+
+- [ ] Chapter 8 Notes<br>#mech2210
+- [ ] Homework 6<br>#mech2210
+- [ ] Chapter 7 TAPPS/PRS<br>#fina2203
 - [ ] Chapter 7 MFL<br>#fina2203
+- [ ] Chapter 11 TAPPS/PRS<br>#fina2203
 - [ ] Chapter 11 MFL<br>#fina2203
-- [ ] TAPPS/PRS problems<br>#fina2203
+- [ ] Assignment 4 Problem 2<br>#elec3200
+- [ ] Chapter 13 TAPPS/PRS<br>#fina2203
+
+
+## May 20
+
+- [ ] Homework 8<br>#mech2210
+- [ ] Chapter 12 TAPPS/PRS<br>#fina2203
+- [ ] Final Review Questions<br>#fina2203
+- [ ] Chapter 12 MFL<br>#fina2203
+- [ ] Chapter 13 MFL<br>#fina2203
 - [ ] Chapter 13 Project-based Cost of Capital Examples<br>#fina2203
 
 
-## ELEC 3200
+## May 21
 
+- [ ] Homework 9<br>#mech2210
+
+
+## May 22
+
+- [ ] Assignment 4 Problem 3<br>#elec3200
+- [ ] Assignment 4 Problem 4<br>#elec3200
 - [ ] Review Lecture Problems<br>#elec3200
-- [ ] Assignment 4 - May 22<br>#elec3200
-- [ ] Sample Final Exam<br>#elec3200
 - [ ] Block Diagram Simplification<br>#elec3200
+
+
+## May 23
+
+
+
+## May 24
+
+- [ ] Sample Final Exam<br>#elec3200
 
 
 ***

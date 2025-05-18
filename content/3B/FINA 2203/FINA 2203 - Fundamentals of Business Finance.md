@@ -98,6 +98,7 @@ aliases:
 - [[Weighted Average Cost of Capital]]
 - [[Costs of Debt Capital]]
 - [[WACC for Project Valuation]]
+
 ## Other
 - [[Finance Glossary]]
 

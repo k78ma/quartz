@@ -31,7 +31,7 @@ We can use the two definitions above to answer the following questions:
 $$
 10,000 \times(1.004231)^{5}=10,213
 $$
-2. Suppose you plan to invest $10,000 in this stock for the next year, and you assume probabilities of having each of the past 5 years’ returns as equal. What will be the expected payoff of your investment of $10,000 next year?
+2. Suppose you plan to invest $10,000 in this stock for the next year, and you assume probabilities of having each of the past 5 years’ returns as equal. What will be the expected payoff of your investment of 10,000 next year?
 $$
 10,000 \times(1.0314)=10,314
 $$
