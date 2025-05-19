@@ -7,8 +7,6 @@ draft: "true"
 
 ## May 19
 
-- [ ] Chapter 8 Notes<br>#mech2210
-- [ ] Chapter 11 MFL<br>#fina2203
 - [ ] Chapter 11 TAPPS/PRS<br>#fina2203
 - [ ] 9c examples<br>#fina2203
 - [ ] Chapter 13 MFL<br>#fina2203
@@ -145,6 +143,8 @@ draft: "true"
 - [ ] Chapter 9 Notes<br>#mech2210
 - [ ] Chapter 6 MFL Study <br>#fina2203
 - [ ] Chapter 6 TAPPS/PRS<br>#fina2203
+- [ ] Chapter 8 Notes<br>#mech2210
+- [ ] Chapter 11 MFL<br>#fina2203
 
 %% kanban:settings
 ```
