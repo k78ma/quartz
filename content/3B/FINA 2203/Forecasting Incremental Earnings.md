@@ -24,6 +24,8 @@ $$
 
 Incremental earnings are also called **unlevered** net income; unlike when we normally calculate net income, after calculating EBIT, we do not subtract interest. This is because interest belongs to the bond holders, so we want to include it as part of the [[Incremental Free Cash Flow|free cash flow]].
 
+![[Forecasting Incremental Earnings-20250518154134548.png]]
+
 ## Forecasting Considerations
 
 ### Incremental Revenue and Cost Estimates

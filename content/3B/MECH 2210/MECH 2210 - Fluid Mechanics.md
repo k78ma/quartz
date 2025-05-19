@@ -83,3 +83,17 @@ aliases:
     - [[Doublet Flow]]
 ### Viscous Flows
 - [[Navier-Stokes Equations for Incompressible Flows|Navier Stokes Equations]]
+
+## Forces on Submerged Bodies
+- [[External Flow Around Submerged Bodies]]
+- [[Stagnation Point]]
+### Drag Force
+- [[Drag Force]]
+- [[Drag Forces on Smooth Spheres and Cylinders]]
+- [[Drag Force on Spheres in Gases]]
+- [[Drag Force and Diffusion Coefficient of Particles]]
+### Lift Force
+- [[Lift Force]]
+- [[Characteristics of Airfoils]]
+- [[Lift Force Circulation]]
+- [[Magnus Effect]]

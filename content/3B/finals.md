@@ -5,49 +5,42 @@ draft: "true"
 
 ---
 
-## May 18
-
-- [ ] Chapter 6 Notes<br>#mech2210
-- [ ] Chapter 9 TAPPS/PRS<br>#fina2203
-- [ ] 9c examples<br>#fina2203
-- [ ] Chapter 9 MFL Study <br>#fina2203
-- [ ] Chapter 6 TAPPS/PRS<br>#fina2203
-- [ ] Chapter 6 MFL Study <br>#fina2203
-- [ ] Chapter 9 Notes<br>#mech2210
-- [ ] Assignment 4 Problem 1<br>#elec3200
-- [ ] CLAS 202 Module 1
-
-
 ## May 19
 
+- [ ] Chapter 9 Notes<br>#mech2210
+- [ ] Chapter 6 TAPPS/PRS<br>#fina2203
+- [ ] Chapter 6 MFL Study <br>#fina2203
 - [ ] Chapter 8 Notes<br>#mech2210
-- [ ] Homework 6<br>#mech2210
-- [ ] Chapter 7 TAPPS/PRS<br>#fina2203
-- [ ] Chapter 7 MFL<br>#fina2203
+- [ ] Chapter 6 Examples (Slides 18-21)<br>#mech2210
+- [ ] 9c examples<br>#fina2203
 - [ ] Chapter 11 TAPPS/PRS<br>#fina2203
 - [ ] Chapter 11 MFL<br>#fina2203
-- [ ] Assignment 4 Problem 2<br>#elec3200
 - [ ] Chapter 13 TAPPS/PRS<br>#fina2203
-- [ ] Chapter 6 Examples (Slides 18-21)<br>#mech2210
 
 
 ## May 20
 
-- [ ] Homework 8<br>#mech2210
+- [ ] Chapter 9 MFL Study <br>#fina2203
+- [ ] Chapter 9 TAPPS/PRS<br>#fina2203
 - [ ] Chapter 12 TAPPS/PRS<br>#fina2203
 - [ ] Final Review Questions<br>#fina2203
 - [ ] Chapter 12 MFL<br>#fina2203
 - [ ] Chapter 13 MFL<br>#fina2203
 - [ ] Chapter 13 Project-based Cost of Capital Examples<br>#fina2203
+- [ ] Homework 8<br>#mech2210
+- [ ] Homework 6<br>#mech2210
 
 
 ## May 21
 
 - [ ] Homework 9<br>#mech2210
+- [ ] Chapter 9 Examples - 15, 27, 29<br>#mech2210
 
 
 ## May 22
 
+- [ ] Assignment 4 Problem 1<br>#elec3200
+- [ ] Assignment 4 Problem 2<br>#elec3200
 - [ ] Assignment 4 Problem 3<br>#elec3200
 - [ ] Assignment 4 Problem 4<br>#elec3200
 - [ ] Review Lecture Problems<br>#elec3200
@@ -147,6 +140,10 @@ draft: "true"
 - [ ] Chapter 11 Notes<br>#fina2203
 - [ ] Chapter 12 Notes<br>#fina2203
 - [ ] Chapter 13 Notes<br>#fina2203
+- [ ] Chapter 6 Notes<br>#mech2210
+- [ ] Chapter 7 MFL<br>#fina2203
+- [ ] Chapter 7 TAPPS/PRS<br>#fina2203
+- [ ] CLAS 202 Module 1
 
 %% kanban:settings
 ```
