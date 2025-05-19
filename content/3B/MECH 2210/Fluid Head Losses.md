@@ -96,5 +96,4 @@ $$
 \Delta p = \gamma h_{L} = \frac{1}{2}K_{L} \rho V^{2}
 $$
 
-
 ![[Fluid Head Losses-20250519204322642.png]]
