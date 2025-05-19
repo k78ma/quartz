@@ -97,3 +97,13 @@ aliases:
 - [[Characteristics of Airfoils]]
 - [[Lift Force Circulation]]
 - [[Magnus Effect]]
+
+## Viscous Flow in Pipes
+- [[Laminar and Turbulent Flow]]
+- [[Entrance Region and Fully Developed Flow]]
+- [[Laminar Flow Fluid Element Analysis]]
+- [[Horizontal and Inclined Pipe Fluid Element Analysis]]
+- [[Energy Equations for Fluid Flow]]
+- [[Turbulent Flow]]
+- [[Fluid Head Losses]]
+-

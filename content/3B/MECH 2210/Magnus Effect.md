@@ -1,6 +1,7 @@
 ---
 title: Magnus Effect
-tags: 
+tags:
+  - mech2210
 date: 2025-05-19
 aliases:
   - magnus effect
