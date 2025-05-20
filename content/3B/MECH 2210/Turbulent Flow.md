@@ -1,8 +1,8 @@
 ---
-title: "<%tp.file.title%>"
+title: "Turbulent Flow"
 tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+date: "2025-05-20"
+aliases: "turbulent flow"
 ---
 Turbulent flow generally occurs when $\text{Re} \gg 1$ (around 4000) indicating that inertial forces greatly overpower viscous forces.
 

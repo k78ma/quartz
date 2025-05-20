@@ -1,8 +1,10 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: d'Alembert's Paradox
+tags:
+  - mech2210
+date: 2025-05-20
+aliases:
+  - d'alembert's paradox
 ---
 d'Alembert's Paradox states that in an ideal, inviscid, and incompressible fluid (potential flow with $\mu=0$), the drag force on a body moving at a constant velocity is exactly zero.
 

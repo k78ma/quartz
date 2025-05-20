@@ -1,8 +1,10 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Sudden Expansion Analysis
+tags:
+  - mech2210
+date: 2025-05-20
+aliases:
+  - sudden expansion analysis
 ---
 A sudden expansion of flow in a pipe is a unique case where a theoretical result for energy result is available.
 

@@ -1,10 +1,11 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Drag Forces on Smooth Spheres and Cylinders
+tags:
+  - mech2210
+date: 2025-05-20
+aliases:
+  - drag forces on smooth spheres and cylinders
 ---
-## Drag Forces on Smooth Spheres and Cylinders
 The plot below shoes the drag coefficient $C_{D}$ on the $y$-axis versus the Reynolds number $\text{Re}$ on the $x$-axis for smooth spheres (solid line) and smooth cylinders (dashed line).
 
 ![[Drag Force-20250519105511107.png|517]]

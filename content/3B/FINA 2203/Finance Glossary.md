@@ -63,4 +63,4 @@ Credit spread = Bond yield - treasury yield
 - Beta ($\beta$) is the is the expected percentage change in the return of a security for a 1% change in the market’s return.
         -Beta for HP = 1.4, Market excess return was -2.5 → HP excess return was $1.4\cdot -2.5 = -3.5$
 
-- Excess return = Ret
+- Excess return = Rett

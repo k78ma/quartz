@@ -1,8 +1,8 @@
 ---
-title: "<%tp.file.title%>"
+title: "Entrance Region and Fully Developed Flow"
 tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+date: "2025-05-20"
+aliases: "entrance region and fully developed flow"
 ---
 When fluid enters a pipe, it first When fluid enters a pipe, it first passes through the entrance region before reaching a state of fully developed flow. This progression is essential for understanding pressure drop and velocity profiles in fluid systems:
 

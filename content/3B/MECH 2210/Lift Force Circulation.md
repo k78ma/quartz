@@ -1,8 +1,10 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Lift Force Circulation
+tags:
+  - mech2210
+date: 2025-05-20
+aliases:
+  - lift force circulation
 ---
 To understand how lift force is generated on an airfoil or rotating object, we introduce the concept of circulation and its effect on the flow of air around the object.
 
