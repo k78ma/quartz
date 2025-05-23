@@ -5,6 +5,7 @@ tags:
 date: 2025-04-23
 aliases:
   - differential form of conservation of mass
+  - continuity equation for incompressible fluids
 ---
 Recall the [[Fluid Conservation of Mass|continuity equation]] based on the conservation of mass:
 $$

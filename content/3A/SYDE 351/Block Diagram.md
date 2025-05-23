@@ -21,8 +21,7 @@ Block diagrams consist of four basic symbols:
 
 ## Equivalent Block Diagrams
 
-![[Block Diagram-20250429152521091.png|619]]
-
+![[Block Diagram-20250523160740158.png]]
 
 Let's say we have a system described by:
 $$

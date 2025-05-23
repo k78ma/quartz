@@ -52,11 +52,7 @@ draft:
 
 4B Plan:
 - [ ] MTE 482 - Capstone
-- [ ] MTE 484 - Digital Control Applications
-- [ ] MTE 380 - Project
-- [x] TE 1 – ELEC 4260
-- [ ] TE 2 – a math course? CS 479, STAT 341
-- [ ] CSE
+- [ ] 4 TEs
 
 AI Option:
 - List 1:

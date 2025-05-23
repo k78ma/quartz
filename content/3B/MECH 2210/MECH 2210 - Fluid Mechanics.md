@@ -81,6 +81,9 @@ aliases:
     - [[Source and Sink Flows]]
     - [[Vortex Flow]]
     - [[Doublet Flow]]
+- [[Flow Between Parallel Plates]]
+- [[Couette Flow]]
+- [[Poiseuille Flow]]
 ### Viscous Flows
 - [[Navier-Stokes Equations for Incompressible Flows|Navier Stokes Equations]]
 

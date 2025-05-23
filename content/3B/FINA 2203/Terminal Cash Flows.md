@@ -14,4 +14,4 @@ Three types of terminal cash flows:
     - These are easy, usually given in the question.
     - Remember that these costs are tax-deductible 
 3. After-tax liquidation value
-    - Proceeds from asset sale at the end of project
+    - Proceeds from asset sale at the end of projec

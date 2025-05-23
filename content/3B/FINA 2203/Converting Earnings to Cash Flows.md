@@ -79,3 +79,5 @@ A sports drink project:
 What are the incremental free cash flows throughout the whole project’s life?
 
 ![[Converting Earnings to Cash Flows-20250414221657075.png]]
+
+

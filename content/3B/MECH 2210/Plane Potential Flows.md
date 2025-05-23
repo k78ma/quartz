@@ -38,3 +38,6 @@ $$
 
 Types of plane potential flows:
 - [[Uniform Flows]]
+- [[Source and Sink Flows]]
+- [[Vortex Flow]]
+- [[Doublet Flow

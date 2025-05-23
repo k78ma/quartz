@@ -35,7 +35,7 @@ $$
 - Complex conjugate pole pair at $s=-0.7409 \pm j3.8461$ (Red)
     - Dominant (close to imaginary axis)
 
-The system performance can be extimated ont he basis of the pair of poles.
+The system performance can be estimated on  the basis of the pair of poles.
 $$
 \begin{align}
 T(s) & \approx \frac{10\times 10}{6.5182[(s+0.7409)^{2}+3.8461^{2}]} \\[2ex]

@@ -6,6 +6,8 @@ date: 2025-03-05
 aliases:
   - electrical system modeling
 ---
+
+
 ## RLC Circuit
 
 ![[Pasted image 20250305234729.png|642]]

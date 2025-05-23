@@ -73,4 +73,4 @@ $$
 ## Characteristic Polynomial/Equation
 - The denominator $D(s)$ of a transfer function $G(s)=\frac{N(s)}{D(s)}$ is called the characteristic polynomial. 
 - The characteristic equation is $D(s)=0$.
-- The roots of the characteristic equation are called the **poles** of the system.[]()
+- The roots of the characteristic equation are called the **poles** of the system.

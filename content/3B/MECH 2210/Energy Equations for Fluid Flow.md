@@ -52,7 +52,7 @@ We can then write
 $$
 \frac{\Delta p - \gamma l\sin \theta}{l} = \frac{\gamma h_{L}}{l}=\frac{2\tau}{r}
 $$
-which is head loss due to friction. This also applies to horizontal flow as we can just use $\theta=0$.
+where $h_{L}$ is head loss due to friction. This also applies to horizontal flow as we can just use $\theta=0$.
 
 This in turn leads to:
 $$

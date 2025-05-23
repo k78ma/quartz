@@ -31,7 +31,7 @@ $$
 - “Cost of capital” to indicate the rate of return on an investment of similar risk.
 
 
-## Bonds
+## Chapter 6 - Bonds
 
 ### Bond Calculation Questions
 - Use coupon rate to calculate PMT:
@@ -58,9 +58,50 @@ Market rate falls -> Price rises -> YTM falls to match market
 ### Credit Spread
 Credit spread = Bond yield - treasury yield
 
+## Chapter 7 - Stock
+- Reinvsting earnings: $g = \text{Retention rate}\times \text{Return on enw investments}$ 
+## Chapter 9 - Capital Budgeting
+- Free cash flows = Earnings + Depreciation - Capital Expenditures - Change in NWC
+    - Earnings here is incremental earnings or unlevered net income
+- Net working capital (NWC) = Current Assets - Current Liabilities
+
+Incremental earnings approach:
+$$
+\begin{align}
+\text{Incremental FCF} & =(\text{Revenues}-\text{Costs}-\text{Depreciation})(1-t_{c}) \\
+     & \quad  +\text{ Depreciation} \\
+     & \quad - \text{ Net Capital Expenditures} \\
+     & \quad - \,\Delta \text{NWC}
+\end{align}
+$$
+Tax shield approach:
+$$
+\begin{align}
+\text{Incremental FCF} & =(\text{Revenues}-\text{Costs})(1-t_{c}) \\
+     & \quad  +\, \,t_{c}\times \text{Depreciation} \\
+     & \quad - \text{ Net Capital Expenditures} \\
+     & \quad  - \,\Delta \text{NWC}
+\end{align}
+$$
+
+After-tax cash flow from asset sale:
+$$
+\text{Sale Price} - (t_{c}) \times (\text{Capital gain/loss})
+$$
+where capital gain/loss is sale price - salvage value.
+- Savage value = purchase price - accumulated depreciation
+
 ## Chapter 12 Systematic Risk
 ### Beta
 - Beta ($\beta$) is the is the expected percentage change in the return of a security for a 1% change in the market’s return.
         -Beta for HP = 1.4, Market excess return was -2.5 → HP excess return was $1.4\cdot -2.5 = -3.5$
 
-- Excess return = Rett
+- Excess return = Return - Market portfolio return
+
+### SML
+- $y$-intercept = risk-free rate
+- $m$ = market risk premium
+- above SML → underpriced (we should buy)
+- below SML → overpriced (we should sell)
+
+![[Finance Glossary-20250520163702646.png]]

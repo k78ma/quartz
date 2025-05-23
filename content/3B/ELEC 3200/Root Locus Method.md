@@ -62,19 +62,26 @@ Since $\deg(a)=n\geq m=\deg(b)$, the characteristic polynomial $a(s)+Kb(s)=0$ ha
 The characteristic polynomial has $n$ solutions (roots), some of which repeated. As we vary $K$, these $n$ solutions also vary to form $n$ branches.
 
 More succinctly:
-$$
-\boxed{
-\#\text{(branches)}=\deg(a)
-}
-$$
+
+> [!theorem] Rule A
+> 
+> $$
+> \boxed{
+> \#\text{(branches)}=\deg(a)
+> }
+> $$
+
 ## Rule B – Start Points
+
 The locus starts from $K=0$. What happens near $K=0$? We see that if $a(s)+Kb(s)=0$ and $K \approx 0$, then $a(s) \approx 0$. Therefore:
 - $s$ is close to a root of $a(s)=0$, or
 - $s$ is close to a pole of $L(s)$.
 
-$$
-\boxed{\text{Branches start at open-loop poles.}}
-$$
+> [!theorem] Rule B
+> $$
+>\boxed{\text{Branches start at open-loop poles.}}
+>$$
+
 
 ## Rule C – End Points
 What happens to the locus at $K\to \infty$?
@@ -88,9 +95,12 @@ Thus, as $K\to \infty$,
 - Branches end at the roots of $b(s)=0$, or
 - Branches end at zeros of $L(s)$
 
-$$
-\boxed{\text{Branches end at open-loop zeros.}}
-$$
+
+> [!theorem] Rule C
+>$$
+>\boxed{\text{Branches end at open-loop zeros.}}
+>$$
+
 Note: If $n>m$, we have $n$ branches but only $m$ zeros. The remaining $n-m$ branches go off to infinity (end at "zeros at infinity").
 
 ## Rule D – Real Locus
@@ -112,7 +122,11 @@ This sum must be $\pm 180 \degree$ for any $s$ that lies on the root locus.
 
 See [[Advanced Root Locus Example|this example]] to see how this works in practice.
 
-Rule D: If $s$ is real, then it is on the real line of $1+KL$ if and only if there are an odd number of real open-loop poles and zeros to the right of $s$.
+
+> [!theorem] Rule D
+> If $s$ is real, then it is on the real line of $1+KL$ if and only if there are an odd number of real open-loop poles and zeros to the right of $s$.
+
+
 
 ## Rule E – Asymptotes
 How does the locus as $s\to \infty$?
@@ -131,15 +145,15 @@ Proof of the above claim:
 
 ![[Root Locus Method-20250503221451403.png|578]]
 
-
-Thus, Rule E tells us that branches near $\infty$ have phase
-$$
-\begin{align}
-\angle s  & \simeq \frac{180\degree  +\ell\cdot 360\degree  }{n-m}\\[2ex] 
-     & =\frac{(2\ell+1)\cdot 180\degree  }{n-m},\quad \ell=0,1,\dots,n-m-1
-\end{align}
-$$
-Note that if $m=n$, then there are no branches at $\infty$.
+> [!theorem] Rule E
+> Thus, Rule E tells us that branches near $\infty$ have phase
+> $$
+> \begin{align}
+> \angle s  & \simeq \frac{180\degree  +\ell\cdot 360\degree  }{n-m}\\[2ex] 
+>      & =\frac{(2\ell+1)\cdot 180\degree  }{n-m},\quad \ell=0,1,\dots,n-m-1
+> \end{align}
+> $$
+> Note that if $m=n$, then there are no branches at $\infty$.
 
 ## Rule F: Imaginary Axis Crossing
 Do the branches of the root locus cross the $j\omega$ axis? This signifies a transition from stability to instability.
@@ -150,4 +164,5 @@ a(j\omega)+Kb(j\omega)=0
 $$
 has a solution $\omega \geq 0$ for some $K\geq 0$.
 
-The best approach here is to use [[Routh-Hurwitz Criterion|Routh Criterion]] to first determine the critical value of $K$ (when the characteristic polynomial becomes unstable), then plug it in and solve for $j\omega$-crossing (numerically or analytically).
+> [!theorem] Rule F
+> Use [[Routh-Hurwitz Criterion|Routh Criterion]] to first determine the critical value of $K$ (when the characteristic polynomial becomes unstable), then plug it in and solve for $j\omega$-crossing (numerically or analytically).
