@@ -20,3 +20,8 @@ I = C \frac{ dV }{ dt }
 $$
 A bigger capacitor can store more $Q$ for a given $V$.
 - Analogy: A bike tire has more less air ($Q$) for a given pressure ($V$) versus a bouncy castle, which has significantly more air; so, the bike tire has less capacitance than the bouncy castle.
+
+$$
+    \frac{R_{1}+2\,L\,s+L^2\,R_{1}\,s^2+L^2\,R_{2}\,s^2+L\,R_{1}\,R_{2}\,s}{R_{1}+L\,s+L^2\,R_{1}\,s^2+L^2\,R_{2}\,s^2+L\,R_{1}\,R_{2}\,s}
+
+$$

@@ -5,23 +5,14 @@ draft: "true"
 
 ---
 
-## May 23
-
-- [ ] Review Lecture Problems<br>#elec3200
-- [ ] Sample Final Exam<br>#elec3200
-- [ ] Midterm<br>#elec3200
-- [ ] Review Homework Problems #elec3200
-- [ ] Block Diagram Simplification<br>#elec3200
-
-
-## May 24
-
-
-
 ***
 
 ## Archive
 
+- [ ] Midterm Problem 5
+- [ ] Midterm<br>#elec3200
+- [ ] Review Homework Problems #elec3200
+- [ ] Block Diagram Simplification<br>#elec3200
 - [ ] Review Viscosity
 - [ ] Homework 1 - Feb 17
 - [ ] Assignment 1 - Feb 20
@@ -127,6 +118,10 @@ draft: "true"
 - [ ] Homework 8<br>#mech2210
 - [ ] Chapter 8 Examples Slides<br>#mech2210
 - [ ] Assignment 4<br>#elec3200
+- [ ] Sample Final Exam<br>#elec3200
+- [ ] Review Lecture Problems<br>#elec3200
+- [ ] Sample Final Problem 2
+- [ ] Sample Final Problem 4
 - [ ] Sample Final Exam<br>#elec3200
 
 %% kanban:settings

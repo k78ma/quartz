@@ -18,7 +18,7 @@ $$
 - $k=1$ would give us a ramp (velocity)
 - $k=2$ would give us a parabola (acceleration)
 
-The error signal is given by:
+he error signal is given by:
 $$
 E=\frac{1}{1+KP}R=\frac{1}{1+KP} \frac{1}{s ^{k+1}}
 $$
