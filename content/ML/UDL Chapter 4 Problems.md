@@ -163,17 +163,36 @@ If we have:
 - $x\geq b$, both ReLUs are active, so we have $f[x]=a+(x-a)-(x-b)=b$
 
 > [!question] Problem 4.8
-> 
+> Figure 4.9 shows the activations in the three hidden units of a shallow network (as in figure 3.3). The slopes in the hidden units are $1.0$, $1.0$, and $-1.0$, respectively, and the “joints” in the hidden units are at positions $1/6$, $2/6$, and $4/6$. Find values of $\phi_{0}, \phi_{1}, \phi_{2}$, and $\phi_{3}$ that will combine the hidden unit activations as $\phi_{0} + \phi_{1}h_{1} + \phi_{2}h_{2} + \phi_{3}h_{3}$ to create a function with four linear regions that oscillate between output values of zero and one. The slope of the leftmost region should be positive, the next one negative, and so on. How many linear regions will we create if we compose this network with itself? How many will we create if we compose it with itself K times? 
+
+Region 1:
+- Only $h_{3}$ is active. Its joint is at $\frac{4}{6}$, so $h_{3}(x)=-x + \frac{4}{6}$.
+- We need:
+$$
+\begin{align}
+y(0)=\phi_{0}+\phi_{1}\left( -0+\frac{4}{6} \right) = 0 \\[2ex]
+y\left( \frac{1}{6} \right) = \phi_{0}+\phi_{1}\left( -\frac{1}{6}+\frac{4}{6} \right)=1
+\end{align}
+$$
+- Solving the system of equations gives $\phi_{0}=4, \phi_{1}=-6$.
+
+Region 2:
+- 
 
 
 > [!question] Problem 4.9
-> 
+> Following problem 4.8, is it possible to create a function with three linear regions that oscillates back and forth between output values of zero and one using a shallow network with two hidden units? Is it possible to create a function with five linear regions that oscillates in the same way using a shallow network with four hidden units? 
+
+
 
 
 > [!question] Problem 4.10
-> 
+> Consider a deep neural network with a single input, a single output, and K hidden layers, each of which contains D hidden units. Show that this network will have a total of 3D + 1 + (K − 1)D(D + 1) parameters. 
+
+
 
 
 > [!question] Problem 4.11
+> Consider two neural networks that map a scalar input x to a scalar output y. The first network is shallow and has D = 95 hidden units. The second is deep and has K = 10 layers, each containing D = 5 hidden units. How many parameters does each network have? How many linear regions can each network make (see equation 4.17)? Which would run faster? 
 
 

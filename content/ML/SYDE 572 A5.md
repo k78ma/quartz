@@ -9,7 +9,7 @@ aliases:
 
 ### Part 1
 Transformer:
-- Transformer-based architectures use self-attention mechanisms to weigh the importance of different words in the input data, regardless of their positional distance from each other. This allows them to better handle **long-range dependencies** within the text, which is crucial for understanding the context and generating coherent next-word predictions.
+- Transformer-based architectures use self-attention mechanisms to weigh the importance of different words in the input data, regardless of their positional distance from each other. This allows them to better handle long-range dependencies within the text, which is crucial for understanding the context and generating coherent next-word predictions.
 - RNNs process data sequentially, while Transformers can process entire sequences of data in parallel during training. This characteristic significantly reduces training time and allows for more efficient scaling with larger datasets and more complex models.
 - A weakness of Transformer-based architectures is that the self-attention mechanism requires significant computational resources, especially for longer sequences, due to its quadratic complexity with respect to the sequence length. This aspect can make Transformers more demanding in terms of memory and compute power.
 

@@ -31,6 +31,7 @@ draft: "true"
 - [Neuro-Symbolic Learning for Bilevel Planning](file:///Users/kai/Downloads/silver-tslvr-phd-eecs-2024-thesis.pdf)
 ### Courses/Guides
 - [CMU 16-831: Introduction to Robot Learning](https://16-831-s24.github.io/lectures)
+- [Cornell CS 4756: Robot Learning](https://www.cs.cornell.edu/courses/cs4756/2024sp/)
 - [CS 1840: Introduction to Reinforcement Learning](https://rlbook.adzc.ai/)
 - [minitorch](https://minitorch.github.io/module1/scalar/)
 - [Spinning Up as a Deep RL Researcher](https://spinningup.openai.com/en/latest/spinningup/spinningup.html)
@@ -63,9 +64,12 @@ draft: "true"
 - [Distill.pub](https://distill.pub/)
     - [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 - [Go With The Flow | yadnyesh's blog](https://ydnyshhh.github.io/posts/go_with_the_flow/)
-- [Llama from scratch (or how to implement a paper without crying) | Brian Kitano](https://blog.briankitano.com/llama-from-scratch/)
+- [Llama from scratch (or how to implement a paper without crying](https://blog.briankitano.com/llama-from-scratch/)
+- [How To Scale Your Model](https://jax-ml.github.io/scaling-book/)
 - [Transformer Circuits Thread](https://transformer-circuits.pub/)
     - [On the Biology of a Large Language Model](https://transformer-circuits.pub/2025/attribution-graphs/biology.html)
+    - [gemma-2-2b Attribution Graph | Neuronpedia](https://www.neuronpedia.org/gemma-2-2b/graph)
+
 ### Projects/Repos
 
 ---

@@ -58,7 +58,6 @@ AI Option:
 - List 1:
     - [x] STV 208
 - List 2 (two courses):
-    - Two engineering courses, doesn't really matter
     - SYDE 522
     - ECE 457A or 457C
 - List 3 (three courses):
@@ -74,6 +73,21 @@ Midterm dates:
 - FINA 2203 - March 29
 - ELEC 4260 - No midterm
 
+## 4A
+- MTE 380
+- MTE 481
+- MTE 484 (Core, AI List 3)
+- MTE 544 (AI List 3)
+- SYDE 522 (AI List 2)
+
+## 4B
+- MTE 482
+- CSE
+- AI List 3
+- AI List 2
+    - One of the two above needs to be math
+- Any TE
+
 ## Trips
 Japan: Jan 8 - 17
 HK: Jan 17-18 (concert)
@@ -88,6 +102,7 @@ Guangzhou: April 17-20
 Sai Kung beach camping: April 25-26
 Bali: May 9-15
 Singapore: May 15
+Macau: May 26
 
 March 30 - April 6: Could go somewhere
 - ELEC3200 Midterm April 9
