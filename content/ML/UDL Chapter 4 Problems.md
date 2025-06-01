@@ -163,21 +163,40 @@ If we have:
 - $x\geq b$, both ReLUs are active, so we have $f[x]=a+(x-a)-(x-b)=b$
 
 > [!question] Problem 4.8
-> Figure 4.9 shows the activations in the three hidden units of a shallow network (as in figure 3.3). The slopes in the hidden units are $1.0$, $1.0$, and $-1.0$, respectively, and the “joints” in the hidden units are at positions $1/6$, $2/6$, and $4/6$. Find values of $\phi_{0}, \phi_{1}, \phi_{2}$, and $\phi_{3}$ that will combine the hidden unit activations as $\phi_{0} + \phi_{1}h_{1} + \phi_{2}h_{2} + \phi_{3}h_{3}$ to create a function with four linear regions that oscillate between output values of zero and one. The slope of the leftmost region should be positive, the next one negative, and so on. How many linear regions will we create if we compose this network with itself? How many will we create if we compose it with itself K times? 
+> Figure 4.9 shows the activations in the three hidden units of a shallow network (as in figure 3.3). The slopes in the hidden units are $1.0$, $1.0$, and $-1.0$, respectively, and the “joints” in the hidden units are at positions $1/6$, $2/6$, and $4/6$. 
+> - Find values of $\phi_{0}, \phi_{1}, \phi_{2}$, and $\phi_{3}$ that will combine the hidden unit activations as $\phi_{0} + \phi_{1}h_{1} + \phi_{2}h_{2} + \phi_{3}h_{3}$ to create a function with four linear regions that oscillate between output values of zero and one. The slope of the leftmost region should be positive, the next one negative, and so on. 
+> - How many linear regions will we create if we compose this network with itself? 
+> - How many will we create if we compose it with itself $K$ times? 
 
 Region 1:
-- Only $h_{3}$ is active. Its joint is at $\frac{4}{6}$, so $h_{3}(x)=-x + \frac{4}{6}$.
+- Only $h_{3}$ is active. Its joint is at $\frac{4}{6}$, so the pre-activation for $h_{3}(x)$ is $-x + \frac{4}{6}$.
 - We need:
 $$
 \begin{align}
-y(0)=\phi_{0}+\phi_{1}\left( -0+\frac{4}{6} \right) = 0 \\[2ex]
-y\left( \frac{1}{6} \right) = \phi_{0}+\phi_{1}\left( -\frac{1}{6}+\frac{4}{6} \right)=1
+y(0) & =\phi_{0}+\phi_{3}\left( -0+\frac{4}{6} \right) = 0 \\[2ex]
+y\left( \frac{1}{6} \right)  & = \phi_{0}+\phi_{3}\left( -\frac{1}{6}+\frac{4}{6} \right)=1
 \end{align}
 $$
-- Solving the system of equations gives $\phi_{0}=4, \phi_{1}=-6$.
+- Solving the system of equations gives $\phi_{0}=4, \phi_{3}=-6$.
 
 Region 2:
-- 
+- $h_{1}$ and $h_{3}$ are active, which means that the region has a slope of $\phi_{1}-\phi_{3}$.
+- To get the output back down from $y\left( \frac{1}{6} \right)=1$ to $y\left( \frac{2}{6} \right)=0$, we need a slope of $\frac{-1}{\frac{2}{6}-\frac{1}{6}}= -6$. 
+- Since we have $\phi_{3}=-6$, this gives $\phi_{1}=-12$.
+
+Region 2:
+- $h_{1}$, $h_{2}, h_{3}$ are active, so the slope will be $\phi_{1}+\phi_{2}-\phi_{3}$.
+- To get the output back up from $y\left( \frac{2}{6} \right)=0$ to $y\left( \frac{4}{6} \right)=1$, we need slope of $\frac{1}{\frac{4}{6}-\frac{2}{6}}=3$.
+- Since we have $\phi_{1}=-12, \phi_{3}=-6$, we have $\phi_{2}=9$.
+
+Region 4:
+- $h_{1}$ and $h_{2}$ are active, so the slope will be $\phi_{1}+\phi_{2}$.
+- To get the output down from $y\left( \frac{4}{6} \right)=1$ to $y(1)=0$, we need a slope of $\frac{-1}{1-\frac{4}{6}}=-3$.
+- We already achieve this with $\phi_{1}=-12$ an $\phi_{2}=-9$.
+
+If we compose the network with itself once, we will get $4^2=16$ regions; each region in the second network is replicated four times.
+
+If we compose the network with itself $K$ times, we will get $4^{K+1}$ regions.
 
 
 > [!question] Problem 4.9
