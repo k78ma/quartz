@@ -198,6 +198,8 @@ If we compose the network with itself once, we will get $4^2=16$ regions; each r
 
 If we compose the network with itself $K$ times, we will get $4^{K+1}$ regions.
 
+![[UDL Chapter 4 Problems-20250603081101638.png]]
+
 
 > [!question] Problem 4.9
 > Following problem 4.8, is it possible to create a function with three linear regions that oscillates back and forth between output values of zero and one using a shallow network with two hidden units? Is it possible to create a function with five linear regions that oscillates in the same way using a shallow network with four hidden units? 
@@ -213,12 +215,30 @@ However, it is possible to create a function with five linear regions that oscil
 
 
 > [!question] Problem 4.10
-> Consider a deep neural network with a single input, a single output, and K hidden layers, each of which contains D hidden units. Show that this network will have a total of $3D + 1 + (K − 1)D(D + 1)$ parameters. 
+> Consider a deep neural network with a single input, a single output, and $K$ hidden layers, each of which contains $D$ hidden units. Show that this network will have a total of $3D + 1 + (K − 1)D(D + 1)$ parameters. 
 
+- Input to first hidden layer has $D$ weights and $D$ biases – $2D$
+- Between hidden layers we connect $D$ units to $D$ units
+    - $D^{2}$ weights, $D$ biases
+    - This happens $K-1$ times
+    - Total: $(K-1)(D^{2}+D)$
+- Last hidden layer and output: $D$ weights and $1$ bus – $1D+1$
 
+Total:
+$$
+3D+1 + (K-1)(D^{2}+D)
+$$
+which is the same thing as $3D + 1 + (K − 1)D(D + 1)$.
 
 
 > [!question] Problem 4.11
-> Consider two neural networks that map a scalar input x to a scalar output y. The first network is shallow and has D = 95 hidden units. The second is deep and has K = 10 layers, each containing D = 5 hidden units. How many parameters does each network have? How many linear regions can each network make (see equation 4.17)? Which would run faster? 
+> Consider two neural networks that map a scalar input $x$ to a scalar output $y$. The first network is shallow and has $D = 95$ hidden units. The second is deep and has $K = 10$ layers, each containing $D = 5$ hidden units. How many parameters does each network have? How many linear regions can each network make (see equation 4.17)? Which would run faster? 
 
-
+The first network has:
+$$
+3\cdot 95+1 = 286 \text{ parameters}
+$$
+The second network has:
+$$
+(3 \cdot  5) + 1+(10-1)(5^{2+5)}= 286 \text{ parameters}
+$$
