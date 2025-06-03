@@ -202,11 +202,18 @@ If we compose the network with itself $K$ times, we will get $4^{K+1}$ regions.
 > [!question] Problem 4.9
 > Following problem 4.8, is it possible to create a function with three linear regions that oscillates back and forth between output values of zero and one using a shallow network with two hidden units? Is it possible to create a function with five linear regions that oscillates in the same way using a shallow network with four hidden units? 
 
+It is not possible to create a function with three linear regions that oscillates back and forth between output values of 0 and 1 using a shallow network with two hidden units. At best it can rise and fall once, producing only two linear pieces with opposite slopes.
+- Each hidden ReLU unit can change the output slope once—at the joint where that ReLU switches on or off.
+- for 0-1-0-1 (or $+ - +$), we would need two segments that have positive slope, but this isn't possible because a ReLU only activates once, so the positive hidden unit can only turn on/off once.
+- Because one unit’s jump adds a positive amount to the slope and the other unit’s jump subtracts a positive amount, the slope can go up-then-down, down-then-up, but never up-down-up (two flips) or down-up-down.
 
+However, it is possible to create a function with five linear regions that oscillates in the same way using a shallow network with four hidden units, and generally, for $N \geq 3$ hidden units it’s possible to make a function that oscillates back and forth $N + 1$ times.
+- Four units provide four independent slope jumps, letting you enforce the sign pattern $+ - + - +$.  
+- That yields five alternating linear pieces $0 \to 1 \to 0 \to 1 \to 0 \to 1$, so the five-region oscillation is achievable with a shallow network that has four hidden units.
 
 
 > [!question] Problem 4.10
-> Consider a deep neural network with a single input, a single output, and K hidden layers, each of which contains D hidden units. Show that this network will have a total of 3D + 1 + (K − 1)D(D + 1) parameters. 
+> Consider a deep neural network with a single input, a single output, and K hidden layers, each of which contains D hidden units. Show that this network will have a total of $3D + 1 + (K − 1)D(D + 1)$ parameters. 
 
 
 

@@ -94,6 +94,7 @@ draft: "true"
 ## Robotics
 ### Books
 - [Visual SLAM](https://github.com/gaoxiang12/slambook-en)
+- [SLAM-Handbook](https://github.com/SLAM-Handbook-contributors/slam-handbook-public-release)
 - [Lectures on Robotic Planning and Kinematics](https://fbullo.github.io/lrpk/)
 - [Modern Robotics: Mechanics, Planning, and Control](https://hades.mech.northwestern.edu/images/7/7f/MR.pdf)
 - [Robotic Manipulation](https://manipulation.csail.mit.edu/)
