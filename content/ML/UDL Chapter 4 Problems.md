@@ -242,3 +242,10 @@ The second network has:
 $$
 (3 \cdot  5) + 1+(10-1)(5^{2+5)}= 286 \text{ parameters}
 $$
+For the shallow network, since there is just one input, each hidden unit creates one joint, for a total of 95 joints separating 96 linear regions. 
+
+The number of linear regions for the deep network is given by [[Linear Regions Per Parameter for Neural Network|equation 4.17]]:
+$$
+N_{r}=\left( \frac{D}{D_{i}}+1  \right)^{D_{i}(K-1)} \cdot  \sum_{j=0}^{D_{i}} {D \choose j} = 60,466,176
+$$
+In principle, the shallow network will be faster to run on modern hardware as the computation is more parallel.

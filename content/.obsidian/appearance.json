@@ -12,5 +12,5 @@
   "showViewHeader": true,
   "baseFontSizeAction": false,
   "interfaceFontFamily": "Inter",
-  "showRibbon": false
+  "showRibbon": true
 }
