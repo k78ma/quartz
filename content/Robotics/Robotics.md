@@ -30,3 +30,4 @@ aliases:
 ## Projects
 - [[Desktop Bot]]
 - [[Roamr]]
+- [[SO 101]]

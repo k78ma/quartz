@@ -15,18 +15,22 @@ Some of these notes are also included in [[Machine Learning]].
 ## Foundations
 - [[Tensor]]
 - [[Einstein Notation]]
-## Shallow Neural Networks
+
+## Neural Networks
 - [[Supervised Learning]]
 - [[Discriminative vs. Generative Models]]
+### Shallow Neural Networks
 - [[Shallow Neural Network]]
 - [[Universal Approximation Theorem]]
 - [[Multivariate Inputs and Outputs]]
-- [[Shallow vs. Deep Networks]]
-
-## Deep Neural Networks
+### Deep Neural Networks
 - [[Composing Shallow Networks]]
 - [[Deep Neural Network]]
-    - [[Linear Regions Per Parameter for Neural Network]]
+- [[Shallow vs. Deep Networks]]
+
+## Loss Functions
+- [[Loss Function]]
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 

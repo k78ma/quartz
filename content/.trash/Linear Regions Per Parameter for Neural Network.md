@@ -24,6 +24,7 @@ As a rule of thumb, shallow neural networks almost always have a larger number $
 ## Deep Networks
 - A shallow network with one input, one output, and $D>2$ hidden units can create up to $D+1$ linear regions and is defined by $3D+1$ parameters.
 - A deep network with one input, one output, and $K$ layers of $D>2$ hidden units can create a function with up to $(D+1)^{K}$ linear regions using $3D+1+(K-1)D(D+1)$ parameters
+    -  See [[UDL Chapter 4 Problems|Problem 4.10]]
 
 The left side of figure below shows that the number of linear regions increases as a function of the number of parameters mapping scalar input $x$ to scalar output $y$. Deep neural networks create much more complex functions for a fixed parameter budget. This effect is magnified as the number of input is magnified as the number of input $D_{i}$ increases (right side), although computing the maximum number of regions is less straightforward.
 

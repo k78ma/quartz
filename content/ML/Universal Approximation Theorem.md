@@ -33,3 +33,8 @@ To see this, consider that every time we add a hidden unit, we add another linea
 
 ## Width Version
 The *width* version of this theorem states that there exists a network with one hidden layer containing a finite number of hidden units that can approximate any specified continuous function on a compact subset of $\mathbb{R}^{n}$ to arbitrary accuracy.  
+
+## Depth Version
+There exist a network with ReLU activation functions and at least $D_{i}+4$ hidden units in each layer that can approximate any $D_{i}$-dimensional Lebesgue integrable function to arbitrary accuracy given enough layers. This was shown in [[1709.02540] The Expressive Power of Neural Networks: A View from the Width](https://arxiv.org/abs/1709.02540).
+
+This is known as the depth version of the universal approximation theorem.

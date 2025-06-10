@@ -4,7 +4,9 @@ tags:
   - ml
 date: 2023-10-29
 ---
-Loss in machine learning quantifies the quality of a prediction $h(x^{(i)}; \Theta)$ that $\Theta$ makes for $(x^{(i)}, y^{(i)})$. 
+Loss in machine learning quantifies the quality of a prediction $f(x_{i}, \phi)$ compared to the ground truth $y_{i}$.
+
+During training, we seek parameter values $\phi$ that minimize the loss, mapping the training inputs to outputs as closely as possible.
 
 A basic example is 0-1 loss:
 $$
