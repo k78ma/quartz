@@ -4,6 +4,8 @@ tags:
   - stats
 date: 2024-03-29
 aliases:
+  - likelihood function
+  - likelihood
 ---
 Suppose we have a data set of observations represented by row vector $\mathbb{x} = (x_{1}, \dots, x_{n})$, representing $N$ observations of a scalar variable $x$. These observations are drawn from a [[Gaussian Distribution|Gaussian]] whose parameters, mean $\mu$ and variance $\sigma^{2}$, are unknown. Given our observations, we want to estimate these parameters to find the distribution that they came from.
 

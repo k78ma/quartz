@@ -40,4 +40,4 @@ In 2D, our inputs $x$ lie on a 2D space with axes $x_{1}$ and $x_{2}$, and the o
 #### Loss Function
 We have defined the linear logistic classifier to have probability outputs in $(0,1)$ but have training data with $y$ values in $\{ +1, -1 \}$. How do we define a loss function?
 
-We want to define a loss function on our data that is inversely related to the probability $\theta, \theta_{0}$ assigns to the data. This would mean that we have low loss if we have high probability of it being correct. We also want to have low loss if we assign a low probability to the incorrect class. This can be done using a [[Negative log-likelihood]] loss function. 
+We want to define a loss function on our data that is inversely related to the probability $\theta, \theta_{0}$ assigns to the data. This would mean that we have low loss if we have high probability of it being correct. We also want to have low loss if we assign a low probability to the incorrect class. This can be done using a [[Binary Cross-Entropy Loss]] loss function. 

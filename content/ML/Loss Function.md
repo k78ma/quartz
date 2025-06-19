@@ -2,11 +2,14 @@
 title: Loss Function
 tags:
   - ml
-date: 2023-10-29
+date: 2025-06-09
+aliases:
+  - loss function
+  - loss
 ---
-Loss in machine learning quantifies the quality of a prediction $f(x_{i}, \phi)$ compared to the ground truth $y_{i}$.
+A loss function $L[\phi]$ quantifies the quality of a prediction $f(x_{i}, \phi)$ compared to the ground truth $y_{i}$. During training, we seek parameter values $\phi$ that minimize the loss, mapping the training inputs to outputs as closely as possible.
 
-During training, we seek parameter values $\phi$ that minimize the loss, mapping the training inputs to outputs as closely as possible.
+Loss functions return a single scalar value.
 
 A basic example is 0-1 loss:
 $$

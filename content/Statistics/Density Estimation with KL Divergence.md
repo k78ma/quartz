@@ -16,5 +16,5 @@ $$
 \text{KL}(p||q) \approx \frac{1}{N} \sum_{n=1}^{N}\{ -\ln q(\mathbf{x_{n}}|\theta) +\ln p(\mathbf{x}_{n}) \}
 $$
 - The second term on the right-hand side is independent of $\theta$
-- The first term is the [[Negative log-likelihood]] for $\theta$ under the distribution $q(\mathbf{x}|\theta)$ evaluated using the training set.
+- The first term is the [[Binary Cross-Entropy Loss]] for $\theta$ under the distribution $q(\mathbf{x}|\theta)$ evaluated using the training set.
 - Therefore, minimizing the KL divergence is equivalent to maximizing the log likelihood function.

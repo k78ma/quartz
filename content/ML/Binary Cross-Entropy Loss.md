@@ -1,13 +1,14 @@
 ---
-title: Negative log-likelihood
+title: Binary Cross-Entropy Loss
 tags:
   - ml
 date: 2023-10-29
 aliases:
   - log loss
-  - cross-entropy
   - cross entropy
 ---
+This is a specific form of [[Log-Likelihood Criterion]].
+
 For simplicity, we assume or transform the labels so that $y \in \{ 0, 1 \}$.
 
 We would like to pick the parameters of our classifier to maximize the probability assigned to the correct $y$ values, as specified in the training set.

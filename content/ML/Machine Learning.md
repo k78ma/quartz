@@ -59,7 +59,7 @@ date: 2023-06-25
 ### Loss Functions
 - [[Machine Learning as Optimization]]
 - [[Loss Function]]
-- [[Negative log-likelihood]]
+- [[Binary Cross-Entropy Loss]]
 	- [[Negative log-likelihood multi-class]]
 - [[Hinge Loss]]
 

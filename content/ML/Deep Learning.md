@@ -8,8 +8,7 @@ aliases:
   - deep learning
 ---
 Notes from:
-- [[Understanding Deep Learning.pdf|Understanding Deep Learning]]
-- [[Alice’s Adventures in a Differentiable Wonderland.pdf|Alice's Adventures in a Differentiable Wonderland]]
+- Understanding Deep Learning
 
 Some of these notes are also included in [[Machine Learning]].
 ## Foundations
@@ -30,6 +29,10 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Loss Functions
 - [[Loss Function]]
+- [[Conditional Probabilistic Perspective of Learning]]
+- [[Maximum Likelihood Criterion]]
+- [[Log-Likelihood Criterion]]
+- [[Loss Function Recipe]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

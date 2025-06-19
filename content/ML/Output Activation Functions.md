@@ -18,7 +18,7 @@ Here is a table of loss functions and activations that make sense for them:
 
 ### Binary Classification
 - For classification, the natural loss function is [[Loss Function|0-1 loss]], but it's inconvenient because its derivative is discontinuous.
-- [[Negative log-likelihood]] is nice and smooth and extends nicely to multiple classes.
+- [[Binary Cross-Entropy Loss]] is nice and smooth and extends nicely to multiple classes.
 - [[Hinge Loss]] gives us another way for binary classification problems, to make a smoother objective. It has the property that, if the sign of our guess is the same as the sign of actual and the magnitude of guess is greater than 1, then the loss is 0. It is trying to enforce not only that the guess have the correct sign, but also that it should be some distance away from the separator. Using hinge loss, together with a squared norm regularizer, actually forces the learning process to try to find a separator that has the maximum margin relative to the data set. This optimization set-up is called a [[support vector machine]], and was popular before the renaissance of neural networks and gradient descent, because it has a quadratic form that makes it particularly easy to optimize.
 
 For multi-class classification, see:[[Negative log-likelihood multi-class]]

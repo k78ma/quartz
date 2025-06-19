@@ -7,5 +7,4 @@ draft: "true"
 ---
 - [[Deep Learning]]
 - [[Linear Algebra]]
-- [[ELEC 4260 - Intelligent Robots and Embodied AI]]
 - [[Reading List]]
