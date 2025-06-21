@@ -28,7 +28,7 @@ The advantage of log-likelihood is that it uses a sum of terms, not a product, s
 By convention, model fitting problems are framed in terms of minimizing a loss. To convert the maximum log-likelihood criterion to a minimization problem, we use the **negative log-likelihood criterion** instead:
 $$
 \begin{align}
-\hat{\phi} & =\underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \log\Big[Pr(y_{i}|f[x_{i}, \phi\Big] \right] \\[2ex]
+\hat{\phi} & =\underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \log\Big[Pr(y_{i}|f[x_{i}, \phi])\Big] \right] \\[2ex]
      & = \underset{\phi}{\operatorname{argmin}}\Big[L[\phi]\Big]
 \end{align}
 $$

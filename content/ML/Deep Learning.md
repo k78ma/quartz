@@ -17,6 +17,7 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Neural Networks
 - [[Supervised Learning]]
+    - [[Linear Regression]]
 - [[Discriminative vs. Generative Models]]
 ### Shallow Neural Networks
 - [[Shallow Neural Network]]
@@ -33,6 +34,9 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Maximum Likelihood Criterion]]
 - [[Log-Likelihood Criterion]]
 - [[Loss Function Recipe]]
+    - [[Univariate Regression as MLE]]
+    - [[Binary Classification]]
+    - [[Multi-class Classification]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
