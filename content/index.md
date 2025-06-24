@@ -10,7 +10,7 @@ Welcome to my notes!
 >[!info] About Me
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
-- [[Machine Learning|Machine Learning]]
+- [[Deep Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]
 ### UWaterloo Courses

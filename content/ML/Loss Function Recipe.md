@@ -18,3 +18,7 @@ Examples of this:
 - [[Univariate Regression]]
 - [[Binary Classification]]
 - [[Multi-class Classification]]
+
+Depending on the type of prediction, we can choose an appropriate distribution and apply the recipe.
+
+![[Loss Function Recipe-20250624153228848.png]]
