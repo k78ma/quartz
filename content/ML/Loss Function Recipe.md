@@ -15,6 +15,6 @@ $$
 \hat{\phi}= \underset{\phi}{\operatorname{argmin}}\Big[L[\phi]\Big] =\underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \log\Big[Pr(y_{i} \, | \,f[x_{i}, \phi])\Big] \right] \\[2ex]
 $$
 Examples of this:
-- [[Univariate Regression as MLE]]
+- [[Univariate Regression]]
 - [[Binary Classification]]
 - [[Multi-class Classification]]

@@ -34,7 +34,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Maximum Likelihood Criterion]]
 - [[Log-Likelihood Criterion]]
 - [[Loss Function Recipe]]
-    - [[Univariate Regression as MLE]]
+    - [[Univariate Regression]]
         - [[Heteroscedastic Regression]]
     - [[Binary Classification]]
     - [[Multi-class Classification]]
@@ -51,3 +51,4 @@ Some of these notes are also included in [[Machine Learning]].
 - [[UDL Chapter 2 Problems]]
 - [[UDL Chapter 3 Problems]]
 - [[UDL Chapter 4 Problems]]
+- [[UDL Chapter 5 Problems]]

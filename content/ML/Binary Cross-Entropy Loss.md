@@ -6,6 +6,7 @@ date: 2023-10-29
 aliases:
   - log loss
   - cross entropy
+  - binary cross-entropy loss
 ---
 This is a specific form of [[Log-Likelihood Criterion]].
 

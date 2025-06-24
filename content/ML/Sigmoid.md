@@ -13,13 +13,18 @@ The sigmoid function is defined as:
 $$
 \sigma(z) = \frac{1}{1+e^{-z}}
 $$
+Also written as
+$$
+\text{sig}[z]=\frac{1}{1+\exp[-z]}
+$$
 Its output for any value of $z$ is in $(0,1)$, such that:
 - $\sigma(0) = 0.5$
 - $0 < \sigma(z) < 0.5$ for negative values of $z$
 - $0.5 < \sigma(z) < 1$ for positive values of $z$
 
-Its output can be interpreted as a probability or confidence, so it's commonly used for binary classification.
+Its output can be interpreted as a probability or confidence, so it's commonly used for [[Binary Classification|binary classification]].
 
 This can be plotted as:
 ![[Pasted image 20231029131826.png|480]]
 
+![[Sigmoid-20250624102119091.png]]

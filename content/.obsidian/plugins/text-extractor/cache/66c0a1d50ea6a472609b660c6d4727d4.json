@@ -1,0 +1,1 @@
+{"path":"ML/attachments/Sigmoid-20250624102119091.png","text":"Figure 5.7 Logistic sigmoid function. 10 This function maps the real line z € R to numbers between zero and one, so sig[z] € [0,1]. Aninput of 0 is mapped to 0.5. Negative inputs are mapped to E numbers below 0.5, and positive inputs .90 to numbers above 0.5. i 0.0 -5.0 0.0 5.0 z","libVersion":"0.3.2","langs":"eng"}
