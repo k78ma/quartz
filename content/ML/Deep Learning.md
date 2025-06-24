@@ -35,6 +35,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Log-Likelihood Criterion]]
 - [[Loss Function Recipe]]
     - [[Univariate Regression as MLE]]
+        - [[Heteroscedastic Regression]]
     - [[Binary Classification]]
     - [[Multi-class Classification]]
 

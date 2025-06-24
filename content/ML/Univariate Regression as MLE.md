@@ -33,7 +33,7 @@ We can perform some algebraic manipulation on the loss function above.
 $$
 \begin{align}
 \hat{\phi} & =\underset{\phi}{\operatorname{argmin}}\left[-\sum_{i=1}^{I} \log \left[ \frac{1}{\sqrt{ 2\pi \sigma^{2} }}\exp\left[ -\frac{(y_{i}-f[\mathbf{x}_{i}, \phi])^{2}}{2\sigma^{2}} \right] \right]\right] \\[2ex] 
- & = \underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \left( \log \left[ \frac{1}{2\pi \sigma^{2}} - \frac{(y_{i}-f[\mathbf{x}_{i}, \phi]^{2})}{2\sigma^{2}} \right] \right) \right] \\[2ex] 
+ & = \underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \left( \log \left[ \frac{1}{\sqrt{ 2\pi \sigma^{2} }} - \frac{(y_{i}-f[\mathbf{x}_{i}, \phi]^{2})}{2\sigma^{2}} \right] \right) \right] \\[2ex] 
  & =\underset{\phi}{\operatorname{argmin}} \left[ - \sum_{i=1}^{I} -\frac{(y_{i}-f[\mathbf{x}_{i}, \phi]^{2})}{2\sigma^{2}} \right] \\[2ex] 
  &= \underset{\phi}{\operatorname{argmin}} \left[ \sum_{i=1}^{I}(y_{i}-f[\mathbf{x}_{i}, \phi])^{2} \right]
 \end{align}
@@ -64,4 +64,4 @@ To formulate the least squares loss function, we assumed that the network predic
 $$
 \hat{\phi}, \sigma^{2}= \underset{\phi, \sigma^{2}}{\operatorname{argmin}} \left[  - \sum_{i=1}^{I} \log\left[  \frac{1}{\sqrt{ 2\pi \sigma^{2} }} \exp\left[ - \frac{(y_{i}-f[\mathbf{x}_{i}, \phi])^{2}}{2\sigma^{2}} \right] \right] \right]
 $$
-In inference, the model predicts the mean $\mu=f[\mathbf{x}, \hat{\phi}]$ from the input, and we learned the variance $\hat{\sigma}^{2}$ during the training process. Then, $\mu$ is the best prediction and $\hat{\sigma}^{2}$ tells us about the uncertainty of th
+In inference, the model predicts the mean $\mu=f[\mathbf{x}, \hat{\phi}]$ from the input, and we learned the variance $\hat{\sigma}^{2}$ during the training process. Then, $\mu$ is the best prediction and $\hat{\sigma}^{2}$ tells us about the uncertainty of the prediction.
