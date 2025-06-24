@@ -24,3 +24,5 @@ $$
 \hat{\phi}=\underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \left( \log\left[  \frac{1}{\sqrt{ 2\pi f_{2}[\mathbf{x}_{i}, \phi]^{2} }} \right] - \frac{(y_{i}-f_{1}[\mathbf{x}_{i}, \phi]^{2})}{2f_{2}[\mathbf{x}_{i}, \phi]^{2}} \right) \right]
 $$
 when using the same [[Maximum Likelihood Criterion|maximum likelihood criterion]] approach that we used for [[Univariate Regression as MLE|univariate regression]].
+
+![[Heteroscedastic Regression-20250623224255852.png]]
