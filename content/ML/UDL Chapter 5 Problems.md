@@ -53,7 +53,7 @@ When $y=0$, we just have $L=-1 \log\Big[1-\text{sig}[f[x,\phi]]\Big]$. With $y=1
 
 We set $\mu=f[\mathbf{x}_{i}, \phi]$, so
 $$
-Pr(y|\mu, \kappa) = \frac{\exp[\kappa \cos[y-f[\mathbf{x}_{i}, \phi]]]}{2\pi \cdot \text{Bessel}_{0}[\kappa]}
+Pr(y_{i} | f[x_{i}, \phi]) = \frac{\exp[\kappa \cos[y-f[\mathbf{x}_{i}, \phi]]]}{2\pi \cdot \text{Bessel}_{0}[\kappa]}
 $$
 Then the [[Log-Likelihood Criterion|negative log-likelihood]] loss function is
 $$
@@ -107,7 +107,26 @@ Like the mixture of Gaussians above, we would need five outputs, unless we consi
 
 
 > [!question] Problem 5.6
-> Consider building a model to predict the number of pedestrians $y \in \{ 0,1,2,\dots \}$ that will pass a given point in the city in the next minute, based on data $\mathbf{x}$ that contains information about the time of the day, the longitude and latitude, and the type of neighborhood. A suitable distribution for modeling counts is the Poisson distribution. This has a single parameter $\lambda>0$ called the *rate* that represents the mean of the distri
+> Consider building a model to predict the number of pedestrians $y \in \{ 0,1,2,\dots \}$ that will pass a given point in the city in the next minute, based on data $\mathbf{x}$ that contains information about the time of the day, the longitude and latitude, and the type of neighborhood. A suitable distribution for modeling counts is the Poisson distribution. This has a single parameter $\lambda>0$ called the *rate* that represents the mean of the distribution. The distribution has probability distribution function:
+> $$
+> Pr(y=k) = \frac{\lambda^{k}e^{-\lambda}}{k!}
+> $$
+> 
+> ![[UDL Chapter 5 Problems-20250627010758682.png]]
+> 
+> Design a loss function for this model assuming we have access to $I$ training pairs $\{ \mathbf{x_{i}}, y_{i} \}$.
+
+We make the rate $\lambda$ the learned parameter such that $\lambda=f[\mathbf{x}_{i}, \phi]$. Then, we have
+$$
+\begin{align}
+Pr(y_{i} | f[x_{i}, \phi]) = \frac{f[\mathbf{x_{i}}, \phi]^{k}e^{-f[\mathbf{x}_{i}, \phi]}}{k!}
+\end{align}
+$$
+The loss function based on [[Log-Likelihood Criterion|negative log-likelihood]] is then
+$$
+
+$$
+
 
 
 > [!question] Problem 5.7
