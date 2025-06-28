@@ -38,7 +38,7 @@ Some of these notes are also included in [[Machine Learning]].
         - [[Heteroscedastic Regression]]
     - [[Binary Classification]]
     - [[Multi-class Classification]]
-
+- [[Cross-Entropy Loss]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 

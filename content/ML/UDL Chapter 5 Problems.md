@@ -133,12 +133,58 @@ $$
 We can drop the last term above since it doesn't depend on $\phi$. Also, we often would want to add a function like $\lambda = \exp(f[\mathbf{x}_{i},\phi])$ or $\lambda=| f[\mathbf{x}_{i}, \phi] |$ to enforce the condition that $\lambda>0$, similarly to how we used sigmoid/softmax to enforce $0<\mu<1$ before. $\exp$ is likely a better choice because it is differentiable.
 
 > [!question] Problem 5.7
-> 
+> Consider a multivariate regression problem where we predict ten outputs, so $\mathbf{y} \in  \mathbb{R}^{10}$, and model each with an independent normal distribution where the means $\mu_{d}$ are predicted by the network, and variances $\sigma^{2}$ are constant. Write an expression for the likelihood $Pr(\mathbf{y} \, | \, \mathbf{f}[\mathbf{x}, \phi])$. Show that minimizing the [[Log-Likelihood Criterion|negative log-likelihood]] of this model is still equivalent to minimizing a sum of square terms if we don't estimate the variance $\sigma^{2}$.
+
+Each probability likelihood is given by
+$$
+Pr(y_{id} \, | \,f[\mathbf{x}_{i}, \phi]) = \frac{1}{\sqrt{ 2\pi \sigma^{2} }}\exp \left[ -\frac{(y_{id}- \mu_{d})^{2}}{2\sigma^{2}} \right]
+$$
+We try to learn parameters to predict each mean, such that $\mu_{d} = \mathbf{f}_{d}[\mathbf{x_{i}}, \phi]$.
+
+Then, the overall joint likelihood is given by
+$$
+Pr(\mathbf y_i \mid \mathbf f[\mathbf x_i,\phi]) \;=\; \prod_{d=1}^{10} \frac{1}{\sqrt{2\pi\sigma^{2}}}\, \exp\!\Bigl[-\tfrac{(y_{id}-f_{d}[\mathbf x_i,\phi])^{2}}{2\sigma^{2}}\Bigr].
+$$
+Then:
+$$
+\begin{align}
+L[\phi] & = - \sum_{i=1}^{I} \log[Pr(\mathbf{y}_{i} \, | \,\mathbf{f}[\mathbf{x}_{i}, \mathbf{\phi}])]  \\[2ex]
+ & = - \sum_{i=1}^{I} \sum_{d=1}^{10} \log \Big[ Pr(y_{id} \, | \, \mathbf{f}_{d}[\mathbf{x}_{i}, \mathbf{\phi}]) \Big] \\[2ex]
+     & = - \sum_{i=1}^{I} \sum_{d=1}^{10} \log \frac{1}{\sqrt{ 2\pi \sigma^{2} }}\exp \left[ -\frac{(y_{id}- \mathbf{f}_{d}[\mathbf{x_{i}}, \phi])^{2}}{2\sigma^{2}} \right] \\[2ex]
+\end{align}
+$$
+Then, following the derivation we did for [[Univariate Regression|least squares]], we just have
+$$
+\begin{align}
+\hat{\phi} =  \underset{\phi}{\operatorname{argmin}} \left[ \sum_{i=1}^{I} \sum_{d=1}^{10} (y_{id}-\mathbf{f}_{d}[\mathbf{x}_{i}, \phi])^{2} \right]
+\end{align}
+$$
+- The terms with no relation to $\phi$ were discarded since they have no effect on the location of $\hat{\phi}$
 
 
 > [!question] Problem 5.8
-> 
+> Construct a loss function for making multivariate predictions $\mathbf{y} \in \mathbb{R}^{D_{o}}$ based on independent normal distributions with different variances $\sigma_{d}^{2}$ for each dimension. Assume a [[Heteroscedastic Regression|heteroscedastic]] model so that both the means $\mu_{d}$ and the variances $\sigma_{d}^{2}$ vary as a function of the data.
 
+Let:
+- $\mu_{d} = \mathbf{f}_{1d}[\mathbf{x}_{i}, \phi]$ 
+- $\sigma_{d}^{2} = \mathbf{f}_{2d}[\mathbf{x}_{i}, \phi]$
+
+Then the loss function is:
+$$
+L = -\sum_{i=1}^{I} \log \left[  \prod_{d=1}^{D_{o}} \frac{1}{\sqrt{ 2\pi \mathbf{f}_{2d}[\mathbf{x}_{i}, \phi]^{2} }} \exp\left[ -\frac{(y_{id}-\mathbf{f}_{1d}[\mathbf{x}_{i}, \phi])}{2 \mathbf{f}_{2d}[\mathbf{x}_{i}, \phi]^{2}} \right]  \right]
+$$
+We can do negative log-likelihood on the inside term too:
+$$
+\begin{aligned} 
+L &= -\sum_{i=1}^{I}\sum_{d=1}^{D_{o}} \log\left[ \frac{1}{\sqrt{2\pi\,\mathbf f_{2d}[\mathbf x_{i},\phi]^{\,2}}}\; \exp\left[-\frac{(y_{id}-\mathbf f_{1d}[\mathbf x_{i},\phi])^{2}} {2\,\mathbf f_{2d}[\mathbf x_{i},\phi]^{\,2}}\right]\right]
+\end{aligned}
+$$
+Taking the log of the product inside:
+$$
+\begin{aligned} 
+L &=\sum_{i=1}^{I}\sum_{d=1}^{D_{o}} \Biggl\{ \frac12\log\!\bigl(2\pi\,\mathbf f_{2d}[\mathbf x_{i},\phi]^{\,2}\bigr) +\frac{(y_{id}-\mathbf f_{1d}[\mathbf x_{i},\phi])^{2}} {2\,\mathbf f_{2d}[\mathbf x_{i},\phi]^{\,2}} \Biggr\}
+\end{aligned}
+$$
 
 > [!question] Problem 5.9
 > 
