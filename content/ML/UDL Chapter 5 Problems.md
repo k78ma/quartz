@@ -78,15 +78,16 @@ To perform inference we just take the maximum of the distribution (which is just
 > Use the [[Loss Function Recipe|loss function recipe]] to construct a loss function for training a model $\mathbf{f}[x, \phi]$ that takes input $x$, has parameters $\phi$, and predicts a mixture of two Gaussians. The loss should be based on $I$ training data pairs $\{ x_{i}, y_{i} \}$. What problems do you foresee when performing inference?
 
 Let:
-- $\lambda=\mathbf{f}_{1}[\mathbf{x}_{i}, \phi]$
+- $\lambda= \text{sig} [\mathbf{f}_{1}[\mathbf{x}_{i}, \phi]]$
+    - Use sigmoid to enforce $\lambda \in [0,1]$.
 - $\mu_{1}=\mathbf{f}_{2}[\mathbf{x}_{i}, \phi]$
-- $\sigma_{1}^{2}=\mathbf{f}_{3}[\mathbf{x}_{i}, \phi]$
+- $\sigma_{1}=\mathbf{f}_{3}[\mathbf{x}_{i}, \phi]$
 - $\mu_{2}=\mathbf{f}_{4}[\mathbf{x}_{i}, \phi]$
-- $\sigma_{2}^{2}=\mathbf{f}_{5}[\mathbf{x}_{i}, \phi]$
+- $\sigma_{2}=\mathbf{f}_{5}[\mathbf{x}_{i}, \phi]$
 
 Then the loss is
 $$
-L= - \sum_{i=1}^{I} \log\left[  \frac{\text{sig}[\mathbf{f_{1}}[\mathbf{x}_{i}, \phi]]}{\sqrt{ 2\pi \mathbf{f_{3}}[\mathbf{x}_{i}, \phi] }} \exp\left[  \frac{-(y-\mathbf{f_{2}}[\mathbf{x}_{i}, \phi])^{2}}{2\mathbf{f_{3}}[\mathbf{x}_{i}, \phi]}  \right] + \frac{1-\text{sig}[\mathbf{f_{1}}[\mathbf{x}_{i}, \phi]]}{\sqrt{ 2\pi \mathbf{f_{5}}[\mathbf{x}_{i}, \phi] }} \exp\left[ \frac{-(y-\mathbf{f_{4}}[\mathbf{x}_{i}, \phi])^{2}}{2\mathbf{f_{5}}[\mathbf{x}_{i}, \phi]} \right] \right] 
+L= - \sum_{i=1}^{I} \log\left[  \frac{\text{sig}[\mathbf{f_{1}}[\mathbf{x}_{i}, \phi]]}{\sqrt{ 2\pi \mathbf{f_{3}}[\mathbf{x}_{i}, \phi]^{2}}} \exp\left[  \frac{-(y-\mathbf{f_{2}}[\mathbf{x}_{i}, \phi])^{2}}{2\mathbf{f_{3}}[\mathbf{x}_{i}, \phi]^{2}}  \right] + \frac{1-\text{sig}[\mathbf{f_{1}}[\mathbf{x}_{i}, \phi]]}{\sqrt{ 2\pi \mathbf{f_{5}}[\mathbf{x}_{i}, \phi]^{2} }} \exp\left[ \frac{-(y-\mathbf{f_{4}}[\mathbf{x}_{i}, \phi])^{2}}{2\mathbf{f_{5}}[\mathbf{x}_{i}, \phi]^{2}} \right] \right] 
 $$
 Inference is a bit trickier in this case since there is no simple closed form for the mode of this distribution. 
 - [MACP: How many modes can a Gaussian mixture have?](https://www.cs.toronto.edu/~miguel/research/GMmodes.html)
@@ -119,15 +120,17 @@ Like the mixture of Gaussians above, we would need five outputs, unless we consi
 We make the rate $\lambda$ the learned parameter such that $\lambda=f[\mathbf{x}_{i}, \phi]$. Then, we have
 $$
 \begin{align}
-Pr(y_{i} | f[x_{i}, \phi]) = \frac{f[\mathbf{x_{i}}, \phi]^{k}e^{-f[\mathbf{x}_{i}, \phi]}}{k!}
+Pr(y_{i} = k | f[x_{i}, \phi]) = \frac{f[\mathbf{x_{i}}, \phi]^{k}e^{-f[\mathbf{x}_{i}, \phi]}}{k!}
 \end{align}
 $$
 The loss function based on [[Log-Likelihood Criterion|negative log-likelihood]] is then
 $$
-
+\begin{align}
+L  & = - \sum_{i=1}^{I} \log \left[\frac{f[\mathbf{x_{i}}, \phi]^{k}e^{-f[\mathbf{x}_{i}, \phi]}}{y_{i}!}\right] \\[2ex]
+     & = - \sum_{i=1}^{I} k\log[f[\mathbf{x}_{i}, \phi]] -f[\mathbf{x}_{i}, \phi] - \log[y_{i}!]
+\end{align}
 $$
-
-
+We can drop the last term above since it doesn't depend on $\phi$. Also, we often would want to add a function like $\lambda = \exp(f[\mathbf{x}_{i},\phi])$ or $\lambda=| f[\mathbf{x}_{i}, \phi] |$ to enforce the condition that $\lambda>0$, similarly to how we used sigmoid/softmax to enforce $0<\mu<1$ before. $\exp$ is likely a better choice because it is differentiable.
 
 > [!question] Problem 5.7
 > 
