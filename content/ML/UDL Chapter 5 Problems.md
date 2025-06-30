@@ -187,10 +187,49 @@ L &=\sum_{i=1}^{I}\sum_{d=1}^{D_{o}} \Biggl\{ \frac12\log\!\bigl(2\pi\,\mathbf f
 $$
 
 > [!question] Problem 5.9
-> 
+> Consider a multivariate regression problem in which we predict the height of a person in meters and their weight in kilos from data $\mathbf{x}$. Here, the units take quite different ranges. What problems do you see this causing? Propose two solutions to these problems. 
 
+The values for weight in kilos (50-100 range) are going to be much higher than for height in meters (1-2m) range. Using least squares, the loss will focus much more on weight than height. 
+
+Possible solutions:
+- Rescale/normalize outputs so they have the same standard deviation, build the model the predict the normalized outputs, and scale them back after inference
+- Learn a separate variance for the two dimensions so that the model can automatically take care of this. This can be done in either a homoscedastic or heteroscedastic way.
 
 > [!question] Problem 5.10
-> 
+> Extend the model from problem 5.3 to predict both the wind direction and the wind speed and define the associated loss function. 
 
+Direction uses von Mises distribution in 5.3:
+$$
+Pr(y|\mu, \kappa) = \frac{\exp[\kappa \cos[y-\mu]]}{2\pi \cdot \text{Bessel}_{0}[\kappa]}
+$$
+which results in a negative log-likelihood loss function of
+$$
+L_{\text{direction}}=-\sum_{i=1}^{I}\cos[y - f_{1}[\mathbf{x}_{i}, \phi]]
+$$
+For windspeed, we can use a Weibull distribution:
+$$
+Pr(v\, | \,k, \lambda)=\frac{k}{\lambda}\bigl(\tfrac{v}{\lambda}\bigr)^{k-1}\exp\!\bigl[-(v/\lambda)^{k}\bigr]
+$$
+where $k$ is a shape parameter and $\lambda$ is a scale parameter.
+
+Using negative log likelihood on the Weibull distribution gives us
+$$
+\begin{aligned} 
+L_{\text{speed}} &= -\sum_{i=1}^I \log \left[ \frac{k}{\lambda_i} \left( \frac{v_i}{\lambda_i} \right)^{k-1} \exp\left( -\left( \frac{v_i}{\lambda_i} \right)^k \right) \right] \\[2ex]
+&= -\sum_{i=1}^I \left[ \log k - \log \lambda_i + (k-1) \log \left( \frac{v_i}{\lambda_i} \right) - \left( \frac{v_i}{\lambda_i} \right)^k \right] \\[2ex]
+&= -\sum_{i=1}^I \left[ \log k - \log \lambda_i + (k-1)(\log v_i - \log \lambda_i) - \left( \frac{v_i}{\lambda_i} \right)^k \right] \\[2ex] 
+&= -\sum_{i=1}^I \left[ \log k + (k-1)\log v_i - k \log \lambda_i - \left( \frac{v_i}{\lambda_i} \right)^k \right]. \end{aligned}
+$$
+We can learn both $\lambda$ and $k$, or fix $k$ and just learn $\lambda$. Let's say we learn both and have $\lambda=f_{2}[\mathbf{x}_{i}, \phi]$ and $k=f_{3}[\mathbf{x}_{i}, \phi]$. Then the complete loss function is:
+$$
+\begin{aligned}
+L_{\text{total}} = \sum_{i=1}^I \bigg[
+& -\cos\big(y_i - f_1[\mathbf{x}_i, \phi]\big) 
+- \log f_3[\mathbf{x}_i, \phi]
+- (f_3[\mathbf{x}_i, \phi] - 1) \log v_i \  
+- f_3[\mathbf{x}_i, \phi] \log f_2[\mathbf{x}_i, \phi]
+- \left( \frac{v_i}{f_2[\mathbf{x}_i, \phi]} \right)^{f_3[\mathbf{x}_i, \phi]}
+\bigg]
+\end{aligned}
+$$
 
