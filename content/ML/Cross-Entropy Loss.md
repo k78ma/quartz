@@ -18,7 +18,9 @@ Now consider that we observe an empirical distribution at points $\{ y_{i} \}^{I
 $$
 q(y)=\frac{1}{I} \sum_{i=1}^{I} \delta [y-y_{i}]
 $$
-where $\delta[\bullet]$ is the Dirac delta function. We want to minimize the KL divergence between the model distribution $Pr(y|\theta)$ and this empirical distribution:
+where $\delta[\bullet]$ is the Dirac delta function. 
+
+We want to minimize the KL divergence between the model distribution $Pr(y|\theta)$ and this empirical distribution:
 $$
 \begin{align}
 \hat{\theta}  & = \underset{\theta}{\operatorname{argmin}}\left[  \int_{-\infty}^{\infty} q(y) \log[q(y)] \, dy  - \int_{-\infty}^{\infty} q(y) \log[Pr(y|\theta)] \, dy   \right] \\[2ex] 
