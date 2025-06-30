@@ -39,6 +39,9 @@ Some of these notes are also included in [[Machine Learning]].
     - [[Binary Classification]]
     - [[Multi-class Classification]]
 - [[Cross-Entropy Loss]]
+
+## Model Fitting/Training
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
