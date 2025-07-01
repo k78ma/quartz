@@ -25,6 +25,8 @@ aliases:
 >The above definitions are for functions of 3 variables, but of course this extends to any number of variables
 ^gradvec
 
+**The gradient always points in the direction of maximum increase.**
+
 Some nice facts about the gradient vector:
 >[!theorem] Theorem: Maximum Rate of Change
 >The maximum value of $D_{\vec{u}}f(\vec{x})$ (and hence the maximum rate of change of the function $f(\vec{x})$) is given by $\mid \mid \nabla f(\vec{x}) \mid \mid$ and will occur in the direction given by $\nabla f(\vec{x})$.
@@ -73,5 +75,3 @@ Another one:
 >$$
 >
 >This tells us that the gradient vector at $P$, $\nabla f(x_{0},y_{0},z_{0})$, is orthogonal to the tangent vector, $\vec{r}'(t_{0})$, to any curve $C$ that passes through $P$ and on the surface $S$ and so must also be orthogonal to the surface $S$.
-
-
