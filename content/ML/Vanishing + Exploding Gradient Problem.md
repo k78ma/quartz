@@ -4,6 +4,8 @@ tags:
   - ml
 date: 2024-01-28
 aliases:
+  - vanishing gradient
+  - exploding gradient
 ---
 This is a common problem – side effect of [[Backpropagation]].
 

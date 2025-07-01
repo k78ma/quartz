@@ -41,6 +41,10 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Cross-Entropy Loss]]
 
 ## Model Fitting/Training
+- [[Model Optimization]]
+- [[Gradient Descent]]
+    - [[Gradient Descent for Linear Regression]]
+
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
@@ -55,3 +59,4 @@ Some of these notes are also included in [[Machine Learning]].
 - [[UDL Chapter 3 Problems]]
 - [[UDL Chapter 4 Problems]]
 - [[UDL Chapter 5 Problems]]
+- [[UDL Chapter 6 Problems]]
