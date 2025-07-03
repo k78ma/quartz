@@ -8,3 +8,5 @@ aliases:
 ---
 - [[Groups]]
 - [[Linear Algebra]]
+
+- [[Convexity]]

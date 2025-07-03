@@ -44,6 +44,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Model Optimization]]
 - [[Gradient Descent]]
     - [[Gradient Descent for Linear Regression]]
+    - [[Gradient Descent for Non-convex Gabor Model]]
 
 
 ## Learning Theory
