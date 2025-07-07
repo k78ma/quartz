@@ -156,7 +156,104 @@ $$
 > - (iv) Generate ten data points from a normal distribution with mean $-1$ and standard deviation $1$ and assign them to label $y=0$. Generate another ten data points from a normal distribution with mean $1$ and standard deviation $1$ and assign these the label $y=1$. Plot the loss as a heatmap in terms of the two parameters $\phi_{0}$ and $\phi_{1}$.
 >   (v) Is this loss function convex? How could you prove this?
 
+**(i)** $\phi_{0}$ controls the location of the centerpoint of the sigmoid function ($y=0.5$), $\phi_{1}$ controls the slope of the transition.
 
+**(ii)** Binary cross-entropy loss:
+$$
+L[\phi]= \sum_{i=1}^{I} -(1-y_{i}) \log \Big[1-\text{sig}[\phi_{0}+\phi_{1}x]\Big]-y_{i} \log[\text{sig}[\phi_{0}+\phi_{1}x]]
+$$
+
+**(iii)** Derivatives of the sigmoid function are:
+$$
+\frac{ \partial \text{sig}[z] }{ \partial z } = \frac{\exp[-z]}{(1+\exp[-z])^{2}}
+$$
+It follows that the derivatives of the loss function are
+$$
+\begin{align}
+\frac{ \partial L }{ \partial \phi_{0} }  & = \frac{ \partial L  }{ \partial (\text{sig}[\phi_{0}+\phi_{1}x_{i}]) } \frac{ \partial (\text{sig}[\phi_{0}+\phi_{1}x_{i}]) }{ \partial \phi_{0}+\phi_{1}x_{i} }  \frac{ \partial (\phi_{0} + \phi_{1}x_{i}) }{ \partial \phi_{0} }   \\[2ex] 
+     & =
+\sum_{i=1}^{I}\left( \frac{1-y_{i}}{1-\text{sig}[\phi_{0}+\phi_{1}x_{i}]} - \frac{y_{i}}{\text{sig}[\phi_{0}+\phi_{1}x]} \right) \frac{\exp[-\phi_{0}-\phi_{1}x_{i}]}{(1+\exp[-\phi_{0}-\phi_{1}x_{i}])^{2}}
+\end{align}
+$$
+and
+$$
+\begin{align}
+\frac{ \partial L }{ \partial \phi_{0} }  & = \frac{ \partial L  }{ \partial (\text{sig}[\phi_{0}+\phi_{1}x_{i}]) } \frac{ \partial (\text{sig}[\phi_{0}+\phi_{1}x_{i}]) }{ \partial \phi_{0}+\phi_{1}x_{i} }  \frac{ \partial (\phi_{0} + \phi_{1}x_{i}) }{ \partial \phi_{1} }  \\[2ex] 
+     & =
+\sum_{i=1}^{I}\left( \frac{1-y_{i}}{1-\text{sig}[\phi_{0}+\phi_{1}x_{i}]} - \frac{y_{i}}{\text{sig}[\phi_{0}+\phi_{1}x]} \right) \frac{  \exp[-\phi_{0}-\phi_{1}x_{i}]}{(1+\exp[-\phi_{0}-\phi_{1}x_{i}])^{2}} \cdot  x_{i}
+\end{align}
+$$
+
+**(iv)**
+```python
+import numpy as np
+import matplotlib.pyplot as plt
+
+np.random.seed(42)
+
+# Generate data
+x0 = np.random.normal(-1.0, 1.0, 10)
+y0 = np.zeros(10)
+
+x1 = np.random.normal(1.0, 1.0, 10)
+y1 = np.ones(10)
+
+x = np.concatenate([x0, x1])
+y = np.concatenate([y0, y1])
+
+# Sigmoid and loss
+def sigmoid(z):
+    return 1 / (1 + np.exp(-z))
+
+def loss(phi0, phi1):
+    z = phi0 + phi1 * x
+    p = sigmoid(z)
+    eps = 1e-12
+    p = np.clip(p, eps, 1 - eps) # Keep p from exact 0 or 1 to prevent overflow
+    return -np.sum((1 - y) * np.log(1 - p) + y * np.log(p))
+
+# Grid
+phi0_vals = np.linspace(-4, 4, 200)
+phi1_vals = np.linspace(-4, 4, 200)
+loss_grid = np.zeros((len(phi1_vals), len(phi0_vals)))
+
+for i, phi1 in enumerate(phi1_vals):
+    for j, phi0 in enumerate(phi0_vals):
+        loss_grid[i, j] = loss(phi0, phi1)
+
+# Plot
+plt.figure(figsize=(7, 6))
+plt.imshow(
+    loss_grid,
+    extent=[phi0_vals.min(), phi0_vals.max(), phi1_vals.min(), phi1_vals.max()],
+    origin="lower",
+    aspect="auto",
+)
+
+# Add level curves (contours)
+min_loss = np.min(loss_grid)
+max_loss = np.max(loss_grid)
+contour_levels = np.linspace(min_loss, max_loss, 15)
+plt.contour(
+    phi0_vals, 
+    phi1_vals, 
+    loss_grid, 
+    levels=contour_levels,
+    colors='white',
+    alpha=0.7,
+    linewidths=0.5
+)
+
+plt.colorbar(label="Loss")
+plt.xlabel(r"$\phi_0$")
+plt.ylabel(r"$\phi_1$")
+plt.title("Binary Cross‑Entropy Loss Surface")
+plt.show()
+```
+
+![[UDL Chapter 6 Problems-20250706214030358.png|620]]
+
+**(v)** The loss function seems to be convex based on the plot above. We can prove it by examining the Hessian matrix like we did in question 6.2
 
 
 > [!question] Problem 6.5
