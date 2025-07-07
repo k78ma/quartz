@@ -251,9 +251,9 @@ plt.title("Binary Cross‑Entropy Loss Surface")
 plt.show()
 ```
 
-![[UDL Chapter 6 Problems-20250706214030358.png|619]]
+![[UDL Chapter 6 Problems-20250706214030358.png|421]]
 
-**(v)** The loss function seems to be convex based on the plot above. We can prove it by examining the Hessian matrix like we did in question 6.2
+**(v)** The loss function seems to be convex based on the plot above. We can prove it by examining the Hessian matrix like we did in question 6.2.
 
 
 > [!question] Problem 6.5
