@@ -45,7 +45,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Gradient Descent]]
     - [[Gradient Descent for Linear Regression]]
     - [[Gradient Descent for Non-convex Gabor Model]]
-
+- [[Stochastic Gradient Descent]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

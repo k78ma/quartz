@@ -24,8 +24,11 @@ The goal is to find the parameters $\hat{\phi}$ that minimize this loss.
 
 ![[Gradient Descent for Non-convex Gabor Model-20250702213939206.png|552]]
 
-
-
+## Local Minima & Saddle Points
+The figure below shows the loss function associated with the Gabor model for this dataset. There are numerous **local minima** (cyan circles); the gradient is zero, and the loss increases if we move in any direction, but we are not at the **global minimum** (gray circle).
 
 ![[Gradient Descent for Non-convex Gabor Model-20250702214041744.png]]
 
+If we start in a random position and use gradient descent to go downhill, there's no guarantee that we'll wind up at the global minimum and find the best parameters. It's equally or even more likely that the algorithm will terminate in one of the local minima. There's also no way of knowing whether there's a better solution elsewhere.
+
+The loss function also contains **saddle points** (blue cross). Here, the gradient is zero, but the function increases in some directions and decreases in other. If the current parameters are not exactly at the saddle point, then gradient descent can escape by moving downhill. However, the surface near the saddle point is flat, so it's hard to be sure that training hasn't converged; if we terminate the algorithm when the gradient is small, we may erroneously stop near a saddle point.

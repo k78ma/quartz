@@ -251,7 +251,7 @@ plt.title("Binary Cross‑Entropy Loss Surface")
 plt.show()
 ```
 
-![[UDL Chapter 6 Problems-20250706214030358.png|620]]
+![[UDL Chapter 6 Problems-20250706214030358.png|619]]
 
 **(v)** The loss function seems to be convex based on the plot above. We can prove it by examining the Hessian matrix like we did in question 6.2
 
@@ -298,15 +298,19 @@ $$
 $$
 
 > [!question] Problem 6.6
-> 
+> Which of the functions in figure 6.11 is convex? Justify your answer. Character each of the points 1-7 as (i) a local minimum, (ii) a global minimum, or (iii) neither.
+
+
 
 
 > [!question] Problem 6.7
-> 
+> The gradient descent trajectory for path 1 in figure 6.5a oscillates back and forth inefficiently as it moves down the valley toward the minimum. It’s also notable that it turns at right angles to the previous direction at each step. Provide a qualitative explanation for these phenomena. Propose a solution that might help prevent this behavior.
+
+
 
 
 > [!question] Problem 6.8
-> 
+> Can (non-stochastic) gradient descent with a fixed learning rate escape local minima? 
 
 
 > [!question] Problem 6.9
