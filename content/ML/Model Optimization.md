@@ -1,8 +1,10 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Model Optimization
+tags:
+  - ml
+date: 2025-07-06
+aliases:
+  - model optimization
 ---
 Given an [[Machine Learning as Optimization|objective function]] or [[Loss Function|loss function]], how do we optimize it?
 

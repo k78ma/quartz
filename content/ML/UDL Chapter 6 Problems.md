@@ -251,7 +251,7 @@ plt.title("Binary Cross‑Entropy Loss Surface")
 plt.show()
 ```
 
-![[UDL Chapter 6 Problems-20250706214030358.png|421]]
+![[UDL Chapter 6 Problems-20250706214030358.png|447]]
 
 **(v)** The loss function seems to be convex based on the plot above. We can prove it by examining the Hessian matrix like we did in question 6.2.
 
@@ -299,6 +299,8 @@ $$
 
 > [!question] Problem 6.6
 > Which of the functions in figure 6.11 is convex? Justify your answer. Character each of the points 1-7 as (i) a local minimum, (ii) a global minimum, or (iii) neither.
+> 
+> ![[UDL Chapter 6 Problems-20250706220643125.png]]
 
 
 
