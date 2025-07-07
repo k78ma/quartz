@@ -263,7 +263,39 @@ plt.show()
 > $$
 > Think carefully about what the derivative of the ReLU function $a[\bullet]$ will be.
 
+The derivative of the least squares loss function $f[x,\phi]$ is given by:
+$$
+\frac{ \partial L }{ \partial \phi_{j} } = -2 \sum_{i} (y-f[x_{i},\phi]) \frac{ \partial f[x_{i}, \phi] }{ \partial \phi_{j} } 
+$$
+The derivative of ReLU is:
+$$
+\begin{cases}
+0 & \text{if }z<0 \\
+1 & \text{if }z>0
+\end{cases}
+$$
+We can write this as $\mathbb{I}[z>0]$.
 
+Then, the derivatives are:
+$$
+\begin{align}
+\frac{ \partial f[x_{i}, \phi] }{ \partial \phi_{0} }  & = 1  \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \phi_{1} }   & = a[\theta_{10}+\theta_{11}x_{i}] \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \phi_{2} }   & = a[\theta_{20}+\theta_{21}x_{i}] \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \phi_{3} }  & =a[\theta_{30}+\theta_{31}x_{i}]
+\end{align}
+$$
+and:
+$$
+\begin{align}
+\frac{ \partial f[x_{i}, \phi] }{ \partial \theta_{10} }  & = \phi_{1} \cdot \mathbb{I}[\theta_{10}+\theta_{11}x_{i} > 0] \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \theta_{11} }  & = \phi_{1}\cdot x_{i} \cdot \mathbb{I}[\theta_{10}+\theta_{11}x_{i} > 0]   \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \theta_{20} }  & = \phi_{2} \cdot \mathbb{I}[\theta_{20}+\theta_{21}x_{i} > 0] \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \theta_{21} }  & = \phi_{2}\cdot x_{i} \cdot \mathbb{I}[\theta_{20}+\theta_{21}x_{i} > 0]   \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \theta_{30} }  & = \phi_{3} \cdot \mathbb{I}[\theta_{30}+\theta_{31}x_{i} > 0] \\[2ex]
+\frac{ \partial f[x_{i}, \phi] }{ \partial \theta_{31} }  & = \phi_{3}\cdot x_{i} \cdot \mathbb{I}[\theta_{30}+\theta_{31}x_{i} > 0]   \\[2ex]
+\end{align}
+$$
 
 > [!question] Problem 6.6
 > 
