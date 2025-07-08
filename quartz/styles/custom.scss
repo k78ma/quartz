@@ -1,6 +1,21 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+
+// Make LaTeX equations a bit smaller
+.katex {
+  font-size: 0.95em !important; // 5% smaller
+}
+
+.katex-display {
+  font-size: 0.95em !important;
+}
+
+// Ensure proper spacing and alignment with smaller equations
+.katex-display > .katex {
+  font-size: 1em !important; // Reset to normal size within display mode
+}
+
 mjx-container[display="true"] > svg {
     display: block;
     margin: auto;
