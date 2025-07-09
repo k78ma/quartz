@@ -302,27 +302,62 @@ $$
 > 
 > ![[UDL Chapter 6 Problems-20250706220643125.png]]
 
+B is the only convex function; all chords lie below above the function. A is non-convex (a chord from 1 → 2 or 2 → 3 would be below the curve), C is non-convex (a chord from 6 → 7 would intersect/be below the curve).
 
-
+Points:
+1. Local minimum
+2. Global minimum
+3. Local minimum
+4. Neither
+5. Global minimum
+6. Global minimum
+7. Neither (saddle point)
 
 
 > [!question] Problem 6.7
 > The gradient descent trajectory for path 1 in figure 6.5a oscillates back and forth inefficiently as it moves down the valley toward the minimum. It’s also notable that it turns at right angles to the previous direction at each step. Provide a qualitative explanation for these phenomena. Propose a solution that might help prevent this behavior.
 
+The trajectory must turn at right angles. If the current direction still had any component pointing downhill (i.e. decreasing the function), we should logically keep going in that direction. However, we’re in a "curved valley" and just overshot the center, so continuing in the same direction would now move you uphill on the other side, so the gradient reverses direction sharply.
 
+Solutions include Newton's method (use second derivative to understand curvature of the loss landscape) or [[Momentum (ML)|momentum]].
 
 
 > [!question] Problem 6.8
 > Can (non-stochastic) gradient descent with a fixed learning rate escape local minima? 
 
+No - in a local minima the gradient will be zero or near zero so the non-stochastic gradient descent will just be stuck there as it has no reason to move.
 
 > [!question] Problem 6.9
-> 
+> We run the stochastic gradient descent algorithm for 1000 iterations on a dataset of size 100 with a batch size of 20. For how many epochs did we train the model?
 
+Batch size of 20, total size 100 means that 1 epoch is 100/20 = 5 iterations.
+1000/5 = 200 epochs.
 
 > [!question] Problem 6.10
-> 
+> Show that the momentum term $\mathbf{m}_{t}$ (equation 6.11) is an infinite weighted sum of the gradients at the previous iterations and derive an expression for the coefficients (weights) of that sum. 
 
+Recall that the momentum update is given by
+$$
+\begin{align}
+\mathbf{m}_{t+1}    & =\beta\cdot \mathbf{m}_{t} + (1-\beta) \sum_{i \in  \mathcal{B}_{t}} \frac{ \partial \ell_{i} [ \phi_{t}] }{ \partial \phi } \\[2ex] 
+       & =  \beta\cdot \mathbf{m}_{t} + (1-\beta) \cdot  \mathbf{g}_{t}
+\end{align}
+$$
+We want to unroll this sequence.
+$$
+\begin{align}
+\mathbf{m}_{t+1}  & = \beta\cdot (\beta \cdot \mathbf{m}_{t-1} + (1-\beta) \mathbf{g}_{t-1}) + (1-\beta)\cdot \mathbf{g}_{t} \\[2ex] 
+     & = \beta^{2} \cdot  \mathbf{m}_{t-1} + \beta(1-\beta)\cdot \mathbf{g}_{t-1} +(1-\beta)\cdot \mathbf{g}_{t} \\[2ex] 
+     & = \beta^{3} \cdot  \mathbf{m}_{t-2} + \beta^{2}(1-\beta) \cdot \mathbf{g}_{t-2} + \beta(1-\beta)\cdot \mathbf{g}_{t-1} + (1-\beta)\mathbf{g}_{t} \\[2ex] 
+     & = \beta^{t+1} \mathbf{m}_{0} +\sum_{k=0}^{t} (1-\beta)\beta^{k} \cdot  \mathbf{g}_{t-k}
+\end{align}
+$$
+Thus, as $t\to \infty$, this sum approaches an infinite sum of the form:
+$$
+m_{t+1} = \sum_{k=0}^{\infty} w_{k}g_{t-k}
+$$
+where $w_{k} = (1-\beta)\beta^{k}$.
 
 > [!question] Problem 6.11
+> What dimensions will the Hessian have if the model has one million parameters? 
 > 

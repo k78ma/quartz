@@ -46,6 +46,8 @@ Some of these notes are also included in [[Machine Learning]].
     - [[Gradient Descent for Linear Regression]]
     - [[Gradient Descent for Non-convex Gabor Model]]
 - [[Stochastic Gradient Descent]]
+- [[Momentum (ML)]]
+    - [[Nesterov Accelerated Momentum]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
