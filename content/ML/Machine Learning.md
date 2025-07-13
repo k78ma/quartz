@@ -85,7 +85,7 @@ date: 2023-06-25
 	- [[Running Averages]]
 	- [[Momentum (ML)]]
 	- [[Adadelta|Adagrad/Adadelta]]
-	- [[Adam]]
+	- [[Adaptive moment estimation]]
 
 ### Convolutional Neural Networks
 - [[Convolutional Neural Networks]]

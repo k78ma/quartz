@@ -48,7 +48,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Stochastic Gradient Descent]]
 - [[Momentum (ML)]]
     - [[Nesterov Accelerated Momentum]]
-- [[Adam]]
+- [[Adaptive moment estimation|Adam]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

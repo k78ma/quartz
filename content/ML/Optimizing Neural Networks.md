@@ -9,4 +9,4 @@ aliases:
 	- [[Running Averages]]
 	- [[Momentum (ML)]]
 	- [[Adadelta|Adagrad/Adadelta]]
-	- [[Adam]]
+	- [[Adaptive moment estimation]]

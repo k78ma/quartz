@@ -15,4 +15,4 @@ Some methods for adaptive step-size:
 - [[Running Averages]]
 - [[Momentum (ML)]]
 - [[Adadelta]]
-- [[Adam]]
+- [[Adaptive moment estimation]]
