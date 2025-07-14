@@ -360,4 +360,8 @@ where $w_{k} = (1-\beta)\beta^{k}$.
 
 > [!question] Problem 6.11
 > What dimensions will the Hessian have if the model has one million parameters? 
-> 
+
+The Hessian will be $1 \text{ million } \times \text{1 million}$:
+$$
+H \in \mathbb{R}^{10^6 \times 10^6}
+$$
