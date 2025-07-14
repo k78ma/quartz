@@ -51,6 +51,9 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Adaptive moment estimation|Adam]]
 - [[Line Search]]
 
+## Gradients and Initialization
+
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
