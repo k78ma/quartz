@@ -10,7 +10,7 @@ aliases:
 ---
 In a convex function, every chord (line segment between two points on the surface) lies above the function and does not intersect it.
 
-A surface is guaranteed to be convex if the eigenvalues of the Hessian $\mathbf{H}[\phi]$ are positive everywhere. In this case, the surface has a unique minimum, and optimization is easy.
+A surface is guaranteed to be convex if the Hessian matrix $\mathbf{H}[\phi]$ is positive definite (has positive eigenvalues) for all possible parameter values. 
 
 For example, for a linear regression loss surface characterized by $\phi=[\phi_{0}, \phi_{1}]$, we have:
 $$
@@ -20,3 +20,8 @@ $$
 \end{bmatrix}
 $$
 (see [[UDL Chapter 6 Problems]]).
+
+For any loss function, the eigenvalues of the Hessian matrix at places where the gradient is zero allow us to classify this position as:
+- a minimum (the eigenvalues are all positive)
+- a maximum (the eigenvalues are all negative)
+- (iii) a saddle point (positive eigenvalues are associated with directions in which we are at a minimum and negative ones with directions where we are at a maximum). 

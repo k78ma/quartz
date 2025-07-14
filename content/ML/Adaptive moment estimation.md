@@ -6,6 +6,7 @@ date: 2024-01-24
 aliases:
   - adaptive moment estimation
   - Adam
+  - normalized gradients
 ---
 A big weakness of gradient descent with a fixed step size is that it makes large adjustments to parameters associated with large gradients (where perhaps we should be more cautious) and small adjustments to parameters associated with small gradients (where perhaps we should explore further). When the gradient of the loss surface is much steeper in one direction than another, it's difficult to choose a learning rate that makes good progress in both directions and is stable.
 

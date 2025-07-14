@@ -49,6 +49,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Momentum (ML)]]
     - [[Nesterov Accelerated Momentum]]
 - [[Adaptive moment estimation|Adam]]
+- [[Line Search]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
