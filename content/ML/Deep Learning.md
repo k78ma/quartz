@@ -50,9 +50,11 @@ Some of these notes are also included in [[Machine Learning]].
     - [[Nesterov Accelerated Momentum]]
 - [[Adaptive moment estimation|Adam]]
 - [[Line Search]]
-
+ 
 ## Gradients and Initialization
-
+- [[Backpropagation Intuition]]
+- [[Backpropagation Toy Example]]
+- [[Backpropagation]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
@@ -68,3 +70,4 @@ Some of these notes are also included in [[Machine Learning]].
 - [[UDL Chapter 4 Problems]]
 - [[UDL Chapter 5 Problems]]
 - [[UDL Chapter 6 Problems]]
+- [[UDL Chapter 7 Problems]]

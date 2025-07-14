@@ -1,0 +1,129 @@
+---
+title: UDL Chapter 7 Problems
+tags:
+  - dl
+date: 2025-07-14
+aliases:
+  - udl chapter 7 problems
+---
+> [!question] Problem 7.1
+> A two-layer network with two hidden units in each layer can be defined as:
+> $$
+>\begin{align}
+>y=\phi_{0} & + \phi_{1}a \Big[\psi_{01}+\psi_{11}a[\theta_{01}+\theta_{11}x] + \psi_{21}a[\theta_{02} + \theta_{12}x] \Big] \\
+>  & + \phi_{2}a\Big[\psi_{02}+\psi_{12}a[\theta_{01}+\theta_{11}x] + \psi_{22}a[\theta_{02} + \theta_{12}x] \Big]
+>\end{align}
+> $$
+> where the functions $a[\bullet]$ are ReLU functions. Compute the derivatives of the output $y$ with respect to each of the 13 parameters $\phi_{\bullet}, \theta_{\bullet \bullet}$ and $\psi_{\bullet \bullet}$ directly. The derivatives of the ReLU function with respect to its input $\partial a[z] / \partial[z]$ is the indicator function $\mathbb{I}[z>0]$, which returns one if the argument is greater than zero and zero otherwise.
+
+**Output layer:**
+$$
+\begin{align}
+\frac{ \partial y }{ \partial \phi_{0} } &  = 1 \\[2ex] 
+\frac{ \partial y }{ \partial \phi_{1} }  & = a\Big[\psi_{01}+\psi_{11}a[\theta_{01}+\theta_{11}x] + \psi_{21}a[\theta_{02} + \theta_{12}x] \Big] \\[2ex] 
+\frac{ \partial y }{ \partial \phi_{2} }  & = a\Big[\psi_{02}+\psi_{12}a[\theta_{01}+\theta_{11}x] + \psi_{22}a[\theta_{02} + \theta_{12}x] \Big]
+\end{align}
+$$
+**Second hidden layer:** Let us first define 
+$$
+\begin{align}
+h_{21} = \psi_{01} + \psi_{11} \cdot a[z_1] + \psi_{21} \cdot a[z_2] \\
+h_{22} = \psi_{02} + \psi_{12} \cdot a[z_1] + \psi_{22} \cdot a[z_2]
+\end{align}
+$$
+Then:
+$$
+\begin{align}
+\frac{ \partial y }{ \partial \psi_{01} }  & = \frac{ \partial y }{ \partial a[h_{21}] } \frac{ \partial a[h_{21}] }{ \partial h_{21} } \frac{ \partial \psi_{01} }{ \partial h_{21} }  = \phi_{1}\cdot \mathbb{I}(h_{21}>0)\cdot 1 \\[2ex]
+\frac{ \partial y  }{ \partial \psi_{11} }  & = \frac{ \partial y }{ \partial a[h_{21}] } \frac{ \partial a[h_{21}] }{ \partial h_{21} } \frac{ \partial \psi_{11} }{ \partial h_{21} } =  \phi_{1} \cdot \mathbb{I}(h_{21} > 0) \cdot a[\theta_{01}+\theta_{11}x] \\[2ex] 
+\frac{ \partial y }{ \partial \psi_{21} }  & = \frac{ \partial y }{ \partial a[h_{21}] } \frac{ \partial a[h_{21}] }{ \partial h_{21} } \frac{ \partial \psi_{21} }{ \partial h_{21} } =\phi_{1}\cdot \mathbb{I}(h_{21}>0)\cdot a[\theta_{02}+\theta_{12}x] \\[2ex] 
+\frac{ \partial y }{ \partial \psi_{02} }  & = \frac{ \partial y }{ \partial a[h_{22}] } \frac{ \partial a[h_{22}] }{ \partial h_{22} } \frac{ \partial \psi_{02} }{ \partial h_{22} }  = \phi_{2}\cdot \mathbb{I}(h_{22}>0)\cdot 1 \\[2ex]
+\frac{ \partial y  }{ \partial \psi_{12} }  & = \frac{ \partial y }{ \partial a[h_{22}] } \frac{ \partial a[h_{22}] }{ \partial h_{22} } \frac{ \partial \psi_{12} }{ \partial h_{22} } =  \phi_{2} \cdot \mathbb{I}(h_{22} > 0) \cdot a[\theta_{01}+\theta_{11}x] \\[2ex] 
+\frac{ \partial y }{ \partial \psi_{22} }  & = \frac{ \partial y }{ \partial a[h_{22}] } \frac{ \partial a[h_{22}] }{ \partial h_{22} } \frac{ \partial \psi_{22} }{ \partial h_{22} } =\phi_{2}\cdot \mathbb{I}(h_{22}>0)\cdot a[\theta_{02}+\theta_{12}x]
+\end{align}
+$$
+
+**First hidden layer:** Let us first define
+$$
+\begin{align}
+h_{11}= \theta_{01}+\theta_{11}x \\
+h_{12} =\theta_{02}+\theta_{12}x
+\end{align}
+$$
+Then we have:
+$$
+\begin{align}
+\frac{ \partial y }{ \partial \theta_{01} }  & =\frac{ \partial y }{ \partial a[h_{21}] } \frac{ \partial a[h_{21}] }{ \partial h_{21} } \frac{ \partial h_{21} }{ \partial a[h_{11}] }  \frac{ \partial a[h_{11}] }{ \partial h_{11} } \frac{ \partial h_{11} }{ \partial \theta_{01} }  \\[2ex]
+     & = \phi_{1} \cdot \mathbb{I}(h_{21}>0)  \cdot  \psi_{11}\cdot \mathbb{I}(h_{11} > 0)\cdot 1 \\[2ex] 
+\frac{ \partial y }{ \partial \theta_{11} }  & =\frac{ \partial y }{ \partial a[h_{21}] } \frac{ \partial a[h_{21}] }{ \partial h_{21} } \frac{ \partial h_{21} }{ \partial a[h_{11}] }  \frac{ \partial a[h_{11}] }{ \partial h_{11} } \frac{ \partial h_{11} }{ \partial \theta_{11} }  \\[2ex]
+     & = \phi_{1} \cdot \mathbb{I}(h_{21}>0)  \cdot  \psi_{11}\cdot \mathbb{I}(h_{11} > 0)\cdot x \\[2ex] 
+\frac{ \partial y }{ \partial \theta_{02} }  & =\frac{ \partial y }{ \partial a[h_{22}] } \frac{ \partial a[h_{22}] }{ \partial h_{22} } \frac{ \partial h_{22} }{ \partial a[h_{12}] }  \frac{ \partial a[h_{12}] }{ \partial h_{12} } \frac{ \partial h_{12} }{ \partial \theta_{02} } \\[2ex] 
+     & = \phi_{2} \cdot \mathbb{I}(h_{22}>0)  \cdot  \psi_{12}\cdot \mathbb{I}(h_{12} > 0)\cdot 1 \\[2ex]
+\frac{ \partial y }{ \partial \theta_{12} }  & =\frac{ \partial y }{ \partial a[h_{22}] } \frac{ \partial a[h_{22}] }{ \partial h_{22} } \frac{ \partial h_{22} }{ \partial a[h_{12}] }  \frac{ \partial a[h_{12}] }{ \partial h_{12} } \frac{ \partial h_{12} }{ \partial \theta_{12} } \\[2ex] 
+     & = \phi_{2} \cdot \mathbb{I}(h_{22}>0)  \cdot  \psi_{12}\cdot \mathbb{I}(h_{12} > 0)\cdot x \\[2ex] 
+\end{align}
+$$
+
+
+> [!question] Problem 7.2
+> 
+
+
+> [!question] Problem 7.3
+> 
+
+
+> [!question] Problem 7.4
+> 
+
+
+> [!question] Problem 7.5
+> 
+
+
+> [!question] Problem 7.6
+> 
+
+
+> [!question] Problem 7.7
+> 
+
+
+> [!question] Problem 7.8
+> 
+
+
+> [!question] Problem 7.9
+> 
+
+
+> [!question] Problem 7.10
+> 
+
+
+> [!question] Problem 7.11
+> 
+
+
+> [!question] Problem 7.12
+> 
+
+
+> [!question] Problem 7.13
+> 
+
+
+> [!question] Problem 7.14
+> 
+
+
+> [!question] Problem 7.15
+> 
+
+
+> [!question] Problem 7.16
+> 
+
+
+> [!question] Problem 7.17
+> 
