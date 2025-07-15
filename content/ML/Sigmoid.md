@@ -28,3 +28,8 @@ This can be plotted as:
 ![[Pasted image 20231029131826.png|480]]
 
 ![[Sigmoid-20250624102119091.png]]
+
+Derivative of the sigmoid function is:
+$$
+\frac{ \partial \text{sig}[z] }{ \partial z } = \frac{\exp[-z]}{(1+\exp[-z])^{2}}
+$$

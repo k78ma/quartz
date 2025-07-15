@@ -99,15 +99,30 @@ $$
 $$
 
 > [!question] Problem 7.3
-> 
+> What size are each of the terms in equation 7.20? 
 
+- $\frac{ \partial \mathbf{f}_{2} }{ \partial \mathbf{h}_{2} }$ is $D_{3} \times D_{2}$
+- $\frac{ \partial \mathbf{h}_{2} }{ \partial \mathbf{f}_{1} }$ is $D_2 \times D_{2}$
+- $\frac{ \partial \mathbf{f}_{1} }{ \partial \mathbf{h}_{1} }$ is $D_{2} \times D_{1}$
+- $\frac{ \partial \mathbf{h}_{1} }{ \partial \mathbf{f}_{0} }$is $D_{1} \times D_{1}$
 
 > [!question] Problem 7.4
-> 
+> Calculate the derivative $\frac{ \partial \ell_{i} }{ \partial \text{f}[\mathbf{x}_{i}, \phi] }$ for the least squares loss function: 
+> $$
+> \ell_{i}=(y_{i}-\text{f}[\mathbf{x}_{i}, \phi])^{2}
+> $$
+
+$$
+\frac{ \partial \ell_{i} }{ \partial \text{f}[\mathbf{x}_{i}, \phi] } = 2(y_{i} - \text{f}[\mathbf{x}_{i}, \phi])(-1)=2(\text{f}[\mathbf{x}_{i}, \phi]-y_{i})
+$$
 
 
 > [!question] Problem 7.5
-> 
+> Calculate the derivative $\frac{ \partial \ell_{i} }{ \partial \text{f}[\mathbf{x}_{i}, \phi] }$ for the binary classification loss function:
+> $$
+> \ell_{i} = -(1-y_{i})\log\Bigg[ 1-\text{sig}\Big[\text{f}[\mathbf{x}_{i}, \phi]\Big] \Bigg] - y_{i}\log\Bigg[\text{sig}\Big[\text{f}[\mathbf{x}_{i}, \phi]\Big] \Bigg]
+> $$
+
 
 
 > [!question] Problem 7.6

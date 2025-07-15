@@ -54,6 +54,7 @@ Some of these notes are also included in [[Machine Learning]].
 ## Gradients and Initialization
 - [[Backpropagation Intuition]]
 - [[Backpropagation Toy Example]]
+- [[Backpropagation Algorithm]]
 - [[Backpropagation]]
 
 ## Learning Theory
