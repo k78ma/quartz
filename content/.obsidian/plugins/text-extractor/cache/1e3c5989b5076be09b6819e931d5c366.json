@@ -1,0 +1,1 @@
+{"path":"ML/attachments/Pasted image 20250714225714.png","text":"Figure 7.3 Backpropagation forward pass. We compute and store each of the intermediate variables in turn until we finally calculate the loss.","libVersion":"0.3.2","langs":"eng"}

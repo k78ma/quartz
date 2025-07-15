@@ -65,7 +65,38 @@ $$
 $$
 
 > [!question] Problem 7.2
-> 
+> Find an expression for the final term in each of the five chains of derivatives in equation 7.13. 
+
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial f_{2} }  & =\left( \frac{ \partial \ell_{i} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial h_{3} }   \right)\frac{ \partial h_{3} }{ \partial f_{2} } \\[2ex] 
+     & = 2(f_{3}-y_{i}) \cdot \omega_{3} \cdot  -\sin f_{2}
+\end{align}
+$$
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial h_{2} }  & =\left( \frac{ \partial \ell_{i} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial h_{3} }  \frac{ \partial h_{3} }{ \partial f_{2} }\right) \frac{ \partial f_{2} }{ \partial h_{2} } \\[2ex] 
+     & = 2(f_{3}-y_{i}) \cdot \omega_{3} \cdot  -\sin f_{2} \cdot  \omega_{2}
+\end{align}
+$$
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial f_{1} }  & =\left( \frac{ \partial \ell_{i} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial h_{3} }  \frac{ \partial h_{3} }{ \partial f_{2} } \frac{ \partial f_{2} }{ \partial h_{2} }\right) \frac{ \partial h_{2} }{ \partial f_{1} }\\[2ex] 
+     & = 2(f_{3}-y_{i}) \cdot \omega_{3} \cdot  -\sin f_{2} \cdot  \omega_{2} \cdot \exp[f_{1}]
+\end{align}
+$$
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial h_{1} }  & =\left( \frac{ \partial \ell_{i} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial h_{3} }  \frac{ \partial h_{3} }{ \partial f_{2} } \frac{ \partial f_{2} }{ \partial h_{2} } \frac{ \partial h_{2} }{ \partial f_{1} }\right) \frac{ \partial f_{1} }{ \partial h_{1} } \\[2ex]  
+     & =2(f_{3}-y_{i}) \cdot \omega_{3} \cdot  -\sin f_{2} \cdot  \omega_{2} \cdot \exp[f_{1}] \cdot \omega_{1}
+\end{align}
+$$
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial f_{0} }  & =\left( \frac{ \partial \ell_{i} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial h_{3} }  \frac{ \partial h_{3} }{ \partial f_{2} } \frac{ \partial f_{2} }{ \partial h_{2} } \frac{ \partial h_{2} }{ \partial f_{1} } \frac{ \partial f_{1} }{ \partial h_{1} }\right) \frac{ \partial h_{1} }{ \partial f_{0}  }  \\[2ex] 
+     & =2(f_{3}-y_{i}) \cdot \omega_{3} \cdot  -\sin f_{2} \cdot  \omega_{2} \cdot \exp[f_{1}] \cdot \omega_{1} \cdot \cos[f_{0}]
+\end{align}
+$$
 
 
 > [!question] Problem 7.3
