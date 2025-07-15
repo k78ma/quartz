@@ -98,7 +98,6 @@ $$
 \end{align}
 $$
 
-
 > [!question] Problem 7.3
 > 
 
