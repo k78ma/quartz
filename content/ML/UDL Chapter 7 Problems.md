@@ -64,7 +64,6 @@ $$
 \end{align}
 $$
 
-
 > [!question] Problem 7.2
 > 
 
