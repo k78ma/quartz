@@ -123,7 +123,7 @@ $$
 > \ell_{i} = -(1-y_{i})\log\Bigg[ 1-\text{sig}\Big[\text{f}[\mathbf{x}_{i}, \phi]\Big] \Bigg] - y_{i}\log\Bigg[\text{sig}\Big[\text{f}[\mathbf{x}_{i}, \phi]\Big] \Bigg]
 > $$
 
-For the sake of clean math let's write $f=\text{f}[\mathbf{x}_{i}, \phi]$.
+For the sake of clean math let's write $f=\text{f}[\mathbf{x}_{i}, \phi]$. So we want to find $\frac{ \partial \ell_{i} }{ \partial f }$.
 
 We have:
 $$
@@ -153,7 +153,7 @@ $$
 \end{align}
 $$
 
-Let's substitute these back into our loss function:
+Let's substitute these back into our loss function and simplify:
 $$
 \begin{align}
 \frac{ \partial \ell_{i} }{ \partial f }  & = \left(  (1-y_{i}) \left( \frac{1+\exp[-f]}{\exp[-f]} \right) - (y_{i}) (1+\exp[-f])  \right) \left(  \frac{\exp[-f]}{(1+\exp[-f])^{2}} \right)  \\[2ex] 
