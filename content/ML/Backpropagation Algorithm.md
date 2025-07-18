@@ -53,4 +53,10 @@ $$
 $$
 - In each case, the term in brackets was computed in the previous step. By working backward through the network, we can reuse previous computations.
 
-
+Each term tends to be fairly simple:
+- $\frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{3} }$ (derivative of the loss $\ell_{i}$ w.r.t network output $\mathbf{f}_{3}$) depends on the loss function but generally has a simple form
+- $\frac{ \partial \mathbf{f}_{3} }{ \partial \mathbf{h}_{3} }$ of the network output with respect to hidden layer $\mathbf{h}_{3}$ is:
+    $$
+    \frac{ \partial \mathbf{f}_{3} }{ \partial \mathbf{h}_{3} } = \frac{ \partial  }{ \partial \mathbf{h}_{3} } (\beta_{3}+\Omega_{3}\mathbf{h}_{3})=\Omega_{3}^{T}
+    $$
+    This is shown in [[UDL Chapter 7 Problems|Problem 7.6]].
