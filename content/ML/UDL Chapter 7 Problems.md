@@ -169,7 +169,7 @@ $$
 \end{align}
 $$
 
-Nice result.
+Nice result (and seems important)!
 
 > [!question] Problem 7.6
 > 
