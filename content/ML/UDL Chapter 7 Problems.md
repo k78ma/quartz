@@ -123,7 +123,53 @@ $$
 > \ell_{i} = -(1-y_{i})\log\Bigg[ 1-\text{sig}\Big[\text{f}[\mathbf{x}_{i}, \phi]\Big] \Bigg] - y_{i}\log\Bigg[\text{sig}\Big[\text{f}[\mathbf{x}_{i}, \phi]\Big] \Bigg]
 > $$
 
+For the sake of clean math let's write $f=\text{f}[\mathbf{x}_{i}, \phi]$.
 
+We have:
+$$
+\frac{ \partial \ell_{i} }{ \partial f }  = \frac{ \partial \ell_{i} }{ \partial \text{sig}[f] } \frac{ \partial \text{sig}[f] }{ \partial f }
+$$
+The first term is:
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial \text{sig}[f] }  &  = -(1-y_{i}) \left(\frac{1}{1-\text{sig}[f]}\right)(-1) - (y_{i}) \left(\frac{1}{\text{sig}[ f]}\right) (1) \\[2ex]
+     & = \frac{1-y_{i}}{1-\text{sig}[f]} - \frac{y_{i}}{\text{sig}[f]}
+\end{align}
+$$
+The second term is:
+$$
+\frac{ \partial \text{sig}[f] }{ \partial f } =  \frac{\exp[-f]}{(1+\exp[-f])^{2}}
+$$
+Combining them back, we have:
+$$
+\frac{ \partial \ell_{i} }{ \partial f } =\left(\frac{1-y_{i}}{1-\text{sig}\left[f\right]} - \frac{y_{i}}{\text{sig}[f]}\right) \left(  \frac{\exp[-f]}{(1+\exp[-f])^{2}} \right) 
+$$
+
+Recall that the sigmoid is:
+$$
+\begin{align}
+\text{sig}[f]  & = \frac{1}{1+\exp[-f]} \\[2ex]
+1- \text{sig}[f]     & = \frac{\exp[-f]}{1+\exp[-f]}
+\end{align}
+$$
+
+Let's substitute these back into our loss function:
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial f }  & = \left(  (1-y_{i}) \left( \frac{1+\exp[-f]}{\exp[-f]} \right) - (y_{i}) (1+\exp[-f])  \right) \left(  \frac{\exp[-f]}{(1+\exp[-f])^{2}} \right)  \\[2ex] 
+     & = \left(  \frac{(1-y_{i})(1+\exp[-f])}{\exp[-f]} - (y_{i}) (1+\exp[-f])\right)\left(  \frac{\exp[-f]}{(1+\exp[-f])^{2}} \right) \\[2ex]
+     & =\cancel{ (1+\exp[-f]) }\left(  \frac{1-y_{i}}{\exp[-f]} - y_{i}  \right)\left(  \frac{\exp[-f]}{(1+\exp[-f])^\cancel{ {2} }} \right)\\[2ex] 
+     & =\left( \frac{1-y_{i}}{\exp[-f]}-y_{i}  \right)\left( \frac{\exp[-f]}{1+\exp[-f]} \right) \\[2ex] 
+     & = \frac{1-y_{i}}{1+\exp[-f]}-\frac{y_{i}\exp[-f]}{1+\exp[-f]} \\[2ex]
+     & = \frac{1-y_{i}-y_{i}\exp[-f]}{1+\exp[-f]} \\[2ex]
+     & = \frac{1}{1+\exp[-f]}- \frac{y_{i}+y_{i}\exp[-f]}{1+\exp[-f]} \\[2ex]
+     & = \frac{1}{1+\exp[-f]}-\frac{y_{i}(1+\exp[-f])}{1+\exp[-f]} \\[2ex]
+     & = \frac{1}{1+\exp[-f]} - y_{i} \\[2ex]
+     & =\boxed{\text{sig}[f]-y_{i}}
+\end{align}
+$$
+
+Nice result.
 
 > [!question] Problem 7.6
 > 
