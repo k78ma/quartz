@@ -43,3 +43,202 @@ In diagram form:
 
 ![[Deep Neural Network-20250415173138789.png|606]]
 
+
+> [!note] Clarification on terminology
+> - Layer $k$ is the operation $\Omega_{k-1},\beta_{k-1}, a(\bullet)$
+> - The activations $h_{k}$ is the result we get as a result of applying the operation layer $k$. 
+> - However, "layer" is used to refer to "layer $k$'s activations" which can be confusing.
+
+### Example Computation
+Let's consider a numeric example of the above. We use a training input of
+$$
+\mathbf{x} = \begin{bmatrix}
+1 \\
+-1 \\
+0.5
+\end{bmatrix}
+$$
+**Layer 1:** We first have $\Omega_{0} \in \mathbb{R}^{4\times 3}$ that maps the input ($D_{i}=3$) to the first hidden layer ($D_{1}=4$), and a corresponding bias vector $\beta_{0} \in \mathbb{R}^{4}$:
+$$
+\Omega_{0} = \begin{bmatrix}
+0.2 & -0.1 & 0.4 \\
+0.7 & 0.3 & -0.5  \\
+-0.6 & 0.8 & 0.1 \\
+0.0 & -0.2 & 0.2
+\end{bmatrix}, \quad \beta_{0}= \begin{bmatrix}
+0.1 \\
+-0.3 \\
+0.05 \\
+0.2
+\end{bmatrix}
+$$
+Then, the first pre-activation is:
+$$
+\begin{align}
+\mathbf{z}_{1}  & = \Omega_{0} \mathbf{x} + \beta_{0} \\[2ex]
+     & = \begin{bmatrix}
+(0.2)(1) + (-0.1)(-1) + (0.4)(0.5) \\
+(0.7)(1) + (0.3)(-1) + (-0.5 )(0.5) \\
+(-0.6)(1) + (0.8)(-1) + (0.1) (0.5) \\
+(0.0)(1) + (-0.2)(-1) + (0.2) (0.5)
+\end{bmatrix} + \begin{bmatrix}
+0.1 \\
+-0.3 \\
+0.05 \\
+0.2
+\end{bmatrix}\\[2ex] 
+     & = \begin{bmatrix}
+0.5 \\
+0.15 \\
+-1.35 \\
+0.3
+\end{bmatrix} + \begin{bmatrix}
+0.1 \\
+-0.3 \\
+0.05 \\
+0.2
+\end{bmatrix} \\[2ex]
+     & = \begin{bmatrix}
+0.6 \\
+-0.15 \\
+-1.3 \\
+0.5
+\end{bmatrix}
+\end{align}
+$$
+Passing through ReLU to get to the complete first hidden layer:
+$$
+\mathbf{h}_{1}=a[\mathbf{z}_{1}] = \begin{bmatrix}
+0.6 \\
+0 \\
+0 \\
+0.5
+\end{bmatrix}
+$$
+
+**Layer 2:** Now we have $\Omega_{1} \in \mathbb{R}^{2\times 4}$ that maps the first hidden layer ($D_{1}=4$) to the second hidden layer ($D_{2}=2$), and a corresponding bias vector $\beta_{1} \in \mathbb{R}^{2}$:
+$$
+\mathbf{\Omega}_{1}=\begin{bmatrix}
+0.3 & -0.2 & 0.1 & 0.4 \\
+-0.5 & 0.6 & 0.2 & -0.1
+\end{bmatrix}, \quad  \beta_{1} = \begin{bmatrix}
+0.05 \\
+-0.1
+\end{bmatrix}
+$$
+Then, the pre-activation is:
+$$
+\begin{align}
+\mathbf{z}_{2}  & = \mathbf{\Omega_{1}}\mathbf{h}_{1}+\beta_{1} \\[2ex]
+     & = \begin{bmatrix}
+(0.3)(0.6) + (-0.2)(0) + (0.1)(0) + (0.4)(0.5) \\
+(-0.5)(0.6) + (0.6)(0) + (0.2)(0) + (-0.1)(0.5)
+\end{bmatrix} + \begin{bmatrix}
+0.05 \\
+-0.1
+\end{bmatrix} \\[2ex]
+     & = \begin{bmatrix}
+0.38 \\
+-0.35
+\end{bmatrix}+\begin{bmatrix}
+0.05 \\
+-0.1
+\end{bmatrix} \\[2ex]
+     & =\begin{bmatrix}
+0.43 \\
+-0.45
+\end{bmatrix}
+\end{align}
+$$
+Passing through ReLU:
+$$
+\mathbf{h}_{2} = a[\mathbf{z}_{2}] = \begin{bmatrix}
+0.43 \\
+0
+\end{bmatrix}
+$$
+
+**Layer 3:** Now, $\mathbf{\Omega_{2}}\in \mathbb{R}^{3\times 2}, \beta_{2} \in \mathbb{R}^{3}$:
+$$
+\Omega_{2} =
+\begin{bmatrix}
+0.2 & -0.1 \\
+-0.3 & 0.4 \\
+0.5 & 0.1
+\end{bmatrix},
+\quad
+\beta_{2} =
+\begin{bmatrix}
+0.1 \\
+0.2 \\
+-0.05
+\end{bmatrix}
+$$
+and we compute the pre-activation with:
+$$
+\begin{align}
+\mathbf{z}_{3}  & = \Omega_{2}\mathbf{h}_{2} + \beta_{2} \\[2ex]
+     &  =\begin{bmatrix}
+(0.2)(0.43) + (-0.1)(0) \\
+(-0.3)(0.43) + (0.4)(0) \\
+(0.5)(0.43) + (0.1)(0)
+\end{bmatrix} + \begin{bmatrix}
+0.1 \\
+0.2 \\
+-0.05
+\end{bmatrix} \\[2ex] 
+ & =
+\begin{bmatrix}
+0.086 \\
+-0.129 \\
+0.215
+\end{bmatrix} + \begin{bmatrix}
+0.1 \\
+0.2 \\
+-0.05
+\end{bmatrix} \\[2ex] 
+     & = \begin{bmatrix}
+0.186 \\
+0.071 \\
+0.165
+\end{bmatrix}
+\end{align}
+$$
+Then, applying ReLU to get the activations of the third hidden layer:
+$$
+\mathbf{h}_{3} = a[\mathbf{z}_{3}] = \begin{bmatrix}
+0.186 \\
+0.071 \\
+0.165
+\end{bmatrix}
+$$
+**Output layer:**
+Finally, $\Omega_{3} \in \mathbb{R}^{2\times 3}$ and $\beta_{3} \in \mathbb{R}^{2}$:
+$$
+\mathbf{\Omega}_{3} = \begin{bmatrix}
+0.4 & -0.2 & 0.1 \\
+-0.3 & 0.5 & 0.2
+\end{bmatrix}, \quad  \beta_{3} = \begin{bmatrix}
+0.05 \\
+-0.02
+\end{bmatrix}
+$$
+We use these to compute the output pre-activation:
+$$
+\begin{align}
+\mathbf{z}_{4}  & = \Omega_{3}\mathbf{h}_{3} + \beta_{3} \\[2ex]
+
+ &  = \begin{bmatrix} (0.4)(0.186) + (-0.2)(0.071) + (0.1)(0.165) \\ (-0.3)(0.186) + (0.5)(0.071) + (0.2)(0.165) \end{bmatrix} +\begin{bmatrix}
+0.05 \\
+-0.02
+\end{bmatrix} \\[2ex] 
+ & = \begin{bmatrix} 0.0767 \\ 0.0127 \end{bmatrix} + \begin{bmatrix}
+0.05 \\
+-0.02
+\end{bmatrix} \\[2ex] 
+     & = \begin{bmatrix}
+0.1267 \\
+-0.0073
+\end{bmatrix}
+\end{align}
+$$
