@@ -172,15 +172,35 @@ $$
 Nice result (and seems important)!
 
 > [!question] Problem 7.6
+> Show that for $\mathbf{z}=\mathbf{\beta}+\mathbf{\Omega} \mathbf{h}$:
+> $$
+> \frac{ \partial \mathbf{z} }{ \partial \mathbf{h} } = \mathbf{\Omega}^{T}
+> $$
+> where $\partial \mathbf{ z} / \partial \mathbf{h}$ is a matrix containing the term $\partial z_{i} / \partial h_{j}$ in its $i$-th column and $j$-th row. 
 > 
+> To do this, first find an expression for the constituent elements $\partial z_{i} / \partial h_{j}$, and then consider the form that the matrix $\partial \mathbf{ z} / \partial \mathbf{h}$ must take.
 
 
 > [!question] Problem 7.7
-> 
+> Consider the case where we use the logistic sigmoid as an activation function, so $h = \text{sig}[f]$. Compute the derivative $\partial h / \partial f$ for this activation function. What happens to the derivative when the input takes (i) a large positive value and (ii) a large negative value? 
 
 
 > [!question] Problem 7.8
-> 
+> Consider using (i) the Heaviside function and (ii) the rectangular function as activations:
+> $$
+> \text{Heaviside}[z] = \begin{cases}
+> 0 & z<0 \\
+> 1 & z\geq 0
+> \end{cases}
+> $$
+> $$
+> \text{rect}[z] = \begin{cases}
+> 0 & z < 0 \\
+> 1  & 0 \leq z \leq 1 \\
+> 0  & z>1
+> \end{cases}
+> $$
+> Discuss why these functions are problematic for neural network training with gradient-based optimization methods.
 
 
 > [!question] Problem 7.9
