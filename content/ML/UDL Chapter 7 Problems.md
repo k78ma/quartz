@@ -180,9 +180,41 @@ Nice result (and seems important)!
 > 
 > To do this, first find an expression for the constituent elements $\partial z_{i} / \partial h_{j}$, and then consider the form that the matrix $\partial \mathbf{ z} / \partial \mathbf{h}$ must take.
 
+Let:
+$$
+\mathbf{h} = \begin{bmatrix}
+h_{1} \\
+\vdots \\
+h_{n}
+\end{bmatrix}, \quad  \mathbf{z} = \beta+\Omega \mathbf{h}, \quad  \mathbf{\Omega} = [\Omega_{ij}] \in  \mathbb{R}^{m\times n}
+$$
+so that $z_{i}=\beta_{i}+\sum_{k=1}^{n}\mathbf{\Omega}_{ik}h_{k}$. We can see this is in action in [[Deep Neural Network#Example Computation]] – $\mathbf{\Omega}_{ik}\mathbf{h}_{k}$ is a dot product between the $i$-th row of $\Omega$ and $\mathbf{h}$, and then we add the bias for that row.
+
+Now let's consider the element-wise derivative. For some fixed $i$ and $j$:
+$$
+\frac{ \partial z_{i} }{ \partial h_{j} } = \frac{ \partial  }{ \partial h_{j} } \left( \beta_{i} + \sum_{k} \mathbf{\Omega}_{ik}h_{k} \right) = \mathbf{\Omega}_{ij}
+$$
+This is because $z_{i}$ depends linearly on each $h_{j}$, so the partial derivative just plucks out the corresponding weight.
+
+Then, since "$\partial \mathbf{ z} / \partial \mathbf{h}$ is a matrix containing the term $\partial z_{i} / \partial h_{j}$ in its $i$-th column and $j$-th row":
+$$
+\frac{ \partial \mathbf{z} }{ \partial \mathbf{h} }  = \left[  \frac{ \partial z_{i} }{ \partial h_{j} }   \right]_{\text{row }j, \text{col } i} = \Omega_{ij}
+$$
+
+Now we can notice that the matrix whose $(j,i)$ entry is $\Omega_{ij}$ is precisely the transpose of $\mathbf{\Omega}$, leading us to:
+$$
+\frac{ \partial \mathbf{z} }{ \partial \mathbf{h} } = \mathbf{\Omega}^{T}
+$$
+
+If you instead store instead in row $i$, column $j$ —the more common “Jacobian” convention—the matrix would be $\mathbf{{\Omega}}$ itself. The textbook’s row/column choice therefore introduces the transpose.
+
 
 > [!question] Problem 7.7
 > Consider the case where we use the logistic sigmoid as an activation function, so $h = \text{sig}[f]$. Compute the derivative $\partial h / \partial f$ for this activation function. What happens to the derivative when the input takes (i) a large positive value and (ii) a large negative value? 
+
+
+
+
 
 
 > [!question] Problem 7.8

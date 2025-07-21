@@ -60,6 +60,6 @@ Each term tends to be fairly simple:
     \frac{ \partial \mathbf{f}_{3} }{ \partial \mathbf{h}_{3} } = \frac{ \partial  }{ \partial \mathbf{h}_{3} } (\beta_{3}+\Omega_{3}\mathbf{h}_{3})=\Omega_{3}^{T}
     $$
     This is shown in [[UDL Chapter 7 Problems|Problem 7.6]].
-- The derivative $\frac{ \partial \mathbf{h}_{3} }{ \partial \mathbf{f}_{2} }$ of the output $\mathbf{h}_{3}$ of the activation function with respect to its input $\mathbf{f}_{2}$ will depend on the activation function. It will be a diagonal matrix since each activation only depends on the corresponding pre-activation. For ReLU functions, the diagonal terms are zero everywhere $\mathbf{f}_{2}$ is less than zero and one otherwise. Rather than multiply by this matrix, we extract the diagonal terms as a vector $\mathbb{I}(\mathbf{f}_{2}>0)$ and pointwise multiply, which is more efficient.
+- The derivative $\frac{ \partial \mathbf{h}_{3} }{ \partial \mathbf{f}_{2} }$ of the output $\mathbf{h}_{3}$ of the activation function with respect to its input $\mathbf{f}_{2}$ will depend on the activation function. It will be a diagonal matrix since each activation only depends on the corresponding pre-activation. For ReLU functions, the diagonal terms are zero everywhere $\mathbf{f}_{2}$ is less than zero and one otherwise. Rather than multiply by this matrix, we extract the diagonal terms as a vector $\mathbb{I}(\mathbf{f}_{2}>0)$ and pointwise multiply, which is more efficient. This is shown in.
 
 ### Backward pass 
