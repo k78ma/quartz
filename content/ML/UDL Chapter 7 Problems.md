@@ -212,9 +212,23 @@ If you instead store instead in row $i$, column $j$ —the more common “Jacobi
 > [!question] Problem 7.7
 > Consider the case where we use the logistic sigmoid as an activation function, so $h = \text{sig}[f]$. Compute the derivative $\partial h / \partial f$ for this activation function. What happens to the derivative when the input takes (i) a large positive value and (ii) a large negative value? 
 
-
-
-
+We have:
+$$
+h=\text{sig}[f] = \frac{1}{1+\exp[-f]}
+$$
+and it follows that
+$$
+\frac{ \partial h }{ \partial f } =  \frac{ \partial \text{sig}[f] }{ \partial f } = \frac{\exp[-f]}{(1+\exp[-f])^{2}} 
+$$
+which can then be re-written as:
+$$
+\begin{align}
+\frac{ \partial h }{ \partial f }   & = \frac{1}{1+\exp[-f]} \cdot  \frac{\exp[-f]}{1+\exp[-f]}\\[2ex] 
+     & = \text{sig}[f] \cdot (1-\text{sig}[f]) \\[2ex]
+     & = h(1-h)
+\end{align}
+$$
+When the input $f$ becomes large positive value, $h=\text{sig}[f] \approx 1$, so we have $1(1-1)=0$. When the input $f$ becomes a large negative value, we in turn have $h\approx 0$, which gives $0(1-0)=0$. Thus, the gradient is (near) zero at both extremes.
 
 
 > [!question] Problem 7.8

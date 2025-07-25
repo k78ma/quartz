@@ -12,7 +12,7 @@ The idea of this is basically to encode strings in map format by counting how ma
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
         
-        result = defaultdict(list)
+        result = defaultdict(list) 
 
         for s in strs:
             count = [0] * 26

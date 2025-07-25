@@ -13,7 +13,7 @@ draft:
 | [MTE 352 - Fluid Mechanics 1](https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd44b97a54056a08805232)                        | MECH 2210 - Fluid Mechanics<br><br>CIVL 2510 - Fluid Mechanics                                                                                                                                                              |
 | [MTE 360 - Automatic Control Systems](https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd44f5ad8d23749780e214)                | MECH 3610 - Control Principles<br>- Was not offered Spring '24<br><br>ELEC 3200 - System Modelling, Analysis, and Control                                                                                                   |
 | [MTE 380 - Mechatronics Engineering Design Workshop](https://uwaterloo.ca/academic-calendar/undergraduate-studies/catalog#/courses/view/65cd45233c5b448f141d6f28) | ISDN 2601 - Exploring the World through Smart Mechatronics<br>- Was not offered Spring '24<br><br>MECH 3907 - Mechatronic Design and Prototyping                                                                            |
-| CSE                                                                                                                                                               | CLAS 104 - Taking before                                                                                                                                                                                                    |
+| <br>CSE                                                                                                                                                           | CLAS 104 - Taking before                                                                                                                                                                                                    |
 3B:
 - [x] MTE 322
 - [x] CSE - CLAS 104
@@ -113,5 +113,12 @@ April 18 - 21: Could go somewhere
 - Need to wait for MECH 2210 midterm date announcement
 - Need to wait for badminton competition schedule announcement in April
 
-Harbin planning:
-- 
+
+![[Exchange Planning-20250723120735341.png]]
+
+
+![[Exchange Planning-20250723120750538.png]]
+
+![[Exchange Planning-20250724193144133.png]]
+
+![[Exchange Planning-20250724193242386.png]]
