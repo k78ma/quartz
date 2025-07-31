@@ -52,6 +52,7 @@ Blogs:
 - [C++ Is An Absolute Blast](https://learncodethehardway.com/blog/31-c-plus-plus-is-an-absolute-blast/)
 - [Notes on China](https://www.dwarkeshpatel.com/p/notes-on-china)
 - [i sensed anxiety and frustration at NeurIPS’24 – Kyunghyun Cho](https://kyunghyuncho.me/i-sensed-anxiety-and-frustration-at-neurips24/)
+- [ARC-AGI Without Pretraining | iliao2345](https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html#watching-the-network-learn-color-the-boxes)
 
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
