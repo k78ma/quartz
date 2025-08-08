@@ -248,6 +248,15 @@ When the input $f$ becomes large positive value, $h=\text{sig}[f] \approx 1$, so
 > $$
 > Discuss why these functions are problematic for neural network training with gradient-based optimization methods.
 
+Both of these functions are flat and discontinuous. 
+
+In regions where the function is flat, weights before the activation will not change because the chain rule will include a multiplication by zero. For some weight $w$:
+$$
+\frac{ \partial L }{ \partial w } = \frac{ \partial L }{ \partial a } \cdot  \frac{ \partial a }{ \partial z } \cdot \frac{ \partial z }{ \partial w } 
+$$
+In this case $\frac{ \partial a }{ \partial z }=0$ because the activation is flat, so we also just have $\frac{ \partial L }{ \partial w }=0$ and the weight doesn't update at all.
+
+In regions where the function is discontinuous, there's no gradient to follow (undefined) – optimization algorithms like gradient descent are stuck.
 
 > [!question] Problem 7.9
 > 

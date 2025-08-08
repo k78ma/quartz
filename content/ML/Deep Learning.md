@@ -72,3 +72,6 @@ Some of these notes are also included in [[Machine Learning]].
 - [[UDL Chapter 5 Problems]]
 - [[UDL Chapter 6 Problems]]
 - [[UDL Chapter 7 Problems]]
+
+
+- [[Counterfactual Probing]]

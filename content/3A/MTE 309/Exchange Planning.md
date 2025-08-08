@@ -122,3 +122,10 @@ April 18 - 21: Could go somewhere
 ![[Exchange Planning-20250724193144133.png]]
 
 ![[Exchange Planning-20250724193242386.png]]
+
+
+Both are offered in both terms
+
+ECE457B fall, CS 479 winter:
+- 457B courseload seems a bit lighter - might be better for double capstone
+- But more "actual" courses in W26 so maybe better to have ECE457B in winter
