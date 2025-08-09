@@ -292,6 +292,11 @@ as required.
 > $$
 > where $\alpha$ is a small positive constant, typically $0.1$.
 
+The Leaky ReLU has a gradient of $+1$ when the input is greater than zero, and a gradient of $\alpha$ when the gradient is less than zero. The backprop equations are the same except for
+$$
+\frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k-1} } = \mathbb{I}[\mathbf{f}_{k-1}>0] \odot \left( \mathbf{\Omega}_{k}^{T} \frac{ \partial \ell_{i} }{ \partial \mathbf{f_{k}} }  \right) + \mathbb{I}[\mathbf{f_{k-1}}<0] \odot \alpha\left( \mathbf{\Omega}_{k}^{T} \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} }  \right)
+$$
+
 
 
 > [!question] Problem 7.11

@@ -23,18 +23,24 @@ $$
 where $k \in \{ 1,2,...K \}$.
 
 ### Backward pass
-We start with the derivative $\partial \ell_{i} / \partial \mathbf{f}_{K}$ of the loss function $\ell_{i}$ with respect to the network output $\mathbf{f}_{k}$ and work backward through the network:
+We start with the derivative $\partial \ell_{i} / \partial \mathbf{f}_{K}$ of the loss function $\ell_{i}$ with respect to the network output $\mathbf{f}_{k}$ and work backward through the network. For $k\in \{ K, K-1, \dots, 1 \}$, we do:
 $$
 \begin{align}
 \frac{ \partial \ell_{i} }{ \partial \beta_{k} }  & = \frac{ \partial \ell_{i} }{ \partial \mathbf{f_{k}} } \\[2ex] 
 \frac{ \partial \ell_{i} }{ \partial \mathbf{\Omega}_{k} }  & = \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} } \mathbf{h}_{k}^{T} \\[2ex]
-\frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k-1} }  & = \mathbb{I}[\mathbf{f}_{k-1} > 0] \odot \left( \mathbf{\Omega}_{k}^{T} \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} }  \right)
 \end{align}
 $$
-where: 
-- $k\in \{ K, K-1, \dots, 1 \}$
+We then pass backward to the previous layer:
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k-1} }  & = \mathbb{I}[\mathbf{f}_{k-1}>0] \odot \frac{ \partial \ell_{i} }{ \partial \mathbf{h}_{k} }  \\[2ex] 
+ & =\mathbb{I}[\mathbf{f}_{k-1} > 0] \odot \left( \mathbf{\Omega}_{k}^{T} \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} }  \right)
+\end{align}
+$$
+where:  
 - $\odot$ is a pointwise multiplication
 - $\mathbb{I}[\mathbf{f}_{k-1} > 0 ]$ is a vector containing ones where $\mathbf{f}_{k-1}$ is greater than zero and zeros elsewhere.
+- Thus, the $\mathbb{I}[\mathbf{f}_{k-1}>0] \odot$ operation is a mask applying the activation function
 
 Finally, we compute the derivatives with respect to the first set of weights and biases:
 $$
