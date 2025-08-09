@@ -3,10 +3,9 @@ title: Backpropagation Algorithm
 tags:
   - dl
 date: 2025-07-15
-aliases:
-  - backpropagation algorithm
+aliases: []
 ---
-Let's repeat the [[Backpropagation Toy Example|backpropagation toy example]] but for a three-layer network.
+Let's repeat the [[Backpropagation Scalar Example|backpropagation toy example]] but for a three-layer network.
 
 ![[Backpropagation Algorithm-20250715141758385.png]]
 
@@ -40,7 +39,7 @@ $$
 $$
 - The first term on the right has size $D_{f}\times 1$
     - $D_{f}$ is the dimension of the model output $\mathbf{f}_{3}$
-- The second term has size $D_{f} \times D_{3}$
+- The second term has size $D_{3} \times D_{f}$
     - $D_{3}$ is the number of hidden units in the third layer
 - The third term has size $D_{3}\times D_{3}$
 
@@ -60,6 +59,33 @@ Each term tends to be fairly simple:
     \frac{ \partial \mathbf{f}_{3} }{ \partial \mathbf{h}_{3} } = \frac{ \partial  }{ \partial \mathbf{h}_{3} } (\beta_{3}+\Omega_{3}\mathbf{h}_{3})=\Omega_{3}^{T}
     $$
     This is shown in [[UDL Chapter 7 Problems|Problem 7.6]].
-- The derivative $\frac{ \partial \mathbf{h}_{3} }{ \partial \mathbf{f}_{2} }$ of the output $\mathbf{h}_{3}$ of the activation function with respect to its input $\mathbf{f}_{2}$ will depend on the activation function. It will be a diagonal matrix since each activation only depends on the corresponding pre-activation. For ReLU functions, the diagonal terms are zero everywhere $\mathbf{f}_{2}$ is less than zero and one otherwise. Rather than multiply by this matrix, we extract the diagonal terms as a vector $\mathbb{I}(\mathbf{f}_{2}>0)$ and pointwise multiply, which is more efficient.
+- The derivative $\frac{ \partial \mathbf{h}_{3} }{ \partial \mathbf{f}_{2} }$ of the output $\mathbf{h}_{3}$ of the activation function with respect to its input $\mathbf{f}_{2}$ will depend on the activation function. 
+    - It will be a diagonal matrix since each activation only depends on the corresponding pre-activation. 
+    - For ReLU functions, the diagonal terms are zero everywhere $\mathbf{f}_{2}$ is less than zero and one otherwise. Rather than multiply by this matrix, we extract the diagonal terms as a vector $\mathbb{I}(\mathbf{f}_{2}>0)$ and pointwise multiply, which is more efficient.
 
-### Backward pass 
+### Backward pass 2
+Now that we know how to compute $\frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} }$, we can focus on calculating the erivatives of the loss with respect to the weights and biases. 
+
+To calculate the derivatives of the loss with respect to biases $\beta_{k}$, we use the chain rule:
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial \beta_{k} }  & = \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} }\frac{ \partial \mathbf{f}_{k} }{ \partial \beta_{k} } \\[2ex]
+& = \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} }\frac{ \partial  }{ \partial \beta_{k} } (\beta_{k} + \Omega_{k}\mathbf{h}_{k})   \\[2ex]
+& = \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} } 
+\end{align}
+$$
+which we already calculated above.
+
+Similarly, the derivative of the weights matrix $\Omega_{k}$ is given by:
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial \Omega_{k} }  & = \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} }  \frac{ \partial \mathbf{f}_{k} }{ \partial \Omega_{k} } \\[2ex] 
+     & = \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} } \frac{ \partial  }{ \partial \Omega_{k} } (\beta_{k}+\Omega_{k}\mathbf{h}_{k}) \\[2ex] 
+     & = \frac{ \partial \ell_{i} }{ \partial \mathbf{f}_{k} } \mathbf{h}_{k}^{T}
+\end{align}
+$$
+- The progression from line 2 to 3 is shown in [[UDL Chapter 7 Problems|Problem 7.9]] .
+
+The result above makes intuitive sense; the final line is a matrix of the same size as $\Omega_{k}$. It depends linearly on $\mathbf{h}_{k}$, which was multiplied by $\Omega_{k}$ in the original expression.
+
+This is consistent with the intuition that the derivatives of the weights in $\Omega_{k}$ will be proportional to the values of the hidden units $\mathbf{h}_{k}$ that they multiply. Recall that we already computed these during the forward pass.

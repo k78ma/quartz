@@ -53,9 +53,10 @@ Some of these notes are also included in [[Machine Learning]].
  
 ## Gradients and Initialization
 - [[Backpropagation Intuition]]
-- [[Backpropagation Toy Example]]
 - [[Backpropagation Algorithm]]
-- [[Backpropagation]]
+- [[Backpropagation Scalar Example]]
+- [[Backpropagation 3-Layer Example]]
+- [[Backpropagation Algorithm]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

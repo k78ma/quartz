@@ -30,13 +30,13 @@ apt-get update
 ```
 
 ```
-apt-get install vim tmux
+apt-get install vim tmux -y
 ```
 
 ## Install Vulkan
 
 ```
-apt-get install libvulkan1
+apt-get install libvulkan1 -y
 ```
 
 ```
@@ -116,3 +116,10 @@ python lerobot_sim2real/scripts/evaluate_distribution.py --checkpoint ckpt_2451.
 
 ## Compare Runs
 
+```
+pip install scikit-learn seaborn umap-learn
+```
+
+```
+python lerobot_sim2real/scripts/compare_runs.py --run_a eval_original --run_b eval_black
+```

@@ -205,7 +205,6 @@ Now we can notice that the matrix whose $(j,i)$ entry is $\Omega_{ij}$ is precis
 $$
 \frac{ \partial \mathbf{z} }{ \partial \mathbf{h} } = \mathbf{\Omega}^{T}
 $$
-
 If you instead store instead in row $i$, column $j$ —the more common “Jacobian” convention—the matrix would be $\mathbf{{\Omega}}$ itself. The textbook’s row/column choice therefore introduces the transpose.
 
 
@@ -259,7 +258,28 @@ In this case $\frac{ \partial a }{ \partial z }=0$ because the activation is fla
 In regions where the function is discontinuous, there's no gradient to follow (undefined) – optimization algorithms like gradient descent are stuck.
 
 > [!question] Problem 7.9
-> 
+> Consider a loss function $\ell[\mathbf{f}]$, where $\mathbf{f}=\beta+\mathbf{\Omega} \mathbf{h}$. We want to find how the loss $\ell$ changes when we change $\mathbf{\Omega}$, which we'll express with a matrix that contains the derivative $\partial \ell / \partial \Omega_{ij}$ at the $i$-th row and $j$-th column. Find an expression for $\partial f_{i} / \partial \Omega_{ij}$, and, using the chain rule, show that
+> $$
+> \frac{ \partial \ell }{ \partial \Omega }  = \frac{ \partial \ell }{ \partial \mathbf{f} } \mathbf{h}^{T}
+> $$
+
+We have
+$$
+f_{i}= \beta_{i} + \sum_{j} \mathbf{\Omega}_{ij} h_{j}
+$$
+and so:
+$$
+\frac{ \partial f_{i} }{ \partial \mathbf{\Omega}_{ij} } =h_{j}
+$$
+Using the chain rule:
+$$
+\frac{ \partial \ell }{ \partial \mathbf{\Omega}_{ij} } = \frac{ \partial \ell }{ \partial f_{i} } \frac{ \partial f_{i} }{ \partial \mathbf{\Omega}_{ij} } = \frac{ \partial \ell }{ \partial f_{i} } h_{j}
+$$
+Converting back to vector form, we have
+$$
+\frac{ \partial \ell }{ \partial \mathbf{\Omega} } = \frac{ \partial \ell }{ \partial \mathbf{f} } \mathbf{h}^{T}
+$$
+as required.
 
 
 > [!question] Problem 7.10
