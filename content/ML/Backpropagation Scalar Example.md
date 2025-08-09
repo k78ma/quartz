@@ -1,9 +1,10 @@
 ---
-title: Backpropagation Toy Example
+title: Backpropagation Scalar Example
 tags:
   - dl
-date: 2025-07-14
-aliases: []
+date: 2025-08-09
+aliases:
+  - backpropagation scalar example
 ---
 Consider a model $f[x,\phi]$ with eight scalar parameters $\phi=\{ \beta_{0}, \omega_{0}, \beta_{1}, \omega_{1},\beta_{2}, \omega_{2}, \beta_{3}, \omega_{3} \}$ that consists of a composition of functions $\sin[\bullet], \exp[\bullet]$ and $\cos[\bullet]$:
 $$

@@ -283,7 +283,15 @@ as required.
 
 
 > [!question] Problem 7.10
-> 
+> Derive the equations for the backward pass of the backpropagation algorithm that uses leaky ReLU activations, which are defined as:
+> $$
+> \mathbf{a}[z] = \text{ReLU}[z] = \begin{cases}
+> \alpha \cdot  z &  z < 0  \\
+> z & z \geq 0
+> \end{cases}
+> $$
+> where $\alpha$ is a small positive constant, typically $0.1$.
+
 
 
 > [!question] Problem 7.11

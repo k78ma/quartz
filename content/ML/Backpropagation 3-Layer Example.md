@@ -1,9 +1,10 @@
 ---
-title: Backpropagation Algorithm
+title: Backpropagation 3-Layer Example
 tags:
   - dl
-date: 2025-07-15
-aliases: []
+date: 2025-08-09
+aliases:
+  - backpropagation 3-layer example
 ---
 Let's repeat the [[Backpropagation Scalar Example|backpropagation toy example]] but for a three-layer network.
 

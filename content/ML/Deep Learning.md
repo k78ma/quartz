@@ -56,7 +56,6 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Backpropagation Algorithm]]
 - [[Backpropagation Scalar Example]]
 - [[Backpropagation 3-Layer Example]]
-- [[Backpropagation Algorithm]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
