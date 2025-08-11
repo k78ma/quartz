@@ -73,20 +73,6 @@ Midterm dates:
 - FINA 2203 - March 29
 - ELEC 4260 - No midterm
 
-## 4A
-- MTE 380
-- MTE 481
-- MTE 484 (Core, AI List 3)
-- MTE 544 (AI List 3)
-- SYDE 522 (AI List 2)
-
-## 4B
-- MTE 482
-- CSE
-- AI List 3
-- AI List 2
-    - One of the two above needs to be math
-- Any TE
 
 ## Trips
 Japan: Jan 8 - 17
@@ -129,3 +115,19 @@ Both are offered in both terms
 ECE457B fall, CS 479 winter:
 - 457B courseload seems a bit lighter - might be better for double capstone
 - But more "actual" courses in W26 so maybe better to have ECE457B in winter
+
+Ideal plan:
+
+4A
+- MTE 380
+- MTE 481
+- MTE 484 (Core, AI List 3)
+- MTE 544 (AI List 3)
+- SYDE 522 (AI List 2)
+
+4B
+- MTE 482
+- CSE
+- CS 479/AMATH 449
+- ECE 457A
+- Any TE

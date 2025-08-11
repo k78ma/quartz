@@ -10,7 +10,7 @@ draft: "true"
 - [ ] PixelCNN MNIST
 - [ ] MLP Snake
 - [ ] Obsidian Language Model
-- [ ] NeRF-- on ponk
+- [ ] NeRF-- or BARF on ponky
 - [ ] 1-pixel bouncing ball
 
 Ideas:
