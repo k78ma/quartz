@@ -367,7 +367,7 @@ $$
 We don't do forward mode differentiation because for each input variable we will need to do a pass, whereas for backward mode we will have to do a pass for each output variable. Generally neural networks have fewer outputs (usually just a scalar loss) than inputs, so backward mode is cheaper.
 
 
-> [!example]- Example with two input variacles
+> [!example]- Example with two input variables
 > Let’s tweak Problem 7.12 graph to have **two inputs** $x$ and $z$ while keeping the same structure:
 > $$
 > \begin{aligned}
