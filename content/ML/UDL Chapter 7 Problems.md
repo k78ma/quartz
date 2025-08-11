@@ -298,17 +298,113 @@ $$
 $$
 
 
-
 > [!question] Problem 7.11
-> 
+> Consider training a network with fifty layers, where we only have enough memory to store the pre-activations at every tenth hidden layer during the forward pass. Explain how to compute the derivatives in this situation using gradient checkpointing.
+
+We just start from each 10th hidden layers.
+- We have the loss gradient at 50 and the saved checkpoint at 40, so we recompute the forward for layers 41-50 from the saved state at 40. Then we backprop through 50 to 41, accumulating parameter grads and the gradient wrt the activation at layer 40.
+- Then we just move to the next window - recompute forward 31 to 40, 21–30, 11–20, and 1–10,
 
 
 > [!question] Problem 7.12
+> This problem explores computing derivatives on general acyclic computational graphs. Consider the function: 
+> $$
+> y= \exp[\exp[x]+\exp[x]^{2}] + \sin[\exp[x] + \exp[x]^{2}]
+> $$
+> We can break this down into a series of intermediate computations so that:
+> $$
+> \begin{align}
+> f_{1}  & = \exp[x] \\
+> f_{2}  & = f_{1}^{2} \\
+> f_{3}  & = f_{1}+f_{2} \\
+> f_{4}  & = \exp[f_{3}] \\
+> f_{5}  & = \sin[f_{3}] \\
+> y  & = f_{4} + f_{5}
+>\end{align}
+> $$
+> The associated computational graph is shown below.
 > 
+> ![[UDL Chapter 7 Problems-20250810171542955.png]]
+> 
+> Compute the derivative $\partial y / \partial x$ by *reverse-mode differentiation*. In other words, compute in order:
+> $$
+> \frac{ \partial y }{ \partial f_{5} } , \frac{ \partial y }{ \partial f_{4} }, \frac{ \partial y }{ \partial f_{3} } , \frac{ \partial y }{ \partial f_{2} } , \frac{ \partial y }{ \partial f_{1} }, \frac{ \partial y }{ \partial x } 
+> $$
+> using the chain rule in each case to make use of the derivatives already computed.
+
+$$
+\begin{align}
+\frac{ \partial y }{ \partial f_{5} }  & = 1 \\[2ex] 
+\frac{ \partial y }{ \partial f_{4} }  & = 1 \\[2ex] 
+\frac{ \partial y }{ \partial f_{3} }  & = \frac{ \partial y }{ \partial f_{4} } \frac{ \partial f_{4} }{ \partial f_{3} }  + \frac{ \partial y }{ \partial f_{5} } \frac{ \partial f_{5} }{ \partial f_{3} }  = \cos[f_{3}] + \exp[f_{3}] \\[2ex] 
+\frac{ \partial y }{ \partial f_{2} }  & = \frac{ \partial y }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial f_{2} } = \cos[f_{3}] + \exp[f_{3}] \\[2ex] 
+\frac{ \partial y }{ \partial f_{1} }  & = \frac{ \partial y }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial f_{1} } +\frac{ \partial y }{ \partial f_{3} } \frac{ \partial f_{2} }{ \partial f_{1} } = \cos[f_{3}] + \exp[f_{3}]  + (\cos[f_{3}] + \exp[f_{3}])(2f_{1}) \\[2ex] 
+\frac{ \partial y }{ \partial x }  & = \frac{ \partial y }{ \partial f_{1} } \frac{ \partial f_{1} }{ \partial x }  = \exp[x]\Big(\cos[f_{3}] + \exp[f_{3}]  + (\cos[f_{3}] + \exp[f_{3}])(2f_{1}) \Big)
+\end{align}
+$$
 
 
 > [!question] Problem 7.13
-> 
+> For the same function as 7.12, compute the derivative $\partial y / \partial x$ by *forward-mode differentiation*. In other words, compute in order:
+> $$
+> \frac{ \partial f_{1} }{ \partial x } , \frac{ \partial f_{2} }{ \partial x } , \frac{ \partial f_{3} }{ \partial x } , \frac{ \partial f_{4} }{ \partial x } , \frac{ \partial f_{5} }{ \partial x } , \frac{ \partial y }{ \partial x } 
+> $$
+> using the chain rule in each case to make use of the derivatives already computed. Why do we not use forward-mode differentiation when we calculate the parameter gradients for deep networks? 
+
+$$
+\begin{align}
+\frac{ \partial f_{1} }{ \partial x }  & = \exp[x] \\[2ex] 
+\frac{ \partial f_{2} }{ \partial x }  & = \frac{ \partial f_{2} }{ \partial f_{1} } \frac{ \partial f_{1} }{ \partial x } = 2f_{1} \exp[x] \\[2ex] 
+\frac{ \partial f_{3} }{ \partial x }  & = \frac{ \partial f_{3} }{ \partial f_{1} } \frac{ \partial f_{1} }{ \partial x } + \frac{ \partial f_{3} }{ \partial f_{2} } \frac{ \partial f_{2} }{ \partial x } = \exp[x] + 2f_{1}\exp[x] = \exp[x](1+2f_{1}) \\[2ex] 
+\frac{ \partial f_{4} }{ \partial x }  & = \frac{ \partial f_{4} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial x } = \exp [f_{3}] \exp[x](1+2f_{1}) \\[2ex] 
+\frac{ \partial f_{5} }{ \partial x }  & = \frac{ \partial f_{5} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial x } = \cos [f_{3}] \exp[x](1+2f_{1}) \\[2ex] 
+\frac{ \partial y }{ \partial x }  & = \frac{ \partial y }{ \partial f_{4} } \frac{ \partial f_{4} }{ \partial x }  + \frac{ \partial y }{ \partial f_{5} } \frac{ \partial f_{5} }{ \partial x } = \exp [f_{3}] \exp[x](1+2f_{1}) +  \cos [f_{3}] \exp[x](1+2f_{1}) \\[2ex] 
+     & =\exp[x]((\exp[f_{3}]+\cos[f_{3}])(1+2f_{1})) \\
+     & = \exp[x](\exp [f_{3}] + \cos[f_{3}] + 2f_{1}(\exp[f_{3}]+\cos[f_{3}]))
+\end{align}
+$$
+
+We don't do forward mode differentiation because for each input variable we will need to do a pass, whereas for backward mode we will have to do a pass for each output variable. Generally neural networks have fewer outputs (usually just a scalar loss) than inputs, so backward mode is cheaper.
+
+
+> [!example]- Example with two input variacles
+> Let’s tweak Problem 7.12 graph to have **two inputs** $x$ and $z$ while keeping the same structure:
+> $$
+> \begin{aligned}
+> f_1 &= e^{x}\\
+> f_2 &= f_1^2\\ 
+> f_3 &= f_1 + f_2 + z \qquad (\text{new: direct input } z)\\ f_4 &= e^{f_3}\\ f_5 &= \sin(f_3)\\ y &= f_4 + f_5 \end{aligned}
+> $$
+> **Forward mode** needs one pass per input:
+> - Pass 1 (derivatives with respect to $x$):
+> $$
+> \begin{aligned} 
+> \dot f_1 &= e^{x}\dot x = e^{x}\\ 
+> \dot f_2 &= 2f_1\,\dot f_1 = 2f_1 e^{x}\\ 
+> \dot f_3 &= \dot f_1+\dot f_2+\dot z = e^{x}+2f_1 e^{x} = e^{x}(1+2f_1)\\ 
+> \dot f_4 &= e^{f_3}\dot f_3\\ 
+> \dot f_5 &= \cos(f_3)\dot f_3\\ 
+> \dot y &= (e^{f_3}+\cos f_3)\,\dot f_3 = (e^{f_3}+\cos f_3)\,e^{x}(1+2f_1) = \frac{\partial y}{\partial x} \end{aligned} 
+>$$
+>  - Pass 2 (derivatives with respect to $z$):
+>$$
+>\begin{aligned} 
+>\dot f_1 &= 0,\quad \dot f_2=0\\ 
+>\dot f_3 &= 0+0+1 = 1\\ 
+>\dot f_4 &= e^{f_3}\\ 
+>\dot f_5 &= \cos(f_3)\\ 
+>\dot y &= e^{f_3}+\cos f_3 = \frac{\partial y}{\partial z} \end{aligned}    
+>$$
+>
+>**Reverse mode** only requires one pass:
+>$$
+>\begin{aligned} 
+>\frac{\partial y}{\partial f_5}&=1,\quad \frac{\partial y}{\partial f_4}=1\\ 
+>\frac{\partial y}{\partial f_3} &= \frac{\partial y}{\partial f_4}\frac{\partial f_4}{\partial f_3} • \frac{\partial y}{\partial f_5}\frac{\partial f_5}{\partial f_3} = e^{f_3}+\cos f_3\\ \frac{\partial y}{\partial f_2}&=\frac{\partial y}{\partial f_3}\cdot 1 = e^{f_3}+\cos f_3\\ 
+>\frac{\partial y}{\partial f_1} &= \frac{\partial y}{\partial f_3}\cdot 1 • \frac{\partial y}{\partial f_2}\cdot (2f_1) = (e^{f_3}+\cos f_3)\,(1+2f_1)\\ 
+>\frac{\partial y}{\partial x} &= \frac{\partial y}{\partial f_1}\cdot \frac{\partial f_1}{\partial x} = (e^{f_3}+\cos f_3)\,(1+2f_1)\,e^{x}\\ 
+>\frac{\partial y}{\partial z} &= \frac{\partial y}{\partial f_3}\cdot \frac{\partial f_3}{\partial z} = e^{f_3}+\cos f_3 \end{aligned}
+>$$
 
 
 > [!question] Problem 7.14

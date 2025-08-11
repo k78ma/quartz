@@ -63,7 +63,7 @@ ls /usr/share/glvnd/egl_vendor.d/
 ```
 
 ```
-apt-get install libglvnd-dev
+apt-get install libglvnd-dev
 ```
 
 ## Upload Code
@@ -110,10 +110,13 @@ python lerobot_sim2real/scripts/train_ppo_rgb.py --env-id="SO100GraspCube-v1" --
 
 Evaluate original policy:
 ```
-python lerobot_sim2real/scripts/evaluate_distribution.py --checkpoint ckpt_2451.pt --env_kwargs_json_path env_config.json
+python lerobot_sim2real/scripts/evaluate_distribution.py --checkpoint ckpt_3351.pt --env_kwargs_json_path env_config.json
 ```
 
-
+Evaluate black env:
+```
+python lerobot_sim2real/scripts/evaluate_distribution.py --checkpoint ckpt_3351.pt --env_kwargs_json_path env_config_robotcolor.json
+```
 ## Compare Runs
 
 ```
