@@ -196,7 +196,7 @@ $$
 $$
 This is because $z_{i}$ depends linearly on each $h_{j}$, so the partial derivative just plucks out the corresponding weight.
 
-Then, since "$\partial \mathbf{ z} / \partial \mathbf{h}$ is a matrix containing the term $\partial z_{i} / \partial h_{j}$ in its $i$-th column and $j$-th row":
+Then, since $\partial \mathbf{ z} / \partial \mathbf{h}$ is a matrix containing the term $\partial z_{i} / \partial h_{j}$ in its $i$-th column and $j$-th row":
 $$
 \frac{ \partial \mathbf{z} }{ \partial \mathbf{h} }  = \left[  \frac{ \partial z_{i} }{ \partial h_{j} }   \right]_{\text{row }j, \text{col } i} = \Omega_{ij}
 $$
