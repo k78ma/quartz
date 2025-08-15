@@ -188,7 +188,7 @@ h_{1} \\
 h_{n}
 \end{bmatrix}, \quad  \mathbf{z} = \beta+\Omega \mathbf{h}, \quad  \mathbf{\Omega} = [\Omega_{ij}] \in  \mathbb{R}^{m\times n}
 $$
-so that $z_{i}=\beta_{i}+\sum_{k=1}^{n}\mathbf{\Omega}_{ik}h_{k}$. We can see this is in action in [[Deep Neural Network#Example Computation]] – $\mathbf{\Omega}_{ik}\mathbf{h}_{k}$ is a dot product between the $i$-th row of $\Omega$ and $\mathbf{h}$, and then we add the bias for that row.
+so that $z_{i}=\beta_{i}+\sum_{k=1}^{n}\mathbf{\Omega}_{ik}h_{k}$. We can see this is in action in [[Deep Neural Network#Example Computation]] – $\mathbf{\Omega}_{ik}\mathbf{h}_{k}$ is a dot product between $\mathbf{h}$ and the $i$-th row of $\Omega$, and then we add the bias for that row.
 
 Now let's consider the element-wise derivative. For some fixed $i$ and $j$:
 $$
@@ -408,12 +408,52 @@ We don't do forward mode differentiation because for each input variable we will
 
 
 > [!question] Problem 7.14
-> 
+> Consider a random variable $a$ with variance $\text{Var}[a] = \sigma^{2}$ and a symmetrical distribution around the mean $\mathbb{E}[a]=0$. Prove that if we pass this variable through the ReLU function
+> $$
+> b = \text{ReLU}[a] = \begin{cases}
+> 0 & a<0 \\
+> a & a\geq 0
+> \end{cases}
+> $$
+> then the second moment of the transformed variable is $\mathbb{E}[b^{2}]=\sigma^{2}/2$.
+
+We have:
+$$
+b^{2} = a^{2} \mathbf{1}_{\{ a\geq 0 \}}
+$$
+where $\mathbf{1}$ is an indicator function that returns 1 is the condition inside the brackets is true and 0 if false.
+
+Then:
+$$
+\mathbb{E}[b^{2}] = \mathbb{E}[a^{2}\mathbf{1}_{\{ a\geq 0 \}}]
+$$
+To find this, let's try to first find an expression for $\mathbb{E}[a^{2}]$ in terms of $\mathbb{E}[a^{2} \mathbf{1}_{\{ a\geq 0 \}}]$.
+
+Since $a$ is symmetric around 0, we have:
+$$
+\mathbb{E}[a^{2} \mathbf{1}_{\{ a< 0 \}}] = \mathbb{E}[a^{2} \mathbf{1}_{\{ a\geq 0 \}}]
+$$
+Splitting $\mathbb{E}[a^{2}]$ into positive and negative parts:
+$$
+\mathbb{E}[a^{2}] = \mathbb{E}[a^{2} \mathbf{1}_{\{ a< 0 \}}] + \mathbb{E}[a^{2} \mathbf{1}_{\{ a\geq 0 \}}] = 2\mathbb{E}[a^{2} \mathbf{1}_{\{ a\geq 0 \}}]
+$$
+Therefore,
+$$
+\mathbb{E}[b^{2}] = \mathbb{E}[a^{2}\mathbf{1}_{\{ a\geq 0 \}}] = \frac{1}{2}\mathbb{E}[a^{2}]
+$$
+Since $\mathbb{E}[a]=0, \mathbb{E}[a^{2}]=\text{Var}(a)=\sigma^{2}$. Thus,
+$$
+E[b^{2}] = \frac{1}{2}\sigma^{2}
+$$
+as desired.
 
 
 > [!question] Problem 7.15
-> 
+> What would you expect to happen if we initialized all of the weights and biases in the network to zero? 
 
+During gradient descent, we calculate how each neuron in a layer affects the loss. However, if all the weights are initialized to zero, all the neurons in the same layer have identical gradients; while they will update so that they are not zero, they will all update the same way.
+
+If neurons in a layer are clones, they compute the same function, so the network loses its ability to learn different features. The output will stay the same forever.
 
 > [!question] Problem 7.16
 > 

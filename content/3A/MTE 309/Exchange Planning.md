@@ -116,18 +116,22 @@ ECE457B fall, CS 479 winter:
 - 457B courseload seems a bit lighter - might be better for double capstone
 - But more "actual" courses in W26 so maybe better to have ECE457B in winter
 
-Ideal plan:
+### Ideal plan
 
-4A
-- MTE 380
-- MTE 481
-- MTE 484 (Core, AI List 3)
+| 4A                                                                                                       | 4B                                                                                                     |
+| -------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| - MTE 380<br>- MTE 481<br>- MTE 484 (Core, AI List 3)<br>- MTE 544 (AI List 3)<br>- SYDE 522 (AI List 2) | - MTE 482<br>- CSE<br>- CS 479/AMATH 449 (AI List 3)<br>- ECE 457A (AI List 2)<br>- Any TE (optional?) |
+
+### Plan B
+
+| 4A                                                                                                       | 4B                                                                                            |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| - MTE 380<br>- MTE 481<br>- MTE 484 (Core, AI List 3)<br>- MTE 544 (AI List 3)<br>- ECE 457B (AI List 2) | - MTE 482<br>- CSE<br>- CS 479/AMATH 449 (AI List 3)<br>- ECE 457A (AI List 2)<br>- Anything? |
+
+TE list:
+- ELEC 4260 (AI List 3)
 - MTE 544 (AI List 3)
-- SYDE 522 (AI List 2)
+- SYDE 522/ECE 457B (AI List 2)
+- ECE 457A (AI List 2)
+- CS 479/AMATH 449 (AI List 3)
 
-4B
-- MTE 482
-- CSE
-- CS 479/AMATH 449
-- ECE 457A
-- Any TE

@@ -75,7 +75,7 @@ $$
 Then, the first pre-activation is:
 $$
 \begin{align}
-\mathbf{z}_{1}  & = \Omega_{0} \mathbf{x} + \beta_{0} \\[2ex]
+\mathbf{f}_{1}  & = \Omega_{0} \mathbf{x} + \beta_{0} \\[2ex]
      & = \begin{bmatrix}
 (0.2)(1) + (-0.1)(-1) + (0.4)(0.5) \\
 (0.7)(1) + (0.3)(-1) + (-0.5 )(0.5) \\
@@ -108,7 +108,7 @@ $$
 $$
 Passing through ReLU to get to the complete first hidden layer:
 $$
-\mathbf{h}_{1}=a[\mathbf{z}_{1}] = \begin{bmatrix}
+\mathbf{h}_{1}=a[\mathbf{f}_{1}] = \begin{bmatrix}
 0.6 \\
 0 \\
 0 \\
@@ -129,7 +129,7 @@ $$
 Then, the pre-activation is:
 $$
 \begin{align}
-\mathbf{z}_{2}  & = \mathbf{\Omega_{1}}\mathbf{h}_{1}+\beta_{1} \\[2ex]
+\mathbf{f}_{2}  & = \mathbf{\Omega_{1}}\mathbf{h}_{1}+\beta_{1} \\[2ex]
      & = \begin{bmatrix}
 (0.3)(0.6) + (-0.2)(0) + (0.1)(0) + (0.4)(0.5) \\
 (-0.5)(0.6) + (0.6)(0) + (0.2)(0) + (-0.1)(0.5)
@@ -152,7 +152,7 @@ $$
 $$
 Passing through ReLU:
 $$
-\mathbf{h}_{2} = a[\mathbf{z}_{2}] = \begin{bmatrix}
+\mathbf{h}_{2} = a[\mathbf{f}_{2}] = \begin{bmatrix}
 0.43 \\
 0
 \end{bmatrix}
@@ -177,7 +177,7 @@ $$
 and we compute the pre-activation with:
 $$
 \begin{align}
-\mathbf{z}_{3}  & = \Omega_{2}\mathbf{h}_{2} + \beta_{2} \\[2ex]
+\mathbf{f}_{3}  & = \Omega_{2}\mathbf{h}_{2} + \beta_{2} \\[2ex]
      &  =\begin{bmatrix}
 (0.2)(0.43) + (-0.1)(0) \\
 (-0.3)(0.43) + (0.4)(0) \\
@@ -206,7 +206,7 @@ $$
 $$
 Then, applying ReLU to get the activations of the third hidden layer:
 $$
-\mathbf{h}_{3} = a[\mathbf{z}_{3}] = \begin{bmatrix}
+\mathbf{h}_{3} = a[\mathbf{f}_{3}] = \begin{bmatrix}
 0.186 \\
 0.071 \\
 0.165
@@ -226,7 +226,7 @@ $$
 We use these to compute the output pre-activation:
 $$
 \begin{align}
-\mathbf{z}_{4}  & = \Omega_{3}\mathbf{h}_{3} + \beta_{3} \\[2ex]
+\mathbf{f}_{4}  & = \Omega_{3}\mathbf{h}_{3} + \beta_{3} \\[2ex]
 
  &  = \begin{bmatrix} (0.4)(0.186) + (-0.2)(0.071) + (0.1)(0.165) \\ (-0.3)(0.186) + (0.5)(0.071) + (0.2)(0.165) \end{bmatrix} +\begin{bmatrix}
 0.05 \\
