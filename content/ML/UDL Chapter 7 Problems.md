@@ -458,6 +458,9 @@ If neurons in a layer are clones, they compute the same function, so the network
 > [!question] Problem 7.16
 > 
 
+see github
 
 > [!question] Problem 7.17
 > 
+
+see github
