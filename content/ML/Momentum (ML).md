@@ -6,7 +6,7 @@ date: 2024-01-22
 aliases:
   - momentum
 ---
-Nice Distill blog: [Why Momentum Really Works](https://distill.pub/2017/momentum/)
+- Nice Distill blog: [Why Momentum Really Works](https://distill.pub/2017/momentum/)
 
 A common modification of [[Stochastic Gradient Descent]] is to add a **momentum** term. We update the parameters with a weighted combination of the gradient computed from the current batch and the direction moved in the previous step:
 $$

@@ -71,6 +71,10 @@ apt-get install libglvnd-dev
 scp -P 10225 -r ~/code/lerobot-sim2real/ root@47.47.180.73:/workspace/
 ```
 
+Transfer code back:
+```
+scp -P 16443 -r root@38.65.239.30:/workspace/ ~/code/
+```
 ## Create conda env
 ```
 conda create -n ms3 "python==3.11"
@@ -125,4 +129,34 @@ pip install scikit-learn seaborn umap-learn
 
 ```
 python lerobot_sim2real/scripts/compare_runs.py --run_a eval_original --run_b eval_black
+```
+
+## Evaluation Envelope
+
+Mahalanobis:
+```
+python lerobot_sim2real/scripts/eval_safe_envelope.py \
+  --checkpoint ckpt_3351.pt \
+  --env-id "SO100GraspCube-v1" \
+  --env-kwargs-json-path env_config_robotcolor.json \
+  --envelope-source precomputed \
+  --precomputed-dir eval_original_0815 \
+  --envelope-type mahalanobis_ellipsoid --q-high 0.98 --cov-eps 1e-6 \
+  --total-envs 2000 --batch-envs 1000 --video-num-envs 16 \
+  --num-steps 64 --deterministic \
+  --record-dir eval_safe_maha_2000
+```
+
+Quantile:
+```
+python lerobot_sim2real/scripts/eval_safe_envelope.py \
+  --checkpoint ckpt_2451.pt \
+  --env-id "SO100GraspCube-v1" \
+  --env-kwargs-json-path env_config_robotcolor.json \
+  --envelope-source precomputed \
+  --precomputed-dir eval_original_0815_2 \
+  --envelope-type quantile_box --q-low 0.01 --q-high 0.99 \
+  --total-envs 2000 --batch-envs 1000 --video-num-envs 16 \
+  --num-steps 64 --deterministic \
+  --record-dir eval_safe_qbox_2000
 ```
