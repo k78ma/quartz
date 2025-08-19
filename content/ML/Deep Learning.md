@@ -58,8 +58,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Backpropagation 3-Layer Example]]
 - [[Parameter Initialization]]
 
-## Evaluation
-- [[]]
+## Model Performance
+- [[Sources of Test Error]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
@@ -75,6 +75,6 @@ Some of these notes are also included in [[Machine Learning]].
 - [[UDL Chapter 5 Problems]]
 - [[UDL Chapter 6 Problems]]
 - [[UDL Chapter 7 Problems]]
-
+- [[UDL Chapter 8 Problems]]
 
 - [[Counterfactual Probing]]
