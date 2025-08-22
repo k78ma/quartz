@@ -11,6 +11,7 @@ Programs:
 - [CMU MSR](https://www.ri.cmu.edu/education/academic-programs/master-of-science-robotics/)
 - [Northwestern MSR](https://www.mccormick.northwestern.edu/robotics/)
 - [Stanford MSCS](https://www.cs.stanford.edu/masters-program-overview)
+- https://research.gatech.edu/robotics/ms-robotics-program
 
 GRE:
 - [GRE Manhattan Prep](file:///Users/kai/books/GRE%20Manhattan%20Prep.pdf)
