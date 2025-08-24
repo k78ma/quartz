@@ -61,7 +61,7 @@ Some of these notes are also included in [[Machine Learning]].
 ## Model Performance
 - [[Sources of Test Error]]
     - [[MNIST 1D Test Error Example]]
-
+- [[Mathematical Formulation of Test Error]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
