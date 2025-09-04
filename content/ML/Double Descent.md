@@ -27,6 +27,6 @@ Parts of the curve:
 ## Explanation
 Double descent is recent, unexpected, and somewhat puzzling. It results from an interaction of two phenomena:
 1. The test performance becomes temporarily worse when the model has just enough capacity to memorize the data. This is exactly as predicted by the bias-variance tradeoff.
-2. The test performance continues to improve with capacity even when this exceeds the point where all the training data are classified correctly. This phenomenon is confusing; it's unclear why performance should be better in the over-parametrized regime, given there are not even enough training d
+2. The test performance continues to improve with capacity even when this exceeds the point where all the training data are classified correctly. This phenomenon is confusing; it's unclear why performance should be better in the over-parametrized regime, given there are not even enough training data points to constrain the model parameters uniquely.
 
-kyle, daniel, sina, sunwoo, lucas, andreas, drew, abu
+To understand why performance continues to improve as we add more parameters, note that once the model has enough capacity to drive the training loss to near zero, the model f

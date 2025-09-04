@@ -2,6 +2,7 @@
 title: Feedback Control
 tags:
   - elec3200
+  - mte484
 date: 2025-04-24
 aliases:
   - feedback control

@@ -74,7 +74,7 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Scalar Multiplication of Matrix]]
 - [[Matrix Multiplication]]
 
-
+- [[Orthogonal Matrix]]
 ## Exercises
 - [[LADR Exercises 1A]]
 - [[LADR Exercises 1B]]
