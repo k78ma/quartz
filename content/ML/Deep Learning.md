@@ -64,6 +64,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Mathematical Formulation of Test Error]]
 - [[Reducing Model Error]]
 - [[Double Descent]]
+- [[Inductive Bias]]
+- [[Curse of Dimensionality]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
@@ -80,4 +82,6 @@ Some of these notes are also included in [[Machine Learning]].
 - [[UDL Chapter 7 Problems]]
 - [[UDL Chapter 8 Problems]]
 
+
+## Projects
 - [[Counterfactual Probing]]

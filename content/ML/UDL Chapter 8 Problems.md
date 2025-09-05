@@ -23,6 +23,7 @@ L[\phi] & = - \sum_{i=1}^{I} \log \Big[ \text{softmax}_{y_{i}} \Big[ f[\mathbf{x
 $$
 Thus, for the loss to be zero, we need $\text{softmax}_{y_{i}} [ f[\mathbf{x_{i}}, \phi]]$ to be $1$. This is impossible as $\text{softmax}[z]=1$ only for $z\to \infty$. With any finite parameters, we will have $\text{softmax}[z]<1$. Thus, although we can get arbitrarily close to zero, we will never get exactly zero. 
 
+
 > [!question] Problem 8.2
 > What values should we choose for the three weights and biases in the first layer of the model in figure 8.4a so that the hidden unit’s responses are as depicted in figures 8.4b–d? 
 
@@ -51,6 +52,7 @@ where $i$ indexes the training data. This can be solved in closed form with [[Or
 The training performance would be worse than before, as the number of model parameters compared to training examples is less than before, making the training set harder to memorize. However, testing performance may be better; with more data, variance decreases, resulting in less test error. One can also argue that noise, while irreducible, is diluted in this case because the model can rely on more clean samples.
 
 
+
 > [!question] Problem 8.5
 > Consider the case where the model capacity exceeds the number of training data points, and the model is flexible enough to reduce the training loss to zero. What are the implications of this for fitting a heteroscedastic model? Propose a method to resolve any problems that you identify.
 
@@ -59,6 +61,8 @@ Recall that [[Heteroscedastic Regression|heteroscedastic]] means that the uncert
 In this case, we would typically predict the variance as a model output in the training process. However, if we are overparametrized, there are no residuals to train the variance on, so the variance would always be zero.
 
 Some ways to deal with this would be to compute residuals on held-out predictions and train the variance on those instead of in-sample points. Or, we could constrain by putting some floor variance. The obvious best thing to do would be [[Regularization|regularization]] to keep the model from perfectly fitting but the point here is to overfit I think.
+
+
 
 > [!question] Problem 8.6
 > 

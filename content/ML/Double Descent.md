@@ -31,4 +31,19 @@ Double descent is recent, unexpected, and somewhat puzzling. It results from an 
  
  To understand why performance continues to improve as we add more parameters, note that once the model has enough capacity to drive the training loss to near zero, the model fits the training data almost perfectly. This implies that further capacity cannot help the model fit the training data any better; any change must occur *between* training points. The tendency of a model to prioritize one solution over another as it extrapolates between data points is known as [[Inductive Bias|inductive bias]]. 
 
-The model's behavior be
+The model's behavior behavior between data points is critical because training data is extremely sparse in high-dimensional space. MNIST-1D data is 40-dimensional, and we trained with 10,000 examples. Consider what would happen if we quantized each input dimension into 10 bins. There would be $10^{40}$ bins in total, constrained by only $10^{4}$ examples. Even with this coarse quantization, there will only be one data point in every $10^{36}$ bins. This tendency of the volume of high-dimensional space to overwhelm the number of training points is called the [[Curse of Dimensionality]].
+
+The implication is that problems in high dimensions might look like figure 8.11a below; there are small regions of the input space where we observe data, with significant gaps between them.
+
+![[Double Descent-20250905001013025.png]]
+
+Thus, the putative explanation for double descent is that as we add capacity to the model, it interpolates between the nearest data points increasingly smoothly. In the absence of information about what happens between the training points, assuming smoothness is sensible and will probably generalize reasonably to new data.
+
+This argument is plausible. It's true that as we add more capacity to the model, it will have the capability to create smoother functions. Figure 8.11b-f show the smoothest possible functions that still pass through the data points as we increase the number of hidden units. In Figure 8.11b, when the number of parameter is close to the number of training data examples (not yet overparametrized), the model is forced to contort itself to fit the training data exactly, resulting in erratic predictions. This explains why the peak in the double descent curve is so pronounced. As we add more hidden units, the model has the ability to construct smoother functions that are likely to generalize better to new data.
+
+However, this does not explain why overparametrized models should produce smooth functions. Figure 8.12 shows three functions that can be created by the simplified model with 50 hidden units. In each case, the model fits the data exactly, so the loss is zero. If the modern regime of double descent is explained by increasing smoothness, then what exactly encouraging this smoothness? The answer to this is uncertain, but there are two likely possibilities:
+1. The network initialization may encourage smoothness, and the model never departs from the sub-domain of smooth function during the training process.
+2. The training algorithm may somehow "prefer" to converge to smooth functions. Any factor that biases a solution toward a subset of equivalent solutions is known as a [[Regularization|regularizer]], so one possibility is that the training algorithm acts as an implicit regularizer (see [[Implicit Regularization]]).
+
+![[Double Descent-20250905002025569.png]]
+
