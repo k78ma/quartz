@@ -21,8 +21,8 @@ This is called *double descent*. For some datasets like MNIST (fig 8.10c), it's 
 
 Parts of the curve:
 - First part: Classical or under-parametrized regime
-- Second part: Modern or over-parametrized regime
 - Central part (where error increases): Critical regime
+- Second part: Modern or over-parametrized regime
 
 ## Explanation
 Double descent is recent, unexpected, and somewhat puzzling. It results from an interaction of two phenomena:
@@ -30,3 +30,5 @@ Double descent is recent, unexpected, and somewhat puzzling. It results from an 
 2. The test performance continues to improve with capacity even when this exceeds the point where all the training data are classified correctly. This phenomenon is confusing; it's unclear why performance should be better in the over-parametrized regime, given there are not even enough training data points to constrain the model parameters uniquely.
  
  To understand why performance continues to improve as we add more parameters, note that once the model has enough capacity to drive the training loss to near zero, the model fits the training data almost perfectly. This implies that further capacity cannot help the model fit the training data any better; any change must occur *between* training points. The tendency of a model to prioritize one solution over another as it extrapolates between data points is known as [[Inductive Bias|inductive bias]]. 
+
+The model's behavior be

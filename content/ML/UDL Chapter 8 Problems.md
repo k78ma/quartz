@@ -44,12 +44,21 @@ where $i$ indexes the training data. This can be solved in closed form with [[Or
 
 
 > [!question] Problem 8.4
+> Consider the curve in figure 8.10b at the point where we train a model with a hidden layer of size 200, which would have 50,410 parameters. What do you predict will happen to the training and test performance if we increase the number of training examples from 10,000 to 50,410.
 > 
+> ![[UDL Chapter 8 Problems-20250904233131622.png]]
+
+The training performance would be worse than before, as the number of model parameters compared to training examples is less than before, making the training set harder to memorize. However, testing performance may be better; with more data, variance decreases, resulting in less test error. One can also argue that noise, while irreducible, is diluted in this case because the model can rely on more clean samples.
 
 
 > [!question] Problem 8.5
-> 
+> Consider the case where the model capacity exceeds the number of training data points, and the model is flexible enough to reduce the training loss to zero. What are the implications of this for fitting a heteroscedastic model? Propose a method to resolve any problems that you identify.
 
+Recall that [[Heteroscedastic Regression|heteroscedastic]] means that the uncertainty of the model varies as a function of input data.
+
+In this case, we would typically predict the variance as a model output in the training process. However, if we are overparametrized, there are no residuals to train the variance on, so the variance would always be zero.
+
+Some ways to deal with this would be to compute residuals on held-out predictions and train the variance on those instead of in-sample points. Or, we could constrain by putting some floor variance. The obvious best thing to do would be [[Regularization|regularization]] to keep the model from perfectly fitting but the point here is to overfit I think.
 
 > [!question] Problem 8.6
 > 
