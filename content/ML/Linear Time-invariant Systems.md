@@ -12,7 +12,7 @@ aliases:
 A system is linear if it can be defined by linear differential equations. In particulars, if the functions $\mathbf{f}$ and $g$ in its [[State-Variable Models|state-space model]] are linear functions of the state variables $\mathbf{x}(t)$ and input $u(t)$.
 
 ## Time-Invariance
-A system is said time-invariant if it can be by differential equations with constant coefficients. In particular, if the functions $\mathbf{f}$ and $g$ in its state space model do not depend on the time $t$ explicitly.
+A system is said time-invariant if it can expressed be by differential equations with constant coefficients. In particular, if the functions $\mathbf{f}$ and $g$ in its state space model do not depend on the time $t$ explicitly.
 - See some examples in [[Time-invariant and time varying systems]]
 
 Assume that a time-invariant system has zero initial conditions, and zero input generates zero output. If input $u(t)$ produces output $y(t)$, then input $u(t-\tau)$ for all $\tau \geq 0$.

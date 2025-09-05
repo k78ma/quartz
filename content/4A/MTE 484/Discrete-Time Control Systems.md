@@ -7,11 +7,13 @@ aliases: discrete-time control systems
 ---
 A discrete-time control system has the form:
 
-![[Discrete-Time Control Systems-20250905134725185.png]]
+![[Discrete-Time Control Systems-20250905134725185.png|633]]
 
 A typical step response for a discrete control system:
 
-![[Discrete-Time Control Systems-20250905134636576.png]]
+![[Discrete-Time Control Systems-20250905134636576.png|575]]
+
+(some overshoot, oscillate, and then become stable)
 
 Time domain: Difference equations → lead to state-space models
 
@@ -34,6 +36,16 @@ Because physical plants are always continuous-time systems, discrete-time contro
 - D/A is a digital-to-analog converter. Typically we use a "zero order hold" that holds $u[k]$ for $t \in [kT, (k+1)T] \; \; \forall \; k \in \mathbb{Z}_{\geq 0}$.
 
 ![[Discrete-Time Control Systems-20250905140243926.png]]
+
+
+
+> [!theorem] 
+> Even a simple system that's just sampler-to-hold ($D[z]=1$), the system is not LTI.
+> 
+> ![[Discrete-Time Control Systems-20250905140741432.png|463]]
+> 
+> As a result, the full closed-loop sampled-data system is also NOT LTI.
+
 
 
 
