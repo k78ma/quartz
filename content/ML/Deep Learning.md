@@ -64,8 +64,11 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Mathematical Formulation of Test Error]]
 - [[Reducing Model Error]]
 - [[Double Descent]]
+- [[Choosing Hyperparameters]]
 - [[Inductive Bias]]
 - [[Curse of Dimensionality]]
+
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
