@@ -13,4 +13,4 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Sampled-Data Control Systems]]
 - [[Choosing Sampling Time]]
 
-- [[Continuous-Time Control Systems]]
+- [[Frequency-Domain Control Systems]]

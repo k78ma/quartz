@@ -4,6 +4,7 @@ tags:
 date: "2025-09-08"
 aliases: "continuous-time control systems"
 ---
+## Continuous-Time
 We typically assume the plant satisfies a [[Linear Time-invariant Systems|LTI]] ODE of the form:
 $$
 \sum_{i=0}^{n}a_{i} \frac{d_{i}y}{dt^{i}}(t) - \sum_{j=0}^{m} b_{j} \frac{d^{j}u}{dt^{j}}(t)=0
@@ -22,7 +23,7 @@ Y(s)  & = \underbrace{ \frac{\sum_{j=0}^{m}b_{j}s_{j}}{\sum_{i=0}^{n}a_{i}s ^{i}
 Y(s)  & = P(s)U(s)
 \end{align}
 $$
-## Discrete Time
+## Discrete-Time
 In discrete time, we typically assume the plant satisfies an LTI difference equation of the form:
 $$
 \sum_{i=0}^{n}a_{i}y[k+1] - \sum_{j=0}^{m}b_{j} u[k+j] = 0
