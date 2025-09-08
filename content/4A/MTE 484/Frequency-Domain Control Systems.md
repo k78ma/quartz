@@ -1,8 +1,9 @@
 ---
-title: "Continuous-Time Control Systems"
-tags: 
-date: "2025-09-08"
-aliases: "continuous-time control systems"
+title: Frequency-Domain Control Systems
+tags:
+  - mte484
+date: 2025-09-08
+aliases: frequency-domain control systems
 ---
 ## Continuous-Time
 We typically assume the plant satisfies a [[Linear Time-invariant Systems|LTI]] ODE of the form:
