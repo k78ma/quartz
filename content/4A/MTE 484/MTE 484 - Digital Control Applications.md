@@ -10,3 +10,7 @@ Midterm: Oct 27 8PM - 9:20PM
 
 - [[Feedback Control]]
 - [[Discrete-Time Control Systems]]
+- [[Sampled-Data Control Systems]]
+- [[Choosing Sampling Time]]
+
+- [[Continuous-Time Control Systems]]
