@@ -47,4 +47,8 @@ $$
 $$
 (R_{b}^{a})^{T} = R_{a}^{b}
 $$
-- Multiplying it by its transpose 
+- Multiplying it by its transpose give the identity matrix ([[Orthogonal Matrix|orthogonal matrix]]):
+$$
+R R^{T} = R^{T}R = I
+$$
+We say that $R \in SO(2)$ which stands for [[Special Orthogonal Group]] in 2D.

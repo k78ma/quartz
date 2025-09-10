@@ -27,7 +27,7 @@ $$
 \mathbf{R} \in \mathbb{R}^{n\times n} | \mathbf{R}\mathbf{R}^{T}= \mathbf{I}, \det(\mathbf{R}) = 1
 \end{Bmatrix}
 $$
-$\text{SO}(n)$ refers to a special orthogonal group. This set consists of a rotation matrix of n dimensional space; in particular, $\text{SO}(3)$ refers to the rotation of the three-dimensional space. In this way, we can talk directly about the rotation transformation between the two coordinate systems without having to start from the bases.
+$\text{SO}(n)$ refers to a [[Special Orthogonal Group|special orthogonal group]]. This set consists of a rotation matrix of n dimensional space; in particular, $\text{SO}(3)$ refers to the rotation of the three-dimensional space. In this way, we can talk directly about the rotation transformation between the two coordinate systems without having to start from the bases.
 
 Since the rotation matrix is orthogonal, its inverse (i.e. transpose) describes an opposite rotation, such that:
 $$
