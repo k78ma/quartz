@@ -1,8 +1,9 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: MTE 544 - Autonomous Mobile Robots
+tags:
+  - mte544
+date: 2025-09-10
+aliases: mte 544 - autonomous mobile robots
 ---
 ## Info
 Midterm: Nov 4
