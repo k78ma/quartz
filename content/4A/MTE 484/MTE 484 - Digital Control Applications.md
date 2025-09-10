@@ -6,8 +6,15 @@ tags:
 date: 2025-09-03
 aliases: mte 484 - digital control applications
 ---
+## Info
 Midterm: Oct 27 8PM - 9:20PM
 
+## Background
+- [[Linear Time-invariant Systems]]
+- [[Laplace Transform]]
+- [[Z-Transform]]
+
+## Notes
 - [[Feedback Control]]
 - [[Discrete-Time Control Systems]]
 - [[Sampled-Data Control Systems]]

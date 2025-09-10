@@ -50,7 +50,7 @@ aliases:
 
 - [[2B/SYDE 252/Laplace Transform]]
 	- [[Properties of Laplace Transform]]
-- [[Z-transform for D.T. System Analysis]]
+- [[Z-Transform]]
 - [[Poles and Zeros]]
 - [[Region of Convergence and Existence]]
 - [[Unilateral Laplace and Z Transform]]

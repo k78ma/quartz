@@ -33,7 +33,13 @@ In terms of Laplace transforms as a function, these are written as:
 $$
 X(s)=\mathcal{L}[x(t)] \quad \text{and} \quad x(t)=\mathcal{L}^{-1}[X(s)]
 $$
-
+### Derivatives
+$$
+\begin{align}
+\mathcal{L}(f'(t)) & =sF(s)-f(0) \\[2ex] 
+\mathcal{L}(f''(t)) & =s^{2}F(s)-sf(0)-f(0)
+\end{align}
+$$
 ### Eigenfunction and Transfer Function
 Let's say we want to find the response of an LTI system with impulse response $h(t)$ to the input signal $x(t)=e^{st}$. Then, we have:
 $$

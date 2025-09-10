@@ -1,9 +1,10 @@
 ---
-title: Z-transform for D.T. System Analysis
+title: Z-Transform
 tags:
   - syde252
-date: 2023-11-22
-aliases:
+  - mte484
+date: 2025-09-09
+aliases: z-transform
 ---
 The Z-transform is the discrete time equivalent of [[2B/SYDE 252/Laplace Transform]]. 
 - The Laplace transform converts integro-differential equations into algebraic equations.
@@ -49,4 +50,3 @@ Thus, the input passes through (eigenfunction), and we have a transfer function:
 $$
 H[z]=\frac{y(t)}{x(t)} \Bigg|_{x(t)=z^{n}}
 $$
-
