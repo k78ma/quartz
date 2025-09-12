@@ -9,3 +9,4 @@ aliases: tron 4a
 - [[MTE 380 - Design Workshop]]
 - [[MTE 544 - Autonomous Mobile Robots]]
 - [[SYDE 522 - Fundamentals of AI]]
+- [[MTE Capstone]]
