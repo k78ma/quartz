@@ -1,8 +1,8 @@
 ---
-title: "<%tp.file.title%>"
+title: "Multi-SSH Key Management"
 tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+date: "2025-09-12"
+aliases: "multi-ssh key management"
 ---
 Before: `git@github.com:k78ma/quartz.git`
 
