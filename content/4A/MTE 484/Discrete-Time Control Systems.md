@@ -5,7 +5,6 @@ tags:
 date: 2025-09-05
 aliases:
   - discrete-time control systems
-  - sampled-data system
 ---
 A discrete-time control system has the form:
 

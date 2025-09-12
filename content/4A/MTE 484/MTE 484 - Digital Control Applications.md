@@ -9,18 +9,24 @@ aliases: mte 484 - digital control applications
 ## Info
 Midterm: Oct 27 8PM - 9:20PM
 
+- what does "T stable" mean in [[Sample-Data System Stability]]
 ## Background
 - [[Linear Time-invariant Systems]]
 - [[Laplace Transform]]
 - [[Z-Transform]]
 
-## Notes
+## Introductory Content
 - [[Feedback Control]]
 - [[Discrete-Time Control Systems]]
 - [[Sampled-Data Control Systems]]
-- [[Choosing Sampling Time]]
+    - [[Choosing Sampling Time]]
 - [[Frequency-Domain Control Systems]]
 - [[Transfer Function Classification]]
 - [[Poles and Zeros]]
-- [[Continuous-Time Stability]]
-- [[Discrete-Time Stability]]
+
+## Stability
+- [[Stability Criterion]]
+    - [[Continuous-Time Stability]]
+    - [[Discrete-Time Stability]]
+- [[Sample-Data System Stability]]
+- [[Time-Domain Stability]]

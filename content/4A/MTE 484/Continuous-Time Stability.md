@@ -26,14 +26,15 @@ This system has 3 possible behaviors based on the value of $\lambda$:
 
 ![[Continuous-Time Stability-20250910135918719.png]]
 
-Thus, stability occurs if $\text{Re}(\lambda)<0$. The $\text{Re}(\lambda)=0$ case could be considered "marginally stable" but in MTE 484 it's considered as unstable.
+- Thus, stability occurs if $\text{Re}(\lambda)<0$ (alternatively, we can say that $\lambda \in \mathbb{C}^{-}$).
+- The $\text{Re}(\lambda)=0$ case could be considered "marginally stable" but in MTE 484 it's considered as unstable.
 $$
 \begin{align}
 e^{\lambda t}= e^{(\text{Re}\,\lambda + j \text{Im} \,\lambda)t}  & = e^{(\text{Re} \,\lambda)t+j(\text{Im}\, \lambda)t}  \\
  & =e^{(\text{Re}\, \lambda)t}+e^{j(\text{Im} \,\lambda)t}
 \end{align}
 $$
-Example:
+Another case: Example:
 $$
 \dot{x}=\lambda x + u, \quad \lambda \in  \mathbb{C}
 $$
@@ -47,9 +48,13 @@ $$
 Thus, $\lambda$ is a pole of the transfer function $\frac{1}{s-\lambda}$.
 
 
-> [!definition] Stability criterion
-> A real, rational transfer function $P(s)$ is stable if all the poles of $P(s)$ lie in the open left-half plane (OHLP) $\mathbb{C}^{-}$. which does not include the imaginary axis.
+> [!definition] Stability in continuous-time systems
+> A real, rational transfer function $P(s)$ is stable if all the poles of $P(s)$ lie in the open left-half plane (OHLP), denoted $\mathbb{C}^{-}$. which does not include the imaginary axis (no pole at zero allowed).
 
+## Quick Examples
+- $\frac{s-7}{(s+2)(s+3)}$ is stable
+- $\frac{s+3}{s-1}$ is unstable (pole in the right hand plane)
+- $\frac{s+5}{s(s+4)}$ is unstable (pole at zero)
 
 
 

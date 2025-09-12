@@ -23,11 +23,17 @@ X(s)=\mathcal{L}[x(t)]=\int_{0^{-}}^{\infty} x(t)e^{-s t} \, dt
 $$
 The [[Region of Convergence and Existence|region of convergence]] is the set of complex numbers $s$ that make the integral meaningful.
 
+### Inverse Laplace Transform
 The signal $x(t)$ is said to be the **inverse Laplace transform** of $X(s)$. It can be shown that:
 $$
 x(t) =\frac{1}{2\pi j} \int_{c-j\infty}^{c+j\infty} X(s)e^{st} \, ds
 $$
 where $c$ is a constant chosen to ensure the convergence of the integral. 
+
+Alternatively
+$$
+x(t) = \mathcal{L}^{-1}(X(s)) = \frac{1}{2\pi j} \int_{-\infty}^{\infty}  X(j\omega) e^{j\omega t} \, d\omega 
+$$
 
 In terms of Laplace transforms as a function, these are written as:
 $$

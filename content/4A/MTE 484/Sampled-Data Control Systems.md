@@ -9,7 +9,7 @@ aliases:
 ---
 Because physical plants are always continuous-time systems, [[Discrete-Time Control Systems|discrete-time control systems]] are in fact NOT digital control systems! 
 
-A sampled-data control systems uses a discrete controller, but is used
+A sampled-data control systems uses a discrete controller, but is used with continuous input/output.
 
 ![[Discrete-Time Control Systems-20250905135312833.png]]
 
