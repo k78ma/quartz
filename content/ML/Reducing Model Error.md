@@ -13,7 +13,7 @@ We saw from [[Sources of Test Error]] and [[Mathematical Formulation of Test Err
 Noise is insurmountable; there is nothing we can do to circumvent this, and it represents a fundamental limit on expected model performance. However, it is possible to reduce the two other terms.
 
 ## Reducing variance
-Recall that the variance results from limited noisy training data. Fitting the model to two different training sets results in slightly different parameters. It follows that we can reduce the variance by increasing the amount of training data. This averages out the inherent noise and ensures that the input space is well sampled.
+Recall that the variance results from limited noisy training data. Fitting the model to two different training sets results in slightly different parameters. It follows that we can reduce the variance by **increasing the amount of training data**. This averages out the inherent noise and ensures that the input space is well sampled.
 
 The figure below shows the effect of training with 6, 10, and 100 samples. For each dataset size, we show the best-fitting model for three training datasets. With only six samples, the fitted function is quite different each time; the variance is significant. As we increase the number of samples, the fitted models become very similar, and the variance reduces. In general, adding training data almost always improves test performance.
 

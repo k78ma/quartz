@@ -67,6 +67,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Inductive Bias]]
 - [[Curse of Dimensionality]]
 - [[Hyperparameter Search]]
+- [[Cross-Validation]]
+- [[Model Capacity]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

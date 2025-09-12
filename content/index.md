@@ -17,5 +17,6 @@ Welcome to my notes!
 - [[Tron 2B]]
 - [[Tron 3A]]
 - [[Tron 3B]]
+- [[Tron 4A]]
 
 See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)

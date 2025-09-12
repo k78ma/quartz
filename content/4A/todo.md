@@ -1,6 +1,8 @@
 ---
+
 kanban-plugin: basic
 draft: "true"
+
 ---
 
 ## Today
@@ -9,7 +11,6 @@ draft: "true"
 
 ## MTE 484
 
-- [ ] Assignment 1<br>#mte484
 
 
 ## SYDE 522
@@ -28,7 +29,11 @@ draft: "true"
 
 
 
+***
 
+## Archive
+
+- [ ] Assignment 1<br>#mte484
 
 %% kanban:settings
 ```

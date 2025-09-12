@@ -19,5 +19,8 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Discrete-Time Control Systems]]
 - [[Sampled-Data Control Systems]]
 - [[Choosing Sampling Time]]
-
 - [[Frequency-Domain Control Systems]]
+- [[Transfer Function Classification]]
+- [[Poles and Zeros]]
+- [[Continuous-Time Stability]]
+- [[Discrete-Time Stability]]

@@ -2,9 +2,17 @@
 title: Poles and Zeros
 tags:
   - syde252
+  - mte484
 date: 2023-11-22
 aliases:
 ---
+> [!definition] Poles and zeros
+> For a transfer function $P(s)$ or $G[z]$, $\lambda \in \mathbb{C}$ is a:
+> - *Zero* if $P(\lambda)=0$ or $Z[lambeda]=0$
+> - *Pole* if $P(\lambda)=\infty$ or $Z[lambeda]=\infty$
+> 
+
+
 ### Laplace / Continuous Time
 - $H(s)$ has a pole at $s=a$ if $| H(a) |=\infty$
 - $H(s)$ has a zero at $s=a$  if $| H(a) |=0$

@@ -77,4 +77,4 @@ This equation says that the expected loss after considering the uncertainty in t
 - The bias is the systematic deviation of the model from the mean of the function we are modeling.
 - The noise is the inherently uncertainty in the true mapping from input to output.
 
-These sources of error will be present for any task. We've seen that they combine additively for regression with least squares loss; however, their interaction can be more complex for other problem types.
+These sources of error will be present for any task. We've seen that they combine additively for regression with least squares loss; however, their interaction can be more complex for other problem types. For classification problems, there are some counter-intuitive predictions; for example, if the model is based toward selecting the wrong class in a region of the input space, then increasing the variance can improve the classification rate as this pushes some of the predictions over the threshold to be classified correctly.

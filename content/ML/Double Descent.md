@@ -47,3 +47,10 @@ However, this does not explain why overparametrized models should produce smooth
 
 ![[Double Descent-20250905002025569.png]]
 
+
+## Further Notes
+It has been empirically shown that test performance depends on the *effective model capacity* (the largest number of samples for which a given model and training method can achieve zero training error). At this point, the model starts to devote its efforts to interpolating smoothly. As such, the test performance depends not just on the model but also on the training algorithm and length of training. The same pattern has been observed when studying a model with fixed capacity and increasing the number of training iterations. This is called *epoch-wise double descent*.
+
+Double descent makes the strange prediction that adding training data can sometimes worse test performance. Consider an over-parameterized model in the second descending part of the curve. If we increase the training data to match the model capacity, we will now be in the critical region of the new test error curve, and the test loss may increase.
+
+It's been shown ([see here](https://proceedings.neurips.cc/paper/2021/file/f197002b9a0853eca5e046d9ca4663d5-Paper.pdf)) that overparameterization is necessary to interpolate data smoothly in high dimensions. They demonstrate a tradeoff between the number of parameters and the Lipschitz constant of the model (the fastest the output can change for a small input change). 
