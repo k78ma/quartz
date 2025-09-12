@@ -19,4 +19,4 @@ Welcome to my notes!
 - [[Tron 3B]]
 - [[Tron 4A]]
 
-See all subjects here: [Tags](https://k78ma.github.io/quartz/tags/)
+See all tags here: [Tags](https://k78ma.github.io/quartz/tags/)
