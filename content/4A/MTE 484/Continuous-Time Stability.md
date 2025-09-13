@@ -34,7 +34,7 @@ e^{\lambda t}= e^{(\text{Re}\,\lambda + j \text{Im} \,\lambda)t}  & = e^{(\text{
  & =e^{(\text{Re}\, \lambda)t}+e^{j(\text{Im} \,\lambda)t}
 \end{align}
 $$
-Another case: Example:
+Another case where have an input:
 $$
 \dot{x}=\lambda x + u, \quad \lambda \in  \mathbb{C}
 $$
@@ -45,7 +45,7 @@ sX(s) = \lambda X(s)+U(s) \\
 X(s) = \frac{1}{s-\lambda} U(s)
 \end{align}
 $$
-Thus, $\lambda$ is a pole of the transfer function $\frac{1}{s-\lambda}$.
+Thus, $\lambda$ is a pole of the transfer function $\frac{1}{s-\lambda}$. (Does this mean a stable system will always be stable )
 
 
 > [!definition] Stability in continuous-time systems

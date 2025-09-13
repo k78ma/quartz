@@ -13,7 +13,7 @@ $$
 $$
 In continuous time:
 $$
-| u(k) | \leq \overline{u} \quad  \forall \,t \in  \mathbb{Z}_{\geq 0} \quad \Longrightarrow \quad \exists \, \overline{y} \in  \mathbb{R}, \overline{y} > 0 \quad  \ni | y[k] | \leq \overline{y} \quad  \forall \, k\geq 0
+| u(k) | \leq \overline{u} \quad  \forall \,k \in  \mathbb{Z}_{\geq 0} \quad \Longrightarrow \quad \exists \, \overline{y} \in  \mathbb{R}, \overline{y} > 0 \quad  \ni | y[k] | \leq \overline{y} \quad  \forall \, k\geq 0
 $$
 Notation
 - $\forall$ = "For all"

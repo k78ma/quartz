@@ -63,22 +63,99 @@ In this case, we would typically predict the variance as a model output in the t
 Some ways to deal with this would be to compute residuals on held-out predictions and train the variance on those instead of in-sample points. Or, we could constrain by putting some floor variance. The obvious best thing to do would be [[Regularization|regularization]] to keep the model from perfectly fitting but the point here is to overfit I think.
 
 
-
 > [!question] Problem 8.6
-> 
+> Show that two random points drawn from a 1000-dimensional Gaussian distribution are orthogonal relative to the origin with high probability.
+
+Let $X,Y \in \mathbb{R}^{d}$ be independent with $X,Y \sim \mathcal{N}(0, I_{d})$, taking $d=1000$. The angle between them is
+$$
+\cos \theta = \frac{X\cdot Y}{|| X || \, || Y ||}
+$$
+Gaussian vectors are rotationally invariant. We can rotate coordinates so that the unit vectors in the direction of $Y$ is $e_{1}$. Then
+$$
+\cos \theta = \frac{X}{|| X ||} \cdot  e_{1} = U_{1}
+$$
+where $U := X / || X ||$  is a uniform random point on the unit sphere $S^{d-1}$ and $U_{1}$ is its first coordinate. So, the problem reduces to understanding the first coordinate of a random unit vector.
+
+By symmetry, $\mathbb{E}[U_{1}]=0$. Also, since $\sum_{i=1}^{d}U_{i}^{2} = 1$ and all coordinates are identically distributed,
+$$
+\mathbb{E}[U_{1}^{2}] = \frac{1}{d}
+$$
+Thus
+$$
+\mathbb{E}[\cos \theta] = 0, \quad  \text{Var}(\cos \theta) = \frac{1}{d}
+$$
+Thus, a typical size of $| \cos \theta |$ is $\frac{1}{\sqrt{ d }}$. For $d=1000$, that's about $0.032$, so the two points are nearly orthogonal.
 
 
 > [!question] Problem 8.7
-> 
+> The volume of a hypersphere with radius $r$ in $D$ dimensions is:
+> $$
+> \text{Vol}[r] = \frac{r ^{D} \pi^{D / 2}}{\Gamma [D / 2 + 1]}
+> $$
+> where $\Gamma[\bullet]$  is the [[Gamma Function]]. Show using [[Stirling's Formula]] that the volume of a hypersphere of diameter one (radius $r=0.5$) becomes zero as dimension increases.
+
+Let $D$ be the dimension and $r=\frac{1}{2}$. Write $n := \frac{D}{2}$. The volume is
+$$
+\text{Vol}\left[ \frac{1}{2} \right] = \frac{(1 / 2)^{D} \pi^{D / 2}}{\Gamma(D / 2 + 1)}=\frac{(\pi / 4)^{n}}{\Gamma(n+1)}
+$$
+Using Stirling's formula gives us:
+$$
+\Gamma(n+1) \approx x! \approx \sqrt{ 2\pi n } \left( \frac{n}{e} \right)^{n}
+$$
+Hence:
+$$
+\text{Vol}\left[ \frac{1}{2} \right] = \frac{1}{\sqrt{ 2\pi n }} \left( \frac{e\pi}{4n} \right)^{n}
+$$
+As $n \to \infty$ , we will have $\left( \frac{e\pi}{4n} \right)^{n}\to 0$. Therefore:
+$$
+\text{Vol}\left[ \frac{1}{2} \right] \to 0 \quad  \text{as} \quad  D\to \infty
+$$
 
 
 > [!question] Problem 8.8
-> 
+> Consider a hypersphere of radius $r=1$. Find an expression for the proportion of the total volume that lies in the outermost 1% of the distance from the center (i.e., in the outermost shell of 0.01). Show that this becomes one as the dimension increases.
 
+The volume is given by:
+$$
+\text{Vol}[1] = \frac{ \pi^{D / 2}}{\Gamma [D / 2 + 1]}
+$$
+Volume of a hypersphere of radius $r=0.99$ is given by:
+$$
+\text{Vol}[0.99] = \frac{0.99^{D} \pi^{D / 2}}{\Gamma[D/ 2+1]}
+$$
+The proportion $p$ in the last percentage is hence:
+$$
+p = \frac{\text{Vol}[1]-\text{Vol}[0.99]}{\text{Vol}[1]} = 1-0.99^{D}
+$$
+We have $p\to 1$ as $D\to \infty$.
 
 > [!question] Problem 8.9
+> Figure 8.13c shows the distribution of distances of samples of a standard normal distribution as the dimension increases. Empirically verify this finding by sampling from the standard normal distributions in 25, 100, and 500 dimensions and plotting a histogram of the distances from the center. What closed-form probability distribution describes these distances? 
 > 
+> ![[UDL Chapter 8 Problems-20250913175845239.png]]
 
 
+![[UDL Chapter 8 Problems-20250913180210000.png]]
 
+25 Dimensions:
+- Mean distance: 4.9506
+- Std distance: 0.7010
+- Theoretical mean: 6.2666
+
+100 Dimensions:
+- Mean distance: 9.9846
+- Std distance: 0.7034
+- Theoretical mean: 12.5331
+
+500 Dimensions:
+- Mean distance: 22.3492
+- Std distance: 0.7029
+- Theoretical mean: 28.0250
+
+The distances from the origin of samples from standard normal distributions follow a Chi distribution with degrees of freedom equal to the number of dimensions.
+
+Key properties:
+- Mean $d \approx \sqrt{ n }$ for large $n$
+- The distribution becomes more concentrated around $\sqrt{ n }$  as $n$ increases
+- This is the theoretical foundation for the [[Curse of Dimensionality|curse of dimensionality]].
 

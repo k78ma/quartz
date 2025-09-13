@@ -9,7 +9,6 @@ aliases: mte 484 - digital control applications
 ## Info
 Midterm: Oct 27 8PM - 9:20PM
 
-- what does "T stable" mean in [[Sample-Data System Stability]]
 ## Background
 - [[Linear Time-invariant Systems]]
 - [[Laplace Transform]]
