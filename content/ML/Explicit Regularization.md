@@ -23,3 +23,18 @@ where:
 The minima of the regularized loss function usually differ from those in the original, so the procedure converges to different parameter values.
 
 ![[Explicit Regularization-20250914215621004.png|584]]
+
+
+## Probabilistic interpretation
+Regularization can be viewed from a probabilistic perspective. We've seen that loss functions are constructed from the [[Maximum Likelihood Criterion|maximum likelihood criterion]]:
+$$
+\hat{\phi}=\underset{\phi}{\operatorname{argmax}}\left[ \prod_{i=1}^{I} Pr(\mathbf{y}_{i}\, | \,\mathbf{x}_{i},\phi)\right]
+$$
+The regularization term can be considered a **prior** $Pr(\phi)$ that represents knowledge about the parameters before we observe the data. Now, we have a *maximum a posteriori* or *MAP* criterion:
+$$
+\hat{\phi}=\underset{\phi}{\operatorname{argmax}}\left[ \prod_{i=1}^{I} Pr(\mathbf{y}_{i}\, | \,\mathbf{x}_{i},\phi)Pr(\phi)\right]
+$$
+Moving back to the [[Log-Likelihood Criterion|negative log-likelihood]] loss function (see [[Loss Function Recipe|loss function recipe]]) by taking the log and multiplying by $-1$, we see that
+$$
+\lambda \cdot g[\phi] = -\log[Pr(\phi)]
+$$

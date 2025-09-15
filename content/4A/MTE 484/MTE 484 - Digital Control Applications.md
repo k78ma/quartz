@@ -30,4 +30,6 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Sample-Data System Stability]]
 - [[Time-Domain Stability]]
 - [[BIBO Stability]]
-- [[ Transfer Function Pole Decomposition]]
+- [[Transfer Function Pole Decomposition]]
+- [[Impulse Response]]
+- [[Linearity of Laplace and Z-Transforms]]

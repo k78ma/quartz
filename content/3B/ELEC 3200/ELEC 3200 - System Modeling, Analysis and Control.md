@@ -30,7 +30,7 @@ aliases:
 
 ## System Analysis
 ### Dynamic Responses
-- [[Impulse Response]]
+- [[3B/ELEC 3200/Impulse Response]]
 - [[DC Gain]]
 - [[Final Value Theorem]]
 

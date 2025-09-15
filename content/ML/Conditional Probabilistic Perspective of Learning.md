@@ -12,7 +12,7 @@ The [[Loss Function|loss]] encourages each training output $y_{i}$ to have a hig
 
 > [!example]- Conditional probability model examples
 > 
-!>[[Maximum Likelihood for Loss Functions-20250609235217601.png]]
+> ![[Maximum Likelihood for Loss Functions-20250609235217601.png]]
 >
 >- **a)** Regression task, where the goal is to predict a real-valued output $y$ from the input $x$ based on training data $\{ x_{i}, y_{i} \}$ (orange points). For each input value x, the model predicts a distribution $Pr(y\, | \,x)$ over the output $y \in  R$. The loss function aims to maximize the probability of the observed training outputs $y_{i}$ under the distribution predicted from the corresponding inputs $x_{i}$. 
 >- **b)** To predict discrete classes $y \in  \{1, 2, 3, 4\}$ in a classification task, we use a discrete probability distribution, so the model predicts a different histogram over the four possible values of $y_{i}$ for each value of $x_{i}$.

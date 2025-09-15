@@ -31,3 +31,16 @@ In our case:
 $$
 P(\infty) = \lim_{ s \to \infty } P(s) = \lim_{ s \to \infty } \frac{5s ^{12}}{s^{12}}=5
 $$
+
+
+> [!theorem] Lemma: Partial fraction decomposition
+> Let $P(s)$/$G[z]$ be real, rational, and proper. Let $\{ \pi_{i} \}_{i=1}^{n}$  be the poles of $P(s)$/$G[z]$, and let $n_{i}$ be the multiplicity of $p_{i} \, \forall  \,i$. 
+> 
+> Then there exist unique constants $c_{i,j} \, \forall \, i, j$ such that
+> $$
+> P(s) = P(\infty) + \sum_{i=1}^{n} \sum_{j=1}^{n_{i}} \frac{c_{i,j}}{(s-p_{i})^{j}} 
+> $$
+> or
+> $$
+> G[z] = G[\infty] + \sum_{i=1}^{n} \sum_{j=1}^{n_{i}} \frac{c_{i,j}}{(z-p_{i})^{j}}
+> $$

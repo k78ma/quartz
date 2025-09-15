@@ -30,6 +30,14 @@ z  & = e^{s}  \\
 $$
 such that $e^{sn}=z^{n}$.
 
+### Inverse Z-Transform
+$$
+\begin{align}
+x[k] = Z^{-1}(X[z])  & = \frac{1}{2\pi j} \int_{\text{unit circle}} x[z]z^{k-1} \, dz  \\[2ex]
+ & = \frac{1}{2\pi} \int_{-\pi}^{\pi} X[e^{j\theta}] e^{jk\theta} \, d\theta 
+\end{align}
+$$
+
 ### Application
 Let's say we want to find the response of an LTI system $h[n]$ to the complex exponential $z^{n}$.
 $$

@@ -6,6 +6,20 @@ date: 2025-04-01
 aliases:
   - impulse response
 ---
+## Summary
+Let $P(s)$/$G[z]$ be a real, rational, proper transfer function.
+
+Then, $p(t)=L^{-1}(P(s))$ or $g[k]=Z^{-1}(G[z])$ is the **impulse response** of $P(s)$/$G[z]$, where we are using the [[Laplace Transform#Inverse Laplace Transform|Inverse Laplace Transform]] or the [[Z-Transform#Inverse Z-Transform|Inverse Z-Transform]].
+
+For a system $Y(s) = P(s)U(s)$, we can find the time-domain output $y(t)$ with the impulse response as a convolution:
+$$
+y(t) = (p \ast u)(t) = \int_{0}^{t} p(t-\tau) u(\tau) \, d\tau 
+$$
+Alternatively, for a discrete system $Y[z]=G[z]U[z]$:
+$$
+y[k] = (g \ast u)[k] = \sum_{n=0}^{k}g[k-n]u[k]
+$$
+## Impulse Input View
 For an [[Linear Time-invariant Systems|LTI system]]:
 $$
 \begin{align}
