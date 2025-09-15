@@ -72,7 +72,7 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Regularization
 - [[Regularization]]
-
+- [[Explicit Regularization]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
