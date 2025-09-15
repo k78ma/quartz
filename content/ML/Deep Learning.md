@@ -70,6 +70,9 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Cross-Validation]]
 - [[Model Capacity]]
 
+## Regularization
+- [[Regularization]]
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
