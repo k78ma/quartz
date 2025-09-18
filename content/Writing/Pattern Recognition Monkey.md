@@ -8,8 +8,6 @@ draft: "true"
 ---
 I recently saw a job posting that said "we value first-principles thinkers over pattern recognizers". This stuck with me; I find that I often make arguments by analogy ("$A$ is to $B$ as $C$ is to $D$"), which is really just pattern recognition. Does this mean I'm not qualified for this job?
 
-According to Wikipedia, 
-
 I'm not sure why pattern recognition gets a bad rap sometimes; I think it's not as sexy as first-principles thinking.
 
 ![[Pattern Recognition Monkey.png|364]]

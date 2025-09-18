@@ -17,7 +17,8 @@ $$
 $$
 Notation
 - $\forall$ = "For all"
-- $e\xi \, : \,s$
+- $\exists$ = "Exists"
+- $\ni$ = "Such that"
 
 Examples of simple bounded inputs:
 - Unit step $\mathbb{1}(t)$ or $\mathbb{1}[k]$

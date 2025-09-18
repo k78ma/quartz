@@ -27,3 +27,6 @@ s^{2}+(K_{P}-1)=0
 $$
 Note that we have a coefficient of zero for the $s$ term. For a system to be stable, a necessary condition (but not sufficient) is that all power of $s$ must have nonzero positive coefficients. Hence, the system cannot be stabilized by adjusting $K_{P}$; the system is not stable for any value of $K_{P}$.
 
+
+black and blue are a pair
+red and green are a pair

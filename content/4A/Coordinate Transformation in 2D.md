@@ -121,6 +121,57 @@ Then, we translate $R^{a}_{b} \,p^{b}$ by $q$:
 $$
 R^{a}_{b} \,p^{b} \quad \longrightarrow \quad R^{a}_{b} \,p^{b}+q
 $$
-Thus, $p^{a}= R^{a}_{b} \,p^{b} + q$.
+Thus, $p^{a}= R^{a}_{b} \,p^{b} + q$. Note that this means $q$ is in frame $a$.
 
-### Homogeneous Representation
+## Homogeneous Representation
+We can represent this rotation + translation as one matrix using [[Homogeneous Coordinates]].
+
+Let
+$$
+\begin{align}
+\mathcal{G}_{b}^{a}  & = \begin{bmatrix}
+R_{b}^{a} &  q \\
+0 &  1
+\end{bmatrix} \in  \mathbb{R}^{3\times 3} \\[2ex]
+\overline{p}^{a}   & := \begin{bmatrix}
+p^{a} \\
+1
+\end{bmatrix}, \,\,\, \overline{p}^{b}   := \begin{bmatrix}
+p^{b} \\
+1
+\end{bmatrix} \in  \mathbb{R}^{3}
+\end{align}
+$$
+Then, we write the rotation + translation as
+$$
+\overline{p}^{a} = \mathcal{G}_{b}^{a} \overline{p}^{b}
+$$
+We denote $\mathcal{G}_{b}^{a} \in \text{SE}(2)$  which is the [[Special Euclidean Group]] for 2D.
+
+### Properties
+Composition:
+$$
+\mathcal{G}_{b}^{a}\mathcal{G}_{c}^{b} = \mathcal{G}_{c}^{a} \quad \Longrightarrow \quad  \mathcal{G}_{b}^{a}\mathcal{G}_{c}^{b} \,\overline{p}^{c} = \mathcal{G}_{b}^{a}\overline{p}^{b} = \overline{p}^{a}
+$$
+Inverse:
+$$
+\begin{align}
+\mathcal{G}_{b}^{a}  & = \begin{bmatrix}
+R_{b}^{a} &  q \\
+0 &  1
+\end{bmatrix} \\[2ex] 
+\mathcal{G}_{b}^{a}  & = (\mathcal{G}_{a}^{b})^{-1} = \begin{bmatrix}
+(R_{b}^{a})^{-1} & -(R_{b}^{a})^{-1}q \\
+0 & 1
+\end{bmatrix} \\[2ex] 
+\mathcal{G}_{a}^{c}  & = (\mathcal{G}_{c}^{a})^{-1} = (\mathcal{G}_{b}^{a}\mathcal{G}_{c}^{b})^{-1} = (\mathcal{G}_{c}^{b})^{-1} (\mathcal{G}_{b}^{a})^{-1} = \mathcal{G}_{b}^{c} \mathcal{G}_{a}^{b}
+\end{align}
+$$
+$\text{SE}(2)$ can be generalized to $\text{SE}(3)$ in the same way with $3\times 3$ rotation matrices.
+- 3D rotation matrices are tricky to handle, so we often use other parameterizations such as [[Euler Angles]], [[Quaternions|quaternions]], etc.
+
+### Example
+
+![[Coordinate Transformation in 2D-20250918123620982.png]]
+
+- If an object seen from the camera is located at $(1,1)$ w.r.t to the $c$ frame, then we can find its location in $s$ frame using $\mathcal{G}_{c}^{s}$.

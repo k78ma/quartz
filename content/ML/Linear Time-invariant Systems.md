@@ -28,7 +28,7 @@ $$
 x(t-t_{0}) \to \dots \to y(t,t_{0})
 $$
 If $y(t, t_{0})=y(t-t_{0})$, then the system is time invariant.
-
+- Notation: $y(t, t_{0})$ is the output at time $t$, when the input has been shifted by $t_{0}$. So we replace any $x(t)$ with $x(t-t_{0})$.
 ## Examples
 ### Example 1
 Let's say we have $y(t)=2t^{2}x(t)$. Then, we have
@@ -38,6 +38,8 @@ y(t, t_{0}) & = 2t^{2}x(t-t_{0}) \\
 y(t-t_{0}) & = 2(t-t_{0})^{2}x(t-t_{0})
 \end{align}
 $$
+- In the first line, instead of feeding in $x(t)$, we feed $x(t-t_{0})$.
+
 Since the two are not equal, the system is not time-invariant.
 
 However, we have

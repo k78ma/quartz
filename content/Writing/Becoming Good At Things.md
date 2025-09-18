@@ -3,8 +3,8 @@ title: Becoming Good At Things
 tags:
   - writing
 date: 2024-01-31
-aliases: 
-draft:
+aliases:
+draft: "true"
 ---
 I've been working hard lately to get better at certain things. And so, I've been thinking about the pursuit of excellence a lot lately. *How do I get good at things?  Why should I work hard?* 
 

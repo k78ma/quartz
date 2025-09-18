@@ -13,7 +13,7 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Linear Time-invariant Systems]]
 - [[Laplace Transform]]
 - [[Z-Transform]]
-
+    - [[Linearity of Laplace and Z-Transforms]]
 ## Introductory Content
 - [[Feedback Control]]
 - [[Discrete-Time Control Systems]]
@@ -30,6 +30,9 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Sample-Data System Stability]]
 - [[Time-Domain Stability]]
 - [[BIBO Stability]]
+    - [[Constant BIBO Stability Proof]]
+- [[Feedback System Stability]]
+
 - [[Transfer Function Pole Decomposition]]
 - [[Impulse Response]]
-- [[Linearity of Laplace and Z-Transforms]]
+

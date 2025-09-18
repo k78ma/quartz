@@ -8,8 +8,8 @@ aliases:
 ---
 > [!definition] Poles and zeros
 > For a transfer function $P(s)$ or $G[z]$, $\lambda \in \mathbb{C}$ is a:
-> - *Zero* if $P(\lambda)=0$ or $Z[lambeda]=0$
-> - *Pole* if $P(\lambda)=\infty$ or $Z[lambeda]=\infty$
+> - *Zero* if $P(\lambda)=0$ or $Z[\lambda]=0$
+> - *Pole* if $P(\lambda)=\infty$ or $Z[\lambda]=\infty$
 > 
 
 
