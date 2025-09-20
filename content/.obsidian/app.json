@@ -20,5 +20,6 @@
   "vimMode": true,
   "propertiesInDocument": "visible",
   "useTab": false,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "readableLineLength": true
 }

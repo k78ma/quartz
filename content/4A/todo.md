@@ -7,10 +7,14 @@ draft: "true"
 
 ## Today
 
+- [ ] A1 - Sept 26<br>#syde522
+- [ ] Existing Product Comparison<br>#capstone
+- [ ] Beam Design<br>#mte380
 
 
 ## MTE 484
 
+- [ ] A3 - Sept 25<br>#mte484
 
 
 ## SYDE 522
@@ -19,6 +23,7 @@ draft: "true"
 
 ## MTE 544
 
+- [ ] A1 - Oct 2<br>#mte544
 
 
 ## MTE 481
@@ -29,6 +34,11 @@ draft: "true"
 
 
 
+## Other
+
+- [ ] Mech interp. research proposal
+
+
 ***
 
 ## Archive
@@ -37,6 +47,6 @@ draft: "true"
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic","hide-tags-in-title":true}
+{"kanban-plugin":"basic","hide-tags-in-title":true,"lane-width":195}
 ```
 %%

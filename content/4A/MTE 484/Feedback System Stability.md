@@ -12,6 +12,8 @@ Continuous-time and discrete-time feedback control systems take the following ge
 
 ![[Feedback System Stability-20250917140513897.png|534]]
 
+- $C(s)  / D[z]$  are controller
+- $P(s) / G[z]$ are plant
 
 The systems have many different transfer functions. To distinguish these, we make the distinction between external and internal signals:
 - External signals: $r, d$  – we have no control over these
@@ -67,5 +69,58 @@ $$
 
 
 > [!definition] Closed-loop stable / Internally stable
-> A closed-loop system is *closed-loop stable* or *internally stable* if all closed-loop transfer functions from external signals to internal signals $T_{ry}, \, T_{re},\, T_{ru},\, T_{dy},\, T_{de},\, T_{du}$ are BIBO stable.
+> A closed-loop system is *closed-loop stable* or *internally stable* if all closed-loop transfer functions from external signals to internal signals $T_{ry}, \, T_{re},\, T_{ru},\, T_{dy},\, T_{de},\, T_{du}$ are [[BIBO Stability|BIBO stable]].
+> 
+> - This is equivalent to saying that for any bounded external signals $r,d$, the internal signals $u,e,y$ are bounded as well.
+> - As $e=r-y$ is bounded whenever $r,y$ is bounded whenever $r,y$ are bounded, it suffices to only consider the 4 transfer functions from $(r,d)$ to $(u,y)$ to determine closed-loop stability.
+> - Equivalently, as $y=r-e$ is bounded whenever $r,e$ are bounded, it suffices to only consider the 4 transfer functions from $(r,d)$ to $(u,e)$ to determine closed-loop stability.
 
+## Examples
+**Example 1:** 
+Suppose $G[z] = \frac{z+2}{\left( z+\frac{1}{2} \right)(z-1)}, \,\, D[z] = \frac{1}{z+2}$. 
+
+We have:
+$$
+\begin{align}
+T_{ry} = \frac{GD}{1+GD} = \dots = \frac{1}{z^{2}-\frac{1}{2}z+\frac{1}{2}}
+\end{align}
+$$
+Then:
+$$
+\text{Poles}(T_{ry}) \subset \mathbb{D}
+$$
+So $T_{ry}$ is stable (definition of stability). In turn, $T_{ry}$ is BIBO stable (theorem from class).
+
+However, it can be shown that this system is NOT closed-loop stable! (Because $T_{ru}$ is unstable.)
+
+**Example 2:**
+$$
+G[z] = \frac{z+\frac{1}{2}}{z+2},\,\, D[z] = \frac{z-1}{z+\frac{1}{2}}
+$$
+- Unstable plant, stable controller
+
+Checking the transfer functions:
+$$
+\begin{align}
+T_{ry}  & = \frac{GD}{1+GD} = \frac{z-1}{2z+1} \\[2ex]
+T_{dy}  & = \frac{G}{1+GD}=\frac{z+\frac{1}{2}}{2z+1} \\[2ex] 
+T_{ru}  & = \frac{D}{1+GD} = \frac{(z-1)(z+2)}{\left( z+\frac{1}{2} \right)(2z+1)} \\[2ex] 
+T_{du} & = \frac{1}{1+GD} = \frac{z+2}{2z+1}
+\end{align}
+$$
+Thus, the system is closed-loop stable!
+
+**Example 3:**
+$$
+G[z] = \frac{z-4}{z+2}, \,\, D[z] = \frac{z+1}{z+2}
+$$
+This system is closed-loop stable, despite having an unstable plant and an unstable controller.
+
+**Example 4:**
+$$
+G[z] = \frac{z+3}{z+\frac{1}{2}}, \,\, D[z] = \frac{z+2}{z-\frac{1}{2}}
+$$
+This stable is not closed-loop stable, despite having stable plant and controller.
+
+
+Thus, it is not always intuitive in feedback systems whether the system will be closed-loop stable even if both the plant and controller are closed-loop stable.

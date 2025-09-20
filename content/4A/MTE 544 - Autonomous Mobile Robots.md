@@ -12,3 +12,4 @@ Midterm: Nov 4
 - [[Coordinate Transformation in 2D]]
     - [[Special Orthogonal Group]]
     - [[Special Euclidean Group]]
+- [[Coordinate Transform for Velocity]]

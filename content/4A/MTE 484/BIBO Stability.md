@@ -3,7 +3,9 @@ title: BIBO Stability
 tags:
   - mte484
 date: 2025-09-12
-aliases: bibo stability
+aliases:
+  - BIBO stable
+  - BIBO stability
 ---
 An LTI system $P(s)$/$G[z]$ is **Bounded-Input Bounded-Output Stable** (BIBO stable) if every [[Time-Domain Stability|bounded]] input produces a bounded output.
 
@@ -26,6 +28,13 @@ Examples of simple bounded inputs:
 - But it can be anything, as long as it's bounded by some values!
 
 
-> [!theorem] BIBO Stability Theorem
+> [!theorem] BIBO Stability Theorem (theorem from class)
 > Assume $P(s)$/$G[z]$ is real, rational and proper. Then $P(s)$/$G[z]$ is stable if and only if it is BIBO stable.
+> $$
+> \text{Stable} \iff \text{BIBO stable}
+> $$
+> - That means if something is unstable, it cannot be BIBO stable either
+
+
+
 

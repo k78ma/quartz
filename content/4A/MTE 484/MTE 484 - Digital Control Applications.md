@@ -32,6 +32,7 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[BIBO Stability]]
     - [[Constant BIBO Stability Proof]]
 - [[Feedback System Stability]]
+- [[Feedback System Performance Specifications]]
 
 - [[Transfer Function Pole Decomposition]]
 - [[Impulse Response]]
