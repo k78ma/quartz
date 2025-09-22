@@ -37,3 +37,4 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Transfer Function Pole Decomposition]]
 - [[Impulse Response]]
 
+- [[Final Value Theorem]]

@@ -78,7 +78,7 @@ $$
 H(s)=\int_{-\infty}^{\infty} h(\tau)e^{-s \tau} \, d\tau 
 $$
 
-## Transfer Functions
+## Transfer Function View
 Since the [[Transfer Function|transfer function]] $G(s)$ of an LTI system is the ratio of the output Laplace transform $Y(s)$ and the input Laplace transform $U(s)$ such that $G(s)=\frac{Y(s)}{U(s)}$, if we let
 $$
 U(s)=1 \quad \text{i.e.,} \quad u(t)=\delta(t)
