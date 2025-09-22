@@ -135,3 +135,4 @@ TE list:
 - ECE 457A (AI List 2)
 - CS 479/AMATH 449 (AI List 3)
 
+SYDE 543
