@@ -1,9 +1,11 @@
 ---
-title: Feedback System Stability
+title: Closed-Loop Stability
 tags:
   - mte484
-date: 2025-09-17
-aliases: feedback system stability
+date: 2025-09-23
+aliases:
+  - closed-loop stability
+  - closed-loop transfer function
 ---
 Continuous-time and discrete-time feedback control systems take the following general forms:
 

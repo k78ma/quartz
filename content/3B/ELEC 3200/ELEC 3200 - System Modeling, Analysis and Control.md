@@ -30,7 +30,7 @@ aliases:
 
 ## System Analysis
 ### Dynamic Responses
-- [[3B/ELEC 3200/Impulse Response]]
+- [[Impulse Response]]
 - [[DC Gain]]
 - [[Final Value Theorem]]
 
@@ -57,7 +57,7 @@ aliases:
 - [[Robust Stability]]
 - [[Internal Stability for Feedback Systems]]
 - [[Unity Feedback Systems]]
-- [[Controller Design]]
+- [[Pole Placement]]
 
 ## Feedback Control
 - [[Feedback Control]]

@@ -22,19 +22,28 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Frequency-Domain Control Systems]]
 - [[Transfer Function Classification]]
 - [[Poles and Zeros]]
+- [[Transfer Function Pole Decomposition]]
+- [[Impulse Response]]
 
 ## Stability
 - [[Stability Criterion]]
     - [[Continuous-Time Stability]]
     - [[Discrete-Time Stability]]
+
 - [[Sample-Data System Stability]]
 - [[Time-Domain Stability]]
+
 - [[BIBO Stability]]
     - [[Constant BIBO Stability Proof]]
-- [[Feedback System Stability]]
+
+- [[Closed-Loop Stability]]
 - [[Feedback System Performance Specifications]]
+    - [[Final Value Theorem]]
+    - [[Steady-State Response with FVT]]
 
-- [[Transfer Function Pole Decomposition]]
-- [[Impulse Response]]
+- [[Input-Output Parameterization]]
 
-- [[Final Value Theorem]]
+
+
+## Tutorial/Examples
+- [[Sept 23 Proof Tutorial]]
