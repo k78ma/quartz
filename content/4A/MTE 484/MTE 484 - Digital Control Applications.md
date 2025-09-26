@@ -42,8 +42,10 @@ Midterm: Oct 27 8PM - 9:20PM
     - [[Steady-State Response with FVT]]
 
 - [[Input-Output Parameterization]]
-
+- [[Simple Pole Approximation]]
 
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
+
+- [[MTE 484 Lab 1]]
