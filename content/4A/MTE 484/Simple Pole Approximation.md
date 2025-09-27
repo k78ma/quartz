@@ -19,5 +19,66 @@ Assumption: Our plant $G[z]$ has no repeated plots. (But this doesn't actually m
 
 Then, we have
 $$
-
+G[z] = \sum_{k=1}^{n} \frac{c_{k}}{z-q_{k}}
 $$
+- $\{ q_{k} \}_{k=1}^{n}$ are the plant poles and $\{ c_{k} \}_{k=1}^{n}$ are the coefficients in $\mathbb{C}$. (These are given, since the plant is known.)
+
+Then, IOP equation (i) becomes:
+$$
+\begin{align}
+X[z]  & + G[z]W[z]  = 1 \\[2ex]
+X[z]  & = 1 - G[z]W[z]  \\[2ex] 
+\end{align}
+$$
+Then, we can write $G[z]W[z]$
+$$
+\begin{align}
+G[z]W[z]& = \left( \sum_{i=1}^{m} \frac{w_{i}}{z-p_{i}} \right) \left( \sum_{k=1}^{n} \frac{c_{k}}{z-q_{k}}  \right) \\[2ex] 
+     & = \sum_{i=1}^{m} \sum_{k=1}^{n} \frac{c_{k}w_{i}}{(z-q_{k})(z-p_{i})} \\[2ex] 
+     & = \sum_{i=1}^{m} \sum_{k=1}^{n} c_{k}w_{i} \left( \frac{1}{p_{i}-q_{k}} \frac{1}{z-p_{i}} + \frac{1}{q_{k}-p_{i}} \frac{1}{z-q_{k}} \right) \\[2ex] 
+     & = \sum_{i=1}^{m} \underbrace{ \left( \sum_{k =1}^{n} \frac{c_{k}}{p_{i}-q_{k}} \right) }_{ =: \, \alpha_{i} (\text{not a function of }k)} w_{i} \frac{1}{z-p_{i}}  + \sum_{k=1}^{n} \left( \sum_{i=1}^{m} \underbrace{ \frac{c_{k}}{q_{k}-p_{i}} }_{ := \, \beta_{k,i} } w_{i} \right) \frac{1}{z-q_{k}} \\[2ex] 
+     & = \sum_{i=1}^{m} \alpha_{i}w_{i} \frac{1}{z-p_{i}} + \sum_{k=1}^{n} \left( \sum_{i=1}^{m}\beta_{k,i} w_{i}\right) \frac{1}{z-q_{k}}
+\end{align}
+$$
+
+- Note that we can write $\frac{1}{(z-p)(z-q)} = \frac{1}{p-q} \frac{1}{z-p} + \frac{1}{q-p} \frac{1}{z-q}$ 
+
+Substituting back:
+$$
+\begin{align}
+X[z] = 1 - \sum_{i=1}^{m} \alpha_{i}w_{i} \frac{1}{z-p_{i}} - \sum_{k=1}^{n} \left( \sum_{i=1}^{m}\beta_{k,i} w_{i}\right) \frac{1}{z-q_{k}}
+\end{align}
+$$
+We can then re-order the poles so that
+$$
+\{ q_{k} \}_{k=1}^{n} = \underbrace{ \{ q_{k} \}_{k=1}^{\hat{n}} }_{ \text{stable poles} } \cup \underbrace{ \{ q_{k} \}_{\hat{n}+1}^{n} }_{ \text{unstable poles} }
+$$
+Then,
+$$
+\text{poles}(X) \subset \{ p_{i} \}_{i=1}^{m} \cup \{ q_{k} \}_{k=1}^{\hat{n}}
+$$
+and
+$$
+X[z] = 1+ \sum_{i=1}^{m} \frac{x_{i}}{z-p_{i}} + \sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{z-q_{k}}
+$$
+where $\{ x_{i} \}_{i=1}^{m}$ and $\{ \hat{x}_{k} \}_{k=1}^{\hat{n}}$ are variable coefficients in $\mathbb{C}$.
+
+Matching coefficients gives us:
+$$
+\begin{align}
+X_{i}  & = -\alpha_{i} w_{i} \,\, \forall \, \,  i \in  \{ 1,\dots,m \} \\
+\hat{x}_{k}  & = \sum_{i=1}^{m} \beta_{k,i} w_{i} \,\, \forall \, \,  k \in   \{ 1,\dots,\hat{n} \} \\
+0  & =  \sum_{i=1}^{n}-\beta_{k,1}w_{i} \,\, \forall \, \,  k \in  \{ \hat{n}+1,\dots,n \}
+\end{align}
+$$
+- These 3 are essentially another representation of IOP eq. (i)
+
+IOP equation (ii):
+$$
+\begin{align}
+0 = -c_{j} + \sum_{i=1}^{m} -\gamma_{j,i} x_{i} + \sum_{k=1}^{\hat{n}} - \hat{\gamma}_{j,k}\hat{x}_{k} \quad  \forall \, \, j \in  \{ \hat{n}+1,n \}
+\end{align}
+$$
+- where $\gamma_{j,i} = \frac{c_{j}}{q_{j}-p_{i}}$, $\hat{\gamma}_{j,k}=\frac{c_{j}}{q_{j}-q_{k}}$
+
+
