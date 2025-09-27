@@ -8,8 +8,12 @@ aliases: mte 544 - autonomous mobile robots
 ## Info
 Midterm: Nov 4
 
-## Notes
+## Coordinate & Transformations
 - [[Coordinate Transformation in 2D]]
     - [[Special Orthogonal Group]]
     - [[Special Euclidean Group]]
 - [[Coordinate Transform for Velocity]]
+
+## Motion Modeling
+- [[Motion Model]]
+- [[Two-Wheel Mobile Robot]]

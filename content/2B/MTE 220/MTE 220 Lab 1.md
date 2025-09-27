@@ -1,5 +1,5 @@
 ---
-title: Lab 1
+title: MTE 220 Lab 1
 tags:
   - mte220
 date: 2023-09-19

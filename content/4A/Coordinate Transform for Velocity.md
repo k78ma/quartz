@@ -154,4 +154,8 @@ $$
 $$
 - $\kappa = \dot{q} - \hat{\omega}q \in \mathbb{R}^{2}$ that encodes the translational velocity contribution.
 
-The instantaneous center of rotation is given by $-\hat{\omega}^{-1}$.
+The instantaneous center of rotation is given by $-\hat{\omega}^{-1}\kappa$.
+
+### Example
+
+![[MTE 544 ex1-3.pdf]]

@@ -50,7 +50,7 @@ V_{\text{OS}}  & = \text{Input-referred offset voltage} \\
 $$
 
 ### Slew Rate
-Slew rate refers to how fast an output can change in response to a step input $[\text{V} / \mu s]$? Did this in [[Lab 1]].
+Slew rate refers to how fast an output can change in response to a step input $[\text{V} / \mu s]$? Did this in [[MTE 220 Lab 1]].
 
 ![[Non-ideal Op-amp Parameters-3.png|318]]
 

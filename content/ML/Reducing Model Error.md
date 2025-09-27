@@ -22,7 +22,7 @@ The figure below shows the effect of training with 6, 10, and 100 samples. For e
 ## Reducing bias
 The bias term results from the inability of the model to describe the true underlying function. We can reduce this error by making the model more "flexible"; this is done by increasing model capacity. For neural networks, this means adding more hidden units/layers.
 
-In the simplified model, adding more capacity corresponds to adding more hidden units so that the interval $[0,1]$ is divided into more linear regions. Part a-c in the figure below shows that this does indeed the bias; as we increase the number of linear regions from 3 to 10, the model becomes flexible enough to fit the true function closely.
+In the simplified model, adding more capacity corresponds to adding more hidden units so that the interval $[0,1]$ is divided into more linear regions. Part a-c in the figure below shows that this does indeed reduce the bias; as we increase the number of linear regions from 3 to 10, the model becomes flexible enough to fit the true function closely.
 
 ![[Reducing Model Error-20250824163739354.png]]
 

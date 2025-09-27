@@ -167,8 +167,8 @@ Applications:
 - [[Band Reject Filter]]
 - [[Filter Summary]]
 ## Labs
-- [[Lab 1]]
-- [[Lab 2]]
+- [[MTE 220 Lab 1]]
+- [[MTE 220 Lab 2]]
 	- [[Pulse Width Modulation]]
 	- [[Filters]]
 

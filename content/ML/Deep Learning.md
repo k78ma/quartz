@@ -73,6 +73,8 @@ Some of these notes are also included in [[Machine Learning]].
 ## Regularization
 - [[Regularization]]
 - [[Explicit Regularization]]
+    - [[L2 Regularization]]
+- [[Implicit Regularization]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
@@ -88,7 +90,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[UDL Chapter 6 Problems]]
 - [[UDL Chapter 7 Problems]]
 - [[UDL Chapter 8 Problems]]
-
+- [[UDL Chapter 9 Problems]]
 
 ## Projects
 - [[Counterfactual Probing]]
