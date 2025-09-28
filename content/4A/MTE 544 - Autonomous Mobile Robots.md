@@ -18,3 +18,4 @@ Midterm: Nov 4
 - [[Motion Model]]
 - [[Two-Wheel Mobile Robot]]
 - [[Four-Wheel Front Steer Robot]]
+- [[Four-Wheel Differential Drive Robot]]

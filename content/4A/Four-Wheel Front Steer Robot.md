@@ -24,7 +24,7 @@ $$
 \omega  & = \dot{\theta} = \frac{v}{R} = \cos \beta \frac{\tan\delta}{L}v
 \end{align}
 $$
-Note that we can write:
+From the right triangles that connect the axles to the I.C.R:
 $$
 \begin{align}
 \tan\beta &  = \frac{L / 2}{R_{r}}, \,\, \tan\delta=\frac{L}{R_{r}} \quad \Longrightarrow \quad  \tan \delta = 2\tan \beta \\[2ex] 
@@ -40,3 +40,33 @@ $$
 \end{align}
 $$
 - where we have $\beta = \tan ^{-1}\left( \frac{\tan\delta}{2} \right)$
+
+## Kinematics for wheel control
+What are the wheel speeds $(u_{r}, u_{f})$ to move the G.C with $v$ if we are doing rear-wheel drive or front-wheel drive?
+
+### Rear Wheel Drive
+Pure rolling at the real wheel (with wheel radius $r$) gives its linear speed:
+$$
+v_{r}^{w} = ru_{r} = R_{r}\dot{\theta}
+$$
+which results in
+$$
+\begin{align}
+\dot{\theta}  = \frac{v}{R} = \frac{v_{r}^{w}}{R_{r}} \quad \Longrightarrow \quad v_{r}^{w} = \frac{R_{r}}{R}v \\[2ex] 
+\cos \beta  =\frac{R_{r}}{R} = \frac{2}{\sqrt{ 4+\tan ^{2} \delta }}
+\end{align}
+$$
+Thus, we have:
+$$
+v_{r}^{w} = \frac{2}{\sqrt{ 4+\tan ^{2}\delta }}v
+$$
+Equivalently, if the rear wheel is the actuator (rear-wheel drive):
+$$
+v_{r}^{w} = \frac{r \sqrt{ 4+\tan ^{2}\delta }}{2} u_{r}
+$$
+
+### Front Wheel Drive
+Similarly, for front-wheel drive, we would have
+$$
+v= \frac{r\cos\delta\sqrt{ 4+\tan ^{2}\delta }}{2} u_{f}
+$$
