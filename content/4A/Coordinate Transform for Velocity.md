@@ -158,4 +158,4 @@ The instantaneous center of rotation is given by $-\hat{\omega}^{-1}\kappa$.
 
 ### Example
 
-![[MTE 544 ex1-3.pdf]]
+![[MTE 544 ex1-2.pdf]]
