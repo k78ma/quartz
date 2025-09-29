@@ -63,3 +63,42 @@ docker exec -it ros /bin/bash
 ```
 
 - Remember to `source /opt/ros/noetic/setup.bash` and run `roscore`
+
+## MTE 544 Set-up
+```
+docker pull osrf/ros:humble-desktop-full
+```
+
+```
+docker network create ros
+```
+
+```
+docker run -d --rm --net=ros --env="DISPLAY_WIDTH=1352" --env="DISPLAY_HEIGHT=878" --name=novnc -p=8080:8080 theasp/novnc:latest
+```
+
+```
+docker run -it --privileged --ipc=host \
+  --env="DISPLAY=novnc:0.0" \
+  --name="mte544" \
+  --network=ros \
+  --device=/dev/ttyUSB0:/dev/ttyUSB0 \
+  -e "QT_X11_NO_MITSHM=1" \
+  -e "XAUTHORITY=$XAUTH" \
+  --cap-add=SYS_PTRACE \
+  -v /Users/kai/code/mte544:/home \
+  osrf/ros:humble-desktop-full bash
+```
+
+```
+apt install ros-humble-turtlebot3-msgs
+```
+
+```
+apt-get install sdformat9
+```
+
+
+```
+curl -sSL http://get.gazebosim.org | sh
+```

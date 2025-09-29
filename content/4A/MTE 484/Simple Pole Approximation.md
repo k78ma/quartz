@@ -67,16 +67,20 @@ Matching coefficients gives us:
 $$
 \begin{align}
 X_{i}  & = -\alpha_{i} w_{i} \,\, \forall \, \,  i \in  \{ 1,\dots,m \} \\
-\hat{x}_{k}  & = \sum_{i=1}^{m} \beta_{k,i} w_{i} \,\, \forall \, \,  k \in   \{ 1,\dots,\hat{n} \} \\
-0  & =  \sum_{i=1}^{n}-\beta_{k,1}w_{i} \,\, \forall \, \,  k \in  \{ \hat{n}+1,\dots,n \}
+\hat{x}_{k}  & = \sum_{i=1}^{m} -\beta_{k,i} w_{i} \,\, \forall \, \,  k \in   \{ 1,\dots,\hat{n} \} \\
+0  & =  \sum_{i=1}^{n}-\beta_{k,1}w_{i} \,\, \forall \, \,  k \in  \{ \hat{n}+1,\dots,n \} \quad  \quad (\ast  )
 \end{align}
 $$
 - These 3 are essentially another representation of IOP eq. (i)
 
 IOP equation (ii):
 $$
+V = -GX
+$$
+which becomes
+$$
 \begin{align}
-0 = -c_{j} + \sum_{i=1}^{m} -\gamma_{j,i} x_{i} + \sum_{k=1}^{\hat{n}} - \hat{\gamma}_{j,k}\hat{x}_{k} \quad  \forall \, \, j \in  \{ \hat{n}+1,n \}
+0 = -c_{j} + \sum_{i=1}^{m} -\gamma_{j,i} x_{i} + \sum_{k=1}^{\hat{n}} - \hat{\gamma}_{j,k}\hat{x}_{k} \quad  \forall \, \, j \in  \{ \hat{n}+1,n \} \quad \quad   (\ast  \ast  )
 \end{align}
 $$
 - where $\gamma_{j,i} = \frac{c_{j}}{q_{j}-p_{i}}$, $\hat{\gamma}_{j,k}=\frac{c_{j}}{q_{j}-q_{k}}$

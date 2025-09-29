@@ -43,6 +43,7 @@ Midterm: Oct 27 8PM - 9:20PM
 
 - [[Input-Output Parameterization]]
 - [[Simple Pole Approximation]]
+- [[Specs for Control Design]]
 
 
 ## Tutorial/Examples

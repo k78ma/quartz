@@ -7,7 +7,6 @@ draft: "true"
 
 ## Today
 
-- [ ] Motion Model Notes<br>#mte544
 - [ ] A1 - Oct 2<br>#mte544
 - [ ] Pre-Lab 1<br>#mte544
 - [ ] Teleop through RoboHub Cluster
@@ -56,6 +55,7 @@ draft: "true"
 - [ ] A1 - Sept 26<br>#syde522
 - [ ] Additional testimonials for robot need<br>#mte544
 - [ ] A3 - Sept 25<br>#mte484
+- [ ] Motion Model Notes<br>#mte544
 
 %% kanban:settings
 ```
