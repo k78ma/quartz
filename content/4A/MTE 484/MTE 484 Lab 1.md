@@ -1,4 +1,10 @@
-
+---
+title: MTE 484 Lab 1
+tags:
+  - mte484
+date: 2025-09-29
+aliases: mte 484 lab 1
+---
 ## Part c
 
 Angle = 0 → Potentiometer = 535

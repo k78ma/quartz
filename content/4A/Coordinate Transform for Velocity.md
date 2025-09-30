@@ -71,6 +71,8 @@ p^{b} \\
 \end{bmatrix}
 \end{align}
 $$
+The bar signifies the homogeneous coordinate representation.
+
 Thus, we have:
 $$
 \begin{align}

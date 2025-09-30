@@ -48,5 +48,5 @@ Midterm: Oct 27 8PM - 9:20PM
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
-
+- [[Sept 30 IOP Tutorial]]
 - [[MTE 484 Lab 1]]

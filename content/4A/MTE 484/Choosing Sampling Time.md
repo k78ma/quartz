@@ -6,7 +6,7 @@ date: 2025-09-08
 aliases: choosing sampling time
 ---
 To choose the sampling time, we consider the time scales of all signals and systems in our closed-loop [[Discrete-Time Control Systems|sampled-data system]]:
-1. Plant bandwith $\omega_{bw}$
+1. Plant bandwidth $\omega_{bw}$
 2. Sampling frequency $\omega_{s} := \frac{2\pi}{T}$
 3. Frequency of reference and/or disturbance and/or settling time ($\omega_{0}$)
 
@@ -17,7 +17,7 @@ Taking these into account, we have some options:
     The idea is to filter out the high frequency signals to avoid [[Sampled-Data Control Systems#Sampling time aliasing|aliasing]]
 
 ## Plant bandwidth
-At high enough frequencies, the gains of all (physical) plans approach zero. At some point, if input is high enough frequency, you simply can't respond fast enough. $\omega_{bw}$ serves as an estimate for the fastest time scales for the plant.
+At high enough frequencies, the gains of all (physical) plants approach zero. At some point, if input is high enough frequency, you simply can't respond fast enough. $\omega_{bw}$ serves as an estimate for the fastest time scales for the plant.
 
 ![[Choosing Sampling Time-20250908114115246.png|501]]
 

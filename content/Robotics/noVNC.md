@@ -90,15 +90,16 @@ docker run -it --privileged --ipc=host \
   osrf/ros:humble-desktop-full bash
 ```
 
-```
-apt install ros-humble-turtlebot3-msgs
-```
 
-```
-apt-get install sdformat9
-```
-
-
+Gazebo install:
 ```
 curl -sSL http://get.gazebosim.org | sh
 ```
+
+```
+apt install ros-humble-irobot-create-description
+apt install ros-humble-turtlebot3-msgs
+```
+
+
+![[noVNC-20250929122153353.png]]
