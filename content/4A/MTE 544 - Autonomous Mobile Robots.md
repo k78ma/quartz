@@ -13,9 +13,12 @@ Midterm: Nov 4
     - [[Special Orthogonal Group]]
     - [[Special Euclidean Group]]
 - [[Coordinate Transform for Velocity]]
-
+- [[3D Rotation Matrices]]
+- [[Euler Angles]]
+- [[3D Angular Velocities]]
 ## Motion Modeling
 - [[Motion Model]]
 - [[Two-Wheel Mobile Robot]]
 - [[Four-Wheel Front Steer Robot]]
 - [[Four-Wheel Differential Drive Robot]]
+- [[Holonomic Mobile Robots]]

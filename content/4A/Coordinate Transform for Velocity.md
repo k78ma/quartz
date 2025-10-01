@@ -38,7 +38,7 @@ $$
      & = v + \hat{\omega}(p^{a}-q) \\[2ex] 
      & = \boxed{\hat{\omega}p^{a} + (v-\hat{\omega}q)} \\[2ex]
      & = \hat{\omega}(R_{b}^{a}p^{b}+q) + (v-\hat{\omega}q) \\[2ex] 
-     & = \hat{\omega}R_{b}^{a}p^{b} + v
+     & = \boxed{\hat{\omega}R_{b}^{a}p^{b} + v}
 \end{align}
 $$
 
