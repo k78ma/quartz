@@ -4,6 +4,7 @@ tags:
   - mte544
 date: 2025-10-05
 aliases: mte 544 lab 1 report
+draft: "true"
 ---
 ## Pre-lab
 - [x] ```-5``` marks if the code is not submitted by 24 hours before the lab section.
