@@ -5,32 +5,35 @@ draft: "true"
 
 ---
 
-## Today
+## Upcoming
 
-- [ ] A1 - Oct 2<br>#mte544
-- [ ] Pre-Lab 1<br>#mte544
-- [ ] Teleop through RoboHub Cluster
+- [ ] Lab 1 - Oct 10<br>#mte 544
+- [ ] Teleop LeRobot through RoboHub Cluster
+- [ ] Make-up lectures<br>#mte484
+- [ ] Patent Research and Design<br>#capstone
 
 
 ## MTE 484
 
-- [ ] Lab 1<br>#mte484
-- [ ] Review Sept 23 Tutorial<br>#mte484
+- [ ] Review Sept 23/30 Tutorial<br>#mte484
+- [ ] A5<br>#mte484
+- [ ] Lab 1 484<br>#mte484
 
 
 ## SYDE 522
 
+- [ ] A2 - Oct 22<br>#syde522
 
 
 ## MTE 544
 
 - [ ] Modeling Notes<br>#mte544
 - [ ] Sensing Notes<br>#mte544
+- [ ] A2 - Oct 21<br>#mte544
 
 
 ## MTE 481
 
-- [ ] Patent Research<br>#capstone
 
 
 ## MTE 380
@@ -56,6 +59,10 @@ draft: "true"
 - [ ] Additional testimonials for robot need<br>#mte544
 - [ ] A3 - Sept 25<br>#mte484
 - [ ] Motion Model Notes<br>#mte544
+- [ ] A1 - Oct 2<br>#mte544
+- [ ] Pre-Lab 1<br>#mte544
+- [ ] A4 - Oct 2<br>#mte484
+- [ ] Code for balancing<br>#mte380
 
 %% kanban:settings
 ```

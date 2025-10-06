@@ -22,3 +22,7 @@ Midterm: Nov 4
 - [[Four-Wheel Front Steer Robot]]
 - [[Four-Wheel Differential Drive Robot]]
 - [[Holonomic Mobile Robots]]
+
+## Labs
+- [[MTE 544 Lab 1 Rubric]]
+- [[MTE 544 Lab 1 Report]]
