@@ -18,20 +18,20 @@ draft: "true"
  **From Code Submission on LEARN:**
 - [x] ```5``` marks for correct imports in ```motion.py```: ```2/5``` marks for incorrect lines of code and ```1/5``` mark for non-sense completion.
 - [x] ```5``` marks for correct publisher in ```motion.py```: ```2/5``` marks for incorrect lines of code and ```1/5``` mark for non-sense completion.
-- [ ] ```5``` marks for correct QOS in ```motion.py```: ```2/5``` marks for incorrect lines of code and ```1/5``` mark for non-sense completion.
+- [x] ```5``` marks for correct QOS in ```motion.py```: ```2/5``` marks for incorrect lines of code and ```1/5``` mark for non-sense completion.
 
 ## Part 4: 15 marks
 **From Code Submission on LEARN:**
 - [x] ```4``` marks for each motion in ```motion.py```: ```2/4``` marks for incorrect lines of code and ```1/4``` marks for non-sense completion.
-- [ ] ```1``` mark for documentation in ```motion.py```.
+- [x] ```1``` mark for documentation in ```motion.py```.
 
 > 4 x 3 + 1 x 3 = 15
 
 ## Part 5: 15 marks
  **From Code Submission on LEARN:**
 - [x] ```5``` marks for subscription creation in ```motion.py```. 
-- [ ] ```4``` marks for callbacks + ```1``` mark for documentation in ```motion.py```.
-- [ ] ```4``` marks for loggers + ```1``` mark for documentation in ```utilities.py``` 
+- [x] ```4``` marks for callbacks + ```1``` mark for documentation in ```motion.py```.
+- [x] ```4``` marks for loggers + ```1``` mark for documentation in ```utilities.py``` 
 
 ## Part 6: 10 marks
 **In-Lab:**
@@ -43,8 +43,8 @@ draft: "true"
 - [ ] ```4``` marks for plots with title, label name for axis, legends, different shapes/colors for each data, and grids.
 - [ ] ```2``` marks for plots to be as following:
     - for odom two plots (count as 1):
-        - [ ] 'x - vs - y' 
-        - [ ] 'x, y, th- vs -t'
+        - [x] 'x - vs - y' 
+        - [x] 'x, y, th- vs -t'
     - for IMU:
         - [ ] 'a_x, a_y, w_z- vs -t'
     - for scan:

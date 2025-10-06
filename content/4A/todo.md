@@ -7,17 +7,17 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Lab 1 - Oct 10<br>#mte 544
-- [ ] Teleop LeRobot through RoboHub Cluster
-- [ ] Make-up lectures<br>#mte484
+- [ ] Lab 1 - Oct 10<br>#mte544
 - [ ] Patent Research and Design<br>#capstone
+- [ ] Teleop through RoboHub
 
 
 ## MTE 484
 
+- [ ] Make-up lectures<br>#mte484
+- [ ] A5 - Oct 12<br>#mte484
+- [ ] Review 484<br>#mte484
 - [ ] Review Sept 23/30 Tutorial<br>#mte484
-- [ ] A5<br>#mte484
-- [ ] Lab 1 484<br>#mte484
 
 
 ## SYDE 522
@@ -63,6 +63,7 @@ draft: "true"
 - [ ] Pre-Lab 1<br>#mte544
 - [ ] A4 - Oct 2<br>#mte484
 - [ ] Code for balancing<br>#mte380
+- [ ] Lab 1 484<br>#mte484
 
 %% kanban:settings
 ```

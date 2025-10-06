@@ -45,6 +45,7 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Simple Pole Approximation]]
 - [[Specs for Control Design]]
 
+- [[BIBO stable <=> Stable]]
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
