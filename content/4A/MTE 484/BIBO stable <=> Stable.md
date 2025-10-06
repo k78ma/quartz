@@ -1,9 +1,9 @@
 ---
-title: IOP notes Oct 6
+title: BIBO stable <=> Stable
 tags:
   - mte484
 date: 2025-10-06
-aliases: iop notes oct 6
+aliases: bibo stable <=> stable
 ---
 IOP equations:
 $$
