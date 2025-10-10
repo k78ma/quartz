@@ -1,8 +1,9 @@
 ---
-title: "Closed-Loop Stability Proof"
-tags: 
-date: "2025-10-08"
-aliases: "closed-loop stability proof"
+title: Characteristic Polynomial CL Stability
+tags:
+  - mte484
+date: 2025-10-10
+aliases: characteristic polynomial cl stability
 ---
 
 > [!definition] Coprime 
@@ -37,25 +38,52 @@ $$
 T_{ru}  & = \frac{D}{1+GD}  \\[2ex]
  & = \frac{\frac{f}{g}}{1+\frac{N}{M} \frac{f}{g}} \cdot  \frac{Mg}{Mg} \\[2ex] 
  & =  \frac{Mf}{Nf+Mg} \\[2ex] 
- &  = \frac{Mf}{\Delta}
+ &  = \frac{Mf}{\Delta}  & (\text{i})
 \end{align}
 $$
 and similarly,
 $$
-T_{ry} = \frac{GD}{1+GD} = \dots = \frac{Nf}{\Delta}
+\begin{align*}
+T_{ry}  & = \frac{GD}{1+GD} = \dots = \frac{Nf}{\Delta} & \text{(ii)} \\[2ex] 
+T_{du}  & = \frac{1}{1+GD} = \dots = \frac{Mg}{\Delta} & \text{(iii)}\\[2ex] 
+T_{dy}  & = \frac{G}{1+GD} = \dots = \frac{Ng}{\Delta} & \text{(iv)}\\[2ex] 
+\end{align*}
 $$
-and similarly,
-$$
-T_{dy} = \frac{G}{1+GD} = \dots = \frac{Ng}{\Delta}
-$$
+
 
 First, let's show $\text{roots}(\Delta) \subset \mathbb{D} \implies$ close-loop stable.
 - Given: All the roots of $\Delta(z)$ lie in $\mathbb{D}$.
 - WTS: The system is closed-loop stable.
 
+Then:
 $\implies$ All the poles of $T_{ru}, T_{du}, T_{ry}, T_{dy}$  lie in $\mathbb{D}$ \[equations above]
 $\implies$ $T_{ru}, T_{du}, T_{ry}, T_{dy}$ are stable \[def of stability]
 $\implies$ $T_{ru}, T_{du}, T_{ry},T_{dy}$ are BIBO stable \[theorem from class]
 $\implies$ The system is closed-loop stable \[def of closed-loop stability]
 
-The other direction of the proof: 
+The other direction of the proof: System is closed-loop stable => $\text{roots}(\Delta) \subset \mathbb{D}$.
+- Given: The system is closed-loop stable
+- WTS: All the roots of $\Delta[z]$ lie in $\mathbb{D}$
+
+Assume toward a contradiction that $\Delta[z]$ has an unstable root $\lambda$, i.e. $\Delta[\lambda]=0$, $| \lambda | \geq 1$.
+
+Then:
+- $\implies$ $T_{ru}, T_{du}, T_{ry}, T_{dy}$ are BIBO stable \[def. of closed-loop stability]
+- $\implies$ $T_{ru}, T_{du}, T_{ry}, T_{dy}$ are stable \[theorem from class]
+- $\implies$ $T_{ru}, T_{du}, T_{ry}, T_{dy}$ must have pole-zero cancellations at $\lambda$ \[from equations $\text{(i)-(iv)}$]
+- $\implies$ \[def. of a pole-zero cancellation]
+    - a. $M[\lambda]f[\lambda]=0$
+    - b. $M[\lambda]g[\lambda]=0$
+    - c. $N[\lambda]f[\lambda]=0$
+    - d. $N[\lambda]g[\lambda]=0$
+
+At least one of $f[\lambda], g[\lambda] \neq 0$  \[$f,g$ are coprime]
+- $\implies M[\lambda]=0$ \[equations a, b]
+- $\implies$ $N[\lambda]=0$ \[equations c, d]
+- $\implies \lambda$ is a root of both $M$ and $N$ \[def. of a root]
+- $\implies$ This contradicts that $N[z], M[z]$ are coprime!
+
+Therefore, there cannot exist an unstable root $\lambda$ of $\Delta[z]$.
+- $\implies$ All roots of $\Delta[z]$ lie in $\mathbb{D}$.
+
+Note: The closed-loop poles of the system (the poles of $T_{re}, T_{ru}, T_{ry}, T_{de}, T_{du}, T_{dy}$) are the roots of $\Delta[z]$.
