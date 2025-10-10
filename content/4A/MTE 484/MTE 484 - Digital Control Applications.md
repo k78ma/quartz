@@ -49,6 +49,8 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Simple Pole Approximation]]
 - [[Specs for Control Design]]
 - [[IOP with SPA]]
+- [[Control Design with IOP and SPA]]
+- [[Choosing Poles for IOP and SPA]]
 - [[BIBO stable <=> Stable]]
 
 
