@@ -126,3 +126,4 @@ This stable is not closed-loop stable, despite having stable plant and controlle
 
 
 Thus, it is not always intuitive in feedback systems whether the system will be closed-loop stable even if both the plant and controller are closed-loop stable.
+

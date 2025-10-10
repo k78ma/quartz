@@ -103,3 +103,5 @@ apt install ros-humble-turtlebot3-msgs
 
 
 ![[noVNC-20250929122153353.png]]
+
+![[noVNC-20251009145330764.png]]

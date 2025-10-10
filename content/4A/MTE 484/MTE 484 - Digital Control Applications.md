@@ -4,7 +4,9 @@ tags:
   - mte484
   - 4a
 date: 2025-09-03
-aliases: mte 484 - digital control applications
+aliases:
+  - mte 484 - digital control applications
+  - "484"
 ---
 ## Info
 Midterm: Oct 27 8PM - 9:20PM
@@ -37,15 +39,18 @@ Midterm: Oct 27 8PM - 9:20PM
     - [[Constant BIBO Stability Proof]]
 
 - [[Closed-Loop Stability]]
+    - [[Characteristic Polynomial CL Stability]]
 - [[Feedback System Performance Specifications]]
     - [[Final Value Theorem]]
     - [[Steady-State Response with FVT]]
 
+## IOP / SPA
 - [[Input-Output Parameterization]]
 - [[Simple Pole Approximation]]
 - [[Specs for Control Design]]
-
+- [[IOP with SPA]]
 - [[BIBO stable <=> Stable]]
+
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]

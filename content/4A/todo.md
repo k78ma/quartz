@@ -7,17 +7,16 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Lab 1 - Oct 10<br>#mte544
-- [ ] Patent Research and Design<br>#capstone
+- [ ] A5 - Oct 12<br>#mte484
+- [ ] Make-up lectures<br>#mte484
 - [ ] Teleop through RoboHub
+- [ ] Modeling Notes<br>#mte544
 
 
 ## MTE 484
 
-- [ ] Make-up lectures<br>#mte484
-- [ ] A5 - Oct 12<br>#mte484
 - [ ] Review 484<br>#mte484
-- [ ] Review Sept 23/30 Tutorial<br>#mte484
+- [ ] Review Tut 3,4<br>#mte484
 
 
 ## SYDE 522
@@ -27,7 +26,6 @@ draft: "true"
 
 ## MTE 544
 
-- [ ] Modeling Notes<br>#mte544
 - [ ] Sensing Notes<br>#mte544
 - [ ] A2 - Oct 21<br>#mte544
 
@@ -43,6 +41,8 @@ draft: "true"
 ## Other
 
 - [ ] Mech interp. research proposal
+- [ ] Kyle LOR Draft
+- [ ] Alex LOR Request
 
 
 ***
@@ -64,6 +64,8 @@ draft: "true"
 - [ ] A4 - Oct 2<br>#mte484
 - [ ] Code for balancing<br>#mte380
 - [ ] Lab 1 484<br>#mte484
+- [ ] Lab 1 - Oct 10<br>#mte544
+- [ ] Patent Research and Design<br>#capstone
 
 %% kanban:settings
 ```

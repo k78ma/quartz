@@ -66,9 +66,9 @@ where $\{ x_{i} \}_{i=1}^{m}$ and $\{ \hat{x}_{k} \}_{k=1}^{\hat{n}}$ are variab
 Matching coefficients gives us:
 $$
 \begin{align}
-X_{i}  & = -\alpha_{i} w_{i} \,\, \forall \, \,  i \in  \{ 1,\dots,m \} \\
-\hat{x}_{k}  & = \sum_{i=1}^{m} -\beta_{k,i} w_{i} \,\, \forall \, \,  k \in   \{ 1,\dots,\hat{n} \} \\
-0  & =  \sum_{i=1}^{n}-\beta_{k,1}w_{i} \,\, \forall \, \,  k \in  \{ \hat{n}+1,\dots,n \} \quad  \quad (\ast  )
+x_{i}  & = -\alpha_{i} w_{i} \,\, \forall \, \,  i \in  \{ 1,\dots,m \} \\[2ex]
+\hat{x}_{k}  & = \sum_{i=1}^{m} -\beta_{k,i} w_{i} \,\, \forall \, \,  k \in   \{ 1,\dots,\hat{n} \} \\[2ex]
+0  & =  \sum_{i=1}^{m}-\beta_{k,1}w_{i} \,\, \forall \, \,  k \in  \{ \hat{n}+1,\dots,n \} \quad  \quad (\ast  )
 \end{align}
 $$
 - These 3 are essentially another representation of IOP eq. (i)

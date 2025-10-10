@@ -30,7 +30,7 @@ Books:
 - [Nonlinear Dynamics and Chaos](https://www.biodyn.ro/course/literatura/Nonlinear_Dynamics_and_Chaos_2018_Steven_H._Strogatz.pdf)
 - [Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land](https://www.sscardapane.it/alice-book/)
 
-Blogs:
+Technical Blogs:
 - [jsomers.net | I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
 - [An Intuition for Attention](https://jaykmody.com/blog/attention-intuition/)
 - [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
@@ -53,6 +53,7 @@ Blogs:
 - [Notes on China](https://www.dwarkeshpatel.com/p/notes-on-china)
 - [i sensed anxiety and frustration at NeurIPS’24 – Kyunghyun Cho](https://kyunghyuncho.me/i-sensed-anxiety-and-frustration-at-neurips24/)
 - [ARC-AGI Without Pretraining | iliao2345](https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html#watching-the-network-learn-color-the-boxes)
+- [attention is logarithmic, actually](https://supaiku.com/attention-is-logarithmic)
 
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
@@ -69,9 +70,13 @@ Papers:
 Writing I enjoyed:
 - [The Colors Of Her Coat - by Scott Alexander](https://www.astralcodexten.com/p/the-colors-of-her-coat)
 - [escaping flatland: career advice for CS undergrads](https://space.ong.ac/escaping-flatland)
+- [Do Ten Times as Much ](https://www.betonit.ai/p/do-ten-times-as-much)
+- 
 
 Other:
 - [Vagabond](https://manga4life.com/manga/Vagabond)
+
+
 
 Compilations:
 - [[Greg Yang Book List]]

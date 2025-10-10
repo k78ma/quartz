@@ -1,8 +1,9 @@
 ---
-title: "Specs for Control Design"
-tags: 
-date: "2025-09-29"
-aliases: "specs for control design"
+title: Specs for Control Design
+tags:
+  - mte484
+date: 2025-09-29
+aliases: specs for control design
 ---
 How do we design controllers to meet [[Feedback System Performance Specifications|performance specifications]] using [[Input-Output Parameterization|IOP]]/[[Simple Pole Approximation|SPA]]?
 
@@ -11,17 +12,19 @@ Closed loop stability $\Longleftrightarrow$ $W, X, V$ stable $\implies$ already 
 
 ### 2. Steady-state error 
 ($e_{ss}$) is given by
-    $$
-    \begin{align}
+$$
+\begin{align}
     e_{ss} = T_{re}[1] & =X[1] \quad  \quad  [\text{IOP theorem part b}] \\[2ex]
      & = 1+ \sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}}+\sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}}
      \end{align}
-    $$
-    - Case 1. $e_{ss}=0$
+$$
+The $p_{i}$ terms are fixed be
+
+**Case 1:** We want the steady state error to be zero such that $e_{ss}=0$
 $$
 e_{ss}=1+\sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}} + \frac{\sum_{k=1}^{\hat{n}}\hat{x}_{k}}{1-q_{k}} = 0
 $$
-    - Case . $| e_{ss} |\leq C$
+**Case 2:** We want the steady-state error to be bounded such that $| e_{ss} |\leq C$
 $$
 \begin{align}
 e_{ss} &  \leq C \\
@@ -38,7 +41,7 @@ $$
 ### 3. Limit on control effort
 $$
 \begin{align}
- & u[k] \leq C \,\, \forall \, \, k>0 \implies \underbrace{ \text{step}(T_{ru}) }_{ =W \text{(IOP theorem part b)} }[k] \leq C \quad \,\, \forall \, \, k\geq 0 \\[2ex] 
+  u[k] \leq C \,\, \forall \, \, k>0 &  \implies  \text{step}(T_{ru}) [k] \leq C \quad \,\, \forall \, \, k\geq 0 \\[2ex] 
  & \implies \text{step}(W)[k] \leq C \quad  \,\, \forall \, \, k \geq 0 \\[2ex]
  & \Longleftrightarrow \text{step}\left( \sum_{i=1}^{m} \frac{w_{i}}{z-p_{i}} \right)[k] \leq C \quad \,\, \forall \, \, k\geq 0 \\[2ex]
  & \Longleftrightarrow \sum_{i=1}^{m}w_{i} \,\,\text{step}\left( \frac{1}{z-p_{i}}  \right)[k] \leq C \\[2ex] 
@@ -56,7 +59,7 @@ $$
 - $T_{ry}=1-T_{re} = 1-X$
 
 ### 4. Overshoot
-We want some ($\%\text{OS}\leq C$).
+We want some $\%\text{OS}\leq C$.
 
 Then, we have
 $$
@@ -70,6 +73,7 @@ which means
 $$
 \underset{j\geq 0}{\operatorname{max}}\left( -\sum_{i=1}^{m} \frac{1-p_{i}^{j}}{1-p_{i}}x_{i} - \sum_{k=1}^{\hat{n}} \frac{1-q_{k}^{j}}{1-q_{k}} \hat{x}_{k} \right) \leq(1+C)\left( -\sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}} - \sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}} \right)
 $$
+
 ### 5. Settling Time (within 2%)
 Let $T$ be the sample time and let $\hat{j}=\text{min}\{ j\, : \,jT \geq C \}$.
 
@@ -84,6 +88,17 @@ $$
 
 Thus, we have
 $$
-\underset{j\geq 0}{\operatorname{max}}\left( -\sum_{i=1}^{m} \frac{1-p_{i}^{j}}{1-p_{i}}x_{i} - \sum_{k=1}^{\hat{n}} \frac{1-q_{k}^{j}}{1-q_{k}} \hat{x}_{k} \right) \leq 1.02\left( -\sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}} - \sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}} \right)
-
+\begin{align}
+\underset{j\geq \hat{j}}{\operatorname{max}} (\text{step}(T_{ry}))  & \leq 1.02y_{ss} \\[2ex] 
+\underset{j\geq \hat{j}}{\operatorname{max}}\left( -\sum_{i=1}^{m} \frac{1-p_{i}^{j}}{1-p_{i}}x_{i} - \sum_{k=1}^{\hat{n}} \frac{1-q_{k}^{j}}{1-q_{k}} \hat{x}_{k} \right)  & \leq 1.02\left( -\sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}} - \sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}} \right)
+\end{align}
 $$
+and also
+$$
+\begin{align}
+\underset{j\geq \hat{j}}{\operatorname{min}} (\text{step}(T_{ry}))  & \geq 0.98y_{ss} \\[2ex] 
+\underset{j\geq \hat{j}}{\operatorname{min}}\left( -\sum_{i=1}^{m} \frac{1-p_{i}^{j}}{1-p_{i}}x_{i} - \sum_{k=1}^{\hat{n}} \frac{1-q_{k}^{j}}{1-q_{k}} \hat{x}_{k} \right)  & \geq 0.98\left( -\sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}} - \sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}} \right)
+\end{align}
+$$
+
+

@@ -1,12 +1,12 @@
 ---
 title: Resources
-tags: 
+tags:
 date: 2025-02-10
 aliases:
   - resources
   - links
   - bookmarks
-draft: "true"
+draft:
 ---
 ## ML/DL
 ### Books

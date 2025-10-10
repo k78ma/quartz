@@ -40,15 +40,15 @@ draft: "true"
 
 ## Part 7: 10 marks
  **From Report on LEARN:**
-- [ ] ```4``` marks for plots with title, label name for axis, legends, different shapes/colors for each data, and grids.
-- [ ] ```2``` marks for plots to be as following:
+- [x] ```4``` marks for plots with title, label name for axis, legends, different shapes/colors for each data, and grids.
+- [x] ```2``` marks for plots to be as following:
     - for odom two plots (count as 1):
         - [x] 'x - vs - y' 
         - [x] 'x, y, th- vs -t'
     - for IMU:
-        - [ ] 'a_x, a_y, w_z- vs -t'
+        - [x] 'a_x, a_y, w_z- vs -t'
     - for scan:
-        - [ ] convert the ranges array to cartesian and plot the results
+        - [x] convert the ranges array to cartesian and plot the results
 
 > 4 + 2 x 3 = 10 
 
@@ -58,5 +58,5 @@ draft: "true"
   
 ## Conclusions: 15 marks
 - [x] ```1``` mark for names (Family Name, First Name); student IDs; station number; and robot number of all group members. 
-- [ ] ```7``` marks for explanation of the obtained plots (can be in the figure captions)
-- [ ] ```7``` marks for a brief discussion (interpretation, quality, etc.)
+- [x] ```7``` marks for explanation of the obtained plots (can be in the figure captions)
+- [x] ```7``` marks for a brief discussion (interpretation, quality, etc.)
