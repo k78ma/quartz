@@ -16,6 +16,7 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Laplace Transform]]
 - [[Z-Transform]]
     - [[Linearity of Laplace and Z-Transforms]]
+
 ## Introductory Content
 - [[Feedback Control]]
 - [[Discrete-Time Control Systems]]
@@ -52,7 +53,11 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Control Design with IOP and SPA]]
 - [[Choosing Poles for IOP and SPA]]
 - [[BIBO stable <=> Stable]]
+- [[YALMIP + MOSEK messages]]
+- [[Infinity Norm]]
 
+## State Space Models
+- [[State Space Models]]
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]

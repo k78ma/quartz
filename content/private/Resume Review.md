@@ -170,3 +170,57 @@ You need to include a minimum of 5 responsibilities and 5 skills that you will g
 - IDE – VSCode
 - Ubuntu Linux (will send computer)
 - Roadrunner data replay internal tools
+
+
+![[Resume Review-20251010160054355.png]]
+
+![[Resume Review-20251010160103561.png]]
+
+![[Resume Review-20251010160115417.png]]
+
+![[Resume Review-20251010160124865.png]]
+
+![[Resume Review-20251010160134401.png]]
+
+![[Resume Review-20251010160146295.png]]
+
+![[Resume Review-20251010160156942.png]]
+
+![[Resume Review-20251010160210991.png]]
+
+![[Resume Review-20251010160224132.png]]
+
+![[Resume Review-20251010160246408.png]]
+
+![[Resume Review-20251010160305310.png]]
+
+![[Resume Review-20251010160321433.png]]
+
+- interview content (other than presentation)
+    - 4-5 technical interviews
+    - similar to initial 2 rounds (coding, ML/DL, background)
+    - about an hour each
+    - do 2, short break, 2 more, final round (hiring manager), 30 min exec interview (maybe), test drive
+
+- flights and accommodations for on-site
+    - as soon as I am given the dates, scheduling team will reach out to me to get flight/hotel
+
+- if i'm entering for the interview, do i need to get a special visa? or tell them i'm entering for tourism
+    - no visa, can just enter (probably?)
+    - tell them visiting friends or something
+
+- if i get the position, does tesla sponsor TN? H1B? green card?
+    - TN and then directly to green card???
+- specific sub-teams that this role is for
+    - "working on the model for the car"
+    - hiring manager can say more about specific projects during interview/test drive
+
+- expected range of compensation
+    - entry-level, mix of base and equity
+    - base - 150-170k, equity - 1 million, total ~ 400-450k
+    - equity - 25%, 6.25% every quarter after
+        - can choose stock or cash, can decide when you actually start
+        - can choose to trade options
+
+- tuesday they meet with elon
+- wednesday no-meeting day

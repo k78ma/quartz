@@ -7,8 +7,8 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] A5 - Oct 12<br>#mte484
-- [ ] Make-up lectures<br>#mte484
+- [ ] A2 - Oct 21<br>#mte544
+- [ ] A2 - Oct 22<br>#syde522
 - [ ] Teleop through RoboHub
 - [ ] Modeling Notes<br>#mte544
 
@@ -16,22 +16,23 @@ draft: "true"
 ## MTE 484
 
 - [ ] Review 484<br>#mte484
-- [ ] Review Tut 3,4<br>#mte484
+- [ ] Review Tut 3,4,5<br>#mte484
+- [ ] A5 - Oct 12<br>#mte484
 
 
 ## SYDE 522
 
-- [ ] A2 - Oct 22<br>#syde522
 
 
 ## MTE 544
 
 - [ ] Sensing Notes<br>#mte544
-- [ ] A2 - Oct 21<br>#mte544
+- [ ] Localization Notes<br>#mte544
 
 
 ## MTE 481
 
+- [ ] PDP Presentation<br>#mte481
 
 
 ## MTE 380
@@ -66,6 +67,7 @@ draft: "true"
 - [ ] Lab 1 484<br>#mte484
 - [ ] Lab 1 - Oct 10<br>#mte544
 - [ ] Patent Research and Design<br>#capstone
+- [ ] Make-up lectures<br>#mte484
 
 %% kanban:settings
 ```

@@ -75,12 +75,23 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Explicit Regularization]]
     - [[L2 Regularization]]
 - [[Implicit Regularization]]
+
+## Convolutional Networks
+
+
+## Residual Networks
+
+
+## Transformers
+- [[Attention]]
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
 ## Practical
 - [[Einops]]
 - [[PyTorch Tensor Creation]]
+- [[NumPy Axes]]
 
 ## Exercises
 - [[UDL Chapter 2 Problems]]
