@@ -16,6 +16,7 @@ aliases:
 
 
 
+
 > [!question] Problem 9.2
 > How do the gradients of the loss function change when L2 regularization is added? 
 

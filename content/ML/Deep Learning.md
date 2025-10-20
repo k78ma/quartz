@@ -88,6 +88,9 @@ Some of these notes are also included in [[Machine Learning]].
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
+## Other
+- [[Precision-Recall Curve]]
+
 ## Practical
 - [[Einops]]
 - [[PyTorch Tensor Creation]]

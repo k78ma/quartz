@@ -16,6 +16,8 @@ Midterm: Nov 4
 - [[3D Rotation Matrix]]
 - [[Euler Angles]]
 - [[3D Angular Velocities]]
+- [[Properties of SO(3) and so(3)]]
+- [[Unit Quaternion]]
 ## Motion Modeling
 - [[Motion Model]]
 - [[Two-Wheel Mobile Robot]]
