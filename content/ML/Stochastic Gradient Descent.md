@@ -9,6 +9,7 @@ aliases:
   - batch
   - epoch
   - learning rate schedule
+  - stochastic gradient descent
 ---
 Using [[Gradient Descent|gradient descent]] to find the global optimum of a high-dimensional loss function is challenging, especially in [[Gradient Descent for Non-convex Gabor Model|non-convex]] cases. We can find a minimum, but there is no way to tell if this is a global minimum or even a good one.
 

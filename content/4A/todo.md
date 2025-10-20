@@ -9,6 +9,7 @@ draft: "true"
 
 - [ ] A2 - Oct 21<br>#mte544
 - [ ] A2 - Oct 22<br>#syde522
+- [ ] A6 - Oct 23<br>#mte484
 - [ ] Teleop through RoboHub
 - [ ] Modeling Notes<br>#mte544
 
@@ -28,6 +29,7 @@ draft: "true"
 
 - [ ] Sensing Notes<br>#mte544
 - [ ] Localization Notes<br>#mte544
+- [ ] Lab 2 Pre-Lab Code - Oct 23<br>#mte544
 
 
 ## MTE 481

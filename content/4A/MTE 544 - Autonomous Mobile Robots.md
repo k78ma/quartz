@@ -13,7 +13,7 @@ Midterm: Nov 4
     - [[Special Orthogonal Group]]
     - [[Special Euclidean Group]]
 - [[Coordinate Transform for Velocity]]
-- [[3D Rotation Matrices]]
+- [[3D Rotation Matrix]]
 - [[Euler Angles]]
 - [[3D Angular Velocities]]
 ## Motion Modeling
