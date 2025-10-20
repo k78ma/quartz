@@ -46,6 +46,8 @@ s_{\alpha}c_{\beta} & s_{\alpha}s_{\beta}s_{\gamma}+c_{\alpha}c_{\gamma} & s_{\a
 \end{bmatrix}
 $$
 
+![[Euler Angles-20251020010948797.png]]
+
 ### Gimbal Lock
 - https://www.youtube.com/watch?v=zc8b2Jo7mno
 
