@@ -58,6 +58,8 @@ Midterm: Oct 27 8PM - 9:20PM
 
 ## State Space Models
 - [[State Space Models]]
+    - [[Mass-Spring Damper State Space Model]]
+
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]

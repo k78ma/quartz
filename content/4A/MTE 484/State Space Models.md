@@ -5,12 +5,21 @@ tags:
 date: 2025-10-20
 aliases: state space models
 ---
-Example:
+## Definition
+An LTI state space model of a system is a model of the form:
+$$
+\begin{align}
+\dot{x} = Ax + Bu \quad   & / \quad  x^{+}=Ax+Bu \\[2ex] 
+y=Cx+Du \quad  &  / \quad  y = Cx+Du
+\end{align}
+\quad  \quad (\ast  \ast  )
+$$
+such that for any initial condition $x(t=0)=x_{0}$ and any input signal $u(t)$, the system output is equal to the output $y)(t)$ of the equations $(\ast \ast )$  above.
+
+## Example
+Cart with applied force , mass  and damping due to friction $D\dot{y}$:
 
 ![[State Space Models-20251020114609073.png|529]]
-
-
-- Cart with applied force $u$, mass $M$ and damping due to friction $D\dot{y}$.
 
 Newton's 2nd Law gives
 $$
@@ -96,3 +105,46 @@ y & = \begin{bmatrix}
 \end{bmatrix}x + 0u
 \end{align}
 $$
+
+## State Space → Frequency Domain
+We have
+$$
+\begin{align}
+\dot{x} = Ax + Bu \\
+y = Cx+Du
+\end{align}
+$$
+Taking the Laplace transform gives us
+$$
+\begin{align}
+sX = AX+BU \\
+Y = CX+DU
+\end{align}
+$$
+Finding the transfer functions for the first equation:
+$$
+\begin{align}
+(sI-A)X  & = BU \\
+X  & = (sI-A)^{-1} BU
+\end{align}
+$$
+Substituting into the equation for $Y$:
+$$
+\begin{align}
+Y  & = C(sI-A)^{-1}BU + DU \\
+ & = \underbrace{ [C(sI-A)^{-1}B+D] }_{ T_{uy} }U 
+\end{align}
+$$
+So we can write $Y(s)=T_{uy}(s)$U(s) where $T_{uy}(s)=[C(sI-A)^{-1}B+D]$.
+
+## Frequency Domain → State Space
+Let $T_{uy}$ be real, rational, and proper. Then a state space realization (or just realization) of that $T_{uy}$ is an LTI state space model of the form
+$$
+\begin{align}
+\dot{x} = Ax+Bu \\
+y=Cx+Du
+\end{align}
+$$
+such that $C(sI-A)^{-1}B+D=T_{uy}(s)$.
+
+Note: State space realizations are NOT unique!
