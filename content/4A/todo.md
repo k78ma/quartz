@@ -8,26 +8,36 @@ draft: "true"
 ## Upcoming
 
 - [ ] A6 - Oct 23<br>#mte484
-- [ ] Review Tut 3,4,5<br>#mte484
+- [ ] Lab 2 Pre-Lab Code - Oct 23<br>#mte544
 - [ ] Teleop through RoboHub
+- [ ] Kyle LOR Draft
 
 
 ## MTE 484
 
 - [ ] Review 484<br>#mte484
 - [ ] Lab 2 - Nov 3<br>#mte484
+- [ ] MTE 484 A1
+- [ ] MTE 484 A2
+- [ ] MTE 484 A3
+- [ ] MTE 484 A4
+- [ ] MTE 484 A5
+- [ ] MTE 484 Past Midterm
+- [ ] MTE 484 Tutorial 4
+- [ ] MTE 484 Tut 5
+- [ ] MTE 484 Tut 6
 
 
 ## SYDE 522
 
 - [ ] A2 - Oct 22<br>#syde522
+- [ ] MTE 484 Tutorial 5
 
 
 ## MTE 544
 
 - [ ] Sensing Notes<br>#mte544
 - [ ] Localization Notes<br>#mte544
-- [ ] Lab 2 Pre-Lab Code - Oct 23<br>#mte544
 
 
 ## MTE 481
@@ -41,8 +51,6 @@ draft: "true"
 
 ## Other
 
-- [ ] Mech interp. research proposal
-- [ ] Kyle LOR Draft
 
 
 ***
@@ -70,6 +78,8 @@ draft: "true"
 - [ ] A2 - Oct 21<br>#mte544
 - [ ] Alex LOR Request
 - [ ] Modeling Notes<br>#mte544
+- [ ] Scan passport
+- [ ] Mech interp. research proposal
 
 %% kanban:settings
 ```

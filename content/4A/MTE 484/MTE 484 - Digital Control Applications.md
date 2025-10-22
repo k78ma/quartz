@@ -40,7 +40,7 @@ Midterm: Oct 27 8PM - 9:20PM
     - [[Constant BIBO Stability Proof]]
 
 - [[Closed-Loop Stability]]
-    - [[Characteristic Polynomial CL Stability]]
+    - [[Characteristic Polynomial Closed-Loop Stability]]
 - [[Feedback System Performance Specifications]]
     - [[Final Value Theorem]]
     - [[Steady-State Response with FVT]]
@@ -59,9 +59,10 @@ Midterm: Oct 27 8PM - 9:20PM
 ## State Space Models
 - [[State Space Models]]
     - [[Mass-Spring Damper State Space Model]]
-
-
+- [[State Space Realization]]
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
 - [[Sept 30 IOP Tutorial]]
+
+## Labs
 - [[MTE 484 Lab 1]]

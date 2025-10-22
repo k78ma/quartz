@@ -138,7 +138,7 @@ $$
 So we can write $Y(s)=T_{uy}(s)$U(s) where $T_{uy}(s)=[C(sI-A)^{-1}B+D]$.
 
 ## Frequency Domain → State Space
-Let $T_{uy}$ be real, rational, and proper. Then a state space realization (or just realization) of that $T_{uy}$ is an LTI state space model of the form
+Let $T_{uy}$ be real, rational, and proper. Then a state space **realization** (or just realization) of that $T_{uy}$ is an LTI state space model of the form
 $$
 \begin{align}
 \dot{x} = Ax+Bu \\
@@ -148,3 +148,4 @@ $$
 such that $C(sI-A)^{-1}B+D=T_{uy}(s)$.
 
 Note: State space realizations are NOT unique!
+

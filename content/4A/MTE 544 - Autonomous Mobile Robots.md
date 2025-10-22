@@ -3,7 +3,9 @@ title: MTE 544 - Autonomous Mobile Robots
 tags:
   - mte544
 date: 2025-09-10
-aliases: mte 544 - autonomous mobile robots
+aliases:
+  - mte 544 - autonomous mobile robots
+  - "544"
 ---
 ## Info
 Midterm: Nov 4

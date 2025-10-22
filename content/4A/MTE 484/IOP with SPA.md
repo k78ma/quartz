@@ -141,3 +141,17 @@ x \\
 
 \end{align}
 $$
+
+Note that:
+- $n$ is the number of plant poles
+- $\hat{n}$ is the number of stable plant poles
+- $m$ is the number of approximating poles
+
+A solution exists if $A$ is full rank and $(\# \text{ columns of } A)\geq(\# \text{ rows of A})$:
+$$
+\begin{align}
+2m+\hat{n} \geq m +n+(n-\hat{n}) \\
+\implies m \geq 2(n-\hat{n})
+\end{align}
+$$
+So the number of approximating poles $m$ must be at least twice the number of unstable plant poles to guarantee a solution exists.

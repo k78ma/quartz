@@ -1,11 +1,10 @@
 ---
-title: Characteristic Polynomial CL Stability
+title: Characteristic Polynomial Closed-Loop Stability
 tags:
   - mte484
-date: 2025-10-10
-aliases: characteristic polynomial cl stability
+date: 2025-10-21
+aliases: characteristic polynomial closed-loop stability
 ---
-
 > [!definition] Coprime 
 > Two polynomials $N[z]$/$N(s)$ and $M[z]$/$M(s)$ are coprime if they have no common roots.
 
@@ -25,6 +24,8 @@ Let $D[z] = \frac{f[z]}{g[z]}$, where $f,g$ are coprime and $g$ is monic.
 > \Delta(s) := N(s)f(s)+M(s)g(s)
 >\end{align}
 > $$
+
+Important theorem we can use to check closed-loop stability:
 
 > [!theorem] Theorem
 > The system is [[Closed-Loop Stability|closed-loop stable]] if and only if $\Delta [z]$/$\Delta(s)$ has all of its roots in $\mathbb{D}$/$\mathbb{C}^{-}$.

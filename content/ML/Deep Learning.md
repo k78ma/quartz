@@ -89,6 +89,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Neural Tangent Kernel]]
 
 ## Other
+- [[Precision Metric]]
+- [[Recall Metric]]
 - [[Precision-Recall Curve]]
 
 ## Practical
