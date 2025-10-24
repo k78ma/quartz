@@ -112,7 +112,7 @@ $$
     - Simplicity of controllers (reducing the number of poles)
     - More robust to physical or engineered limits (can tighten limits $u[k] \leq C$ or $y[k]\leq C$) further in specs
       
-- Economic
+- Economics
     - Less expensive sensors; increase sampling time $T$, which limits the performance (response time) of our control system
     - Reducing actuator wear and tear
         - (i) By minimizing the size of the control signal

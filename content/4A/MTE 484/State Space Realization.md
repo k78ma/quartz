@@ -142,3 +142,92 @@ $$
 \dot{x}_{n}  & = \lambda_{n}x_{n} \quad \Longrightarrow \quad x_{n}(t) = e^{\lambda_{n}t}x_{n}(0)
 \end{align}
 $$
+Note that the dynamics are decoupled.
+
+Let $z=V^{-1}x$ such that $x=Vz$. Then:
+$$
+\dot{z} = V^{-1}x = V^{-1}Ax = V^{-1}V \Lambda V^{-1}x = \Lambda V^{-1}x = \Lambda z
+$$
+Then:
+$$
+\dot{z} = \Lambda z
+$$
+such that
+$$
+\begin{align}
+\dot{z}_{1}  & = \lambda_{1}z_{1} \quad \Longrightarrow \quad z_{1}(t) = e^{\lambda_{1}t}z_{1}(0) \\
+\dot{z}_{2}  & = \lambda_{2}z_{2} \quad \Longrightarrow \quad z_{2}(t) = e^{\lambda_{2}t}z_{2}(0) \\
+ & \quad   \vdots \\
+\dot{z}_{n}  & = \lambda_{n}z_{n} \quad \Longrightarrow \quad z_{n}(t) = e^{\lambda_{n}t}z_{n}(0)
+\end{align}
+$$
+Then:
+$$
+\begin{align}
+x(t) = Vz(t)  & = \begin{bmatrix}
+1 &  & 1 \\
+v_{1} & \dots & v_{n} \\
+1 &  & 1
+\end{bmatrix} \begin{bmatrix}
+z_{1}(t) \\
+\vdots \\
+z_{2}(t)
+\end{bmatrix} \\[2ex] 
+     & = \sum_{i=1}^{n}z_{i}(t)v_{i}\\[2ex] 
+ & = \sum_{i=1}^{n} e^{\lambda_{i}(t)}z_{i}(0) v_{i}
+\end{align}
+$$
+
+> [!definition] Eigenvalue stability
+> An eigenvalue $\lambda$ of $A$ is stable if $\lambda \in \mathbb{C}^{-}$ and unstable if $\lambda \notin \mathbb{C}^{-}$.
+
+Example:
+$$
+\dot{x} = \frac{1}{3}\begin{bmatrix}
+4 & 5 \\
+10 & -1
+\end{bmatrix}x
+$$
+Then:
+$$
+\begin{align}
+\lambda_{1} = -2, v_{1} = \begin{bmatrix}
+-1 \\
+2
+\end{bmatrix} \\
+\lambda_{2} =3 , v_{2} = \begin{bmatrix}
+1 \\
+1
+\end{bmatrix}
+\end{align} \quad \Longrightarrow \quad  x(t) = e^{\lambda_{1}(t)}z_{1}(0)v_{1}+e^{\lambda_{2}t}z_{2}(0)v_{2}
+$$
+and $x(0)=z_{1}(0)v_{1}+z_{2}(0)v_{2}$.
+
+Let's look at some possible initial conditions:
+- Case 1:
+$$
+\begin{align}
+ & z_{2}(0)=0, z_{1}(0)\neq 0 \quad \Longrightarrow \quad x(0)=z_{1}(0)v_{1}  \\
+  \implies &  x(t) = e^{\lambda_{1}t}z_{1}(0)v_{1} \\
+ \implies & x(t) \text{ never escapes } \text{span}(v_{1}) \\
+\implies & \lim_{ t \to \infty } x(t) = 0 \text{ because } \lambda_{1} \text{ is stable}
+\end{align}
+$$
+- Case 2:
+$$
+\begin{align}
+ & z_{1}(0)=0, z_{2}(0)\neq 0 \quad \Longrightarrow \quad x(0)=z_{2}(0)v_{2}  \\
+  \implies &  x(t) = e^{\lambda_{2}t}z_{2}(0)v_{2} \\
+ \implies & x(t) \text{ never escapes } \text{span}(v_{2}) \\
+\implies & \lim_{ t \to \infty } x(t) = \infty \text{ because } \lambda_{2} \text{ is stable}
+\end{align}
+$$
+- Case 3:
+$$
+\begin{align}
+ & z_{1}(0)\neq0, z_{2}(0)\neq 0 \quad \Longrightarrow \quad x(0)=z_{1}(0)v_{1}+z_{2}(0)v_{2}  \\
+  \implies &  x(t) = e^{\lambda_{1}t}z_{1}(0)v_{1}+e^{\lambda_{2}t}z_{2}(0)v_{2} \\
+ \implies & x(t) \text{ goes to 0 along } \text{span}(\lambda_{1}) \text{ and } \infty \text{ along } \text{span}(\lambda_{2})  \\
+\end{align}
+$$
+

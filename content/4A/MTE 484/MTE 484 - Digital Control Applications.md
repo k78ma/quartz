@@ -60,9 +60,12 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[State Space Models]]
     - [[Mass-Spring Damper State Space Model]]
 - [[State Space Realization]]
+- [[Nonlinear State Space Models]]
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
 - [[Sept 30 IOP Tutorial]]
 
 ## Labs
 - [[MTE 484 Lab 1]]
+- [[MTE 484 Lab 2]]
+- [[MTE 484 A6Q3c]]

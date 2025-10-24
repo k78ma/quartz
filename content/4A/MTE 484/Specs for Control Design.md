@@ -14,7 +14,7 @@ Closed loop stability $\Longleftrightarrow$ $W, X, V$ stable $\implies$ already 
 ($e_{ss}$) is given by
 $$
 \begin{align}
-    e_{ss}  & = T_{re}[1]  =X[1] \quad  \quad  [\text{IOP theorem part b}] \\[2ex]
+    e_{ss}  & = T_{re}[1]  =X[1]  &  [\text{IOP theorem part b, corollary to FVT}] \\[2ex]
      & = 1+ \sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}}+\sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}}
      \end{align}
 $$

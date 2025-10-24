@@ -7,15 +7,12 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] A6 - Oct 23<br>#mte484
-- [ ] Lab 2 Pre-Lab Code - Oct 23<br>#mte544
 - [ ] Teleop through RoboHub
-- [ ] Kyle LOR Draft
+- [ ] Get 3rd recommender
 
 
 ## MTE 484
 
-- [ ] Review 484<br>#mte484
 - [ ] Lab 2 - Nov 3<br>#mte484
 - [ ] MTE 484 A1
 - [ ] MTE 484 A2
@@ -24,29 +21,34 @@ draft: "true"
 - [ ] MTE 484 A5
 - [ ] MTE 484 Past Midterm
 - [ ] MTE 484 Tutorial 4
-- [ ] MTE 484 Tut 5
-- [ ] MTE 484 Tut 6
+- [ ] MTE 484 Tutorial 5
+- [ ] MTE 484 Tutorial 6
+- [ ] MTE 484 Midterm<br>#mte484
 
 
 ## SYDE 522
 
-- [ ] A2 - Oct 22<br>#syde522
-- [ ] MTE 484 Tutorial 5
+- [ ] A3 - Nov 3<br>#syde522
 
 
 ## MTE 544
 
 - [ ] Sensing Notes<br>#mte544
 - [ ] Localization Notes<br>#mte544
+- [ ] Lab Report + Code - Oct 31<br>#mte544
+- [ ] HW3 - Nov 2<br>#mte544
+- [ ] Midterm - Nov 4<br>#mte544
 
 
 ## MTE 481
 
-- [ ] PDP Presentation<br>#mte481
+- [ ] Detailed Design Presentation - Nov 5<br>#mte481
 
 
 ## MTE 380
 
+- [ ] Question Selection - Nov 5<br>#mte380
+- [ ] Servo motor demo - Nov 5<br>#mte380
 
 
 ## Other
@@ -80,6 +82,11 @@ draft: "true"
 - [ ] Modeling Notes<br>#mte544
 - [ ] Scan passport
 - [ ] Mech interp. research proposal
+- [ ] Lab 2 Pre-Lab Code - Oct 23<br>#mte544
+- [ ] A2 - Oct 22<br>#syde522
+- [ ] PDP Presentation<br>#mte481
+- [ ] Kyle LOR Draft
+- [ ] A6 - Oct 23<br>#mte484
 
 %% kanban:settings
 ```

@@ -67,8 +67,16 @@ $$
 $$
 They key reason this works is that all the poles are inside the open unit disk, except for the one at $z=1$.
 
+## FVT for Step Response
+Let $G[z] / P(s)$ be a real, rational, proper, and stable transfer function. Let $u[k]=\mathbb{1}[k] \, / \, u(t) =\mathbb{1}(t)$ be the input to $G[z] / P(s)$, and let $y[k] / y(t)$ be its output. Then the step response is:
+$$
+\begin{align}
+\lim_{ k \to \infty } y[k]  & = G[1] \\[2ex] 
+\lim_{ t \to \infty } y(t)  & = G(1)
+\end{align}
+$$
 
-
+![[Final Value Theorem-20251023165423135.png]]
 
 ## ELEC 3200
 
