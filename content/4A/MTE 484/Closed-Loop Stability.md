@@ -74,7 +74,7 @@ $$
 > A closed-loop system is *closed-loop stable* or *internally stable* if all closed-loop transfer functions from external signals to internal signals $T_{ry}, \, T_{re},\, T_{ru},\, T_{dy},\, T_{de},\, T_{du}$ are [[BIBO Stability|BIBO stable]].
 > 
 > - This is equivalent to saying that for any bounded external signals $r,d$, the internal signals $u,e,y$ are bounded as well.
-> - As $e=r-y$ is bounded whenever $r,y$ is bounded whenever $r,y$ are bounded, it suffices to only consider the 4 transfer functions from $(r,d)$ to $(u,y)$ to determine closed-loop stability.
+> - As $e=r-y$ is bounded whenever $r,y$ is bounded, it suffices to only consider the 4 transfer functions from $(r,d)$ to $(u,y)$ to determine closed-loop stability.
 > - Equivalently, as $y=r-e$ is bounded whenever $r,e$ are bounded, it suffices to only consider the 4 transfer functions from $(r,d)$ to $(u,e)$ to determine closed-loop stability.
 
 ## Examples

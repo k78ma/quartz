@@ -72,7 +72,7 @@ $$
 \begin{align}
 x_{i}  & = -\alpha_{i} w_{i} \,\, \forall \, \,  i \in  \{ 1,\dots,m \} \\[2ex]
 \hat{x}_{k}  & = \sum_{i=1}^{m} -\beta_{k,i} w_{i} \,\, \forall \, \,  k \in   \{ 1,\dots,\hat{n} \} \\[2ex]
-0  & =  \sum_{i=1}^{m}-\beta_{k,1}w_{i} \,\, \forall \, \,  k \in  \{ \hat{n}+1,\dots,n \} \quad  \quad (\ast  )
+0  & =  \sum_{i=1}^{m}-\beta_{k,i}w_{i} \,\, \forall \, \,  k \in  \{ \hat{n}+1,\dots,n \} \quad  \quad (\ast  )
 \end{align}
 $$
 - The final equation ensures all unstable poles have zero coefficients.
@@ -82,7 +82,7 @@ IOP equation (ii):
 $$
 V = -GX
 $$
-Since $X$ only contains simple poles like $W$, we can u se the same procedure as above for calculating $GW$ to find $GX$ and then $V$.
+Since $X$ only contains simple poles like $W$, we can use the same procedure as above for calculating $GW$ to find $GX$ and then $V$.
 
 However, as $D=\frac{W}{X}$ and $T_{ry}=1-X$, we do not need $V$ to satisfy our desired specs or recover our controller. We just need to ensure that $V$ is stable.
 

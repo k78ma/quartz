@@ -26,6 +26,10 @@ draft: "true"
 - [ ] MTE 484 Midterm<br>#mte484
 
 
+## 484 done
+
+
+
 ## SYDE 522
 
 - [ ] A3 - Nov 3<br>#syde522

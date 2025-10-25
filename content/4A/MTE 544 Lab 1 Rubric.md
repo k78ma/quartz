@@ -60,3 +60,8 @@ draft: "true"
 - [x] ```1``` mark for names (Family Name, First Name); student IDs; station number; and robot number of all group members. 
 - [x] ```7``` marks for explanation of the obtained plots (can be in the figure captions)
 - [x] ```7``` marks for a brief discussion (interpretation, quality, etc.)
+
+
+
+
+Trajectory: 0.4, 0.55, 0.05

@@ -139,7 +139,7 @@ $$
 \begin{bmatrix}
 \text{step}(T_{ry})[1] \\
 \vdots \\
-\text{step}(T_{ru})[K]
+\text{step}(T_{ry})[K]
 \end{bmatrix} = \underbrace{ \begin{bmatrix}
 -\frac{1-p_{1}^{1}}{1-p_{1}}  & \dots & -\frac{1-p_{m}^{1}}{1-p_{m}}  & - \frac{1-q_{1}^{1}}{1-q^{1}}  & \dots  & - \frac{1-q^{1}_{\hat{n}}}{1-q_{\hat{n}}}  \\
  & \ddots  \\
