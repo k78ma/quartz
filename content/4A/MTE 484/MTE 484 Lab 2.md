@@ -31,28 +31,36 @@ $$
 
 $$
 \begin{align}
-\frac{K_1/\tau}{s^2+\frac{1}{\tau}s+\frac{K_1}{\tau}} \\[2ex] 
-\frac{K_{1}}{\tau} & =\frac{-2.1079}{0.0197} =-107 \\
-\frac{1}{\tau} &  = \frac{1}{0.0197} = 50.76142132 \\
+\text{Plant: } & \frac{K_1/\tau}{s^2+\frac{1}{\tau}s} \\[2ex] 
+\frac{K_{1}}{\tau} & =\frac{-2.1079}{0.0197} =-107 \\[2ex]
+\frac{1}{\tau} &  = \frac{1}{0.0197} = 50.76142132 \\[2ex] 
+\therefore \text{Plant}  & =\frac{-107}{1s^{2} + 50.76142132s}
 \end{align}
 $$
-$$
-\frac{-107}{1s^{2} + 50.76142132s}
-$$
-
 
 ```
-stableRealPlantPoles = [0.7758];
+% set time step
+time_to_plot = 2;
+T = 0.005;
 
-stableComplexPlantPoles = [];
+%% Continuous Time
+num = [-107];
+denom = [1 50.7614 0];
+cont_TF = tf(num, denom);
+G = c2d(cont_TF, T);
 
-unstablePlantPoles = [1];
+pole(G)
+zero(G)
+zpk(G)
 
-stablePlantPoles = [stableRealPlantPoles stableComplexPlantPoles];
-
-qs = [stablePlantPoles unstablePlantPoles];
-
-% coefficents go in order of the poles
-
-cs = [0.00930649 -0.0105377];
+  -0.0012312 (z+0.9189)
+  ---------------------
+    (z-1) (z-0.7758)
 ```
+
+
+Partial fraction decomposition:
+
+![[MTE 484 Lab 2-20251025131230224.png|448]]
+
+
