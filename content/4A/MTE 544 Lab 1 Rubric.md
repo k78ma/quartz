@@ -7,61 +7,48 @@ aliases: mte 544 lab 1 report
 draft: "true"
 ---
 ## Pre-lab
-- [x] ```-5``` marks if the code is not submitted by 24 hours before the lab section.
-- [x] ```-3``` marks if code submitted but mostly incomplete or completions are random/do not make sense.
+- [x] `-5` marks if the code is not submitted by 24 hours before the lab section.
+- [x] `-3` marks if code submitted but mostly incomplete or completions are random/do not make sense.
 
-## Part 1 and 2: 10 marks
-**In-Lab:**
-- [x] ```10``` marks if successfully drived the robot to their seat or ```0``` if not.
+## General
+**From Code Submission on LEARN:**
+- [ ] `-1` for each portion of code to be completed and not commented.
+
+## Part 1 and 2: No marks
 
 ## Part 3: 15 marks
- **From Code Submission on LEARN:**
-- [x] ```5``` marks for correct imports in ```motion.py```: ```2/5``` marks for incorrect lines of code and ```1/5``` mark for non-sense completion.
-- [x] ```5``` marks for correct publisher in ```motion.py```: ```2/5``` marks for incorrect lines of code and ```1/5``` mark for non-sense completion.
-- [x] ```5``` marks for correct QOS in ```motion.py```: ```2/5``` marks for incorrect lines of code and ```1/5``` mark for non-sense completion.
-
-## Part 4: 15 marks
 **From Code Submission on LEARN:**
-- [x] ```4``` marks for each motion in ```motion.py```: ```2/4``` marks for incorrect lines of code and ```1/4``` marks for non-sense completion.
-- [x] ```1``` mark for documentation in ```motion.py```.
+- [x] `6` marks for correct completion of `localization.py`: `4/6` for incorrect lines and `1/6` for non-sense completion.
+- [x] `6` marks for correct completion of `decision.py`: `4/6` for incorrect lines and `1/6` for non-sense completion.
+- [x] `3` marks for correct completion of `utilities.py`: `2/3` for incorrect lines and `1/3` for non-sense completion.
 
-> 4 x 3 + 1 x 3 = 15
+> 6 x 2 + 3 = 15 marks
 
-## Part 5: 15 marks
- **From Code Submission on LEARN:**
-- [x] ```5``` marks for subscription creation in ```motion.py```. 
-- [x] ```4``` marks for callbacks + ```1``` mark for documentation in ```motion.py```.
-- [x] ```4``` marks for loggers + ```1``` mark for documentation in ```utilities.py``` 
+## Part 4: 20 marks
+**From Code Submission on LEARN:**
+- [x] `3` marks for correct completion of `pid.py`, `utilities.py`, `controller.py`, and, `decision.py`.
 
-## Part 6: 10 marks
-**In-Lab:**
-- [x] ```3.5``` marks for each motion: ```1.5``` if incorrect executed motion or ```0``` if inexecutable code.
-> 3.5 x 3 = 10 (approximated)
+> 3 x 4 = 12 marks
 
-## Part 7: 10 marks
- **From Report on LEARN:**
-- [x] ```4``` marks for plots with title, label name for axis, legends, different shapes/colors for each data, and grids.
-- [x] ```2``` marks for plots to be as following:
-    - for odom two plots (count as 1):
-        - [x] 'x - vs - y' 
-        - [x] 'x, y, th- vs -t'
-    - for IMU:
-        - [x] 'a_x, a_y, w_z- vs -t'
-    - for scan:
-        - [x] convert the ranges array to cartesian and plot the results
+**In-Lab:** `8` marks for testing Point Controller
+- If you did not show the motions in the lab to a TA, then you get `4` marks (50% off) if you have the plots in the report.
 
-> 4 + 2 x 3 = 10 
-
-## Part 8: 10 marks
+## Part 5: 20 marks
 **From Report on LEARN:**
-- [x] ```10``` marks for showing pgm maps: ```5/10``` for low quality map acquisition.
-  
-## Conclusions: 15 marks
-- [x] ```1``` mark for names (Family Name, First Name); student IDs; station number; and robot number of all group members. 
-- [x] ```7``` marks for explanation of the obtained plots (can be in the figure captions)
-- [x] ```7``` marks for a brief discussion (interpretation, quality, etc.)
+- [x] `2` marks for plots with title, label name for axis, legends, different shapes/colors for each data, and grids.
+- [x] `8` marks for plots for P and PID: {e-t, edot-t}, and {x-t, y-t, th-t}, and {x-y}, {e-edot}.
+- [x] `10` marks for showing the tunning process.
 
+## Part 6: 20 marks
+**In-Lab: 20 marks**
+- [x] `10` marks for each trajectory: `0` for inexecutable code, `5` for incorrect motion, and `8` for jerky trajectories.
+- [x] If you did not show the motions in the lab to a TA, then you get `5` marks (50% off) for each trajectory shown in the plots in the report.
 
+> 10 x 2 = 20 marks
 
-
-Trajectory: 0.4, 0.55, 0.05
+## Conclusions: 25 marks
+**From Report on LEARN:**
+- [x] `1` mark for names (Family Name, First Name); student IDs; station number; and robot number of all group members.
+- [x] `6` marks for plots of Part 6 {x-y} for parabola and sigmoid (2 plots), of which `2` marks for title, label name for axis, legends, different shapes/colors for each data, and grids.
+- [x] `8` marks for stability analysis of each controller (overshoot, oscillations, response time, etc.).
+- [x] `10` marks for discussion (comparison between controllers in the light of parameters calculated in stability analysis).

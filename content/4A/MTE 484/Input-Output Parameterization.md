@@ -27,7 +27,7 @@ $$
 \begin{align}
  & X[z] + G[z]W[z]   = 1 \quad \quad \text{(i)} \\[2ex]
  & V[z] + G[z]X[z]   =0 \quad  \quad  \text{(ii)} \\[2ex]
- & X[z], W[z], V[z] \text{ are real, rational,proper, and stable} \quad  \quad  \text{(iii)}
+ & X[z], W[z], V[z] \text{ are real, rational, proper, and stable} \quad  \quad  \text{(iii)}
 \end{align}
 $$
 

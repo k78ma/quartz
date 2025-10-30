@@ -7,7 +7,7 @@ aliases:
   - final value theorem
 ---
 > [!theorem] Final Value Theorem
-> Let $p(t)$/ $g[k]$ be a signal with Laplace/Z-transform that is real, rational, and proper. Then:
+> Let $p(t)$ / $g[k]$ be a signal with Laplace/Z-transform that is real, rational, and proper. Then:
 > 
 > **(a.)** If all poles of $P(s)$/$G[z]$ lie in $\mathbb{C}^{-}$/$\mathbb{D}$,
 >  $$

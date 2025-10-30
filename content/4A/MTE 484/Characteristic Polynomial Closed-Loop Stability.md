@@ -89,7 +89,7 @@ Therefore, there cannot exist an unstable root $\lambda$ of $\Delta[z]$.
 
 Note: The closed-loop poles of the system (the poles of $T_{re}, T_{ru}, T_{ry}, T_{de}, T_{du}, T_{dy}$) are the roots of $\Delta[z]$.
 
-### Corrolary
+### Corollary
 **Corollary:** If the plant $G[z]$ and the controller $D[z]$ have an unstable pole-zero cancellation (either $N[z]=g[\lambda]=0$ or $M[\lambda]=f[\lambda]=0$ for some $| \lambda |\geq 1$) then the closed-loop system is unstable.
 
 - Given: $G[z]$ and $D[z]$ have a pole-zero cancellation at $\lambda$ where $| \lambda | \geq 1$:

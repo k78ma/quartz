@@ -8,6 +8,11 @@ aliases:
   - mte 484 - digital control applications
   - "484"
 ---
+- [x] A3: Q2, Q4
+- [ ] A4: Q3(ish), Q5
+- [x] A5: Skim all
+- [ ] A6: Q5
+
 ## Info
 Midterm: Oct 27 8PM - 9:20PM
 
@@ -61,6 +66,8 @@ Midterm: Oct 27 8PM - 9:20PM
     - [[Mass-Spring Damper State Space Model]]
 - [[State Space Realization]]
 - [[Nonlinear State Space Models]]
+- [[Numerical Integration for Control Systems]]
+
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
 - [[Sept 30 IOP Tutorial]]

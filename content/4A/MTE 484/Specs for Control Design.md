@@ -143,7 +143,7 @@ $$
 \end{bmatrix} = \underbrace{ \begin{bmatrix}
 -\frac{1-p_{1}^{1}}{1-p_{1}}  & \dots & -\frac{1-p_{m}^{1}}{1-p_{m}}  & - \frac{1-q_{1}^{1}}{1-q^{1}}  & \dots  & - \frac{1-q^{1}_{\hat{n}}}{1-q_{\hat{n}}}  \\
  & \ddots  \\
-\frac{1-p_{1}^{k}}{1-p_{1}}  & \dots & \frac{1-p_{m}^{k}}{1-p_{m}} &  - \frac{1-q_{k}^{1}}{1-q^{1}}  & \dots  & - \frac{1-q^{k}_{\hat{n}}}{1-q_{\hat{n}}}
+-\frac{1-p_{1}^{k}}{1-p_{1}}  & \dots & \frac{1-p_{m}^{k}}{1-p_{m}} &  - -\frac{1-q_{k}^{1}}{1-q^{1}}  & \dots  & - \frac{1-q^{k}_{\hat{n}}}{1-q_{\hat{n}}}
 \end{bmatrix} }_{ \text{step\_ry} } \begin{bmatrix}
 x_{1} \\
 \vdots \\

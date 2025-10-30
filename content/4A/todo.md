@@ -7,40 +7,26 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] Question Selection - Nov 5<br>#mte380
+- [ ] HW3 - Nov 2<br>#mte544
+- [ ] A3 - Nov 3<br>#syde522
+- [ ] Sensing Notes<br>#mte544
 - [ ] Teleop through RoboHub
-- [ ] Get 3rd recommender
 
 
 ## MTE 484
 
 - [ ] Lab 2 - Nov 3<br>#mte484
-- [ ] MTE 484 A1
-- [ ] MTE 484 A2
-- [ ] MTE 484 A3
-- [ ] MTE 484 A4
-- [ ] MTE 484 A5
-- [ ] MTE 484 Past Midterm
-- [ ] MTE 484 Tutorial 4
-- [ ] MTE 484 Tutorial 5
-- [ ] MTE 484 Tutorial 6
 - [ ] MTE 484 Midterm<br>#mte484
-
-
-## 484 done
-
 
 
 ## SYDE 522
 
-- [ ] A3 - Nov 3<br>#syde522
 
 
 ## MTE 544
 
-- [ ] Sensing Notes<br>#mte544
 - [ ] Localization Notes<br>#mte544
-- [ ] Lab Report + Code - Oct 31<br>#mte544
-- [ ] HW3 - Nov 2<br>#mte544
 - [ ] Midterm - Nov 4<br>#mte544
 
 
@@ -51,7 +37,6 @@ draft: "true"
 
 ## MTE 380
 
-- [ ] Question Selection - Nov 5<br>#mte380
 - [ ] Servo motor demo - Nov 5<br>#mte380
 
 
@@ -91,6 +76,10 @@ draft: "true"
 - [ ] PDP Presentation<br>#mte481
 - [ ] Kyle LOR Draft
 - [ ] A6 - Oct 23<br>#mte484
+- [ ] MTE 484 Past Midterm
+- [ ] Lab Report + Code - Oct 31<br>#mte544
+- [ ] Pengcheng Draft
+- [ ] Mohammad Draft
 
 %% kanban:settings
 ```

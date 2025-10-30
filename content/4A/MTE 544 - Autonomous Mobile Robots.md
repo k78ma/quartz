@@ -20,12 +20,17 @@ Midterm: Nov 4
 - [[3D Angular Velocities]]
 - [[Properties of SO(3) and so(3)]]
 - [[Unit Quaternion]]
+
 ## Motion Modeling
 - [[Motion Model]]
 - [[Two-Wheel Mobile Robot]]
 - [[Four-Wheel Front Steer Robot]]
 - [[Four-Wheel Differential Drive Robot]]
 - [[Holonomic Mobile Robots]]
+
+## Sensing and Measurement
+- [[Inertial Sensors]]
+- [[Position Sensors]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]
