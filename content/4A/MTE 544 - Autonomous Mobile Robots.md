@@ -31,6 +31,7 @@ Midterm: Nov 4
 ## Sensing and Measurement
 - [[Inertial Sensors]]
 - [[Position Sensors]]
+- [[Odometry]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]
