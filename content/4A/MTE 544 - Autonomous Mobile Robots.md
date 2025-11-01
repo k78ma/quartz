@@ -56,8 +56,9 @@ Midterm: Nov 4
 
 ## Localization and Mapping
 - [[Localization and Mapping]]
-- [[Probabilistic Robot Model]]
-
+- [[Probabilistic Motion Model]]
+- [[Measurement Model]]
+- [[Probability Theory for State Estimation]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]

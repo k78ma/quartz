@@ -1,9 +1,9 @@
 ---
-title: Probabilistic Robot Model
+title: Probabilistic Motion Model
 tags:
   - mte544
 date: 2025-11-01
-aliases: probabilistic robot model
+aliases: probabilistic motion model
 ---
 A robot's motion model can be written by a state equation:
 $$
