@@ -32,6 +32,11 @@ Midterm: Nov 4
 - [[Inertial Sensors]]
 - [[Position Sensors]]
 - [[Odometry]]
+- [[Camera Basics]]
+- [[Camera Calibration]]
+- [[Stereo Cameras]]
+- [[Structure from Motion]]
+    - [[Visual Odometry]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]

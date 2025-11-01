@@ -87,3 +87,37 @@ Partial fraction decomposition:
 
    0.8186 - 0.1787i   0.6664 + 0.5584i   0.6664 - 0.5584i   0.3569 + 0.8262i   0.3569 - 0.8262i
 
+## Stiction with Ball and Beam
+- Upward (higher than before because we need to fight gravity): -0.48
+- Downward (lower than before because gravity is helping us): -0.05
+
+## Part E:
+When ball is at 0, sensor reading = 310
+When ball is at end, sensor reading = 630
+Beam length = 41.7
+
+$$
+m=\frac{y_{2}-y_{1}}{x_{2}-x_{1}} = 0.001303125
+$$
+$$
+\begin{align}
+0  & = 0.001303125 \cdot 310 + b  \\
+b & = -0.40396875
+\end{align}
+$$
+$$
+\text{meters} = 0.001303125 \cdot (\text{sensor reading}) - 0.40397
+$$
+
+
+The motor rotates the motor gear with radius $r$. The gear pulls a lever arm of length $\ell$ attached to the beam. A small rotation of the motor (angle $\theta$) moves the end of the lever by an arc length $\Delta x = r\theta$.
+
+The displacement causes the lever to rotate the beam, which is given by:
+$$
+\sin \phi \approx \phi = \frac{\Delta x}{\ell} = \frac{r\theta}{\ell}
+$$
+So the ratio is
+$$
+\frac{\phi}{\theta} = \frac{r}{\ell}
+$$
+Therefore, $K_{2} = \frac{r}{\ell}=\frac{2.54}{12}= 0.2166667$

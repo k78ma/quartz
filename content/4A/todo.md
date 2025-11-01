@@ -7,7 +7,6 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Question Selection - Nov 5<br>#mte380
 - [ ] HW3 - Nov 2<br>#mte544
 - [ ] A3 - Nov 3<br>#syde522
 - [ ] Sensing Notes<br>#mte544
@@ -17,7 +16,8 @@ draft: "true"
 ## MTE 484
 
 - [ ] Lab 2 - Nov 3<br>#mte484
-- [ ] MTE 484 Midterm<br>#mte484
+- [ ] Midterm Day Lecture <br>#mte484
+- [ ] A7 - Nov 6<br>#mte484
 
 
 ## SYDE 522
@@ -28,6 +28,7 @@ draft: "true"
 
 - [ ] Localization Notes<br>#mte544
 - [ ] Midterm - Nov 4<br>#mte544
+- [ ] Sensing Example 3<br>#mte544
 
 
 ## MTE 481
@@ -80,6 +81,8 @@ draft: "true"
 - [ ] Lab Report + Code - Oct 31<br>#mte544
 - [ ] Pengcheng Draft
 - [ ] Mohammad Draft
+- [ ] Question Selection - Nov 5<br>#mte380
+- [ ] MTE 484 Midterm<br>#mte484
 
 %% kanban:settings
 ```

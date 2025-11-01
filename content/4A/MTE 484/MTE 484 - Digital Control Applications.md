@@ -68,6 +68,8 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[Nonlinear State Space Models]]
 - [[Numerical Integration for Control Systems]]
 
+- [[Emulation Design]]
+
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
 - [[Sept 30 IOP Tutorial]]
