@@ -38,7 +38,6 @@ Midterm: Nov 4
 - [[Structure from Motion]]
     - [[Visual Odometry]]
 - [[Projected Light Depth Cameras]]
-
 ### Image Processing
 - [[Image Processing]]
 - [[Correlation and Convolution Filters]]
@@ -48,6 +47,12 @@ Midterm: Nov 4
 - [[Similarity Metrics]]
 - [[Corner Detection]]
 - [[Feature Matching]]
+    - [[RANSAC]]
+### Range Sensors
+- [[Sonar Sensors]]
+- [[Infrared Sensors]]
+- [[LiDAR]]
+- [[Range-Based Feature Extraction]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]

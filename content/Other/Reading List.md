@@ -6,6 +6,13 @@ aliases:
   - reading list
 draft: "true"
 ---
+- Understanding Deep Learning
+- Fastai?
+    - Hands on Machine Learning with Scikit-Learn and PyTorch?
+- Start reproducing papers
+- Reinforcement Learning: An Introduction
+
+
 Immediate:
 - [ ] Linear Algebra Done Right   <progress max=447 value=85> </progress> 
 - [ ] Understanding Deep Learning   <progress max=541 value=41> </progress> 

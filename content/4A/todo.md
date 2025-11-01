@@ -7,15 +7,16 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] Localization Notes<br>#mte544
+- [ ] Sensing Notes<br>#mte544
 - [ ] HW3 - Nov 2<br>#mte544
 - [ ] A3 - Nov 3<br>#syde522
-- [ ] Sensing Notes<br>#mte544
 - [ ] Teleop through RoboHub
 
 
 ## MTE 484
 
-- [ ] Lab 2 - Nov 3<br>#mte484
+- [ ] Lab 2 - Nov 9<br>#mte484
 - [ ] Midterm Day Lecture <br>#mte484
 - [ ] A7 - Nov 6<br>#mte484
 
@@ -26,7 +27,6 @@ draft: "true"
 
 ## MTE 544
 
-- [ ] Localization Notes<br>#mte544
 - [ ] Midterm - Nov 4<br>#mte544
 - [ ] Sensing Example 3<br>#mte544
 
