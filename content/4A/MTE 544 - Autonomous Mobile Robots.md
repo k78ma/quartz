@@ -55,7 +55,8 @@ Midterm: Nov 4
 - [[Range-Based Feature Extraction]]
 
 ## Localization and Mapping
-
+- [[Localization and Mapping]]
+- [[Probabilistic Robot Model]]
 
 
 ## Labs
