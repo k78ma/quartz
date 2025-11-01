@@ -39,3 +39,15 @@ This plane intersects each image to form a left epipolar line and a right epipol
 
 
 ![[MTE 544 Notes sensing ex4.pdf]]
+
+Pros:
+- Works outdoors (natural lighting).
+- Can have long ranges if baseline is large.
+- No structured light pattern needed.
+- Camera hardware is cheap.
+Cons:
+- Requires **good texture** to match pixels.
+- Struggles on:
+    - Blank walls
+    - Shiny surfaces
+    - Low-light scenes

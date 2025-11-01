@@ -37,6 +37,17 @@ Midterm: Nov 4
 - [[Stereo Cameras]]
 - [[Structure from Motion]]
     - [[Visual Odometry]]
+- [[Projected Light Depth Cameras]]
+
+### Image Processing
+- [[Image Processing]]
+- [[Correlation and Convolution Filters]]
+- [[Smoothing Filters]]
+- [[Edge Detection Filters]]
+- [[Feature Extraction]]
+- [[Similarity Metrics]]
+- [[Corner Detection]]
+- [[Feature Matching]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]
