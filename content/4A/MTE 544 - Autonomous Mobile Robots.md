@@ -61,6 +61,8 @@ Midterm: Nov 4
 - [[Probability Theory for State Estimation]]
 - [[Statistical Estimation]]
 - [[Bayes Filter]]
+- [[Markov Localization]]
+- [[Occupancy Grid Mapping]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]
