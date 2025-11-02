@@ -59,6 +59,8 @@ Midterm: Nov 4
 - [[Probabilistic Motion Model]]
 - [[Measurement Model]]
 - [[Probability Theory for State Estimation]]
+- [[Statistical Estimation]]
+- [[Bayes Filter]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]

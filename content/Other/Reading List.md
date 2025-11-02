@@ -7,9 +7,11 @@ aliases:
 draft: "true"
 ---
 - Understanding Deep Learning
+- Understand all the nanoGPT speedrun improvements
 - Fastai?
     - Hands on Machine Learning with Scikit-Learn and PyTorch?
 - Start reproducing papers
+    - Understand all the nanoGPT speedrun improvements
 - Reinforcement Learning: An Introduction
 
 
