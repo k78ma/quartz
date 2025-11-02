@@ -64,3 +64,18 @@ $$
 where $\epsilon_{k}, \nu_{k}$ are random variables for noise/uncertainties.
 
 Note that our model obeys the Markov property: the state at time $k+1$ only depends on $k$.
+
+## Probabilistic View
+How do we make the motion model properly probabilistic?
+$$
+\xi_{k} = f(\xi_{k-1}, u_{k-1}) \quad \longrightarrow \quad \xi_{k} \sim p(\xi_{k}\mid \xi_{k-1}, u_{k-1})
+$$
+The naive way is to add noise to the deterministic motion model as we saw above.
+
+More rigorous probabilistic motion models:
+- [[Velocity Motion Model]]: Uses noisy $v$ and $\omega$
+- [[Odometry Motion Model]]: Uses noisy wheel encoders
+
+These motion models can be employed in two ways:
+- Computing the posterior $p(\xi_{k} \, | \, \xi_{k-1}, u_{k-1})$
+- Sampling (without directly computing the posterior)

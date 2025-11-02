@@ -57,12 +57,15 @@ Midterm: Nov 4
 ## Localization and Mapping
 - [[Localization and Mapping]]
 - [[Probabilistic Motion Model]]
+    - [[Velocity Motion Model]]
 - [[Measurement Model]]
 - [[Probability Theory for State Estimation]]
 - [[Statistical Estimation]]
 - [[Bayes Filter]]
 - [[Markov Localization]]
 - [[Occupancy Grid Mapping]]
+- [[Likelihood Field Model]]
+- [[Particle Filter]]
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]

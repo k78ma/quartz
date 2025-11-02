@@ -3,7 +3,9 @@ title: Measurement Model
 tags:
   - mte544
 date: 2025-11-01
-aliases: measurement model
+aliases:
+  - measurement model
+  - sensor model
 ---
 Sensors do not measure the robot's pose directly. Instead, sensors produce readings $z_{k}$, such as:
 - Range to a wall or landmark (LiDAR / sonar) 
@@ -42,3 +44,12 @@ s_{k}^{2}
 \end{bmatrix},\dots\right)
 $$
 These measurement values depend on the robot's pose and the map, so they can be written as functions of $\xi_{k}$ and $m$, i.e. $r_{k}^{i}(\xi_{k},m), \phi_{k}^{i}(\xi_{k},m)$ and $s_{k}^{i}(\xi_{k},m)$.
+
+## Probabilistic Measurement Model
+How do we incorporate probabilistic noise into sensor models?
+$$
+z_{k} = h(\xi_{k}, m) \quad \longrightarrow \quad z_{k} \sim p(z_{k} \mid \xi_{k}, m)
+$$
+- Note that the map $m$ is an input
+
+Unlike motion models, we usually need only the posterior (or generative) model $z_{k} \sim p(z_{k} \, | \, \xi_{k}, m)$, i.e. the sample model is not normally needed.
