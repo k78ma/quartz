@@ -7,9 +7,6 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Localization Notes<br>#mte544
-- [ ] HW3 - Nov 2<br>#mte544
-- [ ] A3 - Nov 3<br>#syde522
 - [ ] Teleop through RoboHub
 
 
@@ -26,8 +23,6 @@ draft: "true"
 
 ## MTE 544
 
-- [ ] Midterm - Nov 4<br>#mte544
-- [ ] Sensing Example 3<br>#mte544
 
 
 ## MTE 481
@@ -83,6 +78,11 @@ draft: "true"
 - [ ] Question Selection - Nov 5<br>#mte380
 - [ ] MTE 484 Midterm<br>#mte484
 - [ ] Sensing Notes<br>#mte544
+- [ ] Localization Notes<br>#mte544
+- [ ] HW3 - Nov 2<br>#mte544
+- [ ] A3 - Nov 3<br>#syde522
+- [ ] Sensing Example 3<br>#mte544
+- [ ] Midterm - Nov 4<br>#mte544
 
 %% kanban:settings
 ```

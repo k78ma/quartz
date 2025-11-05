@@ -37,7 +37,6 @@ An epipolar plane is formed by the 3D point, the left camera center, and the rig
 
 This plane intersects each image to form a left epipolar line and a right epipolar line. The two matching points must lie on their respective epipolar lines. Rectification simplifies things even more because the epipolar lines become horizontal, so that matching can be done row-by-row.
 
-
 ![[MTE 544 Notes sensing ex4.pdf]]
 
 Pros:

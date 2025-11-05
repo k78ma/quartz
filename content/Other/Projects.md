@@ -30,5 +30,3 @@ Ideas:
 
 
 Some cool ideas here: [https://www.ishan.coffee/notes/Idea-List](https://www.ishan.coffee/notes/Idea-List "https://www.ishan.coffee/notes/Idea-List") (varepsilon on twitter)
-
-a

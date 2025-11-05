@@ -7,3 +7,4 @@ aliases: mte capstone
 ---
 - [[Multi-SSH Key Management]]
 - [[Market Research]]
+- [[roamr Kinematics]]

@@ -3,7 +3,9 @@ title: Statistical Estimation
 tags:
   - mte544
 date: 2025-11-01
-aliases: statistical estimation
+aliases:
+  - statistical estimation
+  - MMSE estimation
 ---
 We have a probabilistic experiment with two random variables $X$ and $Y$ with marginal densities $p_{X}(x), p_{Y}(y)$. The experiment is performed, such that $x$ and $y$ are realized. However, we are only able to observe $y$. Our goal is then to estimate the unknown sample value of $x$ and $X$ from the observation $y$. In particular, we want to choose the best estimate of $x$, $\hat{X}(y)$, given $y$ and $p_{X|Y}(x|y)$.
 - In this setting $p_{X}(s)$ is called the *a priori* density of $X$ and $p_{X|Y}(x|y)$ is called the *a posteriori* density.

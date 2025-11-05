@@ -69,3 +69,4 @@ Midterm: Nov 4
 
 ## Labs
 - [[MTE 544 Lab 1 Rubric]]
+- [[MTE 544 HW3]]

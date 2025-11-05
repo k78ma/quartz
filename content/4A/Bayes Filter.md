@@ -102,7 +102,6 @@ Recall that by definition, $p(\xi_{k-1} \, | \, z_{0 : k-1}, u_{0 : k-2}) = bel(
 $$
 \therefore  \overline{bel}(\xi_{k)}= \int p(\xi_k \mid \xi_{k-1}, u_{k-1}) \; bel(\xi_{k-1}) \, d\xi_{k-1} 
 $$
-
 ## Example
 
 ![[Bayes Filter-20251101205753510.png]]

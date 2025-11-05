@@ -3,7 +3,9 @@ title: Structure from Motion
 tags:
   - mte544
 date: 2025-10-31
-aliases: structure from motion
+aliases:
+  - structure from motion
+  - SfM
 ---
 Structure from Motion algorithms allows us to reconstruct a 3D image from a set of 2 or more distinct images whose relative pose is unknown. This is the main technique for visual odometry.
 

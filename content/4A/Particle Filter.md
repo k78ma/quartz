@@ -58,4 +58,3 @@ where the distribution of particles now approximates $bel(\xi_{k})$.
 
 Before resampling, the particles are spread out according to the blue curve; each particle gets a weight based on sensor likelihood. After resampling, p.articles cluster according to the red curve. Instead of explicitly shifting particles, we replicate good ones and delete bad ones.
 
-
