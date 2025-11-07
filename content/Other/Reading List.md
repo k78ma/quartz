@@ -13,6 +13,8 @@ draft: "true"
 - Start reproducing papers
     - Understand all the nanoGPT speedrun improvements
 - Reinforcement Learning: An Introduction
+- Introduction to Statistical Learning
+- Deep Learning: Foundations and Concepts
 
 
 Immediate:

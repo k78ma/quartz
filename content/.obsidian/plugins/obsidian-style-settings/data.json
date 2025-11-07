@@ -54,5 +54,7 @@
   "Components@@Ribbon-autohide": false,
   "Components@@status-bar-autohide": false,
   "Components@@restored-scrollbars": false,
-  "Components@@vault-profile-autohide": false
+  "Components@@vault-profile-autohide": false,
+  "minimal-style@@h1-size": "1.5em",
+  "minimal-style@@h2-size": "1.2em"
 }

@@ -90,3 +90,8 @@ $$
 U[z] = \sum_{i=1}^{n} \underbrace{ \frac{c_{i}}{\frac{1}{T}(z-1)-p_{i}}E }_{ =: D[z] }[z] \quad \Longrightarrow \quad  D[z] = C(s) \Big|_{s=\frac{1}{T}(z-1)}
 $$
 With the right side rule 
+
+
+Direct design of $D[z]$:
+- Transient specs will be satisfied at the end of the sample points
+- Closed-loop stability at the sample opints

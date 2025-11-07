@@ -8,13 +8,8 @@ aliases:
   - mte 484 - digital control applications
   - "484"
 ---
-- [x] A3: Q2, Q4
-- [ ] A4: Q3(ish), Q5
-- [x] A5: Skim all
-- [ ] A6: Q5
-
 ## Info
-Midterm: Oct 27 8PM - 9:20PM
+Final: Dec 16 4PM - 6:30PM
 
 ## Background
 - [[Linear Time-invariant Systems]]
@@ -67,8 +62,12 @@ Midterm: Oct 27 8PM - 9:20PM
 - [[State Space Realization]]
 - [[Nonlinear State Space Models]]
 - [[Numerical Integration for Control Systems]]
-
 - [[Emulation Design]]
+- [[Nonlinear State Space Models]]
+
+## Sampled-Data Systems
+- [[Sampled-Data System Stability]]
+
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]

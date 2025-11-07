@@ -76,7 +76,7 @@ Some of these notes are also included in [[Machine Learning]].
     - [[L2 Regularization]]
 - [[Implicit Regularization]]
 - [[Early stopping]]
-- 
+- [[Ens]]
 
 ## Convolutional Networks
 

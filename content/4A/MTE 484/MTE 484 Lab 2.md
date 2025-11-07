@@ -185,3 +185,13 @@ D[z] =
 
 + 0.047177611809\,z^{6}}
 $$
+
+$$
+\begin{align}
+\frac{Y(s)}{\phi(s)} & =\frac{K_{3}}{s^{2}} \\[2ex]
+\ddot{y}(t)  & = K_{3}\phi(t)
+\end{align}
+$$
+$$
+K_3=\arg\min_K \sum_i (\ddot y_i - K\,\phi_i)^2 \;\Rightarrow\; K_3=\frac{\sum_i \phi_i\,\ddot y_i}{\sum_i \phi_i^2}.
+$$

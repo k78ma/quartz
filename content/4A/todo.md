@@ -7,6 +7,7 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] Statement of Purpose
 - [ ] Teleop through RoboHub
 
 
@@ -14,25 +15,30 @@ draft: "true"
 
 - [ ] Lab 2 - Nov 9<br>#mte484
 - [ ] Midterm Day Lecture <br>#mte484
-- [ ] A7 - Nov 6<br>#mte484
+- [ ] A8 - Nov 13<br>#mte484
+- [ ] Lab 3 - Nov 26<br>#mte484
 
 
 ## SYDE 522
 
+- [ ] A4 - Nov 20<br>#syde522
+- [ ] Final Project - Dec 15<br>#syde522
 
 
 ## MTE 544
 
+- [ ] Pre-lab Code - Nov 13<br>#mte544
 
 
 ## MTE 481
 
-- [ ] Detailed Design Presentation - Nov 5<br>#mte481
+- [ ] Final Design Presentation - Nov 26<br>#mte481
+- [ ] Final Report - Dec 2<br>#mte481
 
 
 ## MTE 380
 
-- [ ] Servo motor demo - Nov 5<br>#mte380
+- [ ] Game Day - Nov 26<br>#mte380
 
 
 ## Other
@@ -83,6 +89,9 @@ draft: "true"
 - [ ] A3 - Nov 3<br>#syde522
 - [ ] Sensing Example 3<br>#mte544
 - [ ] Midterm - Nov 4<br>#mte544
+- [ ] A7 - Nov 6<br>#mte484
+- [ ] Servo motor demo - Nov 5<br>#mte380
+- [ ] Detailed Design Presentation - Nov 5<br>#mte481
 
 %% kanban:settings
 ```
