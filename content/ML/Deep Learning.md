@@ -75,8 +75,10 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Explicit Regularization]]
     - [[L2 Regularization]]
 - [[Implicit Regularization]]
+
+## Heuristics for Improvement
 - [[Early stopping]]
-- [[Ens]]
+- [[Model Ensembling]]
 
 ## Convolutional Networks
 
