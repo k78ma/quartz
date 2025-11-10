@@ -79,6 +79,7 @@ Some of these notes are also included in [[Machine Learning]].
 ## Heuristics for Improvement
 - [[Early stopping]]
 - [[Model Ensembling]]
+- [[Dropout]]
 
 ## Convolutional Networks
 
