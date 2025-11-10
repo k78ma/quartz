@@ -32,13 +32,10 @@ Final: Dec 16 4PM - 6:30PM
 - [[Stability Criterion]]
     - [[Continuous-Time Stability]]
     - [[Discrete-Time Stability]]
-
 - [[Sample-Data System Stability]]
 - [[Time-Domain Stability]]
-
 - [[BIBO Stability]]
     - [[Constant BIBO Stability Proof]]
-
 - [[Closed-Loop Stability]]
     - [[Characteristic Polynomial Closed-Loop Stability]]
 - [[Feedback System Performance Specifications]]
@@ -67,7 +64,7 @@ Final: Dec 16 4PM - 6:30PM
 
 ## Sampled-Data Systems
 - [[Sampled-Data System Stability]]
-
+- [[Pathological Sampling Time]]
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]

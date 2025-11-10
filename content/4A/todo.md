@@ -13,7 +13,6 @@ draft: "true"
 
 ## MTE 484
 
-- [ ] Lab 2 - Nov 9<br>#mte484
 - [ ] Midterm Day Lecture <br>#mte484
 - [ ] A8 - Nov 13<br>#mte484
 - [ ] Lab 3 - Nov 26<br>#mte484
@@ -38,6 +37,7 @@ draft: "true"
 
 ## MTE 380
 
+- [ ] Midway Demo - Nov 12<br>#mte380
 - [ ] Game Day - Nov 26<br>#mte380
 
 
@@ -92,6 +92,7 @@ draft: "true"
 - [ ] A7 - Nov 6<br>#mte484
 - [ ] Servo motor demo - Nov 5<br>#mte380
 - [ ] Detailed Design Presentation - Nov 5<br>#mte481
+- [ ] Lab 2 - Nov 9<br>#mte484
 
 %% kanban:settings
 ```
