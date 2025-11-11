@@ -59,7 +59,8 @@ Final: Dec 16 4PM - 6:30PM
 - [[State Space Realization]]
 - [[Nonlinear State Space Models]]
 - [[Numerical Integration for Control Systems]]
-- [[Emulation Design]]
+- [[Emulation Control Design]]
+    - [[Stability of Approximation Methods]]
 - [[Nonlinear State Space Models]]
 
 ## Sampled-Data Systems

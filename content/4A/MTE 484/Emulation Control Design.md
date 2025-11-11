@@ -1,11 +1,11 @@
 ---
-title: Emulation Design
+title: Emulation Control Design
 tags:
   - mte484
-date: 2025-10-31
-aliases: emulation design
+date: 2025-11-11
+aliases: emulation control design
 ---
-There are two ways to control [[Sampled-Data Control Systems|sampled-data systems]]:
+
 1. Direct control of $D[z]$ in DT, such as [[IOP with SPA]]
 2. Emulation design: Design $C(s)$ in CT, and then approximate $C(s)$ with $D[z]$ in DT
 
@@ -94,4 +94,5 @@ With the right side rule
 
 Direct design of $D[z]$:
 - Transient specs will be satisfied at the end of the sample points
-- Closed-loop stability at the sample opints
+- Closed-loop stability at the sample points
+

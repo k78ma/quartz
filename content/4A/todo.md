@@ -8,25 +8,28 @@ draft: "true"
 ## Upcoming
 
 - [ ] Statement of Purpose
-- [ ] Teleop through RoboHub
+- [ ] A8 - Nov 13<br>#mte484
+- [ ] Pre-lab Code - Nov 13<br>#mte544
+- [ ] A4 - Nov 20<br>#syde522
+- [ ] pi0.5
 
 
 ## MTE 484
 
 - [ ] Midterm Day Lecture <br>#mte484
-- [ ] A8 - Nov 13<br>#mte484
+- [ ] MTE 484 Catch-up<br>#mte484
 - [ ] Lab 3 - Nov 26<br>#mte484
+- [ ] Tutorial 8 #mte484
+- [ ] Tutorial 9 #mte484
 
 
 ## SYDE 522
 
-- [ ] A4 - Nov 20<br>#syde522
 - [ ] Final Project - Dec 15<br>#syde522
 
 
 ## MTE 544
 
-- [ ] Pre-lab Code - Nov 13<br>#mte544
 
 
 ## MTE 481
