@@ -9,7 +9,6 @@ draft: "true"
 
 - [ ] Statement of Purpose
 - [ ] A8 - Nov 13<br>#mte484
-- [ ] Pre-lab Code - Nov 13<br>#mte544
 - [ ] A4 - Nov 20<br>#syde522
 - [ ] pi0.5
 
@@ -30,6 +29,8 @@ draft: "true"
 
 ## MTE 544
 
+- [ ] Understand PF Code<br>#mte544
+- [ ] HW 4 - Nov 27<br>#mte544
 
 
 ## MTE 481
@@ -40,7 +41,6 @@ draft: "true"
 
 ## MTE 380
 
-- [ ] Midway Demo - Nov 12<br>#mte380
 - [ ] Game Day - Nov 26<br>#mte380
 
 
@@ -96,6 +96,7 @@ draft: "true"
 - [ ] Servo motor demo - Nov 5<br>#mte380
 - [ ] Detailed Design Presentation - Nov 5<br>#mte481
 - [ ] Lab 2 - Nov 9<br>#mte484
+- [ ] Midway Demo - Nov 12<br>#mte380
 
 %% kanban:settings
 ```

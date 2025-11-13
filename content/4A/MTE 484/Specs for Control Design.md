@@ -22,7 +22,7 @@ The $p_{i}$ terms are fixed because we choose them in advance and $q_{k}$ are fi
 
 **Case 1:** We want the steady state error to be zero such that $e_{ss}=0$
 $$
-e_{ss}=1+\sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}} + \frac{\sum_{k=1}^{\hat{n}}\hat{x}_{k}}{1-q_{k}} = 0
+e_{ss}=1+\sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}} + \sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}} = 0
 $$
 **Case 2:** We want the steady-state error to be bounded such that $| e_{ss} |\leq C$
 $$
@@ -213,4 +213,17 @@ x \\
 \end{bmatrix}\right)
 \end{align}
 }
+$$
+
+
+
+$$
+\begin{align}
+e_{ss}  & = \text{STEP} \cdot T_{re}[1] \\[2ex] 
+&= \text{STEP} \left(1+ \sum_{i=1}^{m} \frac{x_{i}}{1-p_{i}}+\sum_{k=1}^{\hat{n}} \frac{\hat{x}_{k}}{1-q_{k}}\right) \\[2ex]
+&=\text{STEP} + (\text{STEP} \cdot \text{steadyState}\begin{bmatrix}
+x \\
+\hat{x}
+\end{bmatrix})
+\end{align}
 $$

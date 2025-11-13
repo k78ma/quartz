@@ -1,25 +1,34 @@
 ---
-title: Stability of Approximation Methods
+title: Stability of CT-DT Approximation
 tags:
   - mte484
-date: 2025-11-11
-aliases: stability of approximation methods
+date: 2025-11-13
+aliases: stability of ct-dt approximation
 ---
-Left side rule: $s = \frac{1}{T}(z-1)$.
+### Left side rule:
+$$
+s = \frac{1}{T}(z-1)
+$$
 Stable poles in CT can get mapped to unstable poles in DT:
 $$
 \frac{1}{s-p} \quad \longrightarrow \quad \frac{1}{\frac{1}{T}(z-1)-p} \times \frac{T}{T} = \frac{T}{z-1-Tp}
 $$
 - If $p < -\frac{2}{T}$, we can see that the pole $\notin \mathbb{D}$, and thus unstable.
 
-Right side rule: $s = \frac{1}{T} \frac{z-1}{z}$.
+### Right side rule
+$$
+s = \frac{1}{T} \frac{z-1}{z}
+$$
 Unstable poles in CT can get mapped to stable in DT
 $$
 \frac{1}{s-p}  \quad \longrightarrow \quad \frac{1}{\frac{1}{T} \frac{(z-1)}{z}-p} \times \frac{zT}{zT} = \frac{zT}{z-1-pzT} \quad \longrightarrow \quad  \text{pole:} \left\{  \frac{1}{1-pT}  \right\}
 $$
 - If $p> \frac{2}{T}$, pole $\in \mathbb{D}$, and thus stable.
 
-Trapezoidal rule: $s = \frac{2}{T} \frac{z-1}{z+1}$
+### Trapezoidal rule
+$$
+s = \frac{2}{T} \frac{z-1}{z+1}
+$$
 Stable poles in CT get mapped to stable poles in DT (note: does not depend on $T$).
 $$
 \begin{align}

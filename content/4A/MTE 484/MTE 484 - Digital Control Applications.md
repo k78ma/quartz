@@ -60,12 +60,13 @@ Final: Dec 16 4PM - 6:30PM
 - [[Nonlinear State Space Models]]
 - [[Numerical Integration for Control Systems]]
 - [[Emulation Control Design]]
-    - [[Stability of Approximation Methods]]
+    - [[Stability of CT-DT Approximation]]
 - [[Nonlinear State Space Models]]
 
 ## Sampled-Data Systems
 - [[Sampled-Data System Stability]]
-- [[Pathological Sampling Time]]
+- [[Jury Test]]
+- [[Jury Table]]
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
@@ -75,3 +76,4 @@ Final: Dec 16 4PM - 6:30PM
 - [[MTE 484 Lab 1]]
 - [[MTE 484 Lab 2]]
 - [[MTE 484 A6Q3c]]
+- [[MTE 484 Lab 3]]

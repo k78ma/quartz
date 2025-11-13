@@ -6,8 +6,31 @@ date: 2025-11-11
 aliases: emulation control design
 ---
 
-1. Direct control of $D[z]$ in DT, such as [[IOP with SPA]]
-2. Emulation design: Design $C(s)$ in CT, and then approximate $C(s)$ with $D[z]$ in DT
+Two strategies of control design in DT:
+1. Direct design of $D[z]$ in DT, such as [[IOP with SPA]]
+2. **Emulation design:** Design $C(s)$ in CT, and then approximate $C(s)$ with $D[z]$ in DT
+
+This is done through this series of steps. First, starting from the frequency domain $C(s)$, we use [[State Space Realization|state space realization]] to switch to the time domain:
+$$
+\begin{align}
+\dot{x}  & = Ax + Be  \\
+v & =Cx
+\end{align}
+$$
+We then use a $\Delta[k+1]$ approximation
+$$
+\begin{align}
+x^{+}  & = \hat{A}x  +\hat{B}e \\
+v & =Cx
+\end{align}
+$$
+We then take the $Z$-transform to get to $D[z]$.
+
+Our approximation will inevitably have some impact on the poles as we go from CT to DT. 
+- See [[Stability of CT-DT Approximation]].
+
+## Approximating C(s) into D\[z]
+Our plan is to make an approximation in the time domain, then go back to the frequency domain.
 
 Assume we have a continuous time system of the form:
 
@@ -65,7 +88,7 @@ x((k+1)T)  & = x(kT) + \Delta[k+1] \\[2ex]
  & = x(kT) + \int_{kT}^{(k+1)T} (Ax(s)+Be(s)) \, ds 
 \end{align}
 $$
-We can use the left-side rule for numerical integration:
+We can use the [[Numerical Integration for Control Systems|left-side rule]] for numerical integration:
 $$
 \begin{align}
 \Delta[k+1] &  \approx T(Ax(kT) + Be(kT)) = T(Ax[k]+Be[k]) \\
@@ -75,9 +98,9 @@ $$
 Taking the $z$-transform gives
 $$
 \begin{align}
- & zX[z] = X[z]+T[AX[z]+BE[z]]  \\
- & \implies((z-1)I-TA)X[z] = TBE[z] \\
- & \implies X[z] = ((z-1)I-TA)^{-1}TBE[z] \\
+ zX[z]  & = X[z]+T[AX[z]+BE[z]]  \\
+((z-1)I-TA)X[z]  & = TBE[z] \\
+X[z]  & = ((z-1)I-TA)^{-1}TBE[z] \\
 \end{align}
 $$
 …
