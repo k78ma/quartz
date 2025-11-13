@@ -8,6 +8,8 @@ aliases: emulation control design
 
 Two strategies of control design in DT:
 1. Direct design of $D[z]$ in DT, such as [[IOP with SPA]]
+    - Transient specs will be satisfied at the end of the sample points
+    - Closed-loop stability at the sample points
 2. **Emulation design:** Design $C(s)$ in CT, and then approximate $C(s)$ with $D[z]$ in DT
 
 This is done through this series of steps. First, starting from the frequency domain $C(s)$, we use [[State Space Realization|state space realization]] to switch to the time domain:
@@ -103,19 +105,54 @@ $$
 X[z]  & = ((z-1)I-TA)^{-1}TBE[z] \\
 \end{align}
 $$
-…
-…
-…
-
-
-Finally, we can do
+We can write the $((z-1)I-TA)^{-1}$ term as
 $$
-U[z] = \sum_{i=1}^{n} \underbrace{ \frac{c_{i}}{\frac{1}{T}(z-1)-p_{i}}E }_{ =: D[z] }[z] \quad \Longrightarrow \quad  D[z] = C(s) \Big|_{s=\frac{1}{T}(z-1)}
+\begin{bmatrix}
+z-1-Tp_{1}  &  &  \\
+ & \ddots  &  \\
+ &  & z-1-Tp_{n}
+\end{bmatrix}
 $$
-With the right side rule 
+such that we have
+$$
+X[z] = \begin{bmatrix}
+\frac{Tc_{1}}{z-1-Tp_{1}} \\
+\vdots \\
+\frac{Tc_{n}}{z-1-Tp_{n}}
+\end{bmatrix} E[z]
+$$
+We want to find the transfer function from $U$ to $Y$:
+$$
+u(t)=cx(t) \quad \longrightarrow \quad  u[k]=cx[k] = \begin{bmatrix}
+1 & \dots & 1
+\end{bmatrix} \begin{bmatrix}
+\frac{Tc_{1}}{z-1-Tp_{1}} \\
+\vdots \\
+\frac{Tc_{n}}{z-1-Tp_{n}}
+\end{bmatrix} E[z]
+$$
+where the $[1 \dots 1]$ just makes you sum all the entries in the column vector.
+
+Thus, we have
+$$
+U[z]= \sum_{i=1}^{n} \frac{Tc_{i}}{z-1-Tp_{i}} E[z]
+$$
+Therefore, to get this particular approximation, we use
+$$
+D[z]= C(s) \Big |_{s=\frac{1}{T}(z-1)}
+$$
+
+Instead of using the left-side rule, we can take the same approach with other numerical integration methods:
+
+With the right side rule :
+$$
+D[z] = C(s) \Big | _{s=\frac{1}{T}\left( \frac{z-1}{z} \right)}
+$$
+With the trapezoidal rule:
+$$
+D[z] = C(s) \Big |_{s=\frac{2}{T} \left( \frac{z-1}{z+1} \right)}
+$$
 
 
-Direct design of $D[z]$:
-- Transient specs will be satisfied at the end of the sample points
-- Closed-loop stability at the sample points
+
 
