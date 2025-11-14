@@ -8,7 +8,7 @@ aliases: schur characteristic polynomials
 > [!definition] Schur
 > A characteristic polynomial $\Delta[z]$ is Schur if $\text{roots}(\Delta) \subset \mathbb{D}$.
 
-> [!theorem] Lemma: Jury Test
+> [!theorem] Lemma
 > Let $\Delta[z] = \sum_{i=0}^{n} c_{i}z^{i}$. If $\Delta$ is Schur, then $| c_{n} | > | c_{0} |$.
 > 
 > Note that this does not go the other way! We could have $| c_{n} | > | c_{0} |$ but the polynomial is not Schur.
