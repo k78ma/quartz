@@ -8,8 +8,8 @@ draft: "true"
 ## Upcoming
 
 - [ ] Statement of Purpose
-- [ ] A8 - Nov 13<br>#mte484
 - [ ] A4 - Nov 20<br>#syde522
+- [ ] HW 4 - Nov 27<br>#mte544
 - [ ] pi0.5
 
 
@@ -29,8 +29,6 @@ draft: "true"
 
 ## MTE 544
 
-- [ ] Understand PF Code<br>#mte544
-- [ ] HW 4 - Nov 27<br>#mte544
 
 
 ## MTE 481
@@ -97,6 +95,8 @@ draft: "true"
 - [ ] Detailed Design Presentation - Nov 5<br>#mte481
 - [ ] Lab 2 - Nov 9<br>#mte484
 - [ ] Midway Demo - Nov 12<br>#mte380
+- [ ] A8 - Nov 13<br>#mte484
+- [ ] Understand PF Code<br>#mte544
 
 %% kanban:settings
 ```

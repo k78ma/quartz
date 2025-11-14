@@ -13,7 +13,7 @@
   "allowLargerFiles": false,
   "baseTimeout": 20000,
   "timeoutPerMB": 1000,
-  "showProgress": true,
+  "showProgress": false,
   "showSummary": true,
   "ProcessAllVaultconvertTo": "webp",
   "ProcessAllVaultquality": 0.75,

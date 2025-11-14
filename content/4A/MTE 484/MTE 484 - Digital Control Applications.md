@@ -61,12 +61,14 @@ Final: Dec 16 4PM - 6:30PM
 - [[Numerical Integration for Control Systems]]
 - [[Emulation Control Design]]
     - [[Stability of CT-DT Approximation]]
-- [[Nonlinear State Space Models]]
+- [[Discretized Plant]]
 
 ## Sampled-Data Systems
 - [[Sampled-Data System Stability]]
+- [[Schur Characteristic Polynomials]]
 - [[Jury Test]]
 - [[Jury Table]]
+- [[Boundary Crossing Lemma]]
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
