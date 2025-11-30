@@ -7,7 +7,7 @@
     "extended-colorschemes"
   ],
   "translucency": false,
-  "theme": "obsidian",
+  "theme": "system",
   "textFontFamily": "STIX Two Text",
   "showViewHeader": true,
   "baseFontSizeAction": false,

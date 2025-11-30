@@ -54,6 +54,8 @@ Technical Blogs:
 - [i sensed anxiety and frustration at NeurIPS’24 – Kyunghyun Cho](https://kyunghyuncho.me/i-sensed-anxiety-and-frustration-at-neurips24/)
 - [ARC-AGI Without Pretraining | iliao2345](https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html#watching-the-network-learn-color-the-boxes)
 - [attention is logarithmic, actually](https://supaiku.com/attention-is-logarithmic)
+- [A vision researcher’s guide to some RL stuff: PPO & GRPO - Yuge (Jimmy) Shi](https://yugeten.github.io/posts/2025/01/ppogrpo/)
+- 
 
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)

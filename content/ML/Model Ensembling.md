@@ -27,5 +27,4 @@ A second approach is to generate several different datasets by re-sampling the t
 
 ![[Model Ensembling-20251107131542179.png]]
 
-
 Other approaches include training models with different hyperparameters or training completely different families of models.

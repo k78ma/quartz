@@ -3,7 +3,9 @@ title: Sampled-Data System Stability
 tags:
   - mte484
 date: 2025-11-07
-aliases: sampled-data system stability
+aliases:
+  - sampled-data system stability
+  - pathological
 ---
 The **map** from $\begin{bmatrix} r \\ d\end{bmatrix}$ to $\begin{bmatrix} u \\ e \\ y\end{bmatrix}$ is the function that sends $r(t), d(t)$ to the resulting $u(t), e(t), y(t)$.
 
@@ -14,6 +16,17 @@ The **map** from $\begin{bmatrix} r \\ d\end{bmatrix}$ to $\begin{bmatrix} u \\ 
 
 > [!definition] BIBO Stability for Sampled-Data System
 > The map $\begin{bmatrix} x_{1} \\ \vdots \\ x_{n} \end{bmatrix}$ to $\begin{bmatrix} y_{1} \\ \vdots \\ y_{n} \end{bmatrix}$ is BIBO stable if for every collection of bounded signals $x_{1}(t), \dots, x_{n}(t)$, the resulting $y_{1}(t), \dots, y_{n}(t)$ are bounded.
+
+## Corresponding Discrete Time System
+Can we find the closed-loop stability of a sampled-data system (at all times) by evaluating the stability of a corresponding discrete time system (at the sample points)?
+
+For a given sampled-data system:
+
+![[Sampled-Data System Stability-20251121114551048.png|621]]
+
+We can draw the following corresponding discrete system, which is equal to the sampled-data system at sample points:
+
+![[Sampled-Data System Stability-20251121115256923.png]]
 
 ## Pathological Sampling Time
 For a plant $P(s)$, a sampling time $T>0$ is **pathological** if the number of poles of $G[z]$ is less than the number of poles of $P(s)$.
@@ -48,3 +61,4 @@ This is a lot easier to check than checking for BIBO stability! We can check the
 
 Thus, we can say that a SD system is closed-loop stable if and only if roots of the [[Characteristic Polynomial Closed-Loop Stability|characteristic polynomial]] $\Delta$ (for the system with $G[z], D[z]$) are in the open unit disk $\mathbb{D}$.
 - [[Schur Characteristic Polynomials]]
+

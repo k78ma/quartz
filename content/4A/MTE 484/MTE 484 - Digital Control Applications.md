@@ -67,8 +67,9 @@ Final: Dec 16 4PM - 6:30PM
 - [[Sampled-Data System Stability]]
 - [[Schur Characteristic Polynomials]]
 - [[Jury Test]]
-- [[Jury Table]]
-- [[Boundary Crossing Lemma]]
+- [[Nyquist Stability]]
+- [[Performance of Sampled Datra Systems]]
+- [[Nyq]]
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]

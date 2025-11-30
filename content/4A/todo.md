@@ -8,16 +8,15 @@ draft: "true"
 ## Upcoming
 
 - [ ] Statement of Purpose
-- [ ] A4 - Nov 20<br>#syde522
-- [ ] HW 4 - Nov 27<br>#mte544
-- [ ] pi0.5
+- [ ] Lab 3 - Nov 26<br>#mte484
+- [ ] Final Project Background - Nov 28<br>#syde522
 
 
 ## MTE 484
 
+- [ ] Final Demo - Nov 28 11AM<br>#mte484
 - [ ] Midterm Day Lecture <br>#mte484
 - [ ] MTE 484 Catch-up<br>#mte484
-- [ ] Lab 3 - Nov 26<br>#mte484
 - [ ] Tutorial 8 #mte484
 - [ ] Tutorial 9 #mte484
 
@@ -33,17 +32,16 @@ draft: "true"
 
 ## MTE 481
 
-- [ ] Final Design Presentation - Nov 26<br>#mte481
 - [ ] Final Report - Dec 2<br>#mte481
 
 
 ## MTE 380
 
-- [ ] Game Day - Nov 26<br>#mte380
 
 
 ## Other
 
+- [ ] pi0.5
 
 
 ***
@@ -97,6 +95,12 @@ draft: "true"
 - [ ] Midway Demo - Nov 12<br>#mte380
 - [ ] A8 - Nov 13<br>#mte484
 - [ ] Understand PF Code<br>#mte544
+- [ ] HW 4 - Nov 27<br>#mte544
+- [ ] Lab 3 Report - Nov 21<br>#mte544
+- [ ] A4 - Nov 20<br>#syde522
+- [ ] Game Day - Nov 26<br>#mte380
+- [ ] HW 4 - Nov 27<br>#mte544
+- [ ] Final Design Presentation - Nov 26<br>#mte481
 
 %% kanban:settings
 ```

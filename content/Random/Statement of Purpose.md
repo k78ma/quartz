@@ -48,3 +48,48 @@ Thus, the following term I returned to Polymath for my fourth internship. For th
 For my 5th and 6th internships at NVIDIA, I combined my experience in robot perception and safety to help build the active safety system for NVIDIA's autonomous vehicle partnership with Mercedes-Benz. For the first time, I witness a full-scale effort at fighting the long tail of self-driving (the long march of 9s, as Andrej Karpathy put), with a ML data flywheel for end-to-end learning and classical safety system in symbiotic tandem. I am fortunate to be returning for a full-time role in 2026, where I hope to help NVIDIA make capable, safety, and useful self-driving a reality.. 
 
 Then, why pursue an EE MS at Stanford if I'm already working on capable, safe, and useful robotics in the industry? First, I believe I have a lot of learning left to do. Despite all my experience in deep learning and sensor fusion, I haven't learned about either in formal capacity, as my undergraduate program doesn't have any technical electives before 5th year. The EE MS program has wonderful breadth and depth of coursework that is relevant to robotics – I can hone my skills in a ton of areas. I also think that while robotics is beginning to transition from an academic trifle to the real world, there is still much more research advances until capable, safe, and useful robots become a reality. I believe that the EE MS will help me develop my research and development acumen in these cutting-edge topics to be able to effectively contribute to my goal.
+
+
+I was originally drawn to robotics by the magic of making machines come alive. As robots approach real-world deployment at scale, that magic must be matched by reliability. Across projects in grasping, industrial vehicles, and autonomous driving, I’ve observed the same pattern: deep learning is powerful but fragile, while deployable robots require both strong generalization and verifiable safety. This drives my goal of building robotic systems that are not only capable, but also safe and useful in the messy real world.
+
+I was originally drawn to robotics by the magic of making machines come alive. As robots approach real-world deployment at scale, that magic must be matched by reliability. Across projects in grasping, industrial vehicles, and autonomous driving, I have seen the same pattern: deep learning is powerful but fragile, while deployable robots require strong generalization and verifiable safety. This drives my goal of building robotic systems that are capable, safe, and useful in the real world.
+\vspace{0.1in}
+
+\textbf{Deep learning research.} My earliest exposure to machine learning came through COVID-19 medical imaging research under Prof. Pengcheng Xi and Prof. Alexander Wong. Medical datasets are small and class imbalanced, so standard deep learning methods struggle on rare but clinically important cases and tend to learn biased decision boundaries. Our work [1][2][3] combined self supervised pre-training, imbalance aware loss functions, and trustworthiness quantification, and our model was deployed across 15 hospitals. I contributed to model design and training, and led much of the interpretability and trustworthiness evaluation that helped clinicians understand model outputs. This experience showed me that deep learning can deliver real impact in high-stakes settings, yet is often limited by data scarcity and long-tailed behavior.
+
+\vspace{0.1in}
+
+I carried these lessons into bin picking research with Prof. Wong, where I experimented with Mixture of Experts methods that train specialist models for long tail cases [4]. Even with corner cases explicitly targeted and synthetic data in a controlled environment, improving robustness remained difficult and often exposed new failure modes when others were fixed. These themes continued on the WATonomous, the self-driving team at Waterloo, supervised by Dr. Mohammad Al-Sharman, where I developed trajectory prediction and 3D perception components for our self driving vehicle. For example, we designed a bespoke 3D flow method to support dynamic 3D reconstruction, only to have it fail systematically because of ground segmentation errors, underscoring that robustness is not just a matter of scaling models. This pushed me toward the question that now motivates my work: how can we build robotic systems that operate safely in the open world despite gaps between development and deployment?
+
+\vspace{0.1in}
+
+My current research under Prof. Pengcheng Xi and Prof. Yue Hu continues to address this question as robot learning moves toward large-scale end-to-end systems. I am investigating how techniques from LLM interpretability and steering can be adapted to robot foundation models to make their behavior more constrained and predictable, and therefore more suitable for deployment.
+
+\vspace{0.1in}
+
+\textbf{Industry robot safety work.} To understand how these challenges are handled in deployed systems, I also sought out industry opportunities in robotics. At Polymath Robotics, a startup building autonomous heavy industrial vehicles, I implemented and trained 3D perception models [5]. When the data distribution was well covered, these models generalized well. However, data scarcity and large domain gaps across vehicle platforms and sites often forced us to fall back on simple geometric heuristics, such as classifying obstacles by height in the point cloud. This contrast between sophisticated models and pragmatic heuristics highlighted the gap between research-grade perception and deployable autonomy. I later returned to work on Polymath’s ISO 26262 certified functional safety stack, which gave me first-hand exposure to the rigor required for production autonomy, reinforcing that real deployments require integration of classical safety architectures alongside data-driven components.
+
+\vspace{0.1in}
+
+
+Compared with industrial vehicles, self-driving must handle more complex, ambiguous situations, while still meeting stringent safety requirements. Working on the active safety system for the Mercedes-Benz autonomous driving program at NVIDIA, I started to view autonomy as a coupled problem of models, data, and safety constraints. For example, I prototyped a confidence-based post-processing method for object detection models and coordinated adjustments in sensor fusion and planning. On validation scenarios, this significantly reduced automatic emergency braking false positives while maintaining high recall for true hazards.
+
+\vspace{0.1in}
+
+
+To continue contributing to capable and safe autonomy at scale, I want to build deeper foundations in robot learning, control, optimization, and safety-critical systems, areas that my undergraduate coursework has touched only lightly despite some practical exposure through industry and research. The Stanford EE MS offers the rigorous theoretical grounding and breadth I am seeking, and the Honors Cooperative Program would allow me to connect this academic training directly with my full-time work on NVIDIA’s autonomous vehicles team. This structure is ideal for developing simultaneously as a researcher-practitioner and as an engineer contributing to a real autonomous product pipeline, advancing toward my long-term goal of working as a research engineer driving new capabilities in robotics.
+
+\vspace{0.1in}
+
+
+Specifically, courses such as \textbf{EE 260B (Principles of Robot Autonomy II)} and \textbf{EE 381 (Sensorimotor Learning for Embodied Agents)} would deepen my understanding of the learning-based methods driving recent advances in robot capability. \textbf{CS 238 (Decision Making Under Uncertainty)}, \textbf{AA 203 (Optimal and Learning-Based Control)}, and \textbf{AA 228V (Validation of Safety Critical Systems)} align directly with my focus on autonomous system safety.
+\vspace{0.1in}
+
+Stanford’s EE department also has an exceptional concentration of faculty aligned my interests. \textbf{Prof. Dorsa Sadigh’s} research on safe decision-making and human–robot interaction parallels my focus on reliability in autonomy. \textbf{Prof. Chelsea Finn’s} work on generalizable robot learning from large-scale, real-world data relates to my experience building deep learning systems for perception and my vision of robust, general-purpose robot capability. Similarly, \textbf{Prof. Shuran Song’s} research on learning visuomotor policies from interaction complements my background in 3D perception and data-driven robotics. I also hope to draw on perspectives outside EE, such as \textbf{Prof. Marco Pavone’s} work on long-tail robustness and safety-aware planning for autonomous vehicles, which reflects the challenges I encounter in industry.
+\vspace{0.1in}
+
+My long-term aim is to develop robotic systems that are not broadly capable, reliable, and ready for real-world deployment. Stanford’s EE MS, especially through the HCP format, offers the depth, structure, and environment that would complement the practical challenges I work on at NVIDIA. I look forward to growing at this intersection and contributing to the next generation of robust autonomous systems.
+\vspace{0.1in}
+
+## Enriching the Learning Community
+Waterloo Engineering is known chiefly for two things: hard courseload and industry outcomes for students. With this combination, the primary goal of most students is simply to graduate and go into industry; "C's get degrees" is practically an unofficial motto for the department. A
