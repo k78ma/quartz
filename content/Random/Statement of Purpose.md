@@ -91,5 +91,28 @@ Stanford’s EE department also has an exceptional concentration of faculty alig
 My long-term aim is to develop robotic systems that are not broadly capable, reliable, and ready for real-world deployment. Stanford’s EE MS, especially through the HCP format, offers the depth, structure, and environment that would complement the practical challenges I work on at NVIDIA. I look forward to growing at this intersection and contributing to the next generation of robust autonomous systems.
 \vspace{0.1in}
 
-## Enriching the Learning Community
 Waterloo Engineering is known chiefly for two things: hard courseload and industry outcomes for students. With this combination, the primary goal of most students is simply to graduate and go into industry; "C's get degrees" is practically an unofficial motto for the department. A
+
+## Enriching the Learning Community
+> “Tron was a mistake.” The phrase floats around our department half-jokingly; we even have it printed on mugs and shirts. In Mechatronics Engineering (colloquially, Tron), we learn some mechanical, some electrical, and some software, but not as much as the “pure” programs. Many classmates eventually pick a specialty and start treating the rest as noise. With a heavy course load and strong industry focus on top of that, a quiet culture emerges: do the minimum in anything outside your lane. “C’s get degrees,” people say.
+
+>   
+
+> I began to feel the pull of this mindset when I realized how much I enjoy deep learning and robotics software. Friends in other programs would tease me: “Why are you even in Mechatronics? Just transfer into Computer Science.” Underneath the jokes was a serious question: was I spreading myself too thin, trading depth for material that didn’t seem connected to what I cared about?
+
+>   
+
+> Instead of accepting that story, I came to see being a “jack of all trades” as an asset. I could build a robot from scratch, from hardware to control to perception. In teams, I could translate between people who were focused on software and those who cared most about hardware and controls. When a mechanical design decision limited what was possible in software, I could see both sides of the trade-off. I realized that, beyond my machine learning and software focus, I could also contribute by helping everyone build the same mental model of what we were building.
+
+>   
+
+> This perspective also shaped how I showed up outside classes. As an executive member of Tron Mentor Chats, a mentorship program for new Mechatronics students figuring out the transition to university and what they want from the degree, I worked with students who felt they didn’t “belong” in certain parts of the program. One mentee arrived convinced they were “bad at hardware” and should avoid it; together we built a small project that mixed simple CAD, wiring, and control code, and by the end of the term they were applying to hardware-focused design teams. I looked for similar ways to lower barriers elsewhere: taking on leadership in WATonomous, not only driving engineering work but also helping younger members find their place on the team; serving as a résumé reviewer for the Waterloo Engineering Society, working with students to aim for internships that matched their interests; and making my course notes public so anyone could use them. In each case, the goal was the same: to make technical spaces feel less like exclusive silos and more like places where different ways of thinking belong.
+
+>   
+
+> These experiences have shaped how I see myself as a scholar: someone who is comfortable in interdisciplinary spaces and who values collaboration, clarity, and access. At Stanford, I hope to continue to contribute in that role by connecting students from different backgrounds and disciplines, making complex ideas more approachable, and helping teams see how their pieces fit together. Whether in a robotics lab or a seminar discussion, I want to build environments where people feel invited to participate fully, even when they come from a different field, identity, or way of thinking. Tron was not a mistake; it taught me that I belong at the intersections, and that I can help others feel at home there too.
+
+
+
+
+

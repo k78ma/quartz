@@ -10,6 +10,21 @@ aliases:
 ---
 ## Info
 Final: Dec 16 4PM - 6:30PM
+- 6 questions
+- 150 minutes (2.5 hours)
+- 1 proof question
+- 2 control design questions
+    - emphasis on SD systems (but can often convert to DT system)
+- 1-2 derivation questions
+- 1 question on stability analysis/steady-state performance
+- Cumulative, focus on SD systems but the big theme in course has been that SD systems can be converted to DT
+    - Know how to find discretized plant $G[z]$ from $P(s)$
+    - Know how to choose $T$ and justify your choice
+
+Study:
+1. Complete all assignments and repeat midterm
+2. Check assignment and midterm solutions closely
+3. Review lectures, tutorials, and labs
 
 ## Background
 - [[Linear Time-invariant Systems]]
