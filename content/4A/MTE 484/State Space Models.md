@@ -14,9 +14,9 @@ y=Cx+Du \quad  &  / \quad  y = Cx+Du
 \end{align}
 \quad  \quad (\ast  \ast  )
 $$
-such that for any initial condition $x(t=0)=x_{0}$ and any input signal $u(t)$, the system output is equal to the output $y)(t)$ of the equations $(\ast \ast )$  above.
+such that for any initial condition $x(t=0)=x_{0}$ and any input signal $u(t)$ / $u[k]$, the system output is equal to the output $y(t)$ / $y[k]$ of the equations $(\ast \ast )$  above.
 
-## Example
+## Example: Cart
 Cart with applied force , mass  and damping due to friction $D\dot{y}$:
 
 ![[State Space Models-20251020114609073.png|529]]
@@ -135,7 +135,7 @@ Y  & = C(sI-A)^{-1}BU + DU \\
  & = \underbrace{ [C(sI-A)^{-1}B+D] }_{ T_{uy} }U 
 \end{align}
 $$
-So we can write $Y(s)=T_{uy}(s)$U(s) where $T_{uy}(s)=[C(sI-A)^{-1}B+D]$.
+So we can write $Y(s)=T_{uy}(s)U(s)$ where $T_{uy}(s)=[C(sI-A)^{-1}B+D]$, allowing us to convert from state space to frequency domain.
 
 ## Frequency Domain → State Space
 Let $T_{uy}$ be real, rational, and proper. Then a state space **realization** (or just realization) of that $T_{uy}$ is an LTI state space model of the form

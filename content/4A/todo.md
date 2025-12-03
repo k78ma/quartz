@@ -11,10 +11,28 @@ draft: "true"
 
 ## MTE 484
 
-- [ ] Midterm Day Lecture <br>#mte484
-- [ ] MTE 484 Catch-up<br>#mte484
+- [ ] Lecture 18
+- [ ] Lecture 19
+- [ ] Lecture 20
+- [ ] Lecture 21
+- [ ] Lecture 22
+- [ ] Lecture 23
+- [ ] Lecture 24
+- [ ] Lecture 25
+- [ ] Lecture 26
+- [ ] Lecture 27
+- [ ] Lecture 28
+
+
+## MTE 484 Tutorials
+
 - [ ] Tutorial 8 #mte484
 - [ ] Tutorial 9 #mte484
+
+
+## MTE 484 Problems
+
+- [ ] Midterm Q2
 
 
 ## SYDE 522
@@ -24,6 +42,7 @@ draft: "true"
 
 ## MTE 544
 
+- [ ] Final
 
 
 ## MTE 481
@@ -101,6 +120,7 @@ draft: "true"
 - [ ] Final Project Background - Nov 28<br>#syde522
 - [ ] Final Demo - Nov 28 11AM<br>#mte484
 - [ ] Final Report - Dec 2<br>#mte481
+- [ ] MTE 484 Catch-up<br>#mte484
 
 %% kanban:settings
 ```
