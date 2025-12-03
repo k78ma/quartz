@@ -115,3 +115,4 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Projects
 - [[Counterfactual Probing]]
+- [[Embed to Control]]

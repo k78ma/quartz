@@ -11,8 +11,6 @@ draft: "true"
 
 ## MTE 484
 
-- [ ] Lecture 18
-- [ ] Lecture 19
 - [ ] Lecture 20
 - [ ] Lecture 21
 - [ ] Lecture 22
@@ -121,6 +119,8 @@ draft: "true"
 - [ ] Final Demo - Nov 28 11AM<br>#mte484
 - [ ] Final Report - Dec 2<br>#mte481
 - [ ] MTE 484 Catch-up<br>#mte484
+- [ ] Lecture 18
+- [ ] Lecture 19
 
 %% kanban:settings
 ```
