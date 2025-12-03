@@ -1,9 +1,9 @@
 ---
-title: Performance of Sampled Datra Systems
+title: Performance of Sampled Data Systems
 tags:
   - mte484
-date: 2025-11-21
-aliases: performance of sampled datra systems
+date: 2025-12-02
+aliases: performance of sampled data systems
 ---
 What is the steady-state step response of a SD system where the SD system is closed-loop stable and $T>0$ is non-[[Sampled-Data System Stability|pathological]]?
 

@@ -83,7 +83,7 @@ Study:
 - [[Schur Characteristic Polynomials]]
 - [[Jury Test]]
 - [[Nyquist Stability]]
-- [[Performance of Sampled Datra Systems]]
+- [[Performance of Sampled Data Systems]]
 - [[Nyq]]
 
 ## Tutorial/Examples

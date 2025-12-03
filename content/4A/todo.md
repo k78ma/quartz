@@ -7,14 +7,10 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Statement of Purpose
-- [ ] Lab 3 - Nov 26<br>#mte484
-- [ ] Final Project Background - Nov 28<br>#syde522
 
 
 ## MTE 484
 
-- [ ] Final Demo - Nov 28 11AM<br>#mte484
 - [ ] Midterm Day Lecture <br>#mte484
 - [ ] MTE 484 Catch-up<br>#mte484
 - [ ] Tutorial 8 #mte484
@@ -32,7 +28,6 @@ draft: "true"
 
 ## MTE 481
 
-- [ ] Final Report - Dec 2<br>#mte481
 
 
 ## MTE 380
@@ -101,6 +96,11 @@ draft: "true"
 - [ ] Game Day - Nov 26<br>#mte380
 - [ ] HW 4 - Nov 27<br>#mte544
 - [ ] Final Design Presentation - Nov 26<br>#mte481
+- [ ] Statement of Purpose
+- [ ] Lab 3 - Nov 26<br>#mte484
+- [ ] Final Project Background - Nov 28<br>#syde522
+- [ ] Final Demo - Nov 28 11AM<br>#mte484
+- [ ] Final Report - Dec 2<br>#mte481
 
 %% kanban:settings
 ```
