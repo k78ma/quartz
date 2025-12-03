@@ -292,7 +292,7 @@
       }
     ]
   },
-  "isImageAlignmentEnabled": true,
+  "isImageAlignmentEnabled": false,
   "imageAlignment_cacheCleanupInterval": 3600000,
   "imageAlignment_cacheLocation": "plugin",
   "isDragResizeEnabled": true,

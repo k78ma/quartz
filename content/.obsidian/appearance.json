@@ -3,8 +3,8 @@
   "accentColor": "#5789ff",
   "cssTheme": "Border",
   "enabledCssSnippets": [
-    "center-img",
-    "extended-colorschemes"
+    "extended-colorschemes",
+    "center-img"
   ],
   "translucency": false,
   "theme": "system",
@@ -12,5 +12,6 @@
   "showViewHeader": true,
   "baseFontSizeAction": false,
   "interfaceFontFamily": "Inter",
-  "showRibbon": true
+  "showRibbon": true,
+  "monospaceFontFamily": "Andale Mono"
 }

@@ -19,7 +19,7 @@ such that for any initial condition $x(t=0)=x_{0}$ and any input signal $u(t)$ /
 ## Example: Cart
 Cart with applied force , mass  and damping due to friction $D\dot{y}$:
 
-![[State Space Models-20251020114609073.png|529]]
+![[State Space Models-20251020114609073.png|554]]
 
 Newton's 2nd Law gives
 $$

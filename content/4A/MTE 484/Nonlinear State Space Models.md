@@ -6,6 +6,10 @@ date: 2025-10-24
 aliases: nonlinear state space models
 ---
 Take for example a pendulum following Newton's 2nd Law:
+
+![[Nonlinear State Space Models.png]]
+
+We have:
 $$
 ml\ddot{\theta} = -mg\sin \theta - D\theta + u
 $$
@@ -92,7 +96,7 @@ $$
 LTI example:
 $$
 \begin{align}
-\dot{x} = f(x_{e}, \overline{u})   & = 0 \\
+\dot{x}\big|_{(x_{e}, \overline{u})} = f(x_{e}, \overline{u})   & = 0 \\
 Ax_{e}+B\overline{u} & =0 \\
  x_{e}  & = -A^{-1}B\overline{u}
 \end{align}
@@ -115,4 +119,11 @@ x_{2}^{e} \\
 & \implies -\frac{g}{l}\sin x_{1}^{e}+\frac{1}{ml}\overline{u} = 0  \quad \quad \quad \quad \quad \quad \quad  [x_{2}^{e}=0] \\[2ex]
 & \implies x_{1}^{e} = \sin ^{-1}\left( \frac{\overline{u}}{mg} \right)
 \end{align}
+$$
+So:
+$$
+x_{e} = \begin{bmatrix}
+\sin ^{-1}\left( \frac{\overline{u}}{mg} \right) \\
+0
+\end{bmatrix}
 $$
