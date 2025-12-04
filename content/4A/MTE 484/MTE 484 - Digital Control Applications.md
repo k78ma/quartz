@@ -74,6 +74,7 @@ Study:
 - [[State Space Realization]]
 - [[Phase Portrait]]
 - [[Nonlinear State Space Models]]
+    - [[Linearization of Nonlinear State Space Models]]
 - [[Numerical Integration for Control Systems]]
 - [[Emulation Control Design]]
     - [[Stability of CT-DT Approximation]]
@@ -85,7 +86,6 @@ Study:
 - [[Jury Test]]
 - [[Nyquist Stability]]
 - [[Performance of Sampled Data Systems]]
-- [[Nyq]]
 
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]

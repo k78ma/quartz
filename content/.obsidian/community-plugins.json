@@ -22,5 +22,6 @@
   "shrink-pinned-tabs",
   "text-extractor",
   "obsidian-paste-image-rename",
-  "mousewheel-image-zoom"
+  "mousewheel-image-zoom",
+  "image-converter"
 ]

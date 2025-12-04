@@ -103,7 +103,7 @@
       "ffmpegPreset": "medium"
     }
   ],
-  "selectedConversionPreset": "None",
+  "selectedConversionPreset": "WEBP (75, no resizing)",
   "globalPresets": [
     {
       "name": "WebP 75",
@@ -292,7 +292,7 @@
       }
     ]
   },
-  "isImageAlignmentEnabled": false,
+  "isImageAlignmentEnabled": true,
   "imageAlignment_cacheCleanupInterval": 3600000,
   "imageAlignment_cacheLocation": "plugin",
   "isDragResizeEnabled": true,

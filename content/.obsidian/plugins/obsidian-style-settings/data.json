@@ -36,7 +36,7 @@
   "Editor@@h2-size": "1.45em",
   "Editor@@h1-size": "1.7em",
   "Editor@@link-color@@dark": "#75A0FF",
-  "Editor@@img-center-align": true,
+  "Editor@@img-center-align": false,
   "Editor@@zoom-off": true,
   "Components@@tab-title-bar-autohide": false,
   "Components@@tab-autohide": false,

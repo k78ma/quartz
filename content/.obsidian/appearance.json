@@ -3,8 +3,7 @@
   "accentColor": "#5789ff",
   "cssTheme": "Border",
   "enabledCssSnippets": [
-    "extended-colorschemes",
-    "center-img"
+    "extended-colorschemes"
   ],
   "translucency": false,
   "theme": "system",

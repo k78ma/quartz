@@ -3,11 +3,13 @@ title: Nonlinear State Space Models
 tags:
   - mte484
 date: 2025-10-24
-aliases: nonlinear state space models
+aliases:
+  - nonlinear state space models
+  - equilibrium point
 ---
 Take for example a pendulum following Newton's 2nd Law:
 
-![[Nonlinear State Space Models.png]]
+![[Nonlinear State Space Models.png|200x253]]
 
 We have:
 $$
@@ -127,3 +129,20 @@ x_{e} = \begin{bmatrix}
 0
 \end{bmatrix}
 $$
+Recall that $\sin(\pi-\theta)=\sin(\theta)$. Then, we have
+$$
+\begin{align}
+\sin ^{-1}(1) = \frac{\pi}{2} =\theta \\[2ex] 
+\pi-\theta = \pi - \frac{\pi}{2} = \frac{\pi}{2}
+\end{align}
+$$
+Note that there are three cases
+$$
+\begin{align}
+\left| \frac{\overline{u}}{mg} \right|  & < 1  \quad \Longrightarrow \quad  \left| \overline{u} \right| \leq mg \quad \Longrightarrow \quad  \text{2 equilibria} \\[2ex] 
+\left| \frac{\overline{u}}{mg} \right|  & = 1  \quad \Longrightarrow \quad  \left| \overline{u} \right| = mg \quad \Longrightarrow \quad  \text{1 equilibrium point}\\[2ex] 
+\left| \frac{\overline{u}}{mg} \right|  & >1 \quad \Longrightarrow \quad  \text{0 equilibria}
+\end{align}
+$$
+
+

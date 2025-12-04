@@ -11,7 +11,6 @@ draft: "true"
 
 ## MTE 484
 
-- [ ] Lecture 20
 - [ ] Lecture 21
 - [ ] Lecture 22
 - [ ] Lecture 23
@@ -121,6 +120,7 @@ draft: "true"
 - [ ] MTE 484 Catch-up<br>#mte484
 - [ ] Lecture 18
 - [ ] Lecture 19
+- [ ] Lecture 20
 
 %% kanban:settings
 ```
