@@ -5,7 +5,6 @@ tags:
 date: 2025-11-11
 aliases: emulation control design
 ---
-
 Two strategies of control design in DT:
 1. Direct design of $D[z]$ in DT, such as [[IOP with SPA]]
     - Transient specs will be satisfied at the end of the sample points
@@ -16,14 +15,14 @@ This is done through this series of steps. First, starting from the frequency do
 $$
 \begin{align}
 \dot{x}  & = Ax + Be  \\
-v & =Cx
+u & =Cx
 \end{align}
 $$
 We then use a $\Delta[k+1]$ approximation
 $$
 \begin{align}
 x^{+}  & = \hat{A}x  +\hat{B}e \\
-v & =Cx
+u & =Cx
 \end{align}
 $$
 We then take the $Z$-transform to get to $D[z]$.
@@ -41,7 +40,8 @@ Assume we have a continuous time system of the form:
 We use a running assumption that $C(s)$ has only simple poles:
 $$
 \begin{align}
-C(s) = \sum_{i=1}^{n} \frac{c_{i}}{s-p_{i}}  & = \begin{bmatrix}
+C(s)  & = \sum_{i=1}^{n} \frac{c_{i}}{s-p_{i}}  \\[2ex] 
+& = \begin{bmatrix}
 1  & \dots & 1
 \end{bmatrix} \underbrace{ \begin{bmatrix}
 \frac{1}{s-p_{1}} &  &  \\
@@ -68,7 +68,7 @@ $$
 which gives
 $$
 \begin{align}
-\dot{x} = \underbrace{ \begin{bmatrix}
+\dot{x}  & = \underbrace{ \begin{bmatrix}
 p_{1} & & \\
 & \ddots &  \\
  &  & p_{n}
@@ -77,17 +77,18 @@ c_{1} \\
 \vdots \\
 c_{n}
 \end{bmatrix} }_{ B }e
-\end{align} \\[2ex] 
-u = \begin{bmatrix}
+\\[2ex] 
+u  & = \begin{bmatrix}
 1 & \dots & 1
 \end{bmatrix} x
+\end{align} 
 $$
 
 Recall that we can write
 $$
 \begin{align}
-x((k+1)T)  & = x(kT) + \Delta[k+1] \\[2ex]
- & = x(kT) + \int_{kT}^{(k+1)T} (Ax(s)+Be(s)) \, ds 
+x[k+1]  & = x[k] + \Delta[k+1] \\[2ex]
+ & = x[k] + \int_{kT}^{(k+1)T} (Ax(s)+Be(s)) \, ds 
 \end{align}
 $$
 We can use the [[Numerical Integration for Control Systems|left-side rule]] for numerical integration:
@@ -153,6 +154,39 @@ $$
 D[z] = C(s) \Big |_{s=\frac{2}{T} \left( \frac{z-1}{z+1} \right)}
 $$
 
+## Impact on Poles
+Our approximation will inevitably have some impact on our poles as we go from CT to DT. Ideally, we will get stable poles in CT $\Longleftrightarrow$ stable poles in DT.
 
+As an example, consider this DT $D[z]$:
 
+![[Emulation Control Design-1764989382343.webp]]
 
+Using the left side rule with $s=\frac{1}{T}(z-1)$:
+
+![[Emulation Control Design-1764989457909.webp]]
+
+Note the location of the red poles between Figure 2 and Figure 3. Thus, for the left side rule, stable poles in CT may result in unstable poles in DT.
+
+With the right side rule approximation $s= \frac{1}{T} \frac{z-1}{z}$:
+
+![[Emulation Control Design-1764989512353.webp]]
+
+Note the location of the blue poles between Figure 2 and Figure 4. Thus, for the right side rule, unstable poles in CT may result in stable poles poles in DT.
+
+With the trapezoidal rule $s= \frac{2}{T} \frac{z-1}{z+1}$:
+
+![[Emulation Control Design-1764989799020.webp]]
+
+Thus, for the trapezoidal rule, stable poles in CT map to stable poles in DT.
+
+ Trapezoidal approximation with a system that is closed-loop stable with $C(s)$ does **not** guarantee CL stability for the sampled-data system with $D[z]$. Stability of $D[z]$ does not tell us anything about closed-loop stability. This is one of the downsides of emulation design.
+
+## Step Invariant Approximation
+Step invariant approximation is an emulation design method that ensures the step responses of $C(s)$ and $D[z]$ agree at sample points:
+$$
+\begin{align}
+L^{-1}\left( C(s) \frac{1}{s} \right) \Big|_{t=kT} = Z^{-1}\left( D[z] \frac{z}{z-1} \right)  \\[2ex] 
+\implies D[z] = \frac{z-1}{z} Z\left( L^{-1}\left( \frac{C(s)1}{s} \right) \Big|_{t=kT} \right)
+\end{align}
+$$
+This is the default of `c2d` in MATLAB.

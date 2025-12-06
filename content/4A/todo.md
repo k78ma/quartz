@@ -11,14 +11,12 @@ draft: "true"
 
 ## MTE 484
 
-- [ ] Lecture 21
-- [ ] Lecture 22
-- [ ] Lecture 23
 - [ ] Lecture 24
 - [ ] Lecture 25
 - [ ] Lecture 26
 - [ ] Lecture 27
 - [ ] Lecture 28
+- [ ] Lecture 29
 
 
 ## MTE 484 Tutorials
@@ -121,6 +119,9 @@ draft: "true"
 - [ ] Lecture 18
 - [ ] Lecture 19
 - [ ] Lecture 20
+- [ ] Lecture 21
+- [ ] Lecture 22
+- [ ] Lecture 23
 
 %% kanban:settings
 ```

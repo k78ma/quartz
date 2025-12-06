@@ -209,3 +209,5 @@ $x^{e,s}$ represents a desired operating point. The region inside the dashed lin
 The unstable trajectory from the above state space looks like this:
 
 ![[Linearization of Nonlinear State Space Models-1764817424518.webp]]
+
+Linear approximation works well when you are inside the region of attraction of a stable equilibrium point and close to that equilibrium point. Problems can arise when disturbances push you outside of the region of attraction – can lead to undesired behavior. Also, linearization tells you nothing about global behavior.
