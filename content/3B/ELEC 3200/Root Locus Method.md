@@ -5,6 +5,7 @@ tags:
 date: 2025-05-03
 aliases:
   - root locus method
+  - root locus plot
 ---
 The root locus method is a graphical method for examining how the roots of a system change with variation of a certain system parameter.
 

@@ -9,7 +9,7 @@ aliases:
 ---
 The **map** from $\begin{bmatrix} r \\ d\end{bmatrix}$ to $\begin{bmatrix} u \\ e \\ y\end{bmatrix}$ is the function that sends $r(t), d(t)$ to the resulting $u(t), e(t), y(t)$.
 
-- This is basically a more generalized version of a transfer function.
+- This is basically a more generalized version of a transfer function. A SD system does not have well-defined closed-loop transfer functions in CT since it is not LTI.
 
 > [!definition] Sampled-Data System Closed-Loop Stability
 > A sampled-data system is closed-loop stable if the map from from $\begin{bmatrix} r \\ d\end{bmatrix}$ to $\begin{bmatrix} u \\ e \\ y\end{bmatrix}$ is BIBO stable.
@@ -22,12 +22,13 @@ Can we find the closed-loop stability of a sampled-data system (at all times) by
 
 For a given sampled-data system:
 
-![[Sampled-Data System Stability-20251121114551048.png|621]]
+![[Sampled-Data System Stability-1765056713481.webp]]
 
 We can draw the following corresponding discrete system, which is equal to the sampled-data system at sample points:
 
-![[Sampled-Data System Stability-20251121115256923.png]]
+![[Sampled-Data System Stability-1765056726514.webp]]
 
+Then, can we determine closed-loop stability of the SD system (at **all** times) by evaluating the closed-loop stability of the associated DT system (at the sample times)?
 ## Pathological Sampling Time
 For a plant $P(s)$, a sampling time $T>0$ is **pathological** if the number of poles of $G[z]$ is less than the number of poles of $P(s)$.
 
@@ -42,6 +43,8 @@ G[z] = \frac{1}{j-1} \frac{1-e^{(1-j)T}}{z-e^{(1-j)T}} + \frac{1}{-j-1}\frac{1-e
 \end{align}
 $$
 where we are using $-\frac{1}{\lambda} \frac{1-e^{\lambda T}}{z-e^{\lambda T}}$.
+
+As we vary $T$, the poles of $G[z]$ move, similar to a [[Root Locus Method|root locus plot]].
 
 If we choose $T=2\pi$ we will have
 $$
