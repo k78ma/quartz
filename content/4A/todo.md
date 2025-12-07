@@ -7,13 +7,11 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] Final Project - Dec 15<br>#syde522
 
 
 ## MTE 484
 
-- [ ] Lecture 26
-- [ ] Lecture 27
-- [ ] Lecture 28
 - [ ] Lecture 29
 
 
@@ -26,16 +24,20 @@ draft: "true"
 ## MTE 484 Problems
 
 - [ ] Midterm Q2
+- [ ] Assignment 5
+- [ ] Assignment 6
+- [ ] Assignment 7
+- [ ] Assignment 8
+- [ ] Assignment 9
+- [ ] Assignment 10
 
 
 ## SYDE 522
 
-- [ ] Final Project - Dec 15<br>#syde522
 
 
 ## MTE 544
 
-- [ ] Final
 
 
 ## MTE 481
@@ -122,6 +124,10 @@ draft: "true"
 - [ ] Lecture 23
 - [ ] Lecture 24
 - [ ] Lecture 25
+- [ ] Lecture 26
+- [ ] Lecture 27
+- [ ] Lecture 28
+- [ ] Final
 
 %% kanban:settings
 ```

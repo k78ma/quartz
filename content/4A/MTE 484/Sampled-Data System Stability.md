@@ -62,6 +62,6 @@ Note: for almost all $T>0$, $T$ is non-pathological.
 
 This is a lot easier to check than checking for BIBO stability! We can check the stability of a sampled-data system by looking only at its associated discrete-time system.
 
-Thus, we can say that a SD system is closed-loop stable if and only if roots of the [[Characteristic Polynomial Closed-Loop Stability|characteristic polynomial]] $\Delta$ (for the system with $G[z], D[z]$) are in the open unit disk $\mathbb{D}$.
+Thus, we can say that a SD system is closed-loop stable if and only if roots of the [[Characteristic Polynomial Closed-Loop Stability|characteristic polynomial]] $\Delta$ (for the system with $G[z], D[z]$) are in the open unit disk $\mathbb{D}$. 
 - [[Schur Characteristic Polynomials]]
 

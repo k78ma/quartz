@@ -83,7 +83,10 @@ Study:
 ## Sampled-Data Systems
 - [[Sampled-Data System Stability]]
 - [[Schur Characteristic Polynomials]]
-- [[Jury Test]]
+    - [[Schur Leading Coefficient Lemma]]
+    - [[Jury Test]]
+    - [[Boundary Crossing Lemma]]
+    - [[Schur Checking Tutorial]]
 - [[Nyquist Stability]]
 - [[Performance of Sampled Data Systems]]
 
