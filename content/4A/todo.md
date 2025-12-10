@@ -8,28 +8,36 @@ draft: "true"
 ## Upcoming
 
 - [ ] Final Project - Dec 15<br>#syde522
+- [ ] Tutorial 11
 
 
 ## MTE 484
 
-- [ ] Lecture 29
+- [ ] Contours in the complex plane
 
 
 ## MTE 484 Tutorials
 
-- [ ] Tutorial 8 #mte484
-- [ ] Tutorial 9 #mte484
+- [ ] Tutorial 7
+- [ ] Tutorial 9
+- [ ] Tutorial 10
+- [ ] Tutorial 12
 
 
 ## MTE 484 Problems
 
-- [ ] Midterm Q2
+- [ ] Midterm
 - [ ] Assignment 5
 - [ ] Assignment 6
-- [ ] Assignment 7
 - [ ] Assignment 8
 - [ ] Assignment 9
 - [ ] Assignment 10
+
+
+## MTE 484 Complete
+
+- [ ] Assignment 7
+- [ ] Tutorial 8
 
 
 ## SYDE 522
@@ -128,6 +136,7 @@ draft: "true"
 - [ ] Lecture 27
 - [ ] Lecture 28
 - [ ] Final
+- [ ] Lecture 29
 
 %% kanban:settings
 ```

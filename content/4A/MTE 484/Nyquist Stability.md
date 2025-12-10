@@ -3,7 +3,10 @@ title: Nyquist Stability
 tags:
   - mte484
 date: 2025-11-21
-aliases: nyquist stability
+aliases:
+  - nyquist stability
+  - Nyquist Stability Theorem
+  - Nyquist plot
 ---
 ## Nyquist Plots
 
@@ -61,9 +64,9 @@ by the argument principle.
 > $$
 > N = Z-P
 > $$
+> - $N$ is the number of encirclements of $-1$ by $L[\Gamma]$, where $\Gamma$ is the unit circle (traversed in the positive direction)
 > - $Z$ is the number of stable CL poles
 > - $P$ is the number of stable OL poles
-> $N$ is the number of encirclements of $-1$ by $L[\Gamma]$, where $\Gamma$ is the unit circle (traversed in the positive direction) and
 > $$
 > L[z] = G[z]D[z]
 > $$
@@ -88,6 +91,6 @@ $$
  & = \text{\# of unstable OL poles}
 \end{align}
 $$
-Therefore $N$ is the number of unstable OL poles. 
+Therefore $N$ is the number of unstable OL poles – the unstable poles of $L[z]= G[z]D[z]$.
 
-Ex 11.2
+This gives us a visual method for checking the closed-loop stability of a system, instead of using a [[Jury Test]]; furthermore, it lets us determine the range of some parameter ($K$) for which we have closed-loop stability (see [[Stable Gain Determination from Nyquist Plots]])

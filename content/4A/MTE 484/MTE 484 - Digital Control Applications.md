@@ -87,9 +87,11 @@ Study:
     - [[Jury Test]]
     - [[Boundary Crossing Lemma]]
     - [[Schur Checking Tutorial]]
+
+- [[Contours in Complex Plane]]
+- [[Argument Principle]]
 - [[Nyquist Stability]]
 - [[Performance of Sampled Data Systems]]
-
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
 - [[Sept 30 IOP Tutorial]]

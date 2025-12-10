@@ -13,7 +13,7 @@ aliases:
 > $$
 > where $j$ indexes the model parameters. We now maximize $\sum_{i=1}^{I}Pr(\mathbf{y}_{i}\, | \, \mathbf{x}_{i}, \phi) Pr(\phi)$. Show that the associated loss function of this model is equivalent to L2 regularization.
 
-Recall from [[Explicit Regularization#Probabilistic interpretation]] that the regularization term can be consider a prior $Pr(\phi)$ representing some knowledge we have about the parameters.
+Recall from [[Explicit Regularization#Probabilistic interpretation]] that the regularization term can be considered a prior $Pr(\phi)$ representing some knowledge we have about the parameters.
 
 The posterior objective is then:
 $$
