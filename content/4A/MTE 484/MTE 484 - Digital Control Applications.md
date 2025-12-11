@@ -91,7 +91,7 @@ Study:
 - [[Contours in Complex Plane]]
 - [[Argument Principle]]
 - [[Nyquist Stability]]
-- [[Performance of Sampled Data Systems]]
+- [[Steady-State Performance of Sampled Data Systems]]
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
 - [[Sept 30 IOP Tutorial]]

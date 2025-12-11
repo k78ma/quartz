@@ -65,3 +65,43 @@ This is a lot easier to check than checking for BIBO stability! We can check the
 Thus, we can say that a SD system is closed-loop stable if and only if roots of the [[Characteristic Polynomial Closed-Loop Stability|characteristic polynomial]] $\Delta$ (for the system with $G[z], D[z]$) are in the open unit disk $\mathbb{D}$. 
 - [[Schur Characteristic Polynomials]]
 
+## State Space Realization for DT system
+
+> [!theorem] Lemma
+> If $T>0$ is non-pathological and the DT system is closed-loop stable, then $T_{rx}[z]$ and $T_{dx}[z]$ are BIBO stable.
+
+In service of this lemma, we will create a state space realization for the DT feedback system.
+
+First, we start with the state space realization of the plant and the controller:
+$$
+\quad \begin{align}
+G[z]:\quad  \quad x[k+1] &  = A_{d}x[k]+B_{d}u[k] \\[2ex]
+y[k] &  = C_{x}[k]
+\end{align}
+$$
+- States are $\vec{x}$
+$$
+\begin{align}
+D[z]: \quad  \quad  \hat{x}[k+1]  & = \hat{A}\hat{x}[k]+\hat{B}(r[k]-y[k]) \\[2ex]
+\overline{y}[k]  & = \hat{C}\hat{x}[k] + \hat{D}(r[k]-y[k]) \\[2ex]
+u[z]  & = \overline{u}[k]+d[k]
+\end{align}
+$$
+- States are $\vec{\hat{x}}$
+
+Second, we pick states for the whole feedback system to be
+$$
+\begin{bmatrix}
+\vec{x} \\
+\vec{\hat{x}}
+\end{bmatrix}
+$$
+such that:
+$$
+\begin{align}
+x[k+1]  & = A_{d} x[k]+B_{d}u[k]= A_{d}x[k] + B_{d}(\overline{u}[k]+d[k]) \\
+ & = A_{d}x[k] + B_{d}d[k]+ B_{d}(\hat{c}\hat{x}[k]+\hat{D}(r[k]-y[k])) \\[2ex] 
+\hat{x}[k+1]  & = \hat{A}\hat{x}[k] + \hat{B}(r[k]-Cx[k])  \\
+ & =   -\hat{B}Cx[k]+\hat{A}\hat{x}[k]+\hat{B}r[k]
+\end{align}
+$$
