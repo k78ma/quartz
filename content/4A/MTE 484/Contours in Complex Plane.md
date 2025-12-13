@@ -7,11 +7,16 @@ aliases: contours in complex plane
 ---
 Consider a simple closed-loop curve $\Gamma$, which segments the complex plane into a region that is inside the curve and a region that is outside the curve.
 
-\[Figure]
+![[Contours in Complex Plane-1765654618211.webp|401x317]]
 
 Some terminology
 - *Simple:* No self-intersections
 - *Closed:* Curve starts and ends at the same point (i.e., no end points)
+
+
+![[Contours in Complex Plane-1765654633325.webp|397x314]]
+
+![[Contours in Complex Plane-1765654657674.webp|395x323]]
 
 Note that the curves have directionality; an arrow tells us which way to travel around the curve.
 
@@ -24,6 +29,9 @@ Let's do a contour integration example with a unit circle. First, we define a co
 $$
 \Gamma = \{ \rho +re^{j\theta} \, : \,\theta \in  [0,2\pi] \}
 $$
+
+![[Contours in Complex Plane-1765654687485.webp|363x288]]
+
 Now, let's compute the integral, assuming the pole $p$ is at the center of the circle (i.e. $p=\rho$):
 $$
 \frac{1}{2\pi j} \oint _{\Gamma} \frac{1}{z-p} dz
@@ -61,6 +69,10 @@ So as long as $p$ is inside of $\Gamma$, the integral will always evaluate to $1
 
 This will basically let us count up how many poles are inside and how many poles are outside the unit disk.
 
+![[Contours in Complex Plane-1765654715236.webp|379x293]]
+
+![[Contours in Complex Plane-1765654736860.webp|382x295]]
+
 ## Connecting to Transfer Functions
 Let $G[z]$ be real, rational, and proper. Let $\Gamma$ be a contour. Then, $G[z]$ can be written as:
 $$
@@ -97,6 +109,9 @@ $$
 \end{align}
 $$
 Therefore, we can evaluate this integral by just looking at $\Gamma$ and the poles/zeros of $G[z]$, but this doesn't help us that much yet. This way tells us about the the relationships between the number of poles and the number of zeros. But we can calculate it in a different way.
+
+![[Contours in Complex Plane-1765654762701.webp|586x424]]
+
 
 We can evaluate the integral in a different way using a change of variables:
 $$
