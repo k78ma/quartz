@@ -209,7 +209,7 @@ $$
 \lambda_{1}  & = -2, v_{1} = \begin{bmatrix}
 -1 \\
 2
-\end{bmatrix} \\
+\end{bmatrix} \\[2ex]
 \lambda_{2}  & =3 , v_{2} = \begin{bmatrix}
 1 \\
 1

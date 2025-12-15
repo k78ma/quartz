@@ -7,16 +7,10 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Tutorial 10
+- [ ] Tutorial 4, 5, 6 review
 - [ ] Assignment 5
 - [ ] Assignment 6
 - [ ] Final Project - Dec 15<br>#syde522
-
-
-## MTE 484 Tutorials
-
-- [ ] Tutorial 12
-- [ ] Tutorial 4, 5, 6 review
 
 
 ## MTE 484 Problems
@@ -35,6 +29,12 @@ draft: "true"
 - [ ] Tutorial 7
 - [ ] Tutorial 9
 - [ ] Midterm
+
+
+## MTE 484 Skimmed
+
+- [ ] Tutorial 10
+- [ ] Tutorial 12
 
 
 ## MTE 484

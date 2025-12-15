@@ -173,7 +173,6 @@ Then:
 | ------------ | ---------------------------- | ------------------------ | ---------------------------- |
 | $R^{(0)}[z]$ | $1$                          | $\frac{9}{4}-e^{-2\tau}$ | $-\frac{1}{4}(1+e^{-2\tau})$ |
 | $Q^{(0)}[z]$ | $-\frac{1}{4}(1+e^{-2\tau})$ | $\frac{9}{4}-e^{-2\tau}$ | $1$                          |
-|              |                              |                          |                              |
 
 which gives
 $$
@@ -203,7 +202,6 @@ e^{-2\tau}  & > 2
 $$
 This is not possible; no value of $T>0$ would allow the system to be CL stable.
 
-Jury Table:
 
 
 
