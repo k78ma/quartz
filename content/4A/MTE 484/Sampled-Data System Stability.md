@@ -68,7 +68,7 @@ Thus, we can say that a SD system is closed-loop stable if and only if roots of 
 ## State Space Realization for DT system
 
 > [!theorem] Lemma
-> If $T>0$ is non-pathological and the DT system is closed-loop stable, then $T_{rx}[z]$ and $T_{dx}[z]$ are BIBO stable.
+> If $T>0$ is non-pathological and the DT system is closed-loop stable, then $T_{ry}[z]$ and $T_{dy}[z]$ are BIBO stable.
 
 In service of this lemma, we will create a state space realization for the DT feedback system.
 

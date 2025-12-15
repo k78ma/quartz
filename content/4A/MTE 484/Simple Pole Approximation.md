@@ -59,7 +59,9 @@ Then, the poles of $X$ are contained in
 $$
 \text{poles}(X) \subset \{ p_{i} \}_{i=1}^{m} \cup \{ q_{k} \}_{k=1}^{\hat{n}}
 $$
-because $X$ is stable.
+because $X$ is stable. 
+- Stable poles $p_{i}$ from $W$, which we chose
+- Stable poles $q_{1}, \dots, q_{\hat{n}}$ from the plant $G$
 
 So, we can write
 $$

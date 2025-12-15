@@ -72,6 +72,10 @@ by the argument principle.
 > $$
 > The plot of $L[\Gamma]$ is called the Nyquist plot.
 
+
+![[Nyquist Stability-1765683782753.webp]]
+
+
 > [!theorem] Corollary
 > The feedback system is closed-loop stable if and only if $N$ = number of unstable open-loop poles.
 > 

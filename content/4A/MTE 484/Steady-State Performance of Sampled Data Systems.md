@@ -12,7 +12,7 @@ What is the steady-state step response of a SD system where the SD system is clo
 
 *Proof.*
 - Given: SD system is closed-loop stable, $T>0$ and non-pathological
-- WTS: $y_{ss}= _{ss}= \lim_{ t \to \infty }=T_{ry}[1]$
+- WTS: $y_{ss}= \lim_{ t \to \infty }=T_{ry}[1]$
 
 Then:
 - DT system is closed-loop stable \[theorem from class]

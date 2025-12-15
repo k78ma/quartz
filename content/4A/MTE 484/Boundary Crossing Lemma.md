@@ -6,7 +6,7 @@ date: 2025-12-06
 aliases: boundary crossing lemma
 ---
 > [!theorem] Boundary Crossing Lemma
-> Let $\lambda \in  [0,1]$ and $\Delta_{\lambda}[z] = \Lambda^{(1)}[z] - \lambda\Lambda^{)2}[z]$. 
+> Let $\lambda \in  [0,1]$ and $\Delta_{\lambda}[z] = \Lambda^{(1)}[z] - \lambda\Lambda^{(2)}[z]$. 
 > 
 > If $\Lambda_{1}[z]$ is Schur and $\Lambda_{1}[z]-\Lambda_{2}[z]$ is not Schur (or vice versa), then there exists $\lambda^{\ast } \in [0,1]$  such that $\Delta_{\lambda^{\ast }}[z]$ has a root on the unit circle.
 

@@ -7,38 +7,38 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] Tutorial 10
+- [ ] Assignment 5
+- [ ] Assignment 6
 - [ ] Final Project - Dec 15<br>#syde522
-- [ ] Assignment 8
-
-
-## MTE 484
-
 
 
 ## MTE 484 Tutorials
 
-- [ ] Tutorial 7
-- [ ] Tutorial 9
-- [ ] Tutorial 10
 - [ ] Tutorial 12
 - [ ] Tutorial 4, 5, 6 review
 
 
 ## MTE 484 Problems
 
-- [ ] Midterm
-- [ ] Assignment 6
-- [ ] Assignment 5
-- [ ] Assignment 9
 
 
 ## MTE 484 Complete
 
+- [ ] Assignment 8
 - [ ] Assignment 7
 - [ ] Tutorial 8
 - [ ] Tutorial 11
 - [ ] Assignment 10
+- [ ] Assignment 9
 - [ ] Contours in the complex plane
+- [ ] Tutorial 7
+- [ ] Tutorial 9
+- [ ] Midterm
+
+
+## MTE 484
+
 
 
 ## SYDE 522

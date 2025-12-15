@@ -95,6 +95,7 @@ Study:
 ## Tutorial/Examples
 - [[Sept 23 Proof Tutorial]]
 - [[Sept 30 IOP Tutorial]]
+- [[Optimal Control]]
 
 ## Labs
 - [[MTE 484 Lab 1]]
