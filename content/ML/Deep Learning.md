@@ -8,7 +8,7 @@ aliases:
   - deep learning
 ---
 Notes from:
-- Understanding Deep Learning
+- [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 
 Some of these notes are also included in [[Machine Learning]].
 ## Foundations
