@@ -3,7 +3,9 @@
     "custom": [
       "theorem",
       "note",
-      "question"
+      "question",
+      "definition",
+      "def"
     ],
     "settings": {
       "info": [
@@ -45,6 +47,20 @@
         {
           "changes": {
             "icon": "lucide-arrow-right"
+          }
+        }
+      ],
+      "definition": [
+        {
+          "changes": {
+            "icon": "lucide-book-open"
+          }
+        }
+      ],
+      "def": [
+        {
+          "changes": {
+            "icon": "lucide-book-open"
           }
         }
       ]

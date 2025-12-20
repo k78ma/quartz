@@ -80,6 +80,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Early stopping]]
 - [[Model Ensembling]]
 - [[Dropout]]
+- [[Applying Noise During Training]]
 
 ## Convolutional Networks
 

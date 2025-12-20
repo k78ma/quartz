@@ -54,13 +54,20 @@
   }
 
   &[data-callout="theorem"] {
-    --color: #95B3FF;
+    --color: #6792fe;
     --border: #448aff44;
     --bg: #448aff10;
     --callout-icon: var(--callout-icon-circle);
   }
   
   &[data-callout="definition"] {
+    --color: #6792fe;
+    --border: #448aff44;
+    --bg: #448aff10;
+    --callout-icon: var(--callout-icon-note);
+  }
+
+  &[data-callout="def"] {
     --color: #6792fe;
     --border: #448aff44;
     --bg: #448aff10;

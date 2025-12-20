@@ -400,8 +400,8 @@ We don't do forward mode differentiation because for each input variable we will
 >$$
 >\begin{aligned} 
 >\frac{\partial y}{\partial f_5}&=1,\quad \frac{\partial y}{\partial f_4}=1\\ 
->\frac{\partial y}{\partial f_3} &= \frac{\partial y}{\partial f_4}\frac{\partial f_4}{\partial f_3} • \frac{\partial y}{\partial f_5}\frac{\partial f_5}{\partial f_3} = e^{f_3}+\cos f_3\\ \frac{\partial y}{\partial f_2}&=\frac{\partial y}{\partial f_3}\cdot 1 = e^{f_3}+\cos f_3\\ 
->\frac{\partial y}{\partial f_1} &= \frac{\partial y}{\partial f_3}\cdot 1 • \frac{\partial y}{\partial f_2}\cdot (2f_1) = (e^{f_3}+\cos f_3)\,(1+2f_1)\\ 
+>\frac{\partial y}{\partial f_3} &= \frac{\partial y}{\partial f_4}\frac{\partial f_4}{\partial f_3} \cdot \frac{\partial y}{\partial f_5}\frac{\partial f_5}{\partial f_3} = e^{f_3}+\cos f_3\\ \frac{\partial y}{\partial f_2}&=\frac{\partial y}{\partial f_3}\cdot 1 = e^{f_3}+\cos f_3\\ 
+>\frac{\partial y}{\partial f_1} &= \frac{\partial y}{\partial f_3}\cdot 1 \cdot \frac{\partial y}{\partial f_2}\cdot (2f_1) = (e^{f_3}+\cos f_3)\,(1+2f_1)\\ 
 >\frac{\partial y}{\partial x} &= \frac{\partial y}{\partial f_1}\cdot \frac{\partial f_1}{\partial x} = (e^{f_3}+\cos f_3)\,(1+2f_1)\,e^{x}\\ 
 >\frac{\partial y}{\partial z} &= \frac{\partial y}{\partial f_3}\cdot \frac{\partial f_3}{\partial z} = e^{f_3}+\cos f_3 \end{aligned}
 >$$
