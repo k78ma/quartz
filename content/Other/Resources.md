@@ -30,6 +30,7 @@ draft:
 - [Learning to Learn with Gradients](https://ai.stanford.edu/~cbfinn/_files/dissertation.pdf)
 - [Neuro-Symbolic Learning for Bilevel Planning](file:///Users/kai/Downloads/silver-tslvr-phd-eecs-2024-thesis.pdf)
 ### Courses/Guides
+- [From Python to Numpy](https://www.labri.fr/perso/nrougier/from-python-to-numpy/)
 - [Deep Learning Systems](https://dlsyscourse.org/)
 - [CMU 16-831: Introduction to Robot Learning](https://16-831-s24.github.io/lectures)
 - [Cornell CS 4756: Robot Learning](https://www.cs.cornell.edu/courses/cs4756/2024sp/)

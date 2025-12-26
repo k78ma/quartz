@@ -81,6 +81,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Model Ensembling]]
 - [[Dropout]]
 - [[Applying Noise During Training]]
+    - [[Adversarial Training]]
 
 ## Convolutional Networks
 

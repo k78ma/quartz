@@ -12,7 +12,7 @@ Examples of binary classification:
 - Predicting whether a restaurant review is positive ($y=1$) or negative ($y=0$) from text data $\mathbf{x}$
 - Predicting whether a tumor is present ($y=1$) or absent ($y=0$)
 
-We can follow the [[Loss Function Recipe|loss function recipe]] to construct the loss function. First, we choose a probability distribution over the output space $y\in \{ 0,1 \}$. A suitable choice is the Bernoulli distribution, which is defined on the domain $\{ 0,1 \}$. This has a single parameter $\lambda \in [0,1]$ that represents the probability that $y=1$:
+We can follow the [[Loss Function Recipe|loss function recipe]] to construct the loss function. First, we choose a probability distribution over the output space $y\in \{ 0,1 \}$. A suitable choice is the [[Bernoulli Distribution]], which is defined on the domain $\{ 0,1 \}$. This has a single parameter $\lambda \in [0,1]$ that represents the probability that $y=1$:
 $$
 Pr(y|\lambda)= \begin{cases}
 1-\lambda & &  y=0 \\

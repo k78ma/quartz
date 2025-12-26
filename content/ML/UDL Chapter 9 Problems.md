@@ -65,7 +65,7 @@ Thus, every parameter is pulled toward zero proportionally to its magnitude.
 
 
 > [!question] Problem 3
-> 
+> Consider a linear regression model $y=\phi_{0}+\phi_{1}x$ with input $x$, output $y$, and parameters $\phi_{0}$ and $\phi_{1}$. Assume we have $I$ training examples $\{ x_{i}, y_{i} \}$ and use a least squares loss. Consider adding Gaussian noise with mean zero and variance $\sigma_{x}^{2}$ to the inputs $x_{i}$ at each training iteration. What is the expected gradient update?
 
 
 > [!question] Problem 4
