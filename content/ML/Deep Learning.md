@@ -82,6 +82,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Dropout]]
 - [[Applying Noise During Training]]
     - [[Adversarial Training]]
+- [[Bayesian Inference]]
 
 ## Convolutional Networks
 
