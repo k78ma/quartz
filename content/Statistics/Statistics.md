@@ -14,6 +14,7 @@ Notes from:
 - [[Bayes' Theorem]]
 - [[Prior and Posterior]]
 - [[Independent Variables]]
+- [[Law of Total Probability]]
 ### Probability Densities
 - [[Probability Density Function]]
 	- [[Multivariate Probability Density]]
