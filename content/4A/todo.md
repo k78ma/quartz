@@ -13,30 +13,6 @@ draft: "true"
 
 
 
-## MTE 484 Complete
-
-- [ ] Assignment 8
-- [ ] Assignment 7
-- [ ] Tutorial 8
-- [ ] Tutorial 11
-- [ ] Assignment 10
-- [ ] Assignment 9
-- [ ] Contours in the complex plane
-- [ ] Tutorial 7
-- [ ] Tutorial 9
-- [ ] Midterm
-- [ ] A7Q5
-
-
-## MTE 484 Skimmed
-
-- [ ] Tutorial 10
-- [ ] Tutorial 12
-- [ ] Tutorial 4, 5, 6 review
-- [ ] Assignment 5
-- [ ] Assignment 6
-
-
 ## MTE 484
 
 
@@ -66,6 +42,22 @@ draft: "true"
 
 ## Archive
 
+- [ ] Tutorial 10
+- [ ] Tutorial 12
+- [ ] Tutorial 4, 5, 6 review
+- [ ] Assignment 5
+- [ ] Assignment 6
+- [ ] Assignment 8
+- [ ] Assignment 7
+- [ ] Tutorial 8
+- [ ] Tutorial 11
+- [ ] Assignment 10
+- [ ] Assignment 9
+- [ ] Contours in the complex plane
+- [ ] Tutorial 7
+- [ ] Tutorial 9
+- [ ] Midterm
+- [ ] A7Q5
 - [ ] Assignment 1<br>#mte484
 - [ ] A1 - Sept 26<br>#syde522
 - [ ] Beam Design<br>#mte380

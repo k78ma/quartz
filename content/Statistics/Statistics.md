@@ -15,6 +15,7 @@ Notes from:
 - [[Prior and Posterior]]
 - [[Independent Variables]]
 - [[Law of Total Probability]]
+- [[Addition Law of Probability]]
 ### Probability Densities
 - [[Probability Density Function]]
 	- [[Multivariate Probability Density]]

@@ -7,6 +7,14 @@ aliases:
   - regularization
   - regularizer
 ---
+Regularization biases the model toward a certain type of solution.
+- [[Explicit Regularization]] adds an extra term to the loss function that changes the position of the minimum. This term can be interpreted as a prior probability over the parameters. 
+- SGD with a finite step size usually does not neutrally descend to the minimum of a loss function. This bias can be interpreted as adding additional terms to the loss function, and this is known as [[Implicit Regularization]].
+
+Usually, we add regularization bias terms with the goal of improving the generalization capability of the model between the train and test sets.
+
+![[Regularization-1766817665715.webp]]
+
 ### Definition
 Recall that machine learning can be framed in the form of an optimization problem, such as:
 $$

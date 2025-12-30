@@ -5,6 +5,7 @@ tags:
 date: 2025-08-17
 aliases:
   - udl chapter 8 problems
+draft: "true"
 ---
 > [!question] Problem 8.1
 > Will the multiclass cross-entropy loss in figure 8.2 ever reach zero? Explain your reasoning.

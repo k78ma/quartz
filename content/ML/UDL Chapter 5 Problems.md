@@ -5,6 +5,7 @@ tags:
 date: 2025-06-24
 aliases:
   - udl chapter 5 problems
+draft: "true"
 ---
 > [!question] Problem 5.1
 > Show that the logistic sigmoid function $\text{sig}[z]$ becomes $0$ as $z\to-\infty$, is $0.5$ when $z=0$, and becomes $1$ when $z\to \infty$, where

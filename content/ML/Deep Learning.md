@@ -83,9 +83,14 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Applying Noise During Training]]
     - [[Adversarial Training]]
 - [[Bayesian Inference]]
+- [[Transfer learning]]
+- [[Multi-task Learning]]
+- [[Self-supervised Learning]]
+- [[Data Augmentation]]
 
 ## Convolutional Networks
-
+- [[Invariance and Equivariance]]
+- [[Convolutional Neural Networks]]
 
 ## Residual Networks
 
@@ -119,4 +124,3 @@ Some of these notes are also included in [[Machine Learning]].
 ## Projects
 - [[Counterfactual Probing]]
 - [[Embed to Control]]
-- [[E2C Draft]]

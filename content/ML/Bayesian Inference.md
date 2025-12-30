@@ -19,4 +19,4 @@ Pr(\mathbf{y}\, | \, \mathbf{x}, \{ \mathbf{x}_{i}, \mathbf{y}_{i} \}) = \int Pr
 $$
 This is effectively an infinite weighted ensemble, where the weight depends on (i) the prior probability of the parameters and (ii) their agreement with the data.
 
-The Bayesian approach is elegant and can provide more robust predictions than those that derive from maximum likelihood. Unfortunately, for complex models like neural networks, there is no way to represent the full probability distribution over the parameters or integrate over it during inference. Thus, all current methods of this type must make an approximation of some kind, addying considerably complexity to learning and inference.
+The Bayesian approach is elegant and can provide more robust predictions than those that derive from maximum likelihood. Unfortunately, for complex models like neural networks, there is no way to represent the full probability distribution over the parameters or integrate over it during inference. Thus, all current methods of this type must make an approximation of some kind, adding considerably complexity to learning and inference.
