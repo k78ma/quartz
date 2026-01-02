@@ -89,10 +89,10 @@ date: 2023-06-25
 
 ### Convolutional Neural Networks
 - [[Convolutional Neural Networks]]
-- [[Convolution Filter]]
+- [[Image Filter]]
 - [[2D Convolution Operation]]
 - [[Image Filter Bank]]
-- [[Convolution Layer]]
+- [[Convolutional Layer]]
 - [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]

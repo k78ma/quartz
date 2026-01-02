@@ -1,9 +1,9 @@
 ---
-title: Convolution Filter
+title: Image Filter
 tags:
   - ml
-date: 2024-01-31
-aliases:
+date: 2025-12-30
+aliases: image filter
 ---
 An image filter is a function that takes in a local spatial neighborhood of pixel values and detects the presence of some pattern in that data.
 

@@ -9,7 +9,7 @@ Here is the form of a typical convolutional network:
 ![[CNN Architecture.png]]
 
 Generally:
-- Each [[Convolution Layer]] is accompanied by a [[Rectifier Circuits|ReLU]] layer
+- Each [[Convolutional Layer]] is accompanied by a [[Rectifier Circuits|ReLU]] layer
 - Usually there are multiple filter/ReLU layers, then a max pooling layer, then some more filter/ReLU layers, then max pooling again
 - Once the output is down to a relatively small size, there is typically a last [[Neural Network Layer|fully-connected layer]], leading into an [[Activation Function]] such as softmax that produce the final output.
 

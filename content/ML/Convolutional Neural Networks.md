@@ -21,10 +21,11 @@ Second, there is the fact of **spatial locality**: nearby image pixels are stati
 Third, image interpretation is stable under geometric transformations ([[Invariance and Equivariance]]). The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs. However, shifting the object changes every input to the network, so a fully connected model must learn the patterns of pixels that signify a cat at every position, which is inefficient.
 
 Parts of CNNs:
-- [[Convolution Filter]]
+- [[1D Convolution]]
+- [[Image Filter]]
 - [[2D Convolution Operation]]
 - [[Image Filter Bank]]
-- [[Convolution Layer]]
+- [[Convolutional Layer]]
 - [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]

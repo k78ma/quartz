@@ -1,13 +1,13 @@
 ---
-title: Convolution Layer
+title: Convolutional Layer
 tags:
   - ml
-date: 2024-02-03
-aliases:
-  - filter layer
-  - conv
+date: 2025-12-30
+aliases: convolutional layer
 ---
-Convolution layers perform the operation of a [[Convolution Filter]]. The goal is to have each bank of an [[Image Filter Bank]] to correspond to a single neural network layer. The values in the filters/kernels are the weights in this case (plus an offset bias for each filter); these weights can then be trained with [[Gradient Descent]].
+Convolutional layers are network layers that perform the convolution operation. In 1D, a convolution transforms an input vector $\mathbf{x}$ into an output vector $\mathbf{z}$ so that each output $z_{i}$ is a weighted sum of nearby inputs. The same weights are used at every position and are collectively called the **convolution layer** or **filter**.
+
+Each 2D convolution operation performs as an [[Image Filter]]. The goal is to have each bank of an [[Image Filter Bank]] to correspond to a single neural network layer. The values in the filters/kernels are the weights in this case (plus an offset bias for each filter); these weights can then be trained with [[Gradient Descent]].
 
 The same weights are used many many times in the computation of each layer. This *weight sharing* means that we can express a transformation on a large image with relatively few parameters; it also means we’ll have to take care in figuring out exactly how to train it.
 
