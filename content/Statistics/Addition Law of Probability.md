@@ -1,8 +1,10 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Addition Law of Probability
+tags:
+  - math
+  - stats
+date: 2026-01-01
+aliases: addition law of probability
 ---
 $$
 \begin{align}
