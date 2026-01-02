@@ -93,6 +93,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Convolutional Neural Networks]]
     - [[1D Convolution]]
     - [[Convolutional Layer]]
+    - [[Feature Map]]
 ## Residual Networks
 
 
