@@ -10,3 +10,4 @@ aliases:
 - [[Linear Algebra]]
 
 - [[Convexity]]
+- [[Codomain vs. Range]]

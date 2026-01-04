@@ -1,8 +1,9 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Permutation Matrix
+tags:
+  - lin-alg
+date: 2026-01-03
+aliases: permutation matrix
 ---
 A permutation matrix is a square matrix that can be obtained from the identity matrix by permuting its columns. The identity matrix itself is considered a permutation matrix.
 

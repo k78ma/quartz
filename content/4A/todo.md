@@ -9,6 +9,7 @@ draft: "true"
 
 - [ ] UDL P10.5-10.8, Notebook 10.1
 - [ ] Lecture 1 Pre-Notes<br>#amath449
+- [ ] OnShape
 
 
 ## Capstone

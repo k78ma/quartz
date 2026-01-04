@@ -77,6 +77,8 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Orthogonal Matrix]]
 - [[Singular Matrix]]
 - [[Permutation Matrix]]
+- [[Frobenius Matrix]]
+  
 ## Exercises
 - [[LADR Exercises 1A]]
 - [[LADR Exercises 1B]]
