@@ -1,8 +1,9 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Codomain vs. Range
+tags:
+  - math
+date: 2026-01-04
+aliases: codomain vs. range
 ---
 Recall that in the notation $f:X\to Y$, the codomain of the function is $Y$.
 
