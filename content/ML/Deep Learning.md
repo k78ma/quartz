@@ -91,9 +91,10 @@ Some of these notes are also included in [[Machine Learning]].
 ## Convolutional Networks
 - [[Invariance and Equivariance]]
 - [[Convolutional Neural Networks]]
-    - [[1D Convolution]]
-    - [[Convolutional Layer]]
-    - [[Feature Map]]
+- [[1D Convolution]]
+- [[Convolutional Layer]]
+- [[Feature Map]]
+- [[Receptive Field]]
 ## Residual Networks
 
 

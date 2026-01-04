@@ -7,29 +7,27 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] UDL P10.5-10.8, Notebook 10.1
+- [ ] Lecture 1 Pre-Notes<br>#amath449
 
 
-## MTE 484 Problems
-
-
-
-## MTE 484
-
-
-
-## SYDE 522
+## Capstone
 
 
 
-## MTE 544
+## AMATH 449
 
 
 
-## MTE 481
+## ECE 459
 
 
 
-## MTE 380
+## ECE 457A
+
+
+
+## HIST 216
 
 
 

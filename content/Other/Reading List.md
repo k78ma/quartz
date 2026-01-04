@@ -6,7 +6,12 @@ aliases:
   - reading list
 draft: "true"
 ---
+Plan:
 - Understanding Deep Learning
+- [Guided lab sessions](https://sscardapane.notion.site/Guided-lab-sessions-18c25bd12a8c8068b972f7612fcde8d5#18c25bd12a8c8021be44f5f61ed35ab6)
+- Mathematical Foundations of Reinforcement Learning
+- Deep Learning: Foundations and Concepts
+
 - Understand all the nanoGPT speedrun improvements
 - Fastai?
     - Hands on Machine Learning with Scikit-Learn and PyTorch?
@@ -14,7 +19,6 @@ draft: "true"
     - Understand all the nanoGPT speedrun improvements
 - Reinforcement Learning: An Introduction
 - Introduction to Statistical Learning
-- Deep Learning: Foundations and Concepts
 
 
 Immediate:
