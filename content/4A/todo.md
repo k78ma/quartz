@@ -7,8 +7,6 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] UDL P10.5-10.8, Notebook 10.1
-- [ ] Lecture 1 Pre-Notes<br>#amath449
 - [ ] OnShape
 
 
@@ -130,6 +128,8 @@ draft: "true"
 - [ ] Final
 - [ ] Lecture 29
 - [ ] Final Project - Dec 15<br>#syde522
+- [ ] Lecture 1 Pre-Notes<br>#amath449
+- [ ] UDL Notebook 10.1
 
 %% kanban:settings
 ```
