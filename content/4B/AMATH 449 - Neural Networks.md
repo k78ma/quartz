@@ -10,4 +10,5 @@ aliases: amath 449 - neural networks
 
 ## Notes
 - [[Hodgkin-Huxley Neuron Model]]
-- [[Simpler Neuron Models]]
+- [[Leaky Integrate-and-Fire Model]]
+- [[Simple Neuron Activation Functions]]
