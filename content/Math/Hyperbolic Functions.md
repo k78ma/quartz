@@ -1,8 +1,9 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Hyperbolic Functions
+tags:
+  - math
+date: 2026-01-07
+aliases: hyperbolic functions
 ---
 ## Hyperbolic Sine
 $$
