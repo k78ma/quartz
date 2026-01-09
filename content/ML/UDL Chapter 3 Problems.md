@@ -4,7 +4,7 @@ tags:
   - lin-alg
 date: 2024-12-24
 aliases:
-draft: "true"
+draft:
 ---
 > [!question] Problem 3.1
 > What kind of mapping from input to output would be created if the activation function in equation

@@ -5,7 +5,7 @@ tags:
 date: 2026-01-07
 aliases: leaky integrate-and-fire model
 ---
-The [[Hodgkin-Huxley Neuron Model]] is already vastly simplified. However, to model a single action potential takes many timesteps. However, spikes are fairly generic, and it is thought that the presence of a spike is more important than its specific shape.
+he [[Hodgkin-Huxley Neuron Model]] is already vastly simplified. However, to model a single action potential takes many timesteps. However, spikes are fairly generic, and it is thought that the presence of a spike is more important than its specific shape.
 
 ## Leaky Integrate-and-Fire (LIF) Model
 The LIF model only considers the sub-threshold membrane potential (voltage), but does NOT model the spike itself. Instead, it simply records when a spike occurs (i.e., when the voltage has reached the threshold).

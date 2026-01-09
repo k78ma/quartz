@@ -5,7 +5,7 @@ tags:
 date: 2025-07-01
 aliases:
   - udl chapter 6 problems
-draft: "true"
+draft:
 ---
 > [!question] Problem 6.1
 > Show that the derivates of the least squares loss function in equation 6.5 are given by the equations in 6.7.

@@ -5,7 +5,7 @@ tags:
 date: 2025-04-10
 aliases:
   - udl chapter 4 problems
-draft: "true"
+draft:
 ---
 > [!question] Problem 4.1
 > Consider composing the two neural networks in figure 4.8. Draw a plot of the relationship between the input $x$ and output $y'$ for $x \in  [−1, 1]$. 

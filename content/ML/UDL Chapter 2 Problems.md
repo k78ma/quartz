@@ -5,7 +5,7 @@ tags:
 date: 2024-12-16
 aliases:
   - udl chapter 2 problems
-draft: "true"
+draft:
 ---
 > [!question] Problem 2.1
 > To walk "downhill" on the least squares loss function

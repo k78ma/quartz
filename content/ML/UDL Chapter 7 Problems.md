@@ -5,7 +5,7 @@ tags:
 date: 2025-07-14
 aliases:
   - udl chapter 7 problems
-draft: "true"
+draft:
 ---
 > [!question] Problem 7.1
 > A two-layer network with two hidden units in each layer can be defined as:

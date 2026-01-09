@@ -16,6 +16,8 @@ draft: "true"
 
 ## AMATH 449
 
+- [ ] Synapses Notes<br>#amath449
+- [ ] Learning Notes<br>#amath449
 
 
 ## ECE 459
@@ -24,6 +26,7 @@ draft: "true"
 
 ## ECE 457A
 
+- [ ] Assignment 1 - Jan 27/31<br>#ece457a
 
 
 ## HIST 216
