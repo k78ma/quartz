@@ -11,6 +11,12 @@ Typical [[Neural Networks]] provide a general mapping from an input space to an 
 
 Convolutional layers are ideal for image processing. They can take advantage of the [[Invariance and Equivariance|invariance and equivariance]] properties of images. Each local image region is processed independently, using parameters shared across the whole image. They use fewer parameters than fully connected layers, exploit spatial relationships between nearby pixels, and don't have to re-learn the interpretation of the pixels at every position. A network predominantly consisting of convolutional layers is known as a **convolutional neural network** or **CNN**. 
 
+In [[Convolutional Layer#Convolutional vs. fully-connected layers|convolutional vs. fully-connected layers]], we saw that we can consider a convolutional layer to be a special case of the fully connected layer. However, a fully connected network has to learn what each class looks like at every position; in contrasts, a convolutional network shares information across positions.
+
+Some other ways we can think about it:
+- When we train a convolutional network, we search through a smaller family of input/output mappings, all of which are plausible. For a FC network, we are training a larger family of input/output mappings, many of which are implausible.
+- The convolutional structure could also be considered a [[Regularization|regularizer]] that applies an infinite penalty to most of the solutions that a fully connected network can describe.
+
 ## Motivation
 Images have some properties that suggest the need for specialized model architectures as opposed to simple fully connected networks.
 
