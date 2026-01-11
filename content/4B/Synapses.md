@@ -86,3 +86,104 @@ as demonstrated in the following plot:
 
 ![[Synapses-1768173572322.webp]]
 
+## Connection Weight
+The total current induced by an actual potential onto a particular post-synaptic neuron can vary widely, depending on:
+- The number of sizes of the synapses
+- The amount and type of neurotramsitter
+- The number and type of receptors
+
+We can combine all those factors into a single number, the **connection weight**. Thus, the total input to a neuron is a weighted sum of filtered spike-trains.
+
+![[Synapses-1768173799678.webp|214x162]]
+
+
+## Weight Matrices
+When we have many pre-synaptic neurons, it is more convenient to use matrix-vector notation to represent the weights and activities.
+
+Suppose we have two populations $X$ and $Y$, where:
+- $X$ has $N$ nodes
+- $Y$ has $M$ nodes
+
+![[Synapses-1768173962504.webp]]
+
+If every node in $X$ sends its output to every node in $Y$, we will have a total of $N\times M$ connections, each with its own weight.
+
+![[Synapses-1768173994800.webp]]
+
+The weights can be represented as a matrix
+$$
+W= \begin{bmatrix}
+w_{11}  & w_{12}  & w_{13} \\
+w_{21} & w_{22} & w_{23}
+\end{bmatrix}
+$$
+
+## Vectors of Neuron Activities
+We typically store the neuron activities in vectors:
+$$
+\vec{x} = \begin{bmatrix}
+x_{1} & x_{2}
+\end{bmatrix}, \quad  \vec{y}=\begin{bmatrix}
+y_{1} & y_{2} & y_{3}
+\end{bmatrix}
+$$
+We can compute the input to the nodes in $Y$ using
+$$
+\vec{z} = \vec{x}W + b
+$$
+where $\vec{b}$ holds the biases for the neurons in $Y$.
+
+Thus,
+$$
+\vec{y}= \sigma(\vec{z}) = \sigma(\vec{x}W+\vec{b})
+$$
+where $\sigma$ represents and activation function.
+
+### Bias Representation
+Another way to represent the biases, $\vec{b}$, is by adding an additional input node with a fixed value of $1$.
+$$
+\vec{x}W+\vec{b} = \begin{bmatrix}
+\vec{x}  & 1
+\end{bmatrix} \cdot  \begin{bmatrix}
+W \\
+\vec{b}
+\end{bmatrix}
+$$
+![[Synapses-1768174749347.webp]]
+
+## Implementing Connections Between Spiking Neurons
+For simplicity, let $n=0$:
+$$
+h(t) = \begin{cases}
+\frac{1}{\tau_{s}} e^{- \frac{t}{\tau_{s}} }  & \text{ if } t \geq 0  \\
+0 & \text{if } t<0
+\end{cases}
+$$
+![[Synapses-1768174950434.webp]]
+
+> [!theorem]
+> The function $h(t)$ defined above is the solution of the initial value problem (IVP):
+> $$
+> \tau_{s} \frac{ds}{dt}= -s, \quad s(0)=\frac{1}{\tau_{s}}
+> $$
+
+## Full LIF Neuron Model
+
+![[Synapses-1768175006934.webp]]
+
+The dynamics of the neuron can be defined by:
+$$
+\begin{cases}
+\tau_{m} \frac{dv_{i}}{dt} = s_{i}-v_{i}  & \text{if not in refractory period} \\
+\tau_{s} \frac{ds_{i}}{dt} = -s_{i}
+\end{cases}
+$$
+If $v_{i}$ reaches 1:
+1. Start refractory period
+2. Send spike along the axon
+3. Reset $v_{i}$ to 0
+
+If a spike arrives from neuron $j$: Increment $s_{i}$ using
+$$
+s_{i} \leftarrow s_{i} + \frac{w_{ij}}{\tau_s}
+$$
