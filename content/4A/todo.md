@@ -26,11 +26,16 @@ draft: "true"
 
 ## ECE 457A
 
-- [ ] Assignment 1 - Jan 27/31<br>#ece457a
+- [ ] Assignment 1 - Jan 27<br>#ece457a
 
 
 ## HIST 216
 
+- [ ] Module 2 Discussion Post - Jan 21<br>#hist216
+- [ ] Module 2 Discussion Response - Jan 23<br>#hist216
+- [ ] Module 3 Discussion Post - Jan 28<br>#hist216
+- [ ] Module 3 Discussion Response - Jan 30<br>#hist216
+- [ ] Assignment 1 - Jan 30<br>#hist216
 
 
 ## Other

@@ -3,7 +3,9 @@ title: Applying Noise During Training
 tags:
   - dl
 date: 2025-12-22
-aliases: applying noise during training
+aliases:
+  - applying noise during training
+  - label smoothing
 ---
 [[Dropout]] can be interpreted as applying multiplicative [[Bernoulli Distribution|Bernoulli]] noise to the network activations. This leads to the idea of applying noise to other parts of the network during training to make the final more more robust.
 
