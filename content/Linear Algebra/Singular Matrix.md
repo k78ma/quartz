@@ -9,7 +9,7 @@ If the determinant of a square matrix $A$ is equal to zero, then we say that 
 
 If a matrix is singular, then it does not have a multiplicative inverse. 
 
-For example, consider the inverse of a2x2 matrix, for which we have:
+For example, consider the inverse of a 2x2 matrix, for which we have:
 $$
 A^{-1}=\frac{1}{\det(A)} \begin{bmatrix}
 d & -b \\

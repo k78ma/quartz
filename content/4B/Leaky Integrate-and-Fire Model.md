@@ -3,7 +3,9 @@ title: Leaky Integrate-and-Fire Model
 tags:
   - amath449
 date: 2026-01-07
-aliases: leaky integrate-and-fire model
+aliases:
+  - leaky integrate-and-fire model
+  - LIF model
 ---
 he [[Hodgkin-Huxley Neuron Model]] is already vastly simplified. However, to model a single action potential takes many timesteps. However, spikes are fairly generic, and it is thought that the presence of a spike is more important than its specific shape.
 
@@ -12,7 +14,7 @@ The LIF model only considers the sub-threshold membrane potential (voltage), but
 $$
 C\frac{dV}{dt} = J_{\text{in}}-g_{L}(V-V_{L})
 $$
-where $C$ is a capacitance and $g_{L}=\frac{1}{R}$ is a conductance. The complete second term is a leak current term that is comprised of conductance multiplied by how far we are away from the equilibrium voltage. $J_{\text{in}}$ is an input current.
+where $J_{\text{in}}$ is input current, $C$ is a capacitance, and $g_{L}=\frac{1}{R}$ is a conductance. The complete second term is a leak current term that is comprised of conductance multiplied by how far we are away from the equilibrium voltage. $J_{\text{in}}$ is an input current.
 
 Multiplying everything by $R$:
 $$
@@ -47,9 +49,9 @@ We integrate the differential equation for a given input current (or voltage) un
 ### LIF Firing Rate
 Suppose we hold the input, $v_{\text{in}}$, constant. We can solve the DE analytically between spikes. Specifically, we claim that
 $$
-v(t) = v_{\text{in}}(1-e^{-t/\tau})
+v(t) = v_{\text{in}}(1-e^{-t/\tau_{m}})
 $$
-is a solution of $\tau  \frac{dv}{dt}=v_{\text{in}}-v$, $v(0)=0$. We can prove this easily by plugging this into the equation and showing that LHS = RHS.
+is a solution of $\tau_{m}  \frac{dv}{dt}=v_{\text{in}}-v$, $v(0)=0$. We can prove this easily by plugging this into the equation and showing that LHS = RHS.
 
 Visually, this will look like approaching $v_{\text{in}}$ asymptotically as $t$ increases: 
 
