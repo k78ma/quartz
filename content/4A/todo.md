@@ -7,15 +7,10 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Module 2 Discussion Post - Jan 21<br>#hist216
-- [ ] AMATH Notes
-- [ ] LiDAR Visualization
 
 
 ## Capstone
 
-- [ ] Symposium Request Form - Jan 23
-- [ ] Hazard Disclosure - Jan 23
 - [ ] Capstone Brochure Form - Feb 8
 - [ ] OnShape
 
@@ -140,6 +135,12 @@ draft: "true"
 - [ ] UDL Notebook 10.1
 - [ ] Synapses Notes<br>#amath449
 - [ ] Learning Notes<br>#amath449
+- [ ] Module 2 Discussion Response - Jan 23<br>#hist216
+- [ ] Module 2 Discussion Post - Jan 21<br>#hist216
+- [ ] AMATH Notes
+- [ ] LiDAR Visualization
+- [ ] Symposium Request Form - Jan 23
+- [ ] Hazard Disclosure - Jan 23
 
 %% kanban:settings
 ```

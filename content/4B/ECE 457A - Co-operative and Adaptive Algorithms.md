@@ -6,3 +6,11 @@ tags:
 date: 2026-01-13
 aliases: ece 457a - co-operative and adaptive algorithms
 ---
+## Midterm Info
+- **Date:** Friday, February 27
+- **Time:** 4:30 PM - 6:00 PM
+
+## Search Algorithms
+- [[Properties of Search Algorithms]]
+- [[Uninformed vs. Informed Search]]
+- [[Breadth-First Search]]

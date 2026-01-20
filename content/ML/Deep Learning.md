@@ -7,7 +7,7 @@ date: 2024-09-11
 aliases:
   - deep learning
 ---
-Notes from:
+[]()Notes from:
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 
 Some of these notes are also included in [[Machine Learning]].

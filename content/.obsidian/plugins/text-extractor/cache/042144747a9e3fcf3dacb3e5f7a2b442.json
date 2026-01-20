@@ -1,0 +1,1 @@
+{"path":"4B/attachments/Breadth-First Search-1768941469217.webp","text":"Breadth First strategy: * Expand the shallowest unexpanded node first * New successors go in the end of the queue Inda Sate Is this the goal state? >> A Fringe queue","libVersion":"0.3.2","langs":"eng"}
