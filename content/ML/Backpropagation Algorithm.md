@@ -40,7 +40,7 @@ $$
 where:  
 - $\odot$ is a pointwise multiplication
 - $\mathbb{I}[\mathbf{f}_{k-1} > 0 ]$ is a vector containing ones where $\mathbf{f}_{k-1}$ is greater than zero and zeros elsewhere.
-- Thus, the $\mathbb{I}[\mathbf{f}_{k-1}>0] \odot$ operation is a mask applying the activation function
+- Thus, the $\mathbb{I}[\mathbf{f}_{k-1}>0] \odot$ operation is a mask applying the ReLU activation function
 
 Finally, we compute the derivatives with respect to the first set of weights and biases:
 $$

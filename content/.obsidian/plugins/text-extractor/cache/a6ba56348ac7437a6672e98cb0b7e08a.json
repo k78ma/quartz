@@ -1,0 +1,1 @@
+{"path":"4B/attachments/BFS vs DFS-1769202531959.webp","text":"BFS DFS Fringe Queue (FIFO) Stack (LIFO) Completeness Yes (finite) No (infinite) Optimality Yes (unit cost) No Memory Very high Very low Typical use Shortest paths Feasibility / structure Key lesson: Search strategy encodes what you care about.","libVersion":"0.3.2","langs":"eng"}

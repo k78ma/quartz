@@ -14,3 +14,6 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Properties of Search Algorithms]]
 - [[Uninformed vs. Informed Search]]
 - [[Breadth-First Search]]
+- [[Depth-First Search]]
+    - [[BFS vs DFS]]
+- [[Depth-Limited Search]]

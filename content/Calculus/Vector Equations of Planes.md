@@ -6,15 +6,20 @@ tags:
 date: 2023-07-22
 aliases: []
 ---
-
 Representing planes with vector equations – extension of [Vector Equations of Lines](Vector%20Equations%20of%20Lines.md)
+
 
 > [!tip] Intuition
 > The general idea here is that a plane is described by two vectors:
 > - Vector 1: Formed by two points lying on the plane ($\vec{r} - \vec{r_0}$)
 > - Vector 2: Normal vector
 > 
->Below are just different forms expressing these 2 vectors.
+>Below are just different forms expressing these 2 vectors. The usual form is:
+>$$
+> (\mathbf{r}-\mathbf{p}) \cdot \mathbf{n}=0
+>$$
+>where $\mathbf{r}$ is an arbitrary point on the plane, $\mathbf{p}$ is a point that lies on the plane, and $\mathbf{n}$ is the normal vector.
+
 
 Suppose we have a **normal vector** that is orthogonal to the plane $\vec{n} = \langle a,b,c \rangle$
 For points $P_{0}= (x_{0}, y_{0}, z_{0})$ and $P=(x,y,z)$ on the plane, let $\vec{r_{0}}$ and $\vec{r}$ be position vectors for $P_0$ and $P$.

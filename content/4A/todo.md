@@ -7,6 +7,8 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] Assignment 1 - Jan 27<br>#ece457a
+- [ ] Human-Agent Joint Learning Paper - Jan 25
 
 
 ## Capstone
@@ -17,17 +19,16 @@ draft: "true"
 
 ## AMATH 449
 
-- [ ] A1 - Jan 23<br>#amath449
 
 
 ## ECE 457A
 
-- [ ] Assignment 1 - Jan 27<br>#ece457a
+- [ ] A2 - Feb 20<br>#ece457a
 
 
 ## HIST 216
 
-- [ ] Module 2 Discussion Response - Jan 23<br>#hist216
+- [ ] 3b Individual Activity: Cataloguing Books - Jan 28<br>#hist216
 - [ ] Module 3 Discussion Post - Jan 28<br>#hist216
 - [ ] Module 3 Discussion Response - Jan 30<br>#hist216
 - [ ] Assignment 1 - Jan 30<br>#hist216
@@ -141,6 +142,8 @@ draft: "true"
 - [ ] LiDAR Visualization
 - [ ] Symposium Request Form - Jan 23
 - [ ] Hazard Disclosure - Jan 23
+- [ ] A1 - Jan 23<br>#amath449
+- [ ] Module 2 Discussion Response - Jan 23<br>#hist216
 
 %% kanban:settings
 ```

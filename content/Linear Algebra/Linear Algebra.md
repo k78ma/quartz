@@ -78,7 +78,8 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Singular Matrix]]
 - [[Permutation Matrix]]
 - [[Frobenius Matrix]]
-  
+- [[Affine Transformation]]
+- [[Vector Equations of Planes]]
 ## Exercises
 - [[LADR Exercises 1A]]
 - [[LADR Exercises 1B]]

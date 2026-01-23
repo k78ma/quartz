@@ -7,6 +7,15 @@ aliases: breadth-first search
 ---
 In BFS, we traverse a search tree by expanding the shallowest unexpanded node first. The fringes are added in a FIFO queue, which guarantees level-by-level exploration. Thus, we explore the state space in waves of increasing depth.
 
+Strengths:
+- simple and easy to implement complete (finite branching factor)
+- optimal for unit-cost problems
+
+Limitations:
+- memory-intensive: stores all frontier nodes 
+- poor scalability for deep or wide trees 
+- blind to cost, energy, or risk
+
 ## Algorithm
 
 ![[Breadth-First Search-1768941871471.webp]]
