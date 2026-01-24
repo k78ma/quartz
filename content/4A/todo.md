@@ -7,7 +7,7 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Assignment 1 - Jan 27<br>#ece457a
+- [ ] Assignment 1 - Jan 31<br>#ece457a
 - [ ] Human-Agent Joint Learning Paper - Jan 25
 
 
@@ -19,6 +19,7 @@ draft: "true"
 
 ## AMATH 449
 
+- [ ] A2 - Feb 5<br>#amath449
 
 
 ## ECE 457A
