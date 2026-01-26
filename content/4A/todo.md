@@ -7,7 +7,7 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Assignment 1 - Jan 31<br>#ece457a
+- [ ] Assignment 1 - Jan 31<br>- [x] P1<br>- [x] P2<br>- [x] P3<br>- [ ] P4<br>- [ ] P5<br>- [ ] P6<br>- [ ] P7<br>#ece457a
 - [ ] Human-Agent Joint Learning Paper - Jan 25
 
 
@@ -29,15 +29,15 @@ draft: "true"
 
 ## HIST 216
 
-- [ ] 3b Individual Activity: Cataloguing Books - Jan 28<br>#hist216
 - [ ] Module 3 Discussion Post - Jan 28<br>#hist216
 - [ ] Module 3 Discussion Response - Jan 30<br>#hist216
 - [ ] Assignment 1 - Jan 30<br>#hist216
+- [ ] Module 4 Discussion Post - Feb 4<br>#hist216
+- [ ] Module 4 Discussion Response - Feb 6<br>#hist216
 
 
 ## Other
 
-- [ ] pi0.5
 
 
 ***
@@ -145,6 +145,8 @@ draft: "true"
 - [ ] Hazard Disclosure - Jan 23
 - [ ] A1 - Jan 23<br>#amath449
 - [ ] Module 2 Discussion Response - Jan 23<br>#hist216
+- [ ] 3b Individual Activity: Cataloguing Books - Jan 28<br>#hist216
+- [ ] pi0.5
 
 %% kanban:settings
 ```
