@@ -7,8 +7,8 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] Autodiff Notes
 - [ ] Assignment 1 - Jan 31<br>- [x] P1<br>- [x] P2<br>- [x] P3<br>- [ ] P4<br>- [ ] P5<br>- [ ] P6<br>- [ ] P7<br>#ece457a
-- [ ] Human-Agent Joint Learning Paper - Jan 25
 
 
 ## Capstone
@@ -29,7 +29,6 @@ draft: "true"
 
 ## HIST 216
 
-- [ ] Module 3 Discussion Post - Jan 28<br>#hist216
 - [ ] Module 3 Discussion Response - Jan 30<br>#hist216
 - [ ] Assignment 1 - Jan 30<br>#hist216
 - [ ] Module 4 Discussion Post - Feb 4<br>#hist216
@@ -38,6 +37,7 @@ draft: "true"
 
 ## Other
 
+- [ ] Read $\pi_{0.5}$
 
 
 ***
@@ -147,6 +147,7 @@ draft: "true"
 - [ ] Module 2 Discussion Response - Jan 23<br>#hist216
 - [ ] 3b Individual Activity: Cataloguing Books - Jan 28<br>#hist216
 - [ ] pi0.5
+- [ ] Module 3 Discussion Post - Jan 28<br>#hist216
 
 %% kanban:settings
 ```

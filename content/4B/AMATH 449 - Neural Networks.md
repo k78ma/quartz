@@ -14,3 +14,5 @@ aliases: amath 449 - neural networks
 - [[Leaky Integrate-and-Fire Model]]
 - [[Simple Neuron Activation Functions]]
 - [[Synapses]]
+- [[Automatic Differentiation]]
+    - [[Neural Network with Autodiff]]

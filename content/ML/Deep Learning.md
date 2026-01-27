@@ -95,6 +95,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Convolutional Layer]]
 - [[Feature Map]]
 - [[Receptive Field]]
+- [[2D Convolution]]
+    - [[2D Convolution Operation]]
 
 ## Residual Networks
 
