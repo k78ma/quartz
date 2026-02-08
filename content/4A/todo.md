@@ -7,37 +7,42 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Autodiff Notes
-- [ ] Assignment 1 - Jan 31<br>- [x] P1<br>- [x] P2<br>- [x] P3<br>- [ ] P4<br>- [ ] P5<br>- [ ] P6<br>- [ ] P7<br>#ece457a
+- [ ] Week 2 Notes<br>#ece457a
+- [ ] Basic laser scan map
 
 
 ## Capstone
 
 - [ ] Capstone Brochure Form - Feb 8
-- [ ] OnShape
+- [ ] Motor PID control
+- [ ] Design log
 
 
 ## AMATH 449
 
-- [ ] A2 - Feb 5<br>#amath449
+- [ ] Practice Midterm Questions<br>#amath449
+- [ ] Biological Neuron Review<br>#amath449
+- [ ] In-class Exercises<br>#amath449
+- [ ] Assignment 3 - March 5<br>#amath449
 
 
 ## ECE 457A
 
 - [ ] A2 - Feb 20<br>#ece457a
+- [ ] Week 3 Notes<br>#ece457a
+- [ ] Week 4 Notes<br>#ece457a
 
 
 ## HIST 216
 
-- [ ] Module 3 Discussion Response - Jan 30<br>#hist216
-- [ ] Assignment 1 - Jan 30<br>#hist216
-- [ ] Module 4 Discussion Post - Feb 4<br>#hist216
-- [ ] Module 4 Discussion Response - Feb 6<br>#hist216
+- [ ] Module 5 Discussion Post - Feb 11<br>#hist216
+- [ ] Module 5 Discussion Response - Feb 13<br>#hist216
+- [ ] Module 5b Individual Activity - Feb 13<br>#hist216
 
 
 ## Other
 
-- [ ] Read $\pi_{0.5}$
+- [ ] Read $\pi_{0.5}$ - Feb 10
 
 
 ***
@@ -148,6 +153,13 @@ draft: "true"
 - [ ] 3b Individual Activity: Cataloguing Books - Jan 28<br>#hist216
 - [ ] pi0.5
 - [ ] Module 3 Discussion Post - Jan 28<br>#hist216
+- [ ] Assignment 1 - Jan 30<br>#hist216
+- [ ] Module 3 Discussion Response - Jan 30<br>#hist216
+- [ ] Assignment 1 - Jan 31<br>- [x] P1<br>- [x] P2<br>- [x] P3<br>- [x] P4<br>- [x] P5<br>- [x] P6<br>- [x] P7<br>#ece457a
+- [ ] A2 - Feb 5<br>#amath449
+- [ ] Module 4 Discussion Post - Feb 4<br>#hist216
+- [ ] Clean up/speed up infrastructure
+- [ ] Module 4 Discussion Response - Feb 6<br>#hist216
 
 %% kanban:settings
 ```

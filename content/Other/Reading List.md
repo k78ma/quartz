@@ -20,6 +20,8 @@ Plan:
 - Reinforcement Learning: An Introduction
 - Introduction to Statistical Learning
 
+- [An Introduction to Flow Matching and Diffusion Models](https://arxiv.org/pdf/2506.02070)
+- 
 
 Immediate:
 - [ ] Linear Algebra Done Right   <progress max=447 value=85> </progress> 

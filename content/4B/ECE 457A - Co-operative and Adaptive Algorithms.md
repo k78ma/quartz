@@ -17,7 +17,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Depth-First Search]]
     - [[BFS vs DFS]]
 - [[Depth-Limited Search]]
-
+- [[Uniform Cost Search]]
+- [[Greedy Best First Search]]
 
 ## Assignments
 - [[ECE 457A Assignment 1]]
