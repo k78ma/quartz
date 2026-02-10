@@ -16,7 +16,7 @@ A pre-synaptic action potential causes the release of a neurotransmitter, which 
 Neurons are separated by microscopic small space called the **synaptic cleft**, which is around 20-50mm wide.
 
 ## Post-Synaptic Current
-Even though an action potential is very fast, the synaptic processes by which it affects the next neuron take time. Some synapses are fast (~10ms), and some are slow (~300ms). If we represent that time constant using $\tau_{s}$,l then the current entering the post-synaptic neuron can be written as:
+Even though an action potential is very fast, the synaptic processes by which it affects the next neuron take time. Some synapses are fast (~10ms), and some are slow (~300ms). If we represent that time constant using $\tau_{s}$,  then the current entering the post-synaptic neuron can be written as:
 $$
 h(t) = \begin{cases}
 kt^{n}e^{\frac{-t}{\tau_{s}}} & \text{if }t \geq 0 &  \text{ (for some }n \in  \mathbb{Z}_{\geq 0})  \\
@@ -32,7 +32,7 @@ $$
 
 The function is called a Post-Synaptic Current (PSC) filter, or Post-Synaptic Potential (PSP) filter.
 
-Multiple spikes form a **spike train**, and can be modeled as a sum of Dirac delta functions:
+Recall that the synapse takes action potential spikes as input. Multiple spikes form a **spike train**, and can be modeled as a sum of Dirac delta functions:
 $$
 a(t) = \sum_{p=1}^{3} \delta(t-t_{p})
 $$
@@ -117,6 +117,7 @@ w_{11}  & w_{12}  & w_{13} \\
 w_{21} & w_{22} & w_{23}
 \end{bmatrix}
 $$
+Note that the subscript order is $w_{\text{start}, \text{end}}$ so that the weight connecting $x_{1}$ to $y_{2}$ is $w_{21}$.
 
 ## Vectors of Neuron Activities
 We typically store the neuron activities in vectors:

@@ -48,8 +48,8 @@ This differential equation eventually converges to $n_{\infty}$. The rate that i
 The fraction of Na+ ion channels open is $(m(t))^{3}h(t)$, where $m,h$ are dynamic variables that depend on voltage. We have:
 $$
 \begin{align}
-\frac{dm}{dt}  & = \frac{1}{\tau_{n}(v)} (m_{\infty}(v)-m) \\
-\frac{dh}{dt}  & = \frac{1}{\tau_{m}(v)}(h_{\infty}(v)-h)
+\frac{dm}{dt}  & = \frac{1}{\tau_{m}(v)} (m_{\infty}(v)-m) \\
+\frac{dh}{dt}  & = \frac{1}{\tau_{h}(v)}(h_{\infty}(v)-h)
 \end{align}
 $$
 

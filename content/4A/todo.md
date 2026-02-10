@@ -7,23 +7,25 @@ draft: "true"
 
 ## Upcoming
 
+- [ ] In-class Exercises<br>#amath449
+- [ ] Practice Midterm Questions<br>#amath449
+- [ ] Module 5 Discussion Post - Feb 11<br>#hist216
 - [ ] Week 2 Notes<br>#ece457a
-- [ ] Basic laser scan map
 
 
 ## Capstone
 
 - [ ] Capstone Brochure Form - Feb 8
+- [ ] Basic laser scan map
 - [ ] Motor PID control
 - [ ] Design log
 
 
 ## AMATH 449
 
-- [ ] Practice Midterm Questions<br>#amath449
-- [ ] Biological Neuron Review<br>#amath449
-- [ ] In-class Exercises<br>#amath449
 - [ ] Assignment 3 - March 5<br>#amath449
+- [ ] A1 Review<br>#amath449
+- [ ] A2 Review<br>#amath449
 
 
 ## ECE 457A
@@ -35,7 +37,6 @@ draft: "true"
 
 ## HIST 216
 
-- [ ] Module 5 Discussion Post - Feb 11<br>#hist216
 - [ ] Module 5 Discussion Response - Feb 13<br>#hist216
 - [ ] Module 5b Individual Activity - Feb 13<br>#hist216
 
@@ -160,6 +161,7 @@ draft: "true"
 - [ ] Module 4 Discussion Post - Feb 4<br>#hist216
 - [ ] Clean up/speed up infrastructure
 - [ ] Module 4 Discussion Response - Feb 6<br>#hist216
+- [ ] Biological Neuron Review<br>#amath449
 
 %% kanban:settings
 ```
