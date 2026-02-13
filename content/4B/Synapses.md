@@ -179,6 +179,8 @@ $$
 \tau_{s} \frac{ds_{i}}{dt} = -s_{i}
 \end{cases}
 $$
+where $s$ is the post-synaptic current.
+
 If $v_{i}$ reaches 1:
 1. Start refractory period
 2. Send spike along the axon

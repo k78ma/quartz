@@ -9,3 +9,5 @@ aliases: hist 216 - history of the internet
 - [[Cataloguing Books]]
 - [[Library Discussion]]
 - [[Net Neutrality Discussion]]
+- [[Bush As We May Think Discussion]]
+- [[Memex Individual Activity]]
