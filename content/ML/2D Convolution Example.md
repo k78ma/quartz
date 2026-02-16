@@ -1,9 +1,9 @@
 ---
-title: 2D Convolution Operation
+title: 2D Convolution Example
 tags:
   - ml
-date: 2024-02-02
-aliases:
+date: 2026-02-13
+aliases: 2d convolution example
 ---
 2D convolutions are the most common due to their application in images; they are an element-wise multiplication and summation. For example, for the convolution in the diagram below, we have:
 

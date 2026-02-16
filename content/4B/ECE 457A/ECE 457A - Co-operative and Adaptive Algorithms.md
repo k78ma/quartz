@@ -13,12 +13,27 @@ aliases: ece 457a - co-operative and adaptive algorithms
 ## Search Algorithms
 - [[Properties of Search Algorithms]]
 - [[Uninformed vs. Informed Search]]
+### Uninformed Search
 - [[Breadth-First Search]]
 - [[Depth-First Search]]
     - [[BFS vs DFS]]
 - [[Depth-Limited Search]]
 - [[Uniform Cost Search]]
-- [[Greedy Best First Search]]
+- [[Iterative Deepening Search]]
+- [[Comparing Search Strategies]]
+- [[Avoiding Cycles and Repeated States]]
+### Informed Search
+- [[Informed Search]]
+- [[Heuristic]]
+    - [[8-Queens Heuristic Example]]
+    - [[Admissible Heuristic Design]]
+- [[Weak vs. Strong Methods]]
+- [[Best-First Search]]
+- [[Greedy Best-First Search]]
+- [[Beam Search]]
+- [[A Search]]
+- [[A* Search]]
+- [[Hill Climbing Search]]
 
 ## Assignments
-- [[ECE 457A Assignment 1]]
+- [[457A Assignment 1]]

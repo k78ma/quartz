@@ -16,3 +16,4 @@ aliases: amath 449 - neural networks
 - [[Synapses]]
 - [[Automatic Differentiation]]
     - [[Neural Network with Autodiff]]
+- [[Human Visual System]]

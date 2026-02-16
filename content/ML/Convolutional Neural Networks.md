@@ -29,7 +29,7 @@ Third, image interpretation is stable under geometric transformations ([[Invaria
 Parts of CNNs:
 - [[1D Convolution]]
 - [[Image Filter]]
-- [[2D Convolution Operation]]
+- [[2D Convolution Example]]
 - [[Image Filter Bank]]
 - [[Convolutional Layer]]
 - [[Tensor|Tensors]]

@@ -90,7 +90,7 @@ date: 2023-06-25
 ### Convolutional Neural Networks
 - [[Convolutional Neural Networks]]
 - [[Image Filter]]
-- [[2D Convolution Operation]]
+- [[2D Convolution Example]]
 - [[Image Filter Bank]]
 - [[Convolutional Layer]]
 - [[Tensor|Tensors]]

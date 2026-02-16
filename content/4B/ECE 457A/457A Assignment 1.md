@@ -3,7 +3,7 @@ title: ECE 457A Assignment 1
 tags:
   - ece457a
 date: 2026-01-25
-aliases: ece 457a assignment 1
+aliases:
 ---
 Q3 state space:
 

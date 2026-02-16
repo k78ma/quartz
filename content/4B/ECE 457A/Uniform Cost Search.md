@@ -3,7 +3,9 @@ title: Uniform Cost Search
 tags:
   - ece457a
 date: 2026-01-27
-aliases: uniform cost search
+aliases:
+  - uniform cost search
+  - UCS
 ---
 Uniform-cost search is a graph search algorithm used in artificial intelligence and computer science to find the **lowest-cost path** from a start node to a goal node.
 

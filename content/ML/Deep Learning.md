@@ -7,7 +7,7 @@ date: 2024-09-11
 aliases:
   - deep learning
 ---
-[]()Notes from:
+Notes from:
 - [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
 
 Some of these notes are also included in [[Machine Learning]].
@@ -96,7 +96,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Feature Map]]
 - [[Receptive Field]]
 - [[2D Convolution]]
-    - [[2D Convolution Operation]]
+    - [[2D Convolution Example]]
 
 ## Residual Networks
 

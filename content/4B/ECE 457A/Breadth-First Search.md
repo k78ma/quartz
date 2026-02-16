@@ -3,7 +3,9 @@ title: Breadth-First Search
 tags:
   - ece457a
 date: 2026-01-20
-aliases: breadth-first search
+aliases:
+  - breadth-first search
+  - BFS
 ---
 In BFS, we traverse a search tree by expanding the shallowest unexpanded node first. The fringes are added in a FIFO queue, which guarantees level-by-level exploration. Thus, we explore the state space in waves of increasing depth.
 
