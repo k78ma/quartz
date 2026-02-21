@@ -1,0 +1,1 @@
+{"path":"4B/ECE 457A/attachments/Alpha-Beta Pruning-1771355203822.webp","text":"Step 2: Go to left MAX under left MIN From left MIN, DFS goes to its left child: left MAX waAx /O\\ (LMAX1). i It inherits bounds: . @/% %O\\Q a=-c0, B=+o0 ® O 00 60O O MAX will try to raise a by taking the max of its leaves. J","libVersion":"0.3.2","langs":"eng"}

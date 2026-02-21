@@ -35,5 +35,18 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[A* Search]]
 - [[Hill Climbing Search]]
 
+## Game Playing as Search
+- [[Game Playing as Search]]
+- [[Minimax]]
+    - [[Minimax Tic-Tac-Toe Example]]
+- [[Alpha-Beta Pruning]]
+
+## Metaheuristics
+- [[Metaheuristics]]
+### Trajectory-based Metaheuristics
+- [[Trajectory Search]]
+- [[Local Search]]
+- [[Simulated Annealing]]
+    - [[Simulated Annealing Examples]]
 ## Assignments
 - [[457A Assignment 1]]

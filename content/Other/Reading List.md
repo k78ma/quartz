@@ -12,6 +12,8 @@ Plan:
 - Mathematical Foundations of Reinforcement Learning
 - Deep Learning: Foundations and Concepts
 
+- [Deep Learning | 6.7960 | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/)
+- [Foundations of Computer Vision](https://visionbook.mit.edu/)
 - Understand all the nanoGPT speedrun improvements
 - Fastai?
     - Hands on Machine Learning with Scikit-Learn and PyTorch?
@@ -25,7 +27,7 @@ Plan:
 
 Immediate:
 - [ ] Linear Algebra Done Right   <progress max=447 value=85> </progress> 
-- [ ] Understanding Deep Learning   <progress max=541 value=41> </progress> 
+- [ ] Understanding Deep Learning   <progress max=541 value=184> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 
 Next:

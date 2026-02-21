@@ -1,0 +1,1 @@
+{"path":"4B/ECE 457A/attachments/Alpha-Beta Pruning-1771355220414.webp","text":"Step 3: Evaluate leaf 3 (A1) and update o at LMAX1 Visit first leaf under LMAX1: 3. ax /O\\ Update at this MAX: . O @ o + max(—o0,3) =3 =0 2 @ OE O O B Current at LMAX1: oo =3, 8 = 400 (no cutoff). Need to see the second leaf (5) to finalize LMAXI. J","libVersion":"0.3.2","langs":"eng"}

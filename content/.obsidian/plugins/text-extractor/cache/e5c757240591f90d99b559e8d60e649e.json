@@ -1,0 +1,1 @@
+{"path":"4B/ECE 457A/attachments/Alpha-Beta Pruning-1771355231936.webp","text":"Step 4: Evaluate leaf 5 (A2) = LMAXI returns 5 Visit second leaf under LMAXI: 5. ax /O\\ Update at this MAX: i ) a < max(3,5) =5 - Q2 %% _ _ OC T I B So LMAX1 value = 5 and it returns 5 to its parent (left MIN). Back up to MIN: it will update f. J","libVersion":"0.3.2","langs":"eng"}
