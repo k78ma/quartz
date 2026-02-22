@@ -49,6 +49,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Simulated Annealing]]
     - [[Simulated Annealing Examples]]
     - [[Cooperative Simulated Annealing]]
+- [[Tabu Search]]
+
 ## Assignments
 - [[457A Assignment 1]]
 
