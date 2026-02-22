@@ -7,9 +7,10 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Week 3-2<br>#ece457a
-- [ ] $\pi_{0.6}$ - Feb 24
 - [ ] Rerun graceful shutdown
+- [ ] A2 - Feb 23<br>#ece457a
+- [ ] Week 4-1<br>#ece457a
+- [ ] Week 4-2<br>#ece457a
 
 
 ## Capstone
@@ -26,9 +27,6 @@ draft: "true"
 
 ## ECE 457A
 
-- [ ] A2 - Feb 23<br>#ece457a
-- [ ] Week 4-1<br>#ece457a
-- [ ] Week 4-2<br>#ece457a
 - [ ] Week 5-1<br>#ece457a
 - [ ] Week 5-2<br>#ece457a
 - [ ] Week 6-1<br>#ece457a
@@ -37,10 +35,8 @@ draft: "true"
 
 ## HIST 216
 
-- [ ] Module 6 Discussion Post - Feb 25<br>#hist216
-- [ ] Module 6 Response Post - Feb 27<br>#hist216
-- [ ] Module 6c Individual Activity  - Feb 27<br>#hist216
 - [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
+- [ ] Module 6 Response Post - Feb 27<br>#hist216
 - [ ] Module 7 Discussion Post - March 4<br>#hist216
 - [ ] Module 7 Response Post - March 6<br>#hist216
 - [ ] Module 7b Individual Activity - March 6<br>#hist216
@@ -50,6 +46,7 @@ draft: "true"
 
 ## Other
 
+- [ ] $\pi_{0.6}$ - Feb 24
 
 
 ***
@@ -181,6 +178,9 @@ draft: "true"
 - [ ] Week 2-3<br>#ece457a
 - [ ] Design log
 - [ ] Week 3-1<br>#ece457a
+- [ ] Week 3-2<br>#ece457a
+- [ ] Module 6c Individual Activity  - Feb 27<br>#hist216
+- [ ] Module 6 Discussion Post - Feb 25<br>#hist216
 
 %% kanban:settings
 ```

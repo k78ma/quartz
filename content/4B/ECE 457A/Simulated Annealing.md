@@ -7,7 +7,7 @@ aliases: simulated annealing
 ---
 Simulated annealing is a [[Trajectory Search|trajectory search]] method inspired by the thermodynamic cooling of materials. A temperature parameter controls the randomness of motion, allowing us to converge from exploration to exploitation.
 
-SA uses a probabilistic rule:
+SA uses a probabilistic rule (Boltzmann acceptance probability):
 $$
 P(\text{accept }s') = \begin{cases}
 1,  & \Delta E \leq 0 \\
