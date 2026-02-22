@@ -56,11 +56,18 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Population-based Algorithms]]
 - [[Information in Search Algorithms]]
 - [[Evolutionary Algorithms]]
-    - [[Genetic Algorithms]]
-        - [[Simple Genetic Algorithm]]
-        - [[Generational Genetic Algorithm]]
-        - [[Steady-State Genetic Algorithm]]
-        - [[Representation in Genetic Algorithms]]
+### Genetic Algorithms
+- [[Genetic Algorithms]]
+- [[Simple Genetic Algorithm]]
+- [[Generational Genetic Algorithm]]
+- [[Steady-State Genetic Algorithm]]
+
+- [[Representation in Genetic Algorithms]]
+- [[Variation Operators for Genetic Algorithms]]
+- [[Selection in Genetic Algorithms]]
+
+- [[Premature Convergence and Deception for GA]]
+
 - [[Swarm Intelligence]]
 
 ## Assignments
