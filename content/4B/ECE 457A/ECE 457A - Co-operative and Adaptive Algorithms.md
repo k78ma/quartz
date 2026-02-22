@@ -57,6 +57,10 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Information in Search Algorithms]]
 - [[Evolutionary Algorithms]]
     - [[Genetic Algorithms]]
+        - [[Simple Genetic Algorithm]]
+        - [[Generational Genetic Algorithm]]
+        - [[Steady-State Genetic Algorithm]]
+        - [[Representation in Genetic Algorithms]]
 - [[Swarm Intelligence]]
 
 ## Assignments

@@ -34,11 +34,21 @@ This is most effective when the encoding preserves the building blocks. Poorly a
 ### Mutation
 Mutation provides fresh directions when the population becomes similar/homogeneous. It prevents the search from getting stuck in local traps. We can think of it as a small random nudge to open new pathways.
 
-![[Genetic Algorithms-1771782335110.webp]]
+![[Genetic Algorithms-1771782335110.webp|434x393]]
 
 ### Selection
-Selection turns fitness differences into reproduction opportunities. If the selection pressure is too weak, the learning will be slow. If it's too strong, we might converge prematurely, losing diversity.
+Selection is the mechanism that chooses parents (and sometimes survivors), and turns fitness differences into reproduction opportunities. We want the selection process to bias reproduction toward better solutions while still allowing chance. 
 
-![[Genetic Algorithms-1771782404559.webp]]
+Selection pressure is how strongly selection favors high-fitness individuals over others. 
+- Low selection pressure: Slower convergence, better exploration/diversity, more robust to local optima
+- High selection pressure: Fast convergence, diversity collapses quickly, higher risk of premature convergence
+
+![[Genetic Algorithms-1771782404559.webp|468x395]]
 
 Selection without variation collapses diversity. Variation without selection is random search.
+
+Common selection schemes:
+- Fitness-proportionate: $p_{i} \propto f_{i}$
+- Tournament selection: best-of-$k$
+- Rank-based selection: probability of survival depends on rank (not raw fitness)
+
