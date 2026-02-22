@@ -45,11 +45,19 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Metaheuristics]]
 ### Trajectory-based Metaheuristics
 - [[Trajectory Search]]
+    - [[Trajectory Search Method Comparison]]
 - [[Local Search]]
 - [[Simulated Annealing]]
     - [[Simulated Annealing Examples]]
     - [[Cooperative Simulated Annealing]]
 - [[Tabu Search]]
+    - [[Adaptive and Cooperative Tabu Search]]
+### Population-Based Metaheuristics
+- [[Population-based Algorithms]]
+- [[Information in Search Algorithms]]
+- [[Evolutionary Algorithms]]
+    - [[Genetic Algorithms]]
+- [[Swarm Intelligence]]
 
 ## Assignments
 - [[457A Assignment 1]]
