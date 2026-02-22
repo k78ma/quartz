@@ -5,7 +5,7 @@ tags:
 date: 2026-02-22
 aliases: selection in genetic algorithms
 ---
-Selection is the only force in a genetic algorithm that directly biases the search toward quality. Variation operators like [[Variation Operators for Genetic Algorithms|crossover]] and [[Variation Operators for Genetic Algorithms|mutation]] just propose solutions. Thus, selection plays a large part in determining the convergence speed, and can destroy diversity if misused.
+Selection is the only force in a genetic algorithm that directly biases the search toward quality. Variation operators like [[Variation Operators for Binary Genetic Algorithms|crossover]] and [[Variation Operators for Binary Genetic Algorithms|mutation]] just propose solutions. Thus, selection plays a large part in determining the convergence speed, and can destroy diversity if misused.
 
 ## Selection pressure
 Selection pressure describes how strongly better individuals are favored during reproduction.
@@ -14,7 +14,7 @@ Selection pressure describes how strongly better individuals are favored during 
 
 Below, each curve represents the population fitness distribution before and after selection under different selection pressures:
 
-![[Selection in Genetic Algorithms-1771787133093.webp]]
+![[Selection in Genetic Algorithms-1771787133093.webp|320x284]]
 
 
 ## Parent Selection
@@ -26,7 +26,7 @@ p_{i}= \frac{f_{i}}{\sum_{j}f_{j}}
 $$
 This ties selection pressure directly to fitness magnitude.
 
-![[Selection in Genetic Algorithms-1771787260862.webp]]
+![[Selection in Genetic Algorithms-1771787260862.webp|0x0]]
 
 - Advantages: Simple, intuitive, works well early in search
 - Weakness: Highly sensitive to scaling, dominant individuals can take over, weak pressure late in search

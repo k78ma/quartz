@@ -9,7 +9,6 @@ draft: "true"
 
 - [ ] Rerun graceful shutdown
 - [ ] A2 - Feb 23<br>#ece457a
-- [ ] Week 5-2<br>#ece457a
 - [ ] Week 6-1<br>#ece457a
 - [ ] Week 6-2<br>#ece457a
 
@@ -181,6 +180,7 @@ draft: "true"
 - [ ] Week 4-1<br>#ece457a
 - [ ] Week 4-2<br>#ece457a
 - [ ] Week 5-1<br>#ece457a
+- [ ] Week 5-2<br>#ece457a
 
 %% kanban:settings
 ```

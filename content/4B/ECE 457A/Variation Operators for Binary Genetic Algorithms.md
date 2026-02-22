@@ -1,12 +1,9 @@
 ---
-title: Variation Operators for Genetic Algorithms
+title: Variation Operators for Binary Genetic Algorithms
 tags:
   - ece457a
 date: 2026-02-22
-aliases:
-  - variation operators for genetic algorithms
-  - crossover
-  - mutation
+aliases: variation operators for binary genetic algorithms
 ---
 Variation operators generate new candidate solutions. Their role is to balance new competing objectives: exploration (discover new regions of the search space) and exploitation (refine and recombine good solutions).
 
@@ -35,26 +32,11 @@ For every parent pair chosen for reproduction:
 
 ![[Variation Operators for Genetic Algorithms-1771786392225.webp|482x266]]
 
-### One-Point Crossover
-We choose a crossover point $k$, then exchange segments after $k$:
+### Crossover Methods
+- [[One-Point Crossover]]
+- [[N-Point Crossover]]
+- [[Uniform Crossover]]
 
-![[Variation Operators for Genetic Algorithms-1771785777106.webp|303x223]]
-
-This preserves contiguous blocks and their parental origin.
-
-### N-Point Crossover
-We choose $n$ crossover points, and alternate segments between parents:
-
-![[Variation Operators for Genetic Algorithms-1771785841637.webp|296x190]]
-
-This has more mixing than one-point crossover, leading to greater disruption of building blocks. This improves exploration but fragments parental structure.
-
-### Uniform Crossover
-We flip a coin for each gene and then select the gene from either parent based on the result.
-
-![[Variation Operators for Genetic Algorithms-1771786002640.webp|291x177]]
-
-This maximizes mixing, but ignores positional structure.
 ## Mutation
 Mutation introduces random variation, maintaining diversity. This allows escape from local optima.
 ### Mutation probability

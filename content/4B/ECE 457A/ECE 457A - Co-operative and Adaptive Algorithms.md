@@ -58,17 +58,29 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Evolutionary Algorithms]]
 ### Genetic Algorithms
 - [[Genetic Algorithms]]
+- [[Premature Convergence and Deception for GA]]
 - [[Simple Genetic Algorithm]]
 - [[Generational Genetic Algorithm]]
 - [[Steady-State Genetic Algorithm]]
 
-- [[Representation in Genetic Algorithms]]
-- [[Variation Operators for Genetic Algorithms]]
+- [[Representation in Binary Genetic Algorithms]]
+- [[Variation Operators for Binary Genetic Algorithms]]
+    - [[One-Point Crossover]]
+    - [[N-Point Crossover]]
+    - [[Uniform Crossover]]
 - [[Selection in Genetic Algorithms]]
 
-- [[Premature Convergence and Deception for GA]]
+- [[Real-Valued Genetic Algorithms]]
+- [[Variation Operators in Real-Valued Genetic Algorithms]]
+    - [[Arithmetic Crossover]]
+    - [[Blend Crossover]]
+    - [[Simulated Binary Crossover]]
 
-- [[Swarm Intelligence]]
+- [[Permutation Genetic Algorithms]]
+- [[Variation Operators for Permutation Genetic Algorithms]]
+    - [[Partially Matched Crossover]]
+    - [[Cycle Crossover]]
+    - [[Edge Recombination Crossover]]
 
 ## Assignments
 - [[457A Assignment 1]]
