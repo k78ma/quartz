@@ -9,8 +9,33 @@ draft: "true"
 
 - [ ] Rerun graceful shutdown
 - [ ] A2 - Feb 23<br>#ece457a
-- [ ] Week 6-1<br>#ece457a
-- [ ] Week 6-2<br>#ece457a
+
+
+## Monday
+
+- [ ] Problem Set 2<br>#ece457a
+- [ ] Midterm 2013<br>#ece457a
+
+
+## Tuesday
+
+- [ ] $\pi_{0.6}$ - Feb 24
+- [ ] Problem Set 3<br>#ece457a
+- [ ] Problem Set 4<br>#ece457a
+- [ ] Midterm 2012<br>#ece457a
+
+
+## Wednesday
+
+- [ ] Midterm 2016<br>#ece457a
+- [ ] Midterm Practice 2016<br>#ece457a
+- [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
+
+
+## Thursday
+
+- [ ] Midterm 2017<br>#ece457a
+- [ ] Problem Set 5<br>#ece457a
 
 
 ## Capstone
@@ -27,12 +52,12 @@ draft: "true"
 
 ## ECE 457A
 
+- [ ] Ant Colony Notes<br>#ece457a
+- [ ] Assignment 3 - March 12<br>#ece457a
 
 
 ## HIST 216
 
-- [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
-- [ ] Module 6 Response Post - Feb 27<br>#hist216
 - [ ] Module 7 Discussion Post - March 4<br>#hist216
 - [ ] Module 7 Response Post - March 6<br>#hist216
 - [ ] Module 7b Individual Activity - March 6<br>#hist216
@@ -42,7 +67,6 @@ draft: "true"
 
 ## Other
 
-- [ ] $\pi_{0.6}$ - Feb 24
 
 
 ***
@@ -181,6 +205,9 @@ draft: "true"
 - [ ] Week 4-2<br>#ece457a
 - [ ] Week 5-1<br>#ece457a
 - [ ] Week 5-2<br>#ece457a
+- [ ] Week 6-1<br>#ece457a
+- [ ] Module 6 Response Post - Feb 27<br>#hist216
+- [ ] Problem Set 1<br>#ece457a
 
 %% kanban:settings
 ```

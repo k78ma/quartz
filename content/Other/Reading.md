@@ -36,6 +36,7 @@ Technical Blogs:
 - [GPT in 60 Lines of NumPy](https://jaykmody.com/blog/gpt-from-scratch/)
 - [An Intuition for Attention](https://jaykmody.com/blog/attention-intuition/)
 - [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
+    - [The Annotated JEPA | Elements of a Vector Space](https://elonlit.com/scrivings/the-annotated-jepa/)
 - [Neural network training makes beautiful fractals | Jascha’s blog](https://sohl-dickstein.github.io/2024/02/12/fractal.html)
 - [I'm Switching Into AI Safety](https://www.alexirpan.com/2024/08/06/switching-to-ai-safety.html)
 - ["How Do You Feel About Grad School?"](https://www.alexirpan.com/2016/01/03/grad-school.html) and [The 5 Year Update on Skipping Grad School (and Whether I'd Recommend It)](https://www.alexirpan.com/2021/04/07/grad-school-5years.html)
