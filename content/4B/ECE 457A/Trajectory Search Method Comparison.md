@@ -5,7 +5,7 @@ tags:
 date: 2026-02-21
 aliases: trajectory search method comparison
 ---
-How do [[Local Search|greedy descent]], [[Simulated Annealing|simulated annealing]], and [[Tabu Search]] compare?
+How do [[Greedy Descent|greedy descent]], [[Simulated Annealing|simulated annealing]], and [[Tabu Search]] compare?
 
 All three use the same core components:
 - State $s$

@@ -52,8 +52,8 @@ A method to do this is recency-based intensification. We use a *recency memory* 
 
 ![[Tabu Search-1771728687983.webp]]
 
-### Diversification
-Despite tabu lists, Tabu search may be too local at times, causing it to miss good solutions in unexplored areas. Diversification aims to overcome this problem using a long-term *frequency memory*. This memory holds the total number of iterations in which certain components appear in the currenet solution or are involved in selected moves.
+### Diversification (Long term memory)
+Despite tabu lists, Tabu search may be too local at times, causing it to miss good solutions in unexplored areas. Diversification aims to overcome this problem using a long-term *frequency memory*. This memory holds the total number of iterations in which certain components appear in the current solution or are involved in selected moves.
 
 Then, we can do **restart diversification** by forcing rarely-used components and restarting search. Or, we can do **continuous diversification**, where we bias the move evaluation by adding a frequency-related term to the objective. We can also penalize solutions that are too close to the current solution.
 

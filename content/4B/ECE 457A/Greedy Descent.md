@@ -1,11 +1,11 @@
 ---
-title: Local Search
+title: Greedy Descent
 tags:
-date: 2026-02-20
+  - ece457a
+date: 2026-02-24
 aliases:
-  - local search
   - greedy descent
-  - hill climbing
+  - hill-climbing
 ---
 Local search is essentially greedy descent:
 $$

@@ -11,24 +11,12 @@ draft: "true"
 - [ ] A2 - Feb 23<br>#ece457a
 
 
-## Monday
-
-- [ ] Problem Set 2<br>#ece457a
-- [ ] Midterm 2013<br>#ece457a
-
-
-## Tuesday
-
-- [ ] $\pi_{0.6}$ - Feb 24
-- [ ] Problem Set 3<br>#ece457a
-- [ ] Problem Set 4<br>#ece457a
-- [ ] Midterm 2012<br>#ece457a
-
-
 ## Wednesday
 
+- [ ] Midterm 2012<br>#ece457a
+- [ ] PS 3: Q3, Q4, PS 4: Q2, Q3<br>#ece457a
 - [ ] Midterm 2016<br>#ece457a
-- [ ] Midterm Practice 2016<br>#ece457a
+- [ ] Midterm Practice 2017<br>#ece457a
 - [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
 
 
@@ -48,6 +36,11 @@ draft: "true"
 ## AMATH 449
 
 - [ ] Assignment 3 - March 5<br>#amath449
+- [ ] Hopfield Networks<br>#amath449
+- [ ] Restricted Boltzmann Machines<br>#amath449
+- [ ] Vector Embeddings<br>#amath449
+- [ ] Variational Autoencoders<br>#amath449
+- [ ] Convolutional Neural Networks Exercises<br>#amath449
 
 
 ## ECE 457A
@@ -208,6 +201,10 @@ draft: "true"
 - [ ] Week 6-1<br>#ece457a
 - [ ] Module 6 Response Post - Feb 27<br>#hist216
 - [ ] Problem Set 1<br>#ece457a
+- [ ] Problem Set 2<br>#ece457a
+- [ ] Midterm 2013<br>#ece457a
+- [ ] $\pi_{0.6}$ - Feb 24
+- [ ] Problem Set 4<br>#ece457a
 
 %% kanban:settings
 ```

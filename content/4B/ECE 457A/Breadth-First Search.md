@@ -18,6 +18,14 @@ Limitations:
 - poor scalability for deep or wide trees 
 - blind to cost, energy, or risk
 
+We can consider BFS as a [[Best-First Search|best-first search]] with evaluation function:
+$$
+f(n)=h(n)+g(n)
+$$
+- $h(n)=0$
+- $g(n)=\text{depth}(n)$
+
+Thus, to minimize the evaluation function, we expand nodes with the lowest depth first, resulting in breadth-first traversal.
 ## Algorithm
 
 ![[Breadth-First Search-1768941871471.webp]]

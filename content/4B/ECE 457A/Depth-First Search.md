@@ -11,6 +11,15 @@ In DFS, we traverse a search tree by expanding the deepest unexpanded node first
 
 DFS is useful for feasibility checking, constraint satisfaction, and structural exploration.
 
+We can consider DFS as a [[Best-First Search|best-first search]] with evaluation function:
+$$
+f(n)=h(n)+g(n)
+$$
+- $h(n)=0$
+- $g(n)=-\text{depth}(n)$
+
+Thus, to minimize the evaluation function, we expand nodes with the highest depth first, resulting in depth-first traversal.
+
 ## Properties
 - **Completeness:** Not complete in infinite-depth or cyclic spaces. May follow an infinite branch and never find a solution.
 - **Optimality:** Not optimal, as the first solution found may be arbitrarily bad.

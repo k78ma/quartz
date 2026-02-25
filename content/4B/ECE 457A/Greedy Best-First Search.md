@@ -5,7 +5,7 @@ tags:
 date: 2026-02-15
 aliases: greedy best-first search
 ---
-Greedy [[Best-First Search|best-first search]] selects the nod that appears closest to the goal. This uses only the heuristic estimate $h(n)$, **ignoring** the cost accumulated so far.
+Greedy [[Best-First Search|best-first search]] selects the node that appears closest to the goal. This uses only the heuristic estimate $h(n)$, **ignoring** the cost accumulated so far.
 
 Expansion rule: Maintain the frontier in a priority queue, always expand the node with smallest $h(n)$ value.
 

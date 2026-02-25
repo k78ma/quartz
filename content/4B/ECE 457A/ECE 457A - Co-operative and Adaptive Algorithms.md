@@ -46,7 +46,7 @@ aliases: ece 457a - co-operative and adaptive algorithms
 ### Trajectory-based Metaheuristics
 - [[Trajectory Search]]
     - [[Trajectory Search Method Comparison]]
-- [[Local Search]]
+- [[Greedy Descent]]
 - [[Simulated Annealing]]
     - [[Simulated Annealing Examples]]
     - [[Cooperative Simulated Annealing]]
@@ -79,6 +79,7 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Permutation Genetic Algorithms]]
 - [[Variation Operators for Permutation Genetic Algorithms]]
     - [[Partially Matched Crossover]]
+    - [[Order Crossover]]
     - [[Cycle Crossover]]
     - [[Edge Recombination Crossover]]
 

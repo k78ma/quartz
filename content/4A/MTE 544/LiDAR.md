@@ -6,7 +6,7 @@ tags:
 date: 2025-11-01
 aliases:
   - lidar
-  - Beam Model
+  - lidar beam model
 ---
 LiDAR measures distance using laser light.
 - A laser sends out a short light pulse.
