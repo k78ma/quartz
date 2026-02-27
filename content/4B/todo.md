@@ -11,7 +11,6 @@ draft: "true"
 
 ## Thursday
 
-- [ ] PS 4: Q2, Q3<br>#ece457a
 - [ ] Midterm 2016<br>#ece457a
 - [ ] MT 2013 3c<br>#ece457a
 - [ ] Problem Set 5<br>#ece457a
@@ -207,6 +206,7 @@ draft: "true"
 - [ ] Midterm 2017<br>#ece457a
 - [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
 - [ ] PS 3: Q4, Q5<br>#ece457a
+- [ ] PS 4: Q2, Q3<br>#ece457a
 
 %% kanban:settings
 ```
