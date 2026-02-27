@@ -11,7 +11,7 @@ Given a ternary tree (each node of the tree has at most three children), find al
 ![[Ternary Tree Paths.png|396]]
 
 ## Solution
-This is a [[Depth First Search|DFS]] problem where we want to track a state; in this case, the state is `path`, which we use to keep track of the nodes we have visited to reach the current node and use it to construct our solution when we reach leaf nodes.
+This is a [[DSA Depth First Search|DFS]] problem where we want to track a state; in this case, the state is `path`, which we use to keep track of the nodes we have visited to reach the current node and use it to construct our solution when we reach leaf nodes.
 
 ```python
 def ternary_tree_paths(root: Node) -> List[str]:

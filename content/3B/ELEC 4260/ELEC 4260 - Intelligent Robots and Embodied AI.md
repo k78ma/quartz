@@ -45,7 +45,7 @@ aliases:
 - [[Configuration Space]]
 - [[Path Planning Approaches and Guarantees]]
 - [[Breadth First Search]]
-- [[Depth First Search]]
+- [[DSA Depth First Search]]
 - [[Dijkstra's Algorithm]]
 - [[A* Algorithm]]
 - [[Probabilistic Road Maps]]

@@ -1,11 +1,10 @@
 ---
-title: Depth First Search
+title: DSA Depth First Search
 tags:
   - cs
   - dsa
-date: 2024-02-26
-aliases:
-  - DFS
+date: 2026-02-26
+aliases: dsa depth first search
 ---
 In DFS, we go as deep as we can to look for a value, and when there is nothing new to discover, we retrace our steps to find something new. This is like [[Tree Traversal#Pre-order Traversal|Pre-order Traversal]].
 

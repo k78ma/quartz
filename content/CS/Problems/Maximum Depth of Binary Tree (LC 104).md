@@ -29,7 +29,7 @@ class Solution:
         return dfs(root) if root else 0
 ```
 
-The problem asks for the maximum depth of the tree, which means we must find the path from the root to the deepest node of the tree. Since we don't know where the deepest node is, we will visit every node. Therefore, a complete traversal of the tree is needed, and the best way to do that is to use [[Depth First Search|DFS]].
+The problem asks for the maximum depth of the tree, which means we must find the path from the root to the deepest node of the tree. Since we don't know where the deepest node is, we will visit every node. Therefore, a complete traversal of the tree is needed, and the best way to do that is to use [[DSA Depth First Search|DFS]].
 
 For our DFS, we need to determine a return value and a state.
 - **Return value**: When we visit a node, we return the longest path from that node down to a leaf node. This is the number of nodes on the longest path from the node we're currently looking at down to a leaf node.

@@ -87,7 +87,7 @@ Notes from Steven Skiena's *The Algorithm Design Manual* and [AlgoMonster](https
 ## Graph Traversal
 
 ### Depth First Search
-- [[Depth First Search]]
+- [[DSA Depth First Search]]
 	- [[Depth First Search on Trees]]
 ### Breadth First Search
 - [[Breadth First Search]]

@@ -7,7 +7,7 @@ date: 2024-02-27
 aliases:
   - DFS on Tree
 ---
-When solving [[Depth First Search|DFS]] problems on trees, the key is to think from the perspective of the node instead of looking at the whole tree; decide how the current node should be proceeded, then recurse on children and let recursion take care of the rest.
+When solving [[DSA Depth First Search|DFS]] problems on trees, the key is to think from the perspective of the node instead of looking at the whole tree; decide how the current node should be proceeded, then recurse on children and let recursion take care of the rest.
 
 When you are the node, the only things you know are:
 - Your value
