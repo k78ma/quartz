@@ -52,4 +52,4 @@ This is common when mutation strength $\sigma$ is large (early generations). We 
 ### Mutation Strength vs. Convergence
 If we have $\sigma$ too large, we will have random walk behavior with poor convergence. If it is too small, we will converge prematurely due to loss of diversity.
 
-Note that some varialbes require finer perturbations than others!
+Note that some variables require finer perturbations than others!

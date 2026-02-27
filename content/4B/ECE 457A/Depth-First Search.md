@@ -28,6 +28,6 @@ Thus, to minimize the evaluation function, we expand nodes with the highest dept
 Essentially, DFS trades guarantees for speed and memory efficiency. It has a low memory usage of $O(b\cdot d)$. The worst case time is still $O(b^{d})$.
 
 ## Traversal
-Usually we use [[Tree Traversal|pre-order traversal]] (left, right, root). Basically, we go as deep as possible; when stuck, backtrack to the nearest ancestor with an unexpanded child.
+Usually we use [[Tree Traversal|pre-order traversal]] (root, left, right). Basically, we go as deep as possible; when stuck, backtrack to the nearest ancestor with an unexpanded child.
 
 ![[Depth-First Search-1769121545908.webp]]

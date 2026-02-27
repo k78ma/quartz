@@ -17,5 +17,6 @@ Binary or real-valued crossover and mutation, when applied naively to permutatio
 ![[Variation Operators for Permutation Genetic Algorithms-1771795575177.webp|537x164]]
 
 
+
 ## Mutation
 For permutation mutation, we usually just swap two positions. This preserves permutation feasibility and injects diversity. 

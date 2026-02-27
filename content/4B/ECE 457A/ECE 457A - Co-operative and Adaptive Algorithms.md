@@ -46,7 +46,7 @@ aliases: ece 457a - co-operative and adaptive algorithms
 ### Trajectory-based Metaheuristics
 - [[Trajectory Search]]
     - [[Trajectory Search Method Comparison]]
-- [[Greedy Descent]]
+- [[Greedy descent]]
 - [[Simulated Annealing]]
     - [[Simulated Annealing Examples]]
     - [[Cooperative Simulated Annealing]]

@@ -5,7 +5,7 @@ tags:
 date: 2026-02-17
 aliases: minimax
 ---
-Minimax is a decision rule for minimizing the possible loss for a worst case (maximum loss) scenario. When dealing with gains, it is refered to as maximin (to maximize the minimum gain). It was originally formulated for two-player zero-sum games.
+Minimax is a decision rule for minimizing the possible loss for a worst case (maximum loss) scenario. When dealing with gains, it is referred to as maximin (to maximize the minimum gain). It was originally formulated for two-player zero-sum games.
 
 Given a game tree, the optimal strategy can be determined by examining the minimax value of each node, which we write as $\textbf{MINIMAX-VALUE}(n)$. The minimax value of a node is the *utility* of being in the corresponding state, assuming that both players play optimally from there to the end of the game. The minimax value of a terminal state is just its utility.
 

@@ -11,13 +11,8 @@ draft: "true"
 
 ## Thursday
 
-- [ ] Midterm 2016<br>#ece457a
-- [ ] MT 2013 3c<br>#ece457a
-- [ ] Problem Set 5<br>#ece457a
-- [ ] Cheat Sheet<br>#ece457a
-- [ ] k-tree
-- [ ] SA TSP
-- [ ] Tabu TSP
+- [ ] Midterm 2016<br>- [x] K-tree<br>- [ ] Review notes<br>#ece457a
+- [ ] Midterm 2013 (Tabu TSP)<br>#ece457a
 
 
 ## Capstone
@@ -207,6 +202,11 @@ draft: "true"
 - [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
 - [ ] PS 3: Q4, Q5<br>#ece457a
 - [ ] PS 4: Q2, Q3<br>#ece457a
+- [ ] Tabu TSP
+- [ ] SA TSP
+- [ ] k-tree
+- [ ] Cheat Sheet<br>#ece457a
+- [ ] Problem Set 5<br>- [x] K-tree<br>- [x] SA TSP<br>#ece457a
 
 %% kanban:settings
 ```
