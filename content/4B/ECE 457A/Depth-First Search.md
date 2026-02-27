@@ -7,7 +7,7 @@ aliases:
   - depth-first search
   - DFS
 ---
-In DFS, we traverse a search tree by expanding the deepest unexpanded node first, following one path as far as possible before backtracking. The fringe discipline is a LIFO stack (explicit or via recursion). 
+In DFS, we traverse a search tree by expanding the deepest unexpanded node first, following one path as far as possible before backtracking. The fringe discipline is a LIFO stack (explicit or via recursion). Test
 
 DFS is useful for feasibility checking, constraint satisfaction, and structural exploration.
 

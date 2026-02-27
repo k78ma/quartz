@@ -7,23 +7,18 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Rerun graceful shutdown
-- [ ] A2 - Feb 23<br>#ece457a
-
-
-## Wednesday
-
-- [ ] Midterm 2012<br>#ece457a
-- [ ] PS 3: Q3, Q4, PS 4: Q2, Q3<br>#ece457a
-- [ ] Midterm 2016<br>#ece457a
-- [ ] Midterm Practice 2017<br>#ece457a
-- [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
 
 
 ## Thursday
 
-- [ ] Midterm 2017<br>#ece457a
+- [ ] PS 4: Q2, Q3<br>#ece457a
+- [ ] Midterm 2016<br>#ece457a
+- [ ] MT 2013 3c<br>#ece457a
 - [ ] Problem Set 5<br>#ece457a
+- [ ] Cheat Sheet<br>#ece457a
+- [ ] k-tree
+- [ ] SA TSP
+- [ ] Tabu TSP
 
 
 ## Capstone
@@ -31,6 +26,8 @@ draft: "true"
 - [ ] Basic laser scan map
 - [ ] Motor PID control
 - [ ] Wheel encoder
+- [ ] ExecuTorch
+- [ ] Rerun graceful shutdown
 
 
 ## AMATH 449
@@ -205,6 +202,11 @@ draft: "true"
 - [ ] Midterm 2013<br>#ece457a
 - [ ] $\pi_{0.6}$ - Feb 24
 - [ ] Problem Set 4<br>#ece457a
+- [ ] A2 - Feb 23<br>#ece457a
+- [ ] Midterm 2012<br>#ece457a
+- [ ] Midterm 2017<br>#ece457a
+- [ ] Assignment 2 Early Web Proposal - Feb 27<br>#hist216
+- [ ] PS 3: Q4, Q5<br>#ece457a
 
 %% kanban:settings
 ```
