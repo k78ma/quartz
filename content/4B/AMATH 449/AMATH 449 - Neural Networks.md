@@ -7,7 +7,7 @@ date: 2025-12-26
 aliases: amath 449 - neural networks
 ---
 ## Course Info
-- Midterm: Feb 11, 7:00pm - 8:50pm
+- **Final:** Friday, April 17, 4:00pm - 6:30pm
 
 ## Notes
 - [[Hodgkin-Huxley Neuron Model]]
@@ -17,3 +17,6 @@ aliases: amath 449 - neural networks
 - [[Automatic Differentiation]]
     - [[Neural Network with Autodiff]]
 - [[Human Visual System]]
+- [[AMATH 449 Convolution]]
+- [[Hopfield Networks]]
+- [[Restricted Boltzmann Machines]]

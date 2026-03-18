@@ -7,46 +7,47 @@ draft: "true"
 
 ## Upcoming
 
-
-
-## Thursday
-
-- [ ] Midterm 2016<br>- [x] K-tree<br>- [ ] Review notes<br>#ece457a
-- [ ] Midterm 2013 (Tabu TSP)<br>#ece457a
+- [ ] Convolutional Neural Networks Exercises<br>#amath449
+- [ ] A4 - March 18<br>#amath449
+- [ ] Module 9 Discussion - March 18<br>#hist216
+- [ ] Update roamr website<br>#capstone
+- [ ] ExecuTorch<br>#capstone
 
 
 ## Capstone
 
-- [ ] Basic laser scan map
-- [ ] Motor PID control
-- [ ] Wheel encoder
-- [ ] ExecuTorch
-- [ ] Rerun graceful shutdown
+- [ ] Symposium - March 20<br>#capstone
 
 
 ## AMATH 449
 
-- [ ] Assignment 3 - March 5<br>#amath449
-- [ ] Hopfield Networks<br>#amath449
 - [ ] Restricted Boltzmann Machines<br>#amath449
 - [ ] Vector Embeddings<br>#amath449
 - [ ] Variational Autoencoders<br>#amath449
-- [ ] Convolutional Neural Networks Exercises<br>#amath449
+- [ ] RNN Exercises<br>#amath449
+- [ ] LSTM Exercises<br>#amath
 
 
 ## ECE 457A
 
 - [ ] Ant Colony Notes<br>#ece457a
-- [ ] Assignment 3 - March 12<br>#ece457a
+- [ ] Assignment 4 - March 30<br>#ece457a
 
 
 ## HIST 216
 
-- [ ] Module 7 Discussion Post - March 4<br>#hist216
-- [ ] Module 7 Response Post - March 6<br>#hist216
-- [ ] Module 7b Individual Activity - March 6<br>#hist216
-- [ ] Module 8 Discussion Post - March 11<br>#hist216
-- [ ] Module 8b Response Post - March 13<br>#hist216
+- [ ] Module 9 Response - March 20<br>#hist216
+- [ ] Module 9b Individual Activity<br>#hist216
+- [ ] Module 10 Discussion - March 25<br>#hist216
+- [ ] Module 10 Discussion - March 27<br>#hist216
+- [ ] Module 10a Individual Activity - March 27<br>#hist216
+- [ ] Module 11 Discussion - April 1<br>#hist216
+- [ ] Module 11 Response - April 6<br>#hist216
+- [ ] Module 11c Individual Activity - April 6<br>#hist216
+- [ ] Module 12 Discussion - April 1<br>#hist216
+- [ ] Module 12 Response - April 6<br>#hist216
+- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
+- [ ] Final Essay - April 17<br>#hist216
 
 
 ## Other
@@ -207,6 +208,20 @@ draft: "true"
 - [ ] k-tree
 - [ ] Cheat Sheet<br>#ece457a
 - [ ] Problem Set 5<br>- [x] K-tree<br>- [x] SA TSP<br>#ece457a
+- [ ] Midterm 2016<br>- [x] K-tree<br>- [x] Review notes<br>#ece457a
+- [ ] Assignment 3 - March 5<br>#amath449
+- [ ] Module 7 Discussion Post - March 4<br>#hist216
+- [ ] Module 7b Individual Activity - March 6<br>#hist216
+- [ ] Module 8b Individual Activity - March 13<br>#hist216
+- [ ] Hopfield Networks<br>#amath449
+- [ ] Module 7 Response Post - March 6<br>#hist216
+- [ ] Module 8 Discussion Post - March 11<br>#hist216
+- [ ] Assignment 3 - March 12<br>#ece457a
+- [ ] Module 8 Response Post - March 13<br>#hist216
+- [ ] Demo slides - March 8<br>#ece457a
+- [ ] Demo - March 12<br>#ece457a
+- [ ] CNN Exercises<br>#amath449
+- [ ] Symposium poster -<br>March 16 ish?<br>#capstone
 
 %% kanban:settings
 ```

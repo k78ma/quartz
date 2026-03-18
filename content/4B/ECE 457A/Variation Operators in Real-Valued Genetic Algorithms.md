@@ -5,9 +5,6 @@ tags:
 date: 2026-02-22
 aliases:
   - variation operators in real-valued genetic algorithms
-  - arithmetic crossover
-  - BLX
-  - SBX
 ---
 For real-valued genetic algorithms, we need crossover and mutation operators that directly operate on real-valued chromosomes. 
 
