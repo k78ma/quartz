@@ -3,7 +3,9 @@ title: Hopfield Networks
 tags:
   - amath449
 date: 2026-02-28
-aliases: hopfield networks
+aliases:
+  - hopfield networks
+  - Hopfield Energy
 ---
 ## Content-Addressable Memory
 A CAM is a system that can take part of a pattern, and produce the most likely match from memory. A CAM for instance would be able to interpret these:
@@ -18,11 +20,31 @@ pa$sv0rd
 A CAM system can find an input's closest match to a set of known patterns. It retrieves data by directly comparing input queries with stored memory locations. Hopfield networks mimic the behavior of CAM in a biologically inspired way using neural networks.
 
 ## Hopfield Networks
-Suppose we have a network of $N$ neurons, each connected to all the others. We want this network to converge to the nearest of a set of $M$ targets or inputs.
+Suppose we have a network of $N$ neurons, each connected to all the others.
+- $W_{ij}$ is the connection strength from node $i$ to node $j$. We assume that $W_{ij}=W_{}{ji}$.
+
+We want this network to converge to the nearest of a set of $M$ targets or inputs.
 
 ![[Hopfield Networks-1772318049339.webp|231x219]]
 
-The stored targets are a set of $M$ binary patterns, each of length $N$:
+Each node in the network can be a $-1$ or $1$, such that $x_{j}\in \{ -1, 1 \}, j=1,\dots,N$. 
+
+Suppose each node wants to change its state so that:
+$$
+x_{j} = \begin{cases}
+-1 & \text{if } \sum_{j\neq i} x_{i}W_{ij} < b_{j}  \\
+1 & \text{if } \sum_{j\neq i} x_{i}W_{ij} \geq -b_{j}
+\end{cases}
+$$
+If we have a pattern that we would like the network to recall, we could set the weights such that:
+- $W_{ij}>0$ between any two nodes in the same state
+- $W_{ij} < 0$  between any two nodes that are different
+
+![[Hopfield Networks-1772318075515.webp]]
+
+So we've seen that setting the weights is easy if we have one target. But what if we have a bunch of different targets that we want to encode?
+
+Given $M$ target network states, $\{ x^{(1)}, \dots, x^{(m)} \}$, each of length $N$:
 $$
 \begin{align}
 X  & = \{ \vec{x}^{(s)} \in \{ -1, 1 \}^{N} \, | \, s = 1, \dots, M\} \\[2ex] 
@@ -35,24 +57,43 @@ x_{i}  = \begin{cases}
 1  & \text{if } (\vec{x}W)_{i} + b_{i} \geq 0
 \end{cases}
 $$
+We then find the weights as:
+$$
+\begin{align}
+W_{ij} & =\frac{1}{M} \sum_{s=1}^{M}x_{i}^{(s)}x_{j}^{(s)} \quad \quad  \quad  i\neq j \\[2ex] 
+W_{ii}  & = 0 = \frac{1}{M} \sum_{s=1}^{M}x_{i}^{(s)}x_{i}^{(s)} -1
+\end{align}
+$$
+- We call $W_{ij}$ the average co-activation between nodes $i$ and $j$. It is found by running through all the stored patterns and looking at the states of the nodes that the weight connects, and then connecting how many times they are in the same/opposite states and averaging.
 
-![[Hopfield Networks-1772318075515.webp]]
+Writing this in matrix form, we can write:
+$$
+\begin{align}
+W &= \frac{1}{M} \sum_{s=1}^{M} x^{(s)}(x^{(s)})^{T}-I \\
+\end{align}
+$$
+- $x^{(s)}$ is a column vector, and $(x^{s})^{T}$ is a row vector.
 
-One target is easy. What if we have many targets?
-
-Another problem: The graph of the Hopfield net has cycles, so backpropagation won't work.
+This method works best if the network states, $\{ x^{(1)}, \dots, x^{(m)} \}$ are all mutually orthogonal.
 
 ## Hopfield Energy
+Hopfield recognized a link between these network states and the Ising model in physics. 
+- Ising model: Lattice of interacting magnetic dipoles, each of which can be "up" or "down". The state of each dipole depends on its neighbors.
+
 Hopfield energy is a scalar number that we compute for any network state $\vec{x}\in \{ -1, 1 \}^{N}$. The dynamics are defined such that updating neurons makes $E$ decrease, so that the network falls into low-energy states, which correspond to the stored memories/patterns.
 
 Hopfield energy is defined as:
 $$
 \begin{align}
-E = -\frac{1}{2} \sum_{i} \sum_{j\neq i} x_{i}W_{ij}x_{j}-\sum_{i}b_{i}x_{i} \\
-E = -\frac{1}{2}\vec{x}W\vec{x}^{T} - \vec{b}\vec{x}^{T}
+E  & = -\frac{1}{2}  \sum_{j\neq i} x_{i}W_{ij}x_{j}-\sum_{j}b_{j}x_{j} \\
+E  & = -\frac{1}{2}x^{T}Wx - b^{T}x
 \end{align}
 $$
 where $W_{ii}=0$.
+
+Intution:
+- If $x_{i}$ and $x_{j}$ are the same sign, their product is positive. Then, we want $W_{ij}$ to be positive. Since we have $-\frac{1}{2}$ at the front, the whole term will be negative, such that a good state corresponds to low energy.
+- The $\sum_{j}b_{j}x_{j}$ term reflects that there is a cost to each node being on/off. If the node is on, it reduces the energy by $b_{j}$.
 
 To minimize energy, we use gradient descent:
 $$
@@ -90,9 +131,9 @@ Thus:
 $$
 W \leftarrow W+\kappa\left( \frac{1}{M} X^{T}X-I \right)
 $$
-where $X^{T}X$ computes coactivation states between all pairs of neurons.
+where $X^{T}X$ computes co-activation states between all pairs of neurons.
 
-Because the input patterns $X$ are fixed, the coactivation matrix $\frac{1}{M}X^{T}X-I$  remains constant across iterations, so the gradient direction does not change, and repeated updates simply move $W$ linearly towards the steady-state solution, which is proportional to $W^{\ast }=\frac{1}{M}X^{T}X-I$.
+Because the input patterns $X$ are fixed, the co-activation matrix $\frac{1}{M}X^{T}X-I$  remains constant across iterations, so the gradient direction does not change, and repeated updates simply move $W$ linearly towards the steady-state solution, which is proportional to $W^{\ast }=\frac{1}{M}X^{T}X-I$.
 
 ## Example
 Let's say we have $N=4$ neurons and $M=2$ target patterns.
@@ -189,3 +230,4 @@ $$
 h_{4} & =-1 < 0 \quad \longrightarrow \quad x_{4}=-1
 \end{align}
 $$
+Thus, after all the updates we have $[1, -1, 1, -1]$, matching the input $\vec{x}^{(1)}$.

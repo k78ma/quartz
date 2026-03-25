@@ -7,40 +7,44 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Convolutional Neural Networks Exercises<br>#amath449
-- [ ] A4 - March 18<br>#amath449
-- [ ] Module 9 Discussion - March 18<br>#hist216
-- [ ] Update roamr website<br>#capstone
-- [ ] ExecuTorch<br>#capstone
+- [ ] Restricted Boltzmann Machines<br>#amath449
+- [ ] Vector Embeddings<br>#amath449
+- [ ] W6-2<br>#ece457a
+- [ ] Assignment 4 - March 30<br>- [ ] Multiplexer<br>- [ ] Cartpole<br>#ece457a
 
 
 ## Capstone
 
-- [ ] Symposium - March 20<br>#capstone
+- [ ] Final Report - April 6<br>#capstone
+- [ ] Work log<br>#capstone
 
 
 ## AMATH 449
 
-- [ ] Restricted Boltzmann Machines<br>#amath449
-- [ ] Vector Embeddings<br>#amath449
+- [ ] Assignment 5 - April 6<br>#amath449
 - [ ] Variational Autoencoders<br>#amath449
-- [ ] RNN Exercises<br>#amath449
-- [ ] LSTM Exercises<br>#amath
+- [ ] RNN<br>#amath449
+- [ ] LSTM<br>#amath449
+- [ ] GRU<br>#amath449
+- [ ] Adversarial Attacks<br>#amath449
+- [ ] Adversarial Defence<br>#amath449
+- [ ] Population Coding<br>#amath449
+- [ ] Transformation<br>#amath449
 
 
 ## ECE 457A
 
-- [ ] Ant Colony Notes<br>#ece457a
-- [ ] Assignment 4 - March 30<br>#ece457a
+- [ ] W8-1<br>#ece457a
+- [ ] W8-2<br>#ece457a
+- [ ] W9<br>#ece457a
+- [ ] W10<br>#ece457a
+- [ ] W11-1<br>#ece457a
+- [ ] W11-2<br>#ece457a
 
 
 ## HIST 216
 
-- [ ] Module 9 Response - March 20<br>#hist216
-- [ ] Module 9b Individual Activity<br>#hist216
-- [ ] Module 10 Discussion - March 25<br>#hist216
-- [ ] Module 10 Discussion - March 27<br>#hist216
-- [ ] Module 10a Individual Activity - March 27<br>#hist216
+- [ ] Module 10 Response  - March 27<br>#hist216
 - [ ] Module 11 Discussion - April 1<br>#hist216
 - [ ] Module 11 Response - April 6<br>#hist216
 - [ ] Module 11c Individual Activity - April 6<br>#hist216
@@ -222,6 +226,18 @@ draft: "true"
 - [ ] Demo - March 12<br>#ece457a
 - [ ] CNN Exercises<br>#amath449
 - [ ] Symposium poster -<br>March 16 ish?<br>#capstone
+- [ ] Module 9 Discussion - March 18<br>#hist216
+- [ ] Update roamr website<br>#capstone
+- [ ] ExecuTorch<br>#capstone
+- [ ] Symposium - March 20<br>#capstone
+- [ ] Module 9 Response - March 20<br>#hist216
+- [ ] Module 9d Individual Activity - March 20<br>#hist216
+- [ ] A4 - March 18<br>#amath449
+- [ ] Convolutional Neural Networks Exercises<br>#amath449
+- [ ] Hopfield Networks<br>#amath449
+- [ ] Autoencoders<br>#amath449
+- [ ] Module 10 Discussion - March 25<br>#hist216
+- [ ] Module 10a Individual Activity - March 27<br>#hist216
 
 %% kanban:settings
 ```

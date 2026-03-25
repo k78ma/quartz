@@ -17,6 +17,7 @@ aliases: amath 449 - neural networks
 - [[Automatic Differentiation]]
     - [[Neural Network with Autodiff]]
 - [[Human Visual System]]
-- [[AMATH 449 Convolution]]
 - [[Hopfield Networks]]
 - [[Restricted Boltzmann Machines]]
+- [[Autoencoder]]
+- [[Vector Embeddings]]
