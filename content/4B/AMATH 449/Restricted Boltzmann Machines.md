@@ -35,6 +35,7 @@ E(v,h)  & = -\sum_{i=1}^{m}\sum_{j=1}^{n}v_{i}W_{ij}h_{j} + \sum_{i=1}^{m}b_{i}v
  & = -vWh^{T}-vb^{T} - hc^{T}
 \end{align}
 $$
+- $b$ is a bias for the visible units, $c$ is a bias for the hidden units
 - $-vWh^{T}$ is a discount for when nodes $i$ and $j$ are both on
 - $-bv^{T}-ch^{T}$ is the energy incurred by turning a node on.
 
@@ -48,7 +49,7 @@ $$
 \end{align}
 $$
 - If $\Delta E_{k}>0$, $E(v_{k} \text{ off})>E(v_{k} \text{ on})$. Then "on" is lower energy, so we set $v_{k}=1$
-- If $\Delta_{k}<0$, $E(v_{k} \text{ off})<E(v_{k} \text{ on})$, then "off" is lower energy, so we set $v_{k}=0$.
+- If $\Delta E_{k}<0$, $E(v_{k} \text{ off})<E(v_{k} \text{ on})$, then "off" is lower energy, so we set $v_{k}=0$.
 
 The energy gap of each node depends on the states of other nodes, so finding the minimum energy state requires some work. One strategy is to visit and update the nodes in random order (like Hopfield). We can do better since our network is bipartite (hence the "Restricted"). The visible units only depend on the hidden units, and vice versa, so we can update one whole layer at a time.
 
@@ -177,13 +178,13 @@ This algorithm is based on a comparison between the original input, and how well
 
 We are given an input pattern $\vec{\nu}$ with $m$ visible nodes and $n$ hidden nodes. 
 
-**1.** Recognition pass 1:
+**1.** Recognition pass 1. Given a visible pattern $\vec{\nu}$, we compute hidden probabilities.
 $$
 P(\vec{h}\, | \, \vec{\nu}) = \sigma(\vec{\Delta E})
 $$
-where $\vec{\Delta E}=-\vec{\nu}W+\vec{c}$.
+where $\vec{\Delta E}=-\vec{\nu}W+\vec{c}$. 
 
-**2.** Compute term 1 (the co-occurence statistics): how many times $h$ and $v$ are both on simultaneously
+**2.** Compute term 1 (the co-occurence statistics): how many times $h$ and $v$ are both on simultaneously>
 $$
 s_{1}=\vec{\nu}^{T}\sigma(\vec{\Delta E})
 $$
@@ -199,7 +200,7 @@ Computing the Bernoulli probabilities of the visibles given the hidden:
 $$
 P(\vec{\nu}\, | \,\vec{h}_{1}) = \sigma(\vec{\Delta E})
 $$
-Sample $\vec{\nu}_{2} \sim P(\vec{\nu}\, | \,\vec{h}_{1}) \in \{ 0,1 \}^{m}$.
+Sample $\vec{v}_{2} \sim P(\vec{\nu}\, | \,\vec{h}_{1}) \in \{ 0,1 \}^{m}$.
 
 **4.** Recognition pass 2:
 $$
@@ -217,6 +218,8 @@ $$
 $$
 W_{\text{new}}=W_{\text{old}}+\kappa(s_{1}-s_{2})
 $$
+This is essentially using a reconstruction loss between the co-occurrence statistics for the input ($s_{1}$) and the co-occurrence statistics for the reconstruction ($s_{2}$).
+
 Update biases:
 $$
 \vec{b}_{\text{new}}=\vec{b}_{\text{old}}-\gamma(\vec{\nu}-\vec{v}_{2})
@@ -234,3 +237,10 @@ for each temp T = 20, 10, 5, 2,1
             project down & up: H1 -> V1 -> H2: Collect S2
             update weights & biases
 ```
+
+1. Look at the real data and infer which hidden features are probably present.
+2. Record the visible-hidden associations found in the real data.
+3. Sample hidden features and use them to reconstruct the visible pattern.
+4. Look at the reconstruction and infer which hidden features it implies.
+5. Record the visible-hidden associations found in the reconstruction.
+6. Adjust parameters so real-data associations become more likely and reconstruction-only associations become less likely.

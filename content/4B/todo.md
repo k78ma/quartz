@@ -9,6 +9,7 @@ draft: "true"
 
 - [ ] Restricted Boltzmann Machines<br>#amath449
 - [ ] W6-2<br>#ece457a
+- [ ] Variational Autoencoders<br>#amath449
 - [ ] Assignment 4 - March 30<br>- [ ] Multiplexer<br>- [ ] Cartpole<br>#ece457a
 
 
@@ -21,7 +22,6 @@ draft: "true"
 ## AMATH 449
 
 - [ ] Assignment 5 - April 6<br>#amath449
-- [ ] Variational Autoencoders<br>#amath449
 - [ ] RNN<br>#amath449
 - [ ] LSTM<br>#amath449
 - [ ] GRU<br>#amath449
