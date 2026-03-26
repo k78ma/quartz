@@ -21,3 +21,4 @@ aliases: amath 449 - neural networks
 - [[Restricted Boltzmann Machines]]
 - [[Autoencoder]]
 - [[Vector Embeddings]]
+- [[Variational Autoencoder]]

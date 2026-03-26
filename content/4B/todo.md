@@ -7,10 +7,9 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Restricted Boltzmann Machines<br>#amath449
 - [ ] W6-2<br>#ece457a
-- [ ] Variational Autoencoders<br>#amath449
 - [ ] Assignment 4 - March 30<br>- [ ] Multiplexer<br>- [ ] Cartpole<br>#ece457a
+- [ ] Module 10 Response  - March 27<br>#hist216
 
 
 ## Capstone
@@ -43,7 +42,6 @@ draft: "true"
 
 ## HIST 216
 
-- [ ] Module 10 Response  - March 27<br>#hist216
 - [ ] Module 11 Discussion - April 1<br>#hist216
 - [ ] Module 11 Response - April 6<br>#hist216
 - [ ] Module 11c Individual Activity - April 6<br>#hist216
@@ -238,6 +236,8 @@ draft: "true"
 - [ ] Module 10 Discussion - March 25<br>#hist216
 - [ ] Module 10a Individual Activity - March 27<br>#hist216
 - [ ] Vector Embeddings<br>#amath449
+- [ ] Restricted Boltzmann Machines<br>#amath449
+- [ ] Variational Autoencoders<br>#amath449
 
 %% kanban:settings
 ```
