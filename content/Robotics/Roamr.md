@@ -20,6 +20,305 @@ Path following:
 
 Currently we have a way to allow users to access to camera sensors and write to motors by writing code in C++ and then compiling to WASM and running WASM (see slam_main.cpp for an example) without writing Swift or re-building the app. I want to extend this to ExecuTorch models so that we can do something like: Pass image from camera into model -> if model detects stop sign -> send 0 0 0 to motors. I'm ok with doing the model stuff in Python and C++, but still no Swift/app rebuilding. What's the cleanest way to implement this?
 
+Architecture diagram:
+```mermaid
+flowchart LR
+
+subgraph Phone["iOS Roamr App host"]
+
+direction TB
+
+  
+
+subgraph Sensors["iOS Sensor Interfaces"]
+
+Cam["RGB camera frames"]
+
+Lidar["LiDAR / depth frames"]
+
+IMU["IMU readings"]
+
+end
+
+  
+
+WASM["WASM runtime: WAMR iwasm"]
+
+MotorBridge["iOS MotorBridge: write_motors"]
+
+WS["WebSocket server: visualization and teleop"]
+
+UI["Basic sensor visualization UI"]
+
+BT["Bluetooth manager BLE"]
+
+end
+
+  
+
+subgraph Robot["ESP32 actuator device"]
+
+MCU["ESP32 firmware: motor control and odometry upload"]
+
+end
+
+  
+
+subgraph Clients["External and local clients"]
+
+Viz["Visualization client"]
+
+Teleop["Teleoperation client"]
+
+end
+
+  
+
+Cam --> WASM
+
+Lidar --> WASM
+
+IMU --> WASM
+
+  
+
+MCU -->|"wheel odometry ticks"| BT
+
+BT --> WASM
+
+  
+
+WASM -->|"write_motors"| MotorBridge
+
+MotorBridge -->|"BLE motor packet </br> (left, right, duration)"| BT
+
+BT -->|"motor commands"| MCU
+
+  
+
+Teleop -->|"command payload"| WS
+
+WS -->|"send teleop motor command"| BT
+
+  
+
+WASM -->|"maps, point clouds, telemetry"| WS
+
+WS --> Viz
+
+WS --> UI
+```
+
+WASM architecture:
+```mermaid
+
+flowchart TB
+
+Host[Host Runtime
+
+sensors / motors / ML / visualization / recording]
+
+  
+
+subgraph Runtime[WASM Runtime]
+
+direction TB
+
+  
+
+subgraph Threads[Threads]
+
+direction LR
+
+IMU[IMU Thread
+
+calibrate + integrate heading]
+
+  
+
+Lidar[LiDAR Thread
+
+read frame + timestamp pose]
+
+  
+
+Mapping[Mapping Thread
+
+build occupancy grid]
+
+  
+
+Planner[Planner Thread
+
+frontier planning]
+
+  
+
+Control[Control Thread
+
+fuse pose + follow path]
+
+  
+
+Semantic[Semantic Thread
+
+attach landmarks]
+
+  
+
+Telemetry[Telemetry Thread
+
+render outputs]
+
+  
+
+Autonomy[Autonomy Thread
+
+scan / replan logic]
+
+end
+
+  
+
+Shared[(Shared Published State
+
+pose
+
+pose history
+
+LiDAR queue
+
+map snapshot
+
+map deltas
+
+latest path
+
+planning overlay
+
+semantic landmarks)]
+
+end
+
+  
+
+Host --> IMU
+
+Host --> Lidar
+
+Host --> Control
+
+Host --> Semantic
+
+  
+
+IMU --> Shared
+
+Lidar --> Shared
+
+Mapping --> Shared
+
+Planner --> Shared
+
+Control --> Shared
+
+Semantic --> Shared
+
+  
+
+Shared --> Mapping
+
+Shared --> Planner
+
+Shared --> Control
+
+Shared --> Semantic
+
+Shared --> Telemetry
+
+Shared --> Autonomy
+
+  
+
+Control --> Host
+
+Telemetry --> Host
+
+IMU --> Host
+
+Lidar --> Host
+
+Control --> Host
+
+  
+
+```
+
+Autonomy logic:
+```mermaid
+stateDiagram-v2
+
+direction LR
+
+  
+
+state "Autonomy Thread" as Autonomy
+
+state "IMU Thread" as IMU
+
+state "LiDAR-Camera Thread" as Lidar
+
+state "Mapping Thread" as Mapping
+
+state "Planner Thread" as Planner
+
+state "Control Thread" as Control
+
+state "Semantic Thread" as Semantic
+
+state "Telemetry Thread" as Telemetry
+
+  
+
+IMU --> Control: heading
+
+Control --> Lidar: pose history
+
+Lidar --> Mapping: LiDAR frames
+
+Mapping --> Planner: map snapshot + deltas
+
+Planner --> Control: latest path
+
+  
+
+Lidar --> Semantic: image + LiDAR
+
+Control --> Semantic: pose
+
+  
+
+Mapping --> Telemetry: map
+
+Planner --> Telemetry: path + overlay
+
+Control --> Telemetry: pose
+
+Semantic --> Telemetry: landmarks
+
+  
+
+Planner --> Autonomy: no path / frontier exhausted
+
+Control --> Autonomy: goal reached
+
+Autonomy --> Planner: replan / scan decisions
+
+Autonomy --> Control: follow / stop
+```
+
+
+
 ```
 .venv/bin/python executorch_export.py \
   --torchvision-model ssdlite320_mobilenet_v3_large \

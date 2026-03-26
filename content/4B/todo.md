@@ -8,7 +8,6 @@ draft: "true"
 ## Upcoming
 
 - [ ] Restricted Boltzmann Machines<br>#amath449
-- [ ] Vector Embeddings<br>#amath449
 - [ ] W6-2<br>#ece457a
 - [ ] Assignment 4 - March 30<br>- [ ] Multiplexer<br>- [ ] Cartpole<br>#ece457a
 
@@ -238,6 +237,7 @@ draft: "true"
 - [ ] Autoencoders<br>#amath449
 - [ ] Module 10 Discussion - March 25<br>#hist216
 - [ ] Module 10a Individual Activity - March 27<br>#hist216
+- [ ] Vector Embeddings<br>#amath449
 
 %% kanban:settings
 ```

@@ -84,4 +84,4 @@ The cosine angle is often used to measure the distance between two vectors in th
 ### Vector Arithmetic with Embeddings
 To some extent, we can do vector addition on embedding representations.
 
-![[Vector Embeddings-1774462448866.webp]]
+![[Vector Embeddings-1774462448866.webp|316]]
