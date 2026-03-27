@@ -3,6 +3,8 @@ import rehypeKatex from "rehype-katex"
 import rehypeMathjax from "rehype-mathjax/svg"
 //@ts-ignore
 import rehypeTypst from "@myriaddreamin/rehype-typst"
+//@ts-ignore
+import latexScript from "../../components/scripts/latex.inline"
 import { QuartzTransformerPlugin } from "../types"
 import { KatexOptions } from "katex"
 import { Options as MathjaxOptions } from "rehype-mathjax/svg"
@@ -51,6 +53,11 @@ export const Latex: QuartzTransformerPlugin<Partial<Options>> = (opts) => {
           return {
             css: [{ content: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" }],
             js: [
+              {
+                script: latexScript,
+                loadTime: "afterDOMReady",
+                contentType: "inline",
+              },
               {
                 // fix copy behaviour: https://github.com/KaTeX/KaTeX/blob/main/contrib/copy-tex/README.md
                 src: "https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/copy-tex.min.js",

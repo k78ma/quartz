@@ -580,8 +580,12 @@ ol.overflow {
 }
 
 .katex-display {
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
+
+  &.is-overflowing {
+    overflow-x: auto;
+  }
 }
 
 .external-embed.youtube,
