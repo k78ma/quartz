@@ -8,26 +8,27 @@ draft: "true"
 ## Upcoming
 
 - [ ] W6-2<br>#ece457a
-- [ ] Assignment 4 - March 30<br>- [ ] Multiplexer<br>- [ ] Cartpole<br>#ece457a
-- [ ] Module 10 Response  - March 27<br>#hist216
+- [ ] Assignment 4 - March 30<br>- [ ] Multiplexer<br>- [x] Cartpole<br>#ece457a
+- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
+- [ ] Final Report - April 6<br>#capstone
 
 
 ## Capstone
 
-- [ ] Final Report - April 6<br>#capstone
 - [ ] Work log<br>#capstone
 
 
 ## AMATH 449
 
 - [ ] Assignment 5 - April 6<br>#amath449
-- [ ] RNN<br>#amath449
 - [ ] LSTM<br>#amath449
 - [ ] GRU<br>#amath449
 - [ ] Adversarial Attacks<br>#amath449
 - [ ] Adversarial Defence<br>#amath449
 - [ ] Population Coding<br>#amath449
 - [ ] Transformation<br>#amath449
+- [ ] Dynamics<br>#amath449
+- [ ] Biological Backprop<br>#amath449
 
 
 ## ECE 457A
@@ -47,7 +48,6 @@ draft: "true"
 - [ ] Module 11c Individual Activity - April 6<br>#hist216
 - [ ] Module 12 Discussion - April 1<br>#hist216
 - [ ] Module 12 Response - April 6<br>#hist216
-- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] Final Essay - April 17<br>#hist216
 
 
@@ -238,6 +238,8 @@ draft: "true"
 - [ ] Vector Embeddings<br>#amath449
 - [ ] Restricted Boltzmann Machines<br>#amath449
 - [ ] Variational Autoencoders<br>#amath449
+- [ ] Module 10 Response  - March 27<br>#hist216
+- [ ] RNN<br>#amath449
 
 %% kanban:settings
 ```
