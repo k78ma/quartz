@@ -6,7 +6,7 @@ date: 2023-10-11
 aliases:
   - LSTM
 ---
-- [Alex Colah’s classic blog on LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- [Alex Colah’s blog on LSTMs](http://colah.github.io/posts/2015-08-Understanding-LSTMs/)
 
 When I read words, I don't think from scratch but understand each word based on your understanding of previous words. Traditional neural networks can't do this; they cannot use its reasoning about previous events in the film to inform later ones. 
 

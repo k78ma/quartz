@@ -28,7 +28,10 @@ draft: "true"
 - [ ] Population Coding<br>#amath449
 - [ ] Transformation<br>#amath449
 - [ ] Dynamics<br>#amath449
-- [ ] Biological Backprop<br>#amath449
+- [ ] Learning Decoders #amath449
+- [ ] GANs<br>#2b
+- [ ] Predictive Coding<br>#amath449
+- [ ] Transformers<br>#amath449
 
 
 ## ECE 457A
