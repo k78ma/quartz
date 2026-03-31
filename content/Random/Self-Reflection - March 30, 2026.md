@@ -8,9 +8,9 @@ draft: "true"
 ## Rejection
 I got rejected from Stanford MS EE HCP today. I wasn't exactly *expecting* to get in, but I thought I had a decent shot; the only real glaring thing in my profile that I could identify was that my GPA was a little low. I guess I was under the impression that it would be fairly easy, since it seemed like a cash-cow sort of program and my employer with a direct agreement with Stanford to pay for it. They have a building with my CEO's name on it, but I guess he's just my CEO and not my dad. It also seems like things are more competitive than I thought (although the screenshots below are for CS and not EE):
 
-![[Self-Reflection - March 30, 2026-1774926235518.webp]]
+![Self-Reflection - March 30, 2026-1774926235518.webp](attachments/self-reflection-1.webp)
 
-![[Self-Reflection - March 30, 2026-1774926242515.webp]]
+![self-reflection-2.webp](attachments/self-reflection-2.webp)
 
 - Source: [Results and Decisions: Stanford 2026 : r/MSCS](https://www.reddit.com/r/MSCS/comments/1s3n1c7/results_and_decisions_stanford_2026/)
 
