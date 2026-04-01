@@ -7,10 +7,14 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] W6-2<br>#ece457a
-- [ ] Assignment 4 - March 30<br>- [ ] Multiplexer<br>- [x] Cartpole<br>#ece457a
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] Final Report - April 6<br>#capstone
+- [ ] LSTM<br>#amath449
+- [ ] GRU<br>#amath449
+- [ ] W6-2<br>#ece457a
+- [ ] Module 11 Discussion - April 1<br>#hist216
+- [ ] Module 12 Discussion - April 1<br>#hist216
+- [ ] Module 11c Individual Activity - April 6<br>#hist216
 
 
 ## Capstone
@@ -21,8 +25,6 @@ draft: "true"
 ## AMATH 449
 
 - [ ] Assignment 5 - April 6<br>#amath449
-- [ ] LSTM<br>#amath449
-- [ ] GRU<br>#amath449
 - [ ] Adversarial Attacks<br>#amath449
 - [ ] Adversarial Defence<br>#amath449
 - [ ] Population Coding<br>#amath449
@@ -42,14 +44,13 @@ draft: "true"
 - [ ] W10<br>#ece457a
 - [ ] W11-1<br>#ece457a
 - [ ] W11-2<br>#ece457a
+- [ ] W12-1<br>#ece457a
+- [ ] W12-2<br>#ece457a
 
 
 ## HIST 216
 
-- [ ] Module 11 Discussion - April 1<br>#hist216
 - [ ] Module 11 Response - April 6<br>#hist216
-- [ ] Module 11c Individual Activity - April 6<br>#hist216
-- [ ] Module 12 Discussion - April 1<br>#hist216
 - [ ] Module 12 Response - April 6<br>#hist216
 - [ ] Final Essay - April 17<br>#hist216
 
@@ -243,6 +244,7 @@ draft: "true"
 - [ ] Variational Autoencoders<br>#amath449
 - [ ] Module 10 Response  - March 27<br>#hist216
 - [ ] RNN<br>#amath449
+- [ ] Assignment 4 - March 30<br>- [x] Multiplexer<br>- [x] Cartpole<br>#ece457a
 
 %% kanban:settings
 ```

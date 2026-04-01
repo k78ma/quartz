@@ -96,7 +96,6 @@ and consider $\nabla_{h^{z}}E$.
 The variables before timestep $k$ do not depend on the variables after $k$; $h^{k}$ depends on $h^{k-1}$ but not $h^{k+1}$. 
 
 ![[Recurrent Neural Networks-1774845293480.webp|238]]
-- $j=\tau$ here?
 
 Therefore:
 $$
@@ -121,3 +120,47 @@ $$
 \end{align}
 $$
 Once you have $\nabla_{h^{i}}E$, $i=1, \dots, \tau$, you can compute the gradient with respect to the deeper weights and biases $\nabla_{W}E, \nabla_{U}E, \nabla_{b}E$.
+
+### Vanishing/exploding gradient problem
+We just saw that we have:
+$$
+\nabla_{h^i} E = (\nabla_{h^{i+1}} E \odot \sigma'(s^{i+1}))W^T + (\nabla_{y^i} E \odot \sigma'(z^i))V^T
+$$
+If we keep rolling this out recursively by writing out $\nabla_{h^{i+1}}E$:
+$$
+\nabla_{h^i} E = \Big( (\nabla_{h^{i+2}} E \odot \sigma'(s^{i+2}))W^T + (\nabla_{y^{i+1}} E \odot \sigma'(z^{i+1}))V^T \Big)\odot \sigma'(s^{i+1})W^T + (\nabla_{y^i} E \odot \sigma'(z^i))V^T
+$$
+until we roll it out all the way:
+$$
+\nabla_{h^{i}}E = \nabla_{h^\tau} E \odot \sigma'(s^\tau)W^T \cdots \sigma'(s^{i+2})W^T \sigma'(s^{i+1})W^T
+$$
+This long multiplication chain causes instability.
+
+
+## Deep RNN
+An RNN can be extended beyond a single layer by stacking multiple RNN layers vertically. This results in a deep RNN, which allows for hierarchical feature extraction across multiple levels of representation.
+
+![[Recurrent Neural Networks-1775007255739.webp|323]]
+
+The key idea is that we have multiple layers of hidden states instead of a single hidden hidden state per timestep. Each layer processes information before passing it to the next layer.
+
+- The input $x^{n}$ is first processed by the first RNN layer, generating a hidden state $h_{1}^{n}$.
+- Each subsequent layer $l$ receives the hidden state from the previous layer $l-1$ and computes a new hidden representation.
+- The final layer $L$ produces the output $y^{n}$.
+
+The hidden states at each layer evolve as follows:
+$$
+\begin{align}
+h_{1}^{n}  & = f(x^{n}U_{1}+h_{1}^{n-1}W_{1} + b_{1}) \\
+h_{2}^{n}  & = f(h_{1}^{n}U_{2}+h_{2}^{n-1}W_{2} + b_{2}) \\
+ & \,\,\, \vdots \\
+h_{L}^{n}  & = f(h_{L-1}^{n}U_{L}+h_{L}^{n-1}W_{L} + b_{L}) \\
+\end{align}
+$$
+- $h_{l}^{n}$ is the hidden state at timestep $n$ in layer $l$
+- $U_{l}$ is the input-to-hidden weight matrix for layer $l$
+- $W_{l}$ is the recurrent weight matrix within layer $l$
+- $f$ is a non-linear activation function (e.g., tanh or ReLU)
+- $b_{i}$ are vector biases
+
+The final output is computed as $y^{n}=\text{Softmax}(h_{L}^{n}V+c)$ where $V$ is the weight matrix from the last hidden layer to the output, and $c$ is a bias vector.
