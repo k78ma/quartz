@@ -24,3 +24,4 @@ aliases: amath 449 - neural networks
 - [[Variational Autoencoder]]
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory]]
+- [[Gated Recurrent Unit]]

@@ -7,14 +7,13 @@ draft: "true"
 
 ## Upcoming
 
-- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
-- [ ] Final Report - April 6<br>#capstone
-- [ ] LSTM<br>#amath449
-- [ ] GRU<br>#amath449
-- [ ] W6-2<br>#ece457a
 - [ ] Module 11 Discussion - April 1<br>#hist216
 - [ ] Module 12 Discussion - April 1<br>#hist216
 - [ ] Module 11c Individual Activity - April 6<br>#hist216
+- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
+- [ ] Final Report - April 6<br>#capstone
+- [ ] GRU<br>#amath449
+- [ ] W6-2<br>#ece457a
 
 
 ## Capstone
@@ -245,6 +244,7 @@ draft: "true"
 - [ ] Module 10 Response  - March 27<br>#hist216
 - [ ] RNN<br>#amath449
 - [ ] Assignment 4 - March 30<br>- [x] Multiplexer<br>- [x] Cartpole<br>#ece457a
+- [ ] LSTM<br>#amath449
 
 %% kanban:settings
 ```

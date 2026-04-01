@@ -73,3 +73,6 @@ $$
 \nabla_{c_{t-1}}E= \nabla _{c_{t}}E \odot f_{t} +\text{other stuff}
 $$
 As long as $f$ is close to $1$, there is little decay of the gradient. Presumably $f$ is only close to $0$ when we actually want to forget. We don't want to push gradient lower.
+- Note that multiplying by $\sigma$ is different from multiplication by $\sigma'$.
+
+Essentially, the point is that the cell states evolve additively, When $f\approx 1$, the gradient can pass backward with little decay. This is much more stable than vanilla RNNs, where gradients are repeatedly multiplied by weight matrices and activation derivatives.
