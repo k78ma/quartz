@@ -15,5 +15,8 @@ aliases: hist 216 - history of the internet
 - [[Independence of Cyberspace]]
 - [[Early Web Discussion]]
 - [[Early Networks in Japan]]
+- [[Three Websites Discussion]]
+- [[Spaceship Earth Discussion]]
+
 - [[Early Web Essay]]
 

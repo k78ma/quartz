@@ -23,7 +23,7 @@ Real-valued genetic algorithms are particularly effective when:
 Note that our [[Variation Operators for Binary Genetic Algorithms|variation operators for binary genetic algorithms]] no longer work, as we can't do things like bit-level crossover. Thus, we turn to [[Variation Operators for Real-Valued Genetic Algorithms|variation operators for real-valued genetic algorithms]].
 
 ## Constraints in Real-Valued GA
-Most real0-valued optimization problems impose box contraints:
+Most real-valued optimization problems impose box contraints:
 $$
 x_{i}^{\text{min}} \leq x_{i}\leq x_{i}^{\text{max}}
 $$
