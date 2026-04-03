@@ -19,3 +19,11 @@ We can map this to optimization concepts. Optimization emerges from biased rando
 
 We can have many ants that explore the search space in parallel, building solutions incrementally. Good solutions reinforce themselves via pheromones, and bad solutions fade away through evaporation.
 
+## ACO vs. GA
+ACO tends to outperform [[Genetic Algorithms|genetic algorithms]] when the problem is combinatorial (permutation, graphs), with a large and discrete search space. In these cases, solution quality depends strongly on adjacency structure, so good partial solutions like edges and subpaths should be reused. 
+- Examples: TSP, vehicle routing, network routing, scheduling with precedence constraints.
+
+GA outperforms ACO when variables are real-valued or mixed-type. Especially for problems that benefit from recombining distance features, and building blocks are not adjacency-based. Or, when fitness evaluation is expensive and population size must be small.
+- Examples: Continuous optimization, hyperparameter tuning, feature selection, neural architecture search
+
+![[Ant Colony Optimization-1775242187759.webp]]

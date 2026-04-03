@@ -93,7 +93,14 @@ Thus, we can think of this pheromone update rule as combining the evaporation an
 $$
 \tau_{ij} \leftarrow \underbrace{ (1-\rho)\tau_{ij} }_{ \text{evaporation} }+\underbrace{ \sum_{k=1}^{m} \Delta \tau_{ij}^{(k)} }_{ \text{reinforcement} }
 $$
-Note that a common failure mode is stagnation: if one trail becomes too dominant early, the colony may stop exploring alternatives.
+### Stagnation
+Note that a common failure mode is stagnation: if one trail becomes too dominant early, the colony may stop exploring alternatives. Some solutions to this include:
+- Increasing evaporation rate $\rho$
+- Limiting pheromone values ([[Max-Min Ant System]])
+- Restarting pheromones when diversity collapses
+- Injecting random/exploratory ants.
+
+Convergence vs. Stagnation: For convergence, ants increasingly select the same edges, with pheromones concentrating on a few tours. For stagnation, no new tours are explored, with all ants following the same path (stuck in local optima).
 
 ## Walkthrough
 For one iteration $t$ of ACO:
