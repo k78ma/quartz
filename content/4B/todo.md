@@ -9,7 +9,6 @@ draft: "true"
 
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] Final Report - April 6<br>#capstone
-- [ ] W6-2<br>#ece457a
 - [ ] Adversarial Attacks<br>#amath449
 - [ ] Adversarial Defence<br>#amath449
 
@@ -245,6 +244,7 @@ draft: "true"
 - [ ] Module 11 Discussion - April 1<br>#hist216
 - [ ] Module 12 Discussion - April 1<br>#hist216
 - [ ] Module 11c Individual Activity - April 6<br>#hist216
+- [ ] W6-2<br>#ece457a
 
 %% kanban:settings
 ```
