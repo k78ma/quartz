@@ -23,3 +23,5 @@ $$
 ![[Ant Colony System-1775240546747.webp]]
 
 ![[Ant Colony System-1775240558062.webp]]
+
+![[Ant Colony System-1775413578828.webp]]

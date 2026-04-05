@@ -9,8 +9,7 @@ draft: "true"
 
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] Final Report - April 6<br>#capstone
-- [ ] Adversarial Attacks<br>#amath449
-- [ ] Adversarial Defence<br>#amath449
+- [ ] Module 12 Response - April 6<br>#hist216
 
 
 ## Capstone
@@ -21,7 +20,6 @@ draft: "true"
 ## AMATH 449
 
 - [ ] Assignment 5 - April 6<br>#amath449
-- [ ] Population Coding<br>#amath449
 - [ ] Transformation<br>#amath449
 - [ ] Dynamics<br>#amath449
 - [ ] Learning Decoders #amath449
@@ -44,8 +42,6 @@ draft: "true"
 
 ## HIST 216
 
-- [ ] Module 11 Response - April 6<br>#hist216
-- [ ] Module 12 Response - April 6<br>#hist216
 - [ ] Final Essay - April 17<br>#hist216
 
 
@@ -245,6 +241,10 @@ draft: "true"
 - [ ] Module 12 Discussion - April 1<br>#hist216
 - [ ] Module 11c Individual Activity - April 6<br>#hist216
 - [ ] W6-2<br>#ece457a
+- [ ] Adversarial Attacks<br>#amath449
+- [ ] Adversarial Defence<br>#amath449
+- [ ] Population Coding<br>#amath449
+- [ ] Module 11 Response - April 6<br>#hist216
 
 %% kanban:settings
 ```

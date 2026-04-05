@@ -31,3 +31,16 @@ Ideally, we would have something like this happen:
 ![[ACO for TSP-1775241210436.webp]]
 
 ### Numerical Example
+
+![[ACO for TSP-1775425235100.webp]]
+
+![[ACO for TSP-1775425244503.webp]]
+
+![[ACO for TSP-1775425254914.webp]]
+
+![[ACO for TSP-1775425288875.webp]]
+
+![[ACO for TSP-1775425312430.webp]]
+
+
+

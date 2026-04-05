@@ -1,0 +1,1 @@
+{"path":"4B/ECE 457A/attachments/ACO for TSP-1775425312430.webp","text":"*If ant & completes the tour: Tour ={1,3,2,4,5} Cost =29 *First, all the pheromone trails get evaporated, *And then, if this ant is selected to update the pheromone trails, it enforces the edges {1’ 3}! {3! 2}1 {2! 4}; {4,5},{5,1} with the value Q/29.","libVersion":"0.3.2","langs":"eng"}
