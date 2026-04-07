@@ -1,8 +1,9 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Frobenius Norm
+tags:
+  - lin-alg
+date: 2026-04-07
+aliases: frobenius norm
 ---
 The Frobenius norm of a matrix is equivalent to the Euclidean $L_{2}$ norm applied to a flattened matrix.
 

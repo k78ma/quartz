@@ -17,7 +17,6 @@ draft: "true"
 
 ## AMATH 449
 
-- [ ] Transformation<br>#amath449
 - [ ] Dynamics<br>#amath449
 - [ ] Learning Decoders #amath449
 - [ ] GANs<br>#2b
@@ -247,6 +246,7 @@ draft: "true"
 - [ ] Module 12 Response - April 6<br>#hist216
 - [ ] Assignment 5 - April 6<br>#amath449
 - [ ] Final Report - April 6<br>#capstone
+- [ ] Transformation<br>#amath449
 
 %% kanban:settings
 ```
