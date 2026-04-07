@@ -7,6 +7,9 @@ aliases: population coding
 ---
 How do we systematically decode, encode, and transform data stored in the activity of a population of neurons? If we know what processing we want done, how do we design a network to do it effectively? Can we build a compiler to implement a program on a neural machine?
 
+> [!note] Intuition
+> Population coding is the idea that the input is represented not by a single neuron, but by the pattern of activations across a population of neurons in a hidden layer. Once the input is encoded in that distributed activity, we can decode the population to approximately recover the original input or to compute some transformed quantity from those hidden activations.
+
 Like for any machine, we will add a hardware abstraction layer between our data processing and the hardware. This approach will allow us to focus on the data that we are encoding, and the transformation applied to that data.
 
 ![[Population Coding-1775344364679.webp]]
@@ -110,7 +113,7 @@ x_{1}^{(P)} & x_{2}^{(P)}
 $$
 So long as an error (target) can be specified, the decoding weights can be learned.
 
-## A Word on Solving the Normal Equations
+## Solving the Normal Equations
 What if $H^{T}H$ is (almost) singular?
 
 The usual solution is:

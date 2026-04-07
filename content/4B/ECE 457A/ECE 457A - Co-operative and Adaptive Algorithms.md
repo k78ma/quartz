@@ -89,6 +89,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Ant Colony System]]
 - [[Max-Min Ant System]]
 - [[Hybrid ACO]]
+
+
 ## Assignments
 - [[457A Assignment 1]]
 

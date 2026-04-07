@@ -8,8 +8,6 @@ draft: "true"
 ## Upcoming
 
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
-- [ ] Final Report - April 6<br>#capstone
-- [ ] Module 12 Response - April 6<br>#hist216
 
 
 ## Capstone
@@ -19,18 +17,17 @@ draft: "true"
 
 ## AMATH 449
 
-- [ ] Assignment 5 - April 6<br>#amath449
 - [ ] Transformation<br>#amath449
 - [ ] Dynamics<br>#amath449
 - [ ] Learning Decoders #amath449
 - [ ] GANs<br>#2b
 - [ ] Predictive Coding<br>#amath449
 - [ ] Transformers<br>#amath449
+- [ ] Practice Final Questions<br>#amath449
 
 
 ## ECE 457A
 
-- [ ] W8-1<br>#ece457a
 - [ ] W8-2<br>#ece457a
 - [ ] W9<br>#ece457a
 - [ ] W10<br>#ece457a
@@ -38,6 +35,7 @@ draft: "true"
 - [ ] W11-2<br>#ece457a
 - [ ] W12-1<br>#ece457a
 - [ ] W12-2<br>#ece457a
+- [ ] Review Lecture<br>#ece457a
 
 
 ## HIST 216
@@ -245,6 +243,10 @@ draft: "true"
 - [ ] Adversarial Defence<br>#amath449
 - [ ] Population Coding<br>#amath449
 - [ ] Module 11 Response - April 6<br>#hist216
+- [ ] W8-1<br>#ece457a
+- [ ] Module 12 Response - April 6<br>#hist216
+- [ ] Assignment 5 - April 6<br>#amath449
+- [ ] Final Report - April 6<br>#capstone
 
 %% kanban:settings
 ```

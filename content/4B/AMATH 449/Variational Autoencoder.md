@@ -4,7 +4,9 @@ tags:
   - amath449
   - dl
 date: 2026-03-26
-aliases: variational autoencoder
+aliases:
+  - variational autoencoder
+  - VAE
 ---
 We would like an [[Autoencoder|autoencoder]] that can generate reasonable samples that were not in the training set. 
 
@@ -87,8 +89,9 @@ Essentially we are changing the variable so that instead of using the unknown di
 We can then look to minimize the negative log likelihood:
 $$
 \begin{align}
--\ln p(x)  & = -\mathbb{E}_{q} \left[ \ln p(x|z) + \ln \frac{p(z)}{q(z)} \right] \\[2ex] 
-     & =  \underbrace{ \text{KL}(q(z) \, || \, p(z)) }_{ \text{KL divergence} } -\underbrace{ \mathbb{E}_{q}[\ln p(x|z)] }_{ \text{Reconstruction loss} }
+-\ln p(x)  & =-\ln \mathbb{E}_{q(z)} \left[ p(x|z) \frac{p(z)}{p(x)} \right] \\[2ex]
+ & \leq -\mathbb{E}_{q} \left[ \ln p(x|z) + \ln \frac{p(z)}{q(z)} \right] \quad  \quad [\text{Jensen's ineq.}] \\[2ex]  
+      & \leq  \underbrace{ \text{KL}(q(z) \, || \, p(z)) }_{ \text{KL divergence} } -\underbrace{ \mathbb{E}_{q}[\ln p(x|z)] }_{ \text{Reconstruction loss} }
 \end{align}
 $$
 where we are using the [[Kullback-Leibler Divergence|KL divergence]].
