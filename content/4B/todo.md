@@ -7,7 +7,6 @@ draft: "true"
 
 ## April 8
 
-- [ ] Predictive Coding<br>#amath449
 - [ ] Transformers<br>#amath449
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] W8-2<br>#ece457a
@@ -282,6 +281,7 @@ draft: "true"
 - [ ] Dynamics<br>#amath449
 - [ ] Learning Decoders #amath449
 - [ ] GANs<br>#2b
+- [ ] Predictive Coding<br>#amath449
 
 %% kanban:settings
 ```

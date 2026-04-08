@@ -45,4 +45,4 @@ aliases: amath 449 - neural networks
 ### Additional Topics
 - [[Generative Adversarial Networks]]
 - [[Predictive Coding]]
-- [[Transformer]]
+- [[Transformer Summary]]

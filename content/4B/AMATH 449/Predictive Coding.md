@@ -173,5 +173,5 @@ $$
 ## Testing
 To run it, we just clamp the input $x$ and run the network to equilibrium. Once at equilibrium, $x^{n}$ is the network's output.
 
-![[Predictive Coding-1775687335294.webp]]
+![[Predictive Coding-1775687335294.webp|482]]
 
