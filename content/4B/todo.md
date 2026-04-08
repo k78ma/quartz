@@ -5,41 +5,72 @@ draft: "true"
 
 ---
 
-## Upcoming
+## April 8
 
-- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
-
-
-## Capstone
-
-- [ ] Work log<br>#capstone
-
-
-## AMATH 449
-
-- [ ] Dynamics<br>#amath449
-- [ ] Learning Decoders #amath449
-- [ ] GANs<br>#2b
 - [ ] Predictive Coding<br>#amath449
 - [ ] Transformers<br>#amath449
-- [ ] Practice Final Questions<br>#amath449
-
-
-## ECE 457A
-
+- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] W8-2<br>#ece457a
+
+
+## April 9
+
 - [ ] W9<br>#ece457a
 - [ ] W10<br>#ece457a
 - [ ] W11-1<br>#ece457a
 - [ ] W11-2<br>#ece457a
+
+
+## April 10
+
 - [ ] W12-1<br>#ece457a
 - [ ] W12-2<br>#ece457a
 - [ ] Review Lecture<br>#ece457a
+- [ ] Final 2011<br>#ece457a
+- [ ] Final 2012<br>#ece457a
+
+
+## April 11
+
+- [ ] Final 2013<br>#ece457a
+- [ ] Final 2016<br>#ece457a
+- [ ] Final 2019<br>#ece457a
+- [ ] Final 2021<br>#ece457a
+
+
+## April 12
+
+- [ ] Tutorial 6<br>#ece457a
+- [ ] Tutorial 7<br>#ece457a
+- [ ] Make-up Midterm<br>#ece457a
+- [ ] Midterm Review<br>#ece457a
+- [ ] Final 2024<br>#ece457a
+
+
+## April 13
+
+
+
+## AMATH 449
+
+- [ ] Practice Final Questions<br>#amath449
+- [ ] Neural Engineering Review<br>#amath449
+- [ ] Midterm Review<br>#amath449
+- [ ] Practice Midterm Review<br>#amath449
+- [ ] Hopfield and RBM Review<br>#amath449
+
+
+## ECE 457A
+
 
 
 ## HIST 216
 
 - [ ] Final Essay - April 17<br>#hist216
+
+
+## Capstone
+
 
 
 ## Other
@@ -247,6 +278,10 @@ draft: "true"
 - [ ] Assignment 5 - April 6<br>#amath449
 - [ ] Final Report - April 6<br>#capstone
 - [ ] Transformation<br>#amath449
+- [ ] Work log<br>#capstone
+- [ ] Dynamics<br>#amath449
+- [ ] Learning Decoders #amath449
+- [ ] GANs<br>#2b
 
 %% kanban:settings
 ```

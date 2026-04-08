@@ -10,22 +10,39 @@ aliases: amath 449 - neural networks
 - **Final:** Friday, April 17, 4:00pm - 6:30pm
 
 ## Notes
+
+### Biological Networks
 - [[Hodgkin-Huxley Neuron Model]]
 - [[Leaky Integrate-and-Fire Model]]
 - [[Simple Neuron Activation Functions]]
 - [[Synapses]]
+
+### Basics
 - [[Automatic Differentiation]]
     - [[Neural Network with Autodiff]]
 - [[Human Visual System]]
+
+### Unsupervised Learning
 - [[Hopfield Networks]]
 - [[Restricted Boltzmann Machines]]
 - [[Autoencoder]]
 - [[Vector Embeddings]]
 - [[Variational Autoencoder]]
+
+### Recurrent Neural Networks
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory]]
 - [[Gated Recurrent Unit]]
 - [[Adversarial Attacks]]
 - [[Adversarial Defence]]
+
+### Neural Engineering
 - [[Population Coding]]
 - [[Population Coding Transformations]]
+- [[Population Coding Dynamics]]
+- [[Learning Decoders]]
+
+### Additional Topics
+- [[Generative Adversarial Networks]]
+- [[Predictive Coding]]
+- [[Transformer]]

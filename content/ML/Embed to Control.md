@@ -8,7 +8,9 @@ aliases: embed to control
 ## Introduction
 "World modeling" has become a woefully overloaded term; people use it to describe maps of the world and engines. In this post, we use the current popular usage of the term: learned dynamics models that predict a future state $x_{t+1}$ given the current state $x_{t}$ and an action $a_{t}$. Specifically, we will implement some tiny world models step-by-step to develop some intuition.
 
-Why do we even care about world models? In robotics (or embodied intelligence, as the cool kids call it), we often need bespoke sensors to measure the state of the system at a given point in time. For example, the angle of a pendulum is typically measured using an encoder in an inverted pendulum balancing task, while a potentiometer and an encoder provide observability in a ball-and-beam system. The 
+Why do we even care about world models? Having a good world model is an insanely powerful thing. Everything in robotics (or embodied intelligence, as the cool kids call it) depends on having a good understanding of the world around us; predicting future events well is one of the best ways to prove a good understanding.
+
+we often need bespoke sensors to measure the state of the system at a given point in time. For example, the angle of a pendulum is typically measured using an encoder in an inverted pendulum balancing task, while a potentiometer and an encoder provide observability in a ball-and-beam system. The 
 
 ## Further Reading
 - [Yann LeCun's definition of world model](https://www.linkedin.com/posts/yann-lecun_lots-of-confusion-about-what-a-world-model-activity-7165738293223931904-vdgR/)
