@@ -5,14 +5,9 @@ draft: "true"
 
 ---
 
-## April 8
-
-- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
-- [ ] W8-2<br>#ece457a
-
-
 ## April 9
 
+- [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] W9<br>#ece457a
 - [ ] W10<br>#ece457a
 - [ ] W11-1<br>#ece457a
@@ -282,6 +277,7 @@ draft: "true"
 - [ ] GANs<br>#2b
 - [ ] Predictive Coding<br>#amath449
 - [ ] Transformers<br>#amath449
+- [ ] W8-2<br>#ece457a
 
 %% kanban:settings
 ```
