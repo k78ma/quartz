@@ -27,3 +27,17 @@ GA outperforms ACO when variables are real-valued or mixed-type. Especially for 
 - Examples: Continuous optimization, hyperparameter tuning, feature selection, neural architecture search
 
 ![[Ant Colony Optimization-1775242187759.webp]]
+
+## ACO Characteristics
+ACO is most suitable for combinatorial optimization problems that are not feasible to solve using classical optimization methods if the problem size is large. These are mainly discrete optimization problems, although some ACO variants handle continuous optimization problems.
+
+Advantages:
+- Stochastic, population-based method (like GA)
+- Retains memory of the entire colony instead of just the previous generation (as in GA)
+- Less affected by poor initial solutions due to combinations of random path selection
+- Can handle dynamic environments
+
+Disadvantages:
+- Mainly empirical, with very limited theoretical analysis. Proofs of convergence for some methods under certain conditions exist
+- A lot of parameters, often requiring experimentation to select
+- May take long time to converge

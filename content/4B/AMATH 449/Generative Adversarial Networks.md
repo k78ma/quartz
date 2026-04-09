@@ -1,8 +1,11 @@
 ---
-title: "<%tp.file.title%>"
-tags: 
-date: "<%tp.date.now()%>"
-aliases: "<%tp.file.title.toLowerCase()%>"
+title: Generative Adversarial Networks
+tags:
+  - amath449
+date: 2026-04-09
+aliases:
+  - generative adversarial networks
+  - GAN
 ---
 A GAN consists of two networks that are competing against each other.
 
