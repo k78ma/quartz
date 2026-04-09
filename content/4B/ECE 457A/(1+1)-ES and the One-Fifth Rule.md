@@ -39,3 +39,6 @@ $$
 \end{cases}
 $$
 with $0.8 \leq c \leq 1$.
+
+![[(1+1)-ES and the One-Fifth Rule-1775761324610.webp]]
+

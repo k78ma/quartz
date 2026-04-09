@@ -101,7 +101,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[ES Selection Strategies]]
 - [[(1+1)-ES and the One-Fifth Rule]]
 - [[ES Gaussian Mutation]]
-- [[Covariance Matrix Adaptation ES]]
+- [[Covariance Matrix Adaptation ES|CMA-ES]]
+- [[ES Recombination]]
 
 
 ## Assignments

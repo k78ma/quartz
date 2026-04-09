@@ -135,3 +135,26 @@ $$
 $\beta$ controls rotation-angle mutation; small angle updates ensure gradual geometry change.
 
 We often also use some constraints like $\sigma_{i}' \geq \epsilon_{0}$ and $\left| \alpha_{ij}' \right| \leq \pi$, which prevent collapse of mutation strength and avoid premature convergence. We also do angle wrapping to ensure numerical stability and uniqueness. We can generalize this into [[Covariance Matrix Adaptation ES|CMA-ES]].
+
+
+
+> [!example] Correlated ES Example
+> ![[ES Gaussian Mutation-1775761542606.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761552731.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761563864.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761574064.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761580037.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761589629.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761607474.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761613542.webp]]
+> 
+> ![[ES Gaussian Mutation-1775761623626.webp]]
+> 
+> 

@@ -19,6 +19,8 @@ Comparing to other search strategies:
 
 ![[Evolution Strategies-1775753246595.webp]]
 
+![[Evolution Strategies-1775761673517.webp]]
+
 ## Formulation
 **Problem setting:** Black-box optimization in $\mathbb{R}^{n}$ without gradient information.
 
@@ -40,3 +42,12 @@ Deterministic truncation of the best individuals (rank-based.)
 
 ### Selection Mechanisms
 - See [[ES Selection Strategies]]
+
+### Mutation
+- See [[ES Gaussian Mutation]]
+
+Mutation is the primary search operator in ES.
+### Recombination/Crossover
+- See [[ES Recombination]]
+
+Recombination is optional but often used to combine parental information. New solutions are mainly created through mutation.
