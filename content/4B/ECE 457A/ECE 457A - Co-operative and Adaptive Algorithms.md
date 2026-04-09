@@ -42,7 +42,7 @@ aliases: ece 457a - co-operative and adaptive algorithms
 
 ## Metaheuristics
 - [[Metaheuristics]]
-### Trajectory-based Metaheuristics
+## Trajectory-based Metaheuristics
 - [[Trajectory Search]]
     - [[Trajectory Search Method Comparison]]
 - [[Greedy descent]]
@@ -51,7 +51,7 @@ aliases: ece 457a - co-operative and adaptive algorithms
     - [[Cooperative Simulated Annealing]]
 - [[Tabu Search]]
     - [[Adaptive and Cooperative Tabu Search]]
-### Population-Based Metaheuristics
+## Population-Based Metaheuristics
 - [[Population-based Algorithms]]
 - [[Information in Search Algorithms]]
 - [[Evolutionary Algorithms]]

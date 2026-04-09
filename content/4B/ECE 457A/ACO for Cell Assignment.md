@@ -82,7 +82,7 @@ $$
 Let $T$ be the set of switches not yet assigned. The transition probability is:
 $$
 P_{ij} = \begin{cases}
-\frac{\tau_{ij}^{\alpha}}{\sum_{l\in  T}\tau_{il}^{\alpha}}  & \text{ if } j\in  T, \\
+\frac{\tau_{ij}^{\alpha}}{\sum_{l\in  T}\tau_{il}^{\alpha}}  & \text{ if } j\in  T, \\[2ex]
 0 & \text{otherwise}
 \end{cases}
 $$
@@ -91,7 +91,7 @@ This is a simple selection ratio based purely on pheromone, with no heuristic in
 If we want to add heuristic information:
 $$
 P_{ij} = \begin{cases}
-\frac{[\tau_{ij}]^{\alpha} [ \eta_{ij}]^{\beta}}{\sum_{l\in  T}[\tau_{ij}]^{\alpha} [ \eta_{ij}]^{\beta}}  & \text{ if } j\in  T, \\
+\frac{[\tau_{ij}]^{\alpha} [ \eta_{ij}]^{\beta}}{\sum_{l\in  T}[\tau_{ij}]^{\alpha} [ \eta_{ij}]^{\beta}}  & \text{ if } j\in  T, \\[2ex]
 0 & \text{otherwise}
 \end{cases}
 $$
