@@ -110,6 +110,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Particle Swarm Optimization]]
 - [[PSO for NN Training]]
 - [[PSO for Clustering]]
+- [[Adaptive PSO]]
+- [[Cooperative PSO]]
 
 ## Assignments
 - [[457A Assignment 1]]
