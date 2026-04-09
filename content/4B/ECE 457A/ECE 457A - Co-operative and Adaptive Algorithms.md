@@ -85,10 +85,17 @@ aliases: ece 457a - co-operative and adaptive algorithms
 ### Ant Colony Optimization
 - [[Ant Colony Optimization]]
 - [[Ant System]]
-- [[ACO for TSP]]
 - [[Ant Colony System]]
 - [[Max-Min Ant System]]
 - [[Hybrid ACO]]
+- [[Adaptive ACO]]
+- [[Cooperative ACO]]
+
+- [[ACO for TSP]]
+- [[ACO for Cell Assignment]]
+- [[ACO for Assembly Line Balancing]]
+- [[ACO for Timetabling]]
+
 
 
 ## Assignments

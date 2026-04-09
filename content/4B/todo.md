@@ -7,7 +7,6 @@ draft: "true"
 
 ## April 8
 
-- [ ] Transformers<br>#amath449
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
 - [ ] W8-2<br>#ece457a
 
@@ -22,6 +21,7 @@ draft: "true"
 
 ## April 10
 
+- [ ] Final Essay - April 17<br>#hist216
 - [ ] W12-1<br>#ece457a
 - [ ] W12-2<br>#ece457a
 - [ ] Review Lecture<br>#ece457a
@@ -65,7 +65,6 @@ draft: "true"
 
 ## HIST 216
 
-- [ ] Final Essay - April 17<br>#hist216
 
 
 ## Capstone
@@ -282,6 +281,7 @@ draft: "true"
 - [ ] Learning Decoders #amath449
 - [ ] GANs<br>#2b
 - [ ] Predictive Coding<br>#amath449
+- [ ] Transformers<br>#amath449
 
 %% kanban:settings
 ```

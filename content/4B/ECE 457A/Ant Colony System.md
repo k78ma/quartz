@@ -3,7 +3,9 @@ title: Ant Colony System
 tags:
   - ece457a
 date: 2026-04-03
-aliases: ant colony system
+aliases:
+  - ant colony system
+  - ACS
 ---
 ACS is a stronger variant of ant colony optimization, introducing two key modifications over [[Ant System|AS]].
 
@@ -19,6 +21,9 @@ ACS also uses a global update, but it is used on the best-so-far tour only:
 $$
 \tau_{ij} \leftarrow (1-\rho)\tau_{ij} + \Delta \tau_{ij}^{ \text{best}}
 $$
+
+Note that pheromones are very important: ACS without heuristics performs better than ACS without pheromone. This is because ACS with pheromone (but no heuristics) is still guided by the global update rule, reflecting the importance of high-quality solutions. ACS without pheromone reduces to a stochastic multi-greedy algorithm.
+
 
 ![[Ant Colony System-1775240546747.webp]]
 

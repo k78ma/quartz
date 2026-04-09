@@ -4,7 +4,7 @@ tags:
   - music
 date: 2026-02-16
 aliases: unknown nth tabs
-draft: "true"
+draft:
 ---
 ![[Unknown Nth Tabs-1771280160913.webp]]
 
