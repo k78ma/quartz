@@ -8,7 +8,6 @@ draft: "true"
 ## April 9
 
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
-- [ ] W9<br>#ece457a
 - [ ] W10<br>#ece457a
 - [ ] W11-1<br>#ece457a
 - [ ] W11-2<br>#ece457a
@@ -20,25 +19,25 @@ draft: "true"
 - [ ] W12-1<br>#ece457a
 - [ ] W12-2<br>#ece457a
 - [ ] Review Lecture<br>#ece457a
-- [ ] Final 2011<br>#ece457a
-- [ ] Final 2012<br>#ece457a
 
 
 ## April 11
 
+- [ ] Final 2011<br>#ece457a
+- [ ] Final 2012<br>#ece457a
 - [ ] Final 2013<br>#ece457a
 - [ ] Final 2016<br>#ece457a
 - [ ] Final 2019<br>#ece457a
-- [ ] Final 2021<br>#ece457a
 
 
 ## April 12
 
 - [ ] Tutorial 6<br>#ece457a
 - [ ] Tutorial 7<br>#ece457a
+- [ ] Final 2021<br>#ece457a
+- [ ] Final 2024<br>#ece457a
 - [ ] Make-up Midterm<br>#ece457a
 - [ ] Midterm Review<br>#ece457a
-- [ ] Final 2024<br>#ece457a
 
 
 ## April 13
@@ -278,6 +277,7 @@ draft: "true"
 - [ ] Predictive Coding<br>#amath449
 - [ ] Transformers<br>#amath449
 - [ ] W8-2<br>#ece457a
+- [ ] W9<br>#ece457a
 
 %% kanban:settings
 ```
