@@ -32,8 +32,9 @@ Each particle holds:
 - Current velocity $v_{i}$
 - Personal best: the best position it achieved so far, $\text{pbest}_{i} / p_{i}$
 - Neighborhood best: best position achieved by particles in its neighborhood, $\text{Nbest}$
-- If the neighborhood is the whole swarm, the best achieved by the whole swarm is called the global best, $\text{gbest}_{i} / p_{g}$
-- If the neighborhood is restricted to few particles, we call it the local best $\text{lbest} / p_{l}$
+    - If the neighborhood is the whole swarm, the best achieved by the whole swarm is called the global best, $\text{gbest}_{i} / p_{g}$
+    - If the neighborhood is restricted to few particles, we call it the local best $\text{lbest} / p_{l}$
+    - See [[PSO Neighborhood Topologies]]
 
 Each particle adjusts its velocity to move towards its personal best and the neighborhood best. After the velocity is updated, the particle adjusts its positions. This is governed by the following **equations of motion:**
 $$
