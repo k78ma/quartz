@@ -1,10 +1,10 @@
 ---
-title: ECE 457A - Co-operative and Adaptive Algorithms
+title: <%tp.file.title%>
 tags:
   - ece457a
   - 4b
-date: 2026-01-13
-aliases: ece 457a - co-operative and adaptive algorithms
+date: <%tp.date.now()%>
+aliases: <%tp.file.title.toLowerCase()%>
 ---
 ## Course Info
 - **Final:** Monday, April 13, 4:00 PM - 6:30 PM
@@ -108,8 +108,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
 
 ### Particle Swarm Optimization
 - [[Particle Swarm Optimization]]
-- [[PSO for NN Training]]
-- [[PSO for Clustering]]
+    - [[PSO for NN Training]]
+    - [[PSO for Clustering]]
 - [[Adaptive PSO]]
 - [[Cooperative PSO]]
 - [[Constriction PSO]]
@@ -117,7 +117,10 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[PSO Neighborhood Topologies]]
 
 ### Genetic Programming
-
+- [[Genetic Programming]]
+    - [[Syntax Tree GP Programs]]
+    - [[GP for Symbolic Regression]]
+    - [[GP for Control]]
 
 
 
