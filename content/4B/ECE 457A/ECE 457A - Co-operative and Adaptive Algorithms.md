@@ -1,10 +1,10 @@
 ---
-title: <%tp.file.title%>
+title: ECE 457A - Co-operative and Adaptive Algorithms
 tags:
   - ece457a
   - 4b
-date: <%tp.date.now()%>
-aliases: <%tp.file.title.toLowerCase()%>
+date: 2026-04-10
+aliases: ece 457a - co-operative and adaptive algorithms
 ---
 ## Course Info
 - **Final:** Monday, April 13, 4:00 PM - 6:30 PM
