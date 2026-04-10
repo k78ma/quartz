@@ -112,7 +112,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[PSO for Clustering]]
 - [[Adaptive PSO]]
 - [[Cooperative PSO]]
-
+- [[Constriction PSO]]
+- [[PSO System Analysis]]
 ## Assignments
 - [[457A Assignment 1]]
 

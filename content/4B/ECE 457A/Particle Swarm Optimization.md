@@ -98,14 +98,25 @@ Some potential termination criteria: Max number of iterations, max number of eva
 
 ## Example
 
-![[Particle Swarm Optimization-1775766956063.webp]]
+> [!example]- Example
+> 
+> ![[Particle Swarm Optimization-1775766956063.webp]]
+> 
+> ![[Particle Swarm Optimization-1775766970281.webp]]
+> 
+> ![[Particle Swarm Optimization-1775766990547.webp]]
+> 
+> ![[Particle Swarm Optimization-1775767023204.webp]]
+> 
+> ![[Particle Swarm Optimization-1775767037377.webp]]
+> 
 
-![[Particle Swarm Optimization-1775766970281.webp]]
 
-![[Particle Swarm Optimization-1775766990547.webp]]
+## Behavior
+PSO typically exhibits rapid early convergence and a slower refinement phase. $w$ governs the explore/exploit behavior, such that a large $w$ means more exploration and a smaller $w$ means more exploitation.
 
-![[Particle Swarm Optimization-1775767023204.webp]]
-
-![[Particle Swarm Optimization-1775767037377.webp]]
-
-
+Note that we often use a velocity magnitude limit
+$$
+\left| v_{ij} \right| < V_{\text{max}}
+$$
+to prevent particles from flying out of the search domain.
