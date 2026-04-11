@@ -8,13 +8,11 @@ draft: "true"
 ## April 10
 
 - [ ] Final Essay - April 17<br>#hist216
-- [ ] W12-1<br>#ece457a
-- [ ] W12-2<br>#ece457a
-- [ ] Review Lecture<br>#ece457a
 
 
 ## April 11
 
+- [ ] Review Lecture<br>#ece457a
 - [ ] Final 2011<br>#ece457a
 - [ ] Final 2012<br>#ece457a
 - [ ] Final 2013<br>#ece457a
@@ -274,6 +272,8 @@ draft: "true"
 - [ ] W11-1<br>#ece457a
 - [ ] W11-2<br>#ece457a
 - [ ] Assignment 3 - The Early Web Essay - April 9<br>#hist216
+- [ ] W12-1<br>#ece457a
+- [ ] W12-2<br>#ece457a
 
 %% kanban:settings
 ```

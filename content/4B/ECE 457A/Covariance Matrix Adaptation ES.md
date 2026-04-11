@@ -36,4 +36,7 @@ Recall that in classical correlated ES the chromosome was:
 $$
 \langle x_{1}, x_{2}, \sigma_{1}, \sigma_{2}, \alpha \rangle 
 $$
-CMA-ES replaces explicit parameter mutation by learning the covariance matrix $C$ directly. $C$ is typically learned through evolution paths; after sampling $\lambda$ offspring, CMA-ES ranks them by fitness and keeps the best ones. They are conve
+CMA-ES replaces explicit parameter mutation by learning the covariance matrix $C$ directly. $C$ is typically learned through evolution paths; after sampling $\lambda$ offspring, CMA-ES ranks them by fitness and keeps the best ones. They are converted into normalized successful steps $y_{i:\lambda}=\frac{x_{i:\lambda}-m}{\sigma}$, where $x_{i:\lambda}$ is the $i$-th best offspring among the $\lambda$ samples. These vectors tell us which directions produced good solutions. CMA-ES then updates C so that future samples are more likely to point in those directions. A simple mental model is:
+$$
+C \approx \text{number of successful steps}
+$$

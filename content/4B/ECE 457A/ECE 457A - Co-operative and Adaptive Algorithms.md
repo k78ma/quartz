@@ -134,7 +134,4 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Differential Evolution]]
 - [[Adaptive Differential Evolution]]
 
-## Assignments
-- [[457A Assignment 1]]
-
 
