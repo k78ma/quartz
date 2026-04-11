@@ -1,0 +1,1 @@
+{"path":"4B/ECE 457A/attachments/Differential Evolution-1775873285009.webp","text":"Iteration 2 Choose new population members: x, = (3,1), x,=(4,2), x,=(7,5) Mutation: v=(3,1)+0.5[(4,2) — (7,5)] = (3,1) + (—1.5, -1.5) = (1.5,-0.5) Crossover (favorable mix): u=(15,3) Evaluation: f(u)=15%+32=11.25< 34 x; + (1.5,3) Significant improvement","libVersion":"0.3.2","langs":"eng"}

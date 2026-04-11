@@ -130,6 +130,9 @@ aliases: ece 457a - co-operative and adaptive algorithms
 ### Memetic Algorithms
 - [[Memetic Algorithms]]
 
+### Differential Evolution
+- [[Differential Evolution]]
+- [[Adaptive Differential Evolution]]
 
 ## Assignments
 - [[457A Assignment 1]]
