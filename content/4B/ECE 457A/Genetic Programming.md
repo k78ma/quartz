@@ -130,7 +130,7 @@ In [[Linear Genetic Programming]], a program is a sequence of instructions execu
 
 ![[Genetic Programming-1775814753090.webp|443]]
 
-In **Cartesian GP**, programs are represented as directed acyclic graphs laid out on a grid. This supports node reuse, and so the graph structure can be more compact than trees.
+In [[Cartesian Genetic Programming]], programs are represented as directed acyclic graphs laid out on a grid. This supports node reuse, and so the graph structure can be more compact than trees.
 
 In **Grammar-guided GP**, we restrict the search space using production rules. For example:
 $$

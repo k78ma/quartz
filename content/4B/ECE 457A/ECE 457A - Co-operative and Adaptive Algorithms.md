@@ -3,7 +3,7 @@ title: ECE 457A - Co-operative and Adaptive Algorithms
 tags:
   - ece457a
   - 4b
-date: 2026-04-10
+date: 2026-01-10
 aliases: ece 457a - co-operative and adaptive algorithms
 ---
 ## Course Info
@@ -121,6 +121,8 @@ aliases: ece 457a - co-operative and adaptive algorithms
     - [[Syntax Tree GP Programs]]
     - [[GP for Symbolic Regression]]
     - [[GP for Control]]
+- [[Linear Genetic Programming]]
+- [[Cartesian Genetic Programming]]
 
 
 
