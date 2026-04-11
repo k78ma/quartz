@@ -41,4 +41,6 @@ r_{t} & =1-\alpha \left| \theta_{t} \right|  - \beta \left| x_{t} \right|
 $$
 where we are basically rewarding 1 for each step staying alive, with penalties for large angles and displacements. This encourages both stability and control stability.
 
+Control is a hard problem!
 
+![[GP for Control-1775868260701.webp]]

@@ -9,8 +9,6 @@ aliases:
 ---
 Genetic programming is an evolutionary computation technique in which the individuals are programs rather than fixed-length parameter vectors.
 
-![[Genetic Programming-1775810097530.webp|221]]
-
 ![[Genetic Programming-1775810279070.webp]]
 
 GP begins with a population of candidate programs. Each program is evaluated on a target task, and better programs are selected and modified through evolutionary operators. Over generations, the population ends to improve.
@@ -25,17 +23,18 @@ How does GP fit in with other evolutionary computation methods? It's distinctive
 
 
 GP can perform well despite massive search spaces because:
-- useful subtrees can be discovered and reused
-- many syntactically different programs share similar semantics
-- selection amplifies small advantages over generations
-- crossover can assemble larger structures from smaller ones
+- Building-block reuse: useful subtrees can be discovered and reused
+- Semantic redundancy: many syntactically different programs share similar semantics
+- Selection amplification: even tiny advantages can become dominant over generations
+- Compositional search: crossover can assemble larger structures from smaller ones
+- Neutrality: Some genotype changes do not immediately harm fitness, allowing exploration
 
 GP might struggle when:
-- the function set is properly chosen
-- evaluation is noisy
-- reward is too sparse
-- bloat
-- useful structure is too hard to discover compositionally
+- Bad function set: the function set is properly chosen
+- Extreme noise: fitness ranking becomes unreliable
+- Reward is too sparse
+- Bloat: Size grows faster than useful structure
+- Credit assignment difficulty: useful components help only in the larger context, or are too hard to discover compositionally
 
 ## Components
 GP manipulates [[Syntax Tree GP Programs]].
@@ -126,9 +125,11 @@ for minimization, or with a minus for maximization. Parsimony pressure encourage
 Another simple anti-bloat method is to impose max depth, max node count, and restricted subtree sizes during variation. But this can be sensitive: too lose and we will bloat, too strict and we will not have enough expressiveness.
 
 ## Variations
-In [[Linear Genetic Programming]], a program is a sequence of instructions executed step by step (similar to a simple program or assembly code). The representation is a list of instructions operating on registers, where each instruction updates a register value. This is natural for imperative programming.
 
-![[Genetic Programming-1775814753090.webp|443]]
+![[Genetic Programming-1775868289269.webp]]
+
+
+In [[Linear Genetic Programming]], a program is a sequence of instructions executed step by step (similar to a simple program or assembly code). The representation is a list of instructions operating on registers, where each instruction updates a register value. This is natural for imperative programming.
 
 In [[Cartesian Genetic Programming]], programs are represented as directed acyclic graphs laid out on a grid. This supports node reuse, and so the graph structure can be more compact than trees.
 
