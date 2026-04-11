@@ -23,4 +23,4 @@ A semantic operator may construct an offspring behavior is some combination of t
 $$
 s(T_{\text{child}}) \approx \alpha s(T_{1}) + (1-\alpha)s(T_{2}), \quad  \quad  0 \leq \alpha \leq 1
 $$
-The child behaves "between" parents on the training set, making the fitness landscape smoother. Local improvements in semantics also become easier to exploit. However, the price we pay is that explicit program representations can grow very quickly unless special simplification mechanisms are use
+The child behaves "between" parents on the training set, making the fitness landscape smoother. Local improvements in semantics also become easier to exploit. However, the price we pay is that explicit program representations can grow very quickly unless special simplification mechanisms are used.
