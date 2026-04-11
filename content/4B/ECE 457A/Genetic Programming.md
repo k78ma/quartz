@@ -132,12 +132,12 @@ In [[Linear Genetic Programming]], a program is a sequence of instructions execu
 
 In [[Cartesian Genetic Programming]], programs are represented as directed acyclic graphs laid out on a grid. This supports node reuse, and so the graph structure can be more compact than trees.
 
-In **Grammar-guided GP**, we restrict the search space using production rules. For example:
+In [[Grammar-Guided Genetic Programming]], we restrict the search space using production rules. For example:
 $$
 \langle \text{expr} \rangle  \to \langle \text{expr} \rangle + \langle \text{expr} \rangle  \left| \times \right|  1 | \sin (\langle \text{expr} \rangle )
 $$
 This means we can embedded domain knowledge, and easily enforce syntactic correctness.
 
-**Geometric semantic GP** tries to act more directly on behavior instead of acting on syntax. This is basically the idea of syntactic vs. semantic idea we saw in [[Syntax Tree GP Programs#Search Space]].
+[[Geometric Semantic Genetic Programming]] tries to act more directly on behavior instead of acting on syntax. This is basically the idea of syntactic vs. semantic idea we saw in [[Syntax Tree GP Programs#Search Space]].
 
-In **Multiobjective GP**, we optimize more than one criterion. 
+In [[Multiobjective Genetic Programming]], we optimize more than one criterion. 

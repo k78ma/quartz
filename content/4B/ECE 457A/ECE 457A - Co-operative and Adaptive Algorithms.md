@@ -123,7 +123,9 @@ aliases: ece 457a - co-operative and adaptive algorithms
     - [[GP for Control]]
 - [[Linear Genetic Programming]]
 - [[Cartesian Genetic Programming]]
-
+- [[Grammar-Guided Genetic Programming]]
+- [[Geometric Semantic Genetic Programming]]
+- [[Multiobjective Genetic Programming]]
 
 
 ## Assignments

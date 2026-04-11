@@ -24,3 +24,14 @@ n_{3} & =\sin(n_{1}) \\
 y & =n_{2}+n_{3}
 \end{align}
 $$
+In this, we can also see how re-using nodes works. The subexpression $(x_{1}+{x_{2}})$ appears twice; but we can just compute it once as part of $n_{1}$ and then re-use it. This reduces redundancy and program size, although the genotype may still contain inactive nodes not connected to the output.
+
+## Linear vs. Cartesian GP
+Linear GP has an implicit flow, which is made explicit in Cartesian GP. Furthermore, Cartesian GP allows for more reuse as we can reuse nodes as opposed to just registers.
+
+![[Cartesian Genetic Programming-1775866735029.webp]]
+
+![[Cartesian Genetic Programming-1775866754063.webp]]
+
+![[Cartesian Genetic Programming-1775866766906.webp]]
+

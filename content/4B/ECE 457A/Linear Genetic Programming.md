@@ -67,6 +67,8 @@ Basically, crossover recombines partial computations; unlike tree GP, recombinat
 
 ![[Linear Genetic Programming-1775866020438.webp]]
 
+- Note that we are using a grammar here like [[Grammar-Guided Genetic Programming]]
+
 ![[Linear Genetic Programming-1775866005495.webp]]
 
 ![[Linear Genetic Programming-1775866035815.webp]]
