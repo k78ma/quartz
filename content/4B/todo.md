@@ -5,13 +5,9 @@ draft: "true"
 
 ---
 
-## April 10
-
-- [ ] Final Essay - April 17<br>#hist216
-
-
 ## April 11
 
+- [ ] Final Essay - April 17<br>#hist216
 - [ ] Review Lecture<br>#ece457a
 - [ ] Final 2011<br>#ece457a
 - [ ] Final 2012<br>#ece457a

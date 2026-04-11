@@ -134,7 +134,7 @@ x \leftarrow\mathcal{L}(x)
 $$
 This transfers acquired improvement directly.
 
-In **Baldwinina learning,** the genotype is unchanged but its evaluated quality refletcs local improvement:
+In **Baldwinian learning,** the genotype is unchanged but its evaluated quality refletcs local improvement:
 $$
 f'(x) = f(\mathcal{L}(x))
 $$
