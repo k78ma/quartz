@@ -62,3 +62,22 @@ Crossover in LGP usually exchanges instruction segments.
 ![[Linear Genetic Programming-1775865771465.webp]]
 
 Basically, crossover recombines partial computations; unlike tree GP, recombination happens over instruction blocks. Register consistency is important for meaningful offspring.
+
+## Example
+
+![[Linear Genetic Programming-1775866020438.webp]]
+
+![[Linear Genetic Programming-1775866005495.webp]]
+
+![[Linear Genetic Programming-1775866035815.webp]]
+
+![[Linear Genetic Programming-1775866052709.webp]]
+
+![[Linear Genetic Programming-1775866062745.webp]]
+
+![[Linear Genetic Programming-1775866099841.webp]]
+
+![[Linear Genetic Programming-1775866106113.webp]]
+
+
+
