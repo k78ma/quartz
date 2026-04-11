@@ -127,6 +127,9 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Geometric Semantic Genetic Programming]]
 - [[Multiobjective Genetic Programming]]
 
+### Memetic Algorithms
+- [[Memetic Algorithms]]
+
 
 ## Assignments
 - [[457A Assignment 1]]

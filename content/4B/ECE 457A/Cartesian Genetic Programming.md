@@ -26,6 +26,16 @@ y & =n_{2}+n_{3}
 $$
 In this, we can also see how re-using nodes works. The subexpression $(x_{1}+{x_{2}})$ appears twice; but we can just compute it once as part of $n_{1}$ and then re-use it. This reduces redundancy and program size, although the genotype may still contain inactive nodes not connected to the output.
 
+## Mutation
+In CGP, a tiny mutation can activate a previously inactive node and change the phenotype sharply.
+
+![[Cartesian Genetic Programming-1775868353284.webp]]
+
+## Crossover
+In CGP, crossover must exchange compatible encoded nodes; arbitrary subgraph swapping an violate connectivity or acyclicity.
+
+![[Cartesian Genetic Programming-1775868391499.webp]]
+
 ## Linear vs. Cartesian GP
 Linear GP has an implicit flow, which is made explicit in Cartesian GP. Furthermore, Cartesian GP allows for more reuse as we can reuse nodes as opposed to just registers.
 
