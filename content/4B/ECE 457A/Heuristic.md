@@ -53,6 +53,7 @@ We can think of this as:
 $$
 h(A) - h(B) \leq \text{Cost}(A\to B)
 $$
+When you move from $A$ to $B$, where $B$ is closer to the goal, the heuristic should drop, but not by more than the real cost of that move.
 
 ## Heuristic Types
 Perfect heuristic:
