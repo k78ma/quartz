@@ -3,7 +3,9 @@ title: Max-Min Ant System
 tags:
   - ece457a
 date: 2026-04-03
-aliases: max-min ant system
+aliases:
+  - max-min ant system
+  - MMAS
 ---
 In MMAS, only the best ant deposits pheromone (iteration-best or best-so-far). Furthermore, we enforce bounds to prevent premature lock-in/stagnation:
 

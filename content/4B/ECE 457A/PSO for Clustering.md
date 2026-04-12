@@ -21,7 +21,7 @@ This is typically applied with a number of different conditions and then we pick
 - Initialize each particle as $K$ random cluster centers.
 - For iterations = 1 to max:
     - For all particles $i$:
-        - For all pattern $X_{p}$ in the datset:
+        - For all patterns $X_{p}$ in the datset:
             - Calculate Euclidean distance of $X_{p}$ with all cluster centroids
             - Assign $X_{p}$ to the cluster that has the nearest centroid to $X_{p}$
         - Calculate the objective function for the current centers and assignment

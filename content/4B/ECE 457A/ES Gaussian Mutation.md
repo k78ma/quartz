@@ -108,31 +108,36 @@ $$
 This is still uncorrelated, because the covariance matrix is diagonal; the mutation cloud is an ellipsoid aligned with the coordinate axes. Note that we can write the update as $x'= x+D(\sigma)z$.
 
 ## Case 3: Correlated Mutation
-Even multiple coordinate-wise step sizes are not enough if the important search directions are rotated relative to the coordinate axes. Thus, we want to generalize the mutation to $x'=x+\mathcal{N}(0, \sigma^{2}C)$ where $C$ is a learned covariance matrix.
+Even multiple coordinate-wise step sizes are not enough if the important search directions are rotated relative to the coordinate axes. Thus, we want to generalize the mutation to $x'=x+\mathcal{N}(0, \sigma^{2}C)$ where $C$ is a non-diagonal covariance matrix.
+
+In correlated ES, each of the axis variance $\sigma_{i}$ and rotation $\alpha_{i}$ parameters are carried along with the $x$, such that the state is $\langle x_{1},\dots,x_{n}, \sigma_{1},\dots, \sigma_{n}, \alpha_{ij} (i<j)\rangle$. where the $\sigma_i$ control scaling along principal axes and the $\alpha_{ij}$ determine the rotations between coordinate planes. These strategy parameters are evolved together with the object variables $x$.
 
 Specifically, we use:
 $$
-x' = x+BDz, \quad  z \sim N(0,I)
+x' = x+BDz, \quad  z \sim \mathcal{N}(0,I)
 $$
 where:
 - $D = \text{diag}(\sigma_{1}, \dots, \sigma_{n})$ controls axis lengths
 - $B$ is an orthogonal rotation matrix constructed from angles $\alpha_{ij}$
 
-Then:
+Then, the mutation covariance is:
 $$
 \text{Cov}(x'-x) =C = BD^{2}B^{T}
 $$
+So $D$ controls the scale of mutation in each principal direction, while $B$ controls the orientation of those directions in the search space.
+
 Let's walk through the full flow.
 
-First, our chromosome is now $\langle x, \sigma, \alpha \rangle$. We first mutate step sizes:
+Remember that our chromosome is now $\langle x, \sigma, \alpha \rangle$. We first mutate step sizes:
 $$
 \sigma_{i}' = \sigma_{i} \exp(\tau'Z + \tau Z_{i})
 $$
 Then mutate rotation angles:
 $$
-\alpha'_{ij} = \alpha_{ij} + \beta N_{ij}(0, 1)
+\alpha'_{ij} = \alpha_{ij} + \beta \mathcal{N}_{ij}(0, 1)
 $$
 $\beta$ controls rotation-angle mutation; small angle updates ensure gradual geometry change.
+
 
 We often also use some constraints like $\sigma_{i}' \geq \epsilon_{0}$ and $\left| \alpha_{ij}' \right| \leq \pi$, which prevent collapse of mutation strength and avoid premature convergence. We also do angle wrapping to ensure numerical stability and uniqueness. We can generalize this into [[Covariance Matrix Adaptation ES|CMA-ES]].
 

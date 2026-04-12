@@ -39,7 +39,7 @@ Each particle holds:
 Each particle adjusts its velocity to move towards its personal best and the neighborhood best. After the velocity is updated, the particle adjusts its positions. This is governed by the following **equations of motion:**
 $$
 \begin{align}
-v_{t+1}^{id}  & = \underbrace{ w \cdot v_{t}^{id} }_{ \text{Inertia} } + \underbrace{ c_{1}r_{1}^{id}(\text{pbest}_{t}^{id}-x_{t}^{id}) }_{ \text{Cognitive component} } + \underbrace{ c_{2}r_{2}(\text{Nbest} - x_{t}^{id})U }_{ \text{Social component} } \\[2ex] 
+v_{t+1}^{id}  & = \underbrace{ w \cdot v_{t}^{id} }_{ \text{Inertia} } + \underbrace{ c_{1}r_{1}^{id}(\text{pbest}_{t}^{id}-x_{t}^{id}) }_{ \text{Cognitive component} } + \underbrace{ c_{2}r_{2}(\text{Nbest} - x_{t}^{id})}_{ \text{Social component} } \\[2ex] 
 x_{t+1}^{id}  & = x_{t}^{id} + v_{t+1}^{id}
 \end{align}
 $$
