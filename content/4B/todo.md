@@ -8,15 +8,13 @@ draft: "true"
 ## April 12
 
 - [ ] Cheat Sheet<br>#ece457a
-- [ ] Final 2012<br>#ece457a
 - [ ] Final 2013<br>#ece457a
 - [ ] Final 2016<br>#ece457a
 - [ ] Final 2019<br>#ece457a
 - [ ] Tutorial 6<br>#ece457a
 - [ ] Tutorial 7<br>#ece457a
-- [ ] Final 2024<br>#ece457a
-- [ ] Tutorial 8<br>#ece457a
 - [ ] GP Tutorial<br>#ece457a
+- [ ] Midterm $\alpha-\beta$<br>#ece457a
 
 
 ## April 13
@@ -270,6 +268,9 @@ draft: "true"
 - [ ] Review Lecture<br>#ece457a
 - [ ] Make-up Midterm<br>#ece457a
 - [ ] Midterm Review<br>#ece457a
+- [ ] Final 2012<br>#ece457a
+- [ ] Final 2024<br>#ece457a
+- [ ] Tutorial 8<br>#ece457a
 
 %% kanban:settings
 ```

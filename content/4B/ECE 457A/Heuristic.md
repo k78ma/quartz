@@ -44,6 +44,16 @@ We can think of this intuitively as optimism: $h(n)$ is a lower bound on the rem
 
 For example, if the true remaining cost is $h^{\ast }(n)=10$, then $h(n)=7$ and $h(n)=10$ are acceptable, but $h(n)=12$ is not.
 
+### Consistency
+A heuristic is **consistent** if for every node $n$ and every successor node $n'$ reached by an action of cost $c(n,n')$, fulfilling the triangle inequality:
+$$
+h(n) \leq c(n, n') + h(n')
+$$
+We can think of this as:
+$$
+h(A) - h(B) \leq \text{Cost}(A\to B)
+$$
+
 ## Heuristic Types
 Perfect heuristic:
 $$
