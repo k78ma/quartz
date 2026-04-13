@@ -34,7 +34,7 @@ An important thing to note is that heuristic search is a weak method, as it uses
 ## Admissible Heuristic Function
 A heuristic is **admissible** if it never overestimates the true minimal remaining cost to goal:
 $$
-\,\, \forall \, n: \quad  h(n) \leq h^{\ast  }*n
+\,\, \forall \, n: \quad  h(n) \leq h^{\ast  }(n)
 $$
 where $h^{\ast }(n)$ is the optimal cost from $n$ to a goal.
 

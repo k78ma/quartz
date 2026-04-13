@@ -13,7 +13,7 @@ Two different swarms are updated in parallel, both using different algorithms. T
 ![[Cooperative PSO-1775769393485.webp|449]]
 
 ## Cooperative PSO
-CPSO applies the same concept as cooperative GA, having multiple swarms where the fitness of any particle in any swarm depends on the particles of the other swarms.
+CPSO applies the same concept as concurrent GA, having multiple swarms where the fitness of any particle in any swarm depends on the particles of the other swarms.
 
 The general idea is to have different swarms optimizing different variables of the problem (different dimensions of the solution). The fitness of any particle is determined by its value and the value of the best particles in all the other swarms. This performs best if the problem variables are independent.
 

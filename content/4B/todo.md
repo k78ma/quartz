@@ -5,29 +5,21 @@ draft: "true"
 
 ---
 
-## April 12
+## April 13
 
-- [ ] Cheat Sheet<br>#ece457a
 - [ ] Final 2013<br>#ece457a
 - [ ] Final 2016<br>#ece457a
 - [ ] Final 2019<br>#ece457a
-- [ ] Tutorial 6<br>#ece457a
-- [ ] Tutorial 7<br>#ece457a
-- [ ] GP Tutorial<br>#ece457a
-- [ ] Midterm $\alpha-\beta$<br>#ece457a
-
-
-## April 13
-
 
 
 ## AMATH 449
 
-- [ ] Practice Final Questions<br>#amath449
 - [ ] Neural Engineering Review<br>#amath449
 - [ ] Midterm Review<br>#amath449
-- [ ] Practice Midterm Review<br>#amath449
+- [ ] Remaining Exercises<br>#amath449
 - [ ] Hopfield and RBM Review<br>#amath449
+- [ ] Practice Final Questions<br>#amath449
+- [ ] Practice Midterm Review<br>#amath449
 
 
 ## ECE 457A
@@ -271,6 +263,11 @@ draft: "true"
 - [ ] Final 2012<br>#ece457a
 - [ ] Final 2024<br>#ece457a
 - [ ] Tutorial 8<br>#ece457a
+- [ ] Tutorial 6<br>#ece457a
+- [ ] Tutorial 7<br>#ece457a
+- [ ] GP Tutorial<br>#ece457a
+- [ ] Midterm $\alpha-\beta$<br>#ece457a
+- [ ] Cheat Sheet<br>#ece457a
 
 %% kanban:settings
 ```

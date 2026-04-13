@@ -3,7 +3,9 @@ title: Edge Recombination Crossover
 tags:
   - ece457a
 date: 2026-02-22
-aliases: edge recombination crossover
+aliases:
+  - edge recombination crossover
+  - ERX
 ---
 ERX seeks to preserve adjacency (edge) information between elements. In an edge appears in a parent, ERX tries to keep it in the child. Global positions and order are not a priority.
 - For example, in TSP, the tour quality is driven by the edges.

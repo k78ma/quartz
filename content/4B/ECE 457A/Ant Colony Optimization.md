@@ -6,6 +6,7 @@ date: 2026-04-01
 aliases: ant colony optimization
 ---
 Many hard problems are solved in nature without central control, with complex global behavior arising from simple local rules. 
+- **Stigmergy:** indirect coordination where individuals (agents) communicate and cooperate by modifying their shared environment, rather than through direct communication.
 
 An example of this is the ant path-finding problem: ants repeatedly travel between a nest and food source. The environment may contain multiple possible paths, and the ants have no global knowledge of the terrain. How do they discover the shortest path? While moving, they deposit pheromones. These pheromones persist for some before evaporating. Other ants sense pheromones and are biased toward stronger trails. 
 

@@ -31,6 +31,6 @@ A good tribe deletes its worst particle to conserve the number of performed func
 On the other hand, every bad tribe generates a new random particle simultaneously. All the new particles form a new tribe. Each particle gets connected to the tribe that generated it through its best particle.
 
 ### Intuition
-The idea is to start with a single particle. Most likely, this particle won ’t improve in the first iteration. Hence, it will generate another particle forming another tribe. If both don’t improve, they will simultaneously generate two other particles forming a third two-particle tribe, and the process continues.
+The idea is to start with a single particle. Most likely, this particle won’t improve in the first iteration. Hence, it will generate another particle forming another tribe. If both don’t improve, they will simultaneously generate two other particles forming a third two-particle tribe, and the process continues.
 
 If things go bad, larger and larger tribes will be generated to increase the swarm search power. On the other hand, if good solutions start to occur, good tribes will start removing its worst particles reducing the tribes size possibly to complete extinction.
