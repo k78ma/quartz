@@ -25,6 +25,7 @@ aliases: amath 449 - neural networks
 ### Unsupervised Learning
 - [[Hopfield Networks]]
 - [[Restricted Boltzmann Machines]]
+    - [[RBM Intuition]]
 - [[Autoencoder]]
 - [[Vector Embeddings]]
 - [[Variational Autoencoder]]
@@ -37,6 +38,7 @@ aliases: amath 449 - neural networks
 - [[Adversarial Defence]]
 
 ### Neural Engineering
+- [[Neural Engineering]]
 - [[Population Coding]]
 - [[Population Coding Transformations]]
 - [[Population Coding Dynamics]]

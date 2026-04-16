@@ -4,7 +4,9 @@ tags:
   - dl
   - amath449
 date: 2026-03-25
-aliases: vector embeddings
+aliases:
+  - vector embeddings
+  - word2vec
 ---
 We've seen that vectors can be used to represent inputs and outputs:
 $$

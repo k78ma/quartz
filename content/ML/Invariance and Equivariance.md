@@ -17,6 +17,7 @@ $$
 f[t[\mathbf{x}]] = f[\mathbf{x}]
 $$
 such that its output changes in the same way under the transformation as the input. Networks for image classification should be invariant to geometric transformations of the same image. The network $f[\mathbf{x}]$ should identify an image as containing the same object, even if it has been translated, rotated, flipped, or warped.
+
 ## Equivariance
 A function $f[\mathbf{x}]$ is *equivariant* or *covariant* to a transformation $t[\mathbf{x}]$ if
 $$

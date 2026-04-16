@@ -17,6 +17,8 @@ $$
 - $\tau_{s}$ is a synaptic time constant
 - $\tau_{m}$ is the a membrane time constant
 - $C$: is the input current
+- $s$ is the post-synaptic current
+- $v$ is the membrane potential 
 - $\sigma(s)$ is a nonlinear activation function
 
 Recall previous forms of $\sigma(s)$:

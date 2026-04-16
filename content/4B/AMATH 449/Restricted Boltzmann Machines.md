@@ -27,95 +27,118 @@ $$
 \end{bmatrix}
 \end{align}
 $$
+
 ## RBM energy
 Similar [[Hopfield Networks]], an RBM is characterized by an energy:
 $$
 \begin{align}
-E(v,h)  & = -\sum_{i=1}^{m}\sum_{j=1}^{n}v_{i}W_{ij}h_{j} + \sum_{i=1}^{m}b_{i}v_{i}+\sum_{j=1}^{n}c_{j}h_{j}\\[2ex] 
+E(v,h)  & = -\sum_{i=1}^{m}\sum_{j=1}^{n}v_{i}W_{ij}h_{j} -\sum_{i=1}^{m}b_{i}v_{i}-\sum_{j=1}^{n}c_{j}h_{j}\\[2ex] 
  & = -vWh^{T}-vb^{T} - hc^{T}
 \end{align}
 $$
 - $b$ is a bias for the visible units, $c$ is a bias for the hidden units
-- $-vWh^{T}$ is a discount for when nodes $i$ and $j$ are both on
-- $-bv^{T}-ch^{T}$ is the energy incurred by turning a node on.
+- $-vWh^{T}$ lowers the energy when connected visible and hidden nodes are both on
+- $-vb^{T}-hc^{T}$ lowers the energy of states where biased units are on
 
 Like many processes in nature, we want to find the minimum energy.
 
-Consider the "energy gap", the difference in energy when we flip an energy $v_{k}$ from off to on.
+Consider the "energy gap", the difference in energy when we flip a visible unit $v_{k}$ from off to on:
 $$
 \begin{align}
 \Delta E_{k}  & = E(v_{k} \text{ off}) - E(v_{k} \text{ on}) \\[2ex]
-     & = \sum_{j} w_{kj}h_{j}-b_{j}
+     & = \sum_{j} W_{kj}h_{j}+b_{k}
 \end{align}
 $$
-- If $\Delta E_{k}>0$, $E(v_{k} \text{ off})>E(v_{k} \text{ on})$. Then "on" is lower energy, so we set $v_{k}=1$
-- If $\Delta E_{k}<0$, $E(v_{k} \text{ off})<E(v_{k} \text{ on})$, then "off" is lower energy, so we set $v_{k}=0$.
+- If $\Delta E_{k}>0$, then $E(v_{k} \text{ off})>E(v_{k} \text{ on})$, so "on" is lower energy and we set $v_{k}=1$
+- If $\Delta E_{k}<0$, then $E(v_{k} \text{ off})<E(v_{k} \text{ on})$, so "off" is lower energy and we set $v_{k}=0$
+
+Similarly, for a hidden unit:
+$$
+E(h_j \text{ off}) - E(h_j \text{ on}) = \sum_i v_i W_{ij} + c_j
+$$
 
 The energy gap of each node depends on the states of other nodes, so finding the minimum energy state requires some work. One strategy is to visit and update the nodes in random order (like Hopfield). We can do better since our network is bipartite (hence the "Restricted"). The visible units only depend on the hidden units, and vice versa, so we can update one whole layer at a time.
 
 This is still a local optimization method, so we can still get stuck in local optima. To avoid this, we use stochastic (random) neurons. Each neuron is on or off according to a probability that is established by its input current:
 $$
 \begin{align}
-P(v_{k}=1 \, | \,\vec{h})= \sigma(\Delta E_{k}) \\
-P(h_{j}=1\, | \,\vec{v}) = \sigma(\Delta E_{j}) \\[2ex] 
-\sigma(z)=\frac{1}{1+e^{-\frac{z}{T}}}
+P(v_i=1 \mid \vec{h}) &= \sigma\left(\sum_j W_{ij}h_j + b_i\right) \\[2ex]
+P(h_j=1 \mid \vec{v}) &= \sigma\left(\sum_i v_iW_{ij}+c_j\right) \\[2ex]
+\sigma(z) &= \frac{1}{1+e^{-z/T}}
 \end{align}
 $$
-where $T$ is a temperature parameter. This idea comes from statistical mechanics. Essentially, higher temperature makes the sigmoid curve flatten so that there is more movement back and fourth between the states. 
+where $T$ is a temperature parameter. This idea comes from statistical mechanics. Essentially, higher temperature makes the sigmoid curve flatter so that there is more movement back and forth between the states.
 
-Let's say we want to find out whether neuron $h_{j}\sim P(h_{j}=1 \, | \, v)$ is on:
-1. Evaluate its input $H=\sigma(\dots)$
+Let's say we want to find out whether neuron $h_j \sim P(h_j=1 \mid v)$ is on:
+1. Evaluate its probabilities $H=\sigma(vW+c)$
 2. For $j=1, \dots, n$:
-    - $r=\text{rand}\in (0,1)$
-    - If $H_{j}>r$:
-        - $h_{j}=1$
-    - Else:
-        - $h_{j}=0$
+   - $r=\text{rand}\in (0,1)$
+   - If $H_j > r$:
+     - $h_j=1$
+   - Else:
+     - $h_j=0$
 
-This produces a $\vec{h}\in \{ (0,1) \}^{n}$.
+This produces a $\vec{h}\in \{0,1\}^{n}$.
 
-This is basically a [[Bernoulli Distribution]] sampling process. 
+This is basically a [[Bernoulli Distribution]] sampling process.
 
-If we let our network run freely using the logistic function to compute the probability that the neuron is 1 vs. 0. Starting with some initial state $v^{(0)}$, we project up to $h^{(0)}$, project it down to get to $v^{(1)}$, project back up, etc…
+If we let our network run freely using the logistic function to compute the probability that each neuron is 1 vs. 0, starting with some initial state $v^{(0)}$, we project up to $h^{(0)}$, project it down to get $v^{(1)}$, project back up, etc.
 
 ![[Restricted Boltzmann Machines-1774317889359.webp|478]]
 
 We will eventually visit all possible network states, but not with equal probability. Instead we will visit state $(\vec{v}, \vec{h})$ with probability
 $$
-P(v,h)= \frac{1}{z}e^{-E(v, h)}
+P(v,h)= \frac{1}{Z}e^{-E(v, h)}
 $$
-where $z = \sum_{v,h}e^{-E(v,h)}$. This is essentially just softmax. 
+where
+$$
+Z = \sum_{v,h}e^{-E(v,h)}.
+$$
+This is a Gibbs/Boltzmann distribution over network states.
 
-If $E(v^{(1)}, h^{(1)})>E(v^{(1)}, h^{(1)})$, then the $P(v^{(1)}, h^{(1)})<P(v^{(2)}, h^{(2)})$. **Lower energy states are visited more frequently.** This is known as the **Boltzmann Distribution**.
+If
+$$
+E(v^{(1)}, h^{(1)}) > E(v^{(2)}, h^{(2)}),
+$$
+then
+$$
+P(v^{(1)}, h^{(1)}) < P(v^{(2)}, h^{(2)}).
+$$
+**Lower energy states are visited more frequently.** This is known as the **Boltzmann Distribution**.
 
 Example with 4 visible nodes and 2 hidden nodes (32 net states):
 
 ![[Restricted Boltzmann Machines-1774318091324.webp|523]]
 
-
 ## Training an RBM as a Generative Model
-Suppose we have inputs $v \sim p(v)$. We want an RBM to behave as a generative model $q_{\theta}$ such that:
+Suppose we have inputs $v \sim p(v)$. We want an RBM to behave as a generative model $q_\theta$ such that
 $$
-\underset{\theta}{\operatorname{max}} E_{v \sim p}[q_{\theta}(v)] \quad  \text{or equivalently} \quad  \underset{\theta}{\operatorname{min}}E_{v\sim p}[-\ln q_{\theta}(v)]
+\underset{\theta}{\operatorname{max}} \; \mathbb{E}_{v \sim p}[\log q_{\theta}(v)]
+\quad \text{or equivalently} \quad
+\underset{\theta}{\operatorname{min}} \; \mathbb{E}_{v\sim p}[-\ln q_{\theta}(v)].
 $$
-Let $L=-\ln q_{\theta}(\vec{\nu})$ for a given fixed $\vec{\nu}$.
-Then:
+
+Let
+$$
+L=-\ln q_{\theta}(\vec{\nu})
+$$
+for a given fixed $\vec{\nu}$. Then:
 $$
 \begin{align}
 L   & = -\ln\left( \frac{1}{Z} \sum_{h} e^{-E_{\theta}(\nu,h)} \right) \\[2ex]
- & =-\ln\left( \sum_{h} e^{-E_{\theta}(\nu,h)} \right) + \ln\left( \sum_{v}\sum_{h} e^{-E_{\theta}(\nu,h)} \right) \\[2ex]
+ & =-\ln\left( \sum_{h} e^{-E_{\theta}(\nu,h)} \right) + \ln\left( \sum_{v}\sum_{h} e^{-E_{\theta}(v,h)} \right) \\[2ex]
      & = L_{1} + L_{2}
 \end{align}
 $$
 Thus, we can decompose the loss into $L=L_{1}+L_{2}$.
 
-To do gradient descent, we need to find the gradients. 
+To do gradient descent, we need to find the gradients.
 
 ### Gradient of $L_{1}$
 $$
-\nabla_{\theta}L_{1} = \mathbb{E}_{q(h | \nu)} [\nabla_{\theta}E_{\theta}]
+\nabla_{\theta}L_{1} = -\mathbb{E}_{q(h \mid \nu)} [\nabla_{\theta}E_{\theta}]
 $$
-- $q(h | \nu)$ is the distribution of $h$ conditioned on the fixed $\nu$
+- $q(h \mid \nu)$ is the distribution of $h$ conditioned on the fixed $\nu$
 
 ### Gradient of $L_{2}$
 $$
@@ -124,123 +147,142 @@ $$
 - $q(v,h)$ is the joint distribution over $v$ and $h$
 
 ### Gradient for $W_{ij}$
-What is the gradient of $\nabla_{\theta}E_{\theta}$? Consider $\theta=w_{ij}$. 
+What is the gradient of $\nabla_{\theta}E_{\theta}$? Consider $\theta=w_{ij}$.
 
 Recall:
 $$
-E(v,h)  = -\sum_{i=1}^{m}\sum_{j=1}^{n}v_{i}W_{ij}h_{j} + \sum_{i=1}^{m}b_{i}v_{i}+\sum_{j=1}^{n}c_{j}h_{j}\\[2ex] 
+E(v,h)  = -\sum_{i=1}^{m}\sum_{j=1}^{n}v_{i}W_{ij}h_{j} - \sum_{i=1}^{m}b_{i}v_{i}-\sum_{j=1}^{n}c_{j}h_{j}
 $$
 Then:
 $$
 \begin{align}
-\nabla_{w_{ij}}E(\nu, h) = -\nu_{i}h_{j} \quad \text{and} \quad \nabla_{w_{ij}}E(v,h) = -v_{i}h_{j} \\[2ex] 
-\therefore \nabla_{w_{ij}}L = \underbrace{ \mathbb{E}_{q(h|\nu)}[\nu_{i}h_{j}] }_{ \text{term 1} }-\underbrace{ \mathbb{E}_{q(v,h)}[v_{i}h_{j}] }_{ \text{term 2} }
+\nabla_{w_{ij}}E(\nu, h) &= -\nu_{i}h_{j} \\[1ex]
+\nabla_{w_{ij}}E(v,h) &= -v_{i}h_{j} \\[2ex]
+\therefore \nabla_{w_{ij}}L
+&= -\underbrace{ \mathbb{E}_{q(h|\nu)}[\nu_{i}h_{j}] }_{ \text{term 1} }
++\underbrace{ \mathbb{E}_{q(v,h)}[v_{i}h_{j}] }_{ \text{term 2} }
 \end{align}
 $$
+
 **Term 1.** This is the expected value under the posterior distribution. We clamp visible states to $\nu$:
 $$
-q(h_{i}\, | \,\vec{\nu}) = \sigma(-\vec{\nu}W_{ij}+c_{j})
+q(h_j = 1\, | \,\nu) = \sigma\left(\sum_i \nu_i W_{ij}+c_j\right)
 $$
-Note that this calculates the hidden $h_{j}$ Bernoulli probabilities! It does not actually give us the binary hidden units.
+or, in vector form,
+$$
+q(h = 1 \mid \nu)=\sigma(\nu W+c).
+$$
+Note that this calculates the hidden Bernoulli probabilities; it does not actually give us the binary hidden units.
 
 Then
 $$
-\mathbb{E}_{q(\vec{h}|\vec{\nu})} [\nu_{i}h_{j}] = -\nu_{i}\sigma(-\nu W_{ij}+c_{j})
-$$
-Computing for all the weights at once:
-$$
-\nabla_{w}L_{1} = -\vec{\nu}^{T}\sigma(-\vec{\nu}W+\vec{c})
+\mathbb{E}_{q(\vec{h}|\vec{\nu})} [\nu_{i}h_{j}] = \nu_{i}\,q(h_j=1\mid \nu)
+= \nu_i \sigma\left(\sum_k \nu_k W_{kj}+c_j\right).
 $$
 
-**Term 2.** This is the expected value under the joint distribution. Compute:
+Computing for all the weights at once:
 $$
-\mathbb{E}_{q(\vec{v}, \vec{h})}[v_{i}h_{j}] = \sum_{\vec{v}}\sum_{\vec{h}}q(\vec{v}, \vec{h})v_{i}h_{j}
+\nabla_{W}L_{1} = -\vec{\nu}^{T}\sigma(\vec{\nu}W+\vec{c}).
 $$
-We could find this by running the network freely for a lot of iterations and sampling the results. In practice, a single net state is used.
+
+**Term 2.** This is the expected value under the joint distribution:
+$$
+\mathbb{E}_{q(\vec{v}, \vec{h})}[v_{i}h_{j}] = \sum_{\vec{v}}\sum_{\vec{h}}q(\vec{v}, \vec{h})v_{i}h_{j}.
+$$
+We could estimate this by running the network freely for a lot of iterations and sampling the results. In practice, a single network state is often used.
 
 ![[Restricted Boltzmann Machines-1774319740342.webp]]
 
-We start with the fixed $\nu$ and then project it up to get the hidden probabilities. This is done as part of the calculation for $\nabla_{w}L_{1}$. Then, we use the probabilities, sample to get a binary $h$. We project down to get a new visible state, and then project up again. We use this $v$ and $h$ as a single sample to get
+We start with the fixed $\nu$ and project it up to get hidden probabilities. Then we sample to get a binary hidden state $h$. We project down to get a new visible state, and then project up again. Using one such sample, we approximate:
 $$
-\nabla_{w}L_{2} = \vec{v}^{T}\sigma(-\vec{v}W+\vec{c})
+\nabla_{W}L_{2} \approx \vec{v}^{T}\sigma(\vec{v}W+\vec{c}).
 $$
+
 To update all weights in $W$:
 $$
 \begin{align}
-W  & = W-\kappa(\nabla_{w}L_{1}+\nabla_{w}L_{2}) \\
-     & = W + \kappa  \underbrace{ \vec{\nu}^{T}\sigma(-\vec{\nu}W+\vec{c})  }_{ \text{clamped} }- \kappa \underbrace{ \vec{v}^{T}\sigma(-\vec{v}W+\vec{c}) }_{ \text{free} }
+W &\leftarrow W-\kappa(\nabla_{W}L_{1}+\nabla_{W}L_{2}) \\[2ex]
+&\approx W + \kappa \underbrace{\vec{\nu}^{T}\sigma(\vec{\nu}W+\vec{c})}_{\text{clamped}}
+- \kappa \underbrace{\vec{v}^{T}\sigma(\vec{v}W+\vec{c})}_{\text{free}}
 \end{align}
 $$
-We call the up pass (from visible to hidden) **recognition**.  We call the down pass (hidden to visible) **generation**.
+
+We call the up pass (from visible to hidden) **recognition**. We call the down pass (hidden to visible) **generation**.
 
 ## Contrastive Divergence for Training RBMs
-This algorithm is based on a comparison between the original input, and how well it can be reconstructed from the resulting hidden-layer state.
+This algorithm is based on a comparison between the original input and how well it can be reconstructed from the resulting hidden-layer state.
 
-We are given an input pattern $\vec{\nu}$ with $m$ visible nodes and $n$ hidden nodes. 
+We are given an input pattern $\vec{\nu}$ with $m$ visible nodes and $n$ hidden nodes.
 
-**1.** Recognition pass 1. Given a visible pattern $\vec{\nu}$, we compute hidden probabilities.
+**1. Recognition pass 1.** Given a visible pattern $\vec{\nu}$, we compute hidden probabilities:
 $$
 P(\vec{h}\, | \, \vec{\nu}) = \sigma(\vec{\Delta E})
 $$
-where $\vec{\Delta E}=-\vec{\nu}W+\vec{c}$. 
+where
+$$
+\vec{\Delta E}=\vec{\nu}W+\vec{c}.
+$$
 
-**2.** Compute term 1 (the co-occurence statistics): how many times $h$ and $v$ are both on simultaneously>
+**2. Compute term 1** (the co-occurrence statistics: how many times $h$ and $v$ are both on simultaneously):
 $$
-s_{1}=\vec{\nu}^{T}\sigma(\vec{\Delta E})
+s_{1}=\vec{\nu}^{T}\sigma(\vec{\Delta E}).
 $$
-**3.** Generative pass: We sample the Bernoulli process for the hidden nodes:
-$$
-\vec{h}_{1} \sim \sigma(\vec{\Delta E}) \in  \{ 0,1 \}^{n}
-$$
-Projecting down gives us the energy gap for the visible nodes:
-$$
-\vec{\Delta E} = -W\vec{h}_{1}^{T}+\vec{b}
-$$
-Computing the Bernoulli probabilities of the visibles given the hidden:
-$$
-P(\vec{\nu}\, | \,\vec{h}_{1}) = \sigma(\vec{\Delta E})
-$$
-Sample $\vec{v}_{2} \sim P(\vec{\nu}\, | \,\vec{h}_{1}) \in \{ 0,1 \}^{m}$.
 
-**4.** Recognition pass 2:
+**3. Generative pass.** Sample the hidden nodes:
 $$
-\begin{align}
-\vec{\Delta E}= -\vec{v}_{2}W+\vec{c} \\
-\end{align}
+\vec{h}_{1} \sim \sigma(\vec{\Delta E}) \in  \{ 0,1 \}^{n}.
 $$
-We can sample $\vec{h}_{2} \sim \sigma(\vec{\Delta E})$ or use $\sigma(\vec{\Delta E})$ directly.
+Projecting down gives the visible pre-activation:
+$$
+\vec{\Delta E} = W\vec{h}_{1}^{T}+\vec{b}.
+$$
+Computing the Bernoulli probabilities of the visible units given the hidden state:
+$$
+P(\vec{v}\, | \,\vec{h}_{1}) = \sigma(\vec{\Delta E}).
+$$
+Sample
+$$
+\vec{v}_{2} \sim P(\vec{v}\, | \,\vec{h}_{1}) \in \{ 0,1 \}^{m}.
+$$
 
-**5.** Compute term 2 co-occurence states:
+**4. Recognition pass 2.**
 $$
-s_{2} = \vec{v}_{2}h_{2}
+\vec{\Delta E}= \vec{v}_{2}W+\vec{c}.
 $$
-**6.** Update weights:
+We can sample
 $$
-W_{\text{new}}=W_{\text{old}}+\kappa(s_{1}-s_{2})
+\vec{h}_{2} \sim \sigma(\vec{\Delta E})
 $$
-This is essentially using a reconstruction loss between the co-occurrence statistics for the input ($s_{1}$) and the co-occurrence statistics for the reconstruction ($s_{2}$).
+or use $\vec{h}_{2} = \sigma(\vec{\Delta E})$ directly.
+
+**5. Compute term 2** co-occurrence statistics:
+$$
+s_{2} = \vec{v}_{2}^{T}\vec{h}_{2}.
+$$
+
+**6. Update weights:**
+$$
+W_{\text{new}}=W_{\text{old}}+\kappa(s_{1}-s_{2}).
+$$
+
+This is essentially comparing the co-occurrence statistics for the input ($s_{1}$) with the co-occurrence statistics for the reconstruction ($s_{2}$).
 
 Update biases:
 $$
-\vec{b}_{\text{new}}=\vec{b}_{\text{old}}-\gamma(\vec{\nu}-\vec{v}_{2})
+\vec{b}_{\text{new}}=\vec{b}_{\text{old}}+\gamma(\vec{\nu}-\vec{v}_{2})
 $$
 $$
-\vec{c}_\text{new} = \vec{c}_{\text{old}}-\gamma(\vec{h}_{1}-\vec{h}_{2})
+\vec{c}_\text{new} = \vec{c}_{\text{old}}+\gamma(\vec{h}_{1}-\vec{h}_{2}).
 $$
+
 Training algorithm:
-```
-for each temp T = 20, 10, 5, 2,1
+
+```text
+for each temperature T = 20, 10, 5, 2, 1
     for each of 400 epochs
-        for each V batch (visibles from data)
+        for each V batch (visible patterns from data)
             add some noise (optional)
             project up: V -> H1, collect S1
-            project down & up: H1 -> V1 -> H2: Collect S2
-            update weights & biases
+            project down and up: H1 -> V1 -> H2, collect S2
+            update weights and biases
 ```
-
-1. Look at the real data and infer which hidden features are probably present.
-2. Record the visible-hidden associations found in the real data.
-3. Sample hidden features and use them to reconstruct the visible pattern.
-4. Look at the reconstruction and infer which hidden features it implies.
-5. Record the visible-hidden associations found in the reconstruction.
-6. Adjust parameters so real-data associations become more likely and reconstruction-only associations become less likely.

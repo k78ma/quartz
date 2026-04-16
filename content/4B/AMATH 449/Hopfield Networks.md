@@ -193,7 +193,7 @@ x_i = \begin{cases}
 1 & \text{if } (\vec x W)_i + b_i \ge 0 
 \end{cases}
 $$
-Note that Hopfield networks are asynchronous, such that only one unit is updated at one time.
+Note that Hopfield networks are usually asynchronous, such that only one unit is updated at one time.
 
 We have:
 $$
