@@ -97,6 +97,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Receptive Field]]
 - [[2D Convolution]]
     - [[2D Convolution Example]]
+- [[Downsampling and Upsampling]]
 
 ## Residual Networks
 

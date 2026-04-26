@@ -80,7 +80,7 @@ This method works best if the network states, $\{ x^{(1)}, \dots, x^{(m)} \}$ ar
 Hopfield recognized a link between these network states and the Ising model in physics. 
 - Ising model: Lattice of interacting magnetic dipoles, each of which can be "up" or "down". The state of each dipole depends on its neighbors.
 
-Hopfield energy is a scalar number that we compute for any network state $\vec{x}\in \{ -1, 1 \}^{N}$. The dynamics are defined such that updating neurons makes $E$ decrease, so that the network falls into low-energy states, which correspond to the stored memories/patterns.
+Thus, Hopfield energy is a scalar number that we compute for any network state $\vec{x}\in \{ -1, 1 \}^{N}$. The dynamics are defined such that updating neurons makes $E$ decrease, so that the network falls into low-energy states, which correspond to the stored memories/patterns.
 
 Hopfield energy is defined as:
 $$
@@ -91,7 +91,7 @@ E  & = -\frac{1}{2}x^{T}Wx - b^{T}x
 $$
 where $W_{ii}=0$.
 
-Intution:
+Intuition:
 - If $x_{i}$ and $x_{j}$ are the same sign, their product is positive. Then, we want $W_{ij}$ to be positive. Since we have $-\frac{1}{2}$ at the front, the whole term will be negative, such that a good state corresponds to low energy.
 - The $\sum_{j}b_{j}x_{j}$ term reflects that there is a cost to each node being on/off. If the node is on, it reduces the energy by $b_{j}$.
 

@@ -13,7 +13,7 @@ A basic idea is to adversarial samples to our training set and re-train. That he
 ![[Adversarial Defence-1775326094401.webp|496]]
 
 
-What if we built this process into our training? We can incorporate a mini adversarial attack into every gradient step while trainig.
+What if we built this process into our training? We can incorporate a mini adversarial attack into every gradient step while training.
 
 ## TRADES
 'TRadeoff-inspired Adversarial DEfense via Surrogate loss minimization" uses an idea like this.

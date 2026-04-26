@@ -66,9 +66,9 @@ How does this make a difference with respect to solving the exploding/vanishing 
 
 We have:
 $$
-c_{t}=f_{t} \odot c_{t-1} + i_{t} \odot \tilde{c}_{t-1}
+c_{t}=f_{t} \odot c_{t-1} + i_{t} \odot \tilde{c}_{t}
 $$
-How does $\nabla_{c_{t-1}}E$ depend on $\nabla_{c_{t}}E$? We hae:
+How does $\nabla_{c_{t-1}}E$ depend on $\nabla_{c_{t}}E$? We have:
 $$
 \nabla_{c_{t-1}}E= \nabla _{c_{t}}E \odot f_{t} +\text{other stuff}
 $$

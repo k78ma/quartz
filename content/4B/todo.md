@@ -5,17 +5,6 @@ draft: "true"
 
 ---
 
-## April 16
-
-- [ ] Neural Engineering Review<br>#amath449
-- [ ] Midterm Review<br>#amath449
-- [ ] Practice Midterm Review<br>#amath449
-- [ ] Cheat Sheet<br>#amath449
-- [ ] A4 Review<br>#amath449
-- [ ] A5 Review<br>#amath449
-- [ ] Extra Assignment Questions<br>#amath449
-
-
 ## April 17
 
 
@@ -276,6 +265,14 @@ draft: "true"
 - [ ] Remaining Exercises<br>#amath449
 - [ ] Hopfield and RBM Review<br>#amath449
 - [ ] Practice Final Questions<br>#amath449
+- [ ] Neural Engineering Review<br>#amath449
+- [ ] Cheat Sheet<br>#amath449
+- [ ] Midterm Review<br>#amath449
+- [ ] Practice Midterm Review<br>#amath449
+- [ ] A5 Review<br>#amath449
+- [ ] A4 Review<br>#amath449
+- [ ] Extra Assignment Questions<br>#amath449
+- [ ] Synthetic Questions<br>#amath449
 
 %% kanban:settings
 ```

@@ -34,6 +34,8 @@ aliases: amath 449 - neural networks
 - [[Recurrent Neural Networks]]
 - [[Long Term Short Memory]]
 - [[Gated Recurrent Unit]]
+
+### Adversarial Attacks
 - [[Adversarial Attacks]]
 - [[Adversarial Defence]]
 
