@@ -1,13 +1,16 @@
 ---
-title: Downsampling and Upsampling
+title: Operations on Image Representations
 tags:
   - dl
-date: 2026-04-21
+date: 2026-04-25
 aliases:
+  - operations on image representations
   - downsampling
   - upsampling
+  - max pooling
   - bilinear interpolation
   - transposed convolution
+  - 1x1 convolution
 ---
 Downsampling, upsampling, and changing the number of channels can be useful for working with 2D representations.
 

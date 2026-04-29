@@ -81,15 +81,18 @@ All of this can be taken together as a sort of compounding return or a positive 
 
 One valid point is that you still start at the same position as other schools; as a first-year, everyone has basically nothing on their resumes. Waterloo tries to make this a bit easier through their internal job board, WaterlooWorks, such that you have less competition (don't have to compete against other schools). I definitely found WaterlooWorks to be helpful in securing my first few positions, but it certainly does not "guarantee" you a job in any way; lots of people struggle with finding their first few co-ops. After the first few, people tend to move off of WaterlooWorks and just apply directly, to get access to a wider pool of jobs, taking advantage of the fact that their resume is now more likely to be strong enough to compete.
 
-## Advice
+### Co-op Advice
+I think people tend to overcomplicate their co-op advice. In general you just want to follow this loop:
+1. Look at job descriptions/requirements for the jobs you want.
+2. Try to 
+3. 
+
+## Miscellaneous FAQ
 
 ### Streams
 A popular question that shows up often on Reddit is "should I choose stream 4 or stream 8?" The 
 ### Return Offers
 
-
-
-## Other
 ### Finances
 ### Culture
 

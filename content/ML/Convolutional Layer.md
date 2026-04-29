@@ -46,3 +46,4 @@ $$
 n^{l}= \left \lceil \frac{n^{l-1} + 2\cdot p^{l}-(k^{l}-1)}{s^{l}} \right \rceil
 $$
 Any bias terms are simply applied with element-wise addition.
+
