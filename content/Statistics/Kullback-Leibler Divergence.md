@@ -7,6 +7,8 @@ aliases:
   - relative entropy
   - KL divergence
 ---
+- [Six (and a half) intuitions for KL divergence](https://www.perfectlynormal.co.uk/blog-kl-divergence)
+
 Kullback-Leibler Divergence, or relative entropy, measures the dissimilarity between two distributions.
 
 Consider some unknown distribution $p(\mathbf{x})$, approximated by a distribution $q(\mathbf{x})$. 
