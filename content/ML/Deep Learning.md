@@ -98,10 +98,11 @@ Some of these notes are also included in [[Machine Learning]].
 - [[2D Convolution]]
     - [[2D Convolution Example]]
 - [[Operations on Image Representations]]
+- [[AlexNet]]
+- [[VGG]]
+- [[YOLO]]
 
-- [[Image Classification]]
-    - [[AlexNet]]
-    - [[VGG]]
+
 
 ## Residual Networks
 
