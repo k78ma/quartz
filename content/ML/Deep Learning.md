@@ -101,6 +101,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[AlexNet]]
 - [[VGG]]
 - [[YOLO]]
+- [[Semantic Segmentation]]
 
 
 

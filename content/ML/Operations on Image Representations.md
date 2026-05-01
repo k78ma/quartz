@@ -11,6 +11,7 @@ aliases:
   - bilinear interpolation
   - transposed convolution
   - 1x1 convolution
+  - max unpooling
 ---
 Downsampling, upsampling, and changing the number of channels can be useful for working with 2D representations.
 
