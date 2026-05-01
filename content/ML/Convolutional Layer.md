@@ -28,7 +28,7 @@ If there are $D$ inputs $x_{\bullet}$ and $D$ hidden units $h_{\bullet}$, this f
 ![[Convolutional Layer-1767335688261.webp]]
 
 ## Convolutions as image filter banks
-Each 2D convolution operation performs as an [[Image Filter]]. We can stack multiple convolutions on top of each other ([[Feature Map|channels]]), such that we lose less information while being much more efficient than a FC layer in terms of number of weights.
+Each [[2D Convolution|2D convolution]] operation performs as an [[Image Filter]]. We can stack multiple convolutions on top of each other ([[Feature Map|channels]]), such that we lose less information while being much more efficient than a FC layer in terms of number of weights.
 
 The goal is to have each filter (conv kernel) of an [[Image Filter Bank]] correspond to a single neural network layer. Each filter corresponds to one output feature map (channel).
 
