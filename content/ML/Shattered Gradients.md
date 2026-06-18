@@ -46,3 +46,9 @@ This conjecture is supported by empirical observations of gradients in networks 
 > where $\tau$ is the time lag. Sometimes, this is normalized by $r[0]$ so that the autocorrelation at time lag zero is one. 
 > 
 > The autocorrelation function is a measure of the correlation of the function with itself as a function of an offset (i.e., the time lag). If a function changes slowly and predictably, then the autocorrelation function will decrease slowly as the time lag increases from zero. If the function changes fast and unpredictably, then it will decrease quickly to zero.
+
+Shattered gradients presumably arise because changes in early network layers modify the output in an increasingly complex way as the network becomes deeper. The derivate of the output with respect to the first layer $f_{1}$ for our sequential network is:
+$$
+\frac{ \partial y }{ \partial f_{1} } = \frac{ \partial f_{2} }{ \partial f_{1} } \frac{ \partial f_{3} }{ \partial f_{2} } \frac{ \partial f_{4} }{ \partial f_{3} } 
+$$
+When we change the parameters that determine $f_{1}$, all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}, f_{3}, f_{4}$ are themselves computed from $f_{1}$. Consequently, the updated gradient at each training example may be completely different, and the loss function becomes badly behaved.
