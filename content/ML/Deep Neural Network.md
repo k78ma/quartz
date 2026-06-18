@@ -5,11 +5,16 @@ tags:
 date: 2025-04-15
 aliases:
   - deep neural network
+  - hidden layer
 ---
 We have seen that [[Composing Shallow Networks|composing shallow networks]] can give us complex functions. We can extend this to construct deep networks with more than two hidden layers; modern networks have hundreds of layers with thousands of hidden units at each layer.
 - The number of hidden units in each layer is referred to as the *width* of the network
 - The number of hidden layers is the *depth*
 - The total number of hidden units is a measure of network *capacity*
+
+
+> [!definition] Nomenclature: Hidden layer
+> A hidden layer refers to the actually computed intermediate representation, not the weights and biases that are computing the representation.
 
 ## Hyperparameters
 We denote the number of layers as $K$ and the number of hidden units in each layer as $D_{1}, D_{2},\dots,D_{K}$. These are examples of *hyperparameters*. They are quantities chosen before we learn the model parameters (i.e., the slope and intercept terms). For fixed hyperparameters (e.g., $K=2$ and $D_{k}=3$ hidden units each), the model describes a family of functions, and the parameters determine the particular function. Hence, when we also consider the hyperparameters, we can think of neural networks as representing a family of families of functions relating input to output. 

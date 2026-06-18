@@ -103,10 +103,9 @@ Some of these notes are also included in [[Machine Learning]].
 - [[YOLO]]
 - [[Semantic Segmentation]]
 
-
-
 ## Residual Networks
-
+- [[Residual Block]]
+- [[Shattered Gradients]]
 
 ## Transformers
 - [[Attention]]

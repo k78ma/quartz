@@ -5,7 +5,7 @@ tags:
 date: 2026-04-19
 aliases: uwaterloo mechatronics
 ---
-This post is a part-review, part-advice written at the end of my undergrad at University of Waterloo in the Mechatronics Engineering program (colloquially referred to as Tron). My aim here is to give a holistic, realistic summary of my Tron experience. Note that everything is written based on my personal experience and anecdotes from people around me; thus, it is definitely not representative of other people's experiences. Take everything with a grain of salt!
+This post is a part-review, part-advice written at the end of my undergrad at University of Waterloo in the Mechatronics Engineering program (colloquially referred to as Tron). My aim here is to give a holistic, realistic summary of my Tron experience, and some advice that you might find helpful. Note that everything is written based on my personal experience and anecdotes from people around me; thus, it is definitely not representative of other people's experiences. Take everything with a grain of salt!
 
 **Who is this for?** This is primarily aimed at prospective students (or parents of prospective students) thinking about going to Waterloo for engineering, though much of the content would likely be helpful for current students as well. Essentially, I tried to answer the questions that I had when I was an applicant and in my younger years. I assume that the reader has some basic knowledge of Waterloo engineering; if there's some terminology you don't understand, you may need to search it up elsewhere.
 
@@ -83,23 +83,43 @@ One valid point is that you still start at the same position as other schools; a
 
 ### Co-op Advice
 I think people tend to overcomplicate their co-op advice. In general you just want to follow this loop:
-1. Look at job descriptions/requirements for the jobs you want.
-2. Try to 
-3. 
+1. Look at job descriptions to find out the qualifications/skills required for your dream job.
+2. Try to put things on your resume that prove you have the required qualifications and skills; this could be projects, design teams, or getting a job in a related area.
+3. Repeat!
+
+That's really all there is to it; following this, your resume will gradually improve in the direction of your dream job until you're qualified for it. There is the separate problem of interview prep, but I believe there's enough resources out there already. Most of the time, you just want to come off as qualified in the skills that they want, and maybe be able to solve whatever assessment or puzzle they throw your way; unfortunately, sometimes these assessments might not correlate to the actual job as is often the case with software engineering and LeetCode. 
+
+While the above sounds simple, it is very important to internalize that the job search process is inherently very random. You can have an incredibly qualified resume for a position but simply not have it seen by a recruiter. You can get unlucky with interviews. A lot of the time, especially early on in your career, it's not a skill issue, so don't be too discouraged if you fail. If you fail because of a skill issue, then just work on your skills, there's absolutely no shame in that either.
 
 ## Miscellaneous FAQ
 
 ### Streams
-A popular question that shows up often on Reddit is "should I choose stream 4 or stream 8?" The 
-### Return Offers
+A popular question that shows up often on Reddit is "should I choose stream 4 or stream 8?" This is an interesting question because it is both unimportant and greatly important at the same time. 
 
+From a co-op standpoint, a lot of advice online advocates for stream 8 because it give you more time until your first co-op, which gives you more time to prepare and beef up your resume. It also has co-ops 5 and 6 back-to-back at the end, so you can do 8 months at the same company, giving you a better idea of life as a full-timer and maybe making it easier to secure a full-time return offer. I don't think this advice is wrong but I don't think it's particularly strong either; you can absolutely do perfectly fine in stream 4, and it has its own advantages. While stream 4 throws you into your first co-op search right away, it might be a bit easier to find a job because it's for the winter term, not for summer, which is more competitive. Furthermore, I think the back-to-back co-op 5 and 6 are not necessarily better; while it is true that you can do an 8-month term this way, not many people I know actually did this, as most people prefer to seek out new experiences. In that case, the back-to-back terms might actually make your life more stressful, as you either have to find two jobs at once, or find your sixth co-op while still working at your fifth.
 ### Finances
-### Culture
+Waterloo Engineering is pretty expensive for Canadian standards; it's probably one of the most expensive programs in the country. However, compared to the U.S., it is much much cheaper. For reference. my tuition per term was around $7k CAD when I started to $10k near the end of my degree for my per term as an out-of-province student. Notably, you can make a lot of money on co-op to offset the cost, and the cost of living in Waterloo is relatively low. For most domestic Canadian students around me, people have made enough money from co-op or have solid full-time return offers such that no one seems to be stressed about debt, or are actually graduating with extra money. Thus, for domestic students, Waterloo seems to be a great choice from a financial standpoint.
 
+If you're an international student, this can be quite different, as the tuition is approximately 3.5x more. In that case, I'm much more hesitant to advocate for the financial benefits of Waterloo; I will say that it still seems to be much cheaper than American schools of similar caliber.
+### Life and Culture
+One of the biggest complaints about Waterloo is the quality of life. Waterloo is definitely not as vibrant in terms of social life as some party schools, but I definitely still think there's lots of stuff to do. People definitely party (especially for Halloween and St. Patty's), and there's plenty of chances to go to Laurier parties down the street as well.
+
+Another aspect that is often criticized is the "toxic" culture. Supposedly, the co-op grind makes people very cut-throat and fosters a competitive environment. I really have not found this to be case. There are definitely some people who care heavily about things like prestige and clout, or treat every social interaction as a networking opportunity, but in general people are not like this. In reality, life is just not really a zero-sum game. Just because I got a high grade in some course, doesn't mean you can't do the same; there's no set quota or forced curve. The same goes for jobs; just because I got a job at some company does not mean I took your spot (unless it's some very very small company). Thus, the feeling is generally that you are not competing with your classmates but more like being in the trenches together. People are helpful and supportive when you ask for help with academics and job searching/interviewing. If you're a current student and your friend group is not like this, maybe go make some new friends.
+
+### Why did I personally choose Waterloo and Tron?
+Why did I specifically choose Waterloo when I was in high school? I got into some pretty good American schools, but the cost of tuition there is simply insane. It's also hard to get large scholarships to cover the tuition (or I'm just not smart enough), especially as an international student; the most I got offered was $25k/year, which is sizeable but still not enough. One of my older cousins attended Waterloo and has been very successful in industry. Scrolling through LinkedIn, I found that this seemed to be the case for a lot of people, with plenty of Waterloo Alumni doing very cool stuff both during their degrees and after graduating. I was also considering UofT, but they seemingly ignored my application (don't even get me started on this, still makes me mad to this day), so I ended up at Waterloo.
+
+I was accepted into CS and SE as well but ultimately picked Tron. This was mostly just a personal preference; looking at the CS and SE courses, I didn't really feel much interest. I think while I do like writing software, the scope of my interests in software is quite narrow, so many of the CS/SE courses simply did not speak to me. Tron is more grounded in the physical world (I really liked physics in high school), and seemed to be still keep the door to software open.
+Lastly, I liked the idea of having a broad base of knowledge, which Tron provided. 
+### Waterloo vs. Stanford vs. MIT vs. …
+How does Waterloo compare to other schools? I can't really say for sure because I've never attended other schools; I can only make an educated guess based on my experiences at Waterloo and interacting with students from other schools. 
+
+Compared to the elite American schools, I would definitely say that Waterloo provides the same opportunities in the tech, finance and other adjacent spaces. Furthermore, the smartest students at Waterloo are probably on the same level as the smartest students from those schools; you can see this from things like competition results, etc. However, it is true that those schools usually have a higher bar for admission, lower acceptance rate, and larger candidate pool than Waterloo, so the average level at those schools might be higher. 
+
+If you have a Waterloo offer and an offer to one of these schools, I don't think it's an easy decision to make; these schools often have more clout, and for good reason. However, do keep in mind what I said before: Waterloo is provides the same opportunities, especially in the tech, and it's world ranking is still decent. It will also cost much less. Thus, the decision is still ultimately just up to your personal circumstances and desires.
 
 ## Personal statistics
-Below I've compiled some numbers and statistics from my time at Waterloo.
-
+Below I've compiled some numbers and statistics from my time in Waterloo for the curious to see.
 ### Academics
 Grade averages per term:
 
@@ -112,8 +132,8 @@ Grade averages per term:
 | 3A      | 89.40               |
 | 3B      | N/A – exchange term |
 | 4A      | 92.60               |
-| 4B      | 94.25               |
-| Overall |                     |
+| 4B      | 94.25?              |
+| Overall | 87.72?              |
 
 Lowest and highest grades: MTE 119 (64), MTE 241 (100)
 Favourite and least favourite courses:
@@ -121,25 +141,24 @@ Favourite and least favourite courses:
 ### Co-op
 Co-op location and salary:
 
-| Co-op term | Location          | Hourly salary |
-| ---------- | ----------------- | ------------- |
-| 1          | Remote            | $22.50 CAD    |
-| 2          | Remote            | $26.00 CAD    |
-| 3          | San Francisco, CA | $50.00 USD    |
-| 4          | San Fransisco, CA | $50.00 USD    |
-| 5          | Remote            | $41.00 CAD    |
-| 6          | Santa Clara, CA   | $70.25 USD    |
+| Co-op term | Location                   | Hourly salary |
+| ---------- | -------------------------- | ------------- |
+| 1          | Remote (lived in Waterloo) | $22.50 CAD    |
+| 2          | Waterloo, ON               | $26.00 CAD    |
+| 3          | San Francisco, CA          | $50.00 USD    |
+| 4          | San Fransisco, CA          | $50.00 USD    |
+| 5          | Remote (lived in Waterloo) | $41.00 CAD    |
+| 6          | Santa Clara, CA            | $70.25 USD    |
+
 Note that my hourly salary calculation here includes all compensation that lands in my bank account, such as housing stipends for my 6th co-op term. However, it excludes other perks such as plane tickets, free food, gym access, etc. 
 
-## FAQ
-### Why did I choose Waterloo?
-
-### Waterloo vs. Stanford vs. MIT vs. …
-How does Waterloo compare to other schools? I can't really say for sure because I've never attended other schools; I can only make an educated guess based on my experiences.
-
-
 ## Tron Alumni
-
+Below is a non-exhaustive list of people who graduated from Waterloo Mechatronics and have done cool things (at least in my view), in no particular order.
+- [Russell Wong](https://www.linkedin.com/in/russwong89/)
+- [Clayton Haight](https://clayhaight.com/index.html)
+- [Ethan Childerhose](https://www.linkedin.com/in/ethan-childerhose/)
+- [Owen Brake](https://www.linkedin.com/in/owenbrake/)
+- [Sanjeevani Lakshmivarahan](https://www.linkedin.com/in/sanjlakshmi/)
 
 ## Resources
 - [Andrej's advice for success](https://cs.stanford.edu/people/karpathy/advice.html)

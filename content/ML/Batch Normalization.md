@@ -5,6 +5,7 @@ tags:
 date: 2024-01-27
 aliases:
   - BatchNorm
+  - batch normalization
 ---
 Batch normalization in an improvement on [[Dropout]], and was originally designed to address [[Covariate Shift|covariate shift]].
 

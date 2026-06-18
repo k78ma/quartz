@@ -6,6 +6,7 @@ date: 2025-08-11
 aliases:
   - parameter initialization
   - He initialization
+  - weight initialization
 ---
 How do we initialize parameters before training?
 
