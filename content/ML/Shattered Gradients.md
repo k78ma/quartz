@@ -33,19 +33,10 @@ In principle, we can add as many layers as we want; we've seen that adding more 
 
 This phenomenon is not complete understood. One conjecture is that at initialization, the loss gradients change unpredictably when we modify parameters in early network layers. With appropriate [[Parameter Initialization|weight initialization]], the gradient of the loss with respect to these parameters will be reasonable (no [[Vanishing + Exploding Gradient Problem|vanishing/exploding gradient]]). However, the derivative assumes an infinitesimal change in the parameter, whereas our optimization uses a finite step-size. Any reasonable choice of step size may move to a place with a completely different and unrelated gradient; the loss surface looks like a range of tiny mountains rather than a smooth structure. Thus, we don't make progress in the way that we do when the loss function gradient changes more slowly.
 
-This conjecture is supported by empirical observations of gradients in networks with a single input and output. For a shallow network, the gradient of the output with respect to the input changes slowly as we change the input. However, for a deep network, a tiny change in the input results in a completely different gradient. This is captured by the autocorrelation function of the gradient; nearby gradients are correlated for shallow networks, but this correlation quickly drops to zero for deep networks. This is termed the *shattered gradients* phenomenon.
+This conjecture is supported by empirical observations of gradients in networks with a single input and output. For a shallow network, the gradient of the output with respect to the input changes slowly as we change the input. However, for a deep network, a tiny change in the input results in a completely different gradient. This is captured by the [[Autocorrelation Function|autocorrelation function]] of the gradient; nearby gradients are correlated for shallow networks, but this correlation quickly drops to zero for deep networks. This is termed the *shattered gradients* phenomenon.
 
 ![[Shattered Gradients-1781670752503.webp]]
 
-
-> [!def] Autocorrelation function
-> The autocorrelation $r[\tau]$ of a continuous function $f[z]$ is defined as:
-> $$
-> r[\tau] = \int_{-\infty}^{\infty} f[t+\tau]f[t] \, dt 
-> $$
-> where $\tau$ is the time lag. Sometimes, this is normalized by $r[0]$ so that the autocorrelation at time lag zero is one. 
-> 
-> The autocorrelation function is a measure of the correlation of the function with itself as a function of an offset (i.e., the time lag). If a function changes slowly and predictably, then the autocorrelation function will decrease slowly as the time lag increases from zero. If the function changes fast and unpredictably, then it will decrease quickly to zero.
 
 Shattered gradients presumably arise because changes in early network layers modify the output in an increasingly complex way as the network becomes deeper. The derivate of the output with respect to the first layer $f_{1}$ for our sequential network is:
 $$
