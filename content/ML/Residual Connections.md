@@ -32,7 +32,7 @@ y =x & +f_{1}[x] \\
 $$
 We can view this as unraveling the network, as shown in figure 11.4b below.
 
-![[Residual Block-1782164271472.webp|487]]
+![[Residual Block-1782164271472.webp|513]]
 
 **Ensembling view:** From the unraveled equation/diagram, we could consider the final network to be a sum of the input and four smaller networks, each corresponding to a line of the equation. 
 
@@ -40,3 +40,7 @@ We can view this as unraveling the network, as shown in figure 11.4b below.
 $$
 \frac{ \partial y }{ \partial f_{1} }  = I + \frac{ \partial f_{2} }{ \partial f_{1} } + \left( \frac{ \partial f_{3} }{ \partial f_{1} } +\frac{ \partial f_{3} }{ \partial f_{2} } \frac{ \partial f_{2} }{ \partial f_{1} }  \right) + \left( \frac{ \partial f_{4} }{ \partial f_{1} } + \frac{ \partial f_{4} }{ \partial f_{2} } \frac{ \partial f_{2} }{ \partial f_{1} } +\frac{ \partial f_{4} }{ \partial f_{3} } \frac{ \partial f_{3} }{ \partial f_{1} } + \frac{ \partial f_{4} }{ \partial f_{3} }\frac{ \partial f_{3} }{ \partial f_{2} } \frac{ \partial f_{2} }{ \partial f_{1} }  \right)
 $$
+- The identity term corresponds to the direct addition term, showing that the parameters of the first layer $f_{1}[x, \phi]$ contribute directly to the changes in the network output $y$.
+- The other terms are indirect contributions through other chains of derivatives of varying lengths.
+
+In general, gradients through shorter paths will be better behaved. Since both the identity term and various short chains of derivatives will contribute to the derivatives of each layer, networks with residual links suffer less from [[Shattered Gradients|shattered gradients]].
