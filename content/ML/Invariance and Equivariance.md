@@ -16,7 +16,7 @@ A function $f[\mathbf{x}]$ of an image $\mathbf{x}$ is *invariant* to a transfor
 $$
 f[t[\mathbf{x}]] = f[\mathbf{x}]
 $$
-such that its output changes in the same way under the transformation as the input. Networks for image classification should be invariant to geometric transformations of the same image. The network $f[\mathbf{x}]$ should identify an image as containing the same object, even if it has been translated, rotated, flipped, or warped.
+such that its output is the same regardless of the transformation. Networks for image classification should be invariant to geometric transformations of the same image. The network $f[\mathbf{x}]$ should identify an image as containing the same object, even if it has been translated, rotated, flipped, or warped.
 
 ## Equivariance
 A function $f[\mathbf{x}]$ is *equivariant* or *covariant* to a transformation $t[\mathbf{x}]$ if
@@ -27,3 +27,20 @@ such that its output changes in the same way under the transformation as the inp
 
 
 ![[Invariance and Equivariance-1767078483126.webp]]
+
+
+#cards/dl
+Invariance
+?
+A function $f[x]$ of an image $x$ is invariant to a transformation $t[x]$ if $f[t[x]] = f[x],$ such that its output is the same regardless of the transformation.
+- Input image shifts but classification result is the same
+<!--SR:!fsrs,2026-06-23T15:48:23.541Z,0,2.3065,2.11810397,1,1,0,1,2026-06-23T15:38:23.541Z-->
++++
+
+
+Equivariance
+?
+A function $f[x]$ is _equivariant_ to a transformation $t[x]$ if $f[t[x]] = t[f[x]]$, such that its output changes in the same way under the transformation as the input.
+- Segmentation shifts the same way that input shifts
+<!--SR:!fsrs,2026-06-23T15:48:28.332Z,0,2.3065,2.11810397,1,1,0,1,2026-06-23T15:38:28.332Z-->
++++

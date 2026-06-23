@@ -41,3 +41,11 @@ For all approaches, we apply downsampling separately to each channel, so the out
 Sometimes we want to change the number of channels between one hidden layer and the next without further spatial pooling. This is usually so we can combine the representation with another parallel computation (like a [[Residual network|residual]]). To accomplish this, we **apply a convolution with kernel size one**. Each element of the output layer is computed by taking a weighted sum of all the channels at the same position. We can repeat this multiple with different weights to generate as many output channels as we need. The associated convolution weights have size $1\times 1\times C_{i}\times C_{o}$, hence this is a $1\times 1$ convolution. Combined with a bias and activation function, this is equivalent to running the same fully connected network on the input channels at every position.
 
 ![[Downsampling and Upsampling-1777163362126.webp|565]]
+
+#cards/dl
+How do we change the number of channels?
+?
+Apply a convolution with kernel size 1
+
+![[Downsampling and Upsampling-1777163362126.webp|565]]
++++

@@ -5,27 +5,11 @@ draft: "true"
 
 ---
 
-## April 17
+## Today
 
 
 
-## AMATH 449
-
-
-
-## ECE 457A
-
-
-
-## HIST 216
-
-
-
-## Capstone
-
-
-
-## Other
+## Deep learning
 
 
 
