@@ -43,4 +43,13 @@ $$
 - The identity term corresponds to the direct addition term, showing that the parameters of the first layer $f_{1}[x, \phi]$ contribute directly to the changes in the network output $y$.
 - The other terms are indirect contributions through other chains of derivatives of varying lengths.
 
-In general, gradients through shorter paths will be better behaved. Since both the identity term and various short chains of derivatives will contribute to the derivatives of each layer, networks with residual links suffer less from [[Shattered Gradients|shattered gradients]].
+In general, gradients through shorter paths will be better behaved. Since both the identity term and various short chains of derivatives will contribute to the derivatives of each layer, networks with residual links suffer less from [[Shattered Gradients|shattered gradients]], allowing us to increase the depth of the network significantly (by about double) without performance degradation. However, residual networks suffer from [[Exploding Gradients in Residual Networks|exploding gradients]].
+
+## Order of operations in residual blocks
+The layers $f[x]$, whether they are fully connected or convolutional, need to contain a nonlinear activation function, or the entire network will be linear. However, in a typical network layer, the ReLU function is at the end, so the output is non-negative. If we adopt this convention, then each residual block can only increase the input values.
+
+Hence, we typically change the order of operations so that the activation function is applied first, followed by the linear transformation. Sometimes there may be several layers of processing within the residual block, but these usually terminate with a linear transformation.
+
+Note that when we start these blocks with a ReLU operation, they will do nothing if the initial network is negative, since ReLU will clip the entire signal to zero. Thus, we typically start the network with a linear transformation.
+
+![[Residual Connections-1782180242422.webp]]

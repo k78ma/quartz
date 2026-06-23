@@ -104,9 +104,10 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Semantic Segmentation]]
 
 ## Residual Networks
+- [[Shattered Gradients]]
 - [[Residual Networks]]
 - [[Residual Connections]]
-- [[Shattered Gradients]]
+- [[Exploding Gradients in Residual Networks]]
 
 ## Transformers
 - [[Attention]]
