@@ -28,7 +28,8 @@ Finally, the normalized variable is scaled by $\gamma$ and shifted by $\delta$:
 $$
 h_{i} \leftarrow \gamma h_{i}+\delta \quad \quad  \,\, \forall \, i\in  \mathcal{B}
 $$
-After this operation, the activations have mean $\delta$ and standard deviation $\gamma$ across all members of the batch. Both of these quantities are learned during training, so we [[BatchNorm Backprop|backprop]] through them.
+After this operation, the activations have mean $\delta$ and standard deviation $\gamma$ across all members of the batch. Both of these quantities are learned during training, so we [[BatchNorm Backprop|backprop]] through them. 
+- Thus, BatchNorm adds two parameters per hidden unit.
 
 Batch normalization is applied independently to each hidden unit. 
 - In a standard network with $K$ layers, each containing $D$ hidden units, there would be $KD$ learned offsets $\delta$ and $KD$ learned scales $\gamma$. 
@@ -69,7 +70,7 @@ $$
 $$
 h_{i} \leftarrow \gamma h_{i}+\delta \quad \quad  \,\, \forall \, i\in  \mathcal{B}
 $$
-<!--SR:!fsrs,2026-06-24T04:50:11.069Z,0,2.3065,2.11810397,1,1,0,1,2026-06-24T04:40:11.069Z-->
+<!--SR:!fsrs,2026-06-26T23:47:52.424Z,2,2.3065,2.11121424,2,2,0,0,2026-06-24T23:47:52.424Z-->
 +++
 
 How does BatchNorm differ at test time vs. training?::At test time, we do not have a batch from which we can gather statistics. Thus, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.

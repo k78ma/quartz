@@ -56,7 +56,7 @@ Note that when we start these blocks with a ReLU operation, they will do nothing
 
 #cards/dl 
 In residual networks, why do we start with a linear transformation (FC/conv) instead of ReLU?::First layer in the network needs to be linear in case input is negative
-<!--SR:!fsrs,2026-06-24T18:30:46.891Z,1,1.37716224,5.09241299,2,3,0,0,2026-06-23T18:30:46.891Z-->
+<!--SR:!fsrs,2026-06-29T23:48:01.600Z,5,4.65595787,5.08254895,2,4,0,0,2026-06-24T23:48:01.600Z-->
 
 Residual connection
 ?
