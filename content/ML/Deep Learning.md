@@ -108,6 +108,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Residual Networks]]
 - [[Residual Connections]]
 - [[Exploding Gradients in Residual Networks]]
+- [[Batch Normalization]]
+    - [[BatchNorm Backprop]]
 
 ## Transformers
 - [[Attention]]

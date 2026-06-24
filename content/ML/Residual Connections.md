@@ -53,3 +53,18 @@ Hence, we typically change the order of operations so that the activation functi
 Note that when we start these blocks with a ReLU operation, they will do nothing if the initial network is negative, since ReLU will clip the entire signal to zero. Thus, we typically start the network with a linear transformation.
 
 ![[Residual Connections-1782180242422.webp]]
+
+#cards/dl 
+In residual networks, why do we start with a linear transformation (FC/conv) instead of ReLU?::First layer in the network needs to be linear in case input is negative
+<!--SR:!fsrs,2026-06-24T18:30:46.891Z,1,1.37716224,5.09241299,2,3,0,0,2026-06-23T18:30:46.891Z-->
+
+Residual connection
+?
+Shortcut branch that adds the input of a layer back to its output. Each layer computes an additive change to the current representation.
+
+![[Residual Connections-1782165615349.webp]]
+<!--SR:!fsrs,2026-06-29T19:08:18.498Z,5,4.65595787,5.08254895,2,4,0,0,2026-06-24T19:08:18.498Z-->
++++
+
+Each residual networks, each residual block learns an ==additive== update to its input representation.
+<!--SR:!fsrs,2026-06-27T22:37:31.783Z,4,3.94605407,1,2,2,0,0,2026-06-23T22:37:31.783Z-->

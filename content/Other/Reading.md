@@ -29,6 +29,7 @@ Books:
 - [The Napkin](https://web.evanchen.cc/napkin.html)
 - [Nonlinear Dynamics and Chaos](https://www.biodyn.ro/course/literatura/Nonlinear_Dynamics_and_Chaos_2018_Steven_H._Strogatz.pdf)
 - [Alice's Adventures in a Differentiable Wonderland -- Volume I, A Tour of the Land](https://www.sscardapane.it/alice-book/)
+- [The Art and Craft of Problem Solving](https://kheavan.wordpress.com/wp-content/uploads/2010/06/paul-zeitz-author-the-art-and-craft-of-problem-solving-2edwiley20060471789011.pdf)
 
 Technical Blogs:
 - [jsomers.net | I should have loved biology](https://jsomers.net/i-should-have-loved-biology/)
@@ -56,7 +57,7 @@ Technical Blogs:
 - [ARC-AGI Without Pretraining | iliao2345](https://iliao2345.github.io/blog_posts/arc_agi_without_pretraining/arc_agi_without_pretraining.html#watching-the-network-learn-color-the-boxes)
 - [attention is logarithmic, actually](https://supaiku.com/attention-is-logarithmic)
 - [A vision researcher’s guide to some RL stuff: PPO & GRPO - Yuge (Jimmy) Shi](https://yugeten.github.io/posts/2025/01/ppogrpo/)
-- 
+
 
 Papers:
 - [Relational NN](https://arxiv.org/abs/1706.01427)
@@ -70,11 +71,15 @@ Papers:
 - [Infinitely Deep Bayesian Neural Networks with Stochastic Differential Equations](https://arxiv.org/abs/2102.06559)
     - [Partially Stochastic Infinitely Deep Bayesian Neural Networks
 
+Job/career:
+- [Notes on the Industry Job Search](https://alisawuffles.github.io/blog/job-search/)
+- [ML Job Interviews: The Ultimate Guide – Silvia Sapora](https://silviasapora.github.io/blog/ml-interviews.html)
+
 Writing I enjoyed:
 - [The Colors Of Her Coat - by Scott Alexander](https://www.astralcodexten.com/p/the-colors-of-her-coat)
 - [escaping flatland: career advice for CS undergrads](https://space.ong.ac/escaping-flatland)
 - [Do Ten Times as Much ](https://www.betonit.ai/p/do-ten-times-as-much)
-- 
+
 
 Other:
 - [Vagabond](https://manga4life.com/manga/Vagabond)

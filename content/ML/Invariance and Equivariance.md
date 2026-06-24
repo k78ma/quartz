@@ -28,19 +28,19 @@ such that its output changes in the same way under the transformation as the inp
 
 ![[Invariance and Equivariance-1767078483126.webp]]
 
-
+## Cards
 #cards/dl
+
 Invariance
 ?
 A function $f[x]$ of an image $x$ is invariant to a transformation $t[x]$ if $f[t[x]] = f[x],$ such that its output is the same regardless of the transformation.
 - Input image shifts but classification result is the same
-<!--SR:!fsrs,2026-06-23T15:48:23.541Z,0,2.3065,2.11810397,1,1,0,1,2026-06-23T15:38:23.541Z-->
+<!--SR:!fsrs,2026-06-25T16:18:45.953Z,2,2.3065,4.743334,2,3,0,0,2026-06-23T16:18:45.953Z-->
 +++
-
 
 Equivariance
 ?
 A function $f[x]$ is _equivariant_ to a transformation $t[x]$ if $f[t[x]] = t[f[x]]$, such that its output changes in the same way under the transformation as the input.
 - Segmentation shifts the same way that input shifts
-<!--SR:!fsrs,2026-06-23T15:48:28.332Z,0,2.3065,2.11810397,1,1,0,1,2026-06-23T15:38:28.332Z-->
+<!--SR:!fsrs,2026-06-25T16:19:01.509Z,2,2.3065,4.743334,2,3,0,0,2026-06-23T16:19:01.509Z-->
 +++

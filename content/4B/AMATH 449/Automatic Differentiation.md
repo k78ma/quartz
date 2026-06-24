@@ -4,7 +4,9 @@ tags:
   - amath449
   - dl
 date: 2026-01-27
-aliases: automatic differentiation
+aliases:
+  - automatic differentiation
+  - Autograd
 ---
 Consider this expression:
 $$

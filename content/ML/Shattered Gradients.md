@@ -43,3 +43,7 @@ $$
 \frac{ \partial y }{ \partial f_{1} } = \frac{ \partial f_{2} }{ \partial f_{1} } \frac{ \partial f_{3} }{ \partial f_{2} } \frac{ \partial f_{4} }{ \partial f_{3} } 
 $$
 When we change the parameters that determine $f_{1}$, all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}, f_{3}, f_{4}$ are themselves computed from $f_{1}$. Consequently, the updated gradient at each training example may be completely different, and the loss function becomes badly behaved.
+
+#cards/dl 
+Shattered gradients::In deep sequential networks, gradients change almost randomly with tiny changes in parameters or inputs, so each optimization step sees an unrelated gradient direction. This “shattering” makes the loss surface highly irregular, preventing effective learning.
+<!--SR:!fsrs,2026-06-25T16:19:00.045Z,2,2.3065,2.11121424,2,2,0,0,2026-06-23T16:19:00.045Z-->
