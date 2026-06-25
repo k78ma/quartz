@@ -46,8 +46,8 @@ Batch normalization is applied independently to each hidden unit.
 - Stable forward propagation. If we initialize the offsets $\delta=0$ and the scales $\gamma=1$, then each output activation will have unit variance.
     - In a regular network, this ensures the variance is stable during forward propagation at initialization.
     - In a [[Residual Networks|residual network]], the variance must still increase as we add a new source of variation to the input at each layer. However it will increase linearly with each residual block; the $k$-th layer adds one unit of variance to the existing variance $k$.
-- Higher learning rates.
-- Regularization.
+- Higher learning rates. Empirical studies and theory both show that batch normalization makes the loss surface and its gradient change more smoothly (i.e., reduces [[Shattered Gradients|shattered gradients]]). This means that we can use higher learning rates, which was shown through [[Implicit Regularization|implicit regularization]] to generalize better.
+- Regularization. Batch normalization is a form of [[Applying Noise During Training|applying noise during training]], because the normalization depends on the batch statistics. The activations for a given training example are normalized by an amount that depends on the other members of the batch and will be slightly different at each training iteration.
 
 
 
