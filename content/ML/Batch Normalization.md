@@ -43,7 +43,9 @@ Batch normalization is applied independently to each hidden unit.
 - BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
 
 **Benefits:**
-- Stable forward propagation. If we initialize the offsets $\delta=0$ and the scales $\gamma=1$, then each output activation will have unit unit variance. In a regular network, this ensures the variance is stable during forward propagation at initialization. In a residual 
+- Stable forward propagation. If we initialize the offsets $\delta=0$ and the scales $\gamma=1$, then each output activation will have unit variance.
+    - In a regular network, this ensures the variance is stable during forward propagation at initialization.
+    - In a [[Residual Networks|residual network]], the variance must still increase as we add a new source of variation to the input at each layer. However it will increase linearly with each residual block; the $k$-th layer adds one unit of variance to the existing variance $k$.
 - Higher learning rates.
 - Regularization.
 
