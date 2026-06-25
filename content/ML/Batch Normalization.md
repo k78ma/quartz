@@ -75,18 +75,15 @@ How does BatchNorm differ at test time vs. training?::At test time, we do not ha
 <!--SR:!fsrs,2026-06-26T19:08:39.318Z,2,2.3065,2.11121424,2,2,0,0,2026-06-24T19:08:39.318Z-->
 
 How does BatchNorm improve forward pass stability?::It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
-<!--SR:!fsrs,2026-06-25T01:16:18.450Z,0,2.3065,2.11810397,1,1,0,1,2026-06-25T01:06:18.450Z-->
+<!--SR:!fsrs,2026-06-27T01:27:50.261Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:27:50.261Z-->
 
-
-Why does batch normalization allow us to use higher learning rate?:It makes the loss surface gradients smoother and reduces shattered gradients.
+Why does batch normalization allow us to use higher learning rate?:It makes the loss surface gradients smoother, reducing shattered gradients.
 
 How does batch normalization provide regularization?::Because the normalization depends on the batch statistics, we essentially apply some noise during training.
-<!--SR:!fsrs,2026-06-25T01:17:19.205Z,0,2.3065,2.11810397,1,1,0,1,2026-06-25T01:07:19.205Z-->
+<!--SR:!fsrs,2026-06-27T01:28:53.833Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:28:53.833Z-->
 
-BatchNorm can degrade performance can degrade with ==small== batch sizes because the ==mean and variance becomes less accurate.==
+Why does BatchNorm sometimes degrade performance with small batch sizes?::Because the mean and variance becomes less accurate.
+<!--SR:!fsrs,2026-06-27T01:28:04.878Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:28:04.878Z-->
 
-BatchNorm introduces a dependency between the examples in a mini-batch, which can be problematic for tasks that require ==strong independence assumptions between samples.==
-
-BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Hence, it both creates ==redundancy in the weights and biases== while ironically adding ==extra parameters to compensate for that redundancy==, which is inefficient.
-
-Adding BatchNorm to residual networks makes variance scale ==linearly== with depth instead of ==exponentially==.
+Adding BatchNorm to residual networks reduces variance scaling from exponential to ==linear==.
+<!--SR:!fsrs,2026-06-27T01:28:08.895Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:28:08.895Z-->

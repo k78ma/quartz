@@ -110,10 +110,10 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Exploding Gradients in Residual Networks]]
 - [[Batch Normalization]]
     - [[BatchNorm Backprop]]
+- [[ResNet]]
 
 ## Transformers
 - [[Attention]]
-
 - [[Flow Matching]]
 ## Learning Theory
 - [[Neural Tangent Kernel]]
