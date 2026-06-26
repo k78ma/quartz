@@ -7,7 +7,8 @@ aliases:
   - BatchNorm
   - batch normalization
 ---
-Batch normalization shifts and rescales each activation $h$ so that its mean and variance across the batch $\mathcal{B}$ become values that are learned during training. It is primarily useful for training stability, alleviating issues such as [[Exploding Gradients in Residual Networks|exploding gradients in residual networks]]. BatchNorm was originally developed to address the problem of [[Covariate Shift]].
+Batch normalization shifts and rescales each activation $h$ so that its mean and variance across the batch $\mathcal{B}$ become values that are learned during training. It is primarily useful for training stability, alleviating issues such as [[Exploding Gradients in Residual Networks|exploding gradients in residual networks]]. 
+- BatchNorm was originally developed to address the problem of [[Covariate Shift]], but has been shown to not be useful; instead, it seems to make the loss surface smoother.
 
 First, the empirical mean $m_{h}$ and standard deviation $s_{h}$ are computed:
 $$

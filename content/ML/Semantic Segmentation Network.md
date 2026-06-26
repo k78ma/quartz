@@ -3,7 +3,9 @@ title: Semantic Segmentation
 tags:
   - dl
 date: 2026-05-01
-aliases: semantic segmentation
+aliases:
+  - semantic segmentation
+  - semantic segmentation network
 ---
 The goal of semantic segmentation is to assign a label to each pixel according to the object that it belongs to, or no label if that pixel doesn't correspond to anything in the training set.
 

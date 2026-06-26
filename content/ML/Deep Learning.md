@@ -101,7 +101,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[AlexNet]]
 - [[VGG]]
 - [[YOLO]]
-- [[Semantic Segmentation]]
+- [[Semantic Segmentation Network]]
 
 ## Residual Networks
 - [[Shattered Gradients]]
@@ -111,10 +111,15 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Batch Normalization]]
     - [[BatchNorm Backprop]]
 - [[ResNet]]
+- [[DenseNet]]
+- [[U-Net]]
+    - [[Hourglass Network]]
 
 ## Transformers
+- [[Text Data Processing]]
+- [[Dot-Product Self-Attention]]
 - [[Attention]]
-- [[Flow Matching]]
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
@@ -122,7 +127,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Precision Metric]]
 - [[Recall Metric]]
 - [[Precision-Recall Curve]]
-
+- [[Flow Matching]]
 ## Practical
 - [[Einops]]
 - [[PyTorch Tensor Creation]]

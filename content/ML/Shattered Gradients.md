@@ -37,7 +37,6 @@ This conjecture is supported by empirical observations of gradients in networks 
 
 ![[Shattered Gradients-1781670752503.webp]]
 
-
 Shattered gradients presumably arise because changes in early network layers modify the output in an increasingly complex way as the network becomes deeper. The derivate of the output with respect to the first layer $f_{1}$ for our sequential network is:
 $$
 \frac{ \partial y }{ \partial f_{1} } = \frac{ \partial f_{2} }{ \partial f_{1} } \frac{ \partial f_{3} }{ \partial f_{2} } \frac{ \partial f_{4} }{ \partial f_{3} } 
@@ -45,5 +44,8 @@ $$
 When we change the parameters that determine $f_{1}$, all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}, f_{3}, f_{4}$ are themselves computed from $f_{1}$. Consequently, the updated gradient at each training example may be completely different, and the loss function becomes badly behaved.
 
 #cards/dl 
-Shattered gradients::In deep sequential networks, gradients change almost randomly with tiny changes in parameters or inputs, so each optimization step sees an unrelated gradient direction. This “shattering” makes the loss surface highly irregular, preventing effective learning.
-<!--SR:!fsrs,2026-06-25T16:19:00.045Z,2,2.3065,2.11121424,2,2,0,0,2026-06-23T16:19:00.045Z-->
+Shattered gradients::In deep sequential networks, gradients at nearby points become nearly uncorrelated. Thus, finite-size optimization steps might land in regions with completely different gradient directions, making the loss surface irregular.
+<!--SR:!fsrs,2026-07-03T17:34:58.468Z,8,7.51735908,4.74828477,2,3,0,0,2026-06-25T17:34:58.468Z-->
+
+Why do shattered gradients arise?::Composing many nonlinear layers causes small changes in inputs or early-layer parameters to propagate into complex changes in downstream activations, making the gradients vary rapidly and unpredictably.
+<!--SR:!fsrs,2026-07-03T02:53:57.207Z,7,7.31530068,2.11121424,2,2,0,0,2026-06-26T02:53:57.207Z-->

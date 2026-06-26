@@ -3,7 +3,9 @@ title: Residual Block
 tags:
   - dl
 date: 2026-05-01
-aliases: residual block
+aliases:
+  - residual block
+  - residual connections
 ---
 Residual or skip connections are shortcut branches in the computation graph that add the input of a layer or block to its output. 
 

@@ -3,7 +3,8 @@ title: 2D Convolution
 tags:
   - dl
 date: 2026-03-25
-aliases: 2d convolution
+aliases:
+  - 2D convolution
 ---
 We've seen how [[1D Convolution]] works. A popular use case of convolutions is for 2D image data, such that the kernel becomes a 2D object.
 
