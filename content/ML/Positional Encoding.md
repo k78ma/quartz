@@ -22,4 +22,8 @@ Each element of the attention matrix corresponds to a particular offset between 
 
 #cards/dl
 Self-attention is ==equivariant== with respect to input permutations, which is why we need positional encodings.
-<!--SR:!fsrs,2026-06-27T22:42:12.101Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T22:32:12.101Z-->
+<!--SR:!fsrs,2026-06-29T22:59:54.935Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T22:59:54.935Z-->
+
+Why is it bad for self-attention (w/o positional encoding) to be equivariant with respect to input permutations?::No notion of token order. "The woman ate the raccoon" and "the raccoon ate the woman" produce the same attention matrix/output but permuted.
+<!--SR:!fsrs,2026-06-27T23:14:04.070Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T23:04:04.070Z-->
+

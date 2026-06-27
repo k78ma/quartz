@@ -119,7 +119,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Text Data Processing]]
 - [[Dot-Product Self-Attention]]
 - [[Positional Encoding]]
-- 
+- [[Multi-Head Self-Attention]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

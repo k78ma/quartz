@@ -122,7 +122,7 @@ Why is self-attention non-linear even with no activation function?::Dot-product 
 <!--SR:!fsrs,2026-06-29T06:36:38.579Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:38.579Z-->
 
 In dot-product self-attention, how is parameter sharing done?::To calculate queries, keys, and values, the same three projection matrices ($\Omega_q, \Omega_k, \Omega_v$) and three bias vectors ($\beta_q, \beta_k, \beta_v$) are applied to every input. As a result, the parameter count is independent of the number of inputs $N$.
-<!--SR:!fsrs,2026-06-29T14:31:10.735Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T14:31:10.735Z-->m
+<!--SR:!fsrs,2026-06-29T14:31:10.735Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T14:31:10.735Z-->
 
 Scaled dot-product self-attention formula::$\text{Sa}[X] = \text{Softmax}\left[ \frac{QK^{T}}{\sqrt{ D_{k} }} \right] V$
 <!--SR:!fsrs,2026-06-29T22:30:10.681Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T22:30:10.681Z-->

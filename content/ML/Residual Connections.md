@@ -69,4 +69,4 @@ Shortcut branch that adds the input of a layer back to its output. Each layer co
 +++
 
 Each residual networks, each residual block learns an ==additive== update to its input representation.
-<!--SR:!fsrs,2026-06-27T22:37:31.783Z,4,3.94605407,1,2,2,0,0,2026-06-23T22:37:31.783Z-->
+<!--SR:!fsrs,2026-07-18T22:59:30.925Z,21,21.02452958,1,2,3,0,0,2026-06-27T22:59:30.925Z-->
