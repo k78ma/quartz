@@ -104,13 +104,16 @@ $$
 
 #cards/dl 
 How does the number of attention weights depend on the sequence length $N$?::Quadratically. Each of the $N$ query vectors attends to all $N$ key vectors, producing an $N \times N$ attention matrix.
-<!--SR:!fsrs,2026-06-27T02:45:24.113Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:24.113Z-->
+<!--SR:!fsrs,2026-06-29T06:36:27.996Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:27.996Z-->
 
 How does the number of attention weights depend on the input dimension $D$?::No dependence
-<!--SR:!fsrs,2026-06-27T02:45:30.956Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:30.956Z-->
+<!--SR:!fsrs,2026-06-29T06:36:18.345Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:18.345Z-->
 
 What are the numerical properties of attention weights?::They are non-negative and sum to 1 because of softmax.
-<!--SR:!fsrs,2026-06-27T02:45:39.269Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:39.269Z-->
+<!--SR:!fsrs,2026-06-29T06:35:59.063Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:35:59.063Z-->
 
 Why is self-attention non-linear even with no activation function?::Dot-product and softmax
-<!--SR:!fsrs,2026-06-27T02:45:10.360Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:10.360Z-->
+<!--SR:!fsrs,2026-06-29T06:36:38.579Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:38.579Z-->
+
+In dot-product self-attention, how is parameter sharing done?::To calculate queries, keys, and values, the same three projection matrices ($\Omega_q, \Omega_k, \Omega_v$) and three bias vectors ($\beta_q, \beta_k, \beta_v$) are applied to every input. As a result, the parameter count is independent of the number of inputs $N$.
+<!--SR:!fsrs,2026-06-27T06:46:48.362Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T06:36:48.362Z-->

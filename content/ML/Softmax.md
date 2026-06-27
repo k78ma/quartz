@@ -15,3 +15,48 @@ $$
 \end{bmatrix}
 $$
 Softmax is similar to [[Sigmoid|sigmoid]] in concept (used for outputting probabilities/confidences) but in higher dimensions. Commonly used for multi-class classification.
+
+## Stable Softmax
+Naive implementation:
+```python
+def softmax(items_in):
+    exps = np.exp(items_in)
+    items_out = exps / np.sum(exps)
+    return items_out
+```
+
+This has issues with numerical stability. If any element of `items_in` is large, then `np.exp(items_in)` will overflow.
+
+Numerically stable implementation:
+```python
+def softmax(items_in):
+    shifted = items_in - np.max(items_in)
+    exps = np.exp(shifted)
+    return exps / np.sum(exps)
+```
+
+This works because subtracting the same constant $c$ from every input does not change the output of the softmax:
+$$
+\frac{e^{x_i-c}}{\sum_j e^{x_j-c}} = \frac{e^{x_i}}{\sum_j e^{x_j}}
+$$
+
+Proof:
+$$
+\begin{align}
+\frac{e^{x_i-c}}{\sum_j e^{x_{j}-c}} & = \frac{e^{x_{i}}e^{-c}}{\sum_{j}e^{x_{j}}e^{-c}} \\[2ex] 
+     & = \frac{e^{x_{i}}e^{-c}}{e^{-c}\sum_{j}e^{x_{j}}} \\[2ex] 
+     & = \frac{e^{x_{i}}}{\sum_{j}e^{x_{j}}}
+\end{align}
+$$
+
+#cards/dl 
+Numerically stable softmax
+?
+Subtracting the same constant c from every input does not change the output of the softmax. So we subtract the maximum element to prevent overflow. 
+```python
+def softmax(items_in):
+    shifted = items_in - np.max(items_in)
+    exps = np.exp(shifted)
+    return exps / np.sum(exps)
+```
++++
