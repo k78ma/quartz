@@ -49,14 +49,15 @@ $$
 \end{align}
 $$
 
-#cards/dl 
+#cards/dl
 Numerically stable softmax
 ?
-Subtracting the same constant c from every input does not change the output of the softmax. So we subtract the maximum element to prevent overflow. 
+Subtracting the same constant $c$ from every input does not change the output of the softmax. So we subtract the maximum element to prevent overflow.
 ```python
 def softmax(items_in):
     shifted = items_in - np.max(items_in)
     exps = np.exp(shifted)
     return exps / np.sum(exps)
 ```
+<!--SR:!fsrs,2026-06-29T18:07:37.541Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T18:07:37.541Z-->
 +++

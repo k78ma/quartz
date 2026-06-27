@@ -102,6 +102,12 @@ $$
 
 ![[Dot-Product Self-Attention-1782526938574.webp]]
 
+## Scaled Dot-Product Self-Attention
+The dot products in the attention computation can have large magnitudes. Then, and the arguments to the softmax function might be in a region where the largest value completely dominates. Small changes to the inputs to the softmax function now have little effect on the output (the gradients are very small), making the model difficult to train. To prevent this, the dot products are scaled by the square root of the dimension $D_{k}$ of the keys and queries (the number of columns in $\Omega_{k}$ and $\Omega_{k}$, which must be the same):
+$$
+\text{Sa}[X] = \text{Softmax}\left[ \frac{QK^{T}}{\sqrt{ D_{k} }} \right] V
+$$
+
 #cards/dl 
 How does the number of attention weights depend on the sequence length $N$?::Quadratically. Each of the $N$ query vectors attends to all $N$ key vectors, producing an $N \times N$ attention matrix.
 <!--SR:!fsrs,2026-06-29T06:36:27.996Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:27.996Z-->
@@ -116,4 +122,8 @@ Why is self-attention non-linear even with no activation function?::Dot-product 
 <!--SR:!fsrs,2026-06-29T06:36:38.579Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:38.579Z-->
 
 In dot-product self-attention, how is parameter sharing done?::To calculate queries, keys, and values, the same three projection matrices ($\Omega_q, \Omega_k, \Omega_v$) and three bias vectors ($\beta_q, \beta_k, \beta_v$) are applied to every input. As a result, the parameter count is independent of the number of inputs $N$.
-<!--SR:!fsrs,2026-06-27T06:46:48.362Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T06:36:48.362Z-->
+<!--SR:!fsrs,2026-06-29T14:31:10.735Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T14:31:10.735Z-->m
+
+Scaled dot-product self-attention formula::$\text{Sa}[X] = \text{Softmax}\left[ \frac{QK^{T}}{\sqrt{ D_{k} }} \right] V$
+<!--SR:!fsrs,2026-06-29T22:30:10.681Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T22:30:10.681Z-->
+

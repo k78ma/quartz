@@ -118,7 +118,8 @@ Some of these notes are also included in [[Machine Learning]].
 ## Transformers
 - [[Text Data Processing]]
 - [[Dot-Product Self-Attention]]
-- [[Transformer]]
+- [[Positional Encoding]]
+- 
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

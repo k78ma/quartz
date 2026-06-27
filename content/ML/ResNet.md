@@ -42,16 +42,16 @@ What are the operations in a basic ResNet residual block?
 (BatchNorm, ReLU, Conv) twice, then add back input with skip connection.
 
 ![[ResNet-1782402706200.webp]]
-<!--SR:!fsrs,2026-06-27T19:24:46.543Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T19:24:46.543Z-->
+<!--SR:!fsrs,2026-07-08T22:29:51.630Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T22:29:51.630Z-->
 +++
 
 Why do we use bottleneck residual blocks?::Uses less parameters than a normal residual block, useful in deep networks.
-<!--SR:!fsrs,2026-06-27T19:24:22.760Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T19:24:22.760Z-->
+<!--SR:!fsrs,2026-07-08T22:30:40.436Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T22:30:40.436Z-->
 
 A bottleneck residual block comprises of what three convolutions?
 ?
 - $1\times 1$ kernel to reduces the number of channels.
 - $3\times 3$ kernel
 - $1\times 1$ kernel to increase the number of channels back to the original amount.
-<!--SR:!fsrs,2026-06-27T19:24:33.874Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T19:24:33.874Z-->
+<!--SR:!fsrs,2026-07-08T22:30:27.937Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T22:30:27.937Z-->
 +++

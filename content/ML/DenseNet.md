@@ -21,5 +21,5 @@ DenseNet
 Input to a layer consists of concatenated outputs from all previous layers.
 
 ![[DenseNet-1782408761882.webp]]
-<!--SR:!fsrs,2026-06-27T19:25:07.608Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T19:25:07.608Z-->
+<!--SR:!fsrs,2026-07-08T22:29:37.170Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T22:29:37.170Z-->
 +++
