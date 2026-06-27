@@ -73,7 +73,7 @@ $$
 +++
 
 How does BatchNorm differ at test time vs. training?::At test time, we do not have a batch from which we can gather statistics. Thus, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.
-<!--SR:!fsrs,2026-06-26T19:08:39.318Z,2,2.3065,2.11121424,2,2,0,0,2026-06-24T19:08:39.318Z-->
+<!--SR:!fsrs,2026-07-07T23:14:39.784Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-26T23:14:39.784Z-->
 
 How does BatchNorm improve forward pass stability?::It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
 <!--SR:!fsrs,2026-06-27T01:27:50.261Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:27:50.261Z-->

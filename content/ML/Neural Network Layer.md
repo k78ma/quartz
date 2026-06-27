@@ -13,7 +13,8 @@ aliases:
 
 Fully connected layer:
 
-![[Single-layer Neural Network.png|336]]
+![[Neural Network Layer-1782523384860.webp|299]]
+
 
 Since each unit (neuron) has a vector of weights and a single offset, we can think of the weights of the whole layer as a matrix, $W$, and the collection of all the offsets as a vector $W_{0}$. If we have $m$ inputs, $n$ units, and $n$ outputs, then:
 - $W$ is a $m\times n$ matrix

@@ -14,7 +14,8 @@ First, the encoded input can be surprisingly large. Each of the 37 words above m
 
 Second, each input (one or more sentences) is of a different length; hence, it's not even obvious how to apply a fully connected network. These observations suggest that the network should share parameters across words at different input positions, similarly to how convolutional networks share parameters across different image positions.
 
-Third, language is ambiguous. For example, it's unclear from the syntax alone that the pronoun "it" refers to the restaurant and not to the ham sandwich. To understand the text, the "it" should somehow be connected to "restaurant". In the parlance of transformers, the former word should pay [[attention]] to the latter. This implies that there must be connections between the words, and the strength of these connections depends on the words themselves. These connections need to extend large text spans; for example, the word "their" in the last sentence also refers to the restaurant.
+Third, language is ambiguous. For example, it's unclear from the syntax alone that the pronoun "it" refers to the restaurant and not to the ham sandwich. To understand the text, the "it" should somehow be connected to "restaurant". In the parlance of transformers, the former word should pay [[Dot-Product Self-Attention]] to the latter. This implies that there must be connections between the words, and the strength of these connections depends on the words themselves. These connections need to extend large text spans; for example, the word "their" in the last sentence also refers to the restaurant.
 
 #cards/dl 
 Why are fully connected networks not practical for text?::Text has variable-length inputs, and FC layers need an impractically large number of parameters for long sequences.
+<!--SR:!fsrs,2026-06-26T23:24:53.675Z,0,2.3065,2.11810397,1,1,0,1,2026-06-26T23:14:53.675Z-->
