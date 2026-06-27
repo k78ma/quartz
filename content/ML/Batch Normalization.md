@@ -69,22 +69,22 @@ $$
 $$
 h_{i} \leftarrow \gamma h_{i}+\delta \quad \quad  \,\, \forall \, i\in  \mathcal{B}
 $$
-<!--SR:!fsrs,2026-06-26T23:47:52.424Z,2,2.3065,2.11121424,2,2,0,0,2026-06-24T23:47:52.424Z-->
+<!--SR:!fsrs,2026-07-06T02:32:54.316Z,9,9.24024489,4.74828477,2,3,0,0,2026-06-27T02:32:54.316Z-->
 +++
 
 How does BatchNorm differ at test time vs. training?::At test time, we do not have a batch from which we can gather statistics. Thus, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.
 <!--SR:!fsrs,2026-07-07T23:14:39.784Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-26T23:14:39.784Z-->
 
 How does BatchNorm improve forward pass stability?::It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
-<!--SR:!fsrs,2026-06-27T01:27:50.261Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:27:50.261Z-->
+<!--SR:!fsrs,2026-07-08T02:33:27.363Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T02:33:27.363Z-->
 
 Why does batch normalization allow us to use higher learning rate?:It makes the loss surface gradients smoother, reducing shattered gradients.
 
 How does batch normalization provide regularization?::Because the normalization depends on the batch statistics, we essentially apply some noise during training.
-<!--SR:!fsrs,2026-06-27T01:28:53.833Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:28:53.833Z-->
+<!--SR:!fsrs,2026-07-08T02:32:05.329Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T02:32:05.329Z-->
 
 Why does BatchNorm sometimes degrade performance with small batch sizes?::Because the mean and variance becomes less accurate.
-<!--SR:!fsrs,2026-06-27T01:28:04.878Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:28:04.878Z-->
+<!--SR:!fsrs,2026-07-08T02:33:02.114Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T02:33:02.114Z-->
 
 Adding BatchNorm to residual networks reduces variance scaling from exponential to ==linear==.
-<!--SR:!fsrs,2026-06-27T01:28:08.895Z,2,2.3065,2.11121424,2,2,0,0,2026-06-25T01:28:08.895Z-->
+<!--SR:!fsrs,2026-07-08T02:33:09.328Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-27T02:33:09.328Z-->

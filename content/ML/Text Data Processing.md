@@ -18,4 +18,4 @@ Third, language is ambiguous. For example, it's unclear from the syntax alone th
 
 #cards/dl 
 Why are fully connected networks not practical for text?::Text has variable-length inputs, and FC layers need an impractically large number of parameters for long sequences.
-<!--SR:!fsrs,2026-06-26T23:24:53.675Z,0,2.3065,2.11810397,1,1,0,1,2026-06-26T23:14:53.675Z-->
+<!--SR:!fsrs,2026-07-04T02:33:57.408Z,7,7.31530068,2.11121424,2,2,0,0,2026-06-27T02:33:57.408Z-->

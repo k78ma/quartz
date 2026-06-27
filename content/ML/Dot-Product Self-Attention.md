@@ -104,9 +104,13 @@ $$
 
 #cards/dl 
 How does the number of attention weights depend on the sequence length $N$?::Quadratically. Each of the $N$ query vectors attends to all $N$ key vectors, producing an $N \times N$ attention matrix.
+<!--SR:!fsrs,2026-06-27T02:45:24.113Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:24.113Z-->
 
 How does the number of attention weights depend on the input dimension $D$?::No dependence
+<!--SR:!fsrs,2026-06-27T02:45:30.956Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:30.956Z-->
 
 What are the numerical properties of attention weights?::They are non-negative and sum to 1 because of softmax.
+<!--SR:!fsrs,2026-06-27T02:45:39.269Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:39.269Z-->
 
 Why is self-attention non-linear even with no activation function?::Dot-product and softmax
+<!--SR:!fsrs,2026-06-27T02:45:10.360Z,0,2.3065,2.11810397,1,1,0,1,2026-06-27T02:35:10.360Z-->
