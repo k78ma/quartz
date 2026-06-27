@@ -9,6 +9,35 @@ The [[Dot-Product Self-Attention|self-attention]] mechanism by itself overlooks 
 
 More precisely, self-attention is [[Invariance and Equivariance|equivariant]] with respect to input permutations. However, the order of the input matters when it comes to words in a sentece; "the woman ate the raccoon" has a different meaning than "the raccoon ate the woman".
 
+> [!note]- Permutation example
+> Suppose the input tokens are:
+> $$
+> X = \begin{bmatrix} A\\ B \end{bmatrix}
+> $$
+> Without positional encodings, suppose the self-attention produces
+> $$
+> \text{Sa}(X)= \begin{bmatrix} 1.2 & 0.3\\ 0.4 & 2.1 \end{bmatrix}
+> $$
+> where each row is the output for one token. Now swap the input order to
+> $$
+> X'= \begin{bmatrix} B\\ A \end{bmatrix}
+> $$
+> Permutation equivariance means the output is simply permuted:
+> $$
+> \text{Sa}(X')= \begin{bmatrix} 0.4 & 2.1\\ 1.2 & 0.3 \end{bmatrix}
+> $$
+> Nothing about the representations themselves changed – they were just reordered to match the reordered inputs.
+> 
+> The same happens to the attention matrix. If originally
+> $$
+> \begin{bmatrix} 0.9 & 0.1\\ 0.2 & 0.8 \end{bmatrix}
+> $$
+> then after swapping the tokens it  simply becomes becomes
+> $$
+> \begin{bmatrix} 0.8 & 0.2\\ 0.1 & 0.9 \end{bmatrix}
+> $$
+> 
+
 ## Absolute positional encodings
 A matrix $\Pi$ is added to the input $X$ that encodes positional information. Assuming the input has shape $(N,D)$, where each row corresponds to one input token, each row of $\Pi$ is unique and hence contains information about the absolute position in the input sequence. This matrix can be chosen by hand or learned. It may be added to the network inputs or at every network layer. Sometimes it is added to $X$ in the computation of the queries and keys but not the values.
 
