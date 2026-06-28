@@ -51,3 +51,23 @@ $$
 \frac{ \partial \ell_{i} }{ \partial \text{f}[\mathbf{x}_{i}, \phi] } = \text{sig}[\text{f}[\mathbf{x}_{i}, \phi]]-y_{i}
 $$
 where $\ell_{i}$ is the loss for a particular data sample. See question 7.5 of [[UDL Chapter 7 Problems]] for how this is derived – I quite liked this derivation!
+
+#cards/dl 
+Binary cross entropy loss:
+?
+$$
+\sum_{i=1}^{N} -t^{(i)}\log y^{(i)}-(1-t^{(i)})\log(1-y^{(i)})
+$$
+where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth.
++++
+
+Derivative of NLL w.r.t. pre-sigmoid activation
+?
+$$
+\begin{align}
+\frac{ \partial \ell_{i} }{ \partial \text{f}[x_{i}, \phi] }  & = y_{i}-t_{i} \\[2ex]
+ & =\text{sig}[\text{f}[x_{i}, \phi]]-t_{i}
+\end{align}
+$$
+where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth.
++++

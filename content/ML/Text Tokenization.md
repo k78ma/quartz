@@ -22,5 +22,5 @@ In practice, a compromise between letters and full words is used, and the final 
 ![[Tokenization-1782674945175.webp]]
 
 #cards/dl 
-Byte pair encoding tokenizer::Iteratively merge most commonly occurring adjacent pair of tokens into a new token.
-<!--SR:!fsrs,2026-06-28T19:42:30.558Z,0,2.3065,2.11810397,1,1,0,1,2026-06-28T19:32:30.558Z-->
+Byte pair encoding tokenizer::Iteratively merge most commonly occurring adjacent pair of tokens into a new token. Continue until desired vocabulary size is reached.
+<!--SR:!fsrs,2026-06-30T23:25:13.810Z,2,2.3065,2.11121424,2,2,0,0,2026-06-28T23:25:13.810Z-->

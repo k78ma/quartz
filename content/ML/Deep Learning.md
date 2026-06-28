@@ -122,6 +122,11 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Multi-Head Self-Attention]]
 - [[Transformer Layer]]
 - [[Transformers for NLP]]
+    - [[Vector Embeddings]]
+        - [[Embedding Model]]
+    - [[BERT]]
+    - [[GPT-3]]
+    - [[Machine Translation]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
