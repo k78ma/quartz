@@ -1,3 +1,4 @@
+- [https://www.youtube.com/watch?v=CBIZyGx4Xxc]
 
 ![[Japanese Denim Chords-1782418975258.webp]]
 

@@ -120,6 +120,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Dot-Product Self-Attention]]
 - [[Positional Encoding]]
 - [[Multi-Head Self-Attention]]
+- [[Transformer Layer]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

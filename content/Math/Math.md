@@ -12,3 +12,5 @@ aliases:
 - [[Convexity]]
 - [[Codomain vs. Range]]
 - [[Hyperbolic Functions]]
+
+- [[Math Cards]]
