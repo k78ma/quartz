@@ -14,7 +14,7 @@ aliases:
 [Self-Attention & Transformers - CS 224N](https://web.stanford.edu/class/cs224n/readings/cs224n-self-attention-transformers-2023_draft.pdf) is a nice self-contained resource other than UDL.
 
 ## Dot-product self-attention
-A self-attention block $\text{sa}[\bullet]$ takes $N$ inputs $x_{1}, \dots, x_{N}$, each of dimension $1\times D$, and returns $N$ outputs, each of which is also of size $1\times D$. In the context of NLP, each input might represent a word or word fragment ([[Tokenization|token]]).
+A self-attention block $\text{sa}[\bullet]$ takes $N$ inputs $x_{1}, \dots, x_{N}$, each of dimension $1\times D$, and returns $N$ outputs, each of which is also of size $1\times D$. In the context of NLP, each input might represent a word or word fragment ([[Text Tokenization|token]]).
 - Note that the figures here (from UDL) instead assume data of shape $D\times 1$. I decided to use row vectors because that formulation is a bit more common.
 
 First, a set of **values** are computed for each input with a standard linear transformation:

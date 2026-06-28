@@ -121,6 +121,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Positional Encoding]]
 - [[Multi-Head Self-Attention]]
 - [[Transformer Layer]]
+- [[Transformers for NLP]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
