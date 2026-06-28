@@ -28,6 +28,7 @@ aliases: amath 449 - neural networks
     - [[RBM Intuition]]
 - [[Autoencoder]]
 - [[Vector Embeddings]]
+    - [[Embedding Model]]
 - [[Variational Autoencoder]]
 
 ### Recurrent Neural Networks
