@@ -45,4 +45,4 @@ where both `gamma` and `delta` have shape `(1,D)` that gets broadcast over `N`.
 
 #cards/dl 
 LayerNorm::Normalize samples across feature dimension instead of batch dimension.
-<!--SR:!fsrs,2026-06-28T04:06:43.967Z,0,2.3065,2.11810397,1,1,0,1,2026-06-28T03:56:43.967Z-->
+<!--SR:!fsrs,2026-06-30T19:32:22.286Z,2,2.3065,2.11121424,2,2,0,0,2026-06-28T19:32:22.286Z-->

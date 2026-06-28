@@ -8,6 +8,7 @@ aliases:
   - tokenization
   - byte pair encoding
   - BPE
+  - tokenizer
 ---
 A tokenizer splits the text into smaller constituent units (tokens) from a *vocabulary* of possible tokens. A first instinct would be to have tokens represent words, but there are some difficulties:
 - Some words (e.g., names) will not be in the vocabulary.
@@ -19,3 +20,7 @@ One way would be to do character-level tokens, using letters and punctuation mar
 In practice, a compromise between letters and full words is used, and the final vocabulary includes both common words and word fragments from which larger and less frequent words can be composed. The vocabulary is composed using a *sub-word tokenizer* such as *byte pair encoding* that greedily merges commonly occurring sub-strings based on their frequency.
 
 ![[Tokenization-1782674945175.webp]]
+
+#cards/dl 
+Byte pair encoding tokenizer::Iteratively merge most commonly occurring adjacent pair of tokens into a new token.
+<!--SR:!fsrs,2026-06-28T19:42:30.558Z,0,2.3065,2.11810397,1,1,0,1,2026-06-28T19:32:30.558Z-->
