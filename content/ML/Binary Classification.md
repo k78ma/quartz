@@ -52,13 +52,14 @@ $$
 $$
 where $\ell_{i}$ is the loss for a particular data sample. See question 7.5 of [[UDL Chapter 7 Problems]] for how this is derived – I quite liked this derivation!
 
-#cards/dl 
-Binary cross entropy loss:
+#cards/dl
+Binary cross entropy loss
 ?
 $$
-\sum_{i=1}^{N} -t^{(i)}\log y^{(i)}-(1-t^{(i)})\log(1-y^{(i)})
+\sum_{i=1}^{N} -\bigg(t^{(i)}\log y^{(i)}+(1-t^{(i)})\log(1-y^{(i)})\bigg)
 $$
 where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth.
+<!--SR:!fsrs,2026-06-28T23:55:40.666Z,0,1.2931,5.11217071,1,1,0,0,2026-06-28T23:49:40.666Z-->
 +++
 
 Derivative of NLL w.r.t. pre-sigmoid activation
@@ -70,4 +71,5 @@ $$
 \end{align}
 $$
 where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth.
+<!--SR:!fsrs,2026-06-28T23:59:54.495Z,0,2.3065,2.11810397,1,1,0,1,2026-06-28T23:49:54.495Z-->
 +++
