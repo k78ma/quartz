@@ -5,7 +5,6 @@ tags:
 date: 2024-06-07
 aliases:
   - electrical transformer
-  - transformer
 ---
 Transformers are electrical energy transfer devices.
 

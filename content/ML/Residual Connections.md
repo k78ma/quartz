@@ -58,14 +58,14 @@ Note that when we start these blocks with a ReLU operation, they will do nothing
 
 #cards/dl 
 In residual networks, why do we start with a linear transformation (FC/conv) instead of ReLU?::First layer in the network needs to be linear in case input is negative
-<!--SR:!fsrs,2026-06-29T23:48:01.600Z,5,4.65595787,5.08254895,2,4,0,0,2026-06-24T23:48:01.600Z-->
+<!--SR:!fsrs,2026-07-18T03:17:07.373Z,18,18.35305404,5.07269477,2,5,0,0,2026-06-30T03:17:07.373Z-->
 
 Residual connection
 ?
 Shortcut branch that adds the input of a layer back to its output. Each layer computes an additive change to the current representation.
 
 ![[Residual Connections-1782165615349.webp]]
-<!--SR:!fsrs,2026-06-29T19:08:18.498Z,5,4.65595787,5.08254895,2,4,0,0,2026-06-24T19:08:18.498Z-->
+<!--SR:!fsrs,2026-07-18T03:19:19.387Z,18,18.35305404,5.07269477,2,5,0,0,2026-06-30T03:19:19.387Z-->
 +++
 
 Each residual networks, each residual block learns an ==additive== update to its input representation.

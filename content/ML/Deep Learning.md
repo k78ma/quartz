@@ -126,6 +126,8 @@ Some of these notes are also included in [[Machine Learning]].
         - [[Embedding Model]]
     - [[BERT]]
     - [[GPT-3]]
+        - [[Masked Self-Attention]]
+        - [[KV Cache]]
     - [[Machine Translation]]
 
 ## Learning Theory

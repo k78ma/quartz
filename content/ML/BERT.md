@@ -4,6 +4,7 @@ tags:
   - dl
 date: 2026-06-28
 aliases:
+  - encoder model
 ---
 BERT is an encoder [[Transformers for NLP|transformer model]].
 - Vocabulary of 30,000 tokens. 

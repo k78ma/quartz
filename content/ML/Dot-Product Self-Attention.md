@@ -110,20 +110,20 @@ $$
 
 #cards/dl 
 How does the number of attention weights depend on the sequence length $N$?::Quadratically. Each of the $N$ query vectors attends to all $N$ key vectors, producing an $N \times N$ attention matrix.
-<!--SR:!fsrs,2026-06-29T06:36:27.996Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:27.996Z-->
+<!--SR:!fsrs,2026-07-14T03:17:56.385Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-30T03:17:56.385Z-->
 
 How does the number of attention weights depend on the input dimension $D$?::No dependence
-<!--SR:!fsrs,2026-06-29T06:36:18.345Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:18.345Z-->
+<!--SR:!fsrs,2026-07-14T03:19:06.410Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-30T03:19:06.410Z-->
 
 What are the numerical properties of attention weights?::They are non-negative and sum to 1 because of softmax.
-<!--SR:!fsrs,2026-06-29T06:35:59.063Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:35:59.063Z-->
+<!--SR:!fsrs,2026-07-14T03:19:30.172Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-30T03:19:30.172Z-->
 
 Why is self-attention non-linear even with no activation function?::Dot-product and softmax
-<!--SR:!fsrs,2026-06-29T06:36:38.579Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T06:36:38.579Z-->
+<!--SR:!fsrs,2026-07-14T03:22:08.048Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-30T03:22:08.048Z-->
 
 In dot-product self-attention, how is parameter sharing done?::To calculate queries, keys, and values, the same three projection matrices ($\Omega_q, \Omega_k, \Omega_v$) and three bias vectors ($\beta_q, \beta_k, \beta_v$) are applied to every input. As a result, the parameter count is independent of the number of inputs $N$.
-<!--SR:!fsrs,2026-06-29T14:31:10.735Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T14:31:10.735Z-->
+<!--SR:!fsrs,2026-07-14T03:17:30.792Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-30T03:17:30.792Z-->
 
 Scaled dot-product self-attention formula::$\text{Sa}[X] = \text{Softmax}\left[ \frac{QK^{T}}{\sqrt{ D_{k} }} \right] V$
-<!--SR:!fsrs,2026-06-29T22:30:10.681Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T22:30:10.681Z-->
+<!--SR:!fsrs,2026-07-14T03:17:49.985Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-30T03:17:49.985Z-->
 
