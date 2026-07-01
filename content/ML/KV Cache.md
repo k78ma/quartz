@@ -20,4 +20,4 @@ Steps 2–6 are performed independently at every transformer layer. The hidden r
 
 #cards/dl 
 KV cache::Caches previously computed keys and values for cheaper autoregressive generation, avoiding re-computation by exploiting the causal structure of masked self-attention.
-<!--SR:!fsrs,2026-07-01T00:13:00.279Z,0,2.3065,2.11810397,1,1,0,1,2026-07-01T00:03:00.279Z-->
+<!--SR:!fsrs,2026-07-03T17:34:04.336Z,2,2.3065,2.11121424,2,2,0,0,2026-07-01T17:34:04.336Z-->

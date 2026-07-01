@@ -24,6 +24,7 @@ Thus, while the input is a single sequence, the output is one embedding per posi
 
 Masked attention also makes inference/generation more efficient with [[KV Cache]].
 
+![[GPT-3-1782791891541.webp]]
 
 #cards/dl 
 Masked self-attention::Restrict each token to interacting only with current and previous tokens by setting attention scores (dot products) to $-\infty$ before the softmax.

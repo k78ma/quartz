@@ -129,6 +129,11 @@ Some of these notes are also included in [[Machine Learning]].
         - [[Masked Self-Attention]]
         - [[KV Cache]]
     - [[Machine Translation]]
+- [[Transformers for long sequences]]
+- [[Transformers for images]]
+    - [[ImageGPT]]
+    - [[Vision Transformer]]
+    - [[SWin Transformer]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
