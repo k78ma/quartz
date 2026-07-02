@@ -11,6 +11,26 @@ However, if we pass in the full sentence $\text{``It takes great courage to appe
 
 Fortunately, the tokens only interact in the self-attention layers in a transformer. Hence, we can solve this by ensuring that the attention to the answer and the right context is zero. We can do this by setting the corresponding dot products in the [[Dot-Product Self-Attention|self-attention computation]] to negative infinity before they are passed through the softmax, so that the weights are zero after the softmax. This is known as *masked self-attention*. In [[Dot-Product Self-Attention|Figure 12.1]] where we think of attention as routing, this would set all of the upward angled arrows to zero. 
 
+With masked self-attention, attention matrix is lower triangular, while the masked-out region is the upper triangular part.
+
+> [!NOTE]- Step-by-step
+> With the $(N\times D)$ convention where each row is a token and $N$ is the sequence length, we can think of the unmasked scores:
+> $$
+> \begin{bmatrix} s_{11} & s_{12} & s_{13} & s_{14}\\ s_{21} & s_{22} & s_{23} & s_{24}\\ s_{31} & s_{32} & s_{33} & s_{34}\\ s_{41} & s_{42} & s_{43} & s_{44}  \\
+> \end{bmatrix}
+> $$
+> After applying the causal mask:
+> $$
+> \begin{bmatrix} s_{11} & -\infty & -\infty & -\infty\\ s_{21} & s_{22} & -\infty & -\infty\\ s_{31} & s_{32} & s_{33} & -\infty\\ s_{41} & s_{42} & s_{43} & s_{44} \end{bmatrix}
+> $$
+> After row-wise softmax, the masked entries become zero:
+> $$
+> \begin{bmatrix}
+>  * & 0 & 0 & 0\\ * & * & 0 & 0\\ * & * & * & 0\\ * & * & * & *  \\
+> \end{bmatrix}
+> $$
+> Thus, the attention matrix becomes lower triangular, while the masked-out region is the upper triangular part.
+
 Masked self-attention lets us train on the entire autoregressive rollout in one forward pass by making sure that the prediction at each position depends only on the current and preceding tokens. Although the entire sequence is fed into the transformer at once, the causal mask ensures that the hidden state at each position depends only on the current and preceding tokens. Thus, each output embedding behaves as if the model had been run on the corresponding prefix alone.
 
 For example, the single forward pass over `It takes great courage` simultaneously computes the embeddings corresponding to the prefixes:
