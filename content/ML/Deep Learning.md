@@ -124,16 +124,16 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Transformers for NLP]]
     - [[Vector Embeddings]]
         - [[Embedding Model]]
-    - [[BERT]]
-    - [[GPT-3]]
+    - [[Encoder Model]] – BERT
+    - [[Decoder Model]] – GPT-3
         - [[Masked Self-Attention]]
         - [[KV Cache]]
-    - [[Machine Translation]]
+     - [[Encoder-Decoder Model]] – Machine translation
 - [[Transformers for Long Sequences]]
 - [[Transformers for Images]]
     - [[ImageGPT]]
     - [[Vision Transformer]]
-    - [[SWin Transformer]]
+    - [[Multi-Scale Vision Transformers]] – Swin Tranformer, DaViT
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

@@ -1,12 +1,15 @@
 ---
-title: BERT
+title: Encoder Model
 tags:
   - dl
-date: 2026-06-28
+date: 2026-07-03
 aliases:
   - encoder model
+  - BERT
 ---
-BERT is an encoder [[Transformers for NLP|transformer model]].
+An *encoder* transforms text embeddings into a representation that can support a variety of tasks. 
+
+BERT is an example of a decoder.
 - Vocabulary of 30,000 tokens. 
 - Input tokens are are converted to 1024-dimensional word embeddings and passed through 24 [[Transformer Layer|transformer layers]]. 
 - Each transformer layer contains a [[Multi-Head Self-Attention|multi-head self-attention]] mechanism with 16-heads.

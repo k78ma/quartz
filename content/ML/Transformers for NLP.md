@@ -25,6 +25,6 @@ A typical embedding size is 1024, and a typical total vocabulary size $\left| \m
 Finally, the embedding matrix $X$ representing the text is passed through a series of $K$ [[Transformer Layer|transformer layers]], called a *transformer model*.
 
 There are three types of transformer models:
-- An *encoder* transforms the text embeddings into a representation that can support a variety of tasks. An example of this is [[BERT]].
-- A *decoder* predicts the next token to continue the input text. An example of this is [[GPT-3]].
-- *Encoder-decoder* are used in sequence-to-sequence tasks, where one text string is converted into another (e.g., [[Machine Translation|machine translation]]).
+- An [[Encoder Model|encoder]] transforms the text embeddings into a representation that can support a variety of tasks. An example of this is [[Encoder Model|BERT]].
+- A [[Decoder Model|decoder]] predicts the next token to continue the input text. An example of this is [[Decoder Model|GPT-3]].
+- *Encoder-decoder* are used in sequence-to-sequence tasks, where one text string is converted into another (e.g., [[Encoder-Decoder Model|machine translation]]).

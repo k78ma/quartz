@@ -40,7 +40,7 @@ For example, the single forward pass over `It takes great courage` simultaneousl
 "It takes great"    → embedding used to predict "courage"
 ```
 
-Thus, while the input is a single sequence, the output is one embedding per position, where each embedding summarizes the prefix up to that position and is used to predict the following token. See the [[GPT-3#Decoder training|decoder training]] for how this looks.
+Thus, while the input is a single sequence, the output is one embedding per position, where each embedding summarizes the prefix up to that position and is used to predict the following token. See the [[Decoder Model#Decoder training|decoder training]] for how this looks.
 
 Masked attention also makes inference/generation more efficient with [[KV Cache]].
 

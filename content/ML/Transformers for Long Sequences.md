@@ -5,7 +5,7 @@ tags:
 date: 2026-07-01
 aliases: transformers for long sequences
 ---
-Each token in a transformer [[BERT|encoder model]] interacts with every other token, so the computational complexity scales quadratically with the sequence length. For a [[GPT-3|decoder model]], masked attention makes it so that each token only interacts with previous tokens, so there are roughly half the number of interactions; however, this still scales quadratically.
+Each token in a transformer [[Encoder Model|encoder model]] interacts with every other token, so the computational complexity scales quadratically with the sequence length. For a [[Decoder Model|decoder model]], masked attention makes it so that each token only interacts with previous tokens, so there are roughly half the number of interactions; however, this still scales quadratically.
 
 ![[Transformers for Long Sequences-1782959409220.webp|504]]
 
