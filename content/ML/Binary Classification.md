@@ -59,7 +59,7 @@ $$
 \sum_{i=1}^{N} -\bigg(t^{(i)}\log y^{(i)}+(1-t^{(i)})\log(1-y^{(i)})\bigg)
 $$
 where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth.
-<!--SR:!fsrs,2026-07-02T03:43:31.641Z,2,2.3065,2.11121424,2,2,0,0,2026-06-30T03:43:31.641Z-->
+<!--SR:!fsrs,2026-07-20T02:18:48.094Z,16,16.18802274,2.1043314,2,3,0,0,2026-07-04T02:18:48.094Z-->
 +++
 
 Derivative of NLL w.r.t. pre-sigmoid activation
@@ -71,5 +71,5 @@ $$
 \end{align}
 $$
 where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth.
-<!--SR:!fsrs,2026-07-02T03:43:39.372Z,2,2.3065,2.11121424,2,2,0,0,2026-06-30T03:43:39.372Z-->
+<!--SR:!fsrs,2026-07-20T02:14:40.089Z,16,16.18802274,2.1043314,2,3,0,0,2026-07-04T02:14:40.089Z-->
 +++

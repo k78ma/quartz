@@ -23,12 +23,12 @@ Note that U-Net was completely convolutional, so after training, it can be run o
 
 #cards/dl 
 Why can U-Net be run on images of any size?::It's completely convolutional, with no FC layers.
-<!--SR:!fsrs,2026-07-03T02:53:07.453Z,7,7.31530068,2.11121424,2,2,0,0,2026-06-26T02:53:07.453Z-->
+<!--SR:!fsrs,2026-08-07T02:16:14.703Z,34,34.10547749,2.1043314,2,3,0,0,2026-07-04T02:16:14.703Z-->
 
 U-Net
 ?
 Encoder-decoder architecture for segmentation where we concatenate earlier representations with later ones.
 
 ![[U-Net-1782410177895.webp]]
-<!--SR:!fsrs,2026-07-03T02:53:03.412Z,7,7.31530068,2.11121424,2,2,0,0,2026-06-26T02:53:03.412Z-->
+<!--SR:!fsrs,2026-07-27T02:16:38.634Z,23,23.42691302,4.74828477,2,3,0,0,2026-07-04T02:16:38.634Z-->
 +++

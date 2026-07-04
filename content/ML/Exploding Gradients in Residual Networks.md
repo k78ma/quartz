@@ -19,7 +19,7 @@ One approach that would stabilize the forward and backward passes would be to us
 
 #cards/dl 
 Residual networks have what kind of exploding/vanishing gradient problem?::Exponential increase in activations during forward pass and corresponding problems with exploding gradients. No problem with vanishing.
-<!--SR:!fsrs,2026-07-03T02:53:27.258Z,7,7.31530068,2.11121424,2,2,0,0,2026-06-26T02:53:27.258Z-->
+<!--SR:!fsrs,2026-08-07T02:15:53.686Z,34,34.10547749,2.1043314,2,3,0,0,2026-07-04T02:15:53.686Z-->
 
 How do we deal with exploding activations or gradients in residual networks?::BatchNorm to keep the activations/gradients well-scaled
 <!--SR:!fsrs,2026-07-10T02:52:34.599Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-26T02:52:34.599Z-->

@@ -35,12 +35,12 @@ Invariance
 ?
 A function $f[x]$ of an image $x$ is invariant to a transformation $t[x]$ if $f[t[x]] = f[x],$ such that its output is the same regardless of the transformation.
 - Input image shifts but classification result is the same
-<!--SR:!fsrs,2026-07-03T17:35:21.940Z,8,8.40532873,4.73381904,2,4,0,0,2026-06-25T17:35:21.940Z-->
+<!--SR:!fsrs,2026-08-02T02:14:22.075Z,29,29.29711125,4.72431359,2,5,0,0,2026-07-04T02:14:22.075Z-->
 +++
 
 Equivariance
 ?
 A function $f[x]$ is _equivariant_ to a transformation $t[x]$ if $f[t[x]] = t[f[x]]$, such that its output changes in the same way under the transformation as the input.
 - Segmentation shifts the same way that input shifts
-<!--SR:!fsrs,2026-07-03T17:34:22.438Z,8,8.40532873,4.73381904,2,4,0,0,2026-06-25T17:34:22.438Z-->
+<!--SR:!fsrs,2026-08-02T02:17:42.787Z,29,29.29711125,4.72431359,2,5,0,0,2026-07-04T02:17:42.787Z-->
 +++

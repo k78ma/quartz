@@ -135,6 +135,9 @@ Some of these notes are also included in [[Machine Learning]].
     - [[Vision Transformer]]
     - [[Multi-Scale Vision Transformers]] – Swin Tranformer, DaViT
 
+## Graph Neural Networks
+
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
