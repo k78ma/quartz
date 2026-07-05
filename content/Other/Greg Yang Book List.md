@@ -1,0 +1,388 @@
+---
+title: Greg Yang Book List
+tags: 
+date: 2024-07-16
+aliases: 
+draft: "true"
+---
+- "Naive Set Theory" by Paul R Halmos
+- "Linear Algebra Done Right Second Edition" by Sheldon Axler
+- "Mixing Secrets for the Small Studio" by Mike Senior
+- "Introduction to Algorithms, Third Edition" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein
+- "Generatingfunctionology" by Herbert S. Wilf
+- "Information Theory, Inference and Learning Algorithms" by David J. C. MacKay
+- "Introduction to Quantum Mechanics" by David J. Griffiths
+- "Probability Theory: The Logic of Science" by E. T. Jaynes, G. Larry Bretthorst
+- "Topology" by James R. Munkres
+- "A Concise Introduction to Mathematical Logic" by Wolfgang Rautenberg
+- "Complex Analysis, 2nd ed" by Lars Ahlfors
+- "An Introduction to Probability Theory and Its Applications, Vol 1" by William Feller
+- "Complex Analysis, 3rd ed" by Lars Ahlfors
+- "A First Course in Linear Algebra" by Robert A. Beezer
+- "The Principles of Mathematical Analysis" by Walter Rudin
+- "Math 55 Notes" by Curtis McMullen
+- "Algebra, 1st ed" by Michael Artin
+- "Algebraic Number Theory" by J.S. Milne
+- "Algebraic Number Theory" by Jürgen Neukirch
+- "Algebraic Theory of Numbers: Translated From the French by Allan J. Silberger" by Pierre Samuel
+- "Representation Theory: A First Course" by William Fulton, Joe Harris
+- "Differential Topology" by Victor Guillemin, Alan Pollack
+- "A First Course in Modular Forms" by Fred Diamond, Jerry Shurman
+- "A Course in Arithmetic" by Jean Pierre Serre
+- "Fourier Analysis: An Introduction" by Elias M. Stein, Rami Shakarchi
+- "Complex Analysis" by Elias M. Stein, Rami Shakarchi
+- "Real Analysis: Measure Theory, Integration, and Hilbert Spaces" by Elias M. Stein, Rami Shakarchi
+- "Elements of Information Theory (Wiley Series in Telecommunications and Signal Processing) (Hardcover)" by Thomas M. Cover
+- "Psychology" by Daniel L. Schacter, Daniel T. Gilbert, Daniel M. Wegner
+- "Artificial Intelligence: A Modern Approach" by Stuart Jonathan Russell, Peter Norvig
+- "Pattern Recognition and Machine Learning" by Christopher M. Bishop
+- "Python Essential Reference" by David M. Beazley
+- "Topology" by James R. Munkres
+- "Abstract Algebra" by David S. Dummit, Richard M. Foote
+- "Principles of Neural Science" by Eric Kandel
+- "Bayesian Brain: Probabilistic Approaches to Neural Coding" by Kenji Doya, Shin Ishii, Alexandre Pouget, Rajesh P. N. Rao
+- "Theoretical Neuroscience: Computational and Mathematical Modeling of Neural Systems" by Peter Dayan, Laurence F. Abbott
+- "Neuroeconomics: Decision Making and the Brain" by Paul W. Glimcher, Ernst Fehr, Colin Camerer, Russell Alan Poldrack
+- "Measure Theory" by Donald L. Cohn
+- "Probability and Random Processes" by Geoffrey R. Grimmett, David R. Stirzaker
+- "An Introduction to Probability Theory and Its Applications, Vol. 2" by William Feller
+- "Computational Complexity: A Modern Approach" by Sanjeev Arora, Boaz Barak
+- "Introduction to Automata Theory, Languages, and Computation" by John E. Hopcroft, Rajeev Motwani, Jeffrey D. Ullman
+- "Computational Complexity" by Christos H. Papadimitriou
+- "Computational Complexity: A Conceptual Perspective" by Oded Goldreich
+- "Introduction to the Theory of Computation" by Michael Sipser
+- "An Introduction to Kolmogorov Complexity and Its Applications" by Ming Li, Paul M. B. Vitányi
+- "Handbook of Mathematical Logic" by Jon Barwise
+- "Mathematical Logic" by Joseph R. Shoenfield
+- "A Course in Mathematical Logic for Mathematicians" by Yu. I. Manin, Neal Koblitz, B. Zilber
+- "Advanced Nutrition and Human Metabolism, 5th ed." by Sareen S. Gropper, Jack L. Smith
+- "Fuzzy Sets and Fuzzy Logic: Theory and Applications" by George J. Klir, Bo Yuan
+- "Universe of Fuzzy Sets and Axiomatizations of Fuzzy Set Theory. Part I: Model-Based and Axiomatic Approaches" by Siegfried Gottwald
+- "Electricity and Magnetism 2ed" by Edward M. Purcell, David J. Morin
+- "Introduction to Electrodynamics" by David J. Griffiths
+- "Neuroscience: Exploring the Brain" by Mark F. Bear PhD, Barry W. Connors PhD, Michael A. Paradiso PhD
+- "Algebraic Topology" by Allen Hatcher
+- "Computer Networks" by Andrew S. Tanenbaum, David J. Wetherall
+- "Organic Chemistry, 1ed" by Jonathan Clayden, Nick Greeves, Stuart Warren
+- "Functional Analysis: Introduction to Further Topics in Analysis" by Elias M. Stein, Rami Shakarchi
+- "Homotopy Type Theory: Univalent Foundations of Mathematics" by Univalent Foundations Program
+- "Abstract and Concrete Categories - The Joy of Cats" by J. Adamek, H. Herrlich, G. E. Strecker
+- "Model Theory: An Introduction" by David Marker
+- "Higher Topos Theory" by Jacob Lurie
+- "Category Theory (Oxford Logic Guides)" by Steve Awodey
+- "Quantum Computation and Quantum Information" by Michael A. Nielsen, Isaac L. Chuang
+- "Categorical Homotopy Theory" by Emily Riehl
+- "Recursively Enumerable Sets and Degrees: A Study of Computable Functions and Computably Generated Sets" by Robert I. Soare
+- "Introduction to Homotopy Theory (Universitext)" by Martin Arkowitz
+- "Introduction to Mathematical Logic, Fifth Edition" by Elliott Mendelson
+- "Proofs and Types" by Jean-Yves Girard
+- "Universe of Fuzzy Sets and Axiomatizations of Fuzzy Set Theory. Part II: Category Theoretic Approaches" by Siegfried Gottwald
+- "Set Theory" by Thomas Jech
+- "Principles of Tissue Engineering, 4th Edition" by Robert Lanza, Robert Langer, Joseph P. Vacanti
+- "Principles of Anatomy and Physiology, 13e with Atlas" by Gerard J. Tortora
+- "Ordinary Differential Equations" by V. I. Arnold, Richard A. Silverman
+- "Descriptive Complexity" by Neil Immerman
+- "An Introduction to Systems Biology: Design Principles of Biological Circuits" by Uri Alon
+- "An Introduction to Computational Learning Theory" by Michael J. Kearns, Umesh Virkumar Vazirani
+- "Handbook of Set Theory" by Matthew Foreman, Akihiro Kanamori
+- "Computable Analysis: An Introduction" by Klaus Weihrauch
+- "Categorical Logic and Type Theory" by Bart Jacobs
+- "Elements of Finite Model Theory" by Leonid Libkin
+- "Measure Theory: Second Edition" by Donald L. Cohn
+- "Measure Theory vol 1" by Vladimir I. Bogachev
+- "Measure Theory vol 2" by Vladimir I. Bogachev
+- "Real and Complex Analysis" by Walter Rudin
+- "Model Theory" by C. C. Chang, H. Jerome Keisler
+- "The Higher Infinite: Large Cardinals in Set Theory from Their Beginnings" by Akihiro Kanamori
+- "Descriptive Set Theory" by Yiannis N. Moschovakis
+- "Classical Descriptive Set Theory (Graduate Texts in Mathematics) (V. 156)" by Alexander Kechris
+- "Invariant Descriptive Set Theory" by Su Gao
+- "Structural Proof Theory" by Sara Negri, Jan Von Plato
+- "Proof Theory" by Gaisi Takeuti
+- "Categories and Sheaves" by Masaki Kashiwara, Pierre Schapira
+- "Topoi: The Categorial Analysis of Logic" by Robert Goldblatt
+- "Communication Complexity" by Eyal Kushilevitz, Noam Nisan
+- "Types and Programming Languages" by Benjamin C. Pierce
+- "Advanced Topics in Types and Programming Languages" by Benjamin C. Pierce
+- "Sheaves in Geometry and Logic: A First Introduction to Topos Theory" by Saunders Mac Lane, Ieke Moerdijk
+- "Introduction to Smooth Manifolds" by John M. Lee
+- "An Introduction to Manifolds" by Loring W. Tu
+- "Principles of Neural Science, Fifth Edition (Principles of Neural Science (Kandel))" by Eric Kandel, James Schwartz, Thomas Jessell, Steven Siegelbaum, A.J. Hudspeth
+- "Pattern Theory: From Representation to Inference" by Ulf Grenander, Michael I. Miller
+- "Pattern Theory: The Stochastic Analysis of Real-World Signals" by David Mumford, Agnès Desolneux
+- "Topology and Geometry" by Glen E. Bredon
+- "Differential Forms in Algebraic Topology" by Raoul Bott, Loring W. Tu
+- "An Introduction to Algebraic Topology" by Joseph Rotman
+- "A Concise Course in Algebraic Topology" by J. P. May
+- "The Red Book of Varieties and Schemes: Includes the Michigan Lectures (1974) on Curves and Their Jacobians" by David Mumford
+- "The Geometry of Schemes" by David Eisenbud, Joe Harris
+- "Algebraic Geometry" by Robin Hartshorne
+- "Commutative Algebra With a View Toward Algebraic Geometry" by David Eisenbud
+- "Introduction to Commutative Algebra" by Michael Atiyah, Ian G. Macdonald
+- "Realizability: An Introduction to Its Categorical Side" by Jaap van Oosten
+- "Toposes and Local Set Theories: An Introduction" by J. L. Bell
+- "Topos Theory (Dover Books on Mathematics)" by P. T. Johnstone
+- "Sketches of an Elephant: A Topos Theory Compendium" by P. T. Johnstone
+- "Categories for the Working Mathematician" by Saunders Mac Lane
+- "Simplicial Homotopy Theory" by Paul G. Goerss, John F. Jardine
+- "Handbook of Categorical Algebra: Volume 1, Basic Category Theory" by Francis Borceux
+- "Handbook of Categorical Algebra: Volume 2, Categories and Structures" by Francis Borceux
+- "Handbook of Categorical Algebra: Volume 3, Categories of Sheaves" by Francis Borceux
+- "Categorical Homotopy Theory" by Emily Riehl
+- "Simplicial Objects in Algebraic Topology" by J. P. May
+- "Algebra" by Saunders Mac Lane, Garrett Birkhoff
+- "Game Theory: Analysis of Conflict" by Roger B. Myerson
+- "Counterexamples in Analysis (Dover Books on Mathematics)" by Bernard R. Gelbaum, John M. H. Olmsted
+- "Computational Complexity: A Quantitative Perspective" by Marius Zimand
+- "Resource Bounded Measure" by Jack Lutz
+- "Elements of the Theory of Functions and Functional Analysis, vol I" by A. N. Kolmogorov, S. V. Fomin
+- "Elements of the Theory of Functions and Functional Analysis, vol II" by A. N. Kolmogorov, S. V. Fomin
+- "Introductory Functional Analysis With Applications" by Erwin Kreyszig
+- "Introduction to Functional Analysis" by Reinhold Meise, Dietmar Vogt
+- "Noncommutative Geometry" by Alain Connes
+- "The Algebra of Proofs, Vol. 88 (Studies in Logic and the Foundations of Mathematics)" by M. E. Szabo
+- "Complexity Theory of Real Functions" by Ker-I Ko
+- "Principles of Algebraic Geometry" by Phillip Griffiths, Joe Harris
+- "An Introduction to Homological Algebra" by Charles A. Weibel
+- "Algebraic Geometry and Statistical Learning Theory" by Sumio Watanabe
+- "Theory of Linear and Integer Programming" by Alexander Schrijver
+- "Higher Operads, Higher Categories" by Tom Leinster
+- "Intuitionistic Type Theory" by Per Martin-Löf
+- "The Calculus of Constructions" by Thierry Coquand, Gérard Huet
+- "Treatise on Intuitionistic Type Theory" by Johan Georg Granström
+- "Fundamentals of the Theory of Operator Algebras: Volume II. Advanced Theory" by Richard V. Kadison, John R. Ringrose
+- "Fundamentals of the Theory of Operator Algebras: Volume I. Elementary Theory" by Richard V. Kadison, John R. Ringrose
+- "Operator Algebras: Theory of C-Algebras and Von Neumann Algebras" by Bruce Blackadar**
+- "Fundamentals of the Theory of Operator Algebras: Volume IV. Special Topics. Advanced Theory - An Exercise Approach" by Richard V. Kadison, John R. Ringrose
+- "Algorithmic Randomness and Complexity" by Rodney G. Downey, Denis R. Hirschfeldt
+- "Modal Logic" by Patrick Blackburn, Maarten de Rijke, Yde Venema
+- "Riemannian Manifolds: An Introduction to Curvature" by John M. Lee
+- "Introduction to Topological Manifolds (Second edition)" by John M. Lee
+- "Continuous Lattices and Domains" by G. Gierz, K. H. Hofmann, K. Keimel, J. D. Lawson, M. Mislove, D. S. Scott
+- "Mathematical Theory of Domains" by V. Stoltenberg-Hansen, I. Lindström, E. R. Griffor
+- "Algebraic Geometry: A First Course (Graduate Texts in Mathematics 133)" by Joe Harris
+- "Rational Homotopy Theory" by Yves Félix, Steve Halperin, Jean-Claude Thomas
+- "Basic Proof Theory" by A. S. Troelstra, H. Schwichtenberg
+- "Computable Analysis" by Oliver Aberth
+- "Domain Theory" by Samson Abramsky, Achim Jung
+- "Finite Model Theory and Its Applications" by Erich Grädel, Phokion G. Kolaitis, Leonid Libkin, Maarten Marx, Joel Spencer, Moshe Y. Vardi, Yde Venema, Scott Weinstein
+- "Probability and Stochastics" by Erhan Çınlar
+- "Analysis of Boolean Functions" by Ryan O'Donnell
+- "The Algorithmic Foundations of Differential Privacy" by Cynthia Dwork, Aaron Roth
+- "Algebraic Geometry: Part I: Schemes. With Examples and Exercises" by Ulrich Görtz, Torsten Wedhorn
+- "Algebraic Geometry and Commutative Algebra" by Siegfried Bosch
+- "Introduction to Lattices and Order" by B. A. Davey, H. A. Priestley
+- "The Discrepancy Method: Randomness and Complexity" by Bernard Chazelle
+- "Topology via Logic" by Steven Vickers
+- "Homotopy Theories and Model Categories" by W. G. Dwyer, J. Spalinski
+- "Model Categories" by Mark Hovey
+- "Gray's Atlas of Anatomy" by Richardson, Paul; Drake, Richard; Vogl, A. Wayne; Mitchell, Adam W. M.; Tibbitts, Richard
+- "Harrison's Principles of Internal Medicine 18E Vol 2 EB" by Dan Longo, Anthony Fauci, Dennis Kasper, Stephen Hauser, J. Jameson, Joseph Loscalzo
+- "Advanced Nutrition and Human Metabolism, 6th ed." by Sareen S. Gropper, Jack L. Smith
+- "Organic Chemistry" by David R. Klein
+- "Organic Chemistry As a Second Language: Second Semester Topics, 3rd edition" by David R. Klein
+- "Organic Chemistry I as a Second Language: Translating the Basic Concepts" by David R. Klein
+- "Organic Chemistry, 2ed" by Jonathan Clayden, Nick Greeves, Stuart Warren
+- "Bates' Guide to Physical Examination and History-Taking" by Lynn Bickley
+- "Handbook of Spatial Logics" by Marco Aiello, Ian Pratt-Hartmann, Johan van Benthem
+- "General Topology" by Ryszard Engelking
+- "Topology: Volume II (Volume 2)" by K. Kuratowski
+- "Topology: Volume I (Volume 1)" by K. Kuratowski
+- "Classical Mechanics" by John R. Taylor
+- "Chemistry" by Steven Zumdahl, Susan Zumdahl
+- "Graph Theory (Graduate Texts in Mathematics)" by Reinhard Diestel
+- "Graph Theory" by Adrian Bondy, U. S. R. Murty
+- "The Mathematics of Systems and Control: From Intelligent Control to Behavioral Systems" by Jan Willem Polderman, H. L. Trentelman, Jan C. Willems
+- "Cellular Automata: A Discrete View of the World" by Joel L. Schiff
+- "Cellular Automata and Groups" by Tullio Ceccherini-Silberstein, Michel Coornaert
+- "A New Kind of Science" by Stephen Wolfram
+- "Computer Systems: A Programmer's Perspective (2nd Edition)" by Randal E. Bryant
+- "Electricity and Magnetism 3ed" by Edward M. Purcell, David J. Morin
+- "A First Course in General Relativity" by Bernard Schutz
+- "Gravity: An Introduction to Einstein's General Relativity" by James B. Hartle
+- "Gravitation" by Charles W. Misner, Kip S. Thorne, John Archibald Wheeler
+- "Certified Programming With Dependent Types: A Pragmatic Introduction to the Coq Proof Assistant" by Adam Chlipala
+- "Spacetime Physics" by Edwin F. Taylor, John Archibald Wheeler
+- "Introduction to Special Relativity" by Wolfgang Rindler
+- "Basic Neurochemistry, Eighth Edition: Principles of Molecular, Cellular, and Medical Neurobiology" by Scott Brady, George Siegel, R. Wayne Albers, Donald Price
+- "Theory of Computational Complexity" by Ding-Zhu Du, Ker-I Ko
+- "Design and Analysis of Approximation Algorithms" by Ding-Zhu Du, Ker-I Ko, Xiaodong Hu
+- "Complex Analysis" by Serge Lang
+- "Functions of One Complex Variable" by John B. Conway
+- "More Concise Algebraic Topology: Localization, Completion, and Model Categories" by J. P. May, K. Ponto
+- "Modern Classical Homotopy Theory" by Jeffrey Strom
+- "Elements of Homotopy Theory" by George W. Whitehead
+- "Homotopy Theory of Higher Categories: From Segal Categories to N-Categories and Beyond (New Mathematical Monographs)" by Carlos Simpson
+- "Mathematical Methods of Classical Mechanics" by V. I. Arnold
+- "Calculus of Variations (Dover Books on Mathematics)" by I. M. Gelfand, S. V. Fomin
+- "The Variational Principles Of Mechanics" by Cornelius Lanczos
+- "Non-Classical Logics and Their Applications to Fuzzy Subsets: A Handbook of the Mathematical Foundations of Fuzzy Set Theory" by Ulrich Höhle, Erich Peter Klement
+- "Axiomatic Fuzzy Set Theory and Its Applications (Studies in Fuzziness and Soft Computing)" by Xiaodong Liu, Witold Pedrycz
+- "Prolog Programming for Artificial Intelligence" by Ivan Bratko
+- "Complexity Theory for Operators in Analysis" by Akitoshi Kawamura, Stephen Cook
+- "Classical Field Theory: On Electrodynamics, Non-Abelian Gauge Theories and Gravitation" by Florian Scheck
+- "Electromagnetic Theory and Computation: A Topological Approach (Mathematical Sciences Research Institute Publications)" by Paul W. Gross
+- "The Convenient Setting of Global Analysis" by Andreas Kriegl, Peter W. Michor
+- "The Realizability Approach to Computable Analysis and Topology" by Andrej Bauer
+- "Homotopy Type Theory and Voevodsky's Univalent Foundations" by Álvaro Pelayo, Michael A. Warren
+- "Parameterized Complexity Theory (Texts in Theoretical Computer Science. An EATCS Series)" by Jörg Flum, Martin Grohe
+- "Invitation to Fixed Parameter Algorithms (Oxford Lecture Series in Mathematics and Its Applications Series, #31)" by Rolf Niedermeier
+- "Parameterized Complexity" by Rodney G. Downey, M. R. Fellows
+- "Fundamentals of the Theory of Operator Algebras: Special Topics Volume III Elementary Theory - an Exercise Approach (Volume 3)" by Richard V. Kadison, John R. Ringrose
+- "Very Large Cardinals" by Peter Koellner
+- "Set Theory: The Independence Phenomenon" by Peter Koellner
+- "Locally Presentable and Accessible Categories" by J. Adamek, J. Rosicky
+- "Lectures on Linear Logic" by A. S. Troelstra
+- "Logical Foundations of Proof Complexity" by Stephen Cook, Phuong Nguyen
+- "Introduction to Circuit Complexity: A Uniform Approach" by Heribert Vollmer
+- "Neural Networks for Pattern Recognition" by Christopher M. Bishop
+- "Machine Learning: A Probabilistic Perspective (Adaptive Computation and Machine Learning Series)" by Kevin P. Murphy
+- "Reinforcement Learning: State-of-the-Art" by Marco Wiering, Martijn van Otterlo
+- "Learning From Data" by Yaser S. Abu-Mostafa, Malik Magdon-Ismail, Hsuan-Tien Lin
+- "Combinatorial Species and Labelled Structures" by Brent Yorgey
+- "Introduction to Process Algebra" by Wan Fokkink
+- "Handbook of Process Algebra" by J. A. Bergstra, A. Ponse, S. A. Smolka
+- "Process Algebra: Equational Theories of Communicating Processes (Cambridge Tracts in Theoretical Computer Science)" by J. C. M. Baeten, T. Basten, M. A. Reniers
+- "Process Algebra for Parallel and Distributed Processing (Chapman & Hall/CRC Computational Science)" by Michael Alexander, William Gardner
+- "Resource-Bounded Measure and Randomness" by Klaus Ambos-Spies, Elvira Mayordomo
+- "Randomness and Completeness in Computational Complexity" by Dieter van Melkebeek
+- "All of Statistics: A Concise Course in Statistical Inference" by Larry Wasserman
+- "The Elements of Statistical Learning: Data Mining, Inference, and Prediction, Second Edition (Springer Series in Statistics)" by Trevor Hastie, Robert Tibshirani, Jerome Friedman
+- "Denotational Semantics: A Methodology for Language Development" by David A. Schmidt
+- "Information Geometry: Near Randomness and Near Independence" by Khadiga Arwini, C. T. J. Dodson, A. J. Doig, W. W. Sampson, J. Scharcanski, S. Felipussi
+- "Methods of Information Geometry" by Shun-Ichi Amari, Hiroshi Nagaoka
+- "Notions of Computation and Monads" by Eugenio Moggi
+- "Sparsity: Graphs, Structures, and Algorithms" by Jaroslav Nešetřil, Patrice Ossona de Mendez
+- "Institution-Independent Model Theory" by Razvan Diaconescu
+- "Model Categories and Their Localizations" by Philip S. Hirschhorn
+- "Homotopy Limit Functors on Model Categories and Homotopical Categories" by William G. Dwyer, Philip S. Hirschhorn, Daniel M. Kan, Jeffrey H. Smith
+- "Digital Design and Computer Architecture" by Sarah Harris, David Money Harris
+- "Introduction to the Theory of Distributions" by Friedrich Gerard Friedlander, Mark Suresh Joshi
+- "Distributions and Operators" by Gerd Grubb
+- "A Leisurely Introduction to Simplicial Sets" by Emily Riehl
+- "General Topology" by John Leroy Kelley
+- "A Gentle Introduction to Type Classes and Relations in Coq" by Pierre Castéran, Matthieu Sozeau
+- "Neural-Symbolic Cognitive Reasoning" by Artur S. d'Avila Garcez, Luís C. Lamb, Dov M. Gabbay
+- "Neural-Symbolic Learning Systems" by Artur S. d'Avila Garcez, Krysia Broda, Dov M. Gabbay
+- "An Elementary Introduction to Modern Convex Geometry" by Keith Ball
+- "Functional Analysis" by Walter Rudin
+- "Topological Vector Spaces (Graduate Texts in Mathematics)" by H. H. Schaefer, M. P. Wolff
+- "Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering" by Steven Henry Strogatz
+- "Complex Geometry" by Daniel Huybrechts
+- "Convex Optimization" by Stephen Boyd, Lieven Vandenberghe
+- "Convex Optimization Algorithms" by Dimitri P. Bertsekas
+- "Genetic Algorithms in Search, Optimization, and Machine Learning" by David E. Goldberg
+- "Statistical Decision Theory and Bayesian Analysis" by James O. Berger
+- "Differential Geometry and Statistics" by M. K. Murray, J. W. Rice
+- "Tinnitus Retraining Therapy: Implementing the Neurophysiological Model" by Pawel J. Jastreboff, Jonathan W. P. Hazell
+- "Discrete Dynamical Systems and Chaotic Machines: Theory and Applications" by Jacques Bahi
+- "Discrete Dynamical Systems" by Oded Galor
+- "A First Course in Discrete Dynamical Systems" by Richard Holmgren
+- "Digital Signal Processing" by John G. Proakis, Dimitris G. Manolakis
+- "Stochastic Processes: Theory for Applications" by Robert G. Gallager
+- "Engineering Circuit Analysis" by William Hart Hayt, Jack Ellsworth Kemmerly, Steven M. Durbin
+- "Computational Homology (Applied Mathematical Sciences)" by Tomasz Kaczynski, Konstantin Mischaikow, Marian Mrozek
+- "Ergodic Theory and Information" by Patrick Billingsley
+- "An Introduction to Ergodic Theory" by Peter Walters
+- "Statistical Mechanics" by R. K. Pathria, Paul D. Beale
+- "Statistical Physics of Fields" by Mehran Kardar
+- "Solutions Manual to Kardar" by Mehran Kardar
+- "A Modern Course in Statistical Physics" by L. E. Reichl
+- "Partial Differential Equations: An Introduction, 2nd Edition" by Walter A. Strauss
+- "Mathematical Linguistics" by Andras Kornai
+- "Partial Differential Equations (2nd Edn)" by Lawrence C. Evans
+- "Principles of Corporate Finance" by Richard A. Brealey, Stewart C. Myers, Franklin Allen
+- "Principles of Economics 5th ed" by Robert Frank, Ben Bernanke, Kate Antonovics, Ori Heffetz
+- "Principles of Economics" by N. Mankiw
+- "Nonparametric Statistics" by Gregory W. Corder, Dale I. Foreman
+- "Learning Theory: An Approximation Theory Viewpoint" by Felipe Cucker, Ding-Xuan Zhou
+- "A Probabilistic Theory of Pattern Recognition" by Luc Devroye, László Györfi, Gábor Lugosi
+- "Neural Network Learning: Theoretical Foundations" by Martin Anthony
+- "Neural Networks and Learning Machines, Third Edition" by Simon Haykin
+- "Mathematical Control Theory: Deterministic Finite Dimensional Systems" by Eduardo D. Sontag
+- "Reinforcement Learning: An Introduction" by Richard S. Sutton, Andrew G. Barto
+- "Simulation and the Monte Carlo Method" by Reuven Y. Rubinstein, Dirk P. Kroese
+- "Martingale Limit Theory and Its Application" by P. Hall, C. C. Heyde
+- "The Princeton Companion to Mathematics" by Timothy Gowers, June Barrow-Green, Imre Leader
+- "The Radon Transform and Some of Its Applications" by Stanley Roderick Deans
+- "Geometric Analysis on Symmetric Spaces" by Sigurdur Helgason
+- "Evolutionary Dynamics: Exploring the Equations of Life" by Martin A. Nowak
+- "Introductory Lectures on Convex Optimization: A Basic Course (Applied Optimization)" by Yurii Nesterov
+- "One Thousand Exercises in Probability" by Geoffrey Grimmett, David Stirzaker
+- "Intuitive Combinatorial Topology" by V. G. Boltyanskii, V. A. Efremovich, J. Stillwell, A. Shenitzer
+- "Stochastic Approximation and Its Applications" by Han-Fu Chen
+- "Lectures on Polytopes (Graduate Texts in Mathematics 152)" by Günter M. Ziegler
+- "Combinatorial Commutative Algebra" by Ezra Miller, Bernd Sturmfels
+- "Combinatorics and Commutative Algebra" by Richard Stanley
+- "Cohen-Macaulay Rings (Cambridge Studies in Advanced Mathematics)" by Winfried Bruns, H. Jürgen Herzog
+- "Sheaf Theory" by Glen E. Bredon
+- "Linear Representations of Finite Groups (Graduate Texts in Mathematics) (V. 42)" by Jean-Pierre Serre
+- "Approach Spaces: The Missing Link in the Topology-Uniformity-Metric Triad (Oxford Mathematical Monographs)" by Robert Lowen
+- "Weak Convergence and Empirical Processes: With Applications to Statistics" by A. W. van der Vaart, Jon Wellner
+- "The Nature of Statistical Learning Theory (Information Science and Statistics)" by Vladimir Vapnik
+- "Computer Architecture: A Quantitative Approach" by John L. Hennessy, David A. Patterson
+- "The Geometry of Syzygies: A Second Course in Algebraic Geometry and Commutative Algebra" by David Eisenbud
+- "Combinatorial Algebraic Topology" by Dmitry Kozlov
+- "Algebraic Complexity Theory" by Peter Bürgisser, Michael Clausen, Amin Shokrollahi
+- "Perceptrons: An Introduction to Computational Geometry" by Marvin Lee Minsky, Seymour Papert
+- "Introduction to Compact Transformation Groups, Volume 46 (Pure and Applied Mathematics)" by Glen E. Bredon
+- "Random Walks on Disordered Media and Their Scaling Limits: École d'Été de Probabilités de Saint-Flour XL - 2010" by Takashi Kumagai
+- "Principles of Condensed Matter Physics" by P. M. Chaikin, T. C. Lubensky
+- "Statistical Physics of Particles" by Mehran Kardar
+- "An Introduction to Difference Equations" by Saber N. Elaydi
+- "Differential-Difference Equations" by Richard Ernest Bellman, Kenneth L. Cooke
+- "Information, Physics, and Computation (Oxford Graduate Texts)" by Marc Mézard, Andrea Montanari
+- "Statistical Physics of Spin Glasses and Information Processing: An Introduction" by Hidetoshi Nishimori
+- "Causal Inference in Statistics: A Primer" by Judea Pearl, Madelyn Glymour, Nicholas P. Jewell
+- "Additive Combinatorics (Cambridge Studies in Advanced Mathematics)" by Terence Tao
+- "Lie Groups: An Approach Through Invariants and Representations (Universitext)" by Claudio Procesi
+- "Algebraic Geometry in Coding Theory and Cryptography" by Harald Niederreiter, Chaoping Xing
+- "Representation Theory of Finite Monoids" by Benjamin Steinberg
+- "Advanced Mathematical Methods for Scientists and Engineers: Asymptotic Methods and Perturbation Theory" by Carl M. Bender, Steven A. Orszag
+- "Percolation" by Geoffrey Grimmett
+- "Complexity and Criticality" by Kim Christensen, Nicholas R. Moloney
+- "Catastrophe Theory" by V. I. Arnold
+- "Topics in Random Matrix Theory" by Terence Tao
+- "Statistical Mechanics: Rigorous Results" by David Ruelle
+- "Distributed Computing Through Combinatorial Topology" by Maurice Herlihy, Sergio Rajsbaum
+- "Higher Order Fourier Analysis" by Terence Tao
+- "Random Matrices, Volume 142, Third Edition (Pure and Applied Mathematics)" by Madan Lal Mehta
+- "Combinatorial Optimization: Theory and Algorithms" by Bernhard Korte, Jens Vygen
+- "Probability and Computing: Randomized Algorithms and Probabilistic Analysis" by Michael Mitzenmacher, Eli Upfal
+- "The Design of Approximation Algorithms" by David P. Williamson
+- "The Probabilistic Method (Wiley Series in Discrete Mathematics and Optimization)" by Noga Alon, Joel H. Spencer
+- "Oriented Matroids" by Anders Björner, Michel Las Vergnas, Bernd Sturmfels, Neil White, Günter M. Ziegler
+- "Stochastic Differential Equations: An Introduction With Applications" by Bernt Øksendal
+- "The Fokker-Planck Equation: Methods of Solution and Applications" by Hannes Risken
+- "Nonlinear Fokker-Planck Equations: Fundamentals and Applications" by T. D. Frank
+- "Neuro-Dynamic Programming" by Dimitri P. Bertsekas, John N. Tsitsiklis
+- "Abstract Dynamic Programming" by Dimitri P. Bertsekas
+- "Stochastic Approximation Algorithms and Applications" by Harold Joseph Kushner, George Yin
+- "Stability Theory by Liapunov's Second Method" by Taro Yoshizawa
+- "Introduction to Toric Varieties" by William Fulton
+- "Toric Varieties" by David Cox, John Little, Hal Schenck
+- "Mathematical Methods for Physicists, 6th Edition" by George B. Arfken
+- "Geometric Measure Theory: A Beginner's Guide" by Frank Morgan
+- "Geometric Measure Theory" by Herbert Federer
+- "Lectures on Geometric Measure Theory" by Leon Simon, Australian National University Centre for Mathematical Analysis
+- "Measure Theory and Fine Properties of Functions, Revised Edition" by Lawrence Craig Evans, Ronald F. Gariepy
+- "Geometry of Sets and Measures in Euclidean Spaces: Fractals and Rectifiability" by Pertti Mattila
+- "Free Probability and Random Matrices" by James A. Mingo, Roland Speicher
+- "The Dynamical System Generated by the 3n+1 Function" by Günther J. Wirsching
+- "Introduction to Finance: Markets, Investments, and Financial Management, 16th Edition: Markets, Investments, and Financial Management" by Ronald W. Melicher, Edgar A. Norton
+- "Exponential Sums and Their Applications" by N. M. Korobov
+- "A Course in P-Adic Analysis" by Alain M. Robert
+- "Transcendental and Algebraic Numbers" by A. O. Gelfond, Leo F. Boron
+- "Introduction to Analytic Number Theory" by Tom M. Apostol
+- "What Is a Quantum Field Theory?" by Michel Talagrand
+- "Gravity: An Introduction to Einstein's General Relativity, Pearson New International Edition" by James B. Hartle
+- "Faraday, Maxwell, and the Electromagnetic Field: How Two Men Revolutionized Physics" by Nancy Forbes, Basil Mahon
+- "Optimal Transport: Old and New" by Cédric Villani
+- "Mean Field Models for Spin Glasses: Volume II: Advanced Replica-Symmetry and Low Temperature" by Michel Talagrand
+- "Mean Field Models for Spin Glasses: Volume I: Basic Examples" by Michel Talagrand
+- "Quantum Physics: A Functional Integral Point of View" by James Glimm, Arthur Jaffe
+- "Introduction to Conformal Field Theory: With Applications to String Theory (Lecture Notes in Physics)" by Ralph Blumenhagen, Erik Plauschinn
+- "Upper and Lower Bounds for Stochastic Processes: Modern Methods and Classical Problems" by Michel Talagrand
+- "The Generic Chaining: Upper and Lower Bounds of Stochastic Processes" by Michel Talagrand
+- "Geometric Aspects of Functional Analysis: Israel Seminar (GAFA) 2014–2016" by Bo'az Klartag, Emanuel Milman
+- "Random Fields and Geometry" by R. J. Adler, Jonathan E. Taylor

@@ -1,0 +1,107 @@
+---
+title: noVNC
+tags:
+  - polymath
+date: 2024-01-09
+aliases: 
+draft:
+---
+Link: https://github.com/theasp/docker-novnc/tree/master
+Tutorials:
+- https://divyanshu-raj.medium.com/ros-2-with-docker-part-1-9060f3095811
+- https://wiki.ros.org/docker/Tutorials/GUI#Using_noVNC
+
+Nice way to get ROS/ROS2 visualization working on Docker, which lets me use it on Mac.
+- Create network: `docker network create ros`
+- Can then run noVNC with:
+```bash
+docker run -d --rm --net=ros --env="DISPLAY_WIDTH=3000" --env="DISPLAY_HEIGHT=1800" --name=novnc -p=8080:8080 theasp/novnc:latest
+```
+
+- Make sure the sim container is on the same network and has the display env set to to noVNC:
+```bash
+docker run --name dolagon --env="DISPLAY=novnc:0.0" --network=ros -e ROS_DOMAIN_ID=9 -e RMW_IMPLEMENTATION=rmw_cyclonedds_cpp -e CYCLONEDDS_URI=/opt/polymathrobotics/dolagon_config/share/dolagon_config/config/dds_config.xml registry.gitlab.com/polymathrobotics/dolagon/dolagon_sim:humble ros2 launch dolagon_sim sim.launch.py
+```
+
+Alternatively, the Dockerfile can include the line `ENV DISPLAY=novnc:0.0` in it.
+
+Gazebo sim running on noVNC on `localhost:8080`:
+
+![[noVNC.png]]
+
+
+
+## Noetic
+
+Start noVNC with:
+
+```bash
+docker run -d --rm --net=ros --env="DISPLAY_WIDTH=1512" --env="DISPLAY_HEIGHT=982" --name=novnc -p=8080:8080 theasp/novnc:latest
+```
+
+
+Start ROS container with:
+
+```bash
+docker run -it --privileged --ipc=host \
+  --env="DISPLAY=novnc:0.0" \
+  --name="ros" \
+  --network=ros \
+  --device=/dev/ttyUSB0:/dev/ttyUSB0 \
+  -e "QT_X11_NO_MITSHM=1" \
+  -e "XAUTHORITY=$XAUTH" \
+  --cap-add=SYS_PTRACE \
+  -v /Users/kai/code/catkin_ws:/home/catkin_ws \
+  osrf/ros:noetic-desktop-full bash
+```
+
+
+Attach windows to ROS container:
+
+```bash
+docker exec -it ros /bin/bash
+```
+
+- Remember to `source /opt/ros/noetic/setup.bash` and run `roscore`
+
+## MTE 544 Set-up
+```
+docker pull osrf/ros:humble-desktop-full
+```
+
+```
+docker network create ros
+```
+
+```
+docker run -d --rm --net=ros --env="DISPLAY_WIDTH=1352" --env="DISPLAY_HEIGHT=878" --name=novnc -p=8080:8080 theasp/novnc:latest
+```
+
+```
+docker run -it --privileged --ipc=host \
+  --env="DISPLAY=novnc:0.0" \
+  --name="mte544" \
+  --network=ros \
+  --device=/dev/ttyUSB0:/dev/ttyUSB0 \
+  -e "QT_X11_NO_MITSHM=1" \
+  -e "XAUTHORITY=$XAUTH" \
+  --cap-add=SYS_PTRACE \
+  -v /Users/kai/code/mte544:/home \
+  osrf/ros:humble-desktop-full bash
+```
+
+
+Gazebo install:
+```
+curl -sSL http://get.gazebosim.org | sh
+```
+
+```
+apt install ros-humble-irobot-create-description
+apt install ros-humble-turtlebot3-msgs
+```
+
+
+![[noVNC-20250929122153353.png]]
+
+![[noVNC-20251009145330764.png]]

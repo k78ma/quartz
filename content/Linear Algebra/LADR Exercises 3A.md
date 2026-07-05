@@ -1,0 +1,676 @@
+---
+title: LADR Exercises 3A
+tags:
+  - lin-alg
+date: 2024-12-20
+aliases:
+  - ladr exercises 3a
+---
+> [!question] Problem 1
+> Suppose $b,c\in \mathbb{R}$. Define $T:\,\mathbb{R}^{3}\to \mathbb{R}^{2}$ by
+> $$
+> T(x,y,z)=(2x-4y+3z+b, 6x+cxyz)
+> $$
+> Show that $T$ is linear if and only if $b=c=0$.
+
+Recall that a [[Linear Map|linear map]] have additivity and homogeneity. Let's say we have $x,y\in \mathbb{R}^{3}$ where $x=(x_{1},x_{2},x_{3}), y=(y_{1},y_{2},y_{3})$. 
+
+Then, for additivity, we would need
+$$
+\begin{align}
+T(x+y) & =Tx+Ty \\
+T(x_{1}+y_{1},x_{2}+y_{2},x_{3}+y_{3}) & =T(x_{1},x_{2},x_{3})+T(y_{1},y_{2},y_{3}) \\
+\end{align}
+$$
+The left side gives us
+$$
+\begin{align}
+(2(x_{1}+y_{1}) & -4(x_{2}+x_{2})+3(x_{3}+y_{3})+b, 6(x_{1}+y_{1})+c(x_{1}+y_{1})(x_{2}+y_{2})(x_{3}+y_{3})) \\
+ & =2x_{1}+2y_{1}-4x_{2}+y_{2}+3x_{3}+3y_{3}+b,  \\
+ &\,\,\,\,\,\,\,\, 6x_{1}+6y_{1}+c(x_1x_2x_3 + x_1x_2y_3 + x_1y_2x_3 +  \\
+ & \,\,\,\,\,\,\,\,x_1y_2y_3 + y_1x_2x_3 + y_1x_2y_3 + y_1y_2x_3 + y_1y_2y_3)
+\end{align}
+$$
+The right side gives us:
+$$
+\begin{align}
+ & (2x_{1}-4x_{2}+3x_{3}+b, 6x_{1}+cx_{1}x_{2}x_{3})+(2y_{1}-4y_{2}+3y_{3}+b, 6y_{1}+cy_{1}y_{2}y_{3}) \\
+& = \big(2x_1 + 2y_1 - 4x_2 - 4y_2 + 3x_3 + 3y_3 + 2b, \\ & \quad 6x_1 + 6y_1 + c x_1 x_2 x_3 + c y_1 y_2 y_3\big).
+\end{align}
+$$
+For the two of them to be equal
+$$
+\begin{align}
+2x_{1}+2y_{1}-4x_{2}+y_{2}+3x_{3}+3y_{3}+b  & = 2x_1 + 2y_1 - 4x_2 - 4y_2 + 3x_3 + 3y_3 + 2b \\
+b & =2b \\
+\therefore b & =0
+\end{align}
+$$
+and
+$$
+\begin{align}
+ & 6x_{1}+6y_{1}+c(x_1x_2x_3 + x_1x_2y_3 + x_1y_2x_3 + x_1y_2y_3 + y_1x_2x_3 + y_1x_2y_3 + y_1y_2x_3 + y_1y_2y_3) \\
+  & =6x_1 + 6y_1 + c x_1 x_2 x_3 + c y_1 y_2 y_3
+\end{align}
+$$
+For this to be true, will also need $c=0$. Thus, additivity needs $b=c=0$.
+
+To confirm homogeneity, we compare $T(\lambda v)$ and $\lambda(Tv)$ for all $\lambda \in \mathbb{F}$ and $v\in \mathbb{R}^{3}$. 
+$$
+\begin{align}
+T(\lambda v)=T(\lambda x,\lambda y, \lambda z) & =(2\lambda x-4\lambda y+3\lambda z+b, 6 \lambda x +c \lambda x \lambda y \lambda z)
+\end{align}
+$$
+and
+$$
+\begin{align}
+\lambda(Tv)=\lambda(T(x,y,z)) & =\lambda(2x-4y+3z+b, 6x+cxyz) \\
+	 & = 2\lambda x-4\lambda y+3\lambda z+b\lambda, 6\lambda x+\lambda cxyz
+\end{align}
+$$
+Thus, for $T(\lambda v)=\lambda(Tv)$, we must have
+$$
+\begin{align}
+2\lambda x-4\lambda y+3\lambda z+b & =2\lambda x-4\lambda y+3\lambda z+b\lambda \\
+b & =b\lambda \\
+b & =0 \text{ if } \lambda \neq 1
+\end{align}
+$$
+and
+$$
+\begin{align}
+c\lambda x\lambda y\lambda z=\lambda cxyz \\
+c\lambda^{3}xyz=c\lambda xyz
+\end{align}
+$$
+which also requires $c=0$ if $\lambda \neq 1$.
+
+Thus, for both additivity and homogeneity, we need $b=c=0$.
+
+> [!question] Problem 2
+> Suppose $b,c\in \mathbb{R}$. Define $T:\,\mathcal{P}(\mathbb{R})\to \mathbb{R}^{2}$ by
+> $$
+> Tp=\left( 3p(4)+5p'(6)+bp(1)p(2), \int_{-1}^{2} x^{3}p(x) \, dx +c\sin p(0)  \right)
+> $$
+> Show that $T$ is linear if and only if $b=c=0$.
+
+Let us have two polynomials $f,g\in \mathcal{P}(\mathbb{R})$. For additivity, we need to have
+$$
+T(f+g)=Tf+Tg
+$$
+The left side gives:
+$$
+\begin{align}
+\Big ( & 3(f+g)(4)+5(f'+g')(6)+b(f(1)+g(1))( f(2)+g(2)) , \\
+ & \int_{-1}^{2}x^{3}(f(x)+g(x))  \, dx +c\sin((f+g)(0))  \Big ) \\[2ex]
+=\Big ( & 3f(4)+3g(4)+5f'(6)+5g'(6)+b(f(1)+g(1))( f(2)+g(2)) , \\
+ & \int_{-1}^{2}x^{3}(f(x)+g(x))  \, dx +c\sin((f+g)(0))  \Big ) 
+\end{align}
+$$
+The right side gives:
+$$
+\begin{align}
+ & \left( 3f(4)+5f'(6)+b f(1)f(2), \int_{-1}^{2} x^{3}f(x) \, dx +c\sin f(0) \right)  \\
+ & + \left( 3g(4)+5g'(6)+b g(1)g(2), \int_{-1}^{2} x^{3}g(x) \, dx +c\sin g(0) \right)  \\[2ex]
+	 & =(3f(4)+3g(4)+5f'(6)+5g'(6)+b f(1)f(2)+b g(1)g(2), \\
+ & \int_{-1}^{2} x^{3}f(x) \, dx + \int_{-1}^{2} x^{3}f(x) \, dx +c\sin f(0)+c\sin g(0))
+\end{align}
+$$
+For the left and right sides to be equal, we need
+$$
+\begin{align}
+b(f(1)+g(1))( f(2)+g(2)) & =b f(1)f(2)+b g(1)g(2) \\
+b f(1)f(2)+b f(1)g(2)+b g(1)f(2)+b g(1)g(2) & =b f(1)f(2)+b g(1)g(2) \\
+\therefore b & =0
+\end{align}
+$$
+We also need
+$$
+\begin{align}
+c\sin((f+g)(0)) & =c\sin f(0)+c\sin g(0) \\
+c\sin(f(0)+g(0)) & =c\sin f(0)+c\sin g(0) \\
+\therefore c & =0 \,\text{ is the only universal solution}
+\end{align}
+$$
+We can also check homogeneity
+$$
+T(\lambda f)=\lambda (Tf)
+$$
+The left side gives:
+$$
+\left( 3\lambda p(4)+5\lambda p'(6)+b\lambda p(1)\lambda p(2), \int_{-1}^{2}x^{3}\lambda p(x)  \, dx  +c\sin \lambda p(0) \right)
+$$
+The right side gives:
+$$
+\lambda\left( 3p(4)+5p'(6)+bp(1)p(2),\int_{-1}^{2} x^{3}p(x) \, dx+c\sin p(0)  \right)
+$$
+Then, we have
+$$
+\begin{align}
+b\lambda p(1) \lambda p(2) & = \lambda bp(1)p(2) \\
+b\lambda^{2}p(1)p(2) & =\lambda bp(1)p(2)
+\end{align}
+$$
+so the only solution is for all $\lambda$ is $b=0$.
+
+And we also have
+$$
+c\sin \lambda p(0)=\lambda c\sin p(0)
+$$
+which is also only true for all $\lambda$ is $c=0$.
+
+
+> [!question] Problem 3
+> Suppose that $T\in \mathcal{L}(\mathbb{F}^{n}, \mathbb{F}^{m})$. Show that there exist scalars $A_{j,k}\in \mathbb{F}$ for $j=1,\dots,m$ and $k=1, \dots,n$ such that
+> $$
+> T(x_{1}, \dots, x_{n})=(A_{1,1}x_{1}+\dots+A_{1,n}x_{n},\dots,A_{m,1}x_{1}+\dots+A_{m,n}x_{n})
+> $$
+> for every $(x_{1}, \dots,x_{n})\in \mathbb{F}^{n}$.
+
+Note that this problem shows the 2nd last example from [[Linear Map]].
+
+We first determine $T$ using its action on the standard basis vectors of $\mathbb{F}^{n}$, denoted as $e_{1},e_{2}, \dots,e_{n}$, where $e_{k}$ is the vector with a $1$ in the $k$-th position and $0$ elsewhere. For each $k\in \{ 1,, \dots,n \}$, the transformation of $e_{k}$ by $T$ is a vector in $\mathbb{F}^{m}$, denoted as
+$$
+T(e_{k})=(A_{1,k}, A_{2,k}, \dots, A_{m,k})\in  \mathbb{F}^{m}
+$$
+where $A_{j,k}\in \mathbb{F}$ for each $j=1, \dots,m$.
+
+We can write an arbitrary vector $(x_{1}, \dots,x_{n})\in \mathbb{F}^{n}$ as a linear combination of the basis vectors $e_{1}, \dots,e_{n}$:
+$$
+(x_{1}, \dots, x_{n})=x_{1}e_{1}+\dots+x_{n}e_{n}
+$$
+By linearity of $T$, we have
+$$
+T(x_{1}e_{1}+\dots+x_{n}e_{n})=x_{1}T(e_{1})+\dots+x_{n}T(e_{n})
+$$
+Substituting $T(e_{k})=(A_{1,k}, A_{2,k}, \dots, A_{m,k})$, we have
+$$
+T(x_{1}, \dots, x_{n})=x_{1}(A_{1,1},\dots,A_{m,1})+\dots+x_{n}(A_{1,n} , \dots, A_{m,n})
+$$
+If we consider the $j$-th component of $T(x_{1}, \dots,x_{n})$, we have
+$$
+x_{1}A_{j,1}+x_{2}A_{j,2}+\dots+x_{n}A_{j,n}
+$$
+Thus, we have
+$$
+T(x_{1}, \dots, x_{n})=(A_{1,1}x_{1}+\dots+A_{1,n}x_{n},\dots,A_{m,1}x_{1}+\dots+A_{m,n}x_{n})
+$$
+
+We can look at an example of $T:\mathbb{F}^{3}\to \mathbb{F}^{2}$ so that $T$ takes vectors from $\mathbb{F}^{3}$ of the form $(x_{1},x_{2},x_{3})$ and maps them to vectors from $\mathbb{F}^{2}$ of the form $(y_{1},y_{2})$.
+
+We'll define $T$ by specifying how it acts on the basis standard vectors of $\mathbb{F}^{3}$, $e_{1}=(1,0,0)$, $e_{2}=(0,1,0)$, and $e_{3}=(0,0,1)$:
+$$
+\begin{align}
+T(e_{1})=(1,2) \\
+T(e_{2})=(3,4) \\
+T(e_{3})=(5,6)
+\end{align}
+$$
+For a general vector $(x_{1},x_{2},x_{3})\in \mathbb{F}^{3}$, we can have:
+$$
+\begin{align}
+(x_{1},x_{2},x_{3}) & =x_{1}e_{1}+x_{2}e_{2}+x_{3}e_{3} \\
+T(x_{1},x_{2},x_{3}) & =x_{1}T(e_{1})+x_{2}T(e_{2})+x_{3}T(e_{3}) \\
+ & =x_{1}(1,2)+x_{2}(3,4)+x_{3}(5,6)
+\end{align}
+$$
+Now we can compute the two components corresponding to $\mathbb{F}^{2}$
+- First component:
+$$
+x_{1}(1)+x_{2}(3)+x_{3}(5)=x_{1}+3x_{2}+5x_{3}
+$$
+- Second component:
+$$
+x_{1}(2)+x_{2}(4)+x_{3}(6)=2x_{1}+4x_{2}+6x_{3}
+$$
+Here, the scalars $A_{j,k}$ are
+- $A_{1,1}=1, A_{1,2}=3, A_{1,3}=5$
+- $A_{2,1}=2, A_{2,2}=4, A_{2,3}=6$
+
+So:
+$$
+\begin{align}
+T(x_{1},x_{2},x_{3}) & =(A_{1,1}x_{1}+A_{1,2}x_{2}+A_{1,3}x_{3},A_{2,1}x_{1}+A_{2,2}x_{2}+A_{2,3}x_{3}) \\
+T(1,2,3) & =(1(1)+3(2)+5(3),2(1)+4(2)+6(3))=(22,32)
+\end{align}
+$$
+
+> [!question] Problem 4
+> Suppose $T\in \mathcal{L}(V,W)$ and $v_{1}, \dots,v_{m}$ is a list of vectors in $V$ such that $Tv_{1}, \dots,Tv_{m}$ is a linearly independent list in $W$. Prove that $v_{1}, \dots,v_{m}$ is linearly independent.
+
+If $v_{1}, \dots,v_{m}$ are not linearly independent, there exist some $a_{1}, \dots,a_{m}$ that are not all $0$, such that
+$$
+a_{1}v_{1}+\dots+a_{m}v_{m}=0
+$$
+Applying the linear map to both sides:
+$$
+\begin{align}
+T(a_{1}v_{1}+\dots+a_{m}v_{m}) & =	T(0) \\
+T(a_{1}v_{1}+\dots+a_{m}v_{m}) & =0 \\
+T(a_{1}v_{1})+\dots+T(a_{m}v_{m}) & =0 \\
+	a_{1}T(v_{1})+\dots+a_{m}T(v_{m})  & =0\\
+\end{align}
+$$
+Note that $T(0)=0$ because [[Linear Maps Take 0 to 0|linear maps take 0 to 0]]. 
+
+The last line implies that $Tv_{1}, \dots,Tv_{m}$ is not linearly independent, since we are using some $a_{1}, \dots,a_{m}$ that are not all $0$. This presents a contradiction. Thus, $v_{1}, \dots,v_{m}$ must be linearly independent.
+
+This basically says that, by the linearity of the transformation $T$, if $v_{1}, \dots,v_{m}$ are linearly independent, so must $Tv_{1}, \dots,Tv_{m}$ and vice versa.
+
+> [!question] Problem 5
+> Prove that $\mathcal{L}(V,W)$ is a vector space.
+
+Recall that for a vector space, we need to show a zero element, closure under addition, and closure under scalar multiplication. Specifically, for these three operations, we verify that the result is still a linear map (for example, the addition of two linear maps must still be a linear map).
+
+We can define a zero map $0:V\to W$ by:
+$$
+0(v)=0_{W} \,\,\,\forall v\in  V
+$$
+where $0_{W}$ is the zero vector in $W$. The zero map is linear because is satisfies:
+- Additivity: $0(u+w)=0(u)+0(v)=0_{W}+0_{W}=0_{W}$
+- Homogeneity: $0(cv)=0_{W}=c 0(v)=c\cdot 0_{W}=c \cdot 0(v)$
+
+For closure under addition, let $T_{1},T_{2}\in \mathcal{L}(V,W)$. Define $(T_{1}+T_{2}):V\to W$ by:
+$$
+(T_{1}+T_{2})(v)=T_{1}(v)+T_{2}(v), \quad \forall  v \in  V
+$$
+Checking the linearity of $T_{1}+T_{2}$:
+- Additivity:
+$$
+\begin{align}
+(T_{1}+T_{2})(u+v) & =T_{1}(u+v)+T_{2}(u+v) \\
+ & =T_{1}(u)+T_{1}(v)+T_{2}(u)+T_{2}(v) \\
+ & =(T_{1}+T_{2})u+(T_{1}+T_{2})v
+\end{align}
+$$
+- Homogeneity:
+$$
+\begin{align}
+(T_{1}+T_{2})(\lambda v) & =T_{1}(\lambda v)+T_{2}(\lambda v) \\
+	 & = \lambda T_{1}(v)+ \lambda T_{2}(v) \\
+	 & =\lambda(T_{1}(v)+T_{2}(v)) \\
+	 & =\lambda(T_{1}+T_{2})(v)
+\end{align}
+$$
+Therefore, $T_{1}+T_{2}\in \mathcal{L}(V,W)$, showing closure under addition. 
+
+For closure under scalar multiplication, let $T\in \mathcal{L}(V,W)$, and define $\lambda T$ by:
+$$
+(\lambda T)(v)= \lambda T(v),\quad \forall  v \in  V, \quad c \in  \mathbb{F}
+$$
+Checking for linearity:
+- Additivity:
+$$
+\begin{align}
+(\lambda T)(u+v) & =\lambda T(u+v) \\
+	 & =\lambda(T(u)+T(v)) \\
+	 & =\lambda T(u)+\lambda T(v) \\
+	 & =(\lambda T)(u)+(\lambda T)(v)
+\end{align}
+$$
+- Homogeneity:
+$$
+\begin{align}
+(\lambda T)(\alpha v)=\lambda T(\alpha v)=\lambda (\alpha T(v))=(\lambda \alpha)T(v)=\alpha(\lambda T)(v)
+\end{align}
+$$
+Thus, $\lambda T\in \mathcal{L}(V,W)$, confirming closure under scalar multiplication.
+
+Since we've shown zero element, closure under addition, and closure under scalar multiplication, we've shown that $\mathcal{L}(V,W)$ is a vector space.
+
+
+> [!question] Problem 6
+> Prove that multiplication of linear maps has the associative, identity, and distributive properties.
+
+Associativity:
+$$
+\begin{align}
+((T_{1}T_{2})T_{3})(v) & =(T_{1}T_{2})(T_{3}(v)) \\
+	 & =T_{1}(T_{2}(T_{3}(v))) \\
+	 & =T_{1}((T_{2}T_{3})(v)) \\
+	 & =(T_{1}(T_{2}T_{3}))(v)
+\end{align}
+$$
+Identity:
+$$
+(IT)(v)=I(T(v))=T(v)
+$$
+and
+$$
+(TI)(v)=T(I(v))=T(v)
+$$
+
+Distributive properties:
+$$
+\begin{align}
+((S_{1}+S_{2})T)(v) & =(S_{1}+S_{2})(T(v)) \\
+	 & = S_{1}(T(v))+S_{2}(T(v)) \\
+	 & = (S_{1}T)(v)+ (S_{2}T)(v) \\
+	 & =(S_{1}T+S_{2}T)(v)
+\end{align}
+$$
+and
+$$
+\begin{align}
+(S(T_{1}+T_{2}))(v) & =S((T_{1}+T_{2})(v)) \\
+	 & =S(T_{1}(v)+T_{2}(v)) \\
+	 & =S(T_{1}(v))+S(T_{2}(v)) \\
+	 & =(ST_{1})(v)+(ST_{2})(v) \\
+	 & =(ST_{1}+ST_{2})(v)
+\end{align}
+$$
+
+
+> [!question] Problem 7
+> Show that every linear map from a one-dimensional vector space to itself is multiplication by some scalar. More precisely, prove that if $\dim V=1$ and $T\in \mathcal{L}(V)$, then there exists $\lambda \in \mathbb{F}$ such that $Tv=\lambda v$ for all $v\in V$.
+
+Since $\dim V=1$, there is some $v_{1}\in V$ that is a basis of $V$. Because $Tv_{1} \in V$, there exists some $\lambda \in \mathbb{F}$ such that $Tv_{1}=\lambda v_{1}$.
+
+Since $v_{1}$ is a basis every $v\in V$, there exists some $a\in \mathbb{F}$ such that $v=av_{1}$. This implies that
+$$
+Tv=T(av_{1})=aTv_{1}=a \lambda v_{1}=\lambda av_{1}=\lambda v
+$$
+
+> [!question] Problem 8
+> Give an example of a function $\phi: \,\mathbb{R}^{2}\to \mathbb{R}$ such that
+> $$
+> \phi(av)=a\phi(v)
+> $$
+> for all $a \in \mathbb{R}$ and all $v\in \mathbb{R}^{2}$ but $\phi$ is not linear.
+
+For $v=(v_{1},v_{2}) \in \mathbb{R}^{2}$, let
+$$
+\phi(v)=\begin{cases}
+\frac{v_{1}^{2}}{v_{2}},  &  v_{2}\neq 0 \\
+0, & v_{2}=0
+\end{cases}
+$$
+Clearly, we have homogeneity in $\phi(av)=a\phi(v)$ for every $a \in \mathbb{R}$ and $v\in \mathbb{R}^{2}$.
+
+But, there obviously exists $u,v \in \mathbb{R}^{2}$ where $\phi(u+v)\neq \phi(u)+\phi(v)$, because
+$$
+\frac{(u_{1}+v_{1})^{2}}{u_{2}+v_{2}} \neq \frac{u_{1}^{2}}{u_{2}}+\frac{v_{1}^{2}}{v_{2}}
+$$
+Thus, $\phi$ is not linear.
+
+**Problem 8 and 9 show that neither homogeneity nor additivity alone is enough to imply that a function is a linear map.**
+
+
+> [!question] Problem 9
+> Give an example of a function $\phi:\, \mathbb{C}\to \mathbb{C}$ such that
+> $$
+> \phi(w+z)=\phi(w)+\phi(z)
+> $$ 
+> for all $w,z \in  \mathbb{C}$ but $\phi$ is not linear. (Here $\mathbb{C}$ is thought of as a complex vector space.)
+
+Let $\mathbb{C}=\{ a+bi \, : \,a,b\in \mathbb{R}\}$. For every $z=a+bi\in \mathbb{C}$, we define $\phi(z)=a$, so the function $\phi$ just returns the real part.
+
+Hence, $\forall w=a+bi, z=c+di\in \mathbb{C}$, we have
+$$
+\phi(w+z)=\phi((a+c)+(b+d)i)=a+c
+$$
+and
+$$
+\phi(w)+\phi(z)=a+c
+$$
+So we have $\phi(w+z)=\phi(w)+\phi(z)$.
+
+However, $\phi(i(1+i))=\phi(i-1)=-1$ and $i\phi(1+i)=i\cdot 1=i$. Then, we have
+$$
+\phi(i(1+i))\neq i\phi(1+i)
+$$
+Thus, in this case, for some $a\in \mathbb{C}$ and $w\in \mathbb{C}$, we don't have $\phi(aw)=a\phi(w)$. Therefore, $\phi$ is not linear.
+
+
+> [!question] Problem 10
+> Prove or give a counterexample: If $q \in \mathcal{P}(\mathbb{R})$ and $T\, : \,\mathcal{P}(\mathbb{R})\to \mathcal{P}(\mathbb{R})$ is defined by $Tp=q \circ p$, then $T$ is a linear map.
+>  - This differs from the composition example in [[Linear Map#Examples]] because the order of functions in the composition is different.
+
+For additivity, we need $T(p_{1}+p_{2})=Tp_{1}+Tp_{2}$. Expanding these, we have:
+$$
+\begin{align}
+T(p_{1}+p_{2}) & =q \circ (p_{1}+p_{2}) \\
+Tp_{1}+Tp_{2} & =(q\circ p_{1})+(q\circ p_{2})
+\end{align}
+$$
+As a counterexample, let $q(x)=x^{2}, p_{1}(x)=x, p_{2}(x)=-x$. Then:
+$$
+T(p_{1}+p_{2})=T(0)=q \circ 0=q(0)= (0)^{2}= 0
+$$
+However,
+$$
+Tp_{1}+Tp_{2}  =(q\circ p_{1})+(q\circ p_{2}) = q(x)+q(-x)=x^{2}+(-x)^{2}=2x^{2}
+$$
+
+For homogeneity, we need $T(\lambda p)=\lambda \cdot Tp$. Expanding these, we have
+$$
+\begin{align}
+T(\lambda p) & = q \circ \lambda p \\
+\lambda \cdot  Tp & =\lambda(q \circ p)
+\end{align}
+$$
+As a counterexample, let $q(x)=x^{2},p(x)=x, \lambda=2$. Then:
+$$
+T(\lambda p)= q \circ  2x=(2x)^{2}=4x^{2}
+$$
+However:
+$$
+\lambda \cdot  Tp=2(q(p(x)))=2(q(x))=2x^{2}
+$$
+
+> [!question] Problem 11
+> Suppose $V$ is finite-dimensional and $T \in \mathcal{L}(V)$. Prove that $T$ is a scalar multiple of the identity if and only if $ST=TS$ for every $S \in \mathcal{L}(V)$.
+> 
+
+First we prove it in one direction, by showing that if $T=aI$, for some scalar $a\in \mathbb{F}$, we have $ST=TS$. 
+
+We have:
+$$
+ (ST)(x)=S(T(x))=S(aI(x))=S(ax)=aS(x)
+$$
+and
+$$
+(TS)(x)=T(S(x))=aI(S(x))=aS(x)
+$$
+so $ST=TS$.
+
+Next, we prove it in the opposite direction: if $ST=TS$ for every $S \in \mathcal{L}(V)$, we have $T=aI$.  First, we show the effect of $T$ on basis vectors, and show that it is diagonal on a chosen basis. 
+
+Suppose $\dim V=n$ and $v_{1}, \dots,v_{n}$ is a basis of $V$. Define $S_{i}\in \mathcal{L}(V)$:
+$$
+S_{i}(a_{1}v_{1}+\dots+a_{n}v_{n})=a_{i}v_{i} \quad \text{where} \quad  a_{i}\in  \mathbb{F}, \,\,i=1, \dots, n
+$$
+Thus, $S_{i}$ projects any vector onto the basis vector $v_{i}$, scaled by a corresponding coefficient.
+
+From the assumption that $ST=TS$ for all $S \in \mathcal{L}(V)$, consider:
+$$
+\begin{align}
+S_{i}T(v_{i}) & =TS_{i}(v_{i}) \\
+S_{i}(T(v_{i})) & =T(S_{i}(v_{i}))
+\end{align}
+$$
+Since $S_{i}(v_{i})=v_{i}$, this reduces to
+$$
+S_{i}(T(v_{i}))=T(v_{i})
+$$
+By definition of $S_{i}$, the transformation $S_{i}(T(v_{i}))$ retains only the $v_{i}$-component of $T(v_{i})$. Therefore, $T(v_{i})$ must be a scalar multiple of $v_{i}$:
+$$
+T(v_{i})=\lambda_{i}v_{i}, \quad  \text{where } \lambda_{i}\in  \mathbb{F}
+$$
+Now, we want to show that $T$ cannot treat different basis vectors differently; it must scale them all by the same scalar. Specifically, we want $\lambda_{i}=\lambda_{j}$ for all $i,j$ using the linear operator $S_{ij}$ and the assumption and that $ST=TS$ for all $S \in \mathcal{L}(V)$.
+
+Let our $S_{ij}$ be defined to swap the coefficients of $v_{i}$ and $v_{j}$ in any vector, such that
+$$
+S_{ij}(\dots+a_{i}v_{i}+\dots+a_{j}v_{j}+\dots)=\dots+a_{j}v_{i}+\dots+a_{i}v_{j}+\dots
+$$
+For example, $S_{12}(a_{1}v_{1}+a_{2}v_{2}+a_{3}v_{3})=a_{2}v_{1}+a_{1}v_{2}+a_{3}v_{3}$.
+
+From the assumption that $ST=TS$, we have
+$$
+S_{ij}T=TS_{ij}
+$$
+Applying the left side to $a_{i}v_{i}+a_{j}v_{j}$, we have
+$$
+T(a_{i}v_{i}+a_{j}v_{j})=\lambda_{i}a_{i}v_{i}+\lambda_{j}a_{j}v_{j}
+$$
+and then applying $S_{ij}$, we have
+$$
+S_{ij}(\lambda_{i}a_{i}v_{i}+\lambda_{j}a_{j}v_{j})=\lambda_{j}a_{i}v_{i}+\lambda_{i}a_{j}v_{j}
+$$
+Applying the right side, we have
+$$
+S_{ij}(a_{i}v_{i}+a_{j}v_{j})=a_{j}v_{i}+a_{i}v_{j}
+$$
+and then applying $T$ gives
+$$
+T(a_{j}v_{i}+a_{i}v_{j})=\lambda_{i}a_{j}v_{i}+\lambda_{j}a_{i}v_{j}
+$$
+Equating the two sides gives
+$$
+\lambda_{j}a_{j}v_{i}+\lambda_{i}a_{i}v_{j}=\lambda_{i}a_{j}v_{i}+\lambda_{j}a_{i}v_{j}
+$$
+which means that $\lambda_{i}=\lambda_{j}$ for all $i,j$. Thus, $T=\lambda I$, where $\lambda \in \mathbb{F}$.
+
+
+> [!question] Problem 12
+> Suppose $U$ is a subspace of $V$ with $U\neq V$. Suppose $S\in \mathcal{L}(U,W)$ and $S\neq 0$ (which means that $Su\neq 0$ for some $u\in U$). Define $T\, : \,V\to W$ by
+> $$
+> Tv = \begin{cases}
+> Sv  & \text{if } v\in  U \\
+> 0 & \text{if } v \in  V \text{ and } v \notin U
+>\end{cases}
+> $$
+> Prove that $T$ is not a linear map on $V$.
+
+Let $u\in U$ such that $Su\neq0$; such as $u$ exists because $S \neq 0$. Let $v \in V \setminus U$ such that $v \notin U$; such a $v$ exists because $U \neq V$.
+
+Since $u \in U$ and $v \notin U$, their sum $u+v$ cannot lie in $U$. Otherwise, we could write $v=(u+v)+(-u) \in U$, which is a contradiction.
+
+Therefore, $u+v \in V \setminus U$, and by the definition of $T$, we have $T(u+v)=0$. However, additivity requires $T(u)+T(v)=Su+0=Su$, implying $T(u+v) \neq Tu+Tv$.
+
+Therefore, $T$ is not a linear map on $V$.
+
+
+> [!question] Problem 13
+> Suppose $V$ is finite-dimensional. Prove that every linear map on a subspace of $V$ can be extended to a linear map on $V$. In other words, show that if $U$ is a subspace of $V$ and $S \in \mathcal{L}(U,W)$, then there exists $T \in  \mathcal{L}(V,W)$ such that $Tu=Su$ for all $u \in U$.
+
+There exists a subspace $M$ of $V$ such that $V=U \oplus M$. For all $v \in V$, there exist $u \in U$ and $m \in M$ such that $v=u+m$. 
+
+Suppose $R \in \mathcal{L}(M,W)$. For all $v =u+m \in V$, define $Tv=Su+Rm$. We have
+$$
+\begin{align}
+T(\lambda v) & =T(\lambda u+\lambda m) \\
+ & =S(\lambda u)+R(\lambda m) \\
+  & =\lambda Su+\lambda Rm \\
+	 & =\lambda(Su+Rn) \\
+	 & =\lambda Tv
+\end{align}
+$$
+We also have:
+$$
+\begin{align}
+T(v_{1}+v_{2}) & = T((u_{1}+m_{1})+(u_{2}+m_{2})) \\
+	 & = S(u_{1}+u_{2})+R(m_{1}+m_{2}) \\
+	 & =Su_{1}+Su_{2}+Rm_{1}+Rm_{2} \\
+	 & =(Su_{1}+Rm_{1})+(Su_{2}+Rm_{2}) \\
+	 & =Tv_{1} + Tv_{2}
+\end{align}
+$$
+Hence, $T$ is linear.
+
+
+> [!question] Problem 14
+> Suppose $V$ is finite-dimensional with $\dim V>0$, and suppose $W$ is infinite- dimensional. Prove that $\mathcal{L}(V,W)$ is infinite-dimensional.
+
+Suppose $\dim V=n$ and $v_{1}, \dots,v_{n}$ is a basis of $V$. As $W$ is infinite-dimensional, we can find a sequence of elements in $W$, denoted by $w_{1}, \dots,w_{m}$, that is linearly independent for any positive integer $m$.
+
+For every $v=a_{1}v_{1}+\dots+a_{n}v_{n}\in V$, where $a_{i} \in \mathbb{F}$, define $T_{k}\in \mathcal{L}(V,W)$ such that
+$$
+T_{k}(v)=a_{1}w_{k}
+$$
+To prove $T_{1}, \dots,T_{m}$ is linearly independent for any $m$, assume that we have a linear combination of these maps that equals the zero map, which must exist since $\mathcal{L}(V,W)$ is a vector space.
+$$
+\lambda_{1}T_{1}+\dots+\lambda_{m}T_{m}=0
+$$
+This means, for every $v \in V$:
+$$
+\begin{align}
+(\lambda_{1}T_{1}+\dots+\lambda_{m}T_{m})(v)=0 \\
+a_{1}(\lambda_{1} w_{1}+\dots+\lambda_{m}w_{m})=0
+\end{align}
+$$
+For this to hold for all $a_{1} \in \mathbb{F}$, it must be true that $\lambda_{1}w_{1}+\dots+\lambda_{m}w_{m}=0$. Since $w_{1}, \dots,w_{m}$ are linearly independent by construction, the only solution is $\lambda_{1}, \dots,\lambda_{m}=0$.
+
+Hence, we find a sequence of elements in $\mathcal{L}(V,W)$, $T_{1}, \dots,T_{m}$ that is linearly independent for any positive $m$. Therefore, $\mathcal{L}(V,W)$ is infinite-dimensional. 
+
+
+>[!question] Problem 15
+> Suppose $v_{1}, \dots,v_{m}$ is a linearly dependent list of vectors in $V$. Suppose also that $W \neq \{ 0 \}$. Prove that there exist $w_{1}, \dots,w_{m} \in W$ such that no $T \in  \mathcal{L}(V,W)$ satisfies $Tv_{k}=w_{k}$ for each $k=1, \dots,m$.
+
+$v_{1}, \dots,v_{m}$ being linearly dependent implies that there exist some $a_{1}, \dots,a_{m}\in \mathbb{F}$, not all $0$, such that $a_{1}v_{1}+\dots+a_{m}v_{m}=0$.
+
+As $W \neq \{ 0 \}$ and $a_{1}, \dots,a_{m}$ are not all $0$, we can find $w_{1}, \dots,w_{m}$ such that $a_{1}w_{1}+\dots+a_{m}w_{m}\neq 0$.
+
+Now if we use this list $w_{1}, \dots,w_{m}$ with $T \in  \mathcal{L}(V,W)$ such that $Tv_{k}=w_{k}$, we have
+$$
+\begin{align}
+T(0) & =T(a_{1}v_{1}+\dots+a_{m}v_{m}) \\
+	 & =a_{1}Tv_{1}+\dots +a_{m}Tv_{m} \\
+	 & =a_{1}w_{1}+\dots +a_{  m}w_{m} \\
+	 & \neq 0
+\end{align}
+$$
+This is impossible. Hence, the result is proved.
+
+
+> [!question] Problem 16
+> Suppose $V$ is finite-dimensional with $\dim  V>1$. Prove that there exist $S,T \in \mathcal{L}(V)$ such that $ST\neq TS$.
+
+Suppose $v_{1}, \dots,v_{m}$ is a basis of $V$, such that every element of $V$ can be written as some $a_{1}v_{1}+\dots+a_{m}v_{m}$. Since $\dim V>1$, $m\geq 2$. 
+
+Let us define $S \in \mathcal{L}(V)$ to such that
+$$
+S(a_{1}v_{1}+a_{2}v_{2}+\dots+a_{m}v_{m})=a_{2}v_{1}+a_{1}v_{2}+\dots+a_{m}v_{m}
+$$
+where the coefficients of the $v_{1}$ and $v_{2}$ terms are switched.
+
+Let us define $T \in  \mathcal{L}(V)$ such that
+$$
+S(a_{1}v_{1}+a_{2}v_{2}+\dots +a_{m}v_{m})=a_{1}v_{1}
+$$
+Then:
+$$
+ST(v_{1}+2v_{2})=S(T(v_{1}+2v_{2}))=S(v_{1})=0v_{1}+1v_{2}=v_{2}
+$$
+and
+$$
+TS(v_{1}+2v_{2})=T(2v_{1}+v_{2})=2v_{1}
+$$
+Thus, $ST \neq TS$.
+
+
+> [!question] Problem 17
+> Suppose $V$ is finite-dimensional. Show that the only two-sided ideals of $\mathcal{L}(V)$ are $\{ 0 \}$ and $\mathcal{L}(V)$.
+>
+>A subspace $\mathcal{E}$ of $\mathcal{L}(V)$ is called a two-sided ideal of $\mathcal{L}(V)$ if $TE \in \mathcal{E}$ and $ET \in \mathcal{E}$ for all $E \in \mathcal{E}$ and all $T \in \mathcal{L}(V)$.
+
+It's easy to verify that $\{ 0 \}$ and $\mathcal{L}(V)$ are two-sided ideals of $\mathcal{L}(V)$.
+
+Suppose for the sake of contradiction that another $\mathcal{E}$ exists. Let $e_{1}, \dots,e_{m}$ be its basis and let $e_{1}, \dots,e_{m}, e_{m+1}, \dots,e_{n}$ be the basis of $V$. 
+
+Define $T(v)$ as
+$$
+T(v)=T\left(  \sum_{i=1}^{n} a_{i}e_{i}  \right)= \sum_{i=1}^{n}a_{i}e_{n-i}
+$$
+to be a linear map in $V$. Essentially, this reverses the coefficients of the basis vectors.
+
+Define $E_{j}(u)$ as
+$$
+E_{j}(u)=E_{j}\left(  \sum_{k=1}^{m}b_{k}e_{k}  \right)=b_{j}e_{j}
+$$
+This maps acts a projection onto the basis vector $e_{j}$. Note that $E_{j} \in \mathcal{E}$ because $\mathcal{E}$ is spanned by $e_{1}, \dots,e_{m}$.
+
+We have reached the contradicting the example such that
+$$
+TE_{j}(v)=a_{j}e_{n-j} \in  V \setminus \mathcal{E}
+$$

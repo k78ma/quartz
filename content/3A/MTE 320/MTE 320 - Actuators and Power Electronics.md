@@ -1,0 +1,140 @@
+---
+title: MTE 320 - Actuators and Power Electronics
+tags:
+  - mte320
+  - 3a
+date: 2024-05-13
+aliases:
+  - MTE 320
+---
+## AC Circuits
+- [[Complex Number Representation for AC Circuits]]
+- [[Phasor Representation of Sinusoids]]
+- [[Impedance|Impedance and Reactance]]
+### AC Power
+- [[Instantaneous Power]]
+- [[Average Power|Average/Active Power]]
+- [[Reactive Power]]
+- [[Complex Power]]
+- [[Apparent Power]]
+- [[Power Triangle]]
+- [[Power Factor]]
+- [[Power Factor Correction]]
+
+## 3-Phase AC Circuits
+- [[Three-Phase AC Circuit]]
+- [[Three-Phase Source]]
+- [[Three-Phase Load]]
+### Connection Styles
+- [[Y Connection Style]]
+- [[Delta Connection Style]]
+- [[Y-Delta Transformation]]
+### Power in 3-Phase Circuits
+- [[Three-Phase Power]]
+
+## Electromagnetism and Magnetic Circuits
+- [[Electric Machines]]
+### Magnetic Fields
+- [[Permanent Magnet]]
+- [[Magnetic Flux]]
+- [[Magnetic Field around Current-Carrying Wire]]
+- [[Magnetic Field Intensity]]
+- [[Electromagnets|Electromagnets/Solenoids]]
+### Magnetic Circuits
+- [[Magnetic Circuit]]
+- [[Magnetomotive Force]]
+- [[Magnetic Field Intensity in a Core]]
+- [[Magnetic Reluctance]]
+- [[Magnetic Permeability]]
+### Ferromagnetic Materials
+- [[Ferromagnetic Materials]]
+- [[Magnetization Curve of Ferromagnetic Materials]]
+- [[Core Losses]]
+- [[Flux Leakage]]
+- [[Fringing Effect]]
+### Magnetic Circuit Analysis
+- [[Magnetic-Electric Circuit Analogies]]
+### EMF and Force Generation
+- [[EMF Generation]]
+- [[Faraday’s Law]]
+- [[Lenz's Law]]
+- [[EMF Generation with Conductor Relative Motion]]
+- [[Generation of Force with Conductor in a Magnetic Field]]
+### Rotational Motion
+- [[Rotational Motion]]
+
+## Transformers
+- [[Electrical Transformer|Transformer]]
+### Single Phase Transformers
+- [[Core-Type Transformer]]
+- [[Shell-Type Transformer]]
+- [[Copper Loss]]
+- [[Transformer Cross-Section Structure]]
+- [[Transformer Noise]]
+- [[Transformer Cooling]]
+- [[Ideal Single-Phase Transformer]]
+- [[Transformer Dot Convention]]
+- [[Impedance Matching]]
+- [[Practical Single-Phase Transformer]]
+- [[Transformer Under Load]]
+- [[Transformer Equivalent Circuit]]
+- [[Determining Transformer Equivalent Circuit Parameters|Determining Transformer Equivalent Circuit Parameters - Open/Closed Circuit Tests]]
+- [[Voltage Regulation in Transformers]]
+- [[Transformer Efficiency]]
+- [[Autotransformer]]
+### Instrument Transformers
+- [[Instrument Transformer]]
+- [[Potential Transformer]]
+- [[Current Transformer]]
+### 3-Phase Transformer
+- [[Three-Phase Transformer]]
+
+## DC Machines
+- [[DC Machine]]
+- [[AC generator|Simple AC Generator]]
+- [[DC Generator]]
+	- [[Improving DC Generator Waveform]]
+	- [[Field and Armature]]
+	- [[Generated Voltage in DC Generator]]
+
+- [[DC Motor]]
+	- [[Torque Reduction Factor]]
+	- [[Counter Torque and EMF]]
+	- [[Armature Reaction]]
+	- [[L di dt Voltages|L di/dt Voltages]]
+	- [[Terminal Characteristics of DC Motors]]
+
+- [[DC Machine Power]]
+- [[DC Machine Cooling]]
+- [[Commutator Brush Issues]]
+- [[Magnetization Curve of DC Machines]]
+
+### DC Motor Types
+- [[Separately-Excited DC Motor]]
+- [[Shunt DC Motor]]
+	- [[Shunt DC Motor Starting]]
+	- [[Shunt DC Motor Speed Control]]
+- [[Series DC Motor]]
+- [[Compound DC Motor]]
+
+
+## Power Electronics and DC/DC Converters
+- [[Power Electronics]]
+- [[Diode]]
+- [[Thyristor]]
+- [[Controllable Switch]]
+	- [[Bipolar Junction Transistor|Bipolar Junction Transistor (BJT)]]
+	- [[Metal-Oxide-Semiconductor Field Effect Transistor|Metal-Oxide-Semiconductor Field Effect Transistor (MOSFET)]]
+	- [[Gate-Turn-Off Thyristor|Gate-Turn-Off Thyristor (GTO)]]
+	- [[Insulated Gate Bipolar Transistor|Insulated Gate Bipolar Transistor (IGBT)]]
+	- [[Integrated Gate Commutated Thyristor|Integrated Gate Commutated Thyristor (IGCT)]]
+- [[Diode Rectifier]]
+	- [[Single-Phase Diode Bridge Rectifier]]
+	- [[Three-Phase Diode Bridge Rectifier]]
+- [[Thyristor Converters]]
+- [[Switch Mode DC-DC Converters]]
+	- [[Step-Down Converter]]
+	- [[Step-Up Converter]]
+
+## Problem
+- [[DC Machine Example Problem]]
