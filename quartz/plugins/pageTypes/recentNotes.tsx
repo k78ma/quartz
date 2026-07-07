@@ -3,26 +3,17 @@ import { QuartzComponent } from "../../components/types"
 import { GlobalConfiguration } from "../../cfg"
 import { QuartzPageTypePlugin } from "../types"
 import { QuartzPluginData } from "../vfile"
-import { FullSlug, isFolderPath, resolveRelative, simplifySlug } from "../../util/path"
+import { type FullSlug, isFolderPath, resolveRelative } from "../../util/path"
 
 function isTagPageSlug(slug: string | undefined): boolean {
   if (!slug) return false
   return slug === "tags" || slug === "tags/index" || slug.startsWith("tags/")
 }
 
-function isSamePageSlug(a: string | undefined, b: string | undefined): boolean {
-  if (!a || !b) return false
-  return simplifySlug(a as FullSlug) === simplifySlug(b as FullSlug)
-}
-
-function shouldIncludeInRecentNotes(
-  page: QuartzPluginData,
-  currentSlug: string | undefined,
-): boolean {
+function shouldIncludeInRecentNotes(page: QuartzPluginData): boolean {
   const slug = page.slug as string | undefined
   return (
     slug !== undefined &&
-    !isSamePageSlug(slug, currentSlug) &&
     page.unlisted !== true &&
     !isTagPageSlug(slug) &&
     !isFolderPath(slug)
@@ -68,10 +59,7 @@ function byResolvedDateAndAlphabetical(cfg: GlobalConfiguration) {
 }
 
 const RecentNotesPageBody: QuartzComponent = ({ allFiles, cfg, fileData }) => {
-  const currentSlug = fileData.slug as string | undefined
-  const pages = [...allFiles]
-    .filter((page) => shouldIncludeInRecentNotes(page, currentSlug))
-    .sort(byResolvedDateAndAlphabetical(cfg))
+  const pages = [...allFiles].filter((page) => shouldIncludeInRecentNotes(page)).sort(byResolvedDateAndAlphabetical(cfg))
 
   return (
     <article class="recent-notes-page popover-hint">
