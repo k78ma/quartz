@@ -109,7 +109,7 @@ plugins:
     enabled: false
     order: 92
   - source: github:quartz-community/fonts
-    enabled: true
+    enabled: false
   - source: github:quartz-community/remove-draft
     enabled: true
   - source: github:quartz-community/explicit-publish
@@ -141,7 +141,7 @@ plugins:
   - source: github:quartz-community/favicon
     enabled: true
   - source: github:quartz-community/og-image
-    enabled: true
+    enabled: false
   - source: github:quartz-community/cname
     enabled: true
   - source: github:quartz-community/canvas-page
@@ -153,7 +153,7 @@ plugins:
   - source: github:quartz-community/tag-page
     enabled: true
   - source: github:quartz-community/explorer
-    enabled: true
+    enabled: false
     layout:
       position: left
       priority: 50
@@ -186,7 +186,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: github:quartz-community/tag-list
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -225,10 +225,15 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Main site: https://k78ma.github
+        # Discord Community: https://discord.gg/cRFFHYye7t
   - source: github:quartz-community/recent-notes
-    enabled: false
+    enabled: true
+    options:
+      linkToMore: /recent-notes/
+    layout:
+      position: left
+      priority: 50
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
@@ -250,7 +255,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: ---
       language: yaml
     order: 5
@@ -262,7 +267,7 @@ plugins:
       name: quartz-themes
       repo: github:saberzero1/quartz-themes
       subdir: plugin
-    enabled: true
+    enabled: false
     options:
       theme: default
   - source: github:quartz-community/obsidian-plugin-excalidraw

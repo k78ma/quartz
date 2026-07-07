@@ -1,3 +1,9 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+.content-meta,
+.content-meta time,
+.content-meta span {
+  color: var(--gray);
+}

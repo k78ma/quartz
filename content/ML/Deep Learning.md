@@ -138,6 +138,7 @@ Some of these notes are also included in [[Machine Learning]].
 ## Graph Neural Networks
 - [[Graph Neural Networks]]
 - [[Graph Representation]]
+- [[Adjacency Graph]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
