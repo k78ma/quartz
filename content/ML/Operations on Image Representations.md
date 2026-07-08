@@ -52,5 +52,5 @@ How do we change the number of channels?
 Apply a convolution with kernel size 1
 
 ![[Downsampling and Upsampling-1777163362126.webp|499]]
-<!--SR:!fsrs,2026-07-06T17:34:35.054Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-25T17:34:35.054Z-->
+<!--SR:!fsrs,2026-08-25T06:40:21.489Z,49,48.55964622,2.09745544,2,4,0,0,2026-07-07T06:40:21.489Z-->
 +++

@@ -38,7 +38,7 @@ Run multiple self-attention heads in parallel, concatenate their outputs along t
 $$
 \text{MhSA}[X] = [\text{Sa}_1[X],\ \text{Sa}_2[X],\ \dots,\ \text{Sa}_H[X]] \,\Omega_c
 $$
-<!--SR:!fsrs,2026-07-05T05:44:03.581Z,0,2.3065,2.11810397,1,1,0,1,2026-07-05T05:34:03.581Z-->
+<!--SR:!fsrs,2026-07-18T06:41:45.271Z,11,10.96433194,2.11121424,2,2,0,0,2026-07-07T06:41:45.271Z-->
 +++
 
 In multi-head self-attention, if the embedding dimension is $D$ and there are $H$ heads, what is the dimension of the values, queries, and keys for each head?::$D / H$
