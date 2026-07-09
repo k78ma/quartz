@@ -48,10 +48,10 @@ Masked attention also makes inference/generation more efficient with [[KV Cache]
 
 #cards/dl 
 Masked self-attention::Restrict each token to interacting only with current and previous tokens by setting attention scores (dot products) to $-\infty$ before the softmax.
-<!--SR:!fsrs,2026-07-08T00:01:54.477Z,7,7.31530068,2.11121424,2,2,0,0,2026-07-01T00:01:54.477Z-->
+<!--SR:!fsrs,2026-08-12T06:22:48.404Z,34,34.10547749,2.1043314,2,3,0,0,2026-07-09T06:22:48.404Z-->
 
 Why do we use masked self-attention for autoregressive tasks?
 ?
 - Prevents the model from cheating by attending to future tokens.
 - Enables all next-token predictions in a sequence to be trained simultaneously in a single forward pass.
-<!--SR:!fsrs,2026-07-08T00:00:40.119Z,7,7.31530068,2.11121424,2,2,0,0,2026-07-01T00:00:40.119Z-->
+<!--SR:!fsrs,2026-08-01T06:25:15.497Z,23,23.42691302,4.74828477,2,3,0,0,2026-07-09T06:25:15.497Z-->

@@ -6,6 +6,7 @@ aliases: pcb watch
 draft: "true"
 ---
 Iteration 1: Basic time LCD + step count
+
 ## Links
 - [Digital Watch PCB Project : r/PrintedCircuitBoard](https://www.reddit.com/r/PrintedCircuitBoard/comments/1th99sh/review_request_digital_watch_pcb_project/)
 - [SMotlaq/open-watch](https://github.com/SMotlaq/open-watch)
