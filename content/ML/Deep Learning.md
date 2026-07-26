@@ -159,15 +159,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[NumPy Axes]]
 
 ## Exercises
-- [[UDL Chapter 2 Problems]]
-- [[UDL Chapter 3 Problems]]
-- [[UDL Chapter 4 Problems]]
-- [[UDL Chapter 5 Problems]]
-- [[UDL Chapter 6 Problems]]
-- [[UDL Chapter 7 Problems]]
-- [[UDL Chapter 8 Problems]]
-- [[UDL Chapter 9 Problems]]
-
+- [[UDL Problems]]
 ## Projects
 - [[Counterfactual Probing]]
 - [[Embed to Control]]
