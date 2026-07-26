@@ -12,4 +12,4 @@ Graphs are hard to process for three reasons:
 2. Graphs may be enormous; a graph representing connections in a social network might have a billion nodes.
 3. There may only be a single monolithic graph available, so the usual protocol of training with many data examples and testing with new data is not always appropriate.
 
-
+Given a [[Graph Representation|graph representation]], a graph neural network takes the node embeddings $\mathbf{X}$ and the adjacency matrix $\mathbf{A}$ as inputs and passes them through a series of $K$ layers. The node embeddings are updated at each layer to create intermediate "hidden" representations $\mathbf{H}_{k}$ before finally computing output embeddings $H_{K}$.

@@ -6,6 +6,7 @@ date: 2026-07-03
 aliases:
   - encoder-decoder model
   - machine translation
+  - cross-attention
 ---
 *Encoder-decoder* models are used in sequence-to-sequence tasks, where one text string is converted into another.
 
@@ -23,4 +24,4 @@ This is achieved by modifying the transformer layers in the decoder. Originally,
 
 #cards/dl 
 Cross-attention::Used in encoder-decoder architectures to allow the decoder to attend to the encoder's output representations. Queries are computed from decoder embeddings, keys and values are from encoder embeddings.
-<!--SR:!fsrs,2026-07-18T02:19:09.035Z,14,13.82690327,2.11121424,2,2,0,0,2026-07-04T02:19:09.035Z-->
+<!--SR:!fsrs,2026-07-25T06:11:56.650Z,0,5.31879273,4.75285849,1,2,0,1,2026-07-25T06:05:56.650Z-->

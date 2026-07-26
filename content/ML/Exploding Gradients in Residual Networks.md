@@ -22,7 +22,7 @@ Residual networks have what kind of exploding/vanishing gradient problem?::Expon
 <!--SR:!fsrs,2026-08-07T02:15:53.686Z,34,34.10547749,2.1043314,2,3,0,0,2026-07-04T02:15:53.686Z-->
 
 How do we deal with exploding activations or gradients in residual networks?::BatchNorm to keep the activations/gradients well-scaled
-<!--SR:!fsrs,2026-07-10T02:52:34.599Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-26T02:52:34.599Z-->
+<!--SR:!fsrs,2026-10-14T19:36:29.129Z,82,81.73967393,2.09745544,2,4,0,0,2026-07-24T19:36:29.129Z-->
 
 Why does variance for activations/gradients grow exponentially with the number of residual blocks?::Each residual block adds its input back to its processed output, which doubles the variance (assuming the branches are uncorrelated)
-<!--SR:!fsrs,2026-07-10T02:52:27.587Z,14,13.8358397,2.1043314,2,3,0,0,2026-06-26T02:52:27.587Z-->
+<!--SR:!fsrs,2026-10-14T19:32:09.292Z,82,81.73967393,2.09745544,2,4,0,0,2026-07-24T19:32:09.292Z-->

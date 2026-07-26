@@ -140,14 +140,17 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Graph]]
 - [[Graph Representation]]
 
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
+
 
 ## Other
 - [[Precision Metric]]
 - [[Recall Metric]]
 - [[Precision-Recall Curve]]
 - [[Flow Matching]]
+
 ## Practical
 - [[Einops]]
 - [[PyTorch Tensor Creation]]

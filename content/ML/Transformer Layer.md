@@ -29,4 +29,4 @@ where the row vectors $x_{n}$ are separately taken from the full data matrix $X$
 
 #cards/dl 
 Transformer layer operations::MhSA + residual → LayerNorm → MLP + residual → LayerNorm
-<!--SR:!fsrs,2026-07-11T04:36:25.864Z,11,10.97104786,2.1043314,2,3,0,0,2026-06-30T04:36:25.864Z-->
+<!--SR:!fsrs,2026-08-01T06:03:53.929Z,7,7.31530068,2.11121424,2,2,0,0,2026-07-25T06:03:53.929Z-->
