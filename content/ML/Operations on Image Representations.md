@@ -12,6 +12,7 @@ aliases:
   - transposed convolution
   - 1x1 convolution
   - max unpooling
+  - mean pooling
 ---
 Downsampling, upsampling, and changing the number of channels can be useful for working with 2D representations.
 

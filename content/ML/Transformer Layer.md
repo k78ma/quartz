@@ -6,6 +6,7 @@ date: 2026-06-27
 aliases:
   - transformer layer
   - transformer layers
+  - transformer
 ---
 Transformer layers consist of:
 - A [[Multi-Head Self-Attention|multi-head self-attention]] unit, which allows word representations to interact with each other

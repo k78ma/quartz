@@ -24,4 +24,4 @@ This is achieved by modifying the transformer layers in the decoder. Originally,
 
 #cards/dl 
 Cross-attention::Used in encoder-decoder architectures to allow the decoder to attend to the encoder's output representations. Queries are computed from decoder embeddings, keys and values are from encoder embeddings.
-<!--SR:!fsrs,2026-07-25T06:11:56.650Z,0,5.31879273,4.75285849,1,2,0,1,2026-07-25T06:05:56.650Z-->
+<!--SR:!fsrs,2026-08-04T01:48:58.062Z,9,8.70550539,4.743334,2,3,0,0,2026-07-26T01:48:58.062Z-->

@@ -37,3 +37,10 @@ $$
 \end{align}
 $$
 where post-multiplying by $\mathbf{P}$ permutes the columns and pre-multiplying by $\mathbf{P}^{T}$ permutes the rows. It follows that any processing applied to the graph should also be indifferent to these permutations (permutation-invariant). Otherwise, the result will depend on the choice of node indices.
+
+#cards/dl
+For a graph, what does adjacency matrix taken to the $L$-th power $\mathbf{A}^{L}$ give us?
+?
+The entry at position $(m,n)$ of $\mathbf{A}^{L}$ contains the number of unique *walks* of length $L$ from node $m$ to node $n$.
+<!--SR:!fsrs,2026-07-26T16:51:25.111Z,0,2.3065,2.11810397,1,1,0,1,2026-07-26T16:41:25.111Z-->
++++

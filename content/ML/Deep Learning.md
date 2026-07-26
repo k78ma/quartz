@@ -139,6 +139,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Graph Neural Networks]]
 - [[Graph]]
 - [[Graph Representation]]
+- [[Graph Convolutional Network]]
 
 
 ## Learning Theory
