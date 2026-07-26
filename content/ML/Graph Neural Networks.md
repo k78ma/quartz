@@ -49,3 +49,5 @@ This is a binary classification task where the two node embeddings must be mappe
 $$
 \text{Pr}(y^{(mn)}=1\, | \,\mathbf{X}, \mathbf{A}) = \text{sig}[\mathbf{h}^{(m)T}\mathbf{h}^{(n)}]
 $$
+
+![[Graph Neural Networks-1785090601370.webp]]
