@@ -139,13 +139,14 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Graph Neural Networks]]
 - [[Graph]]
 - [[Graph Representation]]
+- [[Inductive vs. Transductive Models]]
 - [[Graph Convolutional Network]]
     - [[GCN Graph Classification]]
+    - [[Node Classification]]
 
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
-
 
 ## Other
 - [[Precision Metric]]
@@ -160,6 +161,7 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Exercises
 - [[UDL Problems]]
+
 ## Projects
 - [[Counterfactual Probing]]
 - [[Embed to Control]]
