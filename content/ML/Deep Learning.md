@@ -141,7 +141,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Graph Representation]]
 - [[Inductive vs. Transductive Models]]
 - [[Graph Convolutional Network]]
-    - [[GCN Graph Classification]]
+    - [[Graph Classification]]
     - [[Node Classification]]
 
 

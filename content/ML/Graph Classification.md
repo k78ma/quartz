@@ -1,12 +1,11 @@
 ---
-title: GCN Graph Classification
+title: Graph Classification
 tags:
   - dl
 date: 2026-07-26
-aliases:
-  - graph classification
+aliases: graph classification
 ---
-Suppose we want a [[G]] that classifies molecules as toxic or harmless.
+Suppose we want a [[Graph Convolutional Network|GCN]] that classifies molecules as toxic or harmless.
 
 The network inputs are the adjacency matrix and node embedding matrix $\mathbf{X}$.
 - The adjacency matrix $\mathbf{A}\in \mathbb{R}^{N\times N}$ derives from the molecular structure.

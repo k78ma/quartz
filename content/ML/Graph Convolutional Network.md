@@ -70,4 +70,4 @@ $$
 $$
 where $\mathbf{1}$ is an $N\times 1$ vector containing ones. Here, the nonlinear activation function $\mathbf{a}[\bullet]$ is applied independently to every member of its matrix argument.
 
-This layer satisfies the design considerations; it's equivariant to permutations of the node indices, can cope with any number of neighbors, exploits graph structure to provide a relative inductive bias, and shares parameters throughout the graph. We can see it being applied to [[GCN Graph Classification|graph classification]].
+This layer satisfies the design considerations; it's equivariant to permutations of the node indices, can cope with any number of neighbors, exploits graph structure to provide a relative inductive bias, and shares parameters throughout the graph. We can see it being applied to [[Graph Classification|graph classification]].
