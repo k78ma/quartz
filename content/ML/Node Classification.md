@@ -26,6 +26,16 @@ One way to form a batch is to choose a random subset of labeled nodes at each tr
 Unfortunately if there are many layers and the graph is densely connected, every input node may be in the receptive field of every output, and this may not reduce the graph size at all. This is called the *graph expansion problem*. Two approaches that tackle this problem are neighborhood sampling and graph partitioning.
 
 ### Neighborhood sampling
+The full graph that feeds into the batch of nodes is sampled, thereby reducing the connections at each network layer. For example, we might start with the batch nodes and randomly sample a fixed number of their neighbors in the previous layer. Then, we randomly sample a fixed number of their neighbors in the layer before, and so on. The graph still increases in size with each layer but in a more controlled way. This is done anew for each batch, so the contributing neighbors differ even if the same batch is drawn twice. This is kind of like [[Dropout]] and adds some regularization.
 
+![[Node Classification-1785194935192.webp]]
 
 ### Graph partitioning
+A second way is to cluster the original graph into disjoint subsets of nodes – smaller graphs that are not connected to one another. There are standard algorithms to choose these subsets to maximize the number of internal links while minimizing the number of removed links. These smaller graphs can be treated as batches, or a random subset of them can be combined to form a batch, reinstating any edges between them from the original graph.
+
+![[Node Classification-1785197658529.webp]]
+
+## Training and Inference
+After forming batches using one of the methods above, we can train the network in the same way as for the inductive setting, dividing the nodes into train, test, and validation sets. We've essentially converted a transductive problem into an inductive one.
+
+To perform inference, we compute predictions for the unknown nodes based on their k-hop neighborhood. Unlike training, this does not require storing intermediate representations, so it is much more memory efficient.
