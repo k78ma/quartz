@@ -19,6 +19,8 @@ P(t=k)=\lambda_k.
 $$
 - Constraints: Each $\lambda_k$ is in the range $[0,1]$ and they sum to $1$.
 
+![[Multi-class Classification-1785273240727.webp]]
+
 Then, we use a network $f[\mathbf{x},\phi]$ with $K$ outputs to compute these $K$ parameters from input $\mathbf{x}$. Unfortunately, the network outputs do not necessarily obey the aforementioned constraints; thus, we pass them through a function that ensures these constraints are respected. This is usually a [[Softmax|softmax]] function.
 
 The softmax takes an arbitrary vector of length $K$ and returns a vector of the same length but where the elements are now in the range $[0,1]$ and sum to $1$. The $k$-th output of the softmax function is
@@ -63,6 +65,8 @@ $$
 
 where $f_{t_i}[\mathbf{x}_i,\phi]$ and $f_{k'}[\mathbf{x}_i,\phi]$ denote the $t_i$-th and $k'$-th outputs of the network, respectively. This is called *multiclass cross-entropy loss*.
 
+![[Multi-class Classification-1785273313741.webp]]
+
 > [!note] Simplified form
 > Let $\mathbf{t}^{(i)}$ be a one-hot encoding of the ground-truth class $t_i$, so that $t_{t_i}^{(i)}=1$ and every other element is zero. Then the loss can be written more compactly as
 > $$
@@ -89,7 +93,6 @@ P(t=k\mid\mathbf{x},\hat{\phi})
 \underset{k}{\operatorname{argmax}}\;
 y_k.
 $$
-
 
 #cards/dl
 Multiclass cross-entropy
