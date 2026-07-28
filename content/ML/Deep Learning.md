@@ -144,6 +144,7 @@ Some of these notes are also included in [[Machine Learning]].
     - [[Graph Classification]]
     - [[Node Classification]]
 - [[Graph Attention]]
+- [[Edge Graph]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

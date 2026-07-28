@@ -67,6 +67,7 @@ where $f_{t_i}[\mathbf{x}_i,\phi]$ and $f_{k'}[\mathbf{x}_i,\phi]$ denote the $t
 
 ![[Multi-class Classification-1785273313741.webp]]
 
+
 > [!note] Simplified form
 > Let $\mathbf{t}^{(i)}$ be a one-hot encoding of the ground-truth class $t_i$, so that $t_{t_i}^{(i)}=1$ and every other element is zero. Then the loss can be written more compactly as
 > $$
