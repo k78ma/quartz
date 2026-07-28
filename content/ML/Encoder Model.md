@@ -11,7 +11,7 @@ An *encoder* transforms text embeddings into a representation that can support a
 
 BERT is an example of a decoder.
 - Vocabulary of 30,000 tokens. 
-- Input tokens are are converted to 1024-dimensional word embeddings and passed through 24 [[Transformer Layer|transformer layers]]. 
+- Input tokens are are converted to 1024-dimensional word embeddings and passed through 24 [[Transformer|transformer layers]]. 
 - Each transformer layer contains a [[Multi-Head Self-Attention|multi-head self-attention]] mechanism with 16-heads.
 - The queries, keys, and values for each head are of dimension 64, such that the matrices $\Omega_{vh}, \Omega_{qh}, \Omega_{kh}$ are of $1024\times 64$.
 - The dimension of the single hidden layer in the fully connected network is 4096.

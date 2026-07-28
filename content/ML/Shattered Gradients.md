@@ -48,4 +48,4 @@ Shattered gradients::In deep sequential networks, gradients at nearby points bec
 <!--SR:!fsrs,2026-08-01T02:18:23.735Z,28,28.0388538,4.73876485,2,4,0,0,2026-07-04T02:18:23.735Z-->
 
 Why do shattered gradients arise?::Composing many nonlinear layers causes small changes in inputs or early-layer parameters to propagate into complex changes in downstream activations, making the gradients vary rapidly and unpredictably.
-<!--SR:!fsrs,2026-07-27T02:15:43.930Z,23,23.42691302,4.74828477,2,3,0,0,2026-07-04T02:15:43.930Z-->
+<!--SR:!fsrs,2026-10-07T01:34:59.049Z,71,70.89473418,4.73876485,2,4,0,0,2026-07-28T01:34:59.049Z-->

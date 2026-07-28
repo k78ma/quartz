@@ -1,5 +1,5 @@
 ---
-title: Transformer Layer
+title: Transformer
 tags:
   - dl
 date: 2026-06-27
@@ -29,5 +29,5 @@ where the row vectors $x_{n}$ are separately taken from the full data matrix $X$
 - Note that this image uses $D\times N$ input data (column vectors for each input) while it's more standard to do $N\times D$ (row vectors).
 
 #cards/dl 
-Transformer layer operations::MhSA + residual → LayerNorm → MLP + residual → LayerNorm
+Transformer layer operations::Input embeddings → MhSA + residual → LayerNorm → MLP + residual → LayerNorm → Output embeddings
 <!--SR:!fsrs,2026-08-01T06:03:53.929Z,7,7.31530068,2.11121424,2,2,0,0,2026-07-25T06:03:53.929Z-->

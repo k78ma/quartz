@@ -120,7 +120,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Dot-Product Self-Attention]]
 - [[Positional Encoding]]
 - [[Multi-Head Self-Attention]]
-- [[Transformer Layer]]
+- [[Transformer]]
 - [[Transformers for NLP]]
     - [[Vector Embeddings]]
         - [[Embedding Model]]
@@ -143,7 +143,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Graph Convolutional Network]]
     - [[Graph Classification]]
     - [[Node Classification]]
-
+- [[Graph Attention]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]

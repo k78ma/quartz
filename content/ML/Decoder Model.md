@@ -8,7 +8,7 @@ aliases:
   - transformer decoder
   - GPT-3
 ---
-GPT-3 is an example of a decoder model. The basic architecture is similar to encoder models like [[Encoder Model]], where we have a series of [[Transformer Layer|transformer layers]] that operate on learned word embeddings. However, the encoder aimed to build a representation of the text that could be fine-tuned to solve a variety of specific NLP tasks, whereas the decoder has only one purpose: to generate the next token in a sequence.
+GPT-3 is an example of a decoder model. The basic architecture is similar to encoder models like [[Encoder Model]], where we have a series of [[Transformer|transformer layers]] that operate on learned word embeddings. However, the encoder aimed to build a representation of the text that could be fine-tuned to solve a variety of specific NLP tasks, whereas the decoder has only one purpose: to generate the next token in a sequence.
 
 ## Autoregressive language modeling
 GPT-3 is an autoregressive language model. Consider the sentence "It takes great courage to let yourself appear weak." For simplicity, let's assume that the tokens are full words. The probability of the full sentence can be factored as:

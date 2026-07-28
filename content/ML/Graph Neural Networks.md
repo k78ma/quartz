@@ -14,7 +14,7 @@ Graphs are hard to process for three reasons:
 
 Given a [[Graph Representation|graph representation]], a graph neural network takes the node embeddings $\mathbf{X}$ and the adjacency matrix $\mathbf{A}$ as inputs and passes them through a series of $K$ layers. The node embeddings are updated at each layer to create intermediate "hidden" representations $\mathbf{H}_{k}$ before finally computing output embeddings $\mathbf{H}_{K}$.
 
-At the start of the network, each column of the input node embeddings $\mathbf{X}$ just contains information about the node itself. At the end, each column of the model output $\mathbf{H}_{K}$ includes information about the node and its context within the graph. This is similar to word embeddings passing through a [[Transformer Layer|transformer]], where the embeddings represent words at the start but represent meanings in the context of the sentence at the end.
+At the start of the network, each column of the input node embeddings $\mathbf{X}$ just contains information about the node itself. At the end, each column of the model output $\mathbf{H}_{K}$ includes information about the node and its context within the graph. This is similar to word embeddings passing through a [[Transformer|transformer]], where the embeddings represent words at the start but represent meanings in the context of the sentence at the end.
 
 A common architecture is the [[Graph Convolutional Network]].
 

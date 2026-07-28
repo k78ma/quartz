@@ -48,7 +48,7 @@ Like image processing, graphs benefit from shared convolutional parameters, whic
 
 Recall that a convolution updates a variable by taking a weighted sum of information from its neighbors. One way to think of this is that each neighbor sends a message to the variable of interest, which aggregates these messages to form the update. In images, the neighbors were pixels from a square region around the current position, so the spatial positions are the same. However, in a graph, each node may have a different number of neighbors, and there are no consistent relationships; there is no sense that we can weight information from "above" or "left" of the node differently than from "below" or "right".
 
-## GCN layer
+## Basic GCN layer
 The above considerations lead to a simple GCN layer.
 
 ![[Graph Convolutional Network-1785093851420.webp]]
@@ -71,3 +71,76 @@ $$
 where $\mathbf{1}$ is an $N\times 1$ vector containing ones. Here, the nonlinear activation function $\mathbf{a}[\bullet]$ is applied independently to every member of its matrix argument.
 
 This layer satisfies the design considerations; it's equivariant to permutations of the node indices, can cope with any number of neighbors, exploits graph structure to provide a relative inductive bias, and shares parameters throughout the graph. We can see it being applied to [[Graph Classification|graph classification]].
+
+## Variations
+Above, we combined messages from adjacent nodes by summing them together with the transformed current node. This was done by computing $\mathbf{H} (\mathbf{A}+\mathbf{I})$. We now consider different approaches to both the combination of the current embedding with the aggregated neighbors, and the aggregation process itself.
+
+### Combining current node with aggregated neighbors
+The original combination of aggregated neighbors $\mathbf{HA}$ with the current nodes $\mathbf{H}$ was done by just summing them:
+$$
+\text{H}_{k+1} = a[\beta_{k}\mathbf{1}^{T}+\Omega_{k}\mathbf{H}_{k}(\mathbf{A}+\mathbf{I})]
+$$
+Another variation is to multiply the current node by a factor of $(1+\epsilon_{k})$ before contributing to the sum, where $\epsilon_{k}$ is a learned scalar that is different for each layer:
+$$
+\mathbf{H}_{k+1} = a \Big[\beta_{k}\mathbf{1}^{T}+\Omega_{k}\mathbf{H}_{k}(\mathbf{A}+(1+\epsilon_{k})\mathbf{I})\Big]
+$$
+This is known as *diagonal enhancement*. 
+
+A related variation applies a different linear transform $\Psi_{k}$ to the current node:
+$$
+\begin{align}
+\mathbf{H}_{k+1}  & = a[\beta_{k}\mathbf{1}^{T}+\Omega_{k}\mathbf{H}_{k}\mathbf{A}+\Psi_{k}\mathbf{H}_{k}] \\[2ex] 
+     & = a\left[\beta_{k}\mathbf{1}^{T}+ \begin{bmatrix}
+\Omega_{k} & \Psi_{k}
+\end{bmatrix} \begin{bmatrix}
+\mathbf{H}_{k}\mathbf{A} \\
+\mathbf{H}_{k}
+\end{bmatrix}\right] \\[2ex] 
+     & = a\left[\beta_{k}\mathbf{1}^{T}+\Omega_{k}' \begin{bmatrix}
+\mathbf{H}_{k}\mathbf{A} \\
+\mathbf{H}_{k}
+\end{bmatrix} \right] 
+\end{align}
+$$
+
+### Residual connections
+With residual connections, the aggregated representation from the neighbors is transformed and passed through the activation function before summation or concatenation with the current node. For the latter case, the associated equations are:
+$$
+\mathbf{H}_{k+1}= \begin{bmatrix}
+a[\beta_{k}\mathbf{1}^{T}+\Omega_{k}\mathbf{H}_{k}\mathbf{A}] \\
+\mathbf{H}_{k}
+\end{bmatrix}
+$$
+
+### Mean aggregation
+The above methods aggregate the neighbors by summing the node embeddings. However, it's possible to combine the embeddings in different ways. Sometimes it's better to take the average of the neighbors rather than the sum; this can be superior if the embedding information is more important and the structural information less so since the magnitude of the neighborhood contributions will not depend on the number of neighbors:
+$$
+\text{agg}[n] = \frac{1}{\left| \text{ne} \right| [n]} \sum_{m \in  \text{ne}[n] } \mathbf{h}_{m}
+$$
+where as before, $\text{ne}[n]$ denotes a set containing the indices of the neighbors of the $n$-th node. The above equation can be computed neatly in matrix form by introducing the diagonal $N\times N$ matrix $\mathbf{D}$. Each non-zero element of this matrix contains the number of neighbors for the associated node. It follows that each diagonal element in the inverse matrix $\mathbf{D}^{-1}$ contains the denominator that we need to compute the average. The new GCN layer can be written as:
+$$
+\mathbf{H}_{k+1} = a[\beta_{k}\mathbf{1}^{T} + \Omega_{k}\mathbf{H}_{k}(\mathbf{AD}^{-1}+\mathbf{I})]
+$$
+
+### Kipf Normalization
+There are many variations of graph neural networks based on mean aggregation. Sometimes the current node is included with its neighbors in the mean computation rather than treated separately. In Kipf normalization, the sum of the node representations is normalized as:
+$$
+\text{agg}[n]= \sum_{m \in  \text{ne}[n]} \frac{\mathbf{h}_{m}}{\sqrt{ \left| \text{ne}[n] \right| \left| \text{ne}[m] \right|  }}
+$$
+with the logic that information coming from nodes with a very large number of neighbors should be down-weighted since there are many connections and they provide less unique information. This can also be expressed in matrix form using the degree matrix:
+$$
+\mathbf{H}_{k+1} = a\Big[\beta_{k}\mathbf{1}^{T} + \Omega_{k}\mathbf{H}_{k}(\mathbf{D}^{-1 / 2}\mathbf{A}\mathbf{D}^{-1 / 2}+\mathbf{I})\Big]
+$$
+
+### Max pooling aggregation
+An alternative operation that is also invariant to permutation is computing the maximum of a set of objects. The max pooling aggregation operator is:
+$$
+\text{agg}[n]= \underset{m \in  \text{ne}[n]}{\operatorname{max}}[\mathbf{h}_{m}]
+$$
+where the operator $\text{max}[\bullet]$ return the element-wise maximum of the vectors $\mathbf{h}_{m}$ that are neighbors to the current node $n$.
+
+
+
+#cards/dl 
+Graph convolutional networks::Take the node embeddings and adjacency matrix and outputs new node embeddings, aggregating information from nearby nodes.
+<!--SR:!fsrs,2026-07-28T01:58:06.617Z,0,2.3065,2.11810397,1,1,0,1,2026-07-28T01:48:06.617Z-->

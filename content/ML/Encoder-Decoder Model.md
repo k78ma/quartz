@@ -12,7 +12,7 @@ aliases:
 
 Translation between languages is an example of a sequence-to-sequence task. A common approaches is to use both an encoder (to compute a good representation of the source sentence) and a decoder (to generate the sentence in the target sentence). This is called an encoder-decoder model.
 
-Consider translating from English to French. The [[Encoder Model|encoder]] receives the sentence in English and processes it through a series of [[Transformer Layer|transformer layers]] to create an output representation for each token. During training, the [[Decoder Model|decoder]] receives the ground truth translation in French and passes it through a series of transformer layers that use [[Masked Self-Attention|masked self-attention]] and predict the following word at each position. However, the decoder layers also attend to the output of the encoder. Thus, each French output word is conditioned on the previous output words *and* and the source English sentence.
+Consider translating from English to French. The [[Encoder Model|encoder]] receives the sentence in English and processes it through a series of [[Transformer|transformer layers]] to create an output representation for each token. During training, the [[Decoder Model|decoder]] receives the ground truth translation in French and passes it through a series of transformer layers that use [[Masked Self-Attention|masked self-attention]] and predict the following word at each position. However, the decoder layers also attend to the output of the encoder. Thus, each French output word is conditioned on the previous output words *and* and the source English sentence.
 
 ![[Machine Translation-1782926851160.webp]]
 
