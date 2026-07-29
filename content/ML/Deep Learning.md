@@ -146,6 +146,15 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Graph Attention]]
 - [[Edge Graph]]
 
+## Unsupervised Learning
+- [[Unsupervised Learning]]
+
+## Generative Adversarial Networks
+
+
+## Normalizing Flows
+
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
