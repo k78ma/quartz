@@ -6,6 +6,7 @@ date: 2026-04-09
 aliases:
   - generative adversarial networks
   - GAN
+  - GANs
 ---
 A GAN consists of two networks that are competing against each other.
 

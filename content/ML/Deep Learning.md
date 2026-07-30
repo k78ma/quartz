@@ -148,12 +148,18 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Unsupervised Learning
 - [[Unsupervised Learning]]
+- [[K-means]]
+- [[Generative Models]]
+- 
 
 ## Generative Adversarial Networks
-
+- [[Generative Adversarial Networks]]
 
 ## Normalizing Flows
+- [[Normalizing Flows]]
 
+## Diffusion Models
+- [[Diffusion Models]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
