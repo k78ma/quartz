@@ -44,7 +44,7 @@ $$
 $$
 We can turn the maximization problem into a minimization problem by taking the negative of the above expression, and write it in terms of minimizing a loss:
 $$
-\sum_{i=1}^{n}L_{\text{NLL}} (g^{(i)}, y^{(i)})
+-\sum_{i=1}^{n}L_{\text{NLL}} (g^{(i)}, y^{(i)})
 $$
 where $L_{\text{nll}}$ is the negative log-likelihood loss function:
 $$

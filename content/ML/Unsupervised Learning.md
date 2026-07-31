@@ -24,3 +24,12 @@ In principle, the mapping between the observed and latent variables can be in ei
 
 ![[Unsupervised Learning-1785293108771.webp]]
 
+
+#cards/dl
+Latent variable
+?
+- Latent variables capture the underlying structure in the dataset
+- Usually have a lower dimension than the original data; in this sense, a latent variable $z$ can be considered a compressed version of a data example $x$ that captures its essential qualities.
+- Generative models map from latent variables $z$ to the data $x$.
+<!--SR:!fsrs,2026-07-30T05:39:14.241Z,0,2.3065,2.11810397,1,1,0,1,2026-07-30T05:29:14.241Z-->
++++

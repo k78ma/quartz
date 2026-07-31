@@ -150,10 +150,12 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Unsupervised Learning]]
 - [[K-means]]
 - [[Generative Models]]
-- 
 
 ## Generative Adversarial Networks
-- [[Generative Adversarial Networks]]
+- [[Generative Adversarial Network]]
+    - [[GAN Summary]]
+- [[Deep Convolutional GAN]]
+- [[GAN Stability]]
 
 ## Normalizing Flows
 - [[Normalizing Flows]]

@@ -1,12 +1,9 @@
 ---
-title: Generative Adversarial Networks
+title: GAN Summary
 tags:
   - amath449
-date: 2026-04-09
+date: 2026-07-29
 aliases:
-  - generative adversarial networks
-  - GAN
-  - GANs
 ---
 A GAN consists of two networks that are competing against each other.
 

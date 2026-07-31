@@ -48,6 +48,6 @@ aliases: amath 449 - neural networks
 - [[Learning Decoders]]
 
 ### Additional Topics
-- [[Generative Adversarial Networks]]
+- [[GAN Summary]]
 - [[Predictive Coding]]
 - [[Transformer Summary]]
