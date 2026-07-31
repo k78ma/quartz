@@ -20,20 +20,20 @@ A common failure mode is that the generator makes plausible samples, but only re
 ## Loss function analysis
 To understand why GANs are difficult to train, it's necessary to understand what the loss function represents. Recall that we can write the GAN objective as two loss functions:
 $$
-\begin{align}
+\begin{align*}
 L[\phi]  & = \sum_{j} - \log\Big[ 1- \text{sig}[f[g[z_{j}, \theta], \phi]] \Big] - \sum_{i}\log \Big[\text{sig}[f[x_{i}, \phi]] \Big] \\[2ex] 
 L[\theta] & = \sum_{j}\log \Big[1- \text{sig}[f[g[z_{j}, \theta], \phi]] \Big]
-\end{align}
+\end{align*}
 $$
 where the first loss function trains the discriminator and the second loss function trains the generator.
 
 If we divide the two sums in the first line by the numbers $I,J$ of real and generated samples, then the loss function can be written in terms of expectations:
 $$
-\begin{align}
+\begin{align*}
 L[\phi]  & = -\frac{1}{J} \sum_{j=1}^{J} \bigg( \log\Big[ 1- \text{sig}[f[g[z_{j}, \theta], \phi]] \Big] \bigg) -  \frac{1}{I}\sum_{i=1}^{I} \bigg(\log \Big[\text{sig}[f[x_{i}, \phi]] \Big]\bigg) \\[2ex] 
      & \approx \mathbf{E}_{x^{\ast  }} \bigg[\log \Big[1-\text{sig}[f[x^{\ast  }, \phi]] \Big] \bigg] - \mathbb{E}_{x}\bigg[ \log \Big[ \text{sig}[f[x, \phi]] \Big ] \bigg] \\[2ex] 
      & = - \int Pr(x^{\ast  }) \log \Big[ 1-\text{sig}[f[x^{\ast  }, \phi]] \Big] \, dx - \int Pr(x) \log \Big[\text{sig}[f[x, \phi]] \Big] \, dx 
-\end{align}
+\end{align*}
 $$
 where $Pr(x^{\ast })$ is the probability distribution over the generated samples, and $Pr(x)$ is the true probability distribution over the samples.
 
@@ -43,19 +43,19 @@ Pr(\text{real} | \tilde{x}) = \text{sig}[f[\tilde{x},\phi]] = \frac{Pr(\tilde{x}
 $$
 where on the right side, we evaluate $\tilde{x}$ against the generated distribution $Pr(x^{\ast })$ and the real distribution $Pr(x)$. Substituting this back into our loss functoin:
 $$
-\begin{align}
+\begin{align*}
 L[\phi] & = - \int Pr(x^{\ast  }) \log \Big[ 1-\text{sig}[f[x^{\ast  }, \phi]] \Big] \, dx - \int Pr(x) \log \Big[\text{sig}[f[x, \phi]] \Big] \, dx \\[2ex] 
      & = - \int Pr(x^{\ast  }) \log\left[ 1 - \frac{Pr(x)}{Pr(x^{\ast  })+Pr(x)} \right] \, dx^{\ast  }  - \int Pr(x) \log\left[ \frac{Pr(x)}{Pr(x^{\ast  })+Pr(x)} \right] \, dx  \\[2ex]
      & = -\int Pr(x^{\ast  })\log\left[ \frac{Pr(x^{\ast  })}{Pr(x^{\ast  })+Pr(x)} \right] \, dx^{\ast  } - \int Pr(x) \log \left[ \frac{Pr(x)}{Pr(x^{\ast  })+Pr(x)} \right] \, dx 
-\end{align}
+\end{align*}
 $$
 Disregarding additive and multiplicative constants, this is the [[Jensen-Shannon divergence]] between the synthesized distribution $Pr(x^{\ast })$ and the true distribution $Pr(x)$:
 $$
-\begin{align}
+\begin{align*}
 D_{JS}\Big [ & Pr(x^{\ast  })\;||\; Pr(x) \Big]  \\[2ex] 
 & = \frac{1}{2}D_{KL}\left[ Pr(x^{\ast  }) \Big| \Big| \frac{Pr(x^{\ast  })+Pr(x)}{2} \right] + \frac{1}{2}D_{KL}\left[ Pr(x) \Big| \Big| \frac{Pr(x^{\ast  })+Pr(x)}{2} \right] \\[2ex] 
      & = \frac{1}{2} \int \underbrace{ Pr(x^{\ast  })\log \left[ \frac{2Pr(x^{\ast  })}{Pr(x^{\ast  })+Pr(x)} \right] \, dx^{\ast} }_{ \text{quality} }  + \frac{1}{2} \int \underbrace{ Pr(x)\log\left[ \frac{2Pr(x)}{Pr(x^{\ast  })+Pr(x)} \right] \, dx }_{ \text{coverage} } 
-\end{align}
+\end{align*}
 $$
 where $D_{KL}[\bullet \mid\mid \bullet]$ is the [[Kullback-Leibler Divergence|KL divergence]].
 
@@ -77,3 +77,8 @@ We can see an empirical version of this below. If the [[Deep Convolutional GAN|D
 ![[GAN Stability-1785537692436.webp]]
 
 ## Wasserstein distance
+$$
+\begin{align*}
+
+\end{align*}
+$$
