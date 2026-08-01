@@ -63,7 +63,7 @@ The first term indicates the distance will be small if, wherever the sample dens
 
 The second term says that the distance will be small if, wherever the true density $Pr(x)$ is high, the mixture $(Pr(x^{\ast })+Pr(x)) / 2$ has high probability. In other words, it penalizes regions with real examples but no generated samples. This enforces *coverage*.
 
-We can see that the second term does not depend on the generator; consequently, **the generator doesn't care about coverage**. It is happy to generate a subset of possible examples accurately. This is the likely reason for mode dropping/collapse.
+We can see that the second term does not depend on the generator parameters $\phi$; consequently, the generator doesn't care much about coverage, though it is still implicitly included through $Pr(x^{\ast })$. It is happy to generate a subset of possible examples accurately. This is the likely reason for mode dropping/collapse.
 
 ## Vanishing gradients
 We saw that when the discriminator is optimal, the loss function maximizes a measure of the distance between the generated and real samples. However, there's a problem with using this distance between probability distributions as the criterion for optimizing GANs. If the probability distributions are completely disjoint, this distance is infinite, and any small change to the generator will not decrease the loss. The same phenomenon can be seen when we consider the original formulation; if the discriminator can perfectly separate the generated and real samples, no small change to the generated data will change classification score.
@@ -76,7 +76,16 @@ We can see an empirical version of this below. If the [[Deep Convolutional GAN|D
 
 ![[GAN Stability-1785537692436.webp]]
 
+
+#cards/dl 
+Why are GANs hard to train?
+?
+1. Training is a coupled, non-stationary game: updating either network changes the objective faced by the other.
+2. With an optimal discriminator, the original GAN objective corresponds to minimizing the Jensen–Shannon divergence between the real and generated distributions. If their supports have little or no overlap, the discriminator can saturate, giving the generator vanishing gradients.
++++
+
 ## Wasserstein distance
+We've seen that the GAN loss can be interpreted in terms of distances between probability distributions and that the gradient of this distance becomes zero when the generated samples are too easy to distinguish from the real examples.
 $$
 \begin{align*}
 

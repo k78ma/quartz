@@ -2,6 +2,7 @@
 title: Jensen-Shannon divergence
 tags:
   - dl
+  - stats
 date: 2026-07-31
 aliases: jensen-shannon divergence
 ---
