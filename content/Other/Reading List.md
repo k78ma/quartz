@@ -13,6 +13,7 @@ Plan:
     - [ ] [Practical Deep Learning for Coders](https://course.fast.ai/)
     - [ ] [Guided lab sessions](https://sscardapane.notion.site/Guided-lab-sessions-18c25bd12a8c8068b972f7612fcde8d5#18c25bd12a8c8021be44f5f61ed35ab6)/just implement stuff
     - [ ] [ARENA](https://learn.arena.education/chapter0_fundamentals/00_prereqs/intro)
+    - [ ] All the models in UDL?
 - Mathematical Foundations of Reinforcement Learning
 - Deep Learning: Foundations and Concepts
 

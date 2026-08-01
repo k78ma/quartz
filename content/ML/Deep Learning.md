@@ -158,6 +158,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[GAN Stability Analysis]]
 - [[Wasserstein GAN Loss]]
 - [[GAN Quality Improvements]]
+- [[Conditional Generation GAN Models]] - Conditional GAN, ACGAN, InfoGAN
+- [[Image Translation GAN Models]]
 
 ## Normalizing Flows
 - [[Normalizing Flows]]

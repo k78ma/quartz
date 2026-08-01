@@ -14,6 +14,7 @@ It's easy to adapt the machinery for node embeddings to process edge embeddings 
 
 In general, a graph can be recovered from its edge graph, so it's pssobiel to swap between these two representations.
 
+## Edge Graph Models
 To process edge embeddings, the graph is translated to its edge graph. Then we use exactly the same techniques, aggregating information at each new node from its neighbors and combining this with the current representation. When both node and edge embeddings are present, we can translate back and forth between the two graphs. Now there are four possible updates (nodes update nodes, notes update edges, edges update nodes, and edges update edges). These can be alternated as desired, or with minor modifications, nodes can be updated simultaneously from both nodes and edges.
 
 ![[Edge Graph-1785274703832.webp]]
