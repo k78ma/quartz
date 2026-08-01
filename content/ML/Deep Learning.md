@@ -157,7 +157,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Deep Convolutional GAN]]
 - [[GAN Stability Analysis]]
 - [[Wasserstein GAN Loss]]
-- [[GAN Stabilization Methods]]
+- [[GAN Quality Improvements]]
 
 ## Normalizing Flows
 - [[Normalizing Flows]]

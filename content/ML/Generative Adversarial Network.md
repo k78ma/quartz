@@ -82,5 +82,5 @@ GAN
 - Discriminator network tries to classify real examples vs. generated samples.
 - Both are trained together in a minimax game where the generator tries to fool the discriminator while the discriminator learns to detect fakes.
 - At equilibrium, the generated samples become difficult to distinguish from real data.
-<!--SR:!fsrs,2026-08-01T04:52:01.098Z,0,2.3065,2.11810397,1,1,0,1,2026-08-01T04:42:01.098Z-->
+<!--SR:!fsrs,2026-08-03T18:01:47.811Z,2,2.3065,2.11121424,2,2,0,0,2026-08-01T18:01:47.811Z-->
 +++

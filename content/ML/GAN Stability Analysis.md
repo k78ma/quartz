@@ -4,9 +4,9 @@ tags:
   - dl
 date: 2026-07-30
 aliases:
-  - gan stability
   - mode dropping
   - mode collapse
+  - GAN training stability
 ---
 Theoretically, the [[Generative Adversarial Network|GAN]] is fairly straightforward. However, they are notoriously difficult to train.
 - For example, to get [[Deep Convolutional GAN|DCGAN]] to train reliable, they had to use strided convolutions for upsampling and downsampling, use BatchNorm in both the generator and discriminator except in the last and first layers, use leaky ReLU in the discriminator, use Adam but with a lower momentum coefficient.
@@ -81,8 +81,9 @@ We can see an empirical version of this below. If the [[Deep Convolutional GAN|D
 Why are GANs hard to train?
 ?
 1. Training is a coupled, non-stationary game: updating either network changes the objective faced by the other.
-2. With an optimal discriminator, the original GAN objective corresponds to minimizing the Jensen–Shannon divergence between the real and generated distributions. If they have little or no overlap, the discriminator sigmoid can saturate, giving the generator vanishing gradients.
+2. With an optimal discriminator, the original GAN objective corresponds to minimizing the Jensen–Shannon divergence between the real and generated distributions. If the distributions are completely disjoint, this distance is infinite, and any small change to the generator will not decrease the loss. 
+3. Similarly for the original formulation; if the discriminator can perfectly separate the generated and real samples, no small change to the generated data will change classification score. The discriminator sigmoid can saturate, giving the generator vanishing gradients.
 
 ![[GAN Stability-1785537517317.webp]]
-<!--SR:!fsrs,2026-08-01T04:53:48.315Z,0,2.3065,2.11810397,1,1,0,1,2026-08-01T04:43:48.315Z-->
+<!--SR:!fsrs,2026-08-03T18:03:14.513Z,2,2.3065,2.11121424,2,2,0,0,2026-08-01T18:03:14.513Z-->
 +++

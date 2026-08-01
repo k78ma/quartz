@@ -22,7 +22,7 @@ Images have some properties that suggest the need for specialized model architec
 
 An image is described as a two-dimensional array of pixels, A pixel may be represented by three integer values, encoding intensity levels in red, green, and blue color channels. This makes images quite **high-dimensional**; as hidden layers in fully connected networks are generally larger than the input size, so even for a shallow network, the number of weights would be quite large, posing some problems in terms of required data, memory, and compute.
 
-Second, there is the fact of **spatial locality**: nearby image pixels are statistically related. The set of pixels we will have to take into consideration to find a cat in an image will be near one another. However, if the pixels of the training and test images are randomly permuted int he same way, the network could still be trained with no practical difference.
+Second, there is the fact of **spatial locality**: nearby image pixels are statistically related. The set of pixels we will have to take into consideration to find a cat in an image will be near one another. However, if the pixels of the training and test images are randomly permuted in the same way, the network could still be trained with no practical difference.
 
 Third, image interpretation is stable under geometric transformations ([[Invariance and Equivariance]]). The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs. However, shifting the object changes every input to the network, so a fully connected model must learn the patterns of pixels that signify a cat at every position, which is inefficient.
 
@@ -32,6 +32,12 @@ Parts of CNNs:
 - [[2D Convolution Example]]
 - [[Image Filter Bank]]
 - [[Convolutional Layer]]
-- [[Tensor|Tensors]]
 - [[Max Pooling]]
 - [[CNN Architecture]]
+
+
+#cards/dl 
+Why is convolutional better than FC for images?
+?
+- High dimensional – FC networks would need a lot of weights, convolutional networks are more parameter efficient as the same kernels are re-used across image
+- Image interpretation is invariant/equivariant under geometric transformations. The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs. However, shifting the object changes every input to the network, so a fully connected model must learn the patterns of pixels that signify a cat at every position, which is inefficient.

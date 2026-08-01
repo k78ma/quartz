@@ -54,4 +54,4 @@ Why do we use masked self-attention for autoregressive tasks?
 ?
 - Prevents the model from cheating by attending to future tokens.
 - Enables all next-token predictions in a sequence to be trained simultaneously in a single forward pass.
-<!--SR:!fsrs,2026-08-01T06:25:15.497Z,23,23.42691302,4.74828477,2,3,0,0,2026-07-09T06:25:15.497Z-->
+<!--SR:!fsrs,2026-09-21T18:00:10.569Z,51,51.11934801,6.49889507,2,4,0,0,2026-08-01T18:00:10.569Z-->
