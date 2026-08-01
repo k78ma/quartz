@@ -75,11 +75,12 @@ At each step, we draw a batch of latent variables $z_{j}$ from the base distribu
 
 ![[Generative Adversarial Network-1785459863788.webp]]
 
-#cards/dl 
+#cards/dl
 GAN
 ?
 - Generator network creates samples by mapping random noise to the output data space.
 - Discriminator network tries to classify real examples vs. generated samples.
 - Both are trained together in a minimax game where the generator tries to fool the discriminator while the discriminator learns to detect fakes.
 - At equilibrium, the generated samples become difficult to distinguish from real data.
+<!--SR:!fsrs,2026-08-01T04:52:01.098Z,0,2.3065,2.11810397,1,1,0,1,2026-08-01T04:42:01.098Z-->
 +++

@@ -66,3 +66,10 @@ $$
 \left| \frac{ \partial f[x,\phi] }{ \partial x }  \right|  <1
 $$
 One way to achieve this is to clip the discriminator weights to a small range (e.g., $\pm 0.01$). An alternative is the gradient penalty Wasserstein GAN (WGAN-GP), which adds a regularization term that increases as the gradient norm deviates from unity.
+
+#cards/dl
+Why does using a Wasserstein distance loss function make GAN training more stable?
+?
+Compared to the Jensen-Shannon divergence used in the original GAN loss function, Wasserstein distance is well-defined even when the real/synthetic distributions are disjoint and decreases smoothly as they become closer to one another.
+<!--SR:!fsrs,2026-08-01T04:52:51.288Z,0,2.3065,2.11810397,1,1,0,1,2026-08-01T04:42:51.288Z-->
++++
