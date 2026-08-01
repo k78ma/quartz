@@ -1,5 +1,5 @@
 ---
-title: GAN Stability
+title: GAN Stability Analysis
 tags:
   - dl
 date: 2026-07-30
@@ -83,11 +83,3 @@ Why are GANs hard to train?
 1. Training is a coupled, non-stationary game: updating either network changes the objective faced by the other.
 2. With an optimal discriminator, the original GAN objective corresponds to minimizing the Jensen–Shannon divergence between the real and generated distributions. If their supports have little or no overlap, the discriminator can saturate, giving the generator vanishing gradients.
 +++
-
-## Wasserstein distance
-We've seen that the GAN loss can be interpreted in terms of distances between probability distributions and that the gradient of this distance becomes zero when the generated samples are too easy to distinguish from the real examples.
-$$
-\begin{align*}
-
-\end{align*}
-$$

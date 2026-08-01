@@ -155,7 +155,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Generative Adversarial Network]]
     - [[GAN Summary]]
 - [[Deep Convolutional GAN]]
-- [[GAN Stability]]
+- [[GAN Stability Analysis]]
+- [[Wasserstein GAN Loss]]
 
 ## Normalizing Flows
 - [[Normalizing Flows]]
