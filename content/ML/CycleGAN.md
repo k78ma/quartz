@@ -5,7 +5,7 @@ tags:
 date: 2026-08-01
 aliases: cyclegan
 ---
-The [[Super Resolution GAN|adversarial loss]] assumes that we have labeled before/after images for the main supervised network. CycleGAN addresses the situation where we have two sets of data with distinct styles but no matching pairs.
+In models like [[Super Resolution GAN|SRGAN]], loss functions assume that we have labeled before/after images for the main supervised network. CycleGAN addresses the situation where we have two sets of data with distinct styles but no matching pairs.
 - An example is converting a photo to the artistic style of Monet. There exist many photos and many Monet paintings, but no correspondence between them.
 
 CycleGAN exploits the idea that converting an image in one direction (e.g., photo → Monet) and then back again should recover the original.

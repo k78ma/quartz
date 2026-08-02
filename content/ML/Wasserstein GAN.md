@@ -1,9 +1,10 @@
 ---
-title: Wasserstein GAN Loss
+title: Wasserstein GAN
 tags:
   - dl
 date: 2026-07-31
-aliases: wasserstein gan loss
+aliases:
+  - Earth mover's distance
 ---
 ## Wasserstein distance
 We've seen that the [[GAN Stability Analysis|GAN loss]] can be interpreted in terms of distances between probability distributions. In the original formulation, the gradient of this distance becomes zero when the generated samples are too easy to distinguish from the real examples. Thus, we aim to choose a distance metric with better properties.

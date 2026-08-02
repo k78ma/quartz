@@ -8,7 +8,7 @@ aliases:
   - minibatch discrimination
   - truncation
 ---
-We've seen that [[Wasserstein GAN Loss]] helps with [[GAN Stability Analysis|GAN training stability]]. However, we need more to generate high-quality images.
+We've seen that [[Wasserstein GAN]] helps with [[GAN Stability Analysis|GAN training stability]]. However, we need more to generate high-quality images.
 
 ## Progressive growing
 In progressive growing:
@@ -37,4 +37,4 @@ Moving smoothly through the latent space can also sometimes produce realistic in
 
 #cards/dl 
 How does minibatch discrimination help avoid mode collapse in GANs?::Feature statistics across a batch are calculated and included as an input to the discriminator. Thus, the generator is incentivized to produce similar statistics as the real distribution, preventing model collapse.
-<!--SR:!fsrs,2026-08-01T23:16:17.924Z,0,2.3065,2.11810397,1,1,0,1,2026-08-01T23:06:17.924Z-->
+<!--SR:!fsrs,2026-08-09T05:39:50.657Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-02T05:39:50.657Z-->

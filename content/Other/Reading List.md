@@ -14,6 +14,7 @@ Plan:
     - [ ] [Guided lab sessions](https://sscardapane.notion.site/Guided-lab-sessions-18c25bd12a8c8068b972f7612fcde8d5#18c25bd12a8c8021be44f5f61ed35ab6)/just implement stuff
     - [ ] [ARENA](https://learn.arena.education/chapter0_fundamentals/00_prereqs/intro)
     - [ ] All the models in UDL?
+    - [ ] Numpy 100 (also do with PyTorch)
 - Mathematical Foundations of Reinforcement Learning
 - Deep Learning: Foundations and Concepts
 
@@ -31,7 +32,7 @@ Plan:
 
 Immediate:
 - [ ] Linear Algebra Done Right   <progress max=447 value=85> </progress> 
-- [ ] Understanding Deep Learning   <progress max=541 value=290> </progress> 
+- [ ] Understanding Deep Learning   <progress max=541 value=310> </progress> 
 - [ ] The Algorithm Design Manual   <progress max=447 value=186> </progress> 
 
 Next:
