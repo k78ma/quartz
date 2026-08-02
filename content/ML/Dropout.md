@@ -19,7 +19,7 @@ This technique has the positive benefit that it can eliminate undesirable "kinks
 
 ![[Dropout-20251110162332457.png]]
 
-When several units conspire like this, eliminating them in dropout causes a considerable change to the output function int he half-space where that unit was active. A subsequent gradient descent step will attempt to compensate for the change that this induces, and such dependencies will be eliminated over time. The overall effect is that large unnecessary changes between training data points are gradually removed even though they contribute nothing to the loss.
+When several units conspire like this, eliminating them in dropout causes a considerable change to the output function in the half-space where that unit was active. A subsequent gradient descent step will attempt to compensate for the change that this induces, and such dependencies will be eliminated over time. The overall effect is that large unnecessary changes between training data points are gradually removed even though they contribute nothing to the loss.
 
 ## Implementation
 During the training phase, for each phase, for each training example, for each unit, we randomly set $a_{j}^{l} := 0$ with probability $p$. There will be no contribution to the output and no gradient update for the associated unit. When we are done training and want to use the network to make predictions, we multiply all weights by $p$ to achieve the same average activation levels.

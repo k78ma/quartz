@@ -29,7 +29,7 @@ One common solution is to run the `Rx` clock at a multiple of the transmit frequ
 ## Example
 To see how running the receive clock at a multiple of the transmit clock works in practice, consider Figure 5. In this scenario, the sender is changing the data on the falling edge of the `Tx Clock`. We assume propagation delay can be ignored, so that a change at the sender can immediately be seen by the receiver.
 
-Three possible `Rx` clock frequencies are considered here: $1\times$, $2\times$ and $4\times$ of the `Tx Clock`. For each frequency, we also consider 3 possible phases of the `Rx Clock` relative tot he `Tx Clock`. 
+Three possible `Rx` clock frequencies are considered here: $1\times$, $2\times$ and $4\times$ of the `Tx Clock`. For each frequency, we also consider 3 possible phases of the `Rx Clock` relative to the `Tx Clock`. 
 
 ![[Clock Phase Alignment-1.png]]
 

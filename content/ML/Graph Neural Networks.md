@@ -36,7 +36,7 @@ where the scalar $\beta_{K}$ and the $1\times D$ vector $\omega_{K}$ are learned
 The network assigns a label (classification) or some values (regression) to each node of the graph.
 - For example, given a graph constructed from a 3D point cloud of an airplane, the goal might be to classify the nodes according to whether they belong to the wings or the fuselage.
 
-Loss functions are defined int he same way for graph-level tasks, except that now this is done independently at each node $n$:
+Loss functions are defined in the same way for graph-level tasks, except that now this is done independently at each node $n$:
 $$
 \text{Pr}(y^{n}=1\, | \,\mathbf{X}, \mathbf{A}) = \text{sig}[\beta_{K}+\omega_{K}\mathbf{h}_{k}^{n}]
 $$

@@ -29,7 +29,7 @@ We can adapt the above heuristic to become $E(n)=M(n)-O(n)$, where
 Now, we use [[Minimax]] to solve the problem:
 - Generate the game tree
 - Apply the utility function to each terminal state to get its value
-- Use these values to determine the utility of nodes one level higher up int he search tree.
+- Use these values to determine the utility of nodes one level higher up in the search tree.
     - From bottom to top:
     - For a MAX level, select the maximum level of its successors
     - For a MIN level, select the minimum value of its successors
