@@ -167,6 +167,13 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Normalizing Flows
 - [[Normalizing Flows]]
+    - [[1D Normalizing Flows Intuition]]
+- [[Linear Flows]]
+- [[Elementwise Flows]]
+- [[Coupling Flows]]
+- [[Autoregressive Flows]]
+- [[Residual Flows]]
+- [[Multi-scale Flows]]
 
 ## Diffusion Models
 - [[Diffusion Models]]
