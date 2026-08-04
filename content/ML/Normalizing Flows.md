@@ -49,7 +49,7 @@ The absolute determinant of the Jacobian of the inverse mapping is found by appl
 $$
 \frac{ \partial f^{-1}[x, \phi] }{ \partial x } = \frac{ \partial f_{1}^{-1}[f_{2}, \phi] }{ \partial f_{2} } \cdot \frac{ \partial f_{2}^{-1}[f_{3}, \phi_{2}] }{ \partial f_{3} } \cdot \dots\cdot  \frac{ \partial f^{-1}_{K-1}[f_{K}, \phi_{K-1}] }{ \partial f_{K} }  \cdot \frac{ \partial f_{K}^{-1}[x,\phi_{K}] }{ \partial x } 
 $$
-and the determinant can either be computed as the product of the determinants in this expression, or just the inverse of the original determinant:
+The determinant can either be computed as the product of the determinants in this expression, or just the inverse of the original determinant:
 $$
  \left| \frac{ \partial f^{-1}[x, \phi] }{ \partial x } \right| = \left| \frac{ \partial f_{K}[f_{K-1}, \phi_{K}] }{ \partial f_{K-1} }  \right|^{-1} \cdot \left| \frac{ \partial f_{K-1}[f_{K-2}, \phi_{K-1}] }{ \partial f_{K-2} }  \right| ^{-1} \dots \left| \frac{ \partial f_{2}[f_{1}, \phi_{2}] }{ \partial f_{1} }   \right| ^{-1} \cdot \left| \frac{ \partial f_{1}[z, \phi_{1}] }{ \partial z }  \right|^{-1}
 $$
