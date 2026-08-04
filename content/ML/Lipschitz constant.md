@@ -4,6 +4,7 @@ tags:
   - math
 date: 2026-07-31
 aliases:
+  - contraction mapping
 ---
 A function $f[x]$ is *Lipschitz continuous* if for all $z_{1}, z_{2}$:
 $$
@@ -11,7 +12,7 @@ $$
 $$
 where $\beta$ is known as the Lipschitz constant and determines the maximum gradient of the function (i.e., how fast the function can change) with respect to the distance metric.
 
-If the Lipschitz constant is less than one, the function is a contraction mapping, and we use Banach's theorem to find the inverse of any point.
+If the Lipschitz constant is less than one, the function is a *contraction mapping*, and we use Banach's theorem to find the inverse of any point.
 
 ![[Lipschitz constant-1785549150154.webp]]
 
