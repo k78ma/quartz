@@ -174,7 +174,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Autoregressive Flows]]
 - [[Residual Flows]]
 - [[Multi-scale Flows]]
-- [[Normalizing Flows for Approximating Densities]]
+- [[Generative Flows]]
+- [[Normalizing Flows for Modeling Densities]]
 
 ## Diffusion Models
 - [[Diffusion Models]]

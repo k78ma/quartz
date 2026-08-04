@@ -7,11 +7,14 @@ aliases: normalizing flows
 ---
 Normalizing flows are [[Unsupervised Learning|probabilistic generative models]], learning a probability model by transforming a simple distribution into a more complex one using a deep network. Normalizing flows can both sample from this distribution and evaluate the probability of new examples. However, they require specialized architecture; each layer must be invertible (transform data in both directions).
 
+Normalizing flows can be used for [[Generative Flows|generative applications]], as well as for [[Normalizing Flows for Approximating Densities|approximating other density models]].
+
 ## Intuition
 See [[1D Normalizing Flows Intuition]] for an example.
 
 ## Formulation
 We aim to transform a multivariate base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network.
+- The invertibility requirement means that the latent space $z$ must be the same size as the data space $x$ (a continuous invertible map between ordinary Euclidean spaces requires equal dimensions).
 
 Consider applying a function $x=f[z, \phi]$ to a random variable $z \in \mathbb{R}^{D}$ with base density $Pr(z)$, where $f[z, \phi]$ is a deep network. The resulting variable $x \in \mathbb{R}^{D}$ has a new distribution. A sample $x^{\ast }$ can be drawn from this distribution by drawing a sample $z^{\ast}$ from the base density and passing it through the neural network so that $x^{\ast}=f[z^{\ast}, \phi]$.
 
@@ -76,10 +79,11 @@ With these requirements in mind, we can now describe different invertible networ
 - [[Coupling Flows]], [[Autoregressive Flows]], [[Residual Flows]]
 - [[Multi-scale Flows]]
 
+
 #cards/dl 
 Normalizing flows
 ?
-Generative model where we map a base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network. We can find the probability of a sample $x$ by computing the determinant of its inverse's Jacobian and multiplying by $Pr(z)$. However, this adds the requirement of invertible layers.
+Generative model where we map a base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network. We can find the probability of a sample $x$ by computing the determinant of its inverse's Jacobian and multiplying by $Pr(z)$. However, normalizing flows have the requirement of invertible layers (one-to-one mapping between $z$ and $x$).
 $$
 Pr(x|\phi) = \left| \frac{ \partial f[z, \phi] }{ \partial z }  \right| ^{-1} \cdot Pr(z)
 $$
