@@ -28,3 +28,8 @@ There are three types of transformer models:
 - An [[Encoder Model|encoder]] transforms the text embeddings into a representation that can support a variety of tasks. An example of this is [[Encoder Model|BERT]].
 - A [[Decoder Model|decoder]] predicts the next token to continue the input text. An example of this is [[Decoder Model|GPT-3]].
 - *Encoder-decoder* are used in sequence-to-sequence tasks, where one text string is converted into another (e.g., [[Encoder-Decoder Model|machine translation]]).
+
+#cards/dl 
+Encoder model::Transforms input into a contextual representation that can support downstream tasks.
+
+Decoder model::Autoregressive token prediction from previously available tokens. Repeating this produces text (for NLP use case).

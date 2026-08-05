@@ -143,4 +143,4 @@ where the operator $\text{max}[\bullet]$ return the element-wise maximum of the 
 
 #cards/dl 
 Graph convolutional networks::Take the node embeddings and adjacency matrix and outputs new node embeddings, aggregating information from nearby nodes.
-<!--SR:!fsrs,2026-08-05T02:36:44.839Z,7,7.31530068,2.11121424,2,2,0,0,2026-07-29T02:36:44.839Z-->
+<!--SR:!fsrs,2026-09-06T17:27:18.549Z,32,31.67922703,2.1043314,2,3,0,0,2026-08-05T17:27:18.549Z-->

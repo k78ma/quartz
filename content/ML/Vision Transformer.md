@@ -26,5 +26,5 @@ ViT
 - Learnable `<cls>` token is prepended to the sequence of patch embeddings
 - During self-attention, the `<cls>` token attends to all image patches and accumulates information about the entire image
 - After the final transformer layer, the output embedding for `<cls>` passes through an FC layer to create activations, which are then softmaxed to generate class probabilities
-<!--SR:!fsrs,2026-08-05T02:36:20.713Z,7,7.31530068,2.11121424,2,2,0,0,2026-07-29T02:36:20.713Z-->
+<!--SR:!fsrs,2026-08-27T17:29:52.653Z,22,21.96776599,4.74828477,2,3,0,0,2026-08-05T17:29:52.653Z-->
 +++

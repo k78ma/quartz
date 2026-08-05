@@ -29,7 +29,7 @@ aliases: amath 449 - neural networks
 - [[Autoencoder]]
 - [[Vector Embeddings]]
     - [[Embedding Model]]
-- [[Variational Autoencoder]]
+- [[VAE Summary]]
 
 ### Recurrent Neural Networks
 - [[Recurrent Neural Networks]]
@@ -48,6 +48,6 @@ aliases: amath 449 - neural networks
 - [[Learning Decoders]]
 
 ### Additional Topics
-- [[GAN Summary]]
+- [[GAN Intuition]]
 - [[Predictive Coding]]
 - [[Transformer Summary]]

@@ -1,12 +1,10 @@
 ---
-title: Variational Autoencoder
+title: VAE Summary
 tags:
   - amath449
   - dl
 date: 2026-03-26
 aliases:
-  - variational autoencoder
-  - VAE
 ---
 We would like an [[Autoencoder|autoencoder]] that can generate reasonable samples that were not in the training set. 
 

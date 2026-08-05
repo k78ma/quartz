@@ -3,7 +3,9 @@ title: Autoregressive Flows
 tags:
   - dl
 date: 2026-08-03
-aliases: autoregressive flows
+aliases:
+  - autoregressive flows
+  - masked autoregressive flows
 ---
 Autoregressive flows are a generalization of [[Coupling Flows|coupling flows]] that treat each input dimension as a separate "block".
 

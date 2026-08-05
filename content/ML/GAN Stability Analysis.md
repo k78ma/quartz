@@ -81,9 +81,9 @@ We can see an empirical version of this below. If the [[Deep Convolutional GAN|D
 Why are GANs hard to train?
 ?
 1. Training is a coupled, non-stationary game: updating either network changes the objective faced by the other.
-2. With an optimal discriminator, the original GAN objective corresponds to minimizing the Jensen–Shannon divergence between the real and generated distributions. If the distributions are completely disjoint, this distance is infinite, and any small change to the generator will not decrease the loss. 
+2. With an optimal discriminator, the original GAN objective corresponds to minimizing the Jensen–Shannon divergence between the real and generated distributions. If the distributions are completely disjoint, this distance is infinite, and any small change to the generator will not decrease the loss.
 3. Similarly for the original formulation; if the discriminator can perfectly separate the generated and real samples, no small change to the generated data will change classification score. The discriminator sigmoid can saturate, giving the generator vanishing gradients.
 
 ![[GAN Stability-1785537517317.webp]]
-<!--SR:!fsrs,2026-08-03T18:03:14.513Z,2,2.3065,2.11121424,2,2,0,0,2026-08-01T18:03:14.513Z-->
+<!--SR:!fsrs,2026-08-18T21:57:17.296Z,14,13.8358397,2.1043314,2,3,0,0,2026-08-04T21:57:17.296Z-->
 +++

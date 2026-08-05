@@ -12,7 +12,7 @@ Generative models map from latent variables $z$ to the data $x$. Consider defini
 
 [[Generative Adversarial Network|GANs]] learn to generate data examples $x^{\ast }$ from latent variables $z$, using a loss that encourages the generated samples to be indistinguishable from real examples.
 
-[[Normalizing Flows|Normalizing flows]], [[Variational Autoencoder|variational autoencoders]], and [[Diffusion Models|diffusion models]] are *probabilistic generative models*. In addition to generating new examples, they assign a probability $\text{Pr}(x|\phi)$ to each data point $x$. This will depend on the parameters $\phi$, and in training, we maximize the probability of the observed data $\{ x_{i} \}$, so the loss is the sum of the negative log-likelihoods:
+[[Normalizing Flows|Normalizing flows]], [[VAE Summary|variational autoencoders]], and [[Diffusion Models|diffusion models]] are *probabilistic generative models*. In addition to generating new examples, they assign a probability $\text{Pr}(x|\phi)$ to each data point $x$. This will depend on the parameters $\phi$, and in training, we maximize the probability of the observed data $\{ x_{i} \}$, so the loss is the sum of the negative log-likelihoods:
 $$
 L[\phi] = - \sum_{i=1}^{I} \log\Big[\text{Pr}(x_{i}|\phi)\Big]
 $$

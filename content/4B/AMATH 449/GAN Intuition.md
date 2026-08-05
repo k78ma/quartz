@@ -1,5 +1,5 @@
 ---
-title: GAN Summary
+title: GAN Intuition
 tags:
   - amath449
 date: 2026-07-29

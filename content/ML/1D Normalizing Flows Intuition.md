@@ -44,3 +44,5 @@ $$
 \end{align*}
 $$
 where we have assumed that the data are independent and identically distributed in the first line and used the likelihood equation from above in the third line.
+
+Essentially, during training, we observe $x_{i}$, and then calculate $z=f^{-1}[x_{i}, \phi]$ (hence the requirement for invertible layers) so that we can calculate the $\frac{ \partial f[z_{i}, \phi] }{ \partial z }$ and $Pr(z_{i})$ terms.

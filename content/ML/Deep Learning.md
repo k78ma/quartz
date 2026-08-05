@@ -121,6 +121,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Positional Encoding]]
 - [[Multi-Head Self-Attention]]
 - [[Transformer]]
+    - [[Transformer Summary]]
 - [[Transformers for NLP]]
     - [[Vector Embeddings]]
         - [[Embedding Model]]
@@ -153,7 +154,7 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Generative Adversarial Networks
 - [[Generative Adversarial Network]]
-    - [[GAN Summary]]
+    - [[GAN Intuition]]
 - [[Deep Convolutional GAN]]
 - [[GAN Stability Analysis]]
 - [[Wasserstein GAN]]
@@ -176,6 +177,9 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Multi-scale Flows]]
 - [[Generative Flows]]
 - [[Normalizing Flows for Modeling Densities]]
+
+## Variational Autoencoders
+- [[Variational Autoencoder]]
 
 ## Diffusion Models
 - [[Diffusion Models]]

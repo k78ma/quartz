@@ -7,7 +7,7 @@ aliases: normalizing flows
 ---
 Normalizing flows are [[Unsupervised Learning|probabilistic generative models]], learning a probability model by transforming a simple distribution into a more complex one using a deep network. Normalizing flows can both sample from this distribution and evaluate the probability of new examples. However, they require specialized architecture; each layer must be invertible (transform data in both directions).
 
-Normalizing flows can be used for [[Generative Flows|generative applications]], as well as for [[Normalizing Flows for Approximating Densities|approximating other density models]].
+Normalizing flows can be used for [[Generative Flows|generative applications]], as well as for [[Normalizing Flows for Modeling Densities|approximating other density models]].
 
 ## Intuition
 See [[1D Normalizing Flows Intuition]] for an example.
@@ -80,12 +80,16 @@ With these requirements in mind, we can now describe different invertible networ
 - [[Multi-scale Flows]]
 
 
-#cards/dl 
+#cards/dl
 Normalizing flows
 ?
-Generative model where we map a base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network. We can find the probability of a sample $x$ by computing the determinant of its inverse's Jacobian and multiplying by $Pr(z)$. However, normalizing flows have the requirement of invertible layers (one-to-one mapping between $z$ and $x$).
+- Generative model where we map a base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network. 
+- We can find the probability of a sample $x$ by computing the determinant of its inverse's Jacobian and multiplying by $Pr(z)$.
 $$
 Pr(x|\phi) = \left| \frac{ \partial f[z, \phi] }{ \partial z }  \right| ^{-1} \cdot Pr(z)
 $$
-- $z=f^{-1}[x, \phi]$ is the latent variable $z$ that created $x$.
+- Train by maximizing likelihood of target distribution: $\underset{\phi}{\operatorname{argmax}}[Pr(x|\phi)]$
+- Normalizing flows have the requirement of *invertible layers* (one-to-one mapping between $z$ and $x$).
+
+<!--SR:!fsrs,2026-08-12T17:30:10.768Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-05T17:30:10.768Z-->
 +++
