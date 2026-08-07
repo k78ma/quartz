@@ -9,6 +9,7 @@ aliases:
   - convex function
 ---
 In a convex function, every chord (line segment between two points on the surface) lies above the function and does not intersect it.
+- Concave: chords lie below the function
 
 A surface is guaranteed to be convex if the Hessian matrix $\mathbf{H}[\phi]$ is positive definite (has positive eigenvalues) for all possible parameter values. 
 

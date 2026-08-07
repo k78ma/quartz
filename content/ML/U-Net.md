@@ -23,7 +23,7 @@ Note that U-Net was completely convolutional, so after training, it can be run o
 
 #cards/dl 
 Why can U-Net be run on images of any size?::It's completely convolutional, with no FC layers.
-<!--SR:!fsrs,2026-08-07T02:16:14.703Z,34,34.10547749,2.1043314,2,3,0,0,2026-07-04T02:16:14.703Z-->
+<!--SR:!fsrs,2026-12-10T04:29:56.033Z,125,124.69358716,2.09745544,2,4,0,0,2026-08-07T04:29:56.033Z-->
 
 U-Net
 ?

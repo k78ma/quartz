@@ -54,5 +54,5 @@ Self-attention is ==equivariant== with respect to input permutations, which is w
 <!--SR:!fsrs,2026-06-29T22:59:54.935Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T22:59:54.935Z-->
 
 Why is it bad for self-attention (w/o positional encoding) to be equivariant with respect to input permutations?::No notion of token order. "The woman ate the raccoon" and "the raccoon ate the woman" produce the same attention matrix/output but permuted.
-<!--SR:!fsrs,2026-08-06T05:34:27.874Z,32,31.67922703,2.1043314,2,3,0,0,2026-07-05T05:34:27.874Z-->
+<!--SR:!fsrs,2026-12-05T04:29:50.953Z,120,119.56963203,2.09745544,2,4,0,0,2026-08-07T04:29:50.953Z-->
 

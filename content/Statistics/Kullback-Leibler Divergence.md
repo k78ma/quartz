@@ -17,14 +17,15 @@ If we use $q(\mathbf{x})$ to construct a coding scheme for transmitting values o
 $$
 \begin{align}
 \text{KL}(p||q)  & = -\int p(\mathbf{x})\ln q(\mathbf{x}) \, d\mathbf{x} -\left( -\int p(\mathbf{x})\ln p(\mathbf{x}) \, d\mathbf{x}  \right) \\[2ex]
-	 & = -\int p(\mathbf{x})\ln \left\{  \frac{q(\mathbf{x})}{p(\mathbf{x})}  \right\} \, d\mathbf{x} 
+	 & = -\int p(\mathbf{x})\ln \left [  \frac{q(\mathbf{x})}{p(\mathbf{x})}  \right ] \, d\mathbf{x}  \\[2ex]
+&= \int p(\mathbf{x}) \ln \left [  \frac{p(x)}{q(x)}  \right ] \, dx 
 \end{align}
 $$
 This is known as the *relative entropy* or *Kullback-Leibler divergence* between the distributions $p(\mathbf{x})$ and $q(\mathbf{x})$.
 
 The KL divergence is not a symmetrical quantity; that is, $\text{KL}(p||q)\not\equiv\text{KL}(q||p)$.
 
-We can apply the [[Jensen’s Inequality#Continuous Form|continuous form of Jensen’s Inequality]] to KL divergence to give
+We can apply the [[Jensen’s Inequality#Continuous Form|continuous form of Jensen’s Inequality]] to KL divergence to get
 $$
 \text{KL}(p||q) = -\int p(\mathbf{x})\ln \left\{  \frac{q(\mathbf{x})}{p(\mathbf{x})}  \right\} \, d\mathbf{x} \geq-\ln \int q(\mathbf{x}) \, d\mathbf{x} =0
 $$

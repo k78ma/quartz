@@ -16,6 +16,7 @@ Notes from:
 - [[Independent Variables]]
 - [[Law of Total Probability]]
 - [[Addition Law of Probability]]
+- [[Marginalization]]
 ### Probability Densities
 - [[Probability Density Function]]
 	- [[Multivariate Probability Density]]
@@ -55,5 +56,5 @@ Notes from:
 - [[Bayesian Probability]]
 - [[Bayesian Machine Learning]]
 
-## Standard Distributions
-
+### Sampling
+- [[Ancestral Sampling]]

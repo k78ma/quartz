@@ -66,7 +66,7 @@ The second term says that the distance will be small if, wherever the true densi
 We can see that the second term does not depend on the generator parameters $\phi$; consequently, the generator doesn't care much about coverage, though it is still implicitly included through $Pr(x^{\ast })$. It is happy to generate a subset of possible examples accurately. This is the likely reason for mode dropping/collapse.
 
 ## Vanishing gradients
-We saw that when the discriminator is optimal, the loss function maximizes a measure of the distance between the generated and real samples. However, there's a problem with using this distance between probability distributions as the criterion for optimizing GANs. If the probability distributions are completely disjoint, this distance is infinite, and any small change to the generator will not decrease the loss. The same phenomenon can be seen when we consider the original formulation; if the discriminator can perfectly separate the generated and real samples, no small change to the generated data will change classification score.
+We saw that when the discriminator is optimal, the loss function minimizes a measure of the distance between the generated and real samples. However, there's a problem with using this distance between probability distributions as the criterion for optimizing GANs. If the probability distributions are completely disjoint, this distance is infinite, and any small change to the generator will not decrease the loss. The same phenomenon can be seen when we consider the original formulation; if the discriminator can perfectly separate the generated and real samples, no small change to the generated data will change classification score.
 
 ![[GAN Stability-1785537517317.webp]]
 
