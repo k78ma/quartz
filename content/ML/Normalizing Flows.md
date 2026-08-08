@@ -81,15 +81,8 @@ With these requirements in mind, we can now describe different invertible networ
 
 
 #cards/dl
-Normalizing flows
-?
-- Generative model where we map a base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network. 
-- We can find the probability of a sample $x$ by computing the determinant of its inverse's Jacobian and multiplying by $Pr(z)$.
-$$
-Pr(x|\phi) = \left| \frac{ \partial f[z, \phi] }{ \partial z }  \right| ^{-1} \cdot Pr(z)
-$$
-- Train by maximizing likelihood of target distribution: $\underset{\phi}{\operatorname{argmax}}[Pr(x|\phi)]$
-- Normalizing flows have the requirement of *invertible layers* (one-to-one mapping between $z$ and $x$).
+Normalizing flows::Generative model where we map a base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network.
+<!--SR:!fsrs,2026-08-08T20:38:07.651Z,0,2.3065,2.11810397,1,1,0,1,2026-08-08T20:28:07.651Z-->
 
-<!--SR:!fsrs,2026-08-12T17:30:10.768Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-05T17:30:10.768Z-->
-+++
+What type of layers do normalizing flows need?::Invertible layers (one-to-one mapping between $z$ and $x$).
+<!--SR:!fsrs,2026-08-08T20:38:01.308Z,0,2.3065,2.11810397,1,1,0,1,2026-08-08T20:28:01.308Z-->

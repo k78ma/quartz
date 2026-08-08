@@ -29,7 +29,7 @@ Pr(x|\phi)  & = \int Pr(x, z|\phi) \, dz \\[2ex]
 \end{align*}
 $$
 
-## Objective
+## ELBO Objective
 To train the model, we maximize the log-likelihood over a training dataset $\{ x_{i} \}_{i=1}^{I}$ with respect to the model parameters. For simplicity, we assume that the variance term $\sigma^{2}$ in the likelihood expression is known and concentrate on learning $\phi$:
 $$
 \hat{\phi}=\underset{\phi}{\operatorname{argmax}}\left[ \sum_{i=1}^{I}\log \Big[Pr(x_{i}|\phi) \Big] \right]
@@ -98,7 +98,7 @@ where $D_{z}$ is the dimensionality of the latent space.
 So, we want to build a model that computes the evidence lower bound for a point $x$. Then we use an optimization algorithm to maximize this lower bound over the dataset and hence improve the log-likelihood. 
 
 To compute the ELBO we:
-- Compute the mean $\mu$ and variance $\Sigma$ of the variational posterior distribution $q(z|\theta,x)$ for this data point $x$ using the network $g[x, \theta]$.
+- Compute the mean $\mu$ and variance $\Sigma$ of the *variational posterior distribution* $q(z|\theta,x)$ for this data point $x$ using the network $g[x, \theta]$.
 - Draw a sample $z^{\ast}$ from the distribution.
 - Compute the ELBO using the boxed equation above.
 
@@ -127,3 +127,15 @@ $$
 to draw from the intended Gaussian. Now, we can compute the derivatives as usual because the backpropagation algorithm does not need to pass down the stochastic branch. This is known as the *reparameterization trick*.
 
 ![[Variational Autoencoder-1786220173400.webp]]
+
+
+#cards/dl
+Variational autoencoder (VAE)
+?
+- Probabilistic generative method that learns a nonlinear latent variable model of the data.
+- Encoder maps data point $x$ to a posterior distribution $q(z|x, \theta)$. A latent $z^{\ast}$ is sampled, which is used by the decoder to reconstruct $x$.
+- Loss function based on ELBO; for VAE, formulated as reconstruction loss and KL divergence between $q(z|x, \theta)$ and a normal prior for $z$
++++
+
+![[Variational Autoencoder-1786219410883.webp]]
+<!--SR:!fsrs,2026-08-08T20:37:57.770Z,0,2.3065,2.11810397,1,1,0,1,2026-08-08T20:27:57.770Z-->

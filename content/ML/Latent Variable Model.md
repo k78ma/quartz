@@ -38,3 +38,9 @@ $$
 Even from simple expressions for the likelihood and prior, we describe a complex multi-modal probability distribution.
 
 We can also extend to [[Nonlinear Latent Variable Model]].
+
+#cards/dl 
+Latent variable model::Instead of modeling $Pr(x)$ directly, model a joint distribution $Pr(x,z)$ of the data $x$ and an unobserved *hidden* or *latent* variable $z$. Then, describe $Pr(x)$ as a marginalization of this joint probability:
+$$
+Pr(x) = \int Pr(x,z) \, dz =\int Pr(x|z) Pr(z) \, dz 
+$$
