@@ -29,7 +29,7 @@ aliases: amath 449 - neural networks
 - [[Autoencoder]]
 - [[Vector Embeddings]]
     - [[Embedding Model]]
-- [[VAE Summary]]
+- [[VAE Intuition]]
 
 ### Recurrent Neural Networks
 - [[Recurrent Neural Networks]]

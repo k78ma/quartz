@@ -86,7 +86,7 @@ where $z_{n}^{\ast }$ is the $n$-th sample from $q(z|x, \theta)$. This is known 
 
 For a very approximate estimate, we can just use a single sample $z^{\ast}$ from $q(z|x,\theta)$:
 $$
-\text{ELBO}[\theta, \phi] \approx \log[Pr(x|z^{\ast}, \phi)] - D_{KL}\Big[q(z|x,\theta) \Big| \Big| Pr(z) \Big]
+\boxed{\text{ELBO}[\theta, \phi] \approx \log[Pr(x|z^{\ast}, \phi)] - D_{KL}\Big[q(z|x,\theta) \Big| \Big| Pr(z) \Big]}
 $$
 The second term is the [[Kullback-Leibler Divergence|KL divergence]] between the variational distribution $q(z|x, \theta) = \text{Norm}_{z}[\mu, \Sigma]$ and the prior $Pr(z)=\text{Norm}_{z}[0,I]$. The KL divergence between two normal distributions can be calculated in closed form. In this case, one of the distributions has parameters $\mu, \Sigma$ and the other is a standard normal, giving us
 $$
@@ -94,11 +94,36 @@ D_{KL}\Big[q(z|x,\theta) \Big| \Big| Pr(z) \Big] = \frac{1}{2}\Big(\text{Tr}\lef
 $$
 where $D_{z}$ is the dimensionality of the latent space.
 
-### Algorithm
+### Architecture
 So, we want to build a model that computes the evidence lower bound for a point $x$. Then we use an optimization algorithm to maximize this lower bound over the dataset and hence improve the log-likelihood. 
 
 To compute the ELBO we:
-- 
+- Compute the mean $\mu$ and variance $\Sigma$ of the variational posterior distribution $q(z|\theta,x)$ for this data point $x$ using the network $g[x, \theta]$.
+- Draw a sample $z^{\ast}$ from the distribution.
+- Compute the ELBO using the boxed equation above.
+
+The associated architecture is shown below.
+
+![[Variational Autoencoder-1786219410883.webp]]
+
+This architecture is:
+- *Variational* because it computes a Gaussian approximation to the posterior distribution.
+- *Autoencoder* because it starts with a data point $x$, computes a lower-dimensional latent vector $z$ from this, and then uses this to vector to recreate the data point $x$ as closely as possible.
+    - The mapping from the data to the latent variable by the network $g[z, \theta]$ is called the *encoder*.
+    - The mapping from the latent variable to the data by the network $f[z, \phi]$ is called the *decoder*.
+
+The VAE computes the ELBO as a function of both $\phi$ and $\theta$. To maximize this bound, we run mini-batches of samples through the network and update these parameters with an optimization algorithm such as [[Stochastic Gradient Descent|SGD]] or [[Adaptive moment estimation|Adam]]. The gradients of the ELBO with respect to the parameters are computed as usual using [[Automatic Differentiation|automatic differentiation]]. During this process, we are both moving between the colored curves (changing $\theta$) and along them (changing $\phi$). During this process, the parameters $\phi$ change to assign the data a higher likelihood in the nonlinear latent variable model.
+
+![[Variational Autoencoder-1786219838497.webp]]
 
 
 ## Reparameterization trick
+The network involves a sampling step, and it is difficult to differentiate through this stochastic component. However, we need to differentiate past this step to update the parameters $\theta$ that precede it in the network.
+
+Fortunately, there is a simple solution; we move the stochastic part into a branch of the network that draws from a sample $\epsilon^{\ast}$ from $\text{Norm}_{e}[0, I]$ and then use the relation:
+$$
+z^{\ast}=\mu+\Sigma^{1/2}\epsilon^{\ast}
+$$
+to draw from the intended Gaussian. Now, we can compute the derivatives as usual because the backpropagation algorithm does not need to pass down the stochastic branch. This is known as the *reparameterization trick*.
+
+![[Variational Autoencoder-1786220173400.webp]]

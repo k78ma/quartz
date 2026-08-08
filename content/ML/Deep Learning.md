@@ -180,7 +180,8 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Variational Autoencoders
 - [[Variational Autoencoder]]
-    - [[Latent Variable Model]]
+    - [[VAE Intuition]]
+- [[Latent Variable Model]]
     - [[Nonlinear Latent Variable Model]]
 - [[Evidence Lower Bound|ELBO]]
 - [[VAE Applications]]

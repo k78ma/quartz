@@ -1,5 +1,5 @@
 ---
-title: VAE Summary
+title: VAE Intuition
 tags:
   - amath449
   - dl
