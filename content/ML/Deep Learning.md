@@ -180,9 +180,10 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Variational Autoencoders
 - [[Variational Autoencoder]]
-- [[Latent Variable Model]]
-- [[Nonlinear Latent Variable Model]]
+    - [[Latent Variable Model]]
+    - [[Nonlinear Latent Variable Model]]
 - [[Evidence Lower Bound|ELBO]]
+- [[VAE Applications]]
 
 ## Diffusion Models
 - [[Diffusion Models]]

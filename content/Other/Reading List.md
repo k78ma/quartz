@@ -32,7 +32,8 @@ Plan:
 Interview prep:
 - [AI research interviews - Bas van Opheusden](https://docs.google.com/document/d/e/2PACX-1vTG_14sE1SLYHCcjDmh8X3yFFIdlqTpo37MlJ-Tba_pHWDr5xgU4EAzC2tIxFEsKi2qLlhB1ssoBhFn/pub)
 - [ML Job Interviews: The Ultimate Guide – Silvia Sapora](https://silviasapora.github.io/blog/ml-interviews.html)
-- [AI Research Scientist Interview Guide: Anthropic, OpenAI, DeepMind (2026) - Sundeep Teki](https://www.sundeepteki.org/advice/the-ultimate-ai-research-scientist-interview-guide-cracking-anthropic-openai-google-deepmind-top-ai-labs-in-2026)
+- [AI Research Scientist Interview Guide](https://www.sundeepteki.org/advice/the-ultimate-ai-research-scientist-interview-guide-cracking-anthropic-openai-google-deepmind-top-ai-labs-in-2026)
+- [# Becoming a Research Engineer at a Big LLM Lab](https://www.maxmynter.com/pages/blog/jobhunt)
 
 Immediate:
 - [ ] Linear Algebra Done Right   <progress max=447 value=85> </progress> 

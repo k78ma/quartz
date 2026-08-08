@@ -14,7 +14,7 @@ Note that the VAE is not the model of $Pr(x)$; it is the neural architecture tha
 
 Specifically, we use:
 - A *prior* distribution $Pr(z)$ over the latent variable.
-- A network $f[z, \phi]$ that maps a latent to the data space.
+- A network $f[z, \phi]$ that maps a latent to the data space (decoder).
 
 Then, the likelihood (conditional to $z$) can be found as
 $$
@@ -61,4 +61,44 @@ Pr(z|x, \phi) = \frac{Pr(x|z, \phi)Pr(z)}{Pr(x|\phi)}
 $$
 but in practice, this is intractable because we can't evaluate the evidence term $Pr(x|\phi)$ in the denominator.
 
-One solution is to make a variational approximation: we choose a simple parametric form for $q(z|\theta)$ and use this to approximate the true posterior $Pr(z|x, \phi)$. 
+One solution is to make a **variational approximation**: we choose a simple parametric form for $q(z|\theta)$ and use this to approximate the true posterior $Pr(z|x, \phi)$. Here, we choose a multivariate normal distribution with mean $\mu$ and diagonal covariance $\Sigma$. This will not always match the posterior well, but will be better for some values of $\mu$ and $\Omega$ than others. During training, we will find the normal distribution that is "closest" to the true posterior. This corresponds to minimizing the KL divergence in the second form of ELBO (tightness).
+
+![[Variational Autoencoder-1786078054533.webp]]
+
+Since the optimal choice for $q(z|\theta)$ was the posterior $Pr(z|x)$, and this depends on the data example $x$, the variational approximation should do the same, so we choose:
+$$
+q(z|x, \theta) = \text{Norm}_{z}\Big[g_{\mu}[x, \theta], g_{\Sigma}[x,\theta] \Big]
+$$
+where $g[x, \theta]$ is a second neural network (encoder) with parameters $\theta$ that predicts the mean $\mu$ and variance $\Sigma$ of the normal variational approximation.
+
+## VAE Formulation
+Finally, we can describe the VAE. We built a network that computes the ELBO:
+$$
+\text{ELBO}[\theta, \phi]= \int q(z|x, \theta) \log[Pr(x|z, \phi)] \, dz - D_{KL}\Big[q(z|x,\theta) \Big| \Big| Pr(z) \Big]
+$$
+where the distribution $q(z|x, \theta)$ is the approximation from above.
+
+The first term still involves an intractable integral, but since it is an expectation with respect to $q(z|x, \theta)$, we can approximate it by sampling. For any function $a[\bullet]$ we have:
+$$
+\mathbb{E}_{z}[a[z]] = \int a[z]q(z|x, \theta) \, dz \approx \frac{1}{N} \sum_{n=1}^{N}a[z_{n}^{\ast  }] 
+$$
+where $z_{n}^{\ast }$ is the $n$-th sample from $q(z|x, \theta)$. This is known as the *Monte Carlo estimate*.
+
+For a very approximate estimate, we can just use a single sample $z^{\ast}$ from $q(z|x,\theta)$:
+$$
+\text{ELBO}[\theta, \phi] \approx \log[Pr(x|z^{\ast}, \phi)] - D_{KL}\Big[q(z|x,\theta) \Big| \Big| Pr(z) \Big]
+$$
+The second term is the [[Kullback-Leibler Divergence|KL divergence]] between the variational distribution $q(z|x, \theta) = \text{Norm}_{z}[\mu, \Sigma]$ and the prior $Pr(z)=\text{Norm}_{z}[0,I]$. The KL divergence between two normal distributions can be calculated in closed form. In this case, one of the distributions has parameters $\mu, \Sigma$ and the other is a standard normal, giving us
+$$
+D_{KL}\Big[q(z|x,\theta) \Big| \Big| Pr(z) \Big] = \frac{1}{2}\Big(\text{Tr}\left| \Sigma \right| +\mu^{T}\mu - D_{z} - \log[\det \left| \Sigma \right| ] \Big)
+$$
+where $D_{z}$ is the dimensionality of the latent space.
+
+### Algorithm
+So, we want to build a model that computes the evidence lower bound for a point $x$. Then we use an optimization algorithm to maximize this lower bound over the dataset and hence improve the log-likelihood. 
+
+To compute the ELBO we:
+- 
+
+
+## Reparameterization trick

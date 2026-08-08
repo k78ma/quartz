@@ -33,3 +33,9 @@ $$
 - We're also using the normalization condition $\int q(\mathbf{x}) \, d\mathbf{x}=1$. 
 
 Since $-\ln x$ is actually strictly convex, the equality will hold if and only if $q(\mathbf{x})=p(\mathbf{x})$ for all $\mathbf{x}$. Thus, we can interpret the KL divergence as a measure of the dissimilarity between $p(\mathbf{x})$ and $q(\mathbf{x})$.
+
+## KL divergence between normal distributions
+Suppose we have two multivariate normal distributions with means $\mu_{1}$ and $\mu_{2}$ and covariance $\Sigma_{1}$ and $\Sigma_{2}$. The KL divergence can be computed as:
+$$
+D_{KL} = \frac{1}{2}\left( \log\left[ \frac{\left| \Sigma_{2} \right| }{\left| \Sigma_{1} \right| } \right] - D+\text{tr}\big[\Sigma_{2}^{-1}\Sigma_{1}\big] + (\mu_{2}-\mu_{1})^{T}\Sigma_{2}^{-1}(\mu_{2}-\mu_{1}) \right)
+$$
