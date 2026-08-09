@@ -44,7 +44,9 @@ $$
 where $h[y]$ is a function of $y$. This follows because $h[y]$ is another random variable with a new distribution. Since we never specified $Pr(y)$, the relation remains true.
 
 ## Derivation of the bound
-We now use Jensen's inequality to derive the lower bound for the log-likelihood. We start by multiplying and dividing the log-likelihood by an arbitrary probability distribution $q(z)$ over the latent variables:
+We now use Jensen's inequality to derive the lower bound for the log-likelihood. We start by introducing an arbitrary distribution $q(z)$ over the latent variables. Multiplying and dividing the log-likelihood by $q(z)$ lets us re-write the marginal likelihood as an expectation and apply Jensen's inequality.
+
+First:
 $$
 \begin{align*}
 \log[Pr(x|\phi)] &=  \log\left[ \int Pr(x, z|\phi) \, dz  \right] \\[2ex] 
@@ -115,3 +117,5 @@ In this formulation:
 2. The second term measures the degree to which the auxiliary distribution $q(z|\theta)$ matches the prior.
 
 This formulation is the one that is used in the [[Variational Autoencoder|variational autoencoder]].
+
+While we initially introduced $q(z)$ as a mathematical tool, we now see that $q(z)$ has an important role in the tightness of ELBO, where the bound is tight when $q(z) = Pr(z|x, \phi)$. We therefore choose a tractable parameterized distribution $q(z|x, \theta)$ (usually a multivariate normal distribution) and optimize it as an approximation to the generally intractable $Pr(z|x, \phi)$. This approximation is called the *variational posterior*.

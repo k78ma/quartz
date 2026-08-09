@@ -184,7 +184,10 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Latent Variable Model]]
     - [[Nonlinear Latent Variable Model]]
 - [[Evidence Lower Bound|ELBO]]
-- [[VAE Applications]]
+- [[Importance Sampling]]
+- [[VAE Generation]]
+- [[VAE Resynthesis]]
+- [[VAE Disentanglement]]
 
 ## Diffusion Models
 - [[Diffusion Models]]

@@ -8,7 +8,7 @@ aliases:
   - VAE
   - VAEs
 ---
-Variational autoencoders are [[Unsupervised Learning|probabilistic generative models]]; they aim to learn a distribution $Pr(x)$ over the data. After training, we can draw (generate) samples from this distribution. However, unlike [[Normalizing Flows|normalizing flows]], VAEs cannot evaluate the probability of new samples $x^{\ast}$ exactly.
+Variational autoencoders are [[Unsupervised Learning|probabilistic generative models]]; they aim to learn a distribution $Pr(x)$ over the data. After training, we can draw (generate) samples from this distribution. However, unlike [[Normalizing Flows|normalizing flows]], VAEs cannot evaluate the probability of new samples $x^{\ast}$ exactly, although we can approximate it using [[Importance Sampling|importance sampling]].
 
 Note that the VAE is not the model of $Pr(x)$; it is the neural architecture that is designed to learn the model for $Pr(x)$. The final model for $Pr(x)$ contains neither the "variational" nor the "autoencoder" parts and might be better described as a [[Nonlinear Latent Variable Model|nonlinear latent variable model]], where we model a joint distribution $Pr(x,z)$ of the data $x$ and an unobserved *hidden* or *latent* variable $z$.
 
@@ -59,7 +59,7 @@ We saw that ELBO [[Evidence Lower Bound#Tightness of the bound|tight]] when $q(z
 $$
 Pr(z|x, \phi) = \frac{Pr(x|z, \phi)Pr(z)}{Pr(x|\phi)}
 $$
-but in practice, this is intractable because we can't evaluate the evidence term $Pr(x|\phi)$ in the denominator.
+This is unfortunately also intractable because we can't evaluate the evidence term $Pr(x|\phi)$ in the denominator.
 
 One solution is to make a **variational approximation**: we choose a simple parametric form for $q(z|\theta)$ and use this to approximate the true posterior $Pr(z|x, \phi)$. Here, we choose a multivariate normal distribution with mean $\mu$ and diagonal covariance $\Sigma$. This will not always match the posterior well, but will be better for some values of $\mu$ and $\Omega$ than others. During training, we will find the normal distribution that is "closest" to the true posterior. This corresponds to minimizing the KL divergence in the second form of ELBO (tightness).
 
@@ -128,13 +128,16 @@ to draw from the intended Gaussian. Now, we can compute the derivatives as usual
 
 ![[Variational Autoencoder-1786220173400.webp]]
 
+## Sampling
+To sample from a VAE, we can simply draw from the prior $Pr(z)$ over the latent variable, pass the result through the decoder, and add noise according to $Pr(x\, | \,f[z, \phi])$. In practice, for high-quality generation, we want to use some [[VAE Generation|tricks]].
+
 
 #cards/dl
 Variational autoencoder (VAE)
 ?
 - Probabilistic generative method that learns a nonlinear latent variable model of the data.
 - Encoder maps data point $x$ to a posterior distribution $q(z|x, \theta)$. A latent $z^{\ast}$ is sampled, which is used by the decoder to reconstruct $x$.
-- Loss function based on ELBO; for VAE, formulated as reconstruction loss and KL divergence between $q(z|x, \theta)$ and a normal prior for $z$
+- Loss function based on ELBO; for VAE, formulated as reconstruction loss and KL divergence between $q(z|x, \theta)$ and a normal prior $Pr(z)=\text{Norm}(0,I)$.
 +++
 
 ![[Variational Autoencoder-1786219410883.webp]]
