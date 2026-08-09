@@ -133,12 +133,8 @@ To sample from a VAE, we can simply draw from the prior $Pr(z)$ over the latent 
 
 
 #cards/dl
-Variational autoencoder (VAE)
-?
-- Probabilistic generative method that learns a nonlinear latent variable model of the data.
-- Encoder maps data point $x$ to a posterior distribution $q(z|x, \theta)$. A latent $z^{\ast}$ is sampled, which is used by the decoder to reconstruct $x$.
-- Loss function based on ELBO; for VAE, formulated as reconstruction loss and KL divergence between $q(z|x, \theta)$ and a normal prior $Pr(z)=\text{Norm}(0,I)$.
-+++
+How do you generate new samples with a VAE?::Sample from the latent prior distribution, pass the result through the decoder, and add independent Gaussian noise.
 
-![[Variational Autoencoder-1786219410883.webp]]
-<!--SR:!fsrs,2026-08-08T20:37:57.770Z,0,2.3065,2.11810397,1,1,0,1,2026-08-08T20:27:57.770Z-->
+For VAE training, how do we deal with not being able to get exact likelihood of a data point?::The exact likelihood being intractable poses problems for training with maximum likelihood. Thus, we define a lower bound (ELBO) and maximize this bound.
+
+What is the variational posterior approximation in a VAE?::For the ELBO bound to be tight, we need to compute the posterior probability of the latent variable given the observed data $Pr(z|x, \phi)$. This is unfortunately also intractable, so we use the variational approximation – a simpler distribution (Gaussian) that approximates the posterior, whose parameters are computed by the encoder network.

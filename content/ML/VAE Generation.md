@@ -3,7 +3,9 @@ title: VAE Generation
 tags:
   - dl
 date: 2026-08-08
-aliases: vae generation
+aliases:
+  - vae generation
+  - aggregated posterior
 ---
 [[Variational Autoencoder|VAEs]] build a probabilistic model, and it's easy to sample from this model by drawing from the prior $Pr(z)$ over the latent variable, passing this result through the decoder $f[z,\phi]$, and adding noise according to $Pr(x\, | \,f[z, \phi])$. 
 
