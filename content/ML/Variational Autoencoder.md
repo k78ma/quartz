@@ -61,7 +61,7 @@ Pr(z|x, \phi) = \frac{Pr(x|z, \phi)Pr(z)}{Pr(x|\phi)}
 $$
 This is unfortunately also intractable because we can't evaluate the evidence term $Pr(x|\phi)$ in the denominator.
 
-One solution is to make a **variational approximation**: we choose a simple parametric form for $q(z|\theta)$ and use this to approximate the true posterior $Pr(z|x, \phi)$. Here, we choose a multivariate normal distribution with mean $\mu$ and diagonal covariance $\Sigma$. This will not always match the posterior well, but will be better for some values of $\mu$ and $\Omega$ than others. During training, we will find the normal distribution that is "closest" to the true posterior. This corresponds to minimizing the KL divergence in the second form of ELBO (tightness).
+One solution is to make a **variational approximation**: we choose a simple parametric form for $q(z|\theta)$ and use this to approximate the true posterior $Pr(z|x, \phi)$. Here, we choose a multivariate normal distribution with mean $\mu$ and diagonal covariance $\Sigma$. This will not always match the posterior well, but will be better for some values of $\mu$ and $\Omega$ than others. During training, we will find the normal distribution that is "closest" to the true posterior, which conceptually corresponds to minimizing the KL divergence in the second form of ELBO above. We cannot evaluate this posterior KL directly because the true posterior is intractable; instead, we maximize the algebraically equivalent reconstruction-minus-prior-KL form of ELBO (third form above) to train as we can use the known prior $Pr(z)$.
 
 ![[Variational Autoencoder-1786078054533.webp]]
 
@@ -72,7 +72,7 @@ $$
 where $g[x, \theta]$ is a second neural network (encoder) with parameters $\theta$ that predicts the mean $\mu$ and variance $\Sigma$ of the normal variational approximation.
 
 ## VAE Formulation
-Finally, we can describe the VAE. We built a network that computes the ELBO:
+Finally, we can describe the VAE. We build a network that computes the third form of ELBO:
 $$
 \text{ELBO}[\theta, \phi]= \int q(z|x, \theta) \log[Pr(x|z, \phi)] \, dz - D_{KL}\Big[q(z|x,\theta) \Big| \Big| Pr(z) \Big]
 $$
@@ -134,7 +134,10 @@ To sample from a VAE, we can simply draw from the prior $Pr(z)$ over the latent 
 
 #cards/dl
 How do you generate new samples with a VAE?::Sample from the latent prior distribution, pass the result through the decoder, and add independent Gaussian noise.
+<!--SR:!fsrs,2026-08-17T00:58:45.356Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-10T00:58:45.356Z-->
 
 For VAE training, how do we deal with not being able to get exact likelihood of a data point?::The exact likelihood being intractable poses problems for training with maximum likelihood. Thus, we define a lower bound (ELBO) and maximize this bound.
+<!--SR:!fsrs,2026-08-17T00:59:42.671Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-10T00:59:42.671Z-->
 
 What is the variational posterior approximation in a VAE?::For the ELBO bound to be tight, we need to compute the posterior probability of the latent variable given the observed data $Pr(z|x, \phi)$. This is unfortunately also intractable, so we use the variational approximation – a simpler distribution (Gaussian) that approximates the posterior, whose parameters are computed by the encoder network.
+<!--SR:!fsrs,2026-08-17T01:01:11.511Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-10T01:01:11.511Z-->

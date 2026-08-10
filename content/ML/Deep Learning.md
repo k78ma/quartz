@@ -191,6 +191,8 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Diffusion Models
 - [[Diffusion Models]]
+- [[Diffusion Encoder]]
+- [[Diffusion Decoder]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
