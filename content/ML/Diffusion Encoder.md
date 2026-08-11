@@ -79,7 +79,67 @@ q(z_{t}|x) = \text{Norm}_{z_{t}}[\sqrt{ a_{t} }\cdot x, (1-\alpha_{t})I]
 $$
 For any starting data point $x$, variable $z_{t}$ is normally distributed with a known mean and variance. Consequently, if we don't care about the history of the evolution through the intermediate variables $z_{1}, \dots, z_{t-1}$, it is easy to generate samples from $q(z_{t}|x)$.
 
-## Marginal distributions
+## Marginal distributions $q(z_{t})$
+The marginal distribution $q(z_{t})$ is the probability of observing a value of $z_{t}$ given the distribution of possible starting points $x$ and the possible diffusion paths for each starting point.
+
+![[Diffusion Encoder-1786411212297.webp]]
+
+It can be computed by considering the joint distribution $q(x, z_{1\dots t})$ and [[Marginalization|marginalizing]] over all the variables except $z_{t}$:
+$$
+\begin{align*}
+q(z_{t}) &= \int \int q(z_{1\dots t},x) \, dz_{1\dots t-1}  \, dx \\[2ex] 
+&= \int \int q(z_{1\dots t}|x)Pr(x) \, dz_{1\dots t-1}  \, dx 
+\end{align*}
+$$
+where $q(z_{1\dots t}|x)$ was defined above as the joint distribution of all latent variables.
+
+However, since we now have an expression for the diffusion kernel that skips the intervening variables, we can equivalently write:
+$$
+q(z_{t}) = \int q(z_{t}|x)Pr(x) \, dx 
+$$
+Hence, if we repeatedly sample from the data distribution $Pr(x)$ and superimpose the diffusion kernel $q(z_{t}|x)$ on each sample, the result is the marginal distribution $q(z_{t})$. However, the marginal distribution cannot be written in closed form because we don't know the original data distribution $Pr(x)$.
+
+## Conditional distribution $q(z_{t-1}|z_{t})$
+We defined the conditional probability $q(z_{t}|z_{t-1})$ in the forward process. To reverse this process, we apply [[Bayes' Rule]]:
+$$
+q(z_{t-1}|z_{t}) = \frac{q(z_{t}|z_{t-1})q(z_{t-1})}{q(z_{t})}
+$$
+This is intractable since we cannot compute the marginal distribution $q(z_{t-1})$.
+
+For simple 1D examples, it's possible to evaluate $q(z_{t-1}|z_{t})$ numerically. In general, their form is complex, but in many cases, they are well-approximated by a normal distribution. This is important because when we build the [[Diffusion Decoder|decoder]], we will approximate the reverse process using a normal distribution.
+
+![[Diffusion Encoder-1786412915022.webp]]
 
 
-## 
+## Conditional diffusion distribution $q(z_{t-1}|z_{t}, x)$
+There is one final distribution related to the encoder to consider. We noted above that we could not find the conditional distribution $q(z_{t-1}|z_{t})$ because we do not know the marginal distribution $q(z_{t-1})$. However, if we know the starting variable $x$, then we do know the distribution $q(z_{t-1}|x)$ at the time before. This is just the diffusion kernel, and it is normally distributed.
+
+Hence, it is possible to compute the conditional diffusion distribution $q(z_{t-1}|z_{t}, x)$ in closed form. This distribution is used to train the decoder. It is the distribution over $z_{t-1}$ when we know the current latent variable $z_{t}$ and the training data example $x$ (which we of course know). 
+
+![[Diffusion Encoder-1786413990381.webp]]
+
+To compute an expression for $q(z_{t-1}|z_{t},x)$ we start with Bayes' rule:
+$$
+\begin{align*}
+q(z_{t-1}|z_{t},x) &= \frac{q(z_{t}|z_{t-1}, x)q(z_{t-1}|x)}{q(z_{t}|x)} \\[2ex] 
+ & \propto q(z_{t}|z_{t-1})q(z_{t-1}|x) \\[2ex] 
+ &= \text{Norm}_{z_{t}} \left[ \sqrt{ 1-\beta_{t} }\cdot z_{t-1}, \beta_{t}I \right] \text{Norm}_{z_{t-1}}\left[\sqrt{ \alpha_{t-1} } \cdot x, (1-\alpha_{t-1})I\right] \\[2ex] 
+ & \propto  \text{Norm}_{z_{t-1}}\left[ \frac{1}{\sqrt{ 1-\beta_{t} }}z_{t}, \frac{\beta_{t}}{1-\beta_{t}}I \right]\text{Norm}_{z_{t-1}} [\sqrt{ \alpha_{t-1} }\cdot x, (1-\alpha_{t-1})I]
+\end{align*}
+$$
+- Between the first two lines, we have used the fact that $q(z_{t}|z_{t-1}, x)=q(z_{t}|z_{t-1})$ because the diffusion process is Markov, and all the information about $z_{t}$ is captured by $z_{t-1}$.
+- Between lines 3 and 4, we use the Gaussian change of variables identity:
+    $$
+    \text{Norm}_{v}[Aw,B] \propto  \text{Norm}_{w}[(A^{T}B^{-1}A)^{-1}A^{T}B^{-1}v, (A^{T}B^{-1}A)^{-1}]
+    $$
+    to rewrite the first distribution in terms of $z_{t-1}$. 
+
+We then use a second Gaussian identity:
+$$
+\text{Norm}_{w}[a,A] \cdot  \text{Norm}_{w}[b,B] \propto  \text{Norm}_{w}[(A^{-1}+B^{-1})^{-1}(A^{-1}a+B^{-1}b), (A^{-1}+B^{-1})^{-1}]
+$$
+to combine the two normal distributions in $z_{t-1}$, which gives:
+$$
+q(z_{t-1}|z_{t}, x) = \text{Norm}_{z_{t-1}}\left[ \frac{(1-\alpha_{t-1})}{1-\alpha_{t}} \sqrt{ 1-\beta_{t} }z_{t} + \frac{\sqrt{ \alpha_{t-1}\beta_{t} }}{1-\alpha_{t}}x, \frac{\beta_{t}(1-\alpha_{t-1})}{1-\alpha_{t}}I \right]
+$$
+Note that the constants of proportionality in the equations above must cancel out since the final result is already a correctly normalized probability distribution.
