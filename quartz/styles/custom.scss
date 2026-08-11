@@ -7,3 +7,9 @@
 .content-meta span {
   color: var(--gray);
 }
+
+// KaTeX defaults to 1.21em
+// The body qualifier ensures this wins even though the CDN stylesheet loads later.
+body .katex {
+  font-size: 1.0em;
+}
