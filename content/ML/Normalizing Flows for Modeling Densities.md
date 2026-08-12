@@ -5,7 +5,7 @@ tags:
 date: 2026-08-04
 aliases: normalizing flows for modeling densities
 ---
-Normalizing flows is capable of computing the exact log-likelihood of a new sample, unlike [[GANs]], [[VAE Intuition|VAEs]], and [[Diffusion Models]]. GANs are not probabilistic, and both VAEs and diffusion models can only return a lower bound on the likelihood.
+Normalizing flows is capable of computing the exact log-likelihood of a new sample, unlike [[GANs]], [[VAE Intuition|VAEs]], and [[Diffusion Model]]. GANs are not probabilistic, and both VAEs and diffusion models can only return a lower bound on the likelihood.
 
 ![[Normalizing Flows for Modeling Densities-1785878426777.webp]]
 

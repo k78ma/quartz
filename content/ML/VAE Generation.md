@@ -19,4 +19,4 @@ q(z|\theta) = \frac{1}{I} \sum_{i} q(z|x_{i}, \theta)
 $$
 This is the average posterior over all samples and is a mixture of Gaussians that is more representative of true distribution in latent space.
 
-Modern VAEs can produce high-quality samples, but only by using hierarchical priors and specialized network architectures and regularization techniques. [[Diffusion Models]] can be viewed as VAEs with hierarchical priors, and create very high-quality samples.
+Modern VAEs can produce high-quality samples, but only by using hierarchical priors and specialized network architectures and regularization techniques. [[Diffusion Model]] can be viewed as VAEs with hierarchical priors, and create very high-quality samples.

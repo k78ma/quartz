@@ -8,7 +8,7 @@ aliases:
   - encoder
   - diffusion kernel
 ---
-In a [[Diffusion Models|diffusion model]], the *diffusion* or *forward* process maps a data example $x$ through a series of intermediate variables $z_{1},z_{2},\dots,z_{T}$. 
+In a [[Diffusion Model|diffusion model]], the *diffusion* or *forward* process maps a data example $x$ through a series of intermediate variables $z_{1},z_{2},\dots,z_{T}$. 
 - Note that this is opposite nomenclature to [[Normalizing Flows|normalizing flows]], where the inverse mapping moves from the data to the latent variable.
 
 The mapping is done according to
@@ -41,7 +41,7 @@ q(z_{1\dots T}|x) = q(z_{1}|x) \prod_{t=2}^{T}q(z_{t}|z_{t-1})
 $$
 
 ## Diffusion kernel $q(z_{t}|x)$
-To train the [[Diffusion Encoder|decoder]] to invert this process, we use multiple samples $z_{t}$ at time $t$ for the same example $x$. However, generating these sequentially using the above equations step-by-step is time-consuming when $t$ is large. Fortunately, there is a closed-form expression for $q(z_{t}|x)$, which allows us to directly draw samples $z_{t}$ given initial datapoint $x$ without computing the intermediate variables $z_{1} \dots z_{t-1}$. This is known as the *diffusion kernel*.
+To train the [[Diffusion Decoder|decoder]] to invert this process, we use multiple samples $z_{t}$ at time $t$ for the same example $x$. However, generating these sequentially using the above equations step-by-step is time-consuming when $t$ is large. Fortunately, there is a closed-form expression for $q(z_{t}|x)$, which allows us to directly draw samples $z_{t}$ given initial datapoint $x$ without computing the intermediate variables $z_{1} \dots z_{t-1}$. This is known as the *diffusion kernel*.
 
 ![[Diffusion Encoder-1786333836717.webp]]
 

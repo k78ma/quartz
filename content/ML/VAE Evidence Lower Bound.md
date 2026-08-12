@@ -1,5 +1,5 @@
 ---
-title: Evidence Lower Bound
+title: VAE Evidence Lower Bound
 tags:
   - dl
 date: 2026-08-05

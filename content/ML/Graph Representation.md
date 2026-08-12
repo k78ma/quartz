@@ -42,5 +42,5 @@ where post-multiplying by $\mathbf{P}$ permutes the columns and pre-multiplying 
 For a graph, what does adjacency matrix taken to the $L$-th power $\mathbf{A}^{L}$ give us?
 ?
 The entry at position $(m,n)$ of $\mathbf{A}^{L}$ contains the number of unique *walks* of length $L$ from node $m$ to node $n$.
-<!--SR:!fsrs,2026-08-12T02:36:54.792Z,14,13.8358397,2.1043314,2,3,0,0,2026-07-29T02:36:54.792Z-->
+<!--SR:!fsrs,2026-10-08T04:16:04.094Z,57,57.00240781,2.09745544,2,4,0,0,2026-08-12T04:16:04.094Z-->
 +++

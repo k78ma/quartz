@@ -40,7 +40,7 @@ Pr(x_{i}|\phi) = \int \text{Norm}_{x_{i}}\Big[ f[z, \phi], \sigma^{2}I \Big] \cd
 $$
 Unfortunately, this is intractable. There is no closed-form expression for the integral and no easy way to evaluate it for a particular value of $x$.
 
-To make progress, we define a lower bound on the log-likehood $\log[Pr(x_{i}|\phi)]$ with [[Evidence Lower Bound|ELBO]]. Given some distribution $q(z)$ with parameters $\theta$, the ELBO can be written in 3 forms:
+To make progress, we define a lower bound on the log-likehood $\log[Pr(x_{i}|\phi)]$ with [[VAE Evidence Lower Bound|ELBO]]. Given some distribution $q(z)$ with parameters $\theta$, the ELBO can be written in 3 forms:
 $$
 \begin{align*}
 \text{ELBO}[\theta, \phi] &=  \int q(z|\theta) \log\left[ \frac{Pr(x,z|\phi)}{q(z|\theta)} \right] \, dz \\[2ex] 
@@ -55,7 +55,7 @@ $$
 To learn the nonlinear latent variable model, we maximize this quantity as a function of both $\phi$ and $\theta$. The neural architecture that computes this quantity is the VAE.
 
 ## Variational approximation
-We saw that ELBO [[Evidence Lower Bound#Tightness of the bound|tight]] when $q(z|\theta)$ is the *posterior* $Pr(z|x, \phi)$. In principle, we can compute the posterior using Bayes' rule:
+We saw that ELBO [[VAE Evidence Lower Bound#Tightness of the bound|tight]] when $q(z|\theta)$ is the *posterior* $Pr(z|x, \phi)$. In principle, we can compute the posterior using Bayes' rule:
 $$
 Pr(z|x, \phi) = \frac{Pr(x|z, \phi)Pr(z)}{Pr(x|\phi)}
 $$
@@ -116,6 +116,7 @@ The VAE computes the ELBO as a function of both $\phi$ and $\theta$. To maximize
 
 ![[Variational Autoencoder-1786219838497.webp]]
 
+- The encoder approximates the posterior distribution over the latent variables to make the bound tight, and the decoder maximizes this bound.
 
 ## Reparameterization trick
 The network involves a sampling step, and it is difficult to differentiate through this stochastic component. However, we need to differentiate past this step to update the parameters $\theta$ that precede it in the network.

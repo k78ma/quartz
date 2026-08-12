@@ -183,16 +183,18 @@ Some of these notes are also included in [[Machine Learning]].
     - [[VAE Intuition]]
 - [[Latent Variable Model]]
     - [[Nonlinear Latent Variable Model]]
-- [[Evidence Lower Bound|ELBO]]
+- [[VAE Evidence Lower Bound|ELBO]]
 - [[Importance Sampling]]
 - [[VAE Generation]]
 - [[VAE Resynthesis]]
 - [[VAE Disentanglement]]
 
 ## Diffusion Models
-- [[Diffusion Models]]
+- [[Diffusion Model]]
 - [[Diffusion Encoder]]
 - [[Diffusion Decoder]]
+- [[Diffusion Training]]
+- [[Reparameterized Diffusion Loss]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
