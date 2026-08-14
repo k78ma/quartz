@@ -140,6 +140,6 @@ $$
 $$
 to combine the two normal distributions in $z_{t-1}$, which gives:
 $$
-q(z_{t-1}|z_{t}, x) = \text{Norm}_{z_{t-1}}\left[ \frac{(1-\alpha_{t-1})}{1-\alpha_{t}} \sqrt{ 1-\beta_{t} }z_{t} + \frac{\sqrt{ \alpha_{t-1}\beta_{t} }}{1-\alpha_{t}}x, \frac{\beta_{t}(1-\alpha_{t-1})}{1-\alpha_{t}}I \right]
+q(z_{t-1}|z_{t}, x) = \text{Norm}_{z_{t-1}}\left[ \frac{(1-\alpha_{t-1})}{1-\alpha_{t}} \sqrt{ 1-\beta_{t} }z_{t} + \frac{\sqrt{ \alpha_{t-1} }\beta_{t}}{1-\alpha_{t}}x, \frac{\beta_{t}(1-\alpha_{t-1})}{1-\alpha_{t}}I \right]
 $$
 Note that the constants of proportionality in the equations above must cancel out since the final result is already a correctly normalized probability distribution.
