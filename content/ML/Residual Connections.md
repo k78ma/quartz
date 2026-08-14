@@ -57,8 +57,16 @@ Note that when we start these blocks with a ReLU operation, they will do nothing
 ![[Residual Connections-1782180242422.webp]]
 
 #cards/dl 
-In residual networks, why do we start with a linear transformation (FC/conv) instead of ReLU?::First layer in the network needs to be linear in case input is negative
+In residual networks, why does the very first operation have to be a linear transformation (FC/conv) instead of ReLU?::First layer in the network needs to be linear in case input is negative
 <!--SR:!fsrs,2026-09-24T19:32:28.004Z,62,61.81133375,5.06285044,2,6,0,0,2026-07-24T19:32:28.004Z-->
+
+In residual blocks, why do we do ReLU→Conv instead of the usual Conv→ReLU?
+?
+If we do ReLU after Conv, each residual block can only add non-negative quantities.
+
+![[Residual Connections-1782180242422.webp]]
+<!--SR:!fsrs,2026-08-16T04:09:23.870Z,2,2.3065,2.11121424,2,2,0,0,2026-08-14T04:09:23.870Z-->
++++
 
 Residual connection
 ?

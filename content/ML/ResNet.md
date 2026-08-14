@@ -42,7 +42,7 @@ What are the operations in a basic ResNet residual block?
 (BatchNorm, ReLU, Conv) twice, then add back input with skip connection.
 
 ![[ResNet-1782402706200.webp]]
-<!--SR:!fsrs,2026-08-12T06:23:39.200Z,34,33.57683091,4.74371562,2,4,0,0,2026-07-09T06:23:39.200Z-->
+<!--SR:!fsrs,2026-11-22T03:53:04.326Z,100,99.79405536,4.73420027,2,5,0,0,2026-08-14T03:53:04.326Z-->
 +++
 
 Why do we use bottleneck residual blocks?::Uses less parameters than a normal residual block, useful in deep networks.

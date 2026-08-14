@@ -84,7 +84,7 @@ $$
 $$
 where:
 - The first term is equivalent to the reconstruction term in the VAE. The ELBO will be larger if the model prediction matches the observed data.
-- The second term is the KL divergence between exact reverse posterior of the forward diffusion process $q(z_{t-1}|z_{t}x)$, and the decoder's learned reverse transition $Pr(z_{t-1}|z_{t}, \phi_{t})$.
+- The second term is the KL divergence between exact [[Diffusion Encoder#Conditional diffusion distribution $q(z_{t-1} z_{t}, x)$|reverse posterior of the forward diffusion process]] $q(z_{t-1}|z_{t},x)$, and the decoder's learned reverse transition $Pr(z_{t-1}|z_{t}, \phi_{t})$.
 
 The loss function is then a minimization version of this, where we also approximate the expectations with sampling:
 $$
@@ -93,7 +93,9 @@ L[\phi_{1\dots T}] = \sum_{i=I}^{I}\left( \underbrace{ -\log \Big[\text{Norm}_{x
 + \sum_{t=2}^{T} \frac{1}{2\sigma_{t}^{2}} \left| \left| \underbrace{ \frac{1-\alpha_{t-1}}{1-\alpha_{t}} \sqrt{ 1-\beta_{t}}z_{it} + \frac{\sqrt{ \alpha_{t-1} \beta_{t} }}{1-\alpha_{t}} x_{i} }_{ \text{target, mean of } q(z_{t-1}|z_{t}, x) } - \underbrace{ f_{t}[z_{it}, \phi_{t}] }_{ \text{predicted }z_{t-1} } \right| \right|^{2} \right)
 \end{align*}
 $$
+We then use this loss function to train a network for each diffusion timestep, minimizing the difference between the estimate $z_{t-1}=f_{t}[z_{t}, \phi_{t}]$ of the hidden variable at the previous timestep and the most likely value that it took given the ground truth $x$.
 
+In practice, we often use a different reparameterization of the loss function which has been found to work better. Here, the loss function is modified so that the model aims to predict the noise that was mixed with the original data example to create the current variable. 
 
 ## Implementation
 

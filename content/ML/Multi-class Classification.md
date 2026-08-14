@@ -104,5 +104,5 @@ L[\phi] =-\sum_{i=1}^{I}\sum_{k=1}^{K} t_k^{(i)}\log y_k^{(i)},
 $$
 where $t$ is a one-hot vector such that only the correct class contributes to the loss.
 - $K$ classes, $I$ data samples
-<!--SR:!fsrs,2026-08-12T06:26:15.858Z,34,34.10547749,2.1043314,2,3,0,0,2026-07-09T06:26:15.858Z-->
+<!--SR:!fsrs,2026-12-20T03:52:12.883Z,128,128.44813239,2.09745544,2,4,0,0,2026-08-14T03:52:12.883Z-->
 +++
