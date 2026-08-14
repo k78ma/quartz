@@ -1,3 +1,10 @@
+---
+title: Old Latex Suite shortcuts
+tags:
+  - dl
+date: 2026-08-01
+aliases: old latex suite shortcuts
+---
 ```
 [    
     // Math mode
