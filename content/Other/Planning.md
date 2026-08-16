@@ -1,6 +1,6 @@
 ---
-title: Reading List
-tags: 
+title: Planning
+tags:
 date: 2024-11-16
 aliases:
   - reading list

@@ -65,7 +65,7 @@ In residual blocks, why do we do ReLU→Conv instead of the usual Conv→ReLU?
 If we do ReLU after Conv, each residual block can only add non-negative quantities.
 
 ![[Residual Connections-1782180242422.webp]]
-<!--SR:!fsrs,2026-08-16T04:09:23.870Z,2,2.3065,2.11121424,2,2,0,0,2026-08-14T04:09:23.870Z-->
+<!--SR:!fsrs,2026-09-04T04:52:58.193Z,19,18.53433169,1,2,3,0,0,2026-08-16T04:52:58.193Z-->
 +++
 
 Residual connection

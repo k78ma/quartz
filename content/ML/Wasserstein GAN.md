@@ -72,5 +72,5 @@ One way to achieve this is to clip the discriminator weights to a small range (e
 Why does using a Wasserstein distance loss function make GAN training more stable?
 ?
 Compared to the Jensen-Shannon divergence used in the original GAN loss function, Wasserstein distance is well-defined even when the real/synthetic distributions are disjoint and decreases smoothly as they become closer to one another.
-<!--SR:!fsrs,2026-08-14T21:58:19.318Z,10,10.42180727,4.73381904,2,4,0,0,2026-08-04T21:58:19.318Z-->
+<!--SR:!fsrs,2026-09-19T04:24:57.466Z,35,35.16241081,4.72431359,2,5,0,0,2026-08-15T04:24:57.466Z-->
 +++

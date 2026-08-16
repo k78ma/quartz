@@ -8,4 +8,4 @@ draft: "true"
 - [[Deep Learning]]
 - [[Tron 4A]]
 - [[Linear Algebra]]
-- [[Reading List]]
+- [[Planning]]

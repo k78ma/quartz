@@ -95,9 +95,15 @@ L[\phi_{1\dots T}] = \sum_{i=I}^{I}\left( \underbrace{ -\log \Big[\text{Norm}_{x
 $$
 We then use this loss function to train a network for each diffusion timestep, minimizing the difference between the estimate $z_{t-1}=f_{t}[z_{t}, \phi_{t}]$ of the hidden variable at the previous timestep and the most likely value that it took given the ground truth $x$.
 
-In practice, we often use a different reparameterization of the loss function which has been found to work better. Here, the loss function is modified so that the model aims to predict the noise that was mixed with the original data example to create the current variable. 
+In practice, we often use a different [[Reparameterized Diffusion Loss|reparameterized diffusion loss]] which has been found to work better. Here, the loss function is modified so that the model aims to predict the noise that was mixed with the original data example to create the current variable. It gives a simple formulation:
+$$
+\begin{align*}
+L[\phi_{1 \dots T}] &= \sum_{i=1}^{I} \sum_{t=1}^{T} \Big| \Big | g_{t}[z_{it}, \phi_{t}] - \epsilon_{it} \Big| \Big | ^{2} \\[2ex] 
+&= \sum_{i=1}^{I}\sum_{t=1}^{T}\Big| \Big | g_{t}[\sqrt{ \alpha_{t}} \cdot x_{i} + \sqrt{ 1-\alpha_{t} }\cdot \epsilon_{it}, \phi_{t}] - \epsilon_{it} \Big| \Big | ^{2}
+\end{align*}
+$$
+where we have rewritten $z_{t}$ using the [[Diffusion Encoder|diffusion kernel]] in the second line.
 
 ## Implementation
 
 
-## Applications

@@ -195,6 +195,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Diffusion Decoder]]
 - [[Diffusion Training]]
 - [[Reparameterized Diffusion Loss]]
+- [[Diffusion Implementation]]
 
 ## Learning Theory
 - [[Neural Tangent Kernel]]
