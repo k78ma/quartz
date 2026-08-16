@@ -105,5 +105,22 @@ $$
 where we have rewritten $z_{t}$ using the [[Diffusion Encoder|diffusion kernel]] in the second line.
 
 ## Implementation
+With the reparameterized loss, we can get clean algorithms for both training and sampling:
 
+![[Diffusion Implementation-1786854463141.webp]]
 
+![[Diffusion Implementation-1786854523204.webp]]
+
+### Architecture and improvements
+For [[Diffusion Implementation#Image Generation|image generation]], we can use architectures such as [[U-Net]], which are ideal for image-to-image mappings. Instead of training and storing multiple U-Nets for a large number of diffusion steps, we can instead add a time embedding.
+
+![[Diffusion Implementation-1786856458587.webp]]
+
+To improve [[Diffusion Implementation#Generation speed improvements|generation speed]], we can use methods like DDIM, which are no longer stochastic after the first step, or accelerated sampling models, where the forward process is defined only on a subsequence of time steps. This allows the reverse process to skip timesteps, and hence makes sampling much more efficient.
+
+For [[Diffusion Implementation#Conditional generation|conditional generation]] where we have a label $c$, we can use classifier guidance, which modifies the denoising update from $z_{t}$ to $z_{t-1}$ to account for $c$. This adds a new term to the final step of the sampling algorithm that depends on the gradient of the classifier. On the other hand, classifier-free guidance avoids learning a separate classifier but instead incorporates class information into the main model $g_{t}[z_{t}, \phi_{t}, c]$, similar to how we added a time embedding before.
+
+To improve the [[Diffusion Implementation#Generation quality improvements|generation quality]], we can:
+- Estimate the variances $\sigma_{t}^{2}$ in the reverse process along with the mean
+- Modify the noise schedule in the forward process so that $\beta_{t}$ varies at each step
+- Use a cascade of diffusion models: first create low-resolution images, then have subsequent models generate progressively higher-resolution images.

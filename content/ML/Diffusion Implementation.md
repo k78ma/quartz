@@ -3,13 +3,18 @@ title: Diffusion Implementation
 tags:
   - dl
 date: 2026-08-15
-aliases: diffusion implementation
+aliases:
+  - diffusion implementation
+  - DDIM
+  - classifier guidance
+  - classifier-free guidance
 ---
 With the [[Reparameterized Diffusion Loss|reparameterized diffusion loss]], we can get straightforward algorithms for both training and sampling [[Diffusion Model|diffusion models]]. 
 
 **Training algorithm:** The training algorithm has the advantages that it is simple to implement. Furthermore, it *naturally augments* the dataset; we can reuse every original data point $x$, as many times as we want at each time step with different noise instantiations $\epsilon$.
 
 ![[Diffusion Implementation-1786854463141.webp]]
+
 
 **Sampling algorithm:** The sampling algorithm has the disadvantage that it requires serial processing of many neural networks $g_{t}[z_{t}, \phi_{t}]$ and is hence time-consuming.
 
@@ -34,7 +39,7 @@ The same loss function will be valid for *any* forward process with this relatio
 ![[Diffusion Implementation-1786856954019.webp]]
 
 Among this family are:
-- *Denoising diffusion implicit models*, which are no longer stochastic after the first step from $x$ to $z_{1}$
+- *Denoising diffusion implicit models (DDIM)*, which are no longer stochastic after the first step from $x$ to $z_{1}$
 - *Accelerated sampling models*, where the forward process is defined only on a subsequence of time steps.
 
 This allows a reverse process that skips timesteps and hence makes sampling much more efficient. Good samples can be created with 50 time steps when the forward process is no longer stochastic. This is much faster than before but still slower than other generative models.
