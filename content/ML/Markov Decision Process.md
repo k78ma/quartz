@@ -15,7 +15,7 @@ A Markov decision process is a variation of [[state machine]] in which:
 
 An MDP can be used to model interaction with an outside "world", such a single-player game. The idea is that an agent (a robot or a game-player) can model its environment as an MDP and try to choose actions that will drive the process into states that have high scores.
 
-## Formalization
+### Formalization
 Formally, an MDP is $\langle S,A,T, R, \lambda \rangle$ where:
 - **Transition model:** $T: S \times A \times S \to \mathbb{R}$, where
 $$
@@ -33,7 +33,3 @@ A policy is a function $\pi:S \to A$ that specifies what action to take in each 
 >P(S_{t-1} \, | \, S_{0}, A_{1}, \dots, S_{t}, A_{t}) = P(S_{t+1} \, | \, S_{t}, A_{t}) 
 >$$
 >Not all systems can be modeled in this way!
-## Solutions
-- [[Policy Evaluation]]
-- [[Finite-horizon MDP Solutions]]
-- [[Infinite-horizon MDP Solutions]]

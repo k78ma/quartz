@@ -102,14 +102,10 @@ date: 2023-06-25
 - [[Long Term Short Memory|LSTM]]
 
 ### Reinforcement Learning
-- [[RL Conceptual Framework.canvas|RL Conceptual Framework]]
 - [[State Machine]]
 	- [[State Transition Diagram]]
-	- [[Linear Time-invariant Systems]]
 - [[Markov Decision Process]]
 	- [[Policy Evaluation]]
-	- [[Finite-horizon MDP Solutions]]
-	- [[Infinite-horizon MDP Solutions]]
 
 ## Computer Vision
 - [[Radar Perception]]

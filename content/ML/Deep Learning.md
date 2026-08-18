@@ -197,6 +197,9 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Reparameterized Diffusion Loss]]
 - [[Diffusion Implementation]]
 
+## Reinforcement Learning
+- [[Reinforcement Learning]]
+
 ## Learning Theory
 - [[Neural Tangent Kernel]]
 
