@@ -35,5 +35,5 @@ How many weights and biases for a 2D convolution?
 ?
 - If the kernel is size $K\times K$ and there are $C_{i}$ input channels, each output channel is a weighted sum of $C_{i} \times K \times K$ quantities plus one bias.
 - Thus, to compute $C_{o}$ output channels, we need $C_{i} \times C_{o}\times K\times K$ weights and $C_{o}$ biases.
-<!--SR:!fsrs,2026-08-18T21:58:37.331Z,14,13.8358397,2.1043314,2,3,0,0,2026-08-04T21:58:37.331Z-->
+<!--SR:!fsrs,2026-11-26T03:16:11.674Z,99,98.72394026,1,2,4,0,0,2026-08-19T03:16:11.674Z-->
 +++

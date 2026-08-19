@@ -3,7 +3,9 @@ title: Policy
 tags:
   - rl
 date: 2026-08-16
-aliases: policy
+aliases:
+  - policy
+  - optimal policy
 ---
 The rules that determine the agent's action for each state in an [[Markov Process|MDP]] are known as the *policy*. 
 
@@ -19,4 +21,20 @@ The environment and the agent form a loop. The agent receives the state $s_{t}$ 
 
 ![[Markov Process-1786923442990.webp]]
 
-We want to choose a policy that maximizes the [[Expected Return|expected return]].
+## Optimal policy
+We want a policy that maximizes the return. For [[Markov Process|MDPs]] (but not [[Markov Process|POMDPs]]), there is is always a deterministic, stationary policy that maximizes the value of every state. If we know this optimal policy, then we get the optimal [[Value Function|state-value function]] $v^{*}[s_{t}]$:
+$$
+v^{\ast  }[s_{t}] = \underset{\pi}{\operatorname{max}}\Big[\mathbb{E}[G_{t}|s_{t}, \pi] \Big]
+$$
+Similarly, the optimal [[Value Function|state-action value function]] is obtained under the optimal policy:
+$$
+q^{\ast  }[s_{t}, a_{t}] = \underset{\pi}{\operatorname{max}}\Big[\mathbb{E}[G_{t} |s_{t}, a_{t}, \pi] \Big]
+$$
+
+Turning this on its head, if we knew the optimal action-values $q^{\ast}[s_{t}, a_{t}]$, then we could derive the optimal policy by choosing the action $a_{t}$ with the highest value:
+$$
+\pi[a_{t}|s_{t}] \quad \leftarrow \quad \underset{a_{t}}{\operatorname{argmax}}\Big[q^{\ast  }[s_{t}, a_{t}] \Big]
+$$
+- The notation here means set $\pi[a_{t}|s]$ to one for action $a$ and $\pi[a_{t}|s]$ to zero for other actions.
+
+Some RL algorithms are based on alternately estimating the action values and policy ([[Tabular Reinforcement Learning]]).

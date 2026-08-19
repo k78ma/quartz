@@ -4,6 +4,7 @@ tags:
   - dl
 date: 2026-08-16
 aliases:
+  - temporal credit assignment problem
 ---
 [[Reinforcement Learning]] is a sequential decision-making framework in which agents learn to perform actions in an environment, with the goal of maximizing received returns.
 

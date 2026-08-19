@@ -14,4 +14,5 @@ Notes from:
 - [[RL Basics]]
 - [[Markov Process]]
 - [[Policy]]
-- [[Expected Return]]
+- [[Value Function]]
+- [[Bellman Equations]]

@@ -135,10 +135,10 @@ To sample from a VAE, we can simply draw from the prior $Pr(z)$ over the latent 
 
 #cards/dl
 How do you generate new samples with a VAE?::Sample from the latent prior distribution, pass the result through the decoder, and add independent Gaussian noise.
-<!--SR:!fsrs,2026-08-17T00:58:45.356Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-10T00:58:45.356Z-->
+<!--SR:!fsrs,2026-09-10T01:56:32.076Z,23,23.42691302,4.74828477,2,3,0,0,2026-08-18T01:56:32.076Z-->
 
 For VAE training, how do we deal with not being able to get exact likelihood of a data point?::The exact likelihood being intractable poses problems for training with maximum likelihood. Thus, we define a lower bound (ELBO) and maximize this bound.
-<!--SR:!fsrs,2026-08-17T00:59:42.671Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-10T00:59:42.671Z-->
+<!--SR:!fsrs,2026-09-21T01:56:22.568Z,34,34.10547749,2.1043314,2,3,0,0,2026-08-18T01:56:22.568Z-->
 
 What is the variational posterior approximation in a VAE?::For the ELBO bound to be tight, we need to compute the posterior probability of the latent variable given the observed data $Pr(z|x, \phi)$. This is unfortunately also intractable, so we use the variational approximation – a simpler distribution (Gaussian) that approximates the posterior, whose parameters are computed by the encoder network.
-<!--SR:!fsrs,2026-08-17T01:01:11.511Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-10T01:01:11.511Z-->
+<!--SR:!fsrs,2026-08-26T03:18:40.067Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-19T03:18:40.067Z-->
