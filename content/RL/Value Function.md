@@ -27,3 +27,20 @@ $$
 - Through this quantity, reinforcement learning algorithms connect future rewards to current actions (i.e resolve the [[RL Basics|temporal credit assignment problem]])
 
 ![[Expected Return-1787110537163.webp]]
+
+#cards/rl
+State-value function / State value
+?
+Characterizes how good a state is. It is the expected reward if we start in this state and follow the specified policy thereafter.
+$$
+v[s_{t}|\pi] = \mathbb{E}[G_{t}|s_{t}, \pi]
+$$
++++
+
+State-action value function / Action value
+?
+$$
+q[s_{t}, a_{t} |\pi] = \mathbb{E}[G_{t}|s_{t}, a_{t}, \pi]
+$$
+Characterizes how good an action is based on the given state. It is expected return if we start in this state, take this action, and follow the specified policy thereafter.
++++

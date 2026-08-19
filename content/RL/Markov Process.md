@@ -44,4 +44,3 @@ In a partially observable Markov decision process or *POMDP*, the state is not d
 
 ![[Markov Process-1786923178375.webp]]
 
-## Policy
