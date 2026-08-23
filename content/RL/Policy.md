@@ -38,3 +38,7 @@ $$
 - The notation here means set $\pi[a_{t}|s]$ to one for action $a$ and $\pi[a_{t}|s]$ to zero for other actions.
 
 Some RL algorithms are based on alternately estimating the action values and policy ([[Tabular Reinforcement Learning]]).
+
+#cards/dl 
+Policy::A policy $\pi[a|s]$ determines the agent's action for each state. It can be stochastic (define a distribution) or deterministic.
+<!--SR:!fsrs,2026-08-20T01:55:01.977Z,0,2.3065,2.11810397,1,1,0,1,2026-08-20T01:45:01.977Z-->

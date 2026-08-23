@@ -16,3 +16,4 @@ Notes from:
 - [[Policy]]
 - [[Value Function]]
 - [[Bellman Equations]]
+- [[Tabular Reinforcement Learning]]
