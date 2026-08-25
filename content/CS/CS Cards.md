@@ -20,5 +20,5 @@ Python `dict.get()` vs `dict[key]`
 ?
 - `dict[key]` returns the value or raises `KeyError` if the key is missing.
 - `dict.get(key, default)` returns the value or `default` if missing; the default is `None` when omitted.
-<!--SR:!fsrs,2026-08-24T04:58:34.876Z,8,8.2956,1,2,1,0,0,2026-08-16T04:58:34.876Z-->
+<!--SR:!fsrs,2026-10-06T01:48:54.356Z,42,41.57871783,1,2,2,0,0,2026-08-25T01:48:54.356Z-->
 +++

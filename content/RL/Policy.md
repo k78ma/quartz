@@ -41,4 +41,4 @@ Some RL algorithms are based on alternately estimating the action values and pol
 
 #cards/dl 
 Policy::A policy $\pi[a|s]$ determines the agent's action for each state. It can be stochastic (define a distribution) or deterministic.
-<!--SR:!fsrs,2026-08-20T01:55:01.977Z,0,2.3065,2.11810397,1,1,0,1,2026-08-20T01:45:01.977Z-->
+<!--SR:!fsrs,2026-09-12T01:49:15.604Z,18,18.1678499,2.11121424,2,2,0,0,2026-08-25T01:49:15.604Z-->
