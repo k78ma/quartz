@@ -25,7 +25,7 @@ This is guaranteed to improve the policy according to the policy improvement the
 
 These two steps are iterated until the policy converges.
 
-![[Dynamic Programming RL-1787630464331.webp]]
+![[Dynamic Programming RL-1787710216890.webp]]
 
 There are many variations of this approach:
 - In *policy iteration*, the policy evaluation step is iterated until convergence before policy improvement. The values can be updated either in place or synchronously in each sweep.
