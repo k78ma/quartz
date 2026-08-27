@@ -50,8 +50,8 @@ Input:
 #cards/dl
 How do we change the number of channels?
 ?
-Apply a convolution with kernel size 1
+Apply a convolution with kernel size 1 ($1\times1 \times C_{\text{in}}\times C_{\text{out}}$)
 
 ![[Downsampling and Upsampling-1777163362126.webp|499]]
-<!--SR:!fsrs,2026-08-25T06:40:21.489Z,49,48.55964622,2.09745544,2,4,0,0,2026-07-07T06:40:21.489Z-->
+<!--SR:!fsrs,2027-02-18T00:10:09.266Z,175,174.85518907,2.09058635,2,5,0,0,2026-08-27T00:10:09.266Z-->
 +++

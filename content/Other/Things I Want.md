@@ -14,6 +14,7 @@ Books I would like to own a physical copy of (once I settle somewhere permanentl
 - [ ] Linear Algebra Done Right
 
 Stuff:
+- Open ear earbuds (Huawei Freeclips 2? Shokz Opendots?)
+- Shoulder/messenger bag
 - Telescope of decent quality
-- Timbuk2 Custom Prospect Backpack?
 - Dockcase Pro USB hub

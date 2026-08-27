@@ -141,4 +141,4 @@ For VAE training, how do we deal with not being able to get exact likelihood of 
 <!--SR:!fsrs,2026-09-21T01:56:22.568Z,34,34.10547749,2.1043314,2,3,0,0,2026-08-18T01:56:22.568Z-->
 
 What is the variational posterior approximation in a VAE?::For the ELBO bound to be tight, we need to compute the posterior probability of the latent variable given the observed data $Pr(z|x, \phi)$. This is unfortunately also intractable, so we use the variational approximation – a simpler distribution (Gaussian) that approximates the posterior, whose parameters are computed by the encoder network.
-<!--SR:!fsrs,2026-08-26T03:18:40.067Z,7,7.31530068,2.11121424,2,2,0,0,2026-08-19T03:18:40.067Z-->
+<!--SR:!fsrs,2026-09-19T00:14:49.368Z,23,23.42691302,4.74828477,2,3,0,0,2026-08-27T00:14:49.368Z-->

@@ -33,16 +33,16 @@ State-value function / State value
 ?
 Characterizes how good a state is. It is the expected reward if we start in this state and follow the specified policy thereafter.
 $$
-v[s_{t}|\pi] = \mathbb{E}[G_{t}|s_{t}, \pi]
+v[s_{t}|\pi] = \mathbb{E} \big[G_{t}|s_{t}, \pi \big]
 $$
-<!--SR:!fsrs,2026-08-25T02:01:25.591Z,0,2.3065,2.11810397,1,1,0,1,2026-08-25T01:51:25.591Z-->
+<!--SR:!fsrs,2026-09-07T00:22:50.533Z,11,10.96433194,2.11121424,2,2,0,0,2026-08-27T00:22:50.533Z-->
 +++
 
 State-action value function / Action value
 ?
 $$
-q[s_{t}, a_{t} |\pi] = \mathbb{E}[G_{t}|s_{t}, a_{t}, \pi]
+q[s_{t}, a_{t} |\pi] = \mathbb{E}\big[G_{t}|s_{t}, a_{t}, \pi \big]
 $$
 Characterizes how good an action is based on the given state. It is the expected return if we start in this state, take this action, and follow the specified policy thereafter.
-<!--SR:!fsrs,2026-08-25T02:01:34.950Z,0,2.3065,2.11810397,1,1,0,1,2026-08-25T01:51:34.950Z-->
+<!--SR:!fsrs,2026-09-07T00:22:35.074Z,11,10.96433194,2.11121424,2,2,0,0,2026-08-27T00:22:35.074Z-->
 +++
