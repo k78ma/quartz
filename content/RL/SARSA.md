@@ -7,7 +7,7 @@ aliases: sarsa
 ---
 State-Action-Reward-State-Action (SARSA) is an [[On-Policy vs. Off-Policy|on-policy]] [[Temporal Difference Methods|temporal difference method]], using the update:
 $$
-q[s_{t}, a_{t}] \quad \leftarrow \quad  q[s_{t}, a_{t}] + \alpha \Big(r[s_{t}, a_{t}] + \gamma \cdot q[s_{t+1}, a_{t+1}] - q[s_{t}, a_{t}]\Big)
+q[s_{t}, a_{t}] \,\, \leftarrow \,\,  q[s_{t}, a_{t}] + \alpha \Big(r[s_{t}, a_{t}] + \gamma \cdot q[s_{t+1}, a_{t+1}] - q[s_{t}, a_{t}]\Big)
 $$
 where $\alpha \in \mathbb{R}^{+}$ is the learning rate. The bracketed term is called the *TD error* and measures the consistency between the estimated action value $q[s_{t}, a_{t}]$ and the estimate $r[s_{t}, a_{t}]+\gamma \cdot q[s_{t+1}, a_{t+1}]$ after taking a single step.
 

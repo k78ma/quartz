@@ -21,7 +21,7 @@ $$
 
 Similarly, the *action value* or *state-action value function* $q[s_{t}, a_{t}|\pi]$ is the expected return from executing action $a_{t}$ in state $s_{t}$:
 $$
-q[s_{t}, a_{t} |\pi] = \mathbb{E}[G_{t}|s_{t}, a_{t}, \pi]
+q[s_{t}, a_{t} |\pi] = \mathbb{E}\big[G_{t}|s_{t}, a_{t}, \pi \big]
 $$
 - The action value tells us the long-term reward we can expect on average if we start in this state, take this action, and follow the specified policy thereafter.
 - Through this quantity, reinforcement learning algorithms connect future rewards to current actions (i.e resolve the [[RL Basics|temporal credit assignment problem]])

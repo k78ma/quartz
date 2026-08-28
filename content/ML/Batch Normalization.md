@@ -76,7 +76,7 @@ How does BatchNorm differ at test time vs. training?::At test time, we do not ha
 <!--SR:!fsrs,2026-08-29T06:24:05.360Z,51,50.70361745,2.09745544,2,4,0,0,2026-07-09T06:24:05.360Z-->
 
 How does BatchNorm improve forward pass stability?::It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
-<!--SR:!fsrs,2026-08-27T06:26:48.870Z,49,48.55964622,2.09745544,2,4,0,0,2026-07-09T06:26:48.870Z-->
+<!--SR:!fsrs,2027-02-17T04:14:49.029Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T04:14:49.029Z-->
 
 Why does batch normalization allow us to use higher learning rate?:It makes the loss surface gradients smoother, reducing shattered gradients.
 
@@ -84,7 +84,7 @@ How does batch normalization provide regularization?::Because the normalization 
 <!--SR:!fsrs,2026-08-27T06:24:30.057Z,49,48.55964622,2.09745544,2,4,0,0,2026-07-09T06:24:30.057Z-->
 
 Why does BatchNorm sometimes degrade performance with small batch sizes?::Because the mean and variance becomes less accurate.
-<!--SR:!fsrs,2026-08-27T06:24:12.178Z,49,48.55964622,2.09745544,2,4,0,0,2026-07-09T06:24:12.178Z-->
+<!--SR:!fsrs,2027-06-06T04:15:01.166Z,282,281.8043453,1,2,5,0,0,2026-08-28T04:15:01.166Z-->
 
 Adding BatchNorm to residual networks reduces variance scaling from exponential to ==linear==.
 <!--SR:!fsrs,2026-08-27T06:23:47.042Z,49,48.55964622,2.09745544,2,4,0,0,2026-07-09T06:23:47.042Z-->
