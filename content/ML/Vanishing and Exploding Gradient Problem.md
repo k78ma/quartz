@@ -1,5 +1,5 @@
 ---
-title: Vanishing + Exploding Gradient Problem
+title: Vanishing and Exploding Gradient Problem
 tags:
   - ml
 date: 2024-01-28

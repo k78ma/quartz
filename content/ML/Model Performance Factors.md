@@ -25,6 +25,8 @@ It's important to realize that we can't learn *any* function. Consider a complet
 
 However, the properties of the dataset also aren't critical. Consider AlexNet on CIFAR-10; when each image is replaced with Gaussian noise and the labels are randomly permuted, learning slowed down, but the network could still fit the finite dataset well.
 
+![[Model Performance Factors-1788065995008.webp]]
+
 ## Regularization
 Another possible explanation for the ease with which models are trained is that some regularization methods like [[L2 Regularization]] make the loss surface flatter and more convex. However, it has been found that neither L2 regularization nor [[Dropout]]is required to fit random data. This does not eliminate [[Implicit Regularization|implicit regularization]] due to the finite step size of fitting algorithms; but this effect should increase with learning rate yet model-fitting does not get easier with larger learning rates.
 
@@ -36,12 +38,32 @@ The figure below shows four fully connected models fitted to 4000 MNIST-1D examp
 ![[Model Performance Factors-1788050162025.webp]]
 
 ## Overparameterization
+Overparameterization almost certainly is an important factor that contributes to ease of training. It implies that there is a large family of degenerate solutions, so there may always be a direction in which the parameters can be modified to decrease the loss. "The degeneracy of solutions changes the nature of the problem from finding a needle in a haystack to a haystack of needles."
 
+In practice, networks are frequently overparameterized by one or two orders of magnitude. However, data augmentation makes it difficult to make precise statements. Augmentation may increase the data by several orders of magnitude, but these are manipulations of existing examples rather than independent data points. Moreover, it has been shown that networks can sometimes fit the training data well when there are the same number of fewer parameters than data points. This is presumably due to redundancy in training examples from the same underlying function.
 
-## Activation function
+![[Model Performance Factors-1788063826873.webp]]
 
+Several theoretical convergence results show that, under certain circumstances, SGD converges to a global minimum when the network is sufficiently overparameterized. For example, analysis has been done on:
+- Randomly initialized SGD converges to a global minimum for shallow fully connected ReLU networks with a least squares loss with enough hidden units.
+- Deep, residual and convolutional networks converge when the activation function is smooth and Lipschitz
+- Convergence of gradient descent on deep, fully connected networks using hinge loss
+
+If a neural network is sufficiently overparameterized so that it can memorize any dataset of a fixed size, then all the stationary points become global minima. Other results show that if the network is wide enough, local minima where the loss is higher than the global minimum are rare. It has also been proven that as a network becomes deeper, wider, or both, the loss at local minima becomes closer to that at the global minimum for squared loss functions.
+
+These theoretical results are intriguing but usually make unrealistic assumptions about the network structure. Thus, overparameterization seems to be important, but theory cannot yet explain empirical fitting performance. 
+
+## Activation functions
+The activation function is also known to affect training difficulty. Networks where the activation only changes over a small part of the input range are harder to hit than ReLUs (which vary over half the input range) or Leaky ReLUs (which vary over the full range). For example, sigmoid and tanh nonlinearities have shallow gradients in their tails; where the activation function is near constant, the training gradient is near zero, so the mechanism to improve the model is extremely weak.
 
 ## Initialization
+Another potential explanation is that Xavier/[[Parameter Initialization|He initialization]] sets the parameters to values that are easy to optimize. Of course, for deeper networks, such initialization is necessary to avoid exploding and vanishing gradients, so in a trivial sense, initialization is critical to training success.
 
+For shallower networks, the initial variance of the weights is less important. As the variance increases from that proposed by He, more iterations are required to fit the training data, but it usually does not ultimately impede fitting. Hence, initialization doesn't shed much light on why fitting neural networks is easy, although exploding/vanishing gradients do reveal initializations that make training difficult with finite precision arithmetic.
 
 ## Network depth
+Neural networks are harder to fit when the depth becomes very large due to [[Vanishing and Exploding Gradient Problem|vanishing/exploding gradients]] and [[Shattered Gradients|shattered gradients]]. However, these are arguably practical numerical issues. There is no definitive evidence that the underlying loss function is fundamentally more or less convex as the network depth increases. There has been evidence (see figure below) that deeper networks train in fewer iterations. However, this might be because either (i) the gradients in deeper networks are steeper or (ii) He initialization just starts wider, shallower networks further away form the optimal parameters.
+
+![[Model Performance Factors-1788066046785.webp]]
+
+The network depth might also be relevant in terms of the [[Lottery Ticket Hypothesis]].

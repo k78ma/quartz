@@ -21,4 +21,4 @@ Most standard optimization algorithms are iterative; they initially model parame
     - [[Multiple Dimension Gradient Descent]]
     - [[Stochastic Gradient Descent]]
     - [[Batch Gradient Descent]]
-- [[Vanishing + Exploding Gradient Problem]]
+- [[Vanishing and Exploding Gradient Problem]]

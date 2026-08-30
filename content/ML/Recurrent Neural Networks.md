@@ -12,7 +12,7 @@ A recurrent neural network allows us to process variable-length sequences. This 
 RNNs' key strength is their a hidden state, which acts as a memory of previous inputs. This allows the network to capture temporal dependencies and make information predictions based on past information.
 - Increasing the size of $\vec{h}^{i}$ (larger number of hidden units) enhances the ability to store and process long-term dependencies, but is more computationally expensive.
 
-RNNs suffer from the [[Vanishing + Exploding Gradient Problem]], making it difficult to learn dependencies over long timespans. More advanced architectures such as [[Long Term Short Memory|LSTM]] and [[Gated Recurrent Unit|GRU]] address these issues.
+RNNs suffer from the [[Vanishing and Exploding Gradient Problem]], making it difficult to learn dependencies over long timespans. More advanced architectures such as [[Long Term Short Memory|LSTM]] and [[Gated Recurrent Unit|GRU]] address these issues.
 
 ## Vanilla RNN Formulation
 RNNs process sequences by maintaining a hidden state that carries information from previous timesteps.
