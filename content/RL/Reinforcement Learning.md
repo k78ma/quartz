@@ -29,3 +29,7 @@ Notes from:
     - [[Deep Q-Networks]]
     - [[Double Q-Learning]]
 - [[Policy Gradient Methods]]
+    - [[REINFORCE]]
+
+- [[Actor-Critic Methods]]
+- [[Offline Reinforcement Learning]]

@@ -15,8 +15,11 @@ Plan:
     - [ ] [ARENA](https://learn.arena.education/chapter0_fundamentals/00_prereqs/intro)
     - [ ] All the models in UDL?
     - [ ] Numpy 100 (also do with PyTorch)
-- Mathematical Foundations of Reinforcement Learning
-- Deep Learning: Foundations and Concepts
+- [ ] RL
+    - [ ] Mathematical Foundations of Reinforcement Learning
+    - [ ] [Hands-on Modern RL](https://walkinglabs.github.io/hands-on-modern-rl/en/preface/introduction)
+    - [ ] [Reinforcement Learning: An Introduction](http://incompleteideas.net/book/the-book-2nd.html)
+- [ ] Deep Learning: Foundations and Concepts
 
 - [Deep Learning | 6.7960 | MIT OpenCourseWare](https://ocw.mit.edu/courses/6-7960-deep-learning-fall-2024/)
 - [Foundations of Computer Vision](https://visionbook.mit.edu/)

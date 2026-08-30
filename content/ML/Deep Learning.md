@@ -8,7 +8,7 @@ aliases:
   - deep learning
 ---
 Notes from:
-- [Understanding Deep Learning](https://udlbook.github.io/udlbook/)
+- [Understanding Deep Learning](https://udlbook.github.io/udlbook/), excluding the chapter on [[Reinforcement Learning|RL]]
 
 Some of these notes are also included in [[Machine Learning]].
 ## Foundations
@@ -197,10 +197,11 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Reparameterized Diffusion Loss]]
 - [[Diffusion Implementation]]
 
-## Reinforcement Learning
-- [[Reinforcement Learning]]
-
 ## Learning Theory
+- [[Model Performance Factors]]
+- [[Properties of Loss Functions]]
+- [[Generalization Factors]]
+- [[Network Depth]]
 - [[Neural Tangent Kernel]]
 
 ## Other
@@ -208,6 +209,8 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Recall Metric]]
 - [[Precision-Recall Curve]]
 - [[Flow Matching]]
+- [[Pruning]]
+- [[Knowledge Distillation]]
 
 ## Practical
 - [[Einops]]
