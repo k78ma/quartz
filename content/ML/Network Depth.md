@@ -23,3 +23,4 @@ One way to show this is to distill successful deep networks into shallower (but 
 
 ## Inductive bias
 Most current models rely on convolutional blocks or transformers. These networks share parameters for local regions of the input data, and often they gradually integrate this information across the whole input. These constraints mean that the functions that these networks can represent are not general. One explanation for the supremacy of deep networks, then, is that these constraints have a good inductive bias and that it is difficult to induce shallow networks to obey these constraints.
+
