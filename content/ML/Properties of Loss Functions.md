@@ -18,7 +18,7 @@ The above modifications all produce the same output for *every* input. However, 
 
 
 ## Route to the minimum
-Consider a straight line between the initial parameters and the final values. It has been shown ([Qualitatively characterizing neural network optimization problems](https://arxiv.org/abs/1412.6544)) that the loss function along this line usually decreases monotonically, except for a small bump near the start sometimes. This phenomenon is observed for several different types of networks and activation functions.
+Consider a straight line between the initial parameters and the final values. It has been shown ([Qualitatively characterizing neural network optimization problems](https://arxiv.org/abs/1412.6544)) that the loss function along this line usually decreases monotonically, except for a small bump near the start sometimes. This phenomenon is observed for several different types of networks and activation functions (figure 20.5a).
 
 ![[Properties of Loss Functions-1788235875099.webp]]
 
@@ -37,10 +37,12 @@ It has also been shown that the relative change in the parameters during trainin
 
 
 ## Curvature of loss surface
-Random Gaussian functions (in which points are jointly distributed with covariance given by a kernel function of their distance) have an interesting property: for points where the gradient is zero, the fraction of directions where the function curves down becomes smaller when these points occur at lower loss values. Others have searched for saddle points in a neural network loss function and similarly found a correlation between the loss and the number of negative eigenvalues.
+Random Gaussian functions (in which points are jointly distributed with covariance given by a [[Kernel Function|kernel function]] of their distance) have an interesting property: for points where the gradient is zero, the fraction of directions where the function curves down becomes smaller when these points occur at lower loss values. Others have searched for saddle points in a neural network loss function and similarly found a correlation between the loss and the number of negative eigenvalues.
 
 ![[Properties of Loss Functions-1788236577500.webp]]
 
 Analysis of the error surface of a shallow network and found that there were no local minima but only saddle points. These results suggest that there are few or no bad local minima.
 
 Measuring the curvature at random points on a neural network loss surface led to the finding that the curvature of the surface is unusually positive when the $\ell_{2}$ norm of the weights lies within a certain range, which it termed the *Goldilocks zone*. [[Parameter Initialization|He initialization]] and Xavier initialization fall within this range.
+
+![[Properties of Loss Functions-1788393867402.webp]]

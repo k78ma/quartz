@@ -201,6 +201,10 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Model Performance Factors]]
 - [[Properties of Loss Functions]]
 - [[Generalization Factors]]
+    - [[Grokking]]
+- [[Overparameterization]]
+- [[Pruning]]
+- [[Knowledge Distillation]]
 - [[Network Depth]]
 - [[Neural Tangent Kernel]]
 
