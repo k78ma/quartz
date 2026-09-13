@@ -7,7 +7,7 @@ aliases:
 draft: "true"
 ---
 Plan:
-- [ ] Understanding Deep Learning
+- [x] Understanding Deep Learning
 - [ ] Getting into implementation while doing MathAcademy:
     - [ ] [Zero to Mastery Learn PyTorch for Deep Learning](https://www.learnpytorch.io/)
     - [ ] [Practical Deep Learning for Coders](https://course.fast.ai/)
@@ -15,6 +15,7 @@ Plan:
     - [ ] [ARENA](https://learn.arena.education/chapter0_fundamentals/00_prereqs/intro)
     - [ ] All the models in UDL?
     - [ ] Numpy 100 (also do with PyTorch)
+    - [ ] Go through UDL notebooks properly
 - [ ] RL
     - [ ] Mathematical Foundations of Reinforcement Learning
     - [ ] [Hands-on Modern RL](https://walkinglabs.github.io/hands-on-modern-rl/en/preface/introduction)

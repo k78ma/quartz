@@ -35,7 +35,7 @@ Characterizes how good a state is. It is the expected reward if we start in this
 $$
 v[s_{t}|\pi] = \mathbb{E} \big[G_{t}|s_{t}, \pi \big]
 $$
-<!--SR:!fsrs,2026-09-07T00:22:50.533Z,11,10.96433194,2.11121424,2,2,0,0,2026-08-27T00:22:50.533Z-->
+<!--SR:!fsrs,2026-11-23T05:19:01.358Z,77,77.10744921,1,2,3,0,0,2026-09-07T05:19:01.358Z-->
 +++
 
 State-action value function / Action value
@@ -44,5 +44,5 @@ $$
 q[s_{t}, a_{t} |\pi] = \mathbb{E}\big[G_{t}|s_{t}, a_{t}, \pi \big]
 $$
 Characterizes how good an action is based on the given state. It is the expected return if we start in this state, take this action, and follow the specified policy thereafter.
-<!--SR:!fsrs,2026-09-07T00:22:35.074Z,11,10.96433194,2.11121424,2,2,0,0,2026-08-27T00:22:35.074Z-->
+<!--SR:!fsrs,2026-10-23T05:19:15.873Z,46,46.28021494,2.1043314,2,3,0,0,2026-09-07T05:19:15.873Z-->
 +++

@@ -223,6 +223,7 @@ Some of these notes are also included in [[Machine Learning]].
 
 ## Exercises
 - [[UDL Problems]]
+- [[PyTorch]]
 
 ## Projects
 - [[Counterfactual Probing]]

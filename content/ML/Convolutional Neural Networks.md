@@ -41,4 +41,4 @@ Why is convolutional better than FC for images?
 ?
 - High dimensional – FC networks would need a lot of weights, convolutional networks are more parameter efficient as the same kernels are re-used across image
 - Image interpretation is invariant/equivariant under geometric transformations. The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs. However, shifting the object changes every input to the network, so a fully connected model must learn the patterns of pixels that signify a cat at every position, which is inefficient.
-<!--SR:!fsrs,2026-09-10T21:58:39.039Z,32,31.67922703,2.1043314,2,3,0,0,2026-08-09T21:58:39.039Z-->
+<!--SR:!fsrs,2027-01-09T02:56:00.601Z,120,119.56963203,2.09745544,2,4,0,0,2026-09-11T02:56:00.601Z-->

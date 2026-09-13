@@ -30,4 +30,4 @@ where the row vectors $x_{n}$ are separately taken from the full data matrix $X$
 
 #cards/dl 
 Transformer layer operations::Input embeddings → MhSA + residual → LayerNorm → MLP + residual → LayerNorm → Output embeddings
-<!--SR:!fsrs,2026-09-07T00:10:06.520Z,11,10.96433194,2.11121424,2,2,0,0,2026-08-27T00:10:06.520Z-->
+<!--SR:!fsrs,2026-11-23T05:18:10.385Z,77,77.10744921,1,2,3,0,0,2026-09-07T05:18:10.385Z-->

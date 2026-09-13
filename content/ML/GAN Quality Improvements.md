@@ -37,4 +37,4 @@ Moving smoothly through the latent space can also sometimes produce realistic in
 
 #cards/dl 
 How does minibatch discrimination help avoid mode collapse in GANs?::Feature statistics across a batch are calculated and included as an input to the discriminator. Thus, the generator is incentivized to produce similar statistics as the real distribution, preventing model collapse.
-<!--SR:!fsrs,2026-09-10T22:00:52.382Z,32,31.67922703,2.1043314,2,3,0,0,2026-08-09T22:00:52.382Z-->
+<!--SR:!fsrs,2026-12-05T02:55:40.433Z,85,84.5365166,4.74371562,2,4,0,0,2026-09-11T02:55:40.433Z-->

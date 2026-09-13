@@ -87,3 +87,14 @@ If some vectors are removed from a linearly independent list, the remaining list
 >**Example (d):** Every list of vectors in $V$ containing the $0$ vector is linearly dependent. This is the special case of the above.
 
 See also: [[Linear Dependence Lemma]]
+
+#cards/lin-alg
+Linear independence
+?
+A list $v_{1}, \dots,v_{m}$ of vectors in $V$ is called *linearly independent* if the only choice of $a_{1},\dots,a_{m}\in \mathbb{F}$ that makes
+$$
+a_{1}v_{1}+\dots+a_{m}v_{m}=0
+$$
+is $a_{1}=\dots=a_{m}=0$. The empty list $(\,)$ is also declared to be linearly independent.
+<!--SR:!fsrs,2026-09-17T02:00:44.097Z,8,8.2956,1,2,1,0,0,2026-09-09T02:00:44.097Z-->
++++

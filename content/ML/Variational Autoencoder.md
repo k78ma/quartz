@@ -135,7 +135,7 @@ To sample from a VAE, we can simply draw from the prior $Pr(z)$ over the latent 
 
 #cards/dl
 How do you generate new samples with a VAE?::Sample from the latent prior distribution, pass the result through the decoder, and add independent Gaussian noise.
-<!--SR:!fsrs,2026-09-10T01:56:32.076Z,23,23.42691302,4.74828477,2,3,0,0,2026-08-18T01:56:32.076Z-->
+<!--SR:!fsrs,2027-01-01T02:56:11.413Z,112,112.32939527,2.97863464,2,4,0,0,2026-09-11T02:56:11.413Z-->
 
 For VAE training, how do we deal with not being able to get exact likelihood of a data point?::The exact likelihood being intractable poses problems for training with maximum likelihood. Thus, we define a lower bound (ELBO) and maximize this bound.
 <!--SR:!fsrs,2026-09-21T01:56:22.568Z,34,34.10547749,2.1043314,2,3,0,0,2026-08-18T01:56:22.568Z-->
