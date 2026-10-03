@@ -21,3 +21,8 @@ This means that null spaces are specific to a linear map acting on a subspace, n
 - Suppose $D \in \mathcal{L}(\mathcal{P}(\mathbb{R}))$ is the differentiation map defined by $Dp=p'$. The only functions whose derivative equals the zero functions are the constant functions. Thus, the null space of $D$ equals the set of constant functions.
 - Suppose that $T \in \mathcal{L}(\mathcal{P})(\mathbb{R})$ is the multiplication by $x^{2}$ map defined by $(Tp)(x)=x^{2}p(x)$. The only polynomial $p$ such that $x^{2}p(x)=0$ for all $x \in \mathbb{R}$ is the $0$ polynomial. Thus, $\text{null }T=\{ 0 \}$.
 - Suppose $T \in \mathcal{L}(\mathbb{F}^{\infty})$ is the backward shift defined by $T(x_{1},x_{2},x_{3},\dots)=(x_{2},x_{3},\dots)$. Then, $T(x_{1},x_{2},x_{3},\dots)$ equal $0$ if and only if the numbers $x_{2}, x_{3},\dots$ are all $0$. Thus, $\text{null } T=\{ (a,0,0,\dots) \, : \,a \in \mathbb{F} \}$.
+
+
+#cards/lin-alg 
+The null space of a matrix $A$::The set of all solutions for $A\mathbf{x}=0$.
+<!--SR:!fsrs,2026-10-07T03:28:20.474Z,8,8.2956,1,2,1,0,0,2026-09-29T03:28:20.474Z-->

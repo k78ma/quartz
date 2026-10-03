@@ -42,4 +42,4 @@ $$
 +++
 
 In multi-head self-attention, if the embedding dimension is $D$ and there are $H$ heads, what is the dimension of the values, queries, and keys for each head?::$D / H$
-<!--SR:!fsrs,2026-10-02T19:32:45.083Z,70,69.55285942,2.09745544,2,4,0,0,2026-07-24T19:32:45.083Z-->
+<!--SR:!fsrs,2027-05-28T06:58:02.333Z,237,236.53690539,2.09058635,2,5,0,0,2026-10-03T06:58:02.333Z-->

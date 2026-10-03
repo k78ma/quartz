@@ -14,4 +14,4 @@ aliases:
 [Valid Anagram](https://neetcode.io/problems/is-anagram/question?list=neetcode250)::
 <!--SR:!fsrs,2026-10-07T00:22:18.601Z,41,40.505073,2.1043314,2,3,0,0,2026-08-27T00:22:18.601Z-->
 [Two Sum](https://neetcode.io/problems/two-integer-sum/question?list=neetcode250)::
-<!--SR:!fsrs,2026-09-25T00:17:34.332Z,29,28.57152913,4.743334,2,3,0,0,2026-08-27T00:17:34.332Z-->
+<!--SR:!fsrs,2027-02-12T22:51:18.721Z,138,137.89471768,2.97202955,2,4,0,0,2026-09-27T22:51:18.721Z-->

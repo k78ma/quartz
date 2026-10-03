@@ -85,5 +85,5 @@ Why are GANs hard to train?
 3. Similarly for the original formulation; if the discriminator can perfectly separate the generated and real samples, no small change to the generated data will change classification score. The discriminator sigmoid can saturate, giving the generator vanishing gradients.
 
 ![[GAN Stability-1785537517317.webp]]
-<!--SR:!fsrs,2026-09-29T03:17:08.320Z,41,41.09394407,4.74371562,2,4,0,0,2026-08-19T03:17:08.320Z-->
+<!--SR:!fsrs,2027-03-29T03:28:13.181Z,181,180.55138109,2.97253869,2,5,0,0,2026-09-29T03:28:13.181Z-->
 +++

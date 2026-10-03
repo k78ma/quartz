@@ -86,7 +86,7 @@ Normalizing flows
 - Generative model where we map a base distribution $Pr(z)$ to a model distribution $Pr(x)$ with a deep neural network.
 - They can both evaluate the likelihood of samples exactly and generate new samples.
 - Architectural requirement: Layers must be invertible.
-<!--SR:!fsrs,2026-09-21T01:57:29.822Z,34,34.10547749,2.1043314,2,3,0,0,2026-08-18T01:57:29.822Z-->
+<!--SR:!fsrs,2027-05-09T22:47:53.901Z,224,224.26147974,1,2,4,0,0,2026-09-27T22:47:53.901Z-->
 +++
 <!--SR:!fsrs,2026-08-08T20:38:07.651Z,0,2.3065,2.11810397,1,1,0,1,2026-08-08T20:28:07.651Z-->
 
@@ -95,5 +95,5 @@ Why do normalizing flow model layers have to be invertible?
 - Forward transformation to generate samples
 - Inverse (normalizing) transformation to evaluate likelihood of data.
 - Training is done by maximizing the likelihood, requiring evaluation of the inverse transformation and its Jacobian determinant.
-<!--SR:!fsrs,2026-09-21T01:57:55.483Z,34,34.10547749,2.1043314,2,3,0,0,2026-08-18T01:57:55.483Z-->
+<!--SR:!fsrs,2026-12-31T22:45:21.828Z,95,95.16576889,4.74371562,2,4,0,0,2026-09-27T22:45:21.828Z-->
 +++

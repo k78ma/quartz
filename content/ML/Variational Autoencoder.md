@@ -138,7 +138,7 @@ How do you generate new samples with a VAE?::Sample from the latent prior distri
 <!--SR:!fsrs,2027-01-01T02:56:11.413Z,112,112.32939527,2.97863464,2,4,0,0,2026-09-11T02:56:11.413Z-->
 
 For VAE training, how do we deal with not being able to get exact likelihood of a data point?::The exact likelihood being intractable poses problems for training with maximum likelihood. Thus, we define a lower bound (ELBO) and maximize this bound.
-<!--SR:!fsrs,2026-09-21T01:56:22.568Z,34,34.10547749,2.1043314,2,3,0,0,2026-08-18T01:56:22.568Z-->
+<!--SR:!fsrs,2027-02-10T22:45:42.324Z,136,135.6357259,2.09745544,2,4,0,0,2026-09-27T22:45:42.324Z-->
 
 What is the role of the variational posterior approximation in a VAE?::For the ELBO bound to be tight, we need to compute the posterior probability of the latent variable given the observed data $Pr(z|x, \phi)$. This is unfortunately also intractable, so we use the variational approximation – a simpler distribution (Gaussian) $q$ that approximates the posterior, whose parameters are computed by the encoder network.
 <!--SR:!fsrs,2026-11-09T18:31:27.253Z,51,51.11934801,6.49889507,2,4,0,0,2026-09-19T18:31:27.253Z-->
