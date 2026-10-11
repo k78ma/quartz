@@ -8,6 +8,7 @@ aliases:
 ---
 - [[Groups]]
 - [[Linear Algebra]]
+- [[Logic]]
 
 - [[Convexity]]
 - [[Codomain vs. Range]]

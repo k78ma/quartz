@@ -82,6 +82,11 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Frobenius Matrix]]
 - [[Affine Transformation]]
 - [[Vector Equations of Planes]]
+
+## Singular Value Decomposition
+- [[Bilinear Form]]
+- [[Quadratic Form]]
+
 ## Exercises
 - [[LADR Exercises 1A]]
 - [[LADR Exercises 1B]]
@@ -109,3 +114,4 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Vector Norm]]
 - [[Determinant Laws]]
 - [[Matrix Inverse]]
+- [[Orthonormal]]

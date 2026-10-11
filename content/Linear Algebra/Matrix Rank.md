@@ -9,7 +9,8 @@ The dimension of the column space of a matrix $A$ is called the rank of $A$.
 $$
 \text{rank}(A)=\dim  (\text{Col}(A))
 $$
-Equi
+Alternatively, $\text{rank}(A)$ is the number of pivot columns in the corresponding row echelon matrix of $A$.
+- Equivalently, $\text{rank}(A)$ is the number of non-zero rows in the corresponding row echelon matrix of $A$.
 
 
 #cards/lin-alg 
