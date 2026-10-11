@@ -84,7 +84,8 @@ Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
 - [[Vector Equations of Planes]]
 
 ## Singular Value Decomposition
-- [[Bilinear Form]]
+- [[Linear Forms]]
+- [[Bilinear Forms]]
 - [[Quadratic Form]]
 
 ## Exercises
