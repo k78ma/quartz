@@ -7,4 +7,4 @@ aliases: determinant laws
 ---
 #cards/dl 
 Given a matrix $A_{n\times n}$  has $\det(A)$, what is $\det(k \cdot A)$?::$\det(k \cdot A) = k^{n} \cdot \det(A)$
-<!--SR:!fsrs,2026-10-05T05:17:31.246Z,7,7.31530068,2.11121424,2,2,0,0,2026-09-28T05:17:31.246Z-->
+<!--SR:!fsrs,2026-12-02T00:35:52.741Z,57,57.49062283,1,2,3,0,0,2026-10-06T00:35:52.741Z-->

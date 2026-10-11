@@ -110,20 +110,20 @@ $$
 
 #cards/dl 
 How does the number of attention weights depend on the sequence length $N$?::Quadratically. Each of the $N$ query vectors attends to all $N$ key vectors, producing an $N \times N$ attention matrix.
-<!--SR:!fsrs,2026-10-08T19:34:07.819Z,76,75.6749735,2.09745544,2,4,0,0,2026-07-24T19:34:07.819Z-->
+<!--SR:!fsrs,2027-06-18T23:57:54.505Z,253,252.75166378,2.09058635,2,5,0,0,2026-10-08T23:57:54.505Z-->
 
 How does the number of attention weights depend on the input dimension $D$?::No dependence
-<!--SR:!fsrs,2026-10-08T19:38:28.503Z,76,75.6749735,2.09745544,2,4,0,0,2026-07-24T19:38:28.503Z-->
+<!--SR:!fsrs,2027-06-26T06:15:04.537Z,258,257.69216911,2.09058635,2,5,0,0,2026-10-11T06:15:04.537Z-->
 
 What are the numerical properties of attention weights?::They are non-negative and sum to 1 because of softmax.
-<!--SR:!fsrs,2026-10-08T19:31:58.640Z,76,75.6749735,2.09745544,2,4,0,0,2026-07-24T19:31:58.640Z-->
+<!--SR:!fsrs,2027-04-14T06:15:13.689Z,185,185.14011494,4.73915103,2,5,0,0,2026-10-11T06:15:13.689Z-->
 
 Why is self-attention non-linear even with no activation function?::Dot-product and softmax
-<!--SR:!fsrs,2026-10-08T19:33:38.838Z,76,75.6749735,2.09745544,2,4,0,0,2026-07-24T19:33:38.838Z-->
+<!--SR:!fsrs,2027-06-26T06:16:29.096Z,258,257.69216911,2.09058635,2,5,0,0,2026-10-11T06:16:29.096Z-->
 
 In dot-product self-attention, how is parameter sharing done?::To calculate queries, keys, and values, the same three projection matrices ($\Omega_q, \Omega_k, \Omega_v$) and three bias vectors ($\beta_q, \beta_k, \beta_v$) are applied to every input. As a result, the parameter count is independent of the number of inputs $N$.
-<!--SR:!fsrs,2026-10-08T19:34:01.889Z,76,75.6749735,2.09745544,2,4,0,0,2026-07-24T19:34:01.889Z-->
+<!--SR:!fsrs,2027-11-19T23:58:04.538Z,407,407.32190673,1,2,5,0,0,2026-10-08T23:58:04.538Z-->
 
 Scaled dot-product self-attention formula::$\text{Sa}[X] = \text{Softmax}\left[ \frac{QK^{T}}{\sqrt{ D_{k} }} \right] V$
-<!--SR:!fsrs,2026-10-08T19:33:07.379Z,76,75.6749735,2.09745544,2,4,0,0,2026-07-24T19:33:07.379Z-->
+<!--SR:!fsrs,2027-12-02T06:16:50.962Z,417,416.57497916,1,2,5,0,0,2026-10-11T06:16:50.962Z-->
 

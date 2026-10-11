@@ -23,4 +23,4 @@ In practice, a compromise between letters and full words is used, and the final 
 
 #cards/dl 
 Byte pair encoding tokenizer::Iteratively merge most commonly occurring adjacent pair of tokens into a new token. Continue until desired vocabulary size is reached.
-<!--SR:!fsrs,2026-10-06T19:32:41.659Z,74,74.05423059,2.09745544,2,4,0,0,2026-07-24T19:32:41.659Z-->
+<!--SR:!fsrs,2027-06-16T06:43:03.005Z,251,250.66695715,2.09058635,2,5,0,0,2026-10-08T06:43:03.005Z-->

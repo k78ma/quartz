@@ -31,7 +31,7 @@ There are three types of transformer models:
 
 #cards/dl 
 Encoder model::Transforms input into a contextual representation that can support downstream tasks.
-<!--SR:!fsrs,2026-10-07T03:16:22.005Z,49,48.52077203,2.1043314,2,3,0,0,2026-08-19T03:16:22.005Z-->
+<!--SR:!fsrs,2027-03-30T06:41:14.306Z,173,172.94892613,2.09745544,2,4,0,0,2026-10-08T06:41:14.306Z-->
 
 Decoder model::Autoregressive token prediction from previously available tokens. Repeating this produces text (for NLP use case).
-<!--SR:!fsrs,2026-10-07T03:17:50.421Z,49,48.52077203,2.1043314,2,3,0,0,2026-08-19T03:17:50.421Z-->
+<!--SR:!fsrs,2027-02-08T06:41:25.603Z,123,123.3518639,4.74371562,2,4,0,0,2026-10-08T06:41:25.603Z-->

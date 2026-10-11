@@ -25,4 +25,4 @@ This means that null spaces are specific to a linear map acting on a subspace, n
 
 #cards/lin-alg 
 The null space of a matrix $A$::The set of all solutions for $A\mathbf{x}=0$.
-<!--SR:!fsrs,2026-10-07T03:28:20.474Z,8,8.2956,1,2,1,0,0,2026-09-29T03:28:20.474Z-->
+<!--SR:!fsrs,2026-12-18T06:46:21.752Z,71,70.63155138,1,2,2,0,0,2026-10-08T06:46:21.752Z-->

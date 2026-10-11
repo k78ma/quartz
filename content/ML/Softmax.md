@@ -50,7 +50,19 @@ $$
 $$
 
 #cards/dl
-Numerically stable softmax
+Softmax
+?
+$$
+\text{Softmax}(z) = \begin{bmatrix}
+\exp(z_{1}) / \sum_{i} \exp(z_{i}) \\
+\vdots \\
+\exp(z_{n}) / \sum_{i} \exp(z_{i})
+\end{bmatrix}
+$$
+<!--SR:!fsrs,2026-10-19T06:18:17.270Z,8,8.2956,1,2,1,0,0,2026-10-11T06:18:17.270Z-->
++++
+
+Numerically stable softmax implementation
 ?
 Subtracting the same constant $c$ from every input does not change the output of the softmax. So we subtract the maximum element to prevent overflow.
 ```python
@@ -59,5 +71,5 @@ def softmax(items_in):
     exps = np.exp(shifted)
     return exps / np.sum(exps)
 ```
-<!--SR:!fsrs,2026-10-08T19:35:30.209Z,76,75.6749735,2.09745544,2,4,0,0,2026-07-24T19:35:30.209Z-->
+<!--SR:!fsrs,2027-04-14T06:18:09.936Z,185,185.14011494,4.73915103,2,5,0,0,2026-10-11T06:18:09.936Z-->
 +++

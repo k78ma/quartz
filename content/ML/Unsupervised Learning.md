@@ -31,5 +31,5 @@ Latent variable
 - Latent variables capture the underlying structure in the dataset
 - Usually have a lower dimension than the original data; in this sense, a latent variable $z$ can be considered a compressed version of a data example $x$ that captures its essential qualities.
 - Generative models map from latent variables $z$ to the data $x$.
-<!--SR:!fsrs,2026-10-04T03:51:56.324Z,51,50.66258029,2.1043314,2,3,0,0,2026-08-14T03:51:56.324Z-->
+<!--SR:!fsrs,2027-04-05T00:36:13.636Z,181,181.03652775,2.09745544,2,4,0,0,2026-10-06T00:36:13.636Z-->
 +++
