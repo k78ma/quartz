@@ -7,6 +7,8 @@ date: 2023-06-25
 aliases:
 ---
 Notes from: [[LADR4e.pdf|Linear Algebra Done Right]]
+
+test
 ## Vector Spaces
 ### $\mathbb{R}^{n}$ and $\mathbb{C}^{n}$
 - [[Complex Numbers]]
