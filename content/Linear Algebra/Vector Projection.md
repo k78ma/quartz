@@ -9,7 +9,7 @@ aliases: vector projection
 Vector projection of $a$ onto $b$
 ?
 $$
-\text{proj}_{b}a = \frac{a \cdot b}{b \cdot b}b
+\text{proj}_{b}a = \frac{a \cdot b}{b \cdot b}b = \frac{a \cdot b}{\left| \left | b \right| \right | ^{2}}b
 $$
-<!--SR:!fsrs,2026-10-13T03:04:50.225Z,0,2.3065,2.11810397,1,1,0,1,2026-10-13T02:54:50.225Z-->
+<!--SR:!fsrs,2026-10-30T01:38:47.452Z,14,13.82690327,2.11121424,2,2,0,0,2026-10-16T01:38:47.452Z-->
 +++

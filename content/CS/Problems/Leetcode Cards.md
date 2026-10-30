@@ -20,3 +20,4 @@ aliases:
 <!--SR:!fsrs,2027-02-12T22:51:18.721Z,138,137.89471768,2.97202955,2,4,0,0,2026-09-27T22:51:18.721Z-->
 
 [Longest Common Prefix](https://neetcode.io/problems/longest-common-prefix/question?list=neetcode250)::
+<!--SR:!fsrs,2026-10-16T06:43:44.690Z,0,2.3065,2.11810397,1,1,0,1,2026-10-16T06:33:44.690Z-->

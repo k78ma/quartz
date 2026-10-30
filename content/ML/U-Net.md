@@ -30,5 +30,5 @@ U-Net
 Encoder-decoder architecture for segmentation where we concatenate earlier representations with later ones.
 
 ![[U-Net-1782410177895.webp]]
-<!--SR:!fsrs,2026-10-14T06:53:03.419Z,6,5.52696724,7.65832629,2,6,1,0,2026-10-08T06:53:03.419Z-->
+<!--SR:!fsrs,2026-10-31T01:38:06.606Z,15,15.16361022,7.64589633,2,7,1,0,2026-10-16T01:38:06.606Z-->
 +++

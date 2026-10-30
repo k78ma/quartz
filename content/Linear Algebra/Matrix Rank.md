@@ -14,5 +14,5 @@ Alternatively, $\text{rank}(A)$ is the number of pivot columns in the correspond
 
 
 #cards/lin-alg 
-$\text{rank}(A)$::$\dim  (\text{Col}(A))$
-<!--SR:!fsrs,2026-10-19T06:18:50.954Z,8,8.2956,1,2,1,0,0,2026-10-11T06:18:50.954Z-->
+$\text{rank}(A)$::The maximum number of linearly independent row or column vectors in the matrix. $\dim  (\text{Col}(A))$
+<!--SR:!fsrs,2026-11-22T04:59:15.554Z,31,31.25755716,4.01060897,2,2,0,0,2026-10-22T04:59:15.554Z-->

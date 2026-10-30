@@ -18,6 +18,5 @@ A_{m,1} & \dots & A_{m,n}
 \lambda A_{m,1} & \dots & \lambda A_{m,n}
 \end{pmatrix}
 $$
-The matrix of a scalar times a linear map is equal to the scalar times the matrix of the linear map.
 
-Suppose $\lambda \in \mathbb{F}$ and $T \in \mathcal{L}(V,W)$. Then $\mathcal{M}(\lambda T)=\lambda \mathcal{M}(T)$.
+The matrix of a scalar times a linear map is equal to the scalar times the matrix of the linear map. Suppose $\lambda \in \mathbb{F}$ and $T \in \mathcal{L}(V,W)$. Then $\mathcal{M}(\lambda T)=\lambda \mathcal{M}(T)$.

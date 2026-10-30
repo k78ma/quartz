@@ -69,7 +69,7 @@ $$
 $$
 h_{i} \leftarrow \gamma h_{i}+\delta \quad \quad  \,\, \forall \, i\in  \mathcal{B}
 $$
-<!--SR:!fsrs,2026-10-15T20:27:44.661Z,68,68.40330795,6.4925753,2,5,0,0,2026-08-08T20:27:44.661Z-->
+<!--SR:!fsrs,2027-02-11T01:38:00.377Z,118,118.12399461,7.65683641,2,6,0,0,2026-10-16T01:38:00.377Z-->
 +++
 
 How does BatchNorm differ at test time vs. training?::At test time, we do not have a batch from which we can gather statistics. Thus, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.

@@ -45,7 +45,7 @@ When we change the parameters that determine $f_{1}$, all of the derivatives in 
 
 #cards/dl 
 Shattered gradients::In deep sequential networks, gradients at nearby points become nearly uncorrelated. Thus, finite-size optimization steps might land in regions with completely different gradient directions, making the loss surface irregular.
-<!--SR:!fsrs,2026-10-22T04:41:41.156Z,82,82.26286988,4.72925445,2,5,0,0,2026-08-01T04:41:41.156Z-->
+<!--SR:!fsrs,2027-04-02T04:56:46.908Z,162,162.24968604,6.48626186,2,6,0,0,2026-10-22T04:56:46.908Z-->
 
 Why do shattered gradients arise?::Composing many nonlinear layers causes small changes in inputs or early-layer parameters to propagate into complex changes in downstream activations, making the gradients vary rapidly and unpredictably.
 <!--SR:!fsrs,2027-07-29T06:43:15.952Z,294,293.5681286,2.96593361,2,5,0,0,2026-10-08T06:43:15.952Z-->

@@ -12,7 +12,7 @@ aliases: pytorch
 
 
 PyTorch number of dimensions::`tensor.ndim`. Can basically think of this as number of square brackets
-<!--SR:!fsrs,2026-10-22T18:28:01.710Z,33,32.61364066,4.01060897,2,2,0,0,2026-09-19T18:28:01.710Z-->
+<!--SR:!fsrs,2027-01-15T23:58:23.632Z,79,79.45357762,6.0091915,2,3,0,0,2026-10-28T23:58:23.632Z-->
 
 PyTorch tensor data::`tensor.item()`
 <!--SR:!fsrs,2026-11-07T18:27:28.286Z,49,48.73131776,1,2,2,0,0,2026-09-19T18:27:28.286Z-->

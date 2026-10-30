@@ -17,6 +17,7 @@ Notes from:
 - [[Law of Total Probability]]
 - [[Addition Law of Probability]]
 - [[Marginalization]]
+- [[Moment of a Random Variable]]
 ### Probability Densities
 - [[Probability Density Function]]
 	- [[Multivariate Probability Density]]

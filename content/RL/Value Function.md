@@ -44,5 +44,5 @@ $$
 q[s_{t}, a_{t} |\pi] = \mathbb{E}\big[G_{t}|s_{t}, a_{t}, \pi \big]
 $$
 Characterizes how good an action is based on the given state. It is the expected return if we start in this state, take this action, and follow the specified policy thereafter.
-<!--SR:!fsrs,2026-10-23T05:19:15.873Z,46,46.28021494,2.1043314,2,3,0,0,2026-09-07T05:19:15.873Z-->
+<!--SR:!fsrs,2027-04-18T23:58:46.122Z,172,171.68676689,2.09745544,2,4,0,0,2026-10-28T23:58:46.122Z-->
 +++
