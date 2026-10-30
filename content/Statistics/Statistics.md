@@ -59,3 +59,5 @@ Notes from:
 
 ### Sampling
 - [[Ancestral Sampling]]
+
+- [[Bessel's Correction]]
