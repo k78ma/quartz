@@ -14,7 +14,6 @@ Some of these notes are also included in [[Machine Learning]].
 ## Foundations
 - [[Tensor]]
 - [[Einstein Notation]]
-
 ## Neural Networks
 - [[Supervised Learning]]
     - [[Linear Regression]]
