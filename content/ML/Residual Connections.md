@@ -65,7 +65,7 @@ In residual blocks, why do we do put the activation function first (ReLU→Linea
 If we do ReLU after Conv, each residual block can only add non-negative quantities.
 
 ![[Residual Connections-1782180242422.webp]]
-<!--SR:!fsrs,2026-11-02T00:05:33.498Z,58,57.50238999,4.01060897,2,4,0,0,2026-09-05T00:05:33.498Z-->
+<!--SR:!fsrs,2027-04-19T06:59:19.638Z,168,168.42810193,4.00182673,2,5,0,0,2026-11-02T06:59:19.638Z-->
 +++
 
 Residual connection

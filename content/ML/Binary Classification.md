@@ -56,10 +56,12 @@ where $\ell_{i}$ is the loss for a particular data sample. See question 7.5 of [
 Binary cross entropy loss
 ?
 $$
-\sum_{i=1}^{N} -\bigg(t^{(i)}\log y^{(i)}+(1-t^{(i)})\log(1-y^{(i)})\bigg)
+\begin{align*}
+\text{BCELoss} &= \sum_{i=1}^{N} -t^{(i)}\log y^{(i)}-(1-t^{(i)})\log(1-y^{(i)}) \\[2ex]
+\end{align*}
 $$
-where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth.
-<!--SR:!fsrs,2026-11-01T23:58:16.564Z,4,3.76034157,9.70728665,2,10,2,0,2026-10-28T23:58:16.564Z-->
+where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth. This is derived from the maximizing the likelihood of a Bernoulli distribution.
+<!--SR:!fsrs,2026-11-08T07:02:48.399Z,6,6.31759047,9.69280773,2,11,2,0,2026-11-02T07:02:48.399Z-->
 +++
 
 Derivative of NLL w.r.t. pre-sigmoid activation
