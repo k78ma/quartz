@@ -5,7 +5,7 @@ tags:
 date: 2026-10-29
 aliases: matrix diagonalization
 ---
-#cards/lin-alg 
+#cards/lin-alg
 Diagonalizable matrix
 ?
 A square matrix $A$ is called diagonalizable if there exists a diagonal matrix $D$ and an invertible matrix $P$ such that $A=PDP^{-1}$.
@@ -25,6 +25,7 @@ v_{1} & v_{2} \\
 |  & |
 \end{bmatrix}^{-1}
 $$
+<!--SR:!fsrs,2026-11-10T07:15:36.322Z,8,8.2956,1,2,1,0,0,2026-11-02T07:15:36.322Z-->
 +++
 <!--SR:!fsrs,2026-11-03T05:56:21.779Z,4,3.94605407,1,2,2,0,0,2026-10-30T05:56:21.779Z-->
 
