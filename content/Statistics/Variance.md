@@ -38,6 +38,6 @@ $$
 \text{Var[X]}=E[(X-E[X])^{2}]
 $$
 - Characterizes how far the values of $X$ are from $E[X]$, on average. (Kind of like a mean squared loss)
-<!--SR:!fsrs,2026-11-11T04:59:45.041Z,20,19.90574281,2.1043314,2,3,0,0,2026-10-22T04:59:45.041Z-->
+<!--SR:!fsrs,2027-01-07T06:07:10.013Z,56,56.1147733,4.74371562,2,4,0,0,2026-11-12T06:07:10.013Z-->
 +++
 
