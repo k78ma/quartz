@@ -27,6 +27,7 @@ Notes from:
 - [[Variance]]
 - [[Covariance]]
 - [[Standard Deviation]]
+- [[Poisson Distribution]]
 ### Transformation of Densities
 - [[Transformation of Densities]]
 - [[Transformation of Multivariate Distributions]]

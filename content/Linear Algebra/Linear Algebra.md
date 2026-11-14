@@ -84,6 +84,7 @@ test
 - [[Frobenius Matrix]]
 - [[Affine Transformation]]
 - [[Vector Equations of Planes]]
+- [[Eigenvalues and Eigenvectors]]
 
 ## Singular Value Decomposition
 - [[Linear Forms]]
