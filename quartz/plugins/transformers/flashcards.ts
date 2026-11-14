@@ -2,6 +2,7 @@ import type { Blockquote, Paragraph, Root } from "mdast"
 import type { Properties } from "hast"
 import type { Plugin } from "unified"
 import type { Node, Position } from "unist"
+import type { VFile } from "vfile"
 import { visit } from "unist-util-visit"
 import type { QuartzTransformerPlugin } from "../types"
 
@@ -62,7 +63,9 @@ function quote(source: string) {
     .join("\n")
 }
 
-const remarkFlashcards: Plugin<[], Root> = function () {
+const markers = new WeakMap<VFile, string>()
+
+const remarkPrepareFlashcards: Plugin<[], Root> = function () {
   const processor = this
   return (tree, file) => {
     const source = file.toString()
@@ -256,37 +259,45 @@ const remarkFlashcards: Plugin<[], Root> = function () {
     }
 
     if (!changed) return
-    // Reparse with the configured Markdown extensions and the original document's definitions.
-    const parsed = processor.parse(generated.join("\n")) as Root
-    tree.children = parsed.children.map((node) => {
-      if (node.type !== "blockquote") return node
-      const [directive, front, divider, back] = node.children
-      if (
-        directive?.type !== "paragraph" ||
-        directive.children[0]?.type !== "text" ||
-        front?.type !== "blockquote"
-      )
-        return node
-      const value = directive.children[0].value
-      if (!value.startsWith(marker + " ")) return node
-      const prompt = front.children[0]
-      if (prompt?.type !== "paragraph") return node
-      for (const face of [prompt, back?.type === "blockquote" ? back.children[0] : undefined]) {
-        if (face?.type !== "paragraph") continue
-        const [start, end] = face.children
-        if (
-          start?.type === "html" &&
-          end?.type === "html" &&
-          start.value + end.value === inlineMarker
-        ) {
-          face.children.splice(0, 2)
-        }
-      }
-      if (value === marker + " cloze") return callout([prompt], true)
-      if (divider?.type !== "thematicBreak" || back?.type !== "blockquote") return node
-      return renderCard(prompt, back, value.endsWith(" reverse"))
-    })
+    // Obsidian Markdown can reparse the source, so retain the markers until it finishes.
+    markers.set(file, marker)
+    file.value = generated.join("\n")
+    return processor.parse(file) as Root
   }
+}
+
+const remarkRenderFlashcards: Plugin<[], Root> = () => (tree, file) => {
+  const marker = markers.get(file)
+  if (!marker) return
+  const inlineMarker = `<span data-${marker}></span>`
+  tree.children = tree.children.map((node) => {
+    if (node.type !== "blockquote") return node
+    const [directive, front, divider, back] = node.children
+    if (
+      directive?.type !== "paragraph" ||
+      directive.children[0]?.type !== "text" ||
+      front?.type !== "blockquote"
+    )
+      return node
+    const value = directive.children[0].value
+    if (!value.startsWith(marker + " ")) return node
+    const prompt = front.children[0]
+    if (prompt?.type !== "paragraph") return node
+    for (const face of [prompt, back?.type === "blockquote" ? back.children[0] : undefined]) {
+      if (face?.type !== "paragraph") continue
+      const [start, end] = face.children
+      if (
+        start?.type === "html" &&
+        end?.type === "html" &&
+        start.value + end.value === inlineMarker
+      ) {
+        face.children.splice(0, 2)
+      }
+    }
+    if (value === marker + " cloze") return callout([prompt], true)
+    if (divider?.type !== "thematicBreak" || back?.type !== "blockquote") return node
+    return renderCard(prompt, back, value.endsWith(" reverse"))
+  })
 }
 
 function enableReverseFlashcards() {
@@ -309,9 +320,14 @@ function enableReverseFlashcards() {
   })
 }
 
+export const PrepareFlashcards: QuartzTransformerPlugin = () => ({
+  name: "PrepareFlashcards",
+  markdownPlugins: () => [remarkPrepareFlashcards],
+})
+
 export const Flashcards: QuartzTransformerPlugin = () => ({
   name: "Flashcards",
-  markdownPlugins: () => [remarkFlashcards],
+  markdownPlugins: () => [remarkRenderFlashcards],
   externalResources: () => ({
     js: [
       {

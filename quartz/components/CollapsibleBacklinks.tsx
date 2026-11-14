@@ -2,7 +2,7 @@ import { componentRegistry } from "./registry"
 import type { QuartzComponent, QuartzComponentConstructor } from "./types"
 
 export function registerCollapsibleBacklinks() {
-  const plugin = componentRegistry.get("backlinks")
+  const plugin = componentRegistry.get("@quartz-community/backlinks/Backlinks")
   if (!plugin) return
 
   const createBacklinks = plugin.component as QuartzComponentConstructor<
