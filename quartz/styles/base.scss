@@ -29,7 +29,7 @@ body {
   border-radius: 5px;
 }
 ::selection {
-  background: color-mix(in srgb, var(--tertiary) 60%, rgba(255, 255, 255, 0));
+  background: color-mix(in srgb, var(--secondary) 30%, var(--light));
   color: var(--darkgray);
 }
 
@@ -85,10 +85,10 @@ a {
   font-weight: $semiBoldWeight;
   text-decoration: none;
   transition: color 0.2s ease;
-  color: var(--secondary);
+  color: var(--link-color);
 
   &:hover {
-    color: var(--tertiary);
+    color: var(--link-color-hover);
   }
 
   &.internal {
@@ -99,7 +99,7 @@ a {
     line-height: 1.4rem;
 
     &.broken {
-      color: var(--secondary);
+      color: var(--link-color);
       opacity: 0.5;
       transition: opacity 0.2s ease;
       &:hover {
@@ -257,13 +257,15 @@ a {
         height: unset;
         width: 100%;
         flex-direction: row;
+        flex-wrap: wrap;
         padding: 0;
         & > * {
           flex: 1;
           max-height: 24rem;
         }
         & > .toc {
-          display: none;
+          flex: 0 0 100%;
+          order: -1;
         }
       }
     }

@@ -2,7 +2,6 @@
 title: Eigenvalues and Eigenvectors
 tags:
   - lin-alg
-  - cards/lin-alg
 date: 2026-11-13
 aliases: eigenvalues and eigenvectors
 ---

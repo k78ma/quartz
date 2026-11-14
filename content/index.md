@@ -10,11 +10,11 @@ Welcome to my notes!
 >[!info] About Me
 >You can find my main website here: [Kai Ma](https://k78ma.github.io)
 
-### Currently working on:
+### Current Focus
 - [[Deep Learning]]
 - [[Robotics|Robotics]]
 - [[Computer Science|Computer Science]]
-### UWaterloo courses:
+### UWaterloo Courses
 - [[Tron 2B]]
 - [[Tron 3A]]
 - [[Tron 3B]]

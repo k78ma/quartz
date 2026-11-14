@@ -1,6 +1,68 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+:root {
+  --link-color: #355b98;
+  --link-color-hover: #274778;
+}
+
+:root[saved-theme="dark"] {
+  --link-color: #8cace5;
+  --link-color-hover: #b1c8f0;
+  // Use the exact Obsidian Things H2 color in dark mode.
+  --note-h2-color: #25855F;
+}
+
+article h2 {
+  color: var(--note-h2-color, var(--secondary));
+}
+
+article h3,
+.page-title > a {
+  color: var(--secondary);
+}
+
+.page-title > a:hover {
+  color: var(--tertiary);
+}
+
+details.backlinks {
+  min-height: 1.4rem;
+  overflow-y: hidden;
+
+  > summary {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    cursor: pointer;
+
+    &::-webkit-details-marker {
+      display: none;
+    }
+
+    > h3 {
+      font-size: 1rem;
+      margin: 0;
+    }
+
+    &::after {
+      content: "";
+      width: 0.4rem;
+      height: 0.4rem;
+      border: solid currentColor;
+      border-width: 0 2px 2px 0;
+      transform: rotate(-45deg);
+    }
+  }
+
+  &[open] > summary::after {
+    transform: rotate(45deg);
+  }
+}
+
+html .search > .search-container > .search-space > .search-layout .highlight,
+html .search-scroll-target {
+  background: var(--textHighlight);
+}
 
 .content-meta,
 .content-meta time,
