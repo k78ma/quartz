@@ -22,7 +22,7 @@ For neural networks, L2 regularization is usually applied to the weights but not
 
 L2 penalty tends to shrink the weights, but does not necessarily set them to zero. This can lead to models where the influence of each feature is small but not eliminated, resulting in a more distributed, and often more stable, set of weights.
 
-L2 regularization is smooth and differentiable, and hence it's easier to handle in optimization algorithms, such as [[gradient descent]].
+L2 regularization is smooth and differentiable, and hence it's easier to handle in optimization algorithms, such as [[Gradient Descent]].
 
 The figure below shows the effect of fitting a simple network with weight decay and different values of the regularization coefficient $\lambda$. 
 

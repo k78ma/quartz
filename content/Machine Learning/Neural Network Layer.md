@@ -26,4 +26,4 @@ and the output vector is:
 $$
 A = f(Z) = f(W^{T}X+W_{0})
 $$
-Single-layer networks allow us to make linear hypotheses, as we have seen with [[Linear Classifier|linear classifiers]] and [[regression]].
+Single-layer networks allow us to make linear hypotheses, as we have seen with [[Linear Classifier|linear classifiers]] and [[Regression]].

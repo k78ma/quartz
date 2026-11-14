@@ -8,7 +8,7 @@ date: 2024-02-09
 aliases:
   - MDP
 ---
-A Markov decision process is a variation of [[state machine]] in which:
+A Markov decision process is a variation of [[State Machine]] in which:
 - The transition functions are [[Stochastic vs. Deterministic|stochastic]], such that it defines a probability distribution over the next state given the previous state and input; each time it's evaluated, it draws a new state from that distribution.
 - The output is equal to the state (or $g$ is the identity function)
 - Some states or state-action pairs are more desirable than others

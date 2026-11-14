@@ -31,7 +31,7 @@ aliases: ece 457a - co-operative and adaptive algorithms
 - [[Greedy Best-First Search]]
 - [[Beam Search]]
 - [[A Search]]
-- [[A* Search]]
+- [[A-Star Search]]
 - [[Hill Climbing Search]]
 
 ## Game Playing as Search

@@ -1,5 +1,5 @@
 ---
-title: A* Search
+title: A-Star Search
 tags:
   - ece457a
 date: 2026-02-16

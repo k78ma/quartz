@@ -15,7 +15,7 @@ Generally:
 
 The exact design of these structures is an art—there is not currently any clear theoretical (or even systematic empirical) understanding of how these various design choices affect overall performance of the network.
 
-The critical point for us is that this is all just a big neural network, which takes an input and computes an output. The mapping is a differentiable function of the weights, which means we can adjust the weights to decrease the loss by performing gradient descent, and we can compute the relevant gradients using [[backpropagation]].
+The critical point for us is that this is all just a big neural network, which takes an input and computes an output. The mapping is a differentiable function of the weights, which means we can adjust the weights to decrease the loss by performing gradient descent, and we can compute the relevant gradients using [[Backpropagation]].
 
 ## Backpropagation Example
 Let’s work through a very simple example of how back-propagation can work on a convolutional network. The architecture is shown below. 

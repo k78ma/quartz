@@ -9,7 +9,7 @@ Recall that a heuristic is **admissible** if it never overestimates the true min
 $$
 \,\, \forall \, n: \quad  h(n) \leq h^{\ast  }*n
 $$
-where $h^{\ast }(n)$ is the optimal cost from $n$ to a goal. Admissible heuristics are very useful for things like [[A* Search]]. They provide an optimistic (may be wrong, but only by being too low), never lying by exaggerating difficulty.
+where $h^{\ast }(n)$ is the optimal cost from $n$ to a goal. Admissible heuristics are very useful for things like [[A-Star Search]]. They provide an optimistic (may be wrong, but only by being too low), never lying by exaggerating difficulty.
 
 How do we design admissible heuristics? An admissible heuristic is obtained by solving a relaxed version of the original problem. Toward this end, we can remove constraints, allowing more freedom than the real problem, then measure the cost in this easier problem.
 

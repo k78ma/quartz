@@ -32,7 +32,7 @@ where:
 The recursive formulation of the momentum calculation means that the gradient step is an infinite weighted sum of all the previous gradients, where the weights get smaller as we move back in time. The effective learning rate increases if all these gradients are aligned over multiple iterations but decreases if the gradient direction repeatedly changes as the terms in the sum cancel out. The overall effect is a smoother trajectory and reduced oscillatory behavior in valleys.
 
 ## MIT 6.036 Notes
-We can use methods like [[Running Averages]] to describe strategies for computing $\eta$. Momentum is a simple method that does this by "averaging" recent gradient updates, so that if they have been bouncing back and forth in some direction, we take out that component of the motion. For momentum, we have:
+We can use methods like [[Running averages]] to describe strategies for computing $\eta$. Momentum is a simple method that does this by "averaging" recent gradient updates, so that if they have been bouncing back and forth in some direction, we take out that component of the motion. For momentum, we have:
 $$
 \begin{align}
 V_{0}  & = 0 \\

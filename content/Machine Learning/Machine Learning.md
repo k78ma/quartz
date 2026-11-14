@@ -5,7 +5,6 @@ tags:
   - moc
 aliases:
   - ML
-  - ml
 date: 2023-06-25
 ---
 ## Relevant Areas
@@ -82,7 +81,7 @@ date: 2023-06-25
 
 ### Optimizing Neural Network Parameters
 - [[Adaptive step-size]]
-	- [[Running Averages]]
+	- [[Running averages]]
 	- [[Momentum (ML)]]
 	- [[Adadelta|Adagrad/Adadelta]]
 	- [[Adaptive moment estimation]]

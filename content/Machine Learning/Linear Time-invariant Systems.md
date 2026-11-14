@@ -93,7 +93,7 @@ $$
 where $\mathbf{A}\in \mathbb{R}^{n\times n}$, $\mathbf{b}\in \mathbb{R}^{n\times 1}$, $c \in \mathbb{R}^{1\times n}$, and $d \in \mathbb{R}$ are constant matrices.
 
 ## State Machine Interpretation
-Linear time-invariant systems can be seen as a [[state machine]] where $S = \mathbb{R}^{m}, X = \mathbb{R}^{1}, Y = \mathbb{R}^{n}$, and $f$ and $g$ are linear functions of their input. In discrete time, they can be described as a linear difference equation, like
+Linear time-invariant systems can be seen as a [[State Machine]] where $S = \mathbb{R}^{m}, X = \mathbb{R}^{1}, Y = \mathbb{R}^{n}$, and $f$ and $g$ are linear functions of their input. In discrete time, they can be described as a linear difference equation, like
 $$
 y[t]=3y[t-1]+6y[t-2]+5x[t]+3x[t-2]
 $$

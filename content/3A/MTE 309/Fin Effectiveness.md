@@ -11,7 +11,7 @@ Fins are used to enhance heat transfer, and the use of fins on a surface cannot 
 Thus, we want to answer: *What is the advantage of using a fin?* The performance of fins is expressed in terms of the fin effectiveness is defined as:
 $$
 \begin{align}
-\epsilon_{\text{fin}} & = \frac{\text{Heat transfer rate from fin of base area } A_{b}}{\text{Heat transfer rate from surface of area } A_{b}} \\[2ex] 
+\epsilon_{\text{fin}} & = \frac{\text{Heat transfer rate from fin of base area } A_{b}}{\text{Heat transfer rate from surface of area } A_{b}} \\[2ex] 
 & =\frac{\dot{Q}_{\text{fin}}}{\dot{Q}_{\text{no fin}}}\\[2ex] 
  & =\frac{\dot{Q}_{\text{fin}}}{hA_{b}(T_{b}-T_{\infty})}
 \end{align}
