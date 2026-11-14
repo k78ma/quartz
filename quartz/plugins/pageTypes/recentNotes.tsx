@@ -1,9 +1,11 @@
 import { Date, getDate, ValidDateType } from "../../components/Date"
 import { QuartzComponent } from "../../components/types"
 import { GlobalConfiguration } from "../../cfg"
+import { i18n } from "../../i18n"
 import { QuartzPageTypePlugin } from "../types"
 import { QuartzPluginData } from "../vfile"
 import { type FullSlug, isFolderPath, resolveRelative } from "../../util/path"
+import { match } from "./matchers"
 
 function isTagPageSlug(slug: string | undefined): boolean {
   if (!slug) return false
@@ -12,12 +14,7 @@ function isTagPageSlug(slug: string | undefined): boolean {
 
 function shouldIncludeInRecentNotes(page: QuartzPluginData): boolean {
   const slug = page.slug as string | undefined
-  return (
-    slug !== undefined &&
-    page.unlisted !== true &&
-    !isTagPageSlug(slug) &&
-    !isFolderPath(slug)
-  )
+  return slug !== undefined && page.unlisted !== true && !isTagPageSlug(slug) && !isFolderPath(slug)
 }
 
 function resolveDefaultDateType(
@@ -59,7 +56,9 @@ function byResolvedDateAndAlphabetical(cfg: GlobalConfiguration) {
 }
 
 const RecentNotesPageBody: QuartzComponent = ({ allFiles, cfg, fileData }) => {
-  const pages = [...allFiles].filter((page) => shouldIncludeInRecentNotes(page)).sort(byResolvedDateAndAlphabetical(cfg))
+  const pages = [...allFiles]
+    .filter((page) => shouldIncludeInRecentNotes(page))
+    .sort(byResolvedDateAndAlphabetical(cfg))
 
   return (
     <article class="recent-notes-page popover-hint">
@@ -155,8 +154,16 @@ li.section-li > .section .meta {
 
 export const RecentNotesPageType: QuartzPageTypePlugin = () => ({
   name: "RecentNotesPage",
-  priority: 1000,
-  match: ({ slug }) => slug === "recent-notes" || slug === "recent-notes/index",
+  match: match.none(),
+  generate({ cfg }) {
+    return [
+      {
+        slug: "recent-notes/index",
+        title: i18n(cfg.locale).components.recentNotes.title,
+        data: { unlisted: true },
+      },
+    ]
+  },
   layout: "recentNotes",
   body: () => RecentNotesPageBody,
 })
