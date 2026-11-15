@@ -22,18 +22,16 @@ When our input is an RGB image, we treat it as a 2D signal with 3 channels corre
 ![[2D Convolution-1774495491282.webp]]
 
 To generate multiple output channels, we repeat this process with different kernel weights and append the results to form a 3D [[Tensor|tensor]].
-- If the kernel is size $K\times K$ and there are $C_{i}$ input channels, each output channel is a weighted sum of $C_{i} \times K \times K$ quantities plus one bias.
-- Thus, to compute $C_{o}$ output channels, we need $C_{i} \times C_{o}\times K\times K$ weights and $C_{o}$ biases.
 
-The resulting output dimension is given by:
-$$
-N_{\text{out}} = \left\lfloor \frac{N_{\text{in}}+2N_{\text{pad}}-N_{\text{kernel}}}{N_{\text{stride}}} \right \rfloor +1
-$$
-
-#cards/dl
 How many weights and biases for a 2D convolution?
 ?
 - If the kernel is size $K\times K$ and there are $C_{i}$ input channels, each output channel is a weighted sum of $C_{i} \times K \times K$ quantities plus one bias.
 - Thus, to compute $C_{o}$ output channels, we need $C_{i} \times C_{o}\times K\times K$ weights and $C_{o}$ biases.
 <!--SR:!fsrs,2026-11-26T03:16:11.674Z,99,98.72394026,1,2,4,0,0,2026-08-19T03:16:11.674Z-->
 +++
+
+The resulting output dimension is given by:
+$$
+N_{\text{out}} = \left\lfloor \frac{N_{\text{in}}+2N_{\text{pad}}-N_{\text{kernel}}}{N_{\text{stride}}} \right \rfloor +1
+$$
+

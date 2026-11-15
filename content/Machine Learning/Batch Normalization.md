@@ -10,48 +10,6 @@ aliases:
 Batch normalization shifts and rescales each activation $h$ so that its mean and variance across the batch $\mathcal{B}$ become values that are learned during training. It is primarily useful for training stability, alleviating issues such as [[Exploding Gradients in Residual Networks|exploding gradients in residual networks]]. 
 - BatchNorm was originally developed to address the problem of [[Covariate Shift]], but has been shown to not be useful; instead, it seems to make the loss surface smoother.
 
-First, the empirical mean $m_{h}$ and standard deviation $s_{h}$ are computed:
-$$
-\begin{align}
-m_{h}  & = \frac{1}{\left| \mathcal{B} \right| } \sum_{i\in  \mathcal{B}}h_{i} \\[2ex] 
-s_{h} & = \sqrt{ \frac{1}{\left| \mathcal{B} \right| } \sum_{i\in  \mathcal{B}}(h_{i}-m_{h})^{2} }
-\end{align}
-$$
-where all quantities are scalars.
-
-Then, we standardize the batch activations to have mean zero and unit variance:
-$$
-h_{i} \leftarrow \frac{h_{i}-m_{h}}{s_{h}+\epsilon}\quad \quad   \,\, \forall \, i \in  \mathcal{B,}
-$$
-where $\epsilon$ is a small number that prevents division by zero if $h_{i}$ is the same for every member of the batch and $s_{h}=0$.
-
-Finally, the normalized variable is scaled by $\gamma$ and shifted by $\delta$:
-$$
-h_{i} \leftarrow \gamma h_{i}+\delta \quad \quad  \,\, \forall \, i\in  \mathcal{B}
-$$
-After this operation, the activations have mean $\delta$ and standard deviation $\gamma$ across all members of the batch. Both of these quantities are learned during training, so we [[BatchNorm Backprop|backprop]] through them. 
-- Thus, BatchNorm adds two parameters per hidden unit.
-
-Batch normalization is applied independently to each hidden unit. 
-- In a standard network with $K$ layers, each containing $D$ hidden units, there would be $KD$ learned offsets $\delta$ and $KD$ learned scales $\gamma$. 
-- In a convolutional neural network, the normalizing statistics are computed over both the batch and the spatial positions. If there were $K$ layers with $C$ channels, there would be $KC$ offsets and $KC$ scales.
-
-**Inference/test time:** At test time, we do not have a batch from which we can gather statistics. Thus, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.
-
-**Weaknesses:**
-- Performance can degrade with small batch sizes because the estimate of the mean and variance becomes less accurate.
-- Introduces a dependency between the examples in a mini-batch, which can be problematic for tasks that require strong independence assumptions between samples
-- BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
-
-**Benefits:**
-- Stable forward propagation. If we initialize the offsets $\delta=0$ and the scales $\gamma=1$, then each output activation will have unit variance.
-    - In a regular network, this ensures the variance is stable during forward propagation at initialization.
-    - In a [[Residual Networks|residual network]], the variance must still increase as we add a new source of variation to the input at each layer. However it will increase linearly with each residual block; the $k$-th layer adds one unit of variance to the existing variance $k$.
-- Higher learning rates. Empirical studies and theory both show that batch normalization makes the loss surface and its gradient change more smoothly (i.e., reduces [[Shattered Gradients|shattered gradients]]). This means that we can use higher learning rates, which was shown through [[Implicit Regularization|implicit regularization]] to generalize better.
-- Regularization. Batch normalization is a form of [[Applying Noise During Training|applying noise during training]], because the normalization depends on the batch statistics. The activations for a given training example are normalized by an amount that depends on the other members of the batch and will be slightly different at each training iteration.
-
-
-#cards/dl
 BatchNorm steps (batch $\mathcal{B}$ with activations $h$)
 ?
 1. Calculate mean and standard deviation statistics across batch:
@@ -61,7 +19,7 @@ m_{h}  & = \frac{1}{\left| \mathcal{B} \right| } \sum_{i\in  \mathcal{B}}h_{i} \
 s_{h} & = \sqrt{ \frac{1}{\left| \mathcal{B} \right| } \sum_{i\in  \mathcal{B}}(h_{i}-m_{h})^{2} }
 \end{align}
 $$
-2. Standardize to zero mean and unit variance:
+2. Standardize to zero mean and unit variance, where $\epsilon$ is a small number that prevents division by zero:
 $$
 h_{i} \leftarrow \frac{h_{i}-m_{h}}{s_{h}+\epsilon}\quad \quad   \,\, \forall \, i \in  \mathcal{B,}
 $$
@@ -69,22 +27,51 @@ $$
 $$
 h_{i} \leftarrow \gamma h_{i}+\delta \quad \quad  \,\, \forall \, i\in  \mathcal{B}
 $$
+After this operation, the activations have mean $\delta$ and standard deviation $\gamma$ across all members of the batch.
 <!--SR:!fsrs,2027-02-11T01:38:00.377Z,118,118.12399461,7.65683641,2,6,0,0,2026-10-16T01:38:00.377Z-->
 +++
+
+Batch normalization is applied independently to each hidden unit. 
+- In a standard network with $K$ layers, each containing $D$ hidden units, there would be $KD$ learned offsets $\delta$ and $KD$ learned scales $\gamma$. 
+- In a convolutional neural network, the normalizing statistics are computed over both the batch and the spatial positions. If there were $K$ layers with $C$ channels, there would be $KC$ offsets and $KC$ scales.
 
 How does BatchNorm differ at test time vs. training?::At test time, we do not have a batch from which we can gather statistics. Thus, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.
 <!--SR:!fsrs,2027-06-14T23:30:25.977Z,289,288.50527782,1,2,5,0,0,2026-08-29T23:30:25.977Z-->
 
-How does BatchNorm improve forward pass stability?::It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
+**Weaknesses:**
+- Performance can degrade with small batch sizes because the estimate of the mean and variance becomes less accurate.
+- Introduces a dependency between the examples in a mini-batch, which can be problematic for tasks that require strong independence assumptions between samples
+- BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
+
+## Benefits
+How does BatchNorm improve forward pass stability?
+?
+It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
+- In a regular network, this ensures the variance is stable during forward propagation at initialization.
+- In a [[Residual Networks|residual network]], the variance must still increase as we add a new source of variation to the input at each layer. However it will increase linearly with each residual block; the $k$-th layer adds one unit of variance to the existing variance $k$.
++++
 <!--SR:!fsrs,2027-02-17T04:14:49.029Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T04:14:49.029Z-->
 
-Why does batch normalization allow us to use higher learning rate?:It makes the loss surface gradients smoother, reducing shattered gradients.
+Why does batch normalization allow us to use higher learning rate?::It makes the loss surface gradients smoother, reducing shattered gradients.
+<!--SR:!fsrs,2026-11-15T05:43:08.976Z,0,2.3065,2.11810397,1,1,0,1,2026-11-15T05:33:08.976Z-->
 
-How does batch normalization provide regularization?::Because the normalization depends on the batch statistics, we essentially apply some noise during training.
+How does batch normalization provide regularization?::Because the normalization depends on the batch statistics, we essentially [[Applying Noise During Training|applying noise during training]].
 <!--SR:!fsrs,2027-02-17T05:06:31.428Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T05:06:31.428Z-->
 
 Why does BatchNorm sometimes degrade performance with small batch sizes?::Because the mean and variance becomes less accurate.
 <!--SR:!fsrs,2027-06-06T04:15:01.166Z,282,281.8043453,1,2,5,0,0,2026-08-28T04:15:01.166Z-->
 
-Adding BatchNorm to residual networks reduces variance scaling from exponential to ==linear==.
+Adding BatchNorm to residual networks reduces variance scaling from exponential to {=linear=}.
 <!--SR:!fsrs,2027-06-06T05:16:22.924Z,282,281.8043453,1,2,5,0,0,2026-08-28T05:16:22.924Z-->
+
+
+
+
+
+
+
+
+
+
+
+
