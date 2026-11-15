@@ -7,6 +7,9 @@ aliases:
   - graph convolutional network
   - GCN
 ---
+Graph convolutional networks::Take the node embeddings and adjacency matrix and outputs new node embeddings, aggregating information from nearby nodes.
+<!--SR:!fsrs,2027-01-05T05:17:37.293Z,120,119.56963203,2.09745544,2,4,0,0,2026-09-07T05:17:37.293Z-->
+
 Spatial-based convolutional graph neural networks, or GCNs for short, are a common type of [[Graph Neural Networks|graph neural network]].
 - They are convolutional in that they update each node by aggregating information from nearby nodes. As such, they induce a relational inductive bias, prioritizing information from neighbors.
 - They are spatial-based because they use the original graph structure. This contrasts with spectral-based methods, which apply convolutions in the Fourier domain.
@@ -138,9 +141,3 @@ $$
 \text{agg}[n]= \underset{m \in  \text{ne}[n]}{\operatorname{max}}[\mathbf{h}_{m}]
 $$
 where the operator $\text{max}[\bullet]$ return the element-wise maximum of the vectors $\mathbf{h}_{m}$ that are neighbors to the current node $n$.
-
-
-
-#cards/dl 
-Graph convolutional networks::Take the node embeddings and adjacency matrix and outputs new node embeddings, aggregating information from nearby nodes.
-<!--SR:!fsrs,2027-01-05T05:17:37.293Z,120,119.56963203,2.09745544,2,4,0,0,2026-09-07T05:17:37.293Z-->

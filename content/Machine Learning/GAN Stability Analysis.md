@@ -77,7 +77,6 @@ We can see an empirical version of this below. If the [[Deep Convolutional GAN|D
 ![[GAN Stability-1785537692436.webp]]
 
 
-#cards/dl
 Why are GANs hard to train?
 ?
 1. Training is a coupled, non-stationary game: updating either network changes the objective faced by the other.

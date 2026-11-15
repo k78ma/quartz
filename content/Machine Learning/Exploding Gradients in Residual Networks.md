@@ -17,7 +17,7 @@ One approach that would stabilize the forward and backward passes would be to us
 
 ![[Exploding Gradients in Residual Networks-1782238933944.webp]]
 
-#cards/dl 
+
 Residual networks have what kind of exploding/vanishing gradient problem?::Exponential increase in activations during forward pass and corresponding problems with exploding gradients. No problem with vanishing.
 <!--SR:!fsrs,2026-12-10T04:30:08.170Z,125,124.69358716,2.09745544,2,4,0,0,2026-08-07T04:30:08.170Z-->
 

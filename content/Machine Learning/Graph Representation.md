@@ -22,6 +22,13 @@ Consider encoding the $n$th node's position as a one-hot column vector (a vector
 
 In general, if we raise the adjacency matrix to the power of $L$, the entry at position $(m,n)$ of $\mathbf{A}^{L}$ contains the number of unique *walks* of length $L$ from node $m$ to node $n$. This is not the same as the number of unique paths since the walks include include routes that visit the same node more than once. Nonetheless, $\mathbf{A}^{L}$ still contains valuable information about the graph connectivity; a non-zero entry at position $(m,n)$ indicates that the distance from $m$ to $n$ must be less than or equal to $L$.
 
+For a graph, what does adjacency matrix taken to the $L$-th power $\mathbf{A}^{L}$ give us?
+?
+The entry at position $(m,n)$ of $\mathbf{A}^{L}$ contains the number of unique *walks* of length $L$ from node $m$ to node $n$.
+<!--SR:!fsrs,2027-04-22T06:42:45.235Z,196,196.40190742,2.09058635,2,5,0,0,2026-10-08T06:42:45.235Z-->
++++
+
+
 ![[Graph Representation-1784997988207.webp]]
 
 ## Permutation of node indices
@@ -38,9 +45,3 @@ $$
 $$
 where post-multiplying by $\mathbf{P}$ permutes the columns and pre-multiplying by $\mathbf{P}^{T}$ permutes the rows. It follows that any processing applied to the graph should also be indifferent to these permutations (permutation-invariant). Otherwise, the result will depend on the choice of node indices.
 
-#cards/dl
-For a graph, what does adjacency matrix taken to the $L$-th power $\mathbf{A}^{L}$ give us?
-?
-The entry at position $(m,n)$ of $\mathbf{A}^{L}$ contains the number of unique *walks* of length $L$ from node $m$ to node $n$.
-<!--SR:!fsrs,2027-04-22T06:42:45.235Z,196,196.40190742,2.09058635,2,5,0,0,2026-10-08T06:42:45.235Z-->
-+++

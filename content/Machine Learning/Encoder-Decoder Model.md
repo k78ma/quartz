@@ -21,7 +21,18 @@ This is achieved by modifying the transformer layers in the decoder. Originally,
 
 ![[Machine Translation-1782927031950.webp|563]]
 
-
-#cards/dl 
-Cross-attention::Used in encoder-decoder architectures to allow the decoder to attend to the encoder's output representations. Queries are computed from decoder embeddings, keys and values are from encoder embeddings.
+What is cross-attention used for?::Used in encoder-decoder architectures to allow the decoder to attend to the encoder's output representations.
 <!--SR:!fsrs,2027-01-25T00:03:51.723Z,142,142.16696858,2.95933514,2,5,0,0,2026-09-05T00:03:51.723Z-->
+
+In cross-attention, the queries are computed from {=decoder=} embeddings.
+<!--SR:!fsrs,2026-11-23T06:35:50.607Z,8,8.2956,1,2,1,0,0,2026-11-15T06:35:50.607Z-->
++++
+
+In cross-attention, keys and values are from {=encoder=} embeddings.
+<!--SR:!fsrs,2026-11-15T06:44:34.151Z,0,2.3065,2.11810397,1,1,0,1,2026-11-15T06:34:34.151Z-->
++++
+
+
+
+
+

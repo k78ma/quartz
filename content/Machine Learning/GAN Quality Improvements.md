@@ -25,6 +25,8 @@ Mini-batch discrimination ensures that the samples have sufficient variety and h
 
 This can be done by computing feature statistics across the mini-batches of synthesized and real data. These can be summarized and added as a [[Feature Map|feature map]] (usually toward the end of the discriminator). This allows the discriminator to use the batch statistics as part of its classification; this will send a signal back to the generator, encouraging it to include a similar amount of variation in the synthesized data as in the original set. 
 
+How does minibatch discrimination help avoid mode collapse in GANs?::Feature statistics across a batch are calculated and included as an input to the discriminator. Thus, the generator is incentivized to produce similar statistics as the real distribution, preventing model collapse.
+<!--SR:!fsrs,2026-12-05T02:55:40.433Z,85,84.5365166,4.74371562,2,4,0,0,2026-09-11T02:55:40.433Z-->
 ## Truncation
 In truncation, only latent variables $z$ with high probability (i.e. close to the mean) are chosen during sampling. This reduces the variation in the samples but improves their quality.
 
@@ -35,6 +37,3 @@ Moving smoothly through the latent space can also sometimes produce realistic in
 ![[GAN Quality Improvements-1785609885573.webp]]
 
 
-#cards/dl 
-How does minibatch discrimination help avoid mode collapse in GANs?::Feature statistics across a batch are calculated and included as an input to the discriminator. Thus, the generator is incentivized to produce similar statistics as the real distribution, preventing model collapse.
-<!--SR:!fsrs,2026-12-05T02:55:40.433Z,85,84.5365166,4.74371562,2,4,0,0,2026-09-11T02:55:40.433Z-->

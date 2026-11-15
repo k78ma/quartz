@@ -10,6 +10,15 @@ aliases:
 ---
 A generative adversarial network or GAN is an unsupervised model that aims to generate new samples that are indistinguishable from a set of training examples.
 
+GAN
+?
+- Generator network creates samples by mapping random noise to the output data space.
+- Discriminator network tries to classify real examples vs. generated samples.
+- Both are trained together in a minimax game where the generator tries to fool the discriminator while the discriminator learns to detect fakes.
+- At equilibrium, the generated samples become difficult to distinguish from real data.
+<!--SR:!fsrs,2026-12-26T18:27:38.545Z,98,97.79790982,4.72925445,2,5,0,0,2026-09-19T18:27:38.545Z-->
++++
+
 In a GAN, the main **generator** network creates samples by mapping random noise to the output data space. If a second **discriminator** network cannot distinguish between the generated samples and real examples, the samples must be plausible. If the discriminator can tell the difference, this provides a training signal that can be fed back to improve the quality of the samples. The idea is simple, but training GANs can be difficult: the learning algorithm can be unstable, and although GANS may learn to generate realistic samples, this does not mean they learn to generate *all* possible samples.
 
 GANs just create new samples but do not build a probability over the modeled data, and hence cannot evaluate the probability that a new data point belongs to the same distribution. They have been applied to many types of data, but are most successful in the image domain.
@@ -75,12 +84,3 @@ At each step, we draw a batch of latent variables $z_{j}$ from the base distribu
 
 ![[Generative Adversarial Network-1785459863788.webp]]
 
-#cards/dl
-GAN
-?
-- Generator network creates samples by mapping random noise to the output data space.
-- Discriminator network tries to classify real examples vs. generated samples.
-- Both are trained together in a minimax game where the generator tries to fool the discriminator while the discriminator learns to detect fakes.
-- At equilibrium, the generated samples become difficult to distinguish from real data.
-<!--SR:!fsrs,2026-12-26T18:27:38.545Z,98,97.79790982,4.72925445,2,5,0,0,2026-09-19T18:27:38.545Z-->
-+++
