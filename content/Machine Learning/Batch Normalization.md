@@ -38,31 +38,35 @@ Batch normalization is applied independently to each hidden unit.
 How does BatchNorm differ at test time vs. training?::At test time, we do not have a batch from which we can gather statistics. Thus, the statistics $m_{h}$ and $s_{h}$ are calculated across the whole training dataset (rather than just a batch) and frozen in the final network.
 <!--SR:!fsrs,2027-06-14T23:30:25.977Z,289,288.50527782,1,2,5,0,0,2026-08-29T23:30:25.977Z-->
 
-**Weaknesses:**
-- Performance can degrade with small batch sizes because the estimate of the mean and variance becomes less accurate.
-- Introduces a dependency between the examples in a mini-batch, which can be problematic for tasks that require strong independence assumptions between samples
-- BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
-
 ## Benefits
+
 How does BatchNorm improve forward pass stability?
 ?
 It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
 - In a regular network, this ensures the variance is stable during forward propagation at initialization.
 - In a [[Residual Networks|residual network]], the variance must still increase as we add a new source of variation to the input at each layer. However it will increase linearly with each residual block; the $k$-th layer adds one unit of variance to the existing variance $k$.
+<!--SR:!fsrs,2026-11-23T05:44:31.066Z,8,8.2956,1,2,1,0,0,2026-11-15T05:44:31.066Z-->
 +++
 <!--SR:!fsrs,2027-02-17T04:14:49.029Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T04:14:49.029Z-->
 
+Adding BatchNorm to residual networks reduces variance scaling from exponential to {=linear=}.
+<!--SR:!fsrs,2027-06-06T05:16:22.924Z,282,281.8043453,1,2,5,0,0,2026-08-28T05:16:22.924Z-->
+
 Why does batch normalization allow us to use higher learning rate?::It makes the loss surface gradients smoother, reducing shattered gradients.
-<!--SR:!fsrs,2026-11-15T05:43:08.976Z,0,2.3065,2.11810397,1,1,0,1,2026-11-15T05:33:08.976Z-->
+<!--SR:!fsrs,2026-11-17T05:43:50.264Z,2,2.3065,2.11121424,2,2,0,0,2026-11-15T05:43:50.264Z-->
 
 How does batch normalization provide regularization?::Because the normalization depends on the batch statistics, we essentially [[Applying Noise During Training|applying noise during training]].
 <!--SR:!fsrs,2027-02-17T05:06:31.428Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T05:06:31.428Z-->
 
+## Weaknesses
 Why does BatchNorm sometimes degrade performance with small batch sizes?::Because the mean and variance becomes less accurate.
 <!--SR:!fsrs,2027-06-06T04:15:01.166Z,282,281.8043453,1,2,5,0,0,2026-08-28T04:15:01.166Z-->
 
-Adding BatchNorm to residual networks reduces variance scaling from exponential to {=linear=}.
-<!--SR:!fsrs,2027-06-06T05:16:22.924Z,282,281.8043453,1,2,5,0,0,2026-08-28T05:16:22.924Z-->
+Why is BatchNorm problematic for tasks that require strong independence assumptions between samples?::It introduces a dependency between the examples in a mini-batch as we use batch statistics in training.
+<!--SR:!fsrs,2026-11-23T05:42:44.592Z,8,8.2956,1,2,1,0,0,2026-11-15T05:42:44.592Z-->
+
+How does BatchNorm produce redundancy/inefficiency with respect to the number of weights?::BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
+<!--SR:!fsrs,2026-11-15T05:54:18.908Z,0,2.3065,2.11810397,1,1,0,1,2026-11-15T05:44:18.908Z-->
 
 
 
