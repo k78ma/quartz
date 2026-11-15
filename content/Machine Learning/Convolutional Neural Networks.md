@@ -11,6 +11,7 @@ Typical [[Neural Networks]] provide a general mapping from an input space to an 
 
 Convolutional layers are ideal for image processing. They can take advantage of the [[Invariance and Equivariance|invariance and equivariance]] properties of images. Each local image region is processed independently, using parameters shared across the whole image. They use fewer parameters than fully connected layers, exploit spatial relationships between nearby pixels, and don't have to re-learn the interpretation of the pixels at every position. A network predominantly consisting of convolutional layers is known as a **convolutional neural network** or **CNN**. 
 
+
 In [[Convolutional Layer#Convolutional vs. fully-connected layers|convolutional vs. fully-connected layers]], we saw that we can consider a convolutional layer to be a special case of the fully connected layer. However, a fully connected network has to learn what each class looks like at every position; in contrasts, a convolutional network shares information across positions.
 
 Some other ways we can think about it:
@@ -20,11 +21,12 @@ Some other ways we can think about it:
 ## Motivation
 Images have some properties that suggest the need for specialized model architectures as opposed to simple fully connected networks.
 
-An image is described as a two-dimensional array of pixels, A pixel may be represented by three integer values, encoding intensity levels in red, green, and blue color channels. This makes images quite **high-dimensional**; as hidden layers in fully connected networks are generally larger than the input size, so even for a shallow network, the number of weights would be quite large, posing some problems in terms of required data, memory, and compute.
-
-Second, there is the fact of **spatial locality**: nearby image pixels are statistically related. The set of pixels we will have to take into consideration to find a cat in an image will be near one another. However, if the pixels of the training and test images are randomly permuted in the same way, the network could still be trained with no practical difference.
-
-Third, image interpretation is stable under geometric transformations ([[Invariance and Equivariance]]). The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs. However, shifting the object changes every input to the network, so a fully connected model must learn the patterns of pixels that signify a cat at every position, which is inefficient.
+Why is convolutional better than FC for images?
+?
+- High dimensional – FC networks would need a lot of weights, convolutional networks are more parameter efficient as the same kernels are re-used across image
+- Spatial locality: Nearby pixels are statistically related. The set of pixels we will have to take into consideration to find a cat in an image will be near one another. 
+- [[Invariance and Equivariance]] under geometric transformations. The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs. However, shifting the object changes every input to the network, so a fully connected model must learn the patterns of pixels that signify a cat at every position, which is inefficient.
+<!--SR:!fsrs,2027-01-09T02:56:00.601Z,120,119.56963203,2.09745544,2,4,0,0,2026-09-11T02:56:00.601Z-->
 
 Parts of CNNs:
 - [[1D Convolution]]
@@ -36,9 +38,3 @@ Parts of CNNs:
 - [[CNN Architecture]]
 
 
-#cards/dl
-Why is convolutional better than FC for images?
-?
-- High dimensional – FC networks would need a lot of weights, convolutional networks are more parameter efficient as the same kernels are re-used across image
-- Image interpretation is invariant/equivariant under geometric transformations. The pattern of pixels that characterizes a cat is the same no matter where in the image the cat occurs. However, shifting the object changes every input to the network, so a fully connected model must learn the patterns of pixels that signify a cat at every position, which is inefficient.
-<!--SR:!fsrs,2027-01-09T02:56:00.601Z,120,119.56963203,2.09745544,2,4,0,0,2026-09-11T02:56:00.601Z-->

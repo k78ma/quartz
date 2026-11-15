@@ -44,15 +44,6 @@ L[\phi]=\sum_{i=1}^{I}-(1-y_{i})\log \Big[1- \text{sig}[f[\mathbf{x}_{i}, \phi]]
 $$
 This is known as [[Binary Cross-Entropy Loss|binary cross-entropy loss]].
 
-The transformed model output $\text{sig}[f[\mathbf{x}, \phi]]$ predicts the parameter $\lambda$ of the Bernoulli distribution. This represents the probability that $y=1$, and it follows that $1-\lambda$ represents the probability that $y=0$. When we perform inference, we may want a point estimate of $y$, so we set $y=1$ if $\lambda>0.5$ and $y=0$ otherwise.
-
-An important result is that:
-$$
-\frac{ \partial \ell_{i} }{ \partial \text{f}[\mathbf{x}_{i}, \phi] } = \text{sig}[\text{f}[\mathbf{x}_{i}, \phi]]-y_{i}
-$$
-where $\ell_{i}$ is the loss for a particular data sample. See question 7.5 of [[UDL Chapter 7 Problems]] for how this is derived – I quite liked this derivation!
-
-#cards/dl
 Binary cross entropy loss
 ?
 $$
@@ -63,6 +54,14 @@ $$
 where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth. This is derived from the maximizing the likelihood of a Bernoulli distribution.
 <!--SR:!fsrs,2026-11-24T03:39:54.527Z,14,13.54010745,9.57538676,2,12,2,0,2026-11-10T03:39:54.527Z-->
 +++
+
+The transformed model output $\text{sig}[f[\mathbf{x}, \phi]]$ predicts the parameter $\lambda$ of the Bernoulli distribution. This represents the probability that $y=1$, and it follows that $1-\lambda$ represents the probability that $y=0$. When we perform inference, we may want a point estimate of $y$, so we set $y=1$ if $\lambda>0.5$ and $y=0$ otherwise.
+
+An important result is that:
+$$
+\frac{ \partial \ell_{i} }{ \partial \text{f}[\mathbf{x}_{i}, \phi] } = \text{sig}[\text{f}[\mathbf{x}_{i}, \phi]]-y_{i}
+$$
+where $\ell_{i}$ is the loss for a particular data sample. See question 7.5 of [[UDL Chapter 7 Problems]] for how this is derived – I quite liked this derivation!
 
 Derivative of NLL w.r.t. pre-sigmoid activation
 ?

@@ -66,7 +66,7 @@ Why is BatchNorm problematic for tasks that require strong independence assumpti
 <!--SR:!fsrs,2026-11-23T05:42:44.592Z,8,8.2956,1,2,1,0,0,2026-11-15T05:42:44.592Z-->
 
 How does BatchNorm produce redundancy/inefficiency with respect to the number of weights?::BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
-<!--SR:!fsrs,2026-11-15T05:54:18.908Z,0,2.3065,2.11810397,1,1,0,1,2026-11-15T05:44:18.908Z-->
+<!--SR:!fsrs,2026-11-19T06:05:21.160Z,4,3.94605407,1,2,2,0,0,2026-11-15T06:05:21.160Z-->
 
 
 

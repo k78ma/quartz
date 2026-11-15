@@ -5,11 +5,14 @@ tags:
 date: 2026-10-29
 aliases: matrix diagonalization
 ---
-#cards/lin-alg
 Diagonalizable matrix
 ?
 A square matrix $A$ is called diagonalizable if there exists a diagonal matrix $D$ and an invertible matrix $P$ such that $A=PDP^{-1}$.
+<!--SR:!fsrs,2026-12-26T06:06:38.032Z,44,44.09694232,1,2,2,0,0,2026-11-12T06:06:38.032Z-->
++++
 
+What are the components of $P$ and $D$ in a diagonalized matrix $A=PDP^{-1}$?
+?
 The columns of $P$ are given by independent eigenvectors $v_{1}$ and $v_{2}$, while the diagonal values of $D$ are the corresponding eigenvalues:
 $$
 A = \begin{bmatrix}
@@ -25,9 +28,8 @@ v_{1} & v_{2} \\
 |  & |
 \end{bmatrix}^{-1}
 $$
-<!--SR:!fsrs,2026-12-26T06:06:38.032Z,44,44.09694232,1,2,2,0,0,2026-11-12T06:06:38.032Z-->
+<!--SR:!fsrs,2026-11-23T05:50:57.909Z,8,8.2956,1,2,1,0,0,2026-11-15T05:50:57.909Z-->
 +++
-<!--SR:!fsrs,2026-11-03T05:56:21.779Z,4,3.94605407,1,2,2,0,0,2026-10-30T05:56:21.779Z-->
 
 Steps to diagonalize:
 1. Find eigenvalues of the matrix by solving the characteristic equation $\left| A-\lambda I \right|=0$.
@@ -48,8 +50,12 @@ A^{2}&= PDP^{-1} \cdot  PDP^{-1}\\[2ex]
 &= PD^{2}P^{-1}
 \end{align*}
 $$
-In general:
+
+How can we use the diagonalization of a matrix $A$ to find $A^{k}$?
+?
 $$
 A^{k}=P D^{k}P^{-1}
 $$
-and since $D$ is diagonal, $D^{k}$ is easy to obtain.
+Since $D$ is diagonal, $D^{k}$ is easy to obtain.
+<!--SR:!fsrs,2026-11-23T05:51:23.073Z,8,8.2956,1,2,1,0,0,2026-11-15T05:51:23.073Z-->
++++

@@ -27,6 +27,10 @@ $$
 $$
 The scalar weight $a[x_{m}, x_{n}]$ is the **attention** that the $n$-th output pays to input $x_{m}$. The $N$ weights $a[\bullet, x_{n}]$ are non-negative and sum to one. Thus, self-attention can be thought of as *routing* the values in different proportions to create each output.
 
+What are the numerical properties of attention weights?::They are non-negative and sum to 1 because of softmax.
+<!--SR:!fsrs,2027-04-14T06:15:13.689Z,185,185.14011494,4.73915103,2,5,0,0,2026-10-11T06:15:13.689Z-->
+
+
 ![[Attention-1782523042806.webp]]
 
 ### Computing values
@@ -38,6 +42,12 @@ The same weights $\Omega_{v} \in \mathbb{R}^{D\times D}$ and biases $\beta_{v}\i
 The attention weights $a[x_{m}, x_{n}]$ combine the values from different inputs. They are also sparse, since there is only one weight for each ordered pair of inputs $(x_{m}, x_{n})$, regardless of the size of these inputs (see Figure 12.2c). 
 
 The number of attention weights has a quadratic dependence on the sequence length $N$, but is independent of the length $D$ of each input.
+
+How does the number of attention weights depend on the sequence length $N$?::Quadratically. Each of the $N$ query vectors attends to all $N$ key vectors, producing an $N \times N$ attention matrix.
+<!--SR:!fsrs,2027-06-18T23:57:54.505Z,253,252.75166378,2.09058635,2,5,0,0,2026-10-08T23:57:54.505Z-->
+
+How does the number of attention weights depend on the input dimension $D$?::No dependence
+<!--SR:!fsrs,2027-06-26T06:15:04.537Z,258,257.69216911,2.09058635,2,5,0,0,2026-10-11T06:15:04.537Z-->
 
 ### Computing attention weights with queries and keys
 The outputs results from two chained linear transformations: the value vectors are computed independently for each input $x_{m}$, and then combined linearly by attention weights $a[x_{m}, x_{n}]$. However, the overall self-attention computation is nonlinear as the attention weights are nonlinear functions of the input.
@@ -109,17 +119,7 @@ $$
 $$
 
 #cards/dl 
-How does the number of attention weights depend on the sequence length $N$?::Quadratically. Each of the $N$ query vectors attends to all $N$ key vectors, producing an $N \times N$ attention matrix.
-<!--SR:!fsrs,2027-06-18T23:57:54.505Z,253,252.75166378,2.09058635,2,5,0,0,2026-10-08T23:57:54.505Z-->
 
-How does the number of attention weights depend on the input dimension $D$?::No dependence
-<!--SR:!fsrs,2027-06-26T06:15:04.537Z,258,257.69216911,2.09058635,2,5,0,0,2026-10-11T06:15:04.537Z-->
-
-What are the numerical properties of attention weights?::They are non-negative and sum to 1 because of softmax.
-<!--SR:!fsrs,2027-04-14T06:15:13.689Z,185,185.14011494,4.73915103,2,5,0,0,2026-10-11T06:15:13.689Z-->
-
-Why is self-attention non-linear even with no activation function?::Dot-product and softmax
-<!--SR:!fsrs,2027-06-26T06:16:29.096Z,258,257.69216911,2.09058635,2,5,0,0,2026-10-11T06:16:29.096Z-->
 
 In dot-product self-attention, how is parameter sharing done?::To calculate queries, keys, and values, the same three projection matrices ($\Omega_q, \Omega_k, \Omega_v$) and three bias vectors ($\beta_q, \beta_k, \beta_v$) are applied to every input. As a result, the parameter count is independent of the number of inputs $N$.
 <!--SR:!fsrs,2027-11-19T23:58:04.538Z,407,407.32190673,1,2,5,0,0,2026-10-08T23:58:04.538Z-->
