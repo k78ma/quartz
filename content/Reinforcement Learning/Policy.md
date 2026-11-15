@@ -7,7 +7,8 @@ aliases:
   - policy
   - optimal policy
 ---
-The rules that determine the agent's action for each state in an [[Markov Process|MDP]] are known as the *policy*. 
+Policy::A policy $\pi[a|s]$ determines the agent's action for each state. It can be stochastic (define a distribution) or deterministic.
+<!--SR:!fsrs,2027-01-08T19:10:07.796Z,118,118.02409306,1,2,3,0,0,2026-09-12T19:10:07.796Z-->
 
 ![[Markov Process-1786923246130.webp]]
 
@@ -38,7 +39,4 @@ $$
 - The notation here means set $\pi[a_{t}|s]$ to one for action $a$ and $\pi[a_{t}|s]$ to zero for other actions.
 
 Some RL algorithms are based on alternately estimating the action values and policy ([[Tabular Reinforcement Learning]]).
-
-#cards/dl 
-Policy::A policy $\pi[a|s]$ determines the agent's action for each state. It can be stochastic (define a distribution) or deterministic.
-<!--SR:!fsrs,2027-01-08T19:10:07.796Z,118,118.02409306,1,2,3,0,0,2026-09-12T19:10:07.796Z-->
+x

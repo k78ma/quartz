@@ -46,7 +46,7 @@ Masked attention also makes inference/generation more efficient with [[KV Cache]
 
 ![[GPT-3-1782791891541.webp]]
 
-#cards/dl 
+
 Masked self-attention::Restrict each token to interacting only with current and previous tokens by setting attention scores (dot products) to $-\infty$ before the softmax.
 <!--SR:!fsrs,2026-12-20T03:51:41.896Z,128,128.44813239,2.09745544,2,4,0,0,2026-08-14T03:51:41.896Z-->
 

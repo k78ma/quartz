@@ -6,17 +6,37 @@ date: 2024-01-17
 aliases:
   - softmax
 ---
-Takes a whole vector $Z \in \mathbb{R}^{n}$ and generates as output a vector $A \in [0, 1]$  with the property that $\sum_{i=1}^{n}A_{i}=1$, which means we can interpret it as a probability distribution over $n$ items:
+Softmax formula
+?
 $$
-\text{softmax}(z) = \begin{bmatrix}
+\text{Softmax}(z) = \begin{bmatrix}
 \exp(z_{1}) / \sum_{i} \exp(z_{i}) \\
 \vdots \\
-\exp(z_{n}) / \sum_{i} \exp(z_{i}) 
+\exp(z_{n}) / \sum_{i} \exp(z_{i})
 \end{bmatrix}
 $$
-Softmax is similar to [[Sigmoid|sigmoid]] in concept (used for outputting probabilities/confidences) but in higher dimensions. Commonly used for multi-class classification.
+<!--SR:!fsrs,2026-12-07T04:57:37.963Z,46,46.47643997,1,2,2,0,0,2026-10-22T04:57:37.963Z-->
++++
+
+What can we input the output of softmax as?::Softmax takes a whole vector $Z \in \mathbb{R}^{n}$ and generates as output a vector $A \in [0, 1]$  with the property that $\sum_{i=1}^{n}A_{i}=1$, which means we can interpret it as a ==probability distribution== over $n$ items.
+<!--SR:!fsrs,2026-11-23T07:29:49.523Z,8,8.2956,1,2,1,0,0,2026-11-15T07:29:49.523Z-->
+
+Softmax is the higher-dimensional analogue to::[[Sigmoid]]. Both output probabilities/confidences.
+<!--SR:!fsrs,2026-11-23T07:40:49.056Z,8,8.2956,1,2,1,0,0,2026-11-15T07:40:49.056Z-->
 
 ## Stable Softmax
+Numerically stable softmax implementation
+?
+Subtracting the same constant $c$ from every input does not change the output of the softmax. So we subtract the maximum element to prevent overflow.
+```python
+def softmax(items_in):
+    shifted = items_in - np.max(items_in)
+    exps = np.exp(shifted)
+    return exps / np.sum(exps)
+```
+<!--SR:!fsrs,2027-04-14T06:18:09.936Z,185,185.14011494,4.73915103,2,5,0,0,2026-10-11T06:18:09.936Z-->
++++
+
 Naive implementation:
 ```python
 def softmax(items_in):
@@ -49,27 +69,4 @@ $$
 \end{align}
 $$
 
-#cards/dl
-Softmax
-?
-$$
-\text{Softmax}(z) = \begin{bmatrix}
-\exp(z_{1}) / \sum_{i} \exp(z_{i}) \\
-\vdots \\
-\exp(z_{n}) / \sum_{i} \exp(z_{i})
-\end{bmatrix}
-$$
-<!--SR:!fsrs,2026-12-07T04:57:37.963Z,46,46.47643997,1,2,2,0,0,2026-10-22T04:57:37.963Z-->
-+++
 
-Numerically stable softmax implementation
-?
-Subtracting the same constant $c$ from every input does not change the output of the softmax. So we subtract the maximum element to prevent overflow.
-```python
-def softmax(items_in):
-    shifted = items_in - np.max(items_in)
-    exps = np.exp(shifted)
-    return exps / np.sum(exps)
-```
-<!--SR:!fsrs,2027-04-14T06:18:09.936Z,185,185.14011494,4.73915103,2,5,0,0,2026-10-11T06:18:09.936Z-->
-+++

@@ -5,7 +5,8 @@ tags:
 date: 2026-06-27
 aliases: layernorm
 ---
-LayerNorm is similar to [[Batch Normalization|BatchNorm]] normalizes each individual sample using the mean and variance computed across its feature dimensions, rather than across the batch.
+LayerNorm::Normalize samples across feature dimension instead of batch dimension ([[Batch Normalization|BatchNorm]]).
+<!--SR:!fsrs,2027-06-16T06:41:49.094Z,251,250.66695715,2.09058635,2,5,0,0,2026-10-08T06:41:49.094Z-->
 
 ![[LayerNorm-1782618473529.webp]]
 
@@ -43,6 +44,4 @@ X = gamma * X + delta   # broadcast over N
 ```
 where both `gamma` and `delta` have shape `(1,D)` that gets broadcast over `N`.
 
-#cards/dl 
-LayerNorm::Normalize samples across feature dimension instead of batch dimension.
-<!--SR:!fsrs,2027-06-16T06:41:49.094Z,251,250.66695715,2.09058635,2,5,0,0,2026-10-08T06:41:49.094Z-->
+

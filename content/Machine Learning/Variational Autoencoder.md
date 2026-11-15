@@ -30,6 +30,10 @@ Pr(x|\phi)  & = \int Pr(x, z|\phi) \, dz \\[2ex]
 $$
 
 ## ELBO Objective
+
+For VAE training, how do we deal with not being able to get exact likelihood of a data point?::The exact likelihood being intractable poses problems for training with maximum likelihood. Thus, we define a lower bound (ELBO) and maximize this bound.
+<!--SR:!fsrs,2027-02-10T22:45:42.324Z,136,135.6357259,2.09745544,2,4,0,0,2026-09-27T22:45:42.324Z-->
+
 To train the model, we maximize the log-likelihood over a training dataset $\{ x_{i} \}_{i=1}^{I}$ with respect to the model parameters. For simplicity, we assume that the variance term $\sigma^{2}$ in the likelihood expression is known and concentrate on learning $\phi$:
 $$
 \hat{\phi}=\underset{\phi}{\operatorname{argmax}}\left[ \sum_{i=1}^{I}\log \Big[Pr(x_{i}|\phi) \Big] \right]
@@ -54,7 +58,12 @@ $$
 
 To learn the nonlinear latent variable model, we maximize this quantity as a function of both $\phi$ and $\theta$. The neural architecture that computes this quantity is the VAE.
 
+
 ## Variational approximation
+
+What is the role of the variational posterior approximation in a VAE?::For the ELBO bound to be tight, we need to compute the posterior probability of the latent variable given the observed data $Pr(z|x, \phi)$. This is unfortunately also intractable, so we use the variational approximation – a simpler distribution (Gaussian) $q$ that approximates the posterior, whose parameters are computed by the encoder network.
+<!--SR:!fsrs,2027-02-08T03:40:15.091Z,90,90.30324533,7.66103176,2,5,0,0,2026-11-10T03:40:15.091Z-->
+
 We saw that ELBO [[VAE Evidence Lower Bound#Tightness of the bound|tight]] when $q(z|\theta)$ is the *posterior* $Pr(z|x, \phi)$. In principle, we can compute the posterior using Bayes' rule:
 $$
 Pr(z|x, \phi) = \frac{Pr(x|z, \phi)Pr(z)}{Pr(x|\phi)}
@@ -132,13 +141,6 @@ to draw from the intended Gaussian. Now, we can compute the derivatives as usual
 ## Sampling
 To sample from a VAE, we can simply draw from the prior $Pr(z)$ over the latent variable, pass the result through the decoder, and add noise according to $Pr(x\, | \,f[z, \phi])$. In practice, for high-quality generation, we want to use some [[VAE Generation|tricks]].
 
-
-#cards/dl
 How do you generate new samples with a VAE?::Sample from the latent prior distribution, pass the result through the decoder, and add independent Gaussian noise.
 <!--SR:!fsrs,2027-01-01T02:56:11.413Z,112,112.32939527,2.97863464,2,4,0,0,2026-09-11T02:56:11.413Z-->
 
-For VAE training, how do we deal with not being able to get exact likelihood of a data point?::The exact likelihood being intractable poses problems for training with maximum likelihood. Thus, we define a lower bound (ELBO) and maximize this bound.
-<!--SR:!fsrs,2027-02-10T22:45:42.324Z,136,135.6357259,2.09745544,2,4,0,0,2026-09-27T22:45:42.324Z-->
-
-What is the role of the variational posterior approximation in a VAE?::For the ELBO bound to be tight, we need to compute the posterior probability of the latent variable given the observed data $Pr(z|x, \phi)$. This is unfortunately also intractable, so we use the variational approximation – a simpler distribution (Gaussian) $q$ that approximates the posterior, whose parameters are computed by the encoder network.
-<!--SR:!fsrs,2027-02-08T03:40:15.091Z,90,90.30324533,7.66103176,2,5,0,0,2026-11-10T03:40:15.091Z-->

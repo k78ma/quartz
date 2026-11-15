@@ -5,6 +5,15 @@ tags:
 date: 2026-08-05
 aliases: latent variable model
 ---
+Latent variable model
+?
+Instead of modeling $Pr(x)$ directly, model a joint distribution $Pr(x,z)$ of the data $x$ and an unobserved *hidden* or *latent* variable $z$. Then, describe $Pr(x)$ as a marginalization of this joint probability:
+$$
+Pr(x) = \int Pr(x,z) \, dz =\int Pr(x|z) Pr(z) \, dz
+$$
+<!--SR:!fsrs,2027-03-18T01:38:31.880Z,153,152.93396104,4.01060897,2,4,0,0,2026-10-16T01:38:31.880Z-->
++++
+
 Latent variable models take an indirect approach to describing a probability distribution $Pr(x)$ over a multi-dimensional variable $x$. Instead of directly writing the expression for $Pr(x)$, they model a joint distribution $Pr(x,z)$ of the data $x$ and an unobserved *hidden* or *latent* variable $z$. They then describe the probability of $Pr(x)$ as a [[Marginalization|marginalization]] of this joint probability so that:
 $$
 Pr(x) = \int Pr(x,z) \, dz 
@@ -39,13 +48,4 @@ Even from simple expressions for the likelihood and prior, we describe a complex
 
 We can also extend to [[Nonlinear Latent Variable Model]].
 
-#cards/dl
-Latent variable model
-?
-Instead of modeling $Pr(x)$ directly, model a joint distribution $Pr(x,z)$ of the data $x$ and an unobserved *hidden* or *latent* variable $z$. Then, describe $Pr(x)$ as a marginalization of this joint probability:
-$$
-Pr(x) = \int Pr(x,z) \, dz =\int Pr(x|z) Pr(z) \, dz
-$$
-<!--SR:!fsrs,2027-03-18T01:38:31.880Z,153,152.93396104,4.01060897,2,4,0,0,2026-10-16T01:38:31.880Z-->
-+++
-<!--SR:!fsrs,2026-08-09T22:17:54.609Z,0,2.3065,2.11810397,1,1,0,1,2026-08-09T22:07:54.609Z-->
+

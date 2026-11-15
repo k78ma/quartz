@@ -5,7 +5,6 @@ tags:
 date: 2026-10-12
 aliases: vector projection
 ---
-#cards/lin-alg
 Vector projection of $a$ onto $b$
 ?
 $$

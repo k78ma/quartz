@@ -29,7 +29,7 @@ In cross-attention, the queries are computed from {=decoder=} embeddings.
 +++
 
 In cross-attention, keys and values are from {=encoder=} embeddings.
-<!--SR:!fsrs,2026-11-15T06:44:34.151Z,0,2.3065,2.11810397,1,1,0,1,2026-11-15T06:34:34.151Z-->
+<!--SR:!fsrs,2026-11-17T07:15:04.224Z,2,2.3065,2.11121424,2,2,0,0,2026-11-15T07:15:04.224Z-->
 +++
 
 

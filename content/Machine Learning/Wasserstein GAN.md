@@ -9,7 +9,11 @@ aliases:
 ## Wasserstein distance
 We've seen that the [[GAN Stability Analysis|GAN loss]] can be interpreted in terms of distances between probability distributions. In the original formulation, the gradient of this distance becomes zero when the generated samples are too easy to distinguish from the real examples. Thus, we aim to choose a distance metric with better properties.
 
-The Wasserstein or earth mover's distance (for discrete distributions) is the quantity of work required to transport the probability mass from one distribution to create the other. Here, "work" is defined as the mass multiplied by the distance moved. This makes the Wasserstein distance well-defined even when the distributions are disjoint and decreases smoothly as they become closer to one another.
+Why does using a Wasserstein distance loss function make GAN training more stable?
+?
+Compared to the Jensen-Shannon divergence used in the original GAN loss function, Wasserstein distance is well-defined even when the real/synthetic distributions are disjoint and decreases smoothly as they become closer to one another.
+<!--SR:!fsrs,2026-12-29T18:31:49.300Z,101,100.64474784,4.71481765,2,6,0,0,2026-09-19T18:31:49.300Z-->
++++
 
 ### Discrete (Earth mover's distance)
 Consider distributions $Pr(x=i)$ and $q(x=j)$ defined over $K$ bins. Assume there is a cost $C_{ij}$ associated with moving one unit of mass from bin $i$ in the first distribution to bin $j$ in the second. This cost might be the absolute difference $\left| i-j \right|$ between the indices. The amounts that are moved form the *transport plan* and are stored in the matrix $\mathbf{P}$.
@@ -68,9 +72,3 @@ $$
 $$
 One way to achieve this is to clip the discriminator weights to a small range (e.g., $\pm 0.01$). An alternative is the gradient penalty Wasserstein GAN (WGAN-GP), which adds a regularization term that increases as the gradient norm deviates from unity.
 
-#cards/dl
-Why does using a Wasserstein distance loss function make GAN training more stable?
-?
-Compared to the Jensen-Shannon divergence used in the original GAN loss function, Wasserstein distance is well-defined even when the real/synthetic distributions are disjoint and decreases smoothly as they become closer to one another.
-<!--SR:!fsrs,2026-12-29T18:31:49.300Z,101,100.64474784,4.71481765,2,6,0,0,2026-09-19T18:31:49.300Z-->
-+++

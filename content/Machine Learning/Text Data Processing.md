@@ -16,6 +16,5 @@ Second, each input (one or more sentences) is of a different length; hence, it's
 
 Third, language is ambiguous. For example, it's unclear from the syntax alone that the pronoun "it" refers to the restaurant and not to the ham sandwich. To understand the text, the "it" should somehow be connected to "restaurant". In the parlance of transformers, the former word should pay [[Dot-Product Self-Attention]] to the latter. This implies that there must be connections between the words, and the strength of these connections depends on the words themselves. These connections need to extend large text spans; for example, the word "their" in the last sentence also refers to the restaurant.
 
-#cards/dl 
 Why are fully connected networks not practical for text?::Text has variable-length inputs, and FC layers need an impractically large number of parameters for long sequences.
 <!--SR:!fsrs,2026-12-11T20:27:18.544Z,125,124.69358716,2.09745544,2,4,0,0,2026-08-08T20:27:18.544Z-->

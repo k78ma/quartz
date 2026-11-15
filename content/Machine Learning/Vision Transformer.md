@@ -7,6 +7,15 @@ aliases:
   - vision transformer
   - ViT
 ---
+ViT
+?
+- Divide image into patches, which are mapped to input embeddings (with learned 1D positional encodings)
+- Learnable `<cls>` token is prepended to the sequence of patch embeddings
+- During self-attention, the `<cls>` token attends to all image patches and accumulates information about the entire image
+- After the final transformer layer, the output embedding for `<cls>` passes through an FC layer to create activations, which are then softmaxed to generate class probabilities
+<!--SR:!fsrs,2027-01-11T06:19:48.663Z,87,86.85274107,7.66103176,2,5,0,0,2026-10-16T06:19:48.663Z-->
++++
+
 The Vision Transformer tackled the image resolution problem in [[Transformers for Images|using transformers for images]] by dividing the image into $16\times 16$ patches. Each patch is mapped to an input embedding via a learned linear transformation, and these representations are fed into the transformer network. Like [[ImageGPT]], standard 1D positional encodings are learned.
 
 ![[Vision Transformer-1783115146425.webp]]
@@ -18,13 +27,3 @@ Unlike [[Encoder Model|BERT]], another encoder model, ViT uses *supervised* pre-
 After pre-training, the system is applied to the final downstream classification task by replacing this final layer with one that maps to the desired number of classes and is fine-tuned.
 
 For the ImageNet benchmark, the original ViT achieved an 11.45% top-1 error rate. However, it did not outperform the best contemporary convolutional networks without supervised pre-training. The strong inductive bias of convolutional networks can only be superseded by employing extremely large amounts of training data.
-
-#cards/dl
-ViT
-?
-- Divide image into patches, which are mapped to input embeddings (with learned 1D positional encodings)
-- Learnable `<cls>` token is prepended to the sequence of patch embeddings
-- During self-attention, the `<cls>` token attends to all image patches and accumulates information about the entire image
-- After the final transformer layer, the output embedding for `<cls>` passes through an FC layer to create activations, which are then softmaxed to generate class probabilities
-<!--SR:!fsrs,2027-01-11T06:19:48.663Z,87,86.85274107,7.66103176,2,5,0,0,2026-10-16T06:19:48.663Z-->
-+++

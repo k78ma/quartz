@@ -5,9 +5,11 @@ tags:
 date: 2026-06-27
 aliases: positional encoding
 ---
-The [[Dot-Product Self-Attention|self-attention]] mechanism by itself overlooks important information: the computation does not take into account the order of the inputs $x_{n}$. 
+[[Dot-Product Self-Attention|Self-attention]] is {=equivariant=} with respect to input permutations, which is why we need positional encodings.
+<!--SR:!fsrs,2026-06-29T22:59:54.935Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T22:59:54.935Z-->
 
-More precisely, self-attention is [[Invariance and Equivariance|equivariant]] with respect to input permutations. However, the order of the input matters when it comes to words in a sentece; "the woman ate the raccoon" has a different meaning than "the raccoon ate the woman".
+Why is it bad for self-attention (w/o positional encoding) to be equivariant with respect to input permutations?::No notion of token order. "The woman ate the raccoon" and "the raccoon ate the woman" produce the same attention matrix/output but permuted.
+<!--SR:!fsrs,2026-12-05T04:29:50.953Z,120,119.56963203,2.09745544,2,4,0,0,2026-08-07T04:29:50.953Z-->
 
 > [!note]- Permutation example
 > Suppose the input tokens are:
@@ -48,11 +50,4 @@ The input to a self-attention mechanism might be a fragment of a sentence, an en
 
 Each element of the attention matrix corresponds to a particular offset between key position $a$ and query position $b$. Relative positional encodings learn a parameter $\pi_{a,b}$ for each offset and use this to modify the attention matrix by adding these values, multiplying by them, or using them to alter the attention matrix in some way.
 
-
-#cards/dl
-Self-attention is ==equivariant== with respect to input permutations, which is why we need positional encodings.
-<!--SR:!fsrs,2026-06-29T22:59:54.935Z,2,2.3065,2.11121424,2,2,0,0,2026-06-27T22:59:54.935Z-->
-
-Why is it bad for self-attention (w/o positional encoding) to be equivariant with respect to input permutations?::No notion of token order. "The woman ate the raccoon" and "the raccoon ate the woman" produce the same attention matrix/output but permuted.
-<!--SR:!fsrs,2026-12-05T04:29:50.953Z,120,119.56963203,2.09745544,2,4,0,0,2026-08-07T04:29:50.953Z-->
 

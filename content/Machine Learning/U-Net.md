@@ -6,6 +6,15 @@ date: 2026-06-25
 aliases:
   - hourglass networks
 ---
+U-Net
+?
+Encoder-decoder architecture for segmentation where we concatenate earlier representations with later ones.
+
+![[U-Net-1782410177895.webp]]
+<!--SR:!fsrs,2026-12-23T06:55:48.973Z,51,50.52922621,6.84449296,2,8,1,0,2026-11-02T06:55:48.973Z-->
++++
+
+
 We saw a basic [[Semantic Segmentation Network|semantic segmentation network]] that used an encoder-decoder hourglass structure. 
 - The encoder downsamples the image until the receptive fields are large and information is integrated from across the image. 
 - The decoder then upsamples it back to the size of the original image. The final output is the probability over possible object classes at each pixel.
@@ -16,19 +25,7 @@ The drawback of this architecture is that the low-resolution representation in t
 - The original implementation used [[1D Convolution#Padding|"valid" convolutions]], so the spatial size decreases by two pixels each time a $3\times 3$ convolutional layer is applied. This means that the upsampled version is smaller than its counterpart in the encoder, which must be cropped before concatenation.
 - Subsequent implementations use zero-padding, where no cropping is necessary.
 
-![[U-Net-1782410177895.webp]]
-
-Note that U-Net was completely convolutional, so after training, it can be run on an image of any size.
-- Note that we don't train with arbitrarily sized images. Batch training (especially with batchnorm) wouldn't be effective; if every image has different dimensions, they cannot be stacked into a single tensor without padding or resizing. Also, GPU memory uses varies with image size so consistent sizing is better for memory use.
-
-#cards/dl 
 Why can U-Net be run on images of any size?::It's completely convolutional, with no FC layers.
 <!--SR:!fsrs,2026-12-10T04:29:56.033Z,125,124.69358716,2.09745544,2,4,0,0,2026-08-07T04:29:56.033Z-->
 
-U-Net
-?
-Encoder-decoder architecture for segmentation where we concatenate earlier representations with later ones.
-
-![[U-Net-1782410177895.webp]]
-<!--SR:!fsrs,2026-12-23T06:55:48.973Z,51,50.52922621,6.84449296,2,8,1,0,2026-11-02T06:55:48.973Z-->
-+++
+Note that we don't train with arbitrarily sized images. Batch training (especially with batchnorm) wouldn't be effective; if every image has different dimensions, they cannot be stacked into a single tensor without padding or resizing. Also, GPU memory uses varies with image size so consistent sizing is better for memory use.

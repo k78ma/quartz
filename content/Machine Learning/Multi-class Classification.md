@@ -65,6 +65,7 @@ $$
 
 where $f_{t_i}[\mathbf{x}_i,\phi]$ and $f_{k'}[\mathbf{x}_i,\phi]$ denote the $t_i$-th and $k'$-th outputs of the network, respectively. This is called *multiclass cross-entropy loss*.
 
+
 ![[Multi-class Classification-1785273313741.webp]]
 
 
@@ -95,7 +96,7 @@ P(t=k\mid\mathbf{x},\hat{\phi})
 y_k.
 $$
 
-#cards/dl
+
 Multiclass cross-entropy
 ?
 Negative log of softmax simplifies to:

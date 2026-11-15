@@ -6,6 +6,19 @@ date: 2024-03-27
 aliases:
   - variance
 ---
+Variance definition
+?
+- Expected value of the squared difference between $X$ and the expected value of $X$.
+$$
+\text{Var[X]}=E[(X-E[X])^{2}]
+$$
+- Characterizes how far the values of $X$ are from $E[X]$, on average. (Kind of like a mean squared loss)
+<!--SR:!fsrs,2027-01-07T06:07:10.013Z,56,56.1147733,4.74371562,2,4,0,0,2026-11-12T06:07:10.013Z-->
++++
+
+Variance simplified formula::$\text{var}[x]=E[x^{2}]-E[x]^{2}$
+<!--SR:!fsrs,2026-11-17T04:59:24.570Z,26,26.42951346,1,2,3,0,0,2026-10-22T04:59:24.570Z-->
+
 In intuitive terms, variance is a measure of the spreading of the data set from its mean. The variance of a data set can be found with:
 $$
 \sigma^{2}=\frac{1}{N}\sum_{n=1}^{N}(x_{n}-\mu)^{2}
@@ -27,17 +40,5 @@ $$
 \text{var}[x]=E[x^{2}]-E[x]^{2}
 $$
 
-#cards/stats
-Variance simplified formula::$\text{var}[x]=E[x^{2}]-E[x]^{2}$
-<!--SR:!fsrs,2026-11-17T04:59:24.570Z,26,26.42951346,1,2,3,0,0,2026-10-22T04:59:24.570Z-->
 
-Variance definition
-?
-- Expected value of the squared difference between $X$ and the expected value of $X$.
-$$
-\text{Var[X]}=E[(X-E[X])^{2}]
-$$
-- Characterizes how far the values of $X$ are from $E[X]$, on average. (Kind of like a mean squared loss)
-<!--SR:!fsrs,2027-01-07T06:07:10.013Z,56,56.1147733,4.74371562,2,4,0,0,2026-11-12T06:07:10.013Z-->
-+++
 

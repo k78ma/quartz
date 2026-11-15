@@ -7,9 +7,16 @@ aliases:
   - residual block
   - residual connections
 ---
-Residual or skip connections are shortcut branches in the computation graph that add the input of a layer or block to its output. 
+Residual connection
+?
+Shortcut branch that adds the input of a layer back to its output.
 
 ![[Residual Connections-1782165615349.webp]]
+<!--SR:!fsrs,2027-06-09T22:45:06.425Z,255,254.87011944,3.3983135,2,7,0,0,2026-09-27T22:45:06.425Z-->
++++
+
+Each residual networks, each residual block learns an {=additive=} update to its input representation.
+<!--SR:!fsrs,2027-07-20T02:32:16.734Z,257,257.24591004,4.01060897,2,5,0,0,2026-11-05T02:32:16.734Z-->
 
 For example, the residual network below in Figure 11.4 computes:
 $$
@@ -50,16 +57,6 @@ In general, gradients through shorter paths will be better behaved. Since both t
 ## Order of operations in residual blocks
 The layers $f[x]$, whether they are fully connected or convolutional, need to contain a nonlinear activation function, or the entire network will be linear. However, in a typical network layer, the ReLU function is at the end, so the output is non-negative. If we adopt this convention, then each residual block can only increase the input values.
 
-Hence, we typically change the order of operations so that the activation function is applied first, followed by the linear transformation. Sometimes there may be several layers of processing within the residual block, but these usually terminate with a linear transformation.
-
-Note that when we start these blocks with a ReLU operation, they will do nothing if the initial network is negative, since ReLU will clip the entire signal to zero. Thus, we typically start the network with a linear transformation.
-
-![[Residual Connections-1782180242422.webp]]
-
-#cards/dl 
-In residual networks, usually we put the activation function first (ReLU→Linear) instead of the usual activation function last (Linear→ReLU). But why does the very first operation have to be a linear transformation (FC/conv) instead of ReLU?::First layer in the network needs to be linear in case input is negative.
-<!--SR:!fsrs,2027-06-09T22:47:31.415Z,255,254.87011944,3.3983135,2,7,0,0,2026-09-27T22:47:31.415Z-->
-
 In residual blocks, why do we do put the activation function first (ReLU→Linear) instead of the usual activation function last (Linear→ReLU)?
 ?
 If we do ReLU after Conv, each residual block can only add non-negative quantities.
@@ -68,13 +65,8 @@ If we do ReLU after Conv, each residual block can only add non-negative quantiti
 <!--SR:!fsrs,2027-04-19T06:59:19.638Z,168,168.42810193,4.00182673,2,5,0,0,2026-11-02T06:59:19.638Z-->
 +++
 
-Residual connection
-?
-Shortcut branch that adds the input of a layer back to its output. Each layer computes an additive change to the current representation.
+In residual networks, usually we put the activation function first (ReLU→Linear) instead of the usual activation function last (Linear→ReLU). But why does the very first operation have to be a linear transformation (FC/conv) instead of ReLU?::First layer in the network needs to be linear in case input is negative.  Starting with ReLU would clip the entire signal to zero.
+<!--SR:!fsrs,2027-06-09T22:47:31.415Z,255,254.87011944,3.3983135,2,7,0,0,2026-09-27T22:47:31.415Z-->
 
-![[Residual Connections-1782165615349.webp]]
-<!--SR:!fsrs,2027-06-09T22:45:06.425Z,255,254.87011944,3.3983135,2,7,0,0,2026-09-27T22:45:06.425Z-->
-+++
 
-Each residual networks, each residual block learns an ==additive== update to its input representation.
-<!--SR:!fsrs,2027-07-20T02:32:16.734Z,257,257.24591004,4.01060897,2,5,0,0,2026-11-05T02:32:16.734Z-->
+

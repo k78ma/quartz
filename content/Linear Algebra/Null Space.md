@@ -7,6 +7,9 @@ aliases:
   - null space
   - kernel
 ---
+The null space of a matrix $A$::The set of all solutions for $A\mathbf{x}=0$.
+<!--SR:!fsrs,2026-12-18T06:46:21.752Z,71,70.63155138,1,2,2,0,0,2026-10-08T06:46:21.752Z-->
+
 > [!definition] Null space
 > For $T \in \mathcal{L}(V,W)$, the null space of $T$, denoted by null $T$, is the subset of $V$ consisting of those vectors that $T$ maps to $0$:
 > $$
@@ -23,6 +26,3 @@ This means that null spaces are specific to a linear map acting on a subspace, n
 - Suppose $T \in \mathcal{L}(\mathbb{F}^{\infty})$ is the backward shift defined by $T(x_{1},x_{2},x_{3},\dots)=(x_{2},x_{3},\dots)$. Then, $T(x_{1},x_{2},x_{3},\dots)$ equal $0$ if and only if the numbers $x_{2}, x_{3},\dots$ are all $0$. Thus, $\text{null } T=\{ (a,0,0,\dots) \, : \,a \in \mathbb{F} \}$.
 
 
-#cards/lin-alg 
-The null space of a matrix $A$::The set of all solutions for $A\mathbf{x}=0$.
-<!--SR:!fsrs,2026-12-18T06:46:21.752Z,71,70.63155138,1,2,2,0,0,2026-10-08T06:46:21.752Z-->

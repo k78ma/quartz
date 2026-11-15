@@ -28,7 +28,6 @@ $$
 
 ![[Expected Return-1787110537163.webp]]
 
-#cards/rl
 State-value function / State value
 ?
 Characterizes how good a state is. It is the expected reward if we start in this state and follow the specified policy thereafter.

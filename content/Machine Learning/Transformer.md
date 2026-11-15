@@ -28,6 +28,5 @@ where the row vectors $x_{n}$ are separately taken from the full data matrix $X$
 ![[Transformer Layer-1782618120912.webp]]
 - Note that this image uses $D\times N$ input data (column vectors for each input) while it's more standard to do $N\times D$ (row vectors).
 
-#cards/dl 
 Transformer layer operations::Input embeddings → MhSA + residual → LayerNorm → MLP + residual → LayerNorm → Output embeddings
 <!--SR:!fsrs,2026-11-23T05:18:10.385Z,77,77.10744921,1,2,3,0,0,2026-09-07T05:18:10.385Z-->

@@ -5,6 +5,21 @@ tags:
 date: 2026-05-03
 aliases: shattered gradients
 ---
+Shattered gradients::In deep sequential networks, gradients at nearby points become nearly uncorrelated. Thus, finite-size optimization steps might land in regions with completely different gradient directions, making the loss surface irregular.
+<!--SR:!fsrs,2027-04-02T04:56:46.908Z,162,162.24968604,6.48626186,2,6,0,0,2026-10-22T04:56:46.908Z-->
+
+Numerically stable softmax implementation
+?
+Subtracting the same constant $c$ from every input does not change the output of the softmax. So we subtract the maximum element to prevent overflow.
+```python
+def softmax(items_in):
+    shifted = items_in - np.max(items_in)
+    exps = np.exp(shifted)
+    return exps / np.sum(exps)
+```
+<!--SR:!fsrs,2027-04-14T06:18:09.936Z,185,185.14011494,4.73915103,2,5,0,0,2026-10-11T06:18:09.936Z-->
++++
+
 ## Sequential processing
 Basic neural networks do **sequential** data processing, where the output of each layer is passed directly to the next layer. For example, a 3-layer sequential network would be defined as:
 $$
@@ -43,9 +58,5 @@ $$
 $$
 When we change the parameters that determine $f_{1}$, all of the derivatives in this sequence are evaluated at slightly different locations since layers $f_{2}, f_{3}, f_{4}$ are themselves computed from $f_{1}$. Consequently, the updated gradient at each training example may be completely different, and the loss function becomes badly behaved.
 
-#cards/dl 
-Shattered gradients::In deep sequential networks, gradients at nearby points become nearly uncorrelated. Thus, finite-size optimization steps might land in regions with completely different gradient directions, making the loss surface irregular.
-<!--SR:!fsrs,2027-04-02T04:56:46.908Z,162,162.24968604,6.48626186,2,6,0,0,2026-10-22T04:56:46.908Z-->
 
-Why do shattered gradients arise?::Composing many nonlinear layers causes small changes in inputs or early-layer parameters to propagate into complex changes in downstream activations, making the gradients vary rapidly and unpredictably.
-<!--SR:!fsrs,2027-07-29T06:43:15.952Z,294,293.5681286,2.96593361,2,5,0,0,2026-10-08T06:43:15.952Z-->
+

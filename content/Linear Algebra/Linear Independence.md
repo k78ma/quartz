@@ -22,14 +22,15 @@ $$
 $$
 Thus we have written $0$ as a linear combination of $(v_{1}, \dots,v_{m})$. If the only way to do this is by using $0$ for all the scalars in the linear combination, then each $a_{k}-c_{k}=0$, which means that $a_{k}=c_{k}$, and thus the choice of scalars was indeed unique. This brings us to the definition of linear independence.
 
-> [!definition] Definition: Linearly Independent
-> A list $v_{1}, \dots,v_{m}$ of vectors in $V$ is called *linearly independent* if the only choice of $a_{1},\dots,a_{m}\in \mathbb{F}$ that makes
-> $$
-> a_{1}v_{1}+\dots+a_{m}v_{m}=0
-> $$
-> is $a_{1}=\dots=a_{m}=0$.
-> 
-> The empty list $(\,)$ is also declared to be linearly independent.
+Linear independence
+?
+A list $v_{1}, \dots,v_{m}$ of vectors in $V$ is called *linearly independent* if the only choice of $a_{1},\dots,a_{m}\in \mathbb{F}$ that makes
+$$
+a_{1}v_{1}+\dots+a_{m}v_{m}=0
+$$
+is $a_{1}=\dots=a_{m}=0$. The empty list $(\,)$ is also declared to be linearly independent.
+<!--SR:!fsrs,2027-03-09T02:32:34.413Z,124,123.6497965,4.01060897,2,3,0,0,2026-11-05T02:32:34.413Z-->
++++
 
 The reasoning above shows that $v_{1}, \dots,v_{m}$ is linearly independent if and only if each vector in $\text{span}(v_{1},\dots,v_{m})$ has only one representation as a linear combination of $v_{1}, \dots,v_{m}$.
 
@@ -88,13 +89,3 @@ If some vectors are removed from a linearly independent list, the remaining list
 
 See also: [[Linear Dependence Lemma]]
 
-#cards/lin-alg
-Linear independence
-?
-A list $v_{1}, \dots,v_{m}$ of vectors in $V$ is called *linearly independent* if the only choice of $a_{1},\dots,a_{m}\in \mathbb{F}$ that makes
-$$
-a_{1}v_{1}+\dots+a_{m}v_{m}=0
-$$
-is $a_{1}=\dots=a_{m}=0$. The empty list $(\,)$ is also declared to be linearly independent.
-<!--SR:!fsrs,2027-03-09T02:32:34.413Z,124,123.6497965,4.01060897,2,3,0,0,2026-11-05T02:32:34.413Z-->
-+++

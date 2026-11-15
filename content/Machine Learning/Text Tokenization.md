@@ -19,8 +19,8 @@ One way would be to do character-level tokens, using letters and punctuation mar
 
 In practice, a compromise between letters and full words is used, and the final vocabulary includes both common words and word fragments from which larger and less frequent words can be composed. The vocabulary is composed using a *sub-word tokenizer* such as *byte pair encoding* that greedily merges commonly occurring sub-strings based on their frequency.
 
-![[Tokenization-1782674945175.webp]]
-
-#cards/dl 
 Byte pair encoding tokenizer::Iteratively merge most commonly occurring adjacent pair of tokens into a new token. Continue until desired vocabulary size is reached.
 <!--SR:!fsrs,2027-06-16T06:43:03.005Z,251,250.66695715,2.09058635,2,5,0,0,2026-10-08T06:43:03.005Z-->
+
+![[Tokenization-1782674945175.webp]]
+

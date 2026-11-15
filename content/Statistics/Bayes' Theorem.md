@@ -4,7 +4,10 @@ tags:
   - stats
 date: 2024-03-22
 aliases:
+  - Bayes' rule
 ---
+Bayes' Theorem $P(A|B)=$==$\frac{P(B|A)\cdot P(A)}{P(B)}$==
+<!--SR:!fsrs,2027-01-25T00:05:46.789Z,142,142.16696858,2.95933514,2,5,0,0,2026-09-05T00:05:46.789Z-->
 ## Definition
 Bayes' Theorem states:
 $$

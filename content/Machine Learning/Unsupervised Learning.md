@@ -25,7 +25,6 @@ In principle, the mapping between the observed and latent variables can be in ei
 ![[Unsupervised Learning-1785293108771.webp]]
 
 
-#cards/dl
 Latent variable
 ?
 - Latent variables capture the underlying structure in the dataset
