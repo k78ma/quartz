@@ -123,6 +123,12 @@ const remarkPrepareFlashcards: Plugin<[], Root> = function () {
       )
     }
 
+    function consumeTerminator(line: number) {
+      let terminator = line + 1
+      while (lines[terminator]?.trim() === "") terminator++
+      return isMarker(terminator, "+++") ? terminator : line
+    }
+
     for (let line = 0; line < lines.length; line++) {
       const paragraph = paragraphs.get(line)
       const inlineSchedule = paragraph?.children.find(
@@ -162,12 +168,7 @@ const remarkPrepareFlashcards: Plugin<[], Root> = function () {
             .trimEnd()
           if (answer.trim()) {
             addCard(text, answer, "block")
-            if (schedules.has(end)) {
-              let terminator = end + 1
-              while (lines[terminator]?.trim() === "") terminator++
-              if (isMarker(terminator, "+++")) end = terminator
-            }
-            line = end
+            line = schedules.has(end) ? consumeTerminator(end) : end
             continue
           }
         }
@@ -252,6 +253,7 @@ const remarkPrepareFlashcards: Plugin<[], Root> = function () {
         generated.push("", "> " + marker + " cloze", ">", quote(inlineMarker + body.trim()), "")
         changed = true
         if (schedules.has(line + 1)) line++
+        line = consumeTerminator(line)
         continue
       }
 
