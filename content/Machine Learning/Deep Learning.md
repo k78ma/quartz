@@ -26,6 +26,7 @@ Some of these notes are also included in [[Machine Learning]].
 - [[Composing Shallow Networks]]
 - [[Deep Neural Network]]
 - [[Shallow vs. Deep Networks]]
+- [[Neural Network Terminology]]
 
 ## Loss Functions
 - [[Loss Function]]

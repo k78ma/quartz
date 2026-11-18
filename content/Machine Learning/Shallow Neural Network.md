@@ -9,7 +9,7 @@ aliases:
 ---
 Shallow neural networks
 ?
-A function $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with parameters $\phi$ that maps multi-dimensional inputs $\mathbf{x} \in \mathbb{R}^{D_{i}}$ to a multi-dimensional output $\mathbf{y}\in\mathbb{R}^{D_{o}}$ using $\mathbf{h} \in \mathbb{R}^{D}$ hidden units.
+A neural network with one layer. Formally, it is a function $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with parameters $\phi$ that maps multi-dimensional inputs $\mathbf{x} \in \mathbb{R}^{D_{i}}$ to a multi-dimensional output $\mathbf{y}\in\mathbb{R}^{D_{o}}$ using $\mathbf{h} \in \mathbb{R}^{D}$ hidden units. 
 
 ![[Shallow Neural Network-1794990054402.webp]]
 
