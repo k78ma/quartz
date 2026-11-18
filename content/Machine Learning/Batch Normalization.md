@@ -53,7 +53,7 @@ Adding BatchNorm to residual networks reduces variance scaling from exponential 
 <!--SR:!fsrs,2027-06-06T05:16:22.924Z,282,281.8043453,1,2,5,0,0,2026-08-28T05:16:22.924Z-->
 
 Why does batch normalization allow us to use higher learning rate?::It makes the loss surface gradients smoother, reducing shattered gradients.
-<!--SR:!fsrs,2026-11-17T05:43:50.264Z,2,2.3065,2.11121424,2,2,0,0,2026-11-15T05:43:50.264Z-->
+<!--SR:!fsrs,2026-11-27T01:21:37.152Z,9,9.24024489,4.74828477,2,3,0,0,2026-11-18T01:21:37.152Z-->
 
 How does batch normalization provide regularization?::Because the normalization depends on the batch statistics, we essentially [[Applying Noise During Training|applying noise during training]].
 <!--SR:!fsrs,2027-02-17T05:06:31.428Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T05:06:31.428Z-->

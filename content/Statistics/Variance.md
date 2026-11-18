@@ -17,7 +17,7 @@ $$
 +++
 
 Variance simplified formula::$\text{var}[x]=E[x^{2}]-E[x]^{2}$
-<!--SR:!fsrs,2026-11-17T04:59:24.570Z,26,26.42951346,1,2,3,0,0,2026-10-22T04:59:24.570Z-->
+<!--SR:!fsrs,2027-03-08T01:21:42.377Z,110,110.21720426,1,2,4,0,0,2026-11-18T01:21:42.377Z-->
 
 In intuitive terms, variance is a measure of the spreading of the data set from its mean. The variance of a data set can be found with:
 $$

@@ -7,11 +7,23 @@ date: 2024-06-13
 aliases:
   - shallow neural network
 ---
-Shallow neural networks are functions $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with parameters $\phi$ map multi-dimensional inputs $\mathbf{x} \in \mathbb{R}^{D_{i}}$ to a multi-dimensional output $\mathbf{y}\in\mathbb{R}^{D_{o}}$ using $\mathbf{h} \in \mathbb{R}^{D}$ hidden units. Each hidden unit is computed as:
+Shallow neural networks
+?
+A function $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with parameters $\phi$ that maps multi-dimensional inputs $\mathbf{x} \in \mathbb{R}^{D_{i}}$ to a multi-dimensional output $\mathbf{y}\in\mathbb{R}^{D_{o}}$ using $\mathbf{h} \in \mathbb{R}^{D}$ hidden units.
+
+![[Shallow Neural Network-1794990054402.webp]]
+
+Each hidden unit is computed as:
 $$
 h_{d}=a\left[ \theta_{d_{0}}+\sum_{i=1}^{D_{i}}\theta_{d_{i}}x_{i} \right]
 $$
-which are combined linearly to create an output.
+which are combined linearly to create an output:
+$$
+y_{j} = \phi_{j_{0}} + \sum_{d=1}^{D}\phi_{jd}h_{d}
+$$
+where $a[\bullet]$ is a nonlinear activation function. The model has parameters $\phi=\{ \theta_{\bullet\bullet}, \phi_{\bullet\bullet} \}$.
+<!--SR:!fsrs,2026-11-26T08:20:12.227Z,8,8.2956,1,2,1,0,0,2026-11-18T08:20:12.227Z-->
++++
 
 ## Intuition
 We can illustrate the main ideas using an example network $f[x, \boldsymbol{\phi}]$ that maps a scalar input $x$ to a scalar output $y$, using ten parameters $\boldsymbol{\phi}=\{ \phi_{0}, \phi_{1},\phi_{2}, \phi_{3}, \theta_{10}, \theta_{11}, \theta_{20}, \theta_{21}, \theta_{30}, \theta_{31} \}$. This is defined such that:
