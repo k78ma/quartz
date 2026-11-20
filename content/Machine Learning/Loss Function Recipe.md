@@ -12,8 +12,10 @@ To construct a loss function for training data $\{ {x}_{i}, {y}_{i} \}$ using th
 2. Set the model $f[x,\phi]$ to predict one or more of these parameters, so that $\theta=f[x,\phi]$ and $Pr(y|\theta)=Pr(y|f[x,\phi])$.
 3. To train the model, find the network parameters $\hat{\phi}$ that minimize the [[Log-Likelihood Criterion|negative log-likelihood]] loss function over the training dataset pairs $\{ x_{i}, y_{i} \}$:
 $$
-\hat{\phi}= \underset{\phi}{\operatorname{argmin}}\Big[L[\phi]\Big] =\underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \log\Big[Pr(y_{i} \, | \,f[x_{i}, \phi])\Big] \right] \\[2ex]
+\hat{\phi}= \underset{\phi}{\operatorname{argmin}}\Big[L[\phi]\Big] =\underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \log\Big[Pr(y_{i} \, | \,f[x_{i}, \phi])\Big] \right]
 $$
+4. To perform inference for a new test example $x$, return either the full distribution $Pr(y | f[x, \phi])$ or the value where this distribution is maximized.
+
 Examples of this:
 - [[Univariate Regression]]
 - [[Binary Classification]]
