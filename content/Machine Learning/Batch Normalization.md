@@ -10,7 +10,7 @@ aliases:
 Batch normalization shifts and rescales each activation $h$ so that its mean and variance across the batch $\mathcal{B}$ become values that are learned during training. It is primarily useful for training stability, alleviating issues such as [[Exploding Gradients in Residual Networks|exploding gradients in residual networks]]. 
 - BatchNorm was originally developed to address the problem of [[Covariate Shift]], but has been shown to not be useful; instead, it seems to make the loss surface smoother.
 
-BatchNorm steps (batch $\mathcal{B}$ with activations $h$)
+BatchNorm steps (batch size $\mathcal{B}$ with activations $h$)
 ?
 1. Calculate mean and standard deviation statistics across batch:
 $$
@@ -66,7 +66,7 @@ Why is BatchNorm problematic for tasks that require strong independence assumpti
 <!--SR:!fsrs,2026-11-23T05:42:44.592Z,8,8.2956,1,2,1,0,0,2026-11-15T05:42:44.592Z-->
 
 How does BatchNorm produce redundancy/inefficiency with respect to the number of weights?::BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
-<!--SR:!fsrs,2026-11-19T06:05:21.160Z,4,3.94605407,1,2,2,0,0,2026-11-15T06:05:21.160Z-->
+<!--SR:!fsrs,2026-12-10T08:52:27.288Z,21,21.02452958,1,2,3,0,0,2026-11-19T08:52:27.288Z-->
 
 
 
