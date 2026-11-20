@@ -26,14 +26,14 @@ Finally, the embedding matrix $X$ representing the text is passed through a seri
 
 There are three types of transformer models:
 
-Encoder model::Transforms input into a contextual representation that can support downstream tasks. Example: [[Encoder Model|BERT]].
+What are encoder models used for?::Transforms input into a contextual representation that can support downstream tasks. Example: [[Encoder Model|BERT]].
 <!--SR:!fsrs,2027-03-30T06:41:14.306Z,173,172.94892613,2.09745544,2,4,0,0,2026-10-08T06:41:14.306Z-->
 
-Decoder model::Autoregressive token prediction from previously available tokens. Repeating this produces text (for NLP use case). Example: [[Decoder Model|GPT-3]]
+What are decoder models used for?::Autoregressive token prediction from previously available tokens. Repeating this produces text (for NLP use case). Example: [[Decoder Model|GPT-3]]
 <!--SR:!fsrs,2027-02-08T06:41:25.603Z,123,123.3518639,4.74371562,2,4,0,0,2026-10-08T06:41:25.603Z-->
 
-Encoder-decoder model:: Used in sequence-to-sequence tasks, where one text string is converted into another (e.g., [[Encoder-Decoder Model|machine translation]]).
-<!--SR:!fsrs,2026-11-19T07:40:45.741Z,4,3.94605407,1,2,2,0,0,2026-11-15T07:40:45.741Z-->
+What are encoder-decoder models used for?:: Used in sequence-to-sequence tasks, where one text string is converted into another (e.g., [[Encoder-Decoder Model|machine translation]]).
+<!--SR:!fsrs,2026-12-25T08:50:02.302Z,36,35.93233085,1,2,3,0,0,2026-11-19T08:50:02.302Z-->
 
 
 
