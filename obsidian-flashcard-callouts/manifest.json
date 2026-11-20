@@ -1,0 +1,9 @@
+{
+  "id": "flashcard-callouts",
+  "name": "Flashcard Callouts",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Toggle spaced repetition flashcards between callouts and editable source in your notes.",
+  "author": "Kai",
+  "isDesktopOnly": false
+}

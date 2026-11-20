@@ -59,6 +59,7 @@ How does batch normalization provide regularization?::Because the normalization 
 <!--SR:!fsrs,2027-02-17T05:06:31.428Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T05:06:31.428Z-->
 
 ## Weaknesses
+
 Why does BatchNorm sometimes degrade performance with small batch sizes?::Because the mean and variance becomes less accurate.
 <!--SR:!fsrs,2027-06-06T04:15:01.166Z,282,281.8043453,1,2,5,0,0,2026-08-28T04:15:01.166Z-->
 

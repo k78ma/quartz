@@ -186,6 +186,19 @@
       padding-top: 0.75rem;
     }
 
+    &.flashcard-cloze {
+      --flashcard-cloze-highlight: #9ce9b4;
+
+      :root[saved-theme="dark"] & {
+        --flashcard-cloze-highlight: #286a45;
+      }
+
+      .text-highlight {
+        color: inherit;
+        background-color: var(--flashcard-cloze-highlight);
+      }
+    }
+
     &.flashcard-cloze > p {
       position: relative;
       margin: 0.65rem 0;
