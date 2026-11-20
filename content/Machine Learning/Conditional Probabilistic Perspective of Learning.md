@@ -7,8 +7,10 @@ aliases:
   - conditional probabilistic perspective of learning
 ---
 In the conditional probabilistic perspective of ML, what does a model try to compute?::It computes a conditional probability distribution $Pr(y \,|\, x)$ of possible outputs $y$ given $x$, instead of directly computing a prediction $y$.
+<!--SR:!fsrs,2026-11-28T01:44:57.246Z,8,8.2956,1,2,1,0,0,2026-11-20T01:44:57.246Z-->
 
 What does the loss function encourage in the conditional probability perspective of ML?::The [[Loss Function|loss]] encourages each training output $y_{i}$ to have a high probability under the distribution $Pr(y_{i}\, | \, x_{i})$, computed from the corresponding $x_{i}$.
+<!--SR:!fsrs,2026-11-20T01:54:40.162Z,0,2.3065,2.11810397,1,1,0,1,2026-11-20T01:44:40.162Z-->
 
 > [!example]- Conditional probability model examples
 > 
@@ -26,7 +28,9 @@ What does the loss function encourage in the conditional probability perspective
 
 How can a model $f(x,\phi)$ be adapted to compute a probability distribution?
 ?
-We choose a parametric distribution $Pr(y\,|\,\theta)$ defined on the output domain $y$. Then, we use the network to compute one or more of the parameters $\theta$ of this distribution.
+We choose a parametric distribution $Pr(y\,|\,\theta)$ defined on the output domain $y$. Then, the network computes the parameters $\theta$ of this distribution.
+- Example: Predicting the mean and variance parameters that characterize a normal distribution.
+<!--SR:!fsrs,2026-11-20T01:56:33.701Z,0,2.3065,2.11810397,1,1,0,1,2026-11-20T01:46:33.701Z--> 
 +++
 
 For example, suppose the prediction domain is the set of real numbers, so $y \in \mathbb{R}$. Here, we might choose the univariate normal distribution, which is defined on $\mathbb{R}$. This distribution is defined by the mean $\mu$ and variance $\sigma^{2}$, so $\theta=\{ \mu, \sigma^{2} \}$. The model might predict the mean $\mu$, and the variance $\sigma^{2}$ could be treated as an unknown constant.

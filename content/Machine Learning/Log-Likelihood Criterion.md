@@ -8,6 +8,8 @@ aliases:
   - log-likelihood
   - negative log-likelihood
 ---
+Why do we maximize log-likelihood
+
 The [[Maximum Likelihood Criterion|maximum likelihood criterion]] is not practical in terms of computation. Each term $Pr(y_{i}\, | \,f[x_{i}, \phi])$ can be small, so the product of many of these terms can be tiny. It may be difficult to represent this quantity with finite precision arithmetic.
 
 As an alternative, we can maximize the logarithm of likelihood:

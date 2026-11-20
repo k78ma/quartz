@@ -71,4 +71,4 @@ Network depth::Number of hidden layers.
 <!--SR:!fsrs,2026-11-27T09:02:25.719Z,8,8.2956,1,2,1,0,0,2026-11-19T09:02:25.719Z-->
 
 Why do we generally prefer deep networks over shallow ones?::Depth efficiency – some functions can be approximated much more efficiently with deep networks. It would require exponentially more hidden units for a shallow network to achieve an equivalent approximation to that of a deep network.
-<!--SR:!fsrs,2026-11-19T09:12:32.303Z,0,2.3065,2.11810397,1,1,0,1,2026-11-19T09:02:32.303Z-->
+<!--SR:!fsrs,2026-12-02T01:44:10.810Z,12,11.6874828,1,2,2,0,0,2026-11-20T01:44:10.810Z-->
