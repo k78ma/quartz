@@ -6,9 +6,9 @@ date: 2025-06-19
 aliases:
   - conditional probabilistic perspective of learning
 ---
-Consider a model $f[x,\phi]$ with parameters $\phi$ that computes an output from $x$. Instead of thinking about the model directly computing a prediction $y$, we can shift perspective and consider the model as computing a conditional probability distribution $Pr(y\, | \,x)$, over possible outputs $y$ given $x$.
+In the conditional probabilistic perspective of ML, what does a model try to compute?::It computes a conditional probability distribution $Pr(y \,|\, x)$ of possible outputs $y$ given $x$, instead of directly computing a prediction $y$.
 
-The [[Loss Function|loss]] encourages each training output $y_{i}$ to have a high probability under the distribution $Pr(y_{i}\, | \, x_{i})$, computed from the corresponding $x_{i}$.
+What does the loss function encourage in the conditional probability perspective of ML?::The [[Loss Function|loss]] encourages each training output $y_{i}$ to have a high probability under the distribution $Pr(y_{i}\, | \, x_{i})$, computed from the corresponding $x_{i}$.
 
 > [!example]- Conditional probability model examples
 > 
@@ -22,11 +22,12 @@ The [[Loss Function|loss]] encourages each training output $y_{i}$ to have a hig
 >- **c)** To predict counts $y\in \{ 0,1,2,\dots \}$ we use distributions defined over positive integers
 >- **d)** To predict directions $y \in  (-\pi, \pi]$, we use distributions defined over circular domains
 
-
 ## Computing a distribution over outputs
-How exactly can a model $f(x,\phi)$ be adapted to compute a probability distribution?
 
-First, we choose a parametric distribution $Pr(y\,|\,\theta)$ defined on the output domain $y$. Then, we use the network to compute one or more of the parameters $\theta$ of this distribution.
+How can a model $f(x,\phi)$ be adapted to compute a probability distribution?
+?
+We choose a parametric distribution $Pr(y\,|\,\theta)$ defined on the output domain $y$. Then, we use the network to compute one or more of the parameters $\theta$ of this distribution.
++++
 
 For example, suppose the prediction domain is the set of real numbers, so $y \in \mathbb{R}$. Here, we might choose the univariate normal distribution, which is defined on $\mathbb{R}$. This distribution is defined by the mean $\mu$ and variance $\sigma^{2}$, so $\theta=\{ \mu, \sigma^{2} \}$. The model might predict the mean $\mu$, and the variance $\sigma^{2}$ could be treated as an unknown constant.
 
