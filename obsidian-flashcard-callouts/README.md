@@ -58,10 +58,11 @@ The code has four responsibilities:
 
 - `src/parser.ts` turns Markdown into immutable card descriptions and source ranges. It has no Obsidian or DOM dependencies. Card kinds are explicit: basic, reversed, or cloze.
 - `src/editor.ts` owns CodeMirror decorations and cursor navigation. It never rewrites notes or makes the editor read-only.
-- `src/widget.ts` owns card DOM, native Markdown rendering, and component cleanup. Equivalent card content reuses its DOM when surrounding prose changes, preserving folding and reversal. Edit resolves the card's current document position instead of retaining an old source offset.
+- `src/callout.ts` converts each card to native Obsidian callout Markdown. Obsidian's renderer owns folding, including its normal pointer behavior and animation; the plugin does not implement a separate disclosure or force scroll snapshots when folding.
+- `src/widget.ts` owns card controls, presentation, and component cleanup. Equivalent card content reuses its DOM when surrounding prose changes, preserving folding and reversal. Edit resolves the card's current document position instead of retaining an old source offset.
 - `src/main.ts` connects the plugin lifecycle, ribbon, command, and status bar. `styles.css` owns the Quartz-inspired appearance.
 
-Render components and DOM event listeners are unloaded with their widgets or the plugin. Late asynchronous render completions do not request editor layout updates after disposal. Reverse is available once both faces have finished rendering. Clozes use non-collapsible markup because they have no separate answer.
+Render components, DOM event listeners, and observers are unloaded with their widgets or the plugin. A resize observer reports native folding animation and late-loading content to CodeMirror without changing its selection or scroll position. Late asynchronous render completions do not request editor layout updates after disposal. Reverse is available once the callout has finished rendering. Clozes use native non-collapsible callouts because they have no separate answer.
 
 Tests use a checked-in Markdown fixture and CodeMirror editor states; they do not read or modify your vault. They cover parsing exclusions, scheduling metadata, non-overlapping ranges, edits around cards, and switching source files. Run `npm run check` for strict type checking, tests, and formatting, and `npm run format` to apply the project's formatting rules.
 

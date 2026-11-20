@@ -38,9 +38,6 @@
   font-weight: var(--font-semibold, 600);
 }
 
-.fc-callout .fc-title::-webkit-details-marker {
-  display: none;
-}
 .fc-callout .fc-icon {
   display: inline-block;
   width: 1.15em;
@@ -52,7 +49,10 @@
   mask: var(--fc-icon-open) center / contain no-repeat;
   transition: background-color 150ms ease;
 }
-.fc-callout > details:not([open]) > .fc-title > .fc-icon {
+.fc-callout .fc-icon > svg {
+  display: none;
+}
+.fc-callout.is-collapsed > .fc-title > .fc-icon {
   background-color: var(--fc-accent-closed);
   mask-image: var(--fc-icon-closed);
 }

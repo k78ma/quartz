@@ -1,5 +1,6 @@
 import { EditorView, WidgetType } from "@codemirror/view"
 import { MarkdownRenderChild, MarkdownRenderer, type Plugin } from "obsidian"
+import { toCalloutMarkdown } from "./callout"
 import type { Flashcard } from "./parser"
 
 // DOM can survive replacement of its WidgetType by an equivalent instance.
@@ -28,8 +29,7 @@ export class FlashcardWidget extends WidgetType {
 
   toDOM(view: EditorView): HTMLElement {
     const wrapper = view.dom.ownerDocument.createElement("div")
-    wrapper.className = "fc-callout callout"
-    wrapper.dataset.callout = "flashcard"
+    wrapper.className = "fc-widget markdown-rendered"
     const child = this.plugin.addChild(new MarkdownRenderChild(wrapper))
     let disposed = false
     child.register(() => {
@@ -40,60 +40,14 @@ export class FlashcardWidget extends WidgetType {
     const measure = () => {
       if (!disposed && wrapper.isConnected) view.requestMeasure()
     }
-    const render = async (markdown: string, target: HTMLElement) => {
-      try {
-        await MarkdownRenderer.render(this.plugin.app, markdown, target, this.path, child)
-      } catch (error) {
-        if (disposed) return
-        console.error("Flashcard Callouts: rendering failed", error)
-        target.setText(markdown)
-      }
-      measure()
-    }
+    // Native callouts animate their content height. Report those changes to CodeMirror without
+    // moving its selection, focus, or scroll anchor. This also covers late-loading math and embeds.
+    const resize = new ResizeObserver(measure)
+    resize.observe(wrapper)
+    child.register(() => resize.disconnect())
 
-    const { card } = this
-    const cloze = card.kind === "cloze"
-    // A cloze has no answer to fold; do not expose a disclosure control for it.
-    const content = cloze ? wrapper.createDiv() : wrapper.createEl("details")
-    if (content.tagName === "DETAILS") {
-      content.setAttribute("open", "")
-      child.registerDomEvent(content, "toggle", measure)
-    }
-    wrapper.toggleClass("fc-cloze", cloze)
-    const title = cloze
-      ? content.createDiv({ cls: "fc-title", attr: { "aria-label": "Cloze flashcard" } })
-      : content.createEl("summary", { cls: "fc-title" })
-    title.createSpan({ cls: "fc-icon", attr: { "aria-hidden": "true" } })
-    const prompt = title.createDiv({ cls: "fc-prompt" })
-    const promptReady = render(card.prompt, prompt)
+    const rendered = wrapper.createDiv()
     const actions = wrapper.createDiv({ cls: "fc-actions" })
-
-    if (!cloze) {
-      const answer = content.createDiv({ cls: "callout-content fc-answer" })
-      const answerReady = render(card.answer, answer)
-      if (card.kind === "reversed") {
-        const reverse = actions.createEl("button", {
-          text: "Reverse",
-          attr: { type: "button", "aria-pressed": "false" },
-        })
-        // Wait for both faces so pending Markdown output cannot land on the wrong face.
-        reverse.disabled = true
-        void Promise.all([promptReady, answerReady]).then(() => {
-          if (!disposed) reverse.disabled = false
-        })
-        child.registerDomEvent(reverse, "click", () => {
-          const front = Array.from(prompt.childNodes)
-          prompt.replaceChildren(...answer.childNodes)
-          answer.replaceChildren(...front)
-          reverse.setAttribute(
-            "aria-pressed",
-            String(reverse.getAttribute("aria-pressed") !== "true"),
-          )
-          measure()
-        })
-      }
-    }
-
     const edit = actions.createEl("button", {
       text: "Edit",
       attr: { type: "button", "aria-label": "Show flashcard source for editing" },
@@ -105,6 +59,58 @@ export class FlashcardWidget extends WidgetType {
       view.dispatch({ selection: { anchor }, scrollIntoView: true })
       view.focus()
     })
+
+    const render = async () => {
+      try {
+        await MarkdownRenderer.render(
+          this.plugin.app,
+          toCalloutMarkdown(this.card),
+          rendered,
+          this.path,
+          child,
+        )
+        if (disposed) return
+        const callout = rendered.querySelector<HTMLElement>(":scope > .callout")
+        const title = callout?.querySelector<HTMLElement>(":scope > .callout-title")
+        const prompt = title?.querySelector<HTMLElement>(":scope > .callout-title-inner")
+        if (!callout || !title || !prompt)
+          throw new Error("Native callout renderer returned no title")
+        callout.addClass("fc-callout")
+        callout.toggleClass("fc-cloze", this.card.kind === "cloze")
+        title.addClass("fc-title")
+        title.querySelector(":scope > .callout-icon")?.classList.add("fc-icon")
+        prompt.addClass("fc-prompt")
+        const answer = callout.querySelector<HTMLElement>(":scope > .callout-content")
+        answer?.addClass("fc-answer")
+        callout.append(actions)
+
+        if (this.card.kind === "reversed" && answer) {
+          const reverse = actions.createEl("button", {
+            text: "Reverse",
+            attr: { type: "button", "aria-pressed": "false" },
+          })
+          actions.prepend(reverse)
+          child.registerDomEvent(reverse, "click", () => {
+            const front = Array.from(prompt.childNodes)
+            prompt.replaceChildren(...answer.childNodes)
+            answer.replaceChildren(...front)
+            reverse.setAttribute(
+              "aria-pressed",
+              String(reverse.getAttribute("aria-pressed") !== "true"),
+            )
+            measure()
+          })
+        }
+        measure()
+      } catch (error) {
+        if (disposed) return
+        console.error("Flashcard Callouts: rendering failed", error)
+        rendered.setText(this.card.prompt + (this.card.answer ? "\n\n" + this.card.answer : ""))
+        wrapper.append(actions)
+        measure()
+      }
+    }
+    void render()
     return wrapper
   }
 
