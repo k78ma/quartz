@@ -37,16 +37,22 @@ Thus, we change the model parameters $\phi$ to improve the log-likelihood criter
 <!--SR:!fsrs,2026-11-28T06:41:00.432Z,8,8.2956,1,2,1,0,0,2026-11-20T06:41:00.432Z--> 
 +++
 
-
-
 ### Minimizing negative log-likelihood
 By convention, model fitting problems are framed in terms of minimizing a loss. To convert the maximum log-likelihood criterion to a minimization problem, we use the **negative log-likelihood criterion** instead:
+
+Instead of maximizing the log-likelihood, we typically {=minimize the negative log-likelihood=}.
+<!--SR:!fsrs,2026-11-28T08:15:01.964Z,8,8.2956,1,2,1,0,0,2026-11-20T08:15:01.964Z-->
++++
+
+Negative log-likelihood criterion
+?
+Log-likelihood criterion but negative and we optimize for the minimum.
 $$
 \begin{align}
 \hat{\phi} & =\underset{\phi}{\operatorname{argmin}}\left[ -\sum_{i=1}^{I} \log\Big[Pr(y_{i}|f[x_{i}, \phi])\Big] \right] \\[2ex]
      & = \underset{\phi}{\operatorname{argmin}}\Big[L[\phi]\Big]
 \end{align}
 $$
-
-
+<!--SR:!fsrs,2026-11-28T08:15:21.817Z,8,8.2956,1,2,1,0,0,2026-11-20T08:15:21.817Z-->
++++
 

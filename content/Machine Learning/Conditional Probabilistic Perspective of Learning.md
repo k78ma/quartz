@@ -36,13 +36,17 @@ We choose a parametric distribution $Pr(y\,|\,\theta)$ defined on the output dom
 For example, suppose the prediction domain is the set of real numbers, so $y \in \mathbb{R}$. Here, we might choose the univariate normal distribution, which is defined on $\mathbb{R}$. This distribution is defined by the mean $\mu$ and variance $\sigma^{2}$, so $\theta=\{ \mu, \sigma^{2} \}$. The model might predict the mean $\mu$, and the variance $\sigma^{2}$ could be treated as an unknown constant.
 
 ## Inference
-We use [[Log-Likelihood Criterion|log-likelihood]] as a loss function to find the best parameters. At inference time, the network no longer predicts the outputs $y$ but instead determines a probability distribution over $y$. However, we often want to use a point estimate rather than a distribution. 
+We use [[Log-Likelihood Criterion|log-likelihood]] as a loss function to find the best parameters. 
 
-To do this, we return the maximum of the distribution
+Under the conditional probability view of ML, the network no longer predicts the outputs $y$ but instead determines a probability distribution over $y$. However, we often want to use a point estimate rather than a distribution. How can we do this?
+?
+To do this, we return the maximum of the distribution (the most likely):
 $$
 \hat{y}=\underset{y}{\operatorname{argmax}}\Big[Pr(y|f(x,\hat{\phi}))\Big]
 $$
 It's usually possible to find an expression for this in terms of the distribution parameters $\theta$ predicted by the model. For example, in the univariate normal distribution, the maximum occurs at the mean $\mu$.
+<!--SR:!fsrs,2026-11-20T08:30:29.637Z,0,2.3065,2.11810397,1,1,0,1,2026-11-20T08:20:29.637Z-->
++++
 
 ## Multiple Outputs
 Often, we wish to make more than one prediction with the same model, so the target output $\mathbf{y}$ is a vector. For example, we might want to predict a molecule's melting and boiling point (multivariate regression), or the obstacle class at every point in an image (multivariate classification). While it's possible to define multivariate probability distributions and use a neural network to model their parameters as a function of the input, it's more usual to treat each prediction as independent.
