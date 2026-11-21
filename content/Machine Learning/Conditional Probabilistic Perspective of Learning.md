@@ -45,7 +45,7 @@ $$
 \hat{y}=\underset{y}{\operatorname{argmax}}\Big[Pr(y|f(x,\hat{\phi}))\Big]
 $$
 It's usually possible to find an expression for this in terms of the distribution parameters $\theta$ predicted by the model. For example, in the univariate normal distribution, the maximum occurs at the mean $\mu$.
-<!--SR:!fsrs,2026-11-20T08:30:29.637Z,0,2.3065,2.11810397,1,1,0,1,2026-11-20T08:20:29.637Z-->
+<!--SR:!fsrs,2026-12-03T02:50:36.469Z,12,11.6874828,1,2,2,0,0,2026-11-21T02:50:36.469Z-->
 +++
 
 ## Multiple Outputs
