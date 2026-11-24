@@ -11,7 +11,7 @@ Properties of a Python set
 - Items are not ordered
 - Items are not changeable – they can only be added/removed
 - Items are not indexed
-<!--SR:!fsrs,2026-11-23T06:04:42.708Z,8,8.2956,1,2,1,0,0,2026-11-15T06:04:42.708Z-->
+<!--SR:!fsrs,2026-12-20T07:24:13.511Z,27,26.70418346,4.01060897,2,2,0,0,2026-11-23T07:24:13.511Z-->
 +++
 
 Are Python sets ordered?::No

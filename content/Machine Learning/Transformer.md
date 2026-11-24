@@ -29,4 +29,4 @@ where the row vectors $x_{n}$ are separately taken from the full data matrix $X$
 - Note that this image uses $D\times N$ input data (column vectors for each input) while it's more standard to do $N\times D$ (row vectors).
 
 Transformer layer operations::Input embeddings → MhSA + residual → LayerNorm → MLP + residual → LayerNorm → Output embeddings
-<!--SR:!fsrs,2026-11-23T05:18:10.385Z,77,77.10744921,1,2,3,0,0,2026-09-07T05:18:10.385Z-->
+<!--SR:!fsrs,2027-06-09T07:24:50.886Z,198,198.12138389,4.01060897,2,4,0,0,2026-11-23T07:24:50.886Z-->

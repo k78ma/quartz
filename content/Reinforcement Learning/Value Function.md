@@ -34,7 +34,7 @@ Characterizes how good a state is. It is the expected reward if we start in this
 $$
 v[s_{t}|\pi] = \mathbb{E} \big[G_{t}|s_{t}, \pi \big]
 $$
-<!--SR:!fsrs,2026-11-23T05:19:01.358Z,77,77.10744921,1,2,3,0,0,2026-09-07T05:19:01.358Z-->
+<!--SR:!fsrs,2027-06-09T07:28:33.263Z,198,198.12138389,4.01060897,2,4,0,0,2026-11-23T07:28:33.263Z-->
 +++
 
 State-action value function / Action value

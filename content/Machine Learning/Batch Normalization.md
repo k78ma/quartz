@@ -45,7 +45,7 @@ How does BatchNorm improve forward pass stability?
 It normalizes the hidden unit activations, keeping their magnitudes stable across layers.
 - In a regular network, this ensures the variance is stable during forward propagation at initialization.
 - In a [[Residual Networks|residual network]], the variance must still increase as we add a new source of variation to the input at each layer. However it will increase linearly with each residual block; the $k$-th layer adds one unit of variance to the existing variance $k$.
-<!--SR:!fsrs,2026-11-23T05:44:31.066Z,8,8.2956,1,2,1,0,0,2026-11-15T05:44:31.066Z-->
+<!--SR:!fsrs,2027-01-01T07:28:07.339Z,39,38.90515015,1,2,2,0,0,2026-11-23T07:28:07.339Z-->
 +++
 <!--SR:!fsrs,2027-02-17T04:14:49.029Z,173,173.09630012,2.09058635,2,5,0,0,2026-08-28T04:14:49.029Z-->
 
@@ -64,7 +64,7 @@ Why does BatchNorm sometimes degrade performance with small batch sizes?::Becaus
 <!--SR:!fsrs,2027-06-06T04:15:01.166Z,282,281.8043453,1,2,5,0,0,2026-08-28T04:15:01.166Z-->
 
 Why is BatchNorm problematic for tasks that require strong independence assumptions between samples?::It introduces a dependency between the examples in a mini-batch as we use batch statistics in training.
-<!--SR:!fsrs,2026-11-23T05:42:44.592Z,8,8.2956,1,2,1,0,0,2026-11-15T05:42:44.592Z-->
+<!--SR:!fsrs,2027-01-28T07:28:19.496Z,66,65.62422648,1,2,2,0,0,2026-11-23T07:28:19.496Z-->
 
 How does BatchNorm produce redundancy/inefficiency with respect to the number of weights?::BatchNorm makes the network invariant to rescaling the weights and biases that contribute to each activation. Thus, there will be a large family of weights and biases that produce the same effect. It also adds scaling and bias parameters $\gamma$ and $\delta$ at every hidden unit, making the model larger. Hence, it both creates redundancy in the weights and biases and adds extra parameters to compensate for that redundancy, which is obviously inefficient.
 <!--SR:!fsrs,2026-12-10T08:52:27.288Z,21,21.02452958,1,2,3,0,0,2026-11-19T08:52:27.288Z-->

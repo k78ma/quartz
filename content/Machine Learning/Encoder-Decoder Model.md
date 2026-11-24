@@ -25,12 +25,15 @@ What is cross-attention used for?::Used in encoder-decoder architectures to allo
 <!--SR:!fsrs,2027-01-25T00:03:51.723Z,142,142.16696858,2.95933514,2,5,0,0,2026-09-05T00:03:51.723Z-->
 
 In cross-attention, the queries are computed from {=decoder=} embeddings.
-<!--SR:!fsrs,2026-11-23T06:35:50.607Z,8,8.2956,1,2,1,0,0,2026-11-15T06:35:50.607Z-->
+<!--SR:!fsrs,2026-12-20T07:25:02.072Z,27,26.70418346,4.01060897,2,2,0,0,2026-11-23T07:25:02.072Z-->
 +++
 
 In cross-attention, keys and values are from {=encoder=} embeddings.
 <!--SR:!fsrs,2026-11-27T01:21:27.433Z,9,9.24024489,4.74828477,2,3,0,0,2026-11-18T01:21:27.433Z-->
 +++
+
+Why are queries computed from decoder embeddings, while keys and values are computed from encoder embeddings?::The decoder contains the sequence representations we want to update, so it provides queries. The encoder contains the sequence representations from which we want to retrieve information, so it provides keys and values.
+<!--SR:!fsrs,2026-11-25T07:51:02.457Z,2,2.3065,2.11121424,2,2,0,0,2026-11-23T07:51:02.457Z-->
 
 
 

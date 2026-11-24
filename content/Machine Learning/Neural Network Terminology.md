@@ -10,7 +10,7 @@ Input layer
 Variables which are supplied to the network $(x_{1}, x_{2}, x_{3})$.
 
 ![[Neural Network Terminology-1794990234407.webp|528]]
-<!--SR:!fsrs,2026-11-22T08:44:26.362Z,4,3.94605407,1,2,2,0,0,2026-11-18T08:44:26.362Z-->
+<!--SR:!fsrs,2027-01-03T01:13:56.146Z,41,41.28765564,1,2,3,0,0,2026-11-23T01:13:56.146Z-->
 +++
 
 Hidden layer

@@ -16,6 +16,12 @@ $$
 $$
 4. To perform inference for a new test example $x$, return either the full distribution $Pr(y | f[x, \phi])$ or the value where this distribution is maximized.
 
+What does a model predict in the maximum likelihood framework?::One or more parameters $\theta$ of the chosen probability function, such that $\theta=f[x,\phi]$.
+<!--SR:!fsrs,2026-12-01T07:26:48.745Z,8,8.2956,1,2,1,0,0,2026-11-23T07:26:48.745Z-->
+
+How do we choose a probability distribution for maximum likelihood training?::Choose a distribution $P(y|\theta)$ whose support (possible set of values) matches the domain of the target variable $y$.
+<!--SR:!fsrs,2026-12-01T07:26:35.308Z,8,8.2956,1,2,1,0,0,2026-11-23T07:26:35.308Z-->
+
 Examples of this:
 - [[Univariate Regression]]
 - [[Binary Classification]]
