@@ -10,7 +10,7 @@ In the conditional probabilistic perspective of ML, what does a model try to com
 <!--SR:!fsrs,2026-11-28T01:44:57.246Z,8,8.2956,1,2,1,0,0,2026-11-20T01:44:57.246Z-->
 
 What does the loss function encourage in the conditional probability perspective of ML?::The [[Loss Function|loss]] encourages each training output $y_{i}$ to have a high probability under the distribution $Pr(y_{i}\, | \, x_{i})$, computed from the corresponding $x_{i}$.
-<!--SR:!fsrs,2026-11-24T06:36:42.813Z,4,3.94605407,1,2,2,0,0,2026-11-20T06:36:42.813Z-->
+<!--SR:!fsrs,2026-12-08T07:42:37.628Z,14,14.21704924,4.01060897,2,3,0,0,2026-11-24T07:42:37.628Z-->
 
 > [!example]- Conditional probability model examples
 > 
@@ -30,7 +30,7 @@ How can a model $f(x,\phi)$ be adapted to compute a probability distribution?
 ?
 We choose a parametric distribution $Pr(y\,|\,\theta)$ defined on the output domain $y$. Then, the network computes the parameters $\theta$ of this distribution.
 - Example: Predicting the mean and variance parameters that characterize a normal distribution.
-<!--SR:!fsrs,2026-11-24T06:37:00.888Z,4,3.94605407,1,2,2,0,0,2026-11-20T06:37:00.888Z--> 
+<!--SR:!fsrs,2026-12-30T07:41:35.941Z,36,35.93233085,1,2,3,0,0,2026-11-24T07:41:35.941Z--> 
 +++
 
 For example, suppose the prediction domain is the set of real numbers, so $y \in \mathbb{R}$. Here, we might choose the univariate normal distribution, which is defined on $\mathbb{R}$. This distribution is defined by the mean $\mu$ and variance $\sigma^{2}$, so $\theta=\{ \mu, \sigma^{2} \}$. The model might predict the mean $\mu$, and the variance $\sigma^{2}$ could be treated as an unknown constant.

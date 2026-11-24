@@ -52,7 +52,7 @@ $$
 \end{align*}
 $$
 where $y^{(i)}=\text{sig}[f[x_{i}, \phi]]$ is the predicted probability and $t^{(i)}\in \{ 0,1 \}$ is the ground truth. This is derived from the maximizing the likelihood of a Bernoulli distribution.
-<!--SR:!fsrs,2026-11-24T03:39:54.527Z,14,13.54010745,9.57538676,2,12,2,0,2026-11-10T03:39:54.527Z-->
+<!--SR:!fsrs,2026-12-20T07:41:19.014Z,26,26.45324266,9.41872918,2,13,2,0,2026-11-24T07:41:19.014Z-->
 +++
 
 The transformed model output $\text{sig}[f[\mathbf{x}, \phi]]$ predicts the parameter $\lambda$ of the Bernoulli distribution. This represents the probability that $y=1$, and it follows that $1-\lambda$ represents the probability that $y=0$. When we perform inference, we may want a point estimate of $y$, so we set $y=1$ if $\lambda>0.5$ and $y=0$ otherwise.

@@ -8,4 +8,4 @@ aliases: eigenvalues and eigenvectors
 
 ## Eigenspace
 Eigenspace::The eigenspace is the set of all eigenvectors corresponding to a specific eigenvalue, along with the zero vector.
-<!--SR:!fsrs,2026-11-24T07:27:18.693Z,1,1.44595756,7.01519095,2,3,1,0,2026-11-23T07:27:18.693Z-->
+<!--SR:!fsrs,2026-11-28T07:42:55.914Z,4,3.66450005,7.00340413,2,4,1,0,2026-11-24T07:42:55.914Z-->
