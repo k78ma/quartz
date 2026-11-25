@@ -33,7 +33,7 @@ In cross-attention, keys and values are from {=encoder=} embeddings.
 +++
 
 Why are queries computed from decoder embeddings, while keys and values are computed from encoder embeddings?::The decoder contains the sequence representations we want to update, so it provides queries. The encoder contains the sequence representations from which we want to retrieve information, so it provides keys and values.
-<!--SR:!fsrs,2026-11-25T07:51:02.457Z,2,2.3065,2.11121424,2,2,0,0,2026-11-23T07:51:02.457Z-->
+<!--SR:!fsrs,2026-12-06T08:18:09.889Z,11,10.97104786,2.1043314,2,3,0,0,2026-11-25T08:18:09.889Z-->
 
 
 
