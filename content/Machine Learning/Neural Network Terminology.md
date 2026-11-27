@@ -18,7 +18,7 @@ Hidden layer
 Group of intermediate variables that are computed at the same stage $(h_{1},h_{2}, h_{3}, h_{4})$ .
 
 ![[Neural Network Terminology-1794990234407.webp|528]]
-<!--SR:!fsrs,2026-11-26T08:26:28.073Z,8,8.2956,1,2,1,0,0,2026-11-18T08:26:28.073Z-->
+<!--SR:!fsrs,2027-01-08T05:12:45.020Z,42,41.57871783,1,2,2,0,0,2026-11-27T05:12:45.020Z-->
 +++
 
 Output layer
@@ -26,7 +26,7 @@ Output layer
 Variables that the network returns $(y_{1}, y_{2})$.
 
 ![[Neural Network Terminology-1794990234407.webp|528]]
-<!--SR:!fsrs,2026-11-26T08:44:34.113Z,8,8.2956,1,2,1,0,0,2026-11-18T08:44:34.113Z-->
+<!--SR:!fsrs,2027-02-06T05:12:11.241Z,71,70.63155138,1,2,2,0,0,2026-11-27T05:12:11.241Z-->
 +++
 
 Hidden unit
@@ -34,7 +34,7 @@ Hidden unit
 One element in the intermediate hidden representation/layer, such as $h_{1}$. Also called a neuron.
 
 ![[Neural Network Terminology-1794990234407.webp|528]]
-<!--SR:!fsrs,2026-11-26T08:51:23.170Z,7,7.31530068,2.11121424,2,2,0,0,2026-11-19T08:51:23.170Z-->
+<!--SR:!fsrs,2026-12-31T05:04:14.050Z,34,34.10547749,2.1043314,2,3,0,0,2026-11-27T05:04:14.050Z-->
 +++
 
 
@@ -61,7 +61,7 @@ Fully-connected
 Every element/unit in one layer connects to every element in the next.
 
 ![[Neural Network Terminology-1794990234407.webp|528]]
-<!--SR:!fsrs,2026-11-26T08:47:28.919Z,8,8.2956,1,2,1,0,0,2026-11-18T08:47:28.919Z-->
+<!--SR:!fsrs,2027-01-08T05:14:08.264Z,42,41.57871783,1,2,2,0,0,2026-11-27T05:14:08.264Z-->
 +++
 
 Network width::Number of hidden units in each layer.

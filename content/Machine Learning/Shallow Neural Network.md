@@ -9,7 +9,7 @@ aliases:
 ---
 Shallow neural networks
 ?
-A neural network with one layer. Formally, it is a function $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with parameters $\phi$ that maps multi-dimensional inputs $\mathbf{x} \in \mathbb{R}^{D_{i}}$ to a multi-dimensional output $\mathbf{y}\in\mathbb{R}^{D_{o}}$ using $\mathbf{h} \in \mathbb{R}^{D}$ hidden units. 
+A neural network with one layer. Formally, it is a function $\mathbf{y}=\mathbf{f}[\mathbf{x}, \mathbf{\phi}]$ with parameters $\phi$ that maps multi-dimensional inputs $\mathbf{x} \in \mathbb{R}^{D_{i}}$ to a multi-dimensional output $\mathbf{y}\in\mathbb{R}^{D_{o}}$ using $\mathbf{h} \in \mathbb{R}^{D}$ hidden units.
 
 ![[Shallow Neural Network-1794990054402.webp]]
 
@@ -22,7 +22,7 @@ $$
 y_{j} = \phi_{j_{0}} + \sum_{d=1}^{D}\phi_{jd}h_{d}
 $$
 where $a[\bullet]$ is a nonlinear activation function. The model has parameters $\phi=\{ \theta_{\bullet\bullet}, \phi_{\bullet\bullet} \}$.
-<!--SR:!fsrs,2026-11-26T08:20:12.227Z,8,8.2956,1,2,1,0,0,2026-11-18T08:20:12.227Z-->
+<!--SR:!fsrs,2027-02-06T05:04:33.213Z,71,70.63155138,1,2,2,0,0,2026-11-27T05:04:33.213Z-->
 +++
 
 ## Intuition

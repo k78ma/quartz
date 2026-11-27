@@ -6,7 +6,7 @@ date: 2023-12-29
 aliases:
 ---
 Universal approximation theorem::For any continuous function, there exists a shallow network that can approximate it to any specified precision.
-<!--SR:!fsrs,2026-11-26T08:20:18.478Z,8,8.2956,1,2,1,0,0,2026-11-18T08:20:18.478Z-->
+<!--SR:!fsrs,2027-01-08T05:14:57.447Z,42,41.57871783,1,2,2,0,0,2026-11-27T05:14:57.447Z-->
 
 The universal approximation theorem states that for any continuous function, there exists a shallow network that can approximate this function to any specified precision.
 

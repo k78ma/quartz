@@ -29,7 +29,7 @@ In cross-attention, the queries are computed from {=decoder=} embeddings.
 +++
 
 In cross-attention, keys and values are from {=encoder=} embeddings.
-<!--SR:!fsrs,2026-11-27T01:21:27.433Z,9,9.24024489,4.74828477,2,3,0,0,2026-11-18T01:21:27.433Z-->
+<!--SR:!fsrs,2027-01-15T05:03:54.546Z,49,48.73243094,2.97863464,2,4,0,0,2026-11-27T05:03:54.546Z-->
 +++
 
 Why are queries computed from decoder embeddings, while keys and values are computed from encoder embeddings?::The decoder contains the sequence representations we want to update, so it provides queries. The encoder contains the sequence representations from which we want to retrieve information, so it provides keys and values.
