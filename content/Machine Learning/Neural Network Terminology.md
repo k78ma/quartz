@@ -65,10 +65,10 @@ Every element/unit in one layer connects to every element in the next.
 +++
 
 Network width::Number of hidden units in each layer.
-<!--SR:!fsrs,2026-11-27T09:02:33.869Z,8,8.2956,1,2,1,0,0,2026-11-19T09:02:33.869Z-->
+<!--SR:!fsrs,2027-02-01T09:12:07.645Z,66,65.62422648,1,2,2,0,0,2026-11-27T09:12:07.645Z-->
 
 Network depth::Number of hidden layers.
-<!--SR:!fsrs,2026-11-27T09:02:25.719Z,8,8.2956,1,2,1,0,0,2026-11-19T09:02:25.719Z-->
+<!--SR:!fsrs,2027-02-01T09:13:22.494Z,66,65.62422648,1,2,2,0,0,2026-11-27T09:13:22.494Z-->
 
 Why do we generally prefer deep networks over shallow ones?::Depth efficiency – some functions can be approximated much more efficiently with deep networks. It would require exponentially more hidden units for a shallow network to achieve an equivalent approximation to that of a deep network.
 <!--SR:!fsrs,2026-12-02T01:44:10.810Z,12,11.6874828,1,2,2,0,0,2026-11-20T01:44:10.810Z-->

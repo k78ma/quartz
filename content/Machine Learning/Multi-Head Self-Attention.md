@@ -16,12 +16,12 @@ $$
 <!--SR:!fsrs,2027-05-13T05:12:37.856Z,167,166.68007893,6.49586186,2,5,0,0,2026-11-27T05:12:37.856Z-->
 +++
 
-In multi-head self-attention, what dimension do concatenate the outputs of each attention head?
+In multi-head self-attention, we concatenate the outputs of each head. Along what dimension do you concatenate?
 ?
 Along the **feature** dimension. If each head has dimensions $\frac{D}{ H}\times N$, we would concatenate to get $D \times N$.
 
 ![[Multi-Head Self-Attention-1795756038557.webp|301]]
-<!--SR:!fsrs,2026-11-27T05:24:29.520Z,0,2.3065,2.11810397,1,1,0,1,2026-11-27T05:14:29.520Z-->
+<!--SR:!fsrs,2026-12-01T09:13:17.499Z,4,3.94605407,1,2,2,0,0,2026-11-27T09:13:17.499Z-->
 +++
 
 Multiple [[Dot-Product Self-Attention|self-attention]] mechanisms are usually applied in parallel. Now, $H$ different sets of values, keys, and queries are computed:
@@ -48,6 +48,7 @@ $$
 Multiple heads seem to be necessary to make self-attention to work well. It has been speculated that they make the self-attention network more robust to bad initializations.
 
 ![[Multi-Head Self-Attention-1782600717620.webp]]
+
 - Note that diagram is using data of shape $(D,N)$ whereas my equations use $(N,D)$. In the $(D,N)$ case, concatenating along the feature dimension means we concatenate vertically.
 
 
